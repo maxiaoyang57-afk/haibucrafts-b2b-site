@@ -1,0 +1,5 @@
+*.bat
+.env*
+.git/
+.github/
+node_modules/

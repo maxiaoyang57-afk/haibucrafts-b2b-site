@@ -1,0 +1,17 @@
+{
+  "name": "haibucrafts-b2b-inquiry-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run prepare:site && npm run build:client",
+    "prepare:site": "node scripts/prepare-site.mjs",
+    "build:client": "esbuild src/inquiry-upload.js --bundle --format=esm --target=es2020 --minify --outfile=assets/js/inquiry-upload.js"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.6.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}

@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run prepare:site && npm run build:client",
+    "build": "npm run prepare:site && npm run build:client && npm run build:public",
     "prepare:site": "node scripts/prepare-site.mjs",
-    "build:client": "esbuild src/inquiry-upload.js --bundle --format=esm --target=es2020 --minify --outfile=assets/js/inquiry-upload.js"
+    "build:client": "esbuild src/inquiry-upload.js --bundle --format=esm --target=es2020 --minify --outfile=assets/js/inquiry-upload.js",
+    "build:public": "node scripts/build-public.mjs"
   },
   "dependencies": {
     "@vercel/blob": "^2.6.1"

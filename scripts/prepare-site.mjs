@@ -12,7 +12,7 @@ const redirectPages = new Set([
 
 const walk = directory => fs.readdirSync(directory, { withFileTypes: true }).flatMap(entry => {
   const location = path.join(directory, entry.name);
-  if (entry.name === 'node_modules' || entry.name === '.git') return [];
+  if (entry.name === 'node_modules' || entry.name === '.git' || entry.name === 'public') return [];
   return entry.isDirectory() ? walk(location) : [location];
 });
 const allFiles = walk(root);

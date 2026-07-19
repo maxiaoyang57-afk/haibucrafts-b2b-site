@@ -13,15 +13,15 @@ export async function uploadInquiryFiles(files, onProgress = () => {}) {
   for (let index = 0; index < selected.length; index += 1) {
     const file = selected[index];
     const path = `inquiries/${new Date().toISOString().slice(0, 10)}/${Date.now()}-${index + 1}-${safeFilename(file.name)}`;
+    onProgress({
+      current: index + 1,
+      total: selected.length,
+      percentage: null
+    });
     const blob = await upload(path, file, {
       access: 'public',
       handleUploadUrl: '/api/upload',
-      contentType: file.type || undefined,
-      onUploadProgress: progress => onProgress({
-        current: index + 1,
-        total: selected.length,
-        percentage: progress.percentage
-      })
+      contentType: file.type || undefined
     });
     uploaded.push({
       name: file.name || `reference-image-${index + 1}`,

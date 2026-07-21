@@ -7,7 +7,8 @@ const contactEmail = 'sale008@sola-craft.com';
 const today = '2026-07-18';
 const redirectPages = new Set([
   'products/resin-charms-wholesale.html',
-  'products/plastic-sequins-wholesale.html'
+  'products/plastic-sequins-wholesale.html',
+  'products/items/cute-fruit-charm-display.html'
 ]);
 
 const walk = directory => fs.readdirSync(directory, { withFileTypes: true }).flatMap(entry => {

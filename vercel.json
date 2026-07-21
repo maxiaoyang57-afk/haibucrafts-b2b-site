@@ -17,6 +17,11 @@
       "source": "/products/plastic-sequins-wholesale.html",
       "destination": "/products/sequins-glitter-confetti.html",
       "permanent": true
+    },
+    {
+      "source": "/products/items/cute-fruit-charm-display.html",
+      "destination": "/products/items/slm10123-resin-peach-charms-polymer-pink-slime-charms.html",
+      "permanent": true
     }
   ],
   "headers": [

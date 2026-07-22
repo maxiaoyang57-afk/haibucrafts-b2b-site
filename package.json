@@ -1,18 +1,12 @@
 {
-  "name": "haibucrafts-b2b-inquiry-site",
-  "version": "1.0.0",
+  "name": "haibucrafts-b2b-site",
+  "version": "48.2.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "npm run prepare:site && npm run build:client && npm run build:public",
-    "prepare:site": "node scripts/prepare-site.mjs",
-    "build:client": "esbuild src/inquiry-upload.js --bundle --format=esm --target=es2020 --minify --outfile=assets/js/inquiry-upload.js",
-    "build:public": "node scripts/build-public.mjs"
+    "test": "node --test tests/*.test.js"
   },
-  "dependencies": {
-    "@vercel/blob": "^2.6.1"
-  },
-  "devDependencies": {
-    "esbuild": "^0.28.1"
+  "engines": {
+    "node": ">=20"
   }
 }

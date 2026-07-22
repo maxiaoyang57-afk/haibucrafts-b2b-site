@@ -1,5 +1,4 @@
 node_modules/
-public/
 .vercel/
 .env
 .env.local
@@ -9,4 +8,3 @@ public/
 .DS_Store
 Thumbs.db
 *.bat
-.nojekyll

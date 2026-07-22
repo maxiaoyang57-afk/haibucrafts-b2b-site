@@ -1,5 +1,6 @@
-*.bat
 .env*
-.git/
-.github/
-node_modules/
+README.md
+*.bat
+*-AUDIT*.json
+V*-*.json
+tests/

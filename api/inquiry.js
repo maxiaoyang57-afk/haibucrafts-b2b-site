@@ -1,5 +1,15 @@
-const recipientEmail = process.env.INQUIRY_TO_EMAIL || 'sale008@sola-craft.com';
-const fieldLabels = {
+import { randomUUID } from 'node:crypto';
+
+const MAX_BODY_BYTES = 4_000_000;
+const MAX_ATTACHMENTS = 4;
+const MAX_ATTACHMENT_BYTES = 800_000;
+const MAX_TOTAL_ATTACHMENT_BYTES = 2_800_000;
+const ALLOWED_IMAGE_TYPES = new Set(['image/jpeg', 'image/png', 'image/webp', 'image/gif']);
+const ALLOWED_ORIGINS = new Set([
+  'https://www.haibucrafts.com',
+  'https://haibucrafts.com'
+]);
+const LABELS = {
   name: 'Contact Name',
   company: 'Company / Brand',
   email: 'Business Email',
@@ -7,7 +17,9 @@ const fieldLabels = {
   phone: 'WhatsApp / Phone',
   website: 'Company Website',
   product: 'Product',
+  product_display: 'Product',
   sku: 'SKU',
+  sku_display: 'SKU',
   category: 'Product Category',
   quantity: 'Target Quantity',
   intended_use: 'Intended Use',
@@ -18,114 +30,147 @@ const fieldLabels = {
   dimensions: 'Size / Dimensions',
   packaging: 'Packaging Requirements',
   product_note: 'Interested Category / SKU',
-  specification: 'Specification',
   message: 'Project Details'
 };
-const recentRequests = new Map();
 
-const clean = (value, maxLength = 2000) => String(value || '').trim().slice(0, maxLength);
-const escapeHtml = value => clean(value)
-  .replaceAll('&', '&amp;')
-  .replaceAll('<', '&lt;')
-  .replaceAll('>', '&gt;')
-  .replaceAll('"', '&quot;')
-  .replaceAll("'", '&#039;');
+function json(res, status, body) {
+  res.statusCode = status;
+  res.setHeader('Content-Type', 'application/json; charset=utf-8');
+  res.setHeader('Cache-Control', 'no-store');
+  res.end(JSON.stringify(body));
+}
 
-const isRateLimited = request => {
-  const now = Date.now();
-  const ip = clean(request.headers['x-forwarded-for'] || request.socket?.remoteAddress || 'unknown', 120).split(',')[0];
-  const previous = (recentRequests.get(ip) || []).filter(timestamp => now - timestamp < 10 * 60 * 1000);
-  previous.push(now);
-  recentRequests.set(ip, previous);
-  if (recentRequests.size > 500) {
-    for (const [key, timestamps] of recentRequests) {
-      if (!timestamps.some(timestamp => now - timestamp < 10 * 60 * 1000)) recentRequests.delete(key);
+function clean(value, maxLength = 4000) {
+  return String(value ?? '').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '').trim().slice(0, maxLength);
+}
+
+function escapeHtml(value) {
+  return value.replace(/[&<>"']/g, character => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  })[character]);
+}
+
+function isEmail(value) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) && value.length <= 254;
+}
+
+function parseBody(req) {
+  if (typeof req.body === 'string') return JSON.parse(req.body || '{}');
+  if (Buffer.isBuffer(req.body)) return JSON.parse(req.body.toString('utf8') || '{}');
+  return req.body && typeof req.body === 'object' ? req.body : {};
+}
+
+function prepareAttachments(input) {
+  if (input == null) return [];
+  if (!Array.isArray(input) || input.length > MAX_ATTACHMENTS) throw new Error('ATTACHMENTS_INVALID');
+  let totalBytes = 0;
+  return input.map((attachment, index) => {
+    const filename = clean(attachment?.filename || `reference-${index + 1}.jpg`, 100)
+      .replace(/[^a-zA-Z0-9._ -]/g, '_');
+    const contentType = clean(attachment?.contentType, 80).toLowerCase();
+    const content = clean(attachment?.content, 1_200_000).replace(/\s/g, '');
+    if (!ALLOWED_IMAGE_TYPES.has(contentType) || !/^[A-Za-z0-9+/]*={0,2}$/.test(content)) {
+      throw new Error('ATTACHMENTS_INVALID');
     }
-  }
-  return previous.length > 5;
-};
+    const size = Math.floor(content.length * 3 / 4);
+    if (!size || size > MAX_ATTACHMENT_BYTES) throw new Error('ATTACHMENT_TOO_LARGE');
+    totalBytes += size;
+    if (totalBytes > MAX_TOTAL_ATTACHMENT_BYTES) throw new Error('ATTACHMENTS_TOO_LARGE');
+    return { filename, content };
+  });
+}
 
-const validBlobUrl = value => {
+function prepareFields(input) {
+  const source = input && typeof input === 'object' ? input : {};
+  const fields = {};
+  for (const key of Object.keys(LABELS)) {
+    const value = clean(source[key], key === 'message' ? 8000 : 1000);
+    if (value && !(key.endsWith('_display') && fields[key.replace('_display', '')])) fields[key] = value;
+  }
+  return fields;
+}
+
+export default async function handler(req, res) {
+  if (req.method !== 'POST') {
+    res.setHeader('Allow', 'POST');
+    return json(res, 405, { ok: false, message: 'Method not allowed' });
+  }
+
+  const contentLength = Number(req.headers['content-length'] || 0);
+  if (contentLength > MAX_BODY_BYTES) return json(res, 413, { ok: false, message: 'Request is too large' });
+
+  const origin = clean(req.headers.origin, 300);
+  if (origin && !ALLOWED_ORIGINS.has(origin) && !/^https:\/\/[^/]+\.vercel\.app$/.test(origin)) {
+    return json(res, 403, { ok: false, message: 'Origin not allowed' });
+  }
+
+  let body;
   try {
-    const url = new URL(value);
-    return url.protocol === 'https:' && url.hostname.endsWith('.public.blob.vercel-storage.com');
+    body = parseBody(req);
   } catch {
-    return false;
+    return json(res, 400, { ok: false, message: 'Invalid request body' });
   }
-};
 
-export default async function handler(request, response) {
-  response.setHeader('Cache-Control', 'no-store');
-  if (request.method !== 'POST') {
-    response.setHeader('Allow', 'POST');
-    return response.status(405).json({ ok: false, message: 'Method not allowed' });
+  if (clean(body?._company_fax, 100)) return json(res, 200, { ok: true });
+
+  const fields = prepareFields(body?.fields);
+  const email = fields.email || '';
+  if (!fields.name || !isEmail(email) || !fields.country) {
+    return json(res, 400, { ok: false, message: 'Name, valid email and country are required' });
   }
-  if (isRateLimited(request)) return response.status(429).json({ ok: false, message: 'Too many requests. Please try again later.' });
+
+  let attachments;
+  try {
+    attachments = prepareAttachments(body?.attachments);
+  } catch (error) {
+    const tooLarge = /TOO_LARGE/.test(error.message);
+    return json(res, tooLarge ? 413 : 400, {
+      ok: false,
+      message: tooLarge ? 'Reference images are too large' : 'Reference images are invalid'
+    });
+  }
+
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) return json(res, 503, { ok: false, message: 'Email service is not configured' });
+
+  const product = fields.product || fields.product_display || 'General Wholesale Inquiry';
+  const sku = fields.sku || fields.sku_display || '';
+  const subject = clean(`Wholesale quote request - ${product}${sku ? ` - ${sku}` : ''}`, 180);
+  const rows = Object.entries(fields)
+    .filter(([key]) => !key.endsWith('_display') || !fields[key.replace('_display', '')])
+    .map(([key, value]) => [LABELS[key] || key, value]);
+  const text = rows.map(([label, value]) => `${label}: ${value}`).join('\n');
+  const html = `<!doctype html><html><body style="font-family:Arial,sans-serif;color:#302b35;line-height:1.55"><h2>${escapeHtml(subject)}</h2><table style="border-collapse:collapse;width:100%;max-width:760px">${rows.map(([label, value]) => `<tr><th style="text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #e9dfe6;width:190px">${escapeHtml(label)}</th><td style="padding:8px;border-bottom:1px solid #e9dfe6;white-space:pre-wrap">${escapeHtml(value)}</td></tr>`).join('')}</table>${attachments.length ? `<p>${attachments.length} compressed reference image(s) attached.</p>` : ''}</body></html>`;
+
+  const from = process.env.INQUIRY_FROM_EMAIL || 'HAIBU CRAFT <inquiry@send.haibucrafts.com>';
+  const to = process.env.INQUIRY_TO_EMAIL || 'sale008@sola-craft.com';
 
   try {
-    const body = typeof request.body === 'string' ? JSON.parse(request.body) : request.body || {};
-    if (clean(body.fax_number, 200)) return response.status(202).json({ ok: true });
-    if (Number(body.startedAt) && Date.now() - Number(body.startedAt) < 1500) return response.status(202).json({ ok: true });
-
-    const fields = Object.fromEntries(Object.keys(fieldLabels).map(key => [key, clean(body.fields?.[key]) ]));
-    if (!fields.name || !fields.email || !fields.country) {
-      return response.status(400).json({ ok: false, message: 'Please complete your name, business email and country.' });
-    }
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email)) {
-      return response.status(400).json({ ok: false, message: 'Please enter a valid business email.' });
-    }
-
-    const apiKey = process.env.RESEND_API_KEY;
-    const fromEmail = process.env.INQUIRY_FROM_EMAIL;
-    if (!apiKey || !fromEmail) {
-      console.error('Inquiry email environment variables are not configured');
-      return response.status(503).json({ ok: false, message: 'The inquiry service is being configured. Please email us directly.' });
-    }
-
-    const rows = Object.entries(fieldLabels)
-      .filter(([key]) => fields[key])
-      .map(([key, label]) => `<tr><th style="text-align:left;padding:8px 12px;border:1px solid #ddd;background:#f6f6f3">${escapeHtml(label)}</th><td style="padding:8px 12px;border:1px solid #ddd">${escapeHtml(fields[key]).replaceAll('\n', '<br>')}</td></tr>`)
-      .join('');
-    const suppliedFiles = Array.isArray(body.files) ? body.files : Array.isArray(body.images) ? body.images : [];
-    const images = suppliedFiles.slice(0, 10).filter(image => validBlobUrl(image?.url));
-    const imageHtml = images.length
-      ? `<h2 style="margin-top:28px">Reference Files</h2><ol>${images.map(image => `<li><a href="${escapeHtml(image.url)}">${escapeHtml(image.name || 'Reference file')}</a> (${Math.max(1, Math.round(Number(image.size || 0) / 1024))} KB)</li>`).join('')}</ol>`
-      : '<p><strong>Reference files:</strong> None</p>';
-    const sourceUrl = clean(body.sourceUrl, 1000);
-    const product = fields.product || 'General Wholesale Inquiry';
-    const skuSuffix = fields.sku ? ` · ${fields.sku}` : '';
-    const subject = `New wholesale inquiry · ${product}${skuSuffix}`.slice(0, 180);
-    const textRows = Object.entries(fieldLabels)
-      .filter(([key]) => fields[key])
-      .map(([key, label]) => `${label}: ${fields[key]}`)
-      .join('\n');
-    const textImages = images.length ? images.map((image, index) => `${index + 1}. ${image.name || 'Reference file'}: ${image.url}`).join('\n') : 'None';
-
-    const resendResponse = await fetch('https://api.resend.com/emails', {
+    const response = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
-        'Idempotency-Key': clean(body.submissionId, 200) || crypto.randomUUID()
+        'Idempotency-Key': `inquiry-${randomUUID()}`
       },
       body: JSON.stringify({
-        from: fromEmail,
-        to: [recipientEmail],
-        reply_to: fields.email,
+        from,
+        to: [to],
+        reply_to: email,
         subject,
-        html: `<div style="font-family:Arial,sans-serif;color:#222;max-width:760px"><h1>New Wholesale Quote Request</h1><table style="border-collapse:collapse;width:100%">${rows}</table>${imageHtml}<p style="margin-top:24px;color:#666"><strong>Source page:</strong> ${escapeHtml(sourceUrl || 'Not provided')}</p></div>`,
-        text: `New Wholesale Quote Request\n\n${textRows}\n\nReference files:\n${textImages}\n\nSource page: ${sourceUrl || 'Not provided'}`
+        text,
+        html,
+        attachments
       })
     });
-
-    const resendResult = await resendResponse.json().catch(() => ({}));
-    if (!resendResponse.ok) {
-      console.error('Resend rejected inquiry email', resendResponse.status, resendResult?.message || 'Unknown error');
-      return response.status(502).json({ ok: false, message: 'The email service could not send your inquiry. Please try again.' });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok) {
+      console.error('Resend inquiry failure', response.status, result?.message || 'Unknown error');
+      return json(res, 502, { ok: false, message: 'Email service rejected the request' });
     }
-    return response.status(202).json({ ok: true, id: resendResult.id });
+    return json(res, 200, { ok: true, id: result.id || null });
   } catch (error) {
-    console.error('Inquiry endpoint failed', error instanceof Error ? error.message : error);
-    return response.status(500).json({ ok: false, message: 'The inquiry could not be sent. Please try again.' });
+    console.error('Inquiry delivery failure', error instanceof Error ? error.message : 'Unknown error');
+    return json(res, 502, { ok: false, message: 'Email service is temporarily unavailable' });
   }
 }

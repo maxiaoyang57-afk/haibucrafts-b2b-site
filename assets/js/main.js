@@ -1,136 +1,108 @@
-document.querySelectorAll('.menu-btn').forEach(btn=>btn.addEventListener('click',()=>document.body.classList.toggle('mobile-open')));document.querySelectorAll('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(x=>x.classList.remove('active'));btn.classList.add('active');const v=btn.dataset.filter.toLowerCase();document.querySelectorAll('[data-product-card]').forEach(c=>{const t=(c.dataset.tags||'').toLowerCase();c.classList.toggle('hidden',v!=='all'&&!t.includes(v));});}));document.querySelectorAll('[data-search-products]').forEach(input=>input.addEventListener('input',()=>{const q=input.value.trim().toLowerCase();document.querySelectorAll('[data-product-card]').forEach(c=>{const h=(c.textContent+' '+(c.dataset.tags||'')).toLowerCase();c.classList.toggle('hidden',q&&!h.includes(q));});}));
+document.querySelectorAll('.menu-btn').forEach(btn => {
+  btn.setAttribute('aria-expanded', 'false');
+  btn.addEventListener('click', () => {
+    const isOpen = document.body.classList.toggle('mobile-open');
+    btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+});
+document.querySelectorAll('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(x=>x.classList.remove('active'));btn.classList.add('active');const v=btn.dataset.filter.toLowerCase();document.querySelectorAll('[data-product-card]').forEach(c=>{const t=(c.dataset.tags||'').toLowerCase();c.classList.toggle('hidden',v!=='all'&&!t.includes(v));});}));document.querySelectorAll('[data-search-products]').forEach(input=>input.addEventListener('input',()=>{const q=input.value.trim().toLowerCase();document.querySelectorAll('[data-product-card]').forEach(c=>{const h=(c.textContent+' '+(c.dataset.tags||'')).toLowerCase();c.classList.toggle('hidden',q&&!h.includes(q));});}));
 
-let inquiryUploadModule;
+const INQUIRY_FALLBACK_EMAIL = 'sale008@sola-craft.com';
+const MAX_EMAIL_ATTACHMENTS = 4;
+const MAX_COMPRESSED_IMAGE_BYTES = 700 * 1024;
 
-const getInquiryUploader = async () => {
-  if (!inquiryUploadModule) inquiryUploadModule = import('/assets/js/inquiry-upload.js');
-  return inquiryUploadModule;
-};
+const readAsDataUrl = blob => new Promise((resolve, reject) => {
+  const reader = new FileReader();
+  reader.onload = () => resolve(String(reader.result || ''));
+  reader.onerror = () => reject(new Error('Could not read an image.'));
+  reader.readAsDataURL(blob);
+});
 
-const getSubmitStatus = form => {
-  let status = form.querySelector('[data-form-submit-status]');
+const loadImage = file => new Promise((resolve, reject) => {
+  const image = new Image();
+  const url = URL.createObjectURL(file);
+  image.onload = () => { URL.revokeObjectURL(url); resolve(image); };
+  image.onerror = () => { URL.revokeObjectURL(url); reject(new Error(`${file.name} cannot be processed by this browser.`)); };
+  image.src = url;
+});
+
+async function compressReferenceImage(file, index) {
+  const image = await loadImage(file);
+  const maxDimension = 1600;
+  const scale = Math.min(1, maxDimension / Math.max(image.naturalWidth, image.naturalHeight));
+  const canvas = document.createElement('canvas');
+  canvas.width = Math.max(1, Math.round(image.naturalWidth * scale));
+  canvas.height = Math.max(1, Math.round(image.naturalHeight * scale));
+  const context = canvas.getContext('2d', { alpha: false });
+  context.fillStyle = '#ffffff';
+  context.fillRect(0, 0, canvas.width, canvas.height);
+  context.drawImage(image, 0, 0, canvas.width, canvas.height);
+
+  const makeBlob = quality => new Promise(resolve => canvas.toBlob(resolve, 'image/jpeg', quality));
+  let blob = await makeBlob(0.8);
+  if (blob && blob.size > MAX_COMPRESSED_IMAGE_BYTES) blob = await makeBlob(0.62);
+  if (!blob || blob.size > MAX_COMPRESSED_IMAGE_BYTES) {
+    throw new Error(`${file.name} is still too large after compression. Please use a smaller image.`);
+  }
+  const dataUrl = await readAsDataUrl(blob);
+  return {
+    filename: `${String(file.name || `reference-${index + 1}`).replace(/\.[^.]+$/, '')}.jpg`,
+    contentType: 'image/jpeg',
+    content: dataUrl.split(',')[1] || ''
+  };
+}
+
+function getInquiryStatus(form) {
+  let status = form.querySelector('[data-inquiry-status]');
   if (!status) {
     status = document.createElement('p');
-    status.className = 'form-submit-status';
-    status.dataset.formSubmitStatus = '';
+    status.className = 'inquiry-submit-status';
+    status.dataset.inquiryStatus = '';
     status.setAttribute('role', 'status');
     status.setAttribute('aria-live', 'polite');
     form.append(status);
   }
   return status;
-};
+}
 
-document.querySelectorAll('.quote-form').forEach(form => {
-  const honeypot = document.createElement('input');
-  honeypot.type = 'text';
-  honeypot.name = 'fax_number';
-  honeypot.tabIndex = -1;
-  honeypot.autocomplete = 'off';
-  honeypot.className = 'form-honeypot';
-  honeypot.setAttribute('aria-hidden', 'true');
-  form.append(honeypot);
-  form.dataset.startedAt = String(Date.now());
-
-  form.addEventListener('submit', async event => {
-    event.preventDefault();
-    if (form.dataset.submitting === 'true') return;
-    if (!form.reportValidity()) return;
-
-    const data = new FormData(form);
-    const value = name => String(data.get(name) || '').trim();
-    const product = value('product') || value('product_display') || 'General Wholesale Inquiry';
-    const sku = value('sku') || value('sku_display');
-    const selectedImages = Array.isArray(form._referenceImages) ? form._referenceImages.slice() : [];
-    form.querySelectorAll('input[type="file"]').forEach(input => {
-      Array.from(input.files || []).forEach(file => {
-        if (!selectedImages.some(existing => existing.name === file.name && existing.size === file.size && existing.lastModified === file.lastModified)) selectedImages.push(file);
-      });
-    });
-    const status = getSubmitStatus(form);
-    const uploadStatus = form.querySelector('[data-upload-status]');
-    const submitButton = form.querySelector('button:not([type]), button[type="submit"], input[type="submit"]');
-    const originalButtonText = submitButton?.innerHTML;
-
-    const fields = {
-      name: value('name'),
-      company: value('company'),
-      email: value('email'),
-      country: value('country'),
-      phone: value('phone'),
-      website: value('website'),
-      product,
-      sku,
-      category: value('category'),
-      quantity: value('quantity'),
-      intended_use: value('intended_use'),
-      target_delivery_date: value('target_delivery_date'),
-      customization: value('customization'),
-      custom_theme: value('custom_theme'),
-      preferred_colors: value('preferred_colors'),
-      dimensions: value('dimensions'),
-      packaging: value('packaging'),
-      product_note: value('product_note'),
-      specification: value('specification'),
-      message: value('message')
-    };
-
-    form.dataset.submitting = 'true';
-    form.classList.remove('form-submit-success', 'form-submit-error');
-    if (submitButton) {
-      submitButton.disabled = true;
-      submitButton.setAttribute('aria-busy', 'true');
-      submitButton.textContent = selectedImages.length ? 'Uploading images…' : 'Sending inquiry…';
-    }
-    status.textContent = selectedImages.length
-      ? `Uploading ${selectedImages.length} reference file${selectedImages.length === 1 ? '' : 's'} securely…`
-      : 'Sending your inquiry securely…';
-
-    try {
-      let images = [];
-      if (selectedImages.length) {
-        const { uploadInquiryFiles } = await getInquiryUploader();
-        images = await uploadInquiryFiles(selectedImages, ({ current, total, percentage }) => {
-          const message = `Uploading file ${current} of ${total}${Number.isFinite(percentage) ? ` · ${Math.round(percentage)}%` : ''}`;
-          status.textContent = message;
-          if (uploadStatus) uploadStatus.textContent = message;
-        });
-      }
-
-      if (submitButton) submitButton.textContent = 'Sending inquiry…';
-      status.textContent = 'Sending your inquiry to our sales team…';
-      const response = await fetch('/api/inquiry', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          submissionId: globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random().toString(16).slice(2)}`,
-          fields,
-          files: images,
-          sourceUrl: window.location.href,
-          startedAt: Number(form.dataset.startedAt || Date.now()),
-          fax_number: value('fax_number')
-        })
-      });
-      const result = await response.json().catch(() => ({}));
-      if (!response.ok || !result.ok) throw new Error(result.message || 'Submission failed');
-
-      form.classList.add('form-submit-success');
-      status.textContent = 'Thank you. Your quote request has been sent successfully. Our sales team will reply within 24 hours.';
-      if (uploadStatus && selectedImages.length) uploadStatus.textContent = `${selectedImages.length} reference file${selectedImages.length === 1 ? '' : 's'} uploaded and attached as secure links.`;
-    } catch (error) {
-      console.error('Inquiry submission failed', error);
-      form.classList.add('form-submit-error');
-      status.innerHTML = 'We could not send the form right now. Please email <a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a> or contact us on WhatsApp.';
-      if (uploadStatus && selectedImages.length) uploadStatus.textContent = 'Upload or submission failed. Your selected images remain on this page so you can try again.';
-    } finally {
-      form.dataset.submitting = 'false';
-      if (submitButton) {
-        submitButton.disabled = false;
-        submitButton.removeAttribute('aria-busy');
-        if (originalButtonText) submitButton.innerHTML = originalButtonText;
-      }
-    }
+document.querySelectorAll('.quote-form').forEach(form => form.addEventListener('submit', async event => {
+  event.preventDefault();
+  const status = getInquiryStatus(form);
+  const submit = form.querySelector('[type="submit"]');
+  const originalLabel = submit?.innerHTML || '';
+  const data = new FormData(form);
+  const fields = {};
+  data.forEach((value, key) => {
+    if (!(value instanceof File) && key !== '_company_fax') fields[key] = String(value).trim();
   });
-});
+  const selectedImages = (Array.isArray(form._referenceImages) ? form._referenceImages : []).slice(0, MAX_EMAIL_ATTACHMENTS);
+  status.className = 'inquiry-submit-status is-sending';
+  status.textContent = selectedImages.length ? 'Compressing images and sending your inquiry…' : 'Sending your inquiry…';
+  if (submit) { submit.disabled = true; submit.setAttribute('aria-busy', 'true'); submit.textContent = 'Sending…'; }
+
+  try {
+    const attachments = [];
+    for (let index = 0; index < selectedImages.length; index += 1) {
+      attachments.push(await compressReferenceImage(selectedImages[index], index));
+    }
+    const response = await fetch('/api/inquiry', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ fields, attachments, _company_fax: data.get('_company_fax') || '' })
+    });
+    const result = await response.json().catch(() => ({}));
+    if (!response.ok || !result.ok) throw new Error(result.message || 'The inquiry could not be sent.');
+    status.className = 'inquiry-submit-status is-success';
+    status.textContent = 'Thank you. Your inquiry was sent successfully. We normally reply within 24 hours.';
+    form.reset();
+    form.dispatchEvent(new CustomEvent('inquiry:sent'));
+  } catch (error) {
+    status.className = 'inquiry-submit-status is-error';
+    status.textContent = `${error.message || 'The inquiry could not be sent.'} Please email ${INQUIRY_FALLBACK_EMAIL} or contact us on WhatsApp.`;
+  } finally {
+    if (submit) { submit.disabled = false; submit.removeAttribute('aria-busy'); submit.innerHTML = originalLabel; }
+  }
+}));
 document.querySelectorAll('.products-trigger').forEach(trigger => {
   trigger.addEventListener('click', event => {
     event.stopPropagation();
@@ -322,9 +294,9 @@ document.querySelectorAll('.dark-faq-question').forEach(button => {
 
 /* V25 multiple reference-image input: choose, drag/drop, clipboard paste and mobile camera */
 (() => {
-  const MAX_FILES = 10;
-  const MAX_SIZE = 10 * 1024 * 1024;
-  const imageMimeFallback = /\.(jpe?g|png|webp|gif|heic|heif)$/i;
+  const MAX_FILES = 4;
+  const MAX_SIZE = 12 * 1024 * 1024;
+  const imageMimeFallback = /\.(jpe?g|png|webp|gif)$/i;
 
   document.querySelectorAll('[data-image-uploader]').forEach(composer => {
     const form = composer.closest('form');
@@ -416,7 +388,7 @@ document.querySelectorAll('.dark-faq-question').forEach(button => {
       for(const file of candidates){
         if(files.length >= MAX_FILES){ errors.push(`Maximum ${MAX_FILES} images.`); break; }
         if(!isImage(file)){ errors.push(`${file.name || 'File'} is not a supported image.`); continue; }
-        if(file.size > MAX_SIZE){ errors.push(`${file.name} is larger than 10 MB.`); continue; }
+        if(file.size > MAX_SIZE){ errors.push(`${file.name} is larger than 12 MB.`); continue; }
         const key=fileKey(file);
         if(existing.has(key)) continue;
         existing.add(key);
@@ -478,7 +450,18 @@ document.querySelectorAll('.dark-faq-question').forEach(button => {
       }
     });
 
-    if(form) form._referenceImages = [];
+    if(form) {
+      form._referenceImages = [];
+      form.addEventListener('inquiry:sent', () => {
+        objectUrls.forEach(url => URL.revokeObjectURL(url));
+        objectUrls.clear();
+        files = [];
+        if(input) input.value = '';
+        if(cameraInput) cameraInput.value = '';
+        render();
+        setStatus('');
+      });
+    }
   });
 })();
 
@@ -486,6 +469,8 @@ document.querySelectorAll('.dark-faq-question').forEach(button => {
 // V26 navigation refinements
 window.addEventListener('keydown', event => {
   if(event.key === 'Escape'){
+    document.body.classList.remove('mobile-open');
+    document.querySelectorAll('.menu-btn').forEach(button => button.setAttribute('aria-expanded','false'));
     document.querySelectorAll('.nav-dropdown.open').forEach(dropdown => {
       dropdown.classList.remove('open');
       const trigger = dropdown.querySelector('.products-trigger');

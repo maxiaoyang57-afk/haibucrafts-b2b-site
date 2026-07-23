@@ -23,7 +23,13 @@ function request(overrides = {}) {
         country: 'United States',
         product: 'Space Candy Adventure Charms',
         sku: 'SLM712',
-        message: 'Please quote 500 packs.'
+        message: 'Please quote 500 packs.',
+        attribution_channel: 'AI Referral',
+        attribution_source: 'chatgpt',
+        attribution_medium: 'referral',
+        first_landing_page: '/products/slime-charms-wholesale.html',
+        first_referrer: 'https://chatgpt.com/',
+        inquiry_page: '/quote/index.html'
       },
       attachments: []
     },
@@ -79,6 +85,9 @@ test('sends validated fields and compressed attachments through Resend', async (
     assert.equal(submitted.reply_to, 'buyer@example.com');
     assert.equal(submitted.attachments.length, 1);
     assert.match(submitted.subject, /SLM712/);
+    assert.match(submitted.text, /Lead Source Channel: AI Referral/);
+    assert.match(submitted.text, /Lead Source: chatgpt/);
+    assert.match(submitted.html, /First Landing Page/);
     assert.match(submittedHeaders['Idempotency-Key'], /^inquiry-/);
   } finally {
     globalThis.fetch = originalFetch;

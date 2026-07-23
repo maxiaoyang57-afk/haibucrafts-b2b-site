@@ -30,7 +30,17 @@ const LABELS = {
   dimensions: 'Size / Dimensions',
   packaging: 'Packaging Requirements',
   product_note: 'Interested Category / SKU',
-  message: 'Project Details'
+  message: 'Project Details',
+  attribution_channel: 'Lead Source Channel',
+  attribution_source: 'Lead Source',
+  attribution_medium: 'Source Medium',
+  attribution_campaign: 'UTM Campaign',
+  attribution_content: 'UTM Content',
+  attribution_term: 'UTM Search Term',
+  first_landing_page: 'First Landing Page',
+  first_referrer: 'First Referrer',
+  first_visit_at: 'First Visit (UTC)',
+  inquiry_page: 'Inquiry Page'
 };
 
 function json(res, status, body) {

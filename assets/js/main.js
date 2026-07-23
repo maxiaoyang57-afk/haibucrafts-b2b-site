@@ -10,6 +10,88 @@ document.querySelectorAll('[data-filter]').forEach(btn=>btn.addEventListener('cl
 const INQUIRY_FALLBACK_EMAIL = 'sale008@sola-craft.com';
 const MAX_EMAIL_ATTACHMENTS = 4;
 const MAX_COMPRESSED_IMAGE_BYTES = 700 * 1024;
+const ATTRIBUTION_SESSION_KEY = 'haibu_inquiry_attribution_v1';
+
+function cleanAttributionValue(value, maxLength = 500) {
+  return String(value || '').replace(/[\u0000-\u001F\u007F]/g, '').trim().slice(0, maxLength);
+}
+
+function classifyTraffic(referrer, utmSource, utmMedium) {
+  if (utmSource) {
+    return {
+      attribution_source: cleanAttributionValue(utmSource, 120).toLowerCase(),
+      attribution_medium: cleanAttributionValue(utmMedium || 'campaign', 80).toLowerCase(),
+      attribution_channel: 'Campaign'
+    };
+  }
+
+  let hostname = '';
+  try {
+    hostname = referrer ? new URL(referrer).hostname.toLowerCase().replace(/^www\./, '') : '';
+  } catch {
+    hostname = '';
+  }
+
+  if (!hostname) return { attribution_source: 'direct', attribution_medium: 'none', attribution_channel: 'Direct' };
+  if (/(^|\.)google\./.test(hostname)) return { attribution_source: 'google', attribution_medium: 'organic', attribution_channel: 'Organic Search' };
+  if (hostname === 'bing.com' || hostname.endsWith('.bing.com')) return { attribution_source: 'bing', attribution_medium: 'organic', attribution_channel: 'Organic Search' };
+  if (hostname === 'chatgpt.com' || hostname.endsWith('.chatgpt.com')) return { attribution_source: 'chatgpt', attribution_medium: 'referral', attribution_channel: 'AI Referral' };
+  if (hostname === 'perplexity.ai' || hostname.endsWith('.perplexity.ai')) return { attribution_source: 'perplexity', attribution_medium: 'referral', attribution_channel: 'AI Referral' };
+  if (hostname === 'copilot.microsoft.com') return { attribution_source: 'copilot', attribution_medium: 'referral', attribution_channel: 'AI Referral' };
+  if (hostname === 'gemini.google.com') return { attribution_source: 'gemini', attribution_medium: 'referral', attribution_channel: 'AI Referral' };
+  if (hostname === 'claude.ai' || hostname.endsWith('.claude.ai')) return { attribution_source: 'claude', attribution_medium: 'referral', attribution_channel: 'AI Referral' };
+  return { attribution_source: hostname, attribution_medium: 'referral', attribution_channel: 'Referral' };
+}
+
+function readInquiryAttribution() {
+  const params = new URLSearchParams(window.location.search);
+  const campaign = {
+    attribution_campaign: cleanAttributionValue(params.get('utm_campaign'), 160),
+    attribution_content: cleanAttributionValue(params.get('utm_content'), 160),
+    attribution_term: cleanAttributionValue(params.get('utm_term'), 160)
+  };
+  const referrer = cleanAttributionValue(document.referrer, 500);
+  const traffic = classifyTraffic(referrer, params.get('utm_source'), params.get('utm_medium'));
+  const current = {
+    ...traffic,
+    ...campaign,
+    first_landing_page: cleanAttributionValue(window.location.pathname, 300),
+    first_referrer: referrer || 'Not provided',
+    first_visit_at: new Date().toISOString()
+  };
+
+  try {
+    const saved = JSON.parse(sessionStorage.getItem(ATTRIBUTION_SESSION_KEY) || 'null');
+    if (saved && typeof saved === 'object') return saved;
+    sessionStorage.setItem(ATTRIBUTION_SESSION_KEY, JSON.stringify(current));
+  } catch {
+    // Attribution remains available for this page if session storage is unavailable.
+  }
+  return current;
+}
+
+const inquiryAttribution = readInquiryAttribution();
+
+function getInquiryAttributionFields() {
+  return {
+    ...inquiryAttribution,
+    inquiry_page: cleanAttributionValue(window.location.pathname, 300)
+  };
+}
+
+// Vercel Web Analytics is anonymous and cookie-free. The script is served
+// from the same Vercel deployment and does not block page rendering.
+(() => {
+  if (/^(localhost|127\.0\.0\.1)$/.test(window.location.hostname)) return;
+  window.va = window.va || function () {
+    (window.vaq = window.vaq || []).push(arguments);
+  };
+  const script = document.createElement('script');
+  script.defer = true;
+  script.src = '/_vercel/insights/script.js';
+  script.dataset.sdk = 'analytics';
+  document.head.append(script);
+})();
 
 const readAsDataUrl = blob => new Promise((resolve, reject) => {
   const reader = new FileReader();
@@ -75,6 +157,7 @@ document.querySelectorAll('.quote-form').forEach(form => form.addEventListener('
   data.forEach((value, key) => {
     if (!(value instanceof File) && key !== '_company_fax') fields[key] = String(value).trim();
   });
+  Object.assign(fields, getInquiryAttributionFields());
   const selectedImages = (Array.isArray(form._referenceImages) ? form._referenceImages : []).slice(0, MAX_EMAIL_ATTACHMENTS);
   status.className = 'inquiry-submit-status is-sending';
   status.textContent = selectedImages.length ? 'Compressing images and sending your inquiry…' : 'Sending your inquiry…';

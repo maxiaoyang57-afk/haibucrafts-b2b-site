@@ -3,10 +3,15 @@ import sitePreview from './site-preview.js';
 
 const BLOG_SPRITES = {
   'blog/tiny-worlds-big-ideas.html': 1,
+  'blog/tiny-worlds-big-ideas/index.html': 1,
   'blog/beyond-the-quote.html': 2,
+  'blog/beyond-the-quote/index.html': 2,
   'blog/global-craft-supply-blueprint.html': 3,
+  'blog/global-craft-supply-blueprint/index.html': 3,
   'blog/wholesale-slime-charms-sourcing-guide.html': 4,
-  'blog/from-sketch-to-shelf.html': 5
+  'blog/wholesale-slime-charms-sourcing-guide/index.html': 4,
+  'blog/from-sketch-to-shelf.html': 5,
+  'blog/from-sketch-to-shelf/index.html': 5
 };
 
 const BLOG_ALTS = {
@@ -83,7 +88,6 @@ function replaceImageBySource(html, source, index) {
 function applyBlogArtwork(html, currentFile) {
   if (!currentFile.startsWith('blog/')) return html;
   let output = injectSpriteStyle(html);
-
   if (currentFile === 'blog/index.html') {
     const sources = [
       '../assets/images/homecards/homecard-8-space-charms.webp',
@@ -95,7 +99,6 @@ function applyBlogArtwork(html, currentFile) {
     sources.forEach((source, offset) => { output = replaceImageBySource(output, source, offset + 1); });
     return output;
   }
-
   const index = BLOG_SPRITES[currentFile];
   if (!index) return output;
   return output.replace(/<img\b[^>]*class=["'][^"']*\barticle-hero-image\b[^"']*["'][^>]*>/i, spriteElement(index, 'article-hero-image'));
@@ -104,11 +107,14 @@ function applyBlogArtwork(html, currentFile) {
 function sanitizeHtml(html, currentFile) {
   let output = String(html)
     .replace(/<input([^>]*?)\/\s+aria-label="([^"]+)">/gi, (_match, attrs, label) => `<input${attrs} aria-label="${label.trim()}"/>`)
-    .replace(/aria-label="\s+([^"]+)"/gi, (_match, label) => `aria-label="${label.trim()}"`)
-    .replace(/<a\b([^>]*?)href=(['"])(.*?)\2([^>]*)>/gi, (_match, before, quote, href, after) => {
+    .replace(/aria-label="\s+([^"]+)"/gi, (_match, label) => `aria-label="${label.trim()}"`);
+
+  if (!currentFile.startsWith('blog/')) {
+    output = output.replace(/<a\b([^>]*?)href=(['"])(.*?)\2([^>]*)>/gi, (_match, before, quote, href, after) => {
       const nextHref = rewritePreviewHref(href, currentFile);
       return `<a${before}href=${quote}${nextHref}${quote}${after}>`;
     });
+  }
   return applyBlogArtwork(output, currentFile);
 }
 
@@ -118,8 +124,8 @@ export default async function handler(req, res) {
   const result = capture.snapshot();
   result.headers.forEach((value, name) => res.setHeader(name, value));
   res.setHeader('X-Preview-Markup-Sanitized', '1');
-  res.setHeader('X-Preview-Link-Routing', 'preview-page');
-  res.setHeader('X-Preview-Blog-Images', 'sprite-v1');
+  res.setHeader('X-Preview-Link-Routing', currentPreviewFile(req.query?.file).startsWith('blog/') ? 'clean-journal-routes' : 'preview-page');
+  res.setHeader('X-Preview-Blog-Images', 'sprite-v2');
   res.statusCode = result.statusCode;
   const contentType = String(result.headers.get('content-type') || '');
   if (/text\/html/i.test(contentType)) res.end(sanitizeHtml(result.body, currentPreviewFile(req.query?.file)));

@@ -21,6 +21,12 @@ async function buildHomepage() {
 
   html = replaceRequired(
     html,
+    '<meta content="width=device-width,initial-scale=1" name="viewport"/>',
+    '<meta content="width=device-width,initial-scale=1" name="viewport"/><base href="/">',
+    'preview base URL'
+  );
+  html = replaceRequired(
+    html,
     `<meta content="${oldDescription}" name="description"/>`,
     `<meta content="${newDescription}" name="description"/>`,
     'meta description'

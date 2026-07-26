@@ -17,6 +17,9 @@
     "api/blog-preview-check.js": {
       "includeFiles": "**/*.html"
     },
+    "api/journal-check.js": {
+      "includeFiles": "**/*.html"
+    },
     "api/site-audit.js": {
       "includeFiles": "**/*.{html,xml,txt}"
     }

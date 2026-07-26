@@ -1,6 +1,17 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": false,
+  "functions": {
+    "api/homepage-preview.js": {
+      "includeFiles": "index.html"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/homepage-preview"
+    }
+  ],
   "redirects": [
     {
       "source": "/products/plastic-sequins-wholesale.html",

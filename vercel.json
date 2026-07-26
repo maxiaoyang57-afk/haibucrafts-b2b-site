@@ -4,6 +4,9 @@
   "functions": {
     "api/homepage-preview.js": {
       "includeFiles": "index.html"
+    },
+    "api/site-audit.js": {
+      "includeFiles": "**/*.{html,xml,txt}"
     }
   },
   "rewrites": [

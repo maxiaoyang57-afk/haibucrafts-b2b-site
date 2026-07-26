@@ -17,7 +17,8 @@ export default async function handler(req, res) {
   await sitePreviewSafe({ method: 'GET', query: { file: 'blog/index.html' } }, capture);
   const result = capture.snapshot();
   const html = result.body;
-  const classes = [...html.matchAll(/blog-sprite-[1-5]/g)].map(match => match[0]);
+  const main = html.match(/<main\b[^>]*>[\s\S]*?<\/main>/i)?.[0] || '';
+  const classes = [...main.matchAll(/blog-sprite-[1-5]/g)].map(match => match[0]);
   const uniqueClasses = [...new Set(classes)].sort();
   const oldSources = [
     'homecard-8-space-charms.webp',
@@ -25,7 +26,12 @@ export default async function handler(req, res) {
     'slime-charms-b2b-banner.webp',
     'sc004-space-candy-adventure-charms.webp',
     'homecard-1-mermaid-sequins.webp'
-  ].filter(source => html.includes(source));
+  ].filter(source => main.includes(source));
+  const passed = result.statusCode === 200
+    && html.includes('id="blog-sprite-style"')
+    && html.includes("url('/api/blog-sprite')")
+    && uniqueClasses.length === 5
+    && oldSources.length === 0;
 
   res.statusCode = 200;
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -36,7 +42,7 @@ export default async function handler(req, res) {
     hasSpriteStyle: html.includes('id="blog-sprite-style"'),
     spriteEndpointReferenced: html.includes("url('/api/blog-sprite')"),
     uniqueSpriteClasses: uniqueClasses,
-    oldImageSourcesRemaining: oldSources,
-    passed: result.statusCode === 200 && html.includes('id="blog-sprite-style"') && uniqueClasses.length === 5 && oldSources.length === 0
+    oldVisibleImageSourcesRemaining: oldSources,
+    passed
   }));
 }

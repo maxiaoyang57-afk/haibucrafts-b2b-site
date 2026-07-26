@@ -11,6 +11,12 @@
     "api/site-preview-safe.js": {
       "includeFiles": "**/*.html"
     },
+    "api/blog-sprite.js": {
+      "includeFiles": "assets/data/blog-sprite-*.txt"
+    },
+    "api/blog-preview-check.js": {
+      "includeFiles": "**/*.html"
+    },
     "api/site-audit.js": {
       "includeFiles": "**/*.{html,xml,txt}"
     }

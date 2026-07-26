@@ -19,6 +19,7 @@
     { "source": "/", "destination": "/api/site-preview-safe?file=index.html" },
     { "source": "/index.html", "destination": "/api/site-preview-safe?file=index.html" },
     { "source": "/homepage-preview", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/preview-current", "destination": "/api/site-preview-safe?file=index.html" },
     { "source": "/404.html", "destination": "/api/site-preview-safe?file=404.html" },
     { "source": "/privacy.html", "destination": "/api/site-preview-safe?file=privacy.html" },
     { "source": "/about", "destination": "/api/site-preview-safe?file=about/index.html" },
@@ -78,7 +79,8 @@
         { "key": "Permissions-Policy", "value": "camera=(self), microphone=(), geolocation=(), payment=()" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
         { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" }
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-Robots-Tag", "value": "noindex" }
       ]
     }
   ]

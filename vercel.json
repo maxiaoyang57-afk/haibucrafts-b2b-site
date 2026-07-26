@@ -8,32 +8,35 @@
     "api/site-preview.js": {
       "includeFiles": "**/*.html"
     },
+    "api/site-preview-safe.js": {
+      "includeFiles": "**/*.html"
+    },
     "api/site-audit.js": {
       "includeFiles": "**/*.{html,xml,txt}"
     }
   },
   "rewrites": [
-    { "source": "/", "destination": "/api/site-preview?file=index.html" },
-    { "source": "/index.html", "destination": "/api/site-preview?file=index.html" },
-    { "source": "/homepage-preview", "destination": "/api/site-preview?file=index.html" },
-    { "source": "/404.html", "destination": "/api/site-preview?file=404.html" },
-    { "source": "/privacy.html", "destination": "/api/site-preview?file=privacy.html" },
-    { "source": "/about", "destination": "/api/site-preview?file=about/index.html" },
-    { "source": "/about/", "destination": "/api/site-preview?file=about/index.html" },
-    { "source": "/about/:path*", "destination": "/api/site-preview?file=about/:path*" },
-    { "source": "/applications/:path*", "destination": "/api/site-preview?file=applications/:path*" },
-    { "source": "/blog", "destination": "/api/site-preview?file=blog/index.html" },
-    { "source": "/blog/", "destination": "/api/site-preview?file=blog/index.html" },
-    { "source": "/blog/:path*", "destination": "/api/site-preview?file=blog/:path*" },
-    { "source": "/custom-services", "destination": "/api/site-preview?file=custom-services/index.html" },
-    { "source": "/custom-services/", "destination": "/api/site-preview?file=custom-services/index.html" },
-    { "source": "/custom-services/:path*", "destination": "/api/site-preview?file=custom-services/:path*" },
-    { "source": "/products", "destination": "/api/site-preview?file=products/index.html" },
-    { "source": "/products/", "destination": "/api/site-preview?file=products/index.html" },
-    { "source": "/products/:path*", "destination": "/api/site-preview?file=products/:path*" },
-    { "source": "/quote", "destination": "/api/site-preview?file=quote/index.html" },
-    { "source": "/quote/", "destination": "/api/site-preview?file=quote/index.html" },
-    { "source": "/quote/:path*", "destination": "/api/site-preview?file=quote/:path*" }
+    { "source": "/", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/index.html", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/homepage-preview", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/404.html", "destination": "/api/site-preview-safe?file=404.html" },
+    { "source": "/privacy.html", "destination": "/api/site-preview-safe?file=privacy.html" },
+    { "source": "/about", "destination": "/api/site-preview-safe?file=about/index.html" },
+    { "source": "/about/", "destination": "/api/site-preview-safe?file=about/index.html" },
+    { "source": "/about/:path*", "destination": "/api/site-preview-safe?file=about/:path*" },
+    { "source": "/applications/:path*", "destination": "/api/site-preview-safe?file=applications/:path*" },
+    { "source": "/blog", "destination": "/api/site-preview-safe?file=blog/index.html" },
+    { "source": "/blog/", "destination": "/api/site-preview-safe?file=blog/index.html" },
+    { "source": "/blog/:path*", "destination": "/api/site-preview-safe?file=blog/:path*" },
+    { "source": "/custom-services", "destination": "/api/site-preview-safe?file=custom-services/index.html" },
+    { "source": "/custom-services/", "destination": "/api/site-preview-safe?file=custom-services/index.html" },
+    { "source": "/custom-services/:path*", "destination": "/api/site-preview-safe?file=custom-services/:path*" },
+    { "source": "/products", "destination": "/api/site-preview-safe?file=products/index.html" },
+    { "source": "/products/", "destination": "/api/site-preview-safe?file=products/index.html" },
+    { "source": "/products/:path*", "destination": "/api/site-preview-safe?file=products/:path*" },
+    { "source": "/quote", "destination": "/api/site-preview-safe?file=quote/index.html" },
+    { "source": "/quote/", "destination": "/api/site-preview-safe?file=quote/index.html" },
+    { "source": "/quote/:path*", "destination": "/api/site-preview-safe?file=quote/:path*" }
   ],
   "redirects": [
     {

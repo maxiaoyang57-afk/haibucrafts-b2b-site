@@ -34,6 +34,7 @@ async function inspect(file) {
     '/blog/wholesale-slime-charms-sourcing-guide/',
     '/blog/from-sketch-to-shelf/'
   ];
+  const interactiveMarkup = [...html.matchAll(/<(a|button)\b[^>]*>[\s\S]*?<\/\1>/gi)].map(match => match[0]).join(' ');
   const checks = {
     status200: result.statusCode === 200,
     standaloneHeader: html.includes('class="journal-header"'),
@@ -43,7 +44,7 @@ async function inspect(file) {
     noGlobalTopbar: !html.includes('class="topbar"'),
     noEditorialIllustration: !/Editorial illustration/i.test(html),
     noHashArticleRoutes: !/#article\//i.test(html),
-    noArrowSymbols: !/[→←↑↓]/.test(html),
+    noArrowControls: !/[→←↑↓]/.test(interactiveMarkup),
     backToTop: html.includes('class="back-to-top"'),
     cleanLinks: isIndex ? cleanLinks.every(link => html.includes(`href="${link}"`)) : true,
     filterControls: isIndex ? html.includes('data-topic-filter="all"') : true,

@@ -47,6 +47,11 @@
     { "source": "/quote/:path*", "destination": "/api/site-preview-safe?file=quote/:path*" }
   ],
   "redirects": [
+    { "source": "/blog/tiny-worlds-big-ideas.html", "destination": "/blog/tiny-worlds-big-ideas/", "permanent": false },
+    { "source": "/blog/beyond-the-quote.html", "destination": "/blog/beyond-the-quote/", "permanent": false },
+    { "source": "/blog/global-craft-supply-blueprint.html", "destination": "/blog/global-craft-supply-blueprint/", "permanent": false },
+    { "source": "/blog/wholesale-slime-charms-sourcing-guide.html", "destination": "/blog/wholesale-slime-charms-sourcing-guide/", "permanent": false },
+    { "source": "/blog/from-sketch-to-shelf.html", "destination": "/blog/from-sketch-to-shelf/", "permanent": false },
     {
       "source": "/manufacturing",
       "destination": "/about/manufacturing.html",

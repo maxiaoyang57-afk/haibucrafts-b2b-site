@@ -116,7 +116,7 @@ export default async function handler(req, res) {
   result.headers.forEach((value, name) => res.setHeader(name, value));
   res.setHeader('X-Preview-Markup-Sanitized', '1');
   res.setHeader('X-Preview-Link-Routing', 'preview-page');
-  res.setHeader('X-Preview-Blog-Images', 'server-side');
+  res.setHeader('X-Preview-Blog-Images', 'server-side-v2');
   res.statusCode = result.statusCode;
   const contentType = String(result.headers.get('content-type') || '');
   if (/text\/html/i.test(contentType)) {

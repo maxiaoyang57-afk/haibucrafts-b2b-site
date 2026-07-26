@@ -1,0 +1,1 @@
+[Open target through markdown.new](https://markdown.new/https://haibucraft-blog-preview.mxy526125914.chatgpt.site/?method=browser&retain_images=true)

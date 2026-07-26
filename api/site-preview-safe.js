@@ -1,6 +1,14 @@
 import path from 'node:path';
 import sitePreview from './site-preview.js';
 
+const BLOG_IMAGES = {
+  'blog/tiny-worlds-big-ideas.html': '/assets/images/blog/tiny-worlds-big-ideas.webp',
+  'blog/beyond-the-quote.html': '/assets/images/blog/beyond-the-quote.webp',
+  'blog/global-craft-supply-blueprint.html': '/assets/images/blog/global-craft-supply-blueprint.webp',
+  'blog/wholesale-slime-charms-sourcing-guide.html': '/assets/images/blog/wholesale-slime-charms-sourcing-guide.webp',
+  'blog/from-sketch-to-shelf.html': '/assets/images/blog/from-sketch-to-shelf.webp'
+};
+
 function createCaptureResponse() {
   const headers = new Map();
   let body = '';
@@ -56,6 +64,38 @@ function rewritePreviewHref(rawHref, currentFile) {
   return `/preview-page?file=${encodeURIComponent(resolved)}${suffix}${hash}`;
 }
 
+function replaceShareImage(html, asset) {
+  const absolute = `https://www.haibucrafts.com${asset}`;
+  return html
+    .replace(/<meta[^>]+property=["']og:image["'][^>]*>/i, `<meta property="og:image" content="${absolute}">`)
+    .replace(/<meta[^>]+name=["']twitter:image["'][^>]*>/i, `<meta name="twitter:image" content="${absolute}">`);
+}
+
+function applyBlogImages(html, currentFile) {
+  if (currentFile === 'blog/index.html') {
+    const replacements = [
+      ['../assets/images/homecards/homecard-8-space-charms.webp', BLOG_IMAGES['blog/tiny-worlds-big-ideas.html']],
+      ['../assets/images/products/hc001-school-theme-polymer-clay-mix.webp', BLOG_IMAGES['blog/beyond-the-quote.html']],
+      ['../assets/images/hero/slime-charms-b2b-banner.webp', BLOG_IMAGES['blog/global-craft-supply-blueprint.html']],
+      ['../assets/images/products/sc004-space-candy-adventure-charms.webp', BLOG_IMAGES['blog/wholesale-slime-charms-sourcing-guide.html']],
+      ['../assets/images/homecards/homecard-1-mermaid-sequins.webp', BLOG_IMAGES['blog/from-sketch-to-shelf.html']]
+    ];
+    let output = html;
+    for (const [from, to] of replacements) output = output.replaceAll(from, to);
+    return replaceShareImage(output, BLOG_IMAGES['blog/tiny-worlds-big-ideas.html']);
+  }
+
+  const asset = BLOG_IMAGES[currentFile];
+  if (!asset) return html;
+
+  let output = html.replace(/<img\b[^>]*class=["'][^"']*\barticle-hero-image\b[^"']*["'][^>]*>/i, tag => {
+    if (/\bsrc=["'][^"']*["']/i.test(tag)) return tag.replace(/\bsrc=["'][^"']*["']/i, `src="${asset}"`);
+    return tag.replace(/<img\b/i, `<img src="${asset}"`);
+  });
+  output = replaceShareImage(output, asset);
+  return output;
+}
+
 function sanitizeHtml(html, currentFile) {
   let output = String(html)
     .replace(/<input([^>]*?)\/\s+aria-label="([^"]+)">/gi, (_match, attrs, label) => `<input${attrs} aria-label="${label.trim()}"/>`)
@@ -65,10 +105,7 @@ function sanitizeHtml(html, currentFile) {
       return `<a${before}href=${quote}${nextHref}${quote}${after}>`;
     });
 
-  if (currentFile.startsWith('blog/') && !/blog-original-images\.js/i.test(output)) {
-    output = output.replace(/<\/body>/i, '<script src="/assets/js/blog-original-images.js"></script></body>');
-  }
-
+  output = applyBlogImages(output, currentFile);
   return output;
 }
 
@@ -79,6 +116,7 @@ export default async function handler(req, res) {
   result.headers.forEach((value, name) => res.setHeader(name, value));
   res.setHeader('X-Preview-Markup-Sanitized', '1');
   res.setHeader('X-Preview-Link-Routing', 'preview-page');
+  res.setHeader('X-Preview-Blog-Images', 'server-side');
   res.statusCode = result.statusCode;
   const contentType = String(result.headers.get('content-type') || '');
   if (/text\/html/i.test(contentType)) {

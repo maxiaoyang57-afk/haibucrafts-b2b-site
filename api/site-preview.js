@@ -35,8 +35,8 @@ const PAGE_OVERRIDES = {
     description: 'Custom product development, OEM mixes, private-label packaging and wholesale program support for slime and craft brands.'
   },
   'blog/index.html': {
-    title: 'Wholesale Craft Sourcing Guides | HAIBU CRAFT',
-    description: 'B2B sourcing guides for slime charms, polymer clay slices, resin charms, sequins, OEM development and wholesale craft supply.'
+    title: 'HAIBU CRAFT Journal | Ideas, Sourcing & OEM Guidance',
+    description: 'Five original HAIBU CRAFT stories for creators, wholesale buyers and craft brands, covering collection ideas, customer service, sourcing, quality and OEM development.'
   },
   'blog/custom-oem-process.html': {
     title: 'Custom OEM Process for Craft Products | HAIBU CRAFT',
@@ -80,9 +80,7 @@ function normalizeFile(value) {
   file = decodeURIComponent(file).replace(/^\/+/, '');
   if (!file || file.endsWith('/')) file += 'index.html';
   file = path.posix.normalize(file);
-  if (file.startsWith('../') || path.isAbsolute(file) || !file.endsWith('.html')) {
-    throw new Error('Invalid preview file path.');
-  }
+  if (file.startsWith('../') || path.isAbsolute(file) || !file.endsWith('.html')) throw new Error('Invalid preview file path.');
   return file;
 }
 
@@ -118,12 +116,8 @@ function replaceOrInsertProperty(html, property, content) {
 
 function replaceOrInsertCanonical(html, canonical) {
   const tag = `<link rel="canonical" href="${escapeHtml(canonical)}">`;
-  if (/<link[^>]+rel=["']canonical["'][^>]*>/i.test(html)) {
-    return html.replace(/<link[^>]+rel=["']canonical["'][^>]*>/i, tag);
-  }
-  if (/<link[^>]+href=["'][^"']+["'][^>]+rel=["']canonical["'][^>]*>/i.test(html)) {
-    return html.replace(/<link[^>]+href=["'][^"']+["'][^>]+rel=["']canonical["'][^>]*>/i, tag);
-  }
+  if (/<link[^>]+rel=["']canonical["'][^>]*>/i.test(html)) return html.replace(/<link[^>]+rel=["']canonical["'][^>]*>/i, tag);
+  if (/<link[^>]+href=["'][^"']+["'][^>]+rel=["']canonical["'][^>]*>/i.test(html)) return html.replace(/<link[^>]+href=["'][^"']+["'][^>]+rel=["']canonical["'][^>]*>/i, tag);
   return html.replace(/<\/head>/i, `${tag}</head>`);
 }
 
@@ -152,32 +146,28 @@ function buildNavigation(file) {
   const section = sectionFor(file);
   return `<nav class="navlinks">
 <a href="/index.html"${current(section, 'home')}>Home</a>
-<div class="nav-dropdown"><a class="products-main-link" href="/products/index.html"${current(section, 'products')}>Products</a><button aria-expanded="false" aria-label="Open product categories" class="products-trigger" type="button"><span aria-hidden="true">⌄</span></button><div class="dropdown-menu mega-menu"><div class="dropdown-group-title">Core Product Families</div><a href="/products/slime-charms-wholesale.html"><strong>Slime Charms Wholesale</strong><span>Bulk decorative charms for slime brands, distributors and DIY kit suppliers.</span></a><a href="/products/polymer-clay-slices-wholesale.html"><strong>Polymer Clay Slices Wholesale</strong><span>Fruit, seasonal and novelty slices for slime, crafts and kit programs.</span></a><a href="/products/resin-charms-for-slime.html"><strong>Resin Charms for Slime</strong><span>Glossy flatback and novelty resin add-ins for premium slime collections.</span></a><a href="/products/sequins-glitter-confetti.html"><strong>Sequins &amp; Glitter Confetti</strong><span>Shaped sequins, holographic confetti and decorative fillers for slime and crafts.</span></a><a class="dropdown-viewall" href="/products/index.html">View All Product Directories →</a></div></div>
+<div class="nav-dropdown"><a class="products-main-link" href="/products/index.html"${current(section, 'products')}>Products</a><button aria-expanded="false" aria-label="Open product categories" class="products-trigger" type="button"><span aria-hidden="true">⌄</span></button><div class="dropdown-menu mega-menu"><div class="dropdown-group-title">Core Product Families</div><a href="/products/slime-charms-wholesale.html"><strong>Slime Charms Wholesale</strong><span>Bulk decorative charms for slime brands, distributors and DIY kit suppliers.</span></a><a href="/products/polymer-clay-slices-wholesale.html"><strong>Polymer Clay Slices Wholesale</strong><span>Fruit, seasonal and novelty slices for slime, crafts and kit programs.</span></a><a href="/products/resin-charms-for-slime.html"><strong>Resin Charms for Slime</strong><span>Glossy flatback and novelty resin add-ins for premium slime collections.</span></a><a href="/products/sequins-glitter-confetti.html"><strong>Sequins &amp; Glitter Confetti</strong><span>Shaped sequins, holographic confetti and decorative fillers for slime and crafts.</span></a><a class="dropdown-viewall" href="/products/index.html">View All Product Directories</a></div></div>
 <a href="/custom-services/index.html"${current(section, 'custom')}>Custom Solutions</a>
-<div class="nav-dropdown"><a class="products-main-link" href="/about/index.html"${current(section, 'company')}>Company</a><button aria-expanded="false" aria-label="Open company information" class="products-trigger" type="button"><span aria-hidden="true">⌄</span></button><div class="dropdown-menu mega-menu"><div class="dropdown-group-title">Factory & Company</div><a href="/about/index.html"><strong>About HAIBU CRAFT</strong><span>Our B2B focus, product scope and buyer support.</span></a><a href="/about/manufacturing.html"><strong>Manufacturing</strong><span>Factory-owned production, OEM development and packing capability.</span></a><a href="/about/quality-control.html"><strong>Quality Control</strong><span>Specification, in-process, final and packing checks.</span></a><a href="/about/brand-factory/"><strong>Brand & Factory Relationship</strong><span>How the export brand connects with the registered manufacturing company.</span></a><a href="/about/b2b-export-supplier.html"><strong>B2B Export Supply</strong><span>Support for international wholesale orders and destination markets.</span></a></div></div>
-<a href="/blog/index.html"${current(section, 'blog')}>Blog</a>
+<div class="nav-dropdown"><a class="products-main-link" href="/about/index.html"${current(section, 'company')}>Company</a><button aria-expanded="false" aria-label="Open company information" class="products-trigger" type="button"><span aria-hidden="true">⌄</span></button><div class="dropdown-menu mega-menu"><div class="dropdown-group-title">Factory &amp; Company</div><a href="/about/index.html"><strong>About HAIBU CRAFT</strong><span>Our B2B focus, product scope and buyer support.</span></a><a href="/about/manufacturing.html"><strong>Manufacturing</strong><span>Factory-owned production, OEM development and packing capability.</span></a><a href="/about/quality-control.html"><strong>Quality Control</strong><span>Specification, in-process, final and packing checks.</span></a><a href="/about/brand-factory/"><strong>Brand &amp; Factory Relationship</strong><span>How the export brand connects with the registered manufacturing company.</span></a><a href="/about/b2b-export-supplier.html"><strong>B2B Export Supply</strong><span>Support for international wholesale orders and destination markets.</span></a></div></div>
+<a href="/blog/"${current(section, 'blog')}>Blog</a>
 <a class="quote-link" href="/quote/index.html"${current(section, 'quote')}>Request a Quote</a>
 </nav>`;
 }
 
 function replaceNavigation(html, file) {
   const navigation = buildNavigation(file);
-  if (/<nav class=["']navlinks["'][^>]*>[\s\S]*?<\/nav>/i.test(html)) {
-    return html.replace(/<nav class=["']navlinks["'][^>]*>[\s\S]*?<\/nav>/i, navigation);
-  }
+  if (/<nav class=["']navlinks["'][^>]*>[\s\S]*?<\/nav>/i.test(html)) return html.replace(/<nav class=["']navlinks["'][^>]*>[\s\S]*?<\/nav>/i, navigation);
   return html;
 }
 
 function replaceTopbar(html) {
   const topbar = '<div class="topbar"><div class="container"><span>Factory wholesale · OEM/ODM · Private label · Export support</span><span><a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a> · <a href="https://wa.me/8618632026595?text=Hello%2C%20I%20would%20like%20to%20ask%20about%20your%20wholesale%20products%2C%20MOQ%2C%20packing%20and%20lead%20time." target="_blank" rel="noopener noreferrer">WhatsApp</a></span></div></div>';
-  if (/<div class=["']topbar["']>[\s\S]*?<\/div>\s*<\/div>/i.test(html)) {
-    return html.replace(/<div class=["']topbar["']>[\s\S]*?<\/div>\s*<\/div>/i, topbar);
-  }
+  if (/<div class=["']topbar["']>[\s\S]*?<\/div>\s*<\/div>/i.test(html)) return html.replace(/<div class=["']topbar["']>[\s\S]*?<\/div>\s*<\/div>/i, topbar);
   return html.replace(/<body[^>]*>/i, match => `${match}${topbar}`);
 }
 
 function replaceFooter(html) {
-  const footer = `<footer><div class="container"><div class="footer-grid"><div><img alt="HAIBU CRAFT" src="/assets/images/logo-haibu.webp" style="width:170px" decoding="async" loading="lazy"><p>Factory-direct slime charms and craft add-ins for distributors, craft brands, retailers and DIY kit wholesalers.</p></div><div><h3>Core Products</h3><a href="/products/slime-charms-wholesale.html">Slime Charms</a><a href="/products/polymer-clay-slices-wholesale.html">Polymer Clay Slices</a><a href="/products/resin-charms-for-slime.html">Resin Charms</a><a href="/products/sequins-glitter-confetti.html">Sequins &amp; Confetti</a></div><div><h3>Factory & Company</h3><a href="/custom-services/index.html">Custom Solutions</a><a href="/about/manufacturing.html">Manufacturing</a><a href="/about/quality-control.html">Quality Control</a><a href="/about/brand-factory/">Brand & Factory</a><a href="/about/index.html">About</a></div><div><h3>Contact</h3><a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a><a href="https://wa.me/8618632026595" target="_blank" rel="noopener noreferrer">+86 186 3202 6595</a><p>Target response time: within 24 hours</p></div></div><div class="copy"><a href="/privacy.html">Privacy Policy</a> · © 2026 HAIBU CRAFT. Factory wholesale inquiry website.</div></div></footer>`;
+  const footer = `<footer><div class="container"><div class="footer-grid"><div><img alt="HAIBU CRAFT" src="/assets/images/logo-haibu.webp" style="width:170px" decoding="async" loading="lazy"><p>Factory-direct slime charms and craft add-ins for distributors, craft brands, retailers and DIY kit wholesalers.</p></div><div><h3>Core Products</h3><a href="/products/slime-charms-wholesale.html">Slime Charms</a><a href="/products/polymer-clay-slices-wholesale.html">Polymer Clay Slices</a><a href="/products/resin-charms-for-slime.html">Resin Charms</a><a href="/products/sequins-glitter-confetti.html">Sequins &amp; Confetti</a></div><div><h3>Factory &amp; Company</h3><a href="/custom-services/index.html">Custom Solutions</a><a href="/about/manufacturing.html">Manufacturing</a><a href="/about/quality-control.html">Quality Control</a><a href="/about/brand-factory/">Brand &amp; Factory</a><a href="/about/index.html">About</a></div><div><h3>Contact</h3><a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a><a href="https://wa.me/8618632026595" target="_blank" rel="noopener noreferrer">+86 186 3202 6595</a><p>Target response time: within 24 hours</p></div></div><div class="copy"><a href="/privacy.html">Privacy Policy</a> · © 2026 HAIBU CRAFT. Factory wholesale inquiry website.</div></div></footer>`;
   if (/<footer\b[^>]*>[\s\S]*?<\/footer>/i.test(html)) return html.replace(/<footer\b[^>]*>[\s\S]*?<\/footer>/i, footer);
   return html.replace(/<\/body>/i, `${footer}</body>`);
 }
@@ -206,7 +196,7 @@ function addFormLabels(html) {
 function customizePage(html, file) {
   if (file === 'custom-services/index.html') {
     html = html.replace(/Home\s*\/\s*Custom Services/gi, 'Home / Custom Solutions');
-    html = html.replace(/<h1>Custom Services<\/h1>/i, '<h1>Custom Product & OEM Solutions</h1>');
+    html = html.replace(/<h1>Custom Services<\/h1>/i, '<h1>Custom Product &amp; OEM Solutions</h1>');
     html = html.replace('Support custom pack building, mix design, label upgrades and OEM communication for bulk inquiry projects.', 'Develop custom assortments, OEM mixes and private-label packaging with a clear buyer brief, sampling process and factory quotation workflow.');
     html = html.replace(/value=["']Custom Service Inquiry["']/i, 'value="Custom Solutions Inquiry"');
   }
@@ -219,10 +209,7 @@ function customizePage(html, file) {
 }
 
 function applySeo(html, file) {
-  if (file === '404.html') {
-    html = replaceOrInsertMeta(html, 'robots', 'noindex,follow');
-    return html;
-  }
+  if (file === '404.html') return replaceOrInsertMeta(html, 'robots', 'noindex,follow');
   const currentTitle = html.match(/<title>([\s\S]*?)<\/title>/i)?.[1]?.replace(/<[^>]+>/g, '').trim() || 'HAIBU CRAFT';
   const currentDescription = html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)["'][^>]*>/i)?.[1]
     || html.match(/<meta[^>]+content=["']([^"']*)["'][^>]+name=["']description["'][^>]*>/i)?.[1]
@@ -231,11 +218,10 @@ function applySeo(html, file) {
   const title = override.title || currentTitle;
   const description = override.description || currentDescription;
   const canonical = canonicalFor(file);
-
   html = replaceOrInsertTitle(html, title);
   html = replaceOrInsertMeta(html, 'description', description);
   html = replaceOrInsertCanonical(html, canonical);
-  html = replaceOrInsertProperty(html, 'og:type', 'website');
+  html = replaceOrInsertProperty(html, 'og:type', file.startsWith('blog/') && file !== 'blog/index.html' ? 'article' : 'website');
   html = replaceOrInsertProperty(html, 'og:site_name', 'HAIBU CRAFT');
   html = replaceOrInsertProperty(html, 'og:title', title);
   html = replaceOrInsertProperty(html, 'og:description', description);
@@ -250,16 +236,19 @@ function applySeo(html, file) {
 
 async function buildPage(file) {
   const filePath = path.join(ROOT, file);
+  const isJournal = file.startsWith('blog/');
   let html = await readFile(filePath, 'utf8');
   html = ensureBase(html);
   html = customizePage(html, file);
   html = applySeo(html, file);
-  html = replaceTopbar(html);
-  html = replaceNavigation(html, file);
-  html = replaceFooter(html);
+  if (!isJournal) {
+    html = replaceTopbar(html);
+    html = replaceNavigation(html, file);
+    html = replaceFooter(html);
+    html = ensureWhatsapp(html);
+    html = ensureMainScript(html);
+  }
   html = addFormLabels(html);
-  html = ensureWhatsapp(html);
-  html = ensureMainScript(html);
   return html;
 }
 

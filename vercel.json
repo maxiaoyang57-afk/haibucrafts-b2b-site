@@ -5,17 +5,57 @@
     "api/homepage-preview.js": {
       "includeFiles": "index.html"
     },
+    "api/site-preview.js": {
+      "includeFiles": "**/*.html"
+    },
     "api/site-audit.js": {
       "includeFiles": "**/*.{html,xml,txt}"
     }
   },
   "rewrites": [
-    {
-      "source": "/homepage-preview",
-      "destination": "/api/homepage-preview"
-    }
+    { "source": "/", "destination": "/api/site-preview?file=index.html" },
+    { "source": "/index.html", "destination": "/api/site-preview?file=index.html" },
+    { "source": "/homepage-preview", "destination": "/api/site-preview?file=index.html" },
+    { "source": "/404.html", "destination": "/api/site-preview?file=404.html" },
+    { "source": "/privacy.html", "destination": "/api/site-preview?file=privacy.html" },
+    { "source": "/about", "destination": "/api/site-preview?file=about/index.html" },
+    { "source": "/about/", "destination": "/api/site-preview?file=about/index.html" },
+    { "source": "/about/:path*", "destination": "/api/site-preview?file=about/:path*" },
+    { "source": "/applications/:path*", "destination": "/api/site-preview?file=applications/:path*" },
+    { "source": "/blog", "destination": "/api/site-preview?file=blog/index.html" },
+    { "source": "/blog/", "destination": "/api/site-preview?file=blog/index.html" },
+    { "source": "/blog/:path*", "destination": "/api/site-preview?file=blog/:path*" },
+    { "source": "/custom-services", "destination": "/api/site-preview?file=custom-services/index.html" },
+    { "source": "/custom-services/", "destination": "/api/site-preview?file=custom-services/index.html" },
+    { "source": "/custom-services/:path*", "destination": "/api/site-preview?file=custom-services/:path*" },
+    { "source": "/products", "destination": "/api/site-preview?file=products/index.html" },
+    { "source": "/products/", "destination": "/api/site-preview?file=products/index.html" },
+    { "source": "/products/:path*", "destination": "/api/site-preview?file=products/:path*" },
+    { "source": "/quote", "destination": "/api/site-preview?file=quote/index.html" },
+    { "source": "/quote/", "destination": "/api/site-preview?file=quote/index.html" },
+    { "source": "/quote/:path*", "destination": "/api/site-preview?file=quote/:path*" }
   ],
   "redirects": [
+    {
+      "source": "/manufacturing",
+      "destination": "/about/manufacturing.html",
+      "permanent": false
+    },
+    {
+      "source": "/manufacturing/",
+      "destination": "/about/manufacturing.html",
+      "permanent": false
+    },
+    {
+      "source": "/quality-control",
+      "destination": "/about/quality-control.html",
+      "permanent": false
+    },
+    {
+      "source": "/quality-control/",
+      "destination": "/about/quality-control.html",
+      "permanent": false
+    },
     {
       "source": "/products/plastic-sequins-wholesale.html",
       "destination": "/products/sequins-glitter-confetti.html",

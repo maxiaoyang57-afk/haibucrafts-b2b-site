@@ -20,6 +20,7 @@
     { "source": "/index.html", "destination": "/api/site-preview-safe?file=index.html" },
     { "source": "/homepage-preview", "destination": "/api/site-preview-safe?file=index.html" },
     { "source": "/preview-current", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/preview-page", "destination": "/api/site-preview-safe" },
     { "source": "/404.html", "destination": "/api/site-preview-safe?file=404.html" },
     { "source": "/privacy.html", "destination": "/api/site-preview-safe?file=privacy.html" },
     { "source": "/about", "destination": "/api/site-preview-safe?file=about/index.html" },

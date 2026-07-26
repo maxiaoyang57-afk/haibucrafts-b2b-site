@@ -57,13 +57,19 @@ function rewritePreviewHref(rawHref, currentFile) {
 }
 
 function sanitizeHtml(html, currentFile) {
-  return String(html)
+  let output = String(html)
     .replace(/<input([^>]*?)\/\s+aria-label="([^"]+)">/gi, (_match, attrs, label) => `<input${attrs} aria-label="${label.trim()}"/>`)
     .replace(/aria-label="\s+([^"]+)"/gi, (_match, label) => `aria-label="${label.trim()}"`)
     .replace(/<a\b([^>]*?)href=(['"])(.*?)\2([^>]*)>/gi, (_match, before, quote, href, after) => {
       const nextHref = rewritePreviewHref(href, currentFile);
       return `<a${before}href=${quote}${nextHref}${quote}${after}>`;
     });
+
+  if (currentFile.startsWith('blog/') && !/blog-original-images\.js/i.test(output)) {
+    output = output.replace(/<\/body>/i, '<script src="/assets/js/blog-original-images.js"></script></body>');
+  }
+
+  return output;
 }
 
 export default async function handler(req, res) {

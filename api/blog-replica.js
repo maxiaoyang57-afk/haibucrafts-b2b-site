@@ -58,6 +58,13 @@ function contentType(file) {
   return 'text/html; charset=utf-8';
 }
 
+function sanitizeExportedHtml(html) {
+  return String(html)
+    .replace(/<style[^>]*>[\s\S]*?wps_ai_link[\s\S]*?<\/style>/gi, '')
+    .replace(/<[^>]+class=["'][^"']*wps_ai_link[^"']*["'][^>]*>[\s\S]*?<\/[^>]+>/gi, '')
+    .replace(/\sdata-v-5122f198(?:=["'][^"']*["'])?/gi, '');
+}
+
 export default async function handler(req, res) {
   if (!['GET', 'HEAD'].includes(req.method || 'GET')) {
     res.setHeader('Allow', 'GET, HEAD');
@@ -69,19 +76,21 @@ export default async function handler(req, res) {
   try {
     const file = normalizeFile(req.query?.file);
     const bundle = await loadBundle();
-    const content = bundle[file];
+    const storedContent = bundle[file];
 
-    if (content === undefined) {
+    if (storedContent === undefined) {
       res.statusCode = 404;
       res.setHeader('Content-Type', 'text/plain; charset=utf-8');
       res.end('Page not found.');
       return;
     }
 
+    const content = file.endsWith('.html') ? sanitizeExportedHtml(storedContent) : storedContent;
     res.statusCode = 200;
     res.setHeader('Content-Type', contentType(file));
     res.setHeader('Cache-Control', 'no-store, max-age=0');
     res.setHeader('X-HAIBU-Blog-Replica', 'browser-export-v1');
+    res.setHeader('X-HAIBU-Export-Cleaned', 'wps-extension-removed');
     if (req.method === 'HEAD') res.end();
     else res.end(content);
   } catch (error) {

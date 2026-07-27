@@ -2,33 +2,16 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": false,
   "functions": {
-    "api/homepage-preview.js": {
-      "includeFiles": "index.html"
-    },
-    "api/site-preview.js": {
-      "includeFiles": "**/*.html"
-    },
-    "api/site-preview-safe.js": {
-      "includeFiles": "**/*.html"
-    },
-    "api/blog-sprite.js": {
-      "includeFiles": "assets/data/blog-sprite-*.txt"
-    },
-    "api/blog-replica.js": {
-      "includeFiles": "assets/data/blog-replica*.txt"
-    },
-    "api/blog-replica-check.js": {
-      "includeFiles": "assets/data/blog-replica*.txt"
-    },
-    "api/blog-preview-check.js": {
-      "includeFiles": "**/*.html"
-    },
-    "api/journal-check.js": {
-      "includeFiles": "**/*.html"
-    },
-    "api/site-audit.js": {
-      "includeFiles": "**/*.{html,xml,txt}"
-    }
+    "api/homepage-preview.js": { "includeFiles": "index.html" },
+    "api/site-preview.js": { "includeFiles": "**/*.html" },
+    "api/site-preview-safe.js": { "includeFiles": "**/*.html" },
+    "api/blog-sprite.js": { "includeFiles": "assets/data/blog-sprite-*.txt" },
+    "api/blog-replica.js": { "includeFiles": "assets/data/blog-replica*.txt" },
+    "api/blog-replica-check.js": { "includeFiles": "assets/data/blog-replica*.txt" },
+    "api/blog-replica-chunk-check.js": { "includeFiles": "assets/data/blog-replica*.txt" },
+    "api/blog-preview-check.js": { "includeFiles": "**/*.html" },
+    "api/journal-check.js": { "includeFiles": "**/*.html" },
+    "api/site-audit.js": { "includeFiles": "**/*.{html,xml,txt}" }
   },
   "rewrites": [
     { "source": "/", "destination": "/api/site-preview-safe?file=index.html" },

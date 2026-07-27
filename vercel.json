@@ -4,15 +4,77 @@
   "functions": {
     "api/homepage-preview.js": {
       "includeFiles": "index.html"
+    },
+    "api/site-preview.js": {
+      "includeFiles": "**/*.html"
+    },
+    "api/site-preview-safe.js": {
+      "includeFiles": "**/*.html"
+    },
+    "api/blog-sprite.js": {
+      "includeFiles": "assets/data/blog-sprite-*.txt"
+    },
+    "api/blog-preview-check.js": {
+      "includeFiles": "**/*.html"
+    },
+    "api/journal-check.js": {
+      "includeFiles": "**/*.html"
+    },
+    "api/site-audit.js": {
+      "includeFiles": "**/*.{html,xml,txt}"
     }
   },
   "rewrites": [
-    {
-      "source": "/homepage-preview",
-      "destination": "/api/homepage-preview"
-    }
+    { "source": "/", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/index.html", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/homepage-preview", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/preview-current", "destination": "/api/site-preview-safe?file=index.html" },
+    { "source": "/preview-page", "destination": "/api/site-preview-safe" },
+    { "source": "/404.html", "destination": "/api/site-preview-safe?file=404.html" },
+    { "source": "/privacy.html", "destination": "/api/site-preview-safe?file=privacy.html" },
+    { "source": "/about", "destination": "/api/site-preview-safe?file=about/index.html" },
+    { "source": "/about/", "destination": "/api/site-preview-safe?file=about/index.html" },
+    { "source": "/about/:path*", "destination": "/api/site-preview-safe?file=about/:path*" },
+    { "source": "/applications/:path*", "destination": "/api/site-preview-safe?file=applications/:path*" },
+    { "source": "/blog", "destination": "/api/site-preview-safe?file=blog/index.html" },
+    { "source": "/blog/", "destination": "/api/site-preview-safe?file=blog/index.html" },
+    { "source": "/blog/:path*", "destination": "/api/site-preview-safe?file=blog/:path*" },
+    { "source": "/custom-services", "destination": "/api/site-preview-safe?file=custom-services/index.html" },
+    { "source": "/custom-services/", "destination": "/api/site-preview-safe?file=custom-services/index.html" },
+    { "source": "/custom-services/:path*", "destination": "/api/site-preview-safe?file=custom-services/:path*" },
+    { "source": "/products", "destination": "/api/site-preview-safe?file=products/index.html" },
+    { "source": "/products/", "destination": "/api/site-preview-safe?file=products/index.html" },
+    { "source": "/products/:path*", "destination": "/api/site-preview-safe?file=products/:path*" },
+    { "source": "/quote", "destination": "/api/site-preview-safe?file=quote/index.html" },
+    { "source": "/quote/", "destination": "/api/site-preview-safe?file=quote/index.html" },
+    { "source": "/quote/:path*", "destination": "/api/site-preview-safe?file=quote/:path*" }
   ],
   "redirects": [
+    { "source": "/blog/tiny-worlds-big-ideas.html", "destination": "/blog/tiny-worlds-big-ideas/", "permanent": false },
+    { "source": "/blog/beyond-the-quote.html", "destination": "/blog/beyond-the-quote/", "permanent": false },
+    { "source": "/blog/global-craft-supply-blueprint.html", "destination": "/blog/global-craft-supply-blueprint/", "permanent": false },
+    { "source": "/blog/wholesale-slime-charms-sourcing-guide.html", "destination": "/blog/wholesale-slime-charms-sourcing-guide/", "permanent": false },
+    { "source": "/blog/from-sketch-to-shelf.html", "destination": "/blog/from-sketch-to-shelf/", "permanent": false },
+    {
+      "source": "/manufacturing",
+      "destination": "/about/manufacturing.html",
+      "permanent": false
+    },
+    {
+      "source": "/manufacturing/",
+      "destination": "/about/manufacturing.html",
+      "permanent": false
+    },
+    {
+      "source": "/quality-control",
+      "destination": "/about/quality-control.html",
+      "permanent": false
+    },
+    {
+      "source": "/quality-control/",
+      "destination": "/about/quality-control.html",
+      "permanent": false
+    },
     {
       "source": "/products/plastic-sequins-wholesale.html",
       "destination": "/products/sequins-glitter-confetti.html",
@@ -32,7 +94,8 @@
         { "key": "Permissions-Policy", "value": "camera=(self), microphone=(), geolocation=(), payment=()" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
         { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" }
+        { "key": "X-Frame-Options", "value": "DENY" },
+        { "key": "X-Robots-Tag", "value": "noindex" }
       ]
     }
   ]

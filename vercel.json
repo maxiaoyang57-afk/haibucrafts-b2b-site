@@ -14,6 +14,12 @@
     "api/blog-sprite.js": {
       "includeFiles": "assets/data/blog-sprite-*.txt"
     },
+    "api/blog-replica.js": {
+      "includeFiles": "assets/data/blog-replica*.txt"
+    },
+    "api/blog-replica-check.js": {
+      "includeFiles": "assets/data/blog-replica*.txt"
+    },
     "api/blog-preview-check.js": {
       "includeFiles": "**/*.html"
     },
@@ -30,15 +36,17 @@
     { "source": "/homepage-preview", "destination": "/api/site-preview-safe?file=index.html" },
     { "source": "/preview-current", "destination": "/api/site-preview-safe?file=index.html" },
     { "source": "/preview-page", "destination": "/api/site-preview-safe" },
+    { "source": "/assets/css/haibucraft-blog-original.css", "destination": "/api/blog-replica?file=assets/css/haibucraft-blog-original.css" },
+    { "source": "/assets/js/haibucraft-blog-original.js", "destination": "/api/blog-replica?file=assets/js/haibucraft-blog-original.js" },
     { "source": "/404.html", "destination": "/api/site-preview-safe?file=404.html" },
     { "source": "/privacy.html", "destination": "/api/site-preview-safe?file=privacy.html" },
     { "source": "/about", "destination": "/api/site-preview-safe?file=about/index.html" },
     { "source": "/about/", "destination": "/api/site-preview-safe?file=about/index.html" },
     { "source": "/about/:path*", "destination": "/api/site-preview-safe?file=about/:path*" },
     { "source": "/applications/:path*", "destination": "/api/site-preview-safe?file=applications/:path*" },
-    { "source": "/blog", "destination": "/api/site-preview-safe?file=blog/index.html" },
-    { "source": "/blog/", "destination": "/api/site-preview-safe?file=blog/index.html" },
-    { "source": "/blog/:path*", "destination": "/api/site-preview-safe?file=blog/:path*" },
+    { "source": "/blog", "destination": "/api/blog-replica?file=blog/index.html" },
+    { "source": "/blog/", "destination": "/api/blog-replica?file=blog/index.html" },
+    { "source": "/blog/:path*", "destination": "/api/blog-replica?file=blog/:path*" },
     { "source": "/custom-services", "destination": "/api/site-preview-safe?file=custom-services/index.html" },
     { "source": "/custom-services/", "destination": "/api/site-preview-safe?file=custom-services/index.html" },
     { "source": "/custom-services/:path*", "destination": "/api/site-preview-safe?file=custom-services/:path*" },
@@ -50,41 +58,25 @@
     { "source": "/quote/:path*", "destination": "/api/site-preview-safe?file=quote/:path*" }
   ],
   "redirects": [
-    { "source": "/blog/tiny-worlds-big-ideas.html", "destination": "/blog/tiny-worlds-big-ideas/", "permanent": false },
-    { "source": "/blog/beyond-the-quote.html", "destination": "/blog/beyond-the-quote/", "permanent": false },
-    { "source": "/blog/global-craft-supply-blueprint.html", "destination": "/blog/global-craft-supply-blueprint/", "permanent": false },
+    { "source": "/blog/tiny-worlds-big-ideas", "destination": "/blog/story-driven-slime-charm-collection-ideas/", "permanent": false },
+    { "source": "/blog/tiny-worlds-big-ideas/", "destination": "/blog/story-driven-slime-charm-collection-ideas/", "permanent": false },
+    { "source": "/blog/tiny-worlds-big-ideas.html", "destination": "/blog/story-driven-slime-charm-collection-ideas/", "permanent": false },
+    { "source": "/blog/beyond-the-quote", "destination": "/blog/customer-first-craft-supply-service/", "permanent": false },
+    { "source": "/blog/beyond-the-quote/", "destination": "/blog/customer-first-craft-supply-service/", "permanent": false },
+    { "source": "/blog/beyond-the-quote.html", "destination": "/blog/customer-first-craft-supply-service/", "permanent": false },
+    { "source": "/blog/global-craft-supply-blueprint", "destination": "/blog/haibucraft-global-craft-supply-blueprint/", "permanent": false },
+    { "source": "/blog/global-craft-supply-blueprint/", "destination": "/blog/haibucraft-global-craft-supply-blueprint/", "permanent": false },
+    { "source": "/blog/global-craft-supply-blueprint.html", "destination": "/blog/haibucraft-global-craft-supply-blueprint/", "permanent": false },
+    { "source": "/blog/from-sketch-to-shelf", "destination": "/blog/custom-slime-charms-oem-process/", "permanent": false },
+    { "source": "/blog/from-sketch-to-shelf/", "destination": "/blog/custom-slime-charms-oem-process/", "permanent": false },
+    { "source": "/blog/from-sketch-to-shelf.html", "destination": "/blog/custom-slime-charms-oem-process/", "permanent": false },
     { "source": "/blog/wholesale-slime-charms-sourcing-guide.html", "destination": "/blog/wholesale-slime-charms-sourcing-guide/", "permanent": false },
-    { "source": "/blog/from-sketch-to-shelf.html", "destination": "/blog/from-sketch-to-shelf/", "permanent": false },
-    {
-      "source": "/manufacturing",
-      "destination": "/about/manufacturing.html",
-      "permanent": false
-    },
-    {
-      "source": "/manufacturing/",
-      "destination": "/about/manufacturing.html",
-      "permanent": false
-    },
-    {
-      "source": "/quality-control",
-      "destination": "/about/quality-control.html",
-      "permanent": false
-    },
-    {
-      "source": "/quality-control/",
-      "destination": "/about/quality-control.html",
-      "permanent": false
-    },
-    {
-      "source": "/products/plastic-sequins-wholesale.html",
-      "destination": "/products/sequins-glitter-confetti.html",
-      "permanent": true
-    },
-    {
-      "source": "/products/resin-charms-wholesale.html",
-      "destination": "/products/resin-charms-for-slime.html",
-      "permanent": true
-    }
+    { "source": "/manufacturing", "destination": "/about/manufacturing.html", "permanent": false },
+    { "source": "/manufacturing/", "destination": "/about/manufacturing.html", "permanent": false },
+    { "source": "/quality-control", "destination": "/about/quality-control.html", "permanent": false },
+    { "source": "/quality-control/", "destination": "/about/quality-control.html", "permanent": false },
+    { "source": "/products/plastic-sequins-wholesale.html", "destination": "/products/sequins-glitter-confetti.html", "permanent": true },
+    { "source": "/products/resin-charms-wholesale.html", "destination": "/products/resin-charms-for-slime.html", "permanent": true }
   ],
   "headers": [
     {

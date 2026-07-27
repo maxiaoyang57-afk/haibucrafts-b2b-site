@@ -7,9 +7,25 @@ const PARTS = [
   'blog-replica-00.txt',
   'blog-replica-01.txt',
   'blog-replica-02.txt',
-  ...Array.from({ length: 16 }, (_, index) =>
-    `blog-replica-tail-${String(index).padStart(2, '0')}.txt`
-  )
+  'blog-replica-tail-00.txt',
+  'blog-replica-tail-01.txt',
+  'blog-replica-tail-02.txt',
+  'blog-replica-tail-03.txt',
+  'blog-replica-tail-04.txt',
+  'blog-replica-tail-05.txt',
+  'blog-replica-tail-06.txt',
+  'blog-replica-tail-07a.txt',
+  'blog-replica-tail-07b.txt',
+  'blog-replica-tail-07c.txt',
+  'blog-replica-tail-07d.txt',
+  'blog-replica-tail-08.txt',
+  'blog-replica-tail-09.txt',
+  'blog-replica-tail-10.txt',
+  'blog-replica-tail-11.txt',
+  'blog-replica-tail-12.txt',
+  'blog-replica-tail-13.txt',
+  'blog-replica-tail-14.txt',
+  'blog-replica-tail-15.txt'
 ];
 
 let bundleCache;

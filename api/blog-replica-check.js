@@ -60,10 +60,11 @@ export default async function handler(_req, res) {
   const checks = {
     allFilesStatus200: FILES.every(file => results[file].statusCode === 200),
     replicaHeaderPresent: FILES.every(file => results[file].headers.get('x-haibu-blog-replica') === 'browser-export-v1'),
+    exportCleaningHeaderPresent: FILES.filter(file => file.endsWith('.html')).every(file => results[file].headers.get('x-haibu-export-cleaned') === 'wps-extension-removed'),
     originalHomeCopy: expectedHomeCopy.every(text => home.includes(text)),
-    originalHomeStructure: ['site-header', 'blog-hero', 'featured', 'publishing-standard', 'inquiry-section', 'site-footer'].every(name => home.includes(name)),
+    originalHomeStructure: ['site-header', 'blog-hero', 'featured wrap', 'editorial-standard wrap', 'inquiry', 'compact-footer'].every(name => home.includes(name)),
     originalCreativeArticle: expectedCreativeSections.every(text => creative.includes(text)),
-    originalCss: ['.site-header', '.blog-hero', '.featured', '.article-page', '.back-to-top'].every(selector => css.includes(selector)),
+    originalCss: ['.site-header', '.blog-hero', '.featured', '.article-head', '.article-layout', '.article-copy', '.back-to-top'].every(selector => css.includes(selector)),
     originalInteractions: ['category', 'back-to-top'].every(token => js.includes(token)),
     originalSlugs: [
       '/blog/story-driven-slime-charm-collection-ideas/',
@@ -72,7 +73,7 @@ export default async function handler(_req, res) {
       '/blog/wholesale-slime-charms-sourcing-guide/',
       '/blog/custom-slime-charms-oem-process/'
     ].every(route => home.includes(route)),
-    noSavedExtensionArtifacts: !/wps_ai_link|chrome-extension:|moz-extension:|<iframe/i.test(home),
+    noSavedExtensionArtifacts: !/wps_ai_link|data-v-5122f198|chrome-extension:|moz-extension:|<iframe/i.test(home),
     cssUsesOriginalArtwork: css.includes("url('/api/blog-sprite')")
   };
 

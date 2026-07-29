@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /request-quote/
+Disallow: /api/
+Disallow: /v2-preview/
+
+Sitemap: https://www.haibucrafts.com/sitemap.xml

@@ -4,6 +4,13 @@
   const source = encodeURIComponent(page || 'site-v2');
   const landing = encodeURIComponent(window.location.pathname);
 
+  if (!document.querySelector('link[href$="footer-related-v2.css"]')) {
+    const stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = `${ROOT}assets/footer-related-v2.css`;
+    document.head.appendChild(stylesheet);
+  }
+
   const header = `
     <div class="topbar"><div class="container"><span>B2B wholesale · OEM/ODM · Private label · Export support</span><span><a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a></span></div></div>
     <header class="site-header"><div class="container navbar">

@@ -8,6 +8,7 @@ const errors = [];
 const warnings = [];
 const productCodes = new Map();
 const titles = new Map();
+const descriptions = new Map();
 let productCardCount = 0;
 
 async function walk(dir) {
@@ -75,20 +76,28 @@ for (const file of htmlFiles) {
   const relative = path.relative(root, file);
 
   if (!html.includes('meta name="robots" content="noindex,nofollow"')) {
-    warnings.push(`${relative}: preview page is missing noindex,nofollow`);
+    errors.push(`${relative}: preview page is missing noindex,nofollow`);
   }
 
   const title = html.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim();
   const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i)?.[1]?.trim();
   const h1Count = (html.match(/<h1\b/gi) || []).length;
+
   if (!title) errors.push(`${relative}: missing title`);
-  else if (title.length < 20 || title.length > 70) warnings.push(`${relative}: title length ${title.length} should usually be 20-70 characters`);
-  if (title) {
-    if (titles.has(title)) warnings.push(`${relative}: duplicate title also used by ${titles.get(title)}`);
+  else {
+    if (title.length < 25 || title.length > 65) warnings.push(`${relative}: title length ${title.length} should usually be 25-65 characters`);
+    if (!/HAIBUCRAFT/i.test(title)) warnings.push(`${relative}: title does not include HAIBUCRAFT`);
+    if (titles.has(title)) errors.push(`${relative}: duplicate title also used by ${titles.get(title)}`);
     else titles.set(title, relative);
   }
-  if (!description) warnings.push(`${relative}: missing meta description`);
-  else if (description.length < 70 || description.length > 180) warnings.push(`${relative}: description length ${description.length} should usually be 70-180 characters`);
+
+  if (!description) errors.push(`${relative}: missing meta description`);
+  else {
+    if (description.length < 90 || description.length > 165) warnings.push(`${relative}: description length ${description.length} should usually be 90-165 characters`);
+    if (descriptions.has(description)) errors.push(`${relative}: duplicate meta description also used by ${descriptions.get(description)}`);
+    else descriptions.set(description, relative);
+  }
+
   if (h1Count !== 1) errors.push(`${relative}: expected exactly one h1, found ${h1Count}`);
 
   for (const href of collectAttributes(html, 'href')) {
@@ -110,8 +119,10 @@ for (const file of htmlFiles) {
     const block = card[0];
     const code = block.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]?.trim();
     const image = block.match(/<img[^>]+src="([^"]+)"/)?.[1];
+    const alt = block.match(/<img[^>]+alt="([^"]*)"/)?.[1]?.trim();
     if (!code) errors.push(`${relative}: product card missing SKU badge`);
     if (!image) errors.push(`${relative}: product card ${code || '(unknown)'} missing image`);
+    if (!alt) errors.push(`${relative}: product card ${code || '(unknown)'} missing image alt text`);
     if (code) {
       if (productCodes.has(code)) errors.push(`${relative}: duplicate SKU ${code}; first seen in ${productCodes.get(code)}`);
       else productCodes.set(code, relative);
@@ -131,11 +142,11 @@ for (const [relative, expected] of expectedCounts) {
   if (actual !== expected) errors.push(`${relative}: expected ${expected} product cards, found ${actual}`);
 }
 
-console.log(`V2 audit: ${htmlFiles.length} HTML files, ${productCardCount} product cards, ${productCodes.size} unique SKUs.`);
+console.log(`V2 audit: ${htmlFiles.length} HTML files, ${productCardCount} product cards, ${productCodes.size} unique SKUs, ${titles.size} unique titles and ${descriptions.size} unique descriptions.`);
 for (const warning of warnings) console.warn(`WARNING: ${warning}`);
 if (errors.length) {
   for (const error of errors) console.error(`ERROR: ${error}`);
   process.exitCode = 1;
 } else {
-  console.log('V2 audit passed: no broken local links, missing product parameters, duplicate SKUs, count mismatches, missing titles or invalid H1 counts found.');
+  console.log('V2 audit passed: no broken local links, missing inquiry parameters, duplicate SKUs, count mismatches, missing SEO fields, duplicate metadata, invalid H1 counts or missing product alt text found.');
 }

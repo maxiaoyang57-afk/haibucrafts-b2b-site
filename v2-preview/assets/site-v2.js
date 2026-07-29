@@ -8,6 +8,22 @@
     });
   }
 
+  const productToggle = document.querySelector('.products-toggle');
+  const navGroup = productToggle?.closest('.nav-group');
+  if (productToggle && navGroup) {
+    productToggle.addEventListener('click', (event) => {
+      event.preventDefault();
+      const open = navGroup.classList.toggle('dropdown-open');
+      productToggle.setAttribute('aria-expanded', String(open));
+    });
+    document.addEventListener('click', (event) => {
+      if (!navGroup.contains(event.target)) {
+        navGroup.classList.remove('dropdown-open');
+        productToggle.setAttribute('aria-expanded', 'false');
+      }
+    });
+  }
+
   const backTop = document.querySelector('.back-top');
   if (backTop) {
     const update = () => backTop.classList.toggle('show', window.scrollY > 500);

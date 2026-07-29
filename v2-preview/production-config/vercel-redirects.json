@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/products/slime-charms-wholesale.html", "destination": "/products/slime-charms-wholesale/", "permanent": true },
+    { "source": "/products/polymer-clay-slices-wholesale.html", "destination": "/products/polymer-clay-slices-wholesale/", "permanent": true },
+    { "source": "/products/resin-charms-for-slime.html", "destination": "/products/resin-charms-for-slime/", "permanent": true },
+    { "source": "/products/sequins-glitter-confetti.html", "destination": "/products/sequins-glitter-confetti/", "permanent": true },
+    { "source": "/products/plastic-sequins-wholesale.html", "destination": "/products/sequins-glitter-confetti/", "permanent": true },
+    { "source": "/products/resin-charms-wholesale.html", "destination": "/products/resin-charms-for-slime/", "permanent": true },
+    { "source": "/custom-services/", "destination": "/custom-solutions/", "permanent": true },
+    { "source": "/quote/", "destination": "/request-quote/", "permanent": true },
+    { "source": "/haibu-manufacturing/", "destination": "/manufacturing/", "permanent": true },
+    { "source": "/haibu-quality-control/", "destination": "/quality-control/", "permanent": true }
+  ]
+}

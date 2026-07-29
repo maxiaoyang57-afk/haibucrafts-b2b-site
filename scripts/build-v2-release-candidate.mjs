@@ -11,8 +11,6 @@ const migrationMap = JSON.parse(await readFile(path.join(sourceRoot, 'production
 await rm(outRoot, { recursive: true, force: true });
 await mkdir(outRoot, { recursive: true });
 
-const routeMap = new Map(seoMap.routes.map((route) => [route.previewPath, route]));
-
 function destinationFile(productionPath) {
   if (productionPath === '/') return path.join(outRoot, 'index.html');
   return path.join(outRoot, productionPath.slice(1), 'index.html');
@@ -20,6 +18,7 @@ function destinationFile(productionPath) {
 
 function replacePaths(html) {
   return html
+    .replace(/(["'])(?:\.\.\/)*assets\//gi, '$1/assets/v2/')
     .replaceAll('/v2-preview/assets/', '/assets/v2/')
     .replaceAll('/v2-preview/products/slime-charms/', '/products/slime-charms-wholesale/')
     .replaceAll('/v2-preview/products/polymer-clay-slices/', '/products/polymer-clay-slices-wholesale/')
@@ -45,7 +44,9 @@ function applyProductionMetadata(html, route) {
     .replace(/<title>[^<]*<\/title>/i, `<title>${route.title}</title>`)
     .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="description" content="${route.description}">`)
     .replace(/<meta\s+name=["']robots["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="robots" content="${robots}">`)
-    .replaceAll('Preview branch only. Not published to production.', 'Wholesale craft supply and B2B sourcing support.');
+    .replaceAll('Preview branch only. Not published to production.', 'Wholesale craft supply and B2B sourcing support.')
+    .replaceAll('Site V2 Preview', 'HAIBUCRAFT')
+    .replaceAll('V2 Preview', 'HAIBUCRAFT');
 
   if (!/<link\s+rel=["']canonical["']/i.test(next)) {
     next = next.replace('</head>', `<link rel="canonical" href="${canonical}"></head>`);
@@ -75,6 +76,7 @@ await writeFile(path.join(outRoot, 'release-manifest.json'), JSON.stringify({
   source: 'site-v2-integrated-preview',
   routes: seoMap.routes.map(({ previewPath, productionPath, index }) => ({ previewPath, productionPath, index })),
   migrationVersion: migrationMap.version || 'unspecified',
+  quoteMode: 'validation-only',
   productionPublished: false
 }, null, 2));
 

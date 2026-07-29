@@ -7,6 +7,7 @@ on:
     paths:
       - 'v2-preview/**'
       - 'scripts/build-v2-release-candidate.mjs'
+      - 'scripts/audit-v2-release-candidate.mjs'
       - '.github/workflows/build-v2-release-candidate.yml'
   workflow_dispatch:
 
@@ -31,6 +32,9 @@ jobs:
       - name: Generate production release candidate
         run: node scripts/build-v2-release-candidate.mjs
 
+      - name: Run release candidate audit
+        run: node scripts/audit-v2-release-candidate.mjs
+
       - name: Reject preview paths and preview copy
         shell: bash
         run: |
@@ -49,6 +53,7 @@ jobs:
           test -f .release-candidate/site-v2/products/resin-charms-for-slime/index.html
           test -f .release-candidate/site-v2/products/sequins-glitter-confetti/index.html
           test -f .release-candidate/site-v2/request-quote/index.html
+          test -f .release-candidate/site-v2/assets/v2/quote-runtime-config.js
           test -f .release-candidate/site-v2/sitemap.xml
           test -f .release-candidate/site-v2/robots.txt
           test -f .release-candidate/site-v2/release-manifest.json

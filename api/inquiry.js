@@ -37,6 +37,8 @@ const LABELS = {
   attribution_campaign: 'UTM Campaign',
   attribution_content: 'UTM Content',
   attribution_term: 'UTM Search Term',
+  article: 'Source Article',
+  product_image: 'Product Image',
   first_landing_page: 'First Landing Page',
   first_referrer: 'First Referrer',
   first_visit_at: 'First Visit (UTC)',

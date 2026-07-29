@@ -2,6 +2,8 @@
   const form = document.querySelector('[data-quote-form]');
   if (!form) return;
 
+  const config = window.HAIBU_QUOTE_CONFIG || {};
+  const liveMode = config.mode === 'live' && config.endpoint === '/api/inquiry';
   const params = new URLSearchParams(window.location.search);
   const value = (key, fallback = '') => params.get(key) || fallback;
   const setValue = (id, nextValue) => {
@@ -37,10 +39,44 @@
     quoteContext.hidden = false;
   }
 
-  form.addEventListener('submit', (event) => {
+  const upload = form.querySelector('input[type="file"][name="reference_images"]');
+  if (upload && liveMode && config.enableReferenceUploads === true) upload.disabled = false;
+
+  form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const status = document.getElementById('formStatus');
+    const submitButton = form.querySelector('button[type="submit"]');
     if (!form.reportValidity()) return;
-    if (status) status.textContent = 'Preview validation passed — no inquiry was sent.';
+
+    if (!liveMode) {
+      if (status) status.textContent = 'Validation passed — inquiry sending remains disabled in this release candidate.';
+      return;
+    }
+
+    const selectedFiles = upload ? [...upload.files] : [];
+    const maxFiles = Number(config.maxReferenceImages || 4);
+    if (selectedFiles.length > maxFiles) {
+      if (status) status.textContent = `Please attach no more than ${maxFiles} reference images.`;
+      return;
+    }
+
+    if (submitButton) submitButton.disabled = true;
+    if (status) status.textContent = 'Sending inquiry…';
+
+    try {
+      const response = await fetch(config.endpoint, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { Accept: 'application/json' }
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok || payload.ok === false) throw new Error(payload.error || 'Inquiry could not be sent.');
+      form.reset();
+      if (status) status.textContent = 'Inquiry sent successfully. Our sales team will review the submitted requirements.';
+    } catch (error) {
+      if (status) status.textContent = error instanceof Error ? error.message : 'Inquiry could not be sent.';
+    } finally {
+      if (submitButton) submitButton.disabled = false;
+    }
   });
 })();

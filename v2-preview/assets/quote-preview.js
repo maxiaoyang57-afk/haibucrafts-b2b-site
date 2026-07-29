@@ -40,12 +40,29 @@
   }
 
   const upload = form.querySelector('input[type="file"][name="reference_images"]');
+  const submitButton = form.querySelector('button[type="submit"]');
+  if (submitButton) submitButton.textContent = liveMode ? 'Send Quote Request' : 'Validate Quote Request';
   if (upload && liveMode && config.enableReferenceUploads === true) upload.disabled = false;
+
+  const arrayBufferToBase64 = (buffer) => {
+    const bytes = new Uint8Array(buffer);
+    let binary = '';
+    const chunkSize = 0x8000;
+    for (let index = 0; index < bytes.length; index += chunkSize) {
+      binary += String.fromCharCode(...bytes.subarray(index, index + chunkSize));
+    }
+    return btoa(binary);
+  };
+
+  const fileToAttachment = async (file) => ({
+    filename: file.name,
+    contentType: file.type,
+    content: arrayBufferToBase64(await file.arrayBuffer())
+  });
 
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
     const status = document.getElementById('formStatus');
-    const submitButton = form.querySelector('button[type="submit"]');
     if (!form.reportValidity()) return;
 
     if (!liveMode) {
@@ -59,18 +76,37 @@
       if (status) status.textContent = `Please attach no more than ${maxFiles} reference images.`;
       return;
     }
+    if (selectedFiles.some((file) => file.size > 800000)) {
+      if (status) status.textContent = 'Each reference image must be 800 KB or smaller.';
+      return;
+    }
+    if (selectedFiles.reduce((sum, file) => sum + file.size, 0) > 2800000) {
+      if (status) status.textContent = 'Reference images must total 2.8 MB or less.';
+      return;
+    }
 
     if (submitButton) submitButton.disabled = true;
     if (status) status.textContent = 'Sending inquiry…';
 
     try {
+      const formData = new FormData(form);
+      const fields = {};
+      for (const [key, entryValue] of formData.entries()) {
+        if (key === 'reference_images' || key === '_company_fax' || typeof entryValue !== 'string') continue;
+        fields[key] = entryValue;
+      }
+      const attachments = await Promise.all(selectedFiles.map(fileToAttachment));
       const response = await fetch(config.endpoint, {
         method: 'POST',
-        body: new FormData(form),
-        headers: { Accept: 'application/json' }
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          fields,
+          attachments,
+          _company_fax: String(formData.get('_company_fax') || '')
+        })
       });
       const payload = await response.json().catch(() => ({}));
-      if (!response.ok || payload.ok === false) throw new Error(payload.error || 'Inquiry could not be sent.');
+      if (!response.ok || payload.ok === false) throw new Error(payload.message || 'Inquiry could not be sent.');
       form.reset();
       if (status) status.textContent = 'Inquiry sent successfully. Our sales team will review the submitted requirements.';
     } catch (error) {

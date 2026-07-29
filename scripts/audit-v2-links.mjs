@@ -7,6 +7,7 @@ const previewRoot = path.join(root, 'v2-preview');
 const errors = [];
 const warnings = [];
 const productCodes = new Map();
+const titles = new Map();
 let productCardCount = 0;
 
 async function walk(dir) {
@@ -77,6 +78,19 @@ for (const file of htmlFiles) {
     warnings.push(`${relative}: preview page is missing noindex,nofollow`);
   }
 
+  const title = html.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim();
+  const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i)?.[1]?.trim();
+  const h1Count = (html.match(/<h1\b/gi) || []).length;
+  if (!title) errors.push(`${relative}: missing title`);
+  else if (title.length < 20 || title.length > 70) warnings.push(`${relative}: title length ${title.length} should usually be 20-70 characters`);
+  if (title) {
+    if (titles.has(title)) warnings.push(`${relative}: duplicate title also used by ${titles.get(title)}`);
+    else titles.set(title, relative);
+  }
+  if (!description) warnings.push(`${relative}: missing meta description`);
+  else if (description.length < 70 || description.length > 180) warnings.push(`${relative}: description length ${description.length} should usually be 70-180 characters`);
+  if (h1Count !== 1) errors.push(`${relative}: expected exactly one h1, found ${h1Count}`);
+
   for (const href of collectAttributes(html, 'href')) {
     if (isExternal(href) || href.startsWith('#')) continue;
     checkQuoteLink(relative, href);
@@ -123,5 +137,5 @@ if (errors.length) {
   for (const error of errors) console.error(`ERROR: ${error}`);
   process.exitCode = 1;
 } else {
-  console.log('V2 audit passed: no broken local links, missing product parameters, duplicate SKUs or count mismatches found.');
+  console.log('V2 audit passed: no broken local links, missing product parameters, duplicate SKUs, count mismatches, missing titles or invalid H1 counts found.');
 }

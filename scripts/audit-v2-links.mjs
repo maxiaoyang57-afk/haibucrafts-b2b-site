@@ -82,22 +82,19 @@ for (const file of htmlFiles) {
   const title = html.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim();
   const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i)?.[1]?.trim();
   const h1Count = (html.match(/<h1\b/gi) || []).length;
-
   if (!title) errors.push(`${relative}: missing title`);
   else {
     if (title.length < 25 || title.length > 65) warnings.push(`${relative}: title length ${title.length} should usually be 25-65 characters`);
-    if (!/HAIBUCRAFT/i.test(title)) warnings.push(`${relative}: title does not include HAIBUCRAFT`);
+    if (!title.includes('HAIBUCRAFT')) errors.push(`${relative}: title must include HAIBUCRAFT`);
     if (titles.has(title)) errors.push(`${relative}: duplicate title also used by ${titles.get(title)}`);
     else titles.set(title, relative);
   }
-
   if (!description) errors.push(`${relative}: missing meta description`);
   else {
     if (description.length < 90 || description.length > 165) warnings.push(`${relative}: description length ${description.length} should usually be 90-165 characters`);
-    if (descriptions.has(description)) errors.push(`${relative}: duplicate meta description also used by ${descriptions.get(description)}`);
+    if (descriptions.has(description)) errors.push(`${relative}: duplicate description also used by ${descriptions.get(description)}`);
     else descriptions.set(description, relative);
   }
-
   if (h1Count !== 1) errors.push(`${relative}: expected exactly one h1, found ${h1Count}`);
 
   for (const href of collectAttributes(html, 'href')) {
@@ -118,11 +115,12 @@ for (const file of htmlFiles) {
   for (const card of cards) {
     const block = card[0];
     const code = block.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]?.trim();
-    const image = block.match(/<img[^>]+src="([^"]+)"/)?.[1];
-    const alt = block.match(/<img[^>]+alt="([^"]*)"/)?.[1]?.trim();
+    const imageTag = block.match(/<img\b[^>]*>/i)?.[0];
+    const image = imageTag?.match(/src="([^"]+)"/)?.[1];
+    const alt = imageTag?.match(/alt="([^"]*)"/)?.[1]?.trim();
     if (!code) errors.push(`${relative}: product card missing SKU badge`);
     if (!image) errors.push(`${relative}: product card ${code || '(unknown)'} missing image`);
-    if (!alt) errors.push(`${relative}: product card ${code || '(unknown)'} missing image alt text`);
+    if (!alt) errors.push(`${relative}: product card ${code || '(unknown)'} image missing alt text`);
     if (code) {
       if (productCodes.has(code)) errors.push(`${relative}: duplicate SKU ${code}; first seen in ${productCodes.get(code)}`);
       else productCodes.set(code, relative);
@@ -142,11 +140,40 @@ for (const [relative, expected] of expectedCounts) {
   if (actual !== expected) errors.push(`${relative}: expected ${expected} product cards, found ${actual}`);
 }
 
-console.log(`V2 audit: ${htmlFiles.length} HTML files, ${productCardCount} product cards, ${productCodes.size} unique SKUs, ${titles.size} unique titles and ${descriptions.size} unique descriptions.`);
+const seoMapPath = path.join(previewRoot, 'seo-production-map.json');
+const seoMap = JSON.parse(await readFile(seoMapPath, 'utf8'));
+const productionPaths = new Map();
+const productionTitles = new Map();
+const productionDescriptions = new Map();
+for (const route of seoMap.routes || []) {
+  const label = route.previewPath || '(missing previewPath)';
+  if (!route.previewPath?.startsWith('/v2-preview/')) errors.push(`seo-production-map.json: invalid previewPath for ${label}`);
+  if (!route.productionPath?.startsWith('/')) errors.push(`seo-production-map.json: invalid productionPath for ${label}`);
+  if (!route.title || route.title.length < 25 || route.title.length > 65) errors.push(`seo-production-map.json: title length invalid for ${label}`);
+  if (!route.title?.includes('HAIBUCRAFT')) errors.push(`seo-production-map.json: title missing HAIBUCRAFT for ${label}`);
+  if (!route.description || route.description.length < 90 || route.description.length > 165) errors.push(`seo-production-map.json: description length invalid for ${label}`);
+  if (!['website', 'article'].includes(route.type)) errors.push(`seo-production-map.json: invalid type for ${label}`);
+  if (typeof route.index !== 'boolean') errors.push(`seo-production-map.json: index must be boolean for ${label}`);
+  if (productionPaths.has(route.productionPath)) errors.push(`seo-production-map.json: duplicate productionPath ${route.productionPath}`);
+  else productionPaths.set(route.productionPath, label);
+  if (productionTitles.has(route.title)) errors.push(`seo-production-map.json: duplicate title for ${label}`);
+  else productionTitles.set(route.title, label);
+  if (productionDescriptions.has(route.description)) errors.push(`seo-production-map.json: duplicate description for ${label}`);
+  else productionDescriptions.set(route.description, label);
+  const previewTarget = resolveLocal(path.join(previewRoot, 'index.html'), route.previewPath);
+  if (previewTarget && !await exists(previewTarget)) errors.push(`seo-production-map.json: preview route missing ${route.previewPath}`);
+}
+for (const redirect of seoMap.redirects || []) {
+  if (!redirect.from?.startsWith('/') || !redirect.to?.startsWith('/')) errors.push('seo-production-map.json: redirect paths must start with /');
+  if (redirect.status !== 301) errors.push(`seo-production-map.json: redirect ${redirect.from} must use 301`);
+  if (!productionPaths.has(redirect.to)) errors.push(`seo-production-map.json: redirect target not found in production routes: ${redirect.to}`);
+}
+
+console.log(`V2 audit: ${htmlFiles.length} HTML files, ${productCardCount} product cards, ${productCodes.size} unique SKUs, ${productionPaths.size} production SEO routes.`);
 for (const warning of warnings) console.warn(`WARNING: ${warning}`);
 if (errors.length) {
   for (const error of errors) console.error(`ERROR: ${error}`);
   process.exitCode = 1;
 } else {
-  console.log('V2 audit passed: no broken local links, missing inquiry parameters, duplicate SKUs, count mismatches, missing SEO fields, duplicate metadata, invalid H1 counts or missing product alt text found.');
+  console.log('V2 audit passed: links, assets, inquiry parameters, product data, preview SEO and production SEO mapping are valid.');
 }

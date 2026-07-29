@@ -8,6 +8,7 @@ on:
       - 'v2-preview/**'
       - 'scripts/build-v2-release-candidate.mjs'
       - 'scripts/audit-v2-release-candidate.mjs'
+      - 'scripts/generate-v2-acceptance-report.mjs'
       - '.github/workflows/build-v2-release-candidate.yml'
   workflow_dispatch:
 
@@ -35,6 +36,9 @@ jobs:
       - name: Run release candidate audit
         run: node scripts/audit-v2-release-candidate.mjs
 
+      - name: Generate acceptance report
+        run: node scripts/generate-v2-acceptance-report.mjs
+
       - name: Reject preview paths and preview copy
         shell: bash
         run: |
@@ -57,6 +61,22 @@ jobs:
           test -f .release-candidate/site-v2/sitemap.xml
           test -f .release-candidate/site-v2/robots.txt
           test -f .release-candidate/site-v2/release-manifest.json
+          test -f .release-candidate/site-v2/acceptance-report.md
+
+      - name: Write workflow summary
+        shell: bash
+        run: |
+          {
+            echo '## HAIBUCRAFT V2 Release Candidate'
+            echo ''
+            echo '- Source audit: passed'
+            echo '- Production-path audit: passed'
+            echo '- Quote mode: validation-only'
+            echo '- Production published: false'
+            echo '- Artifact: haibucrafts-site-v2-release-candidate'
+            echo ''
+            cat .release-candidate/site-v2/acceptance-report.md
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload release candidate artifact
         uses: actions/upload-artifact@v4

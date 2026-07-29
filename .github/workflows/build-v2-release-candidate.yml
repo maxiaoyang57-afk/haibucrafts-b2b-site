@@ -1,0 +1,62 @@
+name: Build V2 Release Candidate
+
+on:
+  push:
+    branches:
+      - site-v2-integrated-preview
+    paths:
+      - 'v2-preview/**'
+      - 'scripts/build-v2-release-candidate.mjs'
+      - '.github/workflows/build-v2-release-candidate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-release-candidate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout preview branch
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run V2 source audit
+        run: node scripts/audit-v2-links.mjs
+
+      - name: Generate production release candidate
+        run: node scripts/build-v2-release-candidate.mjs
+
+      - name: Reject preview paths and preview copy
+        shell: bash
+        run: |
+          if grep -RInE '/v2-preview/|Site V2 Preview|Preview branch only|noindex,nofollow' .release-candidate/site-v2 --include='*.html'; then
+            echo 'Release candidate still contains preview-only paths, metadata or copy.'
+            exit 1
+          fi
+
+      - name: Verify required production files
+        shell: bash
+        run: |
+          test -f .release-candidate/site-v2/index.html
+          test -f .release-candidate/site-v2/products/index.html
+          test -f .release-candidate/site-v2/products/slime-charms-wholesale/index.html
+          test -f .release-candidate/site-v2/products/polymer-clay-slices-wholesale/index.html
+          test -f .release-candidate/site-v2/products/resin-charms-for-slime/index.html
+          test -f .release-candidate/site-v2/products/sequins-glitter-confetti/index.html
+          test -f .release-candidate/site-v2/request-quote/index.html
+          test -f .release-candidate/site-v2/sitemap.xml
+          test -f .release-candidate/site-v2/robots.txt
+          test -f .release-candidate/site-v2/release-manifest.json
+
+      - name: Upload release candidate artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: haibucrafts-site-v2-release-candidate
+          path: .release-candidate/site-v2
+          if-no-files-found: error
+          retention-days: 14

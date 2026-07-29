@@ -1,0 +1,60 @@
+{
+  "version": "2026-07-29",
+  "sourceBranch": "site-v2-integrated-preview",
+  "productionBranch": "main",
+  "requiresExplicitApproval": true,
+  "pages": [
+    { "source": "v2-preview/index.html", "destination": "index.html", "action": "replace", "productionPath": "/" },
+    { "source": "v2-preview/products/index.html", "destination": "products/index.html", "action": "replace", "productionPath": "/products/" },
+    { "source": "v2-preview/products/slime-charms/index.html", "destination": "products/slime-charms-wholesale/index.html", "action": "create", "productionPath": "/products/slime-charms-wholesale/" },
+    { "source": "v2-preview/products/polymer-clay-slices/index.html", "destination": "products/polymer-clay-slices-wholesale/index.html", "action": "create", "productionPath": "/products/polymer-clay-slices-wholesale/" },
+    { "source": "v2-preview/products/resin-charms/index.html", "destination": "products/resin-charms-for-slime/index.html", "action": "create", "productionPath": "/products/resin-charms-for-slime/" },
+    { "source": "v2-preview/products/sequins-glitter-confetti/index.html", "destination": "products/sequins-glitter-confetti/index.html", "action": "create", "productionPath": "/products/sequins-glitter-confetti/" },
+    { "source": "v2-preview/custom-solutions/index.html", "destination": "custom-solutions/index.html", "action": "create", "productionPath": "/custom-solutions/" },
+    { "source": "v2-preview/manufacturing/index.html", "destination": "manufacturing/index.html", "action": "replace", "productionPath": "/manufacturing/" },
+    { "source": "v2-preview/quality-control/index.html", "destination": "quality-control/index.html", "action": "replace", "productionPath": "/quality-control/" },
+    { "source": "v2-preview/about/index.html", "destination": "about/index.html", "action": "replace", "productionPath": "/about/" },
+    { "source": "v2-preview/blog/index.html", "destination": "blog/index.html", "action": "replace", "productionPath": "/blog/" },
+    { "source": "v2-preview/blog/how-to-prepare-a-wholesale-product-brief/index.html", "destination": "blog/how-to-prepare-a-wholesale-product-brief/index.html", "action": "create", "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/" },
+    { "source": "v2-preview/blog/sample-approval-checklist/index.html", "destination": "blog/sample-approval-checklist/index.html", "action": "create", "productionPath": "/blog/sample-approval-checklist/" },
+    { "source": "v2-preview/blog/packaging-quality-checkpoints/index.html", "destination": "blog/packaging-quality-checkpoints/index.html", "action": "create", "productionPath": "/blog/packaging-quality-checkpoints/" },
+    { "source": "v2-preview/quote/index.html", "destination": "request-quote/index.html", "action": "create", "productionPath": "/request-quote/", "index": false },
+    { "source": "v2-preview/404.html", "destination": "404.html", "action": "replace", "productionPath": null, "index": false }
+  ],
+  "sharedAssets": [
+    { "source": "v2-preview/assets/components.js", "destination": "assets/v2/components.js" },
+    { "source": "v2-preview/assets/site-v2.js", "destination": "assets/v2/site-v2.js" },
+    { "source": "v2-preview/assets/product-category.js", "destination": "assets/v2/product-category.js" },
+    { "source": "v2-preview/assets/quote-preview.js", "destination": "assets/v2/quote.js", "requiresActivationReview": true },
+    { "source": "v2-preview/assets/site-v2.css", "destination": "assets/v2/site-v2.css" },
+    { "source": "v2-preview/assets/site-v2-fixes.css", "destination": "assets/v2/site-v2-fixes.css" },
+    { "source": "v2-preview/assets/footer-related-v2.css", "destination": "assets/v2/footer-related.css" },
+    { "source": "v2-preview/assets/quote-v2.css", "destination": "assets/v2/quote.css" },
+    { "source": "v2-preview/assets/next-round.css", "destination": "assets/v2/next-round.css" },
+    { "source": "v2-preview/assets/facility/facility-exterior.svg", "destination": "assets/images/facility/facility-exterior.svg" }
+  ],
+  "rootConfig": [
+    { "source": "v2-preview/production-config/sitemap.xml", "destination": "sitemap.xml", "action": "replace" },
+    { "source": "v2-preview/production-config/robots.txt", "destination": "robots.txt", "action": "replace" },
+    { "source": "v2-preview/production-config/vercel-redirects.json", "destination": "vercel.json", "action": "merge-not-replace", "note": "Preserve existing security headers and merge redirects." }
+  ],
+  "legacyRoutes": [
+    { "path": "/products/slime-charms-wholesale.html", "action": "301" },
+    { "path": "/products/polymer-clay-slices-wholesale.html", "action": "301" },
+    { "path": "/products/resin-charms-for-slime.html", "action": "301" },
+    { "path": "/products/sequins-glitter-confetti.html", "action": "301" },
+    { "path": "/products/plastic-sequins-wholesale.html", "action": "301" },
+    { "path": "/products/resin-charms-wholesale.html", "action": "301" },
+    { "path": "/custom-services/", "action": "301" },
+    { "path": "/quote/", "action": "301" }
+  ],
+  "blockedBeforeRelease": [
+    "Do not publish MA022 until its image is verified.",
+    "Resolve RW2666 catalog discrepancy before adding or replacing a resin product.",
+    "Replace all /v2-preview/ internal references with production paths.",
+    "Remove preview-only copy and noindex from indexable production pages.",
+    "Activate real /api/inquiry submission only after email and attachment tests.",
+    "Preserve existing Content-Security-Policy and security headers in vercel.json.",
+    "Run production-path link, image, metadata and redirect audit before merge."
+  ]
+}

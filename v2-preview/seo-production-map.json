@@ -1,0 +1,135 @@
+{
+  "site": {
+    "origin": "https://www.haibucrafts.com",
+    "brand": "HAIBUCRAFT",
+    "defaultOgImage": "/assets/images/logo-haibu.webp"
+  },
+  "routes": [
+    {
+      "previewPath": "/v2-preview/",
+      "productionPath": "/",
+      "title": "Wholesale Slime & Craft Supplies | HAIBUCRAFT",
+      "description": "Source wholesale slime charms, polymer clay slices, resin charms, sequins and custom packaging with HAIBUCRAFT B2B project support.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/products/",
+      "productionPath": "/products/",
+      "title": "Wholesale Slime and Craft Products | HAIBUCRAFT",
+      "description": "Browse HAIBUCRAFT wholesale slime charms, polymer clay slices, resin charms, sequins and glitter confetti for B2B sourcing programs.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/products/slime-charms/",
+      "productionPath": "/products/slime-charms-wholesale/",
+      "title": "Slime Charms Wholesale Supplier | HAIBUCRAFT",
+      "description": "Browse wholesale slime charms and themed decorative add-ins for slime brands, retailers, importers, DIY kits and private-label programs.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/products/polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/",
+      "title": "Polymer Clay Slices Wholesale | HAIBUCRAFT",
+      "description": "Source wholesale polymer clay slices for slime, nail art, resin crafts, shaker fillers, DIY kits and custom mixed assortments.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/products/resin-charms/",
+      "productionPath": "/products/resin-charms-for-slime/",
+      "title": "Resin Charms for Slime Wholesale | HAIBUCRAFT",
+      "description": "Browse wholesale resin charms and flatback decorative pieces for slime, decoden, craft kits, retailers and private-label sourcing.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/products/sequins-glitter-confetti/",
+      "productionPath": "/products/sequins-glitter-confetti/",
+      "title": "Sequins and Glitter Confetti Wholesale | HAIBUCRAFT",
+      "description": "Source shaped sequins, holographic glitter and decorative confetti for slime, nail art, shaker fillers, resin crafts and DIY kits.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/custom-solutions/",
+      "productionPath": "/custom-solutions/",
+      "title": "Custom Craft Supply and Private Label Solutions | HAIBUCRAFT",
+      "description": "Plan custom product assortments, sample review, private-label packaging and B2B craft supply projects with HAIBUCRAFT.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/manufacturing/",
+      "productionPath": "/manufacturing/",
+      "title": "Manufacturing and Supply Coordination | HAIBUCRAFT",
+      "description": "Review HAIBUCRAFT production coordination, SKU handling, packing preparation, warehouse operations and export-support workflow.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/quality-control/",
+      "productionPath": "/quality-control/",
+      "title": "Quality Control for Wholesale Craft Orders | HAIBUCRAFT",
+      "description": "Review requirement confirmation, sample control, appearance checks, quantity verification, packaging review and documentation scope.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/about/",
+      "productionPath": "/about/",
+      "title": "About HAIBUCRAFT Wholesale Craft Supply",
+      "description": "Learn how HAIBUCRAFT coordinates wholesale craft sourcing, custom projects, factory resources, packaging and export communication from Yiwu.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/",
+      "productionPath": "/blog/",
+      "title": "Wholesale Craft Supply Buying Guides | HAIBUCRAFT",
+      "description": "Read practical HAIBUCRAFT guides about wholesale product briefs, sample approval, packaging, quality checkpoints and custom sourcing.",
+      "type": "website",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/",
+      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
+      "title": "How to Prepare a Wholesale Product Brief | HAIBUCRAFT",
+      "description": "Prepare clearer wholesale inquiries by defining product codes, quantities, intended use, packaging, destination and approval requirements.",
+      "type": "article",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/sample-approval-checklist/",
+      "productionPath": "/blog/sample-approval-checklist/",
+      "title": "Custom Product Sample Approval Checklist | HAIBUCRAFT",
+      "description": "Use this B2B sample approval checklist to confirm appearance, dimensions, assortment, finish, packaging and written change control.",
+      "type": "article",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/packaging-quality-checkpoints/",
+      "productionPath": "/blog/packaging-quality-checkpoints/",
+      "title": "Packaging and Quality Checkpoints for B2B Orders | HAIBUCRAFT",
+      "description": "Define pack count, labels, warning text, barcodes, cartons, quantity reconciliation and pre-shipment checks for wholesale orders.",
+      "type": "article",
+      "index": true
+    },
+    {
+      "previewPath": "/v2-preview/quote/",
+      "productionPath": "/request-quote/",
+      "title": "Request a Wholesale Quote | HAIBUCRAFT",
+      "description": "Send HAIBUCRAFT selected product codes, quantities, packaging requirements, destination and customization details for B2B quotation review.",
+      "type": "website",
+      "index": false
+    }
+  ],
+  "redirects": [
+    { "from": "/products/slime-charms-wholesale.html", "to": "/products/slime-charms-wholesale/", "status": 301 },
+    { "from": "/products/polymer-clay-slices-wholesale.html", "to": "/products/polymer-clay-slices-wholesale/", "status": 301 },
+    { "from": "/products/resin-charms-for-slime.html", "to": "/products/resin-charms-for-slime/", "status": 301 },
+    { "from": "/products/sequins-glitter-confetti.html", "to": "/products/sequins-glitter-confetti/", "status": 301 }
+  ]
+}

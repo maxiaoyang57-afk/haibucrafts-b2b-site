@@ -40,7 +40,7 @@
     'slime-charms': [
       ['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/', 'Source compatible clay slices for mixed slime add-in collections.'],
       ['Resin Charms', '/v2-preview/products/resin-charms/', 'Expand assortments with glossy flatback and novelty resin pieces.'],
-      ['Wholesale Product Brief Guide', '/v2-preview/blog/wholesale-product-brief/', 'Prepare the codes, quantities and packaging details needed for quotation.']
+      ['Wholesale Product Brief Guide', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/', 'Prepare the codes, quantities and packaging details needed for quotation.']
     ],
     'resin-charms': [
       ['Slime Charms Wholesale', '/v2-preview/products/slime-charms/', 'Compare broader charm assortments for slime and DIY kit programs.'],
@@ -50,7 +50,7 @@
     'sequins-glitter-confetti': [
       ['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/', 'Build coordinated mixed-filler packs with themed clay slices.'],
       ['Resin Charms', '/v2-preview/products/resin-charms/', 'Add focal flatback pieces to sequin, shaker and craft assortments.'],
-      ['Custom Sample Approval Guide', '/v2-preview/blog/custom-sample-approval/', 'Use a written approval record for shape, finish, color and packaging.']
+      ['Custom Sample Approval Guide', '/v2-preview/blog/sample-approval-checklist/', 'Use a written approval record for shape, finish, color and packaging.']
     ]
   };
 
@@ -60,7 +60,7 @@
   if (related && footerSlot) {
     const section = document.createElement('section');
     section.className = 'section related-section';
-    section.innerHTML = `<div class="container"><div class="section-head"><span class="eyebrow">Continue Your Sourcing Review</span><h2>Related products and buyer resources.</h2><p>Use these links to compare compatible product families or prepare a clearer quotation request.</p></div><div class="card-grid related-grid">${related.map(([title, href, text]) => `<a class="card page-card-link related-card" href="${href}"><h3>${title}</h3><p>${text}</p><span>Explore →</span></a>`).join('')}</div></div>`;
+    section.innerHTML = `<div class="container"><div class="section-head"><span class="eyebrow">Continue Your Sourcing Review</span><h2>Related products and buyer resources.</h2><p>Compare compatible product families or prepare a clearer quotation request.</p></div><div class="card-grid related-grid">${related.map(([title, href, text]) => `<a class="card page-card-link related-card" href="${href}"><h3>${title}</h3><p>${text}</p><span>Explore →</span></a>`).join('')}</div></div>`;
     footerSlot.parentNode.insertBefore(section, footerSlot);
   }
 

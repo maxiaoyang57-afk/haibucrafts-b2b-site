@@ -1,9 +1,63 @@
 (() => {
+  const cssHref = '/v2-preview/assets/category-ux.css';
+  if (!document.querySelector(`link[href="${cssHref}"]`)) {
+    const stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = cssHref;
+    document.head.appendChild(stylesheet);
+  }
+
   const searchInput = document.querySelector('[data-product-search]');
   const filterButtons = [...document.querySelectorAll('[data-product-filter]')];
   const cards = [...document.querySelectorAll('[data-product-card]')];
   const resultCount = document.querySelector('[data-product-count]');
   if (!cards.length) return;
+
+  const page = document.body.dataset.page || '';
+  const pageLabels = {
+    'slime-charms': 'Slime Charms',
+    'polymer-clay-slices': 'Polymer Clay Slices',
+    'resin-charms': 'Resin Charms',
+    'sequins-glitter-confetti': 'Sequins & Confetti'
+  };
+
+  const sidebarNote = document.querySelector('.category-sidebar p');
+  if (sidebarNote) {
+    sidebarNote.classList.add('buyer-navigation-note');
+    sidebarNote.textContent = 'Compare related product families before preparing a mixed inquiry.';
+  }
+
+  const sidebarQuote = document.querySelector('.category-sidebar .btn[href*="/quote/"]');
+  const quoteHref = sidebarQuote?.getAttribute('href') || '/v2-preview/quote/?source=product-category';
+
+  let searchClear = null;
+  if (searchInput && !searchInput.closest('.category-search-shell')) {
+    const shell = document.createElement('div');
+    shell.className = 'category-search-shell';
+    searchInput.parentNode.insertBefore(shell, searchInput);
+    shell.appendChild(searchInput);
+    searchClear = document.createElement('button');
+    searchClear.type = 'button';
+    searchClear.className = 'category-search-clear';
+    searchClear.textContent = 'Clear';
+    searchClear.setAttribute('aria-label', 'Clear product search');
+    searchClear.hidden = true;
+    shell.appendChild(searchClear);
+  } else {
+    searchClear = document.querySelector('.category-search-clear');
+  }
+
+  if (resultCount) {
+    resultCount.setAttribute('aria-live', 'polite');
+    resultCount.setAttribute('aria-atomic', 'true');
+  }
+
+  const productGrid = document.querySelector('.product-grid-v2');
+  const emptyState = document.createElement('div');
+  emptyState.className = 'category-empty-state';
+  emptyState.setAttribute('role', 'status');
+  emptyState.innerHTML = `<h3>No matching products found</h3><p>Try another product code or style. You can also describe the required item in a quotation request.</p><div class="actions"><button class="btn btn-light" type="button" data-show-all-products>Show All Products</button><a class="btn btn-primary" href="${quoteHref}">Describe Your Requirement</a></div>`;
+  productGrid?.insertAdjacentElement('afterend', emptyState);
 
   let activeFilter = 'all';
 
@@ -20,16 +74,57 @@
       if (show) visible += 1;
     });
     if (resultCount) resultCount.textContent = `${visible} product${visible === 1 ? '' : 's'}`;
+    if (searchClear) searchClear.hidden = !query;
+    emptyState.classList.toggle('show', visible === 0);
+  };
+
+  const resetProducts = () => {
+    activeFilter = 'all';
+    if (searchInput) searchInput.value = '';
+    filterButtons.forEach((button) => {
+      const active = button.dataset.productFilter === 'all';
+      button.classList.toggle('active', active);
+      button.setAttribute('aria-pressed', String(active));
+    });
+    applyFilters();
+    searchInput?.focus();
   };
 
   searchInput?.addEventListener('input', applyFilters);
+  searchClear?.addEventListener('click', () => {
+    if (searchInput) searchInput.value = '';
+    applyFilters();
+    searchInput?.focus();
+  });
+  emptyState.querySelector('[data-show-all-products]')?.addEventListener('click', resetProducts);
+
   filterButtons.forEach((button) => {
+    button.setAttribute('aria-pressed', String(button.classList.contains('active')));
     button.addEventListener('click', () => {
       activeFilter = button.dataset.productFilter || 'all';
-      filterButtons.forEach((item) => item.classList.toggle('active', item === button));
+      filterButtons.forEach((item) => {
+        const active = item === button;
+        item.classList.toggle('active', active);
+        item.setAttribute('aria-pressed', String(active));
+      });
       applyFilters();
     });
   });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && searchInput && document.activeElement === searchInput && searchInput.value) {
+      searchInput.value = '';
+      applyFilters();
+    }
+  });
+
+  if (!document.querySelector('.category-mobile-quote')) {
+    const mobileQuote = document.createElement('div');
+    mobileQuote.className = 'category-mobile-quote';
+    mobileQuote.innerHTML = `<span>${pageLabels[page] || 'Selected products'}<br>Send codes and quantities</span><a class="btn btn-primary" href="${quoteHref}">Request Quote</a>`;
+    document.body.appendChild(mobileQuote);
+    document.body.classList.add('has-category-mobile-quote');
+  }
 
   const relatedByPage = {
     'polymer-clay-slices': [
@@ -54,7 +149,6 @@
     ]
   };
 
-  const page = document.body.dataset.page || '';
   const related = relatedByPage[page];
   const footerSlot = document.querySelector('[data-site-footer]');
   if (related && footerSlot) {

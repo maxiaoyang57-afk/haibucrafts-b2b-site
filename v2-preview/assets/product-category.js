@@ -126,6 +126,53 @@
     document.body.classList.add('has-category-mobile-quote');
   }
 
+  const imageDialog = document.createElement('dialog');
+  imageDialog.className = 'product-image-dialog';
+  imageDialog.setAttribute('aria-labelledby', 'productImageDialogTitle');
+  imageDialog.innerHTML = `<button class="product-image-dialog-close" type="button" aria-label="Close product image preview">×</button><div class="product-image-dialog-inner"><div class="product-image-dialog-visual"><img alt=""></div><div class="product-image-dialog-copy"><span class="sku-badge"></span><h2 id="productImageDialogTitle"></h2><p>Image shown for visual reference. Confirm size, material, color range, packing and destination requirements before ordering.</p><div class="actions"><a class="btn btn-primary" href="${quoteHref}">Get Quote</a><button class="btn btn-light" type="button" data-dialog-close>Continue Browsing</button></div></div></div>`;
+  document.body.appendChild(imageDialog);
+
+  const dialogImage = imageDialog.querySelector('.product-image-dialog-visual img');
+  const dialogSku = imageDialog.querySelector('.sku-badge');
+  const dialogTitle = imageDialog.querySelector('h2');
+  const dialogQuote = imageDialog.querySelector('a.btn-primary');
+  const closeImageDialog = () => imageDialog.open && imageDialog.close();
+  imageDialog.querySelector('.product-image-dialog-close')?.addEventListener('click', closeImageDialog);
+  imageDialog.querySelector('[data-dialog-close]')?.addEventListener('click', closeImageDialog);
+  imageDialog.addEventListener('click', (event) => {
+    if (event.target === imageDialog) closeImageDialog();
+  });
+
+  cards.forEach((card) => {
+    const image = card.querySelector(':scope > img');
+    const title = card.querySelector('h3')?.textContent?.trim() || 'Product';
+    const sku = card.querySelector('.sku-badge')?.textContent?.trim() || '';
+    const quoteLink = card.querySelector('.get-quote')?.getAttribute('href') || quoteHref;
+    if (!image || image.closest('.product-image-button')) return;
+
+    const imageButton = document.createElement('button');
+    imageButton.type = 'button';
+    imageButton.className = 'product-image-button';
+    imageButton.setAttribute('aria-label', `View larger image for ${sku ? `${sku} ` : ''}${title}`);
+    card.insertBefore(imageButton, image);
+    imageButton.appendChild(image);
+
+    imageButton.addEventListener('click', () => {
+      if (typeof imageDialog.showModal !== 'function') {
+        window.open(image.currentSrc || image.src, '_blank', 'noopener');
+        return;
+      }
+      if (dialogImage) {
+        dialogImage.src = image.currentSrc || image.src;
+        dialogImage.alt = image.alt;
+      }
+      if (dialogSku) dialogSku.textContent = sku;
+      if (dialogTitle) dialogTitle.textContent = title;
+      if (dialogQuote) dialogQuote.href = quoteLink;
+      imageDialog.showModal();
+    });
+  });
+
   const relatedByPage = {
     'polymer-clay-slices': [
       ['Slime Charms Wholesale', '/v2-preview/products/slime-charms/', 'Combine clay slices with themed decorative charms for coordinated slime assortments.'],

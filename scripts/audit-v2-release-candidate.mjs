@@ -56,7 +56,7 @@ const jsFiles = files.filter((file) => file.endsWith('.js'));
 
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8');
-  const relative = path.relative(releaseRoot, file);
+  const relative = path.relative(releaseRoot, file).split(path.sep).join('/');
   const is404 = relative === '404.html';
   const isQuote = relative === 'request-quote/index.html';
   const title = html.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim();

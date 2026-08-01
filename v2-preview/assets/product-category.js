@@ -129,7 +129,7 @@
   const imageDialog = document.createElement('dialog');
   imageDialog.className = 'product-image-dialog';
   imageDialog.setAttribute('aria-labelledby', 'productImageDialogTitle');
-  imageDialog.innerHTML = `<button class="product-image-dialog-close" type="button" aria-label="Close product image preview">×</button><div class="product-image-dialog-inner"><div class="product-image-dialog-visual"><img alt=""></div><div class="product-image-dialog-copy"><span class="sku-badge"></span><h2 id="productImageDialogTitle"></h2><p>Image shown for visual reference. Confirm size, material, color range, packing and destination requirements before ordering.</p><div class="actions"><a class="btn btn-primary" href="${quoteHref}">Get Quote</a><button class="btn btn-light" type="button" data-dialog-close>Continue Browsing</button></div></div></div>`;
+  imageDialog.innerHTML = `<button class="product-image-dialog-close" type="button" aria-label="Close product image preview">&times;</button><div class="product-image-dialog-inner"><div class="product-image-dialog-visual"><img alt=""></div><div class="product-image-dialog-copy"><span class="sku-badge"></span><h2 id="productImageDialogTitle"></h2><p>Image shown for visual reference. Confirm size, material, color range, packing and destination requirements before ordering.</p><div class="actions"><a class="btn btn-primary" href="${quoteHref}">Get Quote</a><button class="btn btn-light" type="button" data-dialog-close>Continue Browsing</button></div></div></div>`;
   document.body.appendChild(imageDialog);
 
   const dialogImage = imageDialog.querySelector('.product-image-dialog-visual img');
@@ -201,7 +201,7 @@
   if (related && footerSlot) {
     const section = document.createElement('section');
     section.className = 'section related-section';
-    section.innerHTML = `<div class="container"><div class="section-head"><span class="eyebrow">Continue Your Sourcing Review</span><h2>Related products and buyer resources.</h2><p>Compare compatible product families or prepare a clearer quotation request.</p></div><div class="card-grid related-grid">${related.map(([title, href, text]) => `<a class="card page-card-link related-card" href="${href}"><h3>${title}</h3><p>${text}</p><span>Explore →</span></a>`).join('')}</div></div>`;
+    section.innerHTML = `<div class="container"><div class="section-head"><span class="eyebrow">Continue Your Sourcing Review</span><h2>Related products and buyer resources.</h2><p>Compare compatible product families or prepare a clearer quotation request.</p></div><div class="card-grid related-grid">${related.map(([title, href, text]) => `<a class="card page-card-link related-card" href="${href}"><h3>${title}</h3><p>${text}</p><span>Explore &rarr;</span></a>`).join('')}</div></div>`;
     footerSlot.parentNode.insertBefore(section, footerSlot);
   }
 

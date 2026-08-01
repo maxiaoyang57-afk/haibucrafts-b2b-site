@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/*.test.js"
+    "test": "node --test tests/*.test.js",
+    "build:v2-products": "node scripts/build-v2-product-details.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -1,6 +1,6 @@
 # HAIBUCRAFT Site V2 Production Migration Checklist
 
-Branch under review: `site-v2-integrated-preview`
+Branch under review: `codex/v2-takeover`
 Production branch: `main`
 Production domain: `https://www.haibucrafts.com/`
 
@@ -17,7 +17,9 @@ Production domain: `https://www.haibucrafts.com/`
 
 ## Functional QA
 
-- [ ] Run `node scripts/audit-v2-links.mjs` and require exit code 0.
+- [x] Run `node scripts/audit-v2-links.mjs` and require exit code 0.
+- [x] Verify all 63 product cards link to unique SKU-specific detail pages.
+- [x] Verify all 63 detail pages include Product structured data and prefilled inquiry context.
 - [ ] Verify desktop and mobile navigation, dropdown, Escape-key close and active navigation state.
 - [ ] Verify all 63 product-card images load.
 - [ ] Verify search and category filters on all four product pages.
@@ -28,7 +30,7 @@ Production domain: `https://www.haibucrafts.com/`
 
 ## SEO and indexing
 
-- [ ] Replace preview titles that include “V2 Preview” with production titles.
+- [ ] Replace preview titles that include "V2 Preview" with production titles.
 - [ ] Remove page-level `noindex,nofollow` only after final approval.
 - [ ] Remove preview-specific `X-Robots-Tag: noindex` configuration for production routes.
 - [ ] Generate production `sitemap.xml` using final URLs.

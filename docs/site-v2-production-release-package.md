@@ -1,7 +1,7 @@
 # HAIBUCRAFT Site V2 Production Release Package
 
-Date: 2026-07-29
-Source branch: `site-v2-integrated-preview`
+Date: 2026-08-01
+Source branch: `codex/v2-takeover`
 Production branch: `main`
 Release state: **Not approved / not published**
 
@@ -11,9 +11,10 @@ Move the approved V2 buyer journey from `/v2-preview/` to stable production rout
 
 ## Production page package
 
-The release contains 17 page files: homepage, product directory, four category
-pages, Custom Solutions, Manufacturing, Quality Control, Certificates and Test
-Reports, About, Blog directory, three buying guides, Request Quote and 404.
+The release contains 80 page files: homepage, product directory, four category
+pages, 63 SKU-specific product detail pages, Custom Solutions, Manufacturing,
+Quality Control, Certificates and Test Reports, About, Blog directory, three
+buying guides, Request Quote and 404.
 
 The exact source-to-destination mapping is stored in:
 
@@ -42,6 +43,7 @@ These clean production routes are intended to be created:
 - `/products/polymer-clay-slices-wholesale/`
 - `/products/resin-charms-for-slime/`
 - `/products/sequins-glitter-confetti/`
+- 63 SKU-specific product detail routes nested under the four product categories
 - `/custom-solutions/`
 - `/blog/how-to-prepare-a-wholesale-product-brief/`
 - `/blog/sample-approval-checklist/`
@@ -94,7 +96,10 @@ The production quote form must not be activated by changing only its button labe
 
 ## Catalog blocks
 
-The current production package contains 63 verified product cards.
+The current production package contains 63 verified product cards and 63 linked
+product detail pages. Each detail page includes a unique title and description,
+Product structured data, SKU-specific inquiry context, buyer-confirmation
+checkpoints and related products.
 
 - `MA022` remains unpublished until its image is verified.
 - `RW2666` requires an explicit decision because the workbook and current resin page differ.

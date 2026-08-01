@@ -20,6 +20,8 @@ Production domain: `https://www.haibucrafts.com/`
 - [x] Run `node scripts/audit-v2-links.mjs` and require exit code 0.
 - [x] Verify all 63 product cards link to unique SKU-specific detail pages.
 - [x] Verify all 63 detail pages include Product structured data and prefilled inquiry context.
+- [x] Verify all 10 buyer guides use the shared article layout and link from the Blog directory.
+- [x] Verify all 10 buyer guides include BlogPosting structured data, internal links and article-level quote attribution.
 - [ ] Verify desktop and mobile navigation, dropdown, Escape-key close and active navigation state.
 - [ ] Verify all 63 product-card images load.
 - [ ] Verify search and category filters on all four product pages.
@@ -51,7 +53,7 @@ Production domain: `https://www.haibucrafts.com/`
 ## Production migration
 
 - [ ] Create a final backup tag or release branch from current `main`.
-- [ ] Compare `main` against `site-v2-integrated-preview` before merging.
+- [ ] Compare `main` against `codex/v2-takeover` before merging.
 - [ ] Decide whether V2 replaces root routes directly or is migrated page by page.
 - [ ] Add redirects from old URLs to final production URLs where slugs change.
 - [ ] Preserve analytics, Search Console verification and Vercel anonymous analytics.

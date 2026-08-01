@@ -102,30 +102,6 @@
       "index": true
     },
     {
-      "previewPath": "/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/",
-      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
-      "title": "How to Prepare a Wholesale Product Brief | HAIBUCRAFT",
-      "description": "Prepare clearer wholesale inquiries by defining product codes, quantities, intended use, packaging, destination and approval requirements.",
-      "type": "article",
-      "index": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/sample-approval-checklist/",
-      "productionPath": "/blog/sample-approval-checklist/",
-      "title": "Custom Product Sample Approval Checklist | HAIBUCRAFT",
-      "description": "Use this B2B sample approval checklist to confirm appearance, dimensions, assortment, finish, packaging and written change control.",
-      "type": "article",
-      "index": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/packaging-quality-checkpoints/",
-      "productionPath": "/blog/packaging-quality-checkpoints/",
-      "title": "Packaging and Quality Checkpoints for B2B Orders | HAIBUCRAFT",
-      "description": "Define pack count, labels, warning text, barcodes, cartons, quantity reconciliation and pre-shipment checks for wholesale orders.",
-      "type": "article",
-      "index": true
-    },
-    {
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx3531-pink-candy-and-ceramic-dish-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx3531-pink-candy-and-ceramic-dish-mix/",
       "title": "Pink Candy and Ceramic Dish Mix YX3531 | HAIBUCRAFT",
@@ -691,6 +667,96 @@
       "type": "website",
       "index": true,
       "generatedProduct": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/",
+      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
+      "title": "Wholesale Product Brief Guide | HAIBUCRAFT",
+      "description": "Prepare a clearer wholesale inquiry by defining product codes, quantities, intended use, packaging, destination and approval requirements.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/sample-approval-checklist/",
+      "productionPath": "/blog/sample-approval-checklist/",
+      "title": "Custom Sample Approval Checklist | HAIBUCRAFT",
+      "description": "Use a written sample approval checklist to confirm appearance, dimensions, assortment, finish, packaging and controlled changes before production.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/packaging-quality-checkpoints/",
+      "productionPath": "/blog/packaging-quality-checkpoints/",
+      "title": "B2B Packaging Quality Checkpoints | HAIBUCRAFT",
+      "description": "Define pack count, labels, warnings, barcodes, cartons, quantity reconciliation and pre-shipment packaging checks for wholesale craft orders.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/planning-a-mixed-sku-wholesale-order/",
+      "productionPath": "/blog/planning-a-mixed-sku-wholesale-order/",
+      "title": "Mixed-SKU Wholesale Order Planning | HAIBUCRAFT",
+      "description": "Plan a mixed-SKU craft order by fixing product codes, quantities, pack formats, assortment ratios and carton-level reconciliation rules.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/private-label-packaging-brief/",
+      "productionPath": "/blog/private-label-packaging-brief/",
+      "title": "Private Label Packaging Brief | HAIBUCRAFT",
+      "description": "Prepare a private-label packaging brief covering pack format, artwork, barcode, warning text, approval files and carton identification.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/craft-product-document-checklist/",
+      "productionPath": "/blog/craft-product-document-checklist/",
+      "title": "Craft Product Document Checklist | HAIBUCRAFT",
+      "description": "Review supplier, product, sample, standard, issue date and market scope before relying on a craft-product test report or certificate.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/pre-shipment-inspection-checklist/",
+      "productionPath": "/blog/pre-shipment-inspection-checklist/",
+      "title": "Pre-Shipment Inspection Checklist | HAIBUCRAFT",
+      "description": "Prepare a pre-shipment inspection checklist for SKU identity, appearance, quantity, packaging, carton marks and document reconciliation.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/",
+      "productionPath": "/blog/how-to-compare-wholesale-craft-suppliers/",
+      "title": "How to Compare Craft Suppliers | HAIBUCRAFT",
+      "description": "Compare craft suppliers using product-code discipline, sample control, packaging capability, document scope and communication quality.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/polymer-clay-slice-buying-guide/",
+      "productionPath": "/blog/polymer-clay-slice-buying-guide/",
+      "title": "Polymer Clay Slice Buying Guide | HAIBUCRAFT",
+      "description": "Specify polymer clay slice theme, dimensions, thickness, color range, mix ratio, pack unit and intended use before requesting a quote.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/seasonal-craft-assortment-planning/",
+      "productionPath": "/blog/seasonal-craft-assortment-planning/",
+      "title": "Seasonal Craft Assortment Planning | HAIBUCRAFT",
+      "description": "Plan seasonal craft assortments by fixing launch date, product codes, samples, artwork, packaging, inspection and shipping milestones.",
+      "type": "article",
+      "index": true,
+      "generatedBlog": true
     },
     {
       "previewPath": "/v2-preview/quote/",

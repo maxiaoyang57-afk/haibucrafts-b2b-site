@@ -11,9 +11,9 @@ Move the approved V2 buyer journey from `/v2-preview/` to stable production rout
 
 ## Production page package
 
-The release contains 80 page files: homepage, product directory, four category
+The release contains 87 page files: homepage, product directory, four category
 pages, 63 SKU-specific product detail pages, Custom Solutions, Manufacturing,
-Quality Control, Certificates and Test Reports, About, Blog directory, three
+Quality Control, Certificates and Test Reports, About, Blog directory, ten
 buying guides, Request Quote and 404.
 
 The exact source-to-destination mapping is stored in:
@@ -48,6 +48,13 @@ These clean production routes are intended to be created:
 - `/blog/how-to-prepare-a-wholesale-product-brief/`
 - `/blog/sample-approval-checklist/`
 - `/blog/packaging-quality-checkpoints/`
+- `/blog/planning-a-mixed-sku-wholesale-order/`
+- `/blog/private-label-packaging-brief/`
+- `/blog/craft-product-document-checklist/`
+- `/blog/pre-shipment-inspection-checklist/`
+- `/blog/how-to-compare-wholesale-craft-suppliers/`
+- `/blog/polymer-clay-slice-buying-guide/`
+- `/blog/seasonal-craft-assortment-planning/`
 - `/request-quote/`
 
 ## Retain and redirect
@@ -100,6 +107,11 @@ The current production package contains 63 verified product cards and 63 linked
 product detail pages. Each detail page includes a unique title and description,
 Product structured data, SKU-specific inquiry context, buyer-confirmation
 checkpoints and related products.
+
+The buyer-resource library contains ten English-language guides with BlogPosting
+structured data, operational checklists, related product and capability links,
+and article-level quote attribution. The copy avoids unsupported MOQ, lead-time
+and certification promises.
 
 - `MA022` remains unpublished until its image is verified.
 - `RW2666` requires an explicit decision because the workbook and current resin page differ.

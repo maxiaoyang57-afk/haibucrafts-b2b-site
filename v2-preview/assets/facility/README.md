@@ -1,12 +1,15 @@
 # Facility Image Library
 
-Current confirmed preview asset:
-- facility-exterior.svg — processed exterior image used on the V2 home and Manufacturing pages.
+Verified facility assets imported from the user's factory-material archive:
 
-Reserved filenames for the next verified uploads:
-- warehouse-main.webp
-- warehouse-sku-storage.webp
-- packaging-workshop.webp
-- quality-control-storage.webp
+- `factory-exterior.webp`
+- `production-workshop.webp`
+- `warehouse-main.webp`
+- `warehouse-aisle.webp`
+- `warehouse-sku-storage.webp`
 
-Do not replace these filenames with unrelated product images. Each file must be based on the user's real facility photography and reviewed before use.
+The previous `facility-exterior.svg` remains only for rollback comparison and is
+no longer used by the V2 homepage or Manufacturing page.
+
+Do not replace these files with generic stock or product imagery. Keep claims
+limited to what the photographs and supporting company documents establish.

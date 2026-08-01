@@ -39,6 +39,7 @@ function replacePaths(content) {
     .replaceAll('/v2-preview/custom-solutions/', '/custom-solutions/')
     .replaceAll('/v2-preview/manufacturing/', '/manufacturing/')
     .replaceAll('/v2-preview/quality-control/', '/quality-control/')
+    .replaceAll('/v2-preview/certificates/', '/certificates/')
     .replaceAll('/v2-preview/about/', '/about/')
     .replaceAll('/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/', '/blog/how-to-prepare-a-wholesale-product-brief/')
     .replaceAll('/v2-preview/blog/sample-approval-checklist/', '/blog/sample-approval-checklist/')

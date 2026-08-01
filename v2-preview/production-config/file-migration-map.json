@@ -13,6 +13,7 @@
     { "source": "v2-preview/custom-solutions/index.html", "destination": "custom-solutions/index.html", "action": "create", "productionPath": "/custom-solutions/" },
     { "source": "v2-preview/manufacturing/index.html", "destination": "manufacturing/index.html", "action": "replace", "productionPath": "/manufacturing/" },
     { "source": "v2-preview/quality-control/index.html", "destination": "quality-control/index.html", "action": "replace", "productionPath": "/quality-control/" },
+    { "source": "v2-preview/certificates/index.html", "destination": "certificates/index.html", "action": "create", "productionPath": "/certificates/" },
     { "source": "v2-preview/about/index.html", "destination": "about/index.html", "action": "replace", "productionPath": "/about/" },
     { "source": "v2-preview/blog/index.html", "destination": "blog/index.html", "action": "replace", "productionPath": "/blog/" },
     { "source": "v2-preview/blog/how-to-prepare-a-wholesale-product-brief/index.html", "destination": "blog/how-to-prepare-a-wholesale-product-brief/index.html", "action": "create", "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/" },
@@ -28,10 +29,13 @@
     { "source": "v2-preview/assets/quote-preview.js", "destination": "assets/v2/quote.js", "requiresActivationReview": true },
     { "source": "v2-preview/assets/site-v2.css", "destination": "assets/v2/site-v2.css" },
     { "source": "v2-preview/assets/site-v2-fixes.css", "destination": "assets/v2/site-v2-fixes.css" },
+    { "source": "v2-preview/assets/factory-v2.css", "destination": "assets/v2/factory-v2.css" },
     { "source": "v2-preview/assets/footer-related-v2.css", "destination": "assets/v2/footer-related.css" },
     { "source": "v2-preview/assets/quote-v2.css", "destination": "assets/v2/quote.css" },
     { "source": "v2-preview/assets/next-round.css", "destination": "assets/v2/next-round.css" },
-    { "source": "v2-preview/assets/facility/facility-exterior.svg", "destination": "assets/images/facility/facility-exterior.svg" }
+    { "source": "v2-preview/assets/facility/", "destination": "assets/v2/facility/" },
+    { "source": "v2-preview/assets/process/", "destination": "assets/v2/process/" },
+    { "source": "v2-preview/assets/documents/", "destination": "assets/v2/documents/" }
   ],
   "rootConfig": [
     { "source": "v2-preview/production-config/sitemap.xml", "destination": "sitemap.xml", "action": "replace" },

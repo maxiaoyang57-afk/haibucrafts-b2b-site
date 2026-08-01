@@ -30,6 +30,7 @@
         <a href="${ROOT}custom-solutions/">Custom Solutions</a>
         <a href="${ROOT}manufacturing/">Manufacturing</a>
         <a href="${ROOT}quality-control/">Quality Control</a>
+        <a href="${ROOT}certificates/">Certificates</a>
         <a href="${ROOT}about/">About</a>
         <a href="${ROOT}blog/">Blog</a>
         <a class="quote-btn" href="${ROOT}quote/?source=${source}&landing_page=${landing}">Request Quote</a>
@@ -42,9 +43,9 @@
       <div class="footer-grid footer-grid-v2">
         <div class="footer-brand"><h3>HAIBUCRAFT</h3><p>Buyer-facing B2B brand for wholesale craft supplies, custom-project coordination, packaging support and export communication from Yiwu, Zhejiang, China.</p><a class="footer-email" href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a><p class="footer-note">Decorative craft components only. Not edible. Small parts may present a choking hazard.</p></div>
         <div><h3>Products</h3><a href="${ROOT}products/">All Products</a><a href="${ROOT}products/slime-charms/">Slime Charms</a><a href="${ROOT}products/polymer-clay-slices/">Polymer Clay Slices</a><a href="${ROOT}products/resin-charms/">Resin Charms</a><a href="${ROOT}products/sequins-glitter-confetti/">Sequins &amp; Confetti</a></div>
-        <div><h3>Capabilities</h3><a href="${ROOT}custom-solutions/">Custom Solutions</a><a href="${ROOT}manufacturing/">Manufacturing &amp; Supply</a><a href="${ROOT}quality-control/">Quality Control</a><a href="${ROOT}quote/?source=footer-capabilities&landing_page=${landing}">Request Quote</a></div>
+        <div><h3>Capabilities</h3><a href="${ROOT}custom-solutions/">Custom Solutions</a><a href="${ROOT}manufacturing/">Manufacturing &amp; Supply</a><a href="${ROOT}quality-control/">Quality Control</a><a href="${ROOT}certificates/">Certificates &amp; Reports</a><a href="${ROOT}quote/?source=footer-capabilities&landing_page=${landing}">Request Quote</a></div>
         <div><h3>Buyer Resources</h3><a href="${ROOT}blog/">Buying Guides</a><a href="${ROOT}blog/how-to-prepare-a-wholesale-product-brief/">Product Brief Guide</a><a href="${ROOT}blog/sample-approval-checklist/">Sample Approval Guide</a><a href="${ROOT}blog/packaging-quality-checkpoints/">Packaging &amp; QC Guide</a></div>
-        <div><h3>Company</h3><a href="${ROOT}about/">About HAIBUCRAFT</a><a href="${ROOT}about/#transparency">Transparency</a><a href="${ROOT}quality-control/">Documentation Scope</a><a href="${ROOT}quote/?source=footer-company&landing_page=${landing}">Contact Sales</a></div>
+        <div><h3>Company</h3><a href="${ROOT}about/">About HAIBUCRAFT</a><a href="${ROOT}about/#transparency">Transparency</a><a href="${ROOT}certificates/">Document Center</a><a href="${ROOT}quote/?source=footer-company&landing_page=${landing}">Contact Sales</a></div>
       </div>
       <div class="footer-bottom"><span>© 2026 HAIBUCRAFT. Preview branch only. Not published to production.</span><span>Verified claims only · No retail checkout · No blanket certification claims</span></div>
     </div></footer><button class="back-top" aria-label="Back to top">↑</button>`;

@@ -78,6 +78,14 @@
       "index": true
     },
     {
+      "previewPath": "/v2-preview/certificates/",
+      "productionPath": "/certificates/",
+      "title": "Certificates and Test Reports | HAIBUCRAFT",
+      "description": "Review product-specific EN 71, CPC and REACH documents plus the Yiwu Sola Craft social-audit summary with clear scope notes.",
+      "type": "website",
+      "index": true
+    },
+    {
       "previewPath": "/v2-preview/about/",
       "productionPath": "/about/",
       "title": "About HAIBUCRAFT Wholesale Craft Supply",

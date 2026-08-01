@@ -10,7 +10,7 @@ Production domain: `https://www.haibucrafts.com/`
 - [ ] Product counts and all SKU/image mappings are frozen.
 - [ ] `MA022` image and publication status are resolved.
 - [ ] `RW2666` workbook-versus-site discrepancy is resolved.
-- [ ] Facility images are transferred and visually reviewed.
+- [x] Facility and production images are transferred, optimized and visually reviewed.
 - [ ] Quote form fields, attachment limits and email output are approved.
 - [ ] `/api/inquiry` is tested with a controlled live submission.
 - [ ] No unsupported factory ownership, capacity, certification, MOQ, lead-time, customer or testing claims remain.

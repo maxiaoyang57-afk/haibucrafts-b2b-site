@@ -11,7 +11,9 @@ Move the approved V2 buyer journey from `/v2-preview/` to stable production rout
 
 ## Production page package
 
-The release contains 16 page files: homepage, product directory, four category pages, Custom Solutions, Manufacturing, Quality Control, About, Blog directory, three buying guides, Request Quote and 404.
+The release contains 17 page files: homepage, product directory, four category
+pages, Custom Solutions, Manufacturing, Quality Control, Certificates and Test
+Reports, About, Blog directory, three buying guides, Request Quote and 404.
 
 The exact source-to-destination mapping is stored in:
 
@@ -25,6 +27,7 @@ These current production pages are intended to be replaced after approval:
 - `/products/`
 - `/manufacturing/`
 - `/quality-control/`
+- `/certificates/`
 - `/about/`
 - `/blog/`
 - `/404.html`
@@ -55,7 +58,16 @@ The existing security-header section in root `vercel.json` must be retained. The
 
 V2 scripts and styles should move into `/assets/v2/` and page references should be rewritten before release. Product images already under `/assets/images/products/` should remain in place and should not be duplicated.
 
-The current facility exterior SVG may move to `/assets/images/facility/facility-exterior.svg`. Warehouse, SKU-storage and packing-workshop photographs remain blocked until their repository transfer and final visual verification are complete.
+The user-supplied factory archive has been transferred and visually reviewed.
+Optimized WebP assets now cover the real facility exterior, production workshop,
+warehouse aisles, SKU storage, resin workflow and polymer-clay workflow. The
+legacy facility SVG is retained only for rollback comparison and is no longer
+used by the V2 homepage or Manufacturing page.
+
+The document library also contains the supplied amfori monitoring summary,
+resin-charm EN 71 and CPC certificates and reports, and the product-specific
+REACH report for polishing cloth model SC048. Public copy must preserve the
+named legal entity, model and sample limitations shown in each document.
 
 ## Search and indexing controls
 

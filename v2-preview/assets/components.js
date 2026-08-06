@@ -5,6 +5,17 @@
   const source = encodeURIComponent(page || 'site-v2');
   const landing = encodeURIComponent(window.location.pathname);
 
+  if (!/^(localhost|127\.0\.0\.1)$/.test(window.location.hostname) && !document.querySelector('script[data-sdk="analytics"]')) {
+    window.va = window.va || function () {
+      (window.vaq = window.vaq || []).push(arguments);
+    };
+    const analytics = document.createElement('script');
+    analytics.defer = true;
+    analytics.src = '/_vercel/insights/script.js';
+    analytics.dataset.sdk = 'analytics';
+    document.head.appendChild(analytics);
+  }
+
   if (!document.querySelector('link[href$="footer-related-v2.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';

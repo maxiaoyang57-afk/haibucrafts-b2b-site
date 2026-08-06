@@ -6,14 +6,14 @@ Production domain: `https://www.haibucrafts.com/`
 
 ## Hard release gates
 
-- [ ] User approves the complete V2 preview.
-- [ ] Product counts and all SKU/image mappings are frozen.
-- [ ] `MA022` image and publication status are resolved.
-- [ ] `RW2666` workbook-versus-site discrepancy is resolved.
+- [x] User approves the complete V2 preview.
+- [x] Product counts and all SKU/image mappings are frozen at 63 published SKUs.
+- [x] `MA022` is resolved as excluded because its available asset does not match the legacy product-card description.
+- [x] `RW2666` is resolved as excluded because it is absent from the authoritative HTML product inventory.
 - [x] Facility and production images are transferred, optimized and visually reviewed.
-- [ ] Quote form fields, attachment limits and email output are approved.
-- [ ] `/api/inquiry` is tested with a controlled live submission.
-- [ ] No unsupported factory ownership, capacity, certification, MOQ, lead-time, customer or testing claims remain.
+- [x] Quote form fields, disabled initial-release attachments and email output are approved.
+- [x] `/api/inquiry` accepted controlled test `release-20260806-195657` with HTTP 200 and provider message ID `b13ef3a9-b044-4fcd-872a-4cee426cf6a3`.
+- [x] No unsupported factory ownership, capacity, certification, MOQ, lead-time, customer or testing claims remain.
 
 ## Functional QA
 
@@ -51,10 +51,10 @@ Production domain: `https://www.haibucrafts.com/`
 
 ## Inquiry activation
 
-- [ ] Change the V2 form from preview validation to POST `/api/inquiry`.
-- [ ] Enable up to four image uploads only after API testing.
-- [ ] Preserve `attribution_source`, `first_landing_page`, `first_referrer`, `article`, `product_image` and `inquiry_page`.
-- [ ] Confirm recipient email is `sale008@sola-craft.com` or the final approved sales address.
+- [x] Change the production release form from preview validation to POST `/api/inquiry`.
+- [x] Keep reference-image uploads disabled for the initial production release.
+- [x] Preserve `attribution_source`, `first_landing_page`, `first_referrer`, `article`, `product_image` and `inquiry_page`.
+- [x] Confirm recipient email is `sale008@sola-craft.com`.
 - [ ] Test success, validation-error, oversized-image, unsupported-file and server-error states.
 - [ ] Confirm spam controls and honeypot behavior.
 
@@ -62,12 +62,12 @@ Production domain: `https://www.haibucrafts.com/`
 
 - [ ] Create a final backup tag or release branch from current `main`.
 - [ ] Compare `main` against `codex/v2-takeover` before merging.
-- [ ] Decide whether V2 replaces root routes directly or is migrated page by page.
+- [x] V2 replaces the approved root routes directly while legacy files remain available for rollback and redirects.
 - [ ] Add redirects from old URLs to final production URLs where slugs change.
 - [x] Generate a merged production-candidate `vercel.json` while preserving security headers.
-- [ ] Preserve analytics, Search Console verification and Vercel anonymous analytics.
+- [x] Preserve the Search Console verification file and Vercel anonymous analytics.
 - [ ] Deploy to a production-candidate preview first.
-- [ ] Obtain explicit user approval before merging or promoting to production.
+- [x] Obtain explicit user approval before merging or promoting to production.
 - [ ] Monitor 404s, inquiry errors, Core Web Vitals and indexing after release.
 
 ## Rollback

@@ -7,6 +7,7 @@ const sourceRoot = path.join(root, 'v2-preview');
 const outRoot = path.join(root, '.release-candidate', 'site-v2');
 const seoMap = JSON.parse(await readFile(path.join(sourceRoot, 'seo-production-map.json'), 'utf8'));
 const migrationMap = JSON.parse(await readFile(path.join(sourceRoot, 'production-config', 'file-migration-map.json'), 'utf8'));
+const productionApproval = JSON.parse(await readFile(path.join(root, 'docs', 'site-v2-production-approval.json'), 'utf8'));
 const rootVercelConfig = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8'));
 const redirectDraft = JSON.parse(await readFile(path.join(sourceRoot, 'production-config', 'vercel-redirects.json'), 'utf8'));
 
@@ -59,6 +60,11 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
     .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="description" content="${route.description}">`)
     .replace(/<meta\s+name=["']robots["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="robots" content="${robots}">`)
     .replaceAll('Preview branch only. Not published to production.', 'Wholesale craft supply and B2B sourcing support.')
+    .replaceAll(
+      'Current status:</strong> required-field validation and source tracking are active. Email sending and reference-image uploads remain disabled until production approval.',
+      'Inquiry status:</strong> secure email delivery and source tracking are active. Reference-image uploads remain disabled; include product links or requirements in Project Details.'
+    )
+    .replaceAll('>Validate Quote Request</button>', '>Send Quote Request</button>')
     .replaceAll('Site V2 Preview', 'HAIBUCRAFT')
     .replaceAll('V2 Preview', 'HAIBUCRAFT');
 
@@ -98,6 +104,13 @@ for (const file of (await walk(assetsOut)).filter((item) => item.endsWith('.js')
   const source = await readFile(file, 'utf8');
   await writeFile(file, replacePaths(source), 'utf8');
 }
+await writeFile(path.join(assetsOut, 'quote-runtime-config.js'), `window.HAIBU_QUOTE_CONFIG = Object.freeze({
+  mode: 'live',
+  endpoint: '/api/inquiry',
+  enableReferenceUploads: false,
+  maxReferenceImages: 4
+});
+`, 'utf8');
 
 await cp(path.join(sourceRoot, 'production-config', 'sitemap.xml'), path.join(outRoot, 'sitemap.xml'));
 await cp(path.join(sourceRoot, 'production-config', 'robots.txt'), path.join(outRoot, 'robots.txt'));
@@ -119,7 +132,11 @@ await writeFile(path.join(outRoot, 'release-manifest.json'), JSON.stringify({
   supportPages: ['/404.html'],
   migrationVersion: migrationMap.version || 'unspecified',
   productionConfig: 'vercel.json',
-  quoteMode: 'validation-only',
+  productionApproved: productionApproval.status === 'approved',
+  approvalDate: productionApproval.approvedAt,
+  catalogDecisions: productionApproval.catalogDecisions,
+  inquiryTest: productionApproval.inquiryTest,
+  quoteMode: 'live',
   productionPublished: false
 }, null, 2));
 

@@ -1,0 +1,24 @@
+{
+  "status": "approved",
+  "approvedAt": "2026-08-06T19:56:57+08:00",
+  "approvedBy": "User approval in Codex task",
+  "catalogDecisions": {
+    "MA022": {
+      "status": "excluded",
+      "reason": "The legacy product-card name and available MA022 placeholder asset do not describe the same product. Excluded until a matching buyer-supplied image is verified."
+    },
+    "RW2666": {
+      "status": "excluded",
+      "reason": "RW2666 is absent from the authoritative HTML product-card inventory and the verified 63-SKU V2 catalog. It is not added or substituted."
+    }
+  },
+  "inquiryTest": {
+    "endpoint": "https://www.haibucrafts.com/api/inquiry",
+    "recipient": "sale008@sola-craft.com",
+    "testId": "release-20260806-195657",
+    "statusCode": 200,
+    "accepted": true,
+    "providerMessageId": "b13ef3a9-b044-4fcd-872a-4cee426cf6a3",
+    "referenceUploadsEnabled": false
+  }
+}

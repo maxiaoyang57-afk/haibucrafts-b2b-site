@@ -3,7 +3,8 @@ name: Audit V2 Preview
 on:
   push:
     branches:
-      - site-v2-integrated-preview
+      - codex/v2-takeover
+      - release/v2-production
     paths:
       - 'v2-preview/**'
       - 'assets/images/products/**'

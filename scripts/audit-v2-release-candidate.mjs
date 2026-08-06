@@ -104,6 +104,9 @@ for (const file of htmlFiles) {
   } else if (robots !== 'index,follow') {
     errors.push(`${relative}: approved production page must be index,follow`);
   }
+  if (isQuote && (html.includes('Validate Quote Request') || html.includes('disabled until production approval'))) {
+    errors.push(`${relative}: still contains pre-approval inquiry copy`);
+  }
 
   if (title) {
     if (titles.has(title)) errors.push(`${relative}: duplicate title also used by ${titles.get(title)}`);
@@ -148,15 +151,18 @@ else {
   for (const marker of ['class="skip-link"', 'id="primary-navigation"', 'aria-controls="primary-navigation"', 'assets/accessibility.css']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing accessibility marker: ${marker}`);
   }
+  for (const marker of ['/_vercel/insights/script.js', 'data-sdk="analytics"']) {
+    if (!components.includes(marker)) errors.push(`production components runtime missing analytics marker: ${marker}`);
+  }
 }
 
 const quoteConfigPath = path.join(releaseRoot, 'assets', 'v2', 'quote-runtime-config.js');
 if (!await exists(quoteConfigPath)) errors.push('missing quote runtime configuration');
 else {
   const config = await readFile(quoteConfigPath, 'utf8');
-  if (!config.includes("mode: 'validation-only'")) errors.push('release candidate quote mode must remain validation-only');
+  if (!config.includes("mode: 'live'")) errors.push('approved release candidate quote mode must be live');
   if (!config.includes("endpoint: '/api/inquiry'")) errors.push('quote endpoint contract is missing');
-  if (!config.includes('enableReferenceUploads: false')) errors.push('reference uploads must remain disabled in release candidate');
+  if (!config.includes('enableReferenceUploads: false')) errors.push('reference uploads must remain disabled for the initial production release');
 }
 
 const quoteRuntimePath = path.join(releaseRoot, 'assets', 'v2', 'quote-preview.js');
@@ -204,14 +210,20 @@ if (!await exists(vercelConfigPath)) {
 }
 
 const manifest = JSON.parse(await readFile(path.join(releaseRoot, 'release-manifest.json'), 'utf8'));
-if (manifest.quoteMode !== 'validation-only') errors.push('release manifest quoteMode must be validation-only');
+if (manifest.quoteMode !== 'live') errors.push('release manifest quoteMode must be live');
+if (manifest.productionApproved !== true) errors.push('release manifest must contain explicit production approval');
 if (manifest.productionPublished !== false) errors.push('release manifest must state productionPublished false');
 if (!Array.isArray(manifest.supportPages) || !manifest.supportPages.includes('/404.html')) errors.push('release manifest is missing the production 404 support page');
 if (manifest.productionConfig !== 'vercel.json') errors.push('release manifest does not identify the merged production config');
+if (manifest.catalogDecisions?.MA022?.status !== 'excluded') errors.push('MA022 release decision is not recorded');
+if (manifest.catalogDecisions?.RW2666?.status !== 'excluded') errors.push('RW2666 release decision is not recorded');
+if (manifest.inquiryTest?.accepted !== true || manifest.inquiryTest?.statusCode !== 200 || !manifest.inquiryTest?.providerMessageId) {
+  errors.push('controlled live inquiry acceptance evidence is missing');
+}
 
 if (errors.length) {
   for (const error of errors) console.error(`ERROR: ${error}`);
   process.exitCode = 1;
 } else {
-  console.log(`Release candidate audit passed: ${htmlFiles.length} HTML pages, ${jsFiles.length} runtime scripts, valid breadcrumbs, images, merged security config, 404 recovery and guarded quote mode.`);
+  console.log(`Release candidate audit passed: ${htmlFiles.length} HTML pages, ${jsFiles.length} runtime scripts, valid breadcrumbs, images, merged security config, 404 recovery and approved live inquiry mode.`);
 }

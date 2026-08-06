@@ -1,8 +1,10 @@
 {
   "version": "2026-08-06",
-  "sourceBranch": "site-v2-integrated-preview",
+  "sourceBranch": "codex/v2-takeover",
   "productionBranch": "main",
   "requiresExplicitApproval": true,
+  "explicitApprovalRecorded": true,
+  "approvalRecord": "docs/site-v2-production-approval.json",
   "pages": [
     {
       "source": "v2-preview/index.html",
@@ -740,12 +742,14 @@
       "action": "301"
     }
   ],
+  "catalogDecisions": {
+    "MA022": "Excluded because the available asset does not match the legacy product-card description.",
+    "RW2666": "Excluded because it is absent from the authoritative HTML product-card inventory."
+  },
   "blockedBeforeRelease": [
-    "Do not publish MA022 until its image is verified.",
-    "Resolve RW2666 catalog discrepancy before adding or replacing a resin product.",
     "Replace all /v2-preview/ internal references with production paths.",
     "Remove preview-only copy and noindex from indexable production pages.",
-    "Activate real /api/inquiry submission only after email and attachment tests.",
+    "Activate real /api/inquiry submission only after the recorded controlled email test.",
     "Preserve existing Content-Security-Policy and security headers in vercel.json.",
     "Run production-path link, image, metadata and redirect audit before merge."
   ]

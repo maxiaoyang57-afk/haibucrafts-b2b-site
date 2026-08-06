@@ -3,7 +3,7 @@
 Date: 2026-08-06
 Source branch: `codex/v2-takeover`
 Production branch: `main`
-Release state: **Not approved / not published**
+Release state: **Approved for production / deployment pending**
 
 ## Release objective
 
@@ -134,9 +134,17 @@ focus treatment, explicit menu relationships, focus recovery when Escape closes
 navigation and reduced-motion behavior. All 361 source images retain non-empty
 alternative text and explicit width and height attributes.
 
-- `MA022` remains unpublished until its image is verified.
-- `RW2666` requires an explicit decision because the workbook and current resin page differ.
+- `MA022` is deliberately excluded because the legacy product-card description
+  and available placeholder asset do not identify the same product.
+- `RW2666` is deliberately excluded because it is absent from the authoritative
+  HTML product-card inventory and the verified 63-SKU V2 catalog.
 - No product count should be changed solely to reach a historical marketing total.
+
+The controlled live inquiry test was accepted by `/api/inquiry` on August 6,
+2026. Test ID `release-20260806-195657` returned HTTP 200 and provider message
+ID `b13ef3a9-b044-4fcd-872a-4cee426cf6a3` for the approved recipient
+`sale008@sola-craft.com`. Production email sending is approved; reference-image
+uploads remain disabled for the initial release.
 
 ## Release order
 

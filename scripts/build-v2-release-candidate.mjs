@@ -7,6 +7,8 @@ const sourceRoot = path.join(root, 'v2-preview');
 const outRoot = path.join(root, '.release-candidate', 'site-v2');
 const seoMap = JSON.parse(await readFile(path.join(sourceRoot, 'seo-production-map.json'), 'utf8'));
 const migrationMap = JSON.parse(await readFile(path.join(sourceRoot, 'production-config', 'file-migration-map.json'), 'utf8'));
+const rootVercelConfig = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8'));
+const redirectDraft = JSON.parse(await readFile(path.join(sourceRoot, 'production-config', 'vercel-redirects.json'), 'utf8'));
 
 await rm(outRoot, { recursive: true, force: true });
 await mkdir(outRoot, { recursive: true });
@@ -99,12 +101,24 @@ for (const file of (await walk(assetsOut)).filter((item) => item.endsWith('.js')
 
 await cp(path.join(sourceRoot, 'production-config', 'sitemap.xml'), path.join(outRoot, 'sitemap.xml'));
 await cp(path.join(sourceRoot, 'production-config', 'robots.txt'), path.join(outRoot, 'robots.txt'));
+const redirectsBySource = new Map();
+for (const redirect of rootVercelConfig.redirects || []) redirectsBySource.set(redirect.source, redirect);
+for (const redirect of redirectDraft.redirects || []) redirectsBySource.set(redirect.source, redirect);
+const productionVercelConfig = {
+  ...rootVercelConfig,
+  cleanUrls: redirectDraft.cleanUrls,
+  trailingSlash: redirectDraft.trailingSlash,
+  redirects: [...redirectsBySource.values()],
+  headers: rootVercelConfig.headers || []
+};
+await writeFile(path.join(outRoot, 'vercel.json'), `${JSON.stringify(productionVercelConfig, null, 2)}\n`, 'utf8');
 await writeFile(path.join(outRoot, 'release-manifest.json'), JSON.stringify({
   generatedAt: new Date().toISOString(),
   source: 'codex/v2-takeover',
   routes: seoMap.routes.map(({ previewPath, productionPath, index }) => ({ previewPath, productionPath, index })),
   supportPages: ['/404.html'],
   migrationVersion: migrationMap.version || 'unspecified',
+  productionConfig: 'vercel.json',
   quoteMode: 'validation-only',
   productionPublished: false
 }, null, 2));

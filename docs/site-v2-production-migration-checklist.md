@@ -31,6 +31,9 @@ Production domain: `https://www.haibucrafts.com/`
 - [ ] Verify all footer, blog, capability and related-content links.
 - [ ] Verify 404 behavior after final production routing is configured.
 - [ ] Verify keyboard focus order and visible focus states.
+- [x] Add skip-to-content navigation, visible focus styles and Escape-key focus recovery.
+- [x] Respect reduced-motion preferences for smooth scrolling and transitions.
+- [x] Confirm all 361 source images have non-empty alt text and explicit dimensions.
 
 ## SEO and indexing
 
@@ -43,6 +46,7 @@ Production domain: `https://www.haibucrafts.com/`
 - [x] Confirm one H1, unique title and useful meta description per indexable page.
 - [x] Add homepage WebSite and Organization structured data.
 - [x] Match visible article authorship with BlogPosting author and reviewer data.
+- [x] Add BreadcrumbList data to all 86 pages with visible breadcrumb navigation.
 - [ ] Submit the production sitemap in Google Search Console after deployment.
 
 ## Inquiry activation
@@ -60,6 +64,7 @@ Production domain: `https://www.haibucrafts.com/`
 - [ ] Compare `main` against `codex/v2-takeover` before merging.
 - [ ] Decide whether V2 replaces root routes directly or is migrated page by page.
 - [ ] Add redirects from old URLs to final production URLs where slugs change.
+- [x] Generate a merged production-candidate `vercel.json` while preserving security headers.
 - [ ] Preserve analytics, Search Console verification and Vercel anonymous analytics.
 - [ ] Deploy to a production-candidate preview first.
 - [ ] Obtain explicit user approval before merging or promoting to production.

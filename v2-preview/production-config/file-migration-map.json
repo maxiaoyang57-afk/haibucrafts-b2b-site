@@ -682,6 +682,10 @@
     {
       "source": "v2-preview/assets/blog-library.css",
       "destination": "assets/v2/blog-library.css"
+    },
+    {
+      "source": "v2-preview/assets/accessibility.css",
+      "destination": "assets/v2/accessibility.css"
     }
   ],
   "rootConfig": [

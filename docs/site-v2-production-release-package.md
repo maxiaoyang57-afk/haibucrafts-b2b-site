@@ -62,7 +62,11 @@ These clean production routes are intended to be created:
 
 Existing `.html` product URLs must remain reachable through permanent redirects. Do not delete indexed paths without a redirect.
 
-The existing security-header section in root `vercel.json` must be retained. The production redirect draft is a merge source, not a complete replacement for the root configuration.
+The release builder now generates a merged production-candidate `vercel.json`.
+It preserves the existing Content Security Policy and other security headers,
+enables the approved clean trailing-slash routes and applies the final redirect
+destinations. The root configuration remains unchanged until production
+approval.
 
 ## Shared asset migration
 
@@ -89,6 +93,10 @@ Before production release:
 4. Keep `/request-quote/` non-indexable.
 5. Remove every `/v2-preview/` URL from canonical links, navigation, scripts, structured data and source tracking defaults.
 6. Confirm all canonical URLs use `https://www.haibucrafts.com`.
+
+All 86 pages with a visible navigation trail now include matching
+`BreadcrumbList` structured data. The last breadcrumb item is checked against
+the page canonical URL in the release-candidate audit.
 
 ## Inquiry activation gate
 
@@ -120,6 +128,11 @@ latest review date. The Editorial Policy explains the evidence standard,
 review boundary, update process and correction contact. Homepage WebSite and
 Organization structured data identify the brand, public site, location and
 sales contact without inventing a personal expert profile.
+
+The shared navigation also provides a skip-to-content link, visible keyboard
+focus treatment, explicit menu relationships, focus recovery when Escape closes
+navigation and reduced-motion behavior. All 361 source images retain non-empty
+alternative text and explicit width and height attributes.
 
 - `MA022` remains unpublished until its image is verified.
 - `RW2666` requires an explicit decision because the workbook and current resin page differ.

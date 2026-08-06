@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 
@@ -9,6 +9,31 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 const editorialPreviewPath = '/v2-preview/about/editorial-policy/';
 const editorialProductionPath = '/about/editorial-policy/';
+
+async function walk(directory) {
+  const entries = await readdir(directory, { withFileTypes: true });
+  const files = [];
+  for (const entry of entries) {
+    const fullPath = path.join(directory, entry.name);
+    if (entry.isDirectory()) files.push(...await walk(fullPath));
+    else files.push(fullPath);
+  }
+  return files;
+}
+
+function decodeHtml(value) {
+  return value
+    .replaceAll('&amp;', '&')
+    .replaceAll('&quot;', '"')
+    .replaceAll('&#39;', "'")
+    .replaceAll('&lt;', '<')
+    .replaceAll('&gt;', '>')
+    .replaceAll('&nbsp;', ' ');
+}
+
+function textContent(value) {
+  return decodeHtml(value.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim());
+}
 
 const organization = {
   '@type': 'Organization',
@@ -245,7 +270,52 @@ migrationMap.pages = migrationMap.pages.filter((page) => page.productionPath !==
 const aboutPageIndex = migrationMap.pages.findIndex((page) => page.productionPath === '/about/');
 migrationMap.pages.splice(aboutPageIndex < 0 ? migrationMap.pages.length : aboutPageIndex + 1, 0, editorialPage);
 migrationMap.version = '2026-08-06';
+if (!migrationMap.sharedAssets.some((asset) => asset.source === 'v2-preview/assets/accessibility.css')) {
+  migrationMap.sharedAssets.push({
+    source: 'v2-preview/assets/accessibility.css',
+    destination: 'assets/v2/accessibility.css'
+  });
+}
 await writeFile(migrationMapPath, `${JSON.stringify(migrationMap, null, 2)}\n`, 'utf8');
+
+const routeByPreviewPath = new Map(seoMap.routes.map((route) => [route.previewPath, route]));
+const htmlFiles = (await walk(previewRoot)).filter((file) => file.endsWith('.html'));
+for (const file of htmlFiles) {
+  let html = await readFile(file, 'utf8');
+  const relative = path.relative(previewRoot, file).replaceAll('\\', '/');
+  const previewPath = relative === 'index.html'
+    ? '/v2-preview/'
+    : `/v2-preview/${relative.replace(/index\.html$/, '')}`;
+  const route = routeByPreviewPath.get(previewPath);
+  const visibleBreadcrumbs = html.match(/<div class="breadcrumbs">([\s\S]*?)<\/div>/i)?.[1];
+  if (!route || !visibleBreadcrumbs || html.includes('"@type":"BreadcrumbList"')) continue;
+
+  const chunks = visibleBreadcrumbs.split(/\s+\/\s+/).filter(Boolean);
+  const itemListElement = chunks.map((chunk, index) => {
+    const anchor = chunk.match(/<a\s+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/i);
+    const name = textContent(anchor?.[2] || chunk);
+    let productionPath = route.productionPath;
+    if (anchor) {
+      const rawPath = anchor[1].split('#')[0].split('?')[0];
+      const normalizedPath = rawPath.endsWith('/') || rawPath.endsWith('.html') ? rawPath : `${rawPath}/`;
+      productionPath = routeByPreviewPath.get(normalizedPath)?.productionPath || productionPath;
+    }
+    return {
+      '@type': 'ListItem',
+      position: index + 1,
+      name,
+      item: `${seoMap.site.origin}${productionPath}`
+    };
+  });
+
+  const breadcrumbData = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement
+  }).replaceAll('<', '\\u003c');
+  html = html.replace('</head>', `  <script type="application/ld+json" data-breadcrumb-ld>${breadcrumbData}</script>\n</head>`);
+  await writeFile(file, html, 'utf8');
+}
 
 const sitemapUrls = seoMap.routes.filter((route) => route.index).map((route) => {
   const priority = route.productionPath === '/' ? '1.0' : route.generatedProduct ? '0.8' : route.type === 'article' ? '0.7' : route.productionPath.startsWith('/products/') ? '0.9' : '0.7';
@@ -254,4 +324,4 @@ const sitemapUrls = seoMap.routes.filter((route) => route.index).map((route) => 
 });
 await writeFile(sitemapPath, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.join('\n')}\n</urlset>\n`, 'utf8');
 
-console.log('Generated the editorial policy, organization metadata, authorship signals and concise category titles.');
+console.log('Generated the editorial policy, organization metadata, authorship signals, concise titles and breadcrumb data.');

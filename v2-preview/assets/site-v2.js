@@ -23,11 +23,13 @@
 
   const menuButton = document.querySelector('.menu-btn');
   const nav = document.querySelector('.nav');
-  const closeMenu = () => {
+  const closeMenu = ({ restoreFocus = false } = {}) => {
     if (!menuButton || !nav) return;
+    const wasOpen = nav.classList.contains('open');
     nav.classList.remove('open');
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.setAttribute('aria-label', 'Open menu');
+    if (restoreFocus && wasOpen) menuButton.focus();
   };
 
   if (menuButton && nav) {
@@ -41,10 +43,12 @@
 
   const productToggle = document.querySelector('.products-toggle');
   const navGroup = productToggle?.closest('.nav-group');
-  const closeProducts = () => {
+  const closeProducts = ({ restoreFocus = false } = {}) => {
     if (!productToggle || !navGroup) return;
+    const wasOpen = navGroup.classList.contains('dropdown-open');
     navGroup.classList.remove('dropdown-open');
     productToggle.setAttribute('aria-expanded', 'false');
+    if (restoreFocus && wasOpen) productToggle.focus();
   };
 
   if (productToggle && navGroup) {
@@ -60,8 +64,8 @@
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
-      closeMenu();
-      closeProducts();
+      closeMenu({ restoreFocus: true });
+      closeProducts({ restoreFocus: true });
     }
   });
 
@@ -70,6 +74,9 @@
     const update = () => backTop.classList.toggle('show', window.scrollY > 500);
     window.addEventListener('scroll', update, { passive: true });
     update();
-    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    backTop.addEventListener('click', () => {
+      const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: reduceMotion ? 'auto' : 'smooth' });
+    });
   }
 })();

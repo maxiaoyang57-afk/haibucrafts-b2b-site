@@ -234,7 +234,7 @@ for (const article of articles) {
   <main>
     <section class="blog-article-hero">
       <div class="container">
-        <div class="breadcrumbs"><a href="/v2-preview/">Home</a> / <a href="/v2-preview/blog/">Blog</a> / ${escapeHtml(article.category)}</div>
+        <div class="breadcrumbs"><a href="/v2-preview/">Home</a> / <a href="/v2-preview/blog/">Blog</a> / ${escapeHtml(article.title)}</div>
         <span class="eyebrow">${escapeHtml(article.category)}</span>
         <h1>${escapeHtml(article.title)}</h1>
         <p>${escapeHtml(article.dek)}</p>

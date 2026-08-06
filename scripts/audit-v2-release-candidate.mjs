@@ -28,6 +28,11 @@ function collectAttributes(html, attribute) {
   return [...html.matchAll(regex)].map((match) => match[1]);
 }
 
+function structuredDataObjects(value) {
+  if (!value || typeof value !== 'object') return [];
+  return Array.isArray(value['@graph']) ? value['@graph'] : [value];
+}
+
 function isExternal(value) {
   return /^(?:https?:|mailto:|tel:|data:|blob:|javascript:)/i.test(value);
 }
@@ -63,6 +68,14 @@ for (const file of htmlFiles) {
   const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i)?.[1]?.trim();
   const canonical = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i)?.[1]?.trim();
   const robots = html.match(/<meta\s+name=["']robots["']\s+content=["']([^"']+)["']/i)?.[1]?.trim();
+  const structuredData = [];
+  for (const match of html.matchAll(/<script\s+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
+    try {
+      structuredData.push(...structuredDataObjects(JSON.parse(match[1])));
+    } catch {
+      errors.push(`${relative}: invalid JSON-LD`);
+    }
+  }
 
   if (html.includes('/v2-preview/')) errors.push(`${relative}: contains preview path`);
   if (/Site V2 Preview|Preview branch only|V2 preview/i.test(html)) errors.push(`${relative}: contains preview-only copy`);
@@ -71,6 +84,21 @@ for (const file of htmlFiles) {
   if (!is404 && !canonical?.startsWith('https://www.haibucrafts.com/')) errors.push(`${relative}: missing or invalid canonical`);
   if (is404 && canonical) errors.push(`${relative}: 404 page should not declare a canonical URL`);
   if (!robots) errors.push(`${relative}: missing robots directive`);
+  if (html.includes('class="breadcrumbs"')) {
+    const breadcrumbs = structuredData.find((entry) => entry['@type'] === 'BreadcrumbList');
+    if (!breadcrumbs) {
+      errors.push(`${relative}: visible breadcrumbs missing BreadcrumbList data`);
+    } else {
+      const items = breadcrumbs.itemListElement || [];
+      if (items.length < 2) errors.push(`${relative}: BreadcrumbList must contain at least two items`);
+      items.forEach((item, index) => {
+        if (item.position !== index + 1 || !item.name || !item.item?.startsWith('https://www.haibucrafts.com/')) {
+          errors.push(`${relative}: invalid BreadcrumbList item at position ${index + 1}`);
+        }
+      });
+      if (!is404 && items.at(-1)?.item !== canonical) errors.push(`${relative}: final breadcrumb must match canonical URL`);
+    }
+  }
   if (isQuote || is404) {
     if (robots !== 'noindex,follow') errors.push(`${relative}: must remain noindex,follow`);
   } else if (robots !== 'index,follow') {
@@ -96,6 +124,13 @@ for (const file of htmlFiles) {
     const target = resolveTarget(file, src);
     if (!await exists(target)) errors.push(`${relative}: broken src ${src}`);
   }
+  for (const match of html.matchAll(/<img\b[^>]*>/gi)) {
+    const image = match[0];
+    if (!/\balt=["'][^"']+["']/i.test(image)) errors.push(`${relative}: image missing useful alt text`);
+    if (!/\bwidth=["']?\d+/i.test(image) || !/\bheight=["']?\d+/i.test(image)) {
+      errors.push(`${relative}: image missing width or height`);
+    }
+  }
 }
 
 let combinedJs = '';
@@ -110,6 +145,9 @@ if (!await exists(componentsPath)) errors.push('missing production components ru
 else {
   const components = await readFile(componentsPath, 'utf8');
   if (!components.includes("const ROOT = '/';")) errors.push('production components runtime does not use root production paths');
+  for (const marker of ['class="skip-link"', 'id="primary-navigation"', 'aria-controls="primary-navigation"', 'assets/accessibility.css']) {
+    if (!components.includes(marker)) errors.push(`production components runtime missing accessibility marker: ${marker}`);
+  }
 }
 
 const quoteConfigPath = path.join(releaseRoot, 'assets', 'v2', 'quote-runtime-config.js');
@@ -139,14 +177,41 @@ for (const required of ['Disallow: /request-quote/', 'Disallow: /api/', 'Disallo
   if (!robotsText.includes(required)) errors.push(`robots.txt missing ${required}`);
 }
 
+const vercelConfigPath = path.join(releaseRoot, 'vercel.json');
+if (!await exists(vercelConfigPath)) {
+  errors.push('release candidate is missing merged vercel.json');
+} else {
+  const vercelConfig = JSON.parse(await readFile(vercelConfigPath, 'utf8'));
+  if (vercelConfig.cleanUrls !== true || vercelConfig.trailingSlash !== true) {
+    errors.push('merged vercel.json must enable cleanUrls and trailingSlash');
+  }
+  const headers = (vercelConfig.headers || []).flatMap((rule) => rule.headers || []);
+  for (const key of ['Content-Security-Policy', 'Permissions-Policy', 'Referrer-Policy', 'X-Content-Type-Options', 'X-Frame-Options']) {
+    if (!headers.some((header) => header.key === key)) errors.push(`merged vercel.json missing security header ${key}`);
+  }
+  const redirects = new Map((vercelConfig.redirects || []).map((redirect) => [redirect.source, redirect.destination]));
+  const requiredRedirects = new Map([
+    ['/products/slime-charms-wholesale.html', '/products/slime-charms-wholesale/'],
+    ['/products/polymer-clay-slices-wholesale.html', '/products/polymer-clay-slices-wholesale/'],
+    ['/products/resin-charms-for-slime.html', '/products/resin-charms-for-slime/'],
+    ['/products/sequins-glitter-confetti.html', '/products/sequins-glitter-confetti/'],
+    ['/custom-services/', '/custom-solutions/'],
+    ['/quote/', '/request-quote/']
+  ]);
+  for (const [source, destination] of requiredRedirects) {
+    if (redirects.get(source) !== destination) errors.push(`merged vercel.json missing redirect ${source} -> ${destination}`);
+  }
+}
+
 const manifest = JSON.parse(await readFile(path.join(releaseRoot, 'release-manifest.json'), 'utf8'));
 if (manifest.quoteMode !== 'validation-only') errors.push('release manifest quoteMode must be validation-only');
 if (manifest.productionPublished !== false) errors.push('release manifest must state productionPublished false');
 if (!Array.isArray(manifest.supportPages) || !manifest.supportPages.includes('/404.html')) errors.push('release manifest is missing the production 404 support page');
+if (manifest.productionConfig !== 'vercel.json') errors.push('release manifest does not identify the merged production config');
 
 if (errors.length) {
   for (const error of errors) console.error(`ERROR: ${error}`);
   process.exitCode = 1;
 } else {
-  console.log(`Release candidate audit passed: ${htmlFiles.length} HTML pages, ${jsFiles.length} runtime scripts, valid links, production paths, metadata, 404 recovery and guarded quote mode.`);
+  console.log(`Release candidate audit passed: ${htmlFiles.length} HTML pages, ${jsFiles.length} runtime scripts, valid breadcrumbs, images, merged security config, 404 recovery and guarded quote mode.`);
 }

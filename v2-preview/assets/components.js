@@ -12,15 +12,26 @@
     document.head.appendChild(stylesheet);
   }
 
+  if (!document.querySelector('link[href$="accessibility.css"]')) {
+    const stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = `${ROOT}assets/accessibility.css`;
+    document.head.appendChild(stylesheet);
+  }
+
+  const main = document.querySelector('main');
+  if (main && !main.id) main.id = 'main-content';
+
   const header = `
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="topbar"><div class="container"><span>B2B wholesale · OEM/ODM · Private label · Export support</span><span><a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a></span></div></div>
     <header class="site-header"><div class="container navbar">
       <a class="logo" href="${ROOT}"><img src="/assets/images/logo-haibu.webp" width="88" height="68" alt="HAIBUCRAFT"></a>
-      <nav class="nav" aria-label="Primary navigation">
+      <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
         <a href="${ROOT}">Home</a>
         <div class="nav-group">
-          <div class="nav-product-row"><a href="${ROOT}products/">Products</a><button class="products-toggle" type="button" aria-expanded="false" aria-label="Open product categories">⌄</button></div>
-          <div class="dropdown">
+          <div class="nav-product-row"><a href="${ROOT}products/">Products</a><button class="products-toggle" type="button" aria-expanded="false" aria-controls="product-category-navigation" aria-haspopup="true" aria-label="Open product categories">⌄</button></div>
+          <div class="dropdown" id="product-category-navigation">
             <a href="${ROOT}products/slime-charms/">Slime Charms Wholesale</a>
             <a href="${ROOT}products/polymer-clay-slices/">Polymer Clay Slices Wholesale</a>
             <a href="${ROOT}products/resin-charms/">Resin Charms for Slime</a>
@@ -35,7 +46,7 @@
         <a href="${ROOT}blog/">Blog</a>
         <a class="quote-btn" href="${ROOT}quote/?source=${source}&landing_page=${landing}">Request Quote</a>
       </nav>
-      <button class="menu-btn" aria-expanded="false" aria-label="Open menu">☰</button>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open menu">☰</button>
     </div></header>`;
 
   const footer = `
@@ -48,7 +59,7 @@
         <div><h3>Company</h3><a href="${ROOT}about/">About HAIBUCRAFT</a><a href="${ROOT}about/#transparency">Transparency</a><a href="${ROOT}about/editorial-policy/">Editorial Policy</a><a href="${ROOT}certificates/">Document Center</a><a href="${ROOT}quote/?source=footer-company&landing_page=${landing}">Contact Sales</a></div>
       </div>
       <div class="footer-bottom"><span>© 2026 HAIBUCRAFT. Preview branch only. Not published to production.</span><span>Verified claims only · No retail checkout · No blanket certification claims</span></div>
-    </div></footer><button class="back-top" aria-label="Back to top">↑</button>`;
+    </div></footer><button class="back-top" type="button" aria-label="Back to top">↑</button>`;
 
   const headerSlot = document.querySelector('[data-site-header]');
   const footerSlot = document.querySelector('[data-site-footer]');

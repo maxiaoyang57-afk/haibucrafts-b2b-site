@@ -22,6 +22,8 @@ Production domain: `https://www.haibucrafts.com/`
 - [x] Verify all 63 detail pages include Product structured data and prefilled inquiry context.
 - [x] Verify all 10 buyer guides use the shared article layout and link from the Blog directory.
 - [x] Verify all 10 buyer guides include BlogPosting structured data, internal links and article-level quote attribution.
+- [x] Verify all 10 buyer guides show organization authorship, internal scope reviewer and review date.
+- [x] Verify the Editorial Policy explains evidence, review boundaries, updates and corrections.
 - [ ] Verify desktop and mobile navigation, dropdown, Escape-key close and active navigation state.
 - [ ] Verify all 63 product-card images load.
 - [ ] Verify search and category filters on all four product pages.
@@ -32,13 +34,15 @@ Production domain: `https://www.haibucrafts.com/`
 
 ## SEO and indexing
 
-- [ ] Replace preview titles that include "V2 Preview" with production titles.
+- [x] Generate concise, unique production titles and remove preview-only wording in the release candidate.
 - [ ] Remove page-level `noindex,nofollow` only after final approval.
 - [ ] Remove preview-specific `X-Robots-Tag: noindex` configuration for production routes.
-- [ ] Generate production `sitemap.xml` using final URLs.
-- [ ] Update `robots.txt` to allow approved production routes and reference the sitemap.
-- [ ] Add canonical URLs using `https://www.haibucrafts.com/`.
-- [ ] Confirm one H1, unique title and useful meta description per indexable page.
+- [x] Generate production `sitemap.xml` using final URLs.
+- [x] Update the production-candidate `robots.txt` and reference the sitemap.
+- [x] Add canonical URLs using `https://www.haibucrafts.com/`.
+- [x] Confirm one H1, unique title and useful meta description per indexable page.
+- [x] Add homepage WebSite and Organization structured data.
+- [x] Match visible article authorship with BlogPosting author and reviewer data.
 - [ ] Submit the production sitemap in Google Search Console after deployment.
 
 ## Inquiry activation

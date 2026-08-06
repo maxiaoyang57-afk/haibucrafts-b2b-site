@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-01",
+  "version": "2026-08-06",
   "sourceBranch": "site-v2-integrated-preview",
   "productionBranch": "main",
   "requiresExplicitApproval": true,
@@ -69,6 +69,13 @@
       "destination": "about/index.html",
       "action": "replace",
       "productionPath": "/about/"
+    },
+    {
+      "source": "v2-preview/about/editorial-policy/index.html",
+      "destination": "about/editorial-policy/index.html",
+      "action": "create",
+      "productionPath": "/about/editorial-policy/",
+      "generatedTrust": true
     },
     {
       "source": "v2-preview/blog/index.html",

@@ -101,7 +101,7 @@ await cp(path.join(sourceRoot, 'production-config', 'sitemap.xml'), path.join(ou
 await cp(path.join(sourceRoot, 'production-config', 'robots.txt'), path.join(outRoot, 'robots.txt'));
 await writeFile(path.join(outRoot, 'release-manifest.json'), JSON.stringify({
   generatedAt: new Date().toISOString(),
-  source: 'site-v2-integrated-preview',
+  source: 'codex/v2-takeover',
   routes: seoMap.routes.map(({ previewPath, productionPath, index }) => ({ previewPath, productionPath, index })),
   supportPages: ['/404.html'],
   migrationVersion: migrationMap.version || 'unspecified',

@@ -94,6 +94,15 @@
       "index": true
     },
     {
+      "previewPath": "/v2-preview/about/editorial-policy/",
+      "productionPath": "/about/editorial-policy/",
+      "title": "Editorial Policy and Content Review | HAIBUCRAFT",
+      "description": "How HAIBUCRAFT prepares, reviews, limits and updates buyer guides, product information and sourcing claims.",
+      "type": "website",
+      "index": true,
+      "generatedTrust": true
+    },
+    {
       "previewPath": "/v2-preview/blog/",
       "productionPath": "/blog/",
       "title": "Wholesale Craft Supply Buying Guides | HAIBUCRAFT",

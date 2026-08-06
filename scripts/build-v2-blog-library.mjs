@@ -198,9 +198,22 @@ for (const article of articles) {
     headline: article.title,
     description: article.description,
     datePublished: '2026-08-01',
-    dateModified: '2026-08-01',
-    author: { '@type': 'Organization', name: 'HAIBUCRAFT' },
-    publisher: { '@type': 'Organization', name: 'HAIBUCRAFT' },
+    dateModified: '2026-08-06',
+    author: {
+      '@type': 'Organization',
+      name: 'HAIBUCRAFT Buyer Resources',
+      url: 'https://www.haibucrafts.com/about/editorial-policy/'
+    },
+    reviewedBy: {
+      '@type': 'Organization',
+      name: 'HAIBUCRAFT Product & Quality Coordination',
+      url: 'https://www.haibucrafts.com/about/editorial-policy/'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'HAIBUCRAFT',
+      url: 'https://www.haibucrafts.com/'
+    },
     mainEntityOfPage: `https://www.haibucrafts.com/blog/${article.slug}/`
   }).replaceAll('<', '\\u003c');
   const html = `<!DOCTYPE html>
@@ -225,7 +238,12 @@ for (const article of articles) {
         <span class="eyebrow">${escapeHtml(article.category)}</span>
         <h1>${escapeHtml(article.title)}</h1>
         <p>${escapeHtml(article.dek)}</p>
-        <div class="blog-article-meta"><span>Buyer guide</span><span>Updated August 2026</span><span>HAIBUCRAFT editorial</span></div>
+        <div class="blog-article-meta blog-authorship">
+          <span>By <a href="/v2-preview/about/editorial-policy/">HAIBUCRAFT Buyer Resources</a></span>
+          <span>Scope reviewed by <a href="/v2-preview/about/editorial-policy/#review">Product &amp; Quality Coordination</a></span>
+          <span>Last reviewed August 6, 2026</span>
+        </div>
+        <p class="blog-review-note">Internal sourcing guidance based on catalog, sample, packaging, production and document-review workflows. Review scope is explained in the <a href="/v2-preview/about/editorial-policy/">editorial policy</a>.</p>
       </div>
     </section>
     <section class="section">
@@ -296,7 +314,7 @@ const hub = `<!DOCTYPE html>
     </section>
     <section class="section alt">
       <div class="container split">
-        <div><span class="eyebrow">Editorial Principles</span><h2>Useful guidance without unsupported guarantees.</h2><p>Each guide separates operational checks from legal compliance, certification and laboratory testing.</p><ul class="checklist"><li>No universal MOQ or lead-time promises</li><li>No blanket certification statements</li><li>No substitution of inspection for testing</li><li>Product- and market-specific confirmation</li></ul></div>
+        <div><span class="eyebrow">Editorial Principles</span><h2>Useful guidance without unsupported guarantees.</h2><p>Each guide separates operational checks from legal compliance, certification and laboratory testing.</p><ul class="checklist"><li>No universal MOQ or lead-time promises</li><li>No blanket certification statements</li><li>No substitution of inspection for testing</li><li>Product- and market-specific confirmation</li></ul><div class="actions"><a class="btn btn-light" href="/v2-preview/about/editorial-policy/">Read Editorial Policy</a></div></div>
         <div class="card"><h3>Need help translating a concept into an inquiry?</h3><p>Use the Custom Solutions workflow to prepare artwork, specifications, packaging requirements and sample criteria.</p><div class="actions"><a class="btn btn-primary" href="/v2-preview/custom-solutions/">View Custom Solutions</a></div></div>
       </div>
     </section>
@@ -337,7 +355,7 @@ const blogPages = articles.map((article) => ({
 const basePages = migrationMap.pages.filter((page) => !page.generatedBlog && !articlePaths.has(`/v2-preview${page.productionPath}`));
 const quotePageIndex = basePages.findIndex((page) => page.productionPath === '/request-quote/');
 basePages.splice(quotePageIndex < 0 ? basePages.length : quotePageIndex, 0, ...blogPages);
-migrationMap.version = '2026-08-01';
+migrationMap.version = '2026-08-06';
 migrationMap.pages = basePages;
 if (!migrationMap.sharedAssets.some((item) => item.source === 'v2-preview/assets/blog-library.css')) {
   migrationMap.sharedAssets.push({ source: 'v2-preview/assets/blog-library.css', destination: 'assets/v2/blog-library.css' });

@@ -3,7 +3,11 @@
 Date: 2026-08-06
 Source branch: `codex/v2-takeover`
 Production branch: `main`
-Release state: **Approved for production / deployment pending**
+Release state: **Published to production**
+
+- Production deployment: `dpl_EoDgP3G65FTz3qPhTaPLhiZreSJg`
+- Production commit: `9b310af70a2ddf9317046086cc439c7fe84c7653`
+- Rollback tag: `pre-v2-production-20260806`
 
 ## Release objective
 

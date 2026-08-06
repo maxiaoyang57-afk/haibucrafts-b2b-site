@@ -20,5 +20,14 @@
     "accepted": true,
     "providerMessageId": "b13ef3a9-b044-4fcd-872a-4cee426cf6a3",
     "referenceUploadsEnabled": false
+  },
+  "productionDeployment": {
+    "status": "ready",
+    "publishedAt": "2026-08-06T20:16:58+08:00",
+    "deploymentId": "dpl_EoDgP3G65FTz3qPhTaPLhiZreSJg",
+    "commit": "9b310af70a2ddf9317046086cc439c7fe84c7653",
+    "url": "https://www.haibucrafts.com/",
+    "runtimeErrorsAfterDeploy": 0,
+    "rollbackTag": "pre-v2-production-20260806"
   }
 }

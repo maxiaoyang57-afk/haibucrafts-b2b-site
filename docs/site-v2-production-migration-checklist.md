@@ -60,18 +60,19 @@ Production domain: `https://www.haibucrafts.com/`
 
 ## Production migration
 
-- [ ] Create a final backup tag or release branch from current `main`.
-- [ ] Compare `main` against `codex/v2-takeover` before merging.
+- [x] Create rollback tag `pre-v2-production-20260806` from the pre-V2 `main`.
+- [x] Compare `main` against `codex/v2-takeover` before merging.
 - [x] V2 replaces the approved root routes directly while legacy files remain available for rollback and redirects.
 - [ ] Add redirects from old URLs to final production URLs where slugs change.
 - [x] Generate a merged production-candidate `vercel.json` while preserving security headers.
 - [x] Preserve the Search Console verification file and Vercel anonymous analytics.
-- [ ] Deploy to a production-candidate preview first.
+- [x] Deploy commit `9b310af` to a production-candidate preview first and require Vercel READY.
 - [x] Obtain explicit user approval before merging or promoting to production.
-- [ ] Monitor 404s, inquiry errors, Core Web Vitals and indexing after release.
+- [x] Complete the initial production route, 404, inquiry-runtime and Vercel error scan after release.
+- [ ] Continue monitoring Core Web Vitals and indexing after release.
 
 ## Rollback
 
-- [ ] Keep the pre-V2 production commit and deployment ID recorded.
-- [ ] Confirm the Vercel rollback candidate before release.
+- [x] Keep the pre-V2 production commit and deployment ID recorded.
+- [x] Confirm rollback tag `pre-v2-production-20260806` before release.
 - [ ] Roll back immediately if inquiry submission, navigation, product images or primary routes fail.

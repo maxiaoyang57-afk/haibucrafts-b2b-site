@@ -1,4 +1,4 @@
-import { cp, readFile, readdir } from 'node:fs/promises';
+import { cp, readFile, readdir, rm } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 
@@ -11,6 +11,12 @@ if (manifest.productionApproved !== true || manifest.quoteMode !== 'live') {
 }
 
 const excludedReleaseMetadata = new Set(['acceptance-report.md', 'release-manifest.json']);
+const cleanUrlCollisions = [
+  'products/polymer-clay-slices-wholesale.html',
+  'products/resin-charms-for-slime.html',
+  'products/sequins-glitter-confetti.html',
+  'products/slime-charms-wholesale.html'
+];
 const entries = await readdir(releaseRoot, { withFileTypes: true });
 let copied = 0;
 
@@ -24,4 +30,8 @@ for (const entry of entries) {
   copied += 1;
 }
 
-console.log(`Materialized ${copied} approved production entries from ${path.relative(root, releaseRoot)} without removing retained legacy files.`);
+for (const relative of cleanUrlCollisions) {
+  await rm(path.join(root, relative), { force: true });
+}
+
+console.log(`Materialized ${copied} approved production entries from ${path.relative(root, releaseRoot)} and removed ${cleanUrlCollisions.length} legacy files that shadow clean production routes.`);

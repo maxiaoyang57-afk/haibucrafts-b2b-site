@@ -1,15 +1,55 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": false,
+  "cleanUrls": true,
   "redirects": [
     {
       "source": "/products/plastic-sequins-wholesale.html",
-      "destination": "/products/sequins-glitter-confetti.html",
+      "destination": "/products/sequins-glitter-confetti/",
       "permanent": true
     },
     {
       "source": "/products/resin-charms-wholesale.html",
-      "destination": "/products/resin-charms-for-slime.html",
+      "destination": "/products/resin-charms-for-slime/",
+      "permanent": true
+    },
+    {
+      "source": "/products/slime-charms-wholesale.html",
+      "destination": "/products/slime-charms-wholesale/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale.html",
+      "destination": "/products/polymer-clay-slices-wholesale/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime.html",
+      "destination": "/products/resin-charms-for-slime/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti.html",
+      "destination": "/products/sequins-glitter-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/custom-services/",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/quote/",
+      "destination": "/request-quote/",
+      "permanent": true
+    },
+    {
+      "source": "/haibu-manufacturing/",
+      "destination": "/manufacturing/",
+      "permanent": true
+    },
+    {
+      "source": "/haibu-quality-control/",
+      "destination": "/quality-control/",
       "permanent": true
     }
   ],
@@ -17,12 +57,28 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "Content-Security-Policy", "value": "default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data: blob:; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests" },
-        { "key": "Permissions-Policy", "value": "camera=(self), microphone=(), geolocation=(), payment=()" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" }
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'none'; img-src 'self' data: blob:; media-src 'self'; object-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; upgrade-insecure-requests"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(self), microphone=(), geolocation=(), payment=()"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
       ]
     }
-  ]
+  ],
+  "trailingSlash": true
 }

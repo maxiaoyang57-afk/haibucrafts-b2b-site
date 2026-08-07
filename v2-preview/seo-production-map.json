@@ -2,7 +2,7 @@
   "site": {
     "origin": "https://www.haibucrafts.com",
     "brand": "HAIBUCRAFT",
-    "defaultOgImage": "/assets/images/logo-haibu.webp"
+    "defaultOgImage": "/brand/haibu-og.png"
   },
   "routes": [
     {

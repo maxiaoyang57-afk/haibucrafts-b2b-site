@@ -55,6 +55,7 @@ function replacePaths(content) {
 function applyProductionMetadata(html, route, { canonical = true } = {}) {
   const robots = route.index ? 'index,follow' : 'noindex,follow';
   const canonicalUrl = `${seoMap.site.origin}${route.productionPath}`;
+  const brandImageUrl = `${seoMap.site.origin}${seoMap.site.defaultOgImage}`;
   let next = html
     .replace(/<title>[^<]*<\/title>/i, `<title>${route.title}</title>`)
     .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="description" content="${route.description}">`)
@@ -66,14 +67,18 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
     )
     .replaceAll('>Validate Quote Request</button>', '>Send Quote Request</button>')
     .replaceAll('Site V2 Preview', 'HAIBUCRAFT')
-    .replaceAll('V2 Preview', 'HAIBUCRAFT');
+    .replaceAll('V2 Preview', 'HAIBUCRAFT')
+    .replaceAll('https://www.haibucrafts.com/assets/images/logo-haibu.webp', 'https://www.haibucrafts.com/brand/haibu-logo-header.png')
+    .replace(/\s*<link\b[^>]*\brel=["'](?:shortcut icon|icon|apple-touch-icon)["'][^>]*>/gi, '')
+    .replace(/\s*<meta\b[^>]*(?:property|name)=["'](?:og:image|og:image:width|og:image:height|twitter:card|twitter:title|twitter:description|twitter:image)["'][^>]*>/gi, '');
 
   if (canonical && !/<link\s+rel=["']canonical["']/i.test(next)) {
     next = next.replace('</head>', `<link rel="canonical" href="${canonicalUrl}"></head>`);
   }
   if (!/<meta\s+property=["']og:title["']/i.test(next)) {
-    next = next.replace('</head>', `<meta property="og:title" content="${route.title}"><meta property="og:description" content="${route.description}"><meta property="og:type" content="${route.type}"><meta property="og:url" content="${canonicalUrl}"><meta property="og:image" content="${seoMap.site.origin}${seoMap.site.defaultOgImage}"></head>`);
+    next = next.replace('</head>', `<meta property="og:title" content="${route.title}"><meta property="og:description" content="${route.description}"><meta property="og:type" content="${route.type}"><meta property="og:url" content="${canonicalUrl}"></head>`);
   }
+  next = next.replace('</head>', `<link rel="icon" href="/brand/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32x32.png"><link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png"><meta property="og:image" content="${brandImageUrl}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${route.title}"><meta name="twitter:description" content="${route.description}"><meta name="twitter:image" content="${brandImageUrl}"></head>`);
   return replacePaths(next);
 }
 
@@ -100,6 +105,7 @@ await writeFile(path.join(outRoot, '404.html'), applyProductionMetadata(notFound
 
 const assetsOut = path.join(outRoot, 'assets', 'v2');
 await cp(path.join(sourceRoot, 'assets'), assetsOut, { recursive: true });
+await cp(path.join(root, 'public', 'brand'), path.join(outRoot, 'brand'), { recursive: true });
 for (const file of (await walk(assetsOut)).filter((item) => item.endsWith('.js'))) {
   const source = await readFile(file, 'utf8');
   await writeFile(file, replacePaths(source), 'utf8');

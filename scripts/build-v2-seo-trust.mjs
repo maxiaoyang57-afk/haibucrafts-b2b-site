@@ -40,7 +40,7 @@ const organization = {
   '@id': 'https://www.haibucrafts.com/#organization',
   name: 'HAIBUCRAFT',
   url: 'https://www.haibucrafts.com/',
-  logo: 'https://www.haibucrafts.com/assets/images/logo-haibu.webp',
+  logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png',
   email: 'sale008@sola-craft.com',
   address: {
     '@type': 'PostalAddress',

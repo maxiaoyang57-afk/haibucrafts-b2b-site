@@ -148,12 +148,19 @@ if (!await exists(componentsPath)) errors.push('missing production components ru
 else {
   const components = await readFile(componentsPath, 'utf8');
   if (!components.includes("const ROOT = '/';")) errors.push('production components runtime does not use root production paths');
-  for (const marker of ['class="skip-link"', 'id="primary-navigation"', 'aria-controls="primary-navigation"', 'assets/accessibility.css']) {
+  for (const marker of ['class="skip-link"', 'id="primary-navigation"', 'aria-controls="primary-navigation"', 'accessibility.css']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing accessibility marker: ${marker}`);
   }
   for (const marker of ['/_vercel/insights/script.js', 'data-sdk="analytics"']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing analytics marker: ${marker}`);
   }
+  for (const marker of ['/brand/haibu-logo-header.png', '/brand/haibu-logo-mobile.png', '/brand/haibu-logo-footer.png', 'Creative craft components supplier', "const ASSET_ROOT = ROOT === '/' ? '/assets/v2/'", 'brand-v2.css']) {
+    if (!components.includes(marker)) errors.push(`production components runtime missing brand marker: ${marker}`);
+  }
+}
+
+for (const brandAsset of ['haibu-logo-header.png', 'haibu-logo-mobile.png', 'haibu-logo-footer.png', 'haibu-logo-black.png', 'favicon.ico', 'favicon-32x32.png', 'apple-touch-icon.png', 'haibu-og.png']) {
+  if (!await exists(path.join(releaseRoot, 'brand', brandAsset))) errors.push(`missing brand asset: ${brandAsset}`);
 }
 
 const quoteConfigPath = path.join(releaseRoot, 'assets', 'v2', 'quote-runtime-config.js');

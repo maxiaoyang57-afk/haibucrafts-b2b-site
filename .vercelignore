@@ -3,4 +3,5 @@ README.md
 *.bat
 *-AUDIT*.json
 V*-*.json
+!v2-preview/production-config/vercel-redirects.json
 tests/

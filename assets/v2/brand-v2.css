@@ -1,0 +1,145 @@
+:root {
+  --brand: #0b2c59;
+  --brand-dark: #061a36;
+  --brand-gold: #c88a3d;
+  --accent: #f8ead5;
+}
+
+.topbar {
+  background: #0a1d38;
+}
+
+.navbar {
+  min-height: 76px;
+  gap: 24px;
+}
+
+.logo {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo picture {
+  display: block;
+}
+
+.logo img {
+  width: auto;
+  height: 52px;
+  max-width: 156px;
+  object-fit: contain;
+}
+
+.nav {
+  gap: 18px;
+}
+
+.quote-btn {
+  border: 1px solid var(--brand-gold);
+  box-shadow: 0 8px 22px rgba(11, 44, 89, 0.16);
+}
+
+.menu-btn {
+  color: var(--brand);
+  border-color: #cad2df;
+}
+
+.hero {
+  background: linear-gradient(135deg, #fbf7f1, #fff 60%, #f6f8fb);
+}
+
+.eyebrow {
+  background: #f6ead9;
+}
+
+.cta {
+  background: #0a1d38;
+}
+
+.site-footer {
+  background: #07182e;
+}
+
+.footer-brand-mark {
+  width: min(270px, 100%);
+  margin: 0 0 20px !important;
+  padding: 10px 12px !important;
+  background: #fffdf9;
+  border: 1px solid rgba(210, 161, 91, 0.7);
+  border-radius: 16px;
+}
+
+.footer-logo {
+  width: 100%;
+  height: auto;
+  max-height: 92px;
+  object-fit: contain;
+}
+
+.footer-brand h3 {
+  margin: 0 0 4px;
+}
+
+.footer-tagline {
+  margin: 0 0 14px !important;
+  color: #f2ca8a !important;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.back-top {
+  box-shadow: 0 12px 30px rgba(11, 44, 89, 0.3);
+}
+
+.page-hero {
+  background: linear-gradient(135deg, #fbf7f1, #fff);
+}
+
+.category-sidebar {
+  top: 104px;
+}
+
+.category-sidebar a.active,
+.category-sidebar a:hover {
+  background: #f6ead9;
+}
+
+.product-type {
+  background: #f8ead5;
+}
+
+@media (max-width: 900px) {
+  .navbar {
+    min-height: 64px;
+    gap: 16px;
+  }
+
+  .logo img {
+    width: 40px;
+    height: 40px;
+    max-width: 40px;
+  }
+
+  .nav {
+    top: 64px;
+  }
+}
+
+@media (max-width: 620px) {
+  .topbar .container {
+    display: grid;
+    justify-content: start;
+    gap: 2px;
+    padding: 7px 0;
+  }
+
+  .nav {
+    max-height: calc(100vh - 64px);
+  }
+
+  .hero {
+    padding-top: 44px;
+  }
+}

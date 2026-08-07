@@ -1,5 +1,6 @@
 (() => {
   const ROOT = '/v2-preview/';
+  const ASSET_ROOT = ROOT === '/' ? '/assets/v2/' : `${ROOT}assets/`;
   window.HAIBU_SITE_ROOT = ROOT;
   const page = document.body.dataset.page || '';
   const source = encodeURIComponent(page || 'site-v2');
@@ -19,14 +20,21 @@
   if (!document.querySelector('link[href$="footer-related-v2.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = `${ROOT}assets/footer-related-v2.css`;
+    stylesheet.href = `${ASSET_ROOT}footer-related-v2.css`;
     document.head.appendChild(stylesheet);
   }
 
   if (!document.querySelector('link[href$="accessibility.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = `${ROOT}assets/accessibility.css`;
+    stylesheet.href = `${ASSET_ROOT}accessibility.css`;
+    document.head.appendChild(stylesheet);
+  }
+
+  if (!document.querySelector('link[href$="brand-v2.css"]')) {
+    const stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = `${ASSET_ROOT}brand-v2.css`;
     document.head.appendChild(stylesheet);
   }
 
@@ -37,7 +45,12 @@
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="topbar"><div class="container"><span>B2B wholesale · OEM/ODM · Private label · Export support</span><span><a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a></span></div></div>
     <header class="site-header"><div class="container navbar">
-      <a class="logo" href="${ROOT}"><img src="/assets/images/logo-haibu.webp" width="88" height="68" alt="HAIBUCRAFT"></a>
+      <a class="logo" href="${ROOT}" aria-label="HAIBU CRAFT home">
+        <picture>
+          <source media="(max-width: 900px)" srcset="/brand/haibu-logo-mobile.png">
+          <img src="/brand/haibu-logo-header.png" width="1962" height="673" alt="HAIBU CRAFT">
+        </picture>
+      </a>
       <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
         <a href="${ROOT}">Home</a>
         <div class="nav-group">
@@ -63,7 +76,13 @@
   const footer = `
     <footer class="site-footer"><div class="container">
       <div class="footer-grid footer-grid-v2">
-        <div class="footer-brand"><h3>HAIBUCRAFT</h3><p>Buyer-facing B2B brand for wholesale craft supplies, custom-project coordination, packaging support and export communication from Yiwu, Zhejiang, China.</p><a class="footer-email" href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a><p class="footer-note">Decorative craft components only. Not edible. Small parts may present a choking hazard.</p></div>
+        <div class="footer-brand">
+          <a class="footer-brand-mark" href="${ROOT}" aria-label="HAIBU CRAFT home"><img class="footer-logo" src="/brand/haibu-logo-footer.png" width="1962" height="673" alt="HAIBU CRAFT"></a>
+          <h3>HAIBU CRAFT</h3>
+          <p class="footer-tagline">Creative craft components supplier</p>
+          <p>Wholesale craft supplies, custom-project coordination, packaging support and export communication from Yiwu, Zhejiang, China.</p>
+          <a class="footer-email" href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a><p class="footer-note">Decorative craft components only. Not edible. Small parts may present a choking hazard.</p>
+        </div>
         <div><h3>Products</h3><a href="${ROOT}products/">All Products</a><a href="${ROOT}products/slime-charms/">Slime Charms</a><a href="${ROOT}products/polymer-clay-slices/">Polymer Clay Slices</a><a href="${ROOT}products/resin-charms/">Resin Charms</a><a href="${ROOT}products/sequins-glitter-confetti/">Sequins &amp; Confetti</a></div>
         <div><h3>Capabilities</h3><a href="${ROOT}custom-solutions/">Custom Solutions</a><a href="${ROOT}manufacturing/">Manufacturing &amp; Supply</a><a href="${ROOT}quality-control/">Quality Control</a><a href="${ROOT}certificates/">Certificates &amp; Reports</a><a href="${ROOT}quote/?source=footer-capabilities&landing_page=${landing}">Request Quote</a></div>
         <div><h3>Buyer Resources</h3><a href="${ROOT}blog/">Buying Guides</a><a href="${ROOT}blog/how-to-prepare-a-wholesale-product-brief/">Product Brief Guide</a><a href="${ROOT}blog/sample-approval-checklist/">Sample Approval Guide</a><a href="${ROOT}blog/packaging-quality-checkpoints/">Packaging &amp; QC Guide</a></div>

@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "test": "node --test tests/*.test.js",
+    "build": "npm run build:v2-seo && npm run build:v2-release",
     "build:v2-products": "node scripts/build-v2-product-details.mjs",
     "build:v2-blog": "node scripts/build-v2-blog-library.mjs",
     "build:v2-seo": "node scripts/build-v2-product-details.mjs && node scripts/build-v2-blog-library.mjs && node scripts/build-v2-seo-trust.mjs",

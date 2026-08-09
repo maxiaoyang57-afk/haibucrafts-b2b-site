@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: '22'
 
@@ -36,6 +36,9 @@ jobs:
 
       - name: Build release candidate
         run: npm run build:v2-release
+
+      - name: Audit materialized production consistency
+        run: npm run audit:v2-materialized
 
       - name: Audit production SEO
         run: npm run audit:v2-seo

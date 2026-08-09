@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-Disallow: /request-quote/
 Disallow: /api/
 Disallow: /v2-preview/
 

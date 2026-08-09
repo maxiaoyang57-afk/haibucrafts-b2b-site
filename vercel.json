@@ -3,6 +3,56 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/products/index.html",
+      "destination": "/products/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/about/index.html",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/custom-services/index.html",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/quote/index.html",
+      "destination": "/request-quote/",
+      "permanent": true
+    },
+    {
+      "source": "/request-quote/index.html",
+      "destination": "/request-quote/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/polymer-clay-slices-buying-guide.html",
+      "destination": "/blog/polymer-clay-slice-buying-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/about/b2b-export-supplier.html",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
       "source": "/products/plastic-sequins-wholesale.html",
       "destination": "/products/sequins-glitter-confetti/",
       "permanent": true

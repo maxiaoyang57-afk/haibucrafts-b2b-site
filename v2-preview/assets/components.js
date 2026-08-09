@@ -1,5 +1,6 @@
 (() => {
   const ROOT = '/v2-preview/';
+  const ASSET_ROOT = ROOT === '/' ? '/assets/v2/' : `${ROOT}assets/`;
   window.HAIBU_SITE_ROOT = ROOT;
   const page = document.body.dataset.page || '';
   const source = encodeURIComponent(page || 'site-v2');
@@ -19,14 +20,14 @@
   if (!document.querySelector('link[href$="footer-related-v2.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = `${ROOT}assets/footer-related-v2.css`;
+    stylesheet.href = `${ASSET_ROOT}footer-related-v2.css`;
     document.head.appendChild(stylesheet);
   }
 
   if (!document.querySelector('link[href$="accessibility.css"]')) {
     const stylesheet = document.createElement('link');
     stylesheet.rel = 'stylesheet';
-    stylesheet.href = `${ROOT}assets/accessibility.css`;
+    stylesheet.href = `${ASSET_ROOT}accessibility.css`;
     document.head.appendChild(stylesheet);
   }
 
@@ -67,9 +68,9 @@
         <div><h3>Products</h3><a href="${ROOT}products/">All Products</a><a href="${ROOT}products/slime-charms/">Slime Charms</a><a href="${ROOT}products/polymer-clay-slices/">Polymer Clay Slices</a><a href="${ROOT}products/resin-charms/">Resin Charms</a><a href="${ROOT}products/sequins-glitter-confetti/">Sequins &amp; Confetti</a></div>
         <div><h3>Capabilities</h3><a href="${ROOT}custom-solutions/">Custom Solutions</a><a href="${ROOT}manufacturing/">Manufacturing &amp; Supply</a><a href="${ROOT}quality-control/">Quality Control</a><a href="${ROOT}certificates/">Certificates &amp; Reports</a><a href="${ROOT}quote/?source=footer-capabilities&landing_page=${landing}">Request Quote</a></div>
         <div><h3>Buyer Resources</h3><a href="${ROOT}blog/">Buying Guides</a><a href="${ROOT}blog/how-to-prepare-a-wholesale-product-brief/">Product Brief Guide</a><a href="${ROOT}blog/sample-approval-checklist/">Sample Approval Guide</a><a href="${ROOT}blog/packaging-quality-checkpoints/">Packaging &amp; QC Guide</a></div>
-        <div><h3>Company</h3><a href="${ROOT}about/">About HAIBUCRAFT</a><a href="${ROOT}about/#transparency">Transparency</a><a href="${ROOT}about/editorial-policy/">Editorial Policy</a><a href="${ROOT}certificates/">Document Center</a><a href="${ROOT}quote/?source=footer-company&landing_page=${landing}">Contact Sales</a></div>
+        <div><h3>Company</h3><a href="${ROOT}about/">About HAIBUCRAFT</a><a href="${ROOT}about/#transparency">Transparency</a><a href="${ROOT}about/editorial-policy/">Editorial Policy</a><a href="${ROOT}privacy/">Privacy Policy</a><a href="${ROOT}certificates/">Document Center</a><a href="${ROOT}quote/?source=footer-company&landing_page=${landing}">Contact Sales</a></div>
       </div>
-      <div class="footer-bottom"><span>© 2026 HAIBUCRAFT. Preview branch only. Not published to production.</span><span>Verified claims only · No retail checkout · No blanket certification claims</span></div>
+      <div class="footer-bottom"><span>© 2026 HAIBUCRAFT. Wholesale craft supply and B2B sourcing support.</span><span>Verified claims only · No retail checkout · No blanket certification claims</span></div>
     </div></footer><button class="back-top" type="button" aria-label="Back to top">↑</button>`;
 
   const headerSlot = document.querySelector('[data-site-header]');

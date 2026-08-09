@@ -103,6 +103,14 @@
       "generatedTrust": true
     },
     {
+      "previewPath": "/v2-preview/privacy/",
+      "productionPath": "/privacy/",
+      "title": "Privacy Policy | HAIBUCRAFT",
+      "description": "How HAIBUCRAFT collects, uses and protects information submitted through wholesale inquiry forms and anonymous website analytics.",
+      "type": "website",
+      "index": true
+    },
+    {
       "previewPath": "/v2-preview/blog/",
       "productionPath": "/blog/",
       "title": "Wholesale Craft Supply Buying Guides | HAIBUCRAFT",

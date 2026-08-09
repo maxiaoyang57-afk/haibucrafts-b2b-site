@@ -4,9 +4,22 @@ import process from 'node:process';
 
 const root = process.cwd();
 const releaseRoot = path.join(root, '.release-candidate', 'site-v2');
+const seoMap = JSON.parse(await readFile(path.join(root, 'v2-preview', 'seo-production-map.json'), 'utf8'));
+const routeByProductionPath = new Map(seoMap.routes.map((route) => [route.productionPath, route]));
 const errors = [];
 const titles = new Map();
 const descriptions = new Map();
+const auditedCanonicalUrls = new Set();
+const noindexPaths = [];
+let auditedRedirectCount = 0;
+const legacyInternalRoutes = [
+  '/products/slime-charms/',
+  '/products/polymer-clay-slices/',
+  '/products/resin-charms/',
+  '/quote/',
+  '/custom-services/'
+];
+const previewResiduePattern = /\/v2-preview\/|%2Fv2-preview%2F|V2 Preview|Preview branch|Not published to production|preview structure/i;
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -58,16 +71,21 @@ if (!await exists(releaseRoot)) {
 const files = await walk(releaseRoot);
 const htmlFiles = files.filter((file) => file.endsWith('.html'));
 const jsFiles = files.filter((file) => file.endsWith('.js'));
+const routedHtmlFiles = new Set();
 
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8');
   const relative = path.relative(releaseRoot, file).split(path.sep).join('/');
   const is404 = relative === '404.html';
   const isQuote = relative === 'request-quote/index.html';
+  const productionPath = relative === 'index.html' ? '/' : is404 ? null : `/${relative.replace(/index\.html$/, '')}`;
+  const route = productionPath ? routeByProductionPath.get(productionPath) : null;
   const title = html.match(/<title>([^<]+)<\/title>/i)?.[1]?.trim();
   const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i)?.[1]?.trim();
-  const canonical = html.match(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["']/i)?.[1]?.trim();
-  const robots = html.match(/<meta\s+name=["']robots["']\s+content=["']([^"']+)["']/i)?.[1]?.trim();
+  const canonicalMatches = [...html.matchAll(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["'][^>]*>/gi)];
+  const robotsMatches = [...html.matchAll(/<meta\s+name=["']robots["']\s+content=["']([^"']+)["'][^>]*>/gi)];
+  const canonical = canonicalMatches[0]?.[1]?.trim();
+  const robots = robotsMatches[0]?.[1]?.trim();
   const structuredData = [];
   for (const match of html.matchAll(/<script\s+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi)) {
     try {
@@ -77,12 +95,31 @@ for (const file of htmlFiles) {
     }
   }
 
-  if (html.includes('/v2-preview/')) errors.push(`${relative}: contains preview path`);
-  if (/Site V2 Preview|Preview branch only|V2 preview/i.test(html)) errors.push(`${relative}: contains preview-only copy`);
+  if (previewResiduePattern.test(html)) errors.push(`${relative}: contains production preview residue`);
+  if (/landing_page=[^"'\s>]*(?:%2Fv2-preview%2F|\/v2-preview\/)/i.test(html)) {
+    errors.push(`${relative}: inquiry landing_page contains a preview path`);
+  }
   if (!title) errors.push(`${relative}: missing title`);
   if (!description) errors.push(`${relative}: missing description`);
-  if (!is404 && !canonical?.startsWith('https://www.haibucrafts.com/')) errors.push(`${relative}: missing or invalid canonical`);
-  if (is404 && canonical) errors.push(`${relative}: 404 page should not declare a canonical URL`);
+  if (!is404 && !route) errors.push(`${relative}: production route is missing from seo-production-map.json`);
+  if (route) routedHtmlFiles.add(relative);
+  if (is404) {
+    if (canonicalMatches.length) errors.push(`${relative}: 404 page should not declare a canonical URL`);
+    if (!html.includes('data-page="404"') || !html.includes('The requested page could not be found.')) {
+      errors.push(`${relative}: custom HAIBUCRAFT 404 content is missing`);
+    }
+  } else {
+    const expectedCanonical = `${seoMap.site.origin}${productionPath}`;
+    if (canonicalMatches.length !== 1) errors.push(`${relative}: expected exactly one canonical, found ${canonicalMatches.length}`);
+    if (canonical !== expectedCanonical) errors.push(`${relative}: canonical must equal ${expectedCanonical}`);
+    if (!/^https:\/\/www\.haibucrafts\.com\//.test(canonical || '')) errors.push(`${relative}: canonical must use absolute HTTPS www origin`);
+    if (/\?|index\.html|\/v2-preview\//i.test(canonical || '')) errors.push(`${relative}: canonical contains a forbidden query, index.html or preview path`);
+    if (canonical) {
+      if (auditedCanonicalUrls.has(canonical)) errors.push(`${relative}: duplicate canonical URL ${canonical}`);
+      auditedCanonicalUrls.add(canonical);
+    }
+  }
+  if (robotsMatches.length !== 1) errors.push(`${relative}: expected exactly one robots directive, found ${robotsMatches.length}`);
   if (!robots) errors.push(`${relative}: missing robots directive`);
   if (html.includes('class="breadcrumbs"')) {
     const breadcrumbs = structuredData.find((entry) => entry['@type'] === 'BreadcrumbList');
@@ -99,8 +136,9 @@ for (const file of htmlFiles) {
       if (!is404 && items.at(-1)?.item !== canonical) errors.push(`${relative}: final breadcrumb must match canonical URL`);
     }
   }
-  if (isQuote || is404) {
+  if (isQuote || is404 || route?.index === false) {
     if (robots !== 'noindex,follow') errors.push(`${relative}: must remain noindex,follow`);
+    noindexPaths.push(productionPath || '/404.html');
   } else if (robots !== 'index,follow') {
     errors.push(`${relative}: approved production page must be index,follow`);
   }
@@ -119,6 +157,10 @@ for (const file of htmlFiles) {
 
   for (const href of collectAttributes(html, 'href')) {
     if (isExternal(href) || href.startsWith('#')) continue;
+    const internalPath = href.split('#')[0].split('?')[0];
+    if (legacyInternalRoutes.some((legacy) => internalPath === legacy || internalPath.startsWith(legacy))) {
+      errors.push(`${relative}: production internal link uses legacy route ${href}`);
+    }
     const target = resolveTarget(file, href);
     if (!await exists(target)) errors.push(`${relative}: broken href ${href}`);
   }
@@ -136,9 +178,20 @@ for (const file of htmlFiles) {
   }
 }
 
+for (const route of seoMap.routes) {
+  const relative = route.productionPath === '/' ? 'index.html' : `${route.productionPath.slice(1)}index.html`;
+  if (!routedHtmlFiles.has(relative)) errors.push(`seo-production-map.json route missing generated HTML: ${route.productionPath}`);
+}
+if (routedHtmlFiles.size !== seoMap.routes.length) {
+  errors.push(`generated route count ${routedHtmlFiles.size} does not match seo-production-map.json count ${seoMap.routes.length}`);
+}
+
 let combinedJs = '';
 for (const file of jsFiles) combinedJs += `\n${await readFile(file, 'utf8')}`;
-if (combinedJs.includes('/v2-preview/')) errors.push('production runtime JavaScript still contains /v2-preview/ paths');
+if (previewResiduePattern.test(combinedJs)) errors.push('production runtime JavaScript contains preview residue');
+for (const legacy of legacyInternalRoutes) {
+  if (combinedJs.includes(legacy)) errors.push(`production runtime JavaScript contains legacy route ${legacy}`);
+}
 for (const obsolete of ['/blog/wholesale-product-brief/', '/blog/custom-sample-approval/']) {
   if (combinedJs.includes(obsolete)) errors.push(`production runtime JavaScript contains obsolete route ${obsolete}`);
 }
@@ -148,8 +201,11 @@ if (!await exists(componentsPath)) errors.push('missing production components ru
 else {
   const components = await readFile(componentsPath, 'utf8');
   if (!components.includes("const ROOT = '/';")) errors.push('production components runtime does not use root production paths');
-  for (const marker of ['class="skip-link"', 'id="primary-navigation"', 'aria-controls="primary-navigation"', 'assets/accessibility.css']) {
+  for (const marker of ['class="skip-link"', 'id="primary-navigation"', 'aria-controls="primary-navigation"', "'/assets/v2/'", 'accessibility.css', 'footer-related-v2.css']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing accessibility marker: ${marker}`);
+  }
+  for (const route of ['products/', 'products/slime-charms-wholesale/', 'products/polymer-clay-slices-wholesale/', 'products/resin-charms-for-slime/', 'products/sequins-glitter-confetti/', 'custom-solutions/', 'manufacturing/', 'quality-control/', 'certificates/', 'about/', 'blog/', 'request-quote/']) {
+    if (!components.includes(route)) errors.push(`production components runtime missing canonical navigation route: ${route}`);
   }
   for (const marker of ['/_vercel/insights/script.js', 'data-sdk="analytics"']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing analytics marker: ${marker}`);
@@ -175,12 +231,27 @@ else {
 }
 
 const sitemap = await readFile(path.join(releaseRoot, 'sitemap.xml'), 'utf8');
-if (sitemap.includes('/request-quote/') || sitemap.includes('/v2-preview/') || sitemap.includes('/404.html')) {
-  errors.push('sitemap includes excluded inquiry, preview or 404 URL');
+const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/gi)].map((match) => match[1].trim());
+const sitemapUrlSet = new Set(sitemapUrls);
+const expectedSitemapUrls = new Set(
+  seoMap.routes.filter((route) => route.index).map((route) => `${seoMap.site.origin}${route.productionPath}`)
+);
+if (sitemapUrls.length !== sitemapUrlSet.size) errors.push('sitemap contains duplicate URLs');
+for (const url of sitemapUrls) {
+  if (!/^https:\/\/www\.haibucrafts\.com\//.test(url)) errors.push(`sitemap URL must use absolute HTTPS www origin: ${url}`);
+  if (/\?|index\.html|\/v2-preview\/|\/404\.html/i.test(url)) errors.push(`sitemap contains forbidden URL: ${url}`);
+  if (!expectedSitemapUrls.has(url)) errors.push(`sitemap contains a redirect, noindex or unknown URL: ${url}`);
 }
+for (const url of expectedSitemapUrls) {
+  if (!sitemapUrlSet.has(url)) errors.push(`sitemap missing indexable canonical URL: ${url}`);
+}
+if (sitemapUrlSet.has(`${seoMap.site.origin}/request-quote/`)) errors.push('sitemap must exclude /request-quote/');
 const robotsText = await readFile(path.join(releaseRoot, 'robots.txt'), 'utf8');
-for (const required of ['Disallow: /request-quote/', 'Disallow: /api/', 'Disallow: /v2-preview/']) {
+for (const required of ['User-agent: *', 'Allow: /', 'Disallow: /api/', 'Disallow: /v2-preview/', 'Sitemap: https://www.haibucrafts.com/sitemap.xml']) {
   if (!robotsText.includes(required)) errors.push(`robots.txt missing ${required}`);
+}
+if (/^Disallow:\s*\/request-quote\/?\s*$/mi.test(robotsText)) {
+  errors.push('robots.txt must allow crawling /request-quote/ while the page remains noindex,follow');
 }
 
 const vercelConfigPath = path.join(releaseRoot, 'vercel.json');
@@ -195,17 +266,42 @@ if (!await exists(vercelConfigPath)) {
   for (const key of ['Content-Security-Policy', 'Permissions-Policy', 'Referrer-Policy', 'X-Content-Type-Options', 'X-Frame-Options']) {
     if (!headers.some((header) => header.key === key)) errors.push(`merged vercel.json missing security header ${key}`);
   }
-  const redirects = new Map((vercelConfig.redirects || []).map((redirect) => [redirect.source, redirect.destination]));
+  const redirectEntries = vercelConfig.redirects || [];
+  auditedRedirectCount = redirectEntries.length;
+  const redirects = new Map(redirectEntries.map((redirect) => [redirect.source, redirect]));
+  if (redirects.size !== redirectEntries.length) errors.push('merged vercel.json contains duplicate redirect sources');
   const requiredRedirects = new Map([
+    ['/index.html', '/'],
+    ['/products/index.html', '/products/'],
+    ['/blog/index.html', '/blog/'],
+    ['/about/index.html', '/about/'],
+    ['/custom-services/', '/custom-solutions/'],
+    ['/custom-services/index.html', '/custom-solutions/'],
+    ['/quote/', '/request-quote/'],
+    ['/quote/index.html', '/request-quote/'],
+    ['/request-quote/index.html', '/request-quote/'],
     ['/products/slime-charms-wholesale.html', '/products/slime-charms-wholesale/'],
     ['/products/polymer-clay-slices-wholesale.html', '/products/polymer-clay-slices-wholesale/'],
     ['/products/resin-charms-for-slime.html', '/products/resin-charms-for-slime/'],
     ['/products/sequins-glitter-confetti.html', '/products/sequins-glitter-confetti/'],
-    ['/custom-services/', '/custom-solutions/'],
-    ['/quote/', '/request-quote/']
+    ['/products/plastic-sequins-wholesale.html', '/products/sequins-glitter-confetti/'],
+    ['/products/resin-charms-wholesale.html', '/products/resin-charms-for-slime/'],
+    ['/blog/polymer-clay-slices-buying-guide.html', '/blog/polymer-clay-slice-buying-guide/'],
+    ['/privacy.html', '/privacy/'],
+    ['/about/b2b-export-supplier.html', '/about/'],
+    ['/haibu-manufacturing/', '/manufacturing/'],
+    ['/haibu-quality-control/', '/quality-control/']
   ]);
   for (const [source, destination] of requiredRedirects) {
-    if (redirects.get(source) !== destination) errors.push(`merged vercel.json missing redirect ${source} -> ${destination}`);
+    const redirect = redirects.get(source);
+    if (redirect?.destination !== destination || redirect?.permanent !== true) {
+      errors.push(`merged vercel.json missing permanent redirect ${source} -> ${destination}`);
+    }
+  }
+  for (const redirect of redirectEntries) {
+    if (redirects.has(redirect.destination)) errors.push(`redirect chain detected: ${redirect.source} -> ${redirect.destination}`);
+    if (sitemapUrlSet.has(`${seoMap.site.origin}${redirect.source}`)) errors.push(`sitemap contains redirect source: ${redirect.source}`);
+    if (/[:*()]|\(\.\*\)/.test(redirect.source)) errors.push(`catch-all redirect could mask real 404 behavior: ${redirect.source}`);
   }
 }
 
@@ -225,5 +321,10 @@ if (errors.length) {
   for (const error of errors) console.error(`ERROR: ${error}`);
   process.exitCode = 1;
 } else {
-  console.log(`Release candidate audit passed: ${htmlFiles.length} HTML pages, ${jsFiles.length} runtime scripts, valid breadcrumbs, images, merged security config, 404 recovery and approved live inquiry mode.`);
+  console.log(`Release candidate audit passed: ${htmlFiles.length} HTML pages and ${jsFiles.length} runtime scripts.`);
+  console.log(`SEO canonical audit: ${auditedCanonicalUrls.size} canonical routes match seo-production-map.json.`);
+  console.log(`SEO sitemap audit: ${sitemapUrls.length} unique indexable URLs; no redirect, noindex, query, index.html, preview or 404 URLs.`);
+  console.log(`SEO noindex routes: ${[...new Set(noindexPaths)].join(', ')}.`);
+  console.log(`SEO redirect audit: ${auditedRedirectCount} permanent one-hop redirects; no redirect sources in sitemap.`);
+  console.log('SEO 404 audit: custom noindex,follow page present without canonical; no catch-all redirect masks unknown routes.');
 }

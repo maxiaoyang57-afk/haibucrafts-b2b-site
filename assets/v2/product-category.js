@@ -27,7 +27,7 @@
     sidebarNote.textContent = 'Compare related product families before preparing a mixed inquiry.';
   }
 
-  const sidebarQuote = document.querySelector('.category-sidebar .btn[href*="/quote/"]');
+  const sidebarQuote = document.querySelector('.category-sidebar a.btn-primary');
   const quoteHref = sidebarQuote?.getAttribute('href') || '/request-quote/?source=product-category';
 
   let searchClear = null;

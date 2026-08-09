@@ -31,34 +31,50 @@ function destinationFile(productionPath) {
 }
 
 function replacePaths(content) {
-  return content
-    .replace(/(["'])(?:\.\.\/)*assets\//gi, '$1/assets/v2/')
-    .replaceAll('/v2-preview/assets/', '/assets/v2/')
-    .replaceAll('/v2-preview/products/slime-charms/', '/products/slime-charms-wholesale/')
-    .replaceAll('/v2-preview/products/polymer-clay-slices/', '/products/polymer-clay-slices-wholesale/')
-    .replaceAll('/v2-preview/products/resin-charms/', '/products/resin-charms-for-slime/')
-    .replaceAll('/v2-preview/products/sequins-glitter-confetti/', '/products/sequins-glitter-confetti/')
-    .replaceAll('/v2-preview/products/', '/products/')
-    .replaceAll('/v2-preview/custom-solutions/', '/custom-solutions/')
-    .replaceAll('/v2-preview/manufacturing/', '/manufacturing/')
-    .replaceAll('/v2-preview/quality-control/', '/quality-control/')
-    .replaceAll('/v2-preview/certificates/', '/certificates/')
-    .replaceAll('/v2-preview/about/', '/about/')
-    .replaceAll('/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/', '/blog/how-to-prepare-a-wholesale-product-brief/')
-    .replaceAll('/v2-preview/blog/sample-approval-checklist/', '/blog/sample-approval-checklist/')
-    .replaceAll('/v2-preview/blog/packaging-quality-checkpoints/', '/blog/packaging-quality-checkpoints/')
-    .replaceAll('/v2-preview/blog/', '/blog/')
-    .replaceAll('/v2-preview/quote/', '/request-quote/')
-    .replaceAll('/v2-preview/', '/');
+  const replacements = [
+    ['/v2-preview/assets/', '/assets/v2/'],
+    ['/v2-preview/products/slime-charms/', '/products/slime-charms-wholesale/'],
+    ['/v2-preview/products/polymer-clay-slices/', '/products/polymer-clay-slices-wholesale/'],
+    ['/v2-preview/products/resin-charms/', '/products/resin-charms-for-slime/'],
+    ['/v2-preview/products/sequins-glitter-confetti/', '/products/sequins-glitter-confetti/'],
+    ['/v2-preview/products/', '/products/'],
+    ['/v2-preview/custom-solutions/', '/custom-solutions/'],
+    ['/v2-preview/manufacturing/', '/manufacturing/'],
+    ['/v2-preview/quality-control/', '/quality-control/'],
+    ['/v2-preview/certificates/', '/certificates/'],
+    ['/v2-preview/about/', '/about/'],
+    ['/v2-preview/privacy/', '/privacy/'],
+    ['/v2-preview/blog/', '/blog/'],
+    ['/v2-preview/quote/', '/request-quote/'],
+    ['${ROOT}products/slime-charms/', '${ROOT}products/slime-charms-wholesale/'],
+    ['${ROOT}products/polymer-clay-slices/', '${ROOT}products/polymer-clay-slices-wholesale/'],
+    ['${ROOT}products/resin-charms/', '${ROOT}products/resin-charms-for-slime/'],
+    ['${ROOT}quote/', '${ROOT}request-quote/']
+  ];
+  const encodedReplacements = [
+    ['%2Fv2-preview%2Fproducts%2Fslime-charms%2F', '%2Fproducts%2Fslime-charms-wholesale%2F'],
+    ['%2Fv2-preview%2Fproducts%2Fpolymer-clay-slices%2F', '%2Fproducts%2Fpolymer-clay-slices-wholesale%2F'],
+    ['%2Fv2-preview%2Fproducts%2Fresin-charms%2F', '%2Fproducts%2Fresin-charms-for-slime%2F'],
+    ['%2Fv2-preview%2Fproducts%2Fsequins-glitter-confetti%2F', '%2Fproducts%2Fsequins-glitter-confetti%2F'],
+    ['%2Fv2-preview%2F', '%2F']
+  ];
+
+  let next = content.replace(/(["'])(?:\.\.\/)*assets\//gi, '$1/assets/v2/');
+  for (const [from, to] of replacements) next = next.replaceAll(from, to);
+  for (const [from, to] of encodedReplacements) next = next.replaceAll(from, to);
+  return next
+    .replaceAll('/v2-preview/', '/')
+    .replace(/preview structure/gi, 'production site');
 }
 
 function applyProductionMetadata(html, route, { canonical = true } = {}) {
   const robots = route.index ? 'index,follow' : 'noindex,follow';
   const canonicalUrl = `${seoMap.site.origin}${route.productionPath}`;
   let next = html
+    .replace(/<link\s+rel=["']canonical["'][^>]*>/gi, '')
+    .replace(/<meta\s+name=["']robots["'][^>]*>/gi, '')
     .replace(/<title>[^<]*<\/title>/i, `<title>${route.title}</title>`)
     .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="description" content="${route.description}">`)
-    .replace(/<meta\s+name=["']robots["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="robots" content="${robots}">`)
     .replaceAll('Preview branch only. Not published to production.', 'Wholesale craft supply and B2B sourcing support.')
     .replaceAll(
       'Current status:</strong> required-field validation and source tracking are active. Email sending and reference-image uploads remain disabled until production approval.',
@@ -68,9 +84,8 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
     .replaceAll('Site V2 Preview', 'HAIBUCRAFT')
     .replaceAll('V2 Preview', 'HAIBUCRAFT');
 
-  if (canonical && !/<link\s+rel=["']canonical["']/i.test(next)) {
-    next = next.replace('</head>', `<link rel="canonical" href="${canonicalUrl}"></head>`);
-  }
+  const canonicalTag = canonical ? `<link rel="canonical" href="${canonicalUrl}">` : '';
+  next = next.replace('</head>', `<meta name="robots" content="${robots}">${canonicalTag}</head>`);
   if (!/<meta\s+property=["']og:title["']/i.test(next)) {
     next = next.replace('</head>', `<meta property="og:title" content="${route.title}"><meta property="og:description" content="${route.description}"><meta property="og:type" content="${route.type}"><meta property="og:url" content="${canonicalUrl}"><meta property="og:image" content="${seoMap.site.origin}${seoMap.site.defaultOgImage}"></head>`);
   }

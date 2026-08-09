@@ -64,7 +64,9 @@ function replacePaths(content) {
   for (const [from, to] of encodedReplacements) next = next.replaceAll(from, to);
   return next
     .replaceAll('/v2-preview/', '/')
-    .replace(/preview structure/gi, 'production site');
+    .replace("const ASSET_ROOT = ROOT === '/' ? '/assets/v2/' : `${ROOT}assets/`;", "const ASSET_ROOT = '/assets/v2/';")
+    .replace(/preview structure/gi, 'production site')
+    .replace(/[ \t]+$/gm, '');
 }
 
 function applyProductionMetadata(html, route, { canonical = true } = {}) {

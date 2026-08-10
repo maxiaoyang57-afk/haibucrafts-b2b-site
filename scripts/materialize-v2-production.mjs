@@ -12,6 +12,7 @@ if (manifest.productionApproved !== true || manifest.quoteMode !== 'live') {
 
 const excludedReleaseMetadata = new Set(['acceptance-report.md', 'release-manifest.json']);
 const cleanUrlCollisions = [
+  'privacy.html',
   'products/polymer-clay-slices-wholesale.html',
   'products/resin-charms-for-slime.html',
   'products/sequins-glitter-confetti.html',

@@ -7,6 +7,7 @@ const root = process.cwd();
 const releaseRoot = path.join(root, '.release-candidate', 'site-v2');
 const excludedReleaseMetadata = new Set(['acceptance-report.md', 'release-manifest.json']);
 const cleanUrlCollisions = [
+  'privacy.html',
   'products/polymer-clay-slices-wholesale.html',
   'products/resin-charms-for-slime.html',
   'products/sequins-glitter-confetti.html',

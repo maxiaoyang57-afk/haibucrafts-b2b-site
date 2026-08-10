@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
 
@@ -80,6 +80,19 @@ test('legacy migrations are explicit permanent one-hop redirects', async () => {
 });
 
 test('privacy has a canonical production route and sitemap follows the SEO map exactly', async () => {
+  await assert.rejects(
+    access(path.join(root, 'privacy.html')),
+    /ENOENT/,
+    'root privacy.html must stay absent so it cannot shadow privacy/index.html'
+  );
+  for (const relative of [
+    path.join('scripts', 'materialize-v2-production.mjs'),
+    path.join('scripts', 'audit-v2-materialized-production.mjs')
+  ]) {
+    const source = await readFile(path.join(root, relative), 'utf8');
+    assert.match(source, /['"]privacy\.html['"]/, `${relative} must guard the privacy clean-URL collision`);
+  }
+
   const seoMap = JSON.parse(await readFile(path.join(root, 'v2-preview', 'seo-production-map.json'), 'utf8'));
   const privacy = seoMap.routes.find((route) => route.productionPath === '/privacy/');
   assert.ok(privacy?.index);

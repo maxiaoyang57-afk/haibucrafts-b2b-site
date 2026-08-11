@@ -62,3 +62,8 @@ test('release metadata points to the approved social and organization brand asse
   assert.match(releaseBuilder, /og:image:width/);
   assert.match(trustBuilder, /\/brand\/haibu-logo-header\.png/);
 });
+
+test('Vercel Preview build keeps the release redirect source available', async () => {
+  const vercelIgnore = await readFile(path.join(root, '.vercelignore'), 'utf8');
+  assert.match(vercelIgnore, /!v2-preview\/production-config\/vercel-redirects\.json/);
+});

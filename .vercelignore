@@ -4,3 +4,4 @@ README.md
 *-AUDIT*.json
 V*-*.json
 tests/
+!v2-preview/production-config/vercel-redirects.json

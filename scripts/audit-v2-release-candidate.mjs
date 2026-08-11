@@ -12,6 +12,16 @@ const descriptions = new Map();
 const auditedCanonicalUrls = new Set();
 const noindexPaths = [];
 let auditedRedirectCount = 0;
+const requiredFaviconTags = [
+  '<link rel="icon" href="/brand/favicon.ico" sizes="any">',
+  '<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32x32.png">',
+  '<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png">'
+];
+const requiredFaviconAssets = [
+  'brand/favicon.ico',
+  'brand/favicon-32x32.png',
+  'brand/apple-touch-icon.png'
+];
 const legacyInternalRoutes = [
   '/products/slime-charms/',
   '/products/polymer-clay-slices/',
@@ -73,6 +83,15 @@ const htmlFiles = files.filter((file) => file.endsWith('.html'));
 const jsFiles = files.filter((file) => file.endsWith('.js'));
 const routedHtmlFiles = new Set();
 
+for (const relative of requiredFaviconAssets) {
+  const file = path.join(releaseRoot, relative);
+  if (!await exists(file)) {
+    errors.push(`missing favicon asset ${relative}`);
+    continue;
+  }
+  if (!(await readFile(file)).length) errors.push(`favicon asset is empty: ${relative}`);
+}
+
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8');
   const relative = path.relative(releaseRoot, file).split(path.sep).join('/');
@@ -101,6 +120,10 @@ for (const file of htmlFiles) {
   }
   if (!title) errors.push(`${relative}: missing title`);
   if (!description) errors.push(`${relative}: missing description`);
+  for (const tag of requiredFaviconTags) {
+    const count = html.split(tag).length - 1;
+    if (count !== 1) errors.push(`${relative}: missing required favicon tag or duplicate detected: ${tag}`);
+  }
   if (!is404 && !route) errors.push(`${relative}: production route is missing from seo-production-map.json`);
   if (route) routedHtmlFiles.add(relative);
   if (is404) {
@@ -327,4 +350,5 @@ if (errors.length) {
   console.log(`SEO noindex routes: ${[...new Set(noindexPaths)].join(', ')}.`);
   console.log(`SEO redirect audit: ${auditedRedirectCount} permanent one-hop redirects; no redirect sources in sitemap.`);
   console.log('SEO 404 audit: custom noindex,follow page present without canonical; no catch-all redirect masks unknown routes.');
+  console.log(`Brand favicon audit: ${htmlFiles.length} HTML pages reference ${requiredFaviconTags.length} root-path icons; ${requiredFaviconAssets.length} assets are present.`);
 }

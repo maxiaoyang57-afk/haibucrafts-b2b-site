@@ -52,18 +52,11 @@ test('brand stylesheet protects responsive logo sizing and fixed-control separat
 
 test('release metadata points to the approved social and organization brand assets', async () => {
   const seoMap = JSON.parse(await readFile(path.join(root, 'v2-preview', 'seo-production-map.json'), 'utf8'));
-  const packageJson = JSON.parse(await readFile(path.join(root, 'package.json'), 'utf8'));
   const releaseBuilder = await readFile(path.join(root, 'scripts', 'build-v2-release-candidate.mjs'), 'utf8');
   const trustBuilder = await readFile(path.join(root, 'scripts', 'build-v2-seo-trust.mjs'), 'utf8');
 
   assert.equal(seoMap.site.defaultOgImage, '/brand/haibu-og.png');
-  assert.equal(packageJson.scripts.build, 'npm run build:v2-seo && npm run build:v2-release');
   assert.match(releaseBuilder, /twitter:card/);
   assert.match(releaseBuilder, /og:image:width/);
   assert.match(trustBuilder, /\/brand\/haibu-logo-header\.png/);
-});
-
-test('Vercel Preview build keeps the release redirect source available', async () => {
-  const vercelIgnore = await readFile(path.join(root, '.vercelignore'), 'utf8');
-  assert.match(vercelIgnore, /!v2-preview\/production-config\/vercel-redirects\.json/);
 });

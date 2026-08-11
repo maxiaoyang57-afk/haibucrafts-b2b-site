@@ -22,6 +22,15 @@ const requiredFaviconAssets = [
   'brand/favicon-32x32.png',
   'brand/apple-touch-icon.png'
 ];
+const requiredBrandAssets = [
+  'brand/haibu-logo-header.png',
+  'brand/haibu-logo-mobile.png',
+  'brand/haibu-logo-footer.png',
+  'brand/haibu-logo-black.png',
+  'brand/haibu-og.png',
+  'assets/v2/brand-v2.css'
+];
+const expectedBrandImage = `${seoMap.site.origin}${seoMap.site.defaultOgImage}`;
 const legacyInternalRoutes = [
   '/products/slime-charms/',
   '/products/polymer-clay-slices/',
@@ -92,6 +101,15 @@ for (const relative of requiredFaviconAssets) {
   if (!(await readFile(file)).length) errors.push(`favicon asset is empty: ${relative}`);
 }
 
+for (const relative of requiredBrandAssets) {
+  const file = path.join(releaseRoot, relative);
+  if (!await exists(file)) {
+    errors.push(`missing final brand asset ${relative}`);
+    continue;
+  }
+  if (!(await readFile(file)).length) errors.push(`final brand asset is empty: ${relative}`);
+}
+
 for (const file of htmlFiles) {
   const html = await readFile(file, 'utf8');
   const relative = path.relative(releaseRoot, file).split(path.sep).join('/');
@@ -103,6 +121,9 @@ for (const file of htmlFiles) {
   const description = html.match(/<meta\s+name=["']description["']\s+content=["']([^"']+)["']/i)?.[1]?.trim();
   const canonicalMatches = [...html.matchAll(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["'][^>]*>/gi)];
   const robotsMatches = [...html.matchAll(/<meta\s+name=["']robots["']\s+content=["']([^"']+)["'][^>]*>/gi)];
+  const ogImageMatches = [...html.matchAll(/<meta\s+property=["']og:image["']\s+content=["']([^"']+)["'][^>]*>/gi)];
+  const twitterImageMatches = [...html.matchAll(/<meta\s+name=["']twitter:image["']\s+content=["']([^"']+)["'][^>]*>/gi)];
+  const twitterCardMatches = [...html.matchAll(/<meta\s+name=["']twitter:card["']\s+content=["']([^"']+)["'][^>]*>/gi)];
   const canonical = canonicalMatches[0]?.[1]?.trim();
   const robots = robotsMatches[0]?.[1]?.trim();
   const structuredData = [];
@@ -120,6 +141,16 @@ for (const file of htmlFiles) {
   }
   if (!title) errors.push(`${relative}: missing title`);
   if (!description) errors.push(`${relative}: missing description`);
+  if (ogImageMatches.length !== 1 || ogImageMatches[0]?.[1] !== expectedBrandImage) {
+    errors.push(`${relative}: expected exactly one approved Open Graph brand image ${expectedBrandImage}`);
+  }
+  if (twitterImageMatches.length !== 1 || twitterImageMatches[0]?.[1] !== expectedBrandImage) {
+    errors.push(`${relative}: expected exactly one approved Twitter brand image ${expectedBrandImage}`);
+  }
+  if (twitterCardMatches.length !== 1 || twitterCardMatches[0]?.[1] !== 'summary_large_image') {
+    errors.push(`${relative}: expected exactly one summary_large_image Twitter card`);
+  }
+  if (html.includes('/assets/images/logo-haibu.webp')) errors.push(`${relative}: contains obsolete visible brand logo reference`);
   for (const tag of requiredFaviconTags) {
     const count = html.split(tag).length - 1;
     if (count !== 1) errors.push(`${relative}: missing required favicon tag or duplicate detected: ${tag}`);
@@ -157,6 +188,11 @@ for (const file of htmlFiles) {
         }
       });
       if (!is404 && items.at(-1)?.item !== canonical) errors.push(`${relative}: final breadcrumb must match canonical URL`);
+    }
+  }
+  for (const organization of structuredData.filter((entry) => entry['@type'] === 'Organization')) {
+    if (organization.logo && organization.logo !== `${seoMap.site.origin}/brand/haibu-logo-header.png`) {
+      errors.push(`${relative}: Organization logo does not use the approved HAIBU CRAFT asset`);
     }
   }
   if (isQuote || is404 || route?.index === false) {
@@ -232,6 +268,12 @@ else {
   }
   for (const marker of ['/_vercel/insights/script.js', 'data-sdk="analytics"']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing analytics marker: ${marker}`);
+  }
+  for (const marker of ['/brand/haibu-logo-header.png', '/brand/haibu-logo-mobile.png', '/brand/haibu-logo-footer.png', 'Creative craft components supplier', 'brand-v2.css']) {
+    if (!components.includes(marker)) errors.push(`production components runtime missing final brand marker: ${marker}`);
+  }
+  for (const marker of ["whatsappNumber: '8618632026595'", 'https://wa.me/${CONTACT_CONFIG.whatsappNumber}', 'Chat with HAIBUCRAFT on WhatsApp', 'target="_blank" rel="noopener noreferrer"', 'whatsapp-float', 'IntersectionObserver', 'avoid-form']) {
+    if (!components.includes(marker)) errors.push(`production components runtime missing WhatsApp marker: ${marker}`);
   }
 }
 
@@ -351,4 +393,6 @@ if (errors.length) {
   console.log(`SEO redirect audit: ${auditedRedirectCount} permanent one-hop redirects; no redirect sources in sitemap.`);
   console.log('SEO 404 audit: custom noindex,follow page present without canonical; no catch-all redirect masks unknown routes.');
   console.log(`Brand favicon audit: ${htmlFiles.length} HTML pages reference ${requiredFaviconTags.length} root-path icons; ${requiredFaviconAssets.length} assets are present.`);
+  console.log(`Final brand audit: ${requiredBrandAssets.length} Logo/social assets present; all ${htmlFiles.length} HTML pages use the approved Open Graph and Twitter image.`);
+  console.log('WhatsApp audit: confirmed +86 186 3202 6595 configuration, safe external links, accessible label and shared floating/footer/topbar entry present.');
 }

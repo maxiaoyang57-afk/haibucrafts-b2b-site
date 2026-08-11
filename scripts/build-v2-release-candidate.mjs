@@ -77,10 +77,12 @@ function replacePaths(content) {
 function applyProductionMetadata(html, route, { canonical = true } = {}) {
   const robots = route.index ? 'index,follow' : 'noindex,follow';
   const canonicalUrl = `${seoMap.site.origin}${route.productionPath}`;
+  const brandImageUrl = `${seoMap.site.origin}${seoMap.site.defaultOgImage}`;
   let next = html
     .replace(/<link\b(?=[^>]*\brel=["'](?:icon|shortcut icon|apple-touch-icon)["'])[^>]*>\s*/gi, '')
     .replace(/<link\s+rel=["']canonical["'][^>]*>/gi, '')
     .replace(/<meta\s+name=["']robots["'][^>]*>/gi, '')
+    .replace(/<meta\s+(?:property|name)=["'](?:og:image|og:image:width|og:image:height|twitter:card|twitter:title|twitter:description|twitter:image)["'][^>]*>\s*/gi, '')
     .replace(/<title>[^<]*<\/title>/i, `<title>${route.title}</title>`)
     .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="description" content="${route.description}">`)
     .replaceAll('Preview branch only. Not published to production.', 'Wholesale craft supply and B2B sourcing support.')
@@ -90,14 +92,16 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
     )
     .replaceAll('>Validate Quote Request</button>', '>Send Quote Request</button>')
     .replaceAll('Site V2 Preview', 'HAIBUCRAFT')
-    .replaceAll('V2 Preview', 'HAIBUCRAFT');
+    .replaceAll('V2 Preview', 'HAIBUCRAFT')
+    .replaceAll('https://www.haibucrafts.com/assets/images/logo-haibu.webp', 'https://www.haibucrafts.com/brand/haibu-logo-header.png');
 
   const canonicalTag = canonical ? `<link rel="canonical" href="${canonicalUrl}">` : '';
   next = next.replace('</head>', `<meta name="robots" content="${robots}">${canonicalTag}</head>`);
   next = next.replace('</head>', `${faviconTags}</head>`);
   if (!/<meta\s+property=["']og:title["']/i.test(next)) {
-    next = next.replace('</head>', `<meta property="og:title" content="${route.title}"><meta property="og:description" content="${route.description}"><meta property="og:type" content="${route.type}"><meta property="og:url" content="${canonicalUrl}"><meta property="og:image" content="${seoMap.site.origin}${seoMap.site.defaultOgImage}"></head>`);
+    next = next.replace('</head>', `<meta property="og:title" content="${route.title}"><meta property="og:description" content="${route.description}"><meta property="og:type" content="${route.type}"><meta property="og:url" content="${canonicalUrl}"></head>`);
   }
+  next = next.replace('</head>', `<meta property="og:image" content="${brandImageUrl}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${route.title}"><meta name="twitter:description" content="${route.description}"><meta name="twitter:image" content="${brandImageUrl}"></head>`);
   return replacePaths(next);
 }
 

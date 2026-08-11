@@ -116,6 +116,16 @@ test('release audit contains canonical, sitemap, legacy-link, landing-page and 4
     'production internal link uses legacy route',
     'inquiry landing_page contains a preview path',
     'custom HAIBUCRAFT 404 content is missing',
-    'catch-all redirect could mask real 404 behavior'
+    'catch-all redirect could mask real 404 behavior',
+    'missing required favicon tag',
+    'Brand favicon audit:'
   ]) assert.ok(audit.includes(marker), `missing audit gate: ${marker}`);
+
+  const builder = await readFile(path.join(root, 'scripts', 'build-v2-release-candidate.mjs'), 'utf8');
+  for (const marker of [
+    '/brand/favicon.ico',
+    '/brand/favicon-32x32.png',
+    '/brand/apple-touch-icon.png',
+    "path.join(root, 'brand')"
+  ]) assert.ok(builder.includes(marker), `release builder missing centralized favicon marker: ${marker}`);
 });

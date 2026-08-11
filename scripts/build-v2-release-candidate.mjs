@@ -10,6 +10,11 @@ const migrationMap = JSON.parse(await readFile(path.join(sourceRoot, 'production
 const productionApproval = JSON.parse(await readFile(path.join(root, 'docs', 'site-v2-production-approval.json'), 'utf8'));
 const rootVercelConfig = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8'));
 const redirectDraft = JSON.parse(await readFile(path.join(sourceRoot, 'production-config', 'vercel-redirects.json'), 'utf8'));
+const faviconTags = [
+  '<link rel="icon" href="/brand/favicon.ico" sizes="any">',
+  '<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32x32.png">',
+  '<link rel="apple-touch-icon" sizes="180x180" href="/brand/apple-touch-icon.png">'
+].join('');
 
 await rm(outRoot, { recursive: true, force: true });
 await mkdir(outRoot, { recursive: true });
@@ -73,6 +78,7 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
   const robots = route.index ? 'index,follow' : 'noindex,follow';
   const canonicalUrl = `${seoMap.site.origin}${route.productionPath}`;
   let next = html
+    .replace(/<link\b(?=[^>]*\brel=["'](?:icon|shortcut icon|apple-touch-icon)["'])[^>]*>\s*/gi, '')
     .replace(/<link\s+rel=["']canonical["'][^>]*>/gi, '')
     .replace(/<meta\s+name=["']robots["'][^>]*>/gi, '')
     .replace(/<title>[^<]*<\/title>/i, `<title>${route.title}</title>`)
@@ -88,6 +94,7 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
 
   const canonicalTag = canonical ? `<link rel="canonical" href="${canonicalUrl}">` : '';
   next = next.replace('</head>', `<meta name="robots" content="${robots}">${canonicalTag}</head>`);
+  next = next.replace('</head>', `${faviconTags}</head>`);
   if (!/<meta\s+property=["']og:title["']/i.test(next)) {
     next = next.replace('</head>', `<meta property="og:title" content="${route.title}"><meta property="og:description" content="${route.description}"><meta property="og:type" content="${route.type}"><meta property="og:url" content="${canonicalUrl}"><meta property="og:image" content="${seoMap.site.origin}${seoMap.site.defaultOgImage}"></head>`);
   }
@@ -117,6 +124,7 @@ await writeFile(path.join(outRoot, '404.html'), applyProductionMetadata(notFound
 
 const assetsOut = path.join(outRoot, 'assets', 'v2');
 await cp(path.join(sourceRoot, 'assets'), assetsOut, { recursive: true });
+await cp(path.join(root, 'brand'), path.join(outRoot, 'brand'), { recursive: true });
 for (const file of (await walk(assetsOut)).filter((item) => item.endsWith('.js'))) {
   const source = await readFile(file, 'utf8');
   await writeFile(file, replacePaths(source), 'utf8');

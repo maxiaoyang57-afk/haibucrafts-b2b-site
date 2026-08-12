@@ -82,7 +82,7 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
     .replace(/<link\b(?=[^>]*\brel=["'](?:icon|shortcut icon|apple-touch-icon)["'])[^>]*>\s*/gi, '')
     .replace(/<link\s+rel=["']canonical["'][^>]*>/gi, '')
     .replace(/<meta\s+name=["']robots["'][^>]*>/gi, '')
-    .replace(/<meta\s+(?:property|name)=["'](?:og:image|og:image:width|og:image:height|twitter:card|twitter:title|twitter:description|twitter:image)["'][^>]*>\s*/gi, '')
+    .replace(/<meta\s+(?:property|name)=["'](?:og:image|og:image:width|og:image:height|og:image:alt|twitter:card|twitter:title|twitter:description|twitter:image|twitter:image:alt)["'][^>]*>\s*/gi, '')
     .replace(/<title>[^<]*<\/title>/i, `<title>${route.title}</title>`)
     .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="description" content="${route.description}">`)
     .replaceAll('Preview branch only. Not published to production.', 'Wholesale craft supply and B2B sourcing support.')
@@ -101,7 +101,7 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
   if (!/<meta\s+property=["']og:title["']/i.test(next)) {
     next = next.replace('</head>', `<meta property="og:title" content="${route.title}"><meta property="og:description" content="${route.description}"><meta property="og:type" content="${route.type}"><meta property="og:url" content="${canonicalUrl}"></head>`);
   }
-  next = next.replace('</head>', `<meta property="og:image" content="${brandImageUrl}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${route.title}"><meta name="twitter:description" content="${route.description}"><meta name="twitter:image" content="${brandImageUrl}"></head>`);
+  next = next.replace('</head>', `<meta property="og:image" content="${brandImageUrl}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="HAIBUCRAFT creative craft components supplier brand mark"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${route.title}"><meta name="twitter:description" content="${route.description}"><meta name="twitter:image" content="${brandImageUrl}"><meta name="twitter:image:alt" content="HAIBUCRAFT creative craft components supplier brand mark"></head>`);
   return replacePaths(next);
 }
 

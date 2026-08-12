@@ -54,10 +54,10 @@
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="topbar"><div class="container"><span>B2B wholesale · OEM/ODM · Private label · Export support</span><span class="topbar-contact"><a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a><span aria-hidden="true"> · </span><a class="topbar-whatsapp" href="${whatsappHref}" target="_blank" rel="noopener noreferrer">WhatsApp</a></span></div></div>
     <header class="site-header"><div class="container navbar">
-      <a class="logo" href="${ROOT}" aria-label="HAIBU CRAFT home">
+      <a class="logo" href="${ROOT}" aria-label="HAIBUCRAFT home">
         <picture>
           <source media="(max-width: 1080px)" srcset="/brand/haibu-logo-mobile.png">
-          <img src="/brand/haibu-logo-header.png" width="1962" height="673" alt="HAIBU CRAFT">
+          <img src="/brand/haibu-logo-header.png" width="624" height="214" alt="HAIBUCRAFT">
         </picture>
       </a>
       <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
@@ -86,8 +86,8 @@
     <footer class="site-footer"><div class="container">
       <div class="footer-grid footer-grid-v2">
         <div class="footer-brand">
-          <a class="footer-brand-mark" href="${ROOT}" aria-label="HAIBU CRAFT home"><img class="footer-logo" src="/brand/haibu-logo-footer.png" width="1962" height="673" alt="HAIBU CRAFT"></a>
-          <h3>HAIBU CRAFT</h3>
+          <a class="footer-brand-mark" href="${ROOT}" aria-label="HAIBUCRAFT home"><img class="footer-logo" src="/brand/haibu-logo-footer.png" width="810" height="278" alt="HAIBUCRAFT"></a>
+          <h3>HAIBUCRAFT</h3>
           <p class="footer-tagline">Creative craft components supplier</p>
           <p>Buyer-facing B2B brand for wholesale craft supplies, custom-project coordination, packaging support and export communication from Yiwu, Zhejiang, China.</p>
           <a class="footer-email" href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a>
@@ -106,6 +106,13 @@
   const footerSlot = document.querySelector('[data-site-footer]');
   if (headerSlot) headerSlot.innerHTML = header;
   if (footerSlot) footerSlot.innerHTML = footer;
+
+  if (page === 'quote') {
+    const quoteIntro = document.querySelector('.page-hero .container');
+    if (quoteIntro && !quoteIntro.querySelector('.quote-whatsapp-option')) {
+      quoteIntro.insertAdjacentHTML('beforeend', `<p class="quote-whatsapp-option">Prefer WhatsApp? <a href="${whatsappHref}" target="_blank" rel="noopener noreferrer">Chat with sales</a></p>`);
+    }
+  }
 
   const whatsappFloat = document.querySelector('.whatsapp-float');
   const quoteForm = document.querySelector('[data-quote-form]');

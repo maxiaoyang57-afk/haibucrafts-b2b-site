@@ -122,7 +122,9 @@ for (const file of htmlFiles) {
   const canonicalMatches = [...html.matchAll(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["'][^>]*>/gi)];
   const robotsMatches = [...html.matchAll(/<meta\s+name=["']robots["']\s+content=["']([^"']+)["'][^>]*>/gi)];
   const ogImageMatches = [...html.matchAll(/<meta\s+property=["']og:image["']\s+content=["']([^"']+)["'][^>]*>/gi)];
+  const ogImageAltMatches = [...html.matchAll(/<meta\s+property=["']og:image:alt["']\s+content=["']([^"']+)["'][^>]*>/gi)];
   const twitterImageMatches = [...html.matchAll(/<meta\s+name=["']twitter:image["']\s+content=["']([^"']+)["'][^>]*>/gi)];
+  const twitterImageAltMatches = [...html.matchAll(/<meta\s+name=["']twitter:image:alt["']\s+content=["']([^"']+)["'][^>]*>/gi)];
   const twitterCardMatches = [...html.matchAll(/<meta\s+name=["']twitter:card["']\s+content=["']([^"']+)["'][^>]*>/gi)];
   const canonical = canonicalMatches[0]?.[1]?.trim();
   const robots = robotsMatches[0]?.[1]?.trim();
@@ -146,6 +148,12 @@ for (const file of htmlFiles) {
   }
   if (twitterImageMatches.length !== 1 || twitterImageMatches[0]?.[1] !== expectedBrandImage) {
     errors.push(`${relative}: expected exactly one approved Twitter brand image ${expectedBrandImage}`);
+  }
+  if (ogImageAltMatches.length !== 1 || !/HAIBUCRAFT/.test(ogImageAltMatches[0]?.[1] || '')) {
+    errors.push(`${relative}: expected exactly one HAIBUCRAFT Open Graph image alt`);
+  }
+  if (twitterImageAltMatches.length !== 1 || !/HAIBUCRAFT/.test(twitterImageAltMatches[0]?.[1] || '')) {
+    errors.push(`${relative}: expected exactly one HAIBUCRAFT Twitter image alt`);
   }
   if (twitterCardMatches.length !== 1 || twitterCardMatches[0]?.[1] !== 'summary_large_image') {
     errors.push(`${relative}: expected exactly one summary_large_image Twitter card`);
@@ -192,7 +200,7 @@ for (const file of htmlFiles) {
   }
   for (const organization of structuredData.filter((entry) => entry['@type'] === 'Organization')) {
     if (organization.logo && organization.logo !== `${seoMap.site.origin}/brand/haibu-logo-header.png`) {
-      errors.push(`${relative}: Organization logo does not use the approved HAIBU CRAFT asset`);
+      errors.push(`${relative}: Organization logo does not use the approved HAIBUCRAFT asset`);
     }
   }
   if (isQuote || is404 || route?.index === false) {
@@ -271,6 +279,10 @@ else {
   }
   for (const marker of ['/brand/haibu-logo-header.png', '/brand/haibu-logo-mobile.png', '/brand/haibu-logo-footer.png', 'Creative craft components supplier', 'brand-v2.css']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing final brand marker: ${marker}`);
+  }
+  if (/HAIBU CRAFT/.test(components)) errors.push('production components runtime contains non-canonical textual brand spelling HAIBU CRAFT');
+  for (const marker of ['Prefer WhatsApp?', 'Chat with sales']) {
+    if (!components.includes(marker)) errors.push(`production components runtime missing Request Quote WhatsApp alternative: ${marker}`);
   }
   for (const marker of ["whatsappNumber: '8618632026595'", 'https://wa.me/${CONTACT_CONFIG.whatsappNumber}', 'Chat with HAIBUCRAFT on WhatsApp', 'target="_blank" rel="noopener noreferrer"', 'whatsapp-float', 'IntersectionObserver', 'avoid-form']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing WhatsApp marker: ${marker}`);

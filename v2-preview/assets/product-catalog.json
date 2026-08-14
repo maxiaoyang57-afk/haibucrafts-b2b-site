@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-01",
-  "count": 63,
+  "generatedAt": "2026-08-14",
+  "count": 72,
   "products": [
     {
       "sku": "YX3531",
@@ -9,6 +9,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Sweet",
       "image": "/assets/images/products/hc001-school-theme-polymer-clay-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx3531-pink-candy-and-ceramic-dish-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx3531-pink-candy-and-ceramic-dish-mix/"
     },
@@ -19,6 +20,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Sweet",
       "image": "/assets/images/products/yx043-main.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx043-colorful-candy-round-slices/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx043-colorful-candy-round-slices/"
     },
@@ -29,6 +31,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Decorative",
       "image": "/assets/images/products/hc003-school-bus-clay-slices.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx577-colorful-candy-scatter-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx577-colorful-candy-scatter-mix/"
     },
@@ -39,6 +42,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Premium",
       "image": "/assets/images/products/hc005-pastel-star-slices-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx097-crystal-accent-fantasy-candy-slices/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx097-crystal-accent-fantasy-candy-slices/"
     },
@@ -49,6 +53,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Seasonal",
       "image": "/assets/images/products/hc006-halloween-candy-corn-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx626-gothic-candy-decor-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx626-gothic-candy-decor-mix/"
     },
@@ -59,6 +64,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Decorative",
       "image": "/assets/images/products/hc007-mini-knife-polymer-pieces.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx778-rainbow-crumble-bowl-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx778-rainbow-crumble-bowl-mix/"
     },
@@ -69,6 +75,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Seasonal",
       "image": "/assets/images/products/hc008-halloween-ghost-spider-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx3400-halloween-theme-slice-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx3400-halloween-theme-slice-mix/"
     },
@@ -79,6 +86,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Decorative",
       "image": "/assets/images/products/hc009-ocean-fish-dolphin-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx038-pink-and-blue-decorative-slice-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx038-pink-and-blue-decorative-slice-mix/"
     },
@@ -89,6 +97,7 @@
       "categoryLabel": "Polymer Clay Slices",
       "type": "Fruit",
       "image": "/assets/images/products/hc010-campfire-marshmallow-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx048-strawberry-candy-heart-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx048-strawberry-candy-heart-mix/"
     },
@@ -99,6 +108,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Fantasy",
       "image": "/assets/images/products/sc001-pink-knife-candy-decor.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm10094-pink-knife-and-candy-decor-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm10094-pink-knife-and-candy-decor-charms/"
     },
@@ -109,6 +119,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Seasonal",
       "image": "/assets/images/products/sc002-holiday-character-candy-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm10130-holiday-character-candy-charm-mix/",
       "productionPath": "/products/slime-charms-wholesale/slm10130-holiday-character-candy-charm-mix/"
     },
@@ -119,6 +130,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Character",
       "image": "/assets/images/products/sc003-dreamy-mini-doll-sprinkle-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm680-dreamy-mini-doll-sprinkle-mix/",
       "productionPath": "/products/slime-charms-wholesale/slm680-dreamy-mini-doll-sprinkle-mix/"
     },
@@ -129,6 +141,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Celestial",
       "image": "/assets/images/products/sc004-space-candy-adventure-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm712-space-candy-adventure-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm712-space-candy-adventure-charms/"
     },
@@ -139,6 +152,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Ocean",
       "image": "/assets/images/products/sc005-seashell-candy-decor-plate.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm26521-seashell-candy-decor-plate-mix/",
       "productionPath": "/products/slime-charms-wholesale/slm26521-seashell-candy-decor-plate-mix/"
     },
@@ -149,6 +163,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Ocean",
       "image": "/assets/images/products/sc007-mermaid-tail-candy-stars-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm10093-mermaid-tail-and-candy-stars-mix/",
       "productionPath": "/products/slime-charms-wholesale/slm10093-mermaid-tail-and-candy-stars-mix/"
     },
@@ -159,6 +174,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Fruit",
       "image": "/assets/images/products/sc008-sweet-berry-candy-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm713-sweet-berry-candy-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm713-sweet-berry-candy-charms/"
     },
@@ -169,6 +185,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Seasonal",
       "image": "/assets/images/products/sc009-st-patricks-sprinkle-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm707-st-patricks-sprinkle-mix/",
       "productionPath": "/products/slime-charms-wholesale/slm707-st-patricks-sprinkle-mix/"
     },
@@ -179,6 +196,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Fruit",
       "image": "/assets/images/products/sc012-cute-fruit-charm-display.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm10123-peach-polymer-clay-slices/",
       "productionPath": "/products/slime-charms-wholesale/slm10123-peach-polymer-clay-slices/"
     },
@@ -189,6 +207,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Ocean",
       "image": "/assets/images/products/sc013-undersea-craft-charm-pile.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm10012-undersea-craft-charm-pile/",
       "productionPath": "/products/slime-charms-wholesale/slm10012-undersea-craft-charm-pile/"
     },
@@ -199,6 +218,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Sweet",
       "image": "/assets/images/products/sc014-colorful-mini-food-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm693-colorful-mini-food-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm693-colorful-mini-food-charms/"
     },
@@ -209,6 +229,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Sweet",
       "image": "/assets/images/products/sc015-pink-candy-charm-assortment.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm10129-pink-candy-charm-assortment/",
       "productionPath": "/products/slime-charms-wholesale/slm10129-pink-candy-charm-assortment/"
     },
@@ -219,6 +240,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Sweet",
       "image": "/assets/images/products/sc016-mini-snack-layout-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm715-mini-snack-layout-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm715-mini-snack-layout-charms/"
     },
@@ -229,6 +251,7 @@
       "categoryLabel": "Slime Charms",
       "type": "Seasonal",
       "image": "/assets/images/products/sc017-gingerbread-holiday-charm-feast.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm717-gingerbread-holiday-charm-feast/",
       "productionPath": "/products/slime-charms-wholesale/slm717-gingerbread-holiday-charm-feast/"
     },
@@ -239,8 +262,171 @@
       "categoryLabel": "Slime Charms",
       "type": "Fantasy",
       "image": "/assets/images/products/sc018-sparkly-cute-charm-scatter.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/slime-charms/slm684-sparkly-cute-charm-scatter/",
       "productionPath": "/products/slime-charms-wholesale/slm684-sparkly-cute-charm-scatter/"
+    },
+    {
+      "sku": "SLM10001",
+      "title": "Mermaid & Ocean Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Ocean",
+      "image": "/assets/images/products/batch-2026-08/slm10001/slm10001-mermaid-ocean-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10001/slm10001-mermaid-ocean-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10001/slm10001-mermaid-ocean-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10001/slm10001-mermaid-ocean-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10001/slm10001-mermaid-ocean-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10001/slm10001-mermaid-ocean-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10001/slm10001-mermaid-ocean-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10001-mermaid-ocean-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10001-mermaid-ocean-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10002",
+      "title": "Pink Halloween Ghost & Fruit Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Halloween",
+      "image": "/assets/images/products/batch-2026-08/slm10002/slm10002-pink-halloween-ghost-fruit-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10002/slm10002-pink-halloween-ghost-fruit-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10002/slm10002-pink-halloween-ghost-fruit-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10002/slm10002-pink-halloween-ghost-fruit-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10002/slm10002-pink-halloween-ghost-fruit-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10002/slm10002-pink-halloween-ghost-fruit-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10002/slm10002-pink-halloween-ghost-fruit-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10002-pink-halloween-ghost-fruit-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10002-pink-halloween-ghost-fruit-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10003",
+      "title": "Christmas Santa & Tree Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Christmas",
+      "image": "/assets/images/products/batch-2026-08/slm10003/slm10003-christmas-santa-tree-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10003/slm10003-christmas-santa-tree-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10003/slm10003-christmas-santa-tree-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10003/slm10003-christmas-santa-tree-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10003/slm10003-christmas-santa-tree-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10003/slm10003-christmas-santa-tree-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10003/slm10003-christmas-santa-tree-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10003-christmas-santa-tree-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10003-christmas-santa-tree-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10004",
+      "title": "Halloween Skeleton & Candy Corn Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Halloween",
+      "image": "/assets/images/products/batch-2026-08/slm10004/slm10004-halloween-skeleton-candy-corn-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10004/slm10004-halloween-skeleton-candy-corn-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10004/slm10004-halloween-skeleton-candy-corn-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10004/slm10004-halloween-skeleton-candy-corn-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10004/slm10004-halloween-skeleton-candy-corn-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10004/slm10004-halloween-skeleton-candy-corn-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10004/slm10004-halloween-skeleton-candy-corn-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10004-halloween-skeleton-candy-corn-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10004-halloween-skeleton-candy-corn-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10005",
+      "title": "Pastel Animal Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Cute Animals",
+      "image": "/assets/images/products/batch-2026-08/slm10005/slm10005-pastel-animal-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10005/slm10005-pastel-animal-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10005/slm10005-pastel-animal-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10005/slm10005-pastel-animal-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10005/slm10005-pastel-animal-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10005/slm10005-pastel-animal-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10005/slm10005-pastel-animal-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10005-pastel-animal-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10005-pastel-animal-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10008",
+      "title": "Pastel Flower Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Floral",
+      "image": "/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10008-pastel-flower-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10008-pastel-flower-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10009",
+      "title": "Christmas Snowflake & Santa Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Christmas",
+      "image": "/assets/images/products/batch-2026-08/slm10009/slm10009-christmas-snowflake-santa-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10009/slm10009-christmas-snowflake-santa-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10009/slm10009-christmas-snowflake-santa-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10009/slm10009-christmas-snowflake-santa-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10009/slm10009-christmas-snowflake-santa-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10009/slm10009-christmas-snowflake-santa-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10009/slm10009-christmas-snowflake-santa-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10009-christmas-snowflake-santa-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10009-christmas-snowflake-santa-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10010",
+      "title": "Red Halloween Ghost Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Halloween",
+      "image": "/assets/images/products/batch-2026-08/slm10010/slm10010-red-halloween-ghost-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10010/slm10010-red-halloween-ghost-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10010/slm10010-red-halloween-ghost-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10010/slm10010-red-halloween-ghost-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10010/slm10010-red-halloween-ghost-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10010/slm10010-red-halloween-ghost-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10010/slm10010-red-halloween-ghost-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10010-red-halloween-ghost-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10010-red-halloween-ghost-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10011",
+      "title": "Purple Halloween Skull Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Halloween",
+      "image": "/assets/images/products/batch-2026-08/slm10011/slm10011-purple-halloween-skull-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10011/slm10011-purple-halloween-skull-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10011/slm10011-purple-halloween-skull-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10011/slm10011-purple-halloween-skull-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10011/slm10011-purple-halloween-skull-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10011/slm10011-purple-halloween-skull-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10011/slm10011-purple-halloween-skull-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10011-purple-halloween-skull-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10011-purple-halloween-skull-slime-charm-mix/"
     },
     {
       "sku": "RW4252",
@@ -249,6 +435,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Fruit",
       "image": "/assets/images/products/glitter-cherry-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw4252-glitter-cherry-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw4252-glitter-cherry-resin-charms/"
     },
@@ -259,6 +446,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Ocean",
       "image": "/assets/images/products/iridescent-ocean-animal-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw994-iridescent-ocean-animal-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw994-iridescent-ocean-animal-charms/"
     },
@@ -269,6 +457,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Fruit",
       "image": "/assets/images/products/pink-strawberry-flatback-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw22741-pink-strawberry-flatback-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw22741-pink-strawberry-flatback-charms/"
     },
@@ -279,6 +468,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Animal",
       "image": "/assets/images/products/kawaii-frog-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw002854-kawaii-frog-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw002854-kawaii-frog-resin-charms/"
     },
@@ -289,6 +479,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Mixed",
       "image": "/assets/images/products/school-supplies-flatback-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw26439-school-supplies-flatback-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw26439-school-supplies-flatback-charms/"
     },
@@ -299,6 +490,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Sweet",
       "image": "/assets/images/products/gummy-bear-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw1620-gummy-bear-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw1620-gummy-bear-resin-charms/"
     },
@@ -309,6 +501,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Animal",
       "image": "/assets/images/products/fruit-shell-turtle-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw26051-fruit-shell-turtle-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw26051-fruit-shell-turtle-resin-charms/"
     },
@@ -319,6 +512,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Mixed",
       "image": "/assets/images/products/pastel-heart-flatback-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw26412-pastel-heart-flatback-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw26412-pastel-heart-flatback-charms/"
     },
@@ -329,6 +523,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Sweet",
       "image": "/assets/images/products/glossy-jelly-bean-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw1711-glossy-jelly-bean-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw1711-glossy-jelly-bean-resin-charms/"
     },
@@ -339,6 +534,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Animal",
       "image": "/assets/images/products/green-frog-flatback-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw22372-green-frog-flatback-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw22372-green-frog-flatback-charms/"
     },
@@ -349,6 +545,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Sweet",
       "image": "/assets/images/products/star-gummy-bear-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw2899-star-gummy-bear-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw2899-star-gummy-bear-charms/"
     },
@@ -359,6 +556,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Seasonal",
       "image": "/assets/images/products/mini-cauldron-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw20388-mini-cauldron-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw20388-mini-cauldron-resin-charms/"
     },
@@ -369,6 +567,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Fruit",
       "image": "/assets/images/products/citrus-slice-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw1775-citrus-slice-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw1775-citrus-slice-resin-charms/"
     },
@@ -379,6 +578,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Sweet",
       "image": "/assets/images/products/bright-jelly-bean-charms-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw003223-bright-jelly-bean-charms-mix/",
       "productionPath": "/products/resin-charms-for-slime/rw003223-bright-jelly-bean-charms-mix/"
     },
@@ -389,6 +589,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Seasonal",
       "image": "/assets/images/products/green-ghost-flatback-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw002859-green-ghost-flatback-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw002859-green-ghost-flatback-charms/"
     },
@@ -399,6 +600,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Ocean",
       "image": "/assets/images/products/mermaid-ocean-flatback-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw2683-mermaid-ocean-flatback-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw2683-mermaid-ocean-flatback-charms/"
     },
@@ -409,6 +611,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Mixed",
       "image": "/assets/images/products/glitter-bow-head-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw5806-glitter-bow-head-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw5806-glitter-bow-head-resin-charms/"
     },
@@ -419,6 +622,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Sweet",
       "image": "/assets/images/products/pastel-candy-disc-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw26386-pastel-candy-disc-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw26386-pastel-candy-disc-charms/"
     },
@@ -429,6 +633,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Sweet",
       "image": "/assets/images/products/frosted-cookie-resin-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw003422-frosted-cookie-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw003422-frosted-cookie-resin-charms/"
     },
@@ -439,6 +644,7 @@
       "categoryLabel": "Resin Charms",
       "type": "Animal",
       "image": "/assets/images/products/sc010-spring-mini-duck-charms.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw26189-spring-mini-duck-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/"
     },
@@ -449,6 +655,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Seasonal",
       "image": "/assets/images/products/autumn-maple-leaf-sequins.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma012-autumn-maple-leaf-holographic-sequins/",
       "productionPath": "/products/sequins-glitter-confetti/ma012-autumn-maple-leaf-holographic-sequins/"
     },
@@ -459,6 +666,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Geometric",
       "image": "/assets/images/products/iridescent-circle-ring-sequins.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma087-iridescent-circle-ring-sequins/",
       "productionPath": "/products/sequins-glitter-confetti/ma087-iridescent-circle-ring-sequins/"
     },
@@ -469,6 +677,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Novelty",
       "image": "/assets/images/products/silver-novelty-party-confetti.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma109-silver-novelty-party-confetti/",
       "productionPath": "/products/sequins-glitter-confetti/ma109-silver-novelty-party-confetti/"
     },
@@ -479,6 +688,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Animal",
       "image": "/assets/images/products/pastel-butterfly-confetti-bowl.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma107-pastel-butterfly-confetti-bowl/",
       "productionPath": "/products/sequins-glitter-confetti/ma107-pastel-butterfly-confetti-bowl/"
     },
@@ -489,6 +699,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Star",
       "image": "/assets/images/products/rainbow-star-glitter-confetti.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma119-rainbow-star-glitter-confetti/",
       "productionPath": "/products/sequins-glitter-confetti/ma119-rainbow-star-glitter-confetti/"
     },
@@ -499,6 +710,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Mixed",
       "image": "/assets/images/products/iridescent-sequin-scoop-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma127-iridescent-sequin-scoop-mix/",
       "productionPath": "/products/sequins-glitter-confetti/ma127-iridescent-sequin-scoop-mix/"
     },
@@ -509,6 +721,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Geometric",
       "image": "/assets/images/products/coral-diamond-glitter-sequins.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma131-coral-diamond-glitter-sequins/",
       "productionPath": "/products/sequins-glitter-confetti/ma131-coral-diamond-glitter-sequins/"
     },
@@ -519,6 +732,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Heart",
       "image": "/assets/images/products/pastel-love-heart-confetti.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma064-pastel-love-heart-confetti/",
       "productionPath": "/products/sequins-glitter-confetti/ma064-pastel-love-heart-confetti/"
     },
@@ -529,6 +743,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Animal",
       "image": "/assets/images/products/iridescent-fish-sequins-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma302-iridescent-fish-sequins-mix/",
       "productionPath": "/products/sequins-glitter-confetti/ma302-iridescent-fish-sequins-mix/"
     },
@@ -539,6 +754,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Sea",
       "image": "/assets/images/products/pastel-seashell-paillette-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma601-pastel-seashell-paillette-mix/",
       "productionPath": "/products/sequins-glitter-confetti/ma601-pastel-seashell-paillette-mix/"
     },
@@ -549,6 +765,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Heart",
       "image": "/assets/images/products/candy-heart-bowl-paillettes.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma013-candy-heart-bowl-paillettes/",
       "productionPath": "/products/sequins-glitter-confetti/ma013-candy-heart-bowl-paillettes/"
     },
@@ -559,6 +776,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Star",
       "image": "/assets/images/products/patriotic-star-confetti-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma602-patriotic-star-confetti-mix/",
       "productionPath": "/products/sequins-glitter-confetti/ma602-patriotic-star-confetti-mix/"
     },
@@ -569,6 +787,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Star",
       "image": "/assets/images/products/rainbow-micro-star-sprinkles.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma225-rainbow-micro-star-sprinkles/",
       "productionPath": "/products/sequins-glitter-confetti/ma225-rainbow-micro-star-sprinkles/"
     },
@@ -579,6 +798,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Star",
       "image": "/assets/images/products/holographic-hollow-star-sequins.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma217-holographic-hollow-star-sequins/",
       "productionPath": "/products/sequins-glitter-confetti/ma217-holographic-hollow-star-sequins/"
     },
@@ -589,6 +809,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Novelty",
       "image": "/assets/images/products/patriotic-tube-glitter-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma118-patriotic-tube-glitter-mix/",
       "productionPath": "/products/sequins-glitter-confetti/ma118-patriotic-tube-glitter-mix/"
     },
@@ -599,6 +820,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Mixed",
       "image": "/assets/images/products/multicolor-round-confetti-chart.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma059-multicolor-round-confetti-assortment/",
       "productionPath": "/products/sequins-glitter-confetti/ma059-multicolor-round-confetti-assortment/"
     },
@@ -609,6 +831,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Mixed",
       "image": "/assets/images/products/dreamy-pearl-moon-star-mix.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma041-dreamy-pearl-moon-star-mix/",
       "productionPath": "/products/sequins-glitter-confetti/ma041-dreamy-pearl-moon-star-mix/"
     },
@@ -619,6 +842,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Heart",
       "image": "/assets/images/products/pastel-mini-heart-sequins.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma084-pastel-mini-heart-sequins/",
       "productionPath": "/products/sequins-glitter-confetti/ma084-pastel-mini-heart-sequins/"
     },
@@ -629,6 +853,7 @@
       "categoryLabel": "Sequins & Confetti",
       "type": "Star",
       "image": "/assets/images/products/pastel-hollow-star-scatter.webp",
+      "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ym109-2-pastel-hollow-star-scatter-mix/",
       "productionPath": "/products/sequins-glitter-confetti/ym109-2-pastel-hollow-star-scatter-mix/"
     }

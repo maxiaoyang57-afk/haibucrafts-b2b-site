@@ -1,0 +1,167 @@
+{
+  "batch": "issue-12-slm10001-10011",
+  "publicGalleryCount": 6,
+  "material": "Polymer clay slices and resin focal charms; final composition is confirmed with the quotation and approved sample.",
+  "packingOptions": [
+    "5 g clay-slice mix + 1 resin focal charm (10-pack reference)",
+    "30 g clay-slice mix + 3 resin focal charms (10-pack reference)",
+    "30 g clay-slice mix + 1 resin focal charm (10-pack reference)",
+    "500 g bulk mix + 25 resin focal charms",
+    "1,000 g bulk mix + 50 resin focal charms"
+  ],
+  "products": [
+    {
+      "sku": "SLM10001",
+      "title": "Mermaid & Ocean Slime Charm Mix",
+      "type": "Ocean",
+      "imagePrefix": "slm10001-mermaid-ocean-slime-charms",
+      "description": "Mermaid- and ocean-themed polymer clay slices with colorful resin focal charms for slime brands, DIY kit programs, craft retailers and private-label assortments.",
+      "metaDescription": "Source Mermaid and Ocean Slime Charm Mix SLM10001 for wholesale slime, DIY kits and private-label packs. Confirm MOQ, packing and lead time by quotation.",
+      "galleryLabels": [
+        "assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation",
+        "bowl presentation",
+        "dark-background close-up",
+        "display tray presentation"
+      ],
+      "relatedSkus": ["SLM10008", "SLM10005", "SLM10093"]
+    },
+    {
+      "sku": "SLM10002",
+      "title": "Pink Halloween Ghost & Fruit Slime Charm Mix",
+      "type": "Halloween",
+      "imagePrefix": "slm10002-pink-halloween-ghost-fruit-slime-charms",
+      "description": "A pink Halloween assortment combining ghost-style resin focal charms with fruit and cute polymer clay slices for seasonal slime collections and craft kits.",
+      "metaDescription": "Source Pink Halloween Ghost and Fruit Slime Charm Mix SLM10002 for seasonal wholesale programs. Confirm samples, packing, MOQ and lead time by quotation.",
+      "galleryLabels": [
+        "bowl assortment overview",
+        "dark-background close-up",
+        "display tray presentation",
+        "loose assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation"
+      ],
+      "relatedSkus": ["SLM10010", "SLM10011", "SLM10004"]
+    },
+    {
+      "sku": "SLM10003",
+      "title": "Christmas Santa & Tree Slime Charm Mix",
+      "type": "Christmas",
+      "imagePrefix": "slm10003-christmas-santa-tree-slime-charms",
+      "description": "A red-and-green Christmas mix with Santa- and tree-themed resin focal charms plus holiday polymer clay slices for seasonal slime and DIY kit programs.",
+      "metaDescription": "Source Christmas Santa and Tree Slime Charm Mix SLM10003 for wholesale holiday assortments. Confirm sample, packing, MOQ and lead time by quotation.",
+      "galleryLabels": [
+        "bowl assortment overview",
+        "dark-background close-up",
+        "display tray presentation",
+        "loose assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation"
+      ],
+      "relatedSkus": ["SLM10009", "SLM10130", "SLM717"]
+    },
+    {
+      "sku": "SLM10004",
+      "title": "Halloween Skeleton & Candy Corn Slime Charm Mix",
+      "type": "Halloween",
+      "imagePrefix": "slm10004-halloween-skeleton-candy-corn-slime-charms",
+      "description": "A purple-and-orange Halloween mix with skeleton and candy-corn resin focal charms plus coordinating polymer clay slices for seasonal B2B assortments.",
+      "metaDescription": "Source Halloween Skeleton and Candy Corn Slime Charm Mix SLM10004 for wholesale seasonal packs. Confirm sample, MOQ, packing and lead time by quotation.",
+      "galleryLabels": [
+        "bowl assortment overview",
+        "dark-background close-up",
+        "display tray presentation",
+        "loose assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation"
+      ],
+      "relatedSkus": ["SLM10002", "SLM10010", "SLM10011"]
+    },
+    {
+      "sku": "SLM10005",
+      "title": "Pastel Animal Slime Charm Mix",
+      "type": "Cute Animals",
+      "imagePrefix": "slm10005-pastel-animal-slime-charms",
+      "description": "A soft pastel animal assortment with resin focal charms, colorful polymer clay slices and decorative beads for slime, craft kits and retailer-exclusive mixes.",
+      "metaDescription": "Source Pastel Animal Slime Charm Mix SLM10005 for wholesale slime, craft kits and private-label assortments. Confirm packing, MOQ and lead time by quotation.",
+      "galleryLabels": [
+        "bowl assortment overview",
+        "dark-background close-up",
+        "display tray presentation",
+        "loose assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation"
+      ],
+      "relatedSkus": ["SLM10008", "SLM680", "SLM684"]
+    },
+    {
+      "sku": "SLM10008",
+      "title": "Pastel Flower Slime Charm Mix",
+      "type": "Floral",
+      "imagePrefix": "slm10008-pastel-flower-slime-charms",
+      "description": "Bright pastel flower focal charms paired with multicolor polymer clay slices for spring assortments, slime brands, craft retailers and private-label programs.",
+      "metaDescription": "Source Pastel Flower Slime Charm Mix SLM10008 for wholesale spring and floral assortments. Confirm sample, packing, MOQ and lead time by quotation.",
+      "galleryLabels": [
+        "bowl assortment overview",
+        "dark-background close-up",
+        "display tray presentation",
+        "loose assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation"
+      ],
+      "relatedSkus": ["SLM10005", "SLM684", "SLM713"]
+    },
+    {
+      "sku": "SLM10009",
+      "title": "Christmas Snowflake & Santa Slime Charm Mix",
+      "type": "Christmas",
+      "imagePrefix": "slm10009-christmas-snowflake-santa-slime-charms",
+      "description": "A winter Christmas assortment with snowflake and Santa-style resin focal charms plus coordinating polymer clay slices for holiday slime and DIY kits.",
+      "metaDescription": "Source Christmas Snowflake and Santa Slime Charm Mix SLM10009 for wholesale holiday programs. Confirm sample, packing, MOQ and lead time by quotation.",
+      "galleryLabels": [
+        "bowl assortment overview",
+        "dark-background close-up",
+        "display tray presentation",
+        "loose assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation"
+      ],
+      "relatedSkus": ["SLM10003", "SLM10130", "SLM717"]
+    },
+    {
+      "sku": "SLM10010",
+      "title": "Red Halloween Ghost Slime Charm Mix",
+      "type": "Halloween",
+      "imagePrefix": "slm10010-red-halloween-ghost-slime-charms",
+      "description": "A red, white and black Halloween mix with ghost-style resin focal charms and coordinating polymer clay slices for seasonal slime brands and DIY programs.",
+      "metaDescription": "Source Red Halloween Ghost Slime Charm Mix SLM10010 for wholesale seasonal collections. Confirm sample, packing, MOQ and lead time by quotation.",
+      "galleryLabels": [
+        "bowl assortment overview",
+        "dark-background close-up",
+        "display tray presentation",
+        "loose assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation"
+      ],
+      "relatedSkus": ["SLM10002", "SLM10011", "SLM10004"]
+    },
+    {
+      "sku": "SLM10011",
+      "title": "Purple Halloween Skull Slime Charm Mix",
+      "type": "Halloween",
+      "imagePrefix": "slm10011-purple-halloween-skull-slime-charms",
+      "description": "A purple and pastel Halloween assortment with skull-style resin focal charms and polymer clay slices for seasonal slime drops, craft kits and wholesale mixes.",
+      "metaDescription": "Source Purple Halloween Skull Slime Charm Mix SLM10011 for wholesale seasonal assortments. Confirm sample, packing, MOQ and lead time by quotation.",
+      "galleryLabels": [
+        "bowl assortment overview",
+        "dark-background close-up",
+        "display tray presentation",
+        "loose assortment on a light background",
+        "hand-held component close-up",
+        "shell-bowl presentation"
+      ],
+      "relatedSkus": ["SLM10002", "SLM10010", "SLM10004"]
+    }
+  ]
+}

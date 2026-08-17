@@ -260,6 +260,69 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/slime-charms/slm10001-mermaid-ocean-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10001-mermaid-ocean-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10001-mermaid-ocean-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10002-pink-halloween-ghost-fruit-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10002-pink-halloween-ghost-fruit-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10002-pink-halloween-ghost-fruit-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10003-christmas-santa-tree-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10003-christmas-santa-tree-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10003-christmas-santa-tree-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10004-halloween-skeleton-candy-corn-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10004-halloween-skeleton-candy-corn-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10004-halloween-skeleton-candy-corn-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10005-pastel-animal-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10005-pastel-animal-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10005-pastel-animal-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10008-pastel-flower-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10008-pastel-flower-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10008-pastel-flower-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10009-christmas-snowflake-santa-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10009-christmas-snowflake-santa-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10009-christmas-snowflake-santa-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10010-red-halloween-ghost-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10010-red-halloween-ghost-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10010-red-halloween-ghost-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10011-purple-halloween-skull-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10011-purple-halloween-skull-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10011-purple-halloween-skull-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw4252-glitter-cherry-resin-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw4252-glitter-cherry-resin-charms/index.html",
       "action": "create",
@@ -694,6 +757,14 @@
     {
       "source": "v2-preview/assets/accessibility.css",
       "destination": "assets/v2/accessibility.css"
+    },
+    {
+      "source": "v2-preview/assets/product-gallery.css",
+      "destination": "assets/v2/product-gallery.css"
+    },
+    {
+      "source": "v2-preview/assets/product-gallery.js",
+      "destination": "assets/v2/product-gallery.js"
     }
   ],
   "rootConfig": [

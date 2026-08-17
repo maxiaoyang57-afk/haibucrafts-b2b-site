@@ -8,7 +8,7 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -16,23 +16,21 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Wait for Vercel Preview llms.txt
+      - name: Diagnose and verify Vercel Preview llms.txt
         shell: bash
         run: |
           set -euo pipefail
           URL='https://haibucrafts-b2b-site-git-fea-c1e2b1-maxiaoyang57-9776s-projects.vercel.app/llms.txt'
-          for i in {1..24}; do
-            code=$(curl -L -sS -o /tmp/llms.txt -w '%{http_code}' "$URL" || true)
-            if [ "$code" = '200' ] && grep -q '^# HAIBUCRAFT$' /tmp/llms.txt && grep -q '^> HAIBUCRAFT is a B2B' /tmp/llms.txt; then
-              echo "Preview /llms.txt is publicly accessible (HTTP 200)."
-              head -n 8 /tmp/llms.txt
-              exit 0
-            fi
-            echo "Attempt $i: HTTP $code; waiting for Preview..."
-            sleep 10
-          done
-          echo 'Preview /llms.txt did not become publicly accessible.' >&2
-          exit 1
+          curl -L -sS -D /tmp/headers.txt -o /tmp/body.txt "$URL"
+          echo '--- response headers ---'
+          sed -n '1,50p' /tmp/headers.txt
+          echo '--- response body (first 30 lines) ---'
+          sed -n '1,30p' /tmp/body.txt
+          code=$(awk 'toupper($1) ~ /^HTTP\// {c=$2} END {print c}' /tmp/headers.txt)
+          test "$code" = '200'
+          grep -q '^# HAIBUCRAFT$' /tmp/body.txt
+          grep -q '^> HAIBUCRAFT is a B2B' /tmp/body.txt
+          echo 'Preview /llms.txt is publicly accessible and contains the expected HAIBUCRAFT Markdown.'
 
       - name: Install Lighthouse
         run: npm install --no-save lighthouse@13.4.0

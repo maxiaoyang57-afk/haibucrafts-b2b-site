@@ -1,0 +1,64 @@
+name: Verify llms.txt Preview
+
+on:
+  push:
+    branches:
+      - feat/llms-txt-agentic-browsing
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Wait for Vercel Preview llms.txt
+        shell: bash
+        run: |
+          set -euo pipefail
+          URL='https://haibucrafts-b2b-site-git-fea-c1e2b1-maxiaoyang57-9776s-projects.vercel.app/llms.txt'
+          for i in {1..24}; do
+            code=$(curl -L -sS -o /tmp/llms.txt -w '%{http_code}' "$URL" || true)
+            if [ "$code" = '200' ] && grep -q '^# HAIBUCRAFT$' /tmp/llms.txt && grep -q '^> HAIBUCRAFT is a B2B' /tmp/llms.txt; then
+              echo "Preview /llms.txt is publicly accessible (HTTP 200)."
+              head -n 8 /tmp/llms.txt
+              exit 0
+            fi
+            echo "Attempt $i: HTTP $code; waiting for Preview..."
+            sleep 10
+          done
+          echo 'Preview /llms.txt did not become publicly accessible.' >&2
+          exit 1
+
+      - name: Install Lighthouse
+        run: npm install --no-save lighthouse@13.4.0
+
+      - name: Run Lighthouse Agentic Browsing
+        shell: bash
+        run: |
+          set -euo pipefail
+          npx lighthouse 'https://haibucrafts-b2b-site-git-fea-c1e2b1-maxiaoyang57-9776s-projects.vercel.app/' \
+            --only-categories=agentic-browsing \
+            --output=json \
+            --output-path=/tmp/lighthouse-agentic.json \
+            --chrome-flags='--headless --no-sandbox --disable-dev-shm-usage'
+          node - <<'NODE'
+          const r = require('/tmp/lighthouse-agentic.json');
+          const c = r.categories && r.categories['agentic-browsing'];
+          if (!c) throw new Error('Agentic Browsing category missing from Lighthouse result');
+          const refs = c.auditRefs || [];
+          const rows = refs.map(ref => {
+            const a = r.audits[ref.id];
+            return {id: ref.id, score: a?.score, mode: a?.scoreDisplayMode, title: a?.title};
+          });
+          const applicable = rows.filter(x => x.mode !== 'notApplicable');
+          const passed = applicable.filter(x => x.score === 1);
+          console.log('Lighthouse version:', r.lighthouseVersion);
+          console.log('Agentic Browsing audits:', JSON.stringify(rows, null, 2));
+          console.log(`Agentic Browsing pass ratio: ${passed.length}/${applicable.length}`);
+          if (passed.length !== applicable.length) process.exit(2);
+          NODE

@@ -1,0 +1,64 @@
+name: SEO Growth Sync (one-off)
+
+on:
+  push:
+    branches:
+      - feature/seo-growth-sprint-2026-08-21
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-growth-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: ${{ !contains(github.event.head_commit.message, '[skip seo-sync]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/seo-growth-sprint-2026-08-21
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run tests
+        run: npm test
+
+      - name: Rebuild SEO source
+        run: npm run build:v2-seo
+
+      - name: Build release candidate
+        run: npm run build:v2-release
+
+      - name: Materialize production files on feature branch
+        run: npm run release:v2-materialize
+
+      - name: Audit materialized output
+        run: npm run audit:v2-materialized
+
+      - name: Audit SEO
+        run: npm run audit:v2-seo
+
+      - name: Audit HTTP 404 behavior
+        run: npm run audit:v2-404
+
+      - name: Commit deterministic generated output
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "Generated output is already synchronized."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: sync SEO growth generated output [skip seo-sync]"
+          git push origin HEAD:feature/seo-growth-sprint-2026-08-21

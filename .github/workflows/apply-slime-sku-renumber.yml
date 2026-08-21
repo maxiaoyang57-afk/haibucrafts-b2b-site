@@ -1,0 +1,63 @@
+name: Apply Slime SKU Renumber
+
+on:
+  push:
+    branches:
+      - fix/slime-sku-renumber-2026-08-21
+    paths:
+      - 'scripts/apply-slime-sku-renumber.mjs'
+      - '.github/workflows/apply-slime-sku-renumber.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  renumber-build-audit:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout fix branch
+        uses: actions/checkout@v4
+        with:
+          ref: fix/slime-sku-renumber-2026-08-21
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Apply owner-approved atomic SKU mapping
+        run: node scripts/apply-slime-sku-renumber.mjs
+
+      - name: Regenerate SEO/product detail source
+        run: npm run build:v2-seo
+
+      - name: Build release candidate
+        run: npm run build:v2-release
+
+      - name: Materialize production-path files on fix branch
+        run: npm run release:v2-materialize
+
+      - name: Run tests and audits
+        run: |
+          npm test
+          npm run audit:v2-materialized
+          npm run audit:v2-seo
+          npm run audit:v2-404
+          git diff --check
+
+      - name: Commit generated correction to fix branch
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit.'
+            exit 0
+          fi
+          git commit -m 'fix: apply approved slime SKU renumber mapping'
+          git push origin HEAD:fix/slime-sku-renumber-2026-08-21

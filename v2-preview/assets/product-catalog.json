@@ -124,37 +124,37 @@
       "productionPath": "/products/slime-charms-wholesale/slm10130-holiday-character-candy-charm-mix/"
     },
     {
-      "sku": "SLM680",
+      "sku": "SLM712",
       "title": "Dreamy Mini Doll Sprinkle Mix",
       "category": "slime-charms",
       "categoryLabel": "Slime Charms",
       "type": "Character",
       "image": "/assets/images/products/sc003-dreamy-mini-doll-sprinkle-mix.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/slime-charms/slm680-dreamy-mini-doll-sprinkle-mix/",
-      "productionPath": "/products/slime-charms-wholesale/slm680-dreamy-mini-doll-sprinkle-mix/"
+      "previewPath": "/v2-preview/products/slime-charms/slm712-dreamy-mini-doll-sprinkle-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm712-dreamy-mini-doll-sprinkle-mix/"
     },
     {
-      "sku": "SLM712",
+      "sku": "SLM680",
       "title": "Space Candy Adventure Charms",
       "category": "slime-charms",
       "categoryLabel": "Slime Charms",
       "type": "Celestial",
       "image": "/assets/images/products/sc004-space-candy-adventure-charms.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/slime-charms/slm712-space-candy-adventure-charms/",
-      "productionPath": "/products/slime-charms-wholesale/slm712-space-candy-adventure-charms/"
+      "previewPath": "/v2-preview/products/slime-charms/slm680-space-candy-adventure-charms/",
+      "productionPath": "/products/slime-charms-wholesale/slm680-space-candy-adventure-charms/"
     },
     {
-      "sku": "SLM26521",
+      "sku": "SLM713",
       "title": "Seashell Candy Decor Plate Mix",
       "category": "slime-charms",
       "categoryLabel": "Slime Charms",
       "type": "Ocean",
       "image": "/assets/images/products/sc005-seashell-candy-decor-plate.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/slime-charms/slm26521-seashell-candy-decor-plate-mix/",
-      "productionPath": "/products/slime-charms-wholesale/slm26521-seashell-candy-decor-plate-mix/"
+      "previewPath": "/v2-preview/products/slime-charms/slm713-seashell-candy-decor-plate-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm713-seashell-candy-decor-plate-mix/"
     },
     {
       "sku": "SLM10093",
@@ -168,15 +168,15 @@
       "productionPath": "/products/slime-charms-wholesale/slm10093-mermaid-tail-and-candy-stars-mix/"
     },
     {
-      "sku": "SLM713",
+      "sku": "SLM10012",
       "title": "Sweet Berry Candy Charms",
       "category": "slime-charms",
       "categoryLabel": "Slime Charms",
       "type": "Fruit",
       "image": "/assets/images/products/sc008-sweet-berry-candy-charms.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/slime-charms/slm713-sweet-berry-candy-charms/",
-      "productionPath": "/products/slime-charms-wholesale/slm713-sweet-berry-candy-charms/"
+      "previewPath": "/v2-preview/products/slime-charms/slm10012-sweet-berry-candy-charms/",
+      "productionPath": "/products/slime-charms-wholesale/slm10012-sweet-berry-candy-charms/"
     },
     {
       "sku": "SLM707",
@@ -201,15 +201,15 @@
       "productionPath": "/products/slime-charms-wholesale/slm10123-peach-polymer-clay-slices/"
     },
     {
-      "sku": "SLM10012",
+      "sku": "SLM715",
       "title": "Undersea Craft Charm Pile",
       "category": "slime-charms",
       "categoryLabel": "Slime Charms",
       "type": "Ocean",
       "image": "/assets/images/products/sc013-undersea-craft-charm-pile.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/slime-charms/slm10012-undersea-craft-charm-pile/",
-      "productionPath": "/products/slime-charms-wholesale/slm10012-undersea-craft-charm-pile/"
+      "previewPath": "/v2-preview/products/slime-charms/slm715-undersea-craft-charm-pile/",
+      "productionPath": "/products/slime-charms-wholesale/slm715-undersea-craft-charm-pile/"
     },
     {
       "sku": "SLM693",
@@ -223,37 +223,37 @@
       "productionPath": "/products/slime-charms-wholesale/slm693-colorful-mini-food-charms/"
     },
     {
-      "sku": "SLM10129",
+      "sku": "SLM26521",
       "title": "Pink Candy Charm Assortment",
       "category": "slime-charms",
       "categoryLabel": "Slime Charms",
       "type": "Sweet",
       "image": "/assets/images/products/sc015-pink-candy-charm-assortment.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/slime-charms/slm10129-pink-candy-charm-assortment/",
-      "productionPath": "/products/slime-charms-wholesale/slm10129-pink-candy-charm-assortment/"
+      "previewPath": "/v2-preview/products/slime-charms/slm26521-pink-candy-charm-assortment/",
+      "productionPath": "/products/slime-charms-wholesale/slm26521-pink-candy-charm-assortment/"
     },
     {
-      "sku": "SLM715",
+      "sku": "SLM717",
       "title": "Mini Snack Layout Charms",
       "category": "slime-charms",
       "categoryLabel": "Slime Charms",
       "type": "Sweet",
       "image": "/assets/images/products/sc016-mini-snack-layout-charms.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/slime-charms/slm715-mini-snack-layout-charms/",
-      "productionPath": "/products/slime-charms-wholesale/slm715-mini-snack-layout-charms/"
+      "previewPath": "/v2-preview/products/slime-charms/slm717-mini-snack-layout-charms/",
+      "productionPath": "/products/slime-charms-wholesale/slm717-mini-snack-layout-charms/"
     },
     {
-      "sku": "SLM717",
+      "sku": "SLM10129",
       "title": "Gingerbread Holiday Charm Feast",
       "category": "slime-charms",
       "categoryLabel": "Slime Charms",
       "type": "Seasonal",
       "image": "/assets/images/products/sc017-gingerbread-holiday-charm-feast.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/slime-charms/slm717-gingerbread-holiday-charm-feast/",
-      "productionPath": "/products/slime-charms-wholesale/slm717-gingerbread-holiday-charm-feast/"
+      "previewPath": "/v2-preview/products/slime-charms/slm10129-gingerbread-holiday-charm-feast/",
+      "productionPath": "/products/slime-charms-wholesale/slm10129-gingerbread-holiday-charm-feast/"
     },
     {
       "sku": "SLM684",

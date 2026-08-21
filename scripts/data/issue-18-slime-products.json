@@ -1,0 +1,101 @@
+{
+  "batch": "issue-18-slm10013-10022",
+  "publicGalleryCount": 6,
+  "material": "Mixed decorative components; exact material and composition are confirmed with the quotation and approved order specification.",
+  "packingOptions": [
+    "Bulk or retail-ready packing is reviewed against the selected SKU, quantity and private-label brief.",
+    "Pack weight, assortment ratio, inner packing and carton details are confirmed in the approved order specification."
+  ],
+  "products": [
+    {
+      "sku": "SLM10013",
+      "title": "Christmas Santa & Candy Slime Charm Mix",
+      "type": "Christmas",
+      "imagePrefix": "slm10013-christmas-santa-candy-slime-charms",
+      "description": "A Christmas assortment combining Santa focal charms with red, green and white candy-style slices for seasonal slime collections, DIY kits and private-label programs.",
+      "metaDescription": "Source Christmas Santa and Candy Slime Charm Mix SLM10013 for wholesale holiday programs. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM10015", "SLM10017", "SLM10003"]
+    },
+    {
+      "sku": "SLM10014",
+      "title": "Halloween Pumpkin & Cat Slime Charm Mix",
+      "type": "Halloween",
+      "imagePrefix": "slm10014-halloween-pumpkin-cat-slime-charms",
+      "description": "An orange, purple and black Halloween mix with pumpkin and cat focal charms for seasonal slime assortments, craft kits and retailer-exclusive programs.",
+      "metaDescription": "Source Halloween Pumpkin and Cat Slime Charm Mix SLM10014 for wholesale seasonal assortments. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM10021", "SLM10004", "SLM10011"]
+    },
+    {
+      "sku": "SLM10015",
+      "title": "Christmas Peppermint & Snowman Slime Charm Mix",
+      "type": "Christmas",
+      "imagePrefix": "slm10015-christmas-peppermint-snowman-slime-charms",
+      "description": "A red, green and white Christmas mix featuring peppermint-style slices and snowman focal charms for holiday slime, sensory and DIY kit programs.",
+      "metaDescription": "Source Christmas Peppermint and Snowman Slime Charm Mix SLM10015 for wholesale programs. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM10013", "SLM10017", "SLM10009"]
+    },
+    {
+      "sku": "SLM10016",
+      "title": "Pastel Flower & Moon Slime Charm Mix",
+      "type": "Floral",
+      "imagePrefix": "slm10016-pastel-flower-moon-slime-charms",
+      "description": "A pastel floral mix with flower focal charms, moon slices and coordinating decorative pieces for spring slime collections, craft kits and private-label assortments.",
+      "metaDescription": "Source Pastel Flower and Moon Slime Charm Mix SLM10016 for wholesale floral programs. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM10022", "SLM10008", "SLM10005"]
+    },
+    {
+      "sku": "SLM10017",
+      "title": "Christmas Tree & Snowman Slime Charm Mix",
+      "type": "Christmas",
+      "imagePrefix": "slm10017-christmas-tree-snowman-slime-charms",
+      "description": "A pink-accented Christmas assortment with tree and snowman focal charms plus holiday slices for seasonal slime brands, DIY kits and mixed wholesale packs.",
+      "metaDescription": "Source Christmas Tree and Snowman Slime Charm Mix SLM10017 for wholesale holiday programs. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM10013", "SLM10015", "SLM10003"]
+    },
+    {
+      "sku": "SLM10018",
+      "title": "Pink Candy & Citrus Slime Charm Mix",
+      "type": "Sweet",
+      "imagePrefix": "slm10018-pink-candy-citrus-slime-charms",
+      "description": "A bright pink candy assortment with citrus slices and colorful decorative components for sweet-theme slime collections, craft kits and private-label programs.",
+      "metaDescription": "Source Pink Candy and Citrus Slime Charm Mix SLM10018 for wholesale sweet-theme programs. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM26521", "SLM693", "SLM10012"]
+    },
+    {
+      "sku": "SLM10019",
+      "title": "Ocean Crab & Fish Slime Charm Mix",
+      "type": "Ocean",
+      "imagePrefix": "slm10019-ocean-crab-fish-slime-charms",
+      "description": "A red and blue ocean assortment featuring crab and fish focal charms with coordinating sea-theme slices for slime, sensory kits and wholesale craft programs.",
+      "metaDescription": "Source Ocean Crab and Fish Slime Charm Mix SLM10019 for wholesale ocean-theme programs. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM10001", "SLM10093", "SLM715"]
+    },
+    {
+      "sku": "SLM10021",
+      "title": "Halloween Skull & Spider Slime Charm Mix",
+      "type": "Halloween",
+      "imagePrefix": "slm10021-halloween-skull-spider-slime-charms",
+      "description": "A black, orange and pastel Halloween mix with skull, spider and seasonal decorative pieces for slime launches, DIY craft kits and wholesale assortments.",
+      "metaDescription": "Source Halloween Skull and Spider Slime Charm Mix SLM10021 for wholesale seasonal programs. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM10014", "SLM10011", "SLM10010"]
+    },
+    {
+      "sku": "SLM10022",
+      "title": "Pastel Frog & Duck Slime Charm Mix",
+      "type": "Cute Animals",
+      "imagePrefix": "slm10022-pastel-frog-duck-slime-charms",
+      "description": "A soft pastel animal assortment with frog and duck focal charms plus coordinating flower and candy-style slices for slime and private-label craft kits.",
+      "metaDescription": "Source Pastel Frog and Duck Slime Charm Mix SLM10022 for wholesale cute-animal programs. Confirm composition, packing, MOQ and lead time by quotation.",
+      "galleryLabels": ["bowl assortment overview", "dark-background close-up", "display tray presentation", "loose assortment on a light background", "hand-held component close-up", "shell-bowl presentation"],
+      "relatedSkus": ["SLM10016", "SLM10005", "SLM680"]
+    }
+  ]
+}

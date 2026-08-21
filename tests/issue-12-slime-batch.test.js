@@ -75,8 +75,8 @@ test('Issue #12 uses the verified nine-SKU set and six public images per product
 
 test('Issue #12 category cards preserve filters, product count and attributed quote links', async () => {
   const html = await readFile(path.join(root, 'products', 'slime-charms-wholesale', 'index.html'), 'utf8');
-  assert.match(html, /<strong data-product-count>24 products<\/strong>/);
-  assert.equal((html.match(/data-product-card/g) || []).length, 24);
+  assert.match(html, /<strong data-product-count>33 products<\/strong>/);
+  assert.equal((html.match(/data-product-card/g) || []).length, 33);
 
   for (const product of batch.products) {
     const slug = productSlug(product);

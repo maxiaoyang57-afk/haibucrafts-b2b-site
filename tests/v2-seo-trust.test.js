@@ -57,15 +57,34 @@ test('editorial policy is indexable in the production package and linked from Ab
   assert.match(sitemap, /https:\/\/www\.haibucrafts\.com\/about\/editorial-policy\//);
 });
 
-test('category source titles are concise and match production intent', async () => {
+test('category source titles are concise and match approved search intent', async () => {
   const expected = new Map([
-    ['products/slime-charms/index.html', 'Slime Charms Wholesale Supplier | HAIBUCRAFT'],
-    ['products/polymer-clay-slices/index.html', 'Polymer Clay Slices Wholesale | HAIBUCRAFT']
+    ['products/slime-charms/index.html', 'Bulk Slime Charms Wholesale Supplier | HAIBUCRAFT'],
+    ['products/polymer-clay-slices/index.html', 'Wholesale Polymer Clay Slices & Sprinkles | HAIBUCRAFT'],
+    ['products/resin-charms/index.html', 'Bulk Resin Charms Wholesale for Slime & Crafts | HAIBUCRAFT']
   ]);
 
   for (const [file, title] of expected) {
     const html = await read(file);
     assert.match(html, new RegExp(`<title>${title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}</title>`));
     assert.ok(title.length >= 25 && title.length <= 65);
+  }
+});
+
+test('seasonal slime collection pages use real catalog products and indexable production routes', async () => {
+  const seoMap = JSON.parse(await read('seo-production-map.json'));
+  const sitemap = await read(path.join('production-config', 'sitemap.xml'));
+  const collections = [
+    ['halloween-slime-charms', 'Halloween Slime Charms Wholesale'],
+    ['christmas-slime-charms', 'Christmas Slime Charms Wholesale']
+  ];
+
+  for (const [slug, h1] of collections) {
+    const html = await read(path.join('products', 'slime-charms', slug, 'index.html'));
+    const productionPath = `/products/slime-charms-wholesale/${slug}/`;
+    assert.match(html, new RegExp(`<h1>${h1}</h1>`));
+    assert.match(html, /"@type":"ItemList"/);
+    assert.ok(seoMap.routes.some((route) => route.productionPath === productionPath && route.index === true));
+    assert.equal(sitemap.split(`<loc>https://www.haibucrafts.com${productionPath}</loc>`).length - 1, 1);
   }
 });

@@ -323,6 +323,69 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/slime-charms/slm10013-christmas-santa-candy-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10013-christmas-santa-candy-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10013-christmas-santa-candy-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10014-halloween-pumpkin-cat-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10014-halloween-pumpkin-cat-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10014-halloween-pumpkin-cat-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10015-christmas-peppermint-snowman-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10015-christmas-peppermint-snowman-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10015-christmas-peppermint-snowman-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10016-pastel-flower-moon-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10016-pastel-flower-moon-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10016-pastel-flower-moon-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10017-christmas-tree-snowman-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10017-christmas-tree-snowman-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10017-christmas-tree-snowman-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10018-pink-candy-citrus-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10018-pink-candy-citrus-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10018-pink-candy-citrus-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10019-ocean-crab-fish-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10019-ocean-crab-fish-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10019-ocean-crab-fish-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10021-halloween-skull-spider-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10021-halloween-skull-spider-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10021-halloween-skull-spider-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10022-pastel-frog-duck-slime-charm-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10022-pastel-frog-duck-slime-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10022-pastel-frog-duck-slime-charm-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw4252-glitter-cherry-resin-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw4252-glitter-cherry-resin-charms/index.html",
       "action": "create",

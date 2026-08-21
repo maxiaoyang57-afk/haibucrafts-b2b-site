@@ -10,17 +10,32 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 const catalogPath = path.join(previewRoot, 'assets', 'product-catalog.json');
 const issue12BatchPath = path.join(root, 'scripts', 'data', 'issue-12-slime-products.json');
+const issue18BatchPath = path.join(root, 'scripts', 'data', 'issue-18-slime-products.json');
 const issue12Batch = JSON.parse(await readFile(issue12BatchPath, 'utf8'));
-const issue12ProductsBySku = new Map(issue12Batch.products.map((product) => [product.sku, product]));
+const issue18Batch = JSON.parse(await readFile(issue18BatchPath, 'utf8'));
+const productBatches = [
+  { issue: 12, data: issue12Batch },
+  { issue: 18, data: issue18Batch }
+];
 
-if (issue12ProductsBySku.size !== 9 || issue12ProductsBySku.size !== issue12Batch.products.length) {
-  throw new Error('Issue #12 batch must contain exactly 9 unique SKUs');
-}
-for (const product of issue12Batch.products) {
-  if (product.galleryLabels.length !== issue12Batch.publicGalleryCount) {
-    throw new Error(`Issue #12 gallery for ${product.sku} must contain ${issue12Batch.publicGalleryCount} public images`);
+for (const { issue, data } of productBatches) {
+  const uniqueSkus = new Set(data.products.map((product) => product.sku));
+  if (uniqueSkus.size !== 9 || uniqueSkus.size !== data.products.length) {
+    throw new Error(`Issue #${issue} batch must contain exactly 9 unique SKUs`);
+  }
+  for (const product of data.products) {
+    if (product.galleryLabels.length !== data.publicGalleryCount) {
+      throw new Error(`Issue #${issue} gallery for ${product.sku} must contain ${data.publicGalleryCount} public images`);
+    }
   }
 }
+const batchRecordsBySku = new Map(productBatches.flatMap(({ issue, data }) => (
+  data.products.map((product) => [product.sku, { issue, data, product }])
+)));
+if (batchRecordsBySku.size !== productBatches.reduce((total, batch) => total + batch.data.products.length, 0)) {
+  throw new Error('Product batch SKUs must be unique across releases');
+}
+const batchProducts = productBatches.flatMap(({ data }) => data.products);
 
 const categories = [
   {
@@ -94,23 +109,23 @@ const metaDescription = (product) => clip(
   165
 );
 
-const issue12DetailSlug = (product) => `${product.sku.toLowerCase()}-${slugify(product.title).replaceAll('-and-', '-')}`;
+const batchDetailSlug = (product) => `${product.sku.toLowerCase()}-${slugify(product.title).replaceAll('-and-', '-')}`;
 
-const issue12Image = (product, position) => (
+const batchImage = (product, position) => (
   `/assets/images/products/batch-2026-08/${product.sku.toLowerCase()}/${product.imagePrefix}-${String(position).padStart(2, '0')}.webp`
 );
 
-const issue12Filter = (product) => {
+const batchFilter = (product) => {
   if (product.type === 'Ocean') return 'ocean';
   if (product.type === 'Cute Animals') return 'character';
   if (product.type === 'Floral') return 'fantasy';
   return 'seasonal';
 };
 
-const issue12Card = (product) => {
-  const detailSlug = issue12DetailSlug(product);
+const batchCard = (product) => {
+  const detailSlug = batchDetailSlug(product);
   const previewPath = `/v2-preview/products/slime-charms/${detailSlug}/`;
-  const image = issue12Image(product, 1);
+  const image = batchImage(product, 1);
   const quoteParams = new URLSearchParams({
     source: 'product',
     category: 'slime-charms',
@@ -123,7 +138,7 @@ const issue12Card = (product) => {
   const tags = `${product.sku} ${product.title.replaceAll('&', 'and')} wholesale`.toLowerCase();
   const alt = `${product.title.replaceAll('&', 'and')} assortment, product code ${product.sku}`;
 
-  return `<article class="product-card-v2" data-product-card data-category="${issue12Filter(product)}" data-tags="${escapeHtml(tags)}"><img src="${image}" width="1000" height="1000" loading="lazy" decoding="async" alt="${escapeHtml(alt)}"><div class="product-card-body"><div class="product-card-top"><span class="sku-badge">${product.sku}</span><span class="product-type">${escapeHtml(product.type)}</span></div><h3>${escapeHtml(product.title)}</h3><div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${previewPath}">View Details</a><a class="btn btn-primary get-quote" href="${quoteHref}">Get Quote</a></div></div></article>`;
+  return `<article class="product-card-v2" data-product-card data-category="${batchFilter(product)}" data-tags="${escapeHtml(tags)}"><img src="${image}" width="1000" height="1000" loading="lazy" decoding="async" alt="${escapeHtml(alt)}"><div class="product-card-body"><div class="product-card-top"><span class="sku-badge">${product.sku}</span><span class="product-type">${escapeHtml(product.type)}</span></div><h3>${escapeHtml(product.title)}</h3><div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${previewPath}">View Details</a><a class="btn btn-primary get-quote" href="${quoteHref}">Get Quote</a></div></div></article>`;
 };
 
 const categoryHtml = new Map();
@@ -133,9 +148,9 @@ for (const category of categories) {
   const file = path.join(productsRoot, category.slug, 'index.html');
   let html = await readFile(file, 'utf8');
   if (category.slug === 'slime-charms') {
-    const missingCards = issue12Batch.products
+    const missingCards = batchProducts
       .filter((product) => !html.includes(`<span class="sku-badge">${product.sku}</span>`))
-      .map(issue12Card)
+      .map(batchCard)
       .join('');
     if (missingCards) {
       const marker = '</div></div></div></section><section class="section" id="specifications">';
@@ -163,17 +178,18 @@ for (const category of categories) {
       throw new Error(`Incomplete product card in ${category.slug}: ${sku || title || '(unknown)'}`);
     }
 
-    const issue12Product = issue12ProductsBySku.get(sku);
-    if (issue12Product && (issue12Product.title !== title || issue12Product.type !== type)) {
-      throw new Error(`Issue #12 card data does not match the approved product record for ${sku}`);
+    const batchRecord = batchRecordsBySku.get(sku);
+    const batchProduct = batchRecord?.product;
+    if (batchProduct && (batchProduct.title !== title || batchProduct.type !== type)) {
+      throw new Error(`Issue #${batchRecord.issue} card data does not match the approved product record for ${sku}`);
     }
-    const detailSlug = issue12Product ? issue12DetailSlug(issue12Product) : `${slugify(sku)}-${slugify(title)}`;
+    const detailSlug = batchProduct ? batchDetailSlug(batchProduct) : `${slugify(sku)}-${slugify(title)}`;
     const previewPath = `/v2-preview/products/${category.slug}/${detailSlug}/`;
     const productionPath = `${category.productionBase}${detailSlug}/`;
-    const gallery = issue12Product
-      ? issue12Product.galleryLabels.map((label, position) => ({
-        src: issue12Image(issue12Product, position + 1),
-        alt: `${issue12Product.title} ${label}, product code ${issue12Product.sku}`
+    const gallery = batchProduct
+      ? batchProduct.galleryLabels.map((label, position) => ({
+        src: batchImage(batchProduct, position + 1),
+        alt: `${batchProduct.title} ${label}, product code ${batchProduct.sku}`
       }))
       : [];
     products.push({
@@ -190,19 +206,20 @@ for (const category of categories) {
       categoryLabel: category.label,
       categoryProductionBase: category.productionBase,
       uses: category.uses,
-      material: issue12Product ? issue12Batch.material : category.material,
-      overview: issue12Product?.description || category.overview,
-      customMetaDescription: issue12Product?.metaDescription || null,
+      material: batchProduct ? batchRecord.data.material : category.material,
+      overview: batchProduct?.description || category.overview,
+      customMetaDescription: batchProduct?.metaDescription || null,
       gallery,
-      packingOptions: issue12Product ? issue12Batch.packingOptions : [],
-      relatedSkus: issue12Product?.relatedSkus || [],
-      issue12Batch: Boolean(issue12Product)
+      packingOptions: batchProduct ? batchRecord.data.packingOptions : [],
+      relatedSkus: batchProduct?.relatedSkus || [],
+      batchProduct: Boolean(batchProduct),
+      batchIssue: batchRecord?.issue || null
     });
   }
 }
 
-if (products.length !== 72) {
-  throw new Error(`Expected 72 products after Issue #12 integration, found ${products.length}`);
+if (products.length !== 81) {
+  throw new Error(`Expected 81 products after Issue #18 integration, found ${products.length}`);
 }
 
 const skuSet = new Set(products.map((product) => product.sku));
@@ -211,6 +228,61 @@ if (skuSet.size !== products.length || previewPathSet.size !== products.length) 
   throw new Error('Product SKUs or generated detail paths are not unique');
 }
 const productsBySku = new Map(products.map((product) => [product.sku, product]));
+const categoryCounts = new Map(categories.map((category) => [
+  category.slug,
+  products.filter((product) => product.categorySlug === category.slug).length
+]));
+
+const replaceRequired = (html, pattern, replacement, label) => {
+  if (!pattern.test(html)) throw new Error(`Could not update ${label}`);
+  return html.replace(pattern, replacement);
+};
+
+const syncDirectoryCounts = async () => {
+  const homePath = path.join(previewRoot, 'index.html');
+  let homeHtml = await readFile(homePath, 'utf8');
+  homeHtml = replaceRequired(
+    homeHtml,
+    /<span>\d+ cataloged products<\/span>/,
+    `<span>${products.length} cataloged products</span>`,
+    'homepage catalog summary'
+  );
+  homeHtml = replaceRequired(
+    homeHtml,
+    /(<div class="metric"><b>)\d+(<\/b><span>Cataloged wholesale products<\/span><\/div>)/,
+    `$1${products.length}$2`,
+    'homepage catalog metric'
+  );
+  for (const category of categories) {
+    const count = categoryCounts.get(category.slug);
+    const pattern = new RegExp(`(<a class="category-visual-card" href="/v2-preview/products/${category.slug}/">[\\s\\S]*?<div class="category-copy"><span class="eyebrow">)\\d+( products</span>)`);
+    homeHtml = replaceRequired(homeHtml, pattern, `$1${count}$2`, `homepage ${category.slug} count`);
+  }
+  await writeFile(homePath, homeHtml, 'utf8');
+
+  const directoryPath = path.join(productsRoot, 'index.html');
+  let directoryHtml = await readFile(directoryPath, 'utf8');
+  directoryHtml = replaceRequired(
+    directoryHtml,
+    /Browse \d+ published products/,
+    `Browse ${products.length} published products`,
+    'products-directory summary'
+  );
+  directoryHtml = replaceRequired(
+    directoryHtml,
+    /(<div class="evidence-item"><b>)\d+(<\/b><span>Published products<\/span><\/div>)/,
+    `$1${products.length}$2`,
+    'products-directory metric'
+  );
+  for (const category of categories) {
+    const count = categoryCounts.get(category.slug);
+    const pattern = new RegExp(`(<a class="product-family-card" href="/v2-preview/products/${category.slug}/">[\\s\\S]*?<div class="product-family-media">[\\s\\S]*?<span>)\\d+( Products</span>)`);
+    directoryHtml = replaceRequired(directoryHtml, pattern, `$1${count}$2`, `products-directory ${category.slug} count`);
+  }
+  await writeFile(directoryPath, directoryHtml, 'utf8');
+};
+
+await syncDirectoryCounts();
 
 for (const category of categories) {
   const categoryProducts = products.filter((product) => product.categorySlug === category.slug);
@@ -238,10 +310,10 @@ for (const category of categories) {
 
 for (const category of categories) {
   const categoryProducts = products.filter((product) => product.categorySlug === category.slug);
-  const existingCategoryProducts = categoryProducts.filter((product) => !product.issue12Batch);
+  const existingCategoryProducts = categoryProducts.filter((product) => !product.batchProduct);
   for (const [position, product] of categoryProducts.entries()) {
-    const relatedPool = product.issue12Batch ? categoryProducts : existingCategoryProducts;
-    const relatedPosition = product.issue12Batch ? position : relatedPool.indexOf(product);
+    const relatedPool = product.batchProduct ? categoryProducts : existingCategoryProducts;
+    const relatedPosition = product.batchProduct ? position : relatedPool.indexOf(product);
     const related = product.relatedSkus.length
       ? product.relatedSkus.map((sku) => productsBySku.get(sku))
       : [
@@ -330,9 +402,9 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
             <h1>${escapeHtml(product.title)}</h1>
             <p>${escapeHtml(product.overview)}</p>
             <ul class="product-detail-highlights">
-              <li>${product.issue12Batch ? 'Sample and product-code based quotation' : 'Product-code based quotation'}</li>
-              <li>${product.issue12Batch ? 'Mixed-SKU and private-label packaging review' : 'Mixed-SKU and packaging review'}</li>
-              <li>${product.issue12Batch ? 'Lead-time and destination-market document review' : 'Export and documentation coordination'}</li>
+              <li>${product.batchProduct ? 'Sample and product-code based quotation' : 'Product-code based quotation'}</li>
+              <li>${product.batchProduct ? 'Mixed-SKU and private-label packaging review' : 'Mixed-SKU and packaging review'}</li>
+              <li>${product.batchProduct ? 'Lead-time and destination-market document review' : 'Export and documentation coordination'}</li>
             </ul>
             <div class="actions">
               <a class="btn btn-primary" href="${quoteHref}">Request Quote for ${escapeHtml(product.sku)}</a>
@@ -414,7 +486,7 @@ ${galleryScript}</body>
 }
 
 await writeFile(catalogPath, JSON.stringify({
-  generatedAt: '2026-08-14',
+  generatedAt: '2026-08-21',
   count: products.length,
   products: products.map((product) => ({
     sku: product.sku,
@@ -456,7 +528,7 @@ const generatedPages = products.map((product) => ({
 const basePages = migrationMap.pages.filter((page) => !page.generatedProduct);
 const quotePageIndex = basePages.findIndex((page) => page.productionPath === '/request-quote/');
 basePages.splice(quotePageIndex < 0 ? basePages.length : quotePageIndex, 0, ...generatedPages);
-migrationMap.version = '2026-08-14-issue-12';
+migrationMap.version = '2026-08-21-issue-18';
 migrationMap.pages = basePages;
 const requiredSharedAssets = [
   { source: 'v2-preview/assets/category-ux.css', destination: 'assets/v2/category-ux.css' },

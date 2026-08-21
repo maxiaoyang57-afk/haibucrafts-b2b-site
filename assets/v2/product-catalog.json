@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-14",
-  "count": 72,
+  "generatedAt": "2026-08-21",
+  "count": 81,
   "products": [
     {
       "sku": "YX3531",
@@ -427,6 +427,168 @@
       ],
       "previewPath": "/v2-preview/products/slime-charms/slm10011-purple-halloween-skull-slime-charm-mix/",
       "productionPath": "/products/slime-charms-wholesale/slm10011-purple-halloween-skull-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10013",
+      "title": "Christmas Santa & Candy Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Christmas",
+      "image": "/assets/images/products/batch-2026-08/slm10013/slm10013-christmas-santa-candy-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10013/slm10013-christmas-santa-candy-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10013/slm10013-christmas-santa-candy-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10013/slm10013-christmas-santa-candy-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10013/slm10013-christmas-santa-candy-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10013/slm10013-christmas-santa-candy-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10013/slm10013-christmas-santa-candy-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10013-christmas-santa-candy-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10013-christmas-santa-candy-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10014",
+      "title": "Halloween Pumpkin & Cat Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Halloween",
+      "image": "/assets/images/products/batch-2026-08/slm10014/slm10014-halloween-pumpkin-cat-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10014/slm10014-halloween-pumpkin-cat-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10014/slm10014-halloween-pumpkin-cat-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10014/slm10014-halloween-pumpkin-cat-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10014/slm10014-halloween-pumpkin-cat-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10014/slm10014-halloween-pumpkin-cat-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10014/slm10014-halloween-pumpkin-cat-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10014-halloween-pumpkin-cat-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10014-halloween-pumpkin-cat-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10015",
+      "title": "Christmas Peppermint & Snowman Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Christmas",
+      "image": "/assets/images/products/batch-2026-08/slm10015/slm10015-christmas-peppermint-snowman-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10015/slm10015-christmas-peppermint-snowman-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10015/slm10015-christmas-peppermint-snowman-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10015/slm10015-christmas-peppermint-snowman-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10015/slm10015-christmas-peppermint-snowman-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10015/slm10015-christmas-peppermint-snowman-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10015/slm10015-christmas-peppermint-snowman-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10015-christmas-peppermint-snowman-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10015-christmas-peppermint-snowman-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10016",
+      "title": "Pastel Flower & Moon Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Floral",
+      "image": "/assets/images/products/batch-2026-08/slm10016/slm10016-pastel-flower-moon-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10016/slm10016-pastel-flower-moon-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10016/slm10016-pastel-flower-moon-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10016/slm10016-pastel-flower-moon-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10016/slm10016-pastel-flower-moon-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10016/slm10016-pastel-flower-moon-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10016/slm10016-pastel-flower-moon-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10016-pastel-flower-moon-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10016-pastel-flower-moon-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10017",
+      "title": "Christmas Tree & Snowman Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Christmas",
+      "image": "/assets/images/products/batch-2026-08/slm10017/slm10017-christmas-tree-snowman-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10017/slm10017-christmas-tree-snowman-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10017/slm10017-christmas-tree-snowman-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10017/slm10017-christmas-tree-snowman-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10017/slm10017-christmas-tree-snowman-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10017/slm10017-christmas-tree-snowman-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10017/slm10017-christmas-tree-snowman-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10017-christmas-tree-snowman-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10017-christmas-tree-snowman-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10018",
+      "title": "Pink Candy & Citrus Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Sweet",
+      "image": "/assets/images/products/batch-2026-08/slm10018/slm10018-pink-candy-citrus-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10018/slm10018-pink-candy-citrus-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10018/slm10018-pink-candy-citrus-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10018/slm10018-pink-candy-citrus-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10018/slm10018-pink-candy-citrus-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10018/slm10018-pink-candy-citrus-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10018/slm10018-pink-candy-citrus-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10018-pink-candy-citrus-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10018-pink-candy-citrus-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10019",
+      "title": "Ocean Crab & Fish Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Ocean",
+      "image": "/assets/images/products/batch-2026-08/slm10019/slm10019-ocean-crab-fish-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10019/slm10019-ocean-crab-fish-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10019/slm10019-ocean-crab-fish-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10019/slm10019-ocean-crab-fish-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10019/slm10019-ocean-crab-fish-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10019/slm10019-ocean-crab-fish-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10019/slm10019-ocean-crab-fish-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10019-ocean-crab-fish-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10019-ocean-crab-fish-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10021",
+      "title": "Halloween Skull & Spider Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Halloween",
+      "image": "/assets/images/products/batch-2026-08/slm10021/slm10021-halloween-skull-spider-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10021/slm10021-halloween-skull-spider-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10021/slm10021-halloween-skull-spider-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10021/slm10021-halloween-skull-spider-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10021/slm10021-halloween-skull-spider-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10021/slm10021-halloween-skull-spider-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10021/slm10021-halloween-skull-spider-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10021-halloween-skull-spider-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10021-halloween-skull-spider-slime-charm-mix/"
+    },
+    {
+      "sku": "SLM10022",
+      "title": "Pastel Frog & Duck Slime Charm Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "Cute Animals",
+      "image": "/assets/images/products/batch-2026-08/slm10022/slm10022-pastel-frog-duck-slime-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/slm10022/slm10022-pastel-frog-duck-slime-charms-01.webp",
+        "/assets/images/products/batch-2026-08/slm10022/slm10022-pastel-frog-duck-slime-charms-02.webp",
+        "/assets/images/products/batch-2026-08/slm10022/slm10022-pastel-frog-duck-slime-charms-03.webp",
+        "/assets/images/products/batch-2026-08/slm10022/slm10022-pastel-frog-duck-slime-charms-04.webp",
+        "/assets/images/products/batch-2026-08/slm10022/slm10022-pastel-frog-duck-slime-charms-05.webp",
+        "/assets/images/products/batch-2026-08/slm10022/slm10022-pastel-frog-duck-slime-charms-06.webp"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm10022-pastel-frog-duck-slime-charm-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm10022-pastel-frog-duck-slime-charm-mix/"
     },
     {
       "sku": "RW4252",

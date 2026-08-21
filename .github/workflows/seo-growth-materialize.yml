@@ -1,0 +1,67 @@
+name: SEO Growth Materialize (one-off)
+
+on:
+  push:
+    branches:
+      - feature/seo-growth-sprint-2026-08-21
+
+permissions:
+  contents: write
+
+concurrency:
+  group: seo-growth-materialize-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  materialize:
+    if: ${{ !contains(github.event.head_commit.message, '[skip seo-materialize]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout feature branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/seo-growth-sprint-2026-08-21
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Run baseline tests
+        run: npm test
+
+      - name: Build SEO source including growth sprint
+        run: npm run build:v2-seo
+
+      - name: Build release candidate
+        run: npm run build:v2-release
+
+      - name: Materialize release into feature branch files
+        run: npm run release:v2-materialize
+
+      - name: Audit materialized production parity
+        run: npm run audit:v2-materialized
+
+      - name: Audit production SEO
+        run: npm run audit:v2-seo
+
+      - name: Audit HTTP 404 behavior
+        run: npm run audit:v2-404
+
+      - name: Check whitespace
+        run: git diff --check
+
+      - name: Commit generated preview and production files
+        shell: bash
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "chore: materialize SEO growth preview [skip seo-materialize]"
+          git push origin HEAD:feature/seo-growth-sprint-2026-08-21

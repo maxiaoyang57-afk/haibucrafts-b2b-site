@@ -7,6 +7,8 @@ const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
 
 const read = (relativePath) => readFile(path.join(previewRoot, relativePath), 'utf8');
+const escapeHtml = (value) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 function structuredData(html) {
   return [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
@@ -66,7 +68,8 @@ test('category source titles are concise and match approved search intent', asyn
 
   for (const [file, title] of expected) {
     const html = await read(file);
-    assert.match(html, new RegExp(`<title>${title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}</title>`));
+    const renderedTitle = escapeHtml(title);
+    assert.match(html, new RegExp(`<title>${escapeRegex(renderedTitle)}</title>`));
     assert.ok(title.length >= 25 && title.length <= 65);
   }
 });

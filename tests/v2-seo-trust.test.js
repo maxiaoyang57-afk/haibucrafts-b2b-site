@@ -87,6 +87,11 @@ test('seasonal slime collection pages use real catalog products and indexable pr
     const productionPath = `/products/slime-charms-wholesale/${slug}/`;
     assert.match(html, new RegExp(`<h1>${h1}</h1>`));
     assert.match(html, /"@type":"ItemList"/);
+    assert.match(html, /class="seasonal-product-media"/);
+    assert.match(html, /\.seasonal-product-media\s*\{[^}]*aspect-ratio:\s*1\s*\/\s*1;[^}]*overflow:\s*hidden;/s);
+    assert.match(html, /\.seasonal-product-media img\s*\{[^}]*width:\s*100%;[^}]*height:\s*100%;[^}]*object-fit:\s*cover;[^}]*object-position:\s*center;/s);
+    assert.match(html, /\.product-card-v2\s*\{[^}]*height:\s*100%;/s);
+    assert.match(html, /\.product-card-actions\s*\{[^}]*margin-top:\s*auto;/s);
     assert.ok(seoMap.routes.some((route) => route.productionPath === productionPath && route.index === true));
     assert.equal(sitemap.split(`<loc>https://www.haibucrafts.com${productionPath}</loc>`).length - 1, 1);
   }

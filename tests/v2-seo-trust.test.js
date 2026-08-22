@@ -74,6 +74,25 @@ test('category source titles are concise and match approved search intent', asyn
   }
 });
 
+test('optimized category hubs load responsive related-product image styling', async () => {
+  const categoryFiles = [
+    'products/slime-charms/index.html',
+    'products/polymer-clay-slices/index.html',
+    'products/resin-charms/index.html'
+  ];
+  const stylesheet = await read('assets/product-detail.css');
+
+  assert.match(stylesheet, /\.product-related-card img\s*\{[^}]*width:\s*132px;[^}]*height:\s*132px;[^}]*object-fit:\s*cover;/s);
+  assert.match(stylesheet, /@media \(max-width:\s*520px\)[\s\S]*?\.product-related-card img\s*\{[^}]*width:\s*108px;[^}]*height:\s*108px;/s);
+
+  for (const file of categoryFiles) {
+    const html = await read(file);
+    assert.match(html, /<link rel="stylesheet" href="\/v2-preview\/assets\/product-detail\.css">/);
+    assert.match(html, /class="product-related-grid"/);
+    assert.match(html, /class="product-related-card"/);
+  }
+});
+
 test('seasonal slime collection pages use real catalog products and indexable production routes', async () => {
   const seoMap = JSON.parse(await read('seo-production-map.json'));
   const sitemap = await read(path.join('production-config', 'sitemap.xml'));

@@ -151,6 +151,14 @@ const categoryPlans = {
 for (const [category, plan] of Object.entries(categoryPlans)) {
   let html = await readFile(plan.previewFile, 'utf8');
   html = setPageMetadata(html, plan);
+  if (!html.includes('/v2-preview/assets/product-detail.css')) {
+    html = replaceFirstRequired(
+      html,
+      /<\/head>/i,
+      '  <link rel="stylesheet" href="/v2-preview/assets/product-detail.css">\n</head>',
+      `${category} related-product stylesheet`
+    );
+  }
   html = replaceFirstRequired(html, /<h1>[^<]*<\/h1>/i, `<h1>${escapeHtml(plan.h1)}</h1>`, `${category} H1`);
   html = replaceFirstRequired(
     html,

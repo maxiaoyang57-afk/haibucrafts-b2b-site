@@ -741,6 +741,20 @@
       "action": "replace",
       "productionPath": null,
       "index": false
+    },
+    {
+      "source": "v2-preview/products/slime-charms/halloween-slime-charms/index.html",
+      "destination": "products/slime-charms-wholesale/halloween-slime-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/halloween-slime-charms/",
+      "generatedCollection": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/christmas-slime-charms/index.html",
+      "destination": "products/slime-charms-wholesale/christmas-slime-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/christmas-slime-charms/",
+      "generatedCollection": true
     }
   ],
   "sharedAssets": [

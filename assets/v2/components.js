@@ -10,6 +10,9 @@
     whatsappDisplay: '+86 186 3202 6595'
   });
   window.HAIBU_CONTACT_CONFIG = CONTACT_CONFIG;
+  window.HAIBU_TRACK = (name, properties = {}) => {
+    if (typeof window.va === 'function') window.va('event', { name, data: properties });
+  };
   const whatsappContext = (page || 'website').replace(/[-_]+/g, ' ');
   const whatsappMessage = `Hello HAIBUCRAFT, I am visiting the ${whatsappContext} page (${window.location.pathname}) and would like to discuss a wholesale inquiry. Please share MOQ, pricing, packing and lead time.`;
   const whatsappHref = `https://wa.me/${CONTACT_CONFIG.whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
@@ -72,6 +75,7 @@
           </div>
         </div>
         <a href="${ROOT}custom-solutions/">Custom Solutions</a>
+        <a href="${ROOT}themes/">Themes</a>
         <a href="${ROOT}manufacturing/">Manufacturing</a>
         <a href="${ROOT}quality-control/">Quality Control</a>
         <a href="${ROOT}certificates/">Certificates</a>
@@ -96,7 +100,7 @@
         </div>
         <div><h3>Products</h3><a href="${ROOT}products/">All Products</a><a href="${ROOT}products/slime-charms-wholesale/">Slime Charms</a><a href="${ROOT}products/polymer-clay-slices-wholesale/">Polymer Clay Slices</a><a href="${ROOT}products/resin-charms-for-slime/">Resin Charms</a><a href="${ROOT}products/sequins-glitter-confetti/">Sequins &amp; Confetti</a></div>
         <div><h3>Capabilities</h3><a href="${ROOT}custom-solutions/">Custom Solutions</a><a href="${ROOT}manufacturing/">Manufacturing &amp; Supply</a><a href="${ROOT}quality-control/">Quality Control</a><a href="${ROOT}certificates/">Certificates &amp; Reports</a><a href="${ROOT}request-quote/?source=footer-capabilities&landing_page=${landing}">Request Quote</a></div>
-        <div><h3>Buyer Resources</h3><a href="${ROOT}blog/">Buying Guides</a><a href="${ROOT}blog/how-to-prepare-a-wholesale-product-brief/">Product Brief Guide</a><a href="${ROOT}blog/sample-approval-checklist/">Sample Approval Guide</a><a href="${ROOT}blog/packaging-quality-checkpoints/">Packaging &amp; QC Guide</a></div>
+        <div><h3>Buyer Resources</h3><a href="${ROOT}themes/">Original Theme Library</a><a href="${ROOT}blog/">Buying Guides</a><a href="${ROOT}blog/how-to-prepare-a-wholesale-product-brief/">Product Brief Guide</a><a href="${ROOT}blog/sample-approval-checklist/">Sample Approval Guide</a><a href="${ROOT}blog/packaging-quality-checkpoints/">Packaging &amp; QC Guide</a></div>
         <div><h3>Company</h3><a href="${ROOT}about/">About HAIBUCRAFT</a><a href="${ROOT}about/#transparency">Transparency</a><a href="${ROOT}about/editorial-policy/">Editorial Policy</a><a href="${ROOT}privacy/">Privacy Policy</a><a href="${ROOT}certificates/">Document Center</a><a href="${ROOT}request-quote/?source=footer-company&landing_page=${landing}">Contact Sales</a></div>
       </div>
       <div class="footer-bottom"><span>© 2026 HAIBUCRAFT. Wholesale craft supply and B2B sourcing support.</span><span>Verified claims only · No retail checkout · No blanket certification claims</span></div>
@@ -106,6 +110,19 @@
   const footerSlot = document.querySelector('[data-site-footer]');
   if (headerSlot) headerSlot.innerHTML = header;
   if (footerSlot) footerSlot.innerHTML = footer;
+
+  document.addEventListener('click', (event) => {
+    const link = event.target.closest('a[href]');
+    if (!link) return;
+    const href = link.getAttribute('href') || '';
+    let name = '';
+    if (href.includes('wa.me/')) name = 'whatsapp_click';
+    else if (href.startsWith('mailto:')) name = 'email_click';
+    else if (href.includes('quote/')) name = 'quote_cta_click';
+    else if (href.includes('/themes/')) name = 'theme_link_click';
+    else if (/\/products\/.+\/$/.test(href)) name = 'product_link_click';
+    if (name) window.HAIBU_TRACK(name, { page: window.location.pathname, destination: href.slice(0, 180) });
+  });
 
   if (page === 'quote') {
     const quoteIntro = document.querySelector('.page-hero .container');

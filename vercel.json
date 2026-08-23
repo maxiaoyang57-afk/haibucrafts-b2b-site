@@ -141,6 +141,31 @@
       "source": "/products/slime-charms-wholesale/slm713-sweet-berry-candy-charms/",
       "destination": "/products/slime-charms-wholesale/slm10012-sweet-berry-candy-charms/",
       "permanent": true
+    },
+    {
+      "source": "/blog/custom-oem-process/",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/resin-vs-clay/",
+      "destination": "/blog/polymer-clay-slice-buying-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/applications/festivals-parties-weddings/",
+      "destination": "/blog/seasonal-craft-assortment-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/products/custom-slime-add-ins-oem-mixes/",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/products/slime-supplies-wholesale-hub/",
+      "destination": "/products/",
+      "permanent": true
     }
   ],
   "headers": [

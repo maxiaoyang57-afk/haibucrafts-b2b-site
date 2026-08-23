@@ -962,6 +962,136 @@
       "type": "website",
       "index": true,
       "generatedCollection": true
+    },
+    {
+      "previewPath": "/v2-preview/themes/",
+      "productionPath": "/themes/",
+      "title": "Wholesale Craft Themes & Original Add-ins | HAIBUCRAFT",
+      "description": "Explore original wholesale fruit, bakery, ocean, floral, holiday, western, cute animal and generic kawaii craft themes.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/food-and-treats/",
+      "productionPath": "/themes/food-and-treats/",
+      "title": "Food-Themed Craft Add-ins: Fruit & Bakery | HAIBUCRAFT",
+      "description": "Source original fruit and bakery craft add-ins across charms, clay slices and resin pieces for wholesale assortments.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/nature-inspired/",
+      "productionPath": "/themes/nature-inspired/",
+      "title": "Nature-Inspired Craft Add-ins: Ocean & Floral | HAIBUCRAFT",
+      "description": "Explore original ocean and floral craft add-ins across wholesale charms, sequins and custom assortments.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/seasonal-and-lifestyle/",
+      "productionPath": "/themes/seasonal-and-lifestyle/",
+      "title": "Seasonal Craft Add-ins: Holiday & Western | HAIBUCRAFT",
+      "description": "Plan original holiday and western craft assortments for wholesale, private-label and seasonal retail programs.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/cute-originals/",
+      "productionPath": "/themes/cute-originals/",
+      "title": "Original Cute Themes: Animals & Generic Kawaii | HAIBUCRAFT",
+      "description": "Source cute animal and generic kawaii-style craft add-ins made from original, non-branded motifs.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/fruit/",
+      "productionPath": "/themes/fruit/",
+      "title": "Fruit Charms Wholesale & Craft Add-ins | HAIBUCRAFT",
+      "description": "Source original fruit charms wholesale, fruit polymer clay slices and resin flatbacks for slime, crafts and DIY kits.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/bakery/",
+      "productionPath": "/themes/bakery/",
+      "title": "Bakery Charms Wholesale & Mini Food Add-ins | HAIBUCRAFT",
+      "description": "Source original bakery charms wholesale, cookie resin pieces and mini food craft add-ins for branded assortments.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/ocean/",
+      "productionPath": "/themes/ocean/",
+      "title": "Ocean Charms Wholesale & Sea Craft Add-ins | HAIBUCRAFT",
+      "description": "Source ocean charms wholesale, seashell sequins, fish shapes and sea-animal resin pieces for bulk programs.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/floral/",
+      "productionPath": "/themes/floral/",
+      "title": "Floral Charms Wholesale & Botanical Add-ins | HAIBUCRAFT",
+      "description": "Source floral charms wholesale and develop original botanical craft add-ins with custom colors and private-label packaging.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/holiday/",
+      "productionPath": "/themes/holiday/",
+      "title": "Holiday Charms Wholesale & Seasonal Add-ins | HAIBUCRAFT",
+      "description": "Plan holiday charms wholesale, seasonal clay slices, resin pieces and confetti using original generic motifs.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/western/",
+      "productionPath": "/themes/western/",
+      "title": "Western Charms Wholesale & Custom Add-ins | HAIBUCRAFT",
+      "description": "Develop original western charms and craft add-ins using generic boots, hats, stars, desert and ranch motifs.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/cute-animal/",
+      "productionPath": "/themes/cute-animal/",
+      "title": "Cute Animal Charms Wholesale | HAIBUCRAFT",
+      "description": "Source cute animal charms wholesale, animal sequins and original friendly creature motifs for craft packs.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/themes/generic-kawaii/",
+      "productionPath": "/themes/generic-kawaii/",
+      "title": "Generic Kawaii Charms Wholesale | Original Designs",
+      "description": "Source generic kawaii charms wholesale using original, non-branded cute motifs for slime, decoden and DIY kits.",
+      "type": "website",
+      "index": true,
+      "generatedTheme": true,
+      "lastModified": "2026-08-23"
     }
   ],
   "redirects": [

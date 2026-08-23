@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-06",
+  "version": "2026-08-23",
   "sourceBranch": "codex/v2-takeover",
   "productionBranch": "main",
   "requiresExplicitApproval": true,
@@ -755,6 +755,97 @@
       "action": "create",
       "productionPath": "/products/slime-charms-wholesale/christmas-slime-charms/",
       "generatedCollection": true
+    },
+    {
+      "source": "v2-preview/themes/index.html",
+      "destination": "themes/index.html",
+      "action": "create",
+      "productionPath": "/themes/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/food-and-treats/index.html",
+      "destination": "themes/food-and-treats/index.html",
+      "action": "create",
+      "productionPath": "/themes/food-and-treats/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/nature-inspired/index.html",
+      "destination": "themes/nature-inspired/index.html",
+      "action": "create",
+      "productionPath": "/themes/nature-inspired/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/seasonal-and-lifestyle/index.html",
+      "destination": "themes/seasonal-and-lifestyle/index.html",
+      "action": "create",
+      "productionPath": "/themes/seasonal-and-lifestyle/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/cute-originals/index.html",
+      "destination": "themes/cute-originals/index.html",
+      "action": "create",
+      "productionPath": "/themes/cute-originals/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/fruit/index.html",
+      "destination": "themes/fruit/index.html",
+      "action": "create",
+      "productionPath": "/themes/fruit/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/bakery/index.html",
+      "destination": "themes/bakery/index.html",
+      "action": "create",
+      "productionPath": "/themes/bakery/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/ocean/index.html",
+      "destination": "themes/ocean/index.html",
+      "action": "create",
+      "productionPath": "/themes/ocean/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/floral/index.html",
+      "destination": "themes/floral/index.html",
+      "action": "create",
+      "productionPath": "/themes/floral/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/holiday/index.html",
+      "destination": "themes/holiday/index.html",
+      "action": "create",
+      "productionPath": "/themes/holiday/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/western/index.html",
+      "destination": "themes/western/index.html",
+      "action": "create",
+      "productionPath": "/themes/western/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/cute-animal/index.html",
+      "destination": "themes/cute-animal/index.html",
+      "action": "create",
+      "productionPath": "/themes/cute-animal/",
+      "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/themes/generic-kawaii/index.html",
+      "destination": "themes/generic-kawaii/index.html",
+      "action": "create",
+      "productionPath": "/themes/generic-kawaii/",
+      "generatedTheme": true
     }
   ],
   "sharedAssets": [
@@ -842,6 +933,10 @@
     {
       "source": "v2-preview/assets/product-gallery.js",
       "destination": "assets/v2/product-gallery.js"
+    },
+    {
+      "source": "v2-preview/assets/theme-clusters.css",
+      "destination": "assets/v2/theme-clusters.css"
     }
   ],
   "rootConfig": [

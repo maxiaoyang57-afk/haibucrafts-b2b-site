@@ -107,6 +107,14 @@
       });
       const payload = await response.json().catch(() => ({}));
       if (!response.ok || payload.ok === false) throw new Error(payload.message || 'Inquiry could not be sent.');
+      if (typeof window.HAIBU_TRACK === 'function') {
+        window.HAIBU_TRACK('inquiry_submitted', {
+          source: String(fields.source || source).slice(0, 80),
+          category: String(fields.category || category || 'unspecified').slice(0, 80),
+          landing_page: String(fields.landing_page || landingPage).slice(0, 180),
+          has_product_code: Boolean(fields.product_code || productCode)
+        });
+      }
       form.reset();
       if (status) status.textContent = 'Inquiry sent successfully. Our sales team will review the submitted requirements.';
     } catch (error) {

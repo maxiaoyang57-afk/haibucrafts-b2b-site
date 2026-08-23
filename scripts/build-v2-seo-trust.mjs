@@ -318,9 +318,7 @@ for (const file of htmlFiles) {
 }
 
 const sitemapUrls = seoMap.routes.filter((route) => route.index).map((route) => {
-  const priority = route.productionPath === '/' ? '1.0' : route.generatedProduct ? '0.8' : route.type === 'article' ? '0.7' : route.productionPath.startsWith('/products/') ? '0.9' : '0.7';
-  const changefreq = route.generatedProduct || route.type === 'article' ? 'monthly' : route.productionPath.startsWith('/products') || route.productionPath === '/blog/' ? 'weekly' : 'monthly';
-  return `  <url><loc>${seoMap.site.origin}${route.productionPath}</loc><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`;
+  return `  <url><loc>${seoMap.site.origin}${route.productionPath}</loc><lastmod>${route.lastModified || '2026-08-21'}</lastmod></url>`;
 });
 await writeFile(sitemapPath, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.join('\n')}\n</urlset>\n`, 'utf8');
 

@@ -90,6 +90,8 @@ const categoryThemes = {
 for (const [category, slugs] of Object.entries(categoryThemes)) {
   const file = path.join(previewRoot,'products',category,'index.html');
   let html = await readFile(file,'utf8');
+  const themeStylesheet = '<link rel="stylesheet" href="/v2-preview/assets/theme-clusters.css">';
+  if (!html.includes(themeStylesheet)) html = html.replace('</head>', `${themeStylesheet}</head>`);
   html = html.replace(/<!-- theme-clusters:start -->[\s\S]*?<!-- theme-clusters:end -->/g,'');
   const links = slugs.map((slug)=>themes.find((theme)=>theme.slug===slug)).map((theme)=>`<a href="${preview(`/themes/${theme.slug}/`)}"><strong>${esc(theme.name)}</strong><span>${esc(theme.description)}</span></a>`).join('');
   const section = `<!-- theme-clusters:start --><section class="section alt theme-links-section"><div class="container"><div class="section-head"><span class="eyebrow">Shop by original theme</span><h2>Build a coordinated assortment around buyer search themes.</h2><p>These selective links connect this catalog to relevant, generic and non-branded sourcing directions.</p></div><div class="theme-inline-links">${links}</div><p class="theme-library-link"><a href="/v2-preview/themes/">View all theme clusters →</a></p></div></section><!-- theme-clusters:end -->`;

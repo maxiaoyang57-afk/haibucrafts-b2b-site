@@ -4,6 +4,10 @@
   gap: 5px;
 }
 
+[data-site-header] {
+  display: contents;
+}
+
 .topbar-whatsapp {
   font-weight: 800;
   text-underline-offset: 3px;
@@ -126,7 +130,39 @@
   box-shadow: 0 12px 30px rgba(77, 63, 177, 0.3);
 }
 
-@media (max-width: 1080px) {
+.products-toggle {
+  min-width: 44px;
+  min-height: 44px;
+}
+
+.nav-group:focus-within:not(.dropdown-open):not(:hover) .dropdown {
+  display: none;
+}
+
+.btn-light:hover,
+.btn-light:focus-visible {
+  border-color: var(--brand);
+  background: var(--surface);
+  color: var(--brand-dark);
+}
+
+.btn:active,
+.quote-btn:active {
+  transform: translateY(1px);
+}
+
+.menu-btn:hover,
+.menu-btn:focus-visible,
+.products-toggle:hover,
+.products-toggle:focus-visible,
+.back-top:hover,
+.back-top:focus-visible {
+  border-color: #c8c1ee;
+  background: #f5f2ff;
+  color: var(--brand-dark);
+}
+
+@media (max-width: 1180px) {
   .site-header {
     position: sticky;
   }
@@ -150,7 +186,7 @@
     right: 0;
     max-height: calc(100vh - 64px);
     margin-left: 0;
-    padding: 22px;
+    padding: 22px 22px calc(22px + env(safe-area-inset-bottom));
     overflow: auto;
     flex-direction: column;
     align-items: flex-start;
@@ -189,8 +225,23 @@
   }
 
   .products-toggle {
+    min-width: 44px;
+    min-height: 44px;
     border: 1px solid var(--line);
     border-radius: 8px;
+  }
+
+  .menu-btn {
+    min-width: 44px;
+    min-height: 44px;
+  }
+
+  .nav > a,
+  .nav-product-row > a,
+  .dropdown a {
+    display: flex;
+    min-height: 44px;
+    align-items: center;
   }
 }
 

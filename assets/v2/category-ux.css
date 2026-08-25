@@ -55,7 +55,7 @@
 }
 
 .filter-chip {
-  min-height: 40px;
+  min-height: 44px;
   border-color: #d9ddea;
   color: #3e475b;
   transition: border-color 0.18s ease, background-color 0.18s ease, color 0.18s ease;
@@ -204,7 +204,7 @@
 }
 
 .product-card-v2 .get-quote {
-  min-height: 42px;
+  min-height: 44px;
   justify-content: center;
   margin-top: auto;
   border-radius: 11px;
@@ -221,7 +221,7 @@
 
 .product-card-actions .btn {
   width: 100%;
-  min-height: 42px;
+  min-height: 44px;
   justify-content: center;
   margin: 0;
   border-radius: 11px;
@@ -381,7 +381,7 @@
 
 @media (max-width: 620px) {
   body.has-category-mobile-quote {
-    padding-bottom: 76px;
+    padding-bottom: calc(92px + env(safe-area-inset-bottom));
   }
 
   .category-layout {
@@ -440,6 +440,10 @@
     white-space: nowrap;
   }
 
+  .category-sidebar nav a {
+    min-height: 44px;
+  }
+
   .product-grid-v2 {
     grid-template-columns: minmax(0, 1fr);
     gap: 18px;
@@ -458,7 +462,7 @@
     position: fixed;
     z-index: 70;
     right: 12px;
-    bottom: 12px;
+    bottom: calc(12px + env(safe-area-inset-bottom));
     left: 12px;
     display: flex;
     align-items: center;
@@ -479,7 +483,16 @@
 
   .category-mobile-quote .btn {
     flex: 0 0 auto;
+    min-height: 44px;
     padding: 10px 15px;
+  }
+
+  body.has-category-mobile-quote .whatsapp-float {
+    bottom: calc(96px + env(safe-area-inset-bottom));
+  }
+
+  body.has-category-mobile-quote .back-top {
+    bottom: calc(160px + env(safe-area-inset-bottom));
   }
 
   .category-empty-state {

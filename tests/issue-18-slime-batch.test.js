@@ -75,23 +75,23 @@ test('Issue #18 publishes only the approved nine-SKU media set', async () => {
   }
 });
 
-test('Issue #18 synchronizes the final 81/33 counts and preserves legacy SLM10012', async () => {
+test('Issue #18 keeps its 33-SKU slime result after later catalog additions and preserves legacy SLM10012', async () => {
   const catalog = JSON.parse(await readFile(path.join(root, 'assets', 'v2', 'product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products', 'slime-charms-wholesale', 'index.html'), 'utf8');
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
   const redirects = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8')).redirects;
 
-  assert.equal(catalog.count, 81);
-  assert.equal(catalog.products.length, 81);
+  assert.equal(catalog.count, 89);
+  assert.equal(catalog.products.length, 89);
   assert.equal(catalog.products.filter((product) => product.category === 'slime-charms').length, 33);
   assert.match(category, /<strong data-product-count>33 products<\/strong>/);
   assert.equal((category.match(/data-product-card/g) || []).length, 33);
-  assert.match(home, /<span>81 cataloged products<\/span>/);
-  assert.match(home, /<b>81<\/b><span>Cataloged wholesale products<\/span>/);
+  assert.match(home, /<span>89 cataloged products<\/span>/);
+  assert.match(home, /<b>89<\/b><span>Cataloged wholesale products<\/span>/);
   assert.match(home, /<span class="eyebrow">33 products<\/span><h3>Slime Charms<\/h3>/);
-  assert.match(directory, /Browse 81 published products/);
-  assert.match(directory, /<b>81<\/b><span>Published products<\/span>/);
+  assert.match(directory, /Browse 89 published products/);
+  assert.match(directory, /<b>89<\/b><span>Published products<\/span>/);
   assert.match(directory, /<span>33 Products<\/span>[\s\S]*?<h2>Slime Charms<\/h2>/);
   assert.doesNotMatch(`${home}\n${directory}`, /63 cataloged products|Browse 63 published products|15 Products/);
 

@@ -1,0 +1,120 @@
+{
+  "batch": "issue-29-yx4002-yx4011",
+  "categorySlug": "polymer-clay-slices",
+  "expectedSkuCount": 8,
+  "publicGalleryCount": 5,
+  "assetDirectory": "batch-2026-08",
+  "structuredDataImageMode": "main",
+  "galleryNote": "Images 1–2 are actual product photographs and control product identity. Images 3–5 are supplemental sourcing and application visuals; confirm the final product, packing and order details against the approved sample and quotation.",
+  "material": "Polymer clay decorative components; exact motif mix, dimensions and composition are confirmed against the selected sample and approved order specification.",
+  "packingOptions": [
+    "Bulk or retail-ready packing is reviewed against the selected SKU, quantity and private-label brief.",
+    "Pack weight, assortment ratio, inner packing and carton details are confirmed in the approved order specification."
+  ],
+  "products": [
+    {
+      "sku": "YX4002",
+      "title": "Christmas Polymer Clay Sprinkle Mix",
+      "type": "Seasonal",
+      "imagePrefix": "yx4002-christmas-polymer-clay-sprinkles",
+      "description": "A red, green and white Christmas sprinkle mix with generic holiday motifs for seasonal slime collections, DIY kits and coordinated craft assortments.",
+      "metaDescription": "Source Christmas Polymer Clay Sprinkle Mix YX4002 for wholesale seasonal slime and DIY-kit programs. Confirm mix, packing, MOQ and lead time by quotation.",
+      "buyerHeading": "Christmas sprinkles for planned seasonal assortments.",
+      "buyerCopy": "YX4002 gives buyers a traditional red, green and white holiday direction for slime, shaker and DIY-kit programs. Review the actual main and detail photographs when setting the mix expectation, then confirm packing and delivery timing in the quotation.",
+      "applications": ["Christmas slime assortments", "Seasonal shaker and DIY kits", "Coordinated holiday craft packs"],
+      "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
+      "relatedSkus": ["YX4008", "YX4003", "YX626"]
+    },
+    {
+      "sku": "YX4003",
+      "title": "Halloween Polymer Clay Sprinkle Mix",
+      "type": "Seasonal",
+      "imagePrefix": "yx4003-halloween-polymer-clay-sprinkles",
+      "description": "A black, orange and yellow Halloween sprinkle mix with generic seasonal shapes for slime, shaker fillers and private-label DIY-kit programs.",
+      "metaDescription": "Source Halloween Polymer Clay Sprinkle Mix YX4003 for wholesale slime, shaker and DIY kits. Confirm motif mix, packing, MOQ and timing by quotation.",
+      "buyerHeading": "Halloween sprinkles for seasonal launch planning.",
+      "buyerCopy": "YX4003 supports black, orange and yellow seasonal programs without relying on protected character references. Buyers can use the actual product photos to review the motif mix before confirming assortment ratios, packaging and delivery requirements.",
+      "applications": ["Halloween slime add-ins", "Seasonal shaker fillers", "Private-label DIY-kit programs"],
+      "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
+      "relatedSkus": ["YX626", "YX3400", "YX4002"]
+    },
+    {
+      "sku": "YX4004",
+      "title": "Colorful Pixel Game Polymer Clay Slice Mix",
+      "type": "Decorative",
+      "imagePrefix": "yx4004-colorful-polymer-clay-sprinkles",
+      "description": "A bright multicolor mix of generic pixel- and game-style polymer clay pieces for slime, shaker, resin-craft and DIY assortments.",
+      "metaDescription": "Source Colorful Pixel Game Polymer Clay Slice Mix YX4004 for wholesale craft programs. Confirm the generic motif mix, packing and MOQ by quotation.",
+      "buyerHeading": "Generic pixel-style pieces for colorful craft programs.",
+      "buyerCopy": "YX4004 offers a bright pixel and game-style direction using generic decorative shapes only. It is suited to buyers building color-led assortments while keeping product identity, mix expectations and packaging tied to the approved sample.",
+      "applications": ["Pixel-style slime mixes", "Shaker and resin-craft fillers", "Generic game-theme DIY kits"],
+      "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
+      "relatedSkus": ["YX4009", "YX577", "YX778"]
+    },
+    {
+      "sku": "YX4005",
+      "title": "Colorful Candy Polymer Clay Slice Mix",
+      "type": "Sweet",
+      "imagePrefix": "yx4005-candy-polymer-clay-sprinkles",
+      "description": "A bright multicolor candy-style polymer clay slice mix for sweet-theme slime assortments, shaker crafts, DIY kits and retail-ready programs.",
+      "metaDescription": "Source Colorful Candy Polymer Clay Slice Mix YX4005 for wholesale slime, shaker and DIY assortments. Confirm mix, packing, MOQ and lead time by quote.",
+      "buyerHeading": "Candy-style slices for bright sweet-theme ranges.",
+      "buyerCopy": "YX4005 provides a colorful novelty-candy direction for buyers planning sweet-theme slime and craft ranges. The actual product photographs define the included visual mix; packing format and assortment balance remain subject to quotation and sample approval.",
+      "applications": ["Sweet-theme slime assortments", "Colorful shaker crafts", "Retail and DIY-kit programs"],
+      "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
+      "relatedSkus": ["YX4010", "YX043", "YX048"]
+    },
+    {
+      "sku": "YX4008",
+      "title": "Christmas Candy Polymer Clay Slice Mix",
+      "type": "Seasonal",
+      "imagePrefix": "yx4008-christmas-candy-polymer-clay-sprinkles",
+      "description": "A red, green and white Christmas candy-style slice mix with generic festive motifs for holiday slime, shaker and DIY-kit assortments.",
+      "metaDescription": "Source Christmas Candy Polymer Clay Slice Mix YX4008 for wholesale holiday craft programs. Confirm motif mix, packing, MOQ and seasonal timing by quote.",
+      "buyerHeading": "Festive candy-style slices for holiday ranges.",
+      "buyerCopy": "YX4008 combines a Christmas palette with generic candy-style festive pieces for seasonal assortment planning. Buyers should review the true product photos for motif and color expectations and confirm the delivery window before locking the program.",
+      "applications": ["Holiday slime collections", "Christmas shaker fillers", "Seasonal private-label craft kits"],
+      "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
+      "relatedSkus": ["YX4002", "YX4005", "YX048"]
+    },
+    {
+      "sku": "YX4009",
+      "title": "Colorful Game Polymer Clay Slice Mix",
+      "type": "Decorative",
+      "imagePrefix": "yx4009-game-style-polymer-clay-sprinkles",
+      "description": "A bright multicolor mix of generic game-, fruit- and candy-style polymer clay shapes for slime, shaker and DIY craft programs.",
+      "metaDescription": "Source Colorful Game Polymer Clay Slice Mix YX4009 for wholesale slime and DIY programs. Confirm generic shapes, mix balance, packing and MOQ by quotation.",
+      "buyerHeading": "Generic game-style shapes for mixed-color assortments.",
+      "buyerCopy": "YX4009 brings together bright generic game, fruit and candy-style shapes without making franchise or character claims. It works as a broad multicolor starting point when buyers need the exact SKU and main-image identity carried through the quotation.",
+      "applications": ["Multicolor slime add-ins", "Generic game-theme craft kits", "Mixed shaker and DIY assortments"],
+      "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
+      "relatedSkus": ["YX4004", "YX577", "YX778"]
+    },
+    {
+      "sku": "YX4010",
+      "title": "Pastel Candy Polymer Clay Sprinkle Mix",
+      "type": "Sweet",
+      "imagePrefix": "yx4010-pastel-polymer-clay-sprinkles",
+      "description": "A pastel pink, purple, yellow and green candy- and flower-style sprinkle mix for soft-color slime, shaker and DIY-kit assortments.",
+      "metaDescription": "Source Pastel Candy Polymer Clay Sprinkle Mix YX4010 for wholesale soft-color craft programs. Confirm mix, packing, MOQ and lead time by quotation.",
+      "buyerHeading": "Pastel candy sprinkles for soft-color programs.",
+      "buyerCopy": "YX4010 supports buyers planning a soft pastel palette across slime, shaker and DIY-kit ranges. Its actual product photos establish the candy and flower-style mix, while final ratios, packing and scheduling are confirmed per order.",
+      "applications": ["Pastel slime assortments", "Soft-color shaker fillers", "Candy and flower DIY kits"],
+      "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
+      "relatedSkus": ["YX4005", "YX4011", "YX048"]
+    },
+    {
+      "sku": "YX4011",
+      "title": "Pastel Fruit & Flower Polymer Clay Slice Mix",
+      "type": "Fruit",
+      "imagePrefix": "yx4011-pink-polymer-clay-sprinkles",
+      "description": "A pastel pink, green, red and yellow fruit-, flower- and candy-style slice mix for slime, shaker, resin-craft and DIY assortments.",
+      "metaDescription": "Source Pastel Fruit and Flower Polymer Clay Slice Mix YX4011 for wholesale craft assortments. Confirm motif mix, packing, MOQ and lead time by quote.",
+      "buyerHeading": "Pastel fruit and flower slices for coordinated ranges.",
+      "buyerCopy": "YX4011 combines pastel fruit, flower and candy-style cues for buyers who want a light coordinated palette across several craft applications. The true product images control identity and color expectations before the sample and written order specification are approved.",
+      "applications": ["Pastel fruit-theme slime", "Floral shaker and resin crafts", "Coordinated DIY-kit assortments"],
+      "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
+      "relatedSkus": ["YX4010", "YX048", "YX038"]
+    }
+  ]
+}

@@ -11,17 +11,21 @@ const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 const catalogPath = path.join(previewRoot, 'assets', 'product-catalog.json');
 const issue12BatchPath = path.join(root, 'scripts', 'data', 'issue-12-slime-products.json');
 const issue18BatchPath = path.join(root, 'scripts', 'data', 'issue-18-slime-products.json');
+const issue29BatchPath = path.join(root, 'scripts', 'data', 'issue-29-polymer-clay-products.json');
 const issue12Batch = JSON.parse(await readFile(issue12BatchPath, 'utf8'));
 const issue18Batch = JSON.parse(await readFile(issue18BatchPath, 'utf8'));
+const issue29Batch = JSON.parse(await readFile(issue29BatchPath, 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
-  { issue: 18, data: issue18Batch }
+  { issue: 18, data: issue18Batch },
+  { issue: 29, data: issue29Batch }
 ];
 
 for (const { issue, data } of productBatches) {
   const uniqueSkus = new Set(data.products.map((product) => product.sku));
-  if (uniqueSkus.size !== 9 || uniqueSkus.size !== data.products.length) {
-    throw new Error(`Issue #${issue} batch must contain exactly 9 unique SKUs`);
+  const expectedSkuCount = data.expectedSkuCount || 9;
+  if (uniqueSkus.size !== expectedSkuCount || uniqueSkus.size !== data.products.length) {
+    throw new Error(`Issue #${issue} batch must contain exactly ${expectedSkuCount} unique SKUs`);
   }
   for (const product of data.products) {
     if (product.galleryLabels.length !== data.publicGalleryCount) {
@@ -35,7 +39,9 @@ const batchRecordsBySku = new Map(productBatches.flatMap(({ issue, data }) => (
 if (batchRecordsBySku.size !== productBatches.reduce((total, batch) => total + batch.data.products.length, 0)) {
   throw new Error('Product batch SKUs must be unique across releases');
 }
-const batchProducts = productBatches.flatMap(({ data }) => data.products);
+const batchRecords = productBatches.flatMap(({ issue, data }) => (
+  data.products.map((product) => ({ issue, data, product }))
+));
 
 const categories = [
   {
@@ -111,24 +117,26 @@ const metaDescription = (product) => clip(
 
 const batchDetailSlug = (product) => `${product.sku.toLowerCase()}-${slugify(product.title).replaceAll('-and-', '-')}`;
 
-const batchImage = (product, position) => (
-  `/assets/images/products/batch-2026-08/${product.sku.toLowerCase()}/${product.imagePrefix}-${String(position).padStart(2, '0')}.webp`
+const batchImage = (record, position) => (
+  `/assets/images/products/${record.data.assetDirectory || 'batch-2026-08'}/${record.product.sku.toLowerCase()}/${record.product.imagePrefix}-${String(position).padStart(2, '0')}.webp`
 );
 
 const batchFilter = (product) => {
   if (product.type === 'Ocean') return 'ocean';
   if (product.type === 'Cute Animals') return 'character';
   if (product.type === 'Floral') return 'fantasy';
-  return 'seasonal';
+  return slugify(product.type);
 };
 
-const batchCard = (product) => {
+const batchCard = (record) => {
+  const { data, product } = record;
+  const categorySlug = data.categorySlug || 'slime-charms';
   const detailSlug = batchDetailSlug(product);
-  const previewPath = `/v2-preview/products/slime-charms/${detailSlug}/`;
-  const image = batchImage(product, 1);
+  const previewPath = `/v2-preview/products/${categorySlug}/${detailSlug}/`;
+  const image = batchImage(record, 1);
   const quoteParams = new URLSearchParams({
     source: 'product',
-    category: 'slime-charms',
+    category: categorySlug,
     product_code: product.sku,
     product: product.title,
     image,
@@ -147,15 +155,19 @@ const products = [];
 for (const category of categories) {
   const file = path.join(productsRoot, category.slug, 'index.html');
   let html = await readFile(file, 'utf8');
-  if (category.slug === 'slime-charms') {
-    const missingCards = batchProducts
-      .filter((product) => !html.includes(`<span class="sku-badge">${product.sku}</span>`))
+  const categoryBatchRecords = batchRecords.filter((record) => (
+    (record.data.categorySlug || 'slime-charms') === category.slug
+  ));
+  if (categoryBatchRecords.length) {
+    const missingCards = categoryBatchRecords
+      .filter(({ product }) => !html.includes(`<span class="sku-badge">${product.sku}</span>`))
       .map(batchCard)
       .join('');
     if (missingCards) {
-      const marker = '</div></div></div></section><section class="section" id="specifications">';
-      if (!html.includes(marker)) throw new Error('Could not locate the slime-charms product-grid insertion point');
-      html = html.replace(marker, `${missingCards}${marker}`);
+      const gridStart = html.indexOf('<div class="product-grid-v2">');
+      const gridClose = html.indexOf('</div></div></div></section>', gridStart);
+      if (gridStart < 0 || gridClose < 0) throw new Error(`Could not locate the ${category.slug} product-grid insertion point`);
+      html = `${html.slice(0, gridClose)}${missingCards}${html.slice(gridClose)}`;
     }
   }
   categoryHtml.set(category.slug, { file, html });
@@ -188,7 +200,7 @@ for (const category of categories) {
     const productionPath = `${category.productionBase}${detailSlug}/`;
     const gallery = batchProduct
       ? batchProduct.galleryLabels.map((label, position) => ({
-        src: batchImage(batchProduct, position + 1),
+        src: batchImage(batchRecord, position + 1),
         alt: `${batchProduct.title} ${label}, product code ${batchProduct.sku}`
       }))
       : [];
@@ -211,15 +223,16 @@ for (const category of categories) {
       customMetaDescription: batchProduct?.metaDescription || null,
       gallery,
       packingOptions: batchProduct ? batchRecord.data.packingOptions : [],
+      galleryNote: batchRecord?.data.galleryNote || null,
+      structuredDataImageMode: batchRecord?.data.structuredDataImageMode || 'gallery',
+      buyerHeading: batchProduct?.buyerHeading || null,
+      buyerCopy: batchProduct?.buyerCopy || null,
+      applications: batchProduct?.applications || [],
       relatedSkus: batchProduct?.relatedSkus || [],
       batchProduct: Boolean(batchProduct),
       batchIssue: batchRecord?.issue || null
     });
   }
-}
-
-if (products.length !== 81) {
-  throw new Error(`Expected 81 products after Issue #18 integration, found ${products.length}`);
 }
 
 const skuSet = new Set(products.map((product) => product.sku));
@@ -340,7 +353,9 @@ for (const category of categories) {
       name: product.title,
       sku: product.sku,
       image: product.gallery.length
-        ? product.gallery.map((item) => `https://www.haibucrafts.com${item.src}`)
+        ? product.structuredDataImageMode === 'main'
+          ? `https://www.haibucrafts.com${product.gallery[0].src}`
+          : product.gallery.map((item) => `https://www.haibucrafts.com${item.src}`)
         : `https://www.haibucrafts.com${product.image}`,
       description,
       category: product.categoryLabel,
@@ -358,7 +373,7 @@ for (const category of categories) {
             <div class="product-detail-thumbs" aria-label="${escapeHtml(product.title)} gallery">
               ${product.gallery.map((item, index) => `<button class="product-detail-thumb" type="button" data-product-gallery-thumb data-src="${escapeHtml(item.src)}" data-alt="${escapeHtml(item.alt)}" aria-label="Show image ${index + 1} of ${product.gallery.length}" aria-current="${index === 0 ? 'true' : 'false'}"><img src="${escapeHtml(item.src)}" width="1000" height="1000" loading="lazy" decoding="async" alt="${escapeHtml(item.alt)} thumbnail"></button>`).join('\n              ')}
             </div>
-            <p class="product-detail-gallery-note">Six actual product views are shown. Electronic-scale photos remain internal sourcing references and are not published.</p>
+            <p class="product-detail-gallery-note">${escapeHtml(product.galleryNote || (product.gallery.length === 6 ? 'Six actual product views are shown. Electronic-scale photos remain internal sourcing references and are not published.' : `${product.gallery.length} product views are shown.`))}</p>
           </div>`
       : `<div class="product-detail-media">
             <img src="${escapeHtml(product.image)}" width="800" height="800" decoding="async" alt="${escapeHtml(product.alt)}">
@@ -373,6 +388,9 @@ for (const category of categories) {
       : '';
     const galleryScript = product.gallery.length
       ? '  <script src="/v2-preview/assets/product-gallery.js"></script>\n'
+      : '';
+    const buyerFit = product.buyerHeading && product.buyerCopy && product.applications.length
+      ? `<section class="section" data-buyer-fit="${escapeHtml(product.sku)}"><div class="container split"><div><span class="eyebrow">Wholesale buyer fit</span><h2>${escapeHtml(product.buyerHeading)}</h2><p>${escapeHtml(product.buyerCopy)}</p></div><div class="card"><h3>Application directions</h3><ul class="checklist">${product.applications.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul><p>These are decorative craft components, not edible products. Exact dimensions, composition, mix ratio, packing and lead time are confirmed against the approved sample and quotation.</p></div></div></section>`
       : '';
 
     const html = `<!DOCTYPE html>
@@ -416,7 +434,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
       </div>
     </section>
 
-    <section class="section alt">
+    ${buyerFit ? `${buyerFit}\n    ` : ''}<section class="section alt">
       <div class="container product-detail-spec-layout">
         <div>
           <span class="eyebrow">Buyer Reference</span>
@@ -486,7 +504,7 @@ ${galleryScript}</body>
 }
 
 await writeFile(catalogPath, JSON.stringify({
-  generatedAt: '2026-08-21',
+  generatedAt: '2026-08-25',
   count: products.length,
   products: products.map((product) => ({
     sku: product.sku,
@@ -528,7 +546,7 @@ const generatedPages = products.map((product) => ({
 const basePages = migrationMap.pages.filter((page) => !page.generatedProduct);
 const quotePageIndex = basePages.findIndex((page) => page.productionPath === '/request-quote/');
 basePages.splice(quotePageIndex < 0 ? basePages.length : quotePageIndex, 0, ...generatedPages);
-migrationMap.version = '2026-08-21-issue-18';
+migrationMap.version = '2026-08-25-issue-29';
 migrationMap.pages = basePages;
 const requiredSharedAssets = [
   { source: 'v2-preview/assets/category-ux.css', destination: 'assets/v2/category-ux.css' },

@@ -13,8 +13,8 @@ const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 const seoMap = JSON.parse(await readFile(seoMapPath, 'utf8'));
 const migrationMap = JSON.parse(await readFile(migrationMapPath, 'utf8'));
 
-if (catalog.count !== 81 || catalog.products.length !== 81) {
-  throw new Error(`Theme clusters require the verified 81-product catalog; found ${catalog.count}/${catalog.products.length}`);
+if (!catalog.count || catalog.count !== catalog.products.length) {
+  throw new Error(`Theme clusters require a non-empty reconciled catalog; found ${catalog.count}/${catalog.products.length}`);
 }
 
 const clusters = [

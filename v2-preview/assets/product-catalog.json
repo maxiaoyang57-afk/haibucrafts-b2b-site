@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-21",
-  "count": 81,
+  "generatedAt": "2026-08-25",
+  "count": 89,
   "products": [
     {
       "sku": "YX3531",
@@ -100,6 +100,142 @@
       "gallery": [],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx048-strawberry-candy-heart-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx048-strawberry-candy-heart-mix/"
+    },
+    {
+      "sku": "YX4002",
+      "title": "Christmas Polymer Clay Sprinkle Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-08/yx4002/yx4002-christmas-polymer-clay-sprinkles-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/yx4002/yx4002-christmas-polymer-clay-sprinkles-01.webp",
+        "/assets/images/products/batch-2026-08/yx4002/yx4002-christmas-polymer-clay-sprinkles-02.webp",
+        "/assets/images/products/batch-2026-08/yx4002/yx4002-christmas-polymer-clay-sprinkles-03.webp",
+        "/assets/images/products/batch-2026-08/yx4002/yx4002-christmas-polymer-clay-sprinkles-04.webp",
+        "/assets/images/products/batch-2026-08/yx4002/yx4002-christmas-polymer-clay-sprinkles-05.webp"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4002-christmas-polymer-clay-sprinkle-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4002-christmas-polymer-clay-sprinkle-mix/"
+    },
+    {
+      "sku": "YX4003",
+      "title": "Halloween Polymer Clay Sprinkle Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-01.webp",
+        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-02.webp",
+        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-03.webp",
+        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-04.webp",
+        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-05.webp"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4003-halloween-polymer-clay-sprinkle-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4003-halloween-polymer-clay-sprinkle-mix/"
+    },
+    {
+      "sku": "YX4004",
+      "title": "Colorful Pixel Game Polymer Clay Slice Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-01.webp",
+        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-02.webp",
+        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-03.webp",
+        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-04.webp",
+        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-05.webp"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4004-colorful-pixel-game-polymer-clay-slice-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4004-colorful-pixel-game-polymer-clay-slice-mix/"
+    },
+    {
+      "sku": "YX4005",
+      "title": "Colorful Candy Polymer Clay Slice Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Sweet",
+      "image": "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-01.webp",
+        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-02.webp",
+        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-03.webp",
+        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-04.webp",
+        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-05.webp"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4005-colorful-candy-polymer-clay-slice-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4005-colorful-candy-polymer-clay-slice-mix/"
+    },
+    {
+      "sku": "YX4008",
+      "title": "Christmas Candy Polymer Clay Slice Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-08/yx4008/yx4008-christmas-candy-polymer-clay-sprinkles-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/yx4008/yx4008-christmas-candy-polymer-clay-sprinkles-01.webp",
+        "/assets/images/products/batch-2026-08/yx4008/yx4008-christmas-candy-polymer-clay-sprinkles-02.webp",
+        "/assets/images/products/batch-2026-08/yx4008/yx4008-christmas-candy-polymer-clay-sprinkles-03.webp",
+        "/assets/images/products/batch-2026-08/yx4008/yx4008-christmas-candy-polymer-clay-sprinkles-04.webp",
+        "/assets/images/products/batch-2026-08/yx4008/yx4008-christmas-candy-polymer-clay-sprinkles-05.webp"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4008-christmas-candy-polymer-clay-slice-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4008-christmas-candy-polymer-clay-slice-mix/"
+    },
+    {
+      "sku": "YX4009",
+      "title": "Colorful Game Polymer Clay Slice Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-01.webp",
+        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-02.webp",
+        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-03.webp",
+        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-04.webp",
+        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-05.webp"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4009-colorful-game-polymer-clay-slice-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4009-colorful-game-polymer-clay-slice-mix/"
+    },
+    {
+      "sku": "YX4010",
+      "title": "Pastel Candy Polymer Clay Sprinkle Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Sweet",
+      "image": "/assets/images/products/batch-2026-08/yx4010/yx4010-pastel-polymer-clay-sprinkles-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/yx4010/yx4010-pastel-polymer-clay-sprinkles-01.webp",
+        "/assets/images/products/batch-2026-08/yx4010/yx4010-pastel-polymer-clay-sprinkles-02.webp",
+        "/assets/images/products/batch-2026-08/yx4010/yx4010-pastel-polymer-clay-sprinkles-03.webp",
+        "/assets/images/products/batch-2026-08/yx4010/yx4010-pastel-polymer-clay-sprinkles-04.webp",
+        "/assets/images/products/batch-2026-08/yx4010/yx4010-pastel-polymer-clay-sprinkles-05.webp"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4010-pastel-candy-polymer-clay-sprinkle-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4010-pastel-candy-polymer-clay-sprinkle-mix/"
+    },
+    {
+      "sku": "YX4011",
+      "title": "Pastel Fruit & Flower Polymer Clay Slice Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Fruit",
+      "image": "/assets/images/products/batch-2026-08/yx4011/yx4011-pink-polymer-clay-sprinkles-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-08/yx4011/yx4011-pink-polymer-clay-sprinkles-01.webp",
+        "/assets/images/products/batch-2026-08/yx4011/yx4011-pink-polymer-clay-sprinkles-02.webp",
+        "/assets/images/products/batch-2026-08/yx4011/yx4011-pink-polymer-clay-sprinkles-03.webp",
+        "/assets/images/products/batch-2026-08/yx4011/yx4011-pink-polymer-clay-sprinkles-04.webp",
+        "/assets/images/products/batch-2026-08/yx4011/yx4011-pink-polymer-clay-sprinkles-05.webp"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4011-pastel-fruit-flower-polymer-clay-slice-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4011-pastel-fruit-flower-polymer-clay-slice-mix/"
     },
     {
       "sku": "SLM10094",

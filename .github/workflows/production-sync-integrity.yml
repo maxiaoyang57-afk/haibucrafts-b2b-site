@@ -1,0 +1,191 @@
+name: Production Sync Integrity
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: production-sync-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  repository-integrity:
+    name: Verify source, release candidate and checked-in Production
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout exact commit
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Run test suite
+        run: npm test
+
+      - name: Rebuild deterministic V2 source
+        run: npm run build:v2-seo
+
+      - name: Build exact release candidate
+        run: npm run build:v2-release
+
+      - name: Verify checked-in Production matches release candidate
+        run: npm run audit:v2-materialized
+
+      - name: Verify SEO and canonical integrity
+        run: npm run audit:v2-seo
+
+      - name: Verify 404 and routing behavior
+        run: npm run audit:v2-404
+
+      - name: Reject generated source drift
+        shell: bash
+        run: |
+          git diff --check
+          if ! git diff --quiet -- . ':(exclude).release-candidate/**'; then
+            echo 'Build scripts changed tracked repository files. Commit the generated/materialized output before release.'
+            git status --short
+            git diff --stat -- . ':(exclude).release-candidate/**'
+            exit 1
+          fi
+
+      - name: Write repository-integrity summary
+        shell: bash
+        run: |
+          {
+            echo '## Repository integrity'
+            echo ''
+            echo '- Exact commit: `${{ github.sha }}`'
+            echo '- V2 source rebuild: passed'
+            echo '- Release Candidate build: passed'
+            echo '- Checked-in Production byte parity: passed'
+            echo '- SEO/404 audits: passed'
+            echo '- Generated source drift: none'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  live-production-integrity:
+    name: Verify www.haibucrafts.com equals merged main
+    needs:
+      - repository-integrity
+    if: >-
+      (github.event_name == 'push' && github.ref == 'refs/heads/main') ||
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+
+    steps:
+      - name: Checkout exact main commit
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Rebuild exact release candidate
+        run: |
+          npm run build:v2-seo
+          npm run build:v2-release
+
+      - name: Wait for Vercel and verify live byte parity
+        env:
+          PRODUCTION_ORIGIN: https://www.haibucrafts.com
+          SYNC_ATTEMPTS: '24'
+          SYNC_DELAY_MS: '15000'
+          SYNC_REQUEST_TIMEOUT_MS: '20000'
+        run: npm run audit:production-sync
+
+      - name: Upload production sync report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-sync-audit-${{ github.sha }}
+          path: .sync-audit.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Open incident issue when Production does not converge
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const shortSha = context.sha.slice(0, 12);
+            const title = `Production sync mismatch after ${shortSha}`;
+            let report = {};
+            try {
+              report = JSON.parse(fs.readFileSync('.sync-audit.json', 'utf8'));
+            } catch (error) {
+              report = { status: 'failed', reason: `Could not read .sync-audit.json: ${error.message}` };
+            }
+
+            const mismatchLines = (report.mismatches || []).slice(0, 20).map((item) => {
+              const path = item.urlPath || item.path || 'unknown path';
+              const reason = item.reason || 'unknown mismatch';
+              return `- \`${path}\`: ${reason}`;
+            });
+
+            const body = [
+              '## Production synchronization incident',
+              '',
+              `GitHub main commit: \`${context.sha}\``,
+              `Production origin: \`${report.origin || 'https://www.haibucrafts.com'}\``,
+              `Workflow run: https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              '',
+              'The post-merge integrity gate could not prove that the custom domain is serving the exact merged repository state.',
+              '',
+              `Compared targets: ${report.targetCount ?? 'unknown'}`,
+              `Sentinel attempts: ${report.sentinelAttempts ?? report.attempts ?? 'unknown'}`,
+              '',
+              '### First mismatches',
+              ...(mismatchLines.length ? mismatchLines : ['- No detailed mismatch list was produced. Inspect the workflow log and artifact.']),
+              '',
+              '### Release rule',
+              'Do not treat this GitHub commit as fully released until this incident is resolved and the live-production integrity job passes.',
+              'Do not manually promote an unrelated Preview deployment to Production. If rollback is required, revert GitHub main so repository and Production return to the same state.'
+            ].join('\n');
+
+            const { data: openIssues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100
+            });
+            const existing = openIssues.find((issue) => issue.title === title);
+            if (!existing) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body
+              });
+            }
+
+      - name: Write live-production summary
+        if: success()
+        shell: bash
+        run: |
+          {
+            echo '## Live Production synchronization'
+            echo ''
+            echo '- GitHub main: `${{ github.sha }}`'
+            echo '- Custom domain: `https://www.haibucrafts.com`'
+            echo '- Result: exact live byte parity passed'
+            echo '- Release state: GitHub → Vercel → custom domain synchronized'
+          } >> "$GITHUB_STEP_SUMMARY"

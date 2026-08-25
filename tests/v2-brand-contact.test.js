@@ -57,7 +57,7 @@ test('brand stylesheet protects responsive logo sizing and fixed-control separat
   const stylesheet = await readFile(path.join(root, 'v2-preview', 'assets', 'brand-v2.css'), 'utf8');
 
   assert.match(stylesheet, /height: 52px/);
-  assert.match(stylesheet, /@media \(max-width: 1080px\)/);
+  assert.match(stylesheet, /@media \(max-width: 1180px\)/);
   assert.match(stylesheet, /width: 40px/);
   assert.match(stylesheet, /min-height: 52px/);
   assert.match(stylesheet, /\.back-top[\s\S]*bottom: calc\(84px/);

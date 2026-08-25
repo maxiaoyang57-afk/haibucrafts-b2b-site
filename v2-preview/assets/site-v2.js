@@ -29,6 +29,7 @@
     nav.classList.remove('open');
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.setAttribute('aria-label', 'Open menu');
+    if (wasOpen) closeProducts();
     if (restoreFocus && wasOpen) menuButton.focus();
   };
 
@@ -37,6 +38,7 @@
       const open = nav.classList.toggle('open');
       menuButton.setAttribute('aria-expanded', String(open));
       menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      if (!open) closeProducts();
     });
     nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
   }
@@ -48,6 +50,7 @@
     const wasOpen = navGroup.classList.contains('dropdown-open');
     navGroup.classList.remove('dropdown-open');
     productToggle.setAttribute('aria-expanded', 'false');
+    productToggle.setAttribute('aria-label', 'Open product categories');
     if (restoreFocus && wasOpen) productToggle.focus();
   };
 
@@ -56,6 +59,7 @@
       event.preventDefault();
       const open = navGroup.classList.toggle('dropdown-open');
       productToggle.setAttribute('aria-expanded', String(open));
+      productToggle.setAttribute('aria-label', open ? 'Close product categories' : 'Open product categories');
     });
     document.addEventListener('click', (event) => {
       if (!navGroup.contains(event.target)) closeProducts();
@@ -64,8 +68,8 @@
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
-      closeMenu({ restoreFocus: true });
-      closeProducts({ restoreFocus: true });
+      if (navGroup?.classList.contains('dropdown-open')) closeProducts({ restoreFocus: true });
+      else closeMenu({ restoreFocus: true });
     }
   });
 

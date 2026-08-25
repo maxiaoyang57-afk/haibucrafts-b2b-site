@@ -27,6 +27,29 @@
   border-radius: 6px;
 }
 
+html {
+  scroll-padding-top: 96px;
+}
+
+:where(section[id], h2[id], h3[id], [id].section) {
+  scroll-margin-top: 96px;
+}
+
+:where(a, button, input, select, textarea) {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(109, 91, 208, 0.18);
+}
+
+@media (max-width: 1180px) {
+  html {
+    scroll-padding-top: 76px;
+  }
+
+  :where(section[id], h2[id], h3[id], [id].section) {
+    scroll-margin-top: 76px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

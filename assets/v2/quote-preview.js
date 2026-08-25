@@ -42,6 +42,7 @@
   const upload = form.querySelector('input[type="file"][name="reference_images"]');
   const submitButton = form.querySelector('button[type="submit"]');
   if (submitButton) submitButton.textContent = liveMode ? 'Send Quote Request' : 'Validate Quote Request';
+  const idleSubmitText = submitButton?.textContent || 'Send Quote Request';
   if (upload && liveMode && config.enableReferenceUploads === true) upload.disabled = false;
 
   const arrayBufferToBase64 = (buffer) => {
@@ -85,7 +86,11 @@
       return;
     }
 
-    if (submitButton) submitButton.disabled = true;
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = 'Sending…';
+    }
+    form.setAttribute('aria-busy', 'true');
     if (status) status.textContent = 'Sending inquiry…';
 
     try {
@@ -112,7 +117,7 @@
           source: String(fields.source || source).slice(0, 80),
           category: String(fields.category || category || 'unspecified').slice(0, 80),
           landing_page: String(fields.landing_page || landingPage).slice(0, 180),
-          has_product_code: Boolean(fields.product_code || productCode)
+          has_product_code: Boolean(fields.sku || productCode)
         });
       }
       form.reset();
@@ -120,7 +125,11 @@
     } catch (error) {
       if (status) status.textContent = error instanceof Error ? error.message : 'Inquiry could not be sent.';
     } finally {
-      if (submitButton) submitButton.disabled = false;
+      form.removeAttribute('aria-busy');
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = idleSubmitText;
+      }
     }
   });
 })();

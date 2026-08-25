@@ -50,6 +50,13 @@
     document.head.appendChild(stylesheet);
   }
 
+  if (!document.querySelector('meta[name="theme-color"]')) {
+    const themeColor = document.createElement('meta');
+    themeColor.name = 'theme-color';
+    themeColor.content = '#ffffff';
+    document.head.appendChild(themeColor);
+  }
+
   const main = document.querySelector('main');
   if (main && !main.id) main.id = 'main-content';
 
@@ -59,7 +66,7 @@
     <header class="site-header"><div class="container navbar">
       <a class="logo" href="${ROOT}" aria-label="HAIBUCRAFT home">
         <picture>
-          <source media="(max-width: 1080px)" srcset="/brand/haibu-logo-mobile.png">
+          <source media="(max-width: 1180px)" srcset="/brand/haibu-logo-mobile.png">
           <img src="/brand/haibu-logo-header.png" width="624" height="214" alt="HAIBUCRAFT">
         </picture>
       </a>

@@ -93,6 +93,25 @@ test('optimized category hubs load responsive related-product image styling', as
   }
 });
 
+test('all category theme-link sections load their responsive card styling', async () => {
+  const categoryFiles = [
+    'products/slime-charms/index.html',
+    'products/polymer-clay-slices/index.html',
+    'products/resin-charms/index.html',
+    'products/sequins-glitter-confetti/index.html'
+  ];
+  const stylesheet = await read('assets/theme-clusters.css');
+
+  assert.match(stylesheet, /\.theme-inline-links\{display:grid;/);
+  assert.match(stylesheet, /@media\(max-width:620px\)[\s\S]*?\.theme-inline-links[^}]*grid-template-columns:1fr/);
+
+  for (const file of categoryFiles) {
+    const html = await read(file);
+    assert.match(html, /<link rel="stylesheet" href="\/v2-preview\/assets\/theme-clusters\.css">/);
+    assert.match(html, /class="theme-inline-links"/);
+  }
+});
+
 test('seasonal slime collection pages use real catalog products and indexable production routes', async () => {
   const seoMap = JSON.parse(await read('seo-production-map.json'));
   const sitemap = await read(path.join('production-config', 'sitemap.xml'));

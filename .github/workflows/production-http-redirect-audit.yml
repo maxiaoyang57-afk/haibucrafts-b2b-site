@@ -1,0 +1,36 @@
+name: Production HTTP Redirect Audit
+
+on:
+  deployment_status:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 3 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: production-http-redirect-audit
+  cancel-in-progress: true
+
+jobs:
+  audit-production-redirects:
+    if: github.event_name != 'deployment_status' || (github.event.deployment_status.state == 'success' && github.event.deployment_status.environment == 'Production')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Audit live Production redirect behavior
+        env:
+          SEO_AUDIT_ORIGIN: https://www.haibucrafts.com
+          SEO_AUDIT_ATTEMPTS: '12'
+          SEO_AUDIT_RETRY_DELAY_MS: '10000'
+        run: npm run audit:production-redirects

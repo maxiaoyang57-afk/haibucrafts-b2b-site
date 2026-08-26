@@ -336,8 +336,8 @@ if (!await exists(vercelConfigPath)) {
   errors.push('release candidate is missing merged vercel.json');
 } else {
   const vercelConfig = JSON.parse(await readFile(vercelConfigPath, 'utf8'));
-  if (vercelConfig.cleanUrls !== true || vercelConfig.trailingSlash !== true) {
-    errors.push('merged vercel.json must enable cleanUrls and trailingSlash');
+  if (vercelConfig.cleanUrls !== false || vercelConfig.trailingSlash !== true) {
+    errors.push('merged vercel.json must disable cleanUrls and enable trailingSlash so explicit legacy redirects run before file normalization');
   }
   const headers = (vercelConfig.headers || []).flatMap((rule) => rule.headers || []);
   for (const key of ['Content-Security-Policy', 'Permissions-Policy', 'Referrer-Policy', 'X-Content-Type-Options', 'X-Frame-Options']) {
@@ -363,9 +363,18 @@ if (!await exists(vercelConfigPath)) {
     ['/products/sequins-glitter-confetti.html', '/products/sequins-glitter-confetti/'],
     ['/products/plastic-sequins-wholesale.html', '/products/sequins-glitter-confetti/'],
     ['/products/resin-charms-wholesale.html', '/products/resin-charms-for-slime/'],
+    ['/products/resin-charms-wholesale/', '/products/resin-charms-for-slime/'],
     ['/blog/polymer-clay-slices-buying-guide.html', '/blog/polymer-clay-slice-buying-guide/'],
+    ['/blog/polymer-clay-slices-buying-guide/', '/blog/polymer-clay-slice-buying-guide/'],
     ['/privacy.html', '/privacy/'],
     ['/about/b2b-export-supplier.html', '/about/'],
+    ['/about/b2b-export-supplier/', '/about/'],
+    ['/products/plastic-sequins-wholesale/', '/products/sequins-glitter-confetti/'],
+    ['/blog/custom-oem-process.html', '/custom-solutions/'],
+    ['/blog/resin-vs-clay.html', '/blog/polymer-clay-slice-buying-guide/'],
+    ['/applications/festivals-parties-weddings.html', '/blog/seasonal-craft-assortment-planning/'],
+    ['/products/custom-slime-add-ins-oem-mixes.html', '/custom-solutions/'],
+    ['/products/slime-supplies-wholesale-hub.html', '/products/'],
     ['/haibu-manufacturing/', '/manufacturing/'],
     ['/haibu-quality-control/', '/quality-control/']
   ]);

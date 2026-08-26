@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": true,
+  "cleanUrls": false,
   "redirects": [
     {
       "source": "/index.html",
@@ -43,6 +43,11 @@
       "permanent": true
     },
     {
+      "source": "/blog/polymer-clay-slices-buying-guide/",
+      "destination": "/blog/polymer-clay-slice-buying-guide/",
+      "permanent": true
+    },
+    {
       "source": "/privacy.html",
       "destination": "/privacy/",
       "permanent": true
@@ -53,12 +58,27 @@
       "permanent": true
     },
     {
+      "source": "/about/b2b-export-supplier/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
       "source": "/products/plastic-sequins-wholesale.html",
       "destination": "/products/sequins-glitter-confetti/",
       "permanent": true
     },
     {
+      "source": "/products/plastic-sequins-wholesale/",
+      "destination": "/products/sequins-glitter-confetti/",
+      "permanent": true
+    },
+    {
       "source": "/products/resin-charms-wholesale.html",
+      "destination": "/products/resin-charms-for-slime/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-wholesale/",
       "destination": "/products/resin-charms-for-slime/",
       "permanent": true
     },
@@ -148,7 +168,17 @@
       "permanent": true
     },
     {
+      "source": "/blog/custom-oem-process.html",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
       "source": "/blog/resin-vs-clay/",
+      "destination": "/blog/polymer-clay-slice-buying-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/resin-vs-clay.html",
       "destination": "/blog/polymer-clay-slice-buying-guide/",
       "permanent": true
     },
@@ -158,12 +188,27 @@
       "permanent": true
     },
     {
+      "source": "/applications/festivals-parties-weddings.html",
+      "destination": "/blog/seasonal-craft-assortment-planning/",
+      "permanent": true
+    },
+    {
       "source": "/products/custom-slime-add-ins-oem-mixes/",
       "destination": "/custom-solutions/",
       "permanent": true
     },
     {
+      "source": "/products/custom-slime-add-ins-oem-mixes.html",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
       "source": "/products/slime-supplies-wholesale-hub/",
+      "destination": "/products/",
+      "permanent": true
+    },
+    {
+      "source": "/products/slime-supplies-wholesale-hub.html",
       "destination": "/products/",
       "permanent": true
     }

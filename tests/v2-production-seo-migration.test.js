@@ -19,14 +19,23 @@ const expectedRedirects = new Map([
   ['/products/resin-charms-for-slime.html', '/products/resin-charms-for-slime/'],
   ['/products/sequins-glitter-confetti.html', '/products/sequins-glitter-confetti/'],
   ['/blog/polymer-clay-slices-buying-guide.html', '/blog/polymer-clay-slice-buying-guide/'],
+  ['/blog/polymer-clay-slices-buying-guide/', '/blog/polymer-clay-slice-buying-guide/'],
   ['/privacy.html', '/privacy/'],
   ['/about/b2b-export-supplier.html', '/about/'],
+  ['/about/b2b-export-supplier/', '/about/'],
   ['/products/plastic-sequins-wholesale.html', '/products/sequins-glitter-confetti/'],
+  ['/products/plastic-sequins-wholesale/', '/products/sequins-glitter-confetti/'],
   ['/products/resin-charms-wholesale.html', '/products/resin-charms-for-slime/'],
+  ['/products/resin-charms-wholesale/', '/products/resin-charms-for-slime/'],
   ['/products/slime-charms-wholesale.html', '/products/slime-charms-wholesale/'],
   ['/products/polymer-clay-slices-wholesale.html', '/products/polymer-clay-slices-wholesale/'],
   ['/haibu-manufacturing/', '/manufacturing/'],
-  ['/haibu-quality-control/', '/quality-control/']
+  ['/haibu-quality-control/', '/quality-control/'],
+  ['/blog/custom-oem-process.html', '/custom-solutions/'],
+  ['/blog/resin-vs-clay.html', '/blog/polymer-clay-slice-buying-guide/'],
+  ['/applications/festivals-parties-weddings.html', '/blog/seasonal-craft-assortment-planning/'],
+  ['/products/custom-slime-add-ins-oem-mixes.html', '/custom-solutions/'],
+  ['/products/slime-supplies-wholesale-hub.html', '/products/']
 ]);
 
 test('robots allows the noindex quote route to be crawled', async () => {
@@ -68,6 +77,7 @@ test('legacy migrations are explicit permanent one-hop redirects', async () => {
   for (const relative of ['vercel.json', path.join('v2-preview', 'production-config', 'vercel-redirects.json')]) {
     const config = JSON.parse(await readFile(path.join(root, relative), 'utf8'));
     const redirects = new Map(config.redirects.map((redirect) => [redirect.source, redirect]));
+    assert.equal(config.cleanUrls, false, `${relative} must leave .html handling to explicit redirect rules`);
     assert.equal(redirects.size, config.redirects.length, `${relative} has duplicate sources`);
     for (const [source, destination] of expectedRedirects) {
       assert.equal(redirects.get(source)?.destination, destination, `${relative}: ${source}`);
@@ -76,6 +86,22 @@ test('legacy migrations are explicit permanent one-hop redirects', async () => {
     for (const redirect of redirects.values()) {
       assert.equal(redirects.has(redirect.destination), false, `${relative}: redirect chain through ${redirect.destination}`);
     }
+  }
+});
+
+test('legacy redirect source files stay absent from checked-in Production', async () => {
+  for (const relative of [
+    'about/b2b-export-supplier.html',
+    'applications/festivals-parties-weddings.html',
+    'blog/custom-oem-process.html',
+    'blog/polymer-clay-slices-buying-guide.html',
+    'blog/resin-vs-clay.html',
+    'custom-services/index.html',
+    'products/custom-slime-add-ins-oem-mixes.html',
+    'products/slime-supplies-wholesale-hub.html',
+    'quote/index.html'
+  ]) {
+    await assert.rejects(access(path.join(root, relative)), /ENOENT/, `${relative} must not shadow its redirect`);
   }
 });
 

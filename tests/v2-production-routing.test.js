@@ -29,7 +29,7 @@ test('legacy category files cannot shadow clean production routes', async () => 
     assert.equal(
       await exists(legacyFile),
       false,
-      `${slug}.html shadows /products/${slug}/ when Vercel cleanUrls is enabled`
+      `${slug}.html must stay absent so explicit legacy redirects cannot be shadowed by a file`
     );
   }
 });
@@ -43,6 +43,8 @@ test('production category pages use V2 assets, cards and inquiry routes', async 
     assert.match(html, /href="\/request-quote\/\?/);
     assert.doesNotMatch(html, /(?:href|src)="\.\.\//);
     assert.doesNotMatch(html, /(?:href|src)="\/products\/assets\//);
+    assert.doesNotMatch(html, /All V2 category links remain/i);
+    assert.match(html, /Browse the complete wholesale craft component catalog by product family\./);
   }
 });
 

@@ -11,6 +11,7 @@
     "build:v2-release": "node scripts/build-v2-release-candidate.mjs && node scripts/audit-v2-release-candidate.mjs && node scripts/audit-v2-content-ip.mjs && node scripts/generate-v2-acceptance-report.mjs",
     "audit:v2-seo": "node scripts/audit-v2-release-candidate.mjs",
     "audit:v2-materialized": "node scripts/audit-v2-materialized-production.mjs",
+    "audit:production-redirects": "node scripts/audit-production-http-redirects.mjs",
     "indexnow": "node scripts/submit-indexnow.mjs",
     "audit:v2-404": "node scripts/audit-v2-http-404.mjs",
     "release:v2-materialize": "node scripts/materialize-v2-production.mjs"

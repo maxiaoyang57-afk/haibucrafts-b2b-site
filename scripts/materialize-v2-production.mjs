@@ -11,12 +11,21 @@ if (manifest.productionApproved !== true || manifest.quoteMode !== 'live') {
 }
 
 const excludedReleaseMetadata = new Set(['acceptance-report.md', 'release-manifest.json']);
-const cleanUrlCollisions = [
+const legacyRedirectFiles = [
   'privacy.html',
+  'about/b2b-export-supplier.html',
+  'applications/festivals-parties-weddings.html',
+  'blog/custom-oem-process.html',
+  'blog/polymer-clay-slices-buying-guide.html',
+  'blog/resin-vs-clay.html',
+  'custom-services/index.html',
+  'products/custom-slime-add-ins-oem-mixes.html',
   'products/polymer-clay-slices-wholesale.html',
   'products/resin-charms-for-slime.html',
   'products/sequins-glitter-confetti.html',
-  'products/slime-charms-wholesale.html'
+  'products/slime-charms-wholesale.html',
+  'products/slime-supplies-wholesale-hub.html',
+  'quote/index.html'
 ];
 const entries = await readdir(releaseRoot, { withFileTypes: true });
 let copied = 0;
@@ -31,8 +40,8 @@ for (const entry of entries) {
   copied += 1;
 }
 
-for (const relative of cleanUrlCollisions) {
+for (const relative of legacyRedirectFiles) {
   await rm(path.join(root, relative), { force: true });
 }
 
-console.log(`Materialized ${copied} approved production entries from ${path.relative(root, releaseRoot)} and removed ${cleanUrlCollisions.length} legacy files that shadow clean production routes.`);
+console.log(`Materialized ${copied} approved production entries from ${path.relative(root, releaseRoot)} and removed ${legacyRedirectFiles.length} legacy files that could shadow explicit redirect routes.`);

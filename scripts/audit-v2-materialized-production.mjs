@@ -6,12 +6,21 @@ import process from 'node:process';
 const root = process.cwd();
 const releaseRoot = path.join(root, '.release-candidate', 'site-v2');
 const excludedReleaseMetadata = new Set(['acceptance-report.md', 'release-manifest.json']);
-const cleanUrlCollisions = [
+const legacyRedirectFiles = [
   'privacy.html',
+  'about/b2b-export-supplier.html',
+  'applications/festivals-parties-weddings.html',
+  'blog/custom-oem-process.html',
+  'blog/polymer-clay-slices-buying-guide.html',
+  'blog/resin-vs-clay.html',
+  'custom-services/index.html',
+  'products/custom-slime-add-ins-oem-mixes.html',
   'products/polymer-clay-slices-wholesale.html',
   'products/resin-charms-for-slime.html',
   'products/sequins-glitter-confetti.html',
-  'products/slime-charms-wholesale.html'
+  'products/slime-charms-wholesale.html',
+  'products/slime-supplies-wholesale-hub.html',
+  'quote/index.html'
 ];
 
 async function exists(filePath) {
@@ -64,9 +73,9 @@ for (const releaseFile of releaseFiles) {
   }
 }
 
-for (const relative of cleanUrlCollisions) {
+for (const relative of legacyRedirectFiles) {
   if (await exists(path.join(root, relative))) {
-    errors.push(`${relative}: clean-URL collision file must remain absent`);
+    errors.push(`${relative}: legacy redirect source file must remain absent`);
   }
 }
 
@@ -75,5 +84,5 @@ if (errors.length) {
   for (const error of errors) console.error(`- ${error}`);
   process.exitCode = 1;
 } else {
-  console.log(`Materialized production audit passed: ${releaseFiles.length} Release Candidate files match checked-in Production byte-for-byte; ${cleanUrlCollisions.length} clean-URL collision files are absent.`);
+  console.log(`Materialized production audit passed: ${releaseFiles.length} Release Candidate files match checked-in Production byte-for-byte; ${legacyRedirectFiles.length} legacy redirect source files are absent.`);
 }

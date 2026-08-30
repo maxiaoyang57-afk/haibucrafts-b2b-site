@@ -341,6 +341,101 @@
       "source": "/products/polymer-clay-slices-wholesale/yx038-pink-and-blue-decorative-slice-mix/",
       "destination": "/products/polymer-clay-slices-wholesale/",
       "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma012-autumn-maple-leaf-holographic-sequins/",
+      "destination": "/products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma087-iridescent-circle-ring-sequins/",
+      "destination": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma109-silver-novelty-party-confetti/",
+      "destination": "/products/sequins-glitter-confetti/ma118-silver-novelty-party-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma107-pastel-butterfly-confetti-bowl/",
+      "destination": "/products/sequins-glitter-confetti/ma601-pastel-butterfly-confetti-bowl/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma119-rainbow-star-glitter-confetti/",
+      "destination": "/products/sequins-glitter-confetti/ma059-rainbow-star-glitter-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma127-iridescent-sequin-scoop-mix/",
+      "destination": "/products/sequins-glitter-confetti/ma131-iridescent-sequin-scoop-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma131-coral-diamond-glitter-sequins/",
+      "destination": "/products/sequins-glitter-confetti/ma064-coral-diamond-glitter-sequins/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma064-pastel-love-heart-confetti/",
+      "destination": "/products/sequins-glitter-confetti/ma127-pastel-love-heart-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma302-iridescent-fish-sequins-mix/",
+      "destination": "/products/sequins-glitter-confetti/ma107-iridescent-fish-sequins-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma601-pastel-seashell-paillette-mix/",
+      "destination": "/products/sequins-glitter-confetti/ma109-pastel-seashell-paillette-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma013-candy-heart-bowl-paillettes/",
+      "destination": "/products/sequins-glitter-confetti/ma217-candy-heart-bowl-paillettes/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma602-patriotic-star-confetti-mix/",
+      "destination": "/products/sequins-glitter-confetti/ma225-patriotic-star-confetti-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma084-pastel-mini-heart-sequins/",
+      "destination": "/products/sequins-glitter-confetti/ma602-pastel-mini-heart-sequins/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma217-holographic-hollow-star-sequins/",
+      "destination": "/products/sequins-glitter-confetti/ma084-holographic-hollow-star-sequins/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma118-patriotic-tube-glitter-mix/",
+      "destination": "/products/sequins-glitter-confetti/ym109-patriotic-tube-glitter-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma059-multicolor-round-confetti-assortment/",
+      "destination": "/products/sequins-glitter-confetti/ma041-multicolor-round-confetti-assortment/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma041-dreamy-pearl-moon-star-mix/",
+      "destination": "/products/sequins-glitter-confetti/ma302-dreamy-pearl-moon-star-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ym109-2-pastel-hollow-star-scatter-mix/",
+      "destination": "/products/sequins-glitter-confetti/ma012-pastel-hollow-star-scatter-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma225-rainbow-micro-star-sprinkles/",
+      "destination": "/products/sequins-glitter-confetti/ma013-rainbow-micro-star-sprinkles/",
+      "permanent": true
     }
   ],
   "headers": [

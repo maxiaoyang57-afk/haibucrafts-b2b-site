@@ -19,6 +19,9 @@ const issue33ResinSkuMap = {
   RW1775: 'RW26412', RW003223: 'RW4252', RW2683: 'RW26439', RW5806: 'RW1711',
   RW26386: 'RW1620', RW003422: 'RW22372', RW26189: 'RW1775', RW002859: 'RW002859'
 };
+const issue37SequinsSkuMap = {
+  MA012: 'MA119', MA087: 'MA079', MA109: 'MA118', MA107: 'MA601', MA119: 'MA059', MA127: 'MA131', MA131: 'MA064', MA064: 'MA127', MA302: 'MA107', MA601: 'MA109', MA013: 'MA217', MA602: 'MA225', MA084: 'MA602', MA217: 'MA084', MA118: 'YM109', MA059: 'MA041', MA041: 'MA302', 'YM109-2': 'MA012', MA225: 'MA013'
+};
 const issue35PolymerSkuMap = {
   YX3531: 'YX048', YX097: 'YX3531', YX626: 'YX3400', YX778: 'YX097', YX3400: 'YX038', YX048: 'YX778'
 };
@@ -46,7 +49,7 @@ const themes = [
 ];
 
 const bySku = new Map(catalog.products.map((product) => [product.sku, product]));
-for (const theme of themes) theme.skus = theme.skus.map((sku) => issue35PolymerSkuMap[sku] || issue33ResinSkuMap[sku] || sku);
+for (const theme of themes) theme.skus = theme.skus.map((sku) => issue37SequinsSkuMap[sku] || issue35PolymerSkuMap[sku] || issue33ResinSkuMap[sku] || sku);
 const esc = (value) => String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const preview = (productionPath) => `/v2-preview${productionPath}`;
 const crumb = (items) => ({ '@type': 'BreadcrumbList', itemListElement: items.map(([name,item], index) => ({ '@type':'ListItem', position:index + 1, name, item:`${origin}${item}` })) });

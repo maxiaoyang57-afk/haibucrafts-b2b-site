@@ -15,6 +15,7 @@
     "audit:v2-seo": "node scripts/audit-v2-release-candidate.mjs",
     "audit:v2-materialized": "node scripts/audit-v2-materialized-production.mjs",
     "audit:catalog-consistency": "node scripts/audit-catalog-consistency.mjs",
+    "audit:product-catalog": "node scripts/audit-product-catalog-consistency.mjs",
     "audit:production-redirects": "node scripts/audit-production-http-redirects.mjs",
     "indexnow": "node scripts/submit-indexnow.mjs",
     "audit:v2-404": "node scripts/audit-v2-http-404.mjs",

@@ -43,6 +43,9 @@ jobs:
       - name: Audit catalog identity consistency
         run: npm run audit:catalog-consistency
 
+      - name: Audit full product catalog consistency
+        run: npm run audit:product-catalog
+
       - name: Audit production SEO
         run: npm run audit:v2-seo
 

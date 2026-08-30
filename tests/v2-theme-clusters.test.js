@@ -19,7 +19,7 @@ test('theme library publishes four clusters and eight release routes',()=>{
 });
 
 test('theme pages use exact products and keep western custom-only',()=>{
-  assert.match(read('v2-preview/themes/fruit/index.html'),/YX048/);
+  assert.match(read('v2-preview/themes/fruit/index.html'),/YX778/);
   assert.match(read('v2-preview/themes/floral/index.html'),/SLM10008/);
   assert.match(read('v2-preview/themes/ocean/index.html'),/SLM10019/);
   assert.match(read('v2-preview/themes/western/index.html'),/No current catalog SKU is represented as a western stock item/);

@@ -23,7 +23,7 @@
       "buyerCopy": "YX4002 gives buyers a traditional red, green and white holiday direction for slime, shaker and DIY-kit programs. Review the actual main and detail photographs when setting the mix expectation, then confirm packing and delivery timing in the quotation.",
       "applications": ["Christmas slime assortments", "Seasonal shaker and DIY kits", "Coordinated holiday craft packs"],
       "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
-      "relatedSkus": ["YX4008", "YX4003", "YX626"]
+      "relatedSkus": ["YX4008", "YX4003", "YX3400"]
     },
     {
       "sku": "YX4003",
@@ -36,7 +36,7 @@
       "buyerCopy": "YX4003 supports black, orange and yellow seasonal programs without relying on protected character references. Buyers can use the actual product photos to review the motif mix before confirming assortment ratios, packaging and delivery requirements.",
       "applications": ["Halloween slime add-ins", "Seasonal shaker fillers", "Private-label DIY-kit programs"],
       "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
-      "relatedSkus": ["YX626", "YX3400", "YX4002"]
+      "relatedSkus": ["YX3400", "YX038", "YX4002"]
     },
     {
       "sku": "YX4004",
@@ -49,7 +49,7 @@
       "buyerCopy": "YX4004 offers a bright pixel and game-style direction using generic decorative shapes only. It is suited to buyers building color-led assortments while keeping product identity, mix expectations and packaging tied to the approved sample.",
       "applications": ["Pixel-style slime mixes", "Shaker and resin-craft fillers", "Generic game-theme DIY kits"],
       "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
-      "relatedSkus": ["YX4009", "YX577", "YX778"]
+      "relatedSkus": ["YX4009", "YX577", "YX097"]
     },
     {
       "sku": "YX4005",
@@ -62,7 +62,7 @@
       "buyerCopy": "YX4005 provides a colorful novelty-candy direction for buyers planning sweet-theme slime and craft ranges. The actual product photographs define the included visual mix; packing format and assortment balance remain subject to quotation and sample approval.",
       "applications": ["Sweet-theme slime assortments", "Colorful shaker crafts", "Retail and DIY-kit programs"],
       "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
-      "relatedSkus": ["YX4010", "YX043", "YX048"]
+      "relatedSkus": ["YX4010", "YX043", "YX778"]
     },
     {
       "sku": "YX4008",
@@ -75,7 +75,7 @@
       "buyerCopy": "YX4008 combines a Christmas palette with generic candy-style festive pieces for seasonal assortment planning. Buyers should review the true product photos for motif and color expectations and confirm the delivery window before locking the program.",
       "applications": ["Holiday slime collections", "Christmas shaker fillers", "Seasonal private-label craft kits"],
       "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
-      "relatedSkus": ["YX4002", "YX4005", "YX048"]
+      "relatedSkus": ["YX4002", "YX4005", "YX778"]
     },
     {
       "sku": "YX4009",
@@ -88,7 +88,7 @@
       "buyerCopy": "YX4009 brings together bright generic game, fruit and candy-style shapes without making franchise or character claims. It works as a broad multicolor starting point when buyers need the exact SKU and main-image identity carried through the quotation.",
       "applications": ["Multicolor slime add-ins", "Generic game-theme craft kits", "Mixed shaker and DIY assortments"],
       "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
-      "relatedSkus": ["YX4004", "YX577", "YX778"]
+      "relatedSkus": ["YX4004", "YX577", "YX097"]
     },
     {
       "sku": "YX4010",
@@ -101,7 +101,7 @@
       "buyerCopy": "YX4010 supports buyers planning a soft pastel palette across slime, shaker and DIY-kit ranges. Its actual product photos establish the candy and flower-style mix, while final ratios, packing and scheduling are confirmed per order.",
       "applications": ["Pastel slime assortments", "Soft-color shaker fillers", "Candy and flower DIY kits"],
       "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
-      "relatedSkus": ["YX4005", "YX4011", "YX048"]
+      "relatedSkus": ["YX4005", "YX4011", "YX778"]
     },
     {
       "sku": "YX4011",
@@ -114,7 +114,7 @@
       "buyerCopy": "YX4011 combines pastel fruit, flower and candy-style cues for buyers who want a light coordinated palette across several craft applications. The true product images control identity and color expectations before the sample and written order specification are approved.",
       "applications": ["Pastel fruit-theme slime", "Floral shaker and resin crafts", "Coordinated DIY-kit assortments"],
       "galleryLabels": ["main product photo", "product detail photo", "B2B sourcing scene", "supplemental application scene", "supplemental bulk-sourcing graphic"],
-      "relatedSkus": ["YX4010", "YX048", "YX038"]
+      "relatedSkus": ["YX4010", "YX778", "YX043"]
     }
   ]
 }

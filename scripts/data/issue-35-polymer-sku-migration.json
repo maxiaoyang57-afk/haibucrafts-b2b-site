@@ -1,0 +1,18 @@
+{
+  "issue": 35,
+  "category": "polymer-clay-slices",
+  "mapping": {
+    "YX3531": "YX048",
+    "YX097": "YX3531",
+    "YX626": "YX3400",
+    "YX778": "YX097",
+    "YX3400": "YX038",
+    "YX048": "YX778"
+  },
+  "retired": {
+    "sku": "YX038",
+    "title": "Pink & Blue Decorative Slice Mix",
+    "redirectTo": "/products/polymer-clay-slices-wholesale/"
+  },
+  "expectedActiveCount": 16
+}

@@ -40,6 +40,9 @@ jobs:
       - name: Audit materialized production consistency
         run: npm run audit:v2-materialized
 
+      - name: Audit catalog identity consistency
+        run: npm run audit:catalog-consistency
+
       - name: Audit production SEO
         run: npm run audit:v2-seo
 

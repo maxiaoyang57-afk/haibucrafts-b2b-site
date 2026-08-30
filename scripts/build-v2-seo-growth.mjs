@@ -168,17 +168,17 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
   );
   html = upsertJsonLd(html, `${category}-item-list`, itemListFor(category, plan.listName));
 
-  if (!html.includes(`data-seo-growth="${category}-hub"`)) {
-    const products = catalog.products.filter((product) => product.category === category).slice(0, 4);
-    const resourceLinks = plan.resources
-      .map(([href, label]) => `<a class="btn btn-light" href="${href}">${escapeHtml(label)}</a>`)
-      .join('');
-    const productLinks = products
-      .map((product) => `<a class="product-related-card" href="${product.previewPath}"><img src="${escapeAttr(product.image)}" width="800" height="800" loading="lazy" decoding="async" alt="${escapeAttr(`${product.title}, product code ${product.sku}`)}"><div><span>${escapeHtml(product.sku)}</span><h3>${escapeHtml(product.title)}</h3></div></a>`)
-      .join('');
-    const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2>Compare products, sourcing guidance and project requirements.</h2><p>Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.</p></div><div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
-    html = replaceFirstRequired(html, /<section class="section" id="specifications">/i, `${block}<section class="section" id="specifications">`, `${category} internal-link insertion`);
-  }
+  const products = catalog.products.filter((product) => product.category === category).slice(0, 4);
+  const resourceLinks = plan.resources
+    .map(([href, label]) => `<a class="btn btn-light" href="${href}">${escapeHtml(label)}</a>`)
+    .join('');
+  const productLinks = products
+    .map((product) => `<a class="product-related-card" href="${product.previewPath}"><img src="${escapeAttr(product.image)}" width="800" height="800" loading="lazy" decoding="async" alt="${escapeAttr(`${product.title}, product code ${product.sku}`)}"><div><span>${escapeHtml(product.sku)}</span><h3>${escapeHtml(product.title)}</h3></div></a>`)
+    .join('');
+  const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2>Compare products, sourcing guidance and project requirements.</h2><p>Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.</p></div><div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
+  const existingHub = new RegExp(`<section class="section" data-seo-growth="${category}-hub">[\\s\\S]*?<\\/section>`, 'i');
+  if (existingHub.test(html)) html = html.replace(existingHub, block);
+  else html = replaceFirstRequired(html, /<section class="section" id="specifications">/i, `${block}<section class="section" id="specifications">`, `${category} internal-link insertion`);
 
   await writeFile(plan.previewFile, html, 'utf8');
   updateSeoRoute(plan.productionPath, { title: plan.title, description: plan.description });

@@ -2,39 +2,270 @@
   "cleanUrls": false,
   "trailingSlash": true,
   "redirects": [
-    { "source": "/index.html", "destination": "/", "permanent": true },
-    { "source": "/products/index.html", "destination": "/products/", "permanent": true },
-    { "source": "/blog/index.html", "destination": "/blog/", "permanent": true },
-    { "source": "/about/index.html", "destination": "/about/", "permanent": true },
-    { "source": "/custom-services/index.html", "destination": "/custom-solutions/", "permanent": true },
-    { "source": "/quote/index.html", "destination": "/request-quote/", "permanent": true },
-    { "source": "/request-quote/index.html", "destination": "/request-quote/", "permanent": true },
-    { "source": "/blog/polymer-clay-slices-buying-guide.html", "destination": "/blog/polymer-clay-slice-buying-guide/", "permanent": true },
-    { "source": "/blog/polymer-clay-slices-buying-guide/", "destination": "/blog/polymer-clay-slice-buying-guide/", "permanent": true },
-    { "source": "/privacy.html", "destination": "/privacy/", "permanent": true },
-    { "source": "/about/b2b-export-supplier.html", "destination": "/about/", "permanent": true },
-    { "source": "/about/b2b-export-supplier/", "destination": "/about/", "permanent": true },
-    { "source": "/products/slime-charms-wholesale.html", "destination": "/products/slime-charms-wholesale/", "permanent": true },
-    { "source": "/products/polymer-clay-slices-wholesale.html", "destination": "/products/polymer-clay-slices-wholesale/", "permanent": true },
-    { "source": "/products/resin-charms-for-slime.html", "destination": "/products/resin-charms-for-slime/", "permanent": true },
-    { "source": "/products/sequins-glitter-confetti.html", "destination": "/products/sequins-glitter-confetti/", "permanent": true },
-    { "source": "/products/plastic-sequins-wholesale.html", "destination": "/products/sequins-glitter-confetti/", "permanent": true },
-    { "source": "/products/plastic-sequins-wholesale/", "destination": "/products/sequins-glitter-confetti/", "permanent": true },
-    { "source": "/products/resin-charms-wholesale.html", "destination": "/products/resin-charms-for-slime/", "permanent": true },
-    { "source": "/products/resin-charms-wholesale/", "destination": "/products/resin-charms-for-slime/", "permanent": true },
-    { "source": "/custom-services/", "destination": "/custom-solutions/", "permanent": true },
-    { "source": "/quote/", "destination": "/request-quote/", "permanent": true },
-    { "source": "/haibu-manufacturing/", "destination": "/manufacturing/", "permanent": true },
-    { "source": "/haibu-quality-control/", "destination": "/quality-control/", "permanent": true },
-    { "source": "/blog/custom-oem-process/", "destination": "/custom-solutions/", "permanent": true },
-    { "source": "/blog/custom-oem-process.html", "destination": "/custom-solutions/", "permanent": true },
-    { "source": "/blog/resin-vs-clay/", "destination": "/blog/polymer-clay-slice-buying-guide/", "permanent": true },
-    { "source": "/blog/resin-vs-clay.html", "destination": "/blog/polymer-clay-slice-buying-guide/", "permanent": true },
-    { "source": "/applications/festivals-parties-weddings/", "destination": "/blog/seasonal-craft-assortment-planning/", "permanent": true },
-    { "source": "/applications/festivals-parties-weddings.html", "destination": "/blog/seasonal-craft-assortment-planning/", "permanent": true },
-    { "source": "/products/custom-slime-add-ins-oem-mixes/", "destination": "/custom-solutions/", "permanent": true },
-    { "source": "/products/custom-slime-add-ins-oem-mixes.html", "destination": "/custom-solutions/", "permanent": true },
-    { "source": "/products/slime-supplies-wholesale-hub/", "destination": "/products/", "permanent": true },
-    { "source": "/products/slime-supplies-wholesale-hub.html", "destination": "/products/", "permanent": true }
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/products/index.html",
+      "destination": "/products/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/index.html",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/about/index.html",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/custom-services/index.html",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/quote/index.html",
+      "destination": "/request-quote/",
+      "permanent": true
+    },
+    {
+      "source": "/request-quote/index.html",
+      "destination": "/request-quote/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/polymer-clay-slices-buying-guide.html",
+      "destination": "/blog/polymer-clay-slice-buying-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/polymer-clay-slices-buying-guide/",
+      "destination": "/blog/polymer-clay-slice-buying-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/privacy/",
+      "permanent": true
+    },
+    {
+      "source": "/about/b2b-export-supplier.html",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/about/b2b-export-supplier/",
+      "destination": "/about/",
+      "permanent": true
+    },
+    {
+      "source": "/products/slime-charms-wholesale.html",
+      "destination": "/products/slime-charms-wholesale/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale.html",
+      "destination": "/products/polymer-clay-slices-wholesale/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime.html",
+      "destination": "/products/resin-charms-for-slime/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti.html",
+      "destination": "/products/sequins-glitter-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/products/plastic-sequins-wholesale.html",
+      "destination": "/products/sequins-glitter-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/products/plastic-sequins-wholesale/",
+      "destination": "/products/sequins-glitter-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-wholesale.html",
+      "destination": "/products/resin-charms-for-slime/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-wholesale/",
+      "destination": "/products/resin-charms-for-slime/",
+      "permanent": true
+    },
+    {
+      "source": "/custom-services/",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/quote/",
+      "destination": "/request-quote/",
+      "permanent": true
+    },
+    {
+      "source": "/haibu-manufacturing/",
+      "destination": "/manufacturing/",
+      "permanent": true
+    },
+    {
+      "source": "/haibu-quality-control/",
+      "destination": "/quality-control/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/custom-oem-process/",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/custom-oem-process.html",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/resin-vs-clay/",
+      "destination": "/blog/polymer-clay-slice-buying-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/blog/resin-vs-clay.html",
+      "destination": "/blog/polymer-clay-slice-buying-guide/",
+      "permanent": true
+    },
+    {
+      "source": "/applications/festivals-parties-weddings/",
+      "destination": "/blog/seasonal-craft-assortment-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/applications/festivals-parties-weddings.html",
+      "destination": "/blog/seasonal-craft-assortment-planning/",
+      "permanent": true
+    },
+    {
+      "source": "/products/custom-slime-add-ins-oem-mixes/",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/products/custom-slime-add-ins-oem-mixes.html",
+      "destination": "/custom-solutions/",
+      "permanent": true
+    },
+    {
+      "source": "/products/slime-supplies-wholesale-hub/",
+      "destination": "/products/",
+      "permanent": true
+    },
+    {
+      "source": "/products/slime-supplies-wholesale-hub.html",
+      "destination": "/products/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw4252-glitter-cherry-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw26051-glitter-cherry-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw994-iridescent-ocean-animal-charms/",
+      "destination": "/products/resin-charms-for-slime/rw003223-iridescent-ocean-animal-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw22741-pink-strawberry-flatback-charms/",
+      "destination": "/products/resin-charms-for-slime/rw994-pink-strawberry-flatback-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw002854-kawaii-frog-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw22741-kawaii-frog-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw26439-school-supplies-flatback-charms/",
+      "destination": "/products/resin-charms-for-slime/rw2666-school-supplies-flatback-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw1620-gummy-bear-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw2899-gummy-bear-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw26051-fruit-shell-turtle-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw002868-fruit-shell-turtle-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw26412-pastel-heart-flatback-charms/",
+      "destination": "/products/resin-charms-for-slime/rw20388-pastel-heart-flatback-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw1711-glossy-jelly-bean-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw002854-glossy-jelly-bean-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw22372-green-frog-flatback-charms/",
+      "destination": "/products/resin-charms-for-slime/rw26386-green-frog-flatback-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw2899-star-gummy-bear-charms/",
+      "destination": "/products/resin-charms-for-slime/rw003422-star-gummy-bear-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw20388-mini-cauldron-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw5806-mini-cauldron-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw1775-citrus-slice-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw26412-citrus-slice-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw003223-bright-jelly-bean-charms-mix/",
+      "destination": "/products/resin-charms-for-slime/rw4252-bright-jelly-bean-charms-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw2683-mermaid-ocean-flatback-charms/",
+      "destination": "/products/resin-charms-for-slime/rw26439-mermaid-ocean-flatback-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw5806-glitter-bow-head-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw26386-pastel-candy-disc-charms/",
+      "destination": "/products/resin-charms-for-slime/rw1620-pastel-candy-disc-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw003422-frosted-cookie-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/rw22372-frosted-cookie-resin-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
+      "destination": "/products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/",
+      "permanent": true
+    }
   ]
 }

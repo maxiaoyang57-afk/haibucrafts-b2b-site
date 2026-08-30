@@ -9,6 +9,7 @@
     "build:v2-blog": "node scripts/build-v2-blog-library.mjs",
     "build:v2-seo": "node scripts/build-v2-product-details.mjs && node scripts/build-v2-blog-library.mjs && node scripts/build-v2-seo-trust.mjs && node scripts/build-v2-seo-growth.mjs && node scripts/build-v2-theme-clusters.mjs",
     "build:v2-release": "node scripts/build-v2-release-candidate.mjs && node scripts/audit-v2-release-candidate.mjs && node scripts/audit-v2-content-ip.mjs && node scripts/generate-v2-acceptance-report.mjs",
+    "migrate:resin-skus": "node scripts/apply-resin-sku-migration.mjs",
     "audit:v2-seo": "node scripts/audit-v2-release-candidate.mjs",
     "audit:v2-materialized": "node scripts/audit-v2-materialized-production.mjs",
     "audit:production-redirects": "node scripts/audit-production-http-redirects.mjs",

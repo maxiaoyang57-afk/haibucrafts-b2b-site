@@ -12,6 +12,13 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 const seoMap = JSON.parse(await readFile(seoMapPath, 'utf8'));
 const migrationMap = JSON.parse(await readFile(migrationMapPath, 'utf8'));
+const issue33ResinSkuMap = {
+  RW4252: 'RW26051', RW994: 'RW003223', RW22741: 'RW994', RW002854: 'RW22741',
+  RW26439: 'RW2666', RW1620: 'RW2899', RW26051: 'RW002868', RW26412: 'RW20388',
+  RW1711: 'RW002854', RW22372: 'RW26386', RW2899: 'RW003422', RW20388: 'RW5806',
+  RW1775: 'RW26412', RW003223: 'RW4252', RW2683: 'RW26439', RW5806: 'RW1711',
+  RW26386: 'RW1620', RW003422: 'RW22372', RW26189: 'RW1775', RW002859: 'RW002859'
+};
 
 if (!catalog.count || catalog.count !== catalog.products.length) {
   throw new Error(`Theme clusters require a non-empty reconciled catalog; found ${catalog.count}/${catalog.products.length}`);
@@ -36,6 +43,7 @@ const themes = [
 ];
 
 const bySku = new Map(catalog.products.map((product) => [product.sku, product]));
+for (const theme of themes) theme.skus = theme.skus.map((sku) => issue33ResinSkuMap[sku] || sku);
 const esc = (value) => String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const preview = (productionPath) => `/v2-preview${productionPath}`;
 const crumb = (items) => ({ '@type': 'BreadcrumbList', itemListElement: items.map(([name,item], index) => ({ '@type':'ListItem', position:index + 1, name, item:`${origin}${item}` })) });

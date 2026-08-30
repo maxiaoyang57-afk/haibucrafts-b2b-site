@@ -19,6 +19,9 @@ const issue33ResinSkuMap = {
   RW1775: 'RW26412', RW003223: 'RW4252', RW2683: 'RW26439', RW5806: 'RW1711',
   RW26386: 'RW1620', RW003422: 'RW22372', RW26189: 'RW1775', RW002859: 'RW002859'
 };
+const issue35PolymerSkuMap = {
+  YX3531: 'YX048', YX097: 'YX3531', YX626: 'YX3400', YX778: 'YX097', YX3400: 'YX038', YX048: 'YX778'
+};
 
 if (!catalog.count || catalog.count !== catalog.products.length) {
   throw new Error(`Theme clusters require a non-empty reconciled catalog; found ${catalog.count}/${catalog.products.length}`);
@@ -43,7 +46,7 @@ const themes = [
 ];
 
 const bySku = new Map(catalog.products.map((product) => [product.sku, product]));
-for (const theme of themes) theme.skus = theme.skus.map((sku) => issue33ResinSkuMap[sku] || sku);
+for (const theme of themes) theme.skus = theme.skus.map((sku) => issue35PolymerSkuMap[sku] || issue33ResinSkuMap[sku] || sku);
 const esc = (value) => String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const preview = (productionPath) => `/v2-preview${productionPath}`;
 const crumb = (items) => ({ '@type': 'BreadcrumbList', itemListElement: items.map(([name,item], index) => ({ '@type':'ListItem', position:index + 1, name, item:`${origin}${item}` })) });
@@ -104,8 +107,10 @@ for (const [category, slugs] of Object.entries(categoryThemes)) {
   const links = slugs.map((slug)=>themes.find((theme)=>theme.slug===slug)).map((theme)=>`<a href="${preview(`/themes/${theme.slug}/`)}"><strong>${esc(theme.name)}</strong><span>${esc(theme.description)}</span></a>`).join('');
   const section = `<!-- theme-clusters:start --><section class="section alt theme-links-section"><div class="container"><div class="section-head"><span class="eyebrow">Shop by original theme</span><h2>Build a coordinated assortment around buyer search themes.</h2><p>These selective links connect this catalog to relevant, generic and non-branded sourcing directions.</p></div><div class="theme-inline-links">${links}</div><p class="theme-library-link"><a href="/v2-preview/themes/">View all theme clusters →</a></p></div></section><!-- theme-clusters:end -->`;
   const marker = '<section class="section" id="specifications">';
-  if (!html.includes(marker)) throw new Error(`Missing category insertion marker: ${category}`);
-  await writeFile(file,html.replace(marker,`${section}${marker}`),'utf8');
+  if (html.includes(marker)) html = html.replace(marker, `${section}${marker}`);
+  else if (/<\/main>/i.test(html)) html = html.replace(/<\/main>/i, `${section}</main>`);
+  else throw new Error(`Missing category insertion marker: ${category}`);
+  await writeFile(file, html, 'utf8');
 }
 
 if (!migrationMap.sharedAssets.some((asset)=>asset.source==='v2-preview/assets/theme-clusters.css')) migrationMap.sharedAssets.push({source:'v2-preview/assets/theme-clusters.css',destination:'assets/v2/theme-clusters.css'});

@@ -178,18 +178,22 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
   const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2>Compare products, sourcing guidance and project requirements.</h2><p>Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.</p></div><div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
   const existingHub = new RegExp(`<section class="section" data-seo-growth="${category}-hub">[\\s\\S]*?<\\/section>`, 'i');
   if (existingHub.test(html)) html = html.replace(existingHub, block);
-  else html = replaceFirstRequired(html, /<section class="section" id="specifications">/i, `${block}<section class="section" id="specifications">`, `${category} internal-link insertion`);
+  else if (/<section class="section" id="specifications">/i.test(html)) {
+    html = html.replace(/<section class="section" id="specifications">/i, `${block}<section class="section" id="specifications">`);
+  } else {
+    html = replaceFirstRequired(html, /<\/main>/i, `${block}</main>`, `${category} internal-link insertion`);
+  }
 
   await writeFile(plan.previewFile, html, 'utf8');
   updateSeoRoute(plan.productionPath, { title: plan.title, description: plan.description });
 }
 
 const polymerProfiles = {
-  YX3531: {
-    title: 'Pink Candy Polymer Clay Slices Wholesale YX3531 | HAIBUCRAFT',
-    description: 'Source YX3531 pink candy polymer clay slices for coordinated slime, shaker and DIY assortments. Mixed-SKU packing and custom requirements are reviewed by quote.',
+  YX048: {
+    title: 'Pink Candy Polymer Clay Slices Wholesale YX048 | HAIBUCRAFT',
+    description: 'Source YX048 pink candy polymer clay slices for coordinated slime, shaker and DIY assortments. Mixed-SKU packing and custom requirements are reviewed by quote.',
     heading: 'Pink candy slices for coordinated sweet-theme assortments.',
-    copy: 'YX3531 combines a pink candy-led visual direction with small decorative pieces suited to buyers building pastel or dessert-theme assortments. It can be reviewed alongside other sweet polymer clay slices when a program needs several product codes in one shipment.',
+    copy: 'YX048 combines a pink candy-led visual direction with small decorative pieces suited to buyers building pastel or dessert-theme assortments. It can be reviewed alongside other sweet polymer clay slices when a program needs several product codes in one shipment.',
     applications: ['Pastel and candy-theme slime assortments', 'Shaker filler and DIY kit programs', 'Mixed-SKU wholesale bundles']
   },
   YX043: {
@@ -206,46 +210,39 @@ const polymerProfiles = {
     copy: 'YX577 is positioned as a colorful scatter mix for buyers who want a varied decorative look rather than a single repeated motif. It is a useful reference for slime and DIY-kit assortments where color distribution and mix ratio need to be agreed before production.',
     applications: ['Color-led slime sprinkle mixes', 'DIY kit and shaker filler programs', 'Custom mix-ratio review']
   },
-  YX097: {
-    title: 'Fantasy Candy Polymer Clay Slices Wholesale YX097 | HAIBUCRAFT',
-    description: 'Source YX097 fantasy candy polymer clay slices with accent details for premium-looking slime and DIY assortments. Confirm composition, size and packing by quote.',
+  YX3531: {
+    title: 'Fantasy Candy Polymer Clay Slices Wholesale YX3531 | HAIBUCRAFT',
+    description: 'Source YX3531 fantasy candy polymer clay slices with accent details for premium-looking slime and DIY assortments. Confirm composition, size and packing by quote.',
     heading: 'Fantasy candy slices for higher-detail decorative assortments.',
-    copy: 'YX097 has a fantasy candy direction with accent details that gives buyers a more decorative visual option than a basic single-shape slice. It can be shortlisted for coordinated craft kits where the approved sample, finish and mix balance matter to the final presentation.',
+    copy: 'YX3531 has a fantasy candy direction with accent details that gives buyers a more decorative visual option than a basic single-shape slice. It can be shortlisted for coordinated craft kits where the approved sample, finish and mix balance matter to the final presentation.',
     applications: ['Fantasy-theme slime assortments', 'Decorative DIY and shaker kits', 'Sample-led premium mix review']
   },
-  YX626: {
-    title: 'Gothic Halloween Polymer Clay Slices Wholesale YX626 | HAIBUCRAFT',
-    description: 'Source YX626 gothic Halloween polymer clay slices for seasonal slime, craft kits and shaker fillers. Confirm assortment ratio, packaging and schedule by quotation.',
+  YX3400: {
+    title: 'Gothic Halloween Polymer Clay Slices Wholesale YX3400 | HAIBUCRAFT',
+    description: 'Source YX3400 gothic Halloween polymer clay slices for seasonal slime, craft kits and shaker fillers. Confirm assortment ratio, packaging and schedule by quotation.',
     heading: 'Gothic seasonal slices for Halloween craft programs.',
-    copy: 'YX626 is a darker Halloween-oriented polymer clay mix for buyers planning seasonal slime, shaker or DIY assortments. Because seasonal programs are date-sensitive, the exact quantity, assortment ratio, packaging and production schedule should be confirmed together at quotation stage.',
+    copy: 'YX3400 is a darker Halloween-oriented polymer clay mix for buyers planning seasonal slime, shaker or DIY assortments. Because seasonal programs are date-sensitive, the exact quantity, assortment ratio, packaging and production schedule should be confirmed together at quotation stage.',
     applications: ['Halloween slime assortments', 'Seasonal DIY and shaker kits', 'Retail-ready mixed seasonal programs']
   },
-  YX778: {
-    title: 'Rainbow Polymer Clay Sprinkle Mix Wholesale YX778 | HAIBUCRAFT',
-    description: 'Source YX778 rainbow polymer clay sprinkle and crumble mix for slime, shaker fillers and DIY assortments, with color balance and packing confirmed by quotation.',
+  YX097: {
+    title: 'Rainbow Polymer Clay Sprinkle Mix Wholesale YX097 | HAIBUCRAFT',
+    description: 'Source YX097 rainbow polymer clay sprinkle and crumble mix for slime, shaker fillers and DIY assortments, with color balance and packing confirmed by quotation.',
     heading: 'Rainbow crumble-style slices for multicolor assortment programs.',
-    copy: 'YX778 offers a rainbow crumble visual direction for buyers who need a multicolor filler across slime and craft applications. It is best reviewed with the target color balance and packing format so the delivered mix matches the intended assortment presentation.',
+    copy: 'YX097 offers a rainbow crumble visual direction for buyers who need a multicolor filler across slime and craft applications. It is best reviewed with the target color balance and packing format so the delivered mix matches the intended assortment presentation.',
     applications: ['Rainbow slime and sprinkle mixes', 'Shaker filler and craft kits', 'Color-balance controlled assortments']
   },
-  YX3400: {
-    title: 'Halloween Polymer Clay Slice Mix Wholesale YX3400 | HAIBUCRAFT',
-    description: 'Source YX3400 Halloween polymer clay slices for seasonal slime, shaker and DIY kits. Confirm product mix, packaging, timing and destination requirements by quote.',
+  YX038: {
+    title: 'Halloween Polymer Clay Slice Mix Wholesale YX038 | HAIBUCRAFT',
+    description: 'Source YX038 Halloween polymer clay slices for seasonal slime, shaker and DIY kits. Confirm product mix, packaging, timing and destination requirements by quote.',
     heading: 'Halloween theme slices for seasonal wholesale planning.',
-    copy: 'YX3400 is a Halloween-focused slice mix designed for buyers assembling seasonal slime, shaker and DIY-kit programs. It should be planned early enough to confirm the product mix, packing format and delivery window before the selling season.',
+    copy: 'YX038 is a Halloween-focused slice mix designed for buyers assembling seasonal slime, shaker and DIY-kit programs. It should be planned early enough to confirm the product mix, packing format and delivery window before the selling season.',
     applications: ['Halloween slime add-ins', 'Seasonal shaker and DIY kits', 'Mixed-SKU Halloween programs']
   },
-  YX038: {
-    title: 'Pink & Blue Polymer Clay Slices Wholesale YX038 | HAIBUCRAFT',
-    description: 'Source YX038 pink and blue polymer clay slices for coordinated slime, nail-art, shaker and DIY assortments. Confirm mix, size, MOQ and packing by quotation.',
-    heading: 'Pink and blue slices for coordinated two-color assortments.',
-    copy: 'YX038 gives buyers a defined pink-and-blue color direction for programs that need a coordinated palette rather than a broad rainbow mix. It can be combined with other decorative slice codes for branded slime, shaker or DIY assortments while keeping each SKU traceable in the quotation.',
-    applications: ['Two-color slime assortments', 'Coordinated nail-art and shaker mixes', 'Traceable mixed-SKU bundles']
-  },
-  YX048: {
-    title: 'Strawberry Polymer Clay Slices Wholesale YX048 | HAIBUCRAFT',
-    description: 'Source YX048 strawberry and candy-heart polymer clay slices for fruit-theme slime, shaker and DIY programs, with packing and mix requirements confirmed by quote.',
+  YX778: {
+    title: 'Strawberry Polymer Clay Slices Wholesale YX778 | HAIBUCRAFT',
+    description: 'Source YX778 strawberry and candy-heart polymer clay slices for fruit-theme slime, shaker and DIY programs, with packing and mix requirements confirmed by quote.',
     heading: 'Strawberry and heart slices for fruit-and-sweet assortments.',
-    copy: 'YX048 combines strawberry and candy-heart cues for buyers building fruit, dessert or pink-theme craft assortments. It can be grouped with other sweet or fruit product codes when a wholesale program needs several related designs under one purchasing brief.',
+    copy: 'YX778 combines strawberry and candy-heart cues for buyers building fruit, dessert or pink-theme craft assortments. It can be grouped with other sweet or fruit product codes when a wholesale program needs several related designs under one purchasing brief.',
     applications: ['Fruit-theme slime mixes', 'Pink dessert and DIY assortments', 'Related-SKU wholesale bundles']
   }
 };

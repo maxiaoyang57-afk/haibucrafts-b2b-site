@@ -266,6 +266,41 @@
       "source": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
       "destination": "/products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/",
       "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx3531-pink-candy-and-ceramic-dish-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/yx048-pink-candy-and-ceramic-dish-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx097-crystal-accent-fantasy-candy-slices/",
+      "destination": "/products/polymer-clay-slices-wholesale/yx3531-crystal-accent-fantasy-candy-slices/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx626-gothic-candy-decor-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/yx3400-gothic-candy-decor-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx778-rainbow-crumble-bowl-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/yx097-rainbow-crumble-bowl-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx3400-halloween-theme-slice-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/yx038-halloween-theme-slice-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx048-strawberry-candy-heart-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/yx778-strawberry-candy-heart-mix/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx038-pink-and-blue-decorative-slice-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/",
+      "permanent": true
     }
   ]
 }

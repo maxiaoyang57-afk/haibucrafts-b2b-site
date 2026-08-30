@@ -92,10 +92,10 @@
       "productionPath": "/blog/"
     },
     {
-      "source": "v2-preview/products/polymer-clay-slices/yx3531-pink-candy-and-ceramic-dish-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx3531-pink-candy-and-ceramic-dish-mix/index.html",
+      "source": "v2-preview/products/polymer-clay-slices/yx048-pink-candy-and-ceramic-dish-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx048-pink-candy-and-ceramic-dish-mix/index.html",
       "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx3531-pink-candy-and-ceramic-dish-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx048-pink-candy-and-ceramic-dish-mix/",
       "generatedProduct": true
     },
     {
@@ -113,45 +113,38 @@
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/polymer-clay-slices/yx097-crystal-accent-fantasy-candy-slices/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx097-crystal-accent-fantasy-candy-slices/index.html",
+      "source": "v2-preview/products/polymer-clay-slices/yx3531-crystal-accent-fantasy-candy-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3531-crystal-accent-fantasy-candy-slices/index.html",
       "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx097-crystal-accent-fantasy-candy-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3531-crystal-accent-fantasy-candy-slices/",
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/polymer-clay-slices/yx626-gothic-candy-decor-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx626-gothic-candy-decor-mix/index.html",
+      "source": "v2-preview/products/polymer-clay-slices/yx3400-gothic-candy-decor-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3400-gothic-candy-decor-mix/index.html",
       "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx626-gothic-candy-decor-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3400-gothic-candy-decor-mix/",
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/polymer-clay-slices/yx778-rainbow-crumble-bowl-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx778-rainbow-crumble-bowl-mix/index.html",
+      "source": "v2-preview/products/polymer-clay-slices/yx097-rainbow-crumble-bowl-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx097-rainbow-crumble-bowl-mix/index.html",
       "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx778-rainbow-crumble-bowl-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx097-rainbow-crumble-bowl-mix/",
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/polymer-clay-slices/yx3400-halloween-theme-slice-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx3400-halloween-theme-slice-mix/index.html",
+      "source": "v2-preview/products/polymer-clay-slices/yx038-halloween-theme-slice-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx038-halloween-theme-slice-mix/index.html",
       "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx3400-halloween-theme-slice-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx038-halloween-theme-slice-mix/",
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/polymer-clay-slices/yx038-pink-and-blue-decorative-slice-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx038-pink-and-blue-decorative-slice-mix/index.html",
+      "source": "v2-preview/products/polymer-clay-slices/yx778-strawberry-candy-heart-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx778-strawberry-candy-heart-mix/index.html",
       "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx038-pink-and-blue-decorative-slice-mix/",
-      "generatedProduct": true
-    },
-    {
-      "source": "v2-preview/products/polymer-clay-slices/yx048-strawberry-candy-heart-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx048-strawberry-candy-heart-mix/index.html",
-      "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx048-strawberry-candy-heart-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx778-strawberry-candy-heart-mix/",
       "generatedProduct": true
     },
     {

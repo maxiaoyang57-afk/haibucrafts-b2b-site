@@ -1,17 +1,17 @@
 {
   "generatedAt": "2026-08-25",
-  "count": 89,
+  "count": 88,
   "products": [
     {
-      "sku": "YX3531",
+      "sku": "YX048",
       "title": "Pink Candy & Ceramic Dish Mix",
       "category": "polymer-clay-slices",
       "categoryLabel": "Polymer Clay Slices",
       "type": "Sweet",
       "image": "/assets/images/products/hc001-school-theme-polymer-clay-mix.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3531-pink-candy-and-ceramic-dish-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx3531-pink-candy-and-ceramic-dish-mix/"
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx048-pink-candy-and-ceramic-dish-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx048-pink-candy-and-ceramic-dish-mix/"
     },
     {
       "sku": "YX043",
@@ -36,70 +36,59 @@
       "productionPath": "/products/polymer-clay-slices-wholesale/yx577-colorful-candy-scatter-mix/"
     },
     {
-      "sku": "YX097",
+      "sku": "YX3531",
       "title": "Crystal Accent Fantasy Candy Slices",
       "category": "polymer-clay-slices",
       "categoryLabel": "Polymer Clay Slices",
       "type": "Premium",
       "image": "/assets/images/products/hc005-pastel-star-slices-mix.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx097-crystal-accent-fantasy-candy-slices/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx097-crystal-accent-fantasy-candy-slices/"
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3531-crystal-accent-fantasy-candy-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3531-crystal-accent-fantasy-candy-slices/"
     },
     {
-      "sku": "YX626",
+      "sku": "YX3400",
       "title": "Gothic Candy Decor Mix",
       "category": "polymer-clay-slices",
       "categoryLabel": "Polymer Clay Slices",
       "type": "Seasonal",
       "image": "/assets/images/products/hc006-halloween-candy-corn-mix.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx626-gothic-candy-decor-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx626-gothic-candy-decor-mix/"
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3400-gothic-candy-decor-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3400-gothic-candy-decor-mix/"
     },
     {
-      "sku": "YX778",
+      "sku": "YX097",
       "title": "Rainbow Crumble Bowl Mix",
       "category": "polymer-clay-slices",
       "categoryLabel": "Polymer Clay Slices",
       "type": "Decorative",
       "image": "/assets/images/products/hc007-mini-knife-polymer-pieces.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx778-rainbow-crumble-bowl-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx778-rainbow-crumble-bowl-mix/"
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx097-rainbow-crumble-bowl-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx097-rainbow-crumble-bowl-mix/"
     },
     {
-      "sku": "YX3400",
+      "sku": "YX038",
       "title": "Halloween Theme Slice Mix",
       "category": "polymer-clay-slices",
       "categoryLabel": "Polymer Clay Slices",
       "type": "Seasonal",
       "image": "/assets/images/products/hc008-halloween-ghost-spider-mix.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3400-halloween-theme-slice-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx3400-halloween-theme-slice-mix/"
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx038-halloween-theme-slice-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx038-halloween-theme-slice-mix/"
     },
     {
-      "sku": "YX038",
-      "title": "Pink & Blue Decorative Slice Mix",
-      "category": "polymer-clay-slices",
-      "categoryLabel": "Polymer Clay Slices",
-      "type": "Decorative",
-      "image": "/assets/images/products/hc009-ocean-fish-dolphin-mix.webp",
-      "gallery": [],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx038-pink-and-blue-decorative-slice-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx038-pink-and-blue-decorative-slice-mix/"
-    },
-    {
-      "sku": "YX048",
+      "sku": "YX778",
       "title": "Strawberry Candy Heart Mix",
       "category": "polymer-clay-slices",
       "categoryLabel": "Polymer Clay Slices",
       "type": "Fruit",
       "image": "/assets/images/products/hc010-campfire-marshmallow-mix.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx048-strawberry-candy-heart-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx048-strawberry-candy-heart-mix/"
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx778-strawberry-candy-heart-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx778-strawberry-candy-heart-mix/"
     },
     {
       "sku": "YX4002",

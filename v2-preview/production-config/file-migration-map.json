@@ -582,13 +582,6 @@
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/index.html",
-      "destination": "products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/index.html",
-      "action": "create",
-      "productionPath": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
-      "generatedProduct": true
-    },
-    {
       "source": "v2-preview/products/sequins-glitter-confetti/ma118-silver-novelty-party-confetti/index.html",
       "destination": "products/sequins-glitter-confetti/ma118-silver-novelty-party-confetti/index.html",
       "action": "create",

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25",
-  "count": 88,
+  "count": 87,
   "products": [
     {
       "sku": "YX048",
@@ -945,17 +945,6 @@
       "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/",
       "productionPath": "/products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/"
-    },
-    {
-      "sku": "MA079",
-      "title": "Iridescent Circle Ring Sequins",
-      "category": "sequins-glitter-confetti",
-      "categoryLabel": "Sequins & Confetti",
-      "type": "Geometric",
-      "image": "/assets/images/products/iridescent-circle-ring-sequins.webp",
-      "gallery": [],
-      "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
-      "productionPath": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/"
     },
     {
       "sku": "MA118",

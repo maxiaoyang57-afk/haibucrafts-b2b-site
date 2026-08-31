@@ -25,6 +25,8 @@ const issue37SequinsSkuMap = {
 const issue35PolymerSkuMap = {
   YX3531: 'YX048', YX097: 'YX3531', YX626: 'YX3400', YX778: 'YX097', YX3400: 'YX038', YX048: 'YX778'
 };
+const retirementPath = path.join(root, 'scripts', 'data', 'sequins-ma079-retirement.json');
+const retirement = JSON.parse(await readFile(retirementPath, 'utf8'));
 
 if (!catalog.count || catalog.count !== catalog.products.length) {
   throw new Error(`Theme clusters require a non-empty reconciled catalog; found ${catalog.count}/${catalog.products.length}`);
@@ -49,7 +51,11 @@ const themes = [
 ];
 
 const bySku = new Map(catalog.products.map((product) => [product.sku, product]));
-for (const theme of themes) theme.skus = theme.skus.map((sku) => issue37SequinsSkuMap[sku] || issue35PolymerSkuMap[sku] || issue33ResinSkuMap[sku] || sku);
+for (const theme of themes) {
+  theme.skus = theme.skus
+    .map((sku) => issue37SequinsSkuMap[sku] || issue35PolymerSkuMap[sku] || issue33ResinSkuMap[sku] || sku)
+    .filter((sku) => sku !== retirement.sku);
+}
 const esc = (value) => String(value).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
 const preview = (productionPath) => `/v2-preview${productionPath}`;
 const crumb = (items) => ({ '@type': 'BreadcrumbList', itemListElement: items.map(([name,item], index) => ({ '@type':'ListItem', position:index + 1, name, item:`${origin}${item}` })) });

@@ -309,7 +309,12 @@
     },
     {
       "source": "/products/sequins-glitter-confetti/ma087-iridescent-circle-ring-sequins/",
-      "destination": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
+      "destination": "/products/sequins-glitter-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
+      "destination": "/products/sequins-glitter-confetti/",
       "permanent": true
     },
     {

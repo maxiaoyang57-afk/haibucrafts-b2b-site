@@ -303,11 +303,6 @@
       "permanent": true
     },
     {
-      "source": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
-      "destination": "/products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/",
-      "permanent": true
-    },
-    {
       "source": "/products/polymer-clay-slices-wholesale/yx3531-pink-candy-and-ceramic-dish-mix/",
       "destination": "/products/polymer-clay-slices-wholesale/yx048-pink-candy-and-ceramic-dish-mix/",
       "permanent": true
@@ -435,6 +430,16 @@
     {
       "source": "/products/sequins-glitter-confetti/ma225-rainbow-micro-star-sprinkles/",
       "destination": "/products/sequins-glitter-confetti/ma013-rainbow-micro-star-sprinkles/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/",
+      "destination": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw002628-spring-mini-duck-charms/",
+      "destination": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
       "permanent": true
     }
   ],

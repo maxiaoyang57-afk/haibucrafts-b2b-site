@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25",
-  "count": 88,
+  "count": 87,
   "products": [
     {
       "sku": "YX048",
@@ -890,17 +890,6 @@
       "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw26439-mermaid-ocean-flatback-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw26439-mermaid-ocean-flatback-charms/"
-    },
-    {
-      "sku": "RW1711",
-      "title": "Glitter Bow Head Resin Charms",
-      "category": "resin-charms",
-      "categoryLabel": "Resin Charms",
-      "type": "Mixed",
-      "image": "/assets/images/products/glitter-bow-head-resin-charms.webp",
-      "gallery": [],
-      "previewPath": "/v2-preview/products/resin-charms/rw1711-glitter-bow-head-resin-charms/",
-      "productionPath": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/"
     },
     {
       "sku": "RW1620",

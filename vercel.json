@@ -289,7 +289,12 @@
     },
     {
       "source": "/products/resin-charms-for-slime/rw5806-glitter-bow-head-resin-charms/",
-      "destination": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/",
       "permanent": true
     },
     {

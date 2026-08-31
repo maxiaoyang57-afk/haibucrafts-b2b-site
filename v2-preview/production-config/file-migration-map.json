@@ -547,13 +547,6 @@
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/resin-charms/rw1711-glitter-bow-head-resin-charms/index.html",
-      "destination": "products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/index.html",
-      "action": "create",
-      "productionPath": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/",
-      "generatedProduct": true
-    },
-    {
       "source": "v2-preview/products/resin-charms/rw1620-pastel-candy-disc-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw1620-pastel-candy-disc-charms/index.html",
       "action": "create",

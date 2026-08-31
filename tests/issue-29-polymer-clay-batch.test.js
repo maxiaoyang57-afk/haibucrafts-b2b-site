@@ -72,21 +72,21 @@ test('Issue #29 publishes exactly the approved eight-SKU, five-image media set',
   }
 });
 
-test('Issue #29 plus Issue #35 reconciles the catalog to 88 total and 16 active polymer clay products', async () => {
+test('Issue #29 plus Issue #35 reconciles the catalog to 87 total and 16 active polymer clay products', async () => {
   const catalog = JSON.parse(await readFile(path.join(root, 'assets', 'v2', 'product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products', 'polymer-clay-slices-wholesale', 'index.html'), 'utf8');
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
 
-  assert.equal(catalog.count, 88);
-  assert.equal(catalog.products.length, 88);
+  assert.equal(catalog.count, 87);
+  assert.equal(catalog.products.length, 87);
   assert.equal(catalog.products.filter((product) => product.category === 'polymer-clay-slices').length, 16);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 88);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 87);
   assert.match(category, /<strong data-product-count>16 products<\/strong>/);
   assert.equal((category.match(/data-product-card/g) || []).length, 16);
-  assert.match(home, /<span>88 cataloged products<\/span>/);
+  assert.match(home, /<span>87 cataloged products<\/span>/);
   assert.match(home, /<span class="eyebrow">16 products<\/span><h3>Polymer Clay Slices<\/h3>/);
-  assert.match(directory, /Browse 88 published products/);
+  assert.match(directory, /Browse 87 published products/);
   assert.match(directory, /<span>16 Products<\/span>[\s\S]*?<h2>Polymer Clay Slices<\/h2>/);
 
   const itemList = [...category.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]

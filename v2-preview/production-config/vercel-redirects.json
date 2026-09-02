@@ -411,6 +411,26 @@
       "source": "/products/resin-charms-for-slime/rw002628-spring-mini-duck-charms/",
       "destination": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
       "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx4003-halloween-polymer-clay-sprinkle-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx4004-colorful-pixel-game-polymer-clay-slice-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx4005-colorful-candy-polymer-clay-slice-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/",
+      "permanent": true
+    },
+    {
+      "source": "/products/polymer-clay-slices-wholesale/yx4009-colorful-game-polymer-clay-slice-mix/",
+      "destination": "/products/polymer-clay-slices-wholesale/",
+      "permanent": true
     }
   ]
 }

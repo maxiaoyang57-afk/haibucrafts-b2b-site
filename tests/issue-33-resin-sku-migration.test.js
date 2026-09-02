@@ -99,6 +99,9 @@ test('RW26189 correction keeps the Spring Mini Duck identity and aliases both le
   assert.match(card, /<h3>Spring Mini Duck Charms<\/h3>/);
   assert.match(card, /spring-mini-duck-charms/);
   assert.equal(await access(path.join(root, 'products', 'resin-charms-for-slime', 'rw26189-spring-mini-duck-charms', 'index.html')).then(() => true), true);
+  const relatedPage = await readFile(path.join(root, 'products', 'resin-charms-for-slime', 'rw26439-mermaid-ocean-flatback-charms', 'index.html'), 'utf8');
+  assert.match(relatedPage, /rw26189-spring-mini-duck-charms/);
+  assert.doesNotMatch(relatedPage, /rw1775-spring-mini-duck-charms/);
   for (const relative of ['vercel.json', path.join('v2-preview', 'production-config', 'vercel-redirects.json')]) {
     const config = JSON.parse(await readFile(path.join(root, relative), 'utf8'));
     const redirects = new Map(config.redirects.map((redirect) => [redirect.source, redirect]));

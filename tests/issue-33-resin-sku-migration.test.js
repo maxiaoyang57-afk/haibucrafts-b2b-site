@@ -7,6 +7,9 @@ const root = process.cwd();
 const origin = 'https://www.haibucrafts.com';
 const migration = JSON.parse(await readFile(path.join(root, 'scripts', 'data', 'issue-33-resin-sku-migration.json'), 'utf8'));
 const mapping = migration.mapping;
+const correction = JSON.parse(await readFile(path.join(root, 'scripts', 'data', 'resin-rw26189-correction.json'), 'utf8'));
+const effectiveMapping = { ...mapping, RW26189: correction.finalSku };
+const retirement = JSON.parse(await readFile(path.join(root, 'scripts', 'data', 'resin-rw1711-retirement.json'), 'utf8'));
 const sourceIdentity = {
   RW4252: ['Glitter Cherry Resin Charms', '/assets/images/products/glitter-cherry-resin-charms.webp'],
   RW994: ['Iridescent Ocean Animal Charms', '/assets/images/products/iridescent-ocean-animal-charms.webp'],
@@ -32,18 +35,19 @@ const sourceIdentity = {
 
 const categoryHtml = await readFile(path.join(root, 'v2-preview', 'products', 'resin-charms', 'index.html'), 'utf8');
 const cards = [...categoryHtml.matchAll(/<article class="product-card-v2"[\s\S]*?<\/article>/g)].map((match) => match[0]);
-const finalSkus = [...new Set(Object.values(mapping))];
+const finalSkus = [...new Set(Object.values(effectiveMapping))].filter((sku) => sku !== retirement.sku);
 
-test('Resin migration has exactly 20 unique corrected SKUs', () => {
+test('Resin migration has 19 active unique corrected SKUs after RW1711 retirement', () => {
   const cardsSkus = cards.map((card) => card.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]);
-  assert.equal(cards.length, 20);
-  assert.equal(new Set(cardsSkus).size, 20);
+  assert.equal(cards.length, 19);
+  assert.equal(new Set(cardsSkus).size, 19);
   assert.deepEqual(new Set(cardsSkus), new Set(finalSkus));
   assert.equal(mapping.RW002859, 'RW002859');
 });
 
 test('each corrected card/detail preserves original product identity and quote SKU', async () => {
-  for (const [oldSku, newSku] of Object.entries(mapping)) {
+  for (const [oldSku, newSku] of Object.entries(effectiveMapping)) {
+    if (newSku === retirement.sku) continue;
     const [title, image] = sourceIdentity[oldSku];
     const card = cards.find((item) => item.includes(`sku-badge">${newSku}<`));
     assert.ok(card, `missing corrected card for ${oldSku} -> ${newSku}`);
@@ -75,7 +79,8 @@ test('all Resin legacy product URLs are one-hop permanent redirects', async () =
     const config = JSON.parse(await readFile(path.join(root, relative), 'utf8'));
     const redirects = new Map(config.redirects.map((redirect) => [redirect.source, redirect]));
     const sources = new Set(config.redirects.map((redirect) => redirect.source));
-    for (const [oldSku, newSku] of Object.entries(mapping)) {
+    for (const [oldSku, newSku] of Object.entries(effectiveMapping)) {
+      if (newSku === retirement.sku) continue;
       if (oldSku === newSku) continue;
       const source = `/products/resin-charms-for-slime/${oldDirs[oldSku]}/`;
       const destination = `/products/resin-charms-for-slime/${newDirs.get(newSku)}/`;
@@ -86,4 +91,25 @@ test('all Resin legacy product URLs are one-hop permanent redirects', async () =
   }
   assert.equal(await access(path.join(root, 'products', 'resin-charms-for-slime', 'rw002859-green-ghost-flatback-charms', 'index.html')).then(() => true), true);
   assert.equal(origin, 'https://www.haibucrafts.com');
+});
+
+test('RW26189 correction keeps the Spring Mini Duck identity and aliases both legacy codes', async () => {
+  const card = cards.find((item) => item.includes(`sku-badge">${correction.finalSku}<`));
+  assert.ok(card, 'RW26189 card missing');
+  assert.match(card, /<h3>Spring Mini Duck Charms<\/h3>/);
+  assert.match(card, /spring-mini-duck-charms/);
+  assert.equal(await access(path.join(root, 'products', 'resin-charms-for-slime', 'rw26189-spring-mini-duck-charms', 'index.html')).then(() => true), true);
+  const relatedPage = await readFile(path.join(root, 'products', 'resin-charms-for-slime', 'rw26439-mermaid-ocean-flatback-charms', 'index.html'), 'utf8');
+  assert.match(relatedPage, /rw26189-spring-mini-duck-charms/);
+  assert.doesNotMatch(relatedPage, /rw1775-spring-mini-duck-charms/);
+  for (const relative of ['vercel.json', path.join('v2-preview', 'production-config', 'vercel-redirects.json')]) {
+    const config = JSON.parse(await readFile(path.join(root, relative), 'utf8'));
+    const redirects = new Map(config.redirects.map((redirect) => [redirect.source, redirect]));
+    for (const source of correction.legacyPaths) {
+      const redirect = redirects.get(source);
+      assert.equal(redirect?.destination, correction.finalPath, `${relative}: ${source}`);
+      assert.equal(redirect?.permanent, true, `${relative}: ${source} must be permanent`);
+    }
+    assert.equal(redirects.get(correction.finalPath), undefined, `${relative}: final path must not redirect`);
+  }
 });

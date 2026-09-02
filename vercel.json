@@ -289,7 +289,12 @@
     },
     {
       "source": "/products/resin-charms-for-slime/rw5806-glitter-bow-head-resin-charms/",
-      "destination": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/",
+      "destination": "/products/resin-charms-for-slime/",
       "permanent": true
     },
     {
@@ -300,11 +305,6 @@
     {
       "source": "/products/resin-charms-for-slime/rw003422-frosted-cookie-resin-charms/",
       "destination": "/products/resin-charms-for-slime/rw22372-frosted-cookie-resin-charms/",
-      "permanent": true
-    },
-    {
-      "source": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
-      "destination": "/products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/",
       "permanent": true
     },
     {
@@ -349,7 +349,12 @@
     },
     {
       "source": "/products/sequins-glitter-confetti/ma087-iridescent-circle-ring-sequins/",
-      "destination": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
+      "destination": "/products/sequins-glitter-confetti/",
+      "permanent": true
+    },
+    {
+      "source": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
+      "destination": "/products/sequins-glitter-confetti/",
       "permanent": true
     },
     {
@@ -435,6 +440,16 @@
     {
       "source": "/products/sequins-glitter-confetti/ma225-rainbow-micro-star-sprinkles/",
       "destination": "/products/sequins-glitter-confetti/ma013-rainbow-micro-star-sprinkles/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/",
+      "destination": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw002628-spring-mini-duck-charms/",
+      "destination": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
       "permanent": true
     }
   ],

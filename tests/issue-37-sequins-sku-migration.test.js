@@ -5,6 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
+const retirement = JSON.parse(await readFile(path.join(root, 'scripts', 'data', 'sequins-ma079-retirement.json'), 'utf8'));
 const mapping = {
   MA012: 'MA119', MA087: 'MA079', MA109: 'MA118', MA107: 'MA601', MA119: 'MA059', MA127: 'MA131', MA131: 'MA064', MA064: 'MA127', MA302: 'MA107', MA601: 'MA109', MA013: 'MA217', MA602: 'MA225', MA084: 'MA602', MA217: 'MA084', MA118: 'YM109', MA059: 'MA041', MA041: 'MA302', 'YM109-2': 'MA012', MA225: 'MA013'
 };
@@ -36,14 +37,15 @@ const oldSlug = {
 const cards = (html) => [...html.matchAll(/<article class="product-card-v2"[\s\S]*?<\/article>/g)].map((m) => m[0]);
 const skuCard = (html, sku) => cards(html).find((card) => card.includes(`<span class="sku-badge">${sku}</span>`));
 
-test('Issue #37 preserves all 19 Sequins identities while applying corrected unique SKUs', async () => {
+test('Issue #37 preserves active Sequins identities while applying corrected unique SKUs', async () => {
   const catalog = JSON.parse(await readFile(path.join(root, 'assets/v2/product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products/sequins-glitter-confetti/index.html'), 'utf8');
   const products = catalog.products.filter((product) => product.category === 'sequins-glitter-confetti');
-  assert.equal(products.length, 19);
-  assert.equal(new Set(products.map((product) => product.sku)).size, 19);
-  assert.equal(cards(category).length, 19);
+  assert.equal(products.length, 18);
+  assert.equal(new Set(products.map((product) => product.sku)).size, 18);
+  assert.equal(cards(category).length, 18);
   for (const [oldSku, newSku] of Object.entries(mapping)) {
+    if (newSku === retirement.sku) continue;
     const [title, image] = identity[oldSku];
     const card = skuCard(category, newSku);
     assert.ok(card, `missing corrected card ${newSku}`);
@@ -65,6 +67,7 @@ test('Issue #37 adds one-hop redirects for every original Sequins URL', async ()
   const redirects = new Map(vercel.redirects.map((item) => [item.source, item]));
   const catalog = JSON.parse(await readFile(path.join(root, 'assets/v2/product-catalog.json'), 'utf8'));
   for (const [oldSku, newSku] of Object.entries(mapping)) {
+    if (newSku === retirement.sku) continue;
     const product = catalog.products.find((item) => item.category === 'sequins-glitter-confetti' && item.sku === newSku && item.title === identity[oldSku][0]);
     assert.ok(product, `destination product missing for ${oldSku}`);
     const source = `/products/sequins-glitter-confetti/${oldSlug[oldSku]}/`;

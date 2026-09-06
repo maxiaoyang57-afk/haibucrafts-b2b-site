@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-08-25",
-  "count": 88,
+  "count": 82,
   "products": [
     {
       "sku": "YX048",
@@ -108,57 +108,6 @@
       "productionPath": "/products/polymer-clay-slices-wholesale/yx4002-christmas-polymer-clay-sprinkle-mix/"
     },
     {
-      "sku": "YX4003",
-      "title": "Halloween Polymer Clay Sprinkle Mix",
-      "category": "polymer-clay-slices",
-      "categoryLabel": "Polymer Clay Slices",
-      "type": "Seasonal",
-      "image": "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-01.webp",
-      "gallery": [
-        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-01.webp",
-        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-02.webp",
-        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-03.webp",
-        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-04.webp",
-        "/assets/images/products/batch-2026-08/yx4003/yx4003-halloween-polymer-clay-sprinkles-05.webp"
-      ],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4003-halloween-polymer-clay-sprinkle-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx4003-halloween-polymer-clay-sprinkle-mix/"
-    },
-    {
-      "sku": "YX4004",
-      "title": "Colorful Pixel Game Polymer Clay Slice Mix",
-      "category": "polymer-clay-slices",
-      "categoryLabel": "Polymer Clay Slices",
-      "type": "Decorative",
-      "image": "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-01.webp",
-      "gallery": [
-        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-01.webp",
-        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-02.webp",
-        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-03.webp",
-        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-04.webp",
-        "/assets/images/products/batch-2026-08/yx4004/yx4004-colorful-polymer-clay-sprinkles-05.webp"
-      ],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4004-colorful-pixel-game-polymer-clay-slice-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx4004-colorful-pixel-game-polymer-clay-slice-mix/"
-    },
-    {
-      "sku": "YX4005",
-      "title": "Colorful Candy Polymer Clay Slice Mix",
-      "category": "polymer-clay-slices",
-      "categoryLabel": "Polymer Clay Slices",
-      "type": "Sweet",
-      "image": "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-01.webp",
-      "gallery": [
-        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-01.webp",
-        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-02.webp",
-        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-03.webp",
-        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-04.webp",
-        "/assets/images/products/batch-2026-08/yx4005/yx4005-candy-polymer-clay-sprinkles-05.webp"
-      ],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4005-colorful-candy-polymer-clay-slice-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx4005-colorful-candy-polymer-clay-slice-mix/"
-    },
-    {
       "sku": "YX4008",
       "title": "Christmas Candy Polymer Clay Slice Mix",
       "category": "polymer-clay-slices",
@@ -174,23 +123,6 @@
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx4008-christmas-candy-polymer-clay-slice-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx4008-christmas-candy-polymer-clay-slice-mix/"
-    },
-    {
-      "sku": "YX4009",
-      "title": "Colorful Game Polymer Clay Slice Mix",
-      "category": "polymer-clay-slices",
-      "categoryLabel": "Polymer Clay Slices",
-      "type": "Decorative",
-      "image": "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-01.webp",
-      "gallery": [
-        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-01.webp",
-        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-02.webp",
-        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-03.webp",
-        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-04.webp",
-        "/assets/images/products/batch-2026-08/yx4009/yx4009-game-style-polymer-clay-sprinkles-05.webp"
-      ],
-      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4009-colorful-game-polymer-clay-slice-mix/",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx4009-colorful-game-polymer-clay-slice-mix/"
     },
     {
       "sku": "YX4010",
@@ -892,17 +824,6 @@
       "productionPath": "/products/resin-charms-for-slime/rw26439-mermaid-ocean-flatback-charms/"
     },
     {
-      "sku": "RW1711",
-      "title": "Glitter Bow Head Resin Charms",
-      "category": "resin-charms",
-      "categoryLabel": "Resin Charms",
-      "type": "Mixed",
-      "image": "/assets/images/products/glitter-bow-head-resin-charms.webp",
-      "gallery": [],
-      "previewPath": "/v2-preview/products/resin-charms/rw1711-glitter-bow-head-resin-charms/",
-      "productionPath": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/"
-    },
-    {
       "sku": "RW1620",
       "title": "Pastel Candy Disc Charms",
       "category": "resin-charms",
@@ -925,15 +846,15 @@
       "productionPath": "/products/resin-charms-for-slime/rw22372-frosted-cookie-resin-charms/"
     },
     {
-      "sku": "RW1775",
+      "sku": "RW26189",
       "title": "Spring Mini Duck Charms",
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Animal",
       "image": "/assets/images/products/sc010-spring-mini-duck-charms.webp",
       "gallery": [],
-      "previewPath": "/v2-preview/products/resin-charms/rw1775-spring-mini-duck-charms/",
-      "productionPath": "/products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/"
+      "previewPath": "/v2-preview/products/resin-charms/rw26189-spring-mini-duck-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/"
     },
     {
       "sku": "MA119",
@@ -945,17 +866,6 @@
       "gallery": [],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/",
       "productionPath": "/products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/"
-    },
-    {
-      "sku": "MA079",
-      "title": "Iridescent Circle Ring Sequins",
-      "category": "sequins-glitter-confetti",
-      "categoryLabel": "Sequins & Confetti",
-      "type": "Geometric",
-      "image": "/assets/images/products/iridescent-circle-ring-sequins.webp",
-      "gallery": [],
-      "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
-      "productionPath": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/"
     },
     {
       "sku": "MA118",

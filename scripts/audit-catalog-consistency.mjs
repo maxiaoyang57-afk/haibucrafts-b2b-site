@@ -4,10 +4,12 @@ import process from 'node:process';
 
 const root = process.cwd();
 const config = JSON.parse(await readFile(path.join(root, 'scripts/data/issue-37-sequins-sku-migration.json'), 'utf8'));
+const retirement = JSON.parse(await readFile(path.join(root, 'scripts/data/sequins-ma079-retirement.json'), 'utf8'));
 const category = config.category;
 const mapping = config.mapping;
 const legacyPaths = Object.keys(mapping);
-const finalSkus = [...new Set(Object.values(mapping))];
+const finalSkus = [...new Set(Object.values(mapping))].filter((sku) => sku !== retirement.sku);
+const expectedActiveCount = config.expectedActiveCount - 1;
 const errors = [];
 
 const exists = async (file) => { try { await access(file); return true; } catch { return false; } };
@@ -18,14 +20,14 @@ const hrefsOf = (html) => [...html.matchAll(/href="(\/products\/sequins-glitter-
 
 const catalog = JSON.parse(await read('assets/v2/product-catalog.json'));
 const products = catalog.products.filter((product) => product.category === category);
-if (products.length !== config.expectedActiveCount) errors.push(`catalog has ${products.length} active products; expected ${config.expectedActiveCount}`);
+if (products.length !== expectedActiveCount) errors.push(`catalog has ${products.length} active products; expected ${expectedActiveCount}`);
 if (new Set(products.map((product) => product.sku)).size !== products.length) errors.push('catalog contains duplicate active SKU codes');
 if (finalSkus.some((sku) => !products.some((product) => product.sku === sku))) errors.push('catalog is missing a corrected SKU from the Issue #37 authority map');
 
 for (const source of ['products/sequins-glitter-confetti/index.html', 'v2-preview/products/sequins-glitter-confetti/index.html']) {
   const html = await read(source);
   const cards = cardsOf(html);
-  if (cards.length !== config.expectedActiveCount) errors.push(`${source} has ${cards.length} cards; expected ${config.expectedActiveCount}`);
+  if (cards.length !== expectedActiveCount) errors.push(`${source} has ${cards.length} cards; expected ${expectedActiveCount}`);
   for (const sku of finalSkus) {
     const matches = cards.filter((card) => skuOf(card) === sku);
     if (matches.length !== 1) errors.push(`${source} has ${matches.length} cards for corrected SKU ${sku}`);
@@ -39,12 +41,18 @@ const sitemap = await read('sitemap.xml');
 const vercel = JSON.parse(await read('vercel.json'));
 for (const product of products) if (!sitemap.includes(`<loc>https://www.haibucrafts.com${product.productionPath}</loc>`)) errors.push(`sitemap is missing ${product.productionPath}`);
 for (const sourceSku of legacyPaths) {
+  if (mapping[sourceSku] === retirement.sku) continue;
   const sourceProduct = products.find((product) => product.sku === mapping[sourceSku]);
   const redirect = vercel.redirects.find((item) => item.destination === sourceProduct?.productionPath && item.source.startsWith(`/products/${category}/`));
   const legacyPath = redirect?.source;
   if (!legacyPath) { errors.push(`redirect missing for original SKU ${sourceSku}`); continue; }
   if (sitemap.includes(`<loc>https://www.haibucrafts.com${legacyPath}</loc>`)) errors.push(`sitemap still contains legacy path ${legacyPath}`);
   if (!redirect || redirect.permanent !== true || redirect.destination !== sourceProduct?.productionPath) errors.push(`redirect mismatch for ${legacyPath}`);
+}
+const retiredRedirect = vercel.redirects.find((item) => item.source === retirement.retiredPath);
+const legacyRetiredRedirect = vercel.redirects.find((item) => item.source === retirement.legacyPath);
+for (const redirect of [retiredRedirect, legacyRetiredRedirect]) {
+  if (!redirect || redirect.destination !== retirement.redirectTo || redirect.permanent !== true) errors.push(`retired MA079 redirect is missing or not a permanent category redirect`);
 }
 
 if (process.argv.includes('--live')) {
@@ -53,7 +61,7 @@ if (process.argv.includes('--live')) {
   const categoryResponse = await fetchPage(`/products/${category}/`);
   const categoryHtml = await categoryResponse.text();
   if (categoryResponse.status !== 200) errors.push(`live category returned HTTP ${categoryResponse.status}`);
-  if (cardsOf(categoryHtml).length !== config.expectedActiveCount) errors.push('live category card count does not match authority map');
+  if (cardsOf(categoryHtml).length !== expectedActiveCount) errors.push('live category card count does not match authority map');
   for (const product of products) {
     const response = await fetchPage(product.productionPath);
     const html = await response.text();
@@ -62,6 +70,7 @@ if (process.argv.includes('--live')) {
     if (canonical !== `https://www.haibucrafts.com${product.productionPath}`) errors.push(`live canonical mismatch for ${product.sku}`);
   }
   for (const sourceSku of legacyPaths) {
+    if (mapping[sourceSku] === retirement.sku) continue;
     const destination = products.find((product) => product.sku === mapping[sourceSku]);
     const redirect = vercel.redirects.find((item) => item.destination === destination?.productionPath && item.source.startsWith(`/products/${category}/`));
     if (!redirect) continue;

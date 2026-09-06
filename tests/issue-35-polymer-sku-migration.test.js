@@ -20,13 +20,13 @@ const identities = {
 const decode = (value) => value.replaceAll('&amp;', '&');
 const cardForSku = (html, sku) => [...html.matchAll(/<article class="product-card-v2"[\s\S]*?<\/article>/g)].map((m) => m[0]).find((card) => card.includes(`<span class="sku-badge">${sku}</span>`));
 
-test('Issue #35 leaves 16 unique active Polymer identities and retires original YX038', async () => {
+test('Issue #35 mappings remain intact across 12 active Polymer identities', async () => {
   const catalog = JSON.parse(await readFile(path.join(root, 'assets/v2/product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products/polymer-clay-slices-wholesale/index.html'), 'utf8');
   const polymer = catalog.products.filter((product) => product.category === 'polymer-clay-slices');
-  assert.equal(polymer.length, 16);
-  assert.equal(new Set(polymer.map((product) => product.sku)).size, 16);
-  assert.equal(category.match(/class="product-card-v2"/g)?.length, 16);
+  assert.equal(polymer.length, 12);
+  assert.equal(new Set(polymer.map((product) => product.sku)).size, 12);
+  assert.equal(category.match(/class="product-card-v2"/g)?.length, 12);
   assert.doesNotMatch(category, /Pink &amp; Blue Decorative Slice Mix/);
   assert.doesNotMatch(category, /hc009-ocean-fish-dolphin-mix/);
 

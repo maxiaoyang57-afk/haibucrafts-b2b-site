@@ -155,38 +155,10 @@
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/polymer-clay-slices/yx4003-halloween-polymer-clay-sprinkle-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx4003-halloween-polymer-clay-sprinkle-mix/index.html",
-      "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx4003-halloween-polymer-clay-sprinkle-mix/",
-      "generatedProduct": true
-    },
-    {
-      "source": "v2-preview/products/polymer-clay-slices/yx4004-colorful-pixel-game-polymer-clay-slice-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx4004-colorful-pixel-game-polymer-clay-slice-mix/index.html",
-      "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx4004-colorful-pixel-game-polymer-clay-slice-mix/",
-      "generatedProduct": true
-    },
-    {
-      "source": "v2-preview/products/polymer-clay-slices/yx4005-colorful-candy-polymer-clay-slice-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx4005-colorful-candy-polymer-clay-slice-mix/index.html",
-      "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx4005-colorful-candy-polymer-clay-slice-mix/",
-      "generatedProduct": true
-    },
-    {
       "source": "v2-preview/products/polymer-clay-slices/yx4008-christmas-candy-polymer-clay-slice-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx4008-christmas-candy-polymer-clay-slice-mix/index.html",
       "action": "create",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx4008-christmas-candy-polymer-clay-slice-mix/",
-      "generatedProduct": true
-    },
-    {
-      "source": "v2-preview/products/polymer-clay-slices/yx4009-colorful-game-polymer-clay-slice-mix/index.html",
-      "destination": "products/polymer-clay-slices-wholesale/yx4009-colorful-game-polymer-clay-slice-mix/index.html",
-      "action": "create",
-      "productionPath": "/products/polymer-clay-slices-wholesale/yx4009-colorful-game-polymer-clay-slice-mix/",
       "generatedProduct": true
     },
     {
@@ -547,13 +519,6 @@
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/resin-charms/rw1711-glitter-bow-head-resin-charms/index.html",
-      "destination": "products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/index.html",
-      "action": "create",
-      "productionPath": "/products/resin-charms-for-slime/rw1711-glitter-bow-head-resin-charms/",
-      "generatedProduct": true
-    },
-    {
       "source": "v2-preview/products/resin-charms/rw1620-pastel-candy-disc-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw1620-pastel-candy-disc-charms/index.html",
       "action": "create",
@@ -568,10 +533,10 @@
       "generatedProduct": true
     },
     {
-      "source": "v2-preview/products/resin-charms/rw1775-spring-mini-duck-charms/index.html",
-      "destination": "products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/index.html",
+      "source": "v2-preview/products/resin-charms/rw26189-spring-mini-duck-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/index.html",
       "action": "create",
-      "productionPath": "/products/resin-charms-for-slime/rw1775-spring-mini-duck-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/",
       "generatedProduct": true
     },
     {
@@ -579,13 +544,6 @@
       "destination": "products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/index.html",
       "action": "create",
       "productionPath": "/products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/",
-      "generatedProduct": true
-    },
-    {
-      "source": "v2-preview/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/index.html",
-      "destination": "products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/index.html",
-      "action": "create",
-      "productionPath": "/products/sequins-glitter-confetti/ma079-iridescent-circle-ring-sequins/",
       "generatedProduct": true
     },
     {

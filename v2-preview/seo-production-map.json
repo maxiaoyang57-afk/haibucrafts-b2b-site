@@ -2,7 +2,8 @@
   "site": {
     "origin": "https://www.haibucrafts.com",
     "brand": "HAIBUCRAFT",
-    "defaultOgImage": "/brand/haibu-og.png"
+    "defaultOgImage": "/brand/haibu-og.png",
+    "defaultLastModified": "2026-08-21"
   },
   "routes": [
     {
@@ -11,6 +12,7 @@
       "title": "Wholesale Slime & Craft Supplies | HAIBUCRAFT",
       "description": "Source wholesale slime charms, polymer clay slices, resin charms, sequins and custom packaging with HAIBUCRAFT B2B project support.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true
     },
     {
@@ -19,6 +21,7 @@
       "title": "Wholesale Slime and Craft Products | HAIBUCRAFT",
       "description": "Browse HAIBUCRAFT wholesale slime charms, polymer clay slices, resin charms, sequins and glitter confetti for B2B sourcing programs.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true
     },
     {
@@ -27,7 +30,8 @@
       "title": "Bulk Slime Charms Wholesale Supplier | HAIBUCRAFT",
       "description": "Source bulk slime charms and themed charms for slime in mixed wholesale assortments for brands, importers, DIY kits and private-label programs.",
       "type": "website",
-      "index": true
+      "index": true,
+      "lastModified": "2026-09-06"
     },
     {
       "previewPath": "/v2-preview/products/polymer-clay-slices/",
@@ -35,7 +39,8 @@
       "title": "Wholesale Polymer Clay Slices & Sprinkles | HAIBUCRAFT",
       "description": "Source wholesale polymer clay slices and sprinkles in candy, fruit, seasonal and decorative mixes for slime, nail art, shaker fillers and DIY kits.",
       "type": "website",
-      "index": true
+      "index": true,
+      "lastModified": "2026-09-06"
     },
     {
       "previewPath": "/v2-preview/products/resin-charms/",
@@ -43,7 +48,8 @@
       "title": "Bulk Resin Charms Wholesale for Slime & Crafts | HAIBUCRAFT",
       "description": "Browse bulk resin charms and flatback decorative pieces for slime, decoden, DIY kits, craft brands and mixed wholesale sourcing programs.",
       "type": "website",
-      "index": true
+      "index": true,
+      "lastModified": "2026-09-06"
     },
     {
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/",
@@ -51,7 +57,8 @@
       "title": "Sequins and Glitter Confetti Wholesale | HAIBUCRAFT",
       "description": "Source shaped sequins, holographic glitter and decorative confetti for slime, nail art, shaker fillers, resin crafts and DIY kits.",
       "type": "website",
-      "index": true
+      "index": true,
+      "lastModified": "2026-09-06"
     },
     {
       "previewPath": "/v2-preview/custom-solutions/",
@@ -124,6 +131,7 @@
       "title": "Pink Candy Polymer Clay Slices Wholesale YX048 | HAIBUCRAFT",
       "description": "Source YX048 pink candy polymer clay slices for coordinated slime, shaker and DIY assortments. Mixed-SKU packing and custom requirements are reviewed by quote.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -133,6 +141,7 @@
       "title": "Colorful Candy Polymer Clay Slices Wholesale YX043 | HAIBUCRAFT",
       "description": "Source YX043 colorful round polymer clay slices for slime, nail art, shaker fillers and DIY kits, with mixed-SKU and packing requirements confirmed by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -142,6 +151,7 @@
       "title": "Colorful Polymer Clay Sprinkle Mix Wholesale YX577 | HAIBUCRAFT",
       "description": "Source YX577 colorful polymer clay sprinkle and scatter mix for slime, shaker fillers and DIY kits. Confirm mix ratio, packing and custom color direction by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -151,6 +161,7 @@
       "title": "Fantasy Candy Polymer Clay Slices Wholesale YX3531 | HAIBUCRAFT",
       "description": "Source YX3531 fantasy candy polymer clay slices with accent details for premium-looking slime and DIY assortments. Confirm composition, size and packing by quote.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -160,6 +171,7 @@
       "title": "Gothic Halloween Polymer Clay Slices Wholesale YX3400 | HAIBUCRAFT",
       "description": "Source YX3400 gothic Halloween polymer clay slices for seasonal slime, craft kits and shaker fillers. Confirm assortment ratio, packaging and schedule by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -169,6 +181,7 @@
       "title": "Rainbow Polymer Clay Sprinkle Mix Wholesale YX097 | HAIBUCRAFT",
       "description": "Source YX097 rainbow polymer clay sprinkle and crumble mix for slime, shaker fillers and DIY assortments, with color balance and packing confirmed by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -178,6 +191,7 @@
       "title": "Halloween Polymer Clay Slice Mix Wholesale YX038 | HAIBUCRAFT",
       "description": "Source YX038 Halloween polymer clay slices for seasonal slime, shaker and DIY kits. Confirm product mix, packaging, timing and destination requirements by quote.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -187,6 +201,7 @@
       "title": "Strawberry Polymer Clay Slices Wholesale YX778 | HAIBUCRAFT",
       "description": "Source YX778 strawberry and candy-heart polymer clay slices for fruit-theme slime, shaker and DIY programs, with packing and mix requirements confirmed by quote.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -196,6 +211,7 @@
       "title": "Christmas Polymer Clay Sprinkle Mix YX4002 | HAIBUCRAFT",
       "description": "Source Christmas Polymer Clay Sprinkle Mix YX4002 for wholesale seasonal slime and DIY-kit programs. Confirm mix, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -205,6 +221,7 @@
       "title": "Christmas Candy Polymer Clay Slice Mix YX4008 | HAIBUCRAFT",
       "description": "Source Christmas Candy Polymer Clay Slice Mix YX4008 for wholesale holiday craft programs. Confirm motif mix, packing, MOQ and seasonal timing by quote.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -214,6 +231,7 @@
       "title": "Pastel Candy Polymer Clay Sprinkle Mix YX4010 | HAIBUCRAFT",
       "description": "Source Pastel Candy Polymer Clay Sprinkle Mix YX4010 for wholesale soft-color craft programs. Confirm mix, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -223,6 +241,7 @@
       "title": "Pastel Fruit and Flower Polymer Clay Slice YX4011 | HAIBUCRAFT",
       "description": "Source Pastel Fruit and Flower Polymer Clay Slice Mix YX4011 for wholesale craft assortments. Confirm motif mix, packing, MOQ and lead time by quote.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -232,6 +251,7 @@
       "title": "Pink Knife and Candy Decor Charms SLM10094 | HAIBUCRAFT",
       "description": "Pink Knife and Candy Decor Charms (SLM10094) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -241,6 +261,7 @@
       "title": "Holiday Character Candy Charm Mix SLM10130 | HAIBUCRAFT",
       "description": "Holiday Character Candy Charm Mix (SLM10130) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -250,6 +271,7 @@
       "title": "Dreamy Mini Doll Sprinkle Mix SLM712 | HAIBUCRAFT",
       "description": "Dreamy Mini Doll Sprinkle Mix (SLM712) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -259,6 +281,7 @@
       "title": "Space Candy Adventure Charms SLM680 | HAIBUCRAFT",
       "description": "Space Candy Adventure Charms (SLM680) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -268,6 +291,7 @@
       "title": "Seashell Candy Decor Plate Mix SLM713 | HAIBUCRAFT",
       "description": "Seashell Candy Decor Plate Mix (SLM713) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -277,6 +301,7 @@
       "title": "Mermaid Tail and Candy Stars Mix SLM10093 | HAIBUCRAFT",
       "description": "Mermaid Tail and Candy Stars Mix (SLM10093) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -286,6 +311,7 @@
       "title": "Sweet Berry Candy Charms SLM10012 | HAIBUCRAFT",
       "description": "Sweet Berry Candy Charms (SLM10012) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -295,6 +321,7 @@
       "title": "St. Patrick's Sprinkle Mix SLM707 | HAIBUCRAFT",
       "description": "St. Patrick's Sprinkle Mix (SLM707) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -304,6 +331,7 @@
       "title": "Peach Polymer Clay Slices SLM10123 | HAIBUCRAFT",
       "description": "Peach Polymer Clay Slices (SLM10123) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -313,6 +341,7 @@
       "title": "Undersea Craft Charm Pile SLM715 | HAIBUCRAFT",
       "description": "Undersea Craft Charm Pile (SLM715) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -322,6 +351,7 @@
       "title": "Colorful Mini Food Charms SLM693 | HAIBUCRAFT",
       "description": "Colorful Mini Food Charms (SLM693) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -331,6 +361,7 @@
       "title": "Pink Candy Charm Assortment SLM26521 | HAIBUCRAFT",
       "description": "Pink Candy Charm Assortment (SLM26521) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -340,6 +371,7 @@
       "title": "Mini Snack Layout Charms SLM717 | HAIBUCRAFT",
       "description": "Mini Snack Layout Charms (SLM717) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -349,6 +381,7 @@
       "title": "Gingerbread Holiday Charm Feast SLM10129 | HAIBUCRAFT",
       "description": "Gingerbread Holiday Charm Feast (SLM10129) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -358,6 +391,7 @@
       "title": "Sparkly Cute Charm Scatter SLM684 | HAIBUCRAFT",
       "description": "Sparkly Cute Charm Scatter (SLM684) is listed in the HAIBUCRAFT slime charms catalog for slime decoration, sensory kits, DIY craft boxes and retail assortments.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -367,6 +401,7 @@
       "title": "Mermaid and Ocean Slime Charm Mix SLM10001 | HAIBUCRAFT",
       "description": "Source Mermaid and Ocean Slime Charm Mix SLM10001 for wholesale slime, DIY kits and private-label packs. Confirm MOQ, packing and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -376,6 +411,7 @@
       "title": "Pink Halloween Ghost and Fruit Slime Charm SLM10002 | HAIBUCRAFT",
       "description": "Source Pink Halloween Ghost and Fruit Slime Charm Mix SLM10002 for seasonal wholesale programs. Confirm samples, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -385,6 +421,7 @@
       "title": "Christmas Santa and Tree Slime Charm Mix SLM10003 | HAIBUCRAFT",
       "description": "Source Christmas Santa and Tree Slime Charm Mix SLM10003 for wholesale holiday assortments. Confirm sample, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -394,6 +431,7 @@
       "title": "Halloween Skeleton and Candy Corn Slime SLM10004 | HAIBUCRAFT",
       "description": "Source Halloween Skeleton and Candy Corn Slime Charm Mix SLM10004 for wholesale seasonal packs. Confirm sample, MOQ, packing and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -403,6 +441,7 @@
       "title": "Pastel Animal Slime Charm Mix SLM10005 | HAIBUCRAFT",
       "description": "Source Pastel Animal Slime Charm Mix SLM10005 for wholesale slime, craft kits and private-label assortments. Confirm packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -412,6 +451,7 @@
       "title": "Pastel Flower Slime Charm Mix SLM10008 | HAIBUCRAFT",
       "description": "Source Pastel Flower Slime Charm Mix SLM10008 for wholesale spring and floral assortments. Confirm sample, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -421,6 +461,7 @@
       "title": "Christmas Snowflake and Santa Slime Charm SLM10009 | HAIBUCRAFT",
       "description": "Source Christmas Snowflake and Santa Slime Charm Mix SLM10009 for wholesale holiday programs. Confirm sample, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -430,6 +471,7 @@
       "title": "Red Halloween Ghost Slime Charm Mix SLM10010 | HAIBUCRAFT",
       "description": "Source Red Halloween Ghost Slime Charm Mix SLM10010 for wholesale seasonal collections. Confirm sample, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -439,6 +481,7 @@
       "title": "Purple Halloween Skull Slime Charm Mix SLM10011 | HAIBUCRAFT",
       "description": "Source Purple Halloween Skull Slime Charm Mix SLM10011 for wholesale seasonal assortments. Confirm sample, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -448,6 +491,7 @@
       "title": "Christmas Santa and Candy Slime Charm Mix SLM10013 | HAIBUCRAFT",
       "description": "Source Christmas Santa and Candy Slime Charm Mix SLM10013 for wholesale holiday programs. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -457,6 +501,7 @@
       "title": "Halloween Pumpkin and Cat Slime Charm Mix SLM10014 | HAIBUCRAFT",
       "description": "Source Halloween Pumpkin and Cat Slime Charm Mix SLM10014 for wholesale seasonal assortments. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -466,6 +511,7 @@
       "title": "Christmas Peppermint and Snowman Slime SLM10015 | HAIBUCRAFT",
       "description": "Source Christmas Peppermint and Snowman Slime Charm Mix SLM10015 for wholesale programs. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -475,6 +521,7 @@
       "title": "Pastel Flower and Moon Slime Charm Mix SLM10016 | HAIBUCRAFT",
       "description": "Source Pastel Flower and Moon Slime Charm Mix SLM10016 for wholesale floral programs. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -484,6 +531,7 @@
       "title": "Christmas Tree and Snowman Slime Charm Mix SLM10017 | HAIBUCRAFT",
       "description": "Source Christmas Tree and Snowman Slime Charm Mix SLM10017 for wholesale holiday programs. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -493,6 +541,7 @@
       "title": "Pink Candy and Citrus Slime Charm Mix SLM10018 | HAIBUCRAFT",
       "description": "Source Pink Candy and Citrus Slime Charm Mix SLM10018 for wholesale sweet-theme programs. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -502,6 +551,7 @@
       "title": "Ocean Crab and Fish Slime Charm Mix SLM10019 | HAIBUCRAFT",
       "description": "Source Ocean Crab and Fish Slime Charm Mix SLM10019 for wholesale ocean-theme programs. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -511,6 +561,7 @@
       "title": "Halloween Skull and Spider Slime Charm Mix SLM10021 | HAIBUCRAFT",
       "description": "Source Halloween Skull and Spider Slime Charm Mix SLM10021 for wholesale seasonal programs. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -520,6 +571,7 @@
       "title": "Pastel Frog and Duck Slime Charm Mix SLM10022 | HAIBUCRAFT",
       "description": "Source Pastel Frog and Duck Slime Charm Mix SLM10022 for wholesale cute-animal programs. Confirm composition, packing, MOQ and lead time by quotation.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -529,6 +581,7 @@
       "title": "Glitter Cherry Resin Charms RW26051 | HAIBUCRAFT",
       "description": "Glitter Cherry Resin Charms (RW26051) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -538,6 +591,7 @@
       "title": "Iridescent Ocean Animal Charms RW003223 | HAIBUCRAFT",
       "description": "Iridescent Ocean Animal Charms (RW003223) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -547,6 +601,7 @@
       "title": "Pink Strawberry Flatback Charms RW994 | HAIBUCRAFT",
       "description": "Pink Strawberry Flatback Charms (RW994) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -556,6 +611,7 @@
       "title": "Kawaii Frog Resin Charms RW22741 | HAIBUCRAFT",
       "description": "Kawaii Frog Resin Charms (RW22741) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -565,6 +621,7 @@
       "title": "School Supplies Flatback Charms RW2666 | HAIBUCRAFT",
       "description": "School Supplies Flatback Charms (RW2666) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -574,6 +631,7 @@
       "title": "Gummy Bear Resin Charms RW2899 | HAIBUCRAFT",
       "description": "Gummy Bear Resin Charms (RW2899) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -583,6 +641,7 @@
       "title": "Fruit Shell Turtle Resin Charms RW002868 | HAIBUCRAFT",
       "description": "Fruit Shell Turtle Resin Charms (RW002868) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -592,6 +651,7 @@
       "title": "Pastel Heart Flatback Charms RW20388 | HAIBUCRAFT",
       "description": "Pastel Heart Flatback Charms (RW20388) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -601,6 +661,7 @@
       "title": "Glossy Jelly Bean Resin Charms RW002854 | HAIBUCRAFT",
       "description": "Glossy Jelly Bean Resin Charms (RW002854) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -610,6 +671,7 @@
       "title": "Green Frog Flatback Charms RW26386 | HAIBUCRAFT",
       "description": "Green Frog Flatback Charms (RW26386) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -619,6 +681,7 @@
       "title": "Star Gummy Bear Charms RW003422 | HAIBUCRAFT",
       "description": "Star Gummy Bear Charms (RW003422) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -628,6 +691,7 @@
       "title": "Mini Cauldron Resin Charms RW5806 | HAIBUCRAFT",
       "description": "Mini Cauldron Resin Charms (RW5806) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -637,6 +701,7 @@
       "title": "Citrus Slice Resin Charms RW26412 | HAIBUCRAFT",
       "description": "Citrus Slice Resin Charms (RW26412) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -646,6 +711,7 @@
       "title": "Bright Jelly Bean Charms Mix RW4252 | HAIBUCRAFT",
       "description": "Bright Jelly Bean Charms Mix (RW4252) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -655,6 +721,7 @@
       "title": "Green Ghost Flatback Charms RW002859 | HAIBUCRAFT",
       "description": "Green Ghost Flatback Charms (RW002859) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -664,6 +731,7 @@
       "title": "Mermaid Ocean Flatback Charms RW26439 | HAIBUCRAFT",
       "description": "Mermaid Ocean Flatback Charms (RW26439) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -673,6 +741,7 @@
       "title": "Pastel Candy Disc Charms RW1620 | HAIBUCRAFT",
       "description": "Pastel Candy Disc Charms (RW1620) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -682,6 +751,7 @@
       "title": "Frosted Cookie Resin Charms RW22372 | HAIBUCRAFT",
       "description": "Frosted Cookie Resin Charms (RW22372) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -691,6 +761,7 @@
       "title": "Spring Mini Duck Charms RW26189 | HAIBUCRAFT",
       "description": "Spring Mini Duck Charms (RW26189) is listed in the HAIBUCRAFT resin charms catalog for slime add-ins, decoden, phone-case decoration, DIY kits and resin crafts.",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -700,6 +771,7 @@
       "title": "Autumn Maple Leaf Holographic Sequins MA119 | HAIBUCRAFT",
       "description": "Autumn Maple Leaf Holographic Sequins (MA119) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -709,6 +781,7 @@
       "title": "Silver Novelty Party Confetti MA118 | HAIBUCRAFT",
       "description": "Silver Novelty Party Confetti (MA118) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -718,6 +791,7 @@
       "title": "Pastel Butterfly Confetti Bowl MA601 | HAIBUCRAFT",
       "description": "Pastel Butterfly Confetti Bowl (MA601) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -727,6 +801,7 @@
       "title": "Rainbow Star Glitter Confetti MA059 | HAIBUCRAFT",
       "description": "Rainbow Star Glitter Confetti (MA059) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -736,6 +811,7 @@
       "title": "Iridescent Sequin Scoop Mix MA131 | HAIBUCRAFT",
       "description": "Iridescent Sequin Scoop Mix (MA131) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -745,6 +821,7 @@
       "title": "Coral Diamond Glitter Sequins MA064 | HAIBUCRAFT",
       "description": "Coral Diamond Glitter Sequins (MA064) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -754,6 +831,7 @@
       "title": "Pastel Love Heart Confetti MA127 | HAIBUCRAFT",
       "description": "Pastel Love Heart Confetti (MA127) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -763,6 +841,7 @@
       "title": "Iridescent Fish Sequins Mix MA107 | HAIBUCRAFT",
       "description": "Iridescent Fish Sequins Mix (MA107) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -772,6 +851,7 @@
       "title": "Pastel Seashell Paillette Mix MA109 | HAIBUCRAFT",
       "description": "Pastel Seashell Paillette Mix (MA109) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -781,6 +861,7 @@
       "title": "Candy Heart Bowl Paillettes MA217 | HAIBUCRAFT",
       "description": "Candy Heart Bowl Paillettes (MA217) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -790,6 +871,7 @@
       "title": "Patriotic Star Confetti Mix MA225 | HAIBUCRAFT",
       "description": "Patriotic Star Confetti Mix (MA225) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -799,6 +881,7 @@
       "title": "Rainbow Micro Star Sprinkles MA013 | HAIBUCRAFT",
       "description": "Rainbow Micro Star Sprinkles (MA013) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -808,6 +891,7 @@
       "title": "Holographic Hollow Star Sequins MA084 | HAIBUCRAFT",
       "description": "Holographic Hollow Star Sequins (MA084) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -817,6 +901,7 @@
       "title": "Patriotic Tube Glitter Mix YM109 | HAIBUCRAFT",
       "description": "Patriotic Tube Glitter Mix (YM109) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -826,6 +911,7 @@
       "title": "Multicolor Round Confetti Assortment MA041 | HAIBUCRAFT",
       "description": "Multicolor Round Confetti Assortment (MA041) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -835,6 +921,7 @@
       "title": "Dreamy Pearl Moon Star Mix MA302 | HAIBUCRAFT",
       "description": "Dreamy Pearl Moon Star Mix (MA302) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -844,6 +931,7 @@
       "title": "Pastel Mini Heart Sequins MA602 | HAIBUCRAFT",
       "description": "Pastel Mini Heart Sequins (MA602) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },
@@ -853,6 +941,7 @@
       "title": "Pastel Hollow Star Scatter Mix MA012 | HAIBUCRAFT",
       "description": "Pastel Hollow Star Scatter Mix (MA012) is listed in the HAIBUCRAFT sequins and confetti catalog for slime, nail art, shaker fillers, resin crafts and seasonal DIY",
       "type": "website",
+      "lastModified": "2026-09-06",
       "index": true,
       "generatedProduct": true
     },

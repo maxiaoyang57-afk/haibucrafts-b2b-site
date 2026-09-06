@@ -5,6 +5,7 @@ import process from 'node:process';
 const root = process.cwd();
 const releaseRoot = path.join(root, '.release-candidate', 'site-v2');
 const seoMap = JSON.parse(await readFile(path.join(root, 'v2-preview', 'seo-production-map.json'), 'utf8'));
+const productCatalog = JSON.parse(await readFile(path.join(root, 'v2-preview', 'assets', 'product-catalog.json'), 'utf8'));
 const routeByProductionPath = new Map(seoMap.routes.map((route) => [route.productionPath, route]));
 const errors = [];
 const titles = new Map();
@@ -309,6 +310,7 @@ else {
 
 const sitemap = await readFile(path.join(releaseRoot, 'sitemap.xml'), 'utf8');
 const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/gi)].map((match) => match[1].trim());
+const sitemapBlocks = [...sitemap.matchAll(/<url>([\s\S]*?)<\/url>/gi)].map((match) => match[1]);
 const sitemapUrlSet = new Set(sitemapUrls);
 const expectedSitemapUrls = new Set(
   seoMap.routes.filter((route) => route.index).map((route) => `${seoMap.site.origin}${route.productionPath}`)
@@ -319,6 +321,24 @@ for (const url of sitemapUrls) {
   if (/\?|index\.html|\/v2-preview\/|\/404\.html/i.test(url)) errors.push(`sitemap contains forbidden URL: ${url}`);
   if (!expectedSitemapUrls.has(url)) errors.push(`sitemap contains a redirect, noindex or unknown URL: ${url}`);
 }
+for (const block of sitemapBlocks) {
+  if ((block.match(/<lastmod>\d{4}-\d{2}-\d{2}<\/lastmod>/g) || []).length !== 1) {
+    errors.push('every sitemap URL must contain exactly one ISO lastmod value');
+  }
+}
+if (!sitemap.includes('xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"')) {
+  errors.push('sitemap is missing the Google image namespace');
+}
+for (const product of productCatalog.products) {
+  const canonical = `${seoMap.site.origin}${product.productionPath}`;
+  const block = sitemapBlocks.find((entry) => entry.includes(`<loc>${canonical}</loc>`));
+  if (!block?.includes(`<image:loc>${seoMap.site.origin}${product.image}</image:loc>`)) {
+    errors.push(`sitemap missing product image for ${product.sku}`);
+  }
+}
+if ((sitemap.match(/<image:image>/g) || []).length !== productCatalog.products.length) {
+  errors.push('sitemap product image count does not match the active catalog');
+}
 for (const url of expectedSitemapUrls) {
   if (!sitemapUrlSet.has(url)) errors.push(`sitemap missing indexable canonical URL: ${url}`);
 }
@@ -326,6 +346,11 @@ if (sitemapUrlSet.has(`${seoMap.site.origin}/request-quote/`)) errors.push('site
 const robotsText = await readFile(path.join(releaseRoot, 'robots.txt'), 'utf8');
 for (const required of ['User-agent: *', 'Allow: /', 'Disallow: /api/', 'Disallow: /v2-preview/', 'Sitemap: https://www.haibucrafts.com/sitemap.xml']) {
   if (!robotsText.includes(required)) errors.push(`robots.txt missing ${required}`);
+}
+for (const agent of ['OAI-SearchBot', 'ChatGPT-User']) {
+  if (!robotsText.includes(`User-agent: ${agent}\nAllow: /\nDisallow: /api/\nDisallow: /v2-preview/`)) {
+    errors.push(`robots.txt must explicitly allow ${agent} while protecting API and Preview routes`);
+  }
 }
 if (/^Disallow:\s*\/request-quote\/?\s*$/mi.test(robotsText)) {
   errors.push('robots.txt must allow crawling /request-quote/ while the page remains noindex,follow');
@@ -409,7 +434,7 @@ if (errors.length) {
 } else {
   console.log(`Release candidate audit passed: ${htmlFiles.length} HTML pages and ${jsFiles.length} runtime scripts.`);
   console.log(`SEO canonical audit: ${auditedCanonicalUrls.size} canonical routes match seo-production-map.json.`);
-  console.log(`SEO sitemap audit: ${sitemapUrls.length} unique indexable URLs; no redirect, noindex, query, index.html, preview or 404 URLs.`);
+  console.log(`SEO sitemap audit: ${sitemapUrls.length} unique indexable URLs with lastmod and ${productCatalog.products.length} product images; no redirect, noindex, query, index.html, preview or 404 URLs.`);
   console.log(`SEO noindex routes: ${[...new Set(noindexPaths)].join(', ')}.`);
   console.log(`SEO redirect audit: ${auditedRedirectCount} permanent one-hop redirects; no redirect sources in sitemap.`);
   console.log('SEO 404 audit: custom noindex,follow page present without canonical; no catch-all redirect masks unknown routes.');

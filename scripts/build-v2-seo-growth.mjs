@@ -102,6 +102,22 @@ function itemListFor(category, name) {
   };
 }
 
+function collectionPageFor(category, plan) {
+  const itemList = itemListFor(category, plan.listName);
+  delete itemList['@context'];
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${origin}${plan.productionPath}#collection`,
+    url: `${origin}${plan.productionPath}`,
+    name: plan.h1,
+    description: plan.description,
+    inLanguage: 'en',
+    isPartOf: { '@id': `${origin}/#website` },
+    mainEntity: itemList
+  };
+}
+
 const categoryPlans = {
   'polymer-clay-slices': {
     previewFile: path.join(previewRoot, 'products', 'polymer-clay-slices', 'index.html'),
@@ -145,6 +161,20 @@ const categoryPlans = {
       ['/v2-preview/quality-control/', 'Quality Checkpoints'],
       ['/v2-preview/custom-solutions/', 'Custom & Private Label']
     ]
+  },
+  'sequins-glitter-confetti': {
+    previewFile: path.join(previewRoot, 'products', 'sequins-glitter-confetti', 'index.html'),
+    productionPath: '/products/sequins-glitter-confetti/',
+    title: 'Sequins and Glitter Confetti Wholesale | HAIBUCRAFT',
+    description: 'Source shaped sequins, holographic glitter and decorative confetti for slime, nail art, shaker fillers, resin crafts and DIY kits.',
+    h1: 'Sequins & Glitter Confetti Wholesale',
+    intro: 'Wholesale shaped sequins, holographic paillettes, glitter mixes and decorative confetti for slime brands, shaker fillers, nail-art suppliers, resin craft programs and private-label assortments.',
+    listName: 'Sequins and Glitter Confetti Wholesale Catalog',
+    resources: [
+      ['/v2-preview/custom-solutions/', 'Custom & Private Label'],
+      ['/v2-preview/quality-control/', 'Quality Checkpoints'],
+      ['/v2-preview/blog/packaging-quality-checkpoints/', 'Packaging Guide']
+    ]
   }
 };
 
@@ -167,6 +197,7 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
     `${category} intro`
   );
   html = upsertJsonLd(html, `${category}-item-list`, itemListFor(category, plan.listName));
+  html = upsertJsonLd(html, `${category}-collection-page`, collectionPageFor(category, plan));
 
   const products = catalog.products.filter((product) => product.category === category).slice(0, 4);
   const resourceLinks = plan.resources
@@ -185,7 +216,7 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
   }
 
   await writeFile(plan.previewFile, html, 'utf8');
-  updateSeoRoute(plan.productionPath, { title: plan.title, description: plan.description });
+  updateSeoRoute(plan.productionPath, { title: plan.title, description: plan.description, lastModified: '2026-09-06' });
 }
 
 const polymerProfiles = {
@@ -379,4 +410,4 @@ await writeFile(seoMapPath, `${JSON.stringify(seoMap, null, 2)}\n`, 'utf8');
 await writeFile(migrationMapPath, `${JSON.stringify(migrationMap, null, 2)}\n`, 'utf8');
 await writeFile(sitemapPath, sitemap, 'utf8');
 
-console.log('SEO growth sprint source generated: 9 unique Polymer Clay detail enhancements, 3 optimized category hubs, ItemList/internal links, and Halloween/Christmas collection pages.');
+console.log('SEO growth sprint source generated: 9 unique Polymer Clay detail enhancements, 4 optimized category hubs, ItemList/CollectionPage data, internal links, and Halloween/Christmas collection pages.');

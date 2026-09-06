@@ -39,7 +39,7 @@ const expectedRedirects = new Map([
 ]);
 
 test('robots allows the noindex quote route to be crawled', async () => {
-  const intended = `User-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /v2-preview/\n\nSitemap: ${origin}/sitemap.xml\n`;
+  const intended = `User-agent: OAI-SearchBot\nAllow: /\nDisallow: /api/\nDisallow: /v2-preview/\n\nUser-agent: ChatGPT-User\nAllow: /\nDisallow: /api/\nDisallow: /v2-preview/\n\nUser-agent: *\nAllow: /\nDisallow: /api/\nDisallow: /v2-preview/\n\nSitemap: ${origin}/sitemap.xml\n`;
   const rootRobots = (await readFile(path.join(root, 'robots.txt'), 'utf8')).replaceAll('\r\n', '\n');
   const sourceRobots = (await readFile(path.join(root, 'v2-preview', 'production-config', 'robots.txt'), 'utf8')).replaceAll('\r\n', '\n');
 

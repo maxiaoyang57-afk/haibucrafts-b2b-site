@@ -4,6 +4,7 @@ import process from 'node:process';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
+const catalogLastModified = '2026-09-06';
 const productsRoot = path.join(previewRoot, 'products');
 const seoMapPath = path.join(previewRoot, 'seo-production-map.json');
 const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migration-map.json');
@@ -504,7 +505,7 @@ ${galleryScript}</body>
 }
 
 await writeFile(catalogPath, JSON.stringify({
-  generatedAt: '2026-08-25',
+  generatedAt: catalogLastModified,
   count: products.length,
   products: products.map((product) => ({
     sku: product.sku,
@@ -526,6 +527,7 @@ const productRoutes = products.map((product) => ({
   title: seoTitle(product),
   description: product.customMetaDescription || metaDescription(product),
   type: 'website',
+  lastModified: catalogLastModified,
   index: true,
   generatedProduct: true
 }));

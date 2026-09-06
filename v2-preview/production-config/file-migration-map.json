@@ -540,6 +540,27 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw967-mini-fried-egg-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw967-mini-fried-egg-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw967-mini-fried-egg-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw474-mixed-sweet-candy-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw474-mixed-sweet-candy-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw474-mixed-sweet-candy-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw326-mini-fruit-jam-jar-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw326-mini-fruit-jam-jar-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw326-mini-fruit-jam-jar-resin-charms/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/index.html",
       "destination": "products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/index.html",
       "action": "create",

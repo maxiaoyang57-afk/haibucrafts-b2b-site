@@ -4,7 +4,7 @@ const configPath = 'scripts/data/polymer-selected-sku-retirement.json';
 const config = JSON.parse(await readFile(configPath, 'utf8'));
 const retiredSkus = new Set(config.products.map((product) => product.sku));
 const retiredPaths = new Set(config.products.map((product) => product.retiredPath));
-const totalCount = 82;
+const totalCount = 85;
 const polymerCount = 12;
 
 const writeJson = async (file, value) => {

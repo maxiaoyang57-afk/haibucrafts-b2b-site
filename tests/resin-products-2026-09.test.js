@@ -5,11 +5,8 @@ import test from 'node:test';
 
 const root = process.cwd();
 const origin = 'https://www.haibucrafts.com';
-const batch = JSON.parse(await readFile(path.join(root, 'scripts', 'data', 'issue-18-slime-products.json'), 'utf8'));
-const expectedSkus = [
-  'SLM10013', 'SLM10014', 'SLM10015', 'SLM10016', 'SLM10017',
-  'SLM10018', 'SLM10019', 'SLM10021', 'SLM10022'
-];
+const batch = JSON.parse(await readFile(path.join(root, 'scripts', 'data', 'resin-products-2026-09.json'), 'utf8'));
+const expectedSkus = ['RW967', 'RW474', 'RW326'];
 
 const slugify = (value) => value
   .toLowerCase()
@@ -20,6 +17,7 @@ const slugify = (value) => value
   .replace(/-{2,}/g, '-');
 
 const productSlug = (product) => `${product.sku.toLowerCase()}-${slugify(product.title).replaceAll('-and-', '-')}`;
+const productImage = (product, position) => `/assets/images/products/${batch.assetDirectory}/${product.sku.toLowerCase()}/${product.imagePrefix}-${String(position).padStart(2, '0')}.webp`;
 
 function webpDimensions(buffer) {
   assert.equal(buffer.toString('ascii', 0, 4), 'RIFF');
@@ -56,18 +54,18 @@ function webpDimensions(buffer) {
   throw new Error('Unsupported WebP image');
 }
 
-test('Issue #18 publishes only the approved nine-SKU media set', async () => {
+test('September Resin batch publishes three image-verified SKU galleries', async () => {
   assert.deepEqual(batch.products.map((product) => product.sku), expectedSkus);
-  assert.ok(!batch.products.some((product) => ['SLM10012', 'SLM10020'].includes(product.sku)));
-  assert.equal(new Set(batch.products.map((product) => product.title)).size, 9);
-  assert.equal(new Set(batch.products.map((product) => product.metaDescription)).size, 9);
+  assert.equal(batch.publicGalleryCount, 3);
+  assert.equal(batch.lastModified, '2026-09-07');
+  assert.equal(new Set(batch.products.map((product) => product.title)).size, 3);
+  assert.equal(new Set(batch.products.map((product) => product.metaDescription)).size, 3);
 
   for (const product of batch.products) {
-    const directory = path.join(root, 'assets', 'images', 'products', 'batch-2026-08', product.sku.toLowerCase());
+    const directory = path.join(root, 'assets', 'images', 'products', batch.assetDirectory, product.sku.toLowerCase());
     const files = (await readdir(directory)).filter((file) => file.endsWith('.webp')).sort();
-    assert.equal(files.length, 6, `${product.sku} must publish exactly six supplied WebP images`);
+    assert.equal(files.length, 3, `${product.sku} must publish exactly three supplied WebP images`);
     assert.ok(files.every((file) => file.startsWith(product.imagePrefix)));
-
     for (const file of files) {
       const dimensions = webpDimensions(await readFile(path.join(directory, file)));
       assert.deepEqual(dimensions, { width: 1000, height: 1000 }, `${product.sku}/${file} must be 1000px square`);
@@ -75,65 +73,58 @@ test('Issue #18 publishes only the approved nine-SKU media set', async () => {
   }
 });
 
-test('Issue #18 keeps its 33-SKU slime result after later catalog additions and preserves legacy SLM10012', async () => {
+test('September Resin batch expands the active catalog to 85 products and Resin to 22', async () => {
   const catalog = JSON.parse(await readFile(path.join(root, 'assets', 'v2', 'product-catalog.json'), 'utf8'));
-  const category = await readFile(path.join(root, 'products', 'slime-charms-wholesale', 'index.html'), 'utf8');
+  const category = await readFile(path.join(root, 'products', 'resin-charms-for-slime', 'index.html'), 'utf8');
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
-  const redirects = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8')).redirects;
 
   assert.equal(catalog.count, 85);
   assert.equal(catalog.products.length, 85);
-  assert.equal(catalog.products.filter((product) => product.category === 'slime-charms').length, 33);
-  assert.match(category, /<strong data-product-count>33 products<\/strong>/);
-  assert.equal((category.match(/data-product-card/g) || []).length, 33);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 85);
+  assert.equal(catalog.products.filter((product) => product.category === 'resin-charms').length, 22);
+  assert.match(category, /<strong data-product-count>22 products<\/strong>/);
+  assert.equal((category.match(/data-product-card/g) || []).length, 22);
   assert.match(home, /<span>85 cataloged products<\/span>/);
-  assert.match(home, /<b>85<\/b><span>Cataloged wholesale products<\/span>/);
-  assert.match(home, /<span class="eyebrow">33 products<\/span><h3>Slime Charms<\/h3>/);
+  assert.match(home, /<span class="eyebrow">22 products<\/span><h3>Resin Charms<\/h3>/);
   assert.match(directory, /Browse 85 published products/);
-  assert.match(directory, /<b>85<\/b><span>Published products<\/span>/);
-  assert.match(directory, /<span>33 Products<\/span>[\s\S]*?<h2>Slime Charms<\/h2>/);
-  assert.doesNotMatch(`${home}\n${directory}`, /63 cataloged products|Browse 63 published products|15 Products/);
+  assert.match(directory, /<span>22 Products<\/span>[\s\S]*?<h2>Resin Charms<\/h2>/);
 
-  const legacy = catalog.products.find((product) => product.sku === 'SLM10012');
-  assert.equal(legacy?.title, 'Sweet Berry Candy Charms');
-  assert.equal(legacy?.productionPath, '/products/slime-charms-wholesale/slm10012-sweet-berry-candy-charms/');
-  assert.ok(redirects.some((redirect) => (
-    redirect.source === '/products/slime-charms-wholesale/slm713-sweet-berry-candy-charms/'
-      && redirect.destination === legacy.productionPath
-      && redirect.permanent === true
-  )));
+  const itemList = [...category.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
+    .map((match) => JSON.parse(match[1]))
+    .find((item) => item['@type'] === 'ItemList');
+  assert.equal(itemList?.numberOfItems, 22);
 });
 
-test('Issue #18 cards, inquiry attribution and production SEO are complete', async () => {
-  const category = await readFile(path.join(root, 'products', 'slime-charms-wholesale', 'index.html'), 'utf8');
+test('September Resin cards and product pages preserve identity, SEO and inquiry attribution', async () => {
+  const category = await readFile(path.join(root, 'products', 'resin-charms-for-slime', 'index.html'), 'utf8');
   const sitemap = await readFile(path.join(root, 'sitemap.xml'), 'utf8');
 
   for (const product of batch.products) {
     const slug = productSlug(product);
-    const productionPath = `/products/slime-charms-wholesale/${slug}/`;
+    const productionPath = `/products/resin-charms-for-slime/${slug}/`;
     const canonical = `${origin}${productionPath}`;
+    const mainImage = productImage(product, 1);
     const article = category.match(new RegExp(`<article class="product-card-v2"[^>]*>[\\s\\S]*?<span class="sku-badge">${product.sku}<\\/span>[\\s\\S]*?<\\/article>`))?.[0];
     assert.ok(article, `missing category card for ${product.sku}`);
     assert.ok(article.includes(productionPath));
+    assert.ok(article.includes(mainImage));
     assert.ok(article.includes(`product_code=${product.sku}`));
-    assert.ok(article.includes('product='));
-    assert.ok(article.includes('image='));
-    assert.ok(article.includes(`landing_page=%2Fproducts%2Fslime-charms-wholesale%2F${slug}%2F`));
+    assert.ok(article.includes(`landing_page=%2Fproducts%2Fresin-charms-for-slime%2F${slug}%2F`));
 
-    const file = path.join(root, 'products', 'slime-charms-wholesale', slug, 'index.html');
+    const file = path.join(root, 'products', 'resin-charms-for-slime', slug, 'index.html');
     await access(file);
     const html = await readFile(file, 'utf8');
     assert.equal((html.match(/<link rel="canonical"/g) || []).length, 1);
     assert.ok(html.includes(`<link rel="canonical" href="${canonical}">`));
     assert.match(html, /<meta name="robots" content="index,follow">/);
     assert.ok(html.includes(`<h1>${product.title.replaceAll('&', '&amp;')}</h1>`));
-    assert.equal((html.match(/data-product-gallery-thumb/g) || []).length, 6);
+    assert.equal((html.match(/data-product-gallery-thumb/g) || []).length, 3);
     assert.equal((html.match(/data-product-gallery-main/g) || []).length, 1);
-    assert.match(html, /Buyer Reference/);
-    assert.match(html, /Quotation Checklist/);
-    assert.match(html, /Mixed-SKU and private-label packaging review/);
-    assert.match(html, /approved order specification/);
+    assert.match(html, /Image 1 is the actual product photograph/);
+    assert.ok(html.includes(`<tr><th>Reference size</th><td>${product.dimensions.replaceAll('&', '&amp;')}</td></tr>`));
+    assert.ok(html.includes(`<tr><th>Source packing</th><td>${product.sourcePacking}</td></tr>`));
+    assert.match(html, /data-buyer-fit=/);
     assert.doesNotMatch(html, /Add to Cart|consumer review|in stock|limited time|FDA approved|certified safe/i);
     assert.doesNotMatch(html, /\/v2-preview\//);
 
@@ -142,7 +133,7 @@ test('Issue #18 cards, inquiry attribution and production SEO are complete', asy
     const productLd = jsonLd.find((item) => item['@type'] === 'Product');
     const breadcrumbLd = jsonLd.find((item) => item['@type'] === 'BreadcrumbList');
     assert.equal(productLd?.sku, product.sku);
-    assert.equal(productLd?.image?.length, 6);
+    assert.equal(productLd?.image, `${origin}${mainImage}`);
     assert.ok(breadcrumbLd);
     assert.equal(sitemap.split(`<loc>${canonical}</loc>`).length - 1, 1, `${product.sku} sitemap URL must appear once`);
   }

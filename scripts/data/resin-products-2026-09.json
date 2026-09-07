@@ -1,0 +1,98 @@
+{
+  "batch": "resin-products-2026-09",
+  "categorySlug": "resin-charms",
+  "expectedSkuCount": 3,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-09",
+  "structuredDataImageMode": "main",
+  "lastModified": "2026-09-07",
+  "galleryNote": "Image 1 is the actual product photograph and controls product identity. Images 2–3 are styled application scenes; confirm the final color, finish, dimensions, attachment style and packing against the approved sample and quotation.",
+  "material": "Resin decorative components; exact finish, dimensions, backing or loop attachment, and composition are confirmed against the selected sample and approved order specification.",
+  "packingOptions": [
+    "Source packing reference: 100 pieces per bag.",
+    "Private-label pouch, label, barcode, inner packing and carton requirements are confirmed by quotation."
+  ],
+  "products": [
+    {
+      "sku": "RW967",
+      "title": "Mini Fried Egg Resin Flatback Charms",
+      "type": "Food",
+      "imagePrefix": "rw967-mini-fried-egg-resin-flatback-charms",
+      "dimensions": "35 × 31 × 8 mm",
+      "sourcePacking": "100 pieces per bag",
+      "description": "White fried-egg-shaped resin flatback charms for food-themed slime add-ins, decoden, phone-case decoration, scrapbooking and miniature DIY assortments.",
+      "metaDescription": "Source RW967 mini fried egg resin flatback charms for wholesale slime, decoden, scrapbooking and DIY kits. Size: 35 × 31 × 8 mm; 100 pcs/bag.",
+      "buyerHeading": "Mini fried egg flatbacks for food-themed craft ranges.",
+      "buyerCopy": "RW967 gives buyers a recognizable miniature fried egg motif for food-themed slime, decoden and scrapbook assortments. Confirm color, surface finish, flatback style, quantity and packing against the approved sample before ordering.",
+      "applications": [
+        "Food-themed slime add-ins",
+        "Decoden and phone-case decoration",
+        "Scrapbooking and miniature DIY kits"
+      ],
+      "galleryLabels": [
+        "main product photo",
+        "styled slime and phone-case application scene",
+        "supplemental slime application scene"
+      ],
+      "relatedSkus": [
+        "RW22372",
+        "RW4252",
+        "RW1620"
+      ]
+    },
+    {
+      "sku": "RW474",
+      "title": "Mixed Sweet Candy Resin Charms",
+      "type": "Sweet",
+      "imagePrefix": "rw474-mixed-sweet-candy-resin-charms",
+      "dimensions": "Approx. 24 × 15 mm",
+      "sourcePacking": "100 pieces per bag",
+      "description": "A colorful mixed assortment of sweet-candy pillow resin charms for slime add-ins, jewelry making, phone accessories and themed DIY craft programs.",
+      "metaDescription": "Source RW474 mixed sweet candy resin charms for wholesale slime, jewelry-making and DIY assortments. Approx. 24 × 15 mm; 100 pcs/bag.",
+      "buyerHeading": "Mixed candy charms for colorful sweet-theme assortments.",
+      "buyerCopy": "RW474 supports buyers building colorful candy-theme product lines across slime, jewelry and craft kits. Review the actual product image to confirm the assortment, colors and individual shapes, then confirm pack composition and quantity in the quotation.",
+      "applications": [
+        "Candy-theme slime assortments",
+        "Jewelry-making and charm projects",
+        "DIY kits and phone accessories"
+      ],
+      "galleryLabels": [
+        "main product photo",
+        "styled jewelry and phone-accessory scene",
+        "supplemental candy-charm display scene"
+      ],
+      "relatedSkus": [
+        "RW4252",
+        "RW1620",
+        "RW22372"
+      ]
+    },
+    {
+      "sku": "RW326",
+      "title": "Mini Fruit Jam Jar Resin Charms",
+      "type": "Food & Drink",
+      "imagePrefix": "rw326-mini-fruit-jam-jar-resin-charms",
+      "dimensions": "Confirm against approved sample",
+      "sourcePacking": "100 pieces per bag",
+      "description": "Mini fruit jam jar resin charms with loop attachments for earrings, pendants, jewelry findings, slime add-ins and food-themed DIY craft assortments.",
+      "metaDescription": "Source RW326 mini fruit jam jar resin charms for wholesale jewelry, slime and DIY craft kits. Packed 100 pcs/bag; exact size confirmed by sample.",
+      "buyerHeading": "Mini fruit jar charms for playful food-and-drink collections.",
+      "buyerCopy": "RW326 offers miniature fruit jam jar motifs for buyers planning jewelry findings, slime additions and themed craft kits. Because no size is supplied in the source sheet, confirm dimensions, colors, loop attachment and packing against the approved sample.",
+      "applications": [
+        "Earrings, pendants and jewelry findings",
+        "Food-theme slime add-ins",
+        "DIY kits and miniature craft assortments"
+      ],
+      "galleryLabels": [
+        "main product photo",
+        "styled jewelry-making application scene",
+        "supplemental product display scene"
+      ],
+      "relatedSkus": [
+        "RW26412",
+        "RW994",
+        "RW26051"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-06",
-  "count": 82,
+  "generatedAt": "2026-09-07",
+  "count": 85,
   "products": [
     {
       "sku": "YX048",
@@ -855,6 +855,51 @@
       "gallery": [],
       "previewPath": "/v2-preview/products/resin-charms/rw26189-spring-mini-duck-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw26189-spring-mini-duck-charms/"
+    },
+    {
+      "sku": "RW967",
+      "title": "Mini Fried Egg Resin Flatback Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food",
+      "image": "/assets/images/products/batch-2026-09/rw967/rw967-mini-fried-egg-resin-flatback-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-09/rw967/rw967-mini-fried-egg-resin-flatback-charms-01.webp",
+        "/assets/images/products/batch-2026-09/rw967/rw967-mini-fried-egg-resin-flatback-charms-02.webp",
+        "/assets/images/products/batch-2026-09/rw967/rw967-mini-fried-egg-resin-flatback-charms-03.webp"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw967-mini-fried-egg-resin-flatback-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw967-mini-fried-egg-resin-flatback-charms/"
+    },
+    {
+      "sku": "RW474",
+      "title": "Mixed Sweet Candy Resin Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Sweet",
+      "image": "/assets/images/products/batch-2026-09/rw474/rw474-mixed-sweet-candy-resin-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-09/rw474/rw474-mixed-sweet-candy-resin-charms-01.webp",
+        "/assets/images/products/batch-2026-09/rw474/rw474-mixed-sweet-candy-resin-charms-02.webp",
+        "/assets/images/products/batch-2026-09/rw474/rw474-mixed-sweet-candy-resin-charms-03.webp"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw474-mixed-sweet-candy-resin-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw474-mixed-sweet-candy-resin-charms/"
+    },
+    {
+      "sku": "RW326",
+      "title": "Mini Fruit Jam Jar Resin Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food & Drink",
+      "image": "/assets/images/products/batch-2026-09/rw326/rw326-mini-fruit-jam-jar-resin-charms-01.webp",
+      "gallery": [
+        "/assets/images/products/batch-2026-09/rw326/rw326-mini-fruit-jam-jar-resin-charms-01.webp",
+        "/assets/images/products/batch-2026-09/rw326/rw326-mini-fruit-jam-jar-resin-charms-02.webp",
+        "/assets/images/products/batch-2026-09/rw326/rw326-mini-fruit-jam-jar-resin-charms-03.webp"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw326-mini-fruit-jam-jar-resin-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw326-mini-fruit-jam-jar-resin-charms/"
     },
     {
       "sku": "MA119",

@@ -37,11 +37,11 @@ const categoryHtml = await readFile(path.join(root, 'v2-preview', 'products', 'r
 const cards = [...categoryHtml.matchAll(/<article class="product-card-v2"[\s\S]*?<\/article>/g)].map((match) => match[0]);
 const finalSkus = [...new Set(Object.values(effectiveMapping))].filter((sku) => sku !== retirement.sku);
 
-test('Resin migration has 19 active unique corrected SKUs after RW1711 retirement', () => {
+test('Resin migration keeps all 19 corrected SKUs after later Resin additions', () => {
   const cardsSkus = cards.map((card) => card.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]);
-  assert.equal(cards.length, 19);
-  assert.equal(new Set(cardsSkus).size, 19);
-  assert.deepEqual(new Set(cardsSkus), new Set(finalSkus));
+  assert.equal(cards.length, 22);
+  assert.equal(new Set(cardsSkus).size, 22);
+  assert.deepEqual(new Set(cardsSkus.filter((sku) => finalSkus.includes(sku))), new Set(finalSkus));
   assert.equal(mapping.RW002859, 'RW002859');
 });
 

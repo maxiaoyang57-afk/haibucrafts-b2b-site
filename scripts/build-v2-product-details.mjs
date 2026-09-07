@@ -4,6 +4,7 @@ import process from 'node:process';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
+const catalogGeneratedAt = '2026-09-07';
 const catalogLastModified = '2026-09-06';
 const productsRoot = path.join(previewRoot, 'products');
 const seoMapPath = path.join(previewRoot, 'seo-production-map.json');
@@ -13,13 +14,16 @@ const catalogPath = path.join(previewRoot, 'assets', 'product-catalog.json');
 const issue12BatchPath = path.join(root, 'scripts', 'data', 'issue-12-slime-products.json');
 const issue18BatchPath = path.join(root, 'scripts', 'data', 'issue-18-slime-products.json');
 const issue29BatchPath = path.join(root, 'scripts', 'data', 'issue-29-polymer-clay-products.json');
+const resinSeptemberBatchPath = path.join(root, 'scripts', 'data', 'resin-products-2026-09.json');
 const issue12Batch = JSON.parse(await readFile(issue12BatchPath, 'utf8'));
 const issue18Batch = JSON.parse(await readFile(issue18BatchPath, 'utf8'));
 const issue29Batch = JSON.parse(await readFile(issue29BatchPath, 'utf8'));
+const resinSeptemberBatch = JSON.parse(await readFile(resinSeptemberBatchPath, 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
-  { issue: 29, data: issue29Batch }
+  { issue: 29, data: issue29Batch },
+  { issue: 'resin-products-2026-09', data: resinSeptemberBatch }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -126,6 +130,7 @@ const batchFilter = (product) => {
   if (product.type === 'Ocean') return 'ocean';
   if (product.type === 'Cute Animals') return 'character';
   if (product.type === 'Floral') return 'fantasy';
+  if (product.type === 'Food' || product.type === 'Food & Drink') return 'sweet';
   return slugify(product.type);
 };
 
@@ -230,6 +235,9 @@ for (const category of categories) {
       buyerCopy: batchProduct?.buyerCopy || null,
       applications: batchProduct?.applications || [],
       relatedSkus: batchProduct?.relatedSkus || [],
+      dimensions: batchProduct?.dimensions || null,
+      sourcePacking: batchProduct?.sourcePacking || null,
+      lastModified: batchRecord?.data.lastModified || catalogLastModified,
       batchProduct: Boolean(batchProduct),
       batchIssue: batchRecord?.issue || null
     });
@@ -387,6 +395,10 @@ for (const category of categories) {
             <p class="b2b-note">These are source-sheet packing references, not guaranteed specifications. Final pack weight, mix ratio, carton details and gross weight are confirmed with the quotation and order specification.</p>
           </div>`
       : '';
+    const sourceReferenceRows = [
+      product.dimensions ? `            <tr><th>Reference size</th><td>${escapeHtml(product.dimensions)}</td></tr>` : null,
+      product.sourcePacking ? `            <tr><th>Source packing</th><td>${escapeHtml(product.sourcePacking)}</td></tr>` : null
+    ].filter(Boolean).join('\n');
     const galleryScript = product.gallery.length
       ? '  <script src="/v2-preview/assets/product-gallery.js"></script>\n'
       : '';
@@ -449,7 +461,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
             <tr><th>Style direction</th><td>${escapeHtml(product.type)}</td></tr>
             <tr><th>Common applications</th><td>${escapeHtml(product.uses)}</td></tr>
             <tr><th>Material scope</th><td>${escapeHtml(product.material)}</td></tr>
-            <tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>
+${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            <tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>
             <tr><th>Testing documents</th><td>Reviewed for the exact SKU, intended use and destination market; no blanket certificate claim applies.</td></tr>
           </tbody>
         </table>
@@ -505,7 +517,7 @@ ${galleryScript}</body>
 }
 
 await writeFile(catalogPath, JSON.stringify({
-  generatedAt: catalogLastModified,
+  generatedAt: catalogGeneratedAt,
   count: products.length,
   products: products.map((product) => ({
     sku: product.sku,
@@ -527,7 +539,7 @@ const productRoutes = products.map((product) => ({
   title: seoTitle(product),
   description: product.customMetaDescription || metaDescription(product),
   type: 'website',
-  lastModified: catalogLastModified,
+  lastModified: product.lastModified,
   index: true,
   generatedProduct: true
 }));
@@ -548,7 +560,7 @@ const generatedPages = products.map((product) => ({
 const basePages = migrationMap.pages.filter((page) => !page.generatedProduct);
 const quotePageIndex = basePages.findIndex((page) => page.productionPath === '/request-quote/');
 basePages.splice(quotePageIndex < 0 ? basePages.length : quotePageIndex, 0, ...generatedPages);
-migrationMap.version = '2026-08-25-issue-29';
+migrationMap.version = '2026-09-07-resin-products';
 migrationMap.pages = basePages;
 const requiredSharedAssets = [
   { source: 'v2-preview/assets/category-ux.css', destination: 'assets/v2/category-ux.css' },

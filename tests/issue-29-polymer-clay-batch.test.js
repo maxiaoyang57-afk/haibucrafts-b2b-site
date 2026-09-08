@@ -7,6 +7,12 @@ const root = process.cwd();
 const origin = 'https://www.haibucrafts.com';
 const batch = JSON.parse(await readFile(path.join(root, 'scripts', 'data', 'issue-29-polymer-clay-products.json'), 'utf8'));
 const expectedSkus = ['YX4002', 'YX4008', 'YX4010', 'YX4011'];
+const expectedGalleryOrders = {
+  YX4002: [2, 1, 3, 4, 5],
+  YX4008: [3, 1, 2, 4, 5],
+  YX4010: [2, 1, 3, 4, 5],
+  YX4011: [2, 1, 3, 4, 5]
+};
 
 const slugify = (value) => value
   .toLowerCase()
@@ -61,6 +67,7 @@ test('Issue #29 retains exactly the four active SKU, five-image media sets', asy
   assert.equal(new Set(batch.products.map((product) => product.metaDescription)).size, 4);
 
   for (const product of batch.products) {
+    assert.deepEqual(product.galleryOrder, expectedGalleryOrders[product.sku]);
     const directory = path.join(root, 'assets', 'images', 'products', batch.assetDirectory, product.sku.toLowerCase());
     const files = (await readdir(directory)).filter((file) => file.endsWith('.webp')).sort();
     assert.equal(files.length, 5, `${product.sku} must publish exactly five supplied WebP images`);
@@ -104,7 +111,7 @@ test('Issue #29 product pages preserve identity, RFQ attribution and SEO integri
     const slug = productSlug(product);
     const productionPath = `/products/polymer-clay-slices-wholesale/${slug}/`;
     const canonical = `${origin}${productionPath}`;
-    const mainImage = productImage(product, 1);
+    const mainImage = productImage(product, product.galleryOrder[0]);
     const article = category.match(new RegExp(`<article class="product-card-v2"[^>]*>[\\s\\S]*?<span class="sku-badge">${product.sku}<\\/span>[\\s\\S]*?<\\/article>`))?.[0];
     assert.ok(article, `missing category card for ${product.sku}`);
     assert.ok(article.includes(productionPath));
@@ -121,7 +128,7 @@ test('Issue #29 product pages preserve identity, RFQ attribution and SEO integri
     assert.ok(html.includes(`<h1>${product.title.replaceAll('&', '&amp;')}</h1>`));
     assert.equal((html.match(/data-product-gallery-thumb/g) || []).length, 5);
     assert.equal((html.match(/data-product-gallery-main/g) || []).length, 1);
-    assert.match(html, /Images 1–2 are actual product photographs/);
+    assert.match(html, /first displayed image is the selected catalog cover/);
     assert.match(html, /data-buyer-fit=/);
     assert.match(html, /These are decorative craft components, not edible products/);
     assert.doesNotMatch(html, /Add to Cart|consumer review|in stock|limited time|FDA approved|certified safe/i);

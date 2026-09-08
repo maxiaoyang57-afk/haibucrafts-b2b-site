@@ -36,6 +36,13 @@ for (const { issue, data } of productBatches) {
     if (product.galleryLabels.length !== data.publicGalleryCount) {
       throw new Error(`Issue #${issue} gallery for ${product.sku} must contain ${data.publicGalleryCount} public images`);
     }
+    const galleryOrder = product.galleryOrder || Array.from({ length: data.publicGalleryCount }, (_, index) => index + 1);
+    const validGalleryOrder = galleryOrder.length === data.publicGalleryCount
+      && new Set(galleryOrder).size === data.publicGalleryCount
+      && galleryOrder.every((position) => Number.isInteger(position) && position >= 1 && position <= data.publicGalleryCount);
+    if (!validGalleryOrder) {
+      throw new Error(`Issue #${issue} gallery order for ${product.sku} must be a complete permutation of its public images`);
+    }
   }
 }
 const batchRecordsBySku = new Map(productBatches.flatMap(({ issue, data }) => (
@@ -126,6 +133,11 @@ const batchImage = (record, position) => (
   `/assets/images/products/${record.data.assetDirectory || 'batch-2026-08'}/${record.product.sku.toLowerCase()}/${record.product.imagePrefix}-${String(position).padStart(2, '0')}.webp`
 );
 
+const batchGalleryOrder = (record) => (
+  record.product.galleryOrder
+  || Array.from({ length: record.data.publicGalleryCount }, (_, index) => index + 1)
+);
+
 const batchFilter = (product) => {
   if (product.type === 'Ocean') return 'ocean';
   if (product.type === 'Cute Animals') return 'character';
@@ -139,7 +151,7 @@ const batchCard = (record) => {
   const categorySlug = data.categorySlug || 'slime-charms';
   const detailSlug = batchDetailSlug(product);
   const previewPath = `/v2-preview/products/${categorySlug}/${detailSlug}/`;
-  const image = batchImage(record, 1);
+  const image = batchImage(record, batchGalleryOrder(record)[0]);
   const quoteParams = new URLSearchParams({
     source: 'product',
     category: categorySlug,
@@ -175,6 +187,16 @@ for (const category of categories) {
       if (gridStart < 0 || gridClose < 0) throw new Error(`Could not locate the ${category.slug} product-grid insertion point`);
       html = `${html.slice(0, gridClose)}${missingCards}${html.slice(gridClose)}`;
     }
+    html = html.replace(
+      /<article class="product-card-v2"[^>]*>[\s\S]*?<\/article>/g,
+      (article) => {
+        const sku = decodeHtml(article.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]?.trim() || '');
+        const record = batchRecordsBySku.get(sku);
+        return record && (record.data.categorySlug || 'slime-charms') === category.slug
+          ? batchCard(record)
+          : article;
+      }
+    );
   }
   categoryHtml.set(category.slug, { file, html });
 
@@ -205,9 +227,9 @@ for (const category of categories) {
     const previewPath = `/v2-preview/products/${category.slug}/${detailSlug}/`;
     const productionPath = `${category.productionBase}${detailSlug}/`;
     const gallery = batchProduct
-      ? batchProduct.galleryLabels.map((label, position) => ({
-        src: batchImage(batchRecord, position + 1),
-        alt: `${batchProduct.title} ${label}, product code ${batchProduct.sku}`
+      ? batchGalleryOrder(batchRecord).map((sourcePosition) => ({
+        src: batchImage(batchRecord, sourcePosition),
+        alt: `${batchProduct.title} ${batchProduct.galleryLabels[sourcePosition - 1]}, product code ${batchProduct.sku}`
       }))
       : [];
     products.push({

@@ -31,6 +31,7 @@ const requiredBrandAssets = [
   'brand/haibu-og.png',
   'assets/v2/brand-v2.css'
 ];
+const requiredDiscoveryFiles = ['llms.txt'];
 const expectedBrandImage = `${seoMap.site.origin}${seoMap.site.defaultOgImage}`;
 const legacyInternalRoutes = [
   '/products/slime-charms/',
@@ -109,6 +110,18 @@ for (const relative of requiredBrandAssets) {
     continue;
   }
   if (!(await readFile(file)).length) errors.push(`final brand asset is empty: ${relative}`);
+}
+
+for (const relative of requiredDiscoveryFiles) {
+  const file = path.join(releaseRoot, relative);
+  if (!await exists(file)) {
+    errors.push(`missing AI discovery file ${relative}`);
+    continue;
+  }
+  const content = await readFile(file, 'utf8');
+  if (!content.startsWith('# HAIBUCRAFT\n')) errors.push(`${relative}: missing HAIBUCRAFT heading`);
+  if (/\/v2-preview\/|Preview branch|Not published to production/i.test(content)) errors.push(`${relative}: preview residue present`);
+  if (!content.includes(`${seoMap.site.origin}/sitemap.xml`)) errors.push(`${relative}: sitemap link missing`);
 }
 
 for (const file of htmlFiles) {

@@ -143,6 +143,7 @@ await writeFile(path.join(assetsOut, 'quote-runtime-config.js'), `window.HAIBU_Q
 
 await cp(path.join(sourceRoot, 'production-config', 'sitemap.xml'), path.join(outRoot, 'sitemap.xml'));
 await cp(path.join(sourceRoot, 'production-config', 'robots.txt'), path.join(outRoot, 'robots.txt'));
+await cp(path.join(sourceRoot, 'production-config', 'llms.txt'), path.join(outRoot, 'llms.txt'));
 const redirectsBySource = new Map();
 for (const redirect of rootVercelConfig.redirects || []) redirectsBySource.set(redirect.source, redirect);
 for (const redirect of redirectDraft.redirects || []) redirectsBySource.set(redirect.source, redirect);

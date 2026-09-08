@@ -34,3 +34,10 @@ jobs:
           SEO_AUDIT_ATTEMPTS: '12'
           SEO_AUDIT_RETRY_DELAY_MS: '10000'
         run: npm run audit:production-redirects
+
+      - name: Audit live Production indexability and sitemap parity
+        env:
+          SEO_AUDIT_ORIGIN: https://www.haibucrafts.com
+          SEO_AUDIT_ATTEMPTS: '12'
+          SEO_AUDIT_RETRY_DELAY_MS: '10000'
+        run: npm run audit:production-indexability

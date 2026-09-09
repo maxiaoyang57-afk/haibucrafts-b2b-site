@@ -26,3 +26,14 @@ test('blog library publishes ten linked buyer guides', async () => {
     assert.match(html, /source=blog/);
   }
 });
+
+test('seasonal planning checklist is singular and its sticky card keeps the CTA above clipped overflow', async () => {
+  const article = await readFile(path.join(previewRoot, 'blog', 'seasonal-craft-assortment-planning', 'index.html'), 'utf8');
+  const checklist = article.match(/<ul class="checklist">([\s\S]*?)<\/ul>/)?.[1] ?? '';
+  const styles = await readFile(path.join(root, 'assets', 'v2', 'blog-library.css'), 'utf8');
+
+  assert.equal((checklist.match(/<li>/g) || []).length, 6);
+  assert.equal((checklist.match(/Shipping responsibility/g) || []).length, 1);
+  assert.match(styles, /\.blog-checklist-card\{[^}]*isolation:isolate;overflow:hidden/);
+  assert.match(styles, /\.blog-checklist-card \.btn\{position:relative;z-index:1/);
+});

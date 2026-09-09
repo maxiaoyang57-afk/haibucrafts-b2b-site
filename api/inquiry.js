@@ -40,6 +40,9 @@ const LABELS = {
   article: 'Source Article',
   product_image: 'Product Image',
   first_landing_page: 'First Landing Page',
+  source_page: 'Source Page',
+  product_page: 'Product Page',
+  collection: 'Seasonal Collection',
   first_referrer: 'First Referrer',
   first_visit_at: 'First Visit (UTC)',
   inquiry_page: 'Inquiry Page'

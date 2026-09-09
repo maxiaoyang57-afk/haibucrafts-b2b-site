@@ -14,11 +14,11 @@ const sitemap = await readFile(path.join(root, 'v2-preview', 'production-config'
 test('MA079 is removed from the Sequins catalog and generated product routes', async () => {
   const products = catalog.products.filter((product) => product.category === config.category);
   const cards = [...category.matchAll(/<article class="product-card-v2"[\s\S]*?<\/article>/g)];
-  assert.equal(products.length, 18);
-  assert.equal(cards.length, 18);
+  assert.equal(products.length, 20);
+  assert.equal(cards.length, 20);
   assert.equal(products.some((product) => product.sku === config.sku), false);
   assert.equal(category.includes(`>${config.sku}</span>`), false);
-  assert.equal((productionCategory.match(/<article class="product-card-v2"[\s\S]*?<\/article>/g) || []).length, 18);
+  assert.equal((productionCategory.match(/<article class="product-card-v2"[\s\S]*?<\/article>/g) || []).length, 20);
   assert.equal(productionCategory.includes(`>${config.sku}</span>`), false);
   assert.equal(seoMap.routes.some((route) => route.productionPath === config.retiredPath), false);
   assert.equal(sitemap.includes(config.retiredPath), false);

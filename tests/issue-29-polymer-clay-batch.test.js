@@ -79,28 +79,28 @@ test('Issue #29 retains exactly the four active SKU, five-image media sets', asy
   }
 });
 
-test('Issue #29 retirements keep 12 active polymer clay products after later catalog additions', async () => {
+test('Issue #29 retirements remain intact after later polymer clay additions', async () => {
   const catalog = JSON.parse(await readFile(path.join(root, 'assets', 'v2', 'product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products', 'polymer-clay-slices-wholesale', 'index.html'), 'utf8');
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
 
-  assert.equal(catalog.count, 85);
-  assert.equal(catalog.products.length, 85);
-  assert.equal(catalog.products.filter((product) => product.category === 'polymer-clay-slices').length, 12);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 85);
-  assert.match(category, /<strong data-product-count>12 products<\/strong>/);
-  assert.equal((category.match(/data-product-card/g) || []).length, 12);
-  assert.match(home, /<span>85 cataloged products<\/span>/);
-  assert.match(home, /<span class="eyebrow">12 products<\/span><h3>Polymer Clay Slices<\/h3>/);
-  assert.match(directory, /Browse 85 published products/);
-  assert.match(directory, /<span>12 Products<\/span>[\s\S]*?<h2>Polymer Clay Slices<\/h2>/);
+  assert.equal(catalog.count, 112);
+  assert.equal(catalog.products.length, 112);
+  assert.equal(catalog.products.filter((product) => product.category === 'polymer-clay-slices').length, 23);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 112);
+  assert.match(category, /<strong data-product-count>23 products<\/strong>/);
+  assert.equal((category.match(/data-product-card/g) || []).length, 23);
+  assert.match(home, /<span>112 cataloged products<\/span>/);
+  assert.match(home, /<span class="eyebrow">23 products<\/span><h3>Polymer Clay Slices<\/h3>/);
+  assert.match(directory, /Browse 112 published products/);
+  assert.match(directory, /<span>23 Products<\/span>[\s\S]*?<h2>Polymer Clay Slices<\/h2>/);
 
   const itemList = [...category.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .map((match) => JSON.parse(match[1]))
     .find((item) => item['@type'] === 'ItemList');
-  assert.equal(itemList?.numberOfItems, 12);
-  assert.deepEqual(itemList?.itemListElement.map((item) => item.position), Array.from({ length: 12 }, (_, index) => index + 1));
+  assert.equal(itemList?.numberOfItems, 23);
+  assert.deepEqual(itemList?.itemListElement.map((item) => item.position), Array.from({ length: 23 }, (_, index) => index + 1));
 });
 
 test('Issue #29 product pages preserve identity, RFQ attribution and SEO integrity', async () => {

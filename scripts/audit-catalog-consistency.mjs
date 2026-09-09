@@ -5,11 +5,13 @@ import process from 'node:process';
 const root = process.cwd();
 const config = JSON.parse(await readFile(path.join(root, 'scripts/data/issue-37-sequins-sku-migration.json'), 'utf8'));
 const retirement = JSON.parse(await readFile(path.join(root, 'scripts/data/sequins-ma079-retirement.json'), 'utf8'));
+const newProductBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20260909.json'), 'utf8'));
 const category = config.category;
 const mapping = config.mapping;
 const legacyPaths = Object.keys(mapping);
 const finalSkus = [...new Set(Object.values(mapping))].filter((sku) => sku !== retirement.sku);
-const expectedActiveCount = config.expectedActiveCount - 1;
+const expectedActiveCount = config.expectedActiveCount - 1
+  + newProductBatch.products.filter((product) => product.categorySlug === category).length;
 const errors = [];
 
 const exists = async (file) => { try { await access(file); return true; } catch { return false; } };

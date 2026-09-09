@@ -15,15 +15,18 @@ const issue12BatchPath = path.join(root, 'scripts', 'data', 'issue-12-slime-prod
 const issue18BatchPath = path.join(root, 'scripts', 'data', 'issue-18-slime-products.json');
 const issue29BatchPath = path.join(root, 'scripts', 'data', 'issue-29-polymer-clay-products.json');
 const resinSeptemberBatchPath = path.join(root, 'scripts', 'data', 'resin-products-2026-09.json');
+const haibuSeptember9BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260909.json');
 const issue12Batch = JSON.parse(await readFile(issue12BatchPath, 'utf8'));
 const issue18Batch = JSON.parse(await readFile(issue18BatchPath, 'utf8'));
 const issue29Batch = JSON.parse(await readFile(issue29BatchPath, 'utf8'));
 const resinSeptemberBatch = JSON.parse(await readFile(resinSeptemberBatchPath, 'utf8'));
+const haibuSeptember9Batch = JSON.parse(await readFile(haibuSeptember9BatchPath, 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
   { issue: 29, data: issue29Batch },
-  { issue: 'resin-products-2026-09', data: resinSeptemberBatch }
+  { issue: 'resin-products-2026-09', data: resinSeptemberBatch },
+  { issue: 'haibu-new-products-20260909', data: haibuSeptember9Batch }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -116,7 +119,8 @@ const clip = (value, max) => {
   return clipped || value.slice(0, max).trim();
 };
 
-const seoTitle = ({ title, sku }) => {
+const seoTitle = ({ title, sku, customMetaTitle }) => {
+  if (customMetaTitle) return customMetaTitle;
   const normalized = title.replaceAll('&', 'and');
   const suffix = ` ${sku} | HAIBUCRAFT`;
   return `${clip(normalized, 65 - suffix.length)}${suffix}`;
@@ -130,7 +134,7 @@ const metaDescription = (product) => clip(
 const batchDetailSlug = (product) => `${product.sku.toLowerCase()}-${slugify(product.title).replaceAll('-and-', '-')}`;
 
 const batchImage = (record, position) => (
-  `/assets/images/products/${record.data.assetDirectory || 'batch-2026-08'}/${record.product.sku.toLowerCase()}/${record.product.imagePrefix}-${String(position).padStart(2, '0')}.webp`
+  `/assets/images/products/${record.data.assetDirectory || 'batch-2026-08'}/${record.product.sku.toLowerCase()}/${record.product.imagePrefix}-${String(position).padStart(2, '0')}.${record.data.imageExtension || 'webp'}`
 );
 
 const batchGalleryOrder = (record) => (
@@ -148,7 +152,7 @@ const batchFilter = (product) => {
 
 const batchCard = (record) => {
   const { data, product } = record;
-  const categorySlug = data.categorySlug || 'slime-charms';
+  const categorySlug = product.categorySlug || data.categorySlug || 'slime-charms';
   const detailSlug = batchDetailSlug(product);
   const previewPath = `/v2-preview/products/${categorySlug}/${detailSlug}/`;
   const image = batchImage(record, batchGalleryOrder(record)[0]);
@@ -174,7 +178,7 @@ for (const category of categories) {
   const file = path.join(productsRoot, category.slug, 'index.html');
   let html = await readFile(file, 'utf8');
   const categoryBatchRecords = batchRecords.filter((record) => (
-    (record.data.categorySlug || 'slime-charms') === category.slug
+    (record.product.categorySlug || record.data.categorySlug || 'slime-charms') === category.slug
   ));
   if (categoryBatchRecords.length) {
     const missingCards = categoryBatchRecords
@@ -183,7 +187,7 @@ for (const category of categories) {
       .join('');
     if (missingCards) {
       const gridStart = html.indexOf('<div class="product-grid-v2">');
-      const gridClose = html.indexOf('</div></div></div></section>', gridStart);
+      const gridClose = html.indexOf('</div><div class="cta">', gridStart);
       if (gridStart < 0 || gridClose < 0) throw new Error(`Could not locate the ${category.slug} product-grid insertion point`);
       html = `${html.slice(0, gridClose)}${missingCards}${html.slice(gridClose)}`;
     }
@@ -192,7 +196,7 @@ for (const category of categories) {
       (article) => {
         const sku = decodeHtml(article.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]?.trim() || '');
         const record = batchRecordsBySku.get(sku);
-        return record && (record.data.categorySlug || 'slime-charms') === category.slug
+        return record && (record.product.categorySlug || record.data.categorySlug || 'slime-charms') === category.slug
           ? batchCard(record)
           : article;
       }
@@ -246,8 +250,9 @@ for (const category of categories) {
       categoryLabel: category.label,
       categoryProductionBase: category.productionBase,
       uses: category.uses,
-      material: batchProduct ? batchRecord.data.material : category.material,
+      material: batchProduct ? (batchProduct.material || batchRecord.data.material) : category.material,
       overview: batchProduct?.description || category.overview,
+      customMetaTitle: batchProduct?.metaTitle || null,
       customMetaDescription: batchProduct?.metaDescription || null,
       gallery,
       packingOptions: batchProduct ? batchRecord.data.packingOptions : [],
@@ -259,6 +264,18 @@ for (const category of categories) {
       relatedSkus: batchProduct?.relatedSkus || [],
       dimensions: batchProduct?.dimensions || null,
       sourcePacking: batchProduct?.sourcePacking || null,
+      approvedListing: batchRecord?.data.preserveApprovedContent ? {
+        originalTitle: batchProduct.originalTitle,
+        seasonalTheme: batchProduct.seasonalTheme,
+        keySellingPoints: batchProduct.keySellingPoints,
+        detailedDescription: batchProduct.detailedDescription,
+        specificationLines: batchProduct.specificationLines,
+        customizationOptions: batchProduct.customizationOptions,
+        recommendedApplications: batchProduct.recommendedApplications,
+        packagingMoq: batchProduct.packagingMoq,
+        seoKeywords: batchProduct.seoKeywords,
+        publishingCheck: batchProduct.publishingCheck
+      } : null,
       lastModified: batchRecord?.data.lastModified || catalogLastModified,
       batchProduct: Boolean(batchProduct),
       batchIssue: batchRecord?.issue || null
@@ -427,6 +444,58 @@ for (const category of categories) {
     const buyerFit = product.buyerHeading && product.buyerCopy && product.applications.length
       ? `<section class="section" data-buyer-fit="${escapeHtml(product.sku)}"><div class="container split"><div><span class="eyebrow">Wholesale buyer fit</span><h2>${escapeHtml(product.buyerHeading)}</h2><p>${escapeHtml(product.buyerCopy)}</p></div><div class="card"><h3>Application directions</h3><ul class="checklist">${product.applications.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul><p>These are decorative craft components, not edible products. Exact dimensions, composition, mix ratio, packing and lead time are confirmed against the approved sample and quotation.</p></div></div></section>`
       : '';
+    const highlightsMarkup = product.approvedListing
+      ? product.approvedListing.keySellingPoints.map((item) => `<li>${escapeHtml(item)}</li>`).join('\n              ')
+      : `<li>${product.batchProduct ? 'Sample and product-code based quotation' : 'Product-code based quotation'}</li>
+              <li>${product.batchProduct ? 'Mixed-SKU and private-label packaging review' : 'Mixed-SKU and packaging review'}</li>
+              <li>${product.batchProduct ? 'Lead-time and destination-market document review' : 'Export and documentation coordination'}</li>`;
+    const productInformationSection = product.approvedListing
+      ? `<section class="section alt" data-approved-listing="${escapeHtml(product.sku)}">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">${escapeHtml(product.approvedListing.seasonalTheme)}</span>
+          <h2>Detailed Product Description</h2>
+          <p>${escapeHtml(product.approvedListing.detailedDescription)}</p>
+        </div>
+        <div class="split">
+          <div class="card">
+            <h3>Specifications</h3>
+            <ul class="checklist">${product.approvedListing.specificationLines.map((item) => `<li>${escapeHtml(item)}</li>`).join('')}</ul>
+          </div>
+          <div class="card">
+            <h3>Customization Options</h3>
+            <p>${escapeHtml(product.approvedListing.customizationOptions)}</p>
+            <h3>Recommended Applications</h3>
+            <p>${escapeHtml(product.approvedListing.recommendedApplications)}</p>
+            <h3>Packaging &amp; MOQ</h3>
+            <p>${escapeHtml(product.approvedListing.packagingMoq)}</p>
+          </div>
+        </div>
+      </div>
+    </section>`
+      : `<section class="section alt">
+      <div class="container product-detail-spec-layout">
+        <div>
+          <span class="eyebrow">Buyer Reference</span>
+          <h2>Product information to confirm before ordering.</h2>
+          <p>Use this page as a sourcing reference, then confirm the approved sample and written quotation before production.</p>
+        </div>
+        <table class="spec-table product-detail-table">
+          <tbody>
+            <tr><th>Product code</th><td>${escapeHtml(product.sku)}</td></tr>
+            <tr><th>Product family</th><td>${escapeHtml(product.categoryLabel)}</td></tr>
+            <tr><th>Style direction</th><td>${escapeHtml(product.type)}</td></tr>
+            <tr><th>Common applications</th><td>${escapeHtml(product.uses)}</td></tr>
+            <tr><th>Material scope</th><td>${escapeHtml(product.material)}</td></tr>
+${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            <tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>
+            <tr><th>Testing documents</th><td>Reviewed for the exact SKU, intended use and destination market; no blanket certificate claim applies.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>`;
+    const keywordsMeta = product.approvedListing?.seoKeywords
+      ? `  <meta name="keywords" content="${escapeHtml(product.approvedListing.seoKeywords)}">\n`
+      : '';
 
     const html = `<!DOCTYPE html>
 <html lang="en">
@@ -435,7 +504,7 @@ for (const category of categories) {
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>${escapeHtml(seoTitle(product))}</title>
   <meta name="description" content="${escapeHtml(description)}">
-  <meta name="robots" content="noindex,nofollow">
+${keywordsMeta}  <meta name="robots" content="noindex,nofollow">
   <link rel="stylesheet" href="/v2-preview/assets/site-v2.css">
   <link rel="stylesheet" href="/v2-preview/assets/site-v2-fixes.css">
   <link rel="stylesheet" href="/v2-preview/assets/product-detail.css">
@@ -455,9 +524,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
             <h1>${escapeHtml(product.title)}</h1>
             <p>${escapeHtml(product.overview)}</p>
             <ul class="product-detail-highlights">
-              <li>${product.batchProduct ? 'Sample and product-code based quotation' : 'Product-code based quotation'}</li>
-              <li>${product.batchProduct ? 'Mixed-SKU and private-label packaging review' : 'Mixed-SKU and packaging review'}</li>
-              <li>${product.batchProduct ? 'Lead-time and destination-market document review' : 'Export and documentation coordination'}</li>
+              ${highlightsMarkup}
             </ul>
             <div class="actions">
               <a class="btn btn-primary" href="${quoteHref}">Request Quote for ${escapeHtml(product.sku)}</a>
@@ -469,26 +536,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
       </div>
     </section>
 
-    ${buyerFit ? `${buyerFit}\n    ` : ''}<section class="section alt">
-      <div class="container product-detail-spec-layout">
-        <div>
-          <span class="eyebrow">Buyer Reference</span>
-          <h2>Product information to confirm before ordering.</h2>
-          <p>Use this page as a sourcing reference, then confirm the approved sample and written quotation before production.</p>
-        </div>
-        <table class="spec-table product-detail-table">
-          <tbody>
-            <tr><th>Product code</th><td>${escapeHtml(product.sku)}</td></tr>
-            <tr><th>Product family</th><td>${escapeHtml(product.categoryLabel)}</td></tr>
-            <tr><th>Style direction</th><td>${escapeHtml(product.type)}</td></tr>
-            <tr><th>Common applications</th><td>${escapeHtml(product.uses)}</td></tr>
-            <tr><th>Material scope</th><td>${escapeHtml(product.material)}</td></tr>
-${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            <tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>
-            <tr><th>Testing documents</th><td>Reviewed for the exact SKU, intended use and destination market; no blanket certificate claim applies.</td></tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
+    ${buyerFit ? `${buyerFit}\n    ` : ''}${productInformationSection}
 
     <section class="section">
       <div class="container split">

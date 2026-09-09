@@ -171,6 +171,17 @@ const batchCard = (record) => {
   return `<article class="product-card-v2" data-product-card data-category="${batchFilter(product)}" data-tags="${escapeHtml(tags)}"><img src="${image}" width="1000" height="1000" loading="lazy" decoding="async" alt="${escapeHtml(alt)}"><div class="product-card-body"><div class="product-card-top"><span class="sku-badge">${product.sku}</span><span class="product-type">${escapeHtml(product.type)}</span></div><h3>${escapeHtml(product.title)}</h3><div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${previewPath}">View Details</a><a class="btn btn-primary get-quote" href="${quoteHref}">Get Quote</a></div></div></article>`;
 };
 
+const closingDivStart = (html, openingDivStart) => {
+  const divToken = /<div\b[^>]*>|<\/div>/gi;
+  divToken.lastIndex = openingDivStart;
+  let depth = 0;
+  for (const match of html.matchAll(divToken)) {
+    depth += match[0].startsWith('</') ? -1 : 1;
+    if (depth === 0) return match.index;
+  }
+  return -1;
+};
+
 const categoryHtml = new Map();
 const products = [];
 
@@ -181,13 +192,23 @@ for (const category of categories) {
     (record.product.categorySlug || record.data.categorySlug || 'slime-charms') === category.slug
   ));
   if (categoryBatchRecords.length) {
+    const currentBatchSkus = new Set(categoryBatchRecords
+      .filter(({ issue }) => issue === 'haibu-new-products-20260909')
+      .map(({ product }) => product.sku));
+    html = html.replace(
+      /<article class="product-card-v2"[^>]*>[\s\S]*?<\/article>/g,
+      (article) => {
+        const sku = decodeHtml(article.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]?.trim() || '');
+        return currentBatchSkus.has(sku) ? '' : article;
+      }
+    );
     const missingCards = categoryBatchRecords
       .filter(({ product }) => !html.includes(`<span class="sku-badge">${product.sku}</span>`))
       .map(batchCard)
       .join('');
     if (missingCards) {
       const gridStart = html.indexOf('<div class="product-grid-v2">');
-      const gridClose = html.indexOf('</div><div class="cta">', gridStart);
+      const gridClose = closingDivStart(html, gridStart);
       if (gridStart < 0 || gridClose < 0) throw new Error(`Could not locate the ${category.slug} product-grid insertion point`);
       html = `${html.slice(0, gridClose)}${missingCards}${html.slice(gridClose)}`;
     }

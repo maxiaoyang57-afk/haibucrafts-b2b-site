@@ -946,6 +946,20 @@
       "generatedBlog": true
     },
     {
+      "source": "v2-preview/blog/halloween-slime-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/halloween-slime-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/halloween-slime-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/christmas-slime-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/christmas-slime-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/christmas-slime-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/quote/index.html",
       "destination": "request-quote/index.html",
       "action": "create",

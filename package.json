@@ -22,6 +22,7 @@
     "audit:production-indexability": "node scripts/audit-production-indexability.mjs",
     "indexnow": "node scripts/submit-indexnow.mjs",
     "audit:v2-404": "node scripts/audit-v2-http-404.mjs",
+    "audit:issue-50-seasonal": "node scripts/audit-issue-50-seasonal.mjs",
     "release:v2-materialize": "node scripts/materialize-v2-production.mjs"
   },
   "engines": {

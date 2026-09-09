@@ -1,0 +1,14 @@
+{
+  "halloween": {
+    "slime-charms": ["SLM10002", "SLM10004", "SLM10010", "SLM10011", "SLM10014", "SLM10021"],
+    "polymer-clay-slices": ["YX421", "YX3318", "YX3603"],
+    "resin-charms": ["RW22338"],
+    "sequins-glitter-confetti": []
+  },
+  "christmas": {
+    "slime-charms": ["SLM26529", "SLM10003", "SLM10009", "SLM10013", "SLM10015", "SLM10017", "SLM10129"],
+    "polymer-clay-slices": ["YX4109", "YX4102", "YX4103", "YX163", "YX4019", "YX4012", "YX4057"],
+    "resin-charms": ["RW24891", "RW25830", "RW001884", "RW26499", "RW20175", "RW002155", "RW401", "RW3952", "RW22754", "RW26022", "RW25863"],
+    "sequins-glitter-confetti": ["MA175", "MA612"]
+  }
+}

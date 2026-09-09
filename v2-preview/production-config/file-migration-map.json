@@ -176,6 +176,83 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx421-wholesale-candy-corn-polymer-clay-slices-for-halloween-slime-nail-art-diy-craft-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx421-wholesale-candy-corn-polymer-clay-slices-for-halloween-slime-nail-art-diy-craft-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx421-wholesale-candy-corn-polymer-clay-slices-for-halloween-slime-nail-art-diy-craft-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3318-wholesale-500-g-candy-corn-polymer-clay-sprinkles-yellow-orange-white-halloween-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3318-wholesale-500-g-candy-corn-polymer-clay-sprinkles-yellow-orange-white-halloween-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3318-wholesale-500-g-candy-corn-polymer-clay-sprinkles-yellow-orange-white-halloween-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3603-wholesale-autumn-candy-corn-polymer-clay-sprinkles-for-slime-tumblers-fall-diy-crafts/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3603-wholesale-autumn-candy-corn-polymer-clay-sprinkles-for-slime-tumblers-fall-diy-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3603-wholesale-autumn-candy-corn-polymer-clay-sprinkles-for-slime-tumblers-fall-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4109-wholesale-500-g-christmas-polymer-clay-slices-with-candy-cane-tree-gingerbread-designs/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4109-wholesale-500-g-christmas-polymer-clay-slices-with-candy-cane-tree-gingerbread-designs/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4109-wholesale-500-g-christmas-polymer-clay-slices-with-candy-cane-tree-gingerbread-designs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4102-wholesale-christmas-clay-slice-mix-with-snowflakes-stars-glitter-for-slime-resin-crafts/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4102-wholesale-christmas-clay-slice-mix-with-snowflakes-stars-glitter-for-slime-resin-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4102-wholesale-christmas-clay-slice-mix-with-snowflakes-stars-glitter-for-slime-resin-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4103-wholesale-christmas-clay-slice-mix-with-ab-rhinestones-pearls-snowflake-tree-designs/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4103-wholesale-christmas-clay-slice-mix-with-ab-rhinestones-pearls-snowflake-tree-designs/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4103-wholesale-christmas-clay-slice-mix-with-ab-rhinestones-pearls-snowflake-tree-designs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx163-wholesale-3d-striped-polymer-clay-candy-canes-for-christmas-miniatures-party-crafts/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx163-wholesale-3d-striped-polymer-clay-candy-canes-for-christmas-miniatures-party-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx163-wholesale-3d-striped-polymer-clay-candy-canes-for-christmas-miniatures-party-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4019-wholesale-3d-christmas-polymer-clay-sprinkles-with-snowman-tree-candy-cane-designs/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4019-wholesale-3d-christmas-polymer-clay-sprinkles-with-snowman-tree-candy-cane-designs/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4019-wholesale-3d-christmas-polymer-clay-sprinkles-with-snowman-tree-candy-cane-designs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4012-wholesale-red-green-christmas-polymer-clay-sprinkle-mix-for-slime-snow-globe-tumblers/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4012-wholesale-red-green-christmas-polymer-clay-sprinkle-mix-for-slime-snow-globe-tumblers/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4012-wholesale-red-green-christmas-polymer-clay-sprinkle-mix-for-slime-snow-globe-tumblers/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx660-wholesale-blue-pink-white-snowflake-clay-sprinkle-mix-with-pearls-for-winter-crafts/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx660-wholesale-blue-pink-white-snowflake-clay-sprinkle-mix-with-pearls-for-winter-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx660-wholesale-blue-pink-white-snowflake-clay-sprinkle-mix-with-pearls-for-winter-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4057-wholesale-christmas-glitter-polymer-clay-slice-mix-for-resin-slime-shaker-crafts/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4057-wholesale-christmas-glitter-polymer-clay-slice-mix-for-resin-slime-shaker-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4057-wholesale-christmas-glitter-polymer-clay-slice-mix-for-resin-slime-shaker-crafts/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/slime-charms/slm10094-pink-knife-and-candy-decor-charms/index.html",
       "destination": "products/slime-charms-wholesale/slm10094-pink-knife-and-candy-decor-charms/index.html",
       "action": "create",
@@ -407,6 +484,20 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/slime-charms/slm574-wholesale-easter-slime-filler-mix-with-eggshell-sprinkles-carrot-clay-slices-resin-charms/index.html",
+      "destination": "products/slime-charms-wholesale/slm574-wholesale-easter-slime-filler-mix-with-eggshell-sprinkles-carrot-clay-slices-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm574-wholesale-easter-slime-filler-mix-with-eggshell-sprinkles-carrot-clay-slices-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/index.html",
+      "destination": "products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26051-glitter-cherry-resin-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw26051-glitter-cherry-resin-charms/index.html",
       "action": "create",
@@ -561,6 +652,90 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25830-wholesale-christmas-candy-flatback-resin-cabochons-for-hair-bows-scrapbooking-decoden-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw25830-wholesale-christmas-candy-flatback-resin-cabochons-for-hair-bows-scrapbooking-decoden-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25830-wholesale-christmas-candy-flatback-resin-cabochons-for-hair-bows-scrapbooking-decoden-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw001884-wholesale-cute-gingerbread-man-christmas-mini-desk-car-decorations-custom-sets-packaging/index.html",
+      "destination": "products/resin-charms-for-slime/rw001884-wholesale-cute-gingerbread-man-christmas-mini-desk-car-decorations-custom-sets-packaging/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw001884-wholesale-cute-gingerbread-man-christmas-mini-desk-car-decorations-custom-sets-packaging/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26499-wholesale-mini-penguin-resin-figurines-for-winter-slime-fairy-gardens-christmas-displays/index.html",
+      "destination": "products/resin-charms-for-slime/rw26499-wholesale-mini-penguin-resin-figurines-for-winter-slime-fairy-gardens-christmas-displays/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26499-wholesale-mini-penguin-resin-figurines-for-winter-slime-fairy-gardens-christmas-displays/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw20175-wholesale-mixed-christmas-flatback-resin-charms-for-slime-scrapbooking-diy-accessories/index.html",
+      "destination": "products/resin-charms-for-slime/rw20175-wholesale-mixed-christmas-flatback-resin-charms-for-slime-scrapbooking-diy-accessories/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw20175-wholesale-mixed-christmas-flatback-resin-charms-for-slime-scrapbooking-diy-accessories/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002155-wholesale-santa-deer-penguin-snowman-flatback-resin-cabochons-for-christmas-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw002155-wholesale-santa-deer-penguin-snowman-flatback-resin-cabochons-for-christmas-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002155-wholesale-santa-deer-penguin-snowman-flatback-resin-cabochons-for-christmas-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw401-wholesale-mini-candy-cane-polymer-clay-decorations-for-christmas-slime-phone-cases-scrapbooks/index.html",
+      "destination": "products/resin-charms-for-slime/rw401-wholesale-mini-candy-cane-polymer-clay-decorations-for-christmas-slime-phone-cases-scrapbooks/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw401-wholesale-mini-candy-cane-polymer-clay-decorations-for-christmas-slime-phone-cases-scrapbooks/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3952-wholesale-mini-christmas-coffee-cup-resin-charms-for-dollhouses-slime-cozy-holiday-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw3952-wholesale-mini-christmas-coffee-cup-resin-charms-for-dollhouses-slime-cozy-holiday-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3952-wholesale-mini-christmas-coffee-cup-resin-charms-for-dollhouses-slime-cozy-holiday-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22754-wholesale-20-55-mm-3d-glitter-angel-wings-for-christmas-ornaments-diy-craft-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw22754-wholesale-20-55-mm-3d-glitter-angel-wings-for-christmas-ornaments-diy-craft-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22754-wholesale-20-55-mm-3d-glitter-angel-wings-for-christmas-ornaments-diy-craft-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22338-wholesale-mini-black-plastic-clown-hats-for-halloween-dolls-miniatures-diy-costume-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw22338-wholesale-mini-black-plastic-clown-hats-for-halloween-dolls-miniatures-diy-costume-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22338-wholesale-mini-black-plastic-clown-hats-for-halloween-dolls-miniatures-diy-costume-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26022-wholesale-christmas-miniature-ornament-set-with-snowman-santa-tree-gift-box-designs/index.html",
+      "destination": "products/resin-charms-for-slime/rw26022-wholesale-christmas-miniature-ornament-set-with-snowman-santa-tree-gift-box-designs/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26022-wholesale-christmas-miniature-ornament-set-with-snowman-santa-tree-gift-box-designs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/index.html",
+      "destination": "products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/index.html",
       "destination": "products/sequins-glitter-confetti/ma119-autumn-maple-leaf-holographic-sequins/index.html",
       "action": "create",
@@ -684,6 +859,20 @@
       "destination": "products/sequins-glitter-confetti/ma012-pastel-hollow-star-scatter-mix/index.html",
       "action": "create",
       "productionPath": "/products/sequins-glitter-confetti/ma012-pastel-hollow-star-scatter-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ma175-wholesale-500-g-christmas-candy-cane-sequin-confetti-mix-in-red-green-silver-gold/index.html",
+      "destination": "products/sequins-glitter-confetti/ma175-wholesale-500-g-christmas-candy-cane-sequin-confetti-mix-in-red-green-silver-gold/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ma175-wholesale-500-g-christmas-candy-cane-sequin-confetti-mix-in-red-green-silver-gold/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ma612-wholesale-500-g-colorful-round-christmas-confetti-sequins-for-party-craft-new-year-d-cor/index.html",
+      "destination": "products/sequins-glitter-confetti/ma612-wholesale-500-g-colorful-round-christmas-confetti-sequins-for-party-craft-new-year-d-cor/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ma612-wholesale-500-g-colorful-round-christmas-confetti-sequins-for-party-craft-new-year-d-cor/",
       "generatedProduct": true
     },
     {

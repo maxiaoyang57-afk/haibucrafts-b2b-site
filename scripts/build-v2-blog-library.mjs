@@ -179,6 +179,46 @@ const articles = [
     checklist: ['Arrival deadline', 'SKU assortment', 'Sample approval', 'Artwork freeze', 'Inspection window', 'Shipping responsibility'],
     note: 'Lead time is order-specific. A seasonal plan should use confirmed quotation milestones rather than a general website estimate.',
     links: [['Product Directory', '/v2-preview/products/'], ['Mixed-SKU Planning', '/v2-preview/blog/planning-a-mixed-sku-wholesale-order/'], ['Request Quote', '/v2-preview/quote/?source=blog-resource&article=seasonal-planning']]
+  },
+  {
+    slug: 'halloween-slime-charms-wholesale-buying-guide',
+    category: 'Seasonal Planning',
+    title: 'Halloween Slime Charms Wholesale Buying Guide',
+    seoTitle: 'Halloween Slime Charms Wholesale Buying Guide | HAIBUCRAFT',
+    datePublished: '2026-09-09',
+    dateModified: '2026-09-09',
+    lastReviewed: 'September 9, 2026',
+    description: 'Plan a Halloween slime charms wholesale assortment by product code, motif balance, pack unit, sample timing and arrival date.',
+    dek: 'A focused Halloween slime assortment keeps the seasonal story clear while giving buyers a practical path from sample approval to packed units.',
+    sections: [
+      ['Start with a slime-only shortlist', 'Use the dedicated Halloween Slime Charms collection to compare real product codes such as SLM10002, SLM10004, SLM10010, SLM10011, SLM10014 and SLM10021. Keep polymer, resin and sequin components in their own category reviews.'],
+      ['Set motif and pack ratios', 'State whether each selling unit needs every ghost, skeleton, candy-corn, pumpkin, cat or spider motif. Confirm piece count or net weight and identify any focal-to-filler ratio.'],
+      ['Approve samples before artwork', 'Review product photos or physical samples for color, finish, scale and approved substitutions before labels, pouches or cartons are printed.'],
+      ['Reverse-plan from the Halloween arrival date', 'Reserve time for quotation, sample comments, artwork approval, production, inspection, packing and transport. MOQ and lead time remain quote-specific.']
+    ],
+    checklist: ['Halloween product codes', 'Motif ratio and unit', 'Sample approval', 'Packaging artwork', 'Arrival date', 'Destination market'],
+    note: 'Halloween availability, MOQ, lead time, substitutions and documentation are confirmed for the selected SKU and destination during quotation.',
+    links: [['Halloween Slime Charms', '/v2-preview/products/slime-charms/halloween-slime-charms/'], ['YX421 Candy Corn Slices', '/v2-preview/products/polymer-clay-slices/yx421-wholesale-candy-corn-polymer-clay-slices-for-halloween-slime-nail-art-diy-craft-sprinkles/'], ['Request Seasonal Quote', '/v2-preview/quote/?source=blog-resource&article=halloween-slime-charms-wholesale-buying-guide']]
+  },
+  {
+    slug: 'christmas-slime-charms-wholesale-buying-guide',
+    category: 'Seasonal Planning',
+    title: 'Christmas Slime Charms Wholesale Buying Guide',
+    seoTitle: 'Christmas Slime Charms Wholesale Buying Guide | HAIBUCRAFT',
+    datePublished: '2026-09-09',
+    dateModified: '2026-09-09',
+    lastReviewed: 'September 9, 2026',
+    description: 'Plan a Christmas slime charms wholesale assortment with real SKU selection, mix ratios, pack units, sampling and reverse scheduling.',
+    dek: 'Christmas programs benefit from an early SKU freeze so Santa, tree, snowflake, peppermint, snowman and gingerbread motifs arrive as one coordinated range.',
+    sections: [
+      ['Choose the right slime product codes', 'Start with the Christmas Slime Charms collection, including priority SKU SLM26529 alongside SLM10003, SLM10009, SLM10013, SLM10015, SLM10017 and SLM10129.'],
+      ['Separate slime from companion materials', 'Use polymer clay slices, resin charms and sequins as separate category decisions. The Holiday theme hub links those material pages without mixing them into the slime-only collection.'],
+      ['Define mix, unit and packaging', 'State pieces or grams per selling unit, target ratio by SKU, bag or jar format, label and barcode needs, and whether every design must appear in each pack.'],
+      ['Work backward from arrival', 'Plan quotation, samples, artwork freeze, production, inspection, packing and transport from the required warehouse or launch date. Confirm seasonal substitutions in writing.']
+    ],
+    checklist: ['Christmas product codes', 'Slime-only scope', 'Mix ratio and pack unit', 'Sample and artwork approval', 'Arrival date', 'Destination market'],
+    note: 'Christmas availability, MOQ, lead time and documentation are order-specific and must be confirmed against the selected product codes and destination.',
+    links: [['Christmas Slime Charms', '/v2-preview/products/slime-charms/christmas-slime-charms/'], ['SLM26529 Product Detail', '/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/'], ['Request Seasonal Quote', '/v2-preview/quote/?source=blog-resource&article=christmas-slime-charms-wholesale-buying-guide']]
   }
 ];
 
@@ -197,8 +237,8 @@ for (const article of articles) {
     '@type': 'BlogPosting',
     headline: article.title,
     description: article.description,
-    datePublished: '2026-08-01',
-    dateModified: '2026-08-06',
+    datePublished: article.datePublished || '2026-08-01',
+    dateModified: article.dateModified || '2026-08-06',
     author: {
       '@type': 'Organization',
       name: 'HAIBUCRAFT Buyer Resources',
@@ -241,7 +281,7 @@ for (const article of articles) {
         <div class="blog-article-meta blog-authorship">
           <span>By <a href="/v2-preview/about/editorial-policy/">HAIBUCRAFT Buyer Resources</a></span>
           <span>Scope reviewed by <a href="/v2-preview/about/editorial-policy/#review">Product &amp; Quality Coordination</a></span>
-          <span>Last reviewed August 6, 2026</span>
+          <span>Last reviewed ${escapeHtml(article.lastReviewed || 'August 6, 2026')}</span>
         </div>
         <p class="blog-review-note">Internal sourcing guidance based on catalog, sample, packaging, production and document-review workflows. Review scope is explained in the <a href="/v2-preview/about/editorial-policy/">editorial policy</a>.</p>
       </div>
@@ -300,7 +340,7 @@ const hub = `<!DOCTYPE html>
         <div class="breadcrumbs"><a href="/v2-preview/">Home</a> / Blog</div>
         <span class="eyebrow">Buying Guides &amp; OEM Insights</span>
         <h1>Practical sourcing guidance for wholesale craft buyers.</h1>
-        <p>Ten working guides covering product definition, mixed orders, samples, packaging, inspection, documents and seasonal planning.</p>
+        <p>Twelve working guides covering product definition, mixed orders, samples, packaging, inspection, documents and seasonal planning.</p>
         <div class="actions"><a class="btn btn-primary" href="/v2-preview/products/">Browse Products</a><a class="btn btn-light" href="/v2-preview/quote/?source=blog-directory&amp;landing_page=/v2-preview/blog/">Request Quote</a></div>
       </div>
     </section>

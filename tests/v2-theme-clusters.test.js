@@ -14,6 +14,7 @@ test('theme library publishes four clusters and eight release routes',()=>{
     assert.ok(map.routes.some((route)=>route.productionPath===`/themes/${slug}/`&&route.index));
     const html=read(`v2-preview/themes/${slug}/index.html`);
     assert.equal((html.match(/<h1\b/g)||[]).length,1);
+    assert.match(html, /<link rel="stylesheet" href="\/v2-preview\/assets\/site-v2-fixes\.css">/);
   }
   assert.ok(map.routes.some((route)=>route.productionPath==='/themes/'&&route.index));
 });

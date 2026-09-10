@@ -18,8 +18,33 @@
   const productImage = value('image');
   const landingPage = value('landing_page', document.referrer || '/v2-preview/');
 
+  const ensureHiddenField = (name, id) => {
+    let field = document.getElementById(id);
+    if (!field) {
+      field = document.createElement('input');
+      field.type = 'hidden';
+      field.name = name;
+      field.id = id;
+      form.appendChild(field);
+    }
+    return field;
+  };
+  ensureHiddenField('source_page', 'sourcePageField');
+  ensureHiddenField('product_page', 'productPageField');
+  ensureHiddenField('collection', 'collectionField');
+  if (!form.elements.namedItem('target_delivery_date')) {
+    const quantityField = form.elements.namedItem('quantity');
+    const quantityLabel = quantityField?.closest('label');
+    const deliveryLabel = document.createElement('label');
+    deliveryLabel.innerHTML = 'Target Arrival Date <span class="field-optional">(optional)</span><input name="target_delivery_date" type="date">';
+    quantityLabel?.insertAdjacentElement('afterend', deliveryLabel);
+  }
+
   setValue('sourceField', source);
   setValue('landingField', landingPage);
+  setValue('sourcePageField', value('source_page', landingPage));
+  setValue('productPageField', value('product_page', productCode ? landingPage : ''));
+  setValue('collectionField', value('collection'));
   setValue('articleField', value('article'));
   setValue('productField', productCode);
   setValue('productNameField', productName);

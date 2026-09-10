@@ -131,6 +131,12 @@ test('seasonal slime collection pages use real catalog products and indexable pr
     assert.match(html, /\.seasonal-product-media img\s*\{[^}]*width:\s*100%;[^}]*height:\s*100%;[^}]*object-fit:\s*cover;[^}]*object-position:\s*center;/s);
     assert.match(html, /\.product-card-v2\s*\{[^}]*height:\s*100%;/s);
     assert.match(html, /\.product-card-actions\s*\{[^}]*margin-top:\s*auto;/s);
+    if (slug === 'christmas-slime-charms') {
+      assert.match(html, /7 catalog SKUs for christmas sourcing/);
+      assert.match(html, />SLM26529<\/span>/);
+      assert.match(html, /Get Christmas Range Quote/);
+      assert.match(html, /target arrival date/i);
+    }
     assert.ok(seoMap.routes.some((route) => route.productionPath === productionPath && route.index === true));
     assert.equal(sitemap.split(`<loc>https://www.haibucrafts.com${productionPath}</loc>`).length - 1, 1);
   }

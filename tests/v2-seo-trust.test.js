@@ -28,7 +28,7 @@ test('homepage identifies the HAIBUCRAFT website and organization', async () => 
 test('all buyer guides show matching author and scope-review information', async () => {
   const blogRoot = path.join(previewRoot, 'blog');
   const directories = (await readdir(blogRoot, { withFileTypes: true })).filter((entry) => entry.isDirectory());
-  assert.equal(directories.length, 10);
+  assert.equal(directories.length, 12);
 
   for (const directory of directories) {
     const html = await read(path.join('blog', directory.name, 'index.html'));
@@ -36,10 +36,11 @@ test('all buyer guides show matching author and scope-review information', async
     assert.equal(posting?.author?.name, 'HAIBUCRAFT Buyer Resources');
     assert.equal(posting?.author?.url, 'https://www.haibucrafts.com/about/editorial-policy/');
     assert.equal(posting?.reviewedBy?.name, 'HAIBUCRAFT Product & Quality Coordination');
-    assert.equal(posting?.dateModified, '2026-08-06');
+    const isIssue50Seasonal = directory.name.includes('halloween-slime-charms-wholesale-buying-guide') || directory.name.includes('christmas-slime-charms-wholesale-buying-guide');
+    assert.equal(posting?.dateModified, isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
     assert.match(html, /By <a href="\/v2-preview\/about\/editorial-policy\/">HAIBUCRAFT Buyer Resources<\/a>/);
     assert.match(html, /Scope reviewed by/);
-    assert.match(html, /Last reviewed August 6, 2026/);
+    assert.match(html, isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
   }
 });
 
@@ -103,6 +104,7 @@ test('all category theme-link sections load their responsive card styling', asyn
   const stylesheet = await read('assets/theme-clusters.css');
 
   assert.match(stylesheet, /\.theme-inline-links\{display:grid;/);
+  assert.match(stylesheet, /\.theme-product-card img\{[^}]*width:100%;height:auto;aspect-ratio:1;/);
   assert.match(stylesheet, /@media\(max-width:620px\)[\s\S]*?\.theme-inline-links[^}]*grid-template-columns:1fr/);
 
   for (const file of categoryFiles) {
@@ -110,6 +112,14 @@ test('all category theme-link sections load their responsive card styling', asyn
     assert.match(html, /<link rel="stylesheet" href="\/v2-preview\/assets\/theme-clusters\.css">/);
     assert.match(html, /class="theme-inline-links"/);
   }
+});
+
+test('buyer-facing product imagery resets intrinsic height attributes', async () => {
+  const homeStylesheet = await read('assets/home-v2.css');
+  const sharedStylesheet = await read('assets/site-v2-fixes.css');
+  assert.match(homeStylesheet, /\.hero-product-mosaic img\{[^}]*width:100%;height:auto;aspect-ratio:4\/3;/);
+  assert.match(homeStylesheet, /\.category-visual-card img\{[^}]*width:100%;height:auto;aspect-ratio:3\/2;/);
+  assert.match(sharedStylesheet, /\.product-card-v2 img\{[^}]*width:100%;height:auto;aspect-ratio:1\/1;/);
 });
 
 test('seasonal slime collection pages use real catalog products and indexable production routes', async () => {
@@ -130,6 +140,12 @@ test('seasonal slime collection pages use real catalog products and indexable pr
     assert.match(html, /\.seasonal-product-media img\s*\{[^}]*width:\s*100%;[^}]*height:\s*100%;[^}]*object-fit:\s*cover;[^}]*object-position:\s*center;/s);
     assert.match(html, /\.product-card-v2\s*\{[^}]*height:\s*100%;/s);
     assert.match(html, /\.product-card-actions\s*\{[^}]*margin-top:\s*auto;/s);
+    if (slug === 'christmas-slime-charms') {
+      assert.match(html, /7 catalog SKUs for christmas sourcing/);
+      assert.match(html, />SLM26529<\/span>/);
+      assert.match(html, /Get Christmas Range Quote/);
+      assert.match(html, /target arrival date/i);
+    }
     assert.ok(seoMap.routes.some((route) => route.productionPath === productionPath && route.index === true));
     assert.equal(sitemap.split(`<loc>https://www.haibucrafts.com${productionPath}</loc>`).length - 1, 1);
   }

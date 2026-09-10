@@ -104,6 +104,7 @@ test('all category theme-link sections load their responsive card styling', asyn
   const stylesheet = await read('assets/theme-clusters.css');
 
   assert.match(stylesheet, /\.theme-inline-links\{display:grid;/);
+  assert.match(stylesheet, /\.theme-product-card img\{[^}]*width:100%;height:auto;aspect-ratio:1;/);
   assert.match(stylesheet, /@media\(max-width:620px\)[\s\S]*?\.theme-inline-links[^}]*grid-template-columns:1fr/);
 
   for (const file of categoryFiles) {
@@ -111,6 +112,14 @@ test('all category theme-link sections load their responsive card styling', asyn
     assert.match(html, /<link rel="stylesheet" href="\/v2-preview\/assets\/theme-clusters\.css">/);
     assert.match(html, /class="theme-inline-links"/);
   }
+});
+
+test('buyer-facing product imagery resets intrinsic height attributes', async () => {
+  const homeStylesheet = await read('assets/home-v2.css');
+  const sharedStylesheet = await read('assets/site-v2-fixes.css');
+  assert.match(homeStylesheet, /\.hero-product-mosaic img\{[^}]*width:100%;height:auto;aspect-ratio:4\/3;/);
+  assert.match(homeStylesheet, /\.category-visual-card img\{[^}]*width:100%;height:auto;aspect-ratio:3\/2;/);
+  assert.match(sharedStylesheet, /\.product-card-v2 img\{[^}]*width:100%;height:auto;aspect-ratio:1\/1;/);
 });
 
 test('seasonal slime collection pages use real catalog products and indexable production routes', async () => {

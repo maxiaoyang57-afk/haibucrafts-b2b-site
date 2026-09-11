@@ -82,16 +82,16 @@ test('Issue #18 keeps its original SKUs after later catalog additions and preser
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
   const redirects = JSON.parse(await readFile(path.join(root, 'vercel.json'), 'utf8')).redirects;
 
-  assert.equal(catalog.count, 112);
-  assert.equal(catalog.products.length, 112);
+  assert.equal(catalog.count, 114);
+  assert.equal(catalog.products.length, 114);
   assert.equal(catalog.products.filter((product) => product.category === 'slime-charms').length, 35);
   assert.match(category, /<strong data-product-count>35 products<\/strong>/);
   assert.equal((category.match(/data-product-card/g) || []).length, 35);
-  assert.match(home, /<span>112 cataloged products<\/span>/);
-  assert.match(home, /<b>112<\/b><span>Cataloged wholesale products<\/span>/);
+  assert.match(home, /<span>114 cataloged products<\/span>/);
+  assert.match(home, /<b>114<\/b><span>Cataloged wholesale products<\/span>/);
   assert.match(home, /<span class="eyebrow">35 products<\/span><h3>Slime Charms<\/h3>/);
-  assert.match(directory, /Browse 112 published products/);
-  assert.match(directory, /<b>112<\/b><span>Published products<\/span>/);
+  assert.match(directory, /Browse 114 published products/);
+  assert.match(directory, /<b>114<\/b><span>Published products<\/span>/);
   assert.match(directory, /<span>35 Products<\/span>[\s\S]*?<h2>Slime Charms<\/h2>/);
   assert.doesNotMatch(`${home}\n${directory}`, /63 cataloged products|Browse 63 published products|15 Products/);
 

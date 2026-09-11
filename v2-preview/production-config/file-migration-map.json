@@ -652,6 +652,20 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26746-wholesale-christmas-gingerbread-box-miniatures-custom-3d-dessert-set-decorations-for-tabletop-holiday-scene-accessories/index.html",
+      "destination": "products/resin-charms-for-slime/rw26746-wholesale-christmas-gingerbread-box-miniatures-custom-3d-dessert-set-decorations-for-tabletop-holiday-scene-accessories/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26746-wholesale-christmas-gingerbread-box-miniatures-custom-3d-dessert-set-decorations-for-tabletop-holiday-scene-accessories/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26768-wholesale-christmas-gingerbread-cabochons-custom-3d-holiday-mini-charms-for-hair-phone-keychain-accessories/index.html",
+      "destination": "products/resin-charms-for-slime/rw26768-wholesale-christmas-gingerbread-cabochons-custom-3d-holiday-mini-charms-for-hair-phone-keychain-accessories/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26768-wholesale-christmas-gingerbread-cabochons-custom-3d-holiday-mini-charms-for-hair-phone-keychain-accessories/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/index.html",
       "destination": "products/resin-charms-for-slime/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/index.html",
       "action": "create",

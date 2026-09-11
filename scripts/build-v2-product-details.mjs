@@ -16,17 +16,20 @@ const issue18BatchPath = path.join(root, 'scripts', 'data', 'issue-18-slime-prod
 const issue29BatchPath = path.join(root, 'scripts', 'data', 'issue-29-polymer-clay-products.json');
 const resinSeptemberBatchPath = path.join(root, 'scripts', 'data', 'resin-products-2026-09.json');
 const haibuSeptember9BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260909.json');
+const haibuSeptember11BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260911.json');
 const issue12Batch = JSON.parse(await readFile(issue12BatchPath, 'utf8'));
 const issue18Batch = JSON.parse(await readFile(issue18BatchPath, 'utf8'));
 const issue29Batch = JSON.parse(await readFile(issue29BatchPath, 'utf8'));
 const resinSeptemberBatch = JSON.parse(await readFile(resinSeptemberBatchPath, 'utf8'));
 const haibuSeptember9Batch = JSON.parse(await readFile(haibuSeptember9BatchPath, 'utf8'));
+const haibuSeptember11Batch = JSON.parse(await readFile(haibuSeptember11BatchPath, 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
   { issue: 29, data: issue29Batch },
   { issue: 'resin-products-2026-09', data: resinSeptemberBatch },
-  { issue: 'haibu-new-products-20260909', data: haibuSeptember9Batch }
+  { issue: 'haibu-new-products-20260909', data: haibuSeptember9Batch },
+  { issue: 'haibu-new-products-20260911', data: haibuSeptember11Batch }
 ];
 
 for (const { issue, data } of productBatches) {

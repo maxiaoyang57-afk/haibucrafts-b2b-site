@@ -1,0 +1,139 @@
+{
+  "batch": "haibu-new-products-20260911",
+  "target": "HAIBU",
+  "repository": "Maxiaoyang57-AFK/haibucrafts-b2b-site",
+  "baselineMain": "452ce6c94ba9185bd8b675e637f6c132dd665fdd",
+  "branch": "pro/haibu-new-products-20260911",
+  "sources": [
+    {
+      "name": "9.11.xls",
+      "sha256": "8f8782e5d79e11bb5a2dcf2b8afa3d0fbf736d727ddf2dc9024d5d14a2777465",
+      "role": "product content"
+    },
+    {
+      "name": "RW26746.jpg",
+      "sha256": "64f7ef3be418abb574b1f7a0626efe31f33184b85200a99015ce5b84e1c25be1",
+      "role": "RW26746 original image"
+    },
+    {
+      "name": "RW26768.jpg",
+      "sha256": "05f49909b8b2f28bb9b50bb68066f4cdda0e98a718ee7c2b55e966af0e4eced8",
+      "role": "RW26768 original image"
+    }
+  ],
+  "deduplication": {
+    "catalogBefore": 112,
+    "receivedUniqueSkus": 2,
+    "newSkus": 2,
+    "skippedSkus": 0,
+    "exactSourceImageDuplicates": 0
+  },
+  "products": [
+    {
+      "sku": "RW26746",
+      "sourceSheet": "Sheet1",
+      "sourceRow": 1,
+      "duplicateStatus": "new",
+      "category": "Resin Charms",
+      "listingStatus": "prepared_for_preview",
+      "previewPath": "/v2-preview/products/resin-charms/rw26746-wholesale-christmas-gingerbread-box-miniatures-custom-3d-dessert-set-decorations-for-tabletop-holiday-scene-accessories/",
+      "productionPath": "/products/resin-charms-for-slime/rw26746-wholesale-christmas-gingerbread-box-miniatures-custom-3d-dessert-set-decorations-for-tabletop-holiday-scene-accessories/",
+      "needsConfirmation": [
+        "exact material",
+        "dimensions",
+        "set or assortment quantity",
+        "packing",
+        "MOQ",
+        "lead time"
+      ],
+      "outputs": [
+        {
+          "role": "main",
+          "path": "assets/images/products/batch-2026-09-11/rw26746/rw26746-christmas-gingerbread-box-miniatures-01.jpg",
+          "sha256": "8c0c8b08cf55bc8b517557ba58b41427239c5d597ae92ef2b214ea17b62e81d0",
+          "bytes": 137761,
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "ready"
+        },
+        {
+          "role": "detail_1",
+          "path": "assets/images/products/batch-2026-09-11/rw26746/rw26746-christmas-gingerbread-box-miniatures-02.jpg",
+          "sha256": "5d642e86a7440c178fe7b11ba84093e3e051b3f95c41e570cfaff0f5309f6f13",
+          "bytes": 185632,
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "ready"
+        },
+        {
+          "role": "detail_2",
+          "path": "assets/images/products/batch-2026-09-11/rw26746/rw26746-christmas-gingerbread-box-miniatures-03.jpg",
+          "sha256": "a855546e37d784addb9245fbcc1df0cb4309422bb8f40645c4d7ee816b368b99",
+          "bytes": 157788,
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "sku": "RW26768",
+      "sourceSheet": "Sheet1",
+      "sourceRow": 2,
+      "duplicateStatus": "new",
+      "category": "Resin Charms",
+      "listingStatus": "prepared_for_preview",
+      "previewPath": "/v2-preview/products/resin-charms/rw26768-wholesale-christmas-gingerbread-cabochons-custom-3d-holiday-mini-charms-for-hair-phone-keychain-accessories/",
+      "productionPath": "/products/resin-charms-for-slime/rw26768-wholesale-christmas-gingerbread-cabochons-custom-3d-holiday-mini-charms-for-hair-phone-keychain-accessories/",
+      "needsConfirmation": [
+        "exact material",
+        "dimensions",
+        "set or assortment quantity",
+        "packing",
+        "MOQ",
+        "lead time"
+      ],
+      "outputs": [
+        {
+          "role": "main",
+          "path": "assets/images/products/batch-2026-09-11/rw26768/rw26768-christmas-gingerbread-cabochons-01.jpg",
+          "sha256": "878d5f333d45e14596224114f875cbbc264484c3ae7076cf14e61e8def26d267",
+          "bytes": 104093,
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "ready"
+        },
+        {
+          "role": "detail_1",
+          "path": "assets/images/products/batch-2026-09-11/rw26768/rw26768-christmas-gingerbread-cabochons-02.jpg",
+          "sha256": "fc32854a36a8a49be8ef7b820278d22670a3e8f6df622091f9e981ed827103a3",
+          "bytes": 170530,
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "ready"
+        },
+        {
+          "role": "detail_2",
+          "path": "assets/images/products/batch-2026-09-11/rw26768/rw26768-christmas-gingerbread-cabochons-03.jpg",
+          "sha256": "0d3dac3886e018737e6ef73f8f16695c5ad9ffe4b1b00f735fef8eb637f02ef4",
+          "bytes": 209461,
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "ready"
+        }
+      ]
+    }
+  ]
+}

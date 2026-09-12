@@ -39,8 +39,8 @@ const finalSkus = [...new Set(Object.values(effectiveMapping))].filter((sku) => 
 
 test('Resin migration keeps all 19 corrected SKUs after later Resin additions', () => {
   const cardsSkus = cards.map((card) => card.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]);
-  assert.equal(cards.length, 36);
-  assert.equal(new Set(cardsSkus).size, 36);
+  assert.equal(cards.length, 44);
+  assert.equal(new Set(cardsSkus).size, 44);
   assert.deepEqual(new Set(cardsSkus.filter((sku) => finalSkus.includes(sku))), new Set(finalSkus));
   assert.equal(mapping.RW002859, 'RW002859');
 });

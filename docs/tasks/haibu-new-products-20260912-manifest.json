@@ -1,0 +1,559 @@
+{
+  "batch": "haibu-new-products-20260912",
+  "target": "HAIBU",
+  "repository": "Maxiaoyang57-AFK/haibucrafts-b2b-site",
+  "baselineMain": "368b778f848446c3ec5a2b624e067873d2e7a6ee",
+  "branch": "pro/haibu-new-products-20260912",
+  "deduplication": {
+    "catalogBefore": 114,
+    "receivedUniqueSkus": 12,
+    "newSkus": 12,
+    "skippedSkus": 0
+  },
+  "products": [
+    {
+      "sku": "RW26692",
+      "sourceRow": 2,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/rw26692/rw26692-cute-bear-resin-embellishments-01.webp",
+          "sourcePath": "qula12_source/RW26692.jpg",
+          "bytes": 15174,
+          "sha256": "35d8c18286e06af1f0310c373e41d127c61203371d7ba17c26df9c72c6fe1718",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/rw26692/rw26692-cute-bear-resin-embellishments-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW26692/RW26692_02_natural_display.png",
+          "bytes": 26616,
+          "sha256": "17f92852e3f5540a6a468cdb2f7967aa674104f43afa893bcbbd28c8675fcad4",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/rw26692/rw26692-cute-bear-resin-embellishments-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW26692/RW26692_03_hand_detail.png",
+          "bytes": 43166,
+          "sha256": "a0b39b2154fb1ff55725dbc89f60518b5515e7b80eb24817f46fd44a796646e2",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "YX004",
+      "sourceRow": 3,
+      "category": "Polymer Clay Slices",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/yx004/yx004-mixed-candy-dessert-clay-slices-01.webp",
+          "sourcePath": "qula12_source/YX004.jpg",
+          "bytes": 80896,
+          "sha256": "56bd08d5ff37f236fb50733cbd5bbaca00c2b51c61d911c0c99b36f0617a2081",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/yx004/yx004-mixed-candy-dessert-clay-slices-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/YX004/YX004_02_natural_display.png",
+          "bytes": 134696,
+          "sha256": "825416f627cb4dc865114487bd6ac850e6b545a2c581112b29ab0e305a136196",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/yx004/yx004-mixed-candy-dessert-clay-slices-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/YX004/YX004_03_macro_detail.png",
+          "bytes": 113314,
+          "sha256": "51260bab6ed88a7490eccbd544341f5bad807b826c887ae582f78b067c977f89",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "YX002",
+      "sourceRow": 4,
+      "category": "Polymer Clay Slices",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/yx002/yx002-mixed-fruit-clay-slices-01.webp",
+          "sourcePath": "qula12_source/YX002.jpg",
+          "bytes": 59034,
+          "sha256": "909bf255922b03768453b92d089b0d8d0c9a72abc6de2cc242facd416504222e",
+          "pixels": [
+            751,
+            751
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/yx002/yx002-mixed-fruit-clay-slices-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/YX002/YX002_02_natural_display.png",
+          "bytes": 112466,
+          "sha256": "97bb43078b1e3773b36b982cb86ba2add3d4487513345c8b2dbeb9cdfc9bdcf6",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/yx002/yx002-mixed-fruit-clay-slices-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/YX002/YX002_03_macro_detail.png",
+          "bytes": 122694,
+          "sha256": "05bf49bc934ae6c4699ee94f4f84c123165ea052d43517ba0fd08c4d6310f79d",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "YX051",
+      "sourceRow": 5,
+      "category": "Polymer Clay Slices",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/yx051/yx051-banana-polymer-clay-slices-01.webp",
+          "sourcePath": "qula12_source/YX051.jpg",
+          "bytes": 43996,
+          "sha256": "89737b7fcbfdf948f4f9e5b7580c88b01757f474f6435cda95a2daf51700a688",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/yx051/yx051-banana-polymer-clay-slices-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/YX051/YX051_02_natural_display.png",
+          "bytes": 51502,
+          "sha256": "9db5f1d928c3b9be9454482f76ab487ffbfa28f86338571c2e17353ab875c9d4",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/yx051/yx051-banana-polymer-clay-slices-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/YX051/YX051_03_macro_detail.png",
+          "bytes": 48344,
+          "sha256": "727dc2a8168d2dcc753958dbacd25abb43f541a6c75cd04d0a9502afa15c95a4",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW927",
+      "sourceRow": 6,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/rw927/rw927-sunflower-resin-cabochons-01.webp",
+          "sourcePath": "qula12_source/RW927.jpg",
+          "bytes": 52480,
+          "sha256": "dee6a7720e0f5578c3acf6f960d7b77979e1e58e89abe85f6921806bc567aeb8",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/rw927/rw927-sunflower-resin-cabochons-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW927/RW927_02_natural_display.png",
+          "bytes": 62646,
+          "sha256": "e241812ed7a7485f53061fea5f33262e86e62986cfd9b8e2e3a308e9c4bcc062",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/rw927/rw927-sunflower-resin-cabochons-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW927/RW927_03_hand_detail.png",
+          "bytes": 59378,
+          "sha256": "b5fce9b89a5387ea016b467f0758c842e30990f19fff78992f1437e416226df6",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "YX4138",
+      "sourceRow": 7,
+      "category": "Polymer Clay Slices",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/yx4138/yx4138-strawberry-polymer-clay-mix-01.webp",
+          "sourcePath": "qula12_source/YX4138.jpg",
+          "bytes": 65152,
+          "sha256": "d5ebe6adfc3ee31b182ff0dd178c9398fa570a9f0fcdfcfd8a357dd91604d117",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/yx4138/yx4138-strawberry-polymer-clay-mix-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/YX4138/YX4138_02_natural_display.png",
+          "bytes": 85206,
+          "sha256": "f19a89e15dcb5c0d835f1fa5f516e1966b5863e2190a8578e25ab9f316542894",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/yx4138/yx4138-strawberry-polymer-clay-mix-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/YX4138/YX4138_03_macro_detail.png",
+          "bytes": 80298,
+          "sha256": "85e0efe6f13949e53862d61ad4dfa28a78ecced0ab7bf7b0ae911d620c2264da",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW2445",
+      "sourceRow": 8,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/rw2445/rw2445-chocolate-bar-resin-cabochons-01.webp",
+          "sourcePath": "qula12_source/RW2445.jpg",
+          "bytes": 12478,
+          "sha256": "570f235825d9a909b96cad8da0d8634d8b3abb6fa4ec48575ad3b02677ccfd5a",
+          "pixels": [
+            800,
+            800
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/rw2445/rw2445-chocolate-bar-resin-cabochons-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW2445/RW2445_02_natural_display.png",
+          "bytes": 32082,
+          "sha256": "b9452854100b46fd57894fbe6fac646c1a688c7a92e199b59607b0b410bdb704",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/rw2445/rw2445-chocolate-bar-resin-cabochons-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW2445/RW2445_03_hand_scale.png",
+          "bytes": 37580,
+          "sha256": "d59756b28f37456b7ba6d63067e4713f1e01dceb04b418d54af203b6c191c86b",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW370",
+      "sourceRow": 9,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/rw370/rw370-whipped-cream-resin-cabochons-01.webp",
+          "sourcePath": "qula12_source/RW370.jpg",
+          "bytes": 19334,
+          "sha256": "5a3f8470e72d54a634e41c1f16e687bdd602e1c21e0481f4c3e56868209a521e",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/rw370/rw370-whipped-cream-resin-cabochons-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW370/RW370_02_natural_display.png",
+          "bytes": 40846,
+          "sha256": "e7caa0597667ba41caa4351cb111caec01c9d4c1858f3e0b374d7f8eb9984cf7",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/rw370/rw370-whipped-cream-resin-cabochons-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW370/RW370_03_hand_detail.png",
+          "bytes": 41400,
+          "sha256": "d2829483aeec3aef3c4c49d9c9dd26ee9728f9d5786885534ed63554aa223d2d",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW22405",
+      "sourceRow": 10,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/rw22405/rw22405-cartoon-animal-food-resin-mix-01.webp",
+          "sourcePath": "qula12_source/RW22405.jpg",
+          "bytes": 169742,
+          "sha256": "824d33229c94bdc318a044d75ead0a0264dfcfcde029a1e3d80d508c6af00a5d",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/rw22405/rw22405-cartoon-animal-food-resin-mix-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW22405/RW22405_02_natural_display.png",
+          "bytes": 34784,
+          "sha256": "6969465a242b5b2c52398305b98f7740163d10298cad61eb8b25e65d15f394a6",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/rw22405/rw22405-cartoon-animal-food-resin-mix-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW22405/RW22405_03_hand_detail.png",
+          "bytes": 58486,
+          "sha256": "d6ab53ed0f6ac1328bdf1a643fad237daf2a1904a507e6d86c4fa5072041abb7",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW1394",
+      "sourceRow": 11,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/rw1394/rw1394-mushroom-house-resin-figurines-01.webp",
+          "sourcePath": "qula12_source/RW1394.jpg",
+          "bytes": 28628,
+          "sha256": "5f0bc84778f3b378cbf8b8ba12d6bc1c7372bc2c35ee8ec9ae45a52709e59744",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/rw1394/rw1394-mushroom-house-resin-figurines-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW1394/RW1394_02_natural_display.png",
+          "bytes": 45606,
+          "sha256": "be30633700b157a5dee0a472fe9f9b2afe1b48c1e8e322204c9721d0f6c98195",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/rw1394/rw1394-mushroom-house-resin-figurines-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW1394/RW1394_03_hand_detail.png",
+          "bytes": 41992,
+          "sha256": "866ded7435a387d5aa9e14e5c5d42ee54ee3a9b4713308b9b6a2bebfcb303f85",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW001078",
+      "sourceRow": 12,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/rw001078/rw001078-blue-dolphin-resin-cabochons-01.webp",
+          "sourcePath": "qula12_source/RW001078.jpg",
+          "bytes": 13864,
+          "sha256": "ba31c771c8461985a6ad5a298263831622dff49b321ced4e65d83c9c63192786",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/rw001078/rw001078-blue-dolphin-resin-cabochons-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW001078/RW001078_02_natural_display.png",
+          "bytes": 25050,
+          "sha256": "78ea38f609873deaa17012ba7fe32a8ea459cc8451a0e2c60026393076b13912",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/rw001078/rw001078-blue-dolphin-resin-cabochons-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW001078/RW001078_03_hand_detail.png",
+          "bytes": 50416,
+          "sha256": "fcfca813a3c0d3381ba2c583bc616fc6e1fe0406578cfcfd2efc7a41e4b205ef",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26637",
+      "sourceRow": 13,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-12/rw26637/rw26637-scuba-diver-resin-figurines-01.webp",
+          "sourcePath": "qula12_source/RW26637.jpg",
+          "bytes": 46198,
+          "sha256": "0caef902c47d300ed920a548597acd4813e4f9ba3ac33d79230423fcaa12c0a9",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_display",
+          "path": "assets/images/products/batch-2026-09-12/rw26637/rw26637-scuba-diver-resin-figurines-02.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW26637/RW26637_02_natural_display.png",
+          "bytes": 37382,
+          "sha256": "fe6295ce68eec8e0d7d49d4455227dcb57ea03a7f4aed33391199e91600bc6e2",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "scale_or_detail",
+          "path": "assets/images/products/batch-2026-09-12/rw26637/rw26637-scuba-diver-resin-figurines-03.webp",
+          "sourcePath": "QULA_12SKU_Images_Remade_20260912/RW26637/RW26637_03_hand_detail.png",
+          "bytes": 59354,
+          "sha256": "38ac1424398b5e5617f60ebd84ef9981bea9ee43785252ebc793827085f5ec98",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "generatedImages": 36,
+    "expectedImages": 36,
+    "format": "WebP",
+    "maxBytes": 500000,
+    "maxPixels": [
+      1000,
+      1000
+    ],
+    "catalogAfter": 126,
+    "categoriesAfter": {
+      "resin-charms": 44,
+      "polymer-clay-slices": 27
+    },
+    "productionStatus": "not_merged"
+  }
+}

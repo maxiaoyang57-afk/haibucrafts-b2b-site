@@ -17,9 +17,9 @@ test('adds only the two new 2026-09-11 HAIBU SKUs', () => {
   assert.equal(batch.expectedSkuCount, 2);
   assert.deepEqual(batch.products.map((product) => product.sku), ['RW26746', 'RW26768']);
   assert.equal(new Set(batch.products.map((product) => product.sku)).size, 2);
-  assert.equal(catalog.count, 114);
-  assert.equal(catalog.products.length, 114);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 114);
+  assert.equal(catalog.count, 126);
+  assert.equal(catalog.products.length, 126);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 126);
   assert.deepEqual(catalog, previewCatalog);
   for (const product of batch.products) {
     assert.equal(bySku.get(product.sku)?.category, 'resin-charms');

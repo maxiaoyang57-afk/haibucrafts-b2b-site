@@ -17,19 +17,22 @@ const issue29BatchPath = path.join(root, 'scripts', 'data', 'issue-29-polymer-cl
 const resinSeptemberBatchPath = path.join(root, 'scripts', 'data', 'resin-products-2026-09.json');
 const haibuSeptember9BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260909.json');
 const haibuSeptember11BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260911.json');
+const haibuSeptember12BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260912.json');
 const issue12Batch = JSON.parse(await readFile(issue12BatchPath, 'utf8'));
 const issue18Batch = JSON.parse(await readFile(issue18BatchPath, 'utf8'));
 const issue29Batch = JSON.parse(await readFile(issue29BatchPath, 'utf8'));
 const resinSeptemberBatch = JSON.parse(await readFile(resinSeptemberBatchPath, 'utf8'));
 const haibuSeptember9Batch = JSON.parse(await readFile(haibuSeptember9BatchPath, 'utf8'));
 const haibuSeptember11Batch = JSON.parse(await readFile(haibuSeptember11BatchPath, 'utf8'));
+const haibuSeptember12Batch = JSON.parse(await readFile(haibuSeptember12BatchPath, 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
   { issue: 29, data: issue29Batch },
   { issue: 'resin-products-2026-09', data: resinSeptemberBatch },
   { issue: 'haibu-new-products-20260909', data: haibuSeptember9Batch },
-  { issue: 'haibu-new-products-20260911', data: haibuSeptember11Batch }
+  { issue: 'haibu-new-products-20260911', data: haibuSeptember11Batch },
+  { issue: 'haibu-new-products-20260912', data: haibuSeptember12Batch }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -300,6 +303,7 @@ for (const category of categories) {
         seoKeywords: batchProduct.seoKeywords,
         publishingCheck: batchProduct.publishingCheck
       } : null,
+      mediaLabel: batchProduct?.mediaLabel || (batchRecord?.issue === 'haibu-new-products-20260912' ? 'Product image reference' : 'Actual product photo'),
       lastModified: batchRecord?.data.lastModified || catalogLastModified,
       batchProduct: Boolean(batchProduct),
       batchIssue: batchRecord?.issue || null
@@ -440,7 +444,7 @@ for (const category of categories) {
       ? `<div class="product-detail-gallery" data-product-gallery>
             <figure class="product-detail-media">
               <img data-product-gallery-main src="${escapeHtml(product.gallery[0].src)}" width="1000" height="1000" decoding="async" fetchpriority="high" alt="${escapeHtml(product.gallery[0].alt)}">
-              <span>Actual product photo</span>
+              <span>${escapeHtml(product.mediaLabel || 'Actual product photo')}</span>
             </figure>
             <div class="product-detail-thumbs" aria-label="${escapeHtml(product.title)} gallery">
               ${product.gallery.map((item, index) => `<button class="product-detail-thumb" type="button" data-product-gallery-thumb data-src="${escapeHtml(item.src)}" data-alt="${escapeHtml(item.alt)}" aria-label="Show image ${index + 1} of ${product.gallery.length}" aria-current="${index === 0 ? 'true' : 'false'}"><img src="${escapeHtml(item.src)}" width="1000" height="1000" loading="lazy" decoding="async" alt="${escapeHtml(item.alt)} thumbnail"></button>`).join('\n              ')}

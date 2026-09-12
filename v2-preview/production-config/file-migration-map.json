@@ -176,6 +176,34 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx004-wholesale-mixed-candy-dessert-polymer-clay-slices-for-slime-nail-art-diy-crafts/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx004-wholesale-mixed-candy-dessert-polymer-clay-slices-for-slime-nail-art-diy-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx004-wholesale-mixed-candy-dessert-polymer-clay-slices-for-slime-nail-art-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx002-wholesale-mixed-fruit-polymer-clay-slices-with-berry-citrus-watermelon-designs-for-slime-diy-crafts/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx002-wholesale-mixed-fruit-polymer-clay-slices-with-berry-citrus-watermelon-designs-for-slime-diy-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx002-wholesale-mixed-fruit-polymer-clay-slices-with-berry-citrus-watermelon-designs-for-slime-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx051-wholesale-5-mm-banana-polymer-clay-slices-for-slime-nail-art-diy-craft-decoration/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx051-wholesale-5-mm-banana-polymer-clay-slices-for-slime-nail-art-diy-craft-decoration/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx051-wholesale-5-mm-banana-polymer-clay-slices-for-slime-nail-art-diy-craft-decoration/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4138-wholesale-strawberry-polymer-clay-sprinkle-mix-for-slime-shakers-diy-craft-decoration/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4138-wholesale-strawberry-polymer-clay-sprinkle-mix-for-slime-shakers-diy-craft-decoration/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4138-wholesale-strawberry-polymer-clay-sprinkle-mix-for-slime-shakers-diy-craft-decoration/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx421-wholesale-candy-corn-polymer-clay-slices-for-halloween-slime-nail-art-diy-craft-sprinkles/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx421-wholesale-candy-corn-polymer-clay-slices-for-halloween-slime-nail-art-diy-craft-sprinkles/index.html",
       "action": "create",
@@ -663,6 +691,62 @@
       "destination": "products/resin-charms-for-slime/rw26768-wholesale-christmas-gingerbread-cabochons-custom-3d-holiday-mini-charms-for-hair-phone-keychain-accessories/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw26768-wholesale-christmas-gingerbread-cabochons-custom-3d-holiday-mini-charms-for-hair-phone-keychain-accessories/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26692-wholesale-cute-bear-resin-embellishments-with-heart-flower-designs-for-hair-clips-diy-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw26692-wholesale-cute-bear-resin-embellishments-with-heart-flower-designs-for-hair-clips-diy-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26692-wholesale-cute-bear-resin-embellishments-with-heart-flower-designs-for-hair-clips-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw927-wholesale-24-mm-sunflower-resin-cabochons-for-hair-accessories-jewelry-diy-decoration/index.html",
+      "destination": "products/resin-charms-for-slime/rw927-wholesale-24-mm-sunflower-resin-cabochons-for-hair-accessories-jewelry-diy-decoration/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw927-wholesale-24-mm-sunflower-resin-cabochons-for-hair-accessories-jewelry-diy-decoration/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2445-wholesale-chocolate-bar-resin-cabochons-in-pink-brown-cream-for-hair-accessories-diy-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw2445-wholesale-chocolate-bar-resin-cabochons-in-pink-brown-cream-for-hair-accessories-diy-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2445-wholesale-chocolate-bar-resin-cabochons-in-pink-brown-cream-for-hair-accessories-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw370-wholesale-pastel-whipped-cream-resin-cabochons-for-slime-scrapbooking-diy-decoration/index.html",
+      "destination": "products/resin-charms-for-slime/rw370-wholesale-pastel-whipped-cream-resin-cabochons-for-slime-scrapbooking-diy-decoration/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw370-wholesale-pastel-whipped-cream-resin-cabochons-for-slime-scrapbooking-diy-decoration/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22405-wholesale-cartoon-animal-food-resin-cabochon-mix-for-jewelry-keychains-diy-accessories/index.html",
+      "destination": "products/resin-charms-for-slime/rw22405-wholesale-cartoon-animal-food-resin-cabochon-mix-for-jewelry-keychains-diy-accessories/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22405-wholesale-cartoon-animal-food-resin-cabochon-mix-for-jewelry-keychains-diy-accessories/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1394-wholesale-mini-mushroom-house-resin-figurines-for-fairy-gardens-terrariums-diy-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw1394-wholesale-mini-mushroom-house-resin-figurines-for-fairy-gardens-terrariums-diy-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1394-wholesale-mini-mushroom-house-resin-figurines-for-fairy-gardens-terrariums-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw001078-wholesale-28-x-20-mm-blue-dolphin-resin-cabochons-for-scrapbooking-diy-decoration/index.html",
+      "destination": "products/resin-charms-for-slime/rw001078-wholesale-28-x-20-mm-blue-dolphin-resin-cabochons-for-scrapbooking-diy-decoration/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw001078-wholesale-28-x-20-mm-blue-dolphin-resin-cabochons-for-scrapbooking-diy-decoration/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/index.html",
+      "destination": "products/resin-charms-for-slime/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/",
       "generatedProduct": true
     },
     {

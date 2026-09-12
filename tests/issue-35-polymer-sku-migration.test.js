@@ -24,9 +24,9 @@ test('Issue #35 mappings remain intact across 12 active Polymer identities', asy
   const catalog = JSON.parse(await readFile(path.join(root, 'assets/v2/product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products/polymer-clay-slices-wholesale/index.html'), 'utf8');
   const polymer = catalog.products.filter((product) => product.category === 'polymer-clay-slices');
-  assert.equal(polymer.length, 23);
-  assert.equal(new Set(polymer.map((product) => product.sku)).size, 23);
-  assert.equal(category.match(/class="product-card-v2"/g)?.length, 23);
+  assert.equal(polymer.length, 27);
+  assert.equal(new Set(polymer.map((product) => product.sku)).size, 27);
+  assert.equal(category.match(/class="product-card-v2"/g)?.length, 27);
   assert.doesNotMatch(category, /Pink &amp; Blue Decorative Slice Mix/);
   assert.doesNotMatch(category, /hc009-ocean-fish-dolphin-mix/);
 

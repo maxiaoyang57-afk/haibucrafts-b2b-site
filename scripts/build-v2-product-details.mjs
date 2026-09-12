@@ -303,6 +303,7 @@ for (const category of categories) {
         seoKeywords: batchProduct.seoKeywords,
         publishingCheck: batchProduct.publishingCheck
       } : null,
+      mediaLabel: batchProduct?.mediaLabel || (batchRecord?.issue === 'haibu-new-products-20260912' ? 'Product image reference' : 'Actual product photo'),
       lastModified: batchRecord?.data.lastModified || catalogLastModified,
       batchProduct: Boolean(batchProduct),
       batchIssue: batchRecord?.issue || null
@@ -443,7 +444,7 @@ for (const category of categories) {
       ? `<div class="product-detail-gallery" data-product-gallery>
             <figure class="product-detail-media">
               <img data-product-gallery-main src="${escapeHtml(product.gallery[0].src)}" width="1000" height="1000" decoding="async" fetchpriority="high" alt="${escapeHtml(product.gallery[0].alt)}">
-              <span>Actual product photo</span>
+              <span>${escapeHtml(product.mediaLabel || 'Actual product photo')}</span>
             </figure>
             <div class="product-detail-thumbs" aria-label="${escapeHtml(product.title)} gallery">
               ${product.gallery.map((item, index) => `<button class="product-detail-thumb" type="button" data-product-gallery-thumb data-src="${escapeHtml(item.src)}" data-alt="${escapeHtml(item.alt)}" aria-label="Show image ${index + 1} of ${product.gallery.length}" aria-current="${index === 0 ? 'true' : 'false'}"><img src="${escapeHtml(item.src)}" width="1000" height="1000" loading="lazy" decoding="async" alt="${escapeHtml(item.alt)} thumbnail"></button>`).join('\n              ')}

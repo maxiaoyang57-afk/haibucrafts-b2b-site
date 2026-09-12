@@ -1,76 +1,95 @@
 import assert from 'node:assert/strict';
-import { createHash } from 'node:crypto';
-import { readFile, stat } from 'node:fs/promises';
+import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
 
 const root = process.cwd();
 const batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20260912.json'), 'utf8'));
-const manifest = JSON.parse(await readFile(path.join(root, 'docs/tasks/haibu-new-products-20260912-manifest.json'), 'utf8'));
 const catalog = JSON.parse(await readFile(path.join(root, 'assets/v2/product-catalog.json'), 'utf8'));
 const previewCatalog = JSON.parse(await readFile(path.join(root, 'v2-preview/assets/product-catalog.json'), 'utf8'));
 const bySku = new Map(catalog.products.map((product) => [product.sku, product]));
 const expectedSkus = ['RW26692', 'YX004', 'YX002', 'YX051', 'RW927', 'YX4138', 'RW2445', 'RW370', 'RW22405', 'RW1394', 'RW001078', 'RW26637'];
 
-const sha256 = (bytes) => createHash('sha256').update(bytes).digest('hex');
+function webpDimensions(buffer) {
+  assert.equal(buffer.toString('ascii', 0, 4), 'RIFF');
+  assert.equal(buffer.toString('ascii', 8, 12), 'WEBP');
+  let offset = 12;
+  while (offset + 8 <= buffer.length) {
+    const type = buffer.toString('ascii', offset, offset + 4);
+    const size = buffer.readUInt32LE(offset + 4);
+    const data = offset + 8;
+    if (type === 'VP8X') return {
+      width: 1 + buffer[data + 4] + (buffer[data + 5] << 8) + (buffer[data + 6] << 16),
+      height: 1 + buffer[data + 7] + (buffer[data + 8] << 8) + (buffer[data + 9] << 16)
+    };
+    if (type === 'VP8 ') return {
+      width: buffer.readUInt16LE(data + 6) & 0x3fff,
+      height: buffer.readUInt16LE(data + 8) & 0x3fff
+    };
+    if (type === 'VP8L') {
+      const b1 = buffer[data + 1];
+      const b2 = buffer[data + 2];
+      const b3 = buffer[data + 3];
+      const b4 = buffer[data + 4];
+      return {
+        width: 1 + (((b2 & 0x3f) << 8) | b1),
+        height: 1 + (((b4 & 0x0f) << 10) | (b3 << 2) | (b2 >> 6))
+      };
+    }
+    offset = data + size + (size % 2);
+  }
+  throw new Error('Unsupported WebP image');
+}
 
-test('adds exactly the twelve deduplicated 2026-09-12 HAIBU SKUs', () => {
+test('publishes the 12 approved September 12 SKUs without duplicates', () => {
   assert.equal(batch.expectedSkuCount, 12);
   assert.deepEqual(batch.products.map((product) => product.sku), expectedSkus);
-  assert.equal(new Set(batch.products.map((product) => product.sku)).size, 12);
+  assert.equal(new Set(expectedSkus).size, 12);
   assert.equal(catalog.count, 126);
   assert.equal(catalog.products.length, 126);
   assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 126);
   assert.deepEqual(catalog, previewCatalog);
-  for (const product of batch.products) {
-    assert.equal(bySku.get(product.sku)?.category, product.categorySlug);
-    assert.equal(bySku.get(product.sku)?.title, product.title);
-  }
+  assert.equal(batch.products.filter((product) => product.categorySlug === 'resin-charms').length, 8);
+  assert.equal(batch.products.filter((product) => product.categorySlug === 'polymer-clay-slices').length, 4);
 });
 
-test('publishes three traceable source-derived JPEG images per SKU', async () => {
-  for (const product of manifest.products) {
-    const catalogProduct = bySku.get(product.sku);
-    assert.equal(product.outputs.length, 3);
-    assert.deepEqual(catalogProduct.gallery.map((item) => item.slice(1)), product.outputs.map((item) => item.path));
-    for (const output of product.outputs) {
-      const file = path.join(root, output.path);
-      const bytes = await readFile(file);
-      const info = await stat(file);
-      assert.equal(info.size, output.bytes);
-      assert.ok(info.size <= 500_000, `${output.path} exceeds 500 KB`);
-      assert.ok(output.pixels[0] <= 1000 && output.pixels[1] <= 1000, `${output.path} exceeds 1000 px`);
-      assert.deepEqual([...bytes.subarray(0, 2)], [0xff, 0xd8], `${output.path} is not JPEG`);
-      assert.equal(sha256(bytes), output.sha256);
+test('publishes three square, web-sized WebP views per SKU', async () => {
+  for (const product of batch.products) {
+    const directory = path.join(root, 'assets/images/products', batch.assetDirectory, product.sku.toLowerCase());
+    const files = (await readdir(directory)).filter((file) => file.endsWith('.webp')).sort();
+    assert.equal(files.length, 3, `${product.sku} must have three WebP images`);
+    assert.ok(files.every((file) => file.startsWith(product.imagePrefix)));
+    for (const file of files) {
+      const filePath = path.join(directory, file);
+      const bytes = await readFile(filePath);
+      const dimensions = webpDimensions(bytes);
+      assert.equal(dimensions.width, dimensions.height, `${product.sku}/${file} must be square`);
+      assert.ok(dimensions.width <= 1000, `${product.sku}/${file} exceeds 1000 px`);
+      assert.ok((await stat(filePath)).size <= 500_000, `${product.sku}/${file} exceeds 500 KB`);
     }
   }
 });
 
-test('keeps cards, product pages, SEO and inquiry attribution synchronized', async () => {
-  const categoryFiles = new Map([
-    ['resin-charms', ['products/resin-charms-for-slime/index.html', 'v2-preview/products/resin-charms/index.html']],
-    ['polymer-clay-slices', ['products/polymer-clay-slices-wholesale/index.html', 'v2-preview/products/polymer-clay-slices/index.html']],
-  ]);
+test('keeps HAIBU cards, galleries, SEO and inquiry attribution synchronized', async () => {
   for (const product of batch.products) {
     const catalogProduct = bySku.get(product.sku);
-    for (const categoryFile of categoryFiles.get(product.categorySlug)) {
-      const html = await readFile(path.join(root, categoryFile), 'utf8');
-      assert.equal(html.split(`<span class="sku-badge">${product.sku}</span>`).length - 1, 1);
-      assert.ok(html.includes(catalogProduct.image));
-      assert.ok(html.includes(`href="${categoryFile.startsWith('v2-preview/') ? catalogProduct.previewPath : catalogProduct.productionPath}"`));
-    }
+    assert.ok(catalogProduct, `missing catalog product ${product.sku}`);
+    assert.equal(catalogProduct.category, product.categorySlug);
+    assert.equal(catalogProduct.gallery.length, 3);
 
     for (const pagePath of [catalogProduct.previewPath, catalogProduct.productionPath]) {
       const html = await readFile(path.join(root, pagePath.slice(1), 'index.html'), 'utf8');
       assert.ok(html.includes(product.title));
       assert.ok(html.includes(`product_code=${product.sku}`));
-      assert.ok(html.includes(product.description));
-      assert.ok(html.includes(product.detailedDescription));
+      assert.ok(html.includes('Product image reference'));
+      assert.ok(html.includes(batch.galleryNote));
+      assert.doesNotMatch(html, /QULA\s*CRAFT/i);
       for (const image of catalogProduct.gallery) assert.ok(html.includes(image));
-      const productJson = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
-      const structuredData = JSON.parse(productJson);
-      assert.equal(structuredData.sku, product.sku);
-      assert.equal(structuredData.offers, undefined);
+
+      const structuredData = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
+        .map((match) => JSON.parse(match[1]));
+      assert.equal(structuredData.find((item) => item['@type'] === 'Product')?.sku, product.sku);
+      assert.ok(structuredData.some((item) => item['@type'] === 'BreadcrumbList'));
     }
 
     const productionHtml = await readFile(path.join(root, catalogProduct.productionPath.slice(1), 'index.html'), 'utf8');

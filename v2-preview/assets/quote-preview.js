@@ -6,9 +6,13 @@
   const liveMode = config.mode === 'live' && config.endpoint === '/api/inquiry';
   const params = new URLSearchParams(window.location.search);
   const value = (key, fallback = '') => params.get(key) || fallback;
-  const setValue = (id, nextValue) => {
-    const field = document.getElementById(id);
-    if (field) field.value = nextValue || '';
+  const setValue = (name, nextValue) => {
+    const field = form.elements.namedItem(name);
+    if (field && 'value' in field) {
+      const normalizedValue = nextValue || '';
+      field.value = normalizedValue;
+      if ('defaultValue' in field) field.defaultValue = normalizedValue;
+    }
   };
 
   const source = value('source', 'direct');
@@ -17,6 +21,17 @@
   const productName = value('product');
   const productImage = value('image');
   const landingPage = value('landing_page', document.referrer || '/v2-preview/');
+  const inquiryAttribution = {
+    attribution_source: source,
+    first_landing_page: landingPage,
+    source_page: value('source_page', landingPage),
+    product_page: value('product_page', productCode ? landingPage : ''),
+    collection: value('collection'),
+    article: value('article'),
+    product_image: productImage,
+    first_referrer: document.referrer || '',
+    inquiry_page: window.location.pathname
+  };
 
   const ensureHiddenField = (name, id) => {
     let field = document.getElementById(id);
@@ -40,17 +55,18 @@
     quantityLabel?.insertAdjacentElement('afterend', deliveryLabel);
   }
 
-  setValue('sourceField', source);
-  setValue('landingField', landingPage);
-  setValue('sourcePageField', value('source_page', landingPage));
-  setValue('productPageField', value('product_page', productCode ? landingPage : ''));
-  setValue('collectionField', value('collection'));
-  setValue('articleField', value('article'));
-  setValue('productField', productCode);
-  setValue('productNameField', productName);
-  setValue('imageField', productImage);
-  setValue('referrerField', document.referrer || '');
-  setValue('inquiryPageField', window.location.pathname);
+  const applyQuotePrefill = () => {
+    Object.entries(inquiryAttribution).forEach(([name, nextValue]) => setValue(name, nextValue));
+    setValue('sku', productCode);
+    setValue('product', productName);
+    form.dataset.attributionPayload = JSON.stringify(inquiryAttribution);
+    form.dataset.attributionReady = 'true';
+  };
+
+  applyQuotePrefill();
+  window.addEventListener('load', applyQuotePrefill, { once: true });
+  window.addEventListener('pageshow', applyQuotePrefill);
+  window.setTimeout(applyQuotePrefill, 250);
 
   const categoryField = document.getElementById('categoryField');
   if (categoryField && category && [...categoryField.options].some((option) => option.value === category)) {
@@ -125,6 +141,7 @@
         if (key === 'reference_images' || key === '_company_fax' || typeof entryValue !== 'string') continue;
         fields[key] = entryValue;
       }
+      Object.assign(fields, inquiryAttribution);
       const attachments = await Promise.all(selectedFiles.map(fileToAttachment));
       const response = await fetch(config.endpoint, {
         method: 'POST',

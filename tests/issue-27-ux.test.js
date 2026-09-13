@@ -49,6 +49,13 @@ test('Issue #27 makes inquiry requirements, input semantics and disabled uploads
   assert.match(runtime, /submitButton\.textContent = 'Sending…'/);
   assert.match(runtime, /form\.setAttribute\('aria-busy', 'true'\)/);
   assert.match(runtime, /Boolean\(fields\.sku \|\| productCode\)/);
+  assert.match(runtime, /form\.elements\.namedItem\(name\)/, 'Quote prefill must target the form fields by name.');
+  assert.match(runtime, /const inquiryAttribution = \{/, 'Quote prefill must retain its attribution payload.');
+  assert.match(runtime, /attribution_source: source/, 'Quote prefill must retain the source value.');
+  assert.match(runtime, /source_page: value\('source_page', landingPage\)/, 'Quote prefill must retain the originating page.');
+  assert.match(runtime, /product_page: value\('product_page', productCode \? landingPage : ''\)/, 'Quote prefill must retain the selected product page.');
+  assert.match(runtime, /Object\.assign\(fields, inquiryAttribution\)/, 'Quote submission must send the retained attribution payload.');
+  assert.match(runtime, /window\.addEventListener\('load', applyQuotePrefill, \{ once: true \}\)/, 'Quote attribution must be re-applied after page load.');
 });
 
 test('Issue #27 keeps Preview validation-only and adds a shared browser theme color', async () => {

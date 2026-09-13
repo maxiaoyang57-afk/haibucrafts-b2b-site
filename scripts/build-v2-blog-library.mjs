@@ -164,6 +164,26 @@ const articles = [
     links: [['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Solutions', '/v2-preview/custom-solutions/'], ['Product Brief Guide', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/']]
   },
   {
+    slug: 'resin-charms-wholesale-buying-guide',
+    category: 'Product Guide',
+    title: 'Resin Charms Wholesale Buying Guide for B2B Buyers',
+    seoTitle: 'Resin Charms Wholesale Buying Guide | HAIBUCRAFT',
+    datePublished: '2026-09-13',
+    dateModified: '2026-09-13',
+    lastReviewed: 'September 13, 2026',
+    description: 'Compare wholesale resin charms by product code, visible design, intended application, sample identity, pack unit and custom request before quotation.',
+    dek: 'A clear resin charm brief helps buyers compare exact designs, build mixed assortments and confirm order-specific requirements without relying on a product image alone.',
+    sections: [
+      ['Start with exact product codes', 'Use the Resin Charms catalog to shortlist the visible designs you need, then include the SKU and product link in the inquiry. For a mixed range, list each code separately instead of describing the whole order only by theme.'],
+      ['Separate appearance from unverified specifications', 'A product image can help confirm the shown motif, color direction and visible finish, but it does not establish material composition, dimensions, weight, pack count or compliance scope. Request those order-specific details against the selected SKU and sample.'],
+      ['Plan the assortment and application', 'State whether the selected charms are intended for slime, decoden, hair accessories, keychains, scrapbooking, DIY kits or another use. If the order needs a mixed pack, define the target ratio and whether every design must appear in each selling unit.'],
+      ['Prepare a quotation-ready request', 'Provide SKU list, quantity and unit, destination, packaging requirements, customization request and target arrival date. Review feasibility, final packing, MOQ, lead time and documentation scope in the written quotation before ordering.']
+    ],
+    checklist: ['Resin charm SKU list', 'Reference images or links', 'Intended application', 'Mix ratio and pack unit', 'Packaging request', 'Destination and target date'],
+    note: 'Product composition, dimensions, MOQ, lead time, packaging and documentation are confirmed for the selected product code, approved sample and destination market.',
+    links: [['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Prepare a Product Brief', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/']]
+  },
+  {
     slug: 'seasonal-craft-assortment-planning',
     category: 'Seasonal Planning',
     title: 'Seasonal Craft Assortment Planning Guide',
@@ -340,13 +360,13 @@ const hub = `<!DOCTYPE html>
         <div class="breadcrumbs"><a href="/v2-preview/">Home</a> / Blog</div>
         <span class="eyebrow">Buying Guides &amp; OEM Insights</span>
         <h1>Practical sourcing guidance for wholesale craft buyers.</h1>
-        <p>Twelve working guides covering product definition, mixed orders, samples, packaging, inspection, documents and seasonal planning.</p>
+        <p>${articles.length} working guides covering product definition, mixed orders, samples, packaging, inspection, documents and seasonal planning.</p>
         <div class="actions"><a class="btn btn-primary" href="/v2-preview/products/">Browse Products</a><a class="btn btn-light" href="/v2-preview/quote/?source=blog-directory&amp;landing_page=/v2-preview/blog/">Request Quote</a></div>
       </div>
     </section>
     <section class="section">
       <div class="container">
-        <div class="section-head"><span class="eyebrow">Buyer Resource Library</span><h2>Ten guides for a more controlled wholesale project.</h2><p>Start with the decision or checkpoint that matches your current sourcing stage.</p></div>
+        <div class="section-head"><span class="eyebrow">Buyer Resource Library</span><h2>${articles.length} guides for a more controlled wholesale project.</h2><p>Start with the decision or checkpoint that matches your current sourcing stage.</p></div>
         <div class="blog-guide-grid">
           ${articles.map((article, index) => `<a class="blog-guide-card" href="/v2-preview/blog/${article.slug}/"><div><span>${String(index + 1).padStart(2, '0')}</span><small>${escapeHtml(article.category)}</small></div><h2>${escapeHtml(article.title)}</h2><p>${escapeHtml(article.description)}</p><strong>Read guide &rarr;</strong></a>`).join('\n          ')}
         </div>

@@ -157,6 +157,7 @@ const categoryPlans = {
     intro: 'Wholesale resin charms and flatback decorative pieces for slime brands, decoden suppliers, craft kits and private-label programs, with product-code based quotation and mixed-SKU review.',
     listName: 'Bulk Resin Charms Wholesale Catalog',
     resources: [
+      ['/v2-preview/blog/resin-charms-wholesale-buying-guide/', 'Resin Charms Buying Guide'],
       ['/v2-preview/certificates/', 'Product Documents & Scope'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints'],
       ['/v2-preview/custom-solutions/', 'Custom & Private Label']

@@ -44,6 +44,7 @@ lines.push(
   `- Quality checkpoints: ${origin}/quality-control/`,
   `- Product documents and scope notes: ${origin}/certificates/`,
   `- Buyer guides: ${origin}/blog/`,
+  `- Resin charms buyer guide: ${origin}/blog/resin-charms-wholesale-buying-guide/`,
   `- Editorial policy and content review: ${origin}/about/editorial-policy/`,
   '',
   '## Answering and citation guidance',

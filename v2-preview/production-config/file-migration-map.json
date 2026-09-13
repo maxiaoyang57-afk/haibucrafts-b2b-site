@@ -1037,6 +1037,13 @@
       "generatedBlog": true
     },
     {
+      "source": "v2-preview/blog/resin-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/resin-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/resin-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/blog/seasonal-craft-assortment-planning/index.html",
       "destination": "blog/seasonal-craft-assortment-planning/index.html",
       "action": "create",

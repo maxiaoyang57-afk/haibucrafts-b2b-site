@@ -28,7 +28,7 @@ test('homepage identifies the HAIBUCRAFT website and organization', async () => 
 test('all buyer guides show matching author and scope-review information', async () => {
   const blogRoot = path.join(previewRoot, 'blog');
   const directories = (await readdir(blogRoot, { withFileTypes: true })).filter((entry) => entry.isDirectory());
-  assert.equal(directories.length, 12);
+  assert.equal(directories.length, 13);
 
   for (const directory of directories) {
     const html = await read(path.join('blog', directory.name, 'index.html'));
@@ -37,10 +37,11 @@ test('all buyer guides show matching author and scope-review information', async
     assert.equal(posting?.author?.url, 'https://www.haibucrafts.com/about/editorial-policy/');
     assert.equal(posting?.reviewedBy?.name, 'HAIBUCRAFT Product & Quality Coordination');
     const isIssue50Seasonal = directory.name.includes('halloween-slime-charms-wholesale-buying-guide') || directory.name.includes('christmas-slime-charms-wholesale-buying-guide');
-    assert.equal(posting?.dateModified, isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
+    const isResinGuide = directory.name === 'resin-charms-wholesale-buying-guide';
+    assert.equal(posting?.dateModified, isResinGuide ? '2026-09-13' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
     assert.match(html, /By <a href="\/v2-preview\/about\/editorial-policy\/">HAIBUCRAFT Buyer Resources<\/a>/);
     assert.match(html, /Scope reviewed by/);
-    assert.match(html, isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
+    assert.match(html, isResinGuide ? /Last reviewed September 13, 2026/ : isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
   }
 });
 

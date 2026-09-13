@@ -159,6 +159,20 @@ export default async function handler(req, res) {
 
   const from = process.env.INQUIRY_FROM_EMAIL || 'HAIBU CRAFT <inquiry@send.haibucrafts.com>';
   const to = process.env.INQUIRY_TO_EMAIL || 'sale008@sola-craft.com';
+  const configuredBcc = clean(process.env.INQUIRY_BCC_EMAIL, 254);
+  const bcc = isEmail(configuredBcc) && configuredBcc.toLowerCase() !== to.toLowerCase()
+    ? configuredBcc
+    : '';
+  const emailPayload = {
+    from,
+    to: [to],
+    reply_to: email,
+    subject,
+    text,
+    html,
+    attachments
+  };
+  if (bcc) emailPayload.bcc = [bcc];
 
   try {
     const response = await fetch('https://api.resend.com/emails', {
@@ -168,15 +182,7 @@ export default async function handler(req, res) {
         'Content-Type': 'application/json',
         'Idempotency-Key': `inquiry-${randomUUID()}`
       },
-      body: JSON.stringify({
-        from,
-        to: [to],
-        reply_to: email,
-        subject,
-        text,
-        html,
-        attachments
-      })
+      body: JSON.stringify(emailPayload)
     });
     const result = await response.json().catch(() => ({}));
     if (!response.ok) {

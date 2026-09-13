@@ -62,7 +62,9 @@ test('requires server-side Resend configuration', async () => {
 test('sends validated fields and compressed attachments through Resend', async () => {
   const originalFetch = globalThis.fetch;
   const previousKey = process.env.RESEND_API_KEY;
+  const previousBcc = process.env.INQUIRY_BCC_EMAIL;
   process.env.RESEND_API_KEY = 're_test_key';
+  process.env.INQUIRY_BCC_EMAIL = 'backup@example.com';
   let submitted;
   let submittedHeaders;
   globalThis.fetch = async (_url, options) => {
@@ -82,6 +84,7 @@ test('sends validated fields and compressed attachments through Resend', async (
     assert.equal(res.statusCode, 200);
     assert.equal(JSON.parse(res.body).id, 'email_test_123');
     assert.equal(submitted.to[0], 'sale008@sola-craft.com');
+    assert.deepEqual(submitted.bcc, ['backup@example.com']);
     assert.equal(submitted.reply_to, 'buyer@example.com');
     assert.equal(submitted.attachments.length, 1);
     assert.match(submitted.subject, /SLM712/);
@@ -93,5 +96,33 @@ test('sends validated fields and compressed attachments through Resend', async (
     globalThis.fetch = originalFetch;
     if (previousKey) process.env.RESEND_API_KEY = previousKey;
     else delete process.env.RESEND_API_KEY;
+    if (previousBcc) process.env.INQUIRY_BCC_EMAIL = previousBcc;
+    else delete process.env.INQUIRY_BCC_EMAIL;
+  }
+});
+
+test('omits an invalid or duplicate backup recipient without blocking the primary delivery', async () => {
+  const originalFetch = globalThis.fetch;
+  const previousKey = process.env.RESEND_API_KEY;
+  const previousBcc = process.env.INQUIRY_BCC_EMAIL;
+  process.env.RESEND_API_KEY = 're_test_key';
+  process.env.INQUIRY_BCC_EMAIL = 'sale008@sola-craft.com';
+  let submitted;
+  globalThis.fetch = async (_url, options) => {
+    submitted = JSON.parse(options.body);
+    return { ok: true, status: 200, json: async () => ({ id: 'email_test_456' }) };
+  };
+  try {
+    const res = responseHarness();
+    await handler(request(), res);
+    assert.equal(res.statusCode, 200);
+    assert.equal(submitted.to[0], 'sale008@sola-craft.com');
+    assert.equal(Object.hasOwn(submitted, 'bcc'), false);
+  } finally {
+    globalThis.fetch = originalFetch;
+    if (previousKey) process.env.RESEND_API_KEY = previousKey;
+    else delete process.env.RESEND_API_KEY;
+    if (previousBcc) process.env.INQUIRY_BCC_EMAIL = previousBcc;
+    else delete process.env.INQUIRY_BCC_EMAIL;
   }
 });

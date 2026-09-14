@@ -64,8 +64,8 @@ test('editorial policy is indexable in the production package and linked from Ab
 test('category source titles are concise and match approved search intent', async () => {
   const expected = new Map([
     ['products/slime-charms/index.html', 'Bulk Slime Charms Wholesale Supplier | HAIBUCRAFT'],
-    ['products/polymer-clay-slices/index.html', 'Wholesale Polymer Clay Slices & Sprinkles | HAIBUCRAFT'],
-    ['products/resin-charms/index.html', 'Bulk Resin Charms Wholesale for Slime & Crafts | HAIBUCRAFT']
+    ['products/polymer-clay-slices/index.html', 'Polymer Clay Slices Wholesale & Bulk Sprinkles | HAIBUCRAFT'],
+    ['products/resin-charms/index.html', 'Resin Charms Wholesale | Bulk Flatback Charms | HAIBUCRAFT']
   ]);
 
   for (const [file, title] of expected) {

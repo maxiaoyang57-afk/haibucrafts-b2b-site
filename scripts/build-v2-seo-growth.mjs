@@ -122,11 +122,12 @@ const categoryPlans = {
   'polymer-clay-slices': {
     previewFile: path.join(previewRoot, 'products', 'polymer-clay-slices', 'index.html'),
     productionPath: '/products/polymer-clay-slices-wholesale/',
-    title: 'Wholesale Polymer Clay Slices & Sprinkles | HAIBUCRAFT',
-    description: 'Source wholesale polymer clay slices and sprinkles in candy, fruit, seasonal and decorative mixes for slime, nail art, shaker fillers and DIY kits.',
+    title: 'Polymer Clay Slices Wholesale & Bulk Sprinkles | HAIBUCRAFT',
+    description: 'Wholesale polymer clay slices and bulk sprinkles for slime, nail art, shaker fillers and DIY kits. Browse candy, fruit and seasonal mixes; request a quote.',
     h1: 'Wholesale Polymer Clay Slices & Sprinkles',
     intro: 'Bulk polymer clay slices and soft clay sprinkles for slime brands, nail-art wholesalers, resin craft programs and DIY kit suppliers, with mixed-SKU and custom assortment review.',
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
+    lastModified: '2026-09-14',
     resources: [
       ['/v2-preview/blog/polymer-clay-slice-buying-guide/', 'Polymer Clay Slice Buying Guide'],
       ['/v2-preview/custom-solutions/', 'Custom Mixes & Private Label'],
@@ -141,9 +142,12 @@ const categoryPlans = {
     h1: 'Bulk Slime Charms Wholesale Supplier',
     intro: 'Wholesale charms for slime brands, importers, online sellers and DIY kit programs, including seasonal, ocean, fruit, sweet and character assortments with mixed-SKU sourcing support.',
     listName: 'Bulk Slime Charms Wholesale Catalog',
+    lastModified: '2026-09-14',
     resources: [
       ['/v2-preview/products/slime-charms/halloween-slime-charms/', 'Halloween Slime Charms'],
       ['/v2-preview/products/slime-charms/christmas-slime-charms/', 'Christmas Slime Charms'],
+      ['/v2-preview/products/polymer-clay-slices/', 'Polymer Clay Slices & Sprinkles'],
+      ['/v2-preview/products/resin-charms/', 'Bulk Resin Charms'],
       ['/v2-preview/custom-solutions/', 'Custom & Private Label'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints']
     ]
@@ -151,13 +155,16 @@ const categoryPlans = {
   'resin-charms': {
     previewFile: path.join(previewRoot, 'products', 'resin-charms', 'index.html'),
     productionPath: '/products/resin-charms-for-slime/',
-    title: 'Bulk Resin Charms Wholesale for Slime & Crafts | HAIBUCRAFT',
-    description: 'Browse bulk resin charms and flatback decorative pieces for slime, decoden, DIY kits, craft brands and mixed wholesale sourcing programs.',
+    title: 'Resin Charms Wholesale | Bulk Flatback Charms | HAIBUCRAFT',
+    description: 'Source resin charms wholesale and bulk flatback charms for slime, decoden, DIY kits and craft brands. Review product codes, mixed packs and custom packaging by quote.',
     h1: 'Bulk Resin Charms Wholesale for Slime & Crafts',
     intro: 'Wholesale resin charms and flatback decorative pieces for slime brands, decoden suppliers, craft kits and private-label programs, with product-code based quotation and mixed-SKU review.',
     listName: 'Bulk Resin Charms Wholesale Catalog',
+    lastModified: '2026-09-14',
     resources: [
       ['/v2-preview/blog/resin-charms-wholesale-buying-guide/', 'Resin Charms Buying Guide'],
+      ['/v2-preview/products/slime-charms/', 'Slime Charms Wholesale'],
+      ['/v2-preview/products/polymer-clay-slices/', 'Polymer Clay Slices & Sprinkles'],
       ['/v2-preview/certificates/', 'Product Documents & Scope'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints'],
       ['/v2-preview/custom-solutions/', 'Custom & Private Label']
@@ -217,7 +224,7 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
   }
 
   await writeFile(plan.previewFile, html, 'utf8');
-  updateSeoRoute(plan.productionPath, { title: plan.title, description: plan.description, lastModified: '2026-09-06' });
+  updateSeoRoute(plan.productionPath, { title: plan.title, description: plan.description, lastModified: plan.lastModified || '2026-09-06' });
 }
 
 const polymerProfiles = {

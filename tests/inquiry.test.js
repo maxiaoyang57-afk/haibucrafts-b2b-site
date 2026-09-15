@@ -83,7 +83,7 @@ test('sends validated fields and compressed attachments through Resend', async (
     await handler(req, res);
     assert.equal(res.statusCode, 200);
     assert.equal(JSON.parse(res.body).id, 'email_test_123');
-    assert.equal(submitted.to[0], 'sale008@sola-craft.com');
+    assert.equal(submitted.to[0], 'inquiry@haibucrafts.com');
     assert.deepEqual(submitted.bcc, ['backup@example.com']);
     assert.equal(submitted.reply_to, 'buyer@example.com');
     assert.equal(submitted.attachments.length, 1);
@@ -106,7 +106,7 @@ test('omits an invalid or duplicate backup recipient without blocking the primar
   const previousKey = process.env.RESEND_API_KEY;
   const previousBcc = process.env.INQUIRY_BCC_EMAIL;
   process.env.RESEND_API_KEY = 're_test_key';
-  process.env.INQUIRY_BCC_EMAIL = 'sale008@sola-craft.com';
+  process.env.INQUIRY_BCC_EMAIL = 'inquiry@haibucrafts.com';
   let submitted;
   globalThis.fetch = async (_url, options) => {
     submitted = JSON.parse(options.body);
@@ -116,7 +116,7 @@ test('omits an invalid or duplicate backup recipient without blocking the primar
     const res = responseHarness();
     await handler(request(), res);
     assert.equal(res.statusCode, 200);
-    assert.equal(submitted.to[0], 'sale008@sola-craft.com');
+    assert.equal(submitted.to[0], 'inquiry@haibucrafts.com');
     assert.equal(Object.hasOwn(submitted, 'bcc'), false);
   } finally {
     globalThis.fetch = originalFetch;

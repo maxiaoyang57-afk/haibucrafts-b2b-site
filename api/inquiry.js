@@ -158,7 +158,7 @@ export default async function handler(req, res) {
   const html = `<!doctype html><html><body style="font-family:Arial,sans-serif;color:#302b35;line-height:1.55"><h2>${escapeHtml(subject)}</h2><table style="border-collapse:collapse;width:100%;max-width:760px">${rows.map(([label, value]) => `<tr><th style="text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #e9dfe6;width:190px">${escapeHtml(label)}</th><td style="padding:8px;border-bottom:1px solid #e9dfe6;white-space:pre-wrap">${escapeHtml(value)}</td></tr>`).join('')}</table>${attachments.length ? `<p>${attachments.length} compressed reference image(s) attached.</p>` : ''}</body></html>`;
 
   const from = process.env.INQUIRY_FROM_EMAIL || 'HAIBU CRAFT <inquiry@send.haibucrafts.com>';
-  const to = process.env.INQUIRY_TO_EMAIL || 'sale008@sola-craft.com';
+  const to = process.env.INQUIRY_TO_EMAIL || 'inquiry@haibucrafts.com';
   const configuredBcc = clean(process.env.INQUIRY_BCC_EMAIL, 254);
   const bcc = isEmail(configuredBcc) && configuredBcc.toLowerCase() !== to.toLowerCase()
     ? configuredBcc

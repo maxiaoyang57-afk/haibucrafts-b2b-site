@@ -5,8 +5,8 @@ Deploy the contents of this folder as the Vercel project root.
 ## Required Vercel environment variables
 
 - `RESEND_API_KEY`
-- `INQUIRY_TO_EMAIL=sale008@sola-craft.com`
-- `INQUIRY_BCC_EMAIL=backup@example.com` (optional hidden backup recipient)
+- `INQUIRY_TO_EMAIL=inquiry@haibucrafts.com`
+- `INQUIRY_BCC_EMAIL=64224336@qq.com` (optional hidden backup recipient)
 - `INQUIRY_FROM_EMAIL=HAIBU CRAFT <inquiry@send.haibucrafts.com>`
 
 Apply the variables to Production, Preview and Development as needed, then redeploy.

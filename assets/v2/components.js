@@ -62,7 +62,7 @@
 
   const header = `
     <a class="skip-link" href="#main-content">Skip to main content</a>
-    <div class="topbar"><div class="container"><span>B2B wholesale · OEM/ODM · Private label · Export support</span><span class="topbar-contact"><a href="mailto:sales@haibucrafts.com">sales@haibucrafts.com</a><span aria-hidden="true"> · </span><a class="topbar-whatsapp" href="${whatsappHref}" target="_blank" rel="noopener noreferrer">WhatsApp</a></span></div></div>
+    <div class="topbar"><div class="container"><span>B2B wholesale · OEM/ODM · Private label · Export support</span><span class="topbar-contact"><a href="mailto:monica@haibucrafts.com">monica@haibucrafts.com</a><span aria-hidden="true"> · </span><a class="topbar-whatsapp" href="${whatsappHref}" target="_blank" rel="noopener noreferrer">WhatsApp</a></span></div></div>
     <header class="site-header"><div class="container navbar">
       <a class="logo" href="${ROOT}" aria-label="HAIBUCRAFT home">
         <picture>
@@ -101,7 +101,7 @@
           <h3>HAIBUCRAFT</h3>
           <p class="footer-tagline">Creative craft components supplier</p>
           <p>Buyer-facing B2B brand for wholesale craft supplies, custom-project coordination, packaging support and export communication from Yiwu, Zhejiang, China.</p>
-          <a class="footer-email" href="mailto:sales@haibucrafts.com">sales@haibucrafts.com</a>
+          <a class="footer-email" href="mailto:monica@haibucrafts.com">monica@haibucrafts.com</a>
           <a class="footer-whatsapp" href="${whatsappHref}" target="_blank" rel="noopener noreferrer">WhatsApp: ${CONTACT_CONFIG.whatsappDisplay}</a>
           <p class="footer-note">Decorative craft components only. Not edible. Small parts may present a choking hazard.</p>
         </div>

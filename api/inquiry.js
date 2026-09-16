@@ -106,6 +106,7 @@ function prepareFields(input) {
 }
 
 export default async function handler(req, res) {
+  const requestId = randomUUID();
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
     return json(res, 405, { ok: false, message: 'Method not allowed' });
@@ -126,7 +127,10 @@ export default async function handler(req, res) {
     return json(res, 400, { ok: false, message: 'Invalid request body' });
   }
 
-  if (clean(body?._company_fax, 100)) return json(res, 200, { ok: true });
+  if (clean(body?._company_fax, 100)) {
+    console.warn('Inquiry suppressed by spam check', { requestId });
+    return json(res, 200, { ok: true, requestId });
+  }
 
   const fields = prepareFields(body?.fields);
   const email = fields.email || '';
@@ -189,7 +193,7 @@ export default async function handler(req, res) {
   };
 
   try {
-    const primaryResult = await sendEmail(primaryPayload, `inquiry-${randomUUID()}`);
+    const primaryResult = await sendEmail(primaryPayload, `inquiry-${requestId}`);
     let backupAccepted = false;
 
     if (bcc) {
@@ -200,14 +204,19 @@ export default async function handler(req, res) {
       };
 
       try {
-        await sendEmail(backupPayload, `inquiry-backup-${randomUUID()}`);
+        await sendEmail(backupPayload, `inquiry-backup-${requestId}`);
         backupAccepted = true;
       } catch (error) {
         console.error('Resend inquiry backup failure', error instanceof Error ? error.message : 'Unknown error');
       }
     }
 
-    return json(res, 200, { ok: true, id: primaryResult.id || null, backupAccepted });
+    console.info('Inquiry delivery accepted', {
+      requestId,
+      primaryMessageId: primaryResult.id || null,
+      backupAccepted
+    });
+    return json(res, 200, { ok: true, requestId, id: primaryResult.id || null, backupAccepted });
   } catch (error) {
     console.error('Inquiry delivery failure', error instanceof Error ? error.message : 'Unknown error');
     return json(res, 502, { ok: false, message: 'Email service rejected the request' });

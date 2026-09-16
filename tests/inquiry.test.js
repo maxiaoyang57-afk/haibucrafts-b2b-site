@@ -84,6 +84,7 @@ test('sends the primary inquiry and a direct backup copy through Resend', async 
     const response = JSON.parse(res.body);
     assert.equal(res.statusCode, 200);
     assert.equal(response.id, 'email_test_1');
+    assert.match(response.requestId, /^[0-9a-f-]{36}$/);
     assert.equal(response.backupAccepted, true);
     assert.equal(submitted.length, 2);
     assert.equal(submitted[0].to[0], 'inquiry@haibucrafts.com');
@@ -98,6 +99,10 @@ test('sends the primary inquiry and a direct backup copy through Resend', async 
     assert.match(submitted[0].html, /First Landing Page/);
     assert.match(submittedHeaders[0]['Idempotency-Key'], /^inquiry-/);
     assert.match(submittedHeaders[1]['Idempotency-Key'], /^inquiry-backup-/);
+    assert.equal(
+      submittedHeaders[1]['Idempotency-Key'],
+      submittedHeaders[0]['Idempotency-Key'].replace('inquiry-', 'inquiry-backup-')
+    );
   } finally {
     globalThis.fetch = originalFetch;
     if (previousKey) process.env.RESEND_API_KEY = previousKey;

@@ -62,3 +62,13 @@ test('Issue #27 keeps Preview validation-only and adds a shared browser theme co
   assert.match(components, /themeColor\.content = '#ffffff'/);
   assert.match(home, /name="msvalidate\.01" content="D213E7787F1AED0C57F6EE1F7C5A2A50"/);
 });
+
+test('Production quote runtime prevents honeypot autofill and exposes a support reference', async () => {
+  const runtime = await readFile(path.join(root, 'assets', 'v2', 'quote-preview.js'), 'utf8');
+
+  assert.match(runtime, /honeypot\.value = ''/);
+  assert.match(runtime, /honeypot\.autocomplete = 'new-password'/);
+  assert.match(runtime, /honeypot\.readOnly = true/);
+  assert.match(runtime, /payload\.requestId/);
+  assert.match(runtime, /Reference:/);
+});

@@ -59,18 +59,18 @@ test('requires server-side Resend configuration', async () => {
   if (previousKey) process.env.RESEND_API_KEY = previousKey;
 });
 
-test('sends validated fields and compressed attachments through Resend', async () => {
+test('sends the primary inquiry and a direct backup copy through Resend', async () => {
   const originalFetch = globalThis.fetch;
   const previousKey = process.env.RESEND_API_KEY;
   const previousBcc = process.env.INQUIRY_BCC_EMAIL;
   process.env.RESEND_API_KEY = 're_test_key';
   process.env.INQUIRY_BCC_EMAIL = 'backup@example.com';
-  let submitted;
-  let submittedHeaders;
+  const submitted = [];
+  const submittedHeaders = [];
   globalThis.fetch = async (_url, options) => {
-    submitted = JSON.parse(options.body);
-    submittedHeaders = options.headers;
-    return { ok: true, status: 200, json: async () => ({ id: 'email_test_123' }) };
+    submitted.push(JSON.parse(options.body));
+    submittedHeaders.push(options.headers);
+    return { ok: true, status: 200, json: async () => ({ id: `email_test_${submitted.length}` }) };
   };
   try {
     const res = responseHarness();
@@ -81,17 +81,57 @@ test('sends validated fields and compressed attachments through Resend', async (
       content: Buffer.from('small image').toString('base64')
     }];
     await handler(req, res);
+    const response = JSON.parse(res.body);
     assert.equal(res.statusCode, 200);
-    assert.equal(JSON.parse(res.body).id, 'email_test_123');
-    assert.equal(submitted.to[0], 'inquiry@haibucrafts.com');
-    assert.deepEqual(submitted.bcc, ['backup@example.com']);
-    assert.equal(submitted.reply_to, 'buyer@example.com');
-    assert.equal(submitted.attachments.length, 1);
-    assert.match(submitted.subject, /SLM712/);
-    assert.match(submitted.text, /Lead Source Channel: AI Referral/);
-    assert.match(submitted.text, /Lead Source: chatgpt/);
-    assert.match(submitted.html, /First Landing Page/);
-    assert.match(submittedHeaders['Idempotency-Key'], /^inquiry-/);
+    assert.equal(response.id, 'email_test_1');
+    assert.equal(response.backupAccepted, true);
+    assert.equal(submitted.length, 2);
+    assert.equal(submitted[0].to[0], 'inquiry@haibucrafts.com');
+    assert.equal(Object.hasOwn(submitted[0], 'bcc'), false);
+    assert.equal(submitted[1].to[0], 'backup@example.com');
+    assert.match(submitted[1].subject, /^\[Backup Copy\]/);
+    assert.equal(submitted[0].reply_to, 'buyer@example.com');
+    assert.equal(submitted[0].attachments.length, 1);
+    assert.match(submitted[0].subject, /SLM712/);
+    assert.match(submitted[0].text, /Lead Source Channel: AI Referral/);
+    assert.match(submitted[0].text, /Lead Source: chatgpt/);
+    assert.match(submitted[0].html, /First Landing Page/);
+    assert.match(submittedHeaders[0]['Idempotency-Key'], /^inquiry-/);
+    assert.match(submittedHeaders[1]['Idempotency-Key'], /^inquiry-backup-/);
+  } finally {
+    globalThis.fetch = originalFetch;
+    if (previousKey) process.env.RESEND_API_KEY = previousKey;
+    else delete process.env.RESEND_API_KEY;
+    if (previousBcc) process.env.INQUIRY_BCC_EMAIL = previousBcc;
+    else delete process.env.INQUIRY_BCC_EMAIL;
+  }
+});
+
+test('keeps the primary inquiry successful when the direct backup copy is rejected', async () => {
+  const originalFetch = globalThis.fetch;
+  const previousKey = process.env.RESEND_API_KEY;
+  const previousBcc = process.env.INQUIRY_BCC_EMAIL;
+  process.env.RESEND_API_KEY = 're_test_key';
+  process.env.INQUIRY_BCC_EMAIL = 'backup@example.com';
+  let calls = 0;
+  globalThis.fetch = async (_url, options) => {
+    calls += 1;
+    const payload = JSON.parse(options.body);
+    if (calls === 1) {
+      assert.equal(payload.to[0], 'inquiry@haibucrafts.com');
+      return { ok: true, status: 200, json: async () => ({ id: 'email_test_456' }) };
+    }
+    assert.equal(payload.to[0], 'backup@example.com');
+    return { ok: false, status: 422, json: async () => ({ message: 'backup rejected' }) };
+  };
+  try {
+    const res = responseHarness();
+    await handler(request(), res);
+    const response = JSON.parse(res.body);
+    assert.equal(res.statusCode, 200);
+    assert.equal(response.id, 'email_test_456');
+    assert.equal(response.backupAccepted, false);
+    assert.equal(calls, 2);
   } finally {
     globalThis.fetch = originalFetch;
     if (previousKey) process.env.RESEND_API_KEY = previousKey;
@@ -107,17 +147,17 @@ test('omits an invalid or duplicate backup recipient without blocking the primar
   const previousBcc = process.env.INQUIRY_BCC_EMAIL;
   process.env.RESEND_API_KEY = 're_test_key';
   process.env.INQUIRY_BCC_EMAIL = 'inquiry@haibucrafts.com';
-  let submitted;
+  const submitted = [];
   globalThis.fetch = async (_url, options) => {
-    submitted = JSON.parse(options.body);
-    return { ok: true, status: 200, json: async () => ({ id: 'email_test_456' }) };
+    submitted.push(JSON.parse(options.body));
+    return { ok: true, status: 200, json: async () => ({ id: 'email_test_789' }) };
   };
   try {
     const res = responseHarness();
     await handler(request(), res);
     assert.equal(res.statusCode, 200);
-    assert.equal(submitted.to[0], 'inquiry@haibucrafts.com');
-    assert.equal(Object.hasOwn(submitted, 'bcc'), false);
+    assert.equal(submitted.length, 1);
+    assert.equal(submitted[0].to[0], 'inquiry@haibucrafts.com');
   } finally {
     globalThis.fetch = originalFetch;
     if (previousKey) process.env.RESEND_API_KEY = previousKey;

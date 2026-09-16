@@ -163,7 +163,7 @@ export default async function handler(req, res) {
   const bcc = isEmail(configuredBcc) && configuredBcc.toLowerCase() !== to.toLowerCase()
     ? configuredBcc
     : '';
-  const emailPayload = {
+  const primaryPayload = {
     from,
     to: [to],
     reply_to: email,
@@ -172,26 +172,44 @@ export default async function handler(req, res) {
     html,
     attachments
   };
-  if (bcc) emailPayload.bcc = [bcc];
 
-  try {
+  const sendEmail = async (payload, idempotencyKey) => {
     const response = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
-        'Idempotency-Key': `inquiry-${randomUUID()}`
+        'Idempotency-Key': idempotencyKey
       },
-      body: JSON.stringify(emailPayload)
+      body: JSON.stringify(payload)
     });
     const result = await response.json().catch(() => ({}));
-    if (!response.ok) {
-      console.error('Resend inquiry failure', response.status, result?.message || 'Unknown error');
-      return json(res, 502, { ok: false, message: 'Email service rejected the request' });
+    if (!response.ok) throw new Error(result?.message || `Resend rejected the request (${response.status})`);
+    return result;
+  };
+
+  try {
+    const primaryResult = await sendEmail(primaryPayload, `inquiry-${randomUUID()}`);
+    let backupAccepted = false;
+
+    if (bcc) {
+      const backupPayload = {
+        ...primaryPayload,
+        to: [bcc],
+        subject: clean(`[Backup Copy] ${subject}`, 180)
+      };
+
+      try {
+        await sendEmail(backupPayload, `inquiry-backup-${randomUUID()}`);
+        backupAccepted = true;
+      } catch (error) {
+        console.error('Resend inquiry backup failure', error instanceof Error ? error.message : 'Unknown error');
+      }
     }
-    return json(res, 200, { ok: true, id: result.id || null });
+
+    return json(res, 200, { ok: true, id: primaryResult.id || null, backupAccepted });
   } catch (error) {
     console.error('Inquiry delivery failure', error instanceof Error ? error.message : 'Unknown error');
-    return json(res, 502, { ok: false, message: 'Email service is temporarily unavailable' });
+    return json(res, 502, { ok: false, message: 'Email service rejected the request' });
   }
 }

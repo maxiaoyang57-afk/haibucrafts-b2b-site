@@ -21,7 +21,7 @@ test('homepage identifies the HAIBUCRAFT website and organization', async () => 
   const organization = graphs.find((entry) => entry['@type'] === 'Organization');
   assert.equal(website?.name, 'HAIBUCRAFT');
   assert.equal(website?.publisher?.['@id'], 'https://www.haibucrafts.com/#organization');
-  assert.equal(organization?.email, 'sale008@sola-craft.com');
+  assert.equal(organization?.email, 'sales@haibucrafts.com');
   assert.equal(organization?.address?.addressLocality, 'Yiwu');
 });
 

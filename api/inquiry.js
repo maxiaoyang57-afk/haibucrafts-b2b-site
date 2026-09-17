@@ -116,7 +116,12 @@ export default async function handler(req, res) {
   if (contentLength > MAX_BODY_BYTES) return json(res, 413, { ok: false, message: 'Request is too large' });
 
   const origin = clean(req.headers.origin, 300);
-  if (origin && !ALLOWED_ORIGINS.has(origin) && !/^https:\/\/[^/]+\.vercel\.app$/.test(origin)) {
+  // Only this deployment and its branch alias may supplement the public domains.
+  // A different customer's *.vercel.app site is not a trusted HAIBU origin.
+  const deploymentOrigins = [process.env.VERCEL_URL, process.env.VERCEL_BRANCH_URL]
+    .filter((host) => typeof host === 'string' && /^[a-z0-9-]+\.vercel\.app$/i.test(host))
+    .map((host) => `https://${host.toLowerCase()}`);
+  if (origin && !ALLOWED_ORIGINS.has(origin) && !deploymentOrigins.includes(origin)) {
     return json(res, 403, { ok: false, message: 'Origin not allowed' });
   }
 

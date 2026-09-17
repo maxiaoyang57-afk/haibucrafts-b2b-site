@@ -65,6 +65,12 @@
   }
 
   const upload = form.querySelector('input[type="file"][name="reference_images"]');
+  const honeypot = form.elements.namedItem('_company_fax');
+  if (honeypot instanceof HTMLInputElement) {
+    honeypot.value = '';
+    honeypot.autocomplete = 'new-password';
+    honeypot.readOnly = true;
+  }
   const submitButton = form.querySelector('button[type="submit"]');
   if (submitButton) submitButton.textContent = liveMode ? 'Send Quote Request' : 'Validate Quote Request';
   const idleSubmitText = submitButton?.textContent || 'Send Quote Request';
@@ -146,7 +152,10 @@
         });
       }
       form.reset();
-      if (status) status.textContent = 'Inquiry sent successfully. Our sales team will review the submitted requirements.';
+      if (status) {
+        const reference = typeof payload.requestId === 'string' ? payload.requestId.slice(0, 8) : '';
+        status.textContent = `Inquiry sent successfully. Our sales team will review the submitted requirements.${reference ? ` Reference: ${reference}.` : ''}`;
+      }
     } catch (error) {
       if (status) status.textContent = error instanceof Error ? error.message : 'Inquiry could not be sent.';
     } finally {

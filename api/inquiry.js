@@ -106,6 +106,7 @@ function prepareFields(input) {
 }
 
 export default async function handler(req, res) {
+  const requestId = randomUUID();
   if (req.method !== 'POST') {
     res.setHeader('Allow', 'POST');
     return json(res, 405, { ok: false, message: 'Method not allowed' });
@@ -126,7 +127,10 @@ export default async function handler(req, res) {
     return json(res, 400, { ok: false, message: 'Invalid request body' });
   }
 
-  if (clean(body?._company_fax, 100)) return json(res, 200, { ok: true });
+  if (clean(body?._company_fax, 100)) {
+    console.warn('Inquiry suppressed by spam check', { requestId });
+    return json(res, 200, { ok: true, requestId });
+  }
 
   const fields = prepareFields(body?.fields);
   const email = fields.email || '';
@@ -158,12 +162,12 @@ export default async function handler(req, res) {
   const html = `<!doctype html><html><body style="font-family:Arial,sans-serif;color:#302b35;line-height:1.55"><h2>${escapeHtml(subject)}</h2><table style="border-collapse:collapse;width:100%;max-width:760px">${rows.map(([label, value]) => `<tr><th style="text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #e9dfe6;width:190px">${escapeHtml(label)}</th><td style="padding:8px;border-bottom:1px solid #e9dfe6;white-space:pre-wrap">${escapeHtml(value)}</td></tr>`).join('')}</table>${attachments.length ? `<p>${attachments.length} compressed reference image(s) attached.</p>` : ''}</body></html>`;
 
   const from = process.env.INQUIRY_FROM_EMAIL || 'HAIBU CRAFT <inquiry@send.haibucrafts.com>';
-  const to = process.env.INQUIRY_TO_EMAIL || 'sale008@sola-craft.com';
+  const to = process.env.INQUIRY_TO_EMAIL || 'inquiry@haibucrafts.com';
   const configuredBcc = clean(process.env.INQUIRY_BCC_EMAIL, 254);
   const bcc = isEmail(configuredBcc) && configuredBcc.toLowerCase() !== to.toLowerCase()
     ? configuredBcc
     : '';
-  const emailPayload = {
+  const primaryPayload = {
     from,
     to: [to],
     reply_to: email,
@@ -172,26 +176,49 @@ export default async function handler(req, res) {
     html,
     attachments
   };
-  if (bcc) emailPayload.bcc = [bcc];
 
-  try {
+  const sendEmail = async (payload, idempotencyKey) => {
     const response = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
         Authorization: `Bearer ${apiKey}`,
         'Content-Type': 'application/json',
-        'Idempotency-Key': `inquiry-${randomUUID()}`
+        'Idempotency-Key': idempotencyKey
       },
-      body: JSON.stringify(emailPayload)
+      body: JSON.stringify(payload)
     });
     const result = await response.json().catch(() => ({}));
-    if (!response.ok) {
-      console.error('Resend inquiry failure', response.status, result?.message || 'Unknown error');
-      return json(res, 502, { ok: false, message: 'Email service rejected the request' });
+    if (!response.ok) throw new Error(result?.message || `Resend rejected the request (${response.status})`);
+    return result;
+  };
+
+  try {
+    const primaryResult = await sendEmail(primaryPayload, `inquiry-${requestId}`);
+    let backupAccepted = false;
+
+    if (bcc) {
+      const backupPayload = {
+        ...primaryPayload,
+        to: [bcc],
+        subject: clean(`[Backup Copy] ${subject}`, 180)
+      };
+
+      try {
+        await sendEmail(backupPayload, `inquiry-backup-${requestId}`);
+        backupAccepted = true;
+      } catch (error) {
+        console.error('Resend inquiry backup failure', error instanceof Error ? error.message : 'Unknown error');
+      }
     }
-    return json(res, 200, { ok: true, id: result.id || null });
+
+    console.info('Inquiry delivery accepted', {
+      requestId,
+      primaryMessageId: primaryResult.id || null,
+      backupAccepted
+    });
+    return json(res, 200, { ok: true, requestId, id: primaryResult.id || null, backupAccepted });
   } catch (error) {
     console.error('Inquiry delivery failure', error instanceof Error ? error.message : 'Unknown error');
-    return json(res, 502, { ok: false, message: 'Email service is temporarily unavailable' });
+    return json(res, 502, { ok: false, message: 'Email service rejected the request' });
   }
 }

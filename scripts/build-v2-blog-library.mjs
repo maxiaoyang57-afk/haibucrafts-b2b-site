@@ -396,6 +396,7 @@ const blogRoutes = articles.map((article) => ({
   description: article.description,
   type: 'article',
   index: true,
+  lastModified: article.dateModified || '2026-08-06',
   generatedBlog: true
 }));
 const baseRoutes = seoMap.routes.filter((route) => !route.generatedBlog && !articlePaths.has(route.previewPath));

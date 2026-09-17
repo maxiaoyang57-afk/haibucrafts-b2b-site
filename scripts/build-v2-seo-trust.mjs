@@ -41,7 +41,7 @@ const organization = {
   name: 'HAIBUCRAFT',
   url: 'https://www.haibucrafts.com/',
   logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png',
-  email: 'sale008@sola-craft.com',
+  email: 'sales@haibucrafts.com',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Yiwu',
@@ -51,7 +51,7 @@ const organization = {
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'sales',
-    email: 'sale008@sola-craft.com'
+    email: 'sales@haibucrafts.com'
   }
 };
 
@@ -187,7 +187,7 @@ const editorialHtml = `<!DOCTYPE html>
         <div class="card">
           <h3>Updates and corrections</h3>
           <p>Content is revised when catalog records, product scope, documents or operational information change. Material changes receive a new review date.</p>
-          <p>To report an error or request source clarification, email <a href="mailto:sale008@sola-craft.com">sale008@sola-craft.com</a> with the page URL and the statement in question.</p>
+          <p>To report an error or request source clarification, email <a href="mailto:sales@haibucrafts.com">sales@haibucrafts.com</a> with the page URL and the statement in question.</p>
         </div>
       </div>
     </section>

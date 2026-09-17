@@ -50,6 +50,35 @@ test('validates required contact fields', async () => {
   assert.equal(res.statusCode, 400);
 });
 
+test('only HAIBU domains and the current deployment origins pass the origin check', async () => {
+  const keys = ['VERCEL_URL', 'VERCEL_BRANCH_URL'];
+  const previous = keys.map((key) => process.env[key]);
+  process.env.VERCEL_URL = 'haibu-verified-deployment.vercel.app';
+  process.env.VERCEL_BRANCH_URL = 'haibu-git-preview.vercel.app';
+  try {
+    const allowed = ['https://www.haibucrafts.com', 'https://haibucrafts.com',
+      'https://haibu-verified-deployment.vercel.app', 'https://haibu-git-preview.vercel.app'];
+    const denied = ['https://unrelated-project.vercel.app', 'https://haibu-git-preview.vercel.app.evil.example',
+      'http://haibu-git-preview.vercel.app', 'https://haibucrafts.com.evil.example', 'null'];
+    for (const origin of [...allowed, ...denied]) {
+      const res = responseHarness();
+      // Invalid contact fields stop before email delivery for every accepted origin.
+      await handler(request({ headers: { origin }, body: { fields: {} } }), res);
+      assert.equal(res.statusCode, allowed.includes(origin) ? 400 : 403, origin);
+    }
+    delete process.env.VERCEL_URL;
+    delete process.env.VERCEL_BRANCH_URL;
+    const res = responseHarness();
+    await handler(request({ headers: { origin: 'https://haibu-verified-deployment.vercel.app' }, body: { fields: {} } }), res);
+    assert.equal(res.statusCode, 403);
+  } finally {
+    keys.forEach((key, index) => {
+      if (previous[index] === undefined) delete process.env[key];
+      else process.env[key] = previous[index];
+    });
+  }
+});
+
 test('requires server-side Resend configuration', async () => {
   const previousKey = process.env.RESEND_API_KEY;
   delete process.env.RESEND_API_KEY;

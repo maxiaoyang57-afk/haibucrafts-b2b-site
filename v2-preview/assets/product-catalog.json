@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-09-07",
-  "count": 126,
+  "count": 139,
   "products": [
     {
       "sku": "YX048",
@@ -217,6 +217,51 @@
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx4138-wholesale-strawberry-polymer-clay-sprinkle-mix-for-slime-shakers-diy-craft-decoration/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx4138-wholesale-strawberry-polymer-clay-sprinkle-mix-for-slime-shakers-diy-craft-decoration/"
+    },
+    {
+      "sku": "YX162",
+      "title": "Wholesale Candy Cane Polymer Clay Cabochons for Christmas Crafts and Miniature Displays",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx162-wholesale-candy-cane-polymer-clay-cabochons-for-christmas-crafts-miniature-displays/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx162-wholesale-candy-cane-polymer-clay-cabochons-for-christmas-crafts-miniature-displays/"
+    },
+    {
+      "sku": "YX3150",
+      "title": "Wholesale Christmas Gingerbread, Peppermint Candy and Bow Polymer Clay Slices for Slime and Shakers",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/yx3150/yx3150-christmas-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/yx3150/yx3150-christmas-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-09-20/yx3150/yx3150-christmas-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-09-20/yx3150/yx3150-christmas-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3150-wholesale-christmas-gingerbread-peppermint-candy-bow-polymer-clay-slices-for-slime-shakers/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3150-wholesale-christmas-gingerbread-peppermint-candy-bow-polymer-clay-slices-for-slime-shakers/"
+    },
+    {
+      "sku": "YX3461",
+      "title": "Wholesale Mixed Christmas Polymer Clay Slices for Slime, Tumblers, Shakers and Confetti",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/yx3461/yx3461-christmas-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/yx3461/yx3461-christmas-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-09-20/yx3461/yx3461-christmas-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-09-20/yx3461/yx3461-christmas-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3461-wholesale-mixed-christmas-polymer-clay-slices-for-slime-tumblers-shakers-confetti/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3461-wholesale-mixed-christmas-polymer-clay-slices-for-slime-tumblers-shakers-confetti/"
     },
     {
       "sku": "YX421",
@@ -1305,6 +1350,156 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/",
       "productionPath": "/products/resin-charms-for-slime/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/"
+    },
+    {
+      "sku": "RW26460",
+      "title": "Wholesale 14 × 13 mm Mixed Citrus and Kiwi Resin Fruit Flatbacks for Scrapbooking and Seasonal Crafts",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food & Drink",
+      "image": "/assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26460-wholesale-14-13-mm-mixed-citrus-kiwi-resin-fruit-flatbacks-for-scrapbooking-seasonal-crafts/",
+      "productionPath": "/products/resin-charms-for-slime/rw26460-wholesale-14-13-mm-mixed-citrus-kiwi-resin-fruit-flatbacks-for-scrapbooking-seasonal-crafts/"
+    },
+    {
+      "sku": "RW26774",
+      "title": "Wholesale Christmas Resin Cabochons for Hair Clips, Keychains, Scrapbooking and Seasonal Decor",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26774/rw26774-christmas-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26774/rw26774-christmas-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26774/rw26774-christmas-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26774/rw26774-christmas-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26774-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooking-seasonal-decor/",
+      "productionPath": "/products/resin-charms-for-slime/rw26774-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooking-seasonal-decor/"
+    },
+    {
+      "sku": "RW26775",
+      "title": "Wholesale Christmas Resin Cabochons for Hair Clips, Keychains, Scrapbooks and Packaging Decor",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26775/rw26775-christmas-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26775/rw26775-christmas-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26775/rw26775-christmas-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26775/rw26775-christmas-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26775-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-packaging-decor/",
+      "productionPath": "/products/resin-charms-for-slime/rw26775-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-packaging-decor/"
+    },
+    {
+      "sku": "RW26776",
+      "title": "Wholesale Christmas Resin Cabochons for Hair Clips, Keychains, Scrapbooks and Phone Decor",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26776/rw26776-christmas-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26776/rw26776-christmas-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26776/rw26776-christmas-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26776/rw26776-christmas-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26776-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-decor/",
+      "productionPath": "/products/resin-charms-for-slime/rw26776-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-decor/"
+    },
+    {
+      "sku": "RW26777",
+      "title": "Wholesale Christmas Resin Cabochons for Hair Clips, Keychains, Scrapbooks and Phone Cases",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26777/rw26777-christmas-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26777/rw26777-christmas-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26777/rw26777-christmas-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26777/rw26777-christmas-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26777-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-cases/",
+      "productionPath": "/products/resin-charms-for-slime/rw26777-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-cases/"
+    },
+    {
+      "sku": "RW26796",
+      "title": "Wholesale Mixed Christmas Resin Charms for Slime, Crafts and Seasonal Accessories",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26796/rw26796-mixed-christmas-resin-charms-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26796/rw26796-mixed-christmas-resin-charms-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26796/rw26796-mixed-christmas-resin-charms-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26796/rw26796-mixed-christmas-resin-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26796-wholesale-mixed-christmas-resin-charms-for-slime-crafts-seasonal-accessories/",
+      "productionPath": "/products/resin-charms-for-slime/rw26796-wholesale-mixed-christmas-resin-charms-for-slime-crafts-seasonal-accessories/"
+    },
+    {
+      "sku": "RW26800",
+      "title": "Wholesale Mini Christmas Gingerbread Resin Figures for Slime, Crafts and Holiday Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26800/rw26800-gingerbread-resin-figures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26800/rw26800-gingerbread-resin-figures-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26800/rw26800-gingerbread-resin-figures-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26800/rw26800-gingerbread-resin-figures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26800-wholesale-mini-christmas-gingerbread-resin-figures-for-slime-crafts-holiday-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26800-wholesale-mini-christmas-gingerbread-resin-figures-for-slime-crafts-holiday-decorations/"
+    },
+    {
+      "sku": "RW26813",
+      "title": "Wholesale Mixed Christmas Snowman and Tree Resin Miniatures for Holiday Displays and DIY Crafts",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26813/rw26813-christmas-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26813/rw26813-christmas-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26813/rw26813-christmas-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26813/rw26813-christmas-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26813-wholesale-mixed-christmas-snowman-tree-resin-miniatures-for-holiday-displays-diy-crafts/",
+      "productionPath": "/products/resin-charms-for-slime/rw26813-wholesale-mixed-christmas-snowman-tree-resin-miniatures-for-holiday-displays-diy-crafts/"
+    },
+    {
+      "sku": "RW26814",
+      "title": "Wholesale 3D Christmas Snowy Cottage Resin Miniatures for Holiday Village and Desktop Displays",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26814/rw26814-snowy-cottage-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26814/rw26814-snowy-cottage-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26814/rw26814-snowy-cottage-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26814/rw26814-snowy-cottage-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26814-wholesale-3d-christmas-snowy-cottage-resin-miniatures-for-holiday-village-desktop-displays/",
+      "productionPath": "/products/resin-charms-for-slime/rw26814-wholesale-3d-christmas-snowy-cottage-resin-miniatures-for-holiday-village-desktop-displays/"
+    },
+    {
+      "sku": "RW26819",
+      "title": "Wholesale Christmas Snowman and Tree Resin Flatback Cabochons for Hair Accessories, Bags and Cards",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-20/rw26819/rw26819-christmas-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-20/rw26819/rw26819-christmas-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26819/rw26819-christmas-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-09-20/rw26819/rw26819-christmas-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26819-wholesale-christmas-snowman-tree-resin-flatback-cabochons-for-hair-accessories-bags-cards/",
+      "productionPath": "/products/resin-charms-for-slime/rw26819-wholesale-christmas-snowman-tree-resin-flatback-cabochons-for-hair-accessories-bags-cards/"
     },
     {
       "sku": "RW24891",

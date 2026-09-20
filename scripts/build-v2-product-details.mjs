@@ -18,6 +18,7 @@ const resinSeptemberBatchPath = path.join(root, 'scripts', 'data', 'resin-produc
 const haibuSeptember9BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260909.json');
 const haibuSeptember11BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260911.json');
 const haibuSeptember12BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260912.json');
+const haibuSeptember20BatchPath = path.join(root, 'scripts', 'data', 'haibu-new-products-20260920.json');
 const issue12Batch = JSON.parse(await readFile(issue12BatchPath, 'utf8'));
 const issue18Batch = JSON.parse(await readFile(issue18BatchPath, 'utf8'));
 const issue29Batch = JSON.parse(await readFile(issue29BatchPath, 'utf8'));
@@ -25,6 +26,7 @@ const resinSeptemberBatch = JSON.parse(await readFile(resinSeptemberBatchPath, '
 const haibuSeptember9Batch = JSON.parse(await readFile(haibuSeptember9BatchPath, 'utf8'));
 const haibuSeptember11Batch = JSON.parse(await readFile(haibuSeptember11BatchPath, 'utf8'));
 const haibuSeptember12Batch = JSON.parse(await readFile(haibuSeptember12BatchPath, 'utf8'));
+const haibuSeptember20Batch = JSON.parse(await readFile(haibuSeptember20BatchPath, 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
@@ -32,7 +34,8 @@ const productBatches = [
   { issue: 'resin-products-2026-09', data: resinSeptemberBatch },
   { issue: 'haibu-new-products-20260909', data: haibuSeptember9Batch },
   { issue: 'haibu-new-products-20260911', data: haibuSeptember11Batch },
-  { issue: 'haibu-new-products-20260912', data: haibuSeptember12Batch }
+  { issue: 'haibu-new-products-20260912', data: haibuSeptember12Batch },
+  { issue: 'haibu-new-products-20260920', data: haibuSeptember20Batch }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -303,7 +306,7 @@ for (const category of categories) {
         seoKeywords: batchProduct.seoKeywords,
         publishingCheck: batchProduct.publishingCheck
       } : null,
-      mediaLabel: batchProduct?.mediaLabel || (batchRecord?.issue === 'haibu-new-products-20260912' ? 'Product image reference' : 'Actual product photo'),
+      mediaLabel: batchProduct?.mediaLabel || (['haibu-new-products-20260912', 'haibu-new-products-20260920'].includes(batchRecord?.issue) ? 'Product image reference' : 'Actual product photo'),
       lastModified: batchRecord?.data.lastModified || catalogLastModified,
       batchProduct: Boolean(batchProduct),
       batchIssue: batchRecord?.issue || null

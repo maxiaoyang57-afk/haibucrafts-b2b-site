@@ -204,6 +204,27 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx162-wholesale-candy-cane-polymer-clay-cabochons-for-christmas-crafts-miniature-displays/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx162-wholesale-candy-cane-polymer-clay-cabochons-for-christmas-crafts-miniature-displays/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx162-wholesale-candy-cane-polymer-clay-cabochons-for-christmas-crafts-miniature-displays/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3150-wholesale-christmas-gingerbread-peppermint-candy-bow-polymer-clay-slices-for-slime-shakers/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3150-wholesale-christmas-gingerbread-peppermint-candy-bow-polymer-clay-slices-for-slime-shakers/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3150-wholesale-christmas-gingerbread-peppermint-candy-bow-polymer-clay-slices-for-slime-shakers/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3461-wholesale-mixed-christmas-polymer-clay-slices-for-slime-tumblers-shakers-confetti/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3461-wholesale-mixed-christmas-polymer-clay-slices-for-slime-tumblers-shakers-confetti/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3461-wholesale-mixed-christmas-polymer-clay-slices-for-slime-tumblers-shakers-confetti/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx421-wholesale-candy-corn-polymer-clay-slices-for-halloween-slime-nail-art-diy-craft-sprinkles/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx421-wholesale-candy-corn-polymer-clay-slices-for-halloween-slime-nail-art-diy-craft-sprinkles/index.html",
       "action": "create",
@@ -747,6 +768,76 @@
       "destination": "products/resin-charms-for-slime/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26460-wholesale-14-13-mm-mixed-citrus-kiwi-resin-fruit-flatbacks-for-scrapbooking-seasonal-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw26460-wholesale-14-13-mm-mixed-citrus-kiwi-resin-fruit-flatbacks-for-scrapbooking-seasonal-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26460-wholesale-14-13-mm-mixed-citrus-kiwi-resin-fruit-flatbacks-for-scrapbooking-seasonal-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26774-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooking-seasonal-decor/index.html",
+      "destination": "products/resin-charms-for-slime/rw26774-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooking-seasonal-decor/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26774-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooking-seasonal-decor/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26775-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-packaging-decor/index.html",
+      "destination": "products/resin-charms-for-slime/rw26775-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-packaging-decor/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26775-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-packaging-decor/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26776-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-decor/index.html",
+      "destination": "products/resin-charms-for-slime/rw26776-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-decor/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26776-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-decor/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26777-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-cases/index.html",
+      "destination": "products/resin-charms-for-slime/rw26777-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-cases/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26777-wholesale-christmas-resin-cabochons-for-hair-clips-keychains-scrapbooks-phone-cases/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26796-wholesale-mixed-christmas-resin-charms-for-slime-crafts-seasonal-accessories/index.html",
+      "destination": "products/resin-charms-for-slime/rw26796-wholesale-mixed-christmas-resin-charms-for-slime-crafts-seasonal-accessories/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26796-wholesale-mixed-christmas-resin-charms-for-slime-crafts-seasonal-accessories/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26800-wholesale-mini-christmas-gingerbread-resin-figures-for-slime-crafts-holiday-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26800-wholesale-mini-christmas-gingerbread-resin-figures-for-slime-crafts-holiday-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26800-wholesale-mini-christmas-gingerbread-resin-figures-for-slime-crafts-holiday-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26813-wholesale-mixed-christmas-snowman-tree-resin-miniatures-for-holiday-displays-diy-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw26813-wholesale-mixed-christmas-snowman-tree-resin-miniatures-for-holiday-displays-diy-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26813-wholesale-mixed-christmas-snowman-tree-resin-miniatures-for-holiday-displays-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26814-wholesale-3d-christmas-snowy-cottage-resin-miniatures-for-holiday-village-desktop-displays/index.html",
+      "destination": "products/resin-charms-for-slime/rw26814-wholesale-3d-christmas-snowy-cottage-resin-miniatures-for-holiday-village-desktop-displays/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26814-wholesale-3d-christmas-snowy-cottage-resin-miniatures-for-holiday-village-desktop-displays/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26819-wholesale-christmas-snowman-tree-resin-flatback-cabochons-for-hair-accessories-bags-cards/index.html",
+      "destination": "products/resin-charms-for-slime/rw26819-wholesale-christmas-snowman-tree-resin-flatback-cabochons-for-hair-accessories-bags-cards/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26819-wholesale-christmas-snowman-tree-resin-flatback-cabochons-for-hair-accessories-bags-cards/",
       "generatedProduct": true
     },
     {

@@ -1,0 +1,593 @@
+{
+  "batch": "haibu-new-products-20260920",
+  "target": "HAIBU",
+  "repository": "Maxiaoyang57-AFK/haibucrafts-b2b-site",
+  "baselineMain": "471abe3a2757c7e6fccc87b93cce4876ff693a3f",
+  "branch": "codex/haibu-products-20260920",
+  "mode": "preview",
+  "productionAuthorized": false,
+  "deduplication": {
+    "catalogBefore": 126,
+    "receivedUniqueSkus": 14,
+    "duplicateSkipped": [
+      "RW002155"
+    ],
+    "newSkus": 13
+  },
+  "products": [
+    {
+      "sku": "RW26460",
+      "sourceRow": 12,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26460/rw26460-mini-fruit-resin-flatbacks-main.jpg",
+          "bytes": 147567,
+          "sha256": "ff34b24eaab6b8b81616546ea7e1d172d67ebbdc36ab7f03abb639b985cc2ba6",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26460/rw26460-mini-fruit-resin-flatbacks-scene.jpg",
+          "bytes": 225592,
+          "sha256": "f5abdf73b674cd0382054c53b7ec1ff7497bc8b8bb9da3bb7f3967a37a4c8036",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26460/rw26460-mini-fruit-resin-flatbacks-detail.jpg",
+          "bytes": 184234,
+          "sha256": "e8f8741a81b54b8cc43e7557d53aed759afa081e0a5ccf4fd60251939cb9e135",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26774",
+      "sourceRow": 11,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26774/rw26774-christmas-resin-cabochons-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26774/rw26774-christmas-resin-cabochons-main.jpg",
+          "bytes": 133924,
+          "sha256": "74182427e07a9f6d4058ff42a5907427a3a1cda63a95878851f92e8cccf7969e",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26774/rw26774-christmas-resin-cabochons-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26774/rw26774-christmas-resin-cabochons-scene.jpg",
+          "bytes": 259440,
+          "sha256": "b9be7ef26c7aa5579600265a367a82d6fef6c78350eaa55c1410345d11101612",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26774/rw26774-christmas-resin-cabochons-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26774/rw26774-christmas-resin-cabochons-detail.jpg",
+          "bytes": 136179,
+          "sha256": "38dfbb883c1ca219792e6a72f52cc3cda135045ab397e5361f87d2f77e9299b5",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26775",
+      "sourceRow": 10,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26775/rw26775-christmas-resin-cabochons-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26775/rw26775-christmas-resin-cabochons-main.jpg",
+          "bytes": 101252,
+          "sha256": "06209ce08074f297942e2346a77380cb6c7f364a6c2a9cea1d255cf93b5baeef",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26775/rw26775-christmas-resin-cabochons-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26775/rw26775-christmas-resin-cabochons-scene.jpg",
+          "bytes": 275887,
+          "sha256": "caf7acc35516388589d6810df290d5d4f8de85a491c73e97bb201774b7a30c44",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26775/rw26775-christmas-resin-cabochons-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26775/rw26775-christmas-resin-cabochons-detail.jpg",
+          "bytes": 108193,
+          "sha256": "f9cdce4886d5c8d4b08eb2bfbcc6300e6f80e4bfd3e0c2d6925fd80c481a9357",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26776",
+      "sourceRow": 9,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26776/rw26776-christmas-resin-cabochons-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26776/rw26776-christmas-resin-cabochons-main.jpg",
+          "bytes": 105097,
+          "sha256": "0dd38bbadea97d9ae90191bef7df3d67aee48e951f17f86175d6406517b24a9f",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26776/rw26776-christmas-resin-cabochons-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26776/rw26776-christmas-resin-cabochons-scene.jpg",
+          "bytes": 191831,
+          "sha256": "0af9f6a5ec35808bce584a654a71d5cfa3eccf334fa9d36f3dcf6b6c084000d9",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26776/rw26776-christmas-resin-cabochons-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26776/rw26776-christmas-resin-cabochons-detail.jpg",
+          "bytes": 117567,
+          "sha256": "b11886168af28f23892993d6d1a580b3e81eb8b894b8bd46fcd3cedc3084b6e6",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26777",
+      "sourceRow": 8,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26777/rw26777-christmas-resin-cabochons-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26777/rw26777-christmas-resin-cabochons-main.jpg",
+          "bytes": 104040,
+          "sha256": "773d6964e8e47668c86ad6cef9d577d2b5ed7c2699252a91172b7a53b6496dd5",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26777/rw26777-christmas-resin-cabochons-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26777/rw26777-christmas-resin-cabochons-scene.jpg",
+          "bytes": 253260,
+          "sha256": "5171e483e36879525b8d38c723e5d66c727cfef021b2f6b75bd2e846fd938143",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26777/rw26777-christmas-resin-cabochons-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26777/rw26777-christmas-resin-cabochons-detail.jpg",
+          "bytes": 116617,
+          "sha256": "e3e4290499f91d7e25536d5c62a80b505f45b71d971ec9c07c1dfb41d144d1b8",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26796",
+      "sourceRow": 6,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26796/rw26796-mixed-christmas-resin-charms-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26796/rw26796-mixed-christmas-resin-charms-main.jpg",
+          "bytes": 121879,
+          "sha256": "f1856acfe269a9ff37b93c4f1fabcf176fc755ae002e3d8a6beaa3ec2de9843e",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26796/rw26796-mixed-christmas-resin-charms-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26796/rw26796-mixed-christmas-resin-charms-scene.jpg",
+          "bytes": 220324,
+          "sha256": "bbccb7436742ce670e132e42de67b54745f06ef3de2d6c50763d907872f90fbe",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26796/rw26796-mixed-christmas-resin-charms-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26796/rw26796-mixed-christmas-resin-charms-detail.jpg",
+          "bytes": 111383,
+          "sha256": "cdda847a28fae86ffa15c1d0143d27842472cfad4e39878cf58531b8fd0233d0",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26800",
+      "sourceRow": 5,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26800/rw26800-gingerbread-resin-figures-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26800/rw26800-gingerbread-resin-figures-main.jpg",
+          "bytes": 143949,
+          "sha256": "85e35b29864b488bb1d0eb687b1259e156d01a30451c5300768b187e1a378a49",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26800/rw26800-gingerbread-resin-figures-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26800/rw26800-gingerbread-resin-figures-scene.jpg",
+          "bytes": 272020,
+          "sha256": "aca55e9d57b1823392496a225ffd344bc1ad780e9541856a0df7bf6b1538a7e4",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26800/rw26800-gingerbread-resin-figures-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26800/rw26800-gingerbread-resin-figures-detail.jpg",
+          "bytes": 111630,
+          "sha256": "cacf9fcd8364b781bfe3c5ffd7d126064599a06f57c2be7f28c2388becbb241f",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26813",
+      "sourceRow": 4,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26813/rw26813-christmas-resin-miniatures-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26813/rw26813-christmas-resin-miniatures-main.jpg",
+          "bytes": 118105,
+          "sha256": "074eb35985a77b37eda6bba08e7e327d1a8023b6a9db663e2bfc78ca999783fa",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26813/rw26813-christmas-resin-miniatures-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26813/rw26813-christmas-resin-miniatures-scene.jpg",
+          "bytes": 178799,
+          "sha256": "dc6c5f559b5e0b8da10bc7472cc4d5837292d2dea865045c467b4676dc6d1296",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26813/rw26813-christmas-resin-miniatures-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26813/rw26813-christmas-resin-miniatures-detail.jpg",
+          "bytes": 108792,
+          "sha256": "927beb50a74e9bd8e8172f830960690e39eddf86b61f514e0578ba1f42048ab6",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26814",
+      "sourceRow": 3,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26814/rw26814-snowy-cottage-resin-miniatures-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26814/rw26814-snowy-cottage-resin-miniatures-main.jpg",
+          "bytes": 71690,
+          "sha256": "8491af018dd5a5dd7536d18b9ab5c05bff933b1fb5aade23314501cabc35b95f",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26814/rw26814-snowy-cottage-resin-miniatures-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26814/rw26814-snowy-cottage-resin-miniatures-scene.jpg",
+          "bytes": 204654,
+          "sha256": "cd12b11d61bd05b1a7699284d1cf27b8a33df6c0e761c7d0cafd6dcf48e4b819",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26814/rw26814-snowy-cottage-resin-miniatures-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26814/rw26814-snowy-cottage-resin-miniatures-detail.jpg",
+          "bytes": 70275,
+          "sha256": "e4945e6a490a57df51a0f532c2bf354bd6a391e6933960cd2b4bed85993f07f3",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "RW26819",
+      "sourceRow": 2,
+      "category": "Resin Charms",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/rw26819/rw26819-christmas-resin-cabochons-01.jpg",
+          "sourcePath": "product-assets-20260920/rw26819/rw26819-christmas-resin-cabochons-main.jpg",
+          "bytes": 180808,
+          "sha256": "280c12c86acef38760da821eb125792461a7f0ca32749b8cb6deb6204f1399e8",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/rw26819/rw26819-christmas-resin-cabochons-02.jpg",
+          "sourcePath": "product-assets-20260920/rw26819/rw26819-christmas-resin-cabochons-scene.jpg",
+          "bytes": 259740,
+          "sha256": "ccc3f77769e94a7144abb6e66235bef84b583aeabdbfc5fd926c51a6cb852df7",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/rw26819/rw26819-christmas-resin-cabochons-03.jpg",
+          "sourcePath": "product-assets-20260920/rw26819/rw26819-christmas-resin-cabochons-detail.jpg",
+          "bytes": 136977,
+          "sha256": "3bff6c521e21a22b66ea0e09c696ca9ff195e9f49bfb9e42a9ff99794addbc30",
+          "pixels": [
+            903,
+            903
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "YX162",
+      "sourceRow": 13,
+      "category": "Polymer Clay Slices",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-01.jpg",
+          "sourcePath": "product-assets-20260920/yx162/yx162-candy-cane-clay-cabochons-main.jpg",
+          "bytes": 57843,
+          "sha256": "476f0adece4c80e9ff9fded2be2164271f1c2503e6c6439c9f61c0c93a772d72",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-02.jpg",
+          "sourcePath": "product-assets-20260920/yx162/yx162-candy-cane-clay-cabochons-scene.jpg",
+          "bytes": 244543,
+          "sha256": "fe9117f265e56ecbd444f2fd0be8ef2ca1b735f8a3e5b137fc4e87ca68071b20",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-03.jpg",
+          "sourcePath": "product-assets-20260920/yx162/yx162-candy-cane-clay-cabochons-detail.jpg",
+          "bytes": 60651,
+          "sha256": "0c85e8778dcd8a2d9be7eba4f7be188ce319779bff9b87010737332fac48107c",
+          "pixels": [
+            720,
+            720
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "YX3150",
+      "sourceRow": 1,
+      "category": "Polymer Clay Slices",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/yx3150/yx3150-christmas-clay-slices-01.jpg",
+          "sourcePath": "product-assets-20260920/yx3150/yx3150-christmas-clay-slices-main.jpg",
+          "bytes": 191006,
+          "sha256": "d78dd0c647a6c3bf331fe7f7ea270165807dc07a2062ade8df63b3ba6c37651f",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/yx3150/yx3150-christmas-clay-slices-02.jpg",
+          "sourcePath": "product-assets-20260920/yx3150/yx3150-christmas-clay-slices-scene.jpg",
+          "bytes": 275511,
+          "sha256": "d3ffc16d76307a54544a6ac58b3843241aabfcd2c46dd12fe67a55bf9223fc01",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/yx3150/yx3150-christmas-clay-slices-03.jpg",
+          "sourcePath": "product-assets-20260920/yx3150/yx3150-christmas-clay-slices-detail.jpg",
+          "bytes": 151218,
+          "sha256": "833bf54cf57def33e2518794c46e5b0a424d1a74fb0462c523b996bcd420946a",
+          "pixels": [
+            720,
+            720
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    },
+    {
+      "sku": "YX3461",
+      "sourceRow": 7,
+      "category": "Polymer Clay Slices",
+      "status": "validated_for_preview",
+      "outputs": [
+        {
+          "role": "verified_main",
+          "path": "assets/images/products/batch-2026-09-20/yx3461/yx3461-christmas-polymer-clay-slices-01.jpg",
+          "sourcePath": "product-assets-20260920/yx3461/yx3461-christmas-polymer-clay-slices-main.jpg",
+          "bytes": 194404,
+          "sha256": "ad56810b5fab9639eae5e4c489cb740e5fa42baf661e429ae8b6b5353f2623c2",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "natural_application",
+          "path": "assets/images/products/batch-2026-09-20/yx3461/yx3461-christmas-polymer-clay-slices-02.jpg",
+          "sourcePath": "product-assets-20260920/yx3461/yx3461-christmas-polymer-clay-slices-scene.jpg",
+          "bytes": 284377,
+          "sha256": "8e29e16823f3ec2258942475f0690e276495d3e64150405efe90c0ca3f6cbc9d",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "status": "validated_for_preview"
+        },
+        {
+          "role": "close_detail",
+          "path": "assets/images/products/batch-2026-09-20/yx3461/yx3461-christmas-polymer-clay-slices-03.jpg",
+          "sourcePath": "product-assets-20260920/yx3461/yx3461-christmas-polymer-clay-slices-detail.jpg",
+          "bytes": 170129,
+          "sha256": "4ff55c05578d24a2952d8265c5197388b1275749606750e6c1b5b2ca1b76ab99",
+          "pixels": [
+            720,
+            720
+          ],
+          "status": "validated_for_preview"
+        }
+      ]
+    }
+  ],
+  "validationStatus": "repository checks passed on 2026-09-20",
+  "previewStatus": "pending Git-connected deployment"
+}

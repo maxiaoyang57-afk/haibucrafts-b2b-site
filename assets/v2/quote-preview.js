@@ -89,9 +89,11 @@
   };
 
   applyQuotePrefill();
-  window.addEventListener('load', applyQuotePrefill, { once: true });
-  window.addEventListener('pageshow', applyQuotePrefill);
-  window.setTimeout(applyQuotePrefill, 250);
+  if (typeof window.addEventListener === 'function') {
+    window.addEventListener('load', applyQuotePrefill, { once: true });
+    window.addEventListener('pageshow', applyQuotePrefill);
+  }
+  if (typeof window.setTimeout === 'function') window.setTimeout(applyQuotePrefill, 250);
 
   const categoryField = document.getElementById('categoryField');
   if (categoryField && category && [...categoryField.options].some((option) => option.value === category)) {

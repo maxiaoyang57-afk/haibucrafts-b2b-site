@@ -324,7 +324,7 @@ const collections = [
     h1: 'Christmas Slime Charms Wholesale',
     intro: 'Build bulk Christmas slime charm programs from real catalog SKUs, combining Santa, tree, snowflake, peppermint and snowman themes with mixed-SKU and private-label sourcing support.',
     skus: ['SLM10003', 'SLM10009', 'SLM10013', 'SLM10015', 'SLM10017', 'SLM10129', 'SLM26529'],
-    buyerFit: 'For slime brands and DIY-kit buyers, the seven-code shortlist covers classic Santa, tree, snowflake, peppermint, snowman and gingerbread directions while keeping the page slime-only.',
+    buyerFit: 'For slime brands and DIY-kit buyers, the seven-code slime shortlist covers classic Santa, tree, snowflake, peppermint, snowman and gingerbread directions, with YX4109 shown separately as a related Christmas polymer clay option.',
     mixRatio: 'Start with a written ratio by SKU or motif family (for example, focal charms versus small filler pieces). Confirm the final count or weight per selling unit against the approved sample.',
     sampling: 'Request a representative sample of the selected codes before artwork and packing are approved. Note substitutions, color tolerance and whether every design must appear in each bag.',
     reversePlan: 'Work backward from the required arrival date: quotation and sample review, artwork approval, production, inspection, packing and transport each need an agreed decision window.'
@@ -383,7 +383,177 @@ const seasonalCollectionStyles = `
     [data-page="slime-charms-seasonal"] .seasonal-quote-card .checklist {
       margin: 0;
     }
+
+    [data-page="slime-charms-seasonal"] .procurement-guide .section-head {
+      max-width: 820px;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-guide .section-head p {
+      max-width: 760px;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-table-wrap {
+      overflow-x: auto;
+      margin-top: 24px;
+      border: 1px solid #dce2ea;
+      border-radius: 20px;
+      background: #fff;
+      box-shadow: 0 14px 38px rgba(22, 47, 75, .08);
+    }
+    [data-page="slime-charms-seasonal"] .procurement-table {
+      width: 100%;
+      min-width: 980px;
+      border-collapse: collapse;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-table th,
+    [data-page="slime-charms-seasonal"] .procurement-table td {
+      padding: 15px 16px;
+      border-bottom: 1px solid #e8edf3;
+      text-align: left;
+      vertical-align: top;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-table th {
+      background: #173f67;
+      color: #fff;
+      font-size: .83rem;
+      letter-spacing: .02em;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-table tbody tr:nth-child(even) {
+      background: #f7f9fc;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-table tbody tr:last-child td {
+      border-bottom: 0;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-product-link {
+      color: #173f67;
+      font-weight: 750;
+      text-decoration: none;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-product-link:hover,
+    [data-page="slime-charms-seasonal"] .procurement-product-link:focus-visible {
+      text-decoration: underline;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-sku {
+      display: block;
+      margin-bottom: 4px;
+      color: #677386;
+      font-size: .78rem;
+      font-weight: 750;
+      letter-spacing: .04em;
+    }
+    [data-page="slime-charms-seasonal"] .availability-badge {
+      display: inline-flex;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #e8f6ef;
+      color: #17633f;
+      font-size: .78rem;
+      font-weight: 750;
+      white-space: nowrap;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-note {
+      margin: 16px 0 0;
+      color: #5e6878;
+      font-size: .9rem;
+      line-height: 1.65;
+    }
+    [data-page="slime-charms-seasonal"] .procurement-actions {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      margin-top: 22px;
+    }
+    @media (max-width: 760px) {
+      [data-page="slime-charms-seasonal"] .procurement-table-wrap {
+        overflow: visible;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table {
+        min-width: 0;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table,
+      [data-page="slime-charms-seasonal"] .procurement-table tbody,
+      [data-page="slime-charms-seasonal"] .procurement-table tr,
+      [data-page="slime-charms-seasonal"] .procurement-table td {
+        display: block;
+        width: 100%;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table tr {
+        margin-bottom: 16px;
+        overflow: hidden;
+        border: 1px solid #dce2ea;
+        border-radius: 16px;
+        background: #fff;
+        box-shadow: 0 10px 26px rgba(22, 47, 75, .07);
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table tbody tr:nth-child(even) {
+        background: #fff;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table td {
+        display: grid;
+        grid-template-columns: minmax(110px, 38%) 1fr;
+        gap: 12px;
+        padding: 12px 14px;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table td::before {
+        content: attr(data-label);
+        color: #4b586b;
+        font-size: .78rem;
+        font-weight: 750;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table td:first-child {
+        display: block;
+        padding: 16px 14px;
+        background: #f1f5fa;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table td:first-child::before {
+        display: none;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table tr:last-child td {
+        border-bottom: 1px solid #e8edf3;
+      }
+      [data-page="slime-charms-seasonal"] .procurement-table tr:last-child td:last-child {
+        border-bottom: 0;
+      }
+    }
+
 `;
+
+function procurementRow(product) {
+  const packing = product.sku === 'YX4109' ? '500 g/bag' : '100 pcs/bag';
+  return `<tr><td data-label="Product"><span class="procurement-sku">${escapeHtml(product.sku)}</span><a class="procurement-product-link" href="${product.previewPath}">${escapeHtml(product.title)}</a></td><td data-label="Availability"><span class="availability-badge">Available for inquiry</span></td><td data-label="Standard Packing">${packing}</td><td data-label="MOQ">Negotiable*</td><td data-label="Sample Time">3–7 days*</td><td data-label="Estimated Lead Time">10–20 days*</td></tr>`;
+}
+
+function procurementGuide(collection, products, previewPath) {
+  const procurementProducts = [...products];
+  if (collection.key === 'christmas') {
+    const relatedProduct = catalog.products.find((item) => item.sku === 'YX4109' && item.category === 'polymer-clay-slices');
+    if (!relatedProduct) throw new Error('Missing Christmas procurement product YX4109');
+    procurementProducts.push(relatedProduct);
+  }
+  const intro = collection.key === 'christmas'
+    ? 'Use this guide to compare the slime shortlist and related polymer clay option before requesting a quotation. Availability means the SKU can be discussed for an order; it is not a real-time inventory promise.'
+    : 'Use this guide to shortlist products before requesting a quotation. Availability means the SKU can be discussed for an order; it is not a real-time inventory promise.';
+  const quoteParams = new URLSearchParams({
+    source: `${collection.key}-procurement-guide`,
+    source_page: previewPath,
+    collection: collection.key
+  });
+  return `<section class="section procurement-guide" aria-labelledby="${collection.key}-procurement-heading"><div class="container"><div class="section-head"><span class="eyebrow">Wholesale order information</span><h2 id="${collection.key}-procurement-heading">${collection.h1.replace(' Slime Charms Wholesale', '')} procurement terms at a glance</h2><p>${escapeHtml(intro)}</p></div><div class="procurement-table-wrap"><table class="procurement-table"><thead><tr><th scope="col">Product</th><th scope="col">Availability</th><th scope="col">Standard Packing</th><th scope="col">MOQ</th><th scope="col">Sample Time</th><th scope="col">Estimated Lead Time</th></tr></thead><tbody>${procurementProducts.map(procurementRow).join('')}</tbody></table></div><p class="procurement-note">* Indicative only. Final MOQ, sample time and lead time depend on design complexity, packaging, customization, order quantity and material availability, and will be confirmed in the quotation.</p><div class="procurement-actions"><a class="btn btn-primary" href="/v2-preview/quote/?${quoteParams.toString().replaceAll('&', '&amp;')}">Request a confirmed quotation</a><a class="btn btn-light" href="/custom-solutions/">Discuss custom packing</a></div></div></section>`;
+}
 
 for (const collection of collections) {
   const products = collection.skus.map((sku) => {
@@ -414,7 +584,8 @@ for (const collection of collections) {
       url: `${origin}${product.productionPath}`
     }))
   };
-  let html = `<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="utf-8">\n  <meta name="viewport" content="width=device-width,initial-scale=1">\n  <title>${escapeHtml(collection.title)}</title>\n  <meta name="description" content="${escapeAttr(collection.description)}">\n  <meta name="robots" content="noindex,nofollow">\n  <link rel="stylesheet" href="/v2-preview/assets/site-v2.css">\n  <link rel="stylesheet" href="/v2-preview/assets/site-v2-fixes.css">\n  <link rel="stylesheet" href="/v2-preview/assets/product-directory.css">\n  <link rel="stylesheet" href="/v2-preview/assets/category-ux.css">\n  <style>${seasonalCollectionStyles}</style>\n  <script type="application/ld+json">${JSON.stringify(breadcrumbs).replaceAll('<', '\\u003c')}</script>\n  <script type="application/ld+json">${JSON.stringify(itemList).replaceAll('<', '\\u003c')}</script>\n</head>\n<body data-page="slime-charms-seasonal">\n  <div data-site-header></div>\n  <main>\n    <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="/v2-preview/">Home</a> / <a href="/v2-preview/products/slime-charms/">Slime Charms</a> / ${escapeHtml(collection.h1)}</div><span class="eyebrow">Seasonal wholesale collection</span><h1>${escapeHtml(collection.h1)}</h1><p>${escapeHtml(collection.intro)}</p><div class="actions"><a class="btn btn-primary" href="/v2-preview/quote/?source=${collection.key}-collection&amp;category=slime-charms&amp;landing_page=${encodeURIComponent(previewPath)}&amp;source_page=${encodeURIComponent(previewPath)}&amp;collection=${collection.key}">Request Seasonal Quote</a><a class="btn btn-light" href="/v2-preview/products/slime-charms/">Browse All Slime Charms</a></div></div></section>\n    <section class="section alt"><div class="container"><div class="section-head"><span class="eyebrow">Real catalog selection</span><h2>${products.length} catalog SKUs for ${escapeHtml(collection.key)} sourcing.</h2><p>Only real products already present in the HAIBUCRAFT catalog are shown here. Product mix, packaging, labeling, MOQ, lead time and destination requirements are confirmed in the quotation.</p></div><div class="product-grid-v2">${products.map((product) => collectionCard(product, collection)).join('')}</div></div></section>\n    <section class="section"><div class="container split"><div><span class="eyebrow">Seasonal planning</span><h2>Confirm the selling window before locking the assortment.</h2><ul class="checklist"><li>Shortlist exact product codes and target quantities.</li><li>Define mixed-pack ratios and whether every design must appear in each selling unit.</li><li>Confirm private-label bag, jar, label or carton requirements.</li><li>State destination country and required delivery window.</li><li>Request product-specific documentation where applicable.</li></ul></div><div class="card"><h3>Need a mixed seasonal program?</h3><p>Send several product codes in one inquiry so assortment, packing and timing can be reviewed together.</p><a class="btn btn-primary" href="/v2-preview/quote/?source=${collection.key}-collection-cta&amp;category=slime-charms&amp;landing_page=${encodeURIComponent(previewPath)}&amp;source_page=${encodeURIComponent(previewPath)}&amp;collection=${collection.key}">Start Seasonal Inquiry</a></div></div></section>\n    <section class="section alt" data-seasonal-buyer-content><div class="container"><div class="section-head"><span class="eyebrow">Buyer-fit guidance</span><h2>Plan a ${escapeHtml(collection.key)} assortment around real pack decisions.</h2></div><div class="card-grid"><article class="card"><h3>Who this shortlist fits</h3><p>${escapeHtml(collection.buyerFit)}</p></article><article class="card"><h3>Mix ratios and pack units</h3><p>${escapeHtml(collection.mixRatio)}</p></article><article class="card"><h3>Sampling and custom review</h3><p>${escapeHtml(collection.sampling)}</p></article><article class="card"><h3>Reverse-plan from arrival</h3><p>${escapeHtml(collection.reversePlan)}</p></article></div></div></section>\n    <section class="section alt"><div class="container"><div class="section-head"><span class="eyebrow">Related sourcing</span><h2>Continue from the seasonal collection.</h2></div><div class="actions"><a class="btn btn-light" href="/v2-preview/products/slime-charms/">All Slime Charms</a><a class="btn btn-light" href="/v2-preview/custom-solutions/">Custom &amp; Private Label</a><a class="btn btn-light" href="/v2-preview/quality-control/">Quality Checkpoints</a></div></div></section>\n  </main>\n  <div data-site-footer></div>\n  <script src="/v2-preview/assets/components.js"></script>\n  <script src="/v2-preview/assets/site-v2.js"></script>\n</body>\n</html>\n`;
+  let html = `<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="utf-8">\n  <meta name="viewport" content="width=device-width,initial-scale=1">\n  <title>${escapeHtml(collection.title)}</title>\n  <meta name="description" content="${escapeAttr(collection.description)}">\n  <meta name="robots" content="noindex,nofollow">\n  <link rel="stylesheet" href="/v2-preview/assets/site-v2.css">\n  <link rel="stylesheet" href="/v2-preview/assets/site-v2-fixes.css">\n  <link rel="stylesheet" href="/v2-preview/assets/product-directory.css">\n  <link rel="stylesheet" href="/v2-preview/assets/category-ux.css">\n  <style>${seasonalCollectionStyles}</style>\n  <script type="application/ld+json">${JSON.stringify(breadcrumbs).replaceAll('<', '\\u003c')}</script>\n  <script type="application/ld+json">${JSON.stringify(itemList).replaceAll('<', '\\u003c')}</script>\n</head>\n<body data-page="slime-charms-seasonal">\n  <div data-site-header></div>\n  <main>\n    <section class="page-hero"><div class="container"><div class="breadcrumbs"><a href="/v2-preview/">Home</a> / <a href="/v2-preview/products/slime-charms/">Slime Charms</a> / ${escapeHtml(collection.h1)}</div><span class="eyebrow">Seasonal wholesale collection</span><h1>${escapeHtml(collection.h1)}</h1><p>${escapeHtml(collection.intro)}</p><div class="actions"><a class="btn btn-primary" href="/v2-preview/quote/?source=${collection.key}-collection&amp;category=slime-charms&amp;landing_page=${encodeURIComponent(previewPath)}&amp;source_page=${encodeURIComponent(previewPath)}&amp;collection=${collection.key}">Request Seasonal Quote</a><a class="btn btn-light" href="/v2-preview/products/slime-charms/">Browse All Slime Charms</a></div></div></section>\n    <section class="section alt"><div class="container"><div class="section-head"><span class="eyebrow">Real catalog selection</span><h2>${products.length} catalog SKUs for ${escapeHtml(collection.key)} sourcing.</h2><p>Only real products already present in the HAIBUCRAFT catalog are shown here. Product mix, packaging, labeling, MOQ, lead time and destination requirements are confirmed in the quotation.</p></div><div class="product-grid-v2">${products.map((product) => collectionCard(product, collection)).join('')}</div></div></section>\n    ${procurementGuide(collection, products, previewPath)}
+    <section class="section"><div class="container split"><div><span class="eyebrow">Seasonal planning</span><h2>Confirm the selling window before locking the assortment.</h2><ul class="checklist"><li>Shortlist exact product codes and target quantities.</li><li>Define mixed-pack ratios and whether every design must appear in each selling unit.</li><li>Confirm private-label bag, jar, label or carton requirements.</li><li>State destination country and required delivery window.</li><li>Request product-specific documentation where applicable.</li></ul></div><div class="card"><h3>Need a mixed seasonal program?</h3><p>Send several product codes in one inquiry so assortment, packing and timing can be reviewed together.</p><a class="btn btn-primary" href="/v2-preview/quote/?source=${collection.key}-collection-cta&amp;category=slime-charms&amp;landing_page=${encodeURIComponent(previewPath)}&amp;source_page=${encodeURIComponent(previewPath)}&amp;collection=${collection.key}">Start Seasonal Inquiry</a></div></div></section>\n    <section class="section alt" data-seasonal-buyer-content><div class="container"><div class="section-head"><span class="eyebrow">Buyer-fit guidance</span><h2>Plan a ${escapeHtml(collection.key)} assortment around real pack decisions.</h2></div><div class="card-grid"><article class="card"><h3>Who this shortlist fits</h3><p>${escapeHtml(collection.buyerFit)}</p></article><article class="card"><h3>Mix ratios and pack units</h3><p>${escapeHtml(collection.mixRatio)}</p></article><article class="card"><h3>Sampling and custom review</h3><p>${escapeHtml(collection.sampling)}</p></article><article class="card"><h3>Reverse-plan from arrival</h3><p>${escapeHtml(collection.reversePlan)}</p></article></div></div></section>\n    <section class="section alt"><div class="container"><div class="section-head"><span class="eyebrow">Related sourcing</span><h2>Continue from the seasonal collection.</h2></div><div class="actions"><a class="btn btn-light" href="/v2-preview/products/slime-charms/">All Slime Charms</a><a class="btn btn-light" href="/v2-preview/custom-solutions/">Custom &amp; Private Label</a><a class="btn btn-light" href="/v2-preview/quality-control/">Quality Checkpoints</a></div></div></section>\n  </main>\n  <div data-site-footer></div>\n  <script src="/v2-preview/assets/components.js"></script>\n  <script src="/v2-preview/assets/site-v2.js"></script>\n</body>\n</html>\n`;
   if (collection.key === 'christmas') {
     const oldQuoteCard = `<div class="card"><h3>Need a mixed seasonal program?</h3><p>Send several product codes in one inquiry so assortment, packing and timing can be reviewed together.</p><a class="btn btn-primary" href="/v2-preview/quote/?source=christmas-collection-cta&amp;category=slime-charms&amp;landing_page=${encodeURIComponent(previewPath)}&amp;source_page=${encodeURIComponent(previewPath)}&amp;collection=christmas">Start Seasonal Inquiry</a></div>`;
     const christmasQuoteCard = `<div class="card seasonal-quote-card"><span class="eyebrow">Quote checklist</span><h3>Get a Christmas range quote</h3><p>Choose one or more SKU cards, then share your target quantity, packaging plan, destination and target arrival date. We will confirm MOQ, available options and lead time for the selected products.</p><ul class="checklist"><li>Selected SKU codes and target quantity</li><li>Bag, jar, label or carton requirements</li><li>Destination country and target arrival date</li></ul><a class="btn btn-primary" href="/v2-preview/quote/?source=christmas-collection-cta&amp;category=slime-charms&amp;landing_page=${encodeURIComponent(previewPath)}&amp;source_page=${encodeURIComponent(previewPath)}&amp;collection=christmas">Get Christmas Range Quote</a></div>`;
@@ -425,7 +596,7 @@ for (const collection of collections) {
   await writeFile(file, html, 'utf8');
 
   const existingRoute = seoMap.routes.find((route) => route.productionPath === productionPath);
-  const route = { previewPath, productionPath, title: collection.title, description: collection.description, type: 'website', index: true, generatedCollection: true };
+  const route = { previewPath, productionPath, title: collection.title, description: collection.description, type: 'website', index: true, generatedCollection: true, lastModified: '2026-09-21' };
   if (existingRoute) Object.assign(existingRoute, route);
   else seoMap.routes.push(route);
 

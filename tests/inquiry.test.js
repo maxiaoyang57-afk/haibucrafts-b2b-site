@@ -27,6 +27,7 @@ function request(overrides = {}) {
         attribution_channel: 'AI Referral',
         attribution_source: 'chatgpt',
         attribution_medium: 'referral',
+        lead_context: 'product-detail',
         first_landing_page: '/products/slime-charms-wholesale.html',
         first_referrer: 'https://chatgpt.com/',
         inquiry_page: '/quote/index.html'
@@ -125,6 +126,7 @@ test('sends the primary inquiry and a direct backup copy through Resend', async 
     assert.match(submitted[0].subject, /SLM712/);
     assert.match(submitted[0].text, /Lead Source Channel: AI Referral/);
     assert.match(submitted[0].text, /Lead Source: chatgpt/);
+    assert.match(submitted[0].text, /Inquiry Context: product-detail/);
     assert.match(submitted[0].html, /First Landing Page/);
     assert.match(submittedHeaders[0]['Idempotency-Key'], /^inquiry-/);
     assert.match(submittedHeaders[1]['Idempotency-Key'], /^inquiry-backup-/);

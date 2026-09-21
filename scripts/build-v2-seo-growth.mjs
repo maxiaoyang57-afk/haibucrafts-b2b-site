@@ -596,7 +596,7 @@ for (const collection of collections) {
   await writeFile(file, html, 'utf8');
 
   const existingRoute = seoMap.routes.find((route) => route.productionPath === productionPath);
-  const route = { previewPath, productionPath, title: collection.title, description: collection.description, type: 'website', index: true, generatedCollection: true };
+  const route = { previewPath, productionPath, title: collection.title, description: collection.description, type: 'website', index: true, generatedCollection: true, lastModified: '2026-09-21' };
   if (existingRoute) Object.assign(existingRoute, route);
   else seoMap.routes.push(route);
 

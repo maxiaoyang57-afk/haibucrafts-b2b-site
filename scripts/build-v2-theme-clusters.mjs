@@ -53,8 +53,11 @@ const themes = [
 
 const bySku = new Map(catalog.products.map((product) => [product.sku, product]));
 const holidayTheme = themes.find((theme) => theme.slug === 'holiday');
-holidayTheme.skus = [...new Set(Object.values(holidaySelection).flatMap((season) => Object.values(season).flat()))];
-holidayTheme.maxProducts = 24;
+const holidayBaseSkus = [...new Set(Object.values(holidaySelection).flatMap((season) => Object.values(season).flat()))];
+const holidayNewSkus = ['RW26774','RW26775','RW26776','RW26777','RW26796','RW26800','RW26813','RW26814','RW26819','YX162','YX3150','YX3461'];
+holidayTheme.skus = [...holidayBaseSkus.slice(0, 24), ...holidayNewSkus];
+holidayTheme.maxProducts = 36;
+holidayTheme.lastModified = '2026-09-21';
 holidayTheme.collectionLinks = [
   ['Halloween Slime Charms', '/products/slime-charms/halloween-slime-charms/'],
   ['Christmas Slime Charms', '/products/slime-charms/christmas-slime-charms/']
@@ -114,8 +117,8 @@ for (const theme of themes) {
   const body = `<section class="theme-hero"><div class="container"><div class="breadcrumbs"><a href="/v2-preview/">Home</a> / <a href="/v2-preview/themes/">Themes</a> / <a href="${preview(`/themes/${cluster.slug}/`)}">${esc(cluster.name)}</a> / ${esc(theme.name)}</div><span class="eyebrow">Original non-branded theme</span><h1>${esc(theme.h1)}</h1><p>${esc(theme.lead)}</p><div class="theme-hero-actions"><a class="btn btn-primary" href="#products">${products.length ? 'Browse verified products' : 'Review custom direction'}</a><a class="btn btn-light" href="/v2-preview/quote/?source=theme&amp;theme=${theme.slug}">Request a Quote</a></div></div></section><section class="section"><div class="container"><div class="theme-copy-grid"><article><span class="eyebrow">Design direction</span><h2>Build a clear ${esc(theme.name.toLowerCase())} range</h2><p>${esc(theme.direction)}</p></article><article><span class="eyebrow">Buyer brief</span><h2>Control the assortment</h2><p>${esc(theme.planning)}</p></article></div><ul class="use-case-list">${theme.uses.map((use)=>`<li>${esc(use)}</li>`).join('')}</ul></div></section>${collectionLinks}${categoryLinks}<section class="section alt" id="products"><div class="container"><div class="section-head"><span class="eyebrow">${displayProducts.length ? 'Verified catalog starting points' : 'Custom sourcing direction'}</span><h2>${displayProducts.length ? `${displayProducts.length} products related to ${esc(theme.name.toLowerCase())}` : 'Develop an original western assortment'}</h2><p>Product codes indicate real catalog entries. Custom concepts and availability are confirmed only during quotation.</p></div>${productSection}</div></section><section class="section"><div class="container"><div class="section-head"><span class="eyebrow">Buyer FAQ</span><h2>${esc(theme.name)} sourcing questions</h2></div><div class="faq-grid">${theme.faqs.map(([q,a])=>`<article class="faq-item"><h3>${esc(q)}</h3><p>${esc(a)}</p></article>`).join('')}</div><div class="originality-note"><h2>Original and non-branded by design</h2><p>Use generic motifs and original artwork. Do not request protected characters, logos, team marks or copied patterns.</p></div></div></section>`;
   const directory = path.join(themeRoot, theme.slug); await mkdir(directory,{recursive:true});
   const itemList = {'@type':'ItemList',numberOfItems:displayProducts.length,itemListElement:displayProducts.map((p,i)=>({'@type':'ListItem',position:i+1,name:p.title,url:`${origin}${p.productionPath}`}))};
-  await writeFile(path.join(directory,'index.html'), pageShell({ title:theme.title, description:theme.description, productionPath, schema:{'@context':'https://schema.org','@graph':[{'@type':'CollectionPage',name:theme.h1,description:theme.description,url:`${origin}${productionPath}`,dateModified:modified,mainEntity:itemList},crumb([['Home','/'],['Themes','/themes/'],[cluster.name,`/themes/${cluster.slug}/`],[theme.name,productionPath]]),faq]}, body }), 'utf8');
-  upsertRoute({ previewPath:preview(productionPath), productionPath, title:theme.title, description:theme.description, type:'website', index:true, generatedTheme:true, lastModified:modified });
+  await writeFile(path.join(directory,'index.html'), pageShell({ title:theme.title, description:theme.description, productionPath, schema:{'@context':'https://schema.org','@graph':[{'@type':'CollectionPage',name:theme.h1,description:theme.description,url:`${origin}${productionPath}`,dateModified:(theme.lastModified || modified),mainEntity:itemList},crumb([['Home','/'],['Themes','/themes/'],[cluster.name,`/themes/${cluster.slug}/`],[theme.name,productionPath]]),faq]}, body }), 'utf8');
+  upsertRoute({ previewPath:preview(productionPath), productionPath, title:theme.title, description:theme.description, type:'website', index:true, generatedTheme:true, lastModified:(theme.lastModified || modified) });
 }
 
 const categoryThemes = {

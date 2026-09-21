@@ -6,17 +6,48 @@
   const liveMode = config.mode === 'live' && config.endpoint === '/api/inquiry';
   const params = new URLSearchParams(window.location.search);
   const value = (key, fallback = '') => params.get(key) || fallback;
-  const setValue = (id, nextValue) => {
-    const field = document.getElementById(id);
-    if (field) field.value = nextValue || '';
+  const setValue = (name, nextValue) => {
+    const field = form.elements.namedItem(name);
+    if (field && 'value' in field) {
+      const normalizedValue = nextValue || '';
+      field.value = normalizedValue;
+      if ('defaultValue' in field) field.defaultValue = normalizedValue;
+    }
   };
 
-  const source = value('source', 'direct');
+  const contextSource = value('source', 'direct');
   const category = value('category');
   const productCode = value('product_code', value('sku'));
   const productName = value('product');
   const productImage = value('image');
-  const landingPage = value('landing_page', document.referrer || '/v2-preview/');
+  const contextPage = value('landing_page', '/v2-preview/');
+  const storedAttribution = window.HAIBU_ATTRIBUTION && typeof window.HAIBU_ATTRIBUTION === 'object'
+    ? window.HAIBU_ATTRIBUTION
+    : {};
+  const inferredLandingPage =
+    storedAttribution.first_landing_page === window.location.pathname &&
+    contextPage && contextPage !== window.location.pathname
+      ? contextPage
+      : (storedAttribution.first_landing_page || contextPage || window.location.pathname);
+  const inquiryAttribution = {
+    attribution_channel: storedAttribution.attribution_channel || 'Direct',
+    attribution_source: storedAttribution.attribution_source || 'direct',
+    attribution_medium: storedAttribution.attribution_medium || 'none',
+    attribution_campaign: storedAttribution.attribution_campaign || '',
+    attribution_content: storedAttribution.attribution_content || '',
+    attribution_term: storedAttribution.attribution_term || '',
+    first_landing_page: inferredLandingPage,
+    first_referrer: storedAttribution.first_referrer || 'Not provided',
+    first_visit_at: storedAttribution.first_visit_at || new Date().toISOString(),
+    lead_context: contextSource,
+    source_page: value('source_page', contextPage),
+    product_page: value('product_page', productCode ? contextPage : ''),
+    collection: value('collection'),
+    article: value('article'),
+    product_image: productImage,
+    inquiry_page: window.location.pathname
+  };
+  const landingPage = inquiryAttribution.first_landing_page;
 
   const ensureHiddenField = (name, id) => {
     let field = document.getElementById(id);
@@ -29,6 +60,13 @@
     }
     return field;
   };
+  ensureHiddenField('attribution_channel', 'channelField');
+  ensureHiddenField('attribution_medium', 'mediumField');
+  ensureHiddenField('attribution_campaign', 'campaignField');
+  ensureHiddenField('attribution_content', 'contentField');
+  ensureHiddenField('attribution_term', 'termField');
+  ensureHiddenField('first_visit_at', 'firstVisitField');
+  ensureHiddenField('lead_context', 'leadContextField');
   ensureHiddenField('source_page', 'sourcePageField');
   ensureHiddenField('product_page', 'productPageField');
   ensureHiddenField('collection', 'collectionField');
@@ -40,17 +78,18 @@
     quantityLabel?.insertAdjacentElement('afterend', deliveryLabel);
   }
 
-  setValue('sourceField', source);
-  setValue('landingField', landingPage);
-  setValue('sourcePageField', value('source_page', landingPage));
-  setValue('productPageField', value('product_page', productCode ? landingPage : ''));
-  setValue('collectionField', value('collection'));
-  setValue('articleField', value('article'));
-  setValue('productField', productCode);
-  setValue('productNameField', productName);
-  setValue('imageField', productImage);
-  setValue('referrerField', document.referrer || '');
-  setValue('inquiryPageField', window.location.pathname);
+  const applyQuotePrefill = () => {
+    Object.entries(inquiryAttribution).forEach(([name, nextValue]) => setValue(name, nextValue));
+    setValue('sku', productCode);
+    setValue('product', productName);
+    form.dataset.attributionPayload = JSON.stringify(inquiryAttribution);
+    form.dataset.attributionReady = 'true';
+  };
+
+  applyQuotePrefill();
+  window.addEventListener('load', applyQuotePrefill, { once: true });
+  window.addEventListener('pageshow', applyQuotePrefill);
+  window.setTimeout(applyQuotePrefill, 250);
 
   const categoryField = document.getElementById('categoryField');
   if (categoryField && category && [...categoryField.options].some((option) => option.value === category)) {
@@ -131,6 +170,7 @@
         if (key === 'reference_images' || key === '_company_fax' || typeof entryValue !== 'string') continue;
         fields[key] = entryValue;
       }
+      Object.assign(fields, inquiryAttribution);
       const attachments = await Promise.all(selectedFiles.map(fileToAttachment));
       const response = await fetch(config.endpoint, {
         method: 'POST',
@@ -145,9 +185,11 @@
       if (!response.ok || payload.ok !== true) throw new Error(payload.message || 'Inquiry could not be sent.');
       if (typeof window.HAIBU_TRACK === 'function') {
         window.HAIBU_TRACK('inquiry_submitted', {
-          source: String(fields.source || source).slice(0, 80),
+          source: String(fields.attribution_source || inquiryAttribution.attribution_source).slice(0, 80),
+          channel: String(fields.attribution_channel || inquiryAttribution.attribution_channel).slice(0, 80),
+          context: String(fields.lead_context || contextSource).slice(0, 80),
           category: String(fields.category || category || 'unspecified').slice(0, 80),
-          landing_page: String(fields.landing_page || landingPage).slice(0, 180),
+          landing_page: String(fields.first_landing_page || landingPage).slice(0, 180),
           has_product_code: Boolean(fields.sku || productCode)
         });
       }

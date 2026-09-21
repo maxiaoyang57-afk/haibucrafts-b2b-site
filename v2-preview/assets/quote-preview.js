@@ -82,8 +82,10 @@
     Object.entries(inquiryAttribution).forEach(([name, nextValue]) => setValue(name, nextValue));
     setValue('sku', productCode);
     setValue('product', productName);
-    form.dataset.attributionPayload = JSON.stringify(inquiryAttribution);
-    form.dataset.attributionReady = 'true';
+    if (form.dataset) {
+      form.dataset.attributionPayload = JSON.stringify(inquiryAttribution);
+      form.dataset.attributionReady = 'true';
+    }
   };
 
   applyQuotePrefill();

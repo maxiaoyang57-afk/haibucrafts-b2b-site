@@ -9,16 +9,60 @@
     whatsappNumber: '8618632026595',
     whatsappDisplay: '+86 186 3202 6595'
   });
+  const ANALYTICS_CONFIG = Object.freeze({
+    measurementId: 'G-HJ0EL0PQWR',
+    consentKey: 'haibu_ga4_consent_v1'
+  });
+  const IS_LOCAL = /^(localhost|127\.0\.0\.1)$/.test(window.location.hostname);
+  let googleAnalyticsReady = false;
+
+  const readAnalyticsConsent = () => {
+    try {
+      return window.localStorage.getItem(ANALYTICS_CONFIG.consentKey);
+    } catch {
+      return null;
+    }
+  };
+
+  const saveAnalyticsConsent = (value) => {
+    try {
+      window.localStorage.setItem(ANALYTICS_CONFIG.consentKey, value);
+    } catch {
+      // The visitor can still use the site when browser storage is unavailable.
+    }
+  };
+
+  const loadGoogleAnalytics = () => {
+    if (IS_LOCAL || googleAnalyticsReady || document.querySelector('script[data-sdk="ga4"]')) return;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = window.gtag || function () {
+      window.dataLayer.push(arguments);
+    };
+    window.gtag('js', new Date());
+    window.gtag('config', ANALYTICS_CONFIG.measurementId, {
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
+    const googleAnalytics = document.createElement('script');
+    googleAnalytics.async = true;
+    googleAnalytics.src = `https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_CONFIG.measurementId}`;
+    googleAnalytics.dataset.sdk = 'ga4';
+    document.head.appendChild(googleAnalytics);
+    googleAnalyticsReady = true;
+  };
+
+  if (readAnalyticsConsent() === 'granted') loadGoogleAnalytics();
   window.HAIBU_CONTACT_CONFIG = CONTACT_CONFIG;
   window.HAIBU_TRACK = (name, properties = {}) => {
     if (typeof window.va === 'function') window.va('event', { name, data: properties });
+    if (googleAnalyticsReady && typeof window.gtag === 'function') window.gtag('event', name, properties);
   };
   const whatsappContext = (page || 'website').replace(/[-_]+/g, ' ');
   const whatsappMessage = `Hello HAIBUCRAFT, I am visiting the ${whatsappContext} page (${window.location.pathname}) and would like to discuss a wholesale inquiry. Please share MOQ, pricing, packing and lead time.`;
   const whatsappHref = `https://wa.me/${CONTACT_CONFIG.whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
   const whatsappIcon = `<svg aria-hidden="true" viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="8.75" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M9.15 7.85c.25-.25.55-.2.72.03l1.08 1.5c.15.22.13.5-.05.7l-.62.68c.48 1.08 1.36 1.96 2.44 2.44l.68-.62c.2-.18.48-.2.7-.05l1.5 1.08c.23.17.28.47.03.72-.6.62-1.47.98-2.37.84-2.95-.45-5.28-2.78-5.73-5.73-.14-.9.22-1.77.84-2.37Z" fill="currentColor"/><path d="m6.1 17.9.72-2.15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`;
 
-  if (!/^(localhost|127\.0\.0\.1)$/.test(window.location.hostname) && !document.querySelector('script[data-sdk="analytics"]')) {
+  if (!IS_LOCAL && !document.querySelector('script[data-sdk="analytics"]')) {
     window.va = window.va || function () {
       (window.vaq = window.vaq || []).push(arguments);
     };
@@ -108,7 +152,7 @@
         <div><h3>Products</h3><a href="${ROOT}products/">All Products</a><a href="${ROOT}products/slime-charms-wholesale/">Slime Charms</a><a href="${ROOT}products/polymer-clay-slices-wholesale/">Polymer Clay Slices</a><a href="${ROOT}products/resin-charms-for-slime/">Resin Charms</a><a href="${ROOT}products/sequins-glitter-confetti/">Sequins &amp; Confetti</a></div>
         <div><h3>Capabilities</h3><a href="${ROOT}custom-solutions/">Custom Solutions</a><a href="${ROOT}manufacturing/">Manufacturing &amp; Supply</a><a href="${ROOT}quality-control/">Quality Control</a><a href="${ROOT}certificates/">Certificates &amp; Reports</a><a href="${ROOT}request-quote/?source=footer-capabilities&landing_page=${landing}">Request Quote</a></div>
         <div><h3>Buyer Resources</h3><a href="${ROOT}themes/">Original Theme Library</a><a href="${ROOT}blog/">Buying Guides</a><a href="${ROOT}blog/how-to-prepare-a-wholesale-product-brief/">Product Brief Guide</a><a href="${ROOT}blog/sample-approval-checklist/">Sample Approval Guide</a><a href="${ROOT}blog/packaging-quality-checkpoints/">Packaging &amp; QC Guide</a></div>
-        <div><h3>Company</h3><a href="${ROOT}about/">About HAIBUCRAFT</a><a href="${ROOT}about/#transparency">Transparency</a><a href="${ROOT}about/editorial-policy/">Editorial Policy</a><a href="${ROOT}privacy/">Privacy Policy</a><a href="${ROOT}certificates/">Document Center</a><a href="${ROOT}request-quote/?source=footer-company&landing_page=${landing}">Contact Sales</a></div>
+        <div><h3>Company</h3><a href="${ROOT}about/">About HAIBUCRAFT</a><a href="${ROOT}about/#transparency">Transparency</a><a href="${ROOT}about/editorial-policy/">Editorial Policy</a><a href="${ROOT}privacy/">Privacy Policy</a><button class="footer-cookie-settings" type="button" data-cookie-settings>Cookie choices</button><a href="${ROOT}certificates/">Document Center</a><a href="${ROOT}request-quote/?source=footer-company&landing_page=${landing}">Contact Sales</a></div>
       </div>
       <div class="footer-bottom"><span>© 2026 HAIBUCRAFT. Wholesale craft supply and B2B sourcing support.</span><span>Verified claims only · No retail checkout · No blanket certification claims</span></div>
     </div></footer><a class="whatsapp-float" href="${whatsappHref}" target="_blank" rel="noopener noreferrer" aria-label="Chat with HAIBUCRAFT on WhatsApp" title="Chat with HAIBUCRAFT on WhatsApp">${whatsappIcon}<span>WhatsApp</span></a><button class="back-top" type="button" aria-label="Back to top">↑</button>`;
@@ -117,6 +161,46 @@
   const footerSlot = document.querySelector('[data-site-footer]');
   if (headerSlot) headerSlot.innerHTML = header;
   if (footerSlot) footerSlot.innerHTML = footer;
+
+  const consentBanner = document.createElement('section');
+  consentBanner.className = 'analytics-consent';
+  consentBanner.hidden = true;
+  consentBanner.setAttribute('role', 'dialog');
+  consentBanner.setAttribute('aria-labelledby', 'analytics-consent-title');
+  consentBanner.setAttribute('aria-describedby', 'analytics-consent-description');
+  consentBanner.innerHTML = `
+    <div class="analytics-consent-copy">
+      <strong id="analytics-consent-title">Help us improve HAIBUCRAFT</strong>
+      <p id="analytics-consent-description">With your permission, Google Analytics helps us understand page visits and buyer journeys. We do not send inquiry form details to Analytics. <a href="${ROOT}privacy/">Privacy policy</a></p>
+    </div>
+    <div class="analytics-consent-actions">
+      <button class="btn btn-light" type="button" data-analytics-decline>Continue without analytics</button>
+      <button class="btn btn-primary" type="button" data-analytics-accept>Accept analytics</button>
+    </div>`;
+  document.body.appendChild(consentBanner);
+
+  const showConsentBanner = () => {
+    consentBanner.hidden = false;
+  };
+  const hideConsentBanner = () => {
+    consentBanner.hidden = true;
+  };
+
+  consentBanner.querySelector('[data-analytics-accept]').addEventListener('click', () => {
+    saveAnalyticsConsent('granted');
+    loadGoogleAnalytics();
+    hideConsentBanner();
+  });
+  consentBanner.querySelector('[data-analytics-decline]').addEventListener('click', () => {
+    const previouslyGranted = readAnalyticsConsent() === 'granted';
+    saveAnalyticsConsent('denied');
+    hideConsentBanner();
+    if (previouslyGranted) window.location.reload();
+  });
+  document.querySelectorAll('[data-cookie-settings]').forEach((button) => {
+    button.addEventListener('click', showConsentBanner);
+  });
+  if (readAnalyticsConsent() === null) showConsentBanner();
 
   document.addEventListener('click', (event) => {
     const link = event.target.closest('a[href]');

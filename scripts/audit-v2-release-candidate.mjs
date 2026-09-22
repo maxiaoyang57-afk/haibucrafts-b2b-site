@@ -309,14 +309,14 @@ else {
   const config = await readFile(quoteConfigPath, 'utf8');
   if (!config.includes("mode: 'live'")) errors.push('approved release candidate quote mode must be live');
   if (!config.includes("endpoint: '/api/inquiry'")) errors.push('quote endpoint contract is missing');
-  if (!config.includes('enableReferenceUploads: false')) errors.push('reference uploads must remain disabled for the initial production release');
+  if (!config.includes('enableReferenceUploads: true')) errors.push('reference uploads must be enabled for the production release');
 }
 
 const quoteRuntimePath = path.join(releaseRoot, 'assets', 'v2', 'quote-preview.js');
 if (!await exists(quoteRuntimePath)) errors.push('missing quote submission runtime');
 else {
   const quoteRuntime = await readFile(quoteRuntimePath, 'utf8');
-  for (const marker of ["'Content-Type': 'application/json'", 'JSON.stringify({', 'fields,', 'attachments,']) {
+  for (const marker of ["'Content-Type': 'application/json'", 'JSON.stringify({', 'fields,', 'attachments,', 'optimizeReferenceImage', 'prepareReferenceImages']) {
     if (!quoteRuntime.includes(marker)) errors.push(`quote submission runtime missing API contract marker: ${marker}`);
   }
 }

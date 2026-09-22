@@ -108,6 +108,15 @@
   }
 
   const upload = form.querySelector('input[type="file"][name="reference_images"]');
+  const uploadStatus = document.getElementById('referenceImageStatus');
+  const uploadPreviews = document.getElementById('referenceImagePreviews');
+  const maxReferenceImages = Number(config.maxReferenceImages || 4);
+  const allowedImageTypes = new Set(['image/jpeg', 'image/png', 'image/webp']);
+  const targetImageBytes = 650000;
+  const maxTotalImageBytes = 2800000;
+  let preparedReferenceImages = [];
+  let preparedFilesSignature = '';
+  let previewUrls = [];
   const honeypot = form.elements.namedItem('_company_fax');
   if (honeypot instanceof HTMLInputElement) {
     honeypot.value = '';
@@ -117,7 +126,152 @@
   const submitButton = form.querySelector('button[type="submit"]');
   if (submitButton) submitButton.textContent = liveMode ? 'Send Quote Request' : 'Validate Quote Request';
   const idleSubmitText = submitButton?.textContent || 'Send Quote Request';
-  if (upload && liveMode && config.enableReferenceUploads === true) upload.disabled = false;
+  if (upload) upload.disabled = config.enableReferenceUploads !== true;
+
+  const filesSignature = (files) => files
+    .map((file) => [file.name, file.type, file.size, file.lastModified].join(':'))
+    .join('|');
+
+  const setUploadStatus = (message, state = '') => {
+    if (!uploadStatus) return;
+    uploadStatus.textContent = message;
+    if (state) uploadStatus.dataset.state = state;
+    else delete uploadStatus.dataset.state;
+  };
+
+  const clearImagePreviews = () => {
+    previewUrls.forEach((url) => URL.revokeObjectURL(url));
+    previewUrls = [];
+    if (!uploadPreviews) return;
+    uploadPreviews.replaceChildren();
+    uploadPreviews.hidden = true;
+  };
+
+  const formatFileSize = (bytes) => bytes < 1000000
+    ? `${Math.max(1, Math.round(bytes / 1000))} KB`
+    : `${(bytes / 1000000).toFixed(1)} MB`;
+
+  const renderImagePreviews = (images) => {
+    clearImagePreviews();
+    if (!uploadPreviews || !images.length) return;
+    images.forEach((image, index) => {
+      const figure = document.createElement('figure');
+      const preview = document.createElement('img');
+      const caption = document.createElement('figcaption');
+      const url = URL.createObjectURL(image.blob);
+      previewUrls.push(url);
+      preview.src = url;
+      preview.alt = `Reference image ${index + 1}: ${image.filename}`;
+      caption.textContent = `${image.filename} · ${formatFileSize(image.blob.size)}`;
+      figure.append(preview, caption);
+      uploadPreviews.appendChild(figure);
+    });
+    uploadPreviews.hidden = false;
+  };
+
+  const canvasToBlob = (canvas, type, quality) => new Promise((resolve, reject) => {
+    canvas.toBlob((blob) => {
+      if (blob) resolve(blob);
+      else reject(new Error('One reference image could not be optimized.'));
+    }, type, quality);
+  });
+
+  const loadImageSource = async (file) => {
+    if (typeof createImageBitmap === 'function') return createImageBitmap(file);
+    const objectUrl = URL.createObjectURL(file);
+    try {
+      const image = new Image();
+      image.decoding = 'async';
+      image.src = objectUrl;
+      await image.decode();
+      return image;
+    } finally {
+      URL.revokeObjectURL(objectUrl);
+    }
+  };
+
+  const optimizeReferenceImage = async (file) => {
+    if (!allowedImageTypes.has(file.type)) {
+      throw new Error('Reference images must be JPG, PNG or WebP files.');
+    }
+    if (file.size <= targetImageBytes) {
+      return { blob: file, filename: file.name, contentType: file.type };
+    }
+
+    const image = await loadImageSource(file);
+    const sourceWidth = image.width || image.naturalWidth;
+    const sourceHeight = image.height || image.naturalHeight;
+    if (!sourceWidth || !sourceHeight) throw new Error(`Could not read ${file.name}.`);
+
+    const canvas = document.createElement('canvas');
+    const context = canvas.getContext('2d');
+    if (!context) throw new Error('Image optimization is unavailable in this browser.');
+
+    const attempts = [
+      { maxDimension: 1600, quality: 0.82 },
+      { maxDimension: 1400, quality: 0.76 },
+      { maxDimension: 1200, quality: 0.70 },
+      { maxDimension: 1000, quality: 0.64 }
+    ];
+    let optimized;
+    for (const attempt of attempts) {
+      const scale = Math.min(1, attempt.maxDimension / Math.max(sourceWidth, sourceHeight));
+      canvas.width = Math.max(1, Math.round(sourceWidth * scale));
+      canvas.height = Math.max(1, Math.round(sourceHeight * scale));
+      context.clearRect(0, 0, canvas.width, canvas.height);
+      context.drawImage(image, 0, 0, canvas.width, canvas.height);
+      optimized = await canvasToBlob(canvas, 'image/webp', attempt.quality);
+      if (optimized.size <= targetImageBytes) break;
+    }
+    if (typeof image.close === 'function') image.close();
+    if (!optimized || optimized.size > 800000) {
+      throw new Error(`${file.name} is still too large after optimization. Please choose a smaller image.`);
+    }
+    const baseName = file.name.replace(/\.[^.]+$/, '') || 'reference-image';
+    return { blob: optimized, filename: `${baseName}.webp`, contentType: 'image/webp' };
+  };
+
+  const prepareReferenceImages = async () => {
+    const files = upload ? [...upload.files] : [];
+    const signature = filesSignature(files);
+    if (signature === preparedFilesSignature) return preparedReferenceImages;
+    if (files.length > maxReferenceImages) {
+      throw new Error(`Please attach no more than ${maxReferenceImages} reference images.`);
+    }
+    if (!files.length) {
+      preparedReferenceImages = [];
+      preparedFilesSignature = '';
+      clearImagePreviews();
+      setUploadStatus('');
+      return preparedReferenceImages;
+    }
+
+    setUploadStatus('Optimizing selected images…', 'working');
+    const prepared = [];
+    for (const file of files) prepared.push(await optimizeReferenceImage(file));
+    const totalBytes = prepared.reduce((sum, image) => sum + image.blob.size, 0);
+    if (totalBytes > maxTotalImageBytes) {
+      throw new Error('Reference images are still too large together. Please remove one image.');
+    }
+    preparedReferenceImages = prepared;
+    preparedFilesSignature = signature;
+    renderImagePreviews(prepared);
+    setUploadStatus(`${prepared.length} image${prepared.length === 1 ? '' : 's'} ready · ${formatFileSize(totalBytes)} after optimization.`, 'ready');
+    return preparedReferenceImages;
+  };
+
+  if (upload) {
+    upload.addEventListener('change', async () => {
+      preparedFilesSignature = '';
+      preparedReferenceImages = [];
+      try {
+        await prepareReferenceImages();
+      } catch (error) {
+        clearImagePreviews();
+        setUploadStatus(error instanceof Error ? error.message : 'Reference images could not be prepared.', 'error');
+      }
+    });
+  }
 
   const arrayBufferToBase64 = (buffer) => {
     const bytes = new Uint8Array(buffer);
@@ -129,10 +283,10 @@
     return btoa(binary);
   };
 
-  const fileToAttachment = async (file) => ({
-    filename: file.name,
-    contentType: file.type,
-    content: arrayBufferToBase64(await file.arrayBuffer())
+  const fileToAttachment = async (image) => ({
+    filename: image.filename,
+    contentType: image.contentType,
+    content: arrayBufferToBase64(await image.blob.arrayBuffer())
   });
 
   form.addEventListener('submit', async (event) => {
@@ -142,21 +296,6 @@
 
     if (!liveMode) {
       if (status) status.textContent = 'Validation passed — inquiry sending remains disabled in this release candidate.';
-      return;
-    }
-
-    const selectedFiles = upload ? [...upload.files] : [];
-    const maxFiles = Number(config.maxReferenceImages || 4);
-    if (selectedFiles.length > maxFiles) {
-      if (status) status.textContent = `Please attach no more than ${maxFiles} reference images.`;
-      return;
-    }
-    if (selectedFiles.some((file) => file.size > 800000)) {
-      if (status) status.textContent = 'Each reference image must be 800 KB or smaller.';
-      return;
-    }
-    if (selectedFiles.reduce((sum, file) => sum + file.size, 0) > 2800000) {
-      if (status) status.textContent = 'Reference images must total 2.8 MB or less.';
       return;
     }
 
@@ -175,7 +314,8 @@
         fields[key] = entryValue;
       }
       Object.assign(fields, inquiryAttribution);
-      const attachments = await Promise.all(selectedFiles.map(fileToAttachment));
+      const optimizedImages = await prepareReferenceImages();
+      const attachments = await Promise.all(optimizedImages.map(fileToAttachment));
       const response = await fetch(config.endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
@@ -198,6 +338,10 @@
         });
       }
       form.reset();
+      preparedReferenceImages = [];
+      preparedFilesSignature = '';
+      clearImagePreviews();
+      setUploadStatus('');
       if (status) {
         const reference = typeof payload.requestId === 'string' ? payload.requestId.slice(0, 8) : '';
         status.textContent = `Inquiry sent successfully. Our sales team will review the submitted requirements.${reference ? ` Reference: ${reference}.` : ''}`;

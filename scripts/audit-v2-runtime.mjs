@@ -53,7 +53,7 @@ for (const marker of [
 }
 
 if (!quoteConfig.includes("mode: 'validation-only'")) errors.push('quote runtime must remain validation-only');
-if (!quoteConfig.includes('enableReferenceUploads: false')) errors.push('reference uploads must remain disabled');
+if (!quoteConfig.includes('enableReferenceUploads: true')) errors.push('reference-image preparation must be enabled');
 if (!inquiryApi.includes("article: 'Source Article'")) errors.push('inquiry API is not preserving article attribution');
 if (!inquiryApi.includes("product_image: 'Product Image'")) errors.push('inquiry API is not preserving product image attribution');
 

@@ -87,8 +87,8 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
     .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="description" content="${route.description}">`)
     .replaceAll('Preview branch only. Not published to production.', 'Wholesale craft supply and B2B sourcing support.')
     .replaceAll(
-      'Current status:</strong> required-field validation and source tracking are active. Email sending and reference-image uploads remain disabled until production approval.',
-      'Inquiry status:</strong> secure email delivery and source tracking are active. Reference-image uploads remain disabled; include product links or requirements in Project Details.'
+      'Current status:</strong> required-field validation, source tracking and reference-image preparation are active. Email sending remains disabled until production approval.',
+      'Inquiry status:</strong> secure email delivery, source tracking and reference-image uploads are active. Large images are optimized in your browser before sending.'
     )
     .replaceAll('>Validate Quote Request</button>', '>Send Quote Request</button>')
     .replaceAll('Site V2 Preview', 'HAIBUCRAFT')
@@ -136,7 +136,7 @@ for (const file of (await walk(assetsOut)).filter((item) => item.endsWith('.js')
 await writeFile(path.join(assetsOut, 'quote-runtime-config.js'), `window.HAIBU_QUOTE_CONFIG = Object.freeze({
   mode: 'live',
   endpoint: '/api/inquiry',
-  enableReferenceUploads: false,
+  enableReferenceUploads: true,
   maxReferenceImages: 4
 });
 `, 'utf8');

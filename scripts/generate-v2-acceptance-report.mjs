@@ -40,7 +40,7 @@ Generated: ${new Date().toISOString()}
 - Approved pages require index,follow; request-quote and 404 remain noindex,follow.
 - Sitemap excludes request-quote, 404 and preview URLs.
 - robots.txt blocks /request-quote/, /api/ and /v2-preview/.
-- Quote sending is live; reference uploads remain deliberately disabled for the initial production release.
+- Quote sending and reference-image uploads are live; supported images are optimized in the browser before delivery.
 - Artifact generation fails on unresolved technical validation errors.
 
 ## Resolved release decisions

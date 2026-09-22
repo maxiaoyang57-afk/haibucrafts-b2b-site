@@ -17,7 +17,7 @@ Apply the variables to Production, Preview and Development as needed, then redep
 - The homepage presents the product families, facility photographs, production workflow, document scope and quotation links.
 - Public contact and Organization metadata use `sales@haibucrafts.com`; server-side inquiry delivery uses the environment configuration above.
 - Inquiry forms POST to `/api/inquiry` and use Resend server-side.
-- Reference-image uploads are disabled in the current form. Buyers can provide product links and reference details in the message.
+- Reference-image uploads accept up to four JPG, PNG or WebP files. Large images are optimized in the browser before being attached to the inquiry email.
 - The optional backup recipient receives a separate direct copy; it is not exposed in the public form.
 - The apex domain should continue redirecting to `https://www.haibucrafts.com/` in Vercel Domains.
 

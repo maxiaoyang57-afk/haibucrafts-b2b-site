@@ -151,6 +151,8 @@ const articles = [
     category: 'Product Guide',
     title: 'Polymer Clay Slice Buying Guide for Wholesale Buyers',
     seoTitle: 'Polymer Clay Slice Buying Guide | HAIBUCRAFT',
+    dateModified: '2026-09-22',
+    lastReviewed: 'September 22, 2026',
     description: 'Specify polymer clay slice theme, dimensions, thickness, color range, mix ratio, pack unit and intended use before requesting a quote.',
     dek: 'A useful polymer-clay-slice inquiry describes both the visual theme and the measurable pack requirements.',
     sections: [

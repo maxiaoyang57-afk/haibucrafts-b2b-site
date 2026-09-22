@@ -14,6 +14,7 @@
     consentKey: 'haibu_ga4_consent_v1'
   });
   const IS_LOCAL = /^(localhost|127\.0\.0\.1)$/.test(window.location.hostname);
+  const IS_CANONICAL_ANALYTICS_HOST = /^(www\.)?haibucrafts\.com$/i.test(window.location.hostname);
   let googleAnalyticsReady = false;
 
   const readAnalyticsConsent = () => {
@@ -40,7 +41,7 @@
   });
 
   const loadGoogleAnalytics = () => {
-    if (IS_LOCAL || googleAnalyticsReady || document.querySelector('script[data-sdk="ga4"]')) return;
+    if (IS_LOCAL || !IS_CANONICAL_ANALYTICS_HOST || googleAnalyticsReady || document.querySelector('script[data-sdk="ga4"]')) return;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () {
       window.dataLayer.push(arguments);

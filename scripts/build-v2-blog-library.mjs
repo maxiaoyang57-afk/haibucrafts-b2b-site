@@ -163,7 +163,13 @@ const articles = [
     ],
     checklist: ['Theme and use', 'Dimensions', 'Thickness', 'Color range', 'Mix ratio', 'Pack unit'],
     note: 'Exact material, dimensions, MOQ, lead time and testing scope must be confirmed against the selected product code and approved sample.',
-    links: [['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Solutions', '/v2-preview/custom-solutions/'], ['Product Brief Guide', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/']]
+    links: [['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Solutions', '/v2-preview/custom-solutions/'], ['Product Brief Guide', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/']],
+    relatedCollection: {
+      heading: 'Compare polymer clay sprinkle mixes by real SKU.',
+      body: 'If your brief is specifically for sprinkle-style clay mixes rather than general slices, use the focused collection to compare candy, fruit and seasonal product codes before requesting a quote.',
+      label: 'Browse Polymer Clay Sprinkles Wholesale',
+      href: '/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/'
+    }
   },
   {
     slug: 'resin-charms-wholesale-buying-guide',
@@ -330,7 +336,7 @@ for (const article of articles) {
         </div>
       </div>
     </section>
-  </main>
+${article.relatedCollection ? `  <section class="section alt"><div class="container"><div class="section-head"><span class="eyebrow">Related wholesale collection</span><h2>${escapeHtml(article.relatedCollection.heading)}</h2><p>${escapeHtml(article.relatedCollection.body)}</p></div><div class="actions"><a class="btn btn-primary" href="${article.relatedCollection.href}">${escapeHtml(article.relatedCollection.label)}</a></div></div></section></main>` : '  </main>'}
   <div data-site-footer></div>
   <script src="/v2-preview/assets/components.js"></script>
   <script src="/v2-preview/assets/site-v2.js"></script>

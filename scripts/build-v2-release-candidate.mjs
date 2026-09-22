@@ -128,6 +128,7 @@ await writeFile(path.join(outRoot, '404.html'), applyProductionMetadata(notFound
 
 const assetsOut = path.join(outRoot, 'assets', 'v2');
 await cp(path.join(sourceRoot, 'assets'), assetsOut, { recursive: true });
+await cp(path.join(root, 'assets', 'video'), path.join(outRoot, 'assets', 'video'), { recursive: true });
 await cp(path.join(root, 'brand'), path.join(outRoot, 'brand'), { recursive: true });
 for (const file of (await walk(assetsOut)).filter((item) => item.endsWith('.js'))) {
   const source = await readFile(file, 'utf8');

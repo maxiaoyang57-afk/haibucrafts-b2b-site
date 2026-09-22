@@ -13,7 +13,7 @@
     measurementId: 'G-HJ0EL0PQWR',
     consentKey: 'haibu_ga4_consent_v1'
   });
-  const IS_LOCAL = /^(localhost|127\\.0\\.0\\.1)$/.test(window.location.hostname);
+  const IS_LOCAL = /^(localhost|127\.0\.0\.1)$/.test(window.location.hostname);
   let googleAnalyticsReady = false;
 
   const readAnalyticsConsent = () => {

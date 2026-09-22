@@ -38,10 +38,11 @@ test('all buyer guides show matching author and scope-review information', async
     assert.equal(posting?.reviewedBy?.name, 'HAIBUCRAFT Product & Quality Coordination');
     const isIssue50Seasonal = directory.name.includes('halloween-slime-charms-wholesale-buying-guide') || directory.name.includes('christmas-slime-charms-wholesale-buying-guide');
     const isResinGuide = directory.name === 'resin-charms-wholesale-buying-guide';
-    assert.equal(posting?.dateModified, isResinGuide ? '2026-09-13' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
+    const isPolymerGuide = directory.name === 'polymer-clay-slice-buying-guide';
+    assert.equal(posting?.dateModified, isPolymerGuide ? '2026-09-22' : isResinGuide ? '2026-09-13' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
     assert.match(html, /By <a href="\/v2-preview\/about\/editorial-policy\/">HAIBUCRAFT Buyer Resources<\/a>/);
     assert.match(html, /Scope reviewed by/);
-    assert.match(html, isResinGuide ? /Last reviewed September 13, 2026/ : isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
+    assert.match(html, isPolymerGuide ? /Last reviewed September 22, 2026/ : isResinGuide ? /Last reviewed September 13, 2026/ : isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
   }
 });
 

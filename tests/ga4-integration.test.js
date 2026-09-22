@@ -19,6 +19,9 @@ for (const relative of [
     assert.match(source, /ad_user_data: 'denied'/);
     assert.match(source, /ad_personalization: 'denied'/);
     assert.match(source, /analytics_storage: analyticsStorage/);
+    assert.match(source, /IS_CANONICAL_ANALYTICS_HOST/);
+    assert.match(source, /haibucrafts\\.com/);
+    assert.match(source, /!IS_CANONICAL_ANALYTICS_HOST/);
     assert.match(source, /loadGoogleAnalytics\(\);/);
     assert.match(source, /data-sdk="ga4"/);
     assert.match(source, /data-analytics-accept/);

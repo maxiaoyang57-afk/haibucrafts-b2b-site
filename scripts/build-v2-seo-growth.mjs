@@ -50,7 +50,7 @@ function replaceMeta(html, selector, value) {
 }
 
 function setPageMetadata(html, { title, description }) {
-  let next = replaceFirstRequired(html, /<title>[^<]*<\/title>/i, `<title>${escapeHtml(title)}</title>`, 'title');
+  let next = replaceFirstRequired(html, /<title>[^<]*<\/title>/i, `<title>${escapeHtml(title).replaceAll('&amp;', '&')}</title>`, 'title');
   next = replaceMeta(next, 'description', description);
   next = replaceMeta(next, 'og:title', title);
   next = replaceMeta(next, 'og:description', description);
@@ -129,6 +129,7 @@ const categoryPlans = {
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
     lastModified: '2026-09-22',
     resources: [
+      ['/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/', 'Polymer Clay Sprinkles Wholesale'],
       ['/v2-preview/blog/polymer-clay-slice-buying-guide/', 'Polymer Clay Slice Buying Guide'],
       ['/v2-preview/custom-solutions/', 'Custom Mixes & Private Label'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints']
@@ -144,6 +145,7 @@ const categoryPlans = {
     listName: 'Bulk Slime Charms Wholesale Catalog',
     lastModified: '2026-09-22',
     resources: [
+      ['/v2-preview/products/slime-charms/candy-charms-for-slime/', 'Candy Charms for Slime'],
       ['/v2-preview/products/slime-charms/halloween-slime-charms/', 'Halloween Slime Charms'],
       ['/v2-preview/products/slime-charms/christmas-slime-charms/', 'Christmas Slime Charms'],
       ['/v2-preview/products/polymer-clay-slices/', 'Polymer Clay Slices & Sprinkles'],
@@ -238,6 +240,7 @@ const polymerProfiles = {
   },
   YX043: {
     title: 'Candy Polymer Clay Slices Wholesale – YX043 | HAIBUCRAFT',
+    lastModified: '2026-09-22',
     description: 'Source YX043 colorful candy polymer clay slices wholesale for slime, nail art, shakers and DIY kits. Ask about bulk packing, mixed SKUs and custom packaging.',
     h1: 'YX043 Colorful Candy Polymer Clay Slices',
     intro: 'Wholesale candy-style polymer clay slices for slime, nail art, shakers, resin crafts and DIY kits. Reference YX043 for mixed-SKU or custom packing review.',
@@ -313,7 +316,7 @@ for (const [sku, profile] of Object.entries(polymerProfiles)) {
     html = replaceFirstRequired(html, /<section class="section alt">/i, `${block}<section class="section alt">`, `${sku} unique product context`);
   }
   await writeFile(file, html, 'utf8');
-  updateSeoRoute(product.productionPath, { title: profile.title, description: profile.description });
+  updateSeoRoute(product.productionPath, { title: profile.title, description: profile.description, ...(profile.lastModified ? { lastModified: profile.lastModified } : {}) });
 }
 
 const collections = [

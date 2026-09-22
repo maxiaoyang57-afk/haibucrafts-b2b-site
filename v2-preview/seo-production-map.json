@@ -50,7 +50,17 @@
       "description": "Wholesale polymer clay slices and bulk sprinkles for slime, nail art, shaker fillers and DIY kits. Browse candy, fruit and seasonal mixes; request a quote.",
       "type": "website",
       "index": true,
-      "lastModified": "2026-09-14"
+      "lastModified": "2026-09-22"
+    },
+    {
+      "previewPath": "/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/polymer-clay-sprinkles-wholesale/",
+      "title": "Polymer Clay Sprinkles Wholesale | HAIBUCRAFT",
+      "description": "Browse real polymer clay sprinkle mixes for wholesale slime, shakers, nail art and DIY kits. Compare candy, fruit and seasonal SKUs; confirm MOQ, packing and timing by quote.",
+      "type": "website",
+      "index": true,
+      "generatedCollection": true,
+      "lastModified": "2026-09-22"
     },
     {
       "previewPath": "/v2-preview/products/resin-charms/",
@@ -1613,7 +1623,7 @@
       "description": "Specify polymer clay slice theme, dimensions, thickness, color range, mix ratio, pack unit and intended use before requesting a quote.",
       "type": "article",
       "index": true,
-      "lastModified": "2026-08-06",
+      "lastModified": "2026-09-22",
       "generatedBlog": true
     },
     {

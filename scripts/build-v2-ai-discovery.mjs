@@ -33,6 +33,10 @@ for (const [category, label, productionPath] of categories) {
   const products = catalog.products.filter((product) => product.category === category);
   lines.push(`- ${label}: ${origin}${productionPath} (${products.length} catalog SKUs)`);
   lines.push(`  - Use exact product codes from the catalog when asking about price, MOQ, packing or lead time.`);
+  if (category === 'slime-charms') {
+    lines.push(`- Candy and mini food charms for slime: ${origin}/products/slime-charms-wholesale/candy-charms-for-slime/ (9 catalog SKUs)`);
+    lines.push('  - Focused collection for candy, mini food, snack and fruit charm sourcing; confirm current MOQ, packing and timing by quotation.');
+  }
 }
 
 lines.push(

@@ -31,7 +31,17 @@
       "description": "Source bulk slime charms and themed charms for slime in mixed wholesale assortments for brands, importers, DIY kits and private-label programs.",
       "type": "website",
       "index": true,
-      "lastModified": "2026-09-14"
+      "lastModified": "2026-09-22"
+    },
+    {
+      "previewPath": "/v2-preview/products/slime-charms/candy-charms-for-slime/",
+      "productionPath": "/products/slime-charms-wholesale/candy-charms-for-slime/",
+      "title": "Candy Charms for Slime Wholesale | HAIBUCRAFT",
+      "description": "Browse real candy, mini food, snack and fruit charm SKUs for wholesale slime assortments, DIY kits and private-label programs. Confirm MOQ, packing and timing by quote.",
+      "type": "website",
+      "index": true,
+      "generatedCollection": true,
+      "lastModified": "2026-09-22"
     },
     {
       "previewPath": "/v2-preview/products/polymer-clay-slices/",
@@ -1690,7 +1700,7 @@
       "type": "website",
       "index": true,
       "generatedTheme": true,
-      "lastModified": "2026-08-23"
+      "lastModified": "2026-09-22"
     },
     {
       "previewPath": "/v2-preview/themes/nature-inspired/",
@@ -1730,7 +1740,7 @@
       "type": "website",
       "index": true,
       "generatedTheme": true,
-      "lastModified": "2026-08-23"
+      "lastModified": "2026-09-22"
     },
     {
       "previewPath": "/v2-preview/themes/bakery/",
@@ -1740,7 +1750,7 @@
       "type": "website",
       "index": true,
       "generatedTheme": true,
-      "lastModified": "2026-08-23"
+      "lastModified": "2026-09-22"
     },
     {
       "previewPath": "/v2-preview/themes/ocean/",

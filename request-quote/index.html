@@ -33,9 +33,7 @@
             <div class="quote-grid">
               <label>Full Name <span class="field-required">(required)</span><input name="name" autocomplete="name" required></label>
               <label>Business Email <span class="field-required">(required)</span><input name="email" type="email" autocomplete="email" spellcheck="false" required></label>
-              <label>Company Name <span class="field-optional">(optional)</span><input name="company" autocomplete="organization"></label>
               <label>Country / Region <span class="field-required">(required)</span><input name="country" autocomplete="country-name" required></label>
-              <label class="full">WhatsApp / Phone <span class="field-optional">(optional)</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel"></label>
             </div>
           </fieldset>
 
@@ -55,8 +53,10 @@
 
           <details class="quote-more full">
             <summary>More project requirements <span>optional</span></summary>
-            <p>Add timing, intended use, customization and packaging details when available.</p>
+            <p>Add company, contact, timing, customization and packaging details when available.</p>
             <div class="quote-grid">
+              <label>Company Name <span class="field-optional">(optional)</span><input name="company" autocomplete="organization"></label>
+              <label>WhatsApp / Phone <span class="field-optional">(optional)</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel"></label>
               <label>Company Website <span class="field-optional">(optional)</span><input name="website" type="url" inputmode="url" autocomplete="url" spellcheck="false" placeholder="Example: https://example.com"></label>
               <label>Target Arrival Date <span class="field-optional">(optional)</span><input name="target_delivery_date" id="targetDeliveryDateField" type="date"></label>
               <label>Intended Use <span class="field-optional">(optional)</span><input name="intended_use" placeholder="Example: slime, DIY kit, retail pack or nail art"></label>

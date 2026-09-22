@@ -115,7 +115,10 @@
   const targetImageBytes = 650000;
   const maxTotalImageBytes = 2800000;
   let preparedReferenceImages = [];
-  let preparedFilesSignature = '';
+  let selectedReferenceFiles = [];
+  let imageSelectionVersion = 0;
+  let preparationPromise = Promise.resolve([]);
+  let isSubmitting = false;
   let previewUrls = [];
   const honeypot = form.elements.namedItem('_company_fax');
   if (honeypot instanceof HTMLInputElement) {
@@ -128,9 +131,7 @@
   const idleSubmitText = submitButton?.textContent || 'Send Quote Request';
   if (upload) upload.disabled = config.enableReferenceUploads !== true;
 
-  const filesSignature = (files) => files
-    .map((file) => [file.name, file.type, file.size, file.lastModified].join(':'))
-    .join('|');
+  const fileSignature = (file) => [file.name, file.type, file.size, file.lastModified].join(':');
 
   const setUploadStatus = (message, state = '') => {
     if (!uploadStatus) return;
@@ -158,12 +159,26 @@
       const figure = document.createElement('figure');
       const preview = document.createElement('img');
       const caption = document.createElement('figcaption');
+      const remove = document.createElement('button');
       const url = URL.createObjectURL(image.blob);
       previewUrls.push(url);
       preview.src = url;
       preview.alt = `Reference image ${index + 1}: ${image.filename}`;
       caption.textContent = `${image.filename} · ${formatFileSize(image.blob.size)}`;
-      figure.append(preview, caption);
+      remove.type = 'button';
+      remove.className = 'upload-remove';
+      remove.textContent = 'Remove';
+      remove.setAttribute('aria-label', `Remove reference image ${index + 1}: ${image.filename}`);
+      remove.addEventListener('click', () => {
+        if (isSubmitting) return;
+        selectedReferenceFiles.splice(index, 1);
+        preparedReferenceImages.splice(index, 1);
+        preparationPromise = Promise.resolve(preparedReferenceImages);
+        renderImagePreviews(preparedReferenceImages);
+        showReadyStatus(preparedReferenceImages);
+        upload?.focus();
+      });
+      figure.append(preview, caption, remove);
       uploadPreviews.appendChild(figure);
     });
     uploadPreviews.hidden = false;
@@ -177,7 +192,9 @@
   });
 
   const loadImageSource = async (file) => {
-    if (typeof createImageBitmap === 'function') return createImageBitmap(file);
+    if (typeof createImageBitmap === 'function') {
+      try { return await createImageBitmap(file); } catch { /* Try the image decoder below. */ }
+    }
     const objectUrl = URL.createObjectURL(file);
     try {
       const image = new Image();
@@ -194,81 +211,109 @@
     if (!allowedImageTypes.has(file.type)) {
       throw new Error('Reference images must be JPG, PNG or WebP files.');
     }
-    if (file.size <= targetImageBytes) {
-      return { blob: file, filename: file.name, contentType: file.type };
-    }
-
     const image = await loadImageSource(file);
-    const sourceWidth = image.width || image.naturalWidth;
-    const sourceHeight = image.height || image.naturalHeight;
-    if (!sourceWidth || !sourceHeight) throw new Error(`Could not read ${file.name}.`);
+    try {
+      const sourceWidth = image.width || image.naturalWidth;
+      const sourceHeight = image.height || image.naturalHeight;
+      if (!sourceWidth || !sourceHeight) throw new Error(`Could not read ${file.name}.`);
+      if (file.size <= targetImageBytes) {
+        return { blob: file, filename: file.name, contentType: file.type };
+      }
 
-    const canvas = document.createElement('canvas');
-    const context = canvas.getContext('2d');
-    if (!context) throw new Error('Image optimization is unavailable in this browser.');
+      const canvas = document.createElement('canvas');
+      const context = canvas.getContext('2d');
+      if (!context) throw new Error('Image optimization is unavailable in this browser.');
 
-    const attempts = [
-      { maxDimension: 1600, quality: 0.82 },
-      { maxDimension: 1400, quality: 0.76 },
-      { maxDimension: 1200, quality: 0.70 },
-      { maxDimension: 1000, quality: 0.64 }
-    ];
-    let optimized;
-    for (const attempt of attempts) {
-      const scale = Math.min(1, attempt.maxDimension / Math.max(sourceWidth, sourceHeight));
-      canvas.width = Math.max(1, Math.round(sourceWidth * scale));
-      canvas.height = Math.max(1, Math.round(sourceHeight * scale));
-      context.clearRect(0, 0, canvas.width, canvas.height);
-      context.drawImage(image, 0, 0, canvas.width, canvas.height);
-      optimized = await canvasToBlob(canvas, 'image/webp', attempt.quality);
-      if (optimized.size <= targetImageBytes) break;
+      const attempts = [
+        { maxDimension: 1600, quality: 0.82 },
+        { maxDimension: 1400, quality: 0.76 },
+        { maxDimension: 1200, quality: 0.70 },
+        { maxDimension: 1000, quality: 0.64 }
+      ];
+      let optimized;
+      for (const attempt of attempts) {
+        const scale = Math.min(1, attempt.maxDimension / Math.max(sourceWidth, sourceHeight));
+        canvas.width = Math.max(1, Math.round(sourceWidth * scale));
+        canvas.height = Math.max(1, Math.round(sourceHeight * scale));
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.drawImage(image, 0, 0, canvas.width, canvas.height);
+        optimized = await canvasToBlob(canvas, 'image/webp', attempt.quality);
+        // Some mobile browsers return PNG when WebP encoding is unsupported.
+        if (optimized.type !== 'image/webp') {
+          context.fillStyle = '#fff';
+          context.fillRect(0, 0, canvas.width, canvas.height);
+          context.drawImage(image, 0, 0, canvas.width, canvas.height);
+          optimized = await canvasToBlob(canvas, 'image/jpeg', attempt.quality);
+        }
+        if (optimized.size <= targetImageBytes) break;
+      }
+      if (!optimized || optimized.size > 799997 || !allowedImageTypes.has(optimized.type)) {
+        throw new Error(`${file.name} is still too large after optimization. Please choose a smaller image.`);
+      }
+      const baseName = file.name.replace(/\.[^.]+$/, '') || 'reference-image';
+      const extension = { 'image/webp': 'webp', 'image/jpeg': 'jpg', 'image/png': 'png' }[optimized.type];
+      return { blob: optimized, filename: `${baseName}.${extension}`, contentType: optimized.type };
+    } finally {
+      if (typeof image.close === 'function') image.close();
     }
-    if (typeof image.close === 'function') image.close();
-    if (!optimized || optimized.size > 800000) {
-      throw new Error(`${file.name} is still too large after optimization. Please choose a smaller image.`);
-    }
-    const baseName = file.name.replace(/\.[^.]+$/, '') || 'reference-image';
-    return { blob: optimized, filename: `${baseName}.webp`, contentType: 'image/webp' };
   };
 
-  const prepareReferenceImages = async () => {
-    const files = upload ? [...upload.files] : [];
-    const signature = filesSignature(files);
-    if (signature === preparedFilesSignature) return preparedReferenceImages;
-    if (files.length > maxReferenceImages) {
-      throw new Error(`Please attach no more than ${maxReferenceImages} reference images.`);
-    }
+  const showReadyStatus = (images) => {
+    const totalBytes = images.reduce((sum, image) => sum + image.blob.size, 0);
+    setUploadStatus(images.length ? `${images.length} image${images.length === 1 ? '' : 's'} ready · ${formatFileSize(totalBytes)} after optimization.` : '', images.length ? 'ready' : '');
+  };
+
+  const prepareReferenceImages = async (files, version) => {
     if (!files.length) {
-      preparedReferenceImages = [];
-      preparedFilesSignature = '';
-      clearImagePreviews();
       setUploadStatus('');
-      return preparedReferenceImages;
+      return [];
     }
 
     setUploadStatus('Optimizing selected images…', 'working');
     const prepared = [];
-    for (const file of files) prepared.push(await optimizeReferenceImage(file));
+    for (const file of files) {
+      prepared.push(await optimizeReferenceImage(file));
+      if (version !== imageSelectionVersion) return [];
+    }
     const totalBytes = prepared.reduce((sum, image) => sum + image.blob.size, 0);
     if (totalBytes > maxTotalImageBytes) {
       throw new Error('Reference images are still too large together. Please remove one image.');
     }
     preparedReferenceImages = prepared;
-    preparedFilesSignature = signature;
     renderImagePreviews(prepared);
-    setUploadStatus(`${prepared.length} image${prepared.length === 1 ? '' : 's'} ready · ${formatFileSize(totalBytes)} after optimization.`, 'ready');
+    showReadyStatus(prepared);
     return preparedReferenceImages;
   };
 
   if (upload) {
     upload.addEventListener('change', async () => {
-      preparedFilesSignature = '';
+      if (isSubmitting || upload.disabled) return;
+      const additions = [...upload.files];
+      upload.value = '';
+      if (!additions.length) return;
+      const files = [...new Map([...selectedReferenceFiles, ...additions].map((file) => [fileSignature(file), file])).values()];
+      if (files.length > maxReferenceImages) {
+        setUploadStatus(`Please attach no more than ${maxReferenceImages} reference images. Your previous selection is unchanged.`, 'error');
+        return;
+      }
+      if (additions.some((file) => !allowedImageTypes.has(file.type))) {
+        setUploadStatus('Reference images must be JPG, PNG or WebP files. Your previous selection is unchanged.', 'error');
+        return;
+      }
+      selectedReferenceFiles = files;
+      const version = ++imageSelectionVersion;
       preparedReferenceImages = [];
+      clearImagePreviews();
+      preparationPromise = prepareReferenceImages(files, version);
       try {
-        await prepareReferenceImages();
+        await preparationPromise;
       } catch (error) {
+        if (version !== imageSelectionVersion) return;
+        selectedReferenceFiles = [];
+        preparationPromise = Promise.resolve([]);
         clearImagePreviews();
-        setUploadStatus(error instanceof Error ? error.message : 'Reference images could not be prepared.', 'error');
+        const message = error instanceof Error ? error.message : 'These images could not be prepared.';
+        setUploadStatus(`${message} No images are attached. Please choose your reference images again.`, 'error');
       }
     });
   }
@@ -289,8 +334,14 @@
     content: arrayBufferToBase64(await image.blob.arrayBuffer())
   });
 
+  form.addEventListener('invalid', (event) => {
+    const details = event.target.closest('details');
+    if (details) details.open = true;
+  }, true);
+
   form.addEventListener('submit', async (event) => {
     event.preventDefault();
+    if (isSubmitting) return;
     const status = document.getElementById('formStatus');
     if (!form.reportValidity()) return;
 
@@ -299,6 +350,8 @@
       return;
     }
 
+    isSubmitting = true;
+    if (upload) upload.disabled = true;
     if (submitButton) {
       submitButton.disabled = true;
       submitButton.textContent = 'Sending…';
@@ -314,7 +367,7 @@
         fields[key] = entryValue;
       }
       Object.assign(fields, inquiryAttribution);
-      const optimizedImages = await prepareReferenceImages();
+      const optimizedImages = await preparationPromise;
       const attachments = await Promise.all(optimizedImages.map(fileToAttachment));
       const response = await fetch(config.endpoint, {
         method: 'POST',
@@ -327,19 +380,23 @@
       });
       const payload = await response.json().catch(() => ({}));
       if (!response.ok || payload.ok !== true) throw new Error(payload.message || 'Inquiry could not be sent.');
-      if (typeof window.HAIBU_TRACK === 'function') {
-        window.HAIBU_TRACK('inquiry_submitted', {
-          source: String(fields.attribution_source || inquiryAttribution.attribution_source).slice(0, 80),
-          channel: String(fields.attribution_channel || inquiryAttribution.attribution_channel).slice(0, 80),
-          context: String(fields.lead_context || contextSource).slice(0, 80),
-          category: String(fields.category || category || 'unspecified').slice(0, 80),
-          landing_page: String(fields.first_landing_page || landingPage).slice(0, 180),
-          has_product_code: Boolean(fields.sku || productCode)
-        });
-      }
+      try {
+        if (typeof window.HAIBU_TRACK === 'function') {
+          window.HAIBU_TRACK('inquiry_submitted', {
+            source: String(fields.attribution_source || inquiryAttribution.attribution_source).slice(0, 80),
+            channel: String(fields.attribution_channel || inquiryAttribution.attribution_channel).slice(0, 80),
+            context: String(fields.lead_context || contextSource).slice(0, 80),
+            category: String(fields.category || category || 'unspecified').slice(0, 80),
+            landing_page: String(fields.first_landing_page || landingPage).slice(0, 180),
+            has_product_code: Boolean(fields.sku || productCode)
+          });
+        }
+      } catch { /* Analytics must not turn an accepted inquiry into a failure. */ }
       form.reset();
+      imageSelectionVersion += 1;
+      selectedReferenceFiles = [];
       preparedReferenceImages = [];
-      preparedFilesSignature = '';
+      preparationPromise = Promise.resolve([]);
       clearImagePreviews();
       setUploadStatus('');
       if (status) {
@@ -349,6 +406,8 @@
     } catch (error) {
       if (status) status.textContent = error instanceof Error ? error.message : 'Inquiry could not be sent.';
     } finally {
+      isSubmitting = false;
+      if (upload) upload.disabled = config.enableReferenceUploads !== true;
       form.removeAttribute('aria-busy');
       if (submitButton) {
         submitButton.disabled = false;

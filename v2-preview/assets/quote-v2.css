@@ -30,6 +30,9 @@
 .upload-previews figure{margin:0;padding:8px;border:1px solid var(--line);border-radius:14px;background:#fafafa;min-width:0}
 .upload-previews img{display:block;width:100%;aspect-ratio:1/1;border-radius:9px;object-fit:cover;background:#f1f1f4}
 .upload-previews figcaption{margin-top:7px;color:var(--muted);font-size:11px;line-height:1.35;overflow-wrap:anywhere}
+.upload-remove{min-height:44px;width:100%;margin-top:8px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--brand-dark);font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.upload-remove:focus-visible{outline:2px solid var(--brand-dark);outline-offset:2px}
+.quote-form[aria-busy="true"] .upload-remove{opacity:.5;pointer-events:none}
 .quote-submit{text-align:left}
 .quote-privacy{max-width:680px;margin:10px 0 0;color:var(--muted);font-size:12px;line-height:1.5}
 .quote-form .honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
@@ -40,7 +43,8 @@
 @media(max-width:620px){
   .quote-section{padding:18px 16px;border-radius:16px}
   .quote-section legend{font-size:17px}
-  .quote-grid{grid-template-columns:1fr}
+  .quote-grid{grid-template-columns:minmax(0,1fr)}
+  .quote-form input,.quote-form select,.quote-form textarea{min-width:0;font-size:16px}
   .quote-grid>.full{grid-column:auto}
   .quote-more summary{padding:16px}
   .quote-more>p{padding:0 16px 12px}

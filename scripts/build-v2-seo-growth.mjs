@@ -50,7 +50,7 @@ function replaceMeta(html, selector, value) {
 }
 
 function setPageMetadata(html, { title, description }) {
-  let next = replaceFirstRequired(html, /<title>[^<]*<\/title>/i, `<title>${escapeHtml(title).replaceAll('&amp;', '&')}</title>`, 'title');
+  let next = replaceFirstRequired(html, /<title>[^<]*<\/title>/i, `<title>${escapeHtml(title)}</title>`, 'title');
   next = replaceMeta(next, 'description', description);
   next = replaceMeta(next, 'og:title', title);
   next = replaceMeta(next, 'og:description', description);

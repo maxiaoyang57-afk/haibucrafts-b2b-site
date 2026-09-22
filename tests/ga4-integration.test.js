@@ -10,13 +10,24 @@ for (const relative of [
   path.join('assets', 'v2', 'components.js'),
   path.join('v2-preview', 'assets', 'components.js')
 ]) {
-  test(`${relative} loads GA4 only after analytics consent`, async () => {
+  test(`${relative} initializes GA4 with Consent Mode v2`, async () => {
     const source = await readFile(path.join(root, relative), 'utf8');
     assert.match(source, new RegExp(measurementId));
-    assert.match(source, /readAnalyticsConsent\(\) === 'granted'/);
+    assert.match(source, /gtag\('consent', 'default'/);
+    assert.match(source, /gtag\('consent', 'update'/);
+    assert.match(source, /ad_storage: 'denied'/);
+    assert.match(source, /ad_user_data: 'denied'/);
+    assert.match(source, /ad_personalization: 'denied'/);
+    assert.match(source, /analytics_storage: analyticsStorage/);
+    assert.match(source, /IS_CANONICAL_ANALYTICS_HOST/);
+    assert.match(source, /haibucrafts\\.com/);
+    assert.match(source, /!IS_CANONICAL_ANALYTICS_HOST/);
+    assert.match(source, /loadGoogleAnalytics\(\);/);
     assert.match(source, /data-sdk="ga4"/);
     assert.match(source, /data-analytics-accept/);
     assert.match(source, /data-analytics-decline/);
+    assert.match(source, /Analytics cookies are used only if you accept/);
+    assert.match(source, /Decline analytics cookies/);
     assert.match(source, /allow_google_signals: false/);
     assert.match(source, /allow_ad_personalization_signals: false/);
     assert.match(source, /window\.gtag\('event', name, properties\)/);
@@ -33,13 +44,16 @@ test('the live inquiry success event is forwarded through the shared analytics a
   }
 });
 
-test('the privacy policy discloses GA4 and gives visitors a reversible choice', async () => {
+test('the privacy policy discloses Consent Mode v2 and gives visitors a reversible choice', async () => {
   for (const relative of [
     path.join('privacy', 'index.html'),
     path.join('v2-preview', 'privacy', 'index.html')
   ]) {
     const privacy = await readFile(path.join(root, relative), 'utf8');
-    assert.match(privacy, /Google Analytics is not loaded unless you select “Accept analytics.”/);
+    assert.match(privacy, /Consent Mode v2/);
+    assert.match(privacy, /analytics storage denied by default/);
+    assert.match(privacy, /limited cookieless consent and measurement pings/);
+    assert.match(privacy, /Advertising storage, ad user data and ad personalization remain denied/);
     assert.match(privacy, /We do not intentionally send names, email addresses, phone numbers/);
     assert.match(privacy, /Cookie choices/);
     assert.match(privacy, /policies\.google\.com\/technologies\/partner-sites/);

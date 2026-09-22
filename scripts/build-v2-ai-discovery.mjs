@@ -37,6 +37,10 @@ for (const [category, label, productionPath] of categories) {
     lines.push(`- Candy and mini food charms for slime: ${origin}/products/slime-charms-wholesale/candy-charms-for-slime/ (9 catalog SKUs)`);
     lines.push('  - Focused collection for candy, mini food, snack and fruit charm sourcing; confirm current MOQ, packing and timing by quotation.');
   }
+  if (category === 'polymer-clay-slices') {
+    lines.push(`- Polymer clay sprinkles wholesale: ${origin}/products/polymer-clay-slices-wholesale/polymer-clay-sprinkles-wholesale/ (10 catalog SKUs)`);
+    lines.push('  - Focused collection for candy, fruit, seasonal and mixed polymer clay sprinkle sourcing; confirm MOQ, packing and timing by quotation.');
+  }
 }
 
 lines.push(

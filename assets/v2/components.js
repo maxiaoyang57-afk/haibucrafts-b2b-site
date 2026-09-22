@@ -13,7 +13,7 @@
     measurementId: 'G-HJ0EL0PQWR',
     consentKey: 'haibu_ga4_consent_v1'
   });
-  const IS_LOCAL = /^(localhost|127\.0\.0\.1)$/.test(window.location.hostname);
+  const IS_LOCAL = /^(localhost|127\\.0\\.0\\.1)$/.test(window.location.hostname);
   let googleAnalyticsReady = false;
 
   const readAnalyticsConsent = () => {
@@ -32,17 +32,31 @@
     }
   };
 
+  const analyticsConsentState = (analyticsStorage = 'denied') => ({
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: analyticsStorage
+  });
+
   const loadGoogleAnalytics = () => {
     if (IS_LOCAL || googleAnalyticsReady || document.querySelector('script[data-sdk="ga4"]')) return;
     window.dataLayer = window.dataLayer || [];
     window.gtag = window.gtag || function () {
       window.dataLayer.push(arguments);
     };
+
+    window.gtag('consent', 'default', analyticsConsentState('denied'));
+    if (readAnalyticsConsent() === 'granted') {
+      window.gtag('consent', 'update', analyticsConsentState('granted'));
+    }
+
     window.gtag('js', new Date());
     window.gtag('config', ANALYTICS_CONFIG.measurementId, {
       allow_google_signals: false,
       allow_ad_personalization_signals: false
     });
+
     const googleAnalytics = document.createElement('script');
     googleAnalytics.async = true;
     googleAnalytics.src = `https://www.googletagmanager.com/gtag/js?id=${ANALYTICS_CONFIG.measurementId}`;
@@ -51,7 +65,15 @@
     googleAnalyticsReady = true;
   };
 
-  if (readAnalyticsConsent() === 'granted') loadGoogleAnalytics();
+  const updateAnalyticsConsent = (value) => {
+    saveAnalyticsConsent(value);
+    if (!googleAnalyticsReady) loadGoogleAnalytics();
+    if (typeof window.gtag === 'function') {
+      window.gtag('consent', 'update', analyticsConsentState(value === 'granted' ? 'granted' : 'denied'));
+    }
+  };
+
+  loadGoogleAnalytics();
   window.HAIBU_CONTACT_CONFIG = CONTACT_CONFIG;
   window.HAIBU_TRACK = (name, properties = {}) => {
     if (typeof window.va === 'function') window.va('event', { name, data: properties });
@@ -171,10 +193,10 @@
   consentBanner.innerHTML = `
     <div class="analytics-consent-copy">
       <strong id="analytics-consent-title">Help us improve HAIBUCRAFT</strong>
-      <p id="analytics-consent-description">With your permission, Google Analytics helps us understand page visits and buyer journeys. We do not send inquiry form details to Analytics. <a href="${ROOT}privacy/">Privacy policy</a></p>
+      <p id="analytics-consent-description">Google Analytics uses Consent Mode v2. Until you accept analytics, Analytics storage stays denied and Google may receive limited cookieless measurement signals. We do not send inquiry form details to Analytics. <a href="${ROOT}privacy/">Privacy policy</a></p>
     </div>
     <div class="analytics-consent-actions">
-      <button class="btn btn-light" type="button" data-analytics-decline>Continue without analytics</button>
+      <button class="btn btn-light" type="button" data-analytics-decline>Decline analytics cookies</button>
       <button class="btn btn-primary" type="button" data-analytics-accept>Accept analytics</button>
     </div>`;
   document.body.appendChild(consentBanner);
@@ -187,15 +209,12 @@
   };
 
   consentBanner.querySelector('[data-analytics-accept]').addEventListener('click', () => {
-    saveAnalyticsConsent('granted');
-    loadGoogleAnalytics();
+    updateAnalyticsConsent('granted');
     hideConsentBanner();
   });
   consentBanner.querySelector('[data-analytics-decline]').addEventListener('click', () => {
-    const previouslyGranted = readAnalyticsConsent() === 'granted';
-    saveAnalyticsConsent('denied');
+    updateAnalyticsConsent('denied');
     hideConsentBanner();
-    if (previouslyGranted) window.location.reload();
   });
   document.querySelectorAll('[data-cookie-settings]').forEach((button) => {
     button.addEventListener('click', showConsentBanner);

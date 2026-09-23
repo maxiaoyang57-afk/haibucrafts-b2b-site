@@ -1,7 +1,10 @@
 name: IndexNow Production Notifications
 
 on:
-  deployment_status:
+  workflow_run:
+    workflows: [Production HTTP Redirect Audit]
+    types: [completed]
+    branches: [main]
   workflow_dispatch:
     inputs:
       submit:
@@ -19,14 +22,14 @@ concurrency:
 jobs:
   notify:
     if: >-
-      (github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success' && github.event.deployment_status.environment == 'Production') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') ||
       (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.deployment.sha || github.sha }}
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
           fetch-depth: 1
       - name: Ignore superseded or non-main deployments
         id: current
@@ -52,7 +55,7 @@ jobs:
       - name: Verify live content and notify IndexNow
         if: steps.current.outputs.ready == 'true'
         env:
-          SEND: ${{ github.event_name == 'deployment_status' || inputs.submit }}
+          SEND: ${{ github.event_name == 'workflow_run' || inputs.submit }}
         shell: bash
         run: |
           if [ "$SEND" = "true" ]; then
@@ -61,7 +64,7 @@ jobs:
             npm run indexnow -- --verify
           fi
       - name: Save accepted checkpoint only after successful submission
-        if: success() && steps.current.outputs.ready == 'true' && (github.event_name == 'deployment_status' || inputs.submit)
+        if: success() && steps.current.outputs.ready == 'true' && (github.event_name == 'workflow_run' || inputs.submit)
         uses: actions/cache/save@v4
         with:
           path: .release-candidate/indexnow/state.json

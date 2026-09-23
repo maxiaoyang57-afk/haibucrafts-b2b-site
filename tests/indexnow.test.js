@@ -142,14 +142,37 @@ test('CLI verification sends no POST and saves no state; failures retain last ac
   assert.equal(readFileSync(f.state, 'utf8'), saved);
 });
 
-test('Workflow gates on successful Production deployment or explicit main dispatch and caches only success', () => {
+test('Workflow waits for successful main Production audit, uses a cache-compatible event and caches only success', () => {
   const workflow = readFileSync(new URL('../.github/workflows/indexnow-production.yml', import.meta.url), 'utf8');
-  assert.match(workflow, /deployment_status.state == 'success'/);
-  assert.match(workflow, /deployment_status.environment == 'Production'/);
+  assert.match(workflow, /workflows: \[Production HTTP Redirect Audit\]/);
+  assert.match(workflow, /workflow_run.conclusion == 'success'/);
+  assert.match(workflow, /workflow_run.head_branch == 'main'/);
+  assert.doesNotMatch(workflow, /deployment_status/);
   assert.match(workflow, /github.ref == 'refs\/heads\/main'/);
   assert.match(workflow, /cancel-in-progress: false/);
   assert.match(workflow, /Save accepted checkpoint[\s\S]*?if: success\(\)/);
   assert.doesNotMatch(workflow, /pull_request_target|schedule:|contents: write/);
+});
+
+test('Immutable accepted baseline restores a missing cache without resubmitting unchanged pages', () => {
+  const f = fixture();
+  assert.equal(f.run(['--submit']).status, 0);
+  const accepted = readFileSync(f.state, 'utf8');
+  const fresh = fixture();
+  fresh.put('docs/indexnow-initial-checkpoint.json', accepted);
+  assert.equal(fresh.run(['--submit']).status, 0);
+  assert.equal(fresh.report().count, 0);
+  assert.equal(fresh.report().submitted, false);
+  assert.equal(fresh.report().restoredFromInitialReceipt, true);
+  assert.doesNotMatch(readFileSync(path.join(fresh.directory, 'requests.jsonl'), 'utf8'), /POST/);
+});
+
+test('Committed initial baseline is tied to the verified first receipt and covers all initial URLs', () => {
+  const baseline = JSON.parse(readFileSync(new URL('../docs/indexnow-initial-checkpoint.json', import.meta.url), 'utf8'));
+  assert.equal(baseline.sourceReceipt.runId, 35863404611);
+  assert.equal(baseline.sourceReceipt.httpStatus, 202);
+  assert.equal(Object.keys(baseline.pages).length, 183);
+  assert.deepEqual(changedUrls(baseline.pages, baseline), []);
 });
 
 test('CLI notifies removed sitemap pages only after their live removal is confirmed', () => {

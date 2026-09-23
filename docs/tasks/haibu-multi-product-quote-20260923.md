@@ -25,9 +25,15 @@ Base: `096ed57dd1f80477f11ce7bff665cdefffa5ccb6` (latest production after PR #76
 - Local real inquiry handler with outbound email mocked generated exactly one primary plus one backup message on accepted retry, containing the same canonical list and quantities.
 - Direct SLM680 inquiry remains a single-product request even when the saved list is non-empty.
 - Browser page-error capture is empty.
+- PR #77 Preview runtime matches the checkout exactly. A controlled unknown-SKU request returned HTTP 400 with the expected list validation error before email delivery, proving the deployed function can load the server catalog module.
+- GitHub SEO Release Gate and Vercel deployment both passed for implementation commit `c54843a8217fa8f2006c630ca9d08c8b6162b518`.
 
 ## Release boundary
 
 This new feature is delivered as a separate Preview PR for review, not automatically merged into production. Production currently contains PR #75 inquiry uploads and PR #76 GA4 CSP repair.
+
+PR: https://github.com/maxiaoyang57-afk/haibucrafts-b2b-site/pull/77
+
+Preview: https://haibucrafts-b2b-site-git-fea-e8cea2-maxiaoyang57-9776s-projects.vercel.app/products/slime-charms-wholesale/
 
 After accepting the Preview, merge and run a clearly marked controlled list inquiry on production; verify email rendering, list clearing, and the conversion's `quote_item_count` parameter. GA4 report processing and GSC URL Inspection limitations are documented separately.

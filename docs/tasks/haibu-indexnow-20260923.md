@@ -12,7 +12,7 @@ Originally delivered for Preview review, then explicitly approved for Production
 - Exact key-file, sitemap and selected HTML checks prevent notification before the content is live. Preview domains, external hosts, tracking URLs and inquiry/API routes are rejected.
 - Page HTML plus shared JS/CSS/catalog fingerprints select added/changed URLs and previously submitted removed URLs. Initial enrollment selects all sitemap content pages. Pure documentation changes do not trigger URL notifications.
 - Notifications run after the main-branch Production HTTP Redirect Audit succeeds, using a cache-compatible `workflow_run` event. Runs are serialized without cancelling an in-flight submission. Non-current-main runs and Preview audits are skipped.
-- Last accepted fingerprints restored from GitHub Actions cache; only successful 200/202 receipts advance the checkpoint. Missing cache falls back to the immutable first accepted snapshot. There is no scheduled repeated full submission.
+- Last accepted fingerprints restored from the latest successful main-run checkpoint artifact; only successful 200/202 receipts advance the checkpoint. Missing/expired artifacts fall back to the immutable first accepted snapshot. There is no scheduled repeated full submission.
 - JSON receipt/failure report retained as a 90-day Actions artifact. HTTP 202 explicitly means key validation pending; neither 200 nor 202 means indexed.
 
 ## Owner-approved activation
@@ -26,8 +26,8 @@ Originally delivered for Preview review, then explicitly approved for Production
 
 ## Operational limitations
 
-- At-least-once delivery: a crash after the API accepted the request but before cache save may cause one repeat; unchanged repeated workflow events normally do not POST.
-- Checkpoint retention follows GitHub cache policies, not the receipt artifact's 90-day retention.
+- At-least-once delivery: a crash after the API accepted the request but before checkpoint upload may cause one repeat; unchanged repeated workflow events normally do not POST.
+- Checkpoints and receipts are retained for 90 days; restore examines the latest 100 successful main runs. If none has a usable checkpoint, the verified initial baseline remains available.
 - Shared runtime changes conservatively notify all sitemap pages. Binary-only image/video replacement with unchanged HTML/runtime is not fingerprinted in this version; update the referencing page or runtime catalog as part of that release.
 - For intentional rollback to an older commit, the current-main guard skips automatic submission; align main with the intended released content before manually verifying/submitting.
 
@@ -37,7 +37,9 @@ Originally delivered for Preview review, then explicitly approved for Production
 - Run `35863404611` verified live content and submitted 183 URLs at 2026-09-23T12:53:54Z; real API receipt was **202 / key validation pending**, not indexed.
 - The run exposed an Actions limitation: the SHA-only `deployment_status` event cannot restore/save cache. Submission itself succeeded, but checkpoint persistence was skipped with warnings.
 - Follow-up changes the trigger to completion of the existing successful Production audit (`workflow_run` has a branch ref), preserving current-main and live-content checks.
-- `docs/indexnow-initial-checkpoint.json` reproduces the accepted initial content fingerprints against the exact unchanged Production files and links to that receipt. It avoids a duplicate batch during migration or cache eviction. Subsequent accepted state remains in Actions cache.
+- `docs/indexnow-initial-checkpoint.json` reproduces the accepted initial content fingerprints against the exact unchanged Production files and links to that receipt. It avoids a duplicate batch during migration or artifact expiry.
+- PR #79 confirmed the event change, but run `35863915874` exposed a second platform limitation: cache write token has no writable scopes. Its zero-URL no-op sent no duplicate notification.
+- Cache actions are now replaced with checkpoint artifacts (the same mechanism already proven to save receipts). Upload failures fail the job rather than producing a misleading cache warning; restores use read-only Actions permission and only successful main runs from this exact workflow.
 
 ## Pre-merge verification
 

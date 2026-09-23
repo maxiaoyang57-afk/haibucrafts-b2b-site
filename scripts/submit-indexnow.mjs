@@ -38,7 +38,15 @@ try {
     pages[url] = digest(`${sharedHash}\n${html}`);
   }
   let previous = null;
-  try { previous = JSON.parse(await readFile(statePath, 'utf8')); } catch (error) { if (error.code !== 'ENOENT') throw error; }
+  try { previous = JSON.parse(await readFile(statePath, 'utf8')); } catch (error) {
+    if (error.code !== 'ENOENT') throw error;
+    // One-time accepted Production receipt predates usable Actions cache storage.
+    // Retain this immutable baseline so repair/cache eviction cannot re-enroll unchanged pages.
+    try {
+      previous = JSON.parse(await readFile('docs/indexnow-initial-checkpoint.json', 'utf8'));
+      report.restoredFromInitialReceipt = true;
+    } catch (baselineError) { if (baselineError.code !== 'ENOENT') throw baselineError; }
+  }
   const selected = changedUrls(pages, previous);
   report.urls = selected;
   report.count = selected.length;

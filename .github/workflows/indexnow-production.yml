@@ -1,0 +1,76 @@
+name: IndexNow Production Notifications
+
+on:
+  deployment_status:
+  workflow_dispatch:
+    inputs:
+      submit:
+        description: Send changed Production URLs (false only verifies)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow-production
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    if: >-
+      (github.event_name == 'deployment_status' && github.event.deployment_status.state == 'success' && github.event.deployment_status.environment == 'Production') ||
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.event.deployment.sha || github.sha }}
+          fetch-depth: 1
+      - name: Ignore superseded or non-main deployments
+        id: current
+        shell: bash
+        run: |
+          git fetch origin main --depth=1
+          if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Skipping deployment that is not the current main commit."
+          fi
+      - uses: actions/setup-node@v7
+        if: steps.current.outputs.ready == 'true'
+        with:
+          node-version: '22'
+      - name: Restore last accepted URL fingerprints
+        if: steps.current.outputs.ready == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: .release-candidate/indexnow/state.json
+          key: indexnow-production-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: indexnow-production-v1-
+      - name: Verify live content and notify IndexNow
+        if: steps.current.outputs.ready == 'true'
+        env:
+          SEND: ${{ github.event_name == 'deployment_status' || inputs.submit }}
+        shell: bash
+        run: |
+          if [ "$SEND" = "true" ]; then
+            npm run indexnow -- --submit
+          else
+            npm run indexnow -- --verify
+          fi
+      - name: Save accepted checkpoint only after successful submission
+        if: success() && steps.current.outputs.ready == 'true' && (github.event_name == 'deployment_status' || inputs.submit)
+        uses: actions/cache/save@v4
+        with:
+          path: .release-candidate/indexnow/state.json
+          key: indexnow-production-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Retain receipt or failure evidence
+        if: always() && steps.current.outputs.ready == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .release-candidate/indexnow/report.json
+          if-no-files-found: warn
+          retention-days: 90

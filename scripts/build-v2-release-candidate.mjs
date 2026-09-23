@@ -145,6 +145,9 @@ await writeFile(path.join(assetsOut, 'quote-runtime-config.js'), `window.HAIBU_Q
 await cp(path.join(sourceRoot, 'production-config', 'sitemap.xml'), path.join(outRoot, 'sitemap.xml'));
 await cp(path.join(sourceRoot, 'production-config', 'robots.txt'), path.join(outRoot, 'robots.txt'));
 await cp(path.join(sourceRoot, 'production-config', 'llms.txt'), path.join(outRoot, 'llms.txt'));
+const indexNowConfig = JSON.parse(await readFile(path.join(root, 'indexnow.config.json'), 'utf8'));
+if (!/^[a-zA-Z0-9-]{8,128}$/.test(indexNowConfig.key)) throw new Error('Invalid IndexNow verification filename.');
+await cp(path.join(root, `${indexNowConfig.key}.txt`), path.join(outRoot, `${indexNowConfig.key}.txt`));
 const redirectsBySource = new Map();
 for (const redirect of rootVercelConfig.redirects || []) redirectsBySource.set(redirect.source, redirect);
 for (const redirect of redirectDraft.redirects || []) redirectsBySource.set(redirect.source, redirect);

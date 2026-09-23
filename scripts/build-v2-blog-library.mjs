@@ -295,12 +295,14 @@ for (const article of articles) {
     author: {
       '@type': 'Organization',
       name: 'HAIBUCRAFT Buyer Resources',
-      url: 'https://www.haibucrafts.com/about/editorial-policy/'
+      url: 'https://www.haibucrafts.com/about/editorial-policy/',
+      logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png'
     },
     reviewedBy: {
       '@type': 'Organization',
       name: 'HAIBUCRAFT Product & Quality Coordination',
-      url: 'https://www.haibucrafts.com/about/editorial-policy/'
+      url: 'https://www.haibucrafts.com/about/editorial-policy/',
+      logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png'
     },
     publisher: {
       '@type': 'Organization',

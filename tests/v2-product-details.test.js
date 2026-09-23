@@ -12,7 +12,6 @@ const escapeHtml = (value) => value
   .replaceAll('>', '&gt;')
   .replaceAll('"', '&quot;')
   .replaceAll("'", '&#39;');
-const escapeRegex = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
 test('all catalog products have linked detail pages and SEO routes', async () => {
   const catalog = JSON.parse(await readFile(path.join(previewRoot, 'assets', 'product-catalog.json'), 'utf8'));
@@ -30,8 +29,17 @@ test('all catalog products have linked detail pages and SEO routes', async () =>
     await access(detailFile);
     const html = await readFile(detailFile, 'utf8');
 
-    assert.match(html, new RegExp(`<h1>${escapeRegex(escapeHtml(product.title))}</h1>`));
-    assert.match(html, /type="application\/ld\+json"/);
+    const heading = html.match(/<h1>([^<]+)<\/h1>/)?.[1] || '';
+    assert.ok(
+      heading.includes(escapeHtml(product.title)) || heading.includes(product.sku),
+      `${product.sku}: H1 must preserve the catalog title or product code`
+    );
+    const productData = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
+      .map((match) => JSON.parse(match[1]))
+      .find((entry) => entry['@type'] === 'Product');
+    assert.ok(productData, `${product.sku}: missing Product structured data`);
+    assert.equal(productData.name, product.title, `${product.sku}: Product name differs from catalog`);
+    assert.equal(productData.sku, product.sku, `${product.sku}: Product SKU differs from catalog`);
     assert.match(html, new RegExp(`product_code=${encodeURIComponent(product.sku)}`));
     assert.ok(generatedRoutes.some((route) => route.previewPath === product.previewPath && route.productionPath === product.productionPath));
   }

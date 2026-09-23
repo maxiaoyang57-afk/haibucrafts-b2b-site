@@ -127,8 +127,9 @@ const categoryPlans = {
     h1: 'Polymer Clay Slices Wholesale for Slime & DIY',
     intro: 'Source bulk polymer clay slices and wholesale clay sprinkles for slime, nail art, shaker fillers and DIY kits. Compare candy, fruit and seasonal mixes, then request current packing, MOQ and quotation details.',
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
-    lastModified: '2026-09-21',
+    lastModified: '2026-09-22',
     resources: [
+      ['/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/', 'Polymer Clay Sprinkles Wholesale'],
       ['/v2-preview/blog/polymer-clay-slice-buying-guide/', 'Polymer Clay Slice Buying Guide'],
       ['/v2-preview/custom-solutions/', 'Custom Mixes & Private Label'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints']
@@ -142,8 +143,9 @@ const categoryPlans = {
     h1: 'Wholesale Slime Charms in Bulk',
     intro: 'Source wholesale slime charms in bulk for slime brands, retailers and DIY kit programs. Compare candy, fruit, ocean and seasonal assortments, then request current packing, MOQ and quotation details.',
     listName: 'Bulk Slime Charms Wholesale Catalog',
-    lastModified: '2026-09-21',
+    lastModified: '2026-09-22',
     resources: [
+      ['/v2-preview/products/slime-charms/candy-charms-for-slime/', 'Candy Charms for Slime'],
       ['/v2-preview/products/slime-charms/halloween-slime-charms/', 'Halloween Slime Charms'],
       ['/v2-preview/products/slime-charms/christmas-slime-charms/', 'Christmas Slime Charms'],
       ['/v2-preview/products/polymer-clay-slices/', 'Polymer Clay Slices & Sprinkles'],
@@ -173,11 +175,12 @@ const categoryPlans = {
   'sequins-glitter-confetti': {
     previewFile: path.join(previewRoot, 'products', 'sequins-glitter-confetti', 'index.html'),
     productionPath: '/products/sequins-glitter-confetti/',
-    title: 'Sequins and Glitter Confetti Wholesale | HAIBUCRAFT',
-    description: 'Source shaped sequins, holographic glitter and decorative confetti for slime, nail art, shaker fillers, resin crafts and DIY kits.',
-    h1: 'Sequins & Glitter Confetti Wholesale',
-    intro: 'Wholesale shaped sequins, holographic paillettes, glitter mixes and decorative confetti for slime brands, shaker fillers, nail-art suppliers, resin craft programs and private-label assortments.',
+    title: 'Wholesale Sequins & Glitter Confetti for Crafts | HAIBUCRAFT',
+    description: 'Source bulk shaped sequins, glitter confetti and paillettes for slime, shakers, resin crafts and DIY kits. Mixed-SKU, packaging and custom options by quote.',
+    h1: 'Wholesale Sequins, Glitter & Craft Confetti',
+    intro: 'Source shaped sequins, holographic paillettes, glitter mixes and craft confetti in bulk for slime, shakers, nail art, resin crafts, DIY kits and private-label assortments.',
     listName: 'Sequins and Glitter Confetti Wholesale Catalog',
+    lastModified: '2026-09-22',
     resources: [
       ['/v2-preview/custom-solutions/', 'Custom & Private Label'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints'],
@@ -236,8 +239,11 @@ const polymerProfiles = {
     applications: ['Pastel and candy-theme slime assortments', 'Shaker filler and DIY kit programs', 'Mixed-SKU wholesale bundles']
   },
   YX043: {
-    title: 'Colorful Candy Polymer Clay Slices Wholesale YX043 | HAIBUCRAFT',
-    description: 'Source YX043 colorful round polymer clay slices for slime, nail art, shaker fillers and DIY kits, with mixed-SKU and packing requirements confirmed by quotation.',
+    title: 'Candy Polymer Clay Slices Wholesale – YX043 | HAIBUCRAFT',
+    lastModified: '2026-09-22',
+    description: 'Source YX043 colorful candy polymer clay slices wholesale for slime, nail art, shakers and DIY kits. Ask about bulk packing, mixed SKUs and custom packaging.',
+    h1: 'YX043 Colorful Candy Polymer Clay Slices',
+    intro: 'Wholesale candy-style polymer clay slices for slime, nail art, shakers, resin crafts and DIY kits. Reference YX043 for mixed-SKU or custom packing review.',
     heading: 'Colorful round slices for bright, repeatable assortment themes.',
     copy: 'YX043 uses a colorful round-slice direction that works as a general-purpose accent across slime, nail-art and shaker programs. Buyers can reference this code when they need a bright mixed-color component without tying the assortment to one seasonal event.',
     applications: ['Bright slime and craft mixes', 'Nail-art and shaker filler assortments', 'Year-round mixed-color programs']
@@ -293,13 +299,24 @@ for (const [sku, profile] of Object.entries(polymerProfiles)) {
   let html = await readFile(file, 'utf8');
   html = setPageMetadata(html, profile);
   html = updateProductJsonLd(html, profile.description);
+  if (profile.h1) {
+    html = replaceFirstRequired(html, /<h1>[^<]*<\/h1>/i, `<h1>${escapeHtml(profile.h1)}</h1>`, `${sku} H1`);
+  }
+  if (profile.intro) {
+    html = replaceFirstRequired(
+      html,
+      /(<h1>[^<]*<\/h1>\s*)<p>[\s\S]*?<\/p>/i,
+      `$1<p>${escapeHtml(profile.intro)}</p>`,
+      `${sku} intro`
+    );
+  }
   if (!html.includes('data-seo-growth="polymer-detail"')) {
     const applicationList = profile.applications.map((item) => `<li>${escapeHtml(item)}</li>`).join('');
     const block = `<section class="section" data-seo-growth="polymer-detail"><div class="container split"><div><span class="eyebrow">Wholesale polymer clay slices &amp; sprinkles</span><h2>${escapeHtml(profile.heading)}</h2><p>${escapeHtml(profile.copy)}</p></div><div class="card"><h3>Buyer-fit reference</h3><ul class="checklist">${applicationList}</ul><p>Exact dimensions, composition, MOQ, mix ratio, packing and lead time are confirmed against the approved sample and quotation.</p></div></div></section>`;
     html = replaceFirstRequired(html, /<section class="section alt">/i, `${block}<section class="section alt">`, `${sku} unique product context`);
   }
   await writeFile(file, html, 'utf8');
-  updateSeoRoute(product.productionPath, { title: profile.title, description: profile.description });
+  updateSeoRoute(product.productionPath, { title: profile.title, description: profile.description, ...(profile.lastModified ? { lastModified: profile.lastModified } : {}) });
 }
 
 const collections = [

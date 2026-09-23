@@ -36,19 +36,24 @@ test('Issue #27 provides touch targets, sticky offsets and mobile safe-area sepa
   assert.match(category, /has-category-mobile-quote \.back-top[\s\S]*?bottom: calc\(160px/);
 });
 
-test('Issue #27 makes inquiry requirements, input semantics and disabled uploads clear', async () => {
+test('Inquiry UX keeps three required fields and enables optimized reference uploads', async () => {
   const quote = await readPreview('quote', 'index.html');
   const runtime = await readPreview('assets', 'quote-preview.js');
 
   assert.equal((quote.match(/class="field-required"/g) || []).length, 3);
   assert.match(quote, /name="phone" type="tel" inputmode="tel" autocomplete="tel"/);
   assert.match(quote, /name="website" type="url" inputmode="url" autocomplete="url" spellcheck="false"/);
-  assert.match(quote, /Uploads are unavailable in this form\./);
-  assert.match(quote, /disabled aria-describedby="referenceImageHelp"/);
+  assert.match(quote, /Upload up to 4 JPG, PNG or WebP images/);
+  assert.match(quote, /accept="image\/jpeg,image\/png,image\/webp" multiple/);
+  assert.match(quote, /id="referenceImagePreviews"/);
+  assert.match(quote, /More project requirements/);
   assert.match(quote, /id="formStatus" aria-live="polite" aria-atomic="true"/);
   assert.match(runtime, /submitButton\.textContent = 'Sending…'/);
   assert.match(runtime, /form\.setAttribute\('aria-busy', 'true'\)/);
   assert.match(runtime, /Boolean\(fields\.sku \|\| productCode\)/);
+  assert.match(runtime, /optimizeReferenceImage/);
+  assert.match(runtime, /targetImageBytes = 650000/);
+  assert.match(runtime, /renderImagePreviews/);
 });
 
 test('Issue #27 keeps Preview validation-only and adds a shared browser theme color', async () => {
@@ -57,15 +62,25 @@ test('Issue #27 keeps Preview validation-only and adds a shared browser theme co
   const home = await readPreview('index.html');
 
   assert.match(config, /mode: 'validation-only'/);
-  assert.match(config, /enableReferenceUploads: false/);
+  assert.match(config, /enableReferenceUploads: true/);
   assert.match(components, /themeColor\.name = 'theme-color'/);
   assert.match(components, /themeColor\.content = '#ffffff'/);
   assert.match(home, /name="msvalidate\.01" content="D213E7787F1AED0C57F6EE1F7C5A2A50"/);
 });
 
-test('Production quote runtime prevents honeypot autofill and exposes a support reference', async () => {
+test('Production quote enables optimized image attachments and preserves submission safeguards', async () => {
+  const quote = await readFile(path.join(root, 'request-quote', 'index.html'), 'utf8');
   const runtime = await readFile(path.join(root, 'assets', 'v2', 'quote-preview.js'), 'utf8');
+  const config = await readFile(path.join(root, 'assets', 'v2', 'quote-runtime-config.js'), 'utf8');
+  const styles = await readFile(path.join(root, 'assets', 'v2', 'quote-v2.css'), 'utf8');
 
+  assert.match(config, /mode: 'live'/);
+  assert.match(config, /enableReferenceUploads: true/);
+  assert.match(quote, /reference-image uploads are active/);
+  assert.match(quote, /id="referenceImagePreviews"/);
+  assert.match(styles, /\.upload-previews/);
+  assert.match(runtime, /prepareReferenceImages/);
+  assert.match(runtime, /image\/webp/);
   assert.match(runtime, /honeypot\.value = ''/);
   assert.match(runtime, /honeypot\.autocomplete = 'new-password'/);
   assert.match(runtime, /honeypot\.readOnly = true/);

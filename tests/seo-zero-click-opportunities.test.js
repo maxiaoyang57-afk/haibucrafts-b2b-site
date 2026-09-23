@@ -40,7 +40,8 @@ for (const item of cases) {
   for (const relative of [item.production, item.preview]) {
     test(`${relative} keeps the approved zero-click SEO positioning`, async () => {
       const html = await readFile(path.join(root, relative), 'utf8');
-      assert.ok(html.includes(`<title>${item.title}</title>`));
+      const renderedTitle = html.match(/<title>([^<]*)<\/title>/)?.[1].replaceAll('&amp;', '&');
+      assert.equal(renderedTitle, item.title);
       assert.ok(html.includes(`<h1>${item.h1}</h1>`));
       assert.ok(html.includes(item.phrase));
     });

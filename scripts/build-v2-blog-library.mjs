@@ -306,9 +306,23 @@ for (const article of articles) {
     },
     publisher: {
       '@type': 'Organization',
+      '@id': 'https://www.haibucrafts.com/#organization',
       name: 'HAIBUCRAFT',
       url: 'https://www.haibucrafts.com/',
-      logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png'
+      logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png',
+      email: 'sales@haibucrafts.com',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Yiwu',
+        addressRegion: 'Zhejiang',
+        addressCountry: 'CN'
+      },
+      contactPoint: {
+        '@type': 'ContactPoint',
+        contactType: 'sales',
+        email: 'sales@haibucrafts.com',
+        availableLanguage: ['en', 'zh']
+      }
     },
     mainEntityOfPage: `https://www.haibucrafts.com/blog/${article.slug}/`
   }).replaceAll('<', '\\u003c');

@@ -67,6 +67,8 @@ const batchRecords = productBatches.flatMap(({ issue, data }) => (
   data.products.map((product) => ({ issue, data, product }))
 ));
 
+const holidayBuyerUseCaseSkus = new Set(['SLM10003','SLM10009','SLM10013','SLM10015','SLM10017','SLM10129','SLM26529','YX4109']);
+
 const categories = [
   {
     slug: 'polymer-clay-slices',
@@ -527,6 +529,9 @@ ${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            <tr><th>MOQ 
     const keywordsMeta = product.approvedListing?.seoKeywords
       ? `  <meta name="keywords" content="${escapeHtml(product.approvedListing.seoKeywords)}">\n`
       : '';
+    const seasonalBuyerUseCases = holidayBuyerUseCaseSkus.has(product.sku)
+      ? `<section class="section alt" data-seasonal-use-cases="${escapeHtml(product.sku)}"><div class="container"><div class="section-head"><span class="eyebrow">Seasonal buyer use cases</span><h2>Use this SKU in a broader holiday sourcing brief.</h2><p>Potential procurement contexts include gift bag embellishments, holiday DIY kit fillers, stocking-stuffer craft components and private-label seasonal assortments. Final packing, labeling and market suitability are confirmed for the order.</p></div><div class="actions"><a class="btn btn-light" href="/v2-preview/products/slime-charms/christmas-slime-charms/">Christmas Mini Holiday Add-ons</a><a class="btn btn-light" href="/v2-preview/blog/amazon-fba-craft-supplies-sourcing-checklist/">Amazon Seller Sourcing Checklist</a><a class="btn btn-primary" href="/v2-preview/quote/?source=holiday-use-case&amp;product_code=${encodeURIComponent(product.sku)}&amp;product=${encodeURIComponent(product.title)}&amp;landing_page=${encodeURIComponent(product.previewPath)}">Discuss Packing &amp; Market Requirements</a></div></div></section>`
+      : '';
 
     const html = `<!DOCTYPE html>
 <html lang="en">
@@ -592,7 +597,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
       </div>
     </section>
 
-    <section class="section alt">
+    ${seasonalBuyerUseCases ? `${seasonalBuyerUseCases}\n\n    ` : ''}    <section class="section alt">
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Related ${escapeHtml(product.categoryLabel)}</span>
@@ -640,7 +645,7 @@ const productRoutes = products.map((product) => ({
   title: seoTitle(product),
   description: product.customMetaDescription || metaDescription(product),
   type: 'website',
-  lastModified: product.lastModified,
+  lastModified: holidayBuyerUseCaseSkus.has(product.sku) ? '2026-09-23' : product.lastModified,
   index: true,
   generatedProduct: true
 }));

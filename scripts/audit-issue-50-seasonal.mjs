@@ -38,6 +38,14 @@ for (const [name, html, expected] of [['Halloween', halloween, expectedHalloween
   for (const sku of expected) if (!html.includes(`>${sku}</span>`)) errors.push(`${name}: missing visible SKU ${sku}`);
   if (itemList.length < 2) errors.push(`${name}: missing BreadcrumbList or ItemList JSON-LD`);
 }
+const miniHolidaySkus = ['SLM10003','SLM10009','SLM10013','SLM10015','SLM10017','SLM10129','SLM26529','YX4109'];
+if (!christmas.includes('Mini Holiday Add-ons for Gift Bags & DIY Kits')) errors.push('Christmas: missing mini holiday add-ons module');
+for (const sku of miniHolidaySkus) if (!christmas.includes(sku)) errors.push(`Christmas: mini holiday module missing ${sku}`);
+if (christmas.includes('10–20 days')) errors.push('Christmas: fixed 10–20 day lead-time promise must not remain');
+if (!christmas.includes('To be discussed based on SKU and packaging')) errors.push('Christmas: missing quote-specific MOQ language');
+if (!christmas.includes('To be confirmed after quantity and packaging review')) errors.push('Christmas: missing quote-specific lead-time language');
+if (!christmas.includes('/v2-preview/blog/amazon-fba-craft-supplies-sourcing-checklist/')) errors.push('Christmas: missing Amazon seller sourcing guide link');
+
 for (const href of ['/v2-preview/products/slime-charms/halloween-slime-charms/', '/v2-preview/products/slime-charms/christmas-slime-charms/', '/v2-preview/products/slime-charms/', '/v2-preview/products/polymer-clay-slices/', '/v2-preview/products/resin-charms/', '/v2-preview/products/sequins-glitter-confetti/']) {
   if (!holiday.includes(`href="${href}"`)) errors.push(`Holiday hub missing ${href}`);
 }

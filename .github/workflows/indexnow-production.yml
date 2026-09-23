@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
   group: indexnow-production
@@ -47,11 +48,9 @@ jobs:
           node-version: '22'
       - name: Restore last accepted URL fingerprints
         if: steps.current.outputs.ready == 'true'
-        uses: actions/cache/restore@v4
-        with:
-          path: .release-candidate/indexnow/state.json
-          key: indexnow-production-v1-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: indexnow-production-v1-
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node scripts/restore-indexnow-checkpoint.mjs
       - name: Verify live content and notify IndexNow
         if: steps.current.outputs.ready == 'true'
         env:
@@ -65,10 +64,12 @@ jobs:
           fi
       - name: Save accepted checkpoint only after successful submission
         if: success() && steps.current.outputs.ready == 'true' && (github.event_name == 'workflow_run' || inputs.submit)
-        uses: actions/cache/save@v4
+        uses: actions/upload-artifact@v4
         with:
+          name: indexnow-checkpoint-${{ github.run_id }}-${{ github.run_attempt }}
           path: .release-candidate/indexnow/state.json
-          key: indexnow-production-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          if-no-files-found: error
+          retention-days: 90
       - name: Retain receipt or failure evidence
         if: always() && steps.current.outputs.ready == 'true'
         uses: actions/upload-artifact@v4

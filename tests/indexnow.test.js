@@ -142,7 +142,7 @@ test('CLI verification sends no POST and saves no state; failures retain last ac
   assert.equal(readFileSync(f.state, 'utf8'), saved);
 });
 
-test('Workflow waits for successful main Production audit, uses a cache-compatible event and caches only success', () => {
+test('Workflow waits for successful main Production audit and uploads state only after success', () => {
   const workflow = readFileSync(new URL('../.github/workflows/indexnow-production.yml', import.meta.url), 'utf8');
   assert.match(workflow, /workflows: \[Production HTTP Redirect Audit\]/);
   assert.match(workflow, /workflow_run.conclusion == 'success'/);
@@ -151,6 +151,10 @@ test('Workflow waits for successful main Production audit, uses a cache-compatib
   assert.match(workflow, /github.ref == 'refs\/heads\/main'/);
   assert.match(workflow, /cancel-in-progress: false/);
   assert.match(workflow, /Save accepted checkpoint[\s\S]*?if: success\(\)/);
+  assert.match(workflow, /run: node scripts\/restore-indexnow-checkpoint.mjs/);
+  assert.match(workflow, /name: indexnow-checkpoint-/);
+  assert.match(workflow, /if-no-files-found: error/);
+  assert.doesNotMatch(workflow, /actions\/cache/);
   assert.doesNotMatch(workflow, /pull_request_target|schedule:|contents: write/);
 });
 

@@ -60,6 +60,6 @@ test('SEO production map persists the four opportunity-page snippets', async () 
     const entry = map.routes.find((row) => row.productionPath === productionPath);
     assert.ok(entry, `Missing SEO map route for ${productionPath}`);
     assert.equal(entry.title, title);
-    assert.equal(entry.lastModified, '2026-09-22');
+    assert.equal(entry.lastModified, productionPath === '/themes/holiday/' ? '2026-09-23' : '2026-09-22');
   }
 });

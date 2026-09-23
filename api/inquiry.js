@@ -1,4 +1,5 @@
 import { randomUUID } from 'node:crypto';
+import { prepareQuoteItems } from '../lib/quote-items.js';
 
 const MAX_BODY_BYTES = 4_000_000;
 const MAX_ATTACHMENTS = 4;
@@ -145,6 +146,12 @@ export default async function handler(req, res) {
   }
 
   let attachments;
+  let quoteItems;
+  try {
+    quoteItems = prepareQuoteItems(body?.quoteItems);
+  } catch (error) {
+    return json(res, 400, { ok: false, message: error.message });
+  }
   try {
     attachments = prepareAttachments(body?.attachments);
   } catch (error) {
@@ -158,14 +165,16 @@ export default async function handler(req, res) {
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) return json(res, 503, { ok: false, message: 'Email service is not configured' });
 
-  const product = fields.product || fields.product_display || 'General Wholesale Inquiry';
-  const sku = fields.sku || fields.sku_display || '';
+  const product = quoteItems.length ? `${quoteItems.length} selected products` : fields.product || fields.product_display || 'General Wholesale Inquiry';
+  const sku = quoteItems.length ? quoteItems.map(item => item.sku).join(', ') : fields.sku || fields.sku_display || '';
   const subject = clean(`Wholesale quote request - ${product}${sku ? ` - ${sku}` : ''}`, 180);
   const rows = Object.entries(fields)
     .filter(([key]) => !key.endsWith('_display') || !fields[key.replace('_display', '')])
     .map(([key, value]) => [LABELS[key] || key, value]);
-  const text = rows.map(([label, value]) => `${label}: ${value}`).join('\n');
-  const html = `<!doctype html><html><body style="font-family:Arial,sans-serif;color:#302b35;line-height:1.55"><h2>${escapeHtml(subject)}</h2><table style="border-collapse:collapse;width:100%;max-width:760px">${rows.map(([label, value]) => `<tr><th style="text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #e9dfe6;width:190px">${escapeHtml(label)}</th><td style="padding:8px;border-bottom:1px solid #e9dfe6;white-space:pre-wrap">${escapeHtml(value)}</td></tr>`).join('')}</table>${attachments.length ? `<p>${attachments.length} compressed reference image(s) attached.</p>` : ''}</body></html>`;
+  const quoteText = quoteItems.map(item => `${item.sku}: ${item.title}\nQuantity: ${item.quantity || 'To be confirmed'}\nProduct: ${item.url}\nImage: ${item.image}`).join('\n\n');
+  const text = rows.map(([label, value]) => `${label}: ${value}`).join('\n') + (quoteText ? `\n\nSelected products\n${quoteText}` : '');
+  const quoteHtml = quoteItems.length ? `<h3>Selected products (${quoteItems.length})</h3><table>${quoteItems.map(item => `<tr><td style="padding:8px;vertical-align:top"><img src="${escapeHtml(item.image)}" width="72" height="72" alt="${escapeHtml(item.sku)}"></td><td style="padding:8px"><a href="${escapeHtml(item.url)}">${escapeHtml(item.sku)} - ${escapeHtml(item.title)}</a><br>Quantity: ${escapeHtml(item.quantity || 'To be confirmed')}</td></tr>`).join('')}</table>` : '';
+  const html = `<!doctype html><html><body style="font-family:Arial,sans-serif;color:#302b35;line-height:1.55"><h2>${escapeHtml(subject)}</h2><table style="border-collapse:collapse;width:100%;max-width:760px">${rows.map(([label, value]) => `<tr><th style="text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #e9dfe6;width:190px">${escapeHtml(label)}</th><td style="padding:8px;border-bottom:1px solid #e9dfe6;white-space:pre-wrap">${escapeHtml(value)}</td></tr>`).join('')}</table>${quoteHtml}${attachments.length ? `<p>${attachments.length} compressed reference image(s) attached.</p>` : ''}</body></html>`;
 
   const from = process.env.INQUIRY_FROM_EMAIL || 'HAIBU CRAFT <inquiry@send.haibucrafts.com>';
   const to = process.env.INQUIRY_TO_EMAIL || 'inquiry@haibucrafts.com';

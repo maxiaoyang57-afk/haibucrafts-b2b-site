@@ -20,4 +20,8 @@ Allow only the Google tag script host and GA4 collection host families, retainin
 
 Reference: https://developers.google.com/tag-platform/security/guides/csp
 
-After this fix deploys, verify actual collection response and query HAIBU GA4 property 555090613. Do not mistake an event queued in dataLayer for Google receiving it.
+PR #76 merged as `096ed57dd1f80477f11ce7bff665cdefffa5ccb6`. Production deployment `dpl_CYWS1fV9X3KUKUcLxfXKQw9r8sJ5` is READY and the live response contains the updated policy.
+
+Post-fix controlled test marker `PR76-GA4-20260923`, request `3df4c114-dab5-45e1-889a-8ae932ac774c`: real form accepted four images, primary inbox received all four, backup sending accepted, and the actual Google collection endpoint returned HTTP 204 for `inquiry_submitted` with measurement ID `G-HJ0EL0PQWR`. The page queued this conversion exactly once. No CSP rejection occurred; the browser also reported aborted analytics beacon transports alongside successful 204 responses.
+
+The GA4 report connector for property 555090613 returned no processed inquiry event yet when queried immediately after the test. Network collection acceptance is verified; reporting ingestion remains pending. Backup inbox placement still requires the mailbox owner's confirmation.

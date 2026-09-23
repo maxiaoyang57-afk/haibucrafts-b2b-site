@@ -5,6 +5,7 @@
   const config = window.HAIBU_QUOTE_CONFIG || {};
   const liveMode = config.mode === 'live' && config.endpoint === '/api/inquiry';
   const params = new URLSearchParams(window.location.search);
+  const quoteListMode = params.get('quote_list') === '1';
   const value = (key, fallback = '') => params.get(key) || fallback;
   const setValue = (name, nextValue) => {
     const field = form.elements.namedItem(name);
@@ -80,8 +81,10 @@
 
   const applyQuotePrefill = () => {
     Object.entries(inquiryAttribution).forEach(([name, nextValue]) => setValue(name, nextValue));
-    setValue('sku', productCode);
-    setValue('product', productName);
+    if (!quoteListMode) {
+      setValue('sku', productCode);
+      setValue('product', productName);
+    }
     if (form.dataset) {
       form.dataset.attributionPayload = JSON.stringify(inquiryAttribution);
       form.dataset.attributionReady = 'true';
@@ -360,6 +363,15 @@
     if (status) status.textContent = 'Sending inquiry…';
 
     try {
+      let quoteList = null;
+      let quoteItems = [];
+      if (quoteListMode) {
+        quoteList = await window.HAIBU_QUOTE_LIST_READY;
+        if (!quoteList || !await quoteList.ready) throw new Error('Your quote list could not load. Please reload before sending.');
+        quoteItems = quoteList.getItems();
+      }
+      const listControls = quoteListMode ? [...form.querySelectorAll('.quote-list-panel input, .quote-list-panel button')] : [];
+      listControls.forEach(control => { control.disabled = true; });
       const formData = new FormData(form);
       const fields = {};
       for (const [key, entryValue] of formData.entries()) {
@@ -367,6 +379,7 @@
         fields[key] = entryValue;
       }
       Object.assign(fields, inquiryAttribution);
+      if (quoteListMode) fields.lead_context = 'quote-list';
       const optimizedImages = await preparationPromise;
       const attachments = await Promise.all(optimizedImages.map(fileToAttachment));
       const response = await fetch(config.endpoint, {
@@ -375,6 +388,7 @@
         body: JSON.stringify({
           fields,
           attachments,
+          quoteItems,
           _company_fax: String(formData.get('_company_fax') || '')
         })
       });
@@ -388,11 +402,15 @@
             context: String(fields.lead_context || contextSource).slice(0, 80),
             category: String(fields.category || category || 'unspecified').slice(0, 80),
             landing_page: String(fields.first_landing_page || landingPage).slice(0, 180),
-            has_product_code: Boolean(fields.sku || productCode)
+            has_product_code: Boolean(fields.sku || productCode),
+            quote_item_count: quoteItems.length
           });
         }
       } catch { /* Analytics must not turn an accepted inquiry into a failure. */ }
       form.reset();
+      if (quoteList && quoteItems.length) {
+        try { quoteList.complete(quoteItems); } catch { /* Delivery already succeeded; never invite an accidental duplicate retry. */ }
+      }
       imageSelectionVersion += 1;
       selectedReferenceFiles = [];
       preparedReferenceImages = [];
@@ -407,6 +425,7 @@
       if (status) status.textContent = error instanceof Error ? error.message : 'Inquiry could not be sent.';
     } finally {
       isSubmitting = false;
+      if (quoteListMode) form.querySelectorAll('.quote-list-panel input, .quote-list-panel button').forEach(control => { control.disabled = false; });
       if (upload) upload.disabled = config.enableReferenceUploads !== true;
       form.removeAttribute('aria-busy');
       if (submitButton) {

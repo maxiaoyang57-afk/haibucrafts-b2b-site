@@ -2,6 +2,13 @@
   const ROOT = '/v2-preview/';
   const ASSET_ROOT = ROOT === '/' ? '/assets/v2/' : `${ROOT}assets/`;
   window.HAIBU_SITE_ROOT = ROOT;
+  const quoteListScript = document.createElement('script');
+  quoteListScript.src = `${ASSET_ROOT}quote-list.js`;
+  window.HAIBU_QUOTE_LIST_READY = new Promise((resolve) => {
+    quoteListScript.onload = () => resolve(window.HAIBU_QUOTE_LIST || null);
+    quoteListScript.onerror = () => resolve(null);
+  });
+  document.head.appendChild(quoteListScript);
   const page = document.body.dataset.page || '';
   const source = encodeURIComponent(page || 'site-v2');
   const landing = encodeURIComponent(window.location.pathname);

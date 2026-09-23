@@ -74,10 +74,18 @@
   };
 
   const updateAnalyticsConsent = (value) => {
+    const previousConsent = readAnalyticsConsent();
     saveAnalyticsConsent(value);
     if (!googleAnalyticsReady) loadGoogleAnalytics();
     if (typeof window.gtag === 'function') {
-      window.gtag('consent', 'update', analyticsConsentState(value === 'granted' ? 'granted' : 'denied'));
+      const analyticsGranted = value === 'granted';
+      window.gtag('consent', 'update', analyticsConsentState(analyticsGranted ? 'granted' : 'denied'));
+      if (analyticsGranted && previousConsent !== 'granted') {
+        window.gtag('event', 'page_view', {
+          page_location: window.location.href,
+          page_title: document.title
+        });
+      }
     }
   };
 

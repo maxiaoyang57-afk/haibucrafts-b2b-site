@@ -31,6 +31,11 @@ for (const relative of [
     assert.match(source, /allow_google_signals: false/);
     assert.match(source, /allow_ad_personalization_signals: false/);
     assert.match(source, /window\.gtag\('event', name, properties\)/);
+    assert.match(source, /const previousConsent = readAnalyticsConsent\(\);/);
+    assert.match(source, /analyticsGranted && previousConsent !== 'granted'/);
+    assert.match(source, /window\.gtag\('event', 'page_view'/);
+    assert.match(source, /page_location: window\.location\.href/);
+    assert.match(source, /page_title: document\.title/);
   });
 }
 

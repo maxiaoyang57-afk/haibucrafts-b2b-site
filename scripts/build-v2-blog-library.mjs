@@ -307,7 +307,8 @@ for (const article of articles) {
     publisher: {
       '@type': 'Organization',
       name: 'HAIBUCRAFT',
-      url: 'https://www.haibucrafts.com/'
+      url: 'https://www.haibucrafts.com/',
+      logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png'
     },
     mainEntityOfPage: `https://www.haibucrafts.com/blog/${article.slug}/`
   }).replaceAll('<', '\\u003c');

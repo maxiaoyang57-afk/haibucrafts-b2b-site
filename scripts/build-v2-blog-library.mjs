@@ -247,6 +247,31 @@ const articles = [
     checklist: ['Christmas product codes', 'Slime-only scope', 'Mix ratio and pack unit', 'Sample and artwork approval', 'Arrival date', 'Destination market'],
     note: 'Christmas availability, MOQ, lead time and documentation are order-specific and must be confirmed against the selected product codes and destination.',
     links: [['Christmas Slime Charms', '/v2-preview/products/slime-charms/christmas-slime-charms/'], ['SLM26529 Product Detail', '/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/'], ['Request Seasonal Quote', '/v2-preview/quote/?source=blog-resource&article=christmas-slime-charms-wholesale-buying-guide']]
+  },
+  {
+    slug: 'amazon-fba-craft-supplies-sourcing-checklist',
+    category: 'Marketplace Sourcing',
+    title: 'Craft Supply Sourcing Checklist for Amazon Sellers',
+    seoTitle: 'Amazon FBA Craft Supplies Sourcing Checklist | HAIBUCRAFT',
+    datePublished: '2026-09-23',
+    dateModified: '2026-09-23',
+    lastReviewed: 'September 23, 2026',
+    description: 'Plan craft-supply sourcing for Amazon sellers by confirming SKU, pack unit, labels, carton quantity, target marketplace and inbound date before ordering.',
+    dek: 'Prepare a quote-ready brief for FBA-bound craft components without assuming any HAIBUCRAFT SKU or pack is already accepted by Amazon.',
+    sections: [
+      ['Start with exact SKUs and the selling unit', 'List every product code, pieces or grams per selling unit, inner-pack quantity and intended retail pack. Keep slime charms, polymer clay slices and other materials identifiable by SKU. SLM26529 and YX4109 are examples of seasonal products that still require order-specific packing confirmation.'],
+      ['Bring the current marketplace label requirements', 'State the Amazon marketplace or site and provide the barcode, label, warning and prep requirements you need applied. HAIBUCRAFT can review packaging feasibility, but the buyer must approve the current marketplace requirements before production.'],
+      ['Confirm carton and inbound planning', 'Provide target carton quantity, carton-mark requirements, destination or warehouse instructions and expected inbound date. Carton dimensions and final packout are confirmed after quantity and packaging review.'],
+      ['Approve samples before bulk packing', 'Review the selected SKU, packing unit, artwork and label placement on an approved sample or pack reference before bulk production. Reconfirm changes in writing before labels or cartons are finalized.']
+    ],
+    checklist: ['SKU list and quantity', 'Selling unit and inner pack', 'Amazon marketplace / target market', 'Barcode and label requirements', 'Target arrival or inbound date', 'Carton and private-label requirements'],
+    note: 'HAIBUCRAFT is not affiliated with Amazon. FBA and marketplace requirements vary by site, category and order. No HAIBUCRAFT SKU or packaging format should be treated as FBA-compliant or accepted until the buyer confirms the current requirements and the order specification is approved.',
+    links: [
+      ['Christmas Mini Holiday Add-ons', '/v2-preview/products/slime-charms/christmas-slime-charms/'],
+      ['SLM26529 Product Detail', '/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/'],
+      ['YX4109 Product Detail', '/v2-preview/products/polymer-clay-slices/yx4109-wholesale-500-g-christmas-polymer-clay-slices-with-candy-cane-tree-gingerbread-designs/'],
+      ['Private-Label Packaging Brief', '/v2-preview/blog/private-label-packaging-brief/']
+    ]
   }
 ];
 

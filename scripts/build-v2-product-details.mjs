@@ -67,7 +67,7 @@ const batchRecords = productBatches.flatMap(({ issue, data }) => (
   data.products.map((product) => ({ issue, data, product }))
 ));
 
-const holidayBuyerUseCaseSkus = new Set(['SLM10003','SLM10009','SLM10013','SLM10015','SLM10017','SLM10129','SLM26529','YX4109']);
+const holidayBuyerUseCaseSkus = new Set(['SLM26529','YX4109']);
 
 const categories = [
   {
@@ -597,7 +597,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
       </div>
     </section>
 
-    ${seasonalBuyerUseCases ? `${seasonalBuyerUseCases}\n\n    ` : ''}    <section class="section alt">
+${seasonalBuyerUseCases ? `    ${seasonalBuyerUseCases}\n\n` : ''}    <section class="section alt">
       <div class="container">
         <div class="section-head">
           <span class="eyebrow">Related ${escapeHtml(product.categoryLabel)}</span>

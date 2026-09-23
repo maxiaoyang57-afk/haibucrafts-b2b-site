@@ -70,10 +70,6 @@ for (const releaseFile of releaseFiles) {
   ]);
   if (!releaseContent.equals(productionContent)) {
     errors.push(`${relative}: content differs (release ${sha256(releaseContent)}, production ${sha256(productionContent)})`);
-    if (relative === 'blog/amazon-fba-craft-supplies-sourcing-checklist/index.html' ||
-        relative === 'products/slime-charms-wholesale/christmas-slime-charms/index.html') {
-      console.error(`DEBUG_RELEASE_BASE64 ${relative} ${releaseContent.toString('base64')}`);
-    }
   }
 }
 

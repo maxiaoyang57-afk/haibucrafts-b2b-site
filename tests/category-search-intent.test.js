@@ -42,6 +42,7 @@ test('category hubs preserve titles while clarifying buyer intent', async () => 
     assert.match(html, /Polymer Clay Slices Wholesale for Slime \| HAIBUCRAFT/);
     assert.match(html, /Source wholesale polymer clay slices and bulk polymer clay sprinkles/);
     assert.match(html, /Wholesale polymer clay slices and sprinkles for repeatable craft programs\./);
+    assert.doesNotMatch(html, /fimo/i);
   }
 });
 

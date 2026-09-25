@@ -125,9 +125,11 @@ const categoryPlans = {
     title: 'Polymer Clay Slices Wholesale for Slime | HAIBUCRAFT',
     description: 'Wholesale polymer clay slices and bulk sprinkles for slime, nail art, shakers and DIY kits. Compare fruit, candy and seasonal mixes; request MOQ and packing.',
     h1: 'Polymer Clay Slices Wholesale for Slime & DIY',
-    intro: 'Source bulk polymer clay slices and wholesale clay sprinkles for slime, nail art, shaker fillers and DIY kits. Compare candy, fruit and seasonal mixes, then request current packing, MOQ and quotation details.',
+    intro: 'Source wholesale polymer clay slices and bulk polymer clay sprinkles for slime, nail art, shaker fillers and DIY kits. Compare candy, fruit and seasonal mixes, then request current packing, MOQ and quotation details.',
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
-    lastModified: '2026-09-22',
+    hubHeading: 'Wholesale polymer clay slices and sprinkles for repeatable craft programs.',
+    hubCopy: 'Use this page for polymer clay slices, polymer clay craft slices and sprinkle mixes sold as a material family. Compare motif, size, color mix and pack format here; use the Slime Charms or Resin Charms hubs when the buying brief is for finished decorative charms instead.',
+    lastModified: '2026-09-25',
     resources: [
       ['/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/', 'Polymer Clay Sprinkles Wholesale'],
       ['/v2-preview/blog/polymer-clay-slice-buying-guide/', 'Polymer Clay Slice Buying Guide'],
@@ -141,15 +143,17 @@ const categoryPlans = {
     title: 'Wholesale Slime Charms in Bulk | HAIBUCRAFT',
     description: 'Wholesale slime charms for slime brands, DIY kits and retail assortments. Compare candy, fruit, ocean and seasonal designs; request packing, MOQ and quote.',
     h1: 'Wholesale Slime Charms in Bulk',
-    intro: 'Source wholesale slime charms in bulk for slime brands, retailers and DIY kit programs. Compare candy, fruit, ocean and seasonal assortments, then request current packing, MOQ and quotation details.',
+    intro: 'Source wholesale slime charms in bulk for slime brands, sensory-kit programs and retail assortments. Compare candy, fruit, ocean and seasonal charm mixes selected for slime use, then request current packing, MOQ and quotation details.',
     listName: 'Bulk Slime Charms Wholesale Catalog',
-    lastModified: '2026-09-22',
+    hubHeading: 'Bulk slime charms for slime brands, sensory kits and retail assortments.',
+    hubCopy: 'Use this page when the buying intent is decorative charms and add-ins for slime or sensory-kit programs. For flatback resin cabochons selected mainly for decoden, phone cases, hair accessories or other craft decoration, use the Resin Charms catalog instead.',
+    lastModified: '2026-09-25',
     resources: [
       ['/v2-preview/products/slime-charms/candy-charms-for-slime/', 'Candy Charms for Slime'],
       ['/v2-preview/products/slime-charms/halloween-slime-charms/', 'Halloween Slime Charms'],
       ['/v2-preview/products/slime-charms/christmas-slime-charms/', 'Christmas Slime Charms'],
       ['/v2-preview/products/polymer-clay-slices/', 'Polymer Clay Slices & Sprinkles'],
-      ['/v2-preview/products/resin-charms/', 'Bulk Resin Charms'],
+      ['/v2-preview/products/resin-charms/', 'Resin Flatbacks & Cabochons'],
       ['/v2-preview/custom-solutions/', 'Custom & Private Label'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints']
     ]
@@ -160,12 +164,14 @@ const categoryPlans = {
     title: 'Resin Charms Wholesale & Bulk Flatbacks | HAIBUCRAFT',
     description: 'Wholesale resin charms and bulk flatback cabochons for slime, decoden and DIY kits. Compare product codes and backing styles; request MOQ, packing and quote.',
     h1: 'Resin Charms Wholesale & Bulk Flatbacks',
-    intro: 'Source resin charms wholesale and in bulk for slime, decoden, phone-case and DIY programs. Compare flatback styles, product codes and mixed assortments, then request current packing, MOQ and quotation details.',
+    intro: 'Source resin charms wholesale and bulk flatback cabochons for decoden, phone-case, hair-accessory and DIY programs. Compare backing styles, finishes, product codes and mixed assortments, then request current packing, MOQ and quotation details.',
     listName: 'Bulk Resin Charms Wholesale Catalog',
-    lastModified: '2026-09-21',
+    hubHeading: 'Bulk resin flatbacks and cabochons for decoden and craft decoration.',
+    hubCopy: 'Use this page when the buying intent is resin flatbacks, cabochons and decorative miniatures selected by backing style, finish and size for decoden, phone cases, hair accessories and DIY embellishment. For slime-specific charm assortments, use the Slime Charms hub instead.',
+    lastModified: '2026-09-25',
     resources: [
       ['/v2-preview/blog/resin-charms-wholesale-buying-guide/', 'Resin Charms Buying Guide'],
-      ['/v2-preview/products/slime-charms/', 'Slime Charms Wholesale'],
+      ['/v2-preview/products/slime-charms/', 'Slime Charms for Slime Brands'],
       ['/v2-preview/products/polymer-clay-slices/', 'Polymer Clay Slices & Sprinkles'],
       ['/v2-preview/certificates/', 'Product Documents & Scope'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints'],
@@ -217,7 +223,7 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
   const productLinks = products
     .map((product) => `<a class="product-related-card" href="${product.previewPath}"><img src="${escapeAttr(product.image)}" width="800" height="800" loading="lazy" decoding="async" alt="${escapeAttr(`${product.title}, product code ${product.sku}`)}"><div><span>${escapeHtml(product.sku)}</span><h3>${escapeHtml(product.title)}</h3></div></a>`)
     .join('');
-  const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2>Compare products, sourcing guidance and project requirements.</h2><p>Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.</p></div><div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
+  const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2>${escapeHtml(plan.hubHeading || 'Compare products, sourcing guidance and project requirements.')}</h2><p>${escapeHtml(plan.hubCopy || 'Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.')}</p></div><div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
   const existingHub = new RegExp(`<section class="section" data-seo-growth="${category}-hub">[\\s\\S]*?<\\/section>`, 'i');
   if (existingHub.test(html)) html = html.replace(existingHub, block);
   else if (/<section class="section" id="specifications">/i.test(html)) {

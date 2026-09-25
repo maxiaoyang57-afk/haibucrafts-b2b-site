@@ -128,7 +128,7 @@ const categoryPlans = {
     intro: 'Source wholesale polymer clay slices and bulk polymer clay sprinkles for slime, nail art, shaker fillers and DIY kits. Compare candy, fruit and seasonal mixes, then request current packing, MOQ and quotation details.',
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
     hubHeading: 'Wholesale polymer clay slices and sprinkles for repeatable craft programs.',
-    hubCopy: 'Use this page for polymer clay slices, fimo-style craft slices and sprinkle mixes sold as a material family. Compare motif, size, color mix and pack format here; use the Slime Charms or Resin Charms hubs when the buying brief is for finished decorative charms instead.',
+    hubCopy: 'Use this page for polymer clay slices, polymer clay craft slices and sprinkle mixes sold as a material family. Compare motif, size, color mix and pack format here; use the Slime Charms or Resin Charms hubs when the buying brief is for finished decorative charms instead.',
     lastModified: '2026-09-25',
     resources: [
       ['/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/', 'Polymer Clay Sprinkles Wholesale'],

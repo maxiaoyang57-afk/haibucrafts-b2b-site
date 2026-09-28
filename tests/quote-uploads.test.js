@@ -139,6 +139,7 @@ test('submission waits for compression and rejects duplicate submits', async () 
   release();
   await Promise.all([first, selection]);
   assert.equal(f.submissions.length, 1);
+  assert.deepEqual(f.events.map(([name]) => name), ['inquiry_submitted', 'form_submit', 'generate_lead']);
   assert.equal(f.submissions[0].attachments.length, 1);
 });
 
@@ -153,7 +154,12 @@ test('rejected delivery retains images for retry and does not emit a conversion'
   assert.equal(f.button.disabled, false);
   await f.submit();
   assert.equal(f.submissions[1].attachments.length, 1);
-  assert.equal(f.events.length, 1);
+  assert.deepEqual(f.events.map(([name]) => name), ['inquiry_submitted', 'form_submit', 'generate_lead']);
+  for (const [, properties] of f.events) {
+    assert.equal(properties.form_name, 'request_quote');
+    assert.equal('email' in properties, false);
+    assert.equal('name' in properties, false);
+  }
 });
 
 test('an analytics error cannot turn an accepted inquiry into an apparent failure', async () => {

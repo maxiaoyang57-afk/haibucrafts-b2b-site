@@ -396,15 +396,19 @@
       if (!response.ok || payload.ok !== true) throw new Error(payload.message || 'Inquiry could not be sent.');
       try {
         if (typeof window.HAIBU_TRACK === 'function') {
-          window.HAIBU_TRACK('inquiry_submitted', {
+          const leadEventProperties = {
             source: String(fields.attribution_source || inquiryAttribution.attribution_source).slice(0, 80),
             channel: String(fields.attribution_channel || inquiryAttribution.attribution_channel).slice(0, 80),
             context: String(fields.lead_context || contextSource).slice(0, 80),
             category: String(fields.category || category || 'unspecified').slice(0, 80),
             landing_page: String(fields.first_landing_page || landingPage).slice(0, 180),
             has_product_code: Boolean(fields.sku || productCode),
-            quote_item_count: quoteItems.length
-          });
+            quote_item_count: quoteItems.length,
+            form_name: 'request_quote'
+          };
+          window.HAIBU_TRACK('inquiry_submitted', leadEventProperties);
+          window.HAIBU_TRACK('form_submit', leadEventProperties);
+          window.HAIBU_TRACK('generate_lead', leadEventProperties);
         }
       } catch { /* Analytics must not turn an accepted inquiry into a failure. */ }
       form.reset();

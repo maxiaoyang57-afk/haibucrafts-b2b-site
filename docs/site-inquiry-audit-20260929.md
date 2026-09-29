@@ -18,7 +18,8 @@ Scope: all checked-in public HTML (HAIBU 187, QULA 270), separately from HAIBU's
 - QULA simulated prevented/failed submit retains saved selections; pageshow restores the submit button. No actual form POST was sent.
 - HAIBU: 157 existing tests passed. 139-product catalog consistency passed. Shared runtime-route audit passed.
 - QULA: recipient/backup, native multipart attachment, required-product, SEO, IndexNow, page and basket synchronization gates passed; 231 catalog products.
-- Public HTTP crawl and representative browser visual review are reported in the PR/final delivery once complete.
+- Live public sitemap crawl completed: HAIBU 184/184 and QULA 268/268 returned HTTP 200 with HTML (452 total).
+- Browser layout checks at a 1363px viewport passed for HAIBU home, resin category and custom solutions, and QULA home, products, customization and contact: no horizontal page overflow, clipped text buttons or loaded-image failures were found in these samples.
 
 ## Remaining limits and follow-up
 

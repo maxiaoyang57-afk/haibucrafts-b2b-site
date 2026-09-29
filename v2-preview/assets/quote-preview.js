@@ -130,8 +130,8 @@
     honeypot.readOnly = true;
   }
   const submitButton = form.querySelector('button[type="submit"]');
-  if (submitButton) submitButton.textContent = liveMode ? 'Send Quote Request' : 'Validate Quote Request';
-  const idleSubmitText = submitButton?.textContent || 'Send Quote Request';
+  if (submitButton) submitButton.textContent = liveMode ? 'Send My Request' : 'Validate My Request';
+  const idleSubmitText = submitButton?.textContent || 'Send My Request';
   if (upload) upload.disabled = config.enableReferenceUploads !== true;
 
   const fileSignature = (file) => [file.name, file.type, file.size, file.lastModified].join(':');

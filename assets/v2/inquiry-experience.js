@@ -22,7 +22,8 @@
   const tidy = (s, n = 180) => String(s || '').replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, n);
   const params = new URLSearchParams(location.search);
   const path = location.pathname;
-  const pageTitle = tidy(document.querySelector('h1')?.textContent || config.brand);
+  const isContactPage = /\/(?:request-quote\/|quote(?:\.html|\/)|contact(?:\.html|\/))$/.test(path);
+  const pageTitle = tidy(params.get('entry_title') || (isContactPage ? 'craft supplies' : document.querySelector('h1')?.textContent) || config.brand);
   const canonicalPath = (() => {
     try { return new URL(document.querySelector('link[rel="canonical"]')?.href || location.href).pathname; }
     catch { return path; }
@@ -48,7 +49,7 @@
     return { target, sku, kind, title: tidy(productParams.get('product') || scope?.querySelector('h3')?.textContent || pageTitle) };
   }
   function decorate(link) {
-    if (!link || link.dataset.inquiryDirect) return;
+    if (!link || link.dataset.inquiryDirect || link.getAttribute('href')?.startsWith('#')) return;
     const ctx = contextFor(link);
     if (!ctx) return;
     const { target, sku, kind, title } = ctx;
@@ -138,7 +139,7 @@
         const subject = field('_subject');
         if (subject) subject.value = `${config.brand} — ${goal.value || 'General inquiry'} — Reply via ${channel.value}`;
         const selectedProduct = tidy(field('sku')?.value || field('selected_sku')?.value || params.get('sku') || params.get('product_code') || params.get('product') || params.get('entry_title') || pageTitle);
-        const text = `Hello ${config.brand},\nI would like help with ${goal.value || 'pricing, samples or choosing products'}.\nProduct / topic: ${selectedProduct}\nPage: ${field('entry_page').value}\nMy main question is: `;
+        const text = `Hello ${config.brand},\nI would like to discuss: ${(goal.value || 'pricing, samples or choosing products').toLowerCase()}.\nProduct / topic: ${selectedProduct}\nPage: ${field('entry_page').value}\nMy main question is: `;
         if (wa) wa.href = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(text)}`;
         if (email) email.href = `mailto:${config.email}?subject=${encodeURIComponent(config.brand + ' — ' + (goal.value || 'Product inquiry'))}&body=${encodeURIComponent(text)}`;
       }

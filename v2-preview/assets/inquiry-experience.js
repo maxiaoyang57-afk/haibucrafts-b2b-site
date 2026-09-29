@@ -68,7 +68,7 @@
       link.href = target.href;
       if (link.closest('main') && /^(?:Get Quote|Request Quote|Send Inquiry|Request a Quote|Request a B2B Quote)(?:\s*[→›])?$/i.test(link.textContent.trim())) {
         const isProductCard = link.closest('.product-card, .product-card-v2, [data-product-card]');
-        link.textContent = isProductCard ? 'Ask us' : copy[kind][0];
+        link.textContent = isProductCard ? 'Ask us' : kind === 'product' ? 'Ask about this product' : copy[kind][0];
         link.setAttribute('aria-label', isProductCard ? `Ask us about ${sku || title}` : copy[kind][0]);
         link.style.whiteSpace = 'normal';
         link.style.overflowWrap = 'anywhere';
@@ -106,14 +106,15 @@
     if (forms.length && ownScript && !document.querySelector('[data-inquiry-style]')) {
       const css = document.createElement('link');
       css.rel = 'stylesheet';
-      css.href = ownScript.src.replace(/\.js(?:\?.*)?$/, '.css?v=20260929');
+      css.href = ownScript.src.replace(/\.js(?:\?.*)?$/, '.css?v=20260929-simple');
       document.head.appendChild(css);
     }
     forms.forEach(form => {
       const panel = form.querySelector('[data-inquiry-preferences]');
       if (!panel) return;
       const field = name => form.elements.namedItem(name);
-      const goal = field('inquiry_goal');
+      const goal = field('inquiry_goal') || { value: '' };
+      const contactEmail = field('email');
       const channel = field('preferred_contact');
       const phone = field(config.phoneField);
       const message = field('message');
@@ -139,19 +140,29 @@
       addHidden('entry_page', config.origin + entryPath.split('?')[0].split('#')[0]);
       addHidden('entry_title', tidy(params.get('entry_title') || pageTitle));
       if (params.get('application') && !field('application')) addHidden('application', tidy(params.get('application')));
-      const wa = panel.querySelector('[data-inquiry-whatsapp]');
-      const email = panel.querySelector('[data-inquiry-email]');
+      const wa = form.querySelector('[data-inquiry-whatsapp]');
+      const email = form.querySelector('[data-inquiry-email]');
       function update() {
         const selected = goals[goal.value];
         const help = panel.querySelector('[data-inquiry-help]');
         if (help) help.textContent = selected ? selected[1] : 'Share what you know. Approximate quantities and early-stage ideas are welcome.';
-        if (message) message.placeholder = selected ? selected[1] : 'Which product or idea interests you, and what would you like to know first?';
+        if (message) message.placeholder = 'Ask about prices, samples or customization. Share whatever you know.';
+        const wantsWhatsApp = channel.value === 'WhatsApp';
+        if (contactEmail) {
+          contactEmail.required = !wantsWhatsApp;
+          contactEmail.disabled = wantsWhatsApp;
+          const label = contactEmail.closest('[data-contact-field]');
+          if (label) label.hidden = wantsWhatsApp;
+        }
         if (phone) {
-          phone.required = channel.value === 'WhatsApp';
+          phone.required = wantsWhatsApp;
+          phone.disabled = !wantsWhatsApp;
+          const label = phone.closest('[data-contact-field]');
+          if (label) label.hidden = !wantsWhatsApp;
           const requirement = phone.closest('label')?.querySelector('[data-phone-requirement]');
           if (requirement) requirement.textContent = phone.required ? '(required for WhatsApp)' : '(optional)';
           phone.setAttribute('aria-label', phone.required ? 'WhatsApp number with country code (required for WhatsApp replies)' : 'WhatsApp number (optional)');
-          phone.placeholder = phone.required ? '+ Country code and number' : '+ Country code (optional)';
+          phone.placeholder = '+ Country code and number';
           const validPhone = /^\+[\d\s().-]+$/.test(phone.value.trim()) && /^[0-9]{7,15}$/.test(phone.value.replace(/\D/g, ''));
           phone.setCustomValidity(phone.required && phone.value.trim() && !validPhone ? 'Include + and your country code, followed by your WhatsApp number.' : '');
           const details = phone.closest('details');

@@ -27,76 +27,18 @@
     <section class="section">
       <div class="container quote-shell">
         <div class="scope-note" id="quoteContext" hidden><strong>Selected product:</strong> <span id="selectedProduct"></span></div>
-        <form class="quote-form" data-quote-form>
-<fieldset class="inquiry-preferences" data-inquiry-preferences>
-  <legend>Start with what you need</legend>
-  <p data-inquiry-intro>Looking for prices, samples, a custom design or help choosing? Start with what matters to you.</p>
-  <div class="inquiry-preferences-grid"><label>What would you like help with? (optional)<select name="inquiry_goal"><option value="" selected>Select a next step</option><option value="Price and availability">Price and availability</option><option value="Samples first">Samples first</option><option value="Custom development">Custom development</option><option value="Help choosing products">Help choosing products</option><option value="Repeat order">Repeat order</option></select></label><label>How would you like us to reply?<select name="preferred_contact"><option value="Email" selected>Email</option><option value="WhatsApp">WhatsApp</option></select></label></div><details class="inquiry-extra"><summary>Add buying stage and priorities (optional)</summary><div class="inquiry-preferences-grid"><label>Where are you in your buying process?<select name="buying_stage"><option value="" selected>Optional</option><option value="Exploring options">Exploring options</option><option value="Testing samples">Testing samples</option><option value="Ready to order">Ready to order</option><option value="Planning a repeat order">Planning a repeat order</option></select></label><label>What should we address first?<select name="first_priority"><option value="" selected>Optional</option><option value="Price and shipping cost">Price and shipping cost</option><option value="Minimum order and mixed styles">Minimum order and mixed styles</option><option value="Samples and product suitability">Samples and product suitability</option><option value="Delivery timing">Delivery timing</option><option value="Custom design or packaging">Custom design or packaging</option></select></label></div></details>
-  <p data-inquiry-help>Share what you know. Approximate quantities and early-stage ideas are welcome.</p>
-  <p class="inquiry-contact-note">The form uses email to identify your request. Our team will use your selected reply method. For WhatsApp replies, include your number with country code below.</p>
-  <p class="inquiry-contact-note">Prefer to start a conversation without filling in the form?</p>
-  <div class="inquiry-direct"><a href="mailto:sales@haibucrafts.com" data-inquiry-direct="email" data-inquiry-email>Email your question</a><a href="https://wa.me/8618632026595" target="_blank" rel="noopener noreferrer" data-inquiry-direct="whatsapp" data-inquiry-whatsapp>Ask on WhatsApp</a></div>
-</fieldset>
-
-          <fieldset class="quote-section">
-            <legend><span>1</span> Contact details</legend>
-            <p class="quote-section-note">Add your name, email and country. A WhatsApp number is only required if you choose WhatsApp replies.</p>
-            <div class="quote-grid">
-              <label>Full Name <span class="field-required">(required)</span><input name="name" autocomplete="name" required></label>
-              <label>Business Email <span class="field-required">(required)</span><input name="email" type="email" autocomplete="email" spellcheck="false" required></label>
-              <label>Country / Region <span class="field-required">(required)</span><input name="country" autocomplete="country-name" required></label>
-              <label>WhatsApp / Phone <span class="field-optional" data-phone-requirement>(optional)</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel"></label>
-            </div>
-          </fieldset>
-
-          <fieldset class="quote-section">
-            <legend><span>2</span> Product request</legend>
-            <p class="quote-section-note">Product-card selections are filled automatically and remain editable.</p>
-            <div class="quote-grid">
-              <label>Product Category <span class="field-optional">(optional)</span><select name="category" id="categoryField"><option value="">Select a category</option><option value="slime-charms">Slime Charms</option><option value="polymer-clay-slices">Polymer Clay Slices</option><option value="resin-charms">Resin Charms</option><option value="sequins-glitter-confetti">Sequins &amp; Glitter Confetti</option></select></label>
-              <label>Estimated Order Quantity <span class="field-optional">(optional)</span><input name="quantity" inputmode="text" placeholder="Example: 5,000 pieces or 200 packs"></label>
-              <label>Product Code(s) <span class="field-optional">(optional)</span><input name="sku" id="productField" autocomplete="off" spellcheck="false" placeholder="Example: RW4252, YX043"></label>
-              <label>Product Name <span class="field-optional">(optional)</span><input name="product" id="productNameField" autocomplete="off" placeholder="Example: Halloween slime charm mix"></label>
-              <label class="full">Project Details <span class="field-optional">(optional)</span><textarea name="message" placeholder="Example: Include theme, dimensions, colors, destination market and target date."></textarea></label>
-              <label class="full upload-field">Reference Images <span class="field-optional">(optional)</span><span class="field-note" id="referenceImageHelp">Upload up to 4 JPG, PNG or WebP images. Large images are optimized automatically before sending.</span><input type="file" name="reference_images" accept="image/jpeg,image/png,image/webp" multiple aria-describedby="referenceImageHelp referenceImageStatus"><span class="upload-status" id="referenceImageStatus" role="status" aria-live="polite"></span></label>
-              <div class="upload-previews full" id="referenceImagePreviews" aria-label="Selected reference images" hidden></div>
-            </div>
-          </fieldset>
-
-          <details class="quote-more full">
-            <summary>More project requirements <span>optional</span></summary>
-            <p>Add company, contact, timing, customization and packaging details when available.</p>
-            <div class="quote-grid">
-              <label>Company Name <span class="field-optional">(optional)</span><input name="company" autocomplete="organization"></label>
-
-              <label>Company Website <span class="field-optional">(optional)</span><input name="website" type="url" inputmode="url" autocomplete="url" spellcheck="false" placeholder="Example: https://example.com"></label>
-              <label>Target Arrival Date <span class="field-optional">(optional)</span><input name="target_delivery_date" id="targetDeliveryDateField" type="date"></label>
-              <label>Intended Use <span class="field-optional">(optional)</span><input name="intended_use" placeholder="Example: slime, DIY kit, retail pack or nail art"></label>
-              <label>Customization Required? <span class="field-optional">(optional)</span><select name="customization"><option value="">Select an option</option><option>Stock product only</option><option>Custom colors or assortment</option><option>Private label packaging</option><option>Custom product development</option></select></label>
-              <label class="full">Packaging Requirements <span class="field-optional">(optional)</span><input name="packaging" placeholder="Example: retail pouch with label and barcode"></label>
-            </div>
-          </details>
-
-          <input type="hidden" name="attribution_source" id="sourceField">
-          <input type="hidden" name="first_landing_page" id="landingField">
-          <input type="hidden" name="article" id="articleField">
-          <input type="hidden" name="product_image" id="imageField">
-          <input type="hidden" name="first_referrer" id="referrerField">
-          <input type="hidden" name="inquiry_page" id="inquiryPageField">
-          <input type="text" name="_company_fax" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true">
-          <div class="quote-submit full">
+        <form class="quote-form inquiry-simple" data-quote-form=""><input type="hidden" name="attribution_source" id="sourceField"><input type="hidden" name="first_landing_page" id="landingField"><input type="hidden" name="article" id="articleField"><input type="hidden" name="product_image" id="imageField"><input type="hidden" name="first_referrer" id="referrerField"><input type="hidden" name="inquiry_page" id="inquiryPageField"><input type="text" name="_company_fax" tabindex="-1" autocomplete="off" class="honeypot" aria-hidden="true"><input type="hidden" name="inquiry_mode" value="simple"><fieldset class="inquiry-preferences" data-inquiry-preferences=""><legend>Send us a question</legend><label class="simple-field"><span>What would you like to know? *</span><textarea name="message" placeholder="Ask about prices, samples or customization. Share whatever you know." rows="3" required=""></textarea></label><div class="simple-contact-row"><label class="simple-field"><span>Reply via</span><select name="preferred_contact"><option value="Email" selected="">Email</option><option value="WhatsApp">WhatsApp</option></select></label><label class="simple-field" data-contact-field="email"><span>Email *</span><input name="email" type="email" autocomplete="email" spellcheck="false" placeholder="you@company.com" required=""></label><label class="simple-field" data-contact-field="phone" hidden=""><span>WhatsApp number *</span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+ Country code and number" disabled=""></label></div><p class="inquiry-contact-note">We will reply using your selected contact method.</p></fieldset><label class="full upload-field">Reference Images <span class="field-optional">(optional)</span><span class="field-note" id="referenceImageHelp">Optional: up to 4 JPG, PNG or WebP images.</span><input type="file" name="reference_images" accept="image/jpeg,image/png,image/webp" multiple="" aria-describedby="referenceImageHelp referenceImageStatus"><span class="upload-status" id="referenceImageStatus" role="status" aria-live="polite"></span></label><div class="upload-previews full" id="referenceImagePreviews" aria-label="Selected reference images" hidden=""></div><details class="simple-options"><summary>Add details (optional)</summary><div class="simple-options-grid"><label class="simple-field"><span>Your name (optional)</span><input name="name" autocomplete="name" placeholder=""></label><label class="simple-field"><span>Destination country (optional)</span><input name="country" autocomplete="country-name" placeholder=""></label><label class="simple-field"><span>Category (optional)</span><select name="category" id="categoryField"><option value="">Select a category</option><option value="slime-charms">Slime Charms</option><option value="polymer-clay-slices">Polymer Clay Slices</option><option value="resin-charms">Resin Charms</option><option value="sequins-glitter-confetti">Sequins &amp; Glitter Confetti</option></select></label><label class="simple-field"><span>Approximate quantity (optional)</span><input name="quantity" inputmode="text" placeholder="Example: 5,000 pieces or 200 packs"></label><label class="simple-field"><span>Product code(s) (optional)</span><input name="sku" id="productField" autocomplete="off" spellcheck="false" placeholder="Example: RW4252, YX043"></label><label class="simple-field"><span>Product (optional)</span><input name="product" id="productNameField" autocomplete="off" placeholder="Example: Halloween slime charm mix"></label><label class="simple-field"><span>Company / brand (optional)</span><input name="company" autocomplete="organization" placeholder=""></label><label class="simple-field"><span>Company website (optional)</span><input name="website" type="url" inputmode="url" autocomplete="url" spellcheck="false" placeholder="Example: https://example.com"></label><label class="simple-field"><span>Target arrival date (optional)</span><input name="target_delivery_date" id="targetDeliveryDateField" type="date" placeholder=""></label><label class="simple-field"><span>Intended use (optional)</span><input name="intended_use" placeholder="Example: slime, DIY kit, retail pack or nail art"></label><label class="simple-field"><span>Customization (optional)</span><select name="customization"><option value="">Select an option</option><option>Stock product only</option><option>Custom colors or assortment</option><option>Private label packaging</option><option>Custom product development</option></select></label><label class="simple-field"><span>Packaging (optional)</span><input name="packaging" placeholder="Example: retail pouch with label and barcode"></label></div></details><div class="quote-submit full">
             <button class="btn btn-primary" type="submit">Send My Request</button>
             <p class="quote-privacy">Reference images are used only to review this inquiry and are delivered with your request.</p>
             <p id="formStatus" aria-live="polite" aria-atomic="true"></p>
-          </div>
-        </form>
+          </div><p class="simple-direct">Prefer to contact us directly? <a href="mailto:sales@haibucrafts.com" data-inquiry-direct="email" data-inquiry-email="">Email your question</a><a href="https://wa.me/8618632026595" target="_blank" rel="noopener noreferrer" data-inquiry-direct="whatsapp" data-inquiry-whatsapp="">Ask on WhatsApp</a></p></form>
         <div class="scope-note">You can start with a question or an idea. Our team will confirm the next step based on your request.</div>
       </div>
     </section>
   </main>
   <div data-site-footer></div>
   <script src="/assets/v2/components.js"></script>
-  <script src="/assets/v2/site-v2.js"></script><script src="/assets/v2/inquiry-experience.js?v=20260929-audit" defer></script>
+  <script src="/assets/v2/site-v2.js"></script><script src="/assets/v2/inquiry-experience.js?v=20260929-simple" defer></script>
   <script src="/assets/v2/quote-runtime-config.js"></script>
   <script src="/assets/v2/quote-preview.js?v=20260929-intent"></script>
 </body>

@@ -11,6 +11,7 @@ const ALLOWED_ORIGINS = new Set([
   'https://haibucrafts.com'
 ]);
 const LABELS = {
+  inquiry_mode: 'Inquiry Form',
   inquiry_goal: 'Buyer Wants',
   preferred_contact: 'Reply Via (Buyer Preference)',
   buying_stage: 'Buying Stage',
@@ -148,7 +149,17 @@ export default async function handler(req, res) {
 
   const fields = prepareFields(body?.fields);
   const email = fields.email || '';
-  if (!fields.name || !isEmail(email) || !fields.country) {
+  const simple = fields.inquiry_mode === 'simple';
+  if (simple && !fields.message) {
+    return json(res, 400, { ok: false, message: 'Please tell us what you would like to know' });
+  }
+  if (simple && fields.preferred_contact !== 'WhatsApp' && !isEmail(email)) {
+    return json(res, 400, { ok: false, message: 'Please enter a valid email for our reply' });
+  }
+  if (simple && email && !isEmail(email)) {
+    return json(res, 400, { ok: false, message: 'Please enter a valid email or leave it blank for WhatsApp replies' });
+  }
+  if (!simple && (!fields.name || !isEmail(email) || !fields.country)) {
     return json(res, 400, { ok: false, message: 'Name, valid email and country are required' });
   }
   if (fields.preferred_contact && !['Email', 'WhatsApp'].includes(fields.preferred_contact)) {
@@ -199,7 +210,7 @@ export default async function handler(req, res) {
   const primaryPayload = {
     from,
     to: [to],
-    reply_to: email,
+    ...(email ? { reply_to: email } : {}),
     subject,
     text,
     html,

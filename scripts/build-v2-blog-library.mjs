@@ -364,7 +364,7 @@ for (const article of articles) {
 ${article.relatedCollection ? `  <section class="section alt"><div class="container"><div class="section-head"><span class="eyebrow">Related wholesale collection</span><h2>${escapeHtml(article.relatedCollection.heading)}</h2><p>${escapeHtml(article.relatedCollection.body)}</p></div><div class="actions"><a class="btn btn-primary" href="${article.relatedCollection.href}">${escapeHtml(article.relatedCollection.label)}</a></div></div></section></main>` : '  </main>'}
   <div data-site-footer></div>
   <script src="/v2-preview/assets/components.js"></script>
-  <script src="/v2-preview/assets/site-v2.js"></script><script src="/v2-preview/assets/inquiry-experience.js?v=20260929-audit" defer></script>
+  <script src="/v2-preview/assets/site-v2.js"></script><script src="/v2-preview/assets/inquiry-experience.js?v=20260929-simple" defer></script>
 </body>
 </html>
 `;
@@ -414,7 +414,7 @@ const hub = `<!DOCTYPE html>
   </main>
   <div data-site-footer></div>
   <script src="/v2-preview/assets/components.js"></script>
-  <script src="/v2-preview/assets/site-v2.js"></script><script src="/v2-preview/assets/inquiry-experience.js?v=20260929-audit" defer></script>
+  <script src="/v2-preview/assets/site-v2.js"></script><script src="/v2-preview/assets/inquiry-experience.js?v=20260929-simple" defer></script>
 </body>
 </html>
 `;

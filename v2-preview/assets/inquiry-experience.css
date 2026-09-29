@@ -12,3 +12,23 @@
 @media(max-width:620px){.inquiry-preferences{padding:16px}.inquiry-preferences-grid{grid-template-columns:minmax(0,1fr)}.inquiry-preferences select,.inquiry-preferences input{font-size:16px}.inquiry-direct a{flex:1}}
 
 .inquiry-extra{margin:16px 0}.inquiry-extra summary{cursor:pointer;font-size:14px;font-weight:600;margin-bottom:12px}.inquiry-extra .inquiry-preferences-grid{margin-top:12px}
+
+/* Short inquiry: one question and one reply address. */
+form.inquiry-simple{display:block;min-width:0}
+.inquiry-simple .inquiry-preferences{border:0;padding:0;background:transparent;margin:0 0 16px;min-width:0}
+.inquiry-simple .inquiry-preferences legend{padding:0;margin:0 0 16px;font-size:22px}
+.inquiry-simple .simple-field{display:flex;flex-direction:column;gap:6px;min-width:0;font-size:14px;font-weight:700}
+.inquiry-simple .simple-field input,.inquiry-simple .simple-field select,.inquiry-simple .simple-field textarea{width:100%;min-width:0;margin:0;padding:11px 12px;border:1px solid var(--line,#ded8e4);border-radius:9px;background:#fff;font:inherit;font-weight:400;box-sizing:border-box}
+.inquiry-simple .simple-field textarea{min-height:110px;resize:vertical}
+.inquiry-simple .simple-contact-row{display:grid;grid-template-columns:145px minmax(0,1fr);gap:14px;margin-top:16px}
+.inquiry-simple [hidden]{display:none!important}
+.inquiry-simple .simple-options{margin:16px 0;padding:12px 0;border-top:1px solid var(--line,#ded8e4);border-bottom:1px solid var(--line,#ded8e4)}
+.inquiry-simple .simple-options summary{cursor:pointer;font-size:14px;font-weight:700}
+.inquiry-simple .simple-options-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}
+.inquiry-simple .upload-panel{margin:16px 0;padding:14px}
+.inquiry-simple .upload-panel h4{margin:0 0 5px;font-size:14px}
+.inquiry-simple .upload-panel p{font-size:12px;margin:6px 0}
+.inquiry-simple .upload-field{display:grid;gap:6px;font-size:14px}
+.inquiry-simple .simple-direct{font-size:12px;margin:16px 0 0;line-height:1.8}
+.inquiry-simple .simple-direct a{margin-right:10px;color:var(--brand-dark,#553374);text-underline-offset:3px}
+@media(max-width:620px){.inquiry-simple .simple-contact-row,.inquiry-simple .simple-options-grid{grid-template-columns:minmax(0,1fr)}.inquiry-simple .simple-field input,.inquiry-simple .simple-field select,.inquiry-simple .simple-field textarea{font-size:16px}}

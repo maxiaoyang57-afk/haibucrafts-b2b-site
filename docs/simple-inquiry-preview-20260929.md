@@ -10,3 +10,7 @@ User-approved direction: a question plus one chosen reply address; other details
 - QULA keeps the existing native multipart FormSubmit action and backup recipient. No actual inquiry was sent during verification.
 
 Validation: six isolated form flows including source-preview; HAIBU 158 tests passed including phone-only/email-only delivery mocks and invalid/empty request rejection; QULA recipient/backup, native attachment, protected catalog, SEO, IndexNow and basket gates passed. Browser preview reviewed separately.
+
+## Revised presentation after buyer feedback
+
+Centered single card on dedicated inquiry pages; reduced hero height; QULA sidebar removed, custom scope retained below the form in an optional disclosure. Email/WhatsApp use two directly selectable buttons with synchronized required contact fields; native select retained as no-JS fallback. No change to delivery endpoints or validation.

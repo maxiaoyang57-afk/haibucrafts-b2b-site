@@ -32,3 +32,38 @@ form.inquiry-simple{display:block;min-width:0}
 .inquiry-simple .simple-direct{font-size:12px;margin:16px 0 0;line-height:1.8}
 .inquiry-simple .simple-direct a{margin-right:10px;color:var(--brand-dark,#553374);text-underline-offset:3px}
 @media(max-width:620px){.inquiry-simple .simple-contact-row,.inquiry-simple .simple-options-grid{grid-template-columns:minmax(0,1fr)}.inquiry-simple .simple-field input,.inquiry-simple .simple-field select,.inquiry-simple .simple-field textarea{font-size:16px}}
+
+/* Refined presentation: a single card and visible contact-method choices. */
+.inquiry-page-refined main{background:#f8f7fb;padding-bottom:44px}
+.inquiry-page-refined .page-hero{background:transparent;padding:30px 0 20px;text-align:center}
+.inquiry-page-refined .page-hero .container{max-width:780px}
+.inquiry-page-refined .page-hero h1{font-size:clamp(29px,3.3vw,42px);line-height:1.15;margin:12px 0;letter-spacing:-.035em}
+.inquiry-page-refined .page-hero p{font-size:16px;line-height:1.6;margin:10px auto;max-width:620px}
+.inquiry-page-refined .page-hero .eyebrow{display:none}
+.inquiry-page-refined .page-hero .breadcrumb,.inquiry-page-refined .page-hero .breadcrumbs{font-size:12px;justify-content:center}
+.inquiry-page-refined main>.section{padding:0 0 24px}
+.inquiry-page-refined .quote-layout,.inquiry-page-refined .quote-shell{display:block;max-width:760px;padding:0;background:transparent;border:0;border-radius:0;box-shadow:none}
+.inquiry-page-refined form.inquiry-simple{padding:28px 32px;background:#fff;border:1px solid #ebe6ef;border-radius:20px;box-shadow:0 12px 36px #30243a08}
+.inquiry-page-refined .quote-shell>.scope-note{margin:12px 0}
+.inquiry-simple .inquiry-preferences legend{font-size:21px;letter-spacing:-.02em;color:var(--ink,#302b35)}
+.inquiry-simple .simple-contact-row{grid-template-columns:minmax(0,1fr);gap:12px;margin-top:20px}
+.contact-methods{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.contact-methods-title{grid-column:1/-1;font-size:14px;font-weight:700;margin-bottom:2px}
+.contact-methods button{display:flex;justify-content:center;align-items:center;gap:8px;min-height:46px;padding:10px 16px;border:1px solid #ded8e6;border-radius:10px;background:#fff;color:#5b5264;font:inherit;font-weight:600;cursor:pointer}
+.contact-methods button:before{content:'';width:13px;height:13px;border:1px solid #b7adbf;border-radius:50%;background:#fff}
+.contact-methods button[aria-pressed=true]{border-color:#78619a;background:#f5f0fa;color:#563a75;box-shadow:inset 0 0 0 1px #78619a}
+.contact-methods button[aria-pressed=true]:before{border:4px solid #78619a}
+.inquiry-simple .simple-field textarea{min-height:100px}
+.inquiry-simple .simple-options{margin:12px 0;padding:12px 0}
+.inquiry-simple .upload-field{padding:10px 0;gap:4px}
+.inquiry-simple .upload-field .field-optional{display:inline;font-weight:400}
+.inquiry-simple .upload-field input[type=file]{padding:8px;font-size:12px}
+.inquiry-simple .upload-field .field-note{font-size:12px}
+.inquiry-simple .quote-submit{margin-top:16px;padding-top:0}
+.inquiry-page-refined .inquiry-simple button[type=submit]{width:100%;min-height:48px;height:auto!important;margin-top:12px!important;font-size:16px!important;box-shadow:none}
+.inquiry-simple .simple-direct{display:flex;justify-content:center;flex-wrap:wrap;gap:4px 8px;color:#736a7c}
+.inquiry-simple .simple-direct a{margin-right:0}
+.inquiry-scope-note{margin:16px 0 0;font-size:12px;color:#736a7c;border-top:1px solid #eee8f1;padding-top:12px}
+.inquiry-scope-note summary{cursor:pointer}
+.inquiry-scope-note p{font-size:12px;line-height:1.65;margin:8px 0}
+@media(max-width:620px){.inquiry-page-refined .page-hero{padding:22px 0 16px}.inquiry-page-refined form.inquiry-simple{padding:22px 18px;border-radius:16px}.inquiry-page-refined .quote-layout,.inquiry-page-refined .quote-shell{width:calc(100% - 28px)}}

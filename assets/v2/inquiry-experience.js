@@ -106,7 +106,7 @@
     if (forms.length && ownScript && !document.querySelector('[data-inquiry-style]')) {
       const css = document.createElement('link');
       css.rel = 'stylesheet';
-      css.href = ownScript.src.replace(/\.js(?:\?.*)?$/, '.css?v=20260929-simple');
+      css.href = ownScript.src.replace(/\.js(?:\?.*)?$/, '.css?v=20260929-refined');
       document.head.appendChild(css);
     }
     forms.forEach(form => {
@@ -117,6 +117,31 @@
       const contactEmail = field('email');
       const channel = field('preferred_contact');
       const phone = field(config.phoneField);
+      const methods = document.createElement('div');
+      methods.className = 'contact-methods';
+      methods.setAttribute('role', 'group');
+      methods.setAttribute('aria-label', 'How should we reply?');
+      const methodTitle = document.createElement('span');
+      methodTitle.className = 'contact-methods-title';
+      methodTitle.textContent = 'How should we reply?';
+      methods.appendChild(methodTitle);
+      for (const method of ['Email', 'WhatsApp']) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = method;
+        button.dataset.replyMethod = method;
+        button.addEventListener('click', () => {
+          channel.value = method;
+          channel.dispatchEvent(new Event('change', { bubbles: true }));
+        });
+        methods.appendChild(button);
+      }
+      const channelLabel = channel.closest('label');
+      if (channelLabel) {
+        channelLabel.before(methods);
+        channelLabel.hidden = true;
+      }
+
       const message = field('message');
       const quantity = field('quantity');
       const kind = Object.hasOwn(copy, params.get('entry_context')) ? params.get('entry_context') : infer(path, params.get('sku') || params.get('product_code'));
@@ -148,6 +173,9 @@
         if (help) help.textContent = selected ? selected[1] : 'Share what you know. Approximate quantities and early-stage ideas are welcome.';
         if (message) message.placeholder = 'Ask about prices, samples or customization. Share whatever you know.';
         const wantsWhatsApp = channel.value === 'WhatsApp';
+        methods.querySelectorAll('[data-reply-method]').forEach(button => {
+          button.setAttribute('aria-pressed', String(button.dataset.replyMethod === channel.value));
+        });
         if (contactEmail) {
           contactEmail.required = !wantsWhatsApp;
           contactEmail.disabled = wantsWhatsApp;

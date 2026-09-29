@@ -423,7 +423,7 @@
       setUploadStatus('');
       if (status) {
         const reference = typeof payload.requestId === 'string' ? payload.requestId.slice(0, 8) : '';
-        status.textContent = `Inquiry sent successfully. Our sales team will review the submitted requirements.${reference ? ` Reference: ${reference}.` : ''}`;
+        status.textContent = `Inquiry sent successfully. Our team will review your request and use your selected reply method.${reference ? ` Reference: ${reference}.` : ''}`;
       }
     } catch (error) {
       if (status) status.textContent = error instanceof Error ? error.message : 'Inquiry could not be sent.';

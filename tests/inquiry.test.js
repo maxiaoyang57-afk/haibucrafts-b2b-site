@@ -202,3 +202,53 @@ test('omits an invalid or duplicate backup recipient without blocking the primar
     else delete process.env.INQUIRY_BCC_EMAIL;
   }
 });
+
+test('rejects unsupported reply methods and incomplete WhatsApp numbers before delivery', async () => {
+  for (const fields of [
+    { preferred_contact: 'Telegram' },
+    { preferred_contact: 'WhatsApp', phone: '' },
+    { preferred_contact: 'WhatsApp', phone: '123' },
+    { preferred_contact: 'WhatsApp', phone: '8618632026595' }
+  ]) {
+    const req = request();
+    Object.assign(req.body.fields, fields);
+    const res = responseHarness();
+    await handler(req, res);
+    assert.equal(res.statusCode, 400);
+  }
+});
+
+test('includes buyer intent, reply preference, source and matching reference in delivery', async () => {
+  const originalFetch = globalThis.fetch;
+  const previousKey = process.env.RESEND_API_KEY;
+  process.env.RESEND_API_KEY = 're_test_key';
+  const submitted = [];
+  globalThis.fetch = async (_url, options) => {
+    submitted.push(JSON.parse(options.body));
+    return { ok: true, status: 200, json: async () => ({ id: 'email_test_intent' }) };
+  };
+  try {
+    const req = request();
+    Object.assign(req.body.fields, {
+      inquiry_goal: 'Samples first', preferred_contact: 'WhatsApp', phone: '+1 (202) 555-0199',
+      buying_stage: 'Testing samples', first_priority: 'Delivery timing',
+      entry_context: 'product', entry_title: 'Space Candy Adventure Charms',
+      entry_page: 'https://www.haibucrafts.com/products/slime-charms-wholesale/'
+    });
+    const res = responseHarness();
+    await handler(req, res);
+    assert.equal(res.statusCode, 200);
+    assert.match(submitted[0].subject, /Samples first \[Reply: WhatsApp\]/);
+    assert.match(submitted[0].text, /Buyer Wants: Samples first/);
+    assert.match(submitted[0].text, /Reply Via \(Buyer Preference\): WhatsApp/);
+    assert.match(submitted[0].text, /Buying Stage: Testing samples/);
+    assert.match(submitted[0].text, /Address This First: Delivery timing/);
+    assert.match(submitted[0].text, /Inquiry Entry Type: product/);
+    assert.ok(submitted[0].text.includes(JSON.parse(res.body).requestId.slice(0, 8)));
+    assert.equal(submitted[0].reply_to, 'buyer@example.com');
+  } finally {
+    globalThis.fetch = originalFetch;
+    if (previousKey) process.env.RESEND_API_KEY = previousKey;
+    else delete process.env.RESEND_API_KEY;
+  }
+});

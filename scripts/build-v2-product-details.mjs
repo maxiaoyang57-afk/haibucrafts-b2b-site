@@ -606,7 +606,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
   </main>
   <div data-site-footer></div>
   <script src="/v2-preview/assets/components.js"></script>
-  <script src="/v2-preview/assets/site-v2.js"></script><script src="/v2-preview/assets/inquiry-experience.js?v=20260929" defer></script>
+  <script src="/v2-preview/assets/site-v2.js"></script><script src="/v2-preview/assets/inquiry-experience.js?v=20260929-audit" defer></script>
 ${galleryScript}</body>
 </html>
 `;

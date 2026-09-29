@@ -76,7 +76,7 @@ test('Production quote enables optimized image attachments and preserves submiss
 
   assert.match(config, /mode: 'live'/);
   assert.match(config, /enableReferenceUploads: true/);
-  assert.match(quote, /reference-image uploads are active/);
+  assert.match(quote, /type="file" name="reference_images"[^>]*multiple/);
   assert.match(quote, /id="referenceImagePreviews"/);
   assert.match(styles, /\.upload-previews/);
   assert.match(runtime, /prepareReferenceImages/);

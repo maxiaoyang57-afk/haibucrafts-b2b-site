@@ -29,8 +29,15 @@
     catch { return path; }
   })();
   const publicPage = config.origin + canonicalPath;
+  const isProductPage = [...document.querySelectorAll('script[type="application/ld+json"]')].some(script => {
+    try {
+      const data = JSON.parse(script.textContent);
+      const nodes = Array.isArray(data) ? data : (data['@graph'] || [data]);
+      return nodes.some(node => [].concat(node['@type'] || []).includes('Product'));
+    } catch { return false; }
+  });
   const infer = (pathname, sku) => {
-    if (sku || /\/p-[^/]+\.html$/.test(pathname) || document.body.dataset.page === 'product-detail' || /\/products\/[^/]+\/[^/]+\/?$/.test(pathname)) return 'product';
+    if (sku || /\/p-[^/]+\.html$/.test(pathname) || document.body.dataset.page === 'product-detail' || isProductPage) return 'product';
     if (/guide-|\/blog\//.test(pathname)) return 'guide';
     if (/custom|private-label/.test(pathname)) return 'custom';
     if (/seasonal|halloween|christmas|\/themes\//.test(pathname)) return 'seasonal';
@@ -87,6 +94,14 @@
     document.querySelectorAll('a[href]').forEach(decorate);
     // Also covers search results and product cards inserted after page load.
     document.addEventListener('click', event => decorate(event.target.closest?.('a[href]')), true);
+    // Keep newly rendered search cards and navigation consistent before a click.
+    new MutationObserver(records => {
+      for (const record of records) for (const node of record.addedNodes) {
+        if (node.nodeType !== 1) continue;
+        if (node.matches('a[href]')) decorate(node);
+        node.querySelectorAll('a[href]').forEach(decorate);
+      }
+    }).observe(document.body, { childList: true, subtree: true });
     const forms = [...document.querySelectorAll(config.formSelector)];
     if (forms.length && ownScript && !document.querySelector('[data-inquiry-style]')) {
       const css = document.createElement('link');
@@ -109,7 +124,7 @@
       if (!goal.value && kind === 'custom') goal.value = 'Custom development';
       if (!goal.value && kind === 'guide') goal.value = 'Help choosing products';
       if (quantity?.tagName === 'SELECT' && !quantity.querySelector('option[value=""]')) {
-        const option = new Option('Not sure yet / tell us in your message', '', true, true);
+        const option = new Option('Not sure yet', '', true, true);
         quantity.prepend(option);
         quantity.value = '';
       }
@@ -136,7 +151,7 @@
           const requirement = phone.closest('label')?.querySelector('[data-phone-requirement]');
           if (requirement) requirement.textContent = phone.required ? '(required for WhatsApp)' : '(optional)';
           phone.setAttribute('aria-label', phone.required ? 'WhatsApp number with country code (required for WhatsApp replies)' : 'WhatsApp number (optional)');
-          phone.placeholder = phone.required ? 'Required for WhatsApp: + country code and number' : 'Optional: + country code and number';
+          phone.placeholder = phone.required ? '+ Country code and number' : '+ Country code (optional)';
           const validPhone = /^\+[\d\s().-]+$/.test(phone.value.trim()) && /^[0-9]{7,15}$/.test(phone.value.replace(/\D/g, ''));
           phone.setCustomValidity(phone.required && phone.value.trim() && !validPhone ? 'Include + and your country code, followed by your WhatsApp number.' : '');
           const details = phone.closest('details');

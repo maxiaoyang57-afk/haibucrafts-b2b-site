@@ -41,7 +41,7 @@
   function contextFor(link) {
     let target;
     try { target = new URL(link.href, location.href); } catch { return null; }
-    const scope = link.closest('.product-card, .pdp-cta, .product-detail, .detail-grid');
+    const scope = link.closest('.product-card, .product-card-v2, [data-product-card], .pdp-cta, .product-detail, .detail-grid');
     const productLink = scope?.querySelector('a[href*="sku="], a[href*="product_code="]');
     const productParams = productLink ? new URL(productLink.href, location.href).searchParams : target.searchParams;
     const sku = tidy(productParams.get('sku') || productParams.get('product_code') || scope?.querySelector('[data-sku]')?.dataset.sku, 100);
@@ -60,7 +60,13 @@
       if (!target.searchParams.has('entry_title')) target.searchParams.set('entry_title', title);
       link.href = target.href;
       if (link.closest('main') && /^(?:Get Quote|Request Quote|Send Inquiry|Request a Quote|Request a B2B Quote)(?:\s*[→›])?$/i.test(link.textContent.trim())) {
-        link.textContent = copy[kind][0];
+        const isProductCard = link.closest('.product-card, .product-card-v2, [data-product-card]');
+        link.textContent = isProductCard ? 'Ask us' : copy[kind][0];
+        link.setAttribute('aria-label', isProductCard ? `Ask us about ${sku || title}` : copy[kind][0]);
+        link.style.whiteSpace = 'normal';
+        link.style.overflowWrap = 'anywhere';
+        link.style.textAlign = 'center';
+        link.style.height = 'auto';
       }
     }
     if (target.hostname === 'wa.me' || target.hostname === 'api.whatsapp.com') {

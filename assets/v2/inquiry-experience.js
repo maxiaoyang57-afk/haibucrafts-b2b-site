@@ -106,7 +106,7 @@
     if (forms.length && ownScript && !document.querySelector('[data-inquiry-style]')) {
       const css = document.createElement('link');
       css.rel = 'stylesheet';
-      css.href = ownScript.src.replace(/\.js(?:\?.*)?$/, '.css?v=20260929-refined');
+      css.href = ownScript.src.replace(/\.js(?:\?.*)?$/, '.css?v=20260930-requirements');
       document.head.appendChild(css);
     }
     forms.forEach(form => {
@@ -171,7 +171,7 @@
         const selected = goals[goal.value];
         const help = panel.querySelector('[data-inquiry-help]');
         if (help) help.textContent = selected ? selected[1] : 'Share what you know. Approximate quantities and early-stage ideas are welcome.';
-        if (message) message.placeholder = 'Ask about prices, samples or customization. Share whatever you know.';
+        if (message) message.placeholder = 'Tell us the size, colors or styles you need. Would you like pricing, samples, or help choosing?';
         const wantsWhatsApp = channel.value === 'WhatsApp';
         methods.querySelectorAll('[data-reply-method]').forEach(button => {
           button.setAttribute('aria-pressed', String(button.dataset.replyMethod === channel.value));

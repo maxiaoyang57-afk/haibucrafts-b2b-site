@@ -1,7 +1,11 @@
-.quote-list-bar{background:#f4f1ff;border-bottom:1px solid #e4dcfa;padding:8px 0}
-.quote-list-bar .container{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-.quote-list-link{font-weight:750;color:#5440ad;min-height:44px;display:inline-flex;align-items:center;white-space:nowrap}
-.quote-list-notice{font-size:13px;color:#5b5870;flex:1;min-width:160px}
+.site-header .navbar{gap:14px}
+.site-header .nav{gap:14px}
+.site-header .quote-list-link{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;height:44px;min-height:44px;border:1px solid #ded6ee;border-radius:12px;background:#fff;color:#5440ad;text-decoration:none}
+.site-header .quote-list-link:hover{background:#f4f1ff;border-color:#a896d8}
+.quote-list-count{position:absolute;right:-5px;top:-5px;min-width:20px;height:20px;padding:0 4px;border-radius:999px;background:#6d5bd0;color:#fff;font-size:11px;font-weight:800;line-height:20px;text-align:center}
+.quote-list-notice{position:fixed;left:20px;bottom:24px;z-index:100;max-width:min(360px,calc(100vw - 40px));padding:12px 16px;border:1px solid #ded6ee;border-radius:12px;background:#fff;color:#49378f;font-size:14px;box-shadow:0 8px 30px #17203320;opacity:0;pointer-events:none}
+.quote-list-notice[data-visible=true]{opacity:1}
+@media(max-width:1180px){.site-header .quote-list-link{margin-left:auto}.site-header .menu-btn{margin-left:0}}
 .product-card-actions{flex-wrap:wrap}
 .product-card-actions .add-to-quote{flex-basis:100%;min-height:44px}
 .add-to-quote[aria-pressed=true]{background:#ece7fb;color:#49378f;border-color:#bbace8}
@@ -18,4 +22,4 @@
 .quote-list-copy input{width:100%;box-sizing:border-box;font-size:16px;min-height:44px}
 .quote-list-remove{min-height:44px}
 [data-quote-form][aria-busy=true] .quote-list-panel{pointer-events:none;opacity:.65}
-@media(max-width:600px){.quote-list-panel{padding:14px}.quote-list-item{grid-template-columns:56px minmax(0,1fr);gap:10px}.quote-list-item>img{width:56px;height:56px}.quote-list-remove{grid-column:2;justify-self:start}.quote-list-bar .container{gap:4px 12px}.quote-list-notice{font-size:12px}}
+@media(max-width:600px){.quote-list-panel{padding:14px}.quote-list-item{grid-template-columns:56px minmax(0,1fr);gap:10px}.quote-list-item>img{width:56px;height:56px}.quote-list-remove{grid-column:2;justify-self:start}}

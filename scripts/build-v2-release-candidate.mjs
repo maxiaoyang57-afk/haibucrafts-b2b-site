@@ -87,10 +87,10 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
     .replace(/<meta\s+name=["']description["']\s+content=["'][^"']*["']\s*\/?>/i, `<meta name="description" content="${route.description}">`)
     .replaceAll('Preview branch only. Not published to production.', 'Wholesale craft supply and B2B sourcing support.')
     .replaceAll(
-      'Current status:</strong> required-field validation, source tracking and reference-image preparation are active. Email sending remains disabled until production approval.',
-      'Inquiry status:</strong> secure email delivery, source tracking and reference-image uploads are active. Large images are optimized in your browser before sending.'
+      '<strong>Current status:</strong> required-field validation, source tracking and reference-image preparation are active. Email sending remains disabled until production approval.',
+      'You can start with a question or an idea. Our team will confirm the next step based on your request.'
     )
-    .replaceAll('>Validate Quote Request</button>', '>Send Quote Request</button>')
+    .replaceAll('>Validate Quote Request</button>', '>Send My Request</button>')
     .replaceAll('Site V2 Preview', 'HAIBUCRAFT')
     .replaceAll('V2 Preview', 'HAIBUCRAFT')
     .replaceAll('https://www.haibucrafts.com/assets/images/logo-haibu.webp', 'https://www.haibucrafts.com/brand/haibu-logo-header.png');

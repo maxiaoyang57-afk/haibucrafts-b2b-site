@@ -17,7 +17,7 @@
 
   const stylesheet = document.createElement('link');
   stylesheet.rel = 'stylesheet';
-  stylesheet.href = `${ASSET_ROOT}quote-list.css`;
+  stylesheet.href = `${ASSET_ROOT}quote-list.css?v=20260929-compact`;
   document.head.appendChild(stylesheet);
 
   const element = (tag, className, text) => {
@@ -26,8 +26,13 @@
     if (text) node.textContent = text;
     return node;
   };
+  let noticeTimer;
   const announce = (message) => {
-    if (notice) notice.textContent = message;
+    if (!notice) return;
+    notice.textContent = message;
+    notice.dataset.visible = 'true';
+    window.clearTimeout?.(noticeTimer);
+    noticeTimer = window.setTimeout?.(() => { notice.dataset.visible = 'false'; }, 6000);
   };
   const normalize = (input) => {
     if (!Array.isArray(input)) return [];
@@ -56,7 +61,9 @@
   const productPath = product => ROOT === '/' ? product.productionPath : product.previewPath;
   const updateCounts = () => {
     document.querySelectorAll('[data-quote-list-count]').forEach(node => {
-      node.textContent = `Quote list (${items.length})`;
+      const count = node.querySelector('.quote-list-count');
+      if (count) count.textContent = String(items.length);
+      node.title = `Quote list (${items.length})`;
       node.setAttribute('aria-label', `Review quote list, ${items.length} products`);
     });
     buttons.forEach(({ button, sku }) => {
@@ -154,16 +161,19 @@
         } catch { /* Try tab storage when persistent storage is unavailable. */ }
       }
       items = read();
-      const bar = element('div', 'quote-list-bar');
-      const inner = element('div', 'container');
       const review = element('a', 'quote-list-link');
-      review.href = `${ROOT}quote/?quote_list=1&source=quote-list`;
+      review.href = `${ROOT}request-quote/?quote_list=1&source=quote-list`;
       review.dataset.quoteListCount = '';
-      notice = element('span', 'quote-list-notice', storage ? storageNote || 'Select products for one wholesale inquiry.' : 'Quote list storage unavailable. Use Get Quote for a single product.');
+      review.innerHTML = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="5" y="4" width="14" height="17" rx="2"/><path d="M9 4V2h6v2M9 9h6M9 13h6M9 17h4"/></svg><span class="quote-list-count" aria-hidden="true">0</span>';
+      const navbar = document.querySelector('.site-header .navbar');
+      const menu = document.querySelector('.site-header .menu-btn');
+      if (navbar) navbar.insertBefore(review, menu);
+      notice = element('span', 'quote-list-notice');
       notice.setAttribute('role', 'status');
       notice.setAttribute('aria-live', 'polite');
-      inner.append(review, notice); bar.appendChild(inner);
-      document.querySelector('.site-header')?.insertAdjacentElement('afterend', bar);
+      document.querySelector('.site-header')?.appendChild(notice);
+      if (!storage) announce('Quote list storage unavailable. Use Get Quote for a single product.');
+      else if (storageNote) announce(storageNote);
       document.querySelectorAll('[data-product-card]').forEach(card => {
         const link = card.querySelector('.get-quote');
         const sku = link ? new URL(link.href).searchParams.get('product_code') : '';

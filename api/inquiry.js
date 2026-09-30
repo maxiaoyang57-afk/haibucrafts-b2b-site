@@ -11,6 +11,14 @@ const ALLOWED_ORIGINS = new Set([
   'https://haibucrafts.com'
 ]);
 const LABELS = {
+  inquiry_mode: 'Inquiry Form',
+  inquiry_goal: 'Buyer Wants',
+  preferred_contact: 'Reply Via (Buyer Preference)',
+  buying_stage: 'Buying Stage',
+  first_priority: 'Address This First',
+  entry_context: 'Inquiry Entry Type',
+  entry_title: 'Inquiry Entry Topic',
+  entry_page: 'Inquiry Entry Page',
   name: 'Contact Name',
   company: 'Company / Brand',
   email: 'Business Email',
@@ -141,8 +149,24 @@ export default async function handler(req, res) {
 
   const fields = prepareFields(body?.fields);
   const email = fields.email || '';
-  if (!fields.name || !isEmail(email) || !fields.country) {
+  const simple = fields.inquiry_mode === 'simple';
+  if (simple && !fields.message) {
+    return json(res, 400, { ok: false, message: 'Please tell us what you would like to know' });
+  }
+  if (simple && fields.preferred_contact !== 'WhatsApp' && !isEmail(email)) {
+    return json(res, 400, { ok: false, message: 'Please enter a valid email for our reply' });
+  }
+  if (simple && email && !isEmail(email)) {
+    return json(res, 400, { ok: false, message: 'Please enter a valid email or leave it blank for WhatsApp replies' });
+  }
+  if (!simple && (!fields.name || !isEmail(email) || !fields.country)) {
     return json(res, 400, { ok: false, message: 'Name, valid email and country are required' });
+  }
+  if (fields.preferred_contact && !['Email', 'WhatsApp'].includes(fields.preferred_contact)) {
+    return json(res, 400, { ok: false, message: 'Please choose Email or WhatsApp for our reply' });
+  }
+  if (fields.preferred_contact === 'WhatsApp' && (!/^\+[\d\s().-]+$/.test(fields.phone || '') || !/^[0-9]{7,15}$/.test((fields.phone || '').replace(/\D/g, '')))) {
+    return json(res, 400, { ok: false, message: 'Include a WhatsApp number with + and country code for WhatsApp replies' });
   }
 
   let attachments;
@@ -167,11 +191,12 @@ export default async function handler(req, res) {
 
   const product = quoteItems.length ? `${quoteItems.length} selected products` : fields.product || fields.product_display || 'General Wholesale Inquiry';
   const sku = quoteItems.length ? quoteItems.map(item => item.sku).join(', ') : fields.sku || fields.sku_display || '';
-  const subject = clean(`Wholesale quote request - ${product}${sku ? ` - ${sku}` : ''}`, 180);
+  const subject = clean(`${fields.inquiry_goal || 'Wholesale quote request'}${fields.preferred_contact ? ` [Reply: ${fields.preferred_contact}]` : ''} - ${product}${sku ? ` - ${sku}` : ''}`, 180);
   const rows = Object.entries(fields)
     .filter(([key]) => !key.endsWith('_display') || !fields[key.replace('_display', '')])
     .map(([key, value]) => [LABELS[key] || key, value]);
   const quoteText = quoteItems.map(item => `${item.sku}: ${item.title}\nQuantity: ${item.quantity || 'To be confirmed'}\nProduct: ${item.url}\nImage: ${item.image}`).join('\n\n');
+  rows.unshift(['Inquiry Reference', requestId.slice(0, 8)]);
   const text = rows.map(([label, value]) => `${label}: ${value}`).join('\n') + (quoteText ? `\n\nSelected products\n${quoteText}` : '');
   const quoteHtml = quoteItems.length ? `<h3>Selected products (${quoteItems.length})</h3><table>${quoteItems.map(item => `<tr><td style="padding:8px;vertical-align:top"><img src="${escapeHtml(item.image)}" width="72" height="72" alt="${escapeHtml(item.sku)}"></td><td style="padding:8px"><a href="${escapeHtml(item.url)}">${escapeHtml(item.sku)} - ${escapeHtml(item.title)}</a><br>Quantity: ${escapeHtml(item.quantity || 'To be confirmed')}</td></tr>`).join('')}</table>` : '';
   const html = `<!doctype html><html><body style="font-family:Arial,sans-serif;color:#302b35;line-height:1.55"><h2>${escapeHtml(subject)}</h2><table style="border-collapse:collapse;width:100%;max-width:760px">${rows.map(([label, value]) => `<tr><th style="text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid #e9dfe6;width:190px">${escapeHtml(label)}</th><td style="padding:8px;border-bottom:1px solid #e9dfe6;white-space:pre-wrap">${escapeHtml(value)}</td></tr>`).join('')}</table>${quoteHtml}${attachments.length ? `<p>${attachments.length} compressed reference image(s) attached.</p>` : ''}</body></html>`;
@@ -185,7 +210,7 @@ export default async function handler(req, res) {
   const primaryPayload = {
     from,
     to: [to],
-    reply_to: email,
+    ...(email ? { reply_to: email } : {}),
     subject,
     text,
     html,

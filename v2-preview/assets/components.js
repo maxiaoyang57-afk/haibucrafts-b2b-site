@@ -3,7 +3,7 @@
   const ASSET_ROOT = ROOT === '/' ? '/assets/v2/' : `${ROOT}assets/`;
   window.HAIBU_SITE_ROOT = ROOT;
   const quoteListScript = document.createElement('script');
-  quoteListScript.src = `${ASSET_ROOT}quote-list.js`;
+  quoteListScript.src = `${ASSET_ROOT}quote-list.js?v=20260929-compact`;
   window.HAIBU_QUOTE_LIST_READY = new Promise((resolve) => {
     quoteListScript.onload = () => resolve(window.HAIBU_QUOTE_LIST || null);
     quoteListScript.onerror = () => resolve(null);

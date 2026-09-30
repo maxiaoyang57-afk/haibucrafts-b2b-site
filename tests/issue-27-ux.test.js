@@ -36,17 +36,17 @@ test('Issue #27 provides touch targets, sticky offsets and mobile safe-area sepa
   assert.match(category, /has-category-mobile-quote \.back-top[\s\S]*?bottom: calc\(160px/);
 });
 
-test('Inquiry UX keeps three required fields and enables optimized reference uploads', async () => {
+test('Inquiry UX requires a question and one contact, and enables optimized reference uploads', async () => {
   const quote = await readPreview('quote', 'index.html');
   const runtime = await readPreview('assets', 'quote-preview.js');
 
-  assert.equal((quote.match(/class="field-required"/g) || []).length, 3);
+  assert.equal((quote.match(/required=""/g) || []).length, 2);
   assert.match(quote, /name="phone" type="tel" inputmode="tel" autocomplete="tel"/);
   assert.match(quote, /name="website" type="url" inputmode="url" autocomplete="url" spellcheck="false"/);
-  assert.match(quote, /Upload up to 4 JPG, PNG or WebP images/);
+  assert.match(quote, /Optional: up to 4 JPG, PNG or WebP images/);
   assert.match(quote, /accept="image\/jpeg,image\/png,image\/webp" multiple/);
   assert.match(quote, /id="referenceImagePreviews"/);
-  assert.match(quote, /More project requirements/);
+  assert.match(quote, /Add details/);
   assert.match(quote, /id="formStatus" aria-live="polite" aria-atomic="true"/);
   assert.match(runtime, /submitButton\.textContent = 'Sending…'/);
   assert.match(runtime, /form\.setAttribute\('aria-busy', 'true'\)/);
@@ -76,7 +76,7 @@ test('Production quote enables optimized image attachments and preserves submiss
 
   assert.match(config, /mode: 'live'/);
   assert.match(config, /enableReferenceUploads: true/);
-  assert.match(quote, /reference-image uploads are active/);
+  assert.match(quote, /type="file" name="reference_images"[^>]*multiple/);
   assert.match(quote, /id="referenceImagePreviews"/);
   assert.match(styles, /\.upload-previews/);
   assert.match(runtime, /prepareReferenceImages/);

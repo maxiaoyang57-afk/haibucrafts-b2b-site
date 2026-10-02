@@ -1,0 +1,277 @@
+{
+  "account": "https://www.haibucrafts.com/",
+  "range": {
+    "from": "2026-09-02",
+    "to": "2026-09-29"
+  },
+  "source": "Windsor.ai Search Console connector",
+  "rows": [
+    {
+      "page": "https://www.haibucrafts.com/products/slime-charms-wholesale/",
+      "clicks": 10,
+      "impressions": 235,
+      "ctr": 0.0426,
+      "position": 11.3277
+    },
+    {
+      "page": "https://www.haibucrafts.com/",
+      "clicks": 9,
+      "impressions": 32,
+      "ctr": 0.2812,
+      "position": 2.7188
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/polymer-clay-slices-wholesale/",
+      "clicks": 2,
+      "impressions": 257,
+      "ctr": 0.0078,
+      "position": 10.4942
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/resin-charms-for-slime/",
+      "clicks": 2,
+      "impressions": 189,
+      "ctr": 0.0106,
+      "position": 14.3545
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/sample-approval-checklist/",
+      "clicks": 1,
+      "impressions": 20,
+      "ctr": 0.05,
+      "position": 40.7
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/ocean/",
+      "clicks": 1,
+      "impressions": 14,
+      "ctr": 0.0714,
+      "position": 7.6429
+    },
+    {
+      "page": "https://www.haibucrafts.com/about/",
+      "clicks": 0,
+      "impressions": 26,
+      "ctr": 0,
+      "position": 7.7692
+    },
+    {
+      "page": "https://www.haibucrafts.com/about/b2b-export-supplier.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "page": "https://www.haibucrafts.com/about/editorial-policy/",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 5.9167
+    },
+    {
+      "page": "https://www.haibucrafts.com/applications/festivals-parties-weddings.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 6.1818
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/custom-oem-process.html",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/halloween-slime-charms-wholesale-buying-guide/",
+      "clicks": 0,
+      "impressions": 7,
+      "ctr": 0,
+      "position": 9.2857
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/how-to-prepare-a-wholesale-product-brief/",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 14.2222
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/packaging-quality-checkpoints/",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0,
+      "position": 8
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/polymer-clay-slice-buying-guide/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/polymer-clay-slices-buying-guide.html",
+      "clicks": 0,
+      "impressions": 9,
+      "ctr": 0,
+      "position": 4.5556
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/resin-charms-wholesale-buying-guide/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 6.3333
+    },
+    {
+      "page": "https://www.haibucrafts.com/blog/resin-vs-clay.html",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 4
+    },
+    {
+      "page": "https://www.haibucrafts.com/custom-solutions/",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0,
+      "position": 4.9583
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 6.7273
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/polymer-clay-slices-wholesale/yx043-colorful-candy-round-slices/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 4.2
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/resin-charms-for-slime.html",
+      "clicks": 0,
+      "impressions": 12,
+      "ctr": 0,
+      "position": 7.9167
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/resin-charms-for-slime/rw002859-green-ghost-flatback-charms/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/resin-charms-for-slime/rw26386-green-frog-flatback-charms/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 6.2
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/sequins-glitter-confetti/",
+      "clicks": 0,
+      "impressions": 29,
+      "ctr": 0,
+      "position": 9.6897
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/sequins-glitter-confetti/ma041-multicolor-round-confetti-assortment/",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 3
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/slime-charms-wholesale/slm26521-seashell-candy-decor-plate-mix/",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5
+    },
+    {
+      "page": "https://www.haibucrafts.com/products/slime-charms-wholesale/slm680-space-candy-adventure-charms/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 9
+    },
+    {
+      "page": "https://www.haibucrafts.com/quality-control/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 5.375
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/",
+      "clicks": 0,
+      "impressions": 16,
+      "ctr": 0,
+      "position": 4.25
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/bakery/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 14.2
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/floral/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 9.7273
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/food-and-treats/",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 2.3333
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/fruit/",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0,
+      "position": 5.8
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/generic-kawaii/",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0,
+      "position": 5.1667
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/holiday/",
+      "clicks": 0,
+      "impressions": 11,
+      "ctr": 0,
+      "position": 5.5455
+    },
+    {
+      "page": "https://www.haibucrafts.com/themes/western/",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0,
+      "position": 28.125
+    }
+  ],
+  "decision": "No returned rows for the seven targeted detail URLs. Preserve their current titles and descriptions. Next investigate query-level performance for polymer clay and resin category pages before changing metadata."
+}

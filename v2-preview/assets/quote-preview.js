@@ -84,6 +84,7 @@
     if (!quoteListMode) {
       setValue('sku', productCode);
       setValue('product', productName);
+      if (/^(5|10|20|30|50) g\/bag$/.test(value('packaging'))) setValue('packaging', value('packaging'));
     }
     if (form.dataset) {
       form.dataset.attributionPayload = JSON.stringify(inquiryAttribution);

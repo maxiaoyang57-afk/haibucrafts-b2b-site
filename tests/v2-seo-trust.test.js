@@ -40,10 +40,10 @@ test('all buyer guides show matching author and scope-review information', async
     const isResinGuide = directory.name === 'resin-charms-wholesale-buying-guide';
     const isPolymerGuide = directory.name === 'polymer-clay-slice-buying-guide';
     const isAmazonSellerGuide = directory.name === 'amazon-fba-craft-supplies-sourcing-checklist';
-    assert.equal(posting?.dateModified, isAmazonSellerGuide ? '2026-09-23' : isPolymerGuide ? '2026-09-22' : isResinGuide ? '2026-09-13' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
+    assert.equal(posting?.dateModified, isAmazonSellerGuide ? '2026-09-23' : isPolymerGuide ? '2026-10-02' : isResinGuide ? '2026-10-02' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
     assert.match(html, /By <a href="\/v2-preview\/about\/editorial-policy\/">HAIBUCRAFT Buyer Resources<\/a>/);
     assert.match(html, /Scope reviewed by/);
-    assert.match(html, isAmazonSellerGuide ? /Last reviewed September 23, 2026/ : isPolymerGuide ? /Last reviewed September 22, 2026/ : isResinGuide ? /Last reviewed September 13, 2026/ : isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
+    assert.match(html, isAmazonSellerGuide ? /Last reviewed September 23, 2026/ : isPolymerGuide ? /Last reviewed October 2, 2026/ : isResinGuide ? /Last reviewed October 2, 2026/ : isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
   }
 });
 
@@ -66,7 +66,7 @@ test('editorial policy is indexable in the production package and linked from Ab
 test('category source titles are concise and match approved search intent', async () => {
   const expected = new Map([
     ['products/slime-charms/index.html', 'Wholesale Slime Charms in Bulk | HAIBUCRAFT'],
-    ['products/polymer-clay-slices/index.html', 'Polymer Clay Slices Wholesale for Slime | HAIBUCRAFT'],
+    ['products/polymer-clay-slices/index.html', 'Polymer Clay Slices Wholesale & Bulk Sprinkles | HAIBUCRAFT'],
     ['products/resin-charms/index.html', 'Resin Charms Wholesale & Bulk Flatbacks | HAIBUCRAFT']
   ]);
 

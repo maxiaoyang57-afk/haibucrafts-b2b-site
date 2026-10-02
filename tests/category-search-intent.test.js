@@ -19,7 +19,7 @@ const pairs = {
   ]
 };
 
-test('category hubs preserve titles while clarifying buyer intent', async () => {
+test('category hubs target wholesale queries while clarifying buyer intent', async () => {
   for (const file of pairs.slime) {
     const html = await read(file);
     assert.match(html, /<title>Wholesale Slime Charms in Bulk \| HAIBUCRAFT<\/title>/);
@@ -39,7 +39,7 @@ test('category hubs preserve titles while clarifying buyer intent', async () => 
 
   for (const file of pairs.polymer) {
     const html = await read(file);
-    assert.match(html, /Polymer Clay Slices Wholesale for Slime \| HAIBUCRAFT/);
+    assert.match(html, /Polymer Clay Slices Wholesale &(?:amp;)? Bulk Sprinkles \| HAIBUCRAFT/);
     assert.match(html, /Source wholesale polymer clay slices and bulk polymer clay sprinkles/);
     assert.match(html, /Wholesale polymer clay slices and sprinkles for repeatable craft programs\./);
     assert.doesNotMatch(html, /fimo/i);
@@ -53,6 +53,6 @@ test('updated category hubs advertise a fresh lastmod in sitemap', async () => {
     'https://www.haibucrafts.com/products/slime-charms-wholesale/',
     'https://www.haibucrafts.com/products/resin-charms-for-slime/'
   ]) {
-    assert.ok(sitemap.includes(`<loc>${url}</loc><lastmod>2026-09-25</lastmod>`), `missing fresh sitemap date for ${url}`);
+    assert.ok(sitemap.includes(`<loc>${url}</loc><lastmod>${url.includes("slime-charms-wholesale") ? "2026-09-25" : "2026-10-02"}</lastmod>`), `missing fresh sitemap date for ${url}`);
   }
 });

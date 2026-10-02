@@ -18,7 +18,7 @@ function reference(name, size = 100, type = 'image/jpeg') {
   return new File([new Uint8Array(size)], name, { type, lastModified: 1 });
 }
 
-async function fixture({ webp = true, decode, response, track } = {}) {
+async function fixture({ webp = true, decode, response, track, search = '', fields = {} } = {}) {
   const upload = new Element();
   upload.files = [];
   const previews = new Element();
@@ -56,11 +56,11 @@ async function fixture({ webp = true, decode, response, track } = {}) {
     btoa: (value) => Buffer.from(value, 'binary').toString('base64'),
     window: {
       HAIBU_QUOTE_CONFIG: { mode: 'live', endpoint: '/api/inquiry', enableReferenceUploads: true },
-      location: { search: '', pathname: '/request-quote/' },
+      location: { search, pathname: '/request-quote/' },
       HAIBU_TRACK: track || ((...args) => events.push(args))
     },
     FormData: class {
-      entries() { return [['name', 'QA'], ['email', 'qa@example.com'], ['country', 'US']]; }
+      entries() { return [['name', 'QA'], ['email', 'qa@example.com'], ['country', 'US'], ...Object.entries(fields)]; }
       get() { return ''; }
     },
     fetch: async (_url, options) => {
@@ -174,4 +174,28 @@ test('invalid optional fields reopen their collapsed section for browser validat
   const details = { open: false };
   f.form.events.invalid({ target: { closest: () => details } });
   assert.equal(details.open, true);
+});
+
+
+test('accepted product inquiries identify SKU, selected bag weight and source without buyer text', async () => {
+  const f = await fixture({
+    search: '?sku=SLM26529&source=product-detail&landing_page=%2Fproducts%2Fslm26529%2F',
+    fields: { sku: 'SLM26529', packaging: '20 g/bag', message: 'Private buyer requirement' }
+  });
+  await f.submit();
+  for (const [, properties] of f.events) {
+    assert.equal(properties.product_code, 'SLM26529');
+    assert.equal(properties.packing_option, '20 g/bag');
+    assert.equal(properties.source_page, '/products/slm26529/');
+    assert.equal(JSON.stringify(properties).includes('Private buyer requirement'), false);
+  }
+});
+
+test('free-form product and packaging input is not forwarded to analytics', async () => {
+  const f = await fixture({ fields: { sku: 'buyer@example.com', packaging: 'Call my private number' } });
+  await f.submit();
+  for (const [, properties] of f.events) {
+    assert.equal(properties.product_code, 'other_or_mixed');
+    assert.equal(properties.packing_option, 'custom_or_unspecified');
+  }
 });

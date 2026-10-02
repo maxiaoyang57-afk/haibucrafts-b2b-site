@@ -404,6 +404,11 @@
             category: String(fields.category || category || 'unspecified').slice(0, 80),
             landing_page: String(fields.first_landing_page || landingPage).slice(0, 180),
             has_product_code: Boolean(fields.sku || productCode),
+            product_code: !quoteListMode && /^SLM(?:26529|10009|10014|10001|10012|10008|10123)$/.test(String(fields.sku || productCode))
+              ? String(fields.sku || productCode) : 'other_or_mixed',
+            packing_option: /^(5|10|20|30|50) g\/bag$/.test(String(fields.packaging || ''))
+              ? String(fields.packaging) : 'custom_or_unspecified',
+            source_page: String(inquiryAttribution.source_page || '').split(/[?#]/)[0].slice(0, 180),
             quote_item_count: quoteItems.length,
             form_name: 'request_quote'
           };

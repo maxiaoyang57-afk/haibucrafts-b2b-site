@@ -109,3 +109,18 @@
     border-radius: 9px;
   }
 }
+
+/* Keep the full selected product visible and thumb controls usable on phones. */
+[data-purchasing-gallery] .product-detail-media img,
+[data-purchasing-gallery] .product-detail-thumb img {
+  object-fit: contain;
+}
+
+@media (max-width: 420px) {
+  [data-purchasing-gallery] .product-detail-thumbs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  [data-purchasing-gallery] .product-detail-thumb {
+    min-height: 44px;
+  }
+}

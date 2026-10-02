@@ -1,0 +1,44 @@
+[
+  {
+    "sku": "SLM26529",
+    "weight_ctas": 5,
+    "sku_and_source": "passed",
+    "images": 3
+  },
+  {
+    "sku": "SLM10009",
+    "weight_ctas": 5,
+    "sku_and_source": "passed",
+    "images": 6
+  },
+  {
+    "sku": "SLM10014",
+    "weight_ctas": 5,
+    "sku_and_source": "passed",
+    "images": 6
+  },
+  {
+    "sku": "SLM10001",
+    "weight_ctas": 5,
+    "sku_and_source": "passed",
+    "images": 6
+  },
+  {
+    "sku": "SLM10012",
+    "weight_ctas": 5,
+    "sku_and_source": "passed",
+    "images": 1
+  },
+  {
+    "sku": "SLM10008",
+    "weight_ctas": 5,
+    "sku_and_source": "passed",
+    "images": 6
+  },
+  {
+    "sku": "SLM10123",
+    "weight_ctas": 5,
+    "sku_and_source": "passed",
+    "images": 1
+  }
+]

@@ -325,6 +325,21 @@ for (const product of products) {
   const purchasing = purchasingBySku.get(product.sku);
   if (!purchasing) continue;
   product.purchasing = purchasing;
+  const imageDescriptions = {
+    SLM26529: 'Christmas polymer clay sprinkles and resin gingerbread charm mix',
+    SLM10009: 'Christmas snowflake and Santa themed slime decoration mix',
+    SLM10014: 'Halloween pumpkin and cat themed slime decoration mix',
+    SLM10001: 'Mermaid and ocean themed slime decoration mix',
+    SLM10012: 'Sweet berry and candy themed slime decoration components',
+    SLM10008: 'Pastel flower themed slime decoration mix',
+    SLM10123: 'Peach polymer clay slices for slime decoration'
+  };
+  product.alt = `${imageDescriptions[product.sku]}, product code ${product.sku}`;
+  const labels = batchRecordsBySku.get(product.sku)?.product.galleryLabels || [];
+  product.gallery = product.gallery.map((item, index) => ({
+    ...item,
+    alt: `${product.alt}, ${labels[batchGalleryOrder(batchRecordsBySku.get(product.sku))[index] - 1] || `product view ${index + 1}`}`
+  }));
   product.overview = purchasing.overview;
   product.packingOptions = purchasing.packWeightsGrams.map((grams) => `${grams} g/bag`);
   product.sourcePacking = null;
@@ -458,7 +473,7 @@ for (const category of categories) {
       ? '  <link rel="stylesheet" href="/v2-preview/assets/product-gallery.css">\n'
       : '';
     const mediaMarkup = product.gallery.length
-      ? `<div class="product-detail-gallery" data-product-gallery>
+      ? `<div class="product-detail-gallery" data-product-gallery${product.purchasing ? ' data-purchasing-gallery' : ''}>
             <figure class="product-detail-media">
               <img data-product-gallery-main src="${escapeHtml(product.gallery[0].src)}" width="1000" height="1000" decoding="async" fetchpriority="high" alt="${escapeHtml(product.gallery[0].alt)}">
               <span>${escapeHtml(product.mediaLabel || 'Actual product photo')}</span>
@@ -469,7 +484,7 @@ for (const category of categories) {
             <p class="product-detail-gallery-note">${escapeHtml(product.galleryNote || (product.gallery.length === 6 ? 'Six actual product views are shown. Electronic-scale photos remain internal sourcing references and are not published.' : `${product.gallery.length} product views are shown.`))}</p>
           </div>`
       : `<div class="product-detail-media">
-            <img src="${escapeHtml(product.image)}" width="800" height="800" decoding="async" alt="${escapeHtml(product.alt)}">
+            <img src="${escapeHtml(product.image)}" width="${product.purchasing ? 1000 : 800}" height="${product.purchasing ? 1000 : 800}" decoding="async"${product.purchasing ? ' fetchpriority="high"' : ''} alt="${escapeHtml(product.alt)}">
             <span>Actual catalog image</span>
           </div>`;
     const packingReference = product.packingOptions.length

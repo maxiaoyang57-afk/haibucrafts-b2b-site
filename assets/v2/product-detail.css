@@ -262,3 +262,13 @@
     padding: 14px;
   }
 }
+
+/* Confirmed purchasing options for the October SKU batch. */
+.product-purchasing { padding: 18px; margin: 20px 0; border: 1px solid #dbe4df; border-radius: 14px; background: #f5f8f6; }
+.product-purchasing h2 { font-size: 1.15rem; margin: 0 0 12px; }
+.product-purchasing dl { margin: 0; display: grid; grid-template-columns: 120px minmax(0,1fr); gap: 10px 14px; }
+.product-purchasing dt { font-weight: 700; }
+.product-purchasing dd { margin: 0; overflow-wrap: anywhere; }
+.product-purchasing .actions { flex-wrap: wrap; gap: 8px; }
+.product-purchasing .btn { white-space: normal; }
+@media (max-width: 480px) { .product-purchasing dl { grid-template-columns: 1fr; gap: 5px; } .product-purchasing dd { margin-bottom: 8px; } }

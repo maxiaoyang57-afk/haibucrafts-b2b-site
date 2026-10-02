@@ -27,6 +27,8 @@ const haibuSeptember9Batch = JSON.parse(await readFile(haibuSeptember9BatchPath,
 const haibuSeptember11Batch = JSON.parse(await readFile(haibuSeptember11BatchPath, 'utf8'));
 const haibuSeptember12Batch = JSON.parse(await readFile(haibuSeptember12BatchPath, 'utf8'));
 const haibuSeptember20Batch = JSON.parse(await readFile(haibuSeptember20BatchPath, 'utf8'));
+const purchasingBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-purchasing-20261002.json'), 'utf8'));
+const purchasingBySku = new Map(purchasingBatch.products.map((item) => [item.sku, item]));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
@@ -319,6 +321,17 @@ const previewPathSet = new Set(products.map((product) => product.previewPath));
 if (skuSet.size !== products.length || previewPathSet.size !== products.length) {
   throw new Error('Product SKUs or generated detail paths are not unique');
 }
+for (const product of products) {
+  const purchasing = purchasingBySku.get(product.sku);
+  if (!purchasing) continue;
+  product.purchasing = purchasing;
+  product.overview = purchasing.overview;
+  product.packingOptions = purchasing.packWeightsGrams.map((grams) => `${grams} g/bag`);
+  product.sourcePacking = null;
+  product.lastModified = purchasingBatch.confirmedOn;
+  if (product.approvedListing) product.approvedListing.packagingMoq = `Packing options: ${product.packingOptions.join(', ')}. ${purchasing.moq} Dispatch lead time: ${purchasing.dispatchLeadTime}`;
+}
+if (purchasingBySku.size !== purchasingBatch.products.length || purchasingBatch.products.some((item) => !skuSet.has(item.sku))) throw new Error('Purchasing updates must match unique existing SKUs');
 const productsBySku = new Map(products.map((product) => [product.sku, product]));
 const categoryCounts = new Map(categories.map((category) => [
   category.slug,
@@ -426,6 +439,7 @@ for (const category of categories) {
       landing_page: product.previewPath
     });
     const quoteHref = `/v2-preview/quote/?${quoteParams.toString().replaceAll('&', '&amp;')}`;
+    const purchasingMarkup = product.purchasing ? `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Wholesale ordering options</h2><dl><dt>Packaging</dt><dd>${product.packingOptions.join(' / ')}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Dispatch lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><p>Other packing requirements, dimensions and samples can be discussed with our sales team.</p><div class="actions">${product.purchasing.packWeightsGrams.map((grams) => `<a class="btn btn-light" href="${quoteHref}&amp;packaging=${grams}%20g%2Fbag">Ask about ${grams} g/bag</a>`).join('')}</div></div>` : '';
     const structuredData = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Product',
@@ -462,7 +476,7 @@ for (const category of categories) {
       ? `<div class="product-packing-reference">
             <h3>Packing options/reference</h3>
             <ul class="pack-option-list">${product.packingOptions.map((option) => `<li>${escapeHtml(option)}</li>`).join('')}</ul>
-            <p class="b2b-note">These are source-sheet packing references, not guaranteed specifications. Final pack weight, mix ratio, carton details and gross weight are confirmed with the quotation and order specification.</p>
+            <p class="b2b-note">${product.purchasing ? 'Choose a bag weight for your quotation.' : 'These are source-sheet packing references, not guaranteed specifications.'} Final pack weight, mix ratio, carton details and gross weight are confirmed with the quotation and order specification.</p>
           </div>`
       : '';
     const sourceReferenceRows = [
@@ -518,7 +532,7 @@ for (const category of categories) {
             <tr><th>Style direction</th><td>${escapeHtml(product.type)}</td></tr>
             <tr><th>Common applications</th><td>${escapeHtml(product.uses)}</td></tr>
             <tr><th>Material scope</th><td>${escapeHtml(product.material)}</td></tr>
-${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            <tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>
+${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            ${product.purchasing ? `<tr><th>Packaging</th><td>${product.packingOptions.join(', ')}</td></tr><tr><th>MOQ</th><td>${escapeHtml(product.purchasing.moq)}</td></tr><tr><th>Dispatch lead time</th><td>${escapeHtml(product.purchasing.dispatchLeadTime)}</td></tr>` : '<tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>'}
             <tr><th>Testing documents</th><td>Reviewed for the exact SKU, intended use and destination market; no blanket certificate claim applies.</td></tr>
           </tbody>
         </table>
@@ -553,7 +567,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
             <div class="product-detail-badges"><span class="sku-badge">${escapeHtml(product.sku)}</span><span class="product-type">${escapeHtml(product.type)}</span></div>
             <span class="eyebrow">${escapeHtml(product.categoryLabel)}</span>
             <h1>${escapeHtml(product.title)}</h1>
-            <p>${escapeHtml(product.overview)}</p>
+            <p>${escapeHtml(product.overview)}</p>${purchasingMarkup ? `\n            ${purchasingMarkup}` : ""}
             <ul class="product-detail-highlights">
               ${highlightsMarkup}
             </ul>

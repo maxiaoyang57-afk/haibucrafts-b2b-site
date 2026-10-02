@@ -68,7 +68,7 @@
       const tags = (card.dataset.tags || '').toLowerCase();
       const category = (card.dataset.category || '').toLowerCase();
       const matchesQuery = !query || tags.includes(query);
-      const matchesFilter = activeFilter === 'all' || category === activeFilter;
+      const matchesFilter = activeFilter === 'all' || category === activeFilter || (activeFilter === 'seasonal' && ['christmas', 'halloween', 'easter'].includes(category));
       const show = matchesQuery && matchesFilter;
       card.hidden = !show;
       if (show) visible += 1;

@@ -1280,6 +1280,12 @@
       "action": "create",
       "productionPath": "/themes/generic-kawaii/",
       "generatedTheme": true
+    },
+    {
+      "source": "v2-preview/for-slime-brands/index.html",
+      "destination": "for-slime-brands/index.html",
+      "action": "create",
+      "productionPath": "/for-slime-brands/"
     }
   ],
   "sharedAssets": [

@@ -48,11 +48,12 @@ test('category hubs target wholesale queries while clarifying buyer intent', asy
 
 test('updated category hubs advertise a fresh lastmod in sitemap', async () => {
   const sitemap = await read('sitemap.xml');
-  for (const url of [
-    'https://www.haibucrafts.com/products/polymer-clay-slices-wholesale/',
-    'https://www.haibucrafts.com/products/slime-charms-wholesale/',
-    'https://www.haibucrafts.com/products/resin-charms-for-slime/'
-  ]) {
-    assert.ok(sitemap.includes(`<loc>${url}</loc><lastmod>${url.includes("slime-charms-wholesale") ? "2026-09-25" : "2026-10-02"}</lastmod>`), `missing fresh sitemap date for ${url}`);
+  const expectedLastmod = new Map([
+    ['https://www.haibucrafts.com/products/polymer-clay-slices-wholesale/', '2026-10-02'],
+    ['https://www.haibucrafts.com/products/slime-charms-wholesale/', '2026-10-04'],
+    ['https://www.haibucrafts.com/products/resin-charms-for-slime/', '2026-10-04']
+  ]);
+  for (const [url, lastmod] of expectedLastmod) {
+    assert.ok(sitemap.includes(`<loc>${url}</loc><lastmod>${lastmod}</lastmod>`), `missing fresh sitemap date for ${url}`);
   }
 });

@@ -148,7 +148,7 @@ const categoryPlans = {
     listName: 'Bulk Slime Charms Wholesale Catalog',
     hubHeading: 'Bulk slime charms for slime brands, sensory kits and retail assortments.',
     hubCopy: 'Use this page when the buying intent is decorative charms and add-ins for slime or sensory-kit programs. For flatback resin cabochons selected mainly for decoden, phone cases, hair accessories or other craft decoration, use the Resin Charms catalog instead.',
-    lastModified: '2026-09-25',
+    lastModified: '2026-10-04',
     resources: [
       ['/v2-preview/products/slime-charms/candy-charms-for-slime/', 'Candy Charms for Slime'],
       ['/v2-preview/products/slime-charms/halloween-slime-charms/', 'Halloween Slime Charms'],
@@ -156,6 +156,7 @@ const categoryPlans = {
       ['/v2-preview/products/polymer-clay-slices/', 'Polymer Clay Slices & Sprinkles'],
       ['/v2-preview/products/resin-charms/', 'Resin Flatbacks & Cabochons'],
       ['/v2-preview/custom-solutions/', 'Custom & Private Label'],
+      ['/v2-preview/for-slime-brands/', 'For Slime Brands'],
       ['/v2-preview/quality-control/', 'Quality Checkpoints']
     ]
   },
@@ -169,7 +170,7 @@ const categoryPlans = {
     listName: 'Bulk Resin Charms Wholesale Catalog',
     hubHeading: 'Bulk resin flatbacks and cabochons for decoden and craft decoration.',
     hubCopy: 'Use this page when the buying intent is resin flatbacks, cabochons and decorative miniatures selected by backing style, finish and size for decoden, phone cases, hair accessories and DIY embellishment. For slime-specific charm assortments, use the Slime Charms hub instead.',
-    lastModified: '2026-10-02',
+    lastModified: '2026-10-04',
     resources: [
       ['/v2-preview/blog/resin-charms-wholesale-buying-guide/', 'Resin Charms Buying Guide'],
       ['/v2-preview/products/slime-charms/', 'Slime Charms for Slime Brands'],

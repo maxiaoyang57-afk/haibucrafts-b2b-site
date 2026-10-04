@@ -31,7 +31,7 @@
       "description": "Wholesale slime charms for slime brands, DIY kits and retail assortments. Compare candy, fruit, ocean and seasonal designs; request packing, MOQ and quote.",
       "type": "website",
       "index": true,
-      "lastModified": "2026-09-25"
+      "lastModified": "2026-10-04"
     },
     {
       "previewPath": "/v2-preview/products/slime-charms/candy-charms-for-slime/",
@@ -69,7 +69,7 @@
       "description": "Source resin charms in bulk and wholesale flatback cabochons for decoden and DIY kits. Compare backing, size and assortments; request a SKU-based quote.",
       "type": "website",
       "index": true,
-      "lastModified": "2026-10-02"
+      "lastModified": "2026-10-04"
     },
     {
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/",
@@ -1833,6 +1833,15 @@
       "index": true,
       "generatedTheme": true,
       "lastModified": "2026-08-23"
+    },
+    {
+      "previewPath": "/v2-preview/for-slime-brands/",
+      "productionPath": "/for-slime-brands/",
+      "title": "Wholesale Slime Supplies for Slime Brands | HAIBUCRAFT",
+      "description": "Plan wholesale slime supply programs with slime charms, polymer clay slices, resin add-ins and sequins. Build mixed-SKU assortments, packaging briefs and B2B quote requests.",
+      "type": "website",
+      "index": true,
+      "lastModified": "2026-10-04"
     }
   ],
   "redirects": [

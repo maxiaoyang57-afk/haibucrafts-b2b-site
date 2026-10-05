@@ -410,10 +410,11 @@
               ? String(fields.packaging) : 'custom_or_unspecified',
             source_page: String(inquiryAttribution.source_page || '').split(/[?#]/)[0].slice(0, 180),
             quote_item_count: quoteItems.length,
-            form_name: 'request_quote'
+            form_name: 'request_quote',
+            lead_type: 'wholesale_inquiry',
+            lead_status: 'accepted'
           };
-          window.HAIBU_TRACK('inquiry_submitted', leadEventProperties);
-          window.HAIBU_TRACK('form_submit', leadEventProperties);
+          // One accepted server response must create exactly one GA4 lead conversion.
           window.HAIBU_TRACK('generate_lead', leadEventProperties);
         }
       } catch { /* Analytics must not turn an accepted inquiry into a failure. */ }

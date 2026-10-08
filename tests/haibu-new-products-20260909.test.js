@@ -69,7 +69,8 @@ test('new product pages preserve approved content and image order', async () => 
         product.seasonalTheme,
         product.customizationOptions,
         product.recommendedApplications,
-        product.packagingMoq,
+        // Later SKU-specific purchasing reviews supersede the original packing copy.
+        ...(html.includes(`data-purchasing-sku="${product.sku}"`) ? [] : [product.packagingMoq]),
         product.seoKeywords,
         product.metaTitle,
         product.metaDescription,

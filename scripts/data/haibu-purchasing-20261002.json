@@ -1,111 +1,162 @@
 {
-  "confirmedOn": "2026-10-02",
-  "source": "User-confirmed specification table and clarification in this conversation",
+  "source": "SKU-specific user confirmation on 2026-10-01; reviewed against the 90-day execution handbook on 2026-10-08. Quote weight choices are requests, not confirmed specifications.",
   "products": [
     {
       "sku": "SLM26529",
       "packWeightsGrams": [
+        5
+      ],
+      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
+      "dispatchLeadTime": "7–15 days. Shipping transit time is additional.",
+      "overview": "Christmas polymer clay sprinkles mixed with resin gingerbread charms for seasonal slime decoration and craft assortments. Select a bag weight and share your preferred mix requirements for quotation.",
+      "dimensions": "Pending confirmation",
+      "sampleTime": "Pending confirmation",
+      "quotePackWeightsGrams": [
         5,
         10,
         20,
         30,
         50
       ],
-      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
-      "dispatchLeadTime": "7\u201315 days. Shipping transit time is additional.",
-      "overview": "Christmas polymer clay sprinkles mixed with resin gingerbread charms for seasonal slime decoration and craft assortments. Select a bag weight and share your preferred mix requirements for quotation.",
-      "dimensions": "Pending confirmation",
-      "sampleTime": "Pending confirmation"
+      "packingNote": "5 g/bag is the confirmed pack. Other bag weights are quotation requests and require sales confirmation.",
+      "evidence": {
+        "packWeightsGrams": "User confirmed 5 g/bag for SLM26529 only on 2026-10-01.",
+        "moq": "User clarification on 2026-10-01 for the seven-SKU batch: typically 100 bags, final MOQ subject to sales discussion.",
+        "dispatchLeadTime": "User confirmed dispatch in 7–15 days for SLM26529 only on 2026-10-01; shipping additional."
+      }
     },
     {
       "sku": "SLM10009",
-      "packWeightsGrams": [
+      "packWeightsGrams": [],
+      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
+      "dispatchLeadTime": "Confirm after SKU, quantity and packaging review. Shipping transit time is additional.",
+      "overview": "A Christmas snowflake and Santa themed mix for holiday slime decoration and craft assortments. Compare the product images, select your bag weight and tell us your planned order quantity.",
+      "dimensions": "Pending confirmation",
+      "sampleTime": "Pending confirmation",
+      "quotePackWeightsGrams": [
         5,
         10,
         20,
         30,
         50
       ],
-      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
-      "dispatchLeadTime": "7\u201315 days. Shipping transit time is additional.",
-      "overview": "A Christmas snowflake and Santa themed mix for holiday slime decoration and craft assortments. Compare the product images, select your bag weight and tell us your planned order quantity.",
-      "dimensions": "Pending confirmation",
-      "sampleTime": "Pending confirmation"
+      "packingNote": "The bag weights below are quotation requests. Available weights and packing must be confirmed for this SKU.",
+      "evidence": {
+        "packWeightsGrams": "Pending SKU-specific business confirmation. Existing weight buttons do not establish availability.",
+        "moq": "User clarification on 2026-10-01 for the seven-SKU batch: typically 100 bags, final MOQ subject to sales discussion.",
+        "dispatchLeadTime": "Pending SKU-specific business confirmation; do not inherit SLM26529 timing."
+      }
     },
     {
       "sku": "SLM10014",
-      "packWeightsGrams": [
+      "packWeightsGrams": [],
+      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
+      "dispatchLeadTime": "Confirm after SKU, quantity and packaging review. Shipping transit time is additional.",
+      "overview": "A Halloween pumpkin and cat themed mix for seasonal slime decoration. Include your target arrival date and destination so dispatch and shipping can be reviewed together.",
+      "dimensions": "Pending confirmation",
+      "sampleTime": "Pending confirmation",
+      "quotePackWeightsGrams": [
         5,
         10,
         20,
         30,
         50
       ],
-      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
-      "dispatchLeadTime": "7\u201315 days. Shipping transit time is additional.",
-      "overview": "A Halloween pumpkin and cat themed mix for seasonal slime decoration. Include your target arrival date and destination so dispatch and shipping can be reviewed together.",
-      "dimensions": "Pending confirmation",
-      "sampleTime": "Pending confirmation"
+      "packingNote": "The bag weights below are quotation requests. Available weights and packing must be confirmed for this SKU.",
+      "evidence": {
+        "packWeightsGrams": "Pending SKU-specific business confirmation. Existing weight buttons do not establish availability.",
+        "moq": "User clarification on 2026-10-01 for the seven-SKU batch: typically 100 bags, final MOQ subject to sales discussion.",
+        "dispatchLeadTime": "Pending SKU-specific business confirmation; do not inherit SLM26529 timing."
+      }
     },
     {
       "sku": "SLM10001",
-      "packWeightsGrams": [
+      "packWeightsGrams": [],
+      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
+      "dispatchLeadTime": "Confirm after SKU, quantity and packaging review. Shipping transit time is additional.",
+      "overview": "A mermaid and ocean themed mix for slime decoration and coordinated ocean craft assortments. Request your preferred bag weight and describe any mix requirements.",
+      "dimensions": "Pending confirmation",
+      "sampleTime": "Pending confirmation",
+      "quotePackWeightsGrams": [
         5,
         10,
         20,
         30,
         50
       ],
-      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
-      "dispatchLeadTime": "7\u201315 days. Shipping transit time is additional.",
-      "overview": "A mermaid and ocean themed mix for slime decoration and coordinated ocean craft assortments. Request your preferred bag weight and describe any mix requirements.",
-      "dimensions": "Pending confirmation",
-      "sampleTime": "Pending confirmation"
+      "packingNote": "The bag weights below are quotation requests. Available weights and packing must be confirmed for this SKU.",
+      "evidence": {
+        "packWeightsGrams": "Pending SKU-specific business confirmation. Existing weight buttons do not establish availability.",
+        "moq": "User clarification on 2026-10-01 for the seven-SKU batch: typically 100 bags, final MOQ subject to sales discussion.",
+        "dispatchLeadTime": "Pending SKU-specific business confirmation; do not inherit SLM26529 timing."
+      }
     },
     {
       "sku": "SLM10012",
-      "packWeightsGrams": [
+      "packWeightsGrams": [],
+      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
+      "dispatchLeadTime": "Confirm after SKU, quantity and packaging review. Shipping transit time is additional.",
+      "overview": "Sweet berry and candy themed decorative components for fruit and dessert inspired slime assortments. Use the product images as your selection reference and request the bag weight you need.",
+      "dimensions": "Pending confirmation",
+      "sampleTime": "Pending confirmation",
+      "quotePackWeightsGrams": [
         5,
         10,
         20,
         30,
         50
       ],
-      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
-      "dispatchLeadTime": "7\u201315 days. Shipping transit time is additional.",
-      "overview": "Sweet berry and candy themed decorative components for fruit and dessert inspired slime assortments. Use the product images as your selection reference and request the bag weight you need.",
-      "dimensions": "Pending confirmation",
-      "sampleTime": "Pending confirmation"
+      "packingNote": "The bag weights below are quotation requests. Available weights and packing must be confirmed for this SKU.",
+      "evidence": {
+        "packWeightsGrams": "Pending SKU-specific business confirmation. Existing weight buttons do not establish availability.",
+        "moq": "User clarification on 2026-10-01 for the seven-SKU batch: typically 100 bags, final MOQ subject to sales discussion.",
+        "dispatchLeadTime": "Pending SKU-specific business confirmation; do not inherit SLM26529 timing."
+      }
     },
     {
       "sku": "SLM10008",
-      "packWeightsGrams": [
+      "packWeightsGrams": [],
+      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
+      "dispatchLeadTime": "Confirm after SKU, quantity and packaging review. Shipping transit time is additional.",
+      "overview": "A pastel flower themed mix for floral slime decoration and coordinated craft assortments. Share your preferred bag weight and any color or mix requirements for review.",
+      "dimensions": "Pending confirmation",
+      "sampleTime": "Pending confirmation",
+      "quotePackWeightsGrams": [
         5,
         10,
         20,
         30,
         50
       ],
-      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
-      "dispatchLeadTime": "7\u201315 days. Shipping transit time is additional.",
-      "overview": "A pastel flower themed mix for floral slime decoration and coordinated craft assortments. Share your preferred bag weight and any color or mix requirements for review.",
-      "dimensions": "Pending confirmation",
-      "sampleTime": "Pending confirmation"
+      "packingNote": "The bag weights below are quotation requests. Available weights and packing must be confirmed for this SKU.",
+      "evidence": {
+        "packWeightsGrams": "Pending SKU-specific business confirmation. Existing weight buttons do not establish availability.",
+        "moq": "User clarification on 2026-10-01 for the seven-SKU batch: typically 100 bags, final MOQ subject to sales discussion.",
+        "dispatchLeadTime": "Pending SKU-specific business confirmation; do not inherit SLM26529 timing."
+      }
     },
     {
       "sku": "SLM10123",
-      "packWeightsGrams": [
+      "packWeightsGrams": [],
+      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
+      "dispatchLeadTime": "Confirm after SKU, quantity and packaging review. Shipping transit time is additional.",
+      "overview": "Peach polymer clay slices for fruit themed slime decoration and craft assortments. Select your preferred bag weight and ask our sales team to confirm dimensions for your intended use.",
+      "dimensions": "Pending confirmation",
+      "sampleTime": "Pending confirmation",
+      "quotePackWeightsGrams": [
         5,
         10,
         20,
         30,
         50
       ],
-      "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
-      "dispatchLeadTime": "7\u201315 days. Shipping transit time is additional.",
-      "overview": "Peach polymer clay slices for fruit themed slime decoration and craft assortments. Select your preferred bag weight and ask our sales team to confirm dimensions for your intended use.",
-      "dimensions": "Pending confirmation",
-      "sampleTime": "Pending confirmation"
+      "packingNote": "The bag weights below are quotation requests. Available weights and packing must be confirmed for this SKU.",
+      "evidence": {
+        "packWeightsGrams": "Pending SKU-specific business confirmation. Existing weight buttons do not establish availability.",
+        "moq": "User clarification on 2026-10-01 for the seven-SKU batch: typically 100 bags, final MOQ subject to sales discussion.",
+        "dispatchLeadTime": "Pending SKU-specific business confirmation; do not inherit SLM26529 timing."
+      }
     }
-  ]
+  ],
+  "reviewedOn": "2026-10-08"
 }

@@ -23,3 +23,9 @@ The earlier batch source is historical input. The reviewed purchasing overlay ta
 - `git diff --check`: passed.
 
 Remote Preview and browser acceptance are recorded in the PR after deployment. This candidate has not been released to production. No inquiry was submitted and no real email delivery or GA4 lead receipt was tested.
+
+## Release scope — 2026-10-09
+
+The user authorized production release and deferred measured dimensions. The seven purchasing pages use size-confirmation wording without numeric measurements. Mixed products describe assorted sizes varying by component, shape and design; SLM10123 describes slice-specific variation without asserting a mixed-material assortment. Included components, any mix proportions, net weight and sample timing require sales confirmation. Physical dimensions are a later follow-up, not a blocker for this authorized release. QULA rod-fit measurements remain a separate task.
+
+Validation and production deployment results for this updated candidate are recorded in PR #93.

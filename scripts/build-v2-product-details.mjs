@@ -341,6 +341,7 @@ for (const product of products) {
     alt: `${product.alt}, ${labels[batchGalleryOrder(batchRecordsBySku.get(product.sku))[index] - 1] || `product view ${index + 1}`}`
   }));
   product.overview = purchasing.overview;
+  product.dimensions = purchasing.dimensions;
   product.packingOptions = purchasing.packWeightsGrams.map((grams) => `${grams} g/bag`);
   product.sourcePacking = null;
   product.lastModified = purchasingBatch.reviewedOn;
@@ -454,7 +455,7 @@ for (const category of categories) {
       landing_page: product.previewPath
     });
     const quoteHref = `/v2-preview/quote/?${quoteParams.toString().replaceAll('&', '&amp;')}`;
-    const purchasingMarkup = product.purchasing ? `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Wholesale ordering options</h2><dl><dt>Packaging</dt><dd>${product.packingOptions.length ? product.packingOptions.join(' / ') : 'Confirm by quotation'}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Dispatch lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><h3>Request a bag weight</h3><p>${escapeHtml(product.purchasing.packingNote)} Dimensions, mix ratio and sample timing are confirmed with our sales team.</p><div class="actions">${product.purchasing.quotePackWeightsGrams.map((grams) => `<a class="btn btn-light" href="${quoteHref}&amp;packaging=${grams}%20g%2Fbag">Ask about ${grams} g/bag</a>`).join('')}</div></div>` : '';
+    const purchasingMarkup = product.purchasing ? `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Wholesale ordering options</h2><dl><dt>Packaging</dt><dd>${product.packingOptions.length ? product.packingOptions.join(' / ') : 'Confirm by quotation'}</dd><dt>Size details</dt><dd>${escapeHtml(product.dimensions)}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Dispatch lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><h3>Request a bag weight</h3><p>${escapeHtml(product.purchasing.packingNote)} Please confirm included components, any mix proportions, pack net weight and sample timing with our sales team before ordering.</p><div class="actions">${product.purchasing.quotePackWeightsGrams.map((grams) => `<a class="btn btn-light" href="${quoteHref}&amp;packaging=${grams}%20g%2Fbag">Ask about ${grams} g/bag</a>`).join('')}</div></div>` : '';
     const structuredData = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Product',
@@ -495,7 +496,7 @@ for (const category of categories) {
           </div>`
       : '';
     const sourceReferenceRows = [
-      product.dimensions ? `            <tr><th>Reference size</th><td>${escapeHtml(product.dimensions)}</td></tr>` : null,
+      product.dimensions ? `            <tr><th>${product.purchasing ? 'Size details' : 'Reference size'}</th><td>${escapeHtml(product.dimensions)}</td></tr>` : null,
       product.sourcePacking ? `            <tr><th>Source packing</th><td>${escapeHtml(product.sourcePacking)}</td></tr>` : null
     ].filter(Boolean).join('\n');
     const galleryScript = product.gallery.length

@@ -127,14 +127,15 @@ const categoryPlans = {
     h1: 'Polymer Clay Slices Wholesale for Slime & DIY',
     intro: 'Source wholesale polymer clay slices and bulk polymer clay sprinkles for slime, nail art, shaker fillers and DIY kits. Compare candy, fruit and seasonal mixes by motif, size and pack unit. Send selected product codes, quantity and destination for a packing and MOQ quotation.',
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
-    hubHeading: 'Wholesale polymer clay slices and sprinkles for repeatable craft programs.',
-    hubCopy: 'Use this page for polymer clay slices, polymer clay craft slices and sprinkle mixes sold as a material family. Compare motif, size, color mix and pack format here; use the Slime Charms or Resin Charms hubs when the buying brief is for finished decorative charms instead.',
+    hubExtraMarkup: "<p>Buyers building slime, shaker, tumbler or DIY-kit assortments can start with the <a href=\"/v2-preview/for-slime-brands/\">slime-brand sourcing route</a>, then use the <a href=\"/v2-preview/blog/polymer-clay-slice-buying-guide/\">polymer clay buying guide</a> to compare slice formats before requesting a mixed-SKU quotation.</p>",
+    hubHeading: "Wholesale polymer clay slices and sprinkles for repeatable craft programs.",
+    hubCopy: "Use this page for polymer clay slices, polymer clay craft slices and bulk sprinkle mixes sold as a repeat-purchase material family. Compare motif, slice size, color mix, mix ratio and pack format before sampling. For slime-brand programs, shortlist several SKUs first, then confirm repeat-order consistency, packing requirements and destination in one sourcing brief; use the Slime Charms or Resin Charms hubs when the buying brief is for finished decorative charms instead.",
     lastModified: '2026-10-02',
     resources: [
-      ['/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/', 'Polymer Clay Sprinkles Wholesale'],
-      ['/v2-preview/blog/polymer-clay-slice-buying-guide/', 'Polymer Clay Slice Buying Guide'],
-      ['/v2-preview/custom-solutions/', 'Custom Mixes & Private Label'],
-      ['/v2-preview/quality-control/', 'Quality Checkpoints']
+      ["/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/", "Polymer Clay Sprinkles Wholesale"],
+      ["/v2-preview/blog/polymer-clay-slice-buying-guide/", "Polymer Clay Slice Buying Guide"],
+      ["/v2-preview/custom-solutions/", "Custom Mixes & Private Label"],
+      ["/v2-preview/quality-control/", "Quality Checkpoints"]
     ],
     selection: [['Individual slices', 'Choose a motif and confirm diameter and thickness against a sample.'], ['Sprinkle mixes', 'Specify motif and color ratios, exclusions and whether each pack needs every design.'], ['Packing and quotation', 'Provide SKU, net weight or piece count, bags or jars, quantity and destination. MOQ and dispatch timing are confirmed per SKU.']],
   },
@@ -168,16 +169,17 @@ const categoryPlans = {
     h1: 'Resin Charms Wholesale & Bulk Flatbacks',
     intro: 'Source resin charms wholesale and bulk flatback cabochons for decoden, phone-case, hair-accessory and DIY programs. Shortlist resin charms in bulk by backing style, finish and product code. Include pack quantities, destination and intended use to confirm suitability and MOQ.',
     listName: 'Bulk Resin Charms Wholesale Catalog',
-    hubHeading: 'Bulk resin flatbacks and cabochons for decoden and craft decoration.',
-    hubCopy: 'Use this page when the buying intent is resin flatbacks, cabochons and decorative miniatures selected by backing style, finish and size for decoden, phone cases, hair accessories and DIY embellishment. For slime-specific charm assortments, use the Slime Charms hub instead.',
+    hubHeading: "Bulk resin flatbacks and cabochons for decoden and craft decoration.",
+    hubCopy: "Use this page when the buying intent is resin flatbacks, cabochons and decorative miniatures selected by backing style, finish and size for decoden, phone cases, hair accessories and DIY embellishment. For slime-specific charm assortments, use the Slime Charms hub instead.",
     lastModified: '2026-10-04',
     resources: [
-      ['/v2-preview/blog/resin-charms-wholesale-buying-guide/', 'Resin Charms Buying Guide'],
-      ['/v2-preview/products/slime-charms/', 'Slime Charms for Slime Brands'],
-      ['/v2-preview/products/polymer-clay-slices/', 'Polymer Clay Slices & Sprinkles'],
-      ['/v2-preview/certificates/', 'Product Documents & Scope'],
-      ['/v2-preview/quality-control/', 'Quality Checkpoints'],
-      ['/v2-preview/custom-solutions/', 'Custom & Private Label']
+      ["/v2-preview/blog/resin-charms-wholesale-buying-guide/", "Resin Charms Buying Guide"],
+      ["/v2-preview/for-slime-brands/", "Slime Brand Sourcing Route"],
+      ["/v2-preview/products/slime-charms/", "Slime Charms for Slime Brands"],
+      ["/v2-preview/products/polymer-clay-slices/", "Polymer Clay Slices & Sprinkles"],
+      ["/v2-preview/certificates/", "Product Documents & Scope"],
+      ["/v2-preview/quality-control/", "Quality Checkpoints"],
+      ["/v2-preview/custom-solutions/", "Custom & Private Label"]
     ],
     selection: [['Flatback cabochons', 'Request a rear-view image and confirm the bonding surface and dimensions for your application.'], ['Dimensional miniatures or hanging charms', 'Confirm shape, weight and any hole or loop placement against the selected SKU; do not assume every charm has a flat back.'], ['Bulk assortments', 'Specify quantities by SKU, piece count per pack, mix ratios and destination. Confirm MOQ, dispatch timing and sample requirements in the quotation.']],
   },
@@ -189,11 +191,17 @@ const categoryPlans = {
     h1: 'Wholesale Sequins, Glitter & Craft Confetti',
     intro: 'Source shaped sequins, holographic paillettes, glitter mixes and craft confetti in bulk for slime, shakers, nail art, resin crafts, DIY kits and private-label assortments.',
     listName: 'Sequins and Glitter Confetti Wholesale Catalog',
+    hubHeading: "Choose sequins, glitter and confetti by application and packing brief.",
+    hubCopy: "Use the category catalog as the buying hub, then narrow the assortment by finished use, shape and size, visual finish, mix composition and pack format before sending a mixed-SKU or custom inquiry.",
+    selectionHeading: "What to confirm before a bulk quotation",
+    selection: [["Application and scale", "State whether the material is for slime, shakers, craft kits, party decoration or another use so the selected size and shape can be reviewed in context."], ["Finish and assortment", "List the product codes and the finish or color direction you want. For mixed packs, specify preferred ratios, exclusions and whether every pack should contain the same assortment."], ["Packing brief", "Send the required unit, quantity, packaging format and destination together. Confirm the final SKU scope and commercial terms in the quotation rather than assuming one category-wide rule."]],
     lastModified: '2026-09-22',
     resources: [
-      ['/v2-preview/custom-solutions/', 'Custom & Private Label'],
-      ['/v2-preview/quality-control/', 'Quality Checkpoints'],
-      ['/v2-preview/blog/packaging-quality-checkpoints/', 'Packaging Guide']
+      ["/v2-preview/for-slime-brands/", "Slime Brand Sourcing Route"],
+      ["/v2-preview/products/polymer-clay-slices/", "Polymer Clay Slices & Sprinkles"],
+      ["/v2-preview/custom-solutions/", "Custom & Private Label"],
+      ["/v2-preview/quality-control/", "Quality Checkpoints"],
+      ["/v2-preview/blog/packaging-quality-checkpoints/", "Packaging Guide"]
     ]
   }
 };
@@ -226,8 +234,8 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
   const productLinks = products
     .map((product) => `<a class="product-related-card" href="${product.previewPath}"><img src="${escapeAttr(product.image)}" width="800" height="800" loading="lazy" decoding="async" alt="${escapeAttr(`${product.title}, product code ${product.sku}`)}"><div><span>${escapeHtml(product.sku)}</span><h3>${escapeHtml(product.title)}</h3></div></a>`)
     .join('');
-  const selection = plan.selection ? `<div class="section-head" style="margin-top:24px"><h3>How to choose and request a bulk quotation</h3><dl>${plan.selection.map(([label, copy]) => `<dt><strong>${escapeHtml(label)}</strong></dt><dd>${escapeHtml(copy)}</dd>`).join('')}</dl></div>` : '';
-  const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2>${escapeHtml(plan.hubHeading || 'Compare products, sourcing guidance and project requirements.')}</h2><p>${escapeHtml(plan.hubCopy || 'Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.')}</p></div>${selection}<div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
+  const selection = plan.selection ? `<div class="section-head" style="margin-top:24px"><h3>${escapeHtml(plan.selectionHeading || 'How to choose and request a bulk quotation')}</h3><dl>${plan.selection.map(([label, copy]) => `<dt><strong>${escapeHtml(label)}</strong></dt><dd>${escapeHtml(copy)}</dd>`).join('')}</dl></div>` : '';
+  const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2>${escapeHtml(plan.hubHeading || 'Compare products, sourcing guidance and project requirements.')}</h2><p>${escapeHtml(plan.hubCopy || 'Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.')}</p>${plan.hubExtraMarkup || ''}</div>${selection}<div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
   const existingHub = new RegExp(`<section class="section" data-seo-growth="${category}-hub">[\\s\\S]*?<\\/section>`, 'i');
   if (existingHub.test(html)) html = html.replace(existingHub, block);
   else if (/<section class="section" id="specifications">/i.test(html)) {
@@ -566,12 +574,12 @@ const confirmedPurchasing = new Map(JSON.parse(await readFile(path.join(root, 's
 christmasMiniHolidayAddonsMarkup = christmasMiniHolidayAddonsMarkup.replace(/<article class="card">[\s\S]*?<\/article>/g, (card) => {
   const sku = card.match(/<span class="procurement-sku">([^<]+)<\/span>/)?.[1];
   const confirmed = confirmedPurchasing.get(sku);
-  return confirmed ? card.replace(/(<strong>Reference packing unit:<\/strong>)[^<]+/, `$1 ${confirmed.packWeightsGrams.join(' / ')} g/bag`) : card;
+  return confirmed ? card.replace(/(<strong>Reference packing unit:<\/strong>)[^<]+/, `$1 ${confirmed.packWeightsGrams.length ? `${confirmed.packWeightsGrams.join(' / ')} g/bag` : 'Confirm by quotation'}`) : card;
 });
 
 function procurementRow(product, collection) {
   const confirmed = confirmedPurchasing.get(product.sku);
-  if (confirmed) return `<tr><td data-label="Product"><span class="procurement-sku">${escapeHtml(product.sku)}</span><a class="procurement-product-link" href="${product.previewPath}">${escapeHtml(product.title)}</a></td><td data-label="Availability">Confirm by quotation</td><td data-label="Standard Packing">${confirmed.packWeightsGrams.join(' / ')} g/bag</td><td data-label="MOQ">${escapeHtml(confirmed.moq)}</td><td data-label="Sample Time">Confirm with sales</td><td data-label="Estimated Lead Time">Dispatch: ${escapeHtml(confirmed.dispatchLeadTime)}</td></tr>`;
+  if (confirmed) return `<tr><td data-label="Product"><span class="procurement-sku">${escapeHtml(product.sku)}</span><a class="procurement-product-link" href="${product.previewPath}">${escapeHtml(product.title)}</a></td><td data-label="Availability">Confirm by quotation</td><td data-label="Standard Packing">${confirmed.packWeightsGrams.length ? `${confirmed.packWeightsGrams.join(' / ')} g/bag` : 'Confirm by quotation'}</td><td data-label="MOQ">${escapeHtml(confirmed.moq)}</td><td data-label="Sample Time">Confirm with sales</td><td data-label="Estimated Lead Time">Dispatch: ${escapeHtml(confirmed.dispatchLeadTime)}</td></tr>`;
   const packing = product.sku === 'YX4109' ? '500 g/bag' : '100 pcs/bag';
   if (collection.key === 'christmas') {
     return `<tr><td data-label="Product"><span class="procurement-sku">${escapeHtml(product.sku)}</span><a class="procurement-product-link" href="${product.previewPath}">${escapeHtml(product.title)}</a></td><td data-label="Availability"><span class="availability-badge">Confirm by quotation</span></td><td data-label="Standard Packing">${packing}</td><td data-label="MOQ">To be discussed based on SKU and packaging</td><td data-label="Sample Time">3–7 days</td><td data-label="Estimated Lead Time">To be confirmed after quantity and packaging review</td></tr>`;

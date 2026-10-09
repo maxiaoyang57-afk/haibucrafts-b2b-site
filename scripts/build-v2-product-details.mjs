@@ -341,10 +341,11 @@ for (const product of products) {
     alt: `${product.alt}, ${labels[batchGalleryOrder(batchRecordsBySku.get(product.sku))[index] - 1] || `product view ${index + 1}`}`
   }));
   product.overview = purchasing.overview;
+  product.dimensions = purchasing.dimensions;
   product.packingOptions = purchasing.packWeightsGrams.map((grams) => `${grams} g/bag`);
   product.sourcePacking = null;
-  product.lastModified = purchasingBatch.confirmedOn;
-  if (product.approvedListing) product.approvedListing.packagingMoq = `Packing options: ${product.packingOptions.join(', ')}. ${purchasing.moq} Dispatch lead time: ${purchasing.dispatchLeadTime}`;
+  product.lastModified = purchasingBatch.reviewedOn;
+  if (product.approvedListing) product.approvedListing.packagingMoq = `Packaging: ${product.packingOptions.length ? product.packingOptions.join(', ') : 'Confirm by quotation'}. ${purchasing.moq} Dispatch lead time: ${purchasing.dispatchLeadTime}`;
 }
 if (purchasingBySku.size !== purchasingBatch.products.length || purchasingBatch.products.some((item) => !skuSet.has(item.sku))) throw new Error('Purchasing updates must match unique existing SKUs');
 const productsBySku = new Map(products.map((product) => [product.sku, product]));
@@ -454,7 +455,7 @@ for (const category of categories) {
       landing_page: product.previewPath
     });
     const quoteHref = `/v2-preview/quote/?${quoteParams.toString().replaceAll('&', '&amp;')}`;
-    const purchasingMarkup = product.purchasing ? `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Wholesale ordering options</h2><dl><dt>Packaging</dt><dd>${product.packingOptions.join(' / ')}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Dispatch lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><p>Other packing requirements, dimensions and samples can be discussed with our sales team.</p><div class="actions">${product.purchasing.packWeightsGrams.map((grams) => `<a class="btn btn-light" href="${quoteHref}&amp;packaging=${grams}%20g%2Fbag">Ask about ${grams} g/bag</a>`).join('')}</div></div>` : '';
+    const purchasingMarkup = product.purchasing ? `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Wholesale ordering options</h2><dl><dt>Packaging</dt><dd>${product.packingOptions.length ? product.packingOptions.join(' / ') : 'Confirm by quotation'}</dd><dt>Size details</dt><dd>${escapeHtml(product.dimensions)}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Dispatch lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><h3>Request a bag weight</h3><p>${escapeHtml(product.purchasing.packingNote)} Please confirm included components, any mix proportions, pack net weight and sample timing with our sales team before ordering.</p><div class="actions">${product.purchasing.quotePackWeightsGrams.map((grams) => `<a class="btn btn-light" href="${quoteHref}&amp;packaging=${grams}%20g%2Fbag">Ask about ${grams} g/bag</a>`).join('')}</div></div>` : '';
     const structuredData = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Product',
@@ -487,15 +488,15 @@ for (const category of categories) {
             <img src="${escapeHtml(product.image)}" width="${product.purchasing ? 1000 : 800}" height="${product.purchasing ? 1000 : 800}" decoding="async"${product.purchasing ? ' fetchpriority="high"' : ''} alt="${escapeHtml(product.alt)}">
             <span>Actual catalog image</span>
           </div>`;
-    const packingReference = product.packingOptions.length
+    const packingReference = product.purchasing || product.packingOptions.length
       ? `<div class="product-packing-reference">
             <h3>Packing options/reference</h3>
-            <ul class="pack-option-list">${product.packingOptions.map((option) => `<li>${escapeHtml(option)}</li>`).join('')}</ul>
-            <p class="b2b-note">${product.purchasing ? 'Choose a bag weight for your quotation.' : 'These are source-sheet packing references, not guaranteed specifications.'} Final pack weight, mix ratio, carton details and gross weight are confirmed with the quotation and order specification.</p>
+            <ul class="pack-option-list">${product.packingOptions.length ? product.packingOptions.map((option) => `<li>${escapeHtml(option)}</li>`).join('') : '<li>Confirm by quotation</li>'}</ul>
+            <p class="b2b-note">${product.purchasing ? 'Other bag weights can be requested for quotation; availability is confirmed with sales.' : 'These are source-sheet packing references, not guaranteed specifications.'} Final pack weight, mix ratio, carton details and gross weight are confirmed with the quotation and order specification.</p>
           </div>`
       : '';
     const sourceReferenceRows = [
-      product.dimensions ? `            <tr><th>Reference size</th><td>${escapeHtml(product.dimensions)}</td></tr>` : null,
+      product.dimensions ? `            <tr><th>${product.purchasing ? 'Size details' : 'Reference size'}</th><td>${escapeHtml(product.dimensions)}</td></tr>` : null,
       product.sourcePacking ? `            <tr><th>Source packing</th><td>${escapeHtml(product.sourcePacking)}</td></tr>` : null
     ].filter(Boolean).join('\n');
     const galleryScript = product.gallery.length
@@ -547,7 +548,7 @@ for (const category of categories) {
             <tr><th>Style direction</th><td>${escapeHtml(product.type)}</td></tr>
             <tr><th>Common applications</th><td>${escapeHtml(product.uses)}</td></tr>
             <tr><th>Material scope</th><td>${escapeHtml(product.material)}</td></tr>
-${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            ${product.purchasing ? `<tr><th>Packaging</th><td>${product.packingOptions.join(', ')}</td></tr><tr><th>MOQ</th><td>${escapeHtml(product.purchasing.moq)}</td></tr><tr><th>Dispatch lead time</th><td>${escapeHtml(product.purchasing.dispatchLeadTime)}</td></tr>` : '<tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>'}
+${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            ${product.purchasing ? `<tr><th>Packaging</th><td>${product.packingOptions.length ? product.packingOptions.join(', ') : 'Confirm by quotation'}</td></tr><tr><th>MOQ</th><td>${escapeHtml(product.purchasing.moq)}</td></tr><tr><th>Dispatch lead time</th><td>${escapeHtml(product.purchasing.dispatchLeadTime)}</td></tr>` : '<tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>'}
             <tr><th>Testing documents</th><td>Reviewed for the exact SKU, intended use and destination market; no blanket certificate claim applies.</td></tr>
           </tbody>
         </table>

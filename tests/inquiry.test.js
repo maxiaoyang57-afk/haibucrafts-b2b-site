@@ -80,6 +80,33 @@ test('only HAIBU domains and the current deployment origins pass the origin chec
   }
 });
 
+test('preview and development deployments cannot send real inquiry email', async () => {
+  const originalFetch = globalThis.fetch;
+  const previousEnv = process.env.VERCEL_ENV;
+  const previousKey = process.env.RESEND_API_KEY;
+  let calls = 0;
+  process.env.RESEND_API_KEY = 're_test_key';
+  globalThis.fetch = async () => { calls += 1; return { ok: true, json: async () => ({ id: 'should-not-send' }) }; };
+  try {
+    for (const environment of ['preview', 'development']) {
+      process.env.VERCEL_ENV = environment;
+      const res = responseHarness();
+      await handler(request(), res);
+      const response = JSON.parse(res.body);
+      assert.equal(res.statusCode, 403, environment);
+      assert.equal(response.ok, false, environment);
+      assert.match(response.message, /disabled outside production/i);
+    }
+    assert.equal(calls, 0);
+  } finally {
+    globalThis.fetch = originalFetch;
+    if (previousEnv === undefined) delete process.env.VERCEL_ENV;
+    else process.env.VERCEL_ENV = previousEnv;
+    if (previousKey === undefined) delete process.env.RESEND_API_KEY;
+    else process.env.RESEND_API_KEY = previousKey;
+  }
+});
+
 test('requires server-side Resend configuration', async () => {
   const previousKey = process.env.RESEND_API_KEY;
   delete process.env.RESEND_API_KEY;

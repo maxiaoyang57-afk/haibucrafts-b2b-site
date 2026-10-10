@@ -6,6 +6,7 @@ import test from 'node:test';
 async function submitFixture(response) {
   let submit;
   let resets = 0;
+  const tracked = [];
   const status = { textContent: '' };
   const button = { textContent: '', disabled: false };
   const form = {
@@ -24,13 +25,17 @@ async function submitFixture(response) {
   };
   const context = {
     document, URLSearchParams, HTMLInputElement: class {},
-    window: { HAIBU_QUOTE_CONFIG: { mode: 'live', endpoint: '/api/inquiry' }, location: { search: '', pathname: '/request-quote/' } },
+    window: {
+      HAIBU_QUOTE_CONFIG: { mode: 'live', endpoint: '/api/inquiry' },
+      HAIBU_TRACK: (name, properties) => tracked.push({ name, properties }),
+      location: { search: '', pathname: '/request-quote/' }
+    },
     FormData: class { entries() { return [['name', 'Test'], ['email', 'test@example.com'], ['country', 'US']]; } get() { return ''; } },
     fetch: async () => response
   };
   vm.runInNewContext(await readFile('assets/v2/quote-preview.js', 'utf8'), context);
   await submit({ preventDefault() {} });
-  return { resets, message: status.textContent, disabled: button.disabled };
+  return { resets, message: status.textContent, disabled: button.disabled, tracked };
 }
 
 test('a 200 response without explicit inquiry acceptance does not clear buyer input', async () => {
@@ -39,6 +44,7 @@ test('a 200 response without explicit inquiry acceptance does not clear buyer in
     assert.equal(result.resets, 0);
     assert.equal(result.message, 'Inquiry could not be sent.');
     assert.equal(result.disabled, false);
+    assert.equal(result.tracked.length, 0);
   }
 });
 
@@ -47,4 +53,7 @@ test('accepted inquiry clears input and shows the server request reference', asy
   assert.equal(result.resets, 1);
   assert.match(result.message, /sent successfully.*Reference: 12345678/);
   assert.equal(result.disabled, false);
+  assert.deepEqual(result.tracked.map((event) => event.name), ['generate_lead']);
+  assert.equal(result.tracked[0].properties.lead_type, 'wholesale_inquiry');
+  assert.equal(result.tracked[0].properties.lead_status, 'accepted');
 });

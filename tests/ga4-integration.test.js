@@ -41,8 +41,10 @@ for (const relative of [
 
 test('the live inquiry success event is forwarded through the shared analytics adapter', async () => {
   const quote = await readFile(path.join(root, 'assets', 'v2', 'quote-preview.js'), 'utf8');
-  assert.match(quote, /HAIBU_TRACK\('inquiry_submitted'/);
-  const eventPayload = quote.match(/HAIBU_TRACK\('inquiry_submitted',[\s\S]*?\n\s*}\);/)?.[0] || '';
+  assert.match(quote, /HAIBU_TRACK\('generate_lead'/);
+  assert.doesNotMatch(quote, /HAIBU_TRACK\('inquiry_submitted'/);
+  assert.doesNotMatch(quote, /HAIBU_TRACK\('form_submit'/);
+  const eventPayload = quote.match(/HAIBU_TRACK\('generate_lead',[\s\S]*?\n\s*}\);/)?.[0] || '';
   assert.ok(eventPayload);
   for (const personalField of ['fields.name', 'fields.email', 'fields.phone', 'fields.message']) {
     assert.ok(!eventPayload.includes(personalField), `${personalField} must not be sent to analytics`);

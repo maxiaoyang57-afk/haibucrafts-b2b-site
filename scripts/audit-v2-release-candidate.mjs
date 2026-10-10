@@ -307,7 +307,11 @@ const quoteConfigPath = path.join(releaseRoot, 'assets', 'v2', 'quote-runtime-co
 if (!await exists(quoteConfigPath)) errors.push('missing quote runtime configuration');
 else {
   const config = await readFile(quoteConfigPath, 'utf8');
-  if (!config.includes("mode: 'live'")) errors.push('approved release candidate quote mode must be live');
+  if (!config.includes("IS_HAIBU_PRODUCTION_HOST") ||
+      !config.includes("/^(www\\.)?haibucrafts\\.com$/i.test(window.location.hostname)") ||
+      !config.includes("mode: IS_HAIBU_PRODUCTION_HOST ? 'live' : 'validation-only'")) {
+    errors.push('approved release candidate must send inquiries only from canonical HAIBU production hosts');
+  }
   if (!config.includes("endpoint: '/api/inquiry'")) errors.push('quote endpoint contract is missing');
   if (!config.includes('enableReferenceUploads: true')) errors.push('reference uploads must be enabled for the production release');
 }

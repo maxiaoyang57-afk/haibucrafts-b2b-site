@@ -173,14 +173,13 @@
 
 .sku-badge {
   min-width: 0;
-  overflow: hidden;
+  overflow-wrap: anywhere;
   color: var(--brand-dark);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.02em;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .product-type {

@@ -24,6 +24,10 @@ const exists = async (file) => { try { await access(path.join(root, file)); retu
 const cardsOf = (html) => [...html.matchAll(/<article class="product-card-v2"[\s\S]*?<\/article>/g)].map((match) => match[0]);
 const skuOf = (card) => card.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]?.trim() || '';
 const esc = (value) => String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const hasQuoteSku = (html, sku) => [...html.matchAll(/href="([^"]+)"/g)].some((match) => {
+  const url = new URL(match[1].replaceAll('&amp;', '&'), 'https://www.haibucrafts.com');
+  return url.searchParams.get('product_code') === sku;
+});
 
 if (catalog.products.length !== previewCatalog.products.length) errors.push('Production and Preview catalogs have different product counts');
 const catalogSkus = catalog.products.map((product) => product.sku);
@@ -46,7 +50,7 @@ for (const [category, sourcePath] of Object.entries(sourceCategoryPath)) {
       if (!card.includes(product.image)) errors.push(`${label} card ${product.sku} image differs from catalog`);
       const expectedHref = label === 'Preview' ? product.previewPath : product.productionPath;
       if (!card.includes(`href="${expectedHref}"`)) errors.push(`${label} card ${product.sku} detail link differs from catalog`);
-      if (!card.includes(`product_code=${product.sku}`)) errors.push(`${label} card ${product.sku} quote attribution is missing or stale`);
+      if (!hasQuoteSku(card, product.sku)) errors.push(`${label} card ${product.sku} quote attribution is missing or stale`);
     }
   }
 }
@@ -59,7 +63,7 @@ for (const product of catalog.products) {
   if (canonical !== `https://www.haibucrafts.com${product.productionPath}`) errors.push(`canonical mismatch for ${product.sku}`);
   if (!html.includes(`<span class="sku-badge">${product.sku}</span>`)) errors.push(`detail badge mismatch for ${product.sku}`);
   if (!html.includes(`"sku":"${product.sku}"`)) errors.push(`JSON-LD SKU mismatch for ${product.sku}`);
-  if (!html.includes(`product_code=${product.sku}`)) errors.push(`detail quote attribution is stale for ${product.sku}`);
+  if (!hasQuoteSku(html, product.sku)) errors.push(`detail quote attribution is stale for ${product.sku}`);
   if (!html.includes(product.image)) errors.push(`detail image identity mismatch for ${product.sku}`);
 }
 

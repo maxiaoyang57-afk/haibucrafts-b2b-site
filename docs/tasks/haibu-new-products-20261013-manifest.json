@@ -1,0 +1,380 @@
+{
+  "batch": "haibu-new-products-20261013",
+  "baselineCommit": "22df000e5de8e1f41ca8ec777a89ea0c1e3593af",
+  "sourceWorkbook": "10.11(3).xlsx",
+  "sourceWorkbookSha256": "fc10ef86fdb55d31eceecd7ef851d1f9946a3bcfa7460c1f70fb2f068f7a23b5",
+  "catalogCountBefore": 143,
+  "catalogCountAfter": 151,
+  "imageCount": 24,
+  "products": [
+    {
+      "sku": "YX720",
+      "sourceRow": 29,
+      "sourceFields": {
+        "sku": "YX720 ",
+        "标题": "Cute Hot Romantic Theme Shell Clay Slices Diamond Mixed Sprinkles Supplies Slime Crafts Filling",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceImage": "YX720 .png",
+      "sourceImageSha256": "fa12a5073b04b46aa3c4d6aa9438d74b003c15d670fdcd06f5b5dd4c34414775",
+      "outputs": [
+        {
+          "role": "main",
+          "width": 669,
+          "height": 700,
+          "sha256": "22c924dae179d4f8a1ef9b9b8ba870bc714becefdbfdde3ef028923a13893683",
+          "bytes": 64978,
+          "origin": "supplied reference",
+          "path": "assets/images/products/batch-2026-10-13/yx720/shell-polymer-clay-sprinkle-mix-01.jpg"
+        },
+        {
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "0d605557931dc3c812a93a9f697a1cb7472e5efe5a5aa70fe317ae4fa96fab21",
+          "bytes": 175528,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/yx720/shell-polymer-clay-sprinkle-mix-02.jpg"
+        },
+        {
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b14f33b30290bc4e6eaf1cc72f73482d76db644c781cd4143b8f5bb08096a922",
+          "bytes": 137879,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/yx720/shell-polymer-clay-sprinkle-mix-03.jpg"
+        }
+      ]
+    },
+    {
+      "sku": "YX3194",
+      "sourceRow": 34,
+      "sourceFields": {
+        "sku": "YX3194",
+        "标题": "1kg Cloud Rainbow Slice Mixed Polymer Clay Sprinkles Ball for Crafts Decor DIY Slime Shaker Cards Filler Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "无",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceImage": "YX3194.png",
+      "sourceImageSha256": "3a5e53adb1e83e6364593338bd5e239a3b3f0cef4c74cdf4419dcb8dea825f3d",
+      "outputs": [
+        {
+          "role": "main",
+          "width": 688,
+          "height": 625,
+          "sha256": "50dbdbd5e9410a231485c9c044bec070f68745f6cf34e89f29df58d6be4ae8d9",
+          "bytes": 98820,
+          "origin": "supplied reference",
+          "path": "assets/images/products/batch-2026-10-13/yx3194/rainbow-cloud-polymer-clay-sprinkle-mix-01.jpg"
+        },
+        {
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "571f6992eda206e01ad2a0c04db652c5b6da671d79af675016145819772ecd58",
+          "bytes": 195446,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/yx3194/rainbow-cloud-polymer-clay-sprinkle-mix-02.jpg"
+        },
+        {
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2c016553ca1b8b49e273c5b388043ce3824a3eeaaa4085f6c5b28dbc373d140c",
+          "bytes": 125240,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/yx3194/rainbow-cloud-polymer-clay-sprinkle-mix-03.jpg"
+        }
+      ]
+    },
+    {
+      "sku": "MA168",
+      "sourceRow": 33,
+      "sourceFields": {
+        "sku": "MA168 ",
+        "标题": "Holographic Hexagon Glitter Snow Globe Snowglobe Tumbler Glitter Chunky Powder Mix Glitter for Snowglobe Tumblers Nails",
+        "分类": "Glitter  sequins",
+        "状态": "库存有货",
+        "材质": "Plastic",
+        "尺寸": "无",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceImage": "MA168 .png",
+      "sourceImageSha256": "85b5abe0e25ba48e9999e30289be88f512b3cad784df85627115b96c763f75ff",
+      "outputs": [
+        {
+          "role": "main",
+          "width": 530,
+          "height": 546,
+          "sha256": "1a504d2a3769ff469512bf2b01130ecb26b5cf68e68b319cdaf7d5c0bf524867",
+          "bytes": 67678,
+          "origin": "supplied reference",
+          "path": "assets/images/products/batch-2026-10-13/ma168/holographic-hexagon-plastic-glitter-mix-01.jpg"
+        },
+        {
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "049292e0a6627db7f33db791d2278e96eab32d5f90e988afea9906ea8c42d23f",
+          "bytes": 194335,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/ma168/holographic-hexagon-plastic-glitter-mix-02.jpg"
+        },
+        {
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "cf3140c260342bf4f3d45eb31e8b6cbe20b78d88ee2c11458dea0a1f5fda2e2c",
+          "bytes": 231310,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/ma168/holographic-hexagon-plastic-glitter-mix-03.jpg"
+        }
+      ]
+    },
+    {
+      "sku": "RW1917",
+      "sourceRow": 21,
+      "sourceFields": {
+        "sku": "RW1917",
+        "标题": "New Arrive Cute  Resin Cake Donut Lollipop Ice Cream Flatback Cabochon Simulation Food Art Supply Home Decoration Charm Craft",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20-30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceImage": "RW1917.png",
+      "sourceImageSha256": "bd3c1e6b3e3e570331405052ac2e13602a350a3f930ae16fcbac96d48314865b",
+      "outputs": [
+        {
+          "role": "main",
+          "width": 680,
+          "height": 673,
+          "sha256": "f69051a604ad6762487206ea58622ab232937f9951145e11c34fefc2caf68c79",
+          "bytes": 29995,
+          "origin": "supplied reference",
+          "path": "assets/images/products/batch-2026-10-13/rw1917/dessert-resin-flatback-cabochon-mix-01.jpg"
+        },
+        {
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f7e33facf68cf3b28c7d0a09b2fe65931ae229bfdaf86746f888b7a66d85d2d7",
+          "bytes": 122205,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw1917/dessert-resin-flatback-cabochon-mix-02.jpg"
+        },
+        {
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "57f48199a1d0d12cf39d045e1502b6a7d95a942afee20986f5a451408b625d81",
+          "bytes": 65650,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw1917/dessert-resin-flatback-cabochon-mix-03.jpg"
+        }
+      ]
+    },
+    {
+      "sku": "RW2304-C",
+      "sourceRow": 22,
+      "sourceFields": {
+        "sku": "RW2304-C",
+        "标题": "OEM ODM Factory Supply Resin Flatback Cabochon Sweet Candy Food Dollhouse Miniature DIY Artificial Chocolate Resin Food",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "5*14*14mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceImage": "RW2304.png",
+      "sourceImageSha256": "f5110ad8a5dcb7829287ccc367e8acbe95caaf6889b2531afc985d3ae351df1e",
+      "outputs": [
+        {
+          "role": "main",
+          "width": 675,
+          "height": 680,
+          "sha256": "70970ca3606909d30245d5ae62dd9a470614ec6db39694343f61c8caecc7d4b7",
+          "bytes": 61060,
+          "origin": "supplied reference",
+          "path": "assets/images/products/batch-2026-10-13/rw2304-c/candy-disc-resin-flatback-cabochons-01.jpg"
+        },
+        {
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8e581c443ff588ee02dd6e40d0e1a8e38925636accb476fb74ead70cac05a621",
+          "bytes": 120941,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw2304-c/candy-disc-resin-flatback-cabochons-02.jpg"
+        },
+        {
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3aa9ab6a44bc99e1d7a0ec1f7ab02674da0d979fceec096733c898f6ef6f8918",
+          "bytes": 108757,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw2304-c/candy-disc-resin-flatback-cabochons-03.jpg"
+        }
+      ]
+    },
+    {
+      "sku": "RW1112",
+      "sourceRow": 36,
+      "sourceFields": {
+        "sku": "RW1112 ",
+        "标题": "100Pcs Mixed Resin Spiral Candy Sweet Decoration Crafts Beads Flatback Cabochon Kawaii Embellishments for Scrapbooking DIY",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "5*14*28mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceImage": "RW1112.png",
+      "sourceImageSha256": "3eda20a67ad1cadea116a55fb1b7dc37dcf33378ef54630fdbf553775e223374",
+      "outputs": [
+        {
+          "role": "main",
+          "width": 685,
+          "height": 668,
+          "sha256": "2076c27f14c5b113d8841e4f55431383d4450c95e83280cf0df72b04b23d336f",
+          "bytes": 520548,
+          "origin": "supplied reference",
+          "path": "assets/images/products/batch-2026-10-13/rw1112/spiral-candy-resin-flatback-cabochons-01.png"
+        },
+        {
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4780afcaf9ca015b68c16e3565610c9039ebf7ebcc58f2864210724625c54ddf",
+          "bytes": 110728,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw1112/spiral-candy-resin-flatback-cabochons-02.jpg"
+        },
+        {
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4d1d67a983ec8e52eee6e5b9d2112aedaa71c75b36769d04163302e954db2065",
+          "bytes": 64531,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw1112/spiral-candy-resin-flatback-cabochons-03.jpg"
+        }
+      ]
+    },
+    {
+      "sku": "RW2041",
+      "sourceRow": 19,
+      "sourceFields": {
+        "sku": "RW2041 ",
+        "标题": "Resin Bling Glitter Girls Magic Stick  Flat Back Cabochons Kawaii Candy Lollipop Craft Hair Accessories",
+        "分类": "resin  beads",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "5*18*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceImage": "RW2041.png",
+      "sourceImageSha256": "9db81e0f5d0f933ff869445277d6908e921b3a21aa11d4cfa75bbc442f5f8a3b",
+      "outputs": [
+        {
+          "role": "main",
+          "width": 731,
+          "height": 734,
+          "sha256": "72cf8db61765ed40f51c72d8c77de4962294b4b47791961c0559cf72201abe07",
+          "bytes": 62921,
+          "origin": "supplied reference",
+          "path": "assets/images/products/batch-2026-10-13/rw2041/glitter-heart-bow-resin-flatback-cabochons-01.jpg"
+        },
+        {
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "8ab97ca2b4a9d5033229b6c6e6c9cb5a5c301b972bf253f74af7f150b2f89e76",
+          "bytes": 141919,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw2041/glitter-heart-bow-resin-flatback-cabochons-02.jpg"
+        },
+        {
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c8002972beb478701d207c17d7cc7949d0ff3525a295b607d60c53309b09a48f",
+          "bytes": 110430,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw2041/glitter-heart-bow-resin-flatback-cabochons-03.jpg"
+        }
+      ]
+    },
+    {
+      "sku": "RW1672/RW2072/RW3492/RW20104",
+      "sourceRow": 25,
+      "sourceFields": {
+        "sku": "RW1672/RW2072/RW3492/RW20104",
+        "标题": "Kawaii Glitter Gradient Gummy Bear Flatback Resin Cabochons Charms for DIY Jewelry Craft Scrapbook Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "7*10*17mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceImage": "RW1672-RW2072-RW3492-RW20104mix.png",
+      "sourceImageSha256": "e832b55596117beff9766728a407c1f1fc625665c565256b8905b1dd695f39c0",
+      "outputs": [
+        {
+          "role": "main",
+          "width": 688,
+          "height": 579,
+          "sha256": "0c39c9c45d1e1a2920cc1bd1c6936f967e1ef59c9ca624080d21e260733b0f87",
+          "bytes": 62053,
+          "origin": "supplied reference",
+          "path": "assets/images/products/batch-2026-10-13/rw1672-rw2072-rw3492-rw20104/gradient-glitter-bear-resin-flatback-mix-01.jpg"
+        },
+        {
+          "role": "scene",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "89d356de4ec0eaf2c97b769f76eba8562b4650094afbd13cc3de34a2cf113e33",
+          "bytes": 149196,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw1672-rw2072-rw3492-rw20104/gradient-glitter-bear-resin-flatback-mix-02.jpg"
+        },
+        {
+          "role": "detail",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "d2ed7ea31e43058670f9f7be993ec79bdba8914862f94e345a780479e2b20e5c",
+          "bytes": 127361,
+          "origin": "AI-assisted styling illustration",
+          "path": "assets/images/products/batch-2026-10-13/rw1672-rw2072-rw3492-rw20104/gradient-glitter-bear-resin-flatback-mix-03.jpg"
+        }
+      ]
+    }
+  ],
+  "previousCatalogIdentitySha256": "46f5f3551eb0af8f72d80f5176cc007932c297abbf78f5ea6ba6757cd3566aef"
+}

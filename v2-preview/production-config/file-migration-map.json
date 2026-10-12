@@ -547,6 +547,34 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw24707-26-mm-ab-pearl-shell-resin-cabochons-in-bulk/index.html",
+      "destination": "products/resin-charms-for-slime/rw24707-26-mm-ab-pearl-shell-resin-cabochons-in-bulk/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24707-26-mm-ab-pearl-shell-resin-cabochons-in-bulk/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw749-10-mm-walnut-resin-flatbacks-for-bulk-craft-supply/index.html",
+      "destination": "products/resin-charms-for-slime/rw749-10-mm-walnut-resin-flatbacks-for-bulk-craft-supply/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw749-10-mm-walnut-resin-flatbacks-for-bulk-craft-supply/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25179-gift-box-resin-flatbacks-for-seasonal-bulk-orders/index.html",
+      "destination": "products/resin-charms-for-slime/rw25179-gift-box-resin-flatbacks-for-seasonal-bulk-orders/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25179-gift-box-resin-flatbacks-for-seasonal-bulk-orders/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22898-25-mm-luminous-flower-resin-cabochons-in-bulk/index.html",
+      "destination": "products/resin-charms-for-slime/rw22898-25-mm-luminous-flower-resin-cabochons-in-bulk/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22898-25-mm-luminous-flower-resin-cabochons-in-bulk/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26051-glitter-cherry-resin-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw26051-glitter-cherry-resin-charms/index.html",
       "action": "create",

@@ -1,0 +1,16 @@
+/* Slime-brand packing examples: original photos, uncropped and within native resolution. */
+.slime-size-note{margin-top:24px}
+.slime-size-note strong{color:var(--ink)}
+.slime-packing-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:26px 0}
+.slime-packing-photo{margin:0;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:#fff;min-width:0}
+.slime-packing-photo__frame{aspect-ratio:4/3;display:grid;place-items:center;background:#f6f5f2;overflow:hidden}
+.slime-packing-photo picture{display:contents}
+.slime-packing-photo img{display:block;width:100%;height:100%;max-width:1000px;object-fit:contain}
+.slime-packing-photo--cartons img{max-width:500px;max-height:375px}
+.slime-packing-photo figcaption{padding:19px 20px;font-size:14px;line-height:1.6;color:var(--muted)}
+.slime-packing-photo figcaption strong{display:block;font-size:17px;color:var(--ink);margin-bottom:6px}
+.slime-packing-checklist{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin:24px 0}
+.slime-packing-checklist h3{font-size:18px;margin:0 0 8px}
+.slime-packing-checklist p{margin:0;color:var(--muted)}
+.slime-packing-cta{margin-top:24px}
+@media(max-width:900px){.slime-packing-gallery{grid-template-columns:1fr}.slime-packing-photo__frame{max-width:500px;margin:auto}.slime-packing-checklist{grid-template-columns:1fr;gap:18px}}

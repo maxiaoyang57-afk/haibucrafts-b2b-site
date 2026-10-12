@@ -4,7 +4,7 @@ import process from 'node:process';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
-const catalogGeneratedAt = '2026-09-07';
+const catalogGeneratedAt = '2026-10-12';
 const catalogLastModified = '2026-09-06';
 const productsRoot = path.join(previewRoot, 'products');
 const seoMapPath = path.join(previewRoot, 'seo-production-map.json');
@@ -27,6 +27,7 @@ const haibuSeptember9Batch = JSON.parse(await readFile(haibuSeptember9BatchPath,
 const haibuSeptember11Batch = JSON.parse(await readFile(haibuSeptember11BatchPath, 'utf8'));
 const haibuSeptember12Batch = JSON.parse(await readFile(haibuSeptember12BatchPath, 'utf8'));
 const haibuSeptember20Batch = JSON.parse(await readFile(haibuSeptember20BatchPath, 'utf8'));
+const haibuOctober12Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261012.json'), 'utf8'));
 const purchasingBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-purchasing-20261002.json'), 'utf8'));
 const purchasingBySku = new Map(purchasingBatch.products.map((item) => [item.sku, item]));
 const productBatches = [
@@ -37,7 +38,8 @@ const productBatches = [
   { issue: 'haibu-new-products-20260909', data: haibuSeptember9Batch },
   { issue: 'haibu-new-products-20260911', data: haibuSeptember11Batch },
   { issue: 'haibu-new-products-20260912', data: haibuSeptember12Batch },
-  { issue: 'haibu-new-products-20260920', data: haibuSeptember20Batch }
+  { issue: 'haibu-new-products-20260920', data: haibuSeptember20Batch },
+  { issue: 'haibu-new-products-20261012', data: haibuOctober12Batch }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -176,10 +178,12 @@ const batchCard = (record) => {
     landing_page: previewPath
   });
   const quoteHref = `/v2-preview/quote/?${quoteParams.toString().replaceAll('&', '&amp;')}`;
+  const imageSize = product.imageDimensions?.[batchGalleryOrder(record)[0] - 1] || { width: 1000, height: 1000 };
+  const imageStyle = product.preserveImageRatio ? ' style="object-fit:contain"' : '';
   const tags = `${product.sku} ${product.title.replaceAll('&', 'and')} wholesale`.toLowerCase();
   const alt = `${product.title.replaceAll('&', 'and')} assortment, product code ${product.sku}`;
 
-  return `<article class="product-card-v2" data-product-card data-category="${batchFilter(product)}" data-tags="${escapeHtml(tags)}"><img src="${image}" width="1000" height="1000" loading="lazy" decoding="async" alt="${escapeHtml(alt)}"><div class="product-card-body"><div class="product-card-top"><span class="sku-badge">${product.sku}</span><span class="product-type">${escapeHtml(product.type)}</span></div><h3>${escapeHtml(product.title)}</h3><div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${previewPath}">View Details</a><a class="btn btn-primary get-quote" href="${quoteHref}">Get Quote</a></div></div></article>`;
+  return `<article class="product-card-v2" data-product-card data-category="${batchFilter(product)}" data-tags="${escapeHtml(tags)}"><img src="${image}" width="${imageSize.width}" height="${imageSize.height}"${imageStyle} loading="lazy" decoding="async" alt="${escapeHtml(alt)}"><div class="product-card-body"><div class="product-card-top"><span class="sku-badge">${product.sku}</span><span class="product-type">${escapeHtml(product.type)}</span></div><h3>${escapeHtml(product.title)}</h3><div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${previewPath}">View Details</a><a class="btn btn-primary get-quote" href="${quoteHref}">Get Quote</a></div></div></article>`;
 };
 
 const closingDivStart = (html, openingDivStart) => {
@@ -234,6 +238,17 @@ for (const category of categories) {
       }
     );
   }
+  const frontSkus = new Set(categoryBatchRecords.filter(({ data }) => data.prependProducts).map(({ product }) => product.sku));
+  if (frontSkus.size) {
+    const front = [];
+    html = html.replace(/<article class="product-card-v2"[^>]*>[\s\S]*?<\/article>/g, (article) => {
+      const sku = decodeHtml(article.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]?.trim() || '');
+      if (!frontSkus.has(sku)) return article;
+      front.push(article);
+      return '';
+    });
+    html = html.replace('<div class="product-grid-v2">', '<div class="product-grid-v2">' + front.join(''));
+  }
   categoryHtml.set(category.slug, { file, html });
 
   const cards = [...html.matchAll(/<article class="product-card-v2"([^>]*)>([\s\S]*?)<\/article>/g)];
@@ -265,6 +280,7 @@ for (const category of categories) {
     const gallery = batchProduct
       ? batchGalleryOrder(batchRecord).map((sourcePosition) => ({
         src: batchImage(batchRecord, sourcePosition),
+        ...(batchProduct.imageDimensions?.[sourcePosition - 1] || {}),
         alt: `${batchProduct.title} ${batchProduct.galleryLabels[sourcePosition - 1]}, product code ${batchProduct.sku}`
       }))
       : [];
@@ -287,6 +303,8 @@ for (const category of categories) {
       customMetaTitle: batchProduct?.metaTitle || null,
       customMetaDescription: batchProduct?.metaDescription || null,
       gallery,
+      preserveImageRatio: Boolean(batchProduct?.preserveImageRatio),
+      structuredSpecifications: Boolean(batchProduct?.structuredSpecifications),
       packingOptions: batchProduct ? batchRecord.data.packingOptions : [],
       galleryNote: batchRecord?.data.galleryNote || null,
       structuredDataImageMode: batchRecord?.data.structuredDataImageMode || 'gallery',
@@ -468,7 +486,8 @@ for (const category of categories) {
         : `https://www.haibucrafts.com${product.image}`,
       description,
       category: product.categoryLabel,
-      brand: { '@type': 'Brand', name: 'HAIBUCRAFT' }
+      brand: { '@type': 'Brand', name: 'HAIBUCRAFT' },
+      ...(product.structuredSpecifications ? { material: product.material, size: product.dimensions, additionalProperty: [{ '@type': 'PropertyValue', name: 'Standard pack', value: product.sourcePacking }, { '@type': 'PropertyValue', name: 'Hole', value: 'No hole' }] } : {})
     }).replaceAll('<', '\\u003c');
     const galleryStylesheet = product.gallery.length
       ? '  <link rel="stylesheet" href="/v2-preview/assets/product-gallery.css">\n'
@@ -476,11 +495,11 @@ for (const category of categories) {
     const mediaMarkup = product.gallery.length
       ? `<div class="product-detail-gallery" data-product-gallery${product.purchasing ? ' data-purchasing-gallery' : ''}>
             <figure class="product-detail-media">
-              <img data-product-gallery-main src="${escapeHtml(product.gallery[0].src)}" width="1000" height="1000" decoding="async" fetchpriority="high" alt="${escapeHtml(product.gallery[0].alt)}">
+              <img data-product-gallery-main src="${escapeHtml(product.gallery[0].src)}" width="${product.gallery[0].width || 1000}" height="${product.gallery[0].height || 1000}"${product.preserveImageRatio ? ' style="object-fit:contain"' : ''} decoding="async" fetchpriority="high" alt="${escapeHtml(product.gallery[0].alt)}">
               <span>${escapeHtml(product.mediaLabel || 'Actual product photo')}</span>
             </figure>
             <div class="product-detail-thumbs" aria-label="${escapeHtml(product.title)} gallery">
-              ${product.gallery.map((item, index) => `<button class="product-detail-thumb" type="button" data-product-gallery-thumb data-src="${escapeHtml(item.src)}" data-alt="${escapeHtml(item.alt)}" aria-label="Show image ${index + 1} of ${product.gallery.length}" aria-current="${index === 0 ? 'true' : 'false'}"><img src="${escapeHtml(item.src)}" width="1000" height="1000" loading="lazy" decoding="async" alt="${escapeHtml(item.alt)} thumbnail"></button>`).join('\n              ')}
+              ${product.gallery.map((item, index) => `<button class="product-detail-thumb" type="button" data-product-gallery-thumb data-src="${escapeHtml(item.src)}" data-alt="${escapeHtml(item.alt)}" aria-label="Show image ${index + 1} of ${product.gallery.length}" aria-current="${index === 0 ? 'true' : 'false'}"><img src="${escapeHtml(item.src)}" width="${item.width || 1000}" height="${item.height || 1000}"${product.preserveImageRatio ? ' style="object-fit:contain"' : ''} loading="lazy" decoding="async" alt="${escapeHtml(item.alt)} thumbnail"></button>`).join('\n              ')}
             </div>
             <p class="product-detail-gallery-note">${escapeHtml(product.galleryNote || (product.gallery.length === 6 ? 'Six actual product views are shown. Electronic-scale photos remain internal sourcing references and are not published.' : `${product.gallery.length} product views are shown.`))}</p>
           </div>`
@@ -629,7 +648,7 @@ ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</scri
           <h2>Continue comparing products in this family.</h2>
         </div>
         <div class="product-related-grid">
-          ${related.map((item) => `<a class="product-related-card" href="${item.previewPath}"><img src="${escapeHtml(item.image)}" width="800" height="800" loading="lazy" decoding="async" alt="${escapeHtml(item.alt)}"><div><span>${escapeHtml(item.sku)}</span><h3>${escapeHtml(item.title)}</h3></div></a>`).join('\n          ')}
+          ${related.map((item) => `<a class="product-related-card" href="${item.previewPath}"><img src="${escapeHtml(item.image)}" width="${item.preserveImageRatio ? item.gallery[0].width : 800}" height="${item.preserveImageRatio ? item.gallery[0].height : 800}"${item.preserveImageRatio ? ' style="object-fit:contain"' : ''} loading="lazy" decoding="async" alt="${escapeHtml(item.alt)}"><div><span>${escapeHtml(item.sku)}</span><h3>${escapeHtml(item.title)}</h3></div></a>`).join('\n          ')}
         </div>
       </div>
     </section>

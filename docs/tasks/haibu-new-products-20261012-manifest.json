@@ -1,0 +1,191 @@
+{
+  "batch": "haibu-new-products-20261012",
+  "baseline": "c9cfa0c",
+  "source": "User-approved HAIBU selected products, 2026-10-12; original 10.11.xlsx fields preserved",
+  "products": [
+    {
+      "sku": "RW24707",
+      "sourceFields": {
+        "sku": "RW24707",
+        "标题": "AB Plated Simulation Pearl Shell Artificial Resin Mermaid Shells Flat Back Resin Cabochon for DIY Deoc Parts Crafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "26mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw24707/rw24707-pearl-shell-resin-cabochons-01.jpg",
+          "role": "styled_catalog",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "bytes": 116783,
+          "sha256": "ccece3b6a2b0fb3db2d91a05e783b7b258fd9847f3c8b7035addb198130b794a"
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw24707/rw24707-pearl-shell-resin-cabochons-02.jpg",
+          "role": "supplied_reference",
+          "pixels": [
+            772,
+            716
+          ],
+          "bytes": 76574,
+          "sha256": "119410bc64ff0d63aca4940252e9d2bd3b6ccaec2ff12ce93c5f54970f9cbe5a"
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw24707/rw24707-pearl-shell-resin-cabochons-03.jpg",
+          "role": "styled_detail",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "bytes": 99871,
+          "sha256": "828f799a1f6a76c0907ef843bf475a84baad605b84edce845eb511b9bbc82e44"
+        }
+      ]
+    },
+    {
+      "sku": "RW749",
+      "sourceFields": {
+        "sku": "RW749",
+        "标题": "100Pcs Hot Selling Small Walnut Resin Cabochon Pecan Charms for Scrapbooking Slime Charms Crafts Making Hair Bow DIY",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "10mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw749/rw749-walnut-resin-flatback-cabochons-01.jpg",
+          "role": "styled_catalog",
+          "pixels": [
+            1000,
+            577
+          ],
+          "bytes": 72187,
+          "sha256": "cd1d555e86fe648e514d076cf329d610471a9482e44ebed5342992fa4a071813"
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw749/rw749-walnut-resin-flatback-cabochons-02.jpg",
+          "role": "supplied_reference",
+          "pixels": [
+            762,
+            440
+          ],
+          "bytes": 35661,
+          "sha256": "67fa8f3d655e6b40ee0a1f6035707225ceb9bade71b5131fbf52d28a8f567f4b"
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw749/rw749-walnut-resin-flatback-cabochons-03.jpg",
+          "role": "styled_detail",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "bytes": 75422,
+          "sha256": "30f94e2e69fea2aa4a1b0f0fdc355e740fd8bc4caca236065cc07334597ccc97"
+        }
+      ]
+    },
+    {
+      "sku": "RW25179",
+      "sourceFields": {
+        "sku": "RW25179 ",
+        "标题": "Kawaii Small 3d Miniature Bowknot Gift Box Design Flatback Resin Cabochon Diy Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "15*18*20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw25179/rw25179-gift-box-resin-flatback-charms-01.jpg",
+          "role": "styled_catalog",
+          "pixels": [
+            1000,
+            860
+          ],
+          "bytes": 150024,
+          "sha256": "6b9934862537298d9fed3311745c47801a75f7fdbd9028434f2ed2c366aa09e2"
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw25179/rw25179-gift-box-resin-flatback-charms-02.jpg",
+          "role": "supplied_reference",
+          "pixels": [
+            757,
+            652
+          ],
+          "bytes": 102757,
+          "sha256": "dbeae6e930fbcc3388225c04784e133f865d8d46e979c9d96128a86a10d5b122"
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw25179/rw25179-gift-box-resin-flatback-charms-03.jpg",
+          "role": "styled_detail",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "bytes": 124735,
+          "sha256": "398b1ce47bbf0e206c9c9bc149294b2ff67ff03be3b54ca01bf7fd76adb6318b"
+        }
+      ]
+    },
+    {
+      "sku": "RW22898",
+      "sourceFields": {
+        "sku": "RW22898",
+        "标题": "Luminous Flower Charms Glow in Dark 3D Rose Flower Resin Flatback Cabochon Kawaii Accessories Nail Art Decoration",
+        "分类": "resin accessories",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw22898/rw22898-luminous-flower-resin-flatbacks-01.jpg",
+          "role": "styled_catalog",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "bytes": 201737,
+          "sha256": "44299a1614188007808dfcfed0a50a4dab70b23972e18ef1891c705e7120b8e0"
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw22898/rw22898-luminous-flower-resin-flatbacks-02.jpg",
+          "role": "supplied_reference",
+          "pixels": [
+            693,
+            658
+          ],
+          "bytes": 86698,
+          "sha256": "70cf02b7fc0f2ca7ea1aa5028059c48bf2a179ce6c5f008790407856aeea7220"
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-12/rw22898/rw22898-luminous-flower-resin-flatbacks-03.jpg",
+          "role": "styled_detail",
+          "pixels": [
+            1000,
+            1000
+          ],
+          "bytes": 159524,
+          "sha256": "e833aa3d60af892669395e88397c1e3ccb6857988838db5c06130e3c59d9f612"
+        }
+      ]
+    }
+  ]
+}

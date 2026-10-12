@@ -1,0 +1,303 @@
+{
+  "batch": "haibu-new-products-20261012",
+  "expectedSkuCount": 4,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-12",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-12",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "galleryNote": "Image 1 is an AI-assisted catalog arrangement; image 2 is the supplied product reference; image 3 is an AI-assisted detail illustration. Confirm actual color, assortment and effect against a sample. Displayed piece counts are not package quantities.",
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW24707",
+      "title": "26 mm AB Pearl Shell Resin Cabochons in Bulk",
+      "originalTitle": "AB Plated Simulation Pearl Shell Artificial Resin Mermaid Shells Flat Back Resin Cabochon for DIY Deoc Parts Crafts",
+      "type": "Ocean",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "rw24707-pearl-shell-resin-cabochons",
+      "imageAlt": "RW24707 26 mm AB Pearl Shell Resin Cabochons in Bulk",
+      "description": "Source pearl-accent shell resin cabochons by SKU for your next craft-material assortment. RW24707 is listed at 26 mm, with an iridescent shell finish and no hole. The standard packing is 100 pieces per bag. Send the required number of bags and preferred color selection so HAIBU can confirm the available assortment, packing and quotation.",
+      "detailedDescription": "Ocean-themed craft assortments and decorative slime projects; assess a sample with your own materials. Choose the required bag quantity and confirm the assortment before placing an order.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Listed size: 26 mm",
+        "Standard pack: 100 pieces per bag",
+        "Mixed assortment; exact selection confirmed by inquiry",
+        "MOQ, samples and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW24707",
+        "Material: Resin",
+        "Listed size: 26 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact selection confirmed by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "MOQ: Confirm by quotation; standard pack is not the MOQ",
+        "Sample and dispatch timing: Confirm by inquiry"
+      ],
+      "material": "Resin",
+      "dimensions": "26 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Ask about available assortments and custom packing. Confirm feasibility and any label requirements before ordering.",
+      "recommendedApplications": "Ocean-themed craft assortments and decorative slime projects; assess a sample with your own materials.",
+      "packagingMoq": "Standard pack: 100 pieces per bag. This is a packaging unit, not a minimum order quantity. MOQ, sample timing, dispatch date and carton details are confirmed in the quotation.",
+      "seoKeywords": "",
+      "metaTitle": "Pearl Shell Resin Cabochons Bulk | RW24707 | HAIBUCRAFT",
+      "metaDescription": "Source 26 mm pearl shell resin cabochons in 100-piece bags. Ask HAIBU to confirm mixed colors, pack quantities and bulk pricing for RW24707.",
+      "publishingCheck": "No invented prices, MOQ, lead time, fixed color ratios or certification claims.",
+      "galleryLabels": [
+        "AI-assisted catalog arrangement",
+        "supplied product reference",
+        "AI-assisted detail illustration"
+      ],
+      "relatedSkus": [
+        "RW749",
+        "RW25179",
+        "RW22898"
+      ],
+      "mediaLabel": "Product reference / styled views",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 772,
+          "height": 716
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true,
+      "buyerHeading": "Order by SKU, pack unit and delivery requirement",
+      "buyerCopy": "Tell HAIBU how many bags or pieces you need, your destination country and required arrival date. We will review the available assortment, packing requirements and dispatch timing for your quotation.",
+      "applications": [
+        "Ocean-themed craft assortments and decorative slime projects; assess a sample with your own materials.",
+        "Bulk replenishment by product code",
+        "Custom packing requests subject to quotation"
+      ]
+    },
+    {
+      "sku": "RW749",
+      "title": "10 mm Walnut Resin Flatbacks for Bulk Craft Supply",
+      "originalTitle": "100Pcs Hot Selling Small Walnut Resin Cabochon Pecan Charms for Scrapbooking Slime Charms Crafts Making Hair Bow DIY",
+      "type": "Food & Drink",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "rw749-walnut-resin-flatback-cabochons",
+      "imageAlt": "RW749 10 mm Walnut Resin Flatbacks for Bulk Craft Supply",
+      "description": "Build a miniature food-themed craft assortment with walnut-shaped resin flatbacks. RW749 is listed at 10 mm with no hole and a standard pack of 100 pieces per bag. Request a quotation by bag quantity and tell us whether you need the standard pack or a different packing arrangement. These are decorative resin pieces, not edible walnuts.",
+      "detailedDescription": "Miniature food-themed craft and slime-decoration assortments; decorative, non-edible resin. Choose the required bag quantity and confirm the assortment before placing an order.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Listed size: 10 mm",
+        "Standard pack: 100 pieces per bag",
+        "Mixed assortment; exact selection confirmed by inquiry",
+        "MOQ, samples and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW749",
+        "Material: Resin",
+        "Listed size: 10 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact selection confirmed by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "MOQ: Confirm by quotation; standard pack is not the MOQ",
+        "Sample and dispatch timing: Confirm by inquiry"
+      ],
+      "material": "Resin",
+      "dimensions": "10 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Ask about available assortments and custom packing. Confirm feasibility and any label requirements before ordering.",
+      "recommendedApplications": "Miniature food-themed craft and slime-decoration assortments; decorative, non-edible resin.",
+      "packagingMoq": "Standard pack: 100 pieces per bag. This is a packaging unit, not a minimum order quantity. MOQ, sample timing, dispatch date and carton details are confirmed in the quotation.",
+      "seoKeywords": "",
+      "metaTitle": "Walnut Resin Flatbacks Bulk | RW749 | HAIBUCRAFT",
+      "metaDescription": "Buy 10 mm walnut-shaped resin flatbacks by the bag. Standard pack: 100 pieces. Confirm packing, available assortment and pricing with HAIBU.",
+      "publishingCheck": "No invented prices, MOQ, lead time, fixed color ratios or certification claims.",
+      "galleryLabels": [
+        "AI-assisted catalog arrangement",
+        "supplied product reference",
+        "AI-assisted detail illustration"
+      ],
+      "relatedSkus": [
+        "RW24707",
+        "RW25179",
+        "RW22898"
+      ],
+      "mediaLabel": "Product reference / styled views",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 577
+        },
+        {
+          "width": 762,
+          "height": 440
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true,
+      "buyerHeading": "Order by SKU, pack unit and delivery requirement",
+      "buyerCopy": "Tell HAIBU how many bags or pieces you need, your destination country and required arrival date. We will review the available assortment, packing requirements and dispatch timing for your quotation.",
+      "applications": [
+        "Miniature food-themed craft and slime-decoration assortments; decorative, non-edible resin.",
+        "Bulk replenishment by product code",
+        "Custom packing requests subject to quotation"
+      ]
+    },
+    {
+      "sku": "RW25179",
+      "title": "Gift Box Resin Flatbacks for Seasonal Bulk Orders",
+      "originalTitle": "Kawaii Small 3d Miniature Bowknot Gift Box Design Flatback Resin Cabochon Diy Decoration",
+      "type": "Seasonal",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "rw25179-gift-box-resin-flatback-charms",
+      "imageAlt": "RW25179 Gift Box Resin Flatbacks for Seasonal Bulk Orders",
+      "description": "Plan seasonal craft-material purchases with miniature gift-box resin flatbacks. RW25179 is listed at 15 × 18 × 20 mm and supplied in mixed assortments, with a standard pack of 100 pieces per bag. Specify the number of bags, preferred assortment and required delivery date. HAIBU will confirm the available selection, packing options and dispatch timing in the quotation.",
+      "detailedDescription": "Christmas and gift-themed craft-material assortments; sample-check attachment and fit before production. Choose the required bag quantity and confirm the assortment before placing an order.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Listed size: 15 × 18 × 20 mm",
+        "Standard pack: 100 pieces per bag",
+        "Mixed assortment; exact selection confirmed by inquiry",
+        "MOQ, samples and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW25179",
+        "Material: Resin",
+        "Listed size: 15 × 18 × 20 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact selection confirmed by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "MOQ: Confirm by quotation; standard pack is not the MOQ",
+        "Sample and dispatch timing: Confirm by inquiry"
+      ],
+      "material": "Resin",
+      "dimensions": "15 × 18 × 20 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Ask about available assortments and custom packing. Confirm feasibility and any label requirements before ordering.",
+      "recommendedApplications": "Christmas and gift-themed craft-material assortments; sample-check attachment and fit before production.",
+      "packagingMoq": "Standard pack: 100 pieces per bag. This is a packaging unit, not a minimum order quantity. MOQ, sample timing, dispatch date and carton details are confirmed in the quotation.",
+      "seoKeywords": "",
+      "metaTitle": "Gift Box Resin Flatbacks Bulk | RW25179 | HAIBUCRAFT",
+      "metaDescription": "Plan bulk orders of gift-box resin flatbacks, listed at 15 × 18 × 20 mm. Standard 100-piece bags; confirm assortment and dispatch with HAIBU.",
+      "publishingCheck": "No invented prices, MOQ, lead time, fixed color ratios or certification claims.",
+      "galleryLabels": [
+        "AI-assisted catalog arrangement",
+        "supplied product reference",
+        "AI-assisted detail illustration"
+      ],
+      "relatedSkus": [
+        "RW24707",
+        "RW749",
+        "RW22898"
+      ],
+      "mediaLabel": "Product reference / styled views",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 860
+        },
+        {
+          "width": 757,
+          "height": 652
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true,
+      "buyerHeading": "Order by SKU, pack unit and delivery requirement",
+      "buyerCopy": "Tell HAIBU how many bags or pieces you need, your destination country and required arrival date. We will review the available assortment, packing requirements and dispatch timing for your quotation.",
+      "applications": [
+        "Christmas and gift-themed craft-material assortments; sample-check attachment and fit before production.",
+        "Bulk replenishment by product code",
+        "Custom packing requests subject to quotation"
+      ]
+    },
+    {
+      "sku": "RW22898",
+      "title": "25 mm Luminous Flower Resin Cabochons in Bulk",
+      "originalTitle": "Luminous Flower Charms Glow in Dark 3D Rose Flower Resin Flatback Cabochon Kawaii Accessories Nail Art Decoration",
+      "type": "Floral",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "rw22898-luminous-flower-resin-flatbacks",
+      "imageAlt": "RW22898 25 mm Luminous Flower Resin Cabochons in Bulk",
+      "description": "Order flower-shaped resin cabochons for bulk decorative craft assortments. RW22898 is listed at 25 mm, with no hole, mixed colors and a standard pack of 100 pieces per bag. The source description identifies this item as luminous; confirm the actual effect on a sample before specifying it for an order. Share your bag quantity, color preferences and packing requirements for a quotation.",
+      "detailedDescription": "Flower-themed craft-material assortments; confirm the luminous effect and intended application on a sample. No glow duration or brightness is specified.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Listed size: 25 mm",
+        "Standard pack: 100 pieces per bag",
+        "Mixed assortment; exact selection confirmed by inquiry",
+        "MOQ, samples and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW22898",
+        "Material: Resin",
+        "Listed size: 25 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact selection confirmed by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "MOQ: Confirm by quotation; standard pack is not the MOQ",
+        "Sample and dispatch timing: Confirm by inquiry"
+      ],
+      "material": "Resin",
+      "dimensions": "25 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Ask about available assortments and custom packing. Confirm feasibility and any label requirements before ordering.",
+      "recommendedApplications": "Flower-themed craft-material assortments; confirm the luminous effect and intended application on a sample.",
+      "packagingMoq": "Standard pack: 100 pieces per bag. This is a packaging unit, not a minimum order quantity. MOQ, sample timing, dispatch date and carton details are confirmed in the quotation.",
+      "seoKeywords": "",
+      "metaTitle": "Luminous Flower Resin Cabochons | RW22898 | HAIBUCRAFT",
+      "metaDescription": "Source 25 mm luminous flower resin cabochons in standard 100-piece bags. Confirm the sample effect, mixed assortment and wholesale quote with HAIBU.",
+      "publishingCheck": "No invented prices, MOQ, lead time, fixed color ratios or certification claims.",
+      "galleryLabels": [
+        "AI-assisted catalog arrangement",
+        "supplied product reference",
+        "AI-assisted detail illustration"
+      ],
+      "relatedSkus": [
+        "RW24707",
+        "RW749",
+        "RW25179"
+      ],
+      "mediaLabel": "Product reference / styled views",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 693,
+          "height": 658
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true,
+      "buyerHeading": "Order by SKU, pack unit and delivery requirement",
+      "buyerCopy": "Tell HAIBU how many bags or pieces you need, your destination country and required arrival date. We will review the available assortment, packing requirements and dispatch timing for your quotation.",
+      "applications": [
+        "Flower-themed craft-material assortments; confirm the luminous effect and intended application on a sample.",
+        "Bulk replenishment by product code",
+        "Custom packing requests subject to quotation"
+      ]
+    }
+  ]
+}

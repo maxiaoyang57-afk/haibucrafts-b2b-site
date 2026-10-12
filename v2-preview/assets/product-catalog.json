@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-07",
-  "count": 139,
+  "generatedAt": "2026-10-12",
+  "count": 143,
   "products": [
     {
       "sku": "YX048",
@@ -946,6 +946,66 @@
       ],
       "previewPath": "/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/"
+    },
+    {
+      "sku": "RW24707",
+      "title": "26 mm AB Pearl Shell Resin Cabochons in Bulk",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Ocean",
+      "image": "/assets/images/products/batch-2026-10-12/rw24707/rw24707-pearl-shell-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-12/rw24707/rw24707-pearl-shell-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-12/rw24707/rw24707-pearl-shell-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-12/rw24707/rw24707-pearl-shell-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24707-26-mm-ab-pearl-shell-resin-cabochons-in-bulk/",
+      "productionPath": "/products/resin-charms-for-slime/rw24707-26-mm-ab-pearl-shell-resin-cabochons-in-bulk/"
+    },
+    {
+      "sku": "RW749",
+      "title": "10 mm Walnut Resin Flatbacks for Bulk Craft Supply",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food & Drink",
+      "image": "/assets/images/products/batch-2026-10-12/rw749/rw749-walnut-resin-flatback-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-12/rw749/rw749-walnut-resin-flatback-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-12/rw749/rw749-walnut-resin-flatback-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-12/rw749/rw749-walnut-resin-flatback-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw749-10-mm-walnut-resin-flatbacks-for-bulk-craft-supply/",
+      "productionPath": "/products/resin-charms-for-slime/rw749-10-mm-walnut-resin-flatbacks-for-bulk-craft-supply/"
+    },
+    {
+      "sku": "RW25179",
+      "title": "Gift Box Resin Flatbacks for Seasonal Bulk Orders",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-12/rw25179/rw25179-gift-box-resin-flatback-charms-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-12/rw25179/rw25179-gift-box-resin-flatback-charms-01.jpg",
+        "/assets/images/products/batch-2026-10-12/rw25179/rw25179-gift-box-resin-flatback-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-12/rw25179/rw25179-gift-box-resin-flatback-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25179-gift-box-resin-flatbacks-for-seasonal-bulk-orders/",
+      "productionPath": "/products/resin-charms-for-slime/rw25179-gift-box-resin-flatbacks-for-seasonal-bulk-orders/"
+    },
+    {
+      "sku": "RW22898",
+      "title": "25 mm Luminous Flower Resin Cabochons in Bulk",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Floral",
+      "image": "/assets/images/products/batch-2026-10-12/rw22898/rw22898-luminous-flower-resin-flatbacks-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-12/rw22898/rw22898-luminous-flower-resin-flatbacks-01.jpg",
+        "/assets/images/products/batch-2026-10-12/rw22898/rw22898-luminous-flower-resin-flatbacks-02.jpg",
+        "/assets/images/products/batch-2026-10-12/rw22898/rw22898-luminous-flower-resin-flatbacks-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw22898-25-mm-luminous-flower-resin-cabochons-in-bulk/",
+      "productionPath": "/products/resin-charms-for-slime/rw22898-25-mm-luminous-flower-resin-cabochons-in-bulk/"
     },
     {
       "sku": "RW26051",

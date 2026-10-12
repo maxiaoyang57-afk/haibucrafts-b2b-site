@@ -13,7 +13,7 @@ Apply the variables to Production, Preview and Development as needed, then redep
 
 ## Production behavior
 
-- The public catalog contains 126 unique coded products in four core categories. The generated catalog is the source for the current count.
+- The public catalog contains 151 unique coded products in four core categories. The generated catalog is the source for the current count.
 - The homepage presents the product families, facility photographs, production workflow, document scope and quotation links.
 - Public contact and Organization metadata use `sales@haibucrafts.com`; server-side inquiry delivery uses the environment configuration above.
 - Inquiry forms POST to `/api/inquiry` and use Resend server-side.

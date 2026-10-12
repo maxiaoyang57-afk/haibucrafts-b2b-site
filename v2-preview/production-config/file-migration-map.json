@@ -92,6 +92,20 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx720-shell-polymer-clay-sprinkle-mix-in-bulk/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx720-shell-polymer-clay-sprinkle-mix-in-bulk/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx720-shell-polymer-clay-sprinkle-mix-in-bulk/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3194-rainbow-cloud-polymer-clay-mix-for-bulk-orders/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3194-rainbow-cloud-polymer-clay-mix-for-bulk-orders/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3194-rainbow-cloud-polymer-clay-mix-for-bulk-orders/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx048-pink-candy-and-ceramic-dish-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx048-pink-candy-and-ceramic-dish-mix/index.html",
       "action": "create",
@@ -547,6 +561,41 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw1917-dessert-resin-flatback-mix-in-100-piece-bags/index.html",
+      "destination": "products/resin-charms-for-slime/rw1917-dessert-resin-flatback-mix-in-100-piece-bags/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1917-dessert-resin-flatback-mix-in-100-piece-bags/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2304-c-candy-disc-resin-flatbacks-for-wholesale-supply/index.html",
+      "destination": "products/resin-charms-for-slime/rw2304-c-candy-disc-resin-flatbacks-for-wholesale-supply/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2304-c-candy-disc-resin-flatbacks-for-wholesale-supply/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1112-spiral-candy-resin-flatbacks-in-bulk/index.html",
+      "destination": "products/resin-charms-for-slime/rw1112-spiral-candy-resin-flatbacks-in-bulk/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1112-spiral-candy-resin-flatbacks-in-bulk/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2041-glitter-heart-bow-resin-flatbacks-wholesale/index.html",
+      "destination": "products/resin-charms-for-slime/rw2041-glitter-heart-bow-resin-flatbacks-wholesale/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2041-glitter-heart-bow-resin-flatbacks-wholesale/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1672-rw2072-rw3492-rw20104-gradient-glitter-bear-resin-mix-in-bulk/index.html",
+      "destination": "products/resin-charms-for-slime/rw1672-rw2072-rw3492-rw20104-gradient-glitter-bear-resin-mix-in-bulk/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1672-rw2072-rw3492-rw20104-gradient-glitter-bear-resin-mix-in-bulk/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw24707-26-mm-ab-pearl-shell-resin-cabochons-in-bulk/index.html",
       "destination": "products/resin-charms-for-slime/rw24707-26-mm-ab-pearl-shell-resin-cabochons-in-bulk/index.html",
       "action": "create",
@@ -950,6 +999,13 @@
       "destination": "products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ma168-holographic-hexagon-glitter-mix-wholesale/index.html",
+      "destination": "products/sequins-glitter-confetti/ma168-holographic-hexagon-glitter-mix-wholesale/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ma168-holographic-hexagon-glitter-mix-wholesale/",
       "generatedProduct": true
     },
     {

@@ -51,9 +51,15 @@
 
 .product-detail-badges {
   display: flex;
+  flex-wrap: wrap;
   gap: 9px;
   align-items: center;
   margin-bottom: 18px;
+}
+
+.product-detail-badges .sku-badge,
+.product-related-card span {
+  overflow-wrap: anywhere;
 }
 
 .product-detail-copy h1 {

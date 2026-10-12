@@ -1,0 +1,492 @@
+{
+  "batch": "haibu-new-products-20261013",
+  "expectedSkuCount": 8,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-13",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-13",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "galleryNote": "Image 1 is the supplied product reference. Images 2 and 3 are AI-assisted arrangement and detail illustrations. Confirm actual colors, assortment and finish against a sample. Displayed piece counts are not package quantities.",
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX720",
+      "assetKey": "yx720",
+      "title": "Shell Polymer Clay Sprinkle Mix in Bulk",
+      "originalTitle": "Cute Hot Romantic Theme Shell Clay Slices Diamond Mixed Sprinkles Supplies Slime Crafts Filling",
+      "type": "Ocean",
+      "categorySlug": "polymer-clay-slices",
+      "imagePrefix": "shell-polymer-clay-sprinkle-mix",
+      "imageAlt": "Shell Polymer Clay Sprinkle Mix in Bulk, product code YX720",
+      "description": "Build an ocean-themed craft assortment around shell slices and the supplied pastel sprinkle mix. YX720 is sourced by 500 g bags, making it a useful component for bulk slime-material orders and coordinated craft kits.",
+      "detailedDescription": "Share your target bag quantity, required mix and destination with HAIBU. Confirm the shell-slice reference size, other included components and mix proportions with a sample before repeat procurement.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Ocean-themed component mix for coordinated procurement",
+        "Source pack: 500 g per bag",
+        "5 mm is the slice reference, not a uniform size for every component",
+        "MOQ, current stock and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: YX720",
+        "Material: Polymer clay",
+        "Reference size: 5 mm slice reference; other mix components vary.",
+        "Hole: No hole",
+        "Assortment: Mixed; exact colors and mix confirmed with a sample",
+        "Source packing: 500 g/bag"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "5 mm slice reference; other mix components vary.",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "Discuss custom assortment, colors and packing requirements with HAIBU. Availability and any private-label or development requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Ocean-themed slime assortments; shaker fillers; coordinated DIY kits; assess a sample with your own materials.",
+      "packagingMoq": "Source packing: 500 g/bag. This pack quantity is not the MOQ. Confirm minimum order quantity, alternative packing, current availability and dispatch lead time by quotation.",
+      "seoKeywords": "shell polymer clay sprinkle mix, wholesale craft components, bulk craft supplies",
+      "metaTitle": "Shell Polymer Clay Sprinkle Mix in Bulk | HAIBUCRAFT",
+      "metaDescription": "Source YX720 polymer clay craft components from HAIBU. Reference pack: 500 g/bag. Request bulk pricing, assortment and packing confirmation.",
+      "publishingCheck": "Source specifications retained; packing separated from MOQ; full SKU and supplied-image reference verified.",
+      "galleryLabels": [
+        "supplied product reference",
+        "styled assortment illustration",
+        "styled detail illustration"
+      ],
+      "mediaLabel": "Product reference and styled views",
+      "imageDimensions": [
+        {
+          "width": 669,
+          "height": 700
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true
+    },
+    {
+      "sku": "YX3194",
+      "assetKey": "yx3194",
+      "title": "Rainbow Cloud Polymer Clay Mix for Bulk Orders",
+      "originalTitle": "1kg Cloud Rainbow Slice Mixed Polymer Clay Sprinkles Ball for Crafts Decor DIY Slime Shaker Cards Filler Accessories",
+      "type": "Fantasy",
+      "categorySlug": "polymer-clay-slices",
+      "imagePrefix": "rainbow-cloud-polymer-clay-sprinkle-mix",
+      "imageAlt": "Rainbow Cloud Polymer Clay Mix for Bulk Orders, product code YX3194",
+      "description": "Source rainbow-and-cloud slices with the supplied pastel sprinkle assortment for your next bulk craft-material order. YX3194 has a source packing reference of 1000 g per bag for buyers planning larger slime and DIY-kit programs.",
+      "detailedDescription": "Use the product code and target bag quantity to request pricing. Component dimensions are not provided in the source sheet; agree sizes, color selection and mix proportions against a sample for subsequent orders.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Rainbow-and-cloud theme for coordinated craft assortments",
+        "Source pack: 1000 g per bag",
+        "Component sizes and exact mix confirmed by sample",
+        "MOQ, current stock and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: YX3194",
+        "Material: Polymer clay",
+        "Reference size: Not specified; confirm component sizes with a sample.",
+        "Hole: No hole",
+        "Assortment: Mixed; exact colors and mix confirmed with a sample",
+        "Source packing: 1000 g/bag"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Not specified; confirm component sizes with a sample.",
+      "sourcePacking": "1000 g/bag",
+      "customizationOptions": "Discuss custom assortment, colors and packing requirements with HAIBU. Availability and any private-label or development requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Pastel slime assortments; shaker fillers; DIY craft kits; assess a sample with your own materials.",
+      "packagingMoq": "Source packing: 1000 g/bag. This pack quantity is not the MOQ. Confirm minimum order quantity, alternative packing, current availability and dispatch lead time by quotation.",
+      "seoKeywords": "rainbow cloud polymer clay sprinkle mix, wholesale craft components, bulk craft supplies",
+      "metaTitle": "Rainbow Cloud Polymer Clay Mix for Bulk Orders | HAIBUCRAFT",
+      "metaDescription": "Source YX3194 polymer clay craft components from HAIBU. Reference pack: 1000 g/bag. Request bulk pricing, assortment and packing confirmation.",
+      "publishingCheck": "Source specifications retained; packing separated from MOQ; full SKU and supplied-image reference verified.",
+      "galleryLabels": [
+        "supplied product reference",
+        "styled assortment illustration",
+        "styled detail illustration"
+      ],
+      "mediaLabel": "Product reference and styled views",
+      "imageDimensions": [
+        {
+          "width": 688,
+          "height": 625
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true
+    },
+    {
+      "sku": "MA168",
+      "assetKey": "ma168",
+      "title": "Holographic Hexagon Glitter Mix Wholesale",
+      "originalTitle": "Holographic Hexagon Glitter Snow Globe Snowglobe Tumbler Glitter Chunky Powder Mix Glitter for Snowglobe Tumblers Nails",
+      "type": "Glitter",
+      "categorySlug": "sequins-glitter-confetti",
+      "imagePrefix": "holographic-hexagon-plastic-glitter-mix",
+      "imageAlt": "Holographic Hexagon Glitter Mix Wholesale, product code MA168",
+      "description": "MA168 is a plastic hexagon glitter mix for wholesale craft-material sourcing. The source packing is 500 g per bag. Its holographic finish offers a reflective component option for buyers assembling color-led craft assortments.",
+      "detailedDescription": "Request the required bag quantity and confirm the flake sizes, finish and color blend with a sample. For snow-globe tumblers, slime or resin projects, assess the material with your own formulation before ordering a larger quantity.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Hexagonal plastic glitter with a holographic finish",
+        "Source pack: 500 g per bag",
+        "Flake sizes and exact blend confirmed by sample",
+        "MOQ, current stock and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: MA168",
+        "Material: Plastic",
+        "Reference size: Not specified; confirm flake sizes with a sample.",
+        "Hole: No hole",
+        "Assortment: Mixed; exact colors and mix confirmed with a sample",
+        "Source packing: 500 g/bag"
+      ],
+      "material": "Plastic",
+      "dimensions": "Not specified; confirm flake sizes with a sample.",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "Discuss custom assortment, colors and packing requirements with HAIBU. Availability and any private-label or development requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Snow-globe tumbler decoration; resin crafts; nail-art supply assortments; slime decoration; assess a sample with your own materials.",
+      "packagingMoq": "Source packing: 500 g/bag. This pack quantity is not the MOQ. Confirm minimum order quantity, alternative packing, current availability and dispatch lead time by quotation.",
+      "seoKeywords": "holographic hexagon plastic glitter mix, wholesale craft components, bulk craft supplies",
+      "metaTitle": "Holographic Hexagon Glitter Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Source MA168 plastic craft components from HAIBU. Reference pack: 500 g/bag. Request bulk pricing, assortment and packing confirmation.",
+      "publishingCheck": "Source specifications retained; packing separated from MOQ; full SKU and supplied-image reference verified.",
+      "galleryLabels": [
+        "supplied product reference",
+        "styled assortment illustration",
+        "styled detail illustration"
+      ],
+      "mediaLabel": "Product reference and styled views",
+      "imageDimensions": [
+        {
+          "width": 530,
+          "height": 546
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true
+    },
+    {
+      "sku": "RW1917",
+      "assetKey": "rw1917",
+      "title": "Dessert Resin Flatback Mix in 100 Piece Bags",
+      "originalTitle": "New Arrive Cute  Resin Cake Donut Lollipop Ice Cream Flatback Cabochon Simulation Food Art Supply Home Decoration Charm Craft",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "dessert-resin-flatback-cabochon-mix",
+      "imageAlt": "Dessert Resin Flatback Mix in 100 Piece Bags, product code RW1917",
+      "description": "Add a dessert-themed resin flatback mix to your bulk craft-material order. RW1917 is listed at 20–30 mm with no hole and a source pack of 100 pieces per bag. The mixed assortment suits buyers comparing decorative components for coordinated craft programs.",
+      "detailedDescription": "Send HAIBU your target bag quantity and assortment requirements. Confirm the included dessert shapes, dimensions and color selection with a sample so repeat orders follow the agreed mix rather than the display arrangement.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Dessert-themed resin flatback assortment",
+        "Listed size range: 20–30 mm; no hole",
+        "Source pack: 100 pieces per bag",
+        "MOQ, current stock and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW1917",
+        "Material: Resin",
+        "Reference size: 20–30 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact colors and mix confirmed with a sample",
+        "Source packing: 100 pcs/bag"
+      ],
+      "material": "Resin",
+      "dimensions": "20–30 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "Discuss custom assortment, colors and packing requirements with HAIBU. Availability and any private-label or development requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Slime decoration; decoden and phone-case projects; DIY craft kits; assess a sample with your own materials.",
+      "packagingMoq": "Source packing: 100 pcs/bag. This pack quantity is not the MOQ. Confirm minimum order quantity, alternative packing, current availability and dispatch lead time by quotation.",
+      "seoKeywords": "dessert resin flatback cabochon mix, wholesale craft components, bulk craft supplies",
+      "metaTitle": "Dessert Resin Flatback Mix in 100 Piece Bags | HAIBUCRAFT",
+      "metaDescription": "Source RW1917 resin craft components from HAIBU. Reference pack: 100 pcs/bag. Request bulk pricing, assortment and packing confirmation.",
+      "publishingCheck": "Source specifications retained; packing separated from MOQ; full SKU and supplied-image reference verified.",
+      "galleryLabels": [
+        "supplied product reference",
+        "styled assortment illustration",
+        "styled detail illustration"
+      ],
+      "mediaLabel": "Product reference and styled views",
+      "imageDimensions": [
+        {
+          "width": 680,
+          "height": 673
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true
+    },
+    {
+      "sku": "RW2304-C",
+      "assetKey": "rw2304-c",
+      "title": "Candy Disc Resin Flatbacks for Wholesale Supply",
+      "originalTitle": "OEM ODM Factory Supply Resin Flatback Cabochon Sweet Candy Food Dollhouse Miniature DIY Artificial Chocolate Resin Food",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "candy-disc-resin-flatback-cabochons",
+      "imageAlt": "Candy Disc Resin Flatbacks for Wholesale Supply, product code RW2304-C",
+      "description": "Source colorful candy-disc resin flatbacks by product code RW2304-C. The listed dimensions are 5 × 14 × 14 mm, with no hole and a source pack of 100 pieces per bag for bulk craft-component procurement.",
+      "detailedDescription": "Request pricing by bag quantity and specify the colors or assortment you need. Confirm the exact selection, flatback profile and finish with a sample before integrating these pieces into slime-material assortments or craft kits.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Colorful candy-disc resin flatbacks",
+        "Listed dimensions: 5 × 14 × 14 mm; no hole",
+        "Source pack: 100 pieces per bag",
+        "MOQ, current stock and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW2304-C",
+        "Material: Resin",
+        "Reference size: 5 × 14 × 14 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact colors and mix confirmed with a sample",
+        "Source packing: 100 pcs/bag"
+      ],
+      "material": "Resin",
+      "dimensions": "5 × 14 × 14 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "Discuss custom assortment, colors and packing requirements with HAIBU. Availability and any private-label or development requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Slime decoration; decoden; phone-case decoration; DIY kits; assess a sample with your own materials.",
+      "packagingMoq": "Source packing: 100 pcs/bag. This pack quantity is not the MOQ. Confirm minimum order quantity, alternative packing, current availability and dispatch lead time by quotation.",
+      "seoKeywords": "candy disc resin flatback cabochons, wholesale craft components, bulk craft supplies",
+      "metaTitle": "Candy Disc Resin Flatbacks for Wholesale Supply | HAIBUCRAFT",
+      "metaDescription": "Source RW2304-C resin craft components from HAIBU. Reference pack: 100 pcs/bag. Request bulk pricing, assortment and packing confirmation.",
+      "publishingCheck": "Source specifications retained; packing separated from MOQ; full SKU and supplied-image reference verified.",
+      "galleryLabels": [
+        "supplied product reference",
+        "styled assortment illustration",
+        "styled detail illustration"
+      ],
+      "mediaLabel": "Product reference and styled views",
+      "imageDimensions": [
+        {
+          "width": 675,
+          "height": 680
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true
+    },
+    {
+      "sku": "RW1112",
+      "assetKey": "rw1112",
+      "title": "Spiral Candy Resin Flatbacks in Bulk",
+      "originalTitle": "100Pcs Mixed Resin Spiral Candy Sweet Decoration Crafts Beads Flatback Cabochon Kawaii Embellishments for Scrapbooking DIY",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "spiral-candy-resin-flatback-cabochons",
+      "imageAlt": "Spiral Candy Resin Flatbacks in Bulk, product code RW1112",
+      "description": "RW1112 offers pastel spiral-candy resin flatbacks for wholesale craft-material assortments. The source lists 5 × 14 × 28 mm dimensions, no hole and 100 pieces per bag. Quote this code alongside other selected components for a mixed-SKU order.",
+      "detailedDescription": "Confirm the candy shapes, colors and finish against a sample, then share your required number of bags and packing preference. HAIBU can review assortment and private-label packing requests with your order brief.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Pastel spiral-candy resin flatbacks",
+        "Listed dimensions: 5 × 14 × 28 mm; no hole",
+        "Source pack: 100 pieces per bag",
+        "MOQ, current stock and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW1112",
+        "Material: Resin",
+        "Reference size: 5 × 14 × 28 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact colors and mix confirmed with a sample",
+        "Source packing: 100 pcs/bag"
+      ],
+      "material": "Resin",
+      "dimensions": "5 × 14 × 28 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "Discuss custom assortment, colors and packing requirements with HAIBU. Availability and any private-label or development requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Slime decoration; decoden; scrapbooking embellishments; DIY kits; assess a sample with your own materials.",
+      "packagingMoq": "Source packing: 100 pcs/bag. This pack quantity is not the MOQ. Confirm minimum order quantity, alternative packing, current availability and dispatch lead time by quotation.",
+      "seoKeywords": "spiral candy resin flatback cabochons, wholesale craft components, bulk craft supplies",
+      "metaTitle": "Spiral Candy Resin Flatbacks in Bulk | HAIBUCRAFT",
+      "metaDescription": "Source RW1112 resin craft components from HAIBU. Reference pack: 100 pcs/bag. Request bulk pricing, assortment and packing confirmation.",
+      "publishingCheck": "Source specifications retained; packing separated from MOQ; full SKU and supplied-image reference verified.",
+      "galleryLabels": [
+        "supplied product reference",
+        "styled assortment illustration",
+        "styled detail illustration"
+      ],
+      "mediaLabel": "Product reference and styled views",
+      "imageDimensions": [
+        {
+          "width": 685,
+          "height": 668
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true,
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ]
+    },
+    {
+      "sku": "RW2041",
+      "assetKey": "rw2041",
+      "title": "Glitter Heart and Bow Resin Flatbacks Wholesale",
+      "originalTitle": "Resin Bling Glitter Girls Magic Stick  Flat Back Cabochons Kawaii Candy Lollipop Craft Hair Accessories",
+      "type": "Fantasy",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "glitter-heart-bow-resin-flatback-cabochons",
+      "imageAlt": "Glitter Heart and Bow Resin Flatbacks Wholesale, product code RW2041",
+      "description": "Source glitter heart-and-bow resin flatbacks under RW2041 for a coordinated wholesale craft assortment. The source dimensions are 5 × 18 × 25 mm, with no hole and a packing reference of 100 pieces per bag.",
+      "detailedDescription": "Use a sample to agree the included shapes, glitter effect and colors for your order. Send the target bag quantity and packaging requirements so HAIBU can review stock availability, mixed-SKU procurement and repeat-order specifications.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Glitter heart-and-bow resin flatback assortment",
+        "Listed dimensions: 5 × 18 × 25 mm; no hole",
+        "Source pack: 100 pieces per bag",
+        "MOQ, current stock and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW2041",
+        "Material: Resin",
+        "Reference size: 5 × 18 × 25 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact colors and mix confirmed with a sample",
+        "Source packing: 100 pcs/bag"
+      ],
+      "material": "Resin",
+      "dimensions": "5 × 18 × 25 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "Discuss custom assortment, colors and packing requirements with HAIBU. Availability and any private-label or development requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decoden and phone-case decoration; slime decoration; DIY kits; hair-accessory craft projects; assess a sample with your own materials.",
+      "packagingMoq": "Source packing: 100 pcs/bag. This pack quantity is not the MOQ. Confirm minimum order quantity, alternative packing, current availability and dispatch lead time by quotation.",
+      "seoKeywords": "glitter heart bow resin flatback cabochons, wholesale craft components, bulk craft supplies",
+      "metaTitle": "Glitter Heart and Bow Resin Flatbacks Wholesale | HAIBUCRAFT",
+      "metaDescription": "Source RW2041 resin craft components from HAIBU. Reference pack: 100 pcs/bag. Request bulk pricing, assortment and packing confirmation.",
+      "publishingCheck": "Source specifications retained; packing separated from MOQ; full SKU and supplied-image reference verified.",
+      "galleryLabels": [
+        "supplied product reference",
+        "styled assortment illustration",
+        "styled detail illustration"
+      ],
+      "mediaLabel": "Product reference and styled views",
+      "imageDimensions": [
+        {
+          "width": 731,
+          "height": 734
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true
+    },
+    {
+      "sku": "RW1672/RW2072/RW3492/RW20104",
+      "assetKey": "rw1672-rw2072-rw3492-rw20104",
+      "title": "Gradient Glitter Bear Resin Mix in Bulk",
+      "originalTitle": "Kawaii Glitter Gradient Gummy Bear Flatback Resin Cabochons Charms for DIY Jewelry Craft Scrapbook Decoration Accessories",
+      "type": "Cute Animals",
+      "categorySlug": "resin-charms",
+      "imagePrefix": "gradient-glitter-bear-resin-flatback-mix",
+      "imageAlt": "Gradient Glitter Bear Resin Mix in Bulk, product code RW1672/RW2072/RW3492/RW20104",
+      "description": "Request this gradient glitter bear resin flatback assortment using the complete grouped code RW1672/RW2072/RW3492/RW20104. The source lists 7 × 10 × 17 mm dimensions, no hole and 100 pieces per bag for bulk component sourcing.",
+      "detailedDescription": "The four codes describe one grouped listing. Confirm included colors, gradient finish and assortment proportions with a sample, then specify the number of bags and any packing requirements for your mixed-SKU procurement plan.",
+      "seasonalTheme": "Bulk craft-material sourcing",
+      "keySellingPoints": [
+        "Full grouped product code retained for accurate quotation",
+        "Listed dimensions: 7 × 10 × 17 mm; no hole",
+        "Source pack: 100 pieces per bag",
+        "MOQ, current stock and dispatch timing confirmed by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW1672/RW2072/RW3492/RW20104",
+        "Material: Resin",
+        "Reference size: 7 × 10 × 17 mm",
+        "Hole: No hole",
+        "Assortment: Mixed; exact colors and mix confirmed with a sample",
+        "Source packing: 100 pcs/bag"
+      ],
+      "material": "Resin",
+      "dimensions": "7 × 10 × 17 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "Discuss custom assortment, colors and packing requirements with HAIBU. Availability and any private-label or development requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Slime decoration; decoden; scrapbooking embellishments; DIY craft kits; assess a sample with your own materials.",
+      "packagingMoq": "Source packing: 100 pcs/bag. This pack quantity is not the MOQ. Confirm minimum order quantity, alternative packing, current availability and dispatch lead time by quotation.",
+      "seoKeywords": "gradient glitter bear resin flatback mix, wholesale craft components, bulk craft supplies",
+      "metaTitle": "Gradient Glitter Bear Resin Mix in Bulk | HAIBUCRAFT",
+      "metaDescription": "Source gradient glitter bear resin craft components from HAIBU. Reference pack: 100 pcs/bag. Request bulk pricing, assortment and packing confirmation.",
+      "publishingCheck": "Source specifications retained; packing separated from MOQ; full SKU and supplied-image reference verified.",
+      "galleryLabels": [
+        "supplied product reference",
+        "styled assortment illustration",
+        "styled detail illustration"
+      ],
+      "mediaLabel": "Product reference and styled views",
+      "imageDimensions": [
+        {
+          "width": 688,
+          "height": 579
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "structuredSpecifications": true
+    }
+  ]
+}

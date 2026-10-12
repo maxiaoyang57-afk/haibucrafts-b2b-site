@@ -4,7 +4,7 @@ import process from 'node:process';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
-const catalogGeneratedAt = '2026-10-12';
+const catalogGeneratedAt = '2026-10-13';
 const catalogLastModified = '2026-09-06';
 const productsRoot = path.join(previewRoot, 'products');
 const seoMapPath = path.join(previewRoot, 'seo-production-map.json');
@@ -28,6 +28,7 @@ const haibuSeptember11Batch = JSON.parse(await readFile(haibuSeptember11BatchPat
 const haibuSeptember12Batch = JSON.parse(await readFile(haibuSeptember12BatchPath, 'utf8'));
 const haibuSeptember20Batch = JSON.parse(await readFile(haibuSeptember20BatchPath, 'utf8'));
 const haibuOctober12Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261012.json'), 'utf8'));
+const haibuOctober13Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261013.json'), 'utf8'));
 const purchasingBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-purchasing-20261002.json'), 'utf8'));
 const purchasingBySku = new Map(purchasingBatch.products.map((item) => [item.sku, item]));
 const productBatches = [
@@ -39,7 +40,8 @@ const productBatches = [
   { issue: 'haibu-new-products-20260911', data: haibuSeptember11Batch },
   { issue: 'haibu-new-products-20260912', data: haibuSeptember12Batch },
   { issue: 'haibu-new-products-20260920', data: haibuSeptember20Batch },
-  { issue: 'haibu-new-products-20261012', data: haibuOctober12Batch }
+  { issue: 'haibu-new-products-20261012', data: haibuOctober12Batch },
+  { issue: 'haibu-new-products-20261013', data: haibuOctober13Batch }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -49,6 +51,13 @@ for (const { issue, data } of productBatches) {
     throw new Error(`Issue #${issue} batch must contain exactly ${expectedSkuCount} unique SKUs`);
   }
   for (const product of data.products) {
+    if (product.assetKey && !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(product.assetKey)) {
+      throw new Error(`Invalid asset key for ${product.sku}`);
+    }
+    if (product.imageExtensions && (product.imageExtensions.length !== data.publicGalleryCount
+      || product.imageExtensions.some((extension) => !['jpg', 'png', 'webp'].includes(extension)))) {
+      throw new Error(`Invalid image extensions for ${product.sku}`);
+    }
     if (product.galleryLabels.length !== data.publicGalleryCount) {
       throw new Error(`Issue #${issue} gallery for ${product.sku} must contain ${data.publicGalleryCount} public images`);
     }
@@ -144,10 +153,11 @@ const metaDescription = (product) => clip(
   165
 );
 
-const batchDetailSlug = (product) => `${product.sku.toLowerCase()}-${slugify(product.title).replaceAll('-and-', '-')}`;
+const batchAssetKey = (product) => product.assetKey || product.sku.toLowerCase();
+const batchDetailSlug = (product) => `${batchAssetKey(product)}-${slugify(product.title).replaceAll('-and-', '-')}`;
 
 const batchImage = (record, position) => (
-  `/assets/images/products/${record.data.assetDirectory || 'batch-2026-08'}/${record.product.sku.toLowerCase()}/${record.product.imagePrefix}-${String(position).padStart(2, '0')}.${record.data.imageExtension || 'webp'}`
+  `/assets/images/products/${record.data.assetDirectory || 'batch-2026-08'}/${batchAssetKey(record.product)}/${record.product.imagePrefix}-${String(position).padStart(2, '0')}.${record.product.imageExtensions?.[position - 1] || record.data.imageExtension || 'webp'}`
 );
 
 const batchGalleryOrder = (record) => (
@@ -244,10 +254,11 @@ for (const category of categories) {
     html = html.replace(/<article class="product-card-v2"[^>]*>[\s\S]*?<\/article>/g, (article) => {
       const sku = decodeHtml(article.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]?.trim() || '');
       if (!frontSkus.has(sku)) return article;
-      front.push(article);
+      front.push({ article, date: batchRecordsBySku.get(sku).data.lastModified || '' });
       return '';
     });
-    html = html.replace('<div class="product-grid-v2">', '<div class="product-grid-v2">' + front.join(''));
+    front.sort((a, b) => b.date.localeCompare(a.date));
+    html = html.replace('<div class="product-grid-v2">', '<div class="product-grid-v2">' + front.map((item) => item.article).join(''));
   }
   categoryHtml.set(category.slug, { file, html });
 

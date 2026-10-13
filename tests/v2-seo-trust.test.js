@@ -120,8 +120,8 @@ test('all category theme-link sections load their responsive card styling', asyn
 test('buyer-facing product imagery resets intrinsic height attributes', async () => {
   const homeStylesheet = await read('assets/home-v2.css');
   const sharedStylesheet = await read('assets/site-v2-fixes.css');
-  assert.match(homeStylesheet, /\.hero-product-mosaic img\{[^}]*width:100%;height:auto;aspect-ratio:4\/3;/);
-  assert.match(homeStylesheet, /\.category-visual-card img\{[^}]*width:100%;height:auto;aspect-ratio:3\/2;/);
+  assert.match(homeStylesheet, /\.home-product-card>img\{[^}]*width:100%;height:auto;aspect-ratio:1;object-fit:contain;/);
+  assert.match(homeStylesheet, /\.category-visual-card img\{[^}]*width:100%;height:auto;aspect-ratio:4\/3;/);
   assert.match(sharedStylesheet, /\.product-card-v2 img\{[^}]*width:100%;height:auto;aspect-ratio:1\/1;/);
 });
 

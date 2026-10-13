@@ -237,17 +237,71 @@
   });
   if (readAnalyticsConsent() === null) showConsentBanner();
 
+  // Keep click metadata bounded to published site routes and controlled labels.
+  // Never send query strings, fragments, link text or inquiry form values.
+  const ANALYTICS_LINK_LOCATIONS = new Set([
+    'homepage_hero', 'homepage_categories', 'homepage_featured', 'homepage_buying_paths',
+    'homepage_supply', 'homepage_evidence', 'homepage_final', 'header', 'footer', 'main', 'site'
+  ]);
+  const analyticsLinkLocation = (link) => {
+    const declared = link.closest('[data-analytics-location]')?.getAttribute('data-analytics-location');
+    if (ANALYTICS_LINK_LOCATIONS.has(declared)) return declared;
+    if (link.closest('header, [data-site-header]')) return 'header';
+    if (link.closest('footer, [data-site-footer]')) return 'footer';
+    return link.closest('main') ? 'main' : 'site';
+  };
+  const analyticsProductCode = (value) => {
+    const code = typeof value === 'string' ? value.trim().toUpperCase() : '';
+    return /^(?:SLM\d{3,5}|YX\d{3,4}|RW\d{3,6}(?:-C)?|(?:MA|YM)\d{3})(?:\/RW\d{3,6}){0,3}$/.test(code) ? code : '';
+  };
+  const analyticsPathProductCode = (pathname) => {
+    // Product slugs begin with their catalog code, including the resin mix.
+    const slug = pathname.split('/').filter(Boolean).pop() || '';
+    const prefix = slug.match(/^((?:rw\d{3,6}-c|(?:slm|yx|rw|ma|ym)\d{3,6})(?:-rw\d{3,6}){0,3})(?:-|$)/i)?.[1];
+    return analyticsProductCode(prefix?.replace(/-(?=rw\d)/gi, '/'));
+  };
+  const analyticsClickProductCode = (link, target) => {
+    const candidates = [link.getAttribute('data-product-code')];
+    for (const key of ['product_code', 'sku']) {
+      const values = target.searchParams.getAll(key);
+      if (values.length === 1) candidates.push(values[0]);
+    }
+    if (/\/products\//.test(target.pathname)) candidates.push(analyticsPathProductCode(target.pathname));
+    return candidates.map(analyticsProductCode).find(Boolean) || '';
+  };
+
   document.addEventListener('click', (event) => {
-    const link = event.target.closest('a[href]');
+    const link = event.target?.closest?.('a[href]') || event.target?.parentElement?.closest?.('a[href]');
     if (!link) return;
-    const href = link.getAttribute('href') || '';
+    const href = (link.getAttribute('href') || '').trim();
+    if (!href || /^[?#]/.test(href)) return;
+    let target;
+    try {
+      target = new URL(href, window.location.href);
+    } catch {
+      return;
+    }
+    // Credentials and unrecognized schemes are never analytics destinations.
+    if (target.username || target.password || !['https:', 'http:', 'mailto:'].includes(target.protocol)) return;
+    const isSiteLink = ['https:', 'http:'].includes(target.protocol) &&
+      (target.origin === window.location.origin || /^(www\.)?haibucrafts\.com$/i.test(target.hostname));
+    const route = target.pathname;
     let name = '';
-    if (href.includes('wa.me/')) name = 'whatsapp_click';
-    else if (href.startsWith('mailto:')) name = 'email_click';
-    else if (href.includes('quote/')) name = 'quote_cta_click';
-    else if (href.includes('/themes/')) name = 'theme_link_click';
-    else if (/\/products\/.+\/$/.test(href)) name = 'product_link_click';
-    if (name) window.HAIBU_TRACK(name, { page: window.location.pathname, destination: href.slice(0, 180) });
+    if (target.hostname === 'wa.me') name = 'whatsapp_click';
+    else if (target.protocol === 'mailto:') name = 'email_click';
+    else if (isSiteLink && /^\/(?:v2-preview\/)?(?:request-quote|quote)\/?$/.test(route)) name = 'quote_cta_click';
+    else if (isSiteLink && /^\/(?:v2-preview\/)?themes\//.test(route)) name = 'theme_link_click';
+    else if (isSiteLink && /^\/(?:v2-preview\/)?products(?:\/[a-z0-9-]+)*\/?$/.test(route)) name = 'product_link_click';
+    if (!name) return;
+    const targetUrl = target.protocol === 'mailto:' ? 'mailto:' : `${target.origin}${route}`;
+    const properties = { page: window.location.pathname, destination: targetUrl.slice(0, 180) };
+    if (name === 'product_link_click' || name === 'quote_cta_click') {
+      properties.target_url = targetUrl;
+      properties.link_location = analyticsLinkLocation(link);
+      const productCode = analyticsClickProductCode(link, target);
+      if (productCode) properties.product_code = productCode;
+    }
+    window.HAIBU_TRACK(name, properties);
   });
 
   if (page === 'quote') {

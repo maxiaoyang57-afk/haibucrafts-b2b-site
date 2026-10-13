@@ -34,11 +34,11 @@ test('approved HAIBUCRAFT brand assets are present and web-sized', async () => {
   }
 });
 
-test('shared components use responsive logo assets and centralized WhatsApp configuration', async () => {
+test('shared components use the approved logo symbol with readable brand text and centralized WhatsApp configuration', async () => {
   const components = await readFile(path.join(root, 'v2-preview', 'assets', 'components.js'), 'utf8');
 
-  assert.match(components, /<picture>/);
-  assert.match(components, /\/brand\/haibu-logo-header\.png/);
+  assert.match(components, /class="logo"[^>]*aria-label="HAIBU home"/);
+  assert.match(components, /<span class="logo-wordmark">HAIBU<\/span>/);
   assert.match(components, /\/brand\/haibu-logo-mobile\.png/);
   assert.match(components, /\/brand\/haibu-logo-footer\.png/);
   assert.match(components, /Creative craft components supplier/);
@@ -56,7 +56,7 @@ test('shared components use responsive logo assets and centralized WhatsApp conf
 test('brand stylesheet protects responsive logo sizing and fixed-control separation', async () => {
   const stylesheet = await readFile(path.join(root, 'v2-preview', 'assets', 'brand-v2.css'), 'utf8');
 
-  assert.match(stylesheet, /height: 52px/);
+  assert.match(stylesheet, /\.logo img \{[^}]*height: 48px/);
   assert.match(stylesheet, /@media \(max-width: 1180px\)/);
   assert.match(stylesheet, /width: 40px/);
   assert.match(stylesheet, /min-height: 52px/);

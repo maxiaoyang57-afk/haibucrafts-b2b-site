@@ -79,25 +79,30 @@
     quantityLabel?.insertAdjacentElement('afterend', deliveryLabel);
   }
 
-  const applyQuotePrefill = () => {
+  // Product prefills run once; history restoration and later edits (including clears) win.
+  const setInitialPrefill = (name, nextValue) => {
+    const field = form.elements.namedItem(name);
+    if (field && !field.value) setValue(name, nextValue);
+  };
+  const applyQuoteAttribution = () => {
     Object.entries(inquiryAttribution).forEach(([name, nextValue]) => setValue(name, nextValue));
-    if (!quoteListMode) {
-      setValue('sku', productCode);
-      setValue('product', productName);
-      if (/^(5|10|20|30|50) g\/bag$/.test(value('packaging'))) setValue('packaging', value('packaging'));
-    }
     if (form.dataset) {
       form.dataset.attributionPayload = JSON.stringify(inquiryAttribution);
       form.dataset.attributionReady = 'true';
     }
   };
 
-  applyQuotePrefill();
-  if (typeof window.addEventListener === 'function') {
-    window.addEventListener('load', applyQuotePrefill, { once: true });
-    window.addEventListener('pageshow', applyQuotePrefill);
+  if (!quoteListMode) {
+    setInitialPrefill('sku', productCode);
+    setInitialPrefill('product', productName);
+    if (/^(5|10|20|30|50) g\/bag$/.test(value('packaging'))) setInitialPrefill('packaging', value('packaging'));
   }
-  if (typeof window.setTimeout === 'function') window.setTimeout(applyQuotePrefill, 250);
+  applyQuoteAttribution();
+  if (typeof window.addEventListener === 'function') {
+    window.addEventListener('load', applyQuoteAttribution, { once: true });
+    window.addEventListener('pageshow', applyQuoteAttribution);
+  }
+  if (typeof window.setTimeout === 'function') window.setTimeout(applyQuoteAttribution, 250);
 
   const categoryField = document.getElementById('categoryField');
   if (categoryField && category && [...categoryField.options].some((option) => option.value === category)) {

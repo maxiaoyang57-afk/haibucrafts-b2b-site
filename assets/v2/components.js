@@ -142,35 +142,51 @@
   const main = document.querySelector('main');
   if (main && !main.id) main.id = 'main-content';
 
+  // Small, decorative line drawings identify navigation groups without replacing text.
+  const navIconPaths = {
+    home: '<path d="m3 10 9-7 9 7M5 9v12h14V9M9 21v-7h6v7"/>',
+    products: '<rect x="3" y="3" width="7" height="7" rx="2"/><circle cx="17.5" cy="6.5" r="3.5"/><path d="m6.5 14 4 7h-8z"/><rect x="14" y="14" width="7" height="7" rx="2"/>',
+    custom: '<path d="m4 20 4-1 12-12-3-3L5 16l-1 4ZM14 7l3 3M4 4h5M6.5 1.5v5"/>',
+    themes: '<path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/>',
+    manufacturing: '<path d="M3 21V10l6 3V9l6 4V3h5v18H3ZM7 17h1m4 0h1m4 0h1"/>',
+    quality: '<path d="m12 2 8 3v6c0 5-4 8-8 11-4-3-8-6-8-11V5l8-3Z"/><path d="m8 11 3 3 5-5"/>',
+    certificates: '<path d="M14 3H4v18h16V9M14 3v6h6L14 3ZM8 13h8m-8 4h5"/>',
+    about: '<circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/>',
+    blog: '<path d="M3 4h6a4 4 0 0 1 3 2 4 4 0 0 1 3-2h6v16h-6a4 4 0 0 0-3 2 4 4 0 0 0-3-2H3V4Zm9 2v16"/>'
+  };
+  const navIcon = (name) => `<span class="nav-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false">${navIconPaths[name]}</svg></span>`;
+
   const header = `
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="topbar"><div class="container"><span>B2B wholesale · OEM/ODM · Private label · Export support</span><span class="topbar-contact"><a href="mailto:sales@haibucrafts.com">sales@haibucrafts.com</a><span aria-hidden="true"> · </span><a class="topbar-whatsapp" href="${whatsappHref}" target="_blank" rel="noopener noreferrer">WhatsApp</a></span></div></div>
     <header class="site-header"><div class="container navbar">
-      <a class="logo" href="${ROOT}" aria-label="HAIBUCRAFT home">
-        <picture>
-          <source media="(max-width: 1180px)" srcset="/brand/haibu-logo-mobile.png">
-          <img src="/brand/haibu-logo-header.png" width="624" height="214" alt="HAIBUCRAFT">
-        </picture>
+      <a class="logo" href="${ROOT}" aria-label="HAIBU home">
+        <img src="/brand/haibu-logo-mobile.png" width="160" height="160" alt="">
+        <span class="logo-wordmark">HAIBU</span>
       </a>
       <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
-        <a href="${ROOT}">Home</a>
+        <a class="nav-home-link" href="${ROOT}">${navIcon('home')}<span>Home</span></a>
         <div class="nav-group">
-          <div class="nav-product-row"><a href="${ROOT}products/">Products</a><button class="products-toggle" type="button" aria-expanded="false" aria-controls="product-category-navigation" aria-haspopup="true" aria-label="Open product categories">⌄</button></div>
-          <div class="dropdown" id="product-category-navigation">
-            <a href="${ROOT}products/slime-charms-wholesale/">Slime Charms Wholesale</a>
-            <a href="${ROOT}products/polymer-clay-slices-wholesale/">Polymer Clay Slices Wholesale</a>
-            <a href="${ROOT}products/resin-charms-for-slime/">Resin Charms for Slime</a>
-            <a href="${ROOT}products/sequins-glitter-confetti/">Sequins &amp; Glitter Confetti</a>
+          <div class="nav-product-row"><a href="${ROOT}products/">${navIcon('products')}<span>Products</span></a><button class="products-toggle" type="button" aria-expanded="false" aria-controls="product-category-navigation" aria-haspopup="true" aria-label="Open product categories"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+          <div class="dropdown nav-catalog-menu" id="product-category-navigation">
+            <div class="nav-catalog-intro"><div><span class="nav-catalog-kicker">THE HAIBU CATALOG</span><strong>Build your next assortment.</strong></div><svg class="nav-catalog-motif" viewBox="0 0 66 45" width="66" height="45" aria-hidden="true" focusable="false"><rect x="6" y="17" width="19" height="19" rx="6" fill="#cfbff2" transform="rotate(-14 15 26)"/><path d="m37 6 4 8 9 1-6 7 2 9-9-4-8 4 1-9-6-7 9-1z" fill="#f2c4d7"/><circle cx="55" cy="33" r="6" fill="#efce8e"/><circle cx="15" cy="8" r="3" fill="#cfbff2"/></svg></div>
+            <a class="nav-category-card" href="${ROOT}products/slime-charms-wholesale/" aria-label="Slime Charms Wholesale"><img src="/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-01.webp" width="80" height="80" loading="lazy" decoding="async" alt=""><span><strong>Slime Charms</strong><small>Themed mixes</small></span></a>
+            <a class="nav-category-card" href="${ROOT}products/polymer-clay-slices-wholesale/" aria-label="Polymer Clay Slices Wholesale"><img src="/assets/images/products/yx043-main.webp" width="80" height="80" loading="lazy" decoding="async" alt=""><span><strong>Polymer Clay</strong><small>Slices &amp; sprinkles</small></span></a>
+            <a class="nav-category-card" href="${ROOT}products/resin-charms-for-slime/" aria-label="Resin Charms for Slime"><img src="/assets/images/products/batch-2026-10-13/rw1917/dessert-resin-flatback-cabochon-mix-01.jpg" width="80" height="80" loading="lazy" decoding="async" alt=""><span><strong>Resin Charms</strong><small>Flatbacks &amp; minis</small></span></a>
+            <a class="nav-category-card" href="${ROOT}products/sequins-glitter-confetti/" aria-label="Sequins &amp; Glitter Confetti"><img src="/assets/images/products/holographic-hollow-star-sequins.webp" width="80" height="80" loading="lazy" decoding="async" alt=""><span><strong>Sequins &amp; Confetti</strong><small>Sparkle &amp; accents</small></span></a>
+            <a class="nav-catalog-all" href="${ROOT}products/">Browse the full catalog <span aria-hidden="true">→</span></a>
           </div>
         </div>
-        <a href="${ROOT}custom-solutions/">Custom Solutions</a>
-        <a href="${ROOT}themes/">Themes</a>
-        <a href="${ROOT}manufacturing/">Manufacturing</a>
-        <a href="${ROOT}quality-control/">Quality Control</a>
-        <a href="${ROOT}certificates/">Certificates</a>
-        <a href="${ROOT}about/">About</a>
-        <a href="${ROOT}blog/">Blog</a>
-        <a class="quote-btn" href="${ROOT}request-quote/?source=${source}&landing_page=${landing}">Request Quote</a>
+        <div class="nav-secondary-links">
+          <a href="${ROOT}custom-solutions/">${navIcon('custom')}<span>Custom Solutions</span></a>
+          <a href="${ROOT}themes/">${navIcon('themes')}<span>Themes</span></a>
+          <a href="${ROOT}manufacturing/">${navIcon('manufacturing')}<span>Manufacturing</span></a>
+          <a href="${ROOT}quality-control/">${navIcon('quality')}<span>Quality Control</span></a>
+          <a href="${ROOT}certificates/">${navIcon('certificates')}<span>Certificates</span></a>
+          <a href="${ROOT}about/">${navIcon('about')}<span>About</span></a>
+          <a href="${ROOT}blog/">${navIcon('blog')}<span>Blog</span></a>
+        </div>
+        <a class="quote-btn" href="${ROOT}request-quote/?source=${source}&landing_page=${landing}"><span>Request Quote</span><span class="nav-quote-arrow" aria-hidden="true">→</span></a>
       </nav>
       <button class="menu-btn" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open menu">☰</button>
     </div></header>`;
@@ -237,17 +253,71 @@
   });
   if (readAnalyticsConsent() === null) showConsentBanner();
 
+  // Keep click metadata bounded to published site routes and controlled labels.
+  // Never send query strings, fragments, link text or inquiry form values.
+  const ANALYTICS_LINK_LOCATIONS = new Set([
+    'homepage_hero', 'homepage_categories', 'homepage_featured', 'homepage_buying_paths',
+    'homepage_supply', 'homepage_evidence', 'homepage_final', 'header', 'footer', 'main', 'site'
+  ]);
+  const analyticsLinkLocation = (link) => {
+    const declared = link.closest('[data-analytics-location]')?.getAttribute('data-analytics-location');
+    if (ANALYTICS_LINK_LOCATIONS.has(declared)) return declared;
+    if (link.closest('header, [data-site-header]')) return 'header';
+    if (link.closest('footer, [data-site-footer]')) return 'footer';
+    return link.closest('main') ? 'main' : 'site';
+  };
+  const analyticsProductCode = (value) => {
+    const code = typeof value === 'string' ? value.trim().toUpperCase() : '';
+    return /^(?:SLM\d{3,5}|YX\d{3,4}|RW\d{3,6}(?:-C)?|(?:MA|YM)\d{3})(?:\/RW\d{3,6}){0,3}$/.test(code) ? code : '';
+  };
+  const analyticsPathProductCode = (pathname) => {
+    // Product slugs begin with their catalog code, including the resin mix.
+    const slug = pathname.split('/').filter(Boolean).pop() || '';
+    const prefix = slug.match(/^((?:rw\d{3,6}-c|(?:slm|yx|rw|ma|ym)\d{3,6})(?:-rw\d{3,6}){0,3})(?:-|$)/i)?.[1];
+    return analyticsProductCode(prefix?.replace(/-(?=rw\d)/gi, '/'));
+  };
+  const analyticsClickProductCode = (link, target) => {
+    const candidates = [link.getAttribute('data-product-code')];
+    for (const key of ['product_code', 'sku']) {
+      const values = target.searchParams.getAll(key);
+      if (values.length === 1) candidates.push(values[0]);
+    }
+    if (/\/products\//.test(target.pathname)) candidates.push(analyticsPathProductCode(target.pathname));
+    return candidates.map(analyticsProductCode).find(Boolean) || '';
+  };
+
   document.addEventListener('click', (event) => {
-    const link = event.target.closest('a[href]');
+    const link = event.target?.closest?.('a[href]') || event.target?.parentElement?.closest?.('a[href]');
     if (!link) return;
-    const href = link.getAttribute('href') || '';
+    const href = (link.getAttribute('href') || '').trim();
+    if (!href || /^[?#]/.test(href)) return;
+    let target;
+    try {
+      target = new URL(href, window.location.href);
+    } catch {
+      return;
+    }
+    // Credentials and unrecognized schemes are never analytics destinations.
+    if (target.username || target.password || !['https:', 'http:', 'mailto:'].includes(target.protocol)) return;
+    const isSiteLink = ['https:', 'http:'].includes(target.protocol) &&
+      (target.origin === window.location.origin || /^(www\.)?haibucrafts\.com$/i.test(target.hostname));
+    const route = target.pathname;
     let name = '';
-    if (href.includes('wa.me/')) name = 'whatsapp_click';
-    else if (href.startsWith('mailto:')) name = 'email_click';
-    else if (href.includes('quote/')) name = 'quote_cta_click';
-    else if (href.includes('/themes/')) name = 'theme_link_click';
-    else if (/\/products\/.+\/$/.test(href)) name = 'product_link_click';
-    if (name) window.HAIBU_TRACK(name, { page: window.location.pathname, destination: href.slice(0, 180) });
+    if (target.hostname === 'wa.me') name = 'whatsapp_click';
+    else if (target.protocol === 'mailto:') name = 'email_click';
+    else if (isSiteLink && /^\/(?:v2-preview\/)?(?:request-quote|quote)\/?$/.test(route)) name = 'quote_cta_click';
+    else if (isSiteLink && /^\/(?:v2-preview\/)?themes\//.test(route)) name = 'theme_link_click';
+    else if (isSiteLink && /^\/(?:v2-preview\/)?products(?:\/[a-z0-9-]+)*\/?$/.test(route)) name = 'product_link_click';
+    if (!name) return;
+    const targetUrl = target.protocol === 'mailto:' ? 'mailto:' : `${target.origin}${route}`;
+    const properties = { page: window.location.pathname, destination: targetUrl.slice(0, 180) };
+    if (name === 'product_link_click' || name === 'quote_cta_click') {
+      properties.target_url = targetUrl;
+      properties.link_location = analyticsLinkLocation(link);
+      const productCode = analyticsClickProductCode(link, target);
+      if (productCode) properties.product_code = productCode;
+    }
+    window.HAIBU_TRACK(name, properties);
   });
 
   if (page === 'quote') {

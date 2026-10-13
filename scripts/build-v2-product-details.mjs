@@ -29,6 +29,7 @@ const haibuSeptember12Batch = JSON.parse(await readFile(haibuSeptember12BatchPat
 const haibuSeptember20Batch = JSON.parse(await readFile(haibuSeptember20BatchPath, 'utf8'));
 const haibuOctober12Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261012.json'), 'utf8'));
 const haibuOctober13Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261013.json'), 'utf8'));
+const haibuOctober13V2Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261013-v2.json'), 'utf8'));
 const purchasingBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-purchasing-20261002.json'), 'utf8'));
 const purchasingBySku = new Map(purchasingBatch.products.map((item) => [item.sku, item]));
 const productBatches = [
@@ -41,7 +42,8 @@ const productBatches = [
   { issue: 'haibu-new-products-20260912', data: haibuSeptember12Batch },
   { issue: 'haibu-new-products-20260920', data: haibuSeptember20Batch },
   { issue: 'haibu-new-products-20261012', data: haibuOctober12Batch },
-  { issue: 'haibu-new-products-20261013', data: haibuOctober13Batch }
+  { issue: 'haibu-new-products-20261013', data: haibuOctober13Batch },
+  { issue: 'haibu-new-products-20261013-v2', data: haibuOctober13V2Batch }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -157,7 +159,7 @@ const batchAssetKey = (product) => product.assetKey || product.sku.toLowerCase()
 const batchDetailSlug = (product) => `${batchAssetKey(product)}-${slugify(product.title).replaceAll('-and-', '-')}`;
 
 const batchImage = (record, position) => (
-  `/assets/images/products/${record.data.assetDirectory || 'batch-2026-08'}/${batchAssetKey(record.product)}/${record.product.imagePrefix}-${String(position).padStart(2, '0')}.${record.product.imageExtensions?.[position - 1] || record.data.imageExtension || 'webp'}`
+  `/assets/images/products/${record.product.assetDirectory || record.data.assetDirectory || 'batch-2026-08'}/${batchAssetKey(record.product)}/${record.product.imagePrefix}-${String(position).padStart(2, '0')}.${record.product.imageExtensions?.[position - 1] || record.data.imageExtension || 'webp'}`
 );
 
 const batchGalleryOrder = (record) => (
@@ -317,7 +319,7 @@ for (const category of categories) {
       preserveImageRatio: Boolean(batchProduct?.preserveImageRatio),
       structuredSpecifications: Boolean(batchProduct?.structuredSpecifications),
       packingOptions: batchProduct ? batchRecord.data.packingOptions : [],
-      galleryNote: batchRecord?.data.galleryNote || null,
+      galleryNote: batchProduct?.galleryNote || batchRecord?.data.galleryNote || null,
       structuredDataImageMode: batchRecord?.data.structuredDataImageMode || 'gallery',
       buyerHeading: batchProduct?.buyerHeading || null,
       buyerCopy: batchProduct?.buyerCopy || null,

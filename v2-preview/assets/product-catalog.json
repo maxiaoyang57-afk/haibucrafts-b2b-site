@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-13",
-  "count": 151,
+  "count": 162,
   "products": [
     {
       "sku": "YX720",
@@ -31,6 +31,36 @@
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx3194-rainbow-cloud-polymer-clay-mix-for-bulk-orders/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx3194-rainbow-cloud-polymer-clay-mix-for-bulk-orders/"
+    },
+    {
+      "sku": "YX3803",
+      "title": "Pink & Black Halloween Polymer Clay Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Halloween",
+      "image": "/assets/images/products/batch-2026-10-13-v2/yx3803/pink-black-halloween-polymer-clay-mix-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/yx3803/pink-black-halloween-polymer-clay-mix-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/yx3803/pink-black-halloween-polymer-clay-mix-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/yx3803/pink-black-halloween-polymer-clay-mix-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3803-pink-black-halloween-polymer-clay-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3803-pink-black-halloween-polymer-clay-mix/"
+    },
+    {
+      "sku": "YX3906",
+      "title": "Pastel Candy Heart Polymer Clay Slice Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Heart",
+      "image": "/assets/images/products/batch-2026-10-13-v2/yx3906/pastel-candy-heart-polymer-clay-slice-mix-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/yx3906/pastel-candy-heart-polymer-clay-slice-mix-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/yx3906/pastel-candy-heart-polymer-clay-slice-mix-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/yx3906/pastel-candy-heart-polymer-clay-slice-mix-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3906-pastel-candy-heart-polymer-clay-slice-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3906-pastel-candy-heart-polymer-clay-slice-mix/"
     },
     {
       "sku": "YX048",
@@ -1053,6 +1083,141 @@
       "productionPath": "/products/resin-charms-for-slime/rw1672-rw2072-rw3492-rw20104-gradient-glitter-bear-resin-mix-in-bulk/"
     },
     {
+      "sku": "RW2504-YX416",
+      "title": "Mixed Dessert Clay & Resin Craft Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw2504-yx416/mixed-dessert-clay-resin-craft-decorations-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw2504-yx416/mixed-dessert-clay-resin-craft-decorations-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw2504-yx416/mixed-dessert-clay-resin-craft-decorations-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw2504-yx416/mixed-dessert-clay-resin-craft-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw2504-yx416-mixed-dessert-clay-resin-craft-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw2504-yx416-mixed-dessert-clay-resin-craft-decorations/"
+    },
+    {
+      "sku": "RW24224",
+      "title": "Luminous Swirl Lollipop Resin Flatbacks",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Candy",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw24224/luminous-swirl-lollipop-resin-flatback-charms-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw24224/luminous-swirl-lollipop-resin-flatback-charms-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw24224/luminous-swirl-lollipop-resin-flatback-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw24224/luminous-swirl-lollipop-resin-flatback-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24224-luminous-swirl-lollipop-resin-flatbacks/",
+      "productionPath": "/products/resin-charms-for-slime/rw24224-luminous-swirl-lollipop-resin-flatbacks/"
+    },
+    {
+      "sku": "RW21097",
+      "title": "Lip & Tongue Resin Craft Charm Mix",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Novelty",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw21097/lip-tongue-resin-craft-charm-mix-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw21097/lip-tongue-resin-craft-charm-mix-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw21097/lip-tongue-resin-craft-charm-mix-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw21097/lip-tongue-resin-craft-charm-mix-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw21097-lip-tongue-resin-craft-charm-mix/",
+      "productionPath": "/products/resin-charms-for-slime/rw21097-lip-tongue-resin-craft-charm-mix/"
+    },
+    {
+      "sku": "RW24359",
+      "title": "Iridescent Snowflake Resin Flatback Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw24359/iridescent-snowflake-resin-flatback-craft-charms-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw24359/iridescent-snowflake-resin-flatback-craft-charms-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw24359/iridescent-snowflake-resin-flatback-craft-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw24359/iridescent-snowflake-resin-flatback-craft-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24359-iridescent-snowflake-resin-flatback-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw24359-iridescent-snowflake-resin-flatback-charms/"
+    },
+    {
+      "sku": "RW21743",
+      "title": "Farm-Themed Resin Flatback Craft Assortment",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Animal",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw21743/farm-themed-resin-flatback-craft-assortment-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw21743/farm-themed-resin-flatback-craft-assortment-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw21743/farm-themed-resin-flatback-craft-assortment-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw21743/farm-themed-resin-flatback-craft-assortment-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw21743-farm-themed-resin-flatback-craft-assortment/",
+      "productionPath": "/products/resin-charms-for-slime/rw21743-farm-themed-resin-flatback-craft-assortment/"
+    },
+    {
+      "sku": "RW404",
+      "title": "Mini Coffee Bean Resin Slime Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw404/mini-coffee-bean-resin-slime-charms-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw404/mini-coffee-bean-resin-slime-charms-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw404/mini-coffee-bean-resin-slime-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw404/mini-coffee-bean-resin-slime-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw404-mini-coffee-bean-resin-slime-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw404-mini-coffee-bean-resin-slime-charms/"
+    },
+    {
+      "sku": "RW20946",
+      "title": "Luminous Mini Mushroom Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Nature",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw20946/luminous-mini-mushroom-resin-craft-figurines-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw20946/luminous-mini-mushroom-resin-craft-figurines-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw20946/luminous-mini-mushroom-resin-craft-figurines-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw20946/luminous-mini-mushroom-resin-craft-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw20946-luminous-mini-mushroom-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw20946-luminous-mini-mushroom-resin-figurines/"
+    },
+    {
+      "sku": "RW20423/RW22336/RW22338",
+      "title": "Mixed Mini Antler & Black Hat Craft Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw20423-rw22336-rw22338/mixed-mini-antler-black-hat-craft-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw20423-rw22336-rw22338/mixed-mini-antler-black-hat-craft-decorations-01.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw20423-rw22336-rw22338/mixed-mini-antler-black-hat-craft-decorations-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw20423-rw22336-rw22338/mixed-mini-antler-black-hat-craft-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw20423-rw22336-rw22338-mixed-mini-antler-black-hat-craft-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw20423-rw22336-rw22338-mixed-mini-antler-black-hat-craft-decorations/"
+    },
+    {
+      "sku": "RW25404",
+      "title": "Luminous Honey Jar Resin Craft Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw25404/luminous-honey-jar-resin-craft-charms-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-13-v2/rw25404/luminous-honey-jar-resin-craft-charms-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw25404/luminous-honey-jar-resin-craft-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw25404/luminous-honey-jar-resin-craft-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25404-luminous-honey-jar-resin-craft-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw25404-luminous-honey-jar-resin-craft-charms/"
+    },
+    {
       "sku": "RW24707",
       "title": "26 mm AB Pearl Shell Resin Cabochons in Bulk",
       "category": "resin-charms",
@@ -1672,11 +1837,11 @@
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Seasonal",
-      "image": "/assets/images/products/batch-2026-09-09/rw24891/rw24891-christmas-hat-duck-resin-miniatures-01.jpg",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw24891/christmas-hat-duck-resin-miniature-charms-01.png",
       "gallery": [
-        "/assets/images/products/batch-2026-09-09/rw24891/rw24891-christmas-hat-duck-resin-miniatures-01.jpg",
-        "/assets/images/products/batch-2026-09-09/rw24891/rw24891-christmas-hat-duck-resin-miniatures-02.jpg",
-        "/assets/images/products/batch-2026-09-09/rw24891/rw24891-christmas-hat-duck-resin-miniatures-03.jpg"
+        "/assets/images/products/batch-2026-10-13-v2/rw24891/christmas-hat-duck-resin-miniature-charms-01.png",
+        "/assets/images/products/batch-2026-10-13-v2/rw24891/christmas-hat-duck-resin-miniature-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw24891/christmas-hat-duck-resin-miniature-charms-03.jpg"
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/",
       "productionPath": "/products/resin-charms-for-slime/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/"
@@ -1732,11 +1897,11 @@
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Seasonal",
-      "image": "/assets/images/products/batch-2026-09-09/rw20175/rw20175-mixed-christmas-flatback-resin-charms-01.jpg",
+      "image": "/assets/images/products/batch-2026-10-13-v2/rw20175/mixed-christmas-resin-flatback-craft-charms-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09-09/rw20175/rw20175-mixed-christmas-flatback-resin-charms-01.jpg",
-        "/assets/images/products/batch-2026-09-09/rw20175/rw20175-mixed-christmas-flatback-resin-charms-02.jpg",
-        "/assets/images/products/batch-2026-09-09/rw20175/rw20175-mixed-christmas-flatback-resin-charms-03.jpg"
+        "/assets/images/products/batch-2026-10-13-v2/rw20175/mixed-christmas-resin-flatback-craft-charms-01.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw20175/mixed-christmas-resin-flatback-craft-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-13-v2/rw20175/mixed-christmas-resin-flatback-craft-charms-03.jpg"
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw20175-wholesale-mixed-christmas-flatback-resin-charms-for-slime-scrapbooking-diy-accessories/",
       "productionPath": "/products/resin-charms-for-slime/rw20175-wholesale-mixed-christmas-flatback-resin-charms-for-slime-scrapbooking-diy-accessories/"

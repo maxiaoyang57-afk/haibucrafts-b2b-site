@@ -35,6 +35,19 @@ for (const [file, privacyPath] of [
   ['v2-preview/quote/index.html', '/v2-preview/privacy/'],
   ['request-quote/index.html', '/privacy/']
 ]) {
+  test(`${file} lets Back restore optional product and SKU edits`, async () => {
+    const html = await readFile(file, 'utf8');
+    const form = html.match(/<form\b[^>]*data-quote-form[^>]*>/)?.[0];
+    assert.ok(form);
+    assert.doesNotMatch(form, /\bautocomplete\s*=\s*["']?off(?:["'\s>]|$)/i);
+    for (const name of ['product', 'sku']) {
+      const input = [...html.matchAll(/<input\b[^>]*>/g)]
+        .map(([tag]) => tag).find((tag) => new RegExp(`\\bname=["']${name}["']`).test(tag));
+      assert.ok(input, `The ${name} field remains available`);
+      assert.doesNotMatch(input, /\bautocomplete\s*=\s*["']?off(?:["'\s>]|$)/i);
+    }
+  });
+
   test(`${file} places a working Privacy Policy link beside submission`, async () => {
     const html = await readFile(file, 'utf8');
     const submit = html.match(/<div class="quote-submit full">([\s\S]*?)<\/div>/)?.[1];

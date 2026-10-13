@@ -160,11 +160,9 @@
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="topbar"><div class="container"><span>B2B wholesale · OEM/ODM · Private label · Export support</span><span class="topbar-contact"><a href="mailto:sales@haibucrafts.com">sales@haibucrafts.com</a><span aria-hidden="true"> · </span><a class="topbar-whatsapp" href="${whatsappHref}" target="_blank" rel="noopener noreferrer">WhatsApp</a></span></div></div>
     <header class="site-header"><div class="container navbar">
-      <a class="logo" href="${ROOT}" aria-label="HAIBUCRAFT home">
-        <picture>
-          <source media="(max-width: 1180px)" srcset="/brand/haibu-logo-mobile.png">
-          <img src="/brand/haibu-logo-header.png" width="624" height="214" alt="HAIBUCRAFT">
-        </picture>
+      <a class="logo" href="${ROOT}" aria-label="HAIBU home">
+        <img src="/brand/haibu-logo-mobile.png" width="160" height="160" alt="">
+        <span class="logo-wordmark">HAIBU</span>
       </a>
       <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
         <a class="nav-home-link" href="${ROOT}">${navIcon('home')}<span>Home</span></a>

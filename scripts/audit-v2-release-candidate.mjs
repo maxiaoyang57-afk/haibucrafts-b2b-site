@@ -291,7 +291,7 @@ else {
   for (const marker of ['/_vercel/insights/script.js', 'data-sdk="analytics"']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing analytics marker: ${marker}`);
   }
-  for (const marker of ['/brand/haibu-logo-header.png', '/brand/haibu-logo-mobile.png', '/brand/haibu-logo-footer.png', 'Creative craft components supplier', 'brand-v2.css']) {
+  for (const marker of ['aria-label="HAIBU home"', '<span class="logo-wordmark">HAIBU</span>', '/brand/haibu-logo-mobile.png', '/brand/haibu-logo-footer.png', 'Creative craft components supplier', 'brand-v2.css']) {
     if (!components.includes(marker)) errors.push(`production components runtime missing final brand marker: ${marker}`);
   }
   if (/HAIBU CRAFT/.test(components)) errors.push('production components runtime contains non-canonical textual brand spelling HAIBU CRAFT');

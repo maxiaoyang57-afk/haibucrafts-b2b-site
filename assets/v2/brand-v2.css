@@ -22,18 +22,26 @@
   display: flex;
   flex: 0 0 auto;
   align-items: center;
+  gap: 10px;
+  min-height: 48px;
   text-decoration: none;
 }
 
-.logo picture {
-  display: block;
+.logo img {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  object-fit: contain;
 }
 
-.logo img {
-  width: auto;
-  height: 52px;
-  max-width: 156px;
-  object-fit: contain;
+.logo-wordmark {
+  color: #071b32;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  white-space: nowrap;
 }
 
 .nav {
@@ -176,6 +184,10 @@
     width: 40px;
     height: 40px;
     max-width: 40px;
+  }
+
+  .logo-wordmark {
+    font-size: 22px;
   }
 
   .nav {

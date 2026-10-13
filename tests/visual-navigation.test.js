@@ -4,6 +4,19 @@ import test from 'node:test';
 
 const catalog = JSON.parse(await readFile('v2-preview/assets/product-catalog.json', 'utf8'));
 for (const file of ['v2-preview/assets/components.js', 'assets/v2/components.js']) {
+  test(`${file} header pairs the existing symbol with a readable HAIBU home wordmark`, async () => {
+    const source = await readFile(file, 'utf8');
+    const logo = source.match(/<a class="logo"[^>]*>[\s\S]*?<\/a>/)?.[0];
+    assert.ok(logo, 'The header must keep its logo home link');
+    assert.match(logo, /href="\$\{ROOT\}"/);
+    assert.match(logo, /aria-label="HAIBU home"/);
+    assert.match(logo, /<img src="\/brand\/haibu-logo-mobile\.png"[^>]*alt=""/);
+    assert.equal([...logo.matchAll(/<img\b/g)].length, 1);
+    assert.match(logo, /<span class="logo-wordmark">HAIBU<\/span>/);
+    assert.doesNotMatch(logo, /<picture\b|<source\b|haibu-logo-header\.png/);
+    await access('brand/haibu-logo-mobile.png');
+  });
+
   test(`${file} navigation uses verified product imagery and preserves all category destinations`, async () => {
     const source = await readFile(file, 'utf8');
     const cards = [...source.matchAll(/<a class="nav-category-card" href="([^"]+)" aria-label="([^"]+)"><img src="([^"]+)"[^>]+>.*?<\/a>/g)];

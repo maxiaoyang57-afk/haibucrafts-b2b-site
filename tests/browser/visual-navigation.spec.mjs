@@ -17,6 +17,7 @@ async function visitHome(page) {
   await expect(nav(page)).toBeAttached();
   await page.locator('[data-analytics-decline]').click();
   await expect(page.locator('.analytics-consent')).toBeHidden();
+  await expectHeaderBrand(page);
 }
 
 async function openMenu(page) {
@@ -57,6 +58,59 @@ async function expectTouchTarget(locator) {
   expect(box.height).toBeGreaterThanOrEqual(44);
 }
 
+async function expectHeaderBrand(page) {
+  const header = page.locator('.site-header .navbar');
+  const logo = header.getByRole('link', { name: 'HAIBU home', exact: true });
+  await expect(logo).toHaveCount(1);
+  await expect(logo).toHaveClass('logo');
+  await expect(logo).toHaveAttribute('href', '/');
+  await expectTouchTarget(logo);
+
+  const icon = logo.locator('img');
+  const wordmark = logo.locator('.logo-wordmark');
+  await expect(icon).toHaveCount(1);
+  await expect(icon).toBeVisible();
+  await expect(icon).toHaveAttribute('src', '/brand/haibu-logo-mobile.png');
+  await expect(icon).toHaveAttribute('alt', '');
+  await expect.poll(() => icon.evaluate((image) =>
+    image.complete && image.naturalWidth === 160 && image.naturalHeight === 160)).toBe(true);
+  expect(await icon.evaluate((image) => new URL(image.currentSrc).pathname))
+    .toBe('/brand/haibu-logo-mobile.png');
+  await expect(wordmark).toHaveText('HAIBU');
+  await expect(wordmark).toBeVisible();
+  await expect(wordmark).toHaveCSS('white-space', 'nowrap');
+  const mobile = page.viewportSize().width <= 1180;
+  await expect(icon).toHaveCSS('width', mobile ? '40px' : '48px');
+  await expect(icon).toHaveCSS('height', mobile ? '40px' : '48px');
+  await expect(wordmark).toHaveCSS('font-size', mobile ? '22px' : '24px');
+
+  const [logoBox, iconBox, wordmarkBox] = await Promise.all([
+    logo.boundingBox(), icon.boundingBox(), wordmark.boundingBox()
+  ]);
+  expect(iconBox.x + iconBox.width).toBeLessThan(wordmarkBox.x);
+  expect(Math.abs(iconBox.y + iconBox.height / 2 - wordmarkBox.y - wordmarkBox.height / 2))
+    .toBeLessThanOrEqual(1);
+  expect(wordmarkBox.x + wordmarkBox.width).toBeLessThanOrEqual(logoBox.x + logoBox.width + 1);
+  expect(logoBox.x).toBeGreaterThanOrEqual(0);
+  expect(logoBox.x + logoBox.width).toBeLessThanOrEqual(page.viewportSize().width);
+
+  await expect(header.locator('.quote-list-link')).toBeVisible();
+  const controls = header.locator(':scope > .nav, :scope > .quote-list-link, :scope > .menu-btn');
+  const boxes = [logoBox];
+  for (const control of await controls.all()) {
+    if (await control.isVisible()) boxes.push(await control.boundingBox());
+  }
+  for (let i = 0; i < boxes.length; i += 1) {
+    for (let j = i + 1; j < boxes.length; j += 1) {
+      const a = boxes[i];
+      const b = boxes[j];
+      const separated = a.x + a.width <= b.x + 1 || b.x + b.width <= a.x + 1 ||
+        a.y + a.height <= b.y + 1 || b.y + b.height <= a.y + 1;
+      expect(separated, 'Header brand, navigation, quote list and menu must not overlap').toBe(true);
+    }
+  }
+}
+
 async function expectProductCards(page) {
   const cards = submenu(page).locator('a.nav-category-card');
   await expect(cards).toHaveCount(4);
@@ -82,6 +136,46 @@ test.beforeEach(async ({ page }) => {
   await page.route('**/api/inquiry', () => {
     throw new Error('Navigation QA must not submit an inquiry');
   });
+});
+
+test('HAIBU header wordmark fits narrow phones and both sides of the desktop breakpoint', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'phone-390', 'One responsive brand run alongside the four phone widths');
+  await page.setViewportSize({ width: 320, height: 844 });
+  await visitHome(page);
+
+  for (const width of [320, 360, 1180, 1181, 1440]) {
+    await page.setViewportSize({ width, height: width <= 1180 ? 844 : 1000 });
+    await expectHeaderBrand(page);
+    await expectNoHorizontalOverflow(page);
+    if (width <= 1180) {
+      await expect(menuButton(page)).toBeVisible();
+      await expect(nav(page)).toBeHidden();
+    } else {
+      await expect(menuButton(page)).toBeHidden();
+      await expect(nav(page)).toBeVisible();
+    }
+
+    if (width === 320) {
+      // All four categories must be in view immediately, without scrolling or
+      // opening a second disclosure, including after closing and reopening.
+      for (let cycle = 0; cycle < 2; cycle += 1) {
+        await openMenu(page);
+        await expectHeaderBrand(page);
+        await expectNoHorizontalOverflow(page);
+        if (cycle === 0) {
+          await page.screenshot({ path: testInfo.outputPath('haibu-header-320-menu-expanded.png') });
+        }
+        await menuButton(page).tap();
+        await expect(nav(page)).toBeHidden();
+        await expect(menuButton(page)).toHaveAttribute('aria-expanded', 'false');
+        await expectHeaderBrand(page);
+        await expectNoHorizontalOverflow(page);
+      }
+    }
+    if (width === 1440) {
+      await page.screenshot({ path: testInfo.outputPath('haibu-header-desktop.png') });
+    }
+  }
 });
 
 test('visual mobile menu has four real product thumbnails and comfortable targets', async ({ page }, testInfo) => {

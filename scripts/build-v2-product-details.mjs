@@ -338,7 +338,7 @@ for (const category of categories) {
         publishingCheck: batchProduct.publishingCheck
       } : null,
       mediaLabel: batchProduct?.mediaLabel || (['haibu-new-products-20260912', 'haibu-new-products-20260920'].includes(batchRecord?.issue) ? 'Product image reference' : 'Actual product photo'),
-      lastModified: batchRecord?.data.lastModified || catalogLastModified,
+      lastModified: batchProduct?.factsUpdatedAt || batchRecord?.data.lastModified || catalogLastModified,
       batchProduct: Boolean(batchProduct),
       batchIssue: batchRecord?.issue || null
     });
@@ -750,3 +750,4 @@ const sitemapUrls = seoMap.routes
 await writeFile(sitemapPath, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.join('\n')}\n</urlset>\n`, 'utf8');
 
 console.log(`Generated ${products.length} product detail pages, card links, SEO routes and production mappings.`);
+

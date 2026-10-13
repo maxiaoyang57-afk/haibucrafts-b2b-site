@@ -170,9 +170,19 @@
     }
   });
 
+  // A CSS display change can blur the old control before the media-query callback runs.
+  let lastNavigationFocus = null;
+  document.addEventListener('focusin', (event) => {
+    lastNavigationFocus = nav?.contains(event.target) || event.target === menuButton ? event.target : null;
+  });
+  document.addEventListener('pointerdown', (event) => {
+    if (!nav?.contains(event.target) && event.target !== menuButton) lastNavigationFocus = null;
+  });
+
   // Clear disclosure state at the CSS breakpoint and never leave focus on a hidden control.
   mobileNavigation.addEventListener?.('change', () => {
-    const active = document.activeElement;
+    const active = document.activeElement === document.body && lastNavigationFocus && !lastNavigationFocus.getClientRects().length
+      ? lastNavigationFocus : document.activeElement;
     const focusInNav = nav?.contains(active);
     const focusInCategories = navGroup?.querySelector('.nav-catalog-menu')?.contains(active);
     closeProducts();

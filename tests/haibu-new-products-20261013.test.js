@@ -7,12 +7,16 @@ const batch = JSON.parse(await readFile('scripts/data/haibu-new-products-2026101
 const manifest = JSON.parse(await readFile('docs/tasks/haibu-new-products-20261013-manifest.json', 'utf8'));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 const selected = new Set(batch.products.map((item) => item.sku));
+const laterBatch = JSON.parse(await readFile('scripts/data/haibu-new-products-20261013-v2.json', 'utf8'));
+const laterManifest = JSON.parse(await readFile('docs/tasks/haibu-new-products-20261013-v2-manifest.json', 'utf8'));
+const laterSkus = new Set(laterBatch.products.map((item) => item.sku));
 const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 
 test('eight additions preserve the previous 143 catalog identities and grouped bear code', () => {
   assert.equal(selected.size, 8);
-  assert.equal(catalog.count, 151);
-  const previous = catalog.products.filter((item) => !selected.has(item.sku));
+  assert.equal(catalog.count, 162);
+  const previous = catalog.products.filter((item) => !selected.has(item.sku) && !laterSkus.has(item.sku))
+    .map((item) => laterManifest.previousMedia.find((reference) => reference.sku === item.sku) || item);
   assert.equal(previous.length, 143);
   const identity = previous.sort((a, b) => a.sku.localeCompare(b.sku));
   assert.equal(hash(JSON.stringify(identity)), manifest.previousCatalogIdentitySha256);

@@ -1,0 +1,953 @@
+{
+  "batch": "haibu-new-products-20261013-v2",
+  "expectedSkuCount": 11,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-13-v2",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-13",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW2504-YX416",
+      "title": "Mixed Dessert Clay & Resin Craft Decorations",
+      "originalTitle": "100PC Mix Polymer Clay Popsicle Sweet Tube Cake Candy Figures Decor Ornament for New Year Xmas Party Kids Gift Artificial Europe",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mixed Dessert Clay & Resin Craft Decorations, product code RW2504-YX416",
+      "description": "Mixed Dessert Clay & Resin Craft Decorations. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source mixed dessert clay & resin craft decorations for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Food craft-material assortment",
+      "keySellingPoints": [
+        "Mixed Dessert Clay & Resin Craft Decorations",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW2504-YX416",
+        "Material: polymer clay and resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry",
+        "SKU group: Grouped assortment; confirm selected designs and mix by inquiry"
+      ],
+      "material": "polymer clay and resin",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "mixed dessert clay resin craft decorations, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Mixed Dessert Clay & Resin Craft Decorations | HAIBUCRAFT",
+      "metaDescription": "Mixed Dessert Clay & Resin Craft Decorations. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW2504-YX416 ",
+        "标题": "100PC Mix Polymer Clay Popsicle Sweet Tube Cake Candy Figures Decor Ornament for New Year Xmas Party Kids Gift Artificial Europe",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "polymer clay and resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 41,
+      "assetKey": "rw2504-yx416",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "mixed-dessert-clay-resin-craft-decorations",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 572,
+          "height": 484
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "YX3803",
+      "title": "Pink & Black Halloween Polymer Clay Mix",
+      "originalTitle": "1kg New Design Miniature Halloween Themed Polymer Sequins Beads Mini Clay Slices Great for Kids Slime Making Fun",
+      "type": "Halloween",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Pink & Black Halloween Polymer Clay Mix, product code YX3803",
+      "description": "Pink & Black Halloween Polymer Clay Mix. Standard pack: 1000 g per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source pink & black halloween polymer clay mix for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Halloween craft-material assortment",
+      "keySellingPoints": [
+        "Pink & Black Halloween Polymer Clay Mix",
+        "Source pack: 1,000 g per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: YX3803",
+        "Material: Polymer clay slices with mixed decorative fillers; confirm component composition",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: Configuration varies by included component; confirm the selected mix by inquiry",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 1,000 g per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "Polymer clay slices with mixed decorative fillers; confirm component composition",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "1,000 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 1,000 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "pink black halloween polymer clay mix, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Pink & Black Halloween Polymer Clay Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Pink & Black Halloween Polymer Clay Mix. Standard pack: 1000 g per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "YX3803",
+        "标题": "1kg New Design Miniature Halloween Themed Polymer Sequins Beads Mini Clay Slices Great for Kids Slime Making Fun",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 42,
+      "assetKey": "yx3803",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "pink-black-halloween-polymer-clay-mix",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 538,
+          "height": 503
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "RW24224",
+      "title": "Luminous Swirl Lollipop Resin Flatbacks",
+      "originalTitle": "Kawaii Cartoon Luminous Lollipop Resin Flatback Cabochon Art Supply Decoration Charm DIY Craft Doll House",
+      "type": "Candy",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Luminous Swirl Lollipop Resin Flatbacks, product code RW24224",
+      "description": "Luminous Swirl Lollipop Resin Flatbacks. Listed size: 30mm. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source luminous swirl lollipop resin flatbacks for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Candy craft-material assortment",
+      "keySellingPoints": [
+        "Luminous Swirl Lollipop Resin Flatbacks",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW24224",
+        "Material: resin",
+        "Size: 30 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "resin",
+      "dimensions": "30 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "luminous swirl lollipop resin flatback charms, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Luminous Swirl Lollipop Resin Flatbacks Wholesale | HAIBUCRAFT",
+      "metaDescription": "Luminous Swirl Lollipop Resin Flatbacks. Listed size: 30mm. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW24224",
+        "标题": "Kawaii Cartoon Luminous Lollipop Resin Flatback Cabochon Art Supply Decoration Charm DIY Craft Doll House",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 43,
+      "assetKey": "rw24224",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "luminous-swirl-lollipop-resin-flatback-charms",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 611,
+          "height": 538
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "RW21097",
+      "title": "Lip & Tongue Resin Craft Charm Mix",
+      "originalTitle": "100pcs Sexy Red Mouth Lip Resin Charm for Jewelry Making Findings Crafts",
+      "type": "Novelty",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Lip & Tongue Resin Craft Charm Mix, product code RW21097",
+      "description": "Lip & Tongue Resin Craft Charm Mix. Listed size: 2cm. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source lip & tongue resin craft charm mix for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Novelty craft-material assortment",
+      "keySellingPoints": [
+        "Lip & Tongue Resin Craft Charm Mix",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW21097",
+        "Material: resin",
+        "Size: 2cm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "resin",
+      "dimensions": "2cm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "lip tongue resin craft charm mix, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Lip & Tongue Resin Craft Charm Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Lip & Tongue Resin Craft Charm Mix. Listed size: 2cm. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW21097 ",
+        "标题": "100pcs Sexy Red Mouth Lip Resin Charm for Jewelry Making Findings Crafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "2cm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 44,
+      "assetKey": "rw21097",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "lip-tongue-resin-craft-charm-mix",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 511,
+          "height": 462
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "RW24359",
+      "title": "Iridescent Snowflake Resin Flatback Charms",
+      "originalTitle": "100pcs Kawaii Snowflake Resin Christmas Cabochon Crafts Flatback Crafts Diy Center Decoration Accessories",
+      "type": "Seasonal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Iridescent Snowflake Resin Flatback Charms, product code RW24359",
+      "description": "Iridescent Snowflake Resin Flatback Charms. Listed size: 35mm. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source iridescent snowflake resin flatback charms for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Seasonal craft-material assortment",
+      "keySellingPoints": [
+        "Iridescent Snowflake Resin Flatback Charms",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW24359",
+        "Material: resin",
+        "Size: 35 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "resin",
+      "dimensions": "35 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "iridescent snowflake resin flatback craft charms, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Iridescent Snowflake Resin Flatback Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Iridescent Snowflake Resin Flatback Charms. Listed size: 35mm. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW24359 ",
+        "标题": "100pcs Kawaii Snowflake Resin Christmas Cabochon Crafts Flatback Crafts Diy Center Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 49,
+      "assetKey": "rw24359",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "iridescent-snowflake-resin-flatback-craft-charms",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 575,
+          "height": 606
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "RW21743",
+      "title": "Farm-Themed Resin Flatback Craft Assortment",
+      "originalTitle": "100pcs New Mini Cute Cartoon Rabbit  Dairy Farm Series Resin Flat Back Cabochon Scrapbook Diy Accessories Decor Craft",
+      "type": "Animal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Farm-Themed Resin Flatback Craft Assortment, product code RW21743",
+      "description": "Farm-Themed Resin Flatback Craft Assortment. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source farm-themed resin flatback craft assortment for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Animal craft-material assortment",
+      "keySellingPoints": [
+        "Farm-Themed Resin Flatback Craft Assortment",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW21743",
+        "Material: resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "resin",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "farm themed resin flatback craft assortment, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Farm-Themed Resin Flatback Craft Assortment | HAIBUCRAFT",
+      "metaDescription": "Farm-Themed Resin Flatback Craft Assortment. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW21743 ",
+        "标题": "100pcs New Mini Cute Cartoon Rabbit  Dairy Farm Series Resin Flat Back Cabochon Scrapbook Diy Accessories Decor Craft",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 50,
+      "assetKey": "rw21743",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "farm-themed-resin-flatback-craft-assortment",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 618,
+          "height": 521
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "RW404",
+      "title": "Mini Coffee Bean Resin Slime Charms",
+      "originalTitle": "Slime Charms Simulated 3D Coffee Beans Resin Addition for Slime DIY Accessories Beads Making Supplies for Scrapbooking Crafts",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Coffee Bean Resin Slime Charms, product code RW404",
+      "description": "Mini Coffee Bean Resin Slime Charms. Listed size: 12 × 16 × 6mm. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source mini coffee bean resin slime charms for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Food craft-material assortment",
+      "keySellingPoints": [
+        "Mini Coffee Bean Resin Slime Charms",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW404",
+        "Material: resin",
+        "Size: 12 × 16 × 6 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "resin",
+      "dimensions": "12 × 16 × 6 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "mini coffee bean resin slime charms, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Mini Coffee Bean Resin Slime Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Mini Coffee Bean Resin Slime Charms. Listed size: 12 × 16 × 6mm. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW404 ",
+        "标题": "Slime Charms Simulated 3D Coffee Beans Resin Addition for Slime DIY Accessories Beads Making Supplies for Scrapbooking Crafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "12*16*6mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 52,
+      "assetKey": "rw404",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "mini-coffee-bean-resin-slime-charms",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 448,
+          "height": 405
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "RW20946",
+      "title": "Luminous Mini Mushroom Resin Figurines",
+      "originalTitle": "Luminous Resin Mini Tiny Mushroom Figurines Glowing in Dark Gnome Mushrooms Miniature DIY Fairy Garden Home Decor",
+      "type": "Nature",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Luminous Mini Mushroom Resin Figurines, product code RW20946",
+      "description": "Luminous Mini Mushroom Resin Figurines. Listed size: 14 × 18mm. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source luminous mini mushroom resin figurines for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Nature craft-material assortment",
+      "keySellingPoints": [
+        "Luminous Mini Mushroom Resin Figurines",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW20946",
+        "Material: resin",
+        "Size: 14 × 18 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "resin",
+      "dimensions": "14 × 18 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "luminous mini mushroom resin craft figurines, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Luminous Mini Mushroom Resin Figurines Wholesale | HAIBUCRAFT",
+      "metaDescription": "Luminous Mini Mushroom Resin Figurines. Listed size: 14 × 18mm. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW20946 ",
+        "标题": "Luminous Resin Mini Tiny Mushroom Figurines Glowing in Dark Gnome Mushrooms Miniature DIY Fairy Garden Home Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "14*18mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 53,
+      "assetKey": "rw20946",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "luminous-mini-mushroom-resin-craft-figurines",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 583,
+          "height": 564
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "RW20423/RW22336/RW22338",
+      "title": "Mixed Mini Antler & Black Hat Craft Decorations",
+      "originalTitle": "100pcs Resin Christmas Crafts Mini Black Elk Horn DIY Xmas Home Decor Doll House Accessories",
+      "type": "Seasonal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mixed Mini Antler & Black Hat Craft Decorations, product code RW20423/RW22336/RW22338",
+      "description": "RW20423/RW22336/RW22338 mixed mini antlers and black hats. Standard pack: 100 pieces per bag; confirm selected components, sizes and mix ratio.",
+      "detailedDescription": "Source mixed mini antler & black hat craft decorations for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Seasonal craft-material assortment",
+      "keySellingPoints": [
+        "Mixed Mini Antler & Black Hat Craft Decorations",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW20423/RW22336/RW22338",
+        "Material: Resin antler components and plastic black hats; confirm composition per design",
+        "Hole: No stringing hole specified; confirm attachment requirements per design",
+        "Assortment: Mixed product; confirm the selected designs and mixing ratio by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry",
+        "Size reference: 24 × 15 mm source reference; confirm each antler and hat design size by inquiry",
+        "Mix components: RW20423 antlers / RW22336 antlers / RW22338 miniature black hats",
+        "SKU group: Grouped assortment; confirm selected designs and mix by inquiry"
+      ],
+      "material": "Resin antler components and plastic black hats; confirm composition per design",
+      "dimensions": "24 × 15 mm source reference; confirm each antler and hat design size by inquiry",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "mixed mini antler black hat craft decorations, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Mixed Mini Antler & Black Hat Craft Decorations | HAIBUCRAFT",
+      "metaDescription": "RW20423/RW22336/RW22338 mixed mini antlers and black hats. Standard pack: 100 pieces per bag; confirm selected components, sizes and mix ratio.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW20423/RW22336/RW22338 ",
+        "标题": "100pcs Resin Christmas Crafts Mini Black Elk Horn DIY Xmas Home Decor Doll House Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "24*15MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 54,
+      "assetKey": "rw20423-rw22336-rw22338",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "mixed-mini-antler-black-hat-craft-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "reference composition",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "RW25404",
+      "title": "Luminous Honey Jar Resin Craft Charms",
+      "originalTitle": "100Pcs  Luminous Honey Jar Resin Charms Pendants for Jewelry Making DIY Earring Bracelet Necklace Decoration Accessories",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Luminous Honey Jar Resin Craft Charms, product code RW25404",
+      "description": "Luminous Honey Jar Resin Craft Charms. Listed size: 22mm. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source luminous honey jar resin craft charms for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Food craft-material assortment",
+      "keySellingPoints": [
+        "Luminous Honey Jar Resin Craft Charms",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: RW25404",
+        "Material: resin",
+        "Size: 22 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "resin",
+      "dimensions": "22 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "luminous honey jar resin craft charms, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Luminous Honey Jar Resin Craft Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Luminous Honey Jar Resin Craft Charms. Listed size: 22mm. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW25404 ",
+        "标题": "100Pcs  Luminous Honey Jar Resin Charms Pendants for Jewelry Making DIY Earring Bracelet Necklace Decoration Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "22MM",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 55,
+      "assetKey": "rw25404",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "luminous-honey-jar-resin-craft-charms",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 762,
+          "height": 739
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    },
+    {
+      "sku": "YX3906",
+      "title": "Pastel Candy Heart Polymer Clay Slice Mix",
+      "originalTitle": "1KG Candy Heart Cute Polymer Clay Tiles Cartoon Designs Slime Accessories Scrapbooking DIY Crafts Phone Case Embellishments",
+      "type": "Heart",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Pastel Candy Heart Polymer Clay Slice Mix, product code YX3906",
+      "description": "Pastel Candy Heart Polymer Clay Slice Mix. Standard pack: 1000 g per bag. Request bulk pricing and assortment confirmation.",
+      "detailedDescription": "Source pastel candy heart polymer clay slice mix for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
+      "seasonalTheme": "Heart craft-material assortment",
+      "keySellingPoints": [
+        "Pastel Candy Heart Polymer Clay Slice Mix",
+        "Source pack: 1,000 g per bag; custom packing by inquiry",
+        "Confirm individual component sizes and assortment with a sample",
+        "MOQ, available quantity and dispatch timing by quotation"
+      ],
+      "specificationLines": [
+        "Product code: YX3906",
+        "Material: polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 1,000 g per bag; custom packing by inquiry",
+        "Customization: Available; details confirmed by inquiry"
+      ],
+      "material": "polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "1,000 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
+      "packagingMoq": "Source packing: 1,000 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "pastel candy heart polymer clay slice mix, bulk craft supplies, wholesale craft components",
+      "metaTitle": "Pastel Candy Heart Polymer Clay Slice Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Pastel Candy Heart Polymer Clay Slice Mix. Standard pack: 1000 g per bag. Bulk quotation from HAIBU.",
+      "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "YX3906 ",
+        "标题": "1KG Candy Heart Cute Polymer Clay Tiles Cartoon Designs Slime Accessories Scrapbooking DIY Crafts Phone Case Embellishments",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 56,
+      "assetKey": "yx3906",
+      "assetDirectory": "batch-2026-10-13-v2",
+      "imagePrefix": "pastel-candy-heart-polymer-clay-slice-mix",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 420,
+          "height": 449
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-13"
+    }
+  ]
+}

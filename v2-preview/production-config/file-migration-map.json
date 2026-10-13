@@ -106,6 +106,20 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx3803-pink-black-halloween-polymer-clay-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3803-pink-black-halloween-polymer-clay-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3803-pink-black-halloween-polymer-clay-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3906-pastel-candy-heart-polymer-clay-slice-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3906-pastel-candy-heart-polymer-clay-slice-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3906-pastel-candy-heart-polymer-clay-slice-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx048-pink-candy-and-ceramic-dish-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx048-pink-candy-and-ceramic-dish-mix/index.html",
       "action": "create",
@@ -593,6 +607,69 @@
       "destination": "products/resin-charms-for-slime/rw1672-rw2072-rw3492-rw20104-gradient-glitter-bear-resin-mix-in-bulk/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw1672-rw2072-rw3492-rw20104-gradient-glitter-bear-resin-mix-in-bulk/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2504-yx416-mixed-dessert-clay-resin-craft-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw2504-yx416-mixed-dessert-clay-resin-craft-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2504-yx416-mixed-dessert-clay-resin-craft-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24224-luminous-swirl-lollipop-resin-flatbacks/index.html",
+      "destination": "products/resin-charms-for-slime/rw24224-luminous-swirl-lollipop-resin-flatbacks/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24224-luminous-swirl-lollipop-resin-flatbacks/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw21097-lip-tongue-resin-craft-charm-mix/index.html",
+      "destination": "products/resin-charms-for-slime/rw21097-lip-tongue-resin-craft-charm-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw21097-lip-tongue-resin-craft-charm-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24359-iridescent-snowflake-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw24359-iridescent-snowflake-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24359-iridescent-snowflake-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw21743-farm-themed-resin-flatback-craft-assortment/index.html",
+      "destination": "products/resin-charms-for-slime/rw21743-farm-themed-resin-flatback-craft-assortment/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw21743-farm-themed-resin-flatback-craft-assortment/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw404-mini-coffee-bean-resin-slime-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw404-mini-coffee-bean-resin-slime-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw404-mini-coffee-bean-resin-slime-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw20946-luminous-mini-mushroom-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw20946-luminous-mini-mushroom-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw20946-luminous-mini-mushroom-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw20423-rw22336-rw22338-mixed-mini-antler-black-hat-craft-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw20423-rw22336-rw22338-mixed-mini-antler-black-hat-craft-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw20423-rw22336-rw22338-mixed-mini-antler-black-hat-craft-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25404-luminous-honey-jar-resin-craft-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw25404-luminous-honey-jar-resin-craft-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25404-luminous-honey-jar-resin-craft-charms/",
       "generatedProduct": true
     },
     {

@@ -1,0 +1,316 @@
+{
+  "batchId": "haibu-new-products-20261013-v2",
+  "baselineCommit": "e8af50e6a9f5196957ffaa0fd882a4df787309f1",
+  "catalogCountBefore": 151,
+  "catalogCountAfter": 162,
+  "newProductCount": 11,
+  "updatedGalleryCount": 2,
+  "previousMedia": [
+    {
+      "sku": "RW24891",
+      "title": "Wholesale Christmas Hat Duck Resin Miniatures for Slime, Fairy Gardens and Holiday Gift Crafts",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-09/rw24891/rw24891-christmas-hat-duck-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-09/rw24891/rw24891-christmas-hat-duck-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-2026-09-09/rw24891/rw24891-christmas-hat-duck-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-2026-09-09/rw24891/rw24891-christmas-hat-duck-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/",
+      "productionPath": "/products/resin-charms-for-slime/rw24891-wholesale-christmas-hat-duck-resin-miniatures-for-slime-fairy-gardens-holiday-gift-crafts/"
+    },
+    {
+      "sku": "RW20175",
+      "title": "Wholesale Mixed Christmas Flatback Resin Charms for Slime, Scrapbooking and DIY Accessories",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-09-09/rw20175/rw20175-mixed-christmas-flatback-resin-charms-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-09-09/rw20175/rw20175-mixed-christmas-flatback-resin-charms-01.jpg",
+        "/assets/images/products/batch-2026-09-09/rw20175/rw20175-mixed-christmas-flatback-resin-charms-02.jpg",
+        "/assets/images/products/batch-2026-09-09/rw20175/rw20175-mixed-christmas-flatback-resin-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw20175-wholesale-mixed-christmas-flatback-resin-charms-for-slime-scrapbooking-diy-accessories/",
+      "productionPath": "/products/resin-charms-for-slime/rw20175-wholesale-mixed-christmas-flatback-resin-charms-for-slime-scrapbooking-diy-accessories/"
+    }
+  ],
+  "products": [
+    {
+      "sku": "RW2504-YX416",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw2504-yx416/mixed-dessert-clay-resin-craft-decorations-01.png",
+          "sha256": "33f45cf41b073d5d39f2f6c345a02f4c7c2a4ab975c2f069dfe63575e48ceb53",
+          "bytes": 826349
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw2504-yx416/mixed-dessert-clay-resin-craft-decorations-02.jpg",
+          "sha256": "9a84f517af933a571f04b56d364951420fd7918880cc6db7599bd8859cac69a1",
+          "bytes": 201800
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw2504-yx416/mixed-dessert-clay-resin-craft-decorations-03.jpg",
+          "sha256": "2c04041c52a59f0cfb86a1559ff29ce48dfd71ff44560d8200d7d7851ba57ac2",
+          "bytes": 131612
+        }
+      ]
+    },
+    {
+      "sku": "YX3803",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/yx3803/pink-black-halloween-polymer-clay-mix-01.png",
+          "sha256": "c83f6c9a224ace1667ec12a9f466f3f4a3125167c794b8881a298a62beb2231d",
+          "bytes": 655719
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/yx3803/pink-black-halloween-polymer-clay-mix-02.jpg",
+          "sha256": "d1faec3bb9457a86a452979eb1e81af453ddb16e73dccab3b8149b2192615ce9",
+          "bytes": 205555
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/yx3803/pink-black-halloween-polymer-clay-mix-03.jpg",
+          "sha256": "23914078d077dd0c1c36e416403076a5a17742ae0ed12769e9283812f62b1c5a",
+          "bytes": 131175
+        }
+      ]
+    },
+    {
+      "sku": "RW24224",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24224/luminous-swirl-lollipop-resin-flatback-charms-01.png",
+          "sha256": "18e39ba7e4e777eaafe5c7263afa172c797f81753a81ef286d55f11a554bcc9a",
+          "bytes": 474207
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24224/luminous-swirl-lollipop-resin-flatback-charms-02.jpg",
+          "sha256": "8ee064981b5539347dd91389435edfa10786e15d5e4a661b1251ff6ea72aa7f3",
+          "bytes": 126605
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24224/luminous-swirl-lollipop-resin-flatback-charms-03.jpg",
+          "sha256": "bd36a985864ed2a441baddced82f4831f6c12ed37999ce2ed91333c446341a19",
+          "bytes": 110064
+        }
+      ]
+    },
+    {
+      "sku": "RW21097",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw21097/lip-tongue-resin-craft-charm-mix-01.png",
+          "sha256": "c62720c72315e6d6ba9a37b1c1692bb2610de7751242b5cff481f843bd62a687",
+          "bytes": 632404
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw21097/lip-tongue-resin-craft-charm-mix-02.jpg",
+          "sha256": "564646f5eca757d908366bee812c2745aad1d4bf3acefe2c11afe33d40754dd0",
+          "bytes": 208839
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw21097/lip-tongue-resin-craft-charm-mix-03.jpg",
+          "sha256": "5d18400e24852177bfa46f5ae11ddfc0f65bea917d8235302ec917ea53977dd4",
+          "bytes": 115054
+        }
+      ]
+    },
+    {
+      "sku": "RW24359",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24359/iridescent-snowflake-resin-flatback-craft-charms-01.png",
+          "sha256": "072394b968f8c7d330325a32c80bc7776d6cd39afa483919c6e61a2b4803a182",
+          "bytes": 921575
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24359/iridescent-snowflake-resin-flatback-craft-charms-02.jpg",
+          "sha256": "8a3f699ceab37cf83be026f87d2879e9e0f6106d6ea373a7f74453b6019ea035",
+          "bytes": 167266
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24359/iridescent-snowflake-resin-flatback-craft-charms-03.jpg",
+          "sha256": "d27c03116c233c5847d519600b7c8768f24915a8c9971bc8fcbc6a7ce33b81b1",
+          "bytes": 130979
+        }
+      ]
+    },
+    {
+      "sku": "RW21743",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw21743/farm-themed-resin-flatback-craft-assortment-01.png",
+          "sha256": "da46907485e32b5c0721456b4e98bba04b2b1e56cb9847efe9dee0b49102a2b4",
+          "bytes": 586643
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw21743/farm-themed-resin-flatback-craft-assortment-02.jpg",
+          "sha256": "2cb55f8bab2cdfd4a509b9fc4efd248b0c04dc9ebb42c1755178401da2e08185",
+          "bytes": 203201
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw21743/farm-themed-resin-flatback-craft-assortment-03.jpg",
+          "sha256": "cba458c9387f91ee485f969d554889dc31966a255198c950e7e3502e5fe231c5",
+          "bytes": 98157
+        }
+      ]
+    },
+    {
+      "sku": "RW404",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw404/mini-coffee-bean-resin-slime-charms-01.png",
+          "sha256": "4153dc46286b9a88df1cfcc079c26ea988beb4a4534bcd38864ae4c034e9aa8e",
+          "bytes": 244356
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw404/mini-coffee-bean-resin-slime-charms-02.jpg",
+          "sha256": "80d87a65b7423f17b2dd683f6dd1d653e1b890ce31175bad4ae2313633b0de21",
+          "bytes": 152906
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw404/mini-coffee-bean-resin-slime-charms-03.jpg",
+          "sha256": "453ea612d8d742a2633578fc7d2e1423f04266d70cb8f8acbda8c117a8ac5b03",
+          "bytes": 116533
+        }
+      ]
+    },
+    {
+      "sku": "RW20946",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20946/luminous-mini-mushroom-resin-craft-figurines-01.png",
+          "sha256": "b861d9d80b85c2782759f8015be8048cfe418bd431bf3d746238f59d8ac106e2",
+          "bytes": 909166
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20946/luminous-mini-mushroom-resin-craft-figurines-02.jpg",
+          "sha256": "1ff3f960f514a0b34fd1fc1b27b78032d0ce7c0bca665ef52837e075d3c558db",
+          "bytes": 243530
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20946/luminous-mini-mushroom-resin-craft-figurines-03.jpg",
+          "sha256": "cdcedeb6bdb62104fdc4eb2d8f55495a326ee90a9ee5f772185b022e4049cf61",
+          "bytes": 70577
+        }
+      ]
+    },
+    {
+      "sku": "RW20423/RW22336/RW22338",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20423-rw22336-rw22338/mixed-mini-antler-black-hat-craft-decorations-01.jpg",
+          "sha256": "8412e230e0ec42646a56ac0b612e7381ab25dc14935dd5d11d9b5e999715b36f",
+          "bytes": 86637
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20423-rw22336-rw22338/mixed-mini-antler-black-hat-craft-decorations-02.jpg",
+          "sha256": "b302c791731a2d960f4b5dd6be2c573d5c160c99cba9bae826ef00e804c44197",
+          "bytes": 197258
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20423-rw22336-rw22338/mixed-mini-antler-black-hat-craft-decorations-03.jpg",
+          "sha256": "dd52ee64cb4c128fa5417d221bfb6ba1fe7536ea45d3d54c2de90369507ecdc8",
+          "bytes": 100409
+        }
+      ]
+    },
+    {
+      "sku": "RW25404",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw25404/luminous-honey-jar-resin-craft-charms-01.png",
+          "sha256": "3a7943fc8aeb69b46091b1693c8cdf61ae068f24a0583cdde8ec91156bbed977",
+          "bytes": 1012957
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw25404/luminous-honey-jar-resin-craft-charms-02.jpg",
+          "sha256": "7589dce6ef24de0b94d7dfcf6fb128a3e8d55759e6db712fd15ada7006820868",
+          "bytes": 137131
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw25404/luminous-honey-jar-resin-craft-charms-03.jpg",
+          "sha256": "51bc7b3bade16786b92b80ee03e23bec11079ff34d97daf9e5ba58468913b997",
+          "bytes": 96056
+        }
+      ]
+    },
+    {
+      "sku": "YX3906",
+      "operation": "new",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/yx3906/pastel-candy-heart-polymer-clay-slice-mix-01.png",
+          "sha256": "28f3422841b95a0410dd9f106009718f57200c44d5fe46b8471abb7d7300096c",
+          "bytes": 571983
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/yx3906/pastel-candy-heart-polymer-clay-slice-mix-02.jpg",
+          "sha256": "abf1281f5630a6ee2e680524557b478792efc6ff655590cd47bd70c2ecdb6338",
+          "bytes": 184923
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/yx3906/pastel-candy-heart-polymer-clay-slice-mix-03.jpg",
+          "sha256": "34034deb466e77628a5bb3d831ca4607d295daa47bdee1d2cb075d1b3c18f06d",
+          "bytes": 91714
+        }
+      ]
+    },
+    {
+      "sku": "RW24891",
+      "operation": "update",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24891/christmas-hat-duck-resin-miniature-charms-01.png",
+          "sha256": "7d75d8c596563482e7a03e728010257fd203970fb00dbf18383c63ed61f40762",
+          "bytes": 199414
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24891/christmas-hat-duck-resin-miniature-charms-02.jpg",
+          "sha256": "4afb39e131bceb32b9c34dcf41d6ba538902486755d204f6d38c46e72f164c0d",
+          "bytes": 159166
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw24891/christmas-hat-duck-resin-miniature-charms-03.jpg",
+          "sha256": "e6e5d001495c573424721b2e139710560ef1b06fba0e4538c18fc28a3279bc04",
+          "bytes": 86701
+        }
+      ]
+    },
+    {
+      "sku": "RW20175",
+      "operation": "update",
+      "outputs": [
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20175/mixed-christmas-resin-flatback-craft-charms-01.jpg",
+          "sha256": "407f4fa4042ed4ffc414456678f0597e879cd4888c48c5ca3b776483311d7309",
+          "bytes": 168392
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20175/mixed-christmas-resin-flatback-craft-charms-02.jpg",
+          "sha256": "8d32000031fef7c549914a988c953ff598051e5bbf781b7bb3ca229c2bb513f3",
+          "bytes": 247236
+        },
+        {
+          "path": "assets/images/products/batch-2026-10-13-v2/rw20175/mixed-christmas-resin-flatback-craft-charms-03.jpg",
+          "sha256": "6bad3d43fe935a2aa6fb0a078df434c17966045c4fcda87793aa122c1ad9cd77",
+          "bytes": 116938
+        }
+      ]
+    }
+  ],
+  "previousCatalogIdentitySha256": "53c694814ac5797d5747155a7394e3a3d77eb79aedc720ab400f574c863a823d"
+}

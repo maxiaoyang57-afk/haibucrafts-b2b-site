@@ -129,7 +129,7 @@ test('privacy has a canonical production route and sitemap follows the SEO map e
   const expected = seoMap.routes.filter((route) => route.index).map((route) => `${origin}${route.productionPath}`);
   assert.deepEqual(new Set(actual), new Set(expected));
   assert.equal(actual.length, new Set(actual).size);
-  assert.ok(!actual.some((url) => /request-quote|404|v2-preview|index\.html|\?/.test(url)));
+  assert.ok(!actual.some((url) => /\/(?:request-quote|404|v2-preview)(?:\/|\.html|$)|index\.html|\?/.test(url)));
 });
 
 test('release audit contains canonical, sitemap, legacy-link, landing-page and 404 gates', async () => {

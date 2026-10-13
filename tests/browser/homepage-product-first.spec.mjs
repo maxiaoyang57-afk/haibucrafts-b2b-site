@@ -88,3 +88,85 @@ test('desktop homepage keeps actions above consent and reports one safe event pe
   await page.evaluate(() => { document.activeElement?.blur(); window.scrollTo({ top: 0, behavior: 'instant' }); });
   await page.screenshot({ path: testInfo.outputPath('homepage-desktop-full.png'), fullPage: true });
 });
+
+test('buying steps stay compact and document and shortlist inquiries survive back navigation', async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== 'phone-390', 'One bounded mobile/desktop run for both homepage routes');
+  const errors = [];
+  const submissions = [];
+  page.on('pageerror', (error) => errors.push(error.message));
+  await page.route('**/api/inquiry', async (route) => {
+    submissions.push(route.request().method());
+    await route.abort();
+  });
+
+  for (const homePath of ['/', '/v2-preview/']) {
+    const quotePath = homePath === '/' ? '/request-quote/' : '/v2-preview/quote/';
+    for (const width of [360, 1180]) {
+      await page.setViewportSize({ width, height: 844 });
+      await page.goto(homePath);
+      const decline = page.locator('[data-analytics-decline]');
+      if (await decline.isVisible()) await decline.click();
+      const buying = page.locator('#buying');
+      const cards = buying.locator('.buying-path');
+      await expect(cards).toHaveCount(3);
+      for (const card of await cards.all()) await expect(card).not.toHaveText(/^\s*0[123]\s*[/.:–-]/);
+      const steps = buying.locator('ol.procurement-steps');
+      await expect(steps.locator('li')).toHaveCount(3);
+      await expect(steps.locator('li strong')).toHaveText([
+        'Choose products', 'Confirm order details', 'Discuss quote & samples'
+      ]);
+      await steps.scrollIntoViewIfNeeded();
+      const geometry = await steps.evaluate((list) => ({
+        list: list.getBoundingClientRect().toJSON(),
+        cards: document.querySelector('#buying .buying-path-grid').getBoundingClientRect().toJSON(),
+        items: [...list.children].map((item) => item.getBoundingClientRect().toJSON())
+      }));
+      expect(geometry.list.top).toBeGreaterThanOrEqual(geometry.cards.bottom);
+      expect(geometry.list.height).toBeLessThan(width < 680 ? 260 : 140);
+      for (const item of geometry.items) {
+        expect(item.left).toBeGreaterThanOrEqual(0);
+        expect(item.right).toBeLessThanOrEqual(width + 1);
+      }
+      if (width < 680) {
+        expect(geometry.items[1].top).toBeGreaterThanOrEqual(geometry.items[0].bottom);
+        expect(geometry.items[2].top).toBeGreaterThanOrEqual(geometry.items[1].bottom);
+      } else {
+        expect(Math.abs(geometry.items[2].top - geometry.items[0].top)).toBeLessThan(2);
+      }
+      await noOverflow(page);
+      if (homePath === '/') await page.locator('.procurement-guide').screenshot({ path: testInfo.outputPath(`buying-steps-${width}.png`) });
+
+      const final = page.locator('.home-final');
+      if (homePath === '/') await final.screenshot({ path: testInfo.outputPath(`homepage-final-${width}.png`) });
+      await expect(final.getByRole('link', { name: 'Keep Browsing' })).toHaveAttribute('href', `${homePath}products/`);
+      await expect(final.locator('.home-contact-note a[href^="https://wa.me/"]')).toHaveAttribute('href', /^https:\/\/wa\.me\/8618632026595(?:\?|$)/);
+      await expect(final.locator('.home-contact-note a[href^="mailto:"]')).toHaveAttribute('href', /^mailto:sales@haibucrafts\.com(?:\?|$)/);
+
+      for (const { container, source, context, title } of [
+        { container: '.document-evidence', source: 'homepage-documents', context: 'supplier', title: 'Product documentation' },
+        { container: '.home-final', source: 'homepage-shortlist', context: 'category', title: 'Tailored product selection' }
+      ]) {
+        const link = page.locator(`${container} a[href*="source=${source}"]`);
+        await expect(link).toHaveCount(1);
+        if (source === 'homepage-shortlist') await expect(link).toHaveAccessibleName(/Request a Shortlist/);
+        await link.click();
+        await expect(page).toHaveURL((url) => url.pathname === quotePath
+          && url.searchParams.get('source') === source
+          && url.searchParams.get('landing_page') === homePath
+          && url.searchParams.get('entry_context') === context
+          && url.searchParams.get('entry_title') === title);
+        await expect(page.locator('textarea[name="message"]')).toBeVisible();
+        await expect(page.locator('input[name="entry_context"]')).toHaveValue(context);
+        await expect(page.locator('input[name="entry_title"]')).toHaveValue(title);
+        await noOverflow(page);
+        await page.goBack();
+        await expect(page).toHaveURL((url) => url.pathname === homePath && !url.search);
+        await expect(link).toBeVisible();
+        await expect(steps.locator('li')).toHaveCount(3);
+        await noOverflow(page);
+      }
+    }
+  }
+  expect(errors).toEqual([]);
+  expect(submissions).toEqual([]);
+});

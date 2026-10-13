@@ -27,6 +27,7 @@ test('homepage first-screen choices, catalog links and cookie controls work on p
     expect(await image.evaluate((img) => getComputedStyle(img).objectFit)).toBe('contain');
     await noOverflow(page);
   }
+  await page.evaluate(() => { document.activeElement?.blur(); window.scrollTo({ top: 0, behavior: 'instant' }); });
   await page.screenshot({ path: testInfo.outputPath('homepage-phone-full.png'), fullPage: true });
   const product = page.locator('.home-product-card').first();
   const href = await product.getAttribute('href');
@@ -55,6 +56,7 @@ test('desktop homepage keeps actions above consent and reports one safe event pe
   expect(cta.y + cta.height).toBeLessThan(banner.y);
   expect((await page.locator('h1').boundingBox()).height).toBeLessThan(230);
   expect((await page.locator('#categories').boundingBox()).y).toBeLessThan(850);
+  console.log('Homepage desktop geometry', await page.evaluate(() => ({ heading: document.querySelector('h1').getBoundingClientRect().toJSON(), actions: document.querySelector('.hero .actions').getBoundingClientRect().toJSON(), categories: document.querySelector('#categories').getBoundingClientRect().toJSON(), consent: document.querySelector('.analytics-consent').getBoundingClientRect().toJSON() })));
   await page.screenshot({ path: testInfo.outputPath('homepage-desktop-first-screen.png') });
   await page.locator('[data-analytics-decline]').click();
   await page.evaluate(() => {
@@ -83,5 +85,6 @@ test('desktop homepage keeps actions above consent and reports one safe event pe
   expect(events).toHaveLength(3);
   expect(events[2].name).toBe('product_link_click');
   expect(events[2].properties.link_location).toBe('homepage_hero');
+  await page.evaluate(() => { document.activeElement?.blur(); window.scrollTo({ top: 0, behavior: 'instant' }); });
   await page.screenshot({ path: testInfo.outputPath('homepage-desktop-full.png'), fullPage: true });
 });

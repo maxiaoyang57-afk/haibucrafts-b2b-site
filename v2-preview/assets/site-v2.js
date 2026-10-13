@@ -116,6 +116,7 @@
 
   const menuButton = document.querySelector('.menu-btn');
   const nav = document.querySelector('.nav');
+  const mobileNavigation = window.matchMedia('(max-width: 1180px)');
   const closeMenu = ({ restoreFocus = false } = {}) => {
     if (!menuButton || !nav) return;
     const wasOpen = nav.classList.contains('open');
@@ -131,6 +132,7 @@
       const open = nav.classList.toggle('open');
       menuButton.setAttribute('aria-expanded', String(open));
       menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      if (open) nav.scrollTop = 0;
       if (!open) closeProducts();
     });
     nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
@@ -150,6 +152,7 @@
   if (productToggle && navGroup) {
     productToggle.addEventListener('click', (event) => {
       event.preventDefault();
+      if (mobileNavigation.matches) return; // Categories are always visible in the mobile menu.
       const open = navGroup.classList.toggle('dropdown-open');
       productToggle.setAttribute('aria-expanded', String(open));
       productToggle.setAttribute('aria-label', open ? 'Close product categories' : 'Open product categories');
@@ -161,9 +164,22 @@
 
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
-      if (navGroup?.classList.contains('dropdown-open')) closeProducts({ restoreFocus: true });
+      if (mobileNavigation.matches) closeMenu({ restoreFocus: true });
+      else if (navGroup?.classList.contains('dropdown-open')) closeProducts({ restoreFocus: true });
       else closeMenu({ restoreFocus: true });
     }
+  });
+
+  // Clear disclosure state at the CSS breakpoint and never leave focus on a hidden control.
+  mobileNavigation.addEventListener?.('change', () => {
+    const active = document.activeElement;
+    const focusInNav = nav?.contains(active);
+    const focusInCategories = navGroup?.querySelector('.nav-catalog-menu')?.contains(active);
+    closeProducts();
+    closeMenu();
+    if (mobileNavigation.matches && focusInNav) menuButton?.focus();
+    else if (!mobileNavigation.matches && focusInCategories) productToggle?.focus();
+    else if (!mobileNavigation.matches && active === menuButton) nav?.querySelector('.nav-home-link')?.focus();
   });
 
   const backTop = document.querySelector('.back-top');

@@ -27,10 +27,26 @@ for (const file of ['v2-preview/assets/components.js', 'assets/v2/components.js'
   });
 }
 
-test('visual navigation keeps popup visibility tied to its toggle and respects reduced motion', async () => {
-  const css = await readFile('v2-preview/assets/brand-v2.css', 'utf8');
-  assert.match(css, /\.nav \.nav-group \.nav-catalog-menu \{\s+display: none/);
-  assert.match(css, /\.nav \.nav-group\.dropdown-open \.nav-catalog-menu \{\s+display: grid/);
-  assert.match(css, /max-height: calc\(100dvh - 120px\)/);
-  assert.match(css, /@media \(prefers-reduced-motion: reduce\)[\s\S]*\.products-toggle svg/);
-});
+for (const base of ['v2-preview/assets', 'assets/v2']) {
+  test(`${base} shows categories directly on mobile and keeps the desktop disclosure`, async () => {
+    const css = await readFile(`${base}/brand-v2.css`, 'utf8');
+    assert.match(css, /\.nav \.nav-group \.nav-catalog-menu \{\s+display: none/);
+    assert.match(css, /\.nav \.nav-group\.dropdown-open \.nav-catalog-menu \{\s+display: grid/);
+    const mobile = [...css.matchAll(/@media \(max-width: 1180px\) \{([\s\S]*?)\n\}/g)]
+      .map((match) => match[1]).join('\n');
+    assert.match(mobile, /\.nav \.products-toggle \{\s+display: none/);
+    assert.match(mobile, /\.nav \.nav-group \.nav-catalog-menu \{\s+display: grid/);
+    assert.match(mobile, /max-height: calc\(100dvh - 120px\)/);
+    assert.match(mobile, /overflow: auto/);
+    assert.match(css, /@media \(prefers-reduced-motion: reduce\)[\s\S]*\.products-toggle svg/);
+  });
+
+  test(`${base} resets mobile scroll and dismisses the whole menu with one Escape`, async () => {
+    const runtime = await readFile(`${base}/site-v2.js`, 'utf8');
+    assert.match(runtime, /window\.matchMedia\('\(max-width: 1180px\)'\)/);
+    assert.match(runtime, /if \(open\) nav\.scrollTop = 0/);
+    assert.match(runtime, /if \(mobileNavigation\.matches\) return/);
+    assert.match(runtime, /if \(event\.key === 'Escape'\) \{\s+if \(mobileNavigation\.matches\) closeMenu\(\{ restoreFocus: true \}\);\s+else if \(navGroup\?\.classList\.contains\('dropdown-open'\)\) closeProducts\(\{ restoreFocus: true \}\)/);
+    assert.match(runtime, /mobileNavigation\.addEventListener\?\.\('change'/);
+  });
+}

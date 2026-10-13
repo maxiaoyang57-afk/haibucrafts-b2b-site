@@ -460,6 +460,7 @@
   }
 
   .nav .products-toggle {
+    display: none;
     border-color: #ddd3ed;
     border-radius: 11px;
     background: #f0eaf9;
@@ -479,6 +480,7 @@
   }
 
   .nav .nav-group .nav-catalog-menu {
+    display: grid;
     position: static;
     width: 100%;
     padding: 14px 0 0;

@@ -25,13 +25,15 @@ async function openMenu(page) {
   await expect(menuButton(page)).toHaveAttribute('aria-expanded', 'true');
   await expect(menuButton(page)).toHaveAccessibleName('Close menu');
   await expect(nav(page)).toBeVisible();
-}
-
-async function openProducts(page) {
-  await expect(productsButton(page)).toHaveAttribute('aria-expanded', 'false');
-  await productsButton(page).tap();
-  await expect(productsButton(page)).toHaveAttribute('aria-expanded', 'true');
+  await expect(productsButton(page)).toBeHidden();
   await expect(submenu(page)).toBeVisible();
+  await expect.poll(() => nav(page).evaluate((element) => element.scrollTop)).toBe(0);
+  const cards = submenu(page).locator('a.nav-category-card');
+  await expect(cards).toHaveCount(4);
+  for (const card of await cards.all()) {
+    await expect(card).toBeVisible();
+    await expect(card).toBeInViewport();
+  }
 }
 
 async function expectNoHorizontalOverflow(page) {
@@ -90,8 +92,6 @@ test('visual mobile menu has four real product thumbnails and comfortable target
   await expect(nav(page)).toBeHidden();
   await openMenu(page);
   await expect(productsButton(page)).toHaveAttribute('aria-controls', 'product-category-navigation');
-  await expect(submenu(page)).toBeHidden();
-  await expectTouchTarget(productsButton(page));
   await expect(nav(page).locator('.nav-home-link')).toHaveAttribute('href', '/');
   await expect(nav(page).locator('.nav-product-row > a')).toHaveAttribute('href', '/products/');
   expect(await nav(page).locator('.nav-secondary-links > a').evaluateAll((links) =>
@@ -106,52 +106,49 @@ test('visual mobile menu has four real product thumbnails and comfortable target
     await expect(link.locator('.nav-icon')).toHaveAttribute('aria-hidden', 'true');
   }
 
-  await openProducts(page);
   await expect(submenu(page).locator('.nav-catalog-intro')).toBeVisible();
   await expect(submenu(page).locator('.nav-catalog-intro')).toHaveText(/\S/);
   await expectProductCards(page);
-  for (const target of await nav(page).locator('a, button').all()) {
+  for (const target of await nav(page).locator('a:visible, button:visible').all()) {
     await expectTouchTarget(target);
   }
   await expectNoHorizontalOverflow(page);
+  await expect(nav(page)).toHaveCSS('overflow-y', 'auto');
+  await nav(page).evaluate((element) => { element.scrollTop = element.scrollHeight; });
+  await expect.poll(() => nav(page).evaluate((element) => element.scrollTop)).toBeGreaterThan(0);
+  await expect(nav(page).locator(':scope > .quote-btn')).toBeInViewport();
   await nav(page).evaluate((element) => { element.scrollTop = 0; });
+  await expect(nav(page).locator('.nav-home-link')).toBeInViewport();
   await page.screenshot({ path: testInfo.outputPath('visual-navigation-mobile-expanded.png') });
 });
 
-test('mobile menu closes in layers, restores focus and survives repeated toggles', async ({ page }) => {
+test('mobile menu closes with one Escape and reopens with all four categories', async ({ page }) => {
   await visitHome(page);
   await openMenu(page);
-  await openProducts(page);
   await submenu(page).locator('.nav-category-card').last().focus();
   await page.keyboard.press('Escape');
   await expect(submenu(page)).toBeHidden();
   await expect(productsButton(page)).toHaveAttribute('aria-expanded', 'false');
-  await expect(productsButton(page)).toBeFocused();
-  await expect(menuButton(page)).toHaveAttribute('aria-expanded', 'true');
-  await expect(nav(page)).toBeVisible();
-  await page.keyboard.press('Escape');
   await expect(nav(page)).toBeHidden();
   await expect(menuButton(page)).toHaveAttribute('aria-expanded', 'false');
+  await expect(menuButton(page)).toHaveAccessibleName('Open menu');
   await expect(menuButton(page)).toBeFocused();
 
   for (let cycle = 0; cycle < 3; cycle += 1) {
     await openMenu(page);
-    await expect(submenu(page)).toBeHidden();
-    await openProducts(page);
-    await productsButton(page).tap();
-    await expect(productsButton(page)).toHaveAttribute('aria-expanded', 'false');
-    await expect(submenu(page)).toBeHidden();
-    await openProducts(page);
+    await nav(page).evaluate((element) => { element.scrollTop = element.scrollHeight; });
+    await expect.poll(() => nav(page).evaluate((element) => element.scrollTop)).toBeGreaterThan(0);
     await menuButton(page).tap();
     await expect(nav(page)).toBeHidden();
+    await expect(submenu(page)).toBeHidden();
     await expect(menuButton(page)).toHaveAttribute('aria-expanded', 'false');
     await expect(productsButton(page)).toHaveAttribute('aria-expanded', 'false');
     await expectNoHorizontalOverflow(page);
   }
 
   await openMenu(page);
-  await expect(submenu(page)).toBeHidden();
   await page.keyboard.press('Escape');
+  await expect(nav(page)).toBeHidden();
   await expect(menuButton(page)).toBeFocused();
 });
 
@@ -159,7 +156,6 @@ test('mobile product category links, Back and submenu catalog CTA keep their rou
   await visitHome(page);
   for (const family of productFamilies) {
     await openMenu(page);
-    await openProducts(page);
     await submenu(page).locator(`.nav-category-card[href="${family.path}"]`).tap();
     await expect(page).toHaveURL((url) => url.pathname === family.path);
     await expect(page.locator('h1')).toBeVisible();
@@ -173,7 +169,6 @@ test('mobile product category links, Back and submenu catalog CTA keep their rou
   }
 
   await openMenu(page);
-  await openProducts(page);
   const catalogCta = submenu(page).locator('a.nav-catalog-all');
   await expect(catalogCta).toHaveCount(1);
   await expect(catalogCta).toHaveAttribute('href', '/products/');
@@ -186,12 +181,12 @@ test('mobile product category links, Back and submenu catalog CTA keep their rou
   await expect(page).toHaveURL((url) => url.pathname === '/');
   await expect(nav(page)).toBeHidden();
   await openMenu(page);
-  await expect(submenu(page)).toBeHidden();
   await page.keyboard.press('Escape');
+  await expect(nav(page)).toBeHidden();
   await expect(menuButton(page)).toBeFocused();
 });
 
-test('desktop product dropdown fits and Escape dismisses it while focused', async ({ page }, testInfo) => {
+test('desktop dropdown preserves dismissal and breakpoint changes keep focus visible', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'phone-390', 'One desktop run alongside the four phone widths');
   await page.setViewportSize({ width: 1440, height: 1000 });
   await visitHome(page);
@@ -229,4 +224,42 @@ test('desktop product dropdown fits and Escape dismisses it while focused', asyn
   await page.keyboard.press('Escape');
   await expect(submenu(page)).toBeHidden();
   await expect(productsButton(page)).toBeFocused();
+
+  // At the exact mobile boundary an open desktop disclosure is reset, and its
+  // focused card hands focus to the now-visible hamburger.
+  await productsButton(page).press('Enter');
+  await submenu(page).locator('.nav-category-card').last().focus();
+  await page.setViewportSize({ width: 1180, height: 1000 });
+  await expect(nav(page)).toBeHidden();
+  await expect(menuButton(page)).toHaveAttribute('aria-expanded', 'false');
+  await expect(productsButton(page)).toHaveAttribute('aria-expanded', 'false');
+  await expect(menuButton(page)).toBeVisible();
+  await expect(menuButton(page)).toBeFocused();
+  await openMenu(page);
+
+  // Mobile cards disappear when returning to the closed desktop dropdown.
+  await submenu(page).locator('.nav-category-card').first().focus();
+  await page.setViewportSize({ width: 1181, height: 1000 });
+  await expect(menuButton(page)).toBeHidden();
+  await expect(menuButton(page)).toHaveAttribute('aria-expanded', 'false');
+  await expect(nav(page)).toBeVisible();
+  await expect(submenu(page)).toBeHidden();
+  await expect(productsButton(page)).toHaveAttribute('aria-expanded', 'false');
+  await expect(productsButton(page)).toBeFocused();
+
+  // The desktop trigger also becomes hidden on phones; the closed mobile
+  // hamburger hands focus to Home when switching back to desktop.
+  await page.setViewportSize({ width: 390, height: 844 });
+  await expect(nav(page)).toBeHidden();
+  await expect(menuButton(page)).toBeFocused();
+  await openMenu(page);
+  await page.keyboard.press('Escape');
+  await expect(nav(page)).toBeHidden();
+  await expect(menuButton(page)).toBeFocused();
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await expect(menuButton(page)).toBeHidden();
+  await expect(nav(page)).toBeVisible();
+  await expect(submenu(page)).toBeHidden();
+  await expect(nav(page).locator('.nav-home-link')).toBeFocused();
+  await expectNoHorizontalOverflow(page);
 });

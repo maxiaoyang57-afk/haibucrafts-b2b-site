@@ -21,6 +21,25 @@
   };
   const tidy = (s, n = 180) => String(s || '').replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, n);
   const params = new URLSearchParams(location.search);
+  // Only recognized homepage entries can select visible guidance. URL text is never rendered.
+  const homepageIntents = {
+    'homepage-samples': {
+      title: 'Ask about samples',
+      prompt: 'Tell us which product codes or styles you would like to try, what you want to check, and the destination country. Sample availability, fees and shipping are confirmed for your request.',
+      placeholder: 'Which products would you like to sample? Share product codes or styles, what you want to check, and your destination if known.'
+    },
+    'homepage-shortlist': {
+      title: 'Request a tailored shortlist',
+      prompt: 'Share your category, theme or intended use so we can narrow the options to a short product selection. Colors, reference photos and an approximate quantity are helpful if you have them.',
+      placeholder: 'What do you make or sell? Tell us your category, theme, intended use and any preferred styles for a short product selection.'
+    },
+    'homepage-documents': {
+      title: 'Ask about product documentation',
+      prompt: 'Share the product code, intended use and sales market. We will check document availability for that item; reports apply only to their listed samples and scope.',
+      placeholder: 'Which product code, intended use and sales market do you need documents for? Mention any standard or report you need to review.'
+    }
+  };
+  const homepageIntent = Object.hasOwn(homepageIntents, params.get('source')) ? homepageIntents[params.get('source')] : null;
   const path = location.pathname;
   const isContactPage = /\/(?:request-quote\/|quote(?:\.html|\/)|contact(?:\.html|\/))$/.test(path);
   const pageTitle = tidy(params.get('entry_title') || (isContactPage ? 'craft supplies' : document.querySelector('h1')?.textContent) || config.brand);
@@ -143,6 +162,24 @@
       }
 
       const message = field('message');
+      if (isContactPage && homepageIntent && !form.querySelector('[data-inquiry-intent]')) {
+        const guidance = document.createElement('div');
+        guidance.className = 'inquiry-intent';
+        guidance.setAttribute('data-inquiry-intent', '');
+        const title = document.createElement('strong');
+        title.textContent = homepageIntent.title;
+        const prompt = document.createElement('p');
+        prompt.id = 'inquiry-intent-prompt';
+        prompt.textContent = homepageIntent.prompt;
+        guidance.appendChild(title);
+        guidance.appendChild(prompt);
+        form.prepend(guidance);
+        if (message) {
+          const descriptions = new Set((message.getAttribute('aria-describedby') || '').split(/\s+/).filter(Boolean));
+          descriptions.add(prompt.id);
+          message.setAttribute('aria-describedby', [...descriptions].join(' '));
+        }
+      }
       const quantity = field('quantity');
       const kind = Object.hasOwn(copy, params.get('entry_context')) ? params.get('entry_context') : infer(path, params.get('sku') || params.get('product_code'));
       const intro = panel.querySelector('[data-inquiry-intro]');
@@ -171,7 +208,7 @@
         const selected = goals[goal.value];
         const help = panel.querySelector('[data-inquiry-help]');
         if (help) help.textContent = selected ? selected[1] : 'Share what you know. Approximate quantities and early-stage ideas are welcome.';
-        if (message) message.placeholder = 'Tell us the size, colors or styles you need. Would you like pricing, samples, or help choosing?';
+        if (message) message.placeholder = homepageIntent?.placeholder || 'Tell us the size, colors or styles you need. Would you like pricing, samples, or help choosing?';
         const wantsWhatsApp = channel.value === 'WhatsApp';
         methods.querySelectorAll('[data-reply-method]').forEach(button => {
           button.setAttribute('aria-pressed', String(button.dataset.replyMethod === channel.value));

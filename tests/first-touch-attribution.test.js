@@ -114,6 +114,7 @@ test('quote runtime keeps acquisition source separate from the on-site inquiry c
   addField('sku', 'productField');
   addField('product', 'productNameField');
   addField('target_delivery_date', 'targetDeliveryDateField');
+  addField('packaging');
 
   const form = {
     dataset: {},
@@ -154,7 +155,7 @@ test('quote runtime keeps acquisition source separate from the on-site inquiry c
     },
     location: {
       pathname: '/request-quote/',
-      search: '?source=product-detail&category=polymer-clay-slices&product_code=YX3531&product=Crystal%20Accent%20Fantasy%20Candy%20Slices&landing_page=%2Fproducts%2Fpolymer-clay-slices-wholesale%2Fyx3531-crystal-accent-fantasy-candy-slices%2F'
+      search: '?source=product-detail&category=polymer-clay-slices&product_code=YX3531&product=Crystal%20Accent%20Fantasy%20Candy%20Slices&packaging=20%20g%2Fbag&landing_page=%2Fproducts%2Fpolymer-clay-slices-wholesale%2Fyx3531-crystal-accent-fantasy-candy-slices%2F'
     },
     addEventListener: (name, handler) => listeners.set(name, handler),
     setTimeout: (handler, delay) => timeouts.push({ handler, delay })
@@ -192,7 +193,21 @@ test('quote runtime keeps acquisition source separate from the on-site inquiry c
   );
   assert.equal(fields.get('sku').value, 'YX3531');
   assert.equal(fields.get('product').value, 'Crystal Accent Fantasy Candy Slices');
+  assert.equal(fields.get('packaging').value, '20 g/bag');
   assert.equal(fields.get('inquiry_page').value, '/request-quote/');
   assert.equal(form.dataset.attributionReady, 'true');
   assert.equal(timeouts[0].delay, 250);
+
+  // Browser-restored nonempty values must survive initialization retries even
+  // without a new input event. A buyer-cleared field must also stay empty.
+  fields.get('sku').value = 'YX3531, YX043';
+  fields.get('product').value = 'My selected candy assortment';
+  fields.get('packaging').value = '';
+  for (const refresh of [listeners.get('load'), listeners.get('pageshow'), timeouts[0].handler]) {
+    refresh();
+    assert.equal(fields.get('sku').value, 'YX3531, YX043');
+    assert.equal(fields.get('product').value, 'My selected candy assortment');
+    assert.equal(fields.get('packaging').value, '');
+    assert.equal(fields.get('attribution_source').value, 'google');
+  }
 });

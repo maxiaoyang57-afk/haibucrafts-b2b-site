@@ -134,8 +134,9 @@ for (const file of (await walk(assetsOut)).filter((item) => item.endsWith('.js')
   const source = await readFile(file, 'utf8');
   await writeFile(file, replacePaths(source), 'utf8');
 }
-await writeFile(path.join(assetsOut, 'quote-runtime-config.js'), `window.HAIBU_QUOTE_CONFIG = Object.freeze({
-  mode: 'live',
+await writeFile(path.join(assetsOut, 'quote-runtime-config.js'), `const IS_HAIBU_PRODUCTION_HOST = /^(www\\.)?haibucrafts\\.com$/i.test(window.location.hostname);
+window.HAIBU_QUOTE_CONFIG = Object.freeze({
+  mode: IS_HAIBU_PRODUCTION_HOST ? 'live' : 'validation-only',
   endpoint: '/api/inquiry',
   enableReferenceUploads: true,
   maxReferenceImages: 4

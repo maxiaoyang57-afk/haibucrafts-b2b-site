@@ -74,7 +74,8 @@ test('Production quote enables optimized image attachments and preserves submiss
   const config = await readFile(path.join(root, 'assets', 'v2', 'quote-runtime-config.js'), 'utf8');
   const styles = await readFile(path.join(root, 'assets', 'v2', 'quote-v2.css'), 'utf8');
 
-  assert.match(config, /mode: 'live'/);
+  assert.match(config, /IS_HAIBU_PRODUCTION_HOST/);
+  assert.match(config, /mode: IS_HAIBU_PRODUCTION_HOST \? 'live' : 'validation-only'/);
   assert.match(config, /enableReferenceUploads: true/);
   assert.match(quote, /type="file" name="reference_images"[^>]*multiple/);
   assert.match(quote, /id="referenceImagePreviews"/);

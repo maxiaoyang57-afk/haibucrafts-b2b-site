@@ -12,29 +12,33 @@ async function checkGuide(page, testInfo, screen) {
   page.on('pageerror', (error) => errors.push(error.message));
   await page.route('**/api/inquiry', () => { throw new Error('Read-only custom guide QA must not send inquiries'); });
   await page.goto(articlePath);
-  await expect(page.locator('h1')).toHaveText('Custom Resin & Polymer Clay: From Buyer Brief to Approved Production');
+  await expect(page.locator('h1')).toHaveText('Custom Resin and Polymer Clay: From Your Brief to Bulk Delivery');
   await dismissConsent(page);
   await noOverflow(page);
   await page.screenshot({ path: testInfo.outputPath(`custom-guide-${screen}-hero.png`) });
-  await expect(page.locator('.custom-process-map li')).toHaveCount(6);
+  const diagram = page.locator('.custom-order-flow img');
+  await expect.poll(() => diagram.evaluate((img) => img.complete && img.naturalWidth > 0)).toBe(true);
+  expect(await diagram.evaluate((img) => img.currentSrc)).toContain(screen === 'desktop' ? 'haibu-custom-order-flow.svg' : 'haibu-custom-order-flow-mobile.svg');
+  await page.locator('.custom-order-flow').screenshot({ path: testInfo.outputPath(`custom-guide-${screen}-flowchart.png`) });
   await page.locator('.custom-process-overview').scrollIntoViewIfNeeded();
   await page.screenshot({ path: testInfo.outputPath(`custom-guide-${screen}-process.png`) });
   for (const route of ['resin-route', 'polymer-route']) {
-    await page.locator(`.custom-material-lanes a[href="#${route}"]`).click();
+    await page.locator(`.custom-guide-nav a[href="#${route}"]`).click();
     await expect(page).toHaveURL(new RegExp(`#${route}$`));
     await expect(page.locator(`#${route} h2`)).toBeInViewport();
     await noOverflow(page);
     await page.screenshot({ path: testInfo.outputPath(`custom-guide-${screen}-${route}.png`) });
     await page.goBack();
   }
-  await expect(page.locator('.custom-stage-handoff')).toHaveCount(9);
+  await expect(page.locator('.custom-approval-note')).toHaveCount(3);
+  await expect(page.locator('.custom-stage-handoff')).toHaveCount(0);
   const hrefs = await page.locator('main a[href^="/"]').evaluateAll((links) => [...new Set(links.map((link) => link.getAttribute('href').split('?')[0].split('#')[0]))]);
   for (const href of hrefs) expect((await page.request.get(href)).status(), href).toBe(200);
   await page.locator('.blog-checklist-card .btn').click();
   await expect(page).toHaveURL(/\/request-quote\/\?source=blog/);
   await expect(page.locator('textarea[name="message"]')).toBeVisible();
   await page.goBack();
-  await expect(page.locator('h1')).toHaveText('Custom Resin & Polymer Clay: From Buyer Brief to Approved Production');
+  await expect(page.locator('h1')).toHaveText('Custom Resin and Polymer Clay: From Your Brief to Bulk Delivery');
   await page.goto('/custom-solutions/');
   await dismissConsent(page);
   await page.locator('#material-routes').scrollIntoViewIfNeeded();

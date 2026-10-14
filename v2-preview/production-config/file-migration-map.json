@@ -1226,6 +1226,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/blog/custom-resin-polymer-clay-development-process/index.html",
+      "destination": "blog/custom-resin-polymer-clay-development-process/index.html",
+      "action": "create",
+      "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/blog/how-to-prepare-a-wholesale-product-brief/index.html",
       "destination": "blog/how-to-prepare-a-wholesale-product-brief/index.html",
       "action": "create",

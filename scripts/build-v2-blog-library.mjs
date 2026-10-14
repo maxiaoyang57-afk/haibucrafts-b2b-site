@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import { customizationGuide } from './content/customization-guide.mjs';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -10,6 +11,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  customizationGuide,
   {
     slug: 'how-to-prepare-a-wholesale-product-brief',
     category: 'Buying Guide',
@@ -164,7 +166,7 @@ const articles = [
     ],
     checklist: ['Theme and use', 'Dimensions', 'Thickness', 'Color range', 'Mix ratio', 'Pack unit'],
     note: 'Exact material, dimensions, MOQ, lead time and testing scope must be confirmed against the selected product code and approved sample.',
-    links: [['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Solutions', '/v2-preview/custom-solutions/'], ['Product Brief Guide', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/']],
+    links: [['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Solutions', '/v2-preview/custom-solutions/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']],
     relatedCollection: {
       heading: 'Compare polymer clay sprinkle mixes by real SKU.',
       body: 'If your brief is specifically for sprinkle-style clay mixes rather than general slices, use the focused collection to compare candy, fruit and seasonal product codes before requesting a quote.',
@@ -191,7 +193,7 @@ const articles = [
     ],
     checklist: ['Resin charm SKU list', 'Reference images or links', 'Intended application', 'Mix ratio and pack unit', 'Packaging request', 'Destination and target date'],
     note: 'Product composition, dimensions, MOQ, lead time, packaging and documentation are confirmed for the selected product code, approved sample and destination market.',
-    links: [['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Prepare a Product Brief', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/']]
+    links: [['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']]
   },
   {
     slug: 'seasonal-craft-assortment-planning',
@@ -284,6 +286,10 @@ const escapeHtml = (value) => value
   .replaceAll('"', '&quot;')
   .replaceAll("'", '&#39;');
 
+const processOverview = `<section class="section custom-process-overview" aria-labelledby="process-overview-heading"><div class="container"><div class="section-head"><span class="eyebrow">Custom order process</span><h2 id="process-overview-heading">From the buying brief to a packed order.</h2><p>Resin and polymer clay take different development routes. Both need an approved physical sample before separate bulk terms are agreed.</p></div><figure class="custom-order-flow"><picture><source media="(max-width: 800px)" srcset="/v2-preview/assets/diagrams/haibu-custom-order-flow-mobile.svg"><img src="/v2-preview/assets/diagrams/haibu-custom-order-flow.svg" width="1240" height="440" alt="HAIBU custom order flow: buyer brief, specifications and development terms, separate resin or polymer clay preparation, physical sample and written approval, bulk terms and batch checks, then packing and delivery. Revise and resample when needed."></picture><figcaption>Process illustration. Steps and terms are confirmed for each project.</figcaption></figure><nav class="custom-guide-nav" aria-label="Read the material details"><a href="#resin-route">Resin development</a><a href="#polymer-route">Polymer clay development</a><a href="#sample-approval">Sample approval</a><a href="#packing">Packing requirements</a></nav></div></section>`;
+
+const renderSection = ([heading, body, detail], index) => `<section${detail ? ` id="${escapeHtml(detail.id)}"` : ''}><span>${String(index + 1).padStart(2, '0')}</span><div><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p>${detail?.paragraph ? `<p>${escapeHtml(detail.paragraph)}</p>` : ''}${detail?.note ? `<p class="custom-approval-note">${escapeHtml(detail.note)}</p>` : ''}</div></section>`;
+
 for (const article of articles) {
   const previewPath = `/v2-preview/blog/${article.slug}/`;
   const quoteHref = `/v2-preview/quote/?source=blog&amp;article=${article.slug}&amp;landing_page=${encodeURIComponent(previewPath)}`;
@@ -299,11 +305,11 @@ for (const article of articles) {
       name: 'HAIBUCRAFT Buyer Resources',
       url: 'https://www.haibucrafts.com/about/editorial-policy/'
     },
-    reviewedBy: {
+    ...(article.scopeReview === false ? {} : { reviewedBy: {
       '@type': 'Organization',
       name: 'HAIBUCRAFT Product & Quality Coordination',
       url: 'https://www.haibucrafts.com/about/editorial-policy/'
-    },
+    } }),
     publisher: {
       '@type': 'Organization',
       name: 'HAIBUCRAFT',
@@ -324,7 +330,7 @@ for (const article of articles) {
   <link rel="stylesheet" href="/v2-preview/assets/blog-library.css">
   <script type="application/ld+json">${structuredData}</script>
 </head>
-<body data-page="blog-article">
+<body data-page="blog-article"${article.processOverview ? ' class="custom-development-guide"' : ''}>
   <div data-site-header></div>
   <main>
     <section class="blog-article-hero">
@@ -335,16 +341,15 @@ for (const article of articles) {
         <p>${escapeHtml(article.dek)}</p>
         <div class="blog-article-meta blog-authorship">
           <span>By <a href="/v2-preview/about/editorial-policy/">HAIBUCRAFT Buyer Resources</a></span>
-          <span>Scope reviewed by <a href="/v2-preview/about/editorial-policy/#review">Product &amp; Quality Coordination</a></span>
-          <span>Last reviewed ${escapeHtml(article.lastReviewed || 'August 6, 2026')}</span>
+${article.scopeReview === false ? '' : '          <span>Scope reviewed by <a href="/v2-preview/about/editorial-policy/#review">Product &amp; Quality Coordination</a></span>\n'}          <span>${article.scopeReview === false ? 'Updated' : 'Last reviewed'} ${escapeHtml(article.lastReviewed || 'August 6, 2026')}</span>
         </div>
-        <p class="blog-review-note">Internal sourcing guidance based on catalog, sample, packaging, production and document-review workflows. Review scope is explained in the <a href="/v2-preview/about/editorial-policy/">editorial policy</a>.</p>
+        <p class="blog-review-note">${article.scopeReview === false ? 'Sourcing guidance for a project-specific discussion. Confirm the applicable steps and terms in writing with HAIBU. See our <a href="/v2-preview/about/editorial-policy/">editorial policy</a>.' : 'Internal sourcing guidance based on catalog, sample, packaging, production and document-review workflows. Review scope is explained in the <a href="/v2-preview/about/editorial-policy/">editorial policy</a>.'}</p>
       </div>
     </section>
-    <section class="section">
+${article.processOverview ? `    ${processOverview}\n` : ''}    <section class="section">
       <div class="container blog-article-layout">
         <article class="blog-article-body">
-          ${article.sections.map(([heading, body], index) => `<section><span>${String(index + 1).padStart(2, '0')}</span><div><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p></div></section>`).join('\n          ')}
+${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}          ${article.sections.map(renderSection).join('\n          ')}
           <div class="scope-note">${escapeHtml(article.note)}</div>
         </article>
         <aside class="blog-checklist-card">

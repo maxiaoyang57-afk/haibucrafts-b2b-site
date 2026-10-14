@@ -250,11 +250,12 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
 
 const polymerProfiles = {
   YX048: {
-    title: 'Pink Candy Polymer Clay Slices Wholesale YX048 | HAIBUCRAFT',
-    description: 'Source YX048 pink candy polymer clay slices for coordinated slime, shaker and DIY assortments. Mixed-SKU packing and custom requirements are reviewed by quote.',
-    heading: 'Pink candy slices for coordinated sweet-theme assortments.',
-    copy: 'YX048 combines a pink candy-led visual direction with small decorative pieces suited to buyers building pastel or dessert-theme assortments. It can be reviewed alongside other sweet polymer clay slices when a program needs several product codes in one shipment.',
-    applications: ['Pastel and candy-theme slime assortments', 'Shaker filler and DIY kit programs', 'Mixed-SKU wholesale bundles']
+    lastModified: '2026-10-14',
+    title: 'Pink Strawberry Polymer Clay Slices Wholesale YX048 | HAIBUCRAFT',
+    description: 'Source YX048 pink strawberry polymer clay slices for nail art, slime and DIY crafts. Ask about bulk packing and mixed-SKU wholesale orders.',
+    heading: 'Pink strawberry slices for fruit-themed craft assortments.',
+    copy: 'YX048 features pink strawberry-shaped polymer clay slices for buyers building fruit-themed nail-art, slime and DIY assortments. Reference this product code when requesting bulk packing or a mixed-SKU quotation.',
+    applications: ['Pink strawberry and fruit-theme slime assortments', 'Shaker filler and DIY kit programs', 'Mixed-SKU wholesale bundles']
   },
   YX043: {
     title: 'Candy Polymer Clay Slices Wholesale – YX043 | HAIBUCRAFT',

@@ -15,6 +15,11 @@ test('11 new products preserve all 151 earlier identities with only two approved
   assert.equal(catalog.count, 162);
   assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 162);
   const previous = catalog.products.filter((product) => !selected.has(product.sku)).map((product) => {
+    // Normalize the owner-approved 2026-10-14 title correction to this earlier batch baseline.
+    if (product.sku === 'YX048') {
+      assert.equal(product.title, 'Pink Strawberry Polymer Clay Slices');
+      return { ...product, title: 'Pink Candy & Ceramic Dish Mix' };
+    }
     const before = manifest.previousMedia.find((reference) => reference.sku === product.sku);
     if (!before) return product;
     const { image: oldImage, gallery: oldGallery, ...oldIdentity } = before;

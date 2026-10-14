@@ -18,7 +18,12 @@ test('eight additions preserve the previous 143 catalog identities and grouped b
   const previous = catalog.products.filter((item) => !selected.has(item.sku) && !laterSkus.has(item.sku))
     .map((item) => laterManifest.previousMedia.find((reference) => reference.sku === item.sku) || item);
   assert.equal(previous.length, 143);
-  const identity = previous.sort((a, b) => a.sku.localeCompare(b.sku));
+  // The owner corrected only YX048's title on 2026-10-14; preserve the original batch baseline.
+  const identity = previous.map((item) => {
+    if (item.sku !== 'YX048') return item;
+    assert.equal(item.title, 'Pink Strawberry Polymer Clay Slices');
+    return { ...item, title: 'Pink Candy & Ceramic Dish Mix' };
+  }).sort((a, b) => a.sku.localeCompare(b.sku));
   assert.equal(hash(JSON.stringify(identity)), manifest.previousCatalogIdentitySha256);
   const grouped = catalog.products.find((item) => item.sku === 'RW1672/RW2072/RW3492/RW20104');
   assert.ok(grouped);

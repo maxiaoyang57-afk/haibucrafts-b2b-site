@@ -18,11 +18,66 @@
   });
   const ANALYTICS_CONFIG = Object.freeze({
     measurementId: 'G-HJ0EL0PQWR',
-    consentKey: 'haibu_ga4_consent_v1'
+    consentKey: 'haibu_analytics_consent_v2'
   });
   const IS_LOCAL = /^(localhost|127\.0\.0\.1)$/.test(window.location.hostname);
   const IS_CANONICAL_ANALYTICS_HOST = /^(www\.)?haibucrafts\.com$/i.test(window.location.hostname);
   let googleAnalyticsReady = false;
+  // Clarity consent adapter: no SDK request before an explicit analytics choice.
+  function createClarityConsent(projectId, eligible) {
+    let loaded = false;
+    let stopped = false;
+    let allowed = false;
+    const events = new Set(['generate_lead', 'inquiry_submit_attempt', 'whatsapp_click', 'email_click', 'phone_click', 'quote_click', 'product_click']);
+    const privacySignal = () => window.navigator.globalPrivacyControl === true || window.navigator.doNotTrack === '1';
+    const maskForms = (root) => {
+      const selector = 'form, [contenteditable], [data-inquiry-summary], [data-upload-preview]';
+      if (root.matches && root.matches(selector)) root.setAttribute('data-clarity-mask', 'true');
+      if (root.querySelectorAll) root.querySelectorAll(selector).forEach((node) => node.setAttribute('data-clarity-mask', 'true'));
+    };
+    const update = (value) => {
+      allowed = value === 'granted' && eligible && !privacySignal();
+      if (!allowed) {
+        if (loaded && typeof window.clarity === 'function') {
+          window.clarity('consentv2', { analytics_Storage: 'denied', ad_Storage: 'denied' });
+          window.clarity('stop');
+          stopped = true;
+        }
+        return;
+      }
+      // A withdrawn recording stays stopped in this document. A fresh page can
+      // start a new consented session, without reloading an unfinished inquiry.
+      if (stopped) return;
+      if (!loaded) {
+        maskForms(document);
+        if (typeof MutationObserver === 'function') {
+          new MutationObserver((records) => records.forEach((record) => record.addedNodes.forEach(maskForms)))
+            .observe(document.documentElement, { childList: true, subtree: true });
+        }
+        window.clarity = window.clarity || function () {
+          (window.clarity.q = window.clarity.q || []).push(arguments);
+        };
+        window.clarity('consentv2', { analytics_Storage: 'granted', ad_Storage: 'denied' });
+        const script = document.createElement('script');
+        script.async = true;
+        script.dataset.sdk = 'clarity';
+        script.src = 'https://www.clarity.ms/tag/' + projectId;
+        document.head.appendChild(script);
+        loaded = true;
+      } else {
+        window.clarity('consentv2', { analytics_Storage: 'granted', ad_Storage: 'denied' });
+      }
+    };
+    return {
+      update,
+      event: (name) => {
+        if (allowed && loaded && !stopped && events.has(name)) window.clarity('event', name);
+      }
+    };
+  }
+  // End Clarity consent adapter.
+  const clarityConsent = createClarityConsent('yxduu55xlf', IS_CANONICAL_ANALYTICS_HOST && !window.location.pathname.startsWith('/v2-preview/'));
+
 
   const readAnalyticsConsent = () => {
     try {
@@ -76,6 +131,7 @@
   const updateAnalyticsConsent = (value) => {
     const previousConsent = readAnalyticsConsent();
     saveAnalyticsConsent(value);
+    clarityConsent.update(value);
     if (!googleAnalyticsReady) loadGoogleAnalytics();
     if (typeof window.gtag === 'function') {
       const analyticsGranted = value === 'granted';
@@ -90,8 +146,16 @@
   };
 
   loadGoogleAnalytics();
+  clarityConsent.update(readAnalyticsConsent());
+  window.addEventListener('storage', (event) => {
+    if (event.key === ANALYTICS_CONFIG.consentKey || event.key === null) {
+      clarityConsent.update(readAnalyticsConsent());
+      if (window.gtag) window.gtag('consent', 'update', analyticsConsentState(readAnalyticsConsent() === 'granted' ? 'granted' : 'denied'));
+    }
+  });
   window.HAIBU_CONTACT_CONFIG = CONTACT_CONFIG;
   window.HAIBU_TRACK = (name, properties = {}) => {
+    clarityConsent.event(name);
     if (typeof window.va === 'function') window.va('event', { name, data: properties });
     if (googleAnalyticsReady && typeof window.gtag === 'function') window.gtag('event', name, properties);
   };
@@ -225,7 +289,7 @@
   consentBanner.innerHTML = `
     <div class="analytics-consent-copy">
       <strong id="analytics-consent-title">Help us improve HAIBUCRAFT</strong>
-      <p id="analytics-consent-description">We use Google Analytics to understand how visitors use our website. Analytics cookies are used only if you accept. You can change your choice at any time. <a href="${ROOT}privacy/">Privacy policy</a></p>
+      <p id="analytics-consent-description">We use Google Analytics for website statistics and Microsoft Clarity for heatmaps and session replay. Analytics cookies are used only if you accept. Clarity also loads only after you accept, with inquiry form content masked. You can change your choice at any time. <a href="${ROOT}privacy/">Privacy policy</a></p>
     </div>
     <div class="analytics-consent-actions">
       <button class="btn btn-light" type="button" data-analytics-decline>Decline analytics cookies</button>

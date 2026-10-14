@@ -49,7 +49,7 @@ class Element {
 
 function fixture({ hostname = 'www.haibucrafts.com', pathname = '/', consent = null, storageBlocked = false } = {}) {
   const events = [];
-  const storage = new Map(consent === null ? [] : [['haibu_ga4_consent_v1', consent]]);
+  const storage = new Map(consent === null ? [] : [['haibu_analytics_consent_v2', consent]]);
   const body = new Element('body');
   body.dataset.page = 'site-v2-home';
   const head = new Element('head');
@@ -65,6 +65,9 @@ function fixture({ hostname = 'www.haibucrafts.com', pathname = '/', consent = n
     }
   };
   const window = {
+    navigator: {},
+    listeners: new Map(),
+    addEventListener(name, handler) { this.listeners.set(name, handler); },
     location: new URL(`https://${hostname}${pathname}?visitor=private@example.com#private-fragment`),
     va: (...args) => events.push(args),
     localStorage: {

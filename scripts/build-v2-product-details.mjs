@@ -287,7 +287,8 @@ for (const category of categories) {
     if (batchProduct && (batchProduct.title !== title || batchProduct.type !== type)) {
       throw new Error(`Issue #${batchRecord.issue} card data does not match the approved product record for ${sku}`);
     }
-    const detailSlug = batchProduct ? batchDetailSlug(batchProduct) : `${slugify(sku)}-${slugify(title)}`;
+    // Retain YX048's established URL after the owner-confirmed strawberry copy correction.
+    const detailSlug = sku === 'YX048' ? 'yx048-pink-candy-and-ceramic-dish-mix' : batchProduct ? batchDetailSlug(batchProduct) : `${slugify(sku)}-${slugify(title)}`;
     const previewPath = `/v2-preview/products/${category.slug}/${detailSlug}/`;
     const productionPath = `${category.productionBase}${detailSlug}/`;
     const gallery = batchProduct
@@ -311,8 +312,8 @@ for (const category of categories) {
       categoryLabel: category.label,
       categoryProductionBase: category.productionBase,
       uses: category.uses,
-      material: batchProduct ? (batchProduct.material || batchRecord.data.material) : category.material,
-      overview: batchProduct?.description || category.overview,
+      material: sku === 'YX048' ? 'Polymer clay' : batchProduct ? (batchProduct.material || batchRecord.data.material) : category.material,
+      overview: sku === 'YX048' ? 'Pink strawberry-shaped polymer clay slices for fruit-themed nail art, slime decorations and DIY crafts.' : batchProduct?.description || category.overview,
       customMetaTitle: batchProduct?.metaTitle || null,
       customMetaDescription: batchProduct?.metaDescription || null,
       gallery,

@@ -9,7 +9,7 @@ const mapping = {
   YX3531: 'YX048', YX097: 'YX3531', YX626: 'YX3400', YX778: 'YX097', YX3400: 'YX038', YX048: 'YX778'
 };
 const identities = {
-  YX3531: ['Pink Candy & Ceramic Dish Mix', '/assets/images/products/hc001-school-theme-polymer-clay-mix.webp'],
+  YX3531: ['Pink Strawberry Polymer Clay Slices', '/assets/images/products/hc001-school-theme-polymer-clay-mix.webp'],
   YX097: ['Crystal Accent Fantasy Candy Slices', '/assets/images/products/hc005-pastel-star-slices-mix.webp'],
   YX626: ['Gothic Candy Decor Mix', '/assets/images/products/hc006-halloween-candy-corn-mix.webp'],
   YX778: ['Rainbow Crumble Bowl Mix', '/assets/images/products/hc007-mini-knife-polymer-pieces.webp'],

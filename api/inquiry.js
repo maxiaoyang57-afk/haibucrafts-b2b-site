@@ -186,6 +186,12 @@ export default async function handler(req, res) {
     });
   }
 
+  const vercelEnvironment = clean(process.env.VERCEL_ENV, 40).toLowerCase();
+  if (vercelEnvironment && vercelEnvironment !== 'production') {
+    console.info('Inquiry delivery blocked outside production', { requestId, vercelEnvironment });
+    return json(res, 403, { ok: false, message: 'Inquiry delivery is disabled outside production' });
+  }
+
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) return json(res, 503, { ok: false, message: 'Email service is not configured' });
 

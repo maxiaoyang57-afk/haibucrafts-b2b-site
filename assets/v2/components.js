@@ -76,7 +76,7 @@
     };
   }
   // End Clarity consent adapter.
-  const clarityConsent = createClarityConsent('yxduu55xlf', IS_CANONICAL_ANALYTICS_HOST && !window.location.pathname.startsWith('/v2-preview/'));
+  const clarityConsent = createClarityConsent('yxduu55xlf', IS_CANONICAL_ANALYTICS_HOST && !/^\/v2-preview(?:\/|$)/.test(window.location.pathname));
 
 
   const readAnalyticsConsent = () => {

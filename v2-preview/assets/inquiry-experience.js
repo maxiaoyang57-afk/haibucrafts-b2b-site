@@ -68,19 +68,32 @@
     let target;
     try { target = new URL(link.href, location.href); } catch { return null; }
     const scope = link.closest('.product-card, .product-card-v2, [data-product-card], .pdp-cta, .product-detail, .detail-grid');
-    const productLink = scope?.querySelector('a[href*="sku="], a[href*="product_code="]');
-    const productParams = productLink ? new URL(productLink.href, location.href).searchParams : target.searchParams;
+    // Generic navigation links on a PDP inherit its own inquiry context, not a related card.
+    const pageProductLink = isProductPage
+      ? document.querySelector('.product-detail-copy a[href*="product_code="]') : null;
+    const productLink = scope?.querySelector('a[href*="sku="], a[href*="product_code="]') || (!scope ? pageProductLink : null);
+    const hasExplicitProduct = target.searchParams.has('product_code') || target.searchParams.has('sku');
+    const productParams = !hasExplicitProduct && productLink
+      ? new URL(productLink.href, location.href).searchParams : target.searchParams;
     const sku = tidy(productParams.get('sku') || productParams.get('product_code') || scope?.querySelector('[data-sku]')?.dataset.sku, 100);
     const kind = infer(path, sku);
-    return { target, sku, kind, title: tidy(productParams.get('product') || scope?.querySelector('h3')?.textContent || pageTitle) };
+    return { target, sku, kind, productParams, title: tidy(productParams.get('product') || scope?.querySelector('h3')?.textContent || pageTitle) };
   }
   function decorate(link) {
     if (!link || link.dataset.inquiryDirect || link.getAttribute('href')?.startsWith('#')) return;
     const ctx = contextFor(link);
     if (!ctx) return;
-    const { target, sku, kind, title } = ctx;
+    const { target, sku, kind, title, productParams } = ctx;
     const quoteLink = target.origin === location.origin && /\/(?:request-quote\/|quote(?:\.html|\/))$/.test(target.pathname);
     if (quoteLink) {
+      // The quote-list entry deliberately represents multiple products.
+      if (sku && !target.searchParams.has('quote_list')) {
+        for (const key of ['product_code', 'product', 'category', 'image']) {
+          if (!target.searchParams.has(key) && productParams.has(key)) {
+            target.searchParams.set(key, productParams.get(key));
+          }
+        }
+      }
       if (!target.searchParams.has('entry_context')) target.searchParams.set('entry_context', kind);
       if (!target.searchParams.has('entry_page')) target.searchParams.set('entry_page', canonicalPath);
       if (!target.searchParams.has('entry_title')) target.searchParams.set('entry_title', title);

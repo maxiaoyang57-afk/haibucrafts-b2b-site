@@ -117,10 +117,22 @@
   const menuButton = document.querySelector('.menu-btn');
   const nav = document.querySelector('.nav');
   const mobileNavigation = window.matchMedia('(max-width: 1180px)');
+  const fitMobileMenu = () => {
+    if (!nav?.classList.contains('open') || !mobileNavigation.matches) return;
+    const viewport = window.visualViewport;
+    const bottom = viewport ? viewport.height + viewport.offsetTop : window.innerHeight;
+    nav.style.setProperty('--mobile-nav-height', `${Math.max(0, bottom - nav.getBoundingClientRect().top)}px`);
+  };
+  window.addEventListener('resize', fitMobileMenu, { passive: true });
+  window.addEventListener('scroll', fitMobileMenu, { passive: true });
+  window.visualViewport?.addEventListener('resize', fitMobileMenu);
+  window.visualViewport?.addEventListener('scroll', fitMobileMenu);
   const closeMenu = ({ restoreFocus = false } = {}) => {
     if (!menuButton || !nav) return;
     const wasOpen = nav.classList.contains('open');
     nav.classList.remove('open');
+    document.body.classList.remove('mobile-navigation-open');
+    nav.style.removeProperty('--mobile-nav-height');
     menuButton.setAttribute('aria-expanded', 'false');
     menuButton.setAttribute('aria-label', 'Open menu');
     if (wasOpen) closeProducts();
@@ -132,7 +144,9 @@
       const open = nav.classList.toggle('open');
       menuButton.setAttribute('aria-expanded', String(open));
       menuButton.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
-      if (open) nav.scrollTop = 0;
+      document.body.classList.toggle('mobile-navigation-open', open);
+      if (open) { nav.scrollTop = 0; fitMobileMenu(); }
+      else nav.style.removeProperty('--mobile-nav-height');
       if (!open) closeProducts();
     });
     nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));

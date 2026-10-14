@@ -430,8 +430,8 @@
     gap: 12px;
     align-items: stretch;
     width: 100%;
-    max-height: calc(100vh - 120px);
-    max-height: calc(100dvh - 120px);
+    max-height: var(--mobile-nav-height, calc(100vh - 120px));
+    max-height: var(--mobile-nav-height, calc(100dvh - 120px));
     padding: 14px 16px calc(20px + env(safe-area-inset-bottom));
     background: linear-gradient(160deg, #fff 30%, #faf7fe 100%);
     border-top: 1px solid #f0eaf4;
@@ -611,5 +611,15 @@
   .products-toggle svg,
   .nav .nav-catalog-menu .nav-category-card {
     transition: none;
+  }
+}
+
+/* Keep navigation above secondary fixed actions while its menu is open. */
+@media (max-width: 1180px) {
+  body.mobile-navigation-open .category-mobile-quote,
+  body.mobile-navigation-open .whatsapp-float,
+  body.mobile-navigation-open .back-top {
+    visibility: hidden;
+    pointer-events: none;
   }
 }

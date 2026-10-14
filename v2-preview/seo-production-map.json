@@ -84,10 +84,10 @@
       "previewPath": "/v2-preview/custom-solutions/",
       "productionPath": "/custom-solutions/",
       "title": "OEM Craft Supplies & Private Label Packaging | HAIBUCRAFT",
-      "description": "Develop custom craft supply assortments, packaging and private-label programs across clay slices, resin charms, slime charms and sequins. Request project review.",
+      "description": "Review custom resin charms and polymer clay products, from design brief and material-specific sampling to written approval, bulk quality checks and private-label packing.",
       "type": "website",
       "index": true,
-      "lastModified": "2026-09-22"
+      "lastModified": "2026-10-14"
     },
     {
       "previewPath": "/v2-preview/manufacturing/",
@@ -1765,6 +1765,16 @@
       "lastModified": "2026-09-09",
       "index": true,
       "generatedProduct": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/custom-resin-polymer-clay-development-process/",
+      "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
+      "title": "Custom Resin & Polymer Clay Process | HAIBUCRAFT",
+      "description": "Plan custom resin charms and polymer clay products with a buyer-first workflow for design review, sampling, written approval, bulk QC and packaging.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-10-14",
+      "generatedBlog": true
     },
     {
       "previewPath": "/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/",

@@ -28,22 +28,24 @@ test('homepage identifies the HAIBUCRAFT website and organization', async () => 
 test('all buyer guides show matching author and scope-review information', async () => {
   const blogRoot = path.join(previewRoot, 'blog');
   const directories = (await readdir(blogRoot, { withFileTypes: true })).filter((entry) => entry.isDirectory());
-  assert.equal(directories.length, 14);
+  assert.equal(directories.length, 15);
 
   for (const directory of directories) {
     const html = await read(path.join('blog', directory.name, 'index.html'));
     const posting = structuredData(html).find((entry) => entry['@type'] === 'BlogPosting');
     assert.equal(posting?.author?.name, 'HAIBUCRAFT Buyer Resources');
     assert.equal(posting?.author?.url, 'https://www.haibucrafts.com/about/editorial-policy/');
-    assert.equal(posting?.reviewedBy?.name, 'HAIBUCRAFT Product & Quality Coordination');
+    assert.equal(posting?.reviewedBy?.name, directory.name === 'custom-resin-polymer-clay-development-process' ? undefined : 'HAIBUCRAFT Product & Quality Coordination');
     const isIssue50Seasonal = directory.name.includes('halloween-slime-charms-wholesale-buying-guide') || directory.name.includes('christmas-slime-charms-wholesale-buying-guide');
     const isResinGuide = directory.name === 'resin-charms-wholesale-buying-guide';
     const isPolymerGuide = directory.name === 'polymer-clay-slice-buying-guide';
+    const isCustomDevelopmentGuide = directory.name === 'custom-resin-polymer-clay-development-process';
     const isAmazonSellerGuide = directory.name === 'amazon-fba-craft-supplies-sourcing-checklist';
-    assert.equal(posting?.dateModified, isAmazonSellerGuide ? '2026-09-23' : isPolymerGuide ? '2026-10-02' : isResinGuide ? '2026-10-02' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
+    assert.equal(posting?.dateModified, isCustomDevelopmentGuide ? '2026-10-14' : isAmazonSellerGuide ? '2026-09-23' : isPolymerGuide ? '2026-10-02' : isResinGuide ? '2026-10-02' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
     assert.match(html, /By <a href="\/v2-preview\/about\/editorial-policy\/">HAIBUCRAFT Buyer Resources<\/a>/);
-    assert.match(html, /Scope reviewed by/);
-    assert.match(html, isAmazonSellerGuide ? /Last reviewed September 23, 2026/ : isPolymerGuide ? /Last reviewed October 2, 2026/ : isResinGuide ? /Last reviewed October 2, 2026/ : isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
+    if (isCustomDevelopmentGuide) assert.doesNotMatch(html, /Scope reviewed by/);
+    else assert.match(html, /Scope reviewed by/);
+    assert.match(html, isCustomDevelopmentGuide ? /Updated October 14, 2026/ : isAmazonSellerGuide ? /Last reviewed September 23, 2026/ : isPolymerGuide ? /Last reviewed October 2, 2026/ : isResinGuide ? /Last reviewed October 2, 2026/ : isIssue50Seasonal ? /Last reviewed September 9, 2026/ : /Last reviewed August 6, 2026/);
   }
 });
 

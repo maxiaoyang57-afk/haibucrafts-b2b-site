@@ -1,6 +1,7 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import { customizationGuide } from './content/customization-guide.mjs';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -10,6 +11,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  customizationGuide,
   {
     slug: 'how-to-prepare-a-wholesale-product-brief',
     category: 'Buying Guide',
@@ -164,7 +166,7 @@ const articles = [
     ],
     checklist: ['Theme and use', 'Dimensions', 'Thickness', 'Color range', 'Mix ratio', 'Pack unit'],
     note: 'Exact material, dimensions, MOQ, lead time and testing scope must be confirmed against the selected product code and approved sample.',
-    links: [['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Solutions', '/v2-preview/custom-solutions/'], ['Product Brief Guide', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/']],
+    links: [['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Solutions', '/v2-preview/custom-solutions/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']],
     relatedCollection: {
       heading: 'Compare polymer clay sprinkle mixes by real SKU.',
       body: 'If your brief is specifically for sprinkle-style clay mixes rather than general slices, use the focused collection to compare candy, fruit and seasonal product codes before requesting a quote.',
@@ -191,7 +193,7 @@ const articles = [
     ],
     checklist: ['Resin charm SKU list', 'Reference images or links', 'Intended application', 'Mix ratio and pack unit', 'Packaging request', 'Destination and target date'],
     note: 'Product composition, dimensions, MOQ, lead time, packaging and documentation are confirmed for the selected product code, approved sample and destination market.',
-    links: [['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Prepare a Product Brief', '/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/']]
+    links: [['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']]
   },
   {
     slug: 'seasonal-craft-assortment-planning',
@@ -284,6 +286,10 @@ const escapeHtml = (value) => value
   .replaceAll('"', '&quot;')
   .replaceAll("'", '&#39;');
 
+const processOverview = `<section class="section custom-process-overview" aria-labelledby="process-overview-heading"><div class="container"><div class="section-head"><span class="eyebrow">The project at a glance</span><h2 id="process-overview-heading">One buyer brief. Two material routes.</h2><p>Agree the next decision before moving the project forward.</p></div><ol class="custom-process-map"><li><a href="#buyer-brief"><b>01</b><strong>Buyer brief</strong><span>Use, design, market &amp; quantity</span></a></li><li><a href="#feasibility"><b>02</b><strong>Feasibility &amp; terms</strong><span>Scope, route &amp; development</span></a></li><li><a href="#physical-sample"><b>03</b><strong>Develop &amp; sample</strong><span>Material-specific preparation</span></a></li><li><a href="#sample-approval"><b>04</b><strong>Evaluate &amp; approve</strong><span>Feedback, revision &amp; written sign-off</span></a></li><li><a href="#bulk-quality"><b>05</b><strong>Bulk order &amp; QC</strong><span>Separate terms &amp; agreed checks</span></a></li><li><a href="#packing"><b>06</b><strong>Pack &amp; deliver</strong><span>Labels, cartons &amp; reorder record</span></a></li></ol><div class="custom-material-lanes"><a href="#resin-route"><span>Resin</span><strong>Shape → drawing / model when needed → tooling when needed → sample</strong></a><a href="#polymer-route"><span>Polymer clay</span><strong>Pattern + form + palette → project-specific preparation → sample</strong></a></div><p class="custom-process-caption">Process illustration for project planning. It does not show a factory, customer project or completed order. Actual steps depend on the agreed design and material.</p></div></section>`;
+
+const renderSection = ([heading, body, handoff], index) => `<section${handoff ? ` id="${escapeHtml(handoff.id)}"` : ''}><span>${String(index + 1).padStart(2, '0')}</span><div><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p>${handoff ? `<dl class="custom-stage-handoff">${[['Buyer input', handoff.input], ['HAIBU review', handoff.review], ['Stage output', handoff.output], ['Your decision', handoff.decision]].map(([label, text]) => `<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(text)}</dd></div>`).join('')}</dl>` : ''}</div></section>`;
+
 for (const article of articles) {
   const previewPath = `/v2-preview/blog/${article.slug}/`;
   const quoteHref = `/v2-preview/quote/?source=blog&amp;article=${article.slug}&amp;landing_page=${encodeURIComponent(previewPath)}`;
@@ -299,11 +305,11 @@ for (const article of articles) {
       name: 'HAIBUCRAFT Buyer Resources',
       url: 'https://www.haibucrafts.com/about/editorial-policy/'
     },
-    reviewedBy: {
+    ...(article.scopeReview === false ? {} : { reviewedBy: {
       '@type': 'Organization',
       name: 'HAIBUCRAFT Product & Quality Coordination',
       url: 'https://www.haibucrafts.com/about/editorial-policy/'
-    },
+    } }),
     publisher: {
       '@type': 'Organization',
       name: 'HAIBUCRAFT',
@@ -324,7 +330,7 @@ for (const article of articles) {
   <link rel="stylesheet" href="/v2-preview/assets/blog-library.css">
   <script type="application/ld+json">${structuredData}</script>
 </head>
-<body data-page="blog-article">
+<body data-page="blog-article"${article.processOverview ? ' class="custom-development-guide"' : ''}>
   <div data-site-header></div>
   <main>
     <section class="blog-article-hero">
@@ -335,16 +341,15 @@ for (const article of articles) {
         <p>${escapeHtml(article.dek)}</p>
         <div class="blog-article-meta blog-authorship">
           <span>By <a href="/v2-preview/about/editorial-policy/">HAIBUCRAFT Buyer Resources</a></span>
-          <span>Scope reviewed by <a href="/v2-preview/about/editorial-policy/#review">Product &amp; Quality Coordination</a></span>
-          <span>Last reviewed ${escapeHtml(article.lastReviewed || 'August 6, 2026')}</span>
+${article.scopeReview === false ? '' : '          <span>Scope reviewed by <a href="/v2-preview/about/editorial-policy/#review">Product &amp; Quality Coordination</a></span>\n'}          <span>${article.scopeReview === false ? 'Updated' : 'Last reviewed'} ${escapeHtml(article.lastReviewed || 'August 6, 2026')}</span>
         </div>
-        <p class="blog-review-note">Internal sourcing guidance based on catalog, sample, packaging, production and document-review workflows. Review scope is explained in the <a href="/v2-preview/about/editorial-policy/">editorial policy</a>.</p>
+        <p class="blog-review-note">${article.scopeReview === false ? 'Sourcing guidance for a project-specific discussion. Confirm the applicable steps and terms in writing with HAIBU. See our <a href="/v2-preview/about/editorial-policy/">editorial policy</a>.' : 'Internal sourcing guidance based on catalog, sample, packaging, production and document-review workflows. Review scope is explained in the <a href="/v2-preview/about/editorial-policy/">editorial policy</a>.'}</p>
       </div>
     </section>
-    <section class="section">
+${article.processOverview ? `    ${processOverview}\n` : ''}    <section class="section">
       <div class="container blog-article-layout">
         <article class="blog-article-body">
-          ${article.sections.map(([heading, body], index) => `<section><span>${String(index + 1).padStart(2, '0')}</span><div><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p></div></section>`).join('\n          ')}
+${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}          ${article.sections.map(renderSection).join('\n          ')}
           <div class="scope-note">${escapeHtml(article.note)}</div>
         </article>
         <aside class="blog-checklist-card">

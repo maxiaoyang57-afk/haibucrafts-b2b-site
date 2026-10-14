@@ -49,7 +49,7 @@ for (const base of ['v2-preview/assets', 'assets/v2']) {
       .map((match) => match[1]).join('\n');
     assert.match(mobile, /\.nav \.products-toggle \{\s+display: none/);
     assert.match(mobile, /\.nav \.nav-group \.nav-catalog-menu \{\s+display: grid/);
-    assert.match(mobile, /max-height: calc\(100dvh - 120px\)/);
+    assert.match(mobile, /max-height: var\(--mobile-nav-height, calc\(100dvh - 120px\)\)/);
     assert.match(mobile, /overflow: auto/);
     assert.match(css, /@media \(prefers-reduced-motion: reduce\)[\s\S]*\.products-toggle svg/);
   });
@@ -57,7 +57,7 @@ for (const base of ['v2-preview/assets', 'assets/v2']) {
   test(`${base} resets mobile scroll and dismisses the whole menu with one Escape`, async () => {
     const runtime = await readFile(`${base}/site-v2.js`, 'utf8');
     assert.match(runtime, /window\.matchMedia\('\(max-width: 1180px\)'\)/);
-    assert.match(runtime, /if \(open\) nav\.scrollTop = 0/);
+    assert.match(runtime, /if \(open\) \{\s*nav\.scrollTop = 0;\s*fitMobileMenu\(\)/);
     assert.match(runtime, /if \(mobileNavigation\.matches\) return/);
     assert.match(runtime, /if \(event\.key === 'Escape'\) \{\s+if \(mobileNavigation\.matches\) closeMenu\(\{ restoreFocus: true \}\);\s+else if \(navGroup\?\.classList\.contains\('dropdown-open'\)\) closeProducts\(\{ restoreFocus: true \}\)/);
     assert.match(runtime, /mobileNavigation\.addEventListener\?\.\('change'/);

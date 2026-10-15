@@ -32,7 +32,7 @@ test('Issue #27 provides touch targets, sticky offsets and mobile safe-area sepa
   assert.match(brand, /\[data-site-header\] \{[\s\S]*?display: contents/);
   assert.match(category, /\.filter-chip \{[\s\S]*?min-height: 44px/);
   assert.match(category, /bottom: calc\(12px \+ env\(safe-area-inset-bottom\)\)/);
-  assert.match(category, /has-category-mobile-quote \.whatsapp-float[\s\S]*?bottom: calc\(96px/);
+  assert.match(category, /has-category-mobile-quote \.whatsapp-float[\s\S]*?bottom: calc\(220px/);
   assert.match(category, /has-category-mobile-quote \.back-top[\s\S]*?bottom: calc\(160px/);
 });
 

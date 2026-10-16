@@ -1,7 +1,22 @@
 {
   "generatedAt": "2026-10-16",
-  "count": 167,
+  "count": 178,
   "products": [
+    {
+      "sku": "YX118",
+      "title": "Pastel Twisted Polymer Clay Craft Decorations",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "DIY",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/yx118/pastel-twisted-polymer-clay-decorations-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/yx118/pastel-twisted-polymer-clay-decorations-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/yx118/pastel-twisted-polymer-clay-decorations-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/yx118/pastel-twisted-polymer-clay-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx118-pastel-twisted-polymer-clay-craft-decorations/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx118-pastel-twisted-polymer-clay-craft-decorations/"
+    },
     {
       "sku": "YX720",
       "title": "Shell Polymer Clay Sprinkle Mix in Bulk",
@@ -487,6 +502,21 @@
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx4057-wholesale-christmas-glitter-polymer-clay-slice-mix-for-resin-slime-shaker-crafts/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx4057-wholesale-christmas-glitter-polymer-clay-slice-mix-for-resin-slime-shaker-crafts/"
+    },
+    {
+      "sku": "SLM-RX488",
+      "title": "Strawberry Cherry Clay Slime Filler Mix",
+      "category": "slime-charms",
+      "categoryLabel": "Slime Charms",
+      "type": "DIY",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/slm-rx488/strawberry-cherry-clay-slime-filler-mix-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/slm-rx488/strawberry-cherry-clay-slime-filler-mix-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/slm-rx488/strawberry-cherry-clay-slime-filler-mix-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/slm-rx488/strawberry-cherry-clay-slime-filler-mix-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/slime-charms/slm-rx488-strawberry-cherry-clay-slime-filler-mix/",
+      "productionPath": "/products/slime-charms-wholesale/slm-rx488-strawberry-cherry-clay-slime-filler-mix/"
     },
     {
       "sku": "SLM10094",
@@ -1081,6 +1111,141 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/",
       "productionPath": "/products/resin-charms-for-slime/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/"
+    },
+    {
+      "sku": "RW25208",
+      "title": "Rhinestone Bow Resin Flatback Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "DIY",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw25208/rhinestone-bow-resin-flatback-cabochons-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw25208/rhinestone-bow-resin-flatback-cabochons-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw25208/rhinestone-bow-resin-flatback-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw25208/rhinestone-bow-resin-flatback-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25208-rhinestone-bow-resin-flatback-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25208-rhinestone-bow-resin-flatback-cabochons/"
+    },
+    {
+      "sku": "RW26829",
+      "title": "Leopard Print Resin Bow Craft Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "DIY",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw26829/leopard-print-resin-bow-cabochons-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw26829/leopard-print-resin-bow-cabochons-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw26829/leopard-print-resin-bow-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw26829/leopard-print-resin-bow-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26829-leopard-print-resin-bow-craft-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26829-leopard-print-resin-bow-craft-cabochons/"
+    },
+    {
+      "sku": "RW23629",
+      "title": "Pastel Flower Bouquet Resin Flatbacks",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "DIY",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw23629/pastel-flower-bouquet-resin-flatbacks-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw23629/pastel-flower-bouquet-resin-flatbacks-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw23629/pastel-flower-bouquet-resin-flatbacks-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw23629/pastel-flower-bouquet-resin-flatbacks-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23629-pastel-flower-bouquet-resin-flatbacks/",
+      "productionPath": "/products/resin-charms-for-slime/rw23629-pastel-flower-bouquet-resin-flatbacks/"
+    },
+    {
+      "sku": "RW3465",
+      "title": "Swirl Candy Resin Flatback Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw3465/swirl-candy-resin-flatback-cabochons-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw3465/swirl-candy-resin-flatback-cabochons-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw3465/swirl-candy-resin-flatback-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw3465/swirl-candy-resin-flatback-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw3465-swirl-candy-resin-flatback-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw3465-swirl-candy-resin-flatback-cabochons/"
+    },
+    {
+      "sku": "RW26668",
+      "title": "Miniature Floral Book Resin Craft Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "DIY",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw26668/miniature-floral-book-resin-charms-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw26668/miniature-floral-book-resin-charms-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw26668/miniature-floral-book-resin-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw26668/miniature-floral-book-resin-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26668-miniature-floral-book-resin-craft-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw26668-miniature-floral-book-resin-craft-charms/"
+    },
+    {
+      "sku": "RW22581",
+      "title": "Mini Pig Nose Resin Craft Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Animal",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw22581/mini-pig-nose-resin-craft-decorations-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw22581/mini-pig-nose-resin-craft-decorations-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw22581/mini-pig-nose-resin-craft-decorations-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw22581/mini-pig-nose-resin-craft-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw22581-mini-pig-nose-resin-craft-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw22581-mini-pig-nose-resin-craft-decorations/"
+    },
+    {
+      "sku": "RW22135",
+      "title": "Colorful Cartoon Eye Resin Flatback Mix",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw22135/colorful-cartoon-eye-resin-flatbacks-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw22135/colorful-cartoon-eye-resin-flatbacks-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw22135/colorful-cartoon-eye-resin-flatbacks-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw22135/colorful-cartoon-eye-resin-flatbacks-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw22135-colorful-cartoon-eye-resin-flatback-mix/",
+      "productionPath": "/products/resin-charms-for-slime/rw22135-colorful-cartoon-eye-resin-flatback-mix/"
+    },
+    {
+      "sku": "RW3895-RW3857",
+      "title": "Mixed Mini Christmas Tree Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw3895-rw3857/mixed-mini-christmas-tree-resin-figurines-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw3895-rw3857/mixed-mini-christmas-tree-resin-figurines-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw3895-rw3857/mixed-mini-christmas-tree-resin-figurines-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw3895-rw3857/mixed-mini-christmas-tree-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw3895-rw3857-mixed-mini-christmas-tree-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw3895-rw3857-mixed-mini-christmas-tree-resin-figurines/"
+    },
+    {
+      "sku": "RW23379",
+      "title": "Mixed Mini Duck Resin Craft Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Animal",
+      "image": "/assets/images/products/batch-2026-10-16-supplement/rw23379/mixed-mini-duck-resin-craft-figurines-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16-supplement/rw23379/mixed-mini-duck-resin-craft-figurines-01.png",
+        "/assets/images/products/batch-2026-10-16-supplement/rw23379/mixed-mini-duck-resin-craft-figurines-02.jpg",
+        "/assets/images/products/batch-2026-10-16-supplement/rw23379/mixed-mini-duck-resin-craft-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23379-mixed-mini-duck-resin-craft-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw23379-mixed-mini-duck-resin-craft-figurines/"
     },
     {
       "sku": "RW1917",

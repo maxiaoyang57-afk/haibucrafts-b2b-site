@@ -5,6 +5,8 @@ import test from 'node:test';
 
 const batch = JSON.parse(await readFile('scripts/data/haibu-new-products-20261013.json', 'utf8'));
 const manifest = JSON.parse(await readFile('docs/tasks/haibu-new-products-20261013-manifest.json', 'utf8'));
+const supplement = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-supplement.json', 'utf8'));
+const supplementSkus = new Set(supplement.products.map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 const selected = new Set(batch.products.map((item) => item.sku));
 const laterBatch = JSON.parse(await readFile('scripts/data/haibu-new-products-20261013-v2.json', 'utf8'));
@@ -15,8 +17,8 @@ const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 
 test('eight additions preserve the previous 143 catalog identities and grouped bear code', () => {
   assert.equal(selected.size, 8);
-  assert.equal(catalog.count, 167);
-  const previous = catalog.products.filter((item) => !selected.has(item.sku) && !laterSkus.has(item.sku))
+  assert.equal(catalog.count, 178);
+  const previous = catalog.products.filter((item) => !selected.has(item.sku) && !laterSkus.has(item.sku) && !supplementSkus.has(item.sku))
     .map((item) => laterManifest.previousMedia.find((reference) => reference.sku === item.sku) || item);
   assert.equal(previous.length, 143);
   // The owner corrected only YX048's title on 2026-10-14; preserve the original batch baseline.

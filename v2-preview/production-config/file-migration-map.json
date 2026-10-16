@@ -92,6 +92,13 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx118-pastel-twisted-polymer-clay-craft-decorations/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx118-pastel-twisted-polymer-clay-craft-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx118-pastel-twisted-polymer-clay-craft-decorations/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx720-shell-polymer-clay-sprinkle-mix-in-bulk/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx720-shell-polymer-clay-sprinkle-mix-in-bulk/index.html",
       "action": "create",
@@ -327,6 +334,13 @@
       "destination": "products/polymer-clay-slices-wholesale/yx4057-wholesale-christmas-glitter-polymer-clay-slice-mix-for-resin-slime-shaker-crafts/index.html",
       "action": "create",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx4057-wholesale-christmas-glitter-polymer-clay-slice-mix-for-resin-slime-shaker-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm-rx488-strawberry-cherry-clay-slime-filler-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm-rx488-strawberry-cherry-clay-slime-filler-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm-rx488-strawberry-cherry-clay-slime-filler-mix/",
       "generatedProduct": true
     },
     {
@@ -607,6 +621,69 @@
       "destination": "products/resin-charms-for-slime/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25208-rhinestone-bow-resin-flatback-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25208-rhinestone-bow-resin-flatback-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25208-rhinestone-bow-resin-flatback-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26829-leopard-print-resin-bow-craft-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26829-leopard-print-resin-bow-craft-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26829-leopard-print-resin-bow-craft-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23629-pastel-flower-bouquet-resin-flatbacks/index.html",
+      "destination": "products/resin-charms-for-slime/rw23629-pastel-flower-bouquet-resin-flatbacks/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23629-pastel-flower-bouquet-resin-flatbacks/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3465-swirl-candy-resin-flatback-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw3465-swirl-candy-resin-flatback-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3465-swirl-candy-resin-flatback-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26668-miniature-floral-book-resin-craft-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26668-miniature-floral-book-resin-craft-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26668-miniature-floral-book-resin-craft-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22581-mini-pig-nose-resin-craft-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw22581-mini-pig-nose-resin-craft-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22581-mini-pig-nose-resin-craft-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22135-colorful-cartoon-eye-resin-flatback-mix/index.html",
+      "destination": "products/resin-charms-for-slime/rw22135-colorful-cartoon-eye-resin-flatback-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22135-colorful-cartoon-eye-resin-flatback-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3895-rw3857-mixed-mini-christmas-tree-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw3895-rw3857-mixed-mini-christmas-tree-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3895-rw3857-mixed-mini-christmas-tree-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23379-mixed-mini-duck-resin-craft-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw23379-mixed-mini-duck-resin-craft-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23379-mixed-mini-duck-resin-craft-figurines/",
       "generatedProduct": true
     },
     {

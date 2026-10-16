@@ -1,0 +1,975 @@
+{
+  "batch": "haibu-new-products-20261016-evening",
+  "expectedSkuCount": 11,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-16-evening",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-16",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW003270",
+      "title": "Miniature Open Book Resin Cabochons",
+      "originalTitle": "Dollhouse Miniature Baking Book Resin Charms, Simulated Bakery Book Model, DIY Butter Glue Scene Handcraft Ornament",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Open Book Resin Cabochons, product code RW003270",
+      "description": "Open-book resin decorations, 28 × 21 mm, in mixed designs. 100 pieces per bag for phone cases, scrapbooks and miniature scenes.",
+      "detailedDescription": "Open-book resin decorations, 28 × 21 mm, in mixed designs. 100 pieces per bag for phone cases, scrapbooks and miniature scenes. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Miniature Open Book Resin Cabochons",
+        "Material: resin",
+        "Dimensions: 28 × 21 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW003270",
+        "Material: resin",
+        "Dimensions: 28 × 21 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "28 × 21 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "miniature open book resin cabochons, wholesale resin craft components",
+      "metaTitle": "Miniature Open Book Resin Cabochons | HAIBUCRAFT",
+      "metaDescription": "Open-book resin decorations, 28 × 21 mm, in mixed designs. 100 pieces per bag for phone cases, scrapbooks and miniature scenes.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW003270 ",
+        "标题": "Dollhouse Miniature Baking Book Resin Charms, Simulated Bakery Book Model, DIY Butter Glue Scene Handcraft Ornament",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "28*21mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 88,
+      "assetKey": "rw003270",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "miniature-open-book-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 739,
+          "height": 691
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW26818",
+      "title": "Christmas Cottage Resin Miniatures",
+      "originalTitle": "Simulation Play Toys Christmas House Colors Miniature for Micro Landscape DIY Fairy Garden Dollhouse Decor Accessories",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Christmas Cottage Resin Miniatures, product code RW26818",
+      "description": "Christmas cottage resin miniatures, 22 × 19 × 19 mm, with no hole. Mixed designs, 100 pieces per bag; confirm assortment and MOQ.",
+      "detailedDescription": "Christmas cottage resin miniatures, 22 × 19 × 19 mm, with no hole. Mixed designs, 100 pieces per bag; confirm assortment and MOQ. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Christmas Cottage Resin Miniatures",
+        "Material: resin",
+        "Dimensions: 22 × 19 × 19 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26818",
+        "Material: resin",
+        "Dimensions: 22 × 19 × 19 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "22 × 19 × 19 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "christmas cottage resin miniatures, wholesale resin craft components",
+      "metaTitle": "Christmas Cottage Resin Miniatures | HAIBUCRAFT",
+      "metaDescription": "Christmas cottage resin miniatures, 22 × 19 × 19 mm, with no hole. Mixed designs, 100 pieces per bag; confirm assortment and MOQ.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26818 ",
+        "标题": "Simulation Play Toys Christmas House Colors Miniature for Micro Landscape DIY Fairy Garden Dollhouse Decor Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "22*19*19mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 90,
+      "assetKey": "rw26818",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "christmas-cottage-resin-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 725,
+          "height": 652
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW26828",
+      "title": "Pastel Cherry Resin Flatback Charms",
+      "originalTitle": "Kawaii Cute Cherry Series 3D Cute Nail Art Decorations Macaron Nails Charms Designs DIY Resin Nail Accessories",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Cherry Resin Flatback Charms, product code RW26828",
+      "description": "Pastel cherry resin decorations, approximately 11 × 12 mm, without a hole. 100 pieces per bag for glue-on craft and accessory projects.",
+      "detailedDescription": "Pastel cherry resin decorations, approximately 11 × 12 mm, without a hole. 100 pieces per bag for glue-on craft and accessory projects. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Pastel Cherry Resin Flatback Charms",
+        "Material: resin",
+        "Dimensions: about 11 × 12 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26828",
+        "Material: resin",
+        "Dimensions: about 11 × 12 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation",
+        "Size note: Source reference only; confirm individual design dimensions before ordering"
+      ],
+      "material": "resin",
+      "dimensions": "about 11 × 12 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "pastel cherry resin flatback charms, wholesale resin craft components",
+      "metaTitle": "Pastel Cherry Resin Flatback Charms | HAIBUCRAFT",
+      "metaDescription": "Pastel cherry resin decorations, approximately 11 × 12 mm, without a hole. 100 pieces per bag for glue-on craft and accessory projects.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26828",
+        "标题": "Kawaii Cute Cherry Series 3D Cute Nail Art Decorations Macaron Nails Charms Designs DIY Resin Nail Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 11*12mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 91,
+      "assetKey": "rw26828",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "pastel-cherry-resin-flatback-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 740,
+          "height": 707
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW26820",
+      "title": "Pastel Ghost Resin Miniatures",
+      "originalTitle": "Luminous Ghost Figures Glowing at Night Mini Action Figure Micro Landscape Miniatures, for Halloween Decoration",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Ghost Resin Miniatures, product code RW26820",
+      "description": "Pastel ghost resin miniatures, approximately 15 × 19 mm, with no hole. 100 pieces per bag; confirm glow effect with the selected sample.",
+      "detailedDescription": "Pastel ghost resin miniatures, approximately 15 × 19 mm, with no hole. 100 pieces per bag; confirm glow effect with the selected sample. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Pastel Ghost Resin Miniatures",
+        "Material: resin",
+        "Dimensions: about 15 × 19 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26820",
+        "Material: resin",
+        "Dimensions: about 15 × 19 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation",
+        "Glow effect: Supplier-described luminous finish; confirm effect and performance with a sample"
+      ],
+      "material": "resin",
+      "dimensions": "about 15 × 19 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "pastel ghost resin miniatures, wholesale resin craft components",
+      "metaTitle": "Pastel Ghost Resin Miniatures | HAIBUCRAFT",
+      "metaDescription": "Pastel ghost resin miniatures, approximately 15 × 19 mm, with no hole. 100 pieces per bag; confirm glow effect with the selected sample.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26820 ",
+        "标题": "Luminous Ghost Figures Glowing at Night Mini Action Figure Micro Landscape Miniatures, for Halloween Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 15*19mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 92,
+      "assetKey": "rw26820",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "pastel-ghost-resin-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 718,
+          "height": 718
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW26821",
+      "title": "Miniature Steak Board Resin Decorations",
+      "originalTitle": "Dollhouse Miniature Food Play Scene Decoration Mini Wooden Chopping Board Steak Vegetable Platter Doll Accessories",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Steak Board Resin Decorations, product code RW26821",
+      "description": "Miniature steak-board resin decorations, 17 × 30 mm, without a hole. Mixed designs, 100 pieces per bag for dollhouse and display crafts.",
+      "detailedDescription": "Miniature steak-board resin decorations, 17 × 30 mm, without a hole. Mixed designs, 100 pieces per bag for dollhouse and display crafts. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Miniature Steak Board Resin Decorations",
+        "Material: resin",
+        "Dimensions: 17 × 30 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No separate stringing hole specified; the board-shaped handle includes a decorative opening. Confirm mounting method."
+      ],
+      "specificationLines": [
+        "Product code: RW26821",
+        "Material: resin",
+        "Dimensions: 17 × 30 mm",
+        "Hole: No separate stringing hole specified; the board-shaped handle includes a decorative opening. Confirm mounting method.",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "17 × 30 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "miniature steak board resin decorations, wholesale resin craft components",
+      "metaTitle": "Miniature Steak Board Resin Decorations | HAIBUCRAFT",
+      "metaDescription": "Miniature steak-board resin decorations, 17 × 30 mm, without a hole. Mixed designs, 100 pieces per bag for dollhouse and display crafts.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26821",
+        "标题": "Dollhouse Miniature Food Play Scene Decoration Mini Wooden Chopping Board Steak Vegetable Platter Doll Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "17*30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 93,
+      "assetKey": "rw26821",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "miniature-steak-board-resin-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 746,
+          "height": 674
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No separate stringing hole specified; the board-shaped handle includes a decorative opening. Confirm mounting method."
+    },
+    {
+      "sku": "RW26824",
+      "title": "Mini Pig and Boar Resin Figurines",
+      "originalTitle": "Simulated Wild Boar Figurines Office Desktop Decoration Cute Miniature Pig Ornament Fairy Garden Desk DIY Scene Decor",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Pig and Boar Resin Figurines, product code RW26824",
+      "description": "Mini pig and boar resin figurines, approximately 14 × 16 × 17 mm, without a hole. Mixed colors, 100 pieces per bag for miniature crafts.",
+      "detailedDescription": "Mini pig and boar resin figurines, approximately 14 × 16 × 17 mm, without a hole. Mixed colors, 100 pieces per bag for miniature crafts. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Mini Pig and Boar Resin Figurines",
+        "Material: resin",
+        "Dimensions: about 14 × 16 × 17 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26824",
+        "Material: resin",
+        "Dimensions: about 14 × 16 × 17 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "about 14 × 16 × 17 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini pig and boar resin figurines, wholesale resin craft components",
+      "metaTitle": "Mini Pig and Boar Resin Figurines | HAIBUCRAFT",
+      "metaDescription": "Mini pig and boar resin figurines, approximately 14 × 16 × 17 mm, without a hole. Mixed colors, 100 pieces per bag for miniature crafts.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26824 ",
+        "标题": "Simulated Wild Boar Figurines Office Desktop Decoration Cute Miniature Pig Ornament Fairy Garden Desk DIY Scene Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 14*16*17mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 94,
+      "assetKey": "rw26824",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "mini-pig-and-boar-resin-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 734,
+          "height": 681
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW26825",
+      "title": "Ocean Theme Resin Decorative Charms",
+      "originalTitle": "Colorful Ocean Resin Beads Cute Turtle Starfish Shell Designs for Handmade DIY Jewelry Bracelet Making Craft",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Ocean Theme Resin Decorative Charms, product code RW26825",
+      "description": "Ocean-themed resin decorations, approximately 25 mm, in mixed designs. 100 pieces per bag; confirm each design and attachment method.",
+      "detailedDescription": "Ocean-themed resin decorations, approximately 25 mm, in mixed designs. 100 pieces per bag; confirm each design and attachment method. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Ocean Theme Resin Decorative Charms",
+        "Material: resin",
+        "Dimensions: about 25 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26825",
+        "Material: resin",
+        "Dimensions: about 25 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation",
+        "Attachment: Source says no hole. Confirm the fitting, loop or flatback configuration for each selected design."
+      ],
+      "material": "resin",
+      "dimensions": "about 25 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "ocean theme resin decorative charms, wholesale resin craft components",
+      "metaTitle": "Ocean Theme Resin Decorative Charms | HAIBUCRAFT",
+      "metaDescription": "Ocean-themed resin decorations, approximately 25 mm, in mixed designs. 100 pieces per bag; confirm each design and attachment method.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26825 ",
+        "标题": "Colorful Ocean Resin Beads Cute Turtle Starfish Shell Designs for Handmade DIY Jewelry Bracelet Making Craft",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 95,
+      "assetKey": "rw26825",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "ocean-theme-resin-decorative-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 739,
+          "height": 686
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW26823",
+      "title": "Colorful Totem Resin Miniatures",
+      "originalTitle": "Hawaiian Style Totem Ornaments Beach Landscaping DIY Decorations Cartoon Mini Ornaments DIY Decorative Accessories",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Colorful Totem Resin Miniatures, product code RW26823",
+      "description": "Colorful totem resin miniatures, 25 × 34 mm, without a hole. 100 pieces per bag for miniature scenes, souvenir and decorative craft projects.",
+      "detailedDescription": "Colorful totem resin miniatures, 25 × 34 mm, without a hole. 100 pieces per bag for miniature scenes, souvenir and decorative craft projects. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Colorful Totem Resin Miniatures",
+        "Material: resin",
+        "Dimensions: 25 × 34 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26823",
+        "Material: resin",
+        "Dimensions: 25 × 34 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "25 × 34 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "colorful totem resin miniatures, wholesale resin craft components",
+      "metaTitle": "Colorful Totem Resin Miniatures | HAIBUCRAFT",
+      "metaDescription": "Colorful totem resin miniatures, 25 × 34 mm, without a hole. 100 pieces per bag for miniature scenes, souvenir and decorative craft projects.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26823 ",
+        "标题": "Hawaiian Style Totem Ornaments Beach Landscaping DIY Decorations Cartoon Mini Ornaments DIY Decorative Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "25*34mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 96,
+      "assetKey": "rw26823",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "colorful-totem-resin-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 677,
+          "height": 696
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW26827",
+      "title": "Speckled Bird Egg Resin Miniatures",
+      "originalTitle": "100 Pastoral Simulated Speckled Bird Egg Resin Figurine Imitation Egg DIY Accessory Farm Micro Landscape Ornament",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Speckled Bird Egg Resin Miniatures, product code RW26827",
+      "description": "Speckled bird-egg resin miniatures, approximately 20 × 15 mm, without a hole. 100 pieces per bag for nest displays and miniature craft scenes.",
+      "detailedDescription": "Speckled bird-egg resin miniatures, approximately 20 × 15 mm, without a hole. 100 pieces per bag for nest displays and miniature craft scenes. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Speckled Bird Egg Resin Miniatures",
+        "Material: resin",
+        "Dimensions: about 20 × 15 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26827",
+        "Material: resin",
+        "Dimensions: about 20 × 15 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "about 20 × 15 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "speckled bird egg resin miniatures, wholesale resin craft components",
+      "metaTitle": "Speckled Bird Egg Resin Miniatures | HAIBUCRAFT",
+      "metaDescription": "Speckled bird-egg resin miniatures, approximately 20 × 15 mm, without a hole. 100 pieces per bag for nest displays and miniature craft scenes.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26827 ",
+        "标题": "100 Pastoral Simulated Speckled Bird Egg Resin Figurine Imitation Egg DIY Accessory Farm Micro Landscape Ornament",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 20*15mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 97,
+      "assetKey": "rw26827",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "speckled-bird-egg-resin-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 731,
+          "height": 687
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW26826",
+      "title": "Orange Pumpkin Resin Flatback Charms",
+      "originalTitle": "Halloween Pumpkin Figurines Mini Resin Pumpkin Flatback Cabochons Miniatures for DIY Terrarium Micro Landscape Decor",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Orange Pumpkin Resin Flatback Charms, product code RW26826",
+      "description": "Orange pumpkin resin flatbacks, approximately 15 × 17 mm, without a hole. 100 pieces per bag for seasonal glue-on decorative crafts.",
+      "detailedDescription": "Orange pumpkin resin flatbacks, approximately 15 × 17 mm, without a hole. 100 pieces per bag for seasonal glue-on decorative crafts. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Orange Pumpkin Resin Flatback Charms",
+        "Material: resin",
+        "Dimensions: about15 × 17 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26826",
+        "Material: resin",
+        "Dimensions: about15 × 17 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "about15 × 17 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "orange pumpkin resin flatback charms, wholesale resin craft components",
+      "metaTitle": "Orange Pumpkin Resin Flatback Charms | HAIBUCRAFT",
+      "metaDescription": "Orange pumpkin resin flatbacks, approximately 15 × 17 mm, without a hole. 100 pieces per bag for seasonal glue-on decorative crafts.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26826",
+        "标题": "Halloween Pumpkin Figurines Mini Resin Pumpkin Flatback Cabochons Miniatures for DIY Terrarium Micro Landscape Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about15*17mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 98,
+      "assetKey": "rw26826",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "orange-pumpkin-resin-flatback-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 763,
+          "height": 726
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled studio illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited supplier reference. Images 2–3: reference-based styling illustrations. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    },
+    {
+      "sku": "RW337/285",
+      "title": "Mixed Mini Pizza Resin Decorations",
+      "originalTitle": "Cute Simulation Miniature Doll House Cake Pizza Mini Bread Food for Micro Landscape Decoration Doll Kitchen Toy Accessories",
+      "type": "DIY",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mixed Mini Pizza Resin Decorations, product code RW337/285",
+      "description": "Mixed whole-pizza and pizza-slice resin decorations: RW337 and RW285 have separate listed sizes. 100 pieces per bag; confirm selected mix.",
+      "detailedDescription": "Mixed whole-pizza and pizza-slice resin decorations: RW337 and RW285 have separate listed sizes. 100 pieces per bag; confirm selected mix. Send HAIBU your product codes, selected designs, target quantity and destination for a bulk quotation. Confirm sizes, assortment and dispatch date before ordering.",
+      "seasonalTheme": "Decorative resin craft components",
+      "keySellingPoints": [
+        "Mixed Mini Pizza Resin Decorations",
+        "Material: resin",
+        "Dimensions: RW337: 32 × 32 × 12 mm; RW285: 15 × 17 × 11 mm (individual source references)",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW337/285",
+        "Material: resin",
+        "Dimensions: RW337: 32 × 32 × 12 mm; RW285: 15 × 17 × 11 mm (individual source references)",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Assortment: Confirm selected designs and mixing proportions by inquiry",
+        "MOQ and dispatch date: Confirm by quotation",
+        "SKU group: RW337 and RW285 in one grouped assortment; confirm selection and mixture proportions"
+      ],
+      "material": "resin",
+      "dimensions": "RW337: 32 × 32 × 12 mm; RW285: 15 × 17 × 11 mm (individual source references)",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Decorative craft kits, miniature scenes and glue-on accessory projects; confirm adhesive and mounting suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mixed mini pizza resin decorations, wholesale resin craft components",
+      "metaTitle": "Mixed Mini Pizza Resin Decorations | HAIBUCRAFT",
+      "metaDescription": "Mixed whole-pizza and pizza-slice resin decorations: RW337 and RW285 have separate listed sizes. 100 pieces per bag; confirm selected mix.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW337/285 ",
+        "标题": "Cute Simulation Miniature Doll House Cake Pizza Mini Bread Food for Micro Landscape Decoration Doll Kitchen Toy Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "RW337-32*32*12mm\nRW285-15*17*11mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 99,
+      "assetKey": "rw337-285",
+      "assetDirectory": "batch-2026-10-16-evening",
+      "imagePrefix": "mixed-mini-pizza-resin-decorations",
+      "imageExtensions": [
+        "jpg",
+        "png",
+        "png"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 622,
+          "height": 617
+        },
+        {
+          "width": 755,
+          "height": 735
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "grouped product illustration",
+        "supplied RW337 reference",
+        "supplied RW285 reference"
+      ],
+      "galleryNote": "Image 1: reference-based composition of RW337 and RW285. Image 2: supplied RW337 reference. Image 3: supplied RW285 reference. Each code has its own listed dimensions. Props and displayed counts are not packing quantities. Confirm selected designs and mixture proportions.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16",
+      "holeDescription": "No hole"
+    }
+  ]
+}

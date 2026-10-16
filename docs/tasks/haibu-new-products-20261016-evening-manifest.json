@@ -2521,9 +2521,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw003270/miniature-open-book-resin-cabochons-01.jpg",
-          "sha256": "5c536442b8227c891b2c059490983871e3403f0a64a1fbf91fcbc9796ca4a5b9",
-          "width": 1000,
-          "height": 935
+          "sha256": "5f4e0b3036be3a48f20fe259290fb24a5308751671fa244831b5e7c01e016147",
+          "width": 739,
+          "height": 691
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw003270/miniature-open-book-resin-cabochons-02.jpg",
@@ -2537,7 +2537,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 739,
+        "height": 692
+      }
     },
     {
       "sku": "RW26818",
@@ -2556,9 +2560,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26818/christmas-cottage-resin-miniatures-01.jpg",
-          "sha256": "4be001201cfbd429c899ef880daec5cfb571171dc82eb7d3cc1862958a49a054",
-          "width": 1000,
-          "height": 899
+          "sha256": "d76e153a66aa1542914d93fb795c368d742173662c9ae260c945eca24a3db487",
+          "width": 725,
+          "height": 652
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26818/christmas-cottage-resin-miniatures-02.jpg",
@@ -2572,7 +2576,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 725,
+        "height": 652
+      }
     },
     {
       "sku": "RW26828",
@@ -2591,9 +2599,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26828/pastel-cherry-resin-flatback-charms-01.jpg",
-          "sha256": "c2b0acb9bf734df4a8ad50e05c7e2e119928440341d20f36b05544be253ba75a",
-          "width": 1000,
-          "height": 956
+          "sha256": "3c55cf3476a9f185c936aed9f648a63cb1288e602bfcbd94b88cb90b1f502c98",
+          "width": 740,
+          "height": 707
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26828/pastel-cherry-resin-flatback-charms-02.jpg",
@@ -2607,7 +2615,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 740,
+        "height": 708
+      }
     },
     {
       "sku": "RW26820",
@@ -2626,9 +2638,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26820/pastel-ghost-resin-miniatures-01.jpg",
-          "sha256": "5f819695a8b51edaab2a6906bc3feca89f9390d31276529a05836af079ba882c",
-          "width": 1000,
-          "height": 1000
+          "sha256": "cb3d7f85c7ae9d0b9947363ec2033a8b9dde265ceb9f7f8f3e9098be2795736f",
+          "width": 718,
+          "height": 718
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26820/pastel-ghost-resin-miniatures-02.jpg",
@@ -2642,7 +2654,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 718,
+        "height": 736
+      }
     },
     {
       "sku": "RW26821",
@@ -2661,9 +2677,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26821/miniature-steak-board-resin-decorations-01.jpg",
-          "sha256": "f8d47a9b7478ff1e9f0d57c27e3d38b135b2c38214c16631862a167f05e28d49",
-          "width": 1000,
-          "height": 903
+          "sha256": "99877545831c742eeae1b7c3e3a670078b87a6e6a1203ac04457e02e4bf77237",
+          "width": 746,
+          "height": 674
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26821/miniature-steak-board-resin-decorations-02.jpg",
@@ -2677,7 +2693,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 746,
+        "height": 674
+      }
     },
     {
       "sku": "RW26824",
@@ -2696,9 +2716,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26824/mini-pig-and-boar-resin-figurines-01.jpg",
-          "sha256": "d31581172fcd901ec32878452b3f01e6101ca378fdb1390429ecc2a8f7826624",
-          "width": 1000,
-          "height": 928
+          "sha256": "6557df9e56ae18794c069086f84fbe3d2046cd225810ad33fc2be0d32a846945",
+          "width": 734,
+          "height": 681
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26824/mini-pig-and-boar-resin-figurines-02.jpg",
@@ -2712,7 +2732,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 734,
+        "height": 681
+      }
     },
     {
       "sku": "RW26825",
@@ -2731,9 +2755,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26825/ocean-theme-resin-decorative-charms-01.jpg",
-          "sha256": "58d46b6bc798401335e24850ff142fc56ee053d5f40d040446f3517b28dab586",
-          "width": 1000,
-          "height": 928
+          "sha256": "805f41118848170dc608cd9780140a5bdfc5dc020bef11f2a4a4ea6b6a4093b9",
+          "width": 739,
+          "height": 686
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26825/ocean-theme-resin-decorative-charms-02.jpg",
@@ -2747,7 +2771,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 739,
+        "height": 687
+      }
     },
     {
       "sku": "RW26823",
@@ -2766,9 +2794,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26823/colorful-totem-resin-miniatures-01.jpg",
-          "sha256": "696b4a4005b64abbc3416fc5af37b4e1be238078a937098a608b5b31ad78e79b",
-          "width": 1000,
-          "height": 1028
+          "sha256": "983052d1238c3a75d16de7765b502dba67a8be8dda725c83471f85fca5ec5b05",
+          "width": 677,
+          "height": 696
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26823/colorful-totem-resin-miniatures-02.jpg",
@@ -2782,7 +2810,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 677,
+        "height": 696
+      }
     },
     {
       "sku": "RW26827",
@@ -2801,9 +2833,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26827/speckled-bird-egg-resin-miniatures-01.jpg",
-          "sha256": "948789a4ec03868c9a03a98ab6f078f5a0af88ac2dfc895a250962e90e19acef",
-          "width": 1000,
-          "height": 940
+          "sha256": "4f8ed2669becf0ecec5aef887a4cc9cc9ac005bc80846988b198c61dfc23217b",
+          "width": 731,
+          "height": 687
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26827/speckled-bird-egg-resin-miniatures-02.jpg",
@@ -2817,7 +2849,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 731,
+        "height": 688
+      }
     },
     {
       "sku": "RW26826",
@@ -2836,9 +2872,9 @@
       "outputs": [
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26826/orange-pumpkin-resin-flatback-charms-01.jpg",
-          "sha256": "33e969e4daaa0aed8862d68db427c0d529c19714ce76706a379faa52ad097cfc",
-          "width": 1000,
-          "height": 951
+          "sha256": "cddec0471db8ce463609e8b27af1e5be9257e7e3e95cf94c19beec6403ab36af",
+          "width": 763,
+          "height": 726
         },
         {
           "path": "assets/images/products/batch-2026-10-16-evening/rw26826/orange-pumpkin-resin-flatback-charms-02.jpg",
@@ -2852,7 +2888,11 @@
           "width": 1000,
           "height": 1000
         }
-      ]
+      ],
+      "sourceImageDimensions": {
+        "width": 763,
+        "height": 726
+      }
     },
     {
       "sku": "RW337/285",

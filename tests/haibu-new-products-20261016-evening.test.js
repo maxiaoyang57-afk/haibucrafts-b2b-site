@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import test from 'node:test';
 const batch=JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json','utf8'));
 const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261016-evening-manifest.json','utf8'));
@@ -10,6 +11,9 @@ test('evening batch preserves catalog identities and separate pizza sizes and at
  assert.deepEqual(catalog.products.filter(p=>!added.has(p.sku)),manifest.previousProducts);
  assert.equal(new Set(catalog.products.map(p=>p.category)).size,4);
  for(const source of batch.products){
+  const media=manifest.products.find(p=>p.sku===source.sku);
+  if(media.sourceImageDimensions) assert.ok(source.imageDimensions[0].width<=media.sourceImageDimensions.width);
+  for(const output of media.outputs) assert.equal(createHash('sha256').update(await readFile(output.path)).digest('hex'),output.sha256);
   const p=catalog.products.find(p=>p.sku===source.sku);assert.ok(p);assert.equal(source.sourceFields.sku.trim(),p.sku);
   const html=await readFile(p.productionPath.slice(1)+'index.html','utf8');
   const schema=[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(v=>v['@type']==='Product');

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-13",
-  "count": 162,
+  "generatedAt": "2026-10-16",
+  "count": 167,
   "products": [
     {
       "sku": "YX720",
@@ -1006,6 +1006,81 @@
       ],
       "previewPath": "/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/"
+    },
+    {
+      "sku": "RW26859",
+      "title": "Miniature Mushroom House Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-16/rw26859/miniature-mushroom-house-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16/rw26859/miniature-mushroom-house-resin-figurines-01.jpg",
+        "/assets/images/products/batch-2026-10-16/rw26859/miniature-mushroom-house-resin-figurines-02.jpg",
+        "/assets/images/products/batch-2026-10-16/rw26859/miniature-mushroom-house-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26859-miniature-mushroom-house-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw26859-miniature-mushroom-house-resin-figurines/"
+    },
+    {
+      "sku": "RW26858",
+      "title": "Lying Animal Resin Miniatures: Panda, Cat, Pig & More",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Animal",
+      "image": "/assets/images/products/batch-2026-10-16/rw26858/lying-animal-resin-craft-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16/rw26858/lying-animal-resin-craft-miniatures-01.jpg",
+        "/assets/images/products/batch-2026-10-16/rw26858/lying-animal-resin-craft-miniatures-02.jpg",
+        "/assets/images/products/batch-2026-10-16/rw26858/lying-animal-resin-craft-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26858-lying-animal-resin-miniatures-panda-cat-pig-more/",
+      "productionPath": "/products/resin-charms-for-slime/rw26858-lying-animal-resin-miniatures-panda-cat-pig-more/"
+    },
+    {
+      "sku": "RW26857",
+      "title": "Sleeping Cat Resin Miniature Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Animal",
+      "image": "/assets/images/products/batch-2026-10-16/rw26857/sleeping-cat-resin-miniature-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16/rw26857/sleeping-cat-resin-miniature-figurines-01.jpg",
+        "/assets/images/products/batch-2026-10-16/rw26857/sleeping-cat-resin-miniature-figurines-02.jpg",
+        "/assets/images/products/batch-2026-10-16/rw26857/sleeping-cat-resin-miniature-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26857-sleeping-cat-resin-miniature-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw26857-sleeping-cat-resin-miniature-figurines/"
+    },
+    {
+      "sku": "RW26856",
+      "title": "Flower Princess Resin Figurines: 12 Styles",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-16/rw26856/flower-princess-resin-miniature-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16/rw26856/flower-princess-resin-miniature-figurines-01.jpg",
+        "/assets/images/products/batch-2026-10-16/rw26856/flower-princess-resin-miniature-figurines-02.jpg",
+        "/assets/images/products/batch-2026-10-16/rw26856/flower-princess-resin-miniature-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26856-flower-princess-resin-figurines-12-styles/",
+      "productionPath": "/products/resin-charms-for-slime/rw26856-flower-princess-resin-figurines-12-styles/"
+    },
+    {
+      "sku": "RW3628",
+      "title": "Mixed Resin Leaf Flatbacks for Slime & DIY Crafts",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-16/rw3628/mixed-resin-leaf-flatback-charms-01.png",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-16/rw3628/mixed-resin-leaf-flatback-charms-01.png",
+        "/assets/images/products/batch-2026-10-16/rw3628/mixed-resin-leaf-flatback-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-16/rw3628/mixed-resin-leaf-flatback-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/",
+      "productionPath": "/products/resin-charms-for-slime/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/"
     },
     {
       "sku": "RW1917",

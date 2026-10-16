@@ -1,0 +1,444 @@
+{
+  "batch": "haibu-new-products-20261016",
+  "expectedSkuCount": 5,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-16",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-16",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW26859",
+      "title": "Miniature Mushroom House Resin Figurines",
+      "originalTitle": "Miniature Mushroom House Figurines Mixed Cottage Ornaments for Garden Plant Pot Desktop Decoration Custom Wholesale",
+      "type": "Seasonal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Mushroom House Resin Figurines, product code RW26859",
+      "description": "Mixed mushroom house resin miniatures, listed at 30 × 15 mm with no hole. 100 pieces per bag for plant-pot, desktop and miniature craft projects.",
+      "detailedDescription": "Mixed mushroom house resin miniatures, listed at 30 × 15 mm with no hole. 100 pieces per bag for plant-pot, desktop and miniature craft projects. Miniature landscape kits, plant-pot decorations and desktop craft projects. Confirm adhesive suitability. Supply HAIBU with the product code, target quantity and destination when requesting a bulk quote. Confirm the selected designs, mixture proportions and packing before approving an order.",
+      "seasonalTheme": "Miniature craft components",
+      "keySellingPoints": [
+        "Miniature Mushroom House Resin Figurines",
+        "Material: resin",
+        "Listed dimensions: 30 × 15 mm",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "No stringing hole; confirm attachment method"
+      ],
+      "specificationLines": [
+        "Product code: RW26859",
+        "Material: resin",
+        "Dimensions: 30 × 15 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "30 × 15 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Miniature landscape kits, plant-pot decorations and desktop craft projects. Confirm adhesive suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "miniature mushroom house resin figurines, wholesale resin craft components",
+      "metaTitle": "Miniature Mushroom House Resin Figurines | HAIBUCRAFT",
+      "metaDescription": "Mixed mushroom house resin miniatures, listed at 30 × 15 mm with no hole. 100 pieces per bag for plant-pot, desktop and miniature craft projects.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26859",
+        "标题": "Miniature Mushroom House Figurines Mixed Cottage Ornaments for Garden Plant Pot Desktop Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "30*15mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 62,
+      "assetKey": "rw26859",
+      "assetDirectory": "batch-2026-10-16",
+      "imagePrefix": "miniature-mushroom-house-resin-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 723,
+          "height": 683
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited reference. Images 2–3: reference-based styling illustrations. Props are not included. Confirm selected designs and mixed proportions with a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16"
+    },
+    {
+      "sku": "RW26858",
+      "title": "Lying Animal Resin Miniatures: Panda, Cat, Pig & More",
+      "originalTitle": "Mini Cartoon Animal Figurines Lying Panda Cat Pig Penguin Bear Ornaments for Desktop Garden Decoration Custom Wholesale",
+      "type": "Animal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Lying Animal Resin Miniatures: Panda, Cat, Pig & More, product code RW26858",
+      "description": "Mixed lying-animal resin miniatures, listed at 19 × 14 mm with no hole. 100 pieces per bag. Choose designs for desktop, garden and craft assortments.",
+      "detailedDescription": "Mixed lying-animal resin miniatures, listed at 19 × 14 mm with no hole. 100 pieces per bag. Choose designs for desktop, garden and craft assortments. Animal-themed craft kits, decorative desktop projects and miniature gardens. Confirm adhesive suitability. Supply HAIBU with the product code, target quantity and destination when requesting a bulk quote. Confirm the selected designs, mixture proportions and packing before approving an order.",
+      "seasonalTheme": "Miniature craft components",
+      "keySellingPoints": [
+        "Lying Animal Resin Miniatures: Panda, Cat, Pig & More",
+        "Material: resin",
+        "Listed dimensions: 19 × 14 mm",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "No stringing hole; confirm attachment method"
+      ],
+      "specificationLines": [
+        "Product code: RW26858",
+        "Material: resin",
+        "Dimensions: 19 × 14 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "19 × 14 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Animal-themed craft kits, decorative desktop projects and miniature gardens. Confirm adhesive suitability.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "lying animal resin craft miniatures, wholesale resin craft components",
+      "metaTitle": "Lying Animal Resin Miniatures | HAIBUCRAFT",
+      "metaDescription": "Mixed lying-animal resin miniatures, listed at 19 × 14 mm with no hole. 100 pieces per bag. Choose designs for desktop, garden and craft assortments.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26858 ",
+        "标题": "Mini Cartoon Animal Figurines Lying Panda Cat Pig Penguin Bear Ornaments for Desktop Garden Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "19*14mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 63,
+      "assetKey": "rw26858",
+      "assetDirectory": "batch-2026-10-16",
+      "imagePrefix": "lying-animal-resin-craft-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 742,
+          "height": 758
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited reference. Images 2–3: reference-based styling illustrations. Props are not included. Confirm selected designs and mixed proportions with a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16"
+    },
+    {
+      "sku": "RW26857",
+      "title": "Sleeping Cat Resin Miniature Figurines",
+      "originalTitle": "Sleeping Cat Miniature Figurine Curled Kitten Animal Ornament for Garden Desktop Plant Pot Decoration Custom Wholesale",
+      "type": "Animal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Sleeping Cat Resin Miniature Figurines, product code RW26857",
+      "description": "Curled sleeping-cat resin miniatures, listed at 15 × 18 mm with no hole. 100 pieces per bag for desktop, plant-pot and decorative craft projects.",
+      "detailedDescription": "Curled sleeping-cat resin miniatures, listed at 15 × 18 mm with no hole. 100 pieces per bag for desktop, plant-pot and decorative craft projects. Cat-themed craft assortments, desktop decoration and plant-pot miniatures. Confirm attachment method. Supply HAIBU with the product code, target quantity and destination when requesting a bulk quote. Confirm the selected designs, mixture proportions and packing before approving an order.",
+      "seasonalTheme": "Miniature craft components",
+      "keySellingPoints": [
+        "Sleeping Cat Resin Miniature Figurines",
+        "Material: resin",
+        "Listed dimensions: 15 × 18 mm",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "No stringing hole; confirm attachment method"
+      ],
+      "specificationLines": [
+        "Product code: RW26857",
+        "Material: resin",
+        "Dimensions: 15 × 18 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "15 × 18 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Cat-themed craft assortments, desktop decoration and plant-pot miniatures. Confirm attachment method.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "sleeping cat resin miniature figurines, wholesale resin craft components",
+      "metaTitle": "Sleeping Cat Resin Miniature Figurines | HAIBUCRAFT",
+      "metaDescription": "Curled sleeping-cat resin miniatures, listed at 15 × 18 mm with no hole. 100 pieces per bag for desktop, plant-pot and decorative craft projects.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26857 ",
+        "标题": "Sleeping Cat Miniature Figurine Curled Kitten Animal Ornament for Garden Desktop Plant Pot Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "15*18mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 64,
+      "assetKey": "rw26857",
+      "assetDirectory": "batch-2026-10-16",
+      "imagePrefix": "sleeping-cat-resin-miniature-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 693,
+          "height": 693
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited reference. Images 2–3: reference-based styling illustrations. Props are not included. Confirm selected designs and mixed proportions with a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16"
+    },
+    {
+      "sku": "RW26856",
+      "title": "Flower Princess Resin Figurines: 12 Styles",
+      "originalTitle": "Cartoon Flower Princess Figurines 12 Styles Mini Girl Ornaments for Desktop Home Decoration Custom Wholesale",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Flower Princess Resin Figurines: 12 Styles, product code RW26856",
+      "description": "Flower-princess resin figurines in 12 styles, listed at 50 × 30 mm with no hole. Packed 12 pieces per sleeve. Request assortment and wholesale pricing.",
+      "detailedDescription": "Flower-princess resin figurines in 12 styles, listed at 50 × 30 mm with no hole. Packed 12 pieces per sleeve. Request assortment and wholesale pricing. Bulk decorative craft kits, desktop displays and seasonal miniature programs. Components have no hole; attachment method by inquiry. Supply HAIBU with the product code, target quantity and destination when requesting a bulk quote. Confirm the selected designs, mixture proportions and packing before approving an order.",
+      "seasonalTheme": "Miniature craft components",
+      "keySellingPoints": [
+        "Flower Princess Resin Figurines: 12 Styles",
+        "Material: resin",
+        "Listed dimensions: 50 × 30 mm",
+        "Source pack: 12 pieces per sleeve",
+        "No stringing hole; confirm attachment method"
+      ],
+      "specificationLines": [
+        "Product code: RW26856",
+        "Material: resin",
+        "Dimensions: 50 × 30 mm",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 12 pieces per sleeve",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "50 × 30 mm",
+      "sourcePacking": "12 pieces per sleeve",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Bulk decorative craft kits, desktop displays and seasonal miniature programs. Components have no hole; attachment method by inquiry.",
+      "packagingMoq": "Source packing: 12 pieces per sleeve. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "flower princess resin miniature figurines, wholesale resin craft components",
+      "metaTitle": "Flower Princess Resin Figurines | HAIBUCRAFT",
+      "metaDescription": "Flower-princess resin figurines in 12 styles, listed at 50 × 30 mm with no hole. Packed 12 pieces per sleeve. Request assortment and wholesale pricing.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW26856 ",
+        "标题": "Cartoon Flower Princess Figurines 12 Styles Mini Girl Ornaments for Desktop Home Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "50*30mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "12pcs/sleeve"
+      },
+      "sourceRow": 65,
+      "assetKey": "rw26856",
+      "assetDirectory": "batch-2026-10-16",
+      "imagePrefix": "flower-princess-resin-miniature-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 729,
+          "height": 729
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "brand-neutral edited reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited reference. Images 2–3: reference-based styling illustrations. Props are not included. Confirm selected designs and mixed proportions with a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16"
+    },
+    {
+      "sku": "RW3628",
+      "title": "Mixed Resin Leaf Flatbacks for Slime & DIY Crafts",
+      "originalTitle": "Thanksgiving  Maple Leaves Resin Flatback Leaf Cabochons Slime Supplies Miniature Realistic Leaves Faux Plant",
+      "type": "Seasonal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mixed Resin Leaf Flatbacks for Slime & DIY Crafts, product code RW3628",
+      "description": "Mixed resin leaf flatbacks with maple, ginkgo, clover and monstera shapes. 100 pieces per bag, with no hole. Confirm dimensions and selected mix.",
+      "detailedDescription": "Mixed resin leaf flatbacks with maple, ginkgo, clover and monstera shapes. 100 pieces per bag, with no hole. Confirm dimensions and selected mix. Slime decoration, scrapbook embellishments and botanical craft kits. Confirm dimensions and material compatibility with a sample. Supply HAIBU with the product code, target quantity and destination when requesting a bulk quote. Confirm the selected designs, mixture proportions and packing before approving an order.",
+      "seasonalTheme": "Botanical craft assortment",
+      "keySellingPoints": [
+        "Mixed Resin Leaf Flatbacks for Slime & DIY Crafts",
+        "Material: resin",
+        "Listed dimensions: Confirm dimensions by inquiry",
+        "Source pack: 100 pieces per bag; custom packing by inquiry",
+        "No stringing hole; confirm attachment method"
+      ],
+      "specificationLines": [
+        "Product code: RW3628",
+        "Material: resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, scrapbook embellishments and botanical craft kits. Confirm dimensions and material compatibility with a sample.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "seoKeywords": "mixed resin leaf flatback charms, wholesale resin craft components",
+      "metaTitle": "Mixed Resin Leaf Flatbacks for Slime & DIY Crafts | HAIBUCRAFT",
+      "metaDescription": "Mixed resin leaf flatbacks with maple, ginkgo, clover and monstera shapes. 100 pieces per bag, with no hole. Confirm dimensions and selected mix.",
+      "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
+      "structuredSpecifications": true,
+      "sourceFields": {
+        "sku": "RW3628",
+        "标题": "Thanksgiving  Maple Leaves Resin Flatback Leaf Cabochons Slime Supplies Miniature Realistic Leaves Faux Plant",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 66,
+      "assetKey": "rw3628",
+      "assetDirectory": "batch-2026-10-16",
+      "imagePrefix": "mixed-resin-leaf-flatback-charms",
+      "imageExtensions": [
+        "png",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 627,
+          "height": 705
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "styled scene illustration",
+        "styled detail illustration"
+      ],
+      "galleryNote": "Image 1: supplied product reference. Images 2–3: reference-based styling illustrations. Props are not included. Confirm selected designs and mixed proportions with a sample. Displayed counts are not packing quantities.",
+      "mediaLabel": "Product reference and styled views",
+      "factsUpdatedAt": "2026-10-16"
+    }
+  ]
+}

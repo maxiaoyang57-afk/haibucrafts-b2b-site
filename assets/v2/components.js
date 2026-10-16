@@ -331,11 +331,13 @@
   };
   const analyticsProductCode = (value) => {
     const code = typeof value === 'string' ? value.trim().toUpperCase() : '';
-    return /^(?:SLM\d{3,5}|YX\d{3,4}|RW\d{3,6}(?:-C|-YX\d{3,4})?|(?:MA|YM)\d{3})(?:\/RW\d{3,6}){0,3}$/.test(code) ? code : '';
+    return /^(?:SLM(?:\d{3,5}|-RX488)|YX\d{3,4}|RW3895-RW3857|RW\d{3,6}(?:-C|-YX\d{3,4})?|(?:MA|YM)\d{3})(?:\/RW\d{3,6}){0,3}$/.test(code) ? code : '';
   };
   const analyticsPathProductCode = (pathname) => {
     // Product slugs begin with their catalog code, including the resin mix.
     const slug = pathname.split('/').filter(Boolean).pop() || '';
+    if (/^slm-rx488(?:-|$)/i.test(slug)) return 'SLM-RX488';
+    if (/^rw3895-rw3857(?:-|$)/i.test(slug)) return 'RW3895-RW3857';
     const prefix = slug.match(/^((?:rw\d{3,6}-(?:c|yx\d{3,4})|(?:slm|yx|rw|ma|ym)\d{3,6})(?:-rw\d{3,6}){0,3})(?:-|$)/i)?.[1];
     return analyticsProductCode(prefix?.replace(/-(?=rw\d)/gi, '/'));
   };

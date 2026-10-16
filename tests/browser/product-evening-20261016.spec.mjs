@@ -23,3 +23,20 @@ test('evening catalog products, three-image gallery and exact quote context work
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
  }
 });
+
+// Search aliases must preserve the full grouped identity through the quote flow.
+test('pizza component codes and new product theme filters remain discoverable', async ({page}) => {
+ await page.route('**/api/inquiry',r=>r.abort());
+ await page.goto('/products/resin-charms-for-slime/');
+ for(const query of ['RW285','rw285','RW337','RW337/285']) {
+  await page.locator('[data-product-search]').fill(query);
+  await expect(page.locator('[data-product-card]:visible .sku-badge')).toHaveText(['RW337/285']);
+ }
+ await page.locator('[data-product-card]:visible .get-quote').click();
+ await expect(page.locator('input[name="sku"]')).toHaveValue('RW337/285');
+ for(const [filter,skus] of [['seasonal',['RW26818','RW26820','RW26826']],['fruit',['RW26828']],['ocean',['RW26825']],['animal',['RW26824','RW26827']],['sweet',['RW26821','RW337/285']]]) {
+  await page.goto('/products/resin-charms-for-slime/');
+  await page.locator('[data-product-filter="'+filter+'"]').click();
+  for(const sku of skus) await expect(page.locator('[data-product-card]:visible .sku-badge').filter({hasText:sku})).toHaveCount(1);
+ }
+});

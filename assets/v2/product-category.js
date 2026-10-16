@@ -65,7 +65,10 @@
     const query = (searchInput?.value || '').trim().toLowerCase();
     let visible = 0;
     cards.forEach((card) => {
-      const tags = (card.dataset.tags || '').toLowerCase();
+      const sku = card.querySelector('.sku-badge')?.textContent?.trim() || '';
+      const prefix = (sku.match(/^[a-z]+/i) || [''])[0];
+      const codes = sku.split('/').map(code => /^\d+$/.test(code) ? prefix + code : code).join(' ');
+      const tags = `${card.dataset.tags || ''} ${codes}`.toLowerCase();
       const category = (card.dataset.category || '').toLowerCase();
       const matchesQuery = !query || tags.includes(query);
       const matchesFilter = activeFilter === 'all' || category === activeFilter || (activeFilter === 'seasonal' && ['christmas', 'halloween', 'easter'].includes(category));

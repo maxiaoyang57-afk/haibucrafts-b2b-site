@@ -32,6 +32,7 @@ const haibuOctober13Batch = JSON.parse(await readFile(path.join(root, 'scripts/d
 const haibuOctober13V2Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261013-v2.json'), 'utf8'));
 const haibuOctober16Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261016.json'), 'utf8'));
 const haibuOctober16Supplement = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261016-supplement.json'), 'utf8'));
+const haibuOctober16Evening = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261016-evening.json'), 'utf8'));
 const purchasingBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-purchasing-20261002.json'), 'utf8'));
 const purchasingBySku = new Map(purchasingBatch.products.map((item) => [item.sku, item]));
 const productBatches = [
@@ -47,7 +48,8 @@ const productBatches = [
   { issue: 'haibu-new-products-20261013', data: haibuOctober13Batch },
   { issue: 'haibu-new-products-20261013-v2', data: haibuOctober13V2Batch },
   { issue: 'haibu-new-products-20261016', data: haibuOctober16Batch },
-  { issue: 'haibu-new-products-20261016-supplement', data: haibuOctober16Supplement }
+  { issue: 'haibu-new-products-20261016-supplement', data: haibuOctober16Supplement },
+  { issue: 'haibu-new-products-20261016-evening', data: haibuOctober16Evening }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -323,6 +325,7 @@ for (const category of categories) {
       gallery,
       preserveImageRatio: Boolean(batchProduct?.preserveImageRatio),
       structuredSpecifications: Boolean(batchProduct?.structuredSpecifications),
+      holeDescription: batchProduct?.holeDescription || null,
       packingOptions: batchProduct ? batchRecord.data.packingOptions : [],
       galleryNote: batchProduct?.galleryNote || batchRecord?.data.galleryNote || null,
       structuredDataImageMode: batchRecord?.data.structuredDataImageMode || 'gallery',
@@ -505,7 +508,7 @@ for (const category of categories) {
       description,
       category: product.categoryLabel,
       brand: { '@type': 'Brand', name: 'HAIBUCRAFT' },
-      ...(product.structuredSpecifications ? { material: product.material, size: product.dimensions, additionalProperty: [{ '@type': 'PropertyValue', name: 'Standard pack', value: product.sourcePacking }, { '@type': 'PropertyValue', name: 'Hole', value: 'No hole' }] } : {})
+      ...(product.structuredSpecifications ? { material: product.material, size: product.dimensions, additionalProperty: [{ '@type': 'PropertyValue', name: 'Standard pack', value: product.sourcePacking }, { '@type': 'PropertyValue', name: 'Hole', value: product.holeDescription || 'No hole' }] } : {})
     }).replaceAll('<', '\\u003c');
     const galleryStylesheet = product.gallery.length
       ? '  <link rel="stylesheet" href="/v2-preview/assets/product-gallery.css">\n'

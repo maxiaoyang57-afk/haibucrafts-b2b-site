@@ -4,12 +4,14 @@ import { createHash } from 'node:crypto';
 import test from 'node:test';
 const batch = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-supplement.json', 'utf8'));
 const manifest = JSON.parse(await readFile('docs/tasks/haibu-new-products-20261016-supplement-manifest.json', 'utf8'));
+const evening = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json', 'utf8'));
+const eveningSkus = new Set(evening.products.map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 test('supplement preserves all previous identities and connects exact source SKUs, galleries and inquiries', async () => {
   const selected = new Set(batch.products.map(p => p.sku));
   assert.equal(selected.size, 11);
-  assert.equal(catalog.count, manifest.catalogCountBefore + selected.size);
-  assert.deepEqual(catalog.products.filter(p => !selected.has(p.sku)), manifest.previousProducts);
+  assert.equal(catalog.count, manifest.catalogCountBefore + selected.size + eveningSkus.size);
+  assert.deepEqual(catalog.products.filter(p => !selected.has(p.sku) && !eveningSkus.has(p.sku)), manifest.previousProducts);
   for (const record of manifest.products) {
     const source = batch.products.find(p => p.sku === record.sku);
     assert.deepEqual(source.sourceFields, record.sourceFields);

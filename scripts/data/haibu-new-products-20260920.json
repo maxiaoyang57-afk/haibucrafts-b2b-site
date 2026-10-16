@@ -401,7 +401,9 @@
         "Designs shown: snowman, Christmas tree, bear, snow-globe and gingerbread character motifs",
         "Source pack reference: 100 pieces per bag",
         "MOQ: to be discussed",
-        "Sample time: 3–7 days"
+        "Sample time: 3–7 days",
+        "Size reference: 11 × 12 mm; confirm dimensions for each selected design",
+        "Hole: No hole specified in the supplied source"
       ],
       "material": "Resin",
       "customizationOptions": "Colors, mixes, packaging and logo requirements are confirmed by quotation",
@@ -416,7 +418,21 @@
         "natural application display",
         "close-up product detail"
       ],
-      "relatedSkus": []
+      "relatedSkus": [],
+      "sourceFields": {
+        "sku": "RW26819 ",
+        "标题": "3D Kawaii Creative Snowman Christmas Tree Resin Nail Charms Realistic Snowflake Socks Nail Art Decorations DIY",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "11*12mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 89,
+      "sourceWorkbook": "10.11(8).xlsx",
+      "factsUpdatedAt": "2026-10-16"
     },
     {
       "sku": "YX162",
@@ -494,7 +510,21 @@
         "natural application display",
         "close-up product detail"
       ],
-      "relatedSkus": []
+      "relatedSkus": [],
+      "sourceFields": {
+        "sku": "YX3150 ",
+        "标题": "Latest Mixed Christmas Gingerbread Man Pink Peppermind Candy Clay Slices Slime Sprinkles Shaker Bow Filling",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 101,
+      "sourceWorkbook": "10.11(8).xlsx",
+      "factsUpdatedAt": "2026-10-16"
     },
     {
       "sku": "YX3461",

@@ -85,15 +85,15 @@ test('Issue #29 retirements remain intact after later polymer clay additions', a
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
 
-  assert.equal(catalog.count, 178);
-  assert.equal(catalog.products.length, 178);
+  assert.equal(catalog.count, 189);
+  assert.equal(catalog.products.length, 189);
   assert.equal(catalog.products.filter((product) => product.category === 'polymer-clay-slices').length, 35);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 178);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 189);
   assert.match(category, /<strong data-product-count>35 products<\/strong>/);
   assert.equal((category.match(/data-product-card/g) || []).length, 35);
-  assert.match(home, /<span>178 cataloged products<\/span>/);
+  assert.match(home, /<span>189 cataloged products<\/span>/);
   assert.match(home, /<span class="eyebrow">35 products<\/span><h3>Polymer Clay Slices<\/h3>/);
-  assert.match(directory, /Browse 178 published products/);
+  assert.match(directory, /Browse 189 published products/);
   assert.match(directory, /<span>35 Products<\/span>[\s\S]*?<h2>Polymer Clay Slices<\/h2>/);
 
   const itemList = [...category.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]

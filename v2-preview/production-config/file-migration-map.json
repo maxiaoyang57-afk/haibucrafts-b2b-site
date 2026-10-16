@@ -687,6 +687,83 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw003270-miniature-open-book-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw003270-miniature-open-book-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003270-miniature-open-book-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26818-christmas-cottage-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26818-christmas-cottage-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26818-christmas-cottage-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26828-pastel-cherry-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26828-pastel-cherry-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26828-pastel-cherry-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26820-pastel-ghost-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26820-pastel-ghost-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26820-pastel-ghost-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26821-miniature-steak-board-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26821-miniature-steak-board-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26821-miniature-steak-board-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26824-mini-pig-boar-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26824-mini-pig-boar-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26824-mini-pig-boar-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26825-ocean-theme-resin-decorative-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26825-ocean-theme-resin-decorative-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26825-ocean-theme-resin-decorative-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26823-colorful-totem-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26823-colorful-totem-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26823-colorful-totem-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26827-speckled-bird-egg-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26827-speckled-bird-egg-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26827-speckled-bird-egg-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26826-orange-pumpkin-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26826-orange-pumpkin-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26826-orange-pumpkin-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw337-285-mixed-mini-pizza-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw337-285-mixed-mini-pizza-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw337-285-mixed-mini-pizza-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw1917-dessert-resin-flatback-mix-in-100-piece-bags/index.html",
       "destination": "products/resin-charms-for-slime/rw1917-dessert-resin-flatback-mix-in-100-piece-bags/index.html",
       "action": "create",

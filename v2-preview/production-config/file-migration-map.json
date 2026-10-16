@@ -575,6 +575,41 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26859-miniature-mushroom-house-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26859-miniature-mushroom-house-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26859-miniature-mushroom-house-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26858-lying-animal-resin-miniatures-panda-cat-pig-more/index.html",
+      "destination": "products/resin-charms-for-slime/rw26858-lying-animal-resin-miniatures-panda-cat-pig-more/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26858-lying-animal-resin-miniatures-panda-cat-pig-more/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26857-sleeping-cat-resin-miniature-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26857-sleeping-cat-resin-miniature-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26857-sleeping-cat-resin-miniature-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26856-flower-princess-resin-figurines-12-styles/index.html",
+      "destination": "products/resin-charms-for-slime/rw26856-flower-princess-resin-figurines-12-styles/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26856-flower-princess-resin-figurines-12-styles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/index.html",
+      "destination": "products/resin-charms-for-slime/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3628-mixed-resin-leaf-flatbacks-for-slime-diy-crafts/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw1917-dessert-resin-flatback-mix-in-100-piece-bags/index.html",
       "destination": "products/resin-charms-for-slime/rw1917-dessert-resin-flatback-mix-in-100-piece-bags/index.html",
       "action": "create",

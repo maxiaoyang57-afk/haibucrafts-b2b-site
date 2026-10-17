@@ -1492,6 +1492,20 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/blog/craft-supply-reorder-version-control/index.html",
+      "destination": "blog/craft-supply-reorder-version-control/index.html",
+      "action": "create",
+      "productionPath": "/blog/craft-supply-reorder-version-control/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/craft-supply-piece-count-net-weight/index.html",
+      "destination": "blog/craft-supply-piece-count-net-weight/index.html",
+      "action": "create",
+      "productionPath": "/blog/craft-supply-piece-count-net-weight/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/blog/custom-resin-polymer-clay-development-process/index.html",
       "destination": "blog/custom-resin-polymer-clay-development-process/index.html",
       "action": "create",

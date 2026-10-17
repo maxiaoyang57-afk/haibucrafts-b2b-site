@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import { customizationGuide } from './content/customization-guide.mjs';
+import { octoberArticles } from './content/blogs-20261017.mjs';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -11,6 +12,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  ...octoberArticles,
   customizationGuide,
   {
     slug: 'how-to-prepare-a-wholesale-product-brief',
@@ -298,6 +300,7 @@ for (const article of articles) {
     '@type': 'BlogPosting',
     headline: article.title,
     description: article.description,
+    ...(article.image ? { image: `https://www.haibucrafts.com${article.image.src}` } : {}),
     datePublished: article.datePublished || '2026-08-01',
     dateModified: article.dateModified || '2026-08-06',
     author: {
@@ -349,8 +352,8 @@ ${article.scopeReview === false ? '' : '          <span>Scope reviewed by <a hre
 ${article.processOverview ? `    ${processOverview}\n` : ''}    <section class="section">
       <div class="container blog-article-layout">
         <article class="blog-article-body">
-${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}          ${article.sections.map(renderSection).join('\n          ')}
-          <div class="scope-note">${escapeHtml(article.note)}</div>
+${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}${article.image ? `          <figure style="margin:0 0 32px"><img src="${escapeHtml(article.image.src)}" width="${article.image.width}" height="${article.image.height}" alt="${escapeHtml(article.image.alt)}" loading="lazy" style="display:block;width:min(100%,520px);height:auto;object-fit:contain;margin:auto"><figcaption style="margin-top:12px;font-size:14px;color:var(--muted)">${escapeHtml(article.image.caption)}</figcaption></figure>\n` : ''}          ${article.sections.map(renderSection).join('\n          ')}
+${article.workingTable ? `          <div style="overflow-x:auto;margin:28px 0"><table style="width:100%;border-collapse:collapse;font-size:15px"><caption style="text-align:left;margin-bottom:12px">${escapeHtml(article.workingTable.caption)}</caption><thead><tr>${article.workingTable.headings.map(heading => `<th scope="col" style="text-align:left;padding:12px;border-bottom:2px solid var(--line)">${escapeHtml(heading)}</th>`).join('')}</tr></thead><tbody>${article.workingTable.rows.map(row => `<tr>${row.map(cell => `<td style="padding:12px;border-bottom:1px solid var(--line);vertical-align:top">${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>\n` : ''}${article.sources ? `          <p style="font-size:14px">Technical reference: ${article.sources.map(([label, href]) => `<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('; ')}.</p>\n` : ''}          <div class="scope-note">${escapeHtml(article.note)}</div>
         </article>
         <aside class="blog-checklist-card">
           <span class="eyebrow">Working Checklist</span>

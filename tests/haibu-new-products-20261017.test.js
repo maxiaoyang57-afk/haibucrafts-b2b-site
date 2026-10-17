@@ -1,0 +1,39 @@
+import assert from 'node:assert/strict';
+import { readFile } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import test from 'node:test';
+const batch=JSON.parse(await readFile('scripts/data/haibu-new-products-20261017.json','utf8'));
+const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261017-manifest.json','utf8'));
+const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
+test('October 17 adds 11 source-backed resin groups and preserves existing catalog identities',async()=>{
+ const added=new Set(batch.products.map(p=>p.sku));
+ assert.equal(added.size,11);assert.equal(catalog.count,200);
+ assert.deepEqual(catalog.products.filter(p=>!added.has(p.sku)),manifest.previousProducts);
+ assert.equal(new Set(catalog.products.map(p=>p.category)).size,4);
+ for(const p of batch.products){
+  assert.equal(p.sourceSkuCorrection?.sku || p.sourceFields.sku.trim(),p.sku);
+  assert.equal(p.sourceFields['包装规格'],'主要规格100pcs/bag，可以定制，咨询客服');
+  const item=catalog.products.find(i=>i.sku===p.sku);
+  const html=await readFile(item.productionPath.slice(1)+'index.html','utf8');
+  const product=[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(s=>s['@type']==='Product');
+  assert.equal(product.sku,p.sku);assert.equal(product.image.length,3);assert.equal(product.offers,undefined);
+  assert.equal(product.size,p.dimensions);
+  assert.equal(product.additionalProperty.find(i=>i.name==='Hole').value,p.holeDescription);
+  assert.ok(html.includes('product_code='+encodeURIComponent(p.sku)));
+  assert.ok(html.includes('This pack quantity is not the MOQ.'));
+  assert.ok(!/QULA/i.test(html));
+  const record=manifest.products.find(i=>i.sku===p.sku);
+  assert.deepEqual(item.gallery,record.outputs.map(i=>'/'+i.path));
+  assert.ok(record.outputs[0].width<=record.sourceImageDimensions.width);
+  for(const img of record.outputs)assert.equal(createHash('sha256').update(await readFile(img.path)).digest('hex'),img.sha256);
+ }
+ assert.match(batch.products.find(p=>p.sku==='RW26811').holeDescription,/diameter not supplied/);
+ assert.equal(batch.products.find(p=>p.sku==='RW21765').dimensions,'Confirm dimensions by inquiry');
+ assert.equal(catalog.products.filter(p=>p.sku==='RW26813').length,1);
+ assert.equal(catalog.products.some(p=>p.sku==='RW26808'),false);
+ const corrected=batch.products.find(p=>p.sku==='RW20809');
+ assert.equal(corrected.sourceFields.sku,'RW26808');
+ assert.equal(corrected.sourceSkuCorrection.sku,'RW20809');
+ const redirects=JSON.parse(await readFile('vercel.json','utf8')).redirects;
+ assert.ok(redirects.some(r=>r.source==='/products/resin-charms-for-slime/rw26808-pig-cabbage-resin-flatback-charms/'&&r.destination==='/products/resin-charms-for-slime/rw20809-pig-cabbage-resin-flatback-charms/'&&r.permanent));
+});

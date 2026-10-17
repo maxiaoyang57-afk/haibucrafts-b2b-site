@@ -4,7 +4,7 @@ import process from 'node:process';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
-const catalogGeneratedAt = '2026-10-16';
+const catalogGeneratedAt = '2026-10-17';
 const catalogLastModified = '2026-09-06';
 const productsRoot = path.join(previewRoot, 'products');
 const seoMapPath = path.join(previewRoot, 'seo-production-map.json');
@@ -33,6 +33,7 @@ const haibuOctober13V2Batch = JSON.parse(await readFile(path.join(root, 'scripts
 const haibuOctober16Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261016.json'), 'utf8'));
 const haibuOctober16Supplement = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261016-supplement.json'), 'utf8'));
 const haibuOctober16Evening = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261016-evening.json'), 'utf8'));
+const haibuOctober17Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261017.json'), 'utf8'));
 const purchasingBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-purchasing-20261002.json'), 'utf8'));
 const purchasingBySku = new Map(purchasingBatch.products.map((item) => [item.sku, item]));
 const productBatches = [
@@ -49,7 +50,8 @@ const productBatches = [
   { issue: 'haibu-new-products-20261013-v2', data: haibuOctober13V2Batch },
   { issue: 'haibu-new-products-20261016', data: haibuOctober16Batch },
   { issue: 'haibu-new-products-20261016-supplement', data: haibuOctober16Supplement },
-  { issue: 'haibu-new-products-20261016-evening', data: haibuOctober16Evening }
+  { issue: 'haibu-new-products-20261016-evening', data: haibuOctober16Evening },
+  { issue: 'haibu-new-products-20261017', data: haibuOctober17Batch }
 ];
 
 for (const { issue, data } of productBatches) {

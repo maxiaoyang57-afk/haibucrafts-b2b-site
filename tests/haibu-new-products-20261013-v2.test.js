@@ -8,7 +8,8 @@ const manifest = JSON.parse(await readFile('docs/tasks/haibu-new-products-202610
 const supplement = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-supplement.json', 'utf8'));
 const supplementSkus = new Set(supplement.products.map(p => p.sku));
 const evening = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json', 'utf8'));
-const eveningSkus = new Set(evening.products.map(p => p.sku));
+const october17 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261017.json', 'utf8'));
+const eveningSkus = new Set([...evening.products, ...october17.products].map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 const selected = new Set(batch.products.map((product) => product.sku));
 const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
@@ -16,8 +17,8 @@ const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 test('11 new products preserve all 151 earlier identities with only two approved gallery replacements', () => {
   assert.equal(batch.products.length, 11);
   assert.equal(selected.size, 11);
-  assert.equal(catalog.count, 189);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 189);
+  assert.equal(catalog.count, 200);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 200);
   const previous = catalog.products.filter((product) => !selected.has(product.sku) && !supplementSkus.has(product.sku) && !eveningSkus.has(product.sku) && !['RW3628','RW26856','RW26857','RW26858','RW26859'].includes(product.sku)).map((product) => {
     // Normalize the owner-approved 2026-10-14 title correction to this earlier batch baseline.
     if (product.sku === 'YX048') {

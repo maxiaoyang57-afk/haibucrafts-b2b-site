@@ -589,6 +589,83 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26817-miniature-flower-bouquet-resin-ornaments/index.html",
+      "destination": "products/resin-charms-for-slime/rw26817-miniature-flower-bouquet-resin-ornaments/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26817-miniature-flower-bouquet-resin-ornaments/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw340-sugar-candy-resin-flatback-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw340-sugar-candy-resin-flatback-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw340-sugar-candy-resin-flatback-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26816-miniature-horse-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26816-miniature-horse-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26816-miniature-horse-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26815-wood-grain-handcart-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26815-wood-grain-handcart-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26815-wood-grain-handcart-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002852-bear-cherry-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw002852-bear-cherry-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002852-bear-cherry-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26812-christmas-candy-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26812-christmas-candy-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26812-christmas-candy-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26811-green-leaf-resin-charms-with-holes/index.html",
+      "destination": "products/resin-charms-for-slime/rw26811-green-leaf-resin-charms-with-holes/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26811-green-leaf-resin-charms-with-holes/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26810-tree-stump-woodland-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26810-tree-stump-woodland-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26810-tree-stump-woodland-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw20809-pig-cabbage-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw20809-pig-cabbage-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw20809-pig-cabbage-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1021-transparent-sugar-cube-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw1021-transparent-sugar-cube-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1021-transparent-sugar-cube-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw21765-pastel-mushroom-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw21765-pastel-mushroom-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw21765-pastel-mushroom-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26859-miniature-mushroom-house-resin-figurines/index.html",
       "destination": "products/resin-charms-for-slime/rw26859-miniature-mushroom-house-resin-figurines/index.html",
       "action": "create",

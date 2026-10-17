@@ -3,6 +3,31 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/products/resin-charms-for-slime/rw26808-pig-cabbage-resin-flatback-charms/",
+      "destination": "/products/resin-charms-for-slime/rw20809-pig-cabbage-resin-flatback-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/products/resin-charms-for-slime/rw26808-pig-cabbage-resin-flatback-charms/index.html",
+      "destination": "/products/resin-charms-for-slime/rw20809-pig-cabbage-resin-flatback-charms/",
+      "permanent": true
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-17/rw26808/rw26808-pig-cabbage-resin-flatback-charms-01.jpg",
+      "destination": "/assets/images/products/batch-2026-10-17/rw20809/rw20809-pig-cabbage-resin-flatback-charms-01.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-17/rw26808/rw26808-pig-cabbage-resin-flatback-charms-02.jpg",
+      "destination": "/assets/images/products/batch-2026-10-17/rw20809/rw20809-pig-cabbage-resin-flatback-charms-02.jpg",
+      "permanent": true
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-17/rw26808/rw26808-pig-cabbage-resin-flatback-charms-03.jpg",
+      "destination": "/assets/images/products/batch-2026-10-17/rw20809/rw20809-pig-cabbage-resin-flatback-charms-03.jpg",
+      "permanent": true
+    },
+    {
       "source": "/index.html",
       "destination": "/",
       "permanent": true

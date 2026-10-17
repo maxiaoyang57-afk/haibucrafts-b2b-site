@@ -23,4 +23,3 @@ test('October 17 catalog products, three-image gallery and exact quote context w
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
  }
 });
-

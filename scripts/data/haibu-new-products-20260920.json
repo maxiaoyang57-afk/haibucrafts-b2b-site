@@ -320,7 +320,10 @@
         "Reference size: 25 × 20 mm for the measured designs",
         "Source pack reference: 100 pieces per bag",
         "MOQ: to be discussed",
-        "Sample time: 3–7 days"
+        "Sample time: 3–7 days",
+        "Current source reference: approximately 20 × 25 mm; confirm individual design dimensions",
+        "Hole: No hole",
+        "Packing quantity is not the MOQ; confirm selected assortment and dispatch by quotation"
       ],
       "material": "Resin",
       "dimensions": "25 × 20 mm for the measured designs",
@@ -336,7 +339,20 @@
         "natural application display",
         "close-up product detail"
       ],
-      "relatedSkus": []
+      "relatedSkus": [],
+      "sourceFields": {
+        "sku": "RW26813",
+        "标题": "Christmas Miniature Figurines Mixed Snowman Tree Holiday Figures for Desktop Garden Scene Decoration Custom Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 20*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 112,
+      "factsUpdatedAt": "2026-10-17"
     },
     {
       "sku": "RW26814",

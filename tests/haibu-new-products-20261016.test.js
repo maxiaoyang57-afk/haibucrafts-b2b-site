@@ -8,7 +8,8 @@ const manifest = JSON.parse(await readFile('docs/tasks/haibu-new-products-202610
 const supplement = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-supplement.json', 'utf8'));
 const supplementSkus = new Set(supplement.products.map(p => p.sku));
 const evening = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json', 'utf8'));
-const eveningSkus = new Set(evening.products.map(p => p.sku));
+const october17 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261017.json', 'utf8'));
+const eveningSkus = new Set([...evening.products, ...october17.products].map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 const selected = new Set(batch.products.map(p => p.sku));
 

@@ -52,6 +52,8 @@ lines.push(
   `- Quality checkpoints: ${origin}/quality-control/`,
   `- Product documents and scope notes: ${origin}/certificates/`,
   `- Buyer guides: ${origin}/blog/`,
+  `- Reorder version control: ${origin}/blog/craft-supply-reorder-version-control/`,
+  `- Piece count and net-weight reconciliation: ${origin}/blog/craft-supply-piece-count-net-weight/`,
   `- Resin charms buyer guide: ${origin}/blog/resin-charms-wholesale-buying-guide/`,
   `- Christmas mini holiday add-ons: ${origin}/products/slime-charms-wholesale/christmas-slime-charms/`,
   `- Amazon seller craft-supply sourcing checklist: ${origin}/blog/amazon-fba-craft-supplies-sourcing-checklist/`,

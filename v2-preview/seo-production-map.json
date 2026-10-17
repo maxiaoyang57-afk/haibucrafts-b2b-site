@@ -2147,6 +2147,26 @@
       "generatedProduct": true
     },
     {
+      "previewPath": "/v2-preview/blog/craft-supply-reorder-version-control/",
+      "productionPath": "/blog/craft-supply-reorder-version-control/",
+      "title": "Craft Supply Reorder Version Control | HAIBUCRAFT",
+      "description": "Prepare a repeat craft order with current SKUs, retained samples, packaging revisions, approved changes and a clear record of what must stay consistent.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-10-17",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/craft-supply-piece-count-net-weight/",
+      "productionPath": "/blog/craft-supply-piece-count-net-weight/",
+      "title": "Craft Supply Piece Count vs Net Weight | HAIBUCRAFT",
+      "description": "Separate pieces, net weight, bag count and carton totals in a craft-supply order. Use clear units, suitable quantity checks and a simple receiving record.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-10-17",
+      "generatedBlog": true
+    },
+    {
       "previewPath": "/v2-preview/blog/custom-resin-polymer-clay-development-process/",
       "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
       "title": "Custom Resin & Polymer Clay Process | HAIBUCRAFT",

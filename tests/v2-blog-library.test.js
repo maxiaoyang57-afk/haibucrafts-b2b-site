@@ -7,13 +7,13 @@ import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const previewRoot = path.join(root, 'v2-preview');
 
-test('blog library publishes fifteen linked buyer guides', async () => {
+test('blog library publishes seventeen linked buyer guides', async () => {
   const seoMap = JSON.parse(await readFile(path.join(previewRoot, 'seo-production-map.json'), 'utf8'));
   const routes = seoMap.routes.filter((route) => route.generatedBlog);
-  assert.equal(routes.length, 15);
+  assert.equal(routes.length, 17);
 
   const hub = await readFile(path.join(previewRoot, 'blog', 'index.html'), 'utf8');
-  assert.equal((hub.match(/class="blog-guide-card"/g) || []).length, 15);
+  assert.equal((hub.match(/class="blog-guide-card"/g) || []).length, 17);
 
   for (const route of routes) {
     const relative = route.previewPath.slice('/v2-preview/'.length);

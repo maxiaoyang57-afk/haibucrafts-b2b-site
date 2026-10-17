@@ -333,7 +333,7 @@ for (const article of articles) {
   <link rel="stylesheet" href="/v2-preview/assets/blog-library.css">
   <script type="application/ld+json">${structuredData}</script>
 </head>
-<body data-page="blog-article"${article.processOverview ? ' class="custom-development-guide"' : ''}>
+<body data-page="blog-article"${article.processOverview || article.image ? ' class="custom-development-guide"' : ''}>
   <div data-site-header></div>
   <main>
     <section class="blog-article-hero">

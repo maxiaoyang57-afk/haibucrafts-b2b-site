@@ -11,7 +11,7 @@ test('October 17 adds 11 source-backed resin groups and preserves existing catal
  assert.deepEqual(catalog.products.filter(p=>!added.has(p.sku)),manifest.previousProducts);
  assert.equal(new Set(catalog.products.map(p=>p.category)).size,4);
  for(const p of batch.products){
-  assert.equal(p.sourceFields.sku.trim(),p.sku);
+  assert.equal(p.sourceSkuCorrection?.sku || p.sourceFields.sku.trim(),p.sku);
   assert.equal(p.sourceFields['包装规格'],'主要规格100pcs/bag，可以定制，咨询客服');
   const item=catalog.products.find(i=>i.sku===p.sku);
   const html=await readFile(item.productionPath.slice(1)+'index.html','utf8');
@@ -30,4 +30,10 @@ test('October 17 adds 11 source-backed resin groups and preserves existing catal
  assert.match(batch.products.find(p=>p.sku==='RW26811').holeDescription,/diameter not supplied/);
  assert.equal(batch.products.find(p=>p.sku==='RW21765').dimensions,'Confirm dimensions by inquiry');
  assert.equal(catalog.products.filter(p=>p.sku==='RW26813').length,1);
+ assert.equal(catalog.products.some(p=>p.sku==='RW26808'),false);
+ const corrected=batch.products.find(p=>p.sku==='RW20809');
+ assert.equal(corrected.sourceFields.sku,'RW26808');
+ assert.equal(corrected.sourceSkuCorrection.sku,'RW20809');
+ const redirects=JSON.parse(await readFile('vercel.json','utf8')).redirects;
+ assert.ok(redirects.some(r=>r.source==='/products/resin-charms-for-slime/rw26808-pig-cabbage-resin-flatback-charms/'&&r.destination==='/products/resin-charms-for-slime/rw20809-pig-cabbage-resin-flatback-charms/'&&r.permanent));
 });

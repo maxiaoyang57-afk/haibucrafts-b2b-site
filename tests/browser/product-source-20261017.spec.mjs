@@ -13,7 +13,7 @@ test('October 17 catalog products, three-image gallery and exact quote context w
   const main=page.locator('[data-product-gallery-main]'),thumbs=page.locator('[data-product-gallery-thumb]');
   await expect(thumbs).toHaveCount(3);
   for(let i=0;i<3;i++){await thumbs.nth(i).click();await expect(main).toHaveAttribute('src',product.gallery[i]);await expect.poll(()=>main.evaluate(i=>i.complete&&i.naturalWidth>0)).toBe(true);}
-  if(['RW26811','RW26817','RW21765'].includes(product.sku)) {
+  if(['RW26811','RW26817','RW21765','RW20809'].includes(product.sku)) {
    await page.screenshot({path:`test-results/source-${record.assetKey}-${test.info().project.name}.png`,fullPage:true});
   }
   await page.locator('.product-detail-copy a.btn-primary').click();

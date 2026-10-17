@@ -3052,7 +3052,7 @@
       ]
     },
     {
-      "sku": "RW26808",
+      "sku": "RW20809",
       "sourceRow": 119,
       "sourceFields": {
         "sku": "RW26808",
@@ -3077,27 +3077,37 @@
       ],
       "outputs": [
         {
-          "path": "assets/images/products/batch-2026-10-17/rw26808/rw26808-pig-cabbage-resin-flatback-charms-01.jpg",
+          "path": "assets/images/products/batch-2026-10-17/rw20809/rw20809-pig-cabbage-resin-flatback-charms-01.jpg",
           "width": 744,
           "height": 744,
           "bytes": 81882,
           "sha256": "72ea985250d4f3e3c4d52caa32ac523de34bac4a40dd9324357b8766efca4f5a"
         },
         {
-          "path": "assets/images/products/batch-2026-10-17/rw26808/rw26808-pig-cabbage-resin-flatback-charms-02.jpg",
+          "path": "assets/images/products/batch-2026-10-17/rw20809/rw20809-pig-cabbage-resin-flatback-charms-02.jpg",
           "width": 1000,
           "height": 1000,
-          "bytes": 97820,
-          "sha256": "b302eb088733e8f3de2005946c560e5739b76822bdf458da85ff85e23c78ebe6"
+          "bytes": 97827,
+          "sha256": "6f1ec5e0256eb12ef4e0a94a43ee2d9a50d8f2b6f30f1b98b575095389f5f19b"
         },
         {
-          "path": "assets/images/products/batch-2026-10-17/rw26808/rw26808-pig-cabbage-resin-flatback-charms-03.jpg",
+          "path": "assets/images/products/batch-2026-10-17/rw20809/rw20809-pig-cabbage-resin-flatback-charms-03.jpg",
           "width": 1000,
           "height": 1000,
-          "bytes": 112284,
-          "sha256": "b169b036b10afb2a5a471a04a38d40d8c063916112e7a016249f5120650835df"
+          "bytes": 112244,
+          "sha256": "d9966990aa712f20414da450dec37937694e741bc64db0c6b2b910311036933d"
         }
-      ]
+      ],
+      "sourceSkuCorrection": {
+        "originalSku": "RW26808",
+        "sku": "RW20809",
+        "sourceWorkbook": "10.11(9).xlsx",
+        "sourceSheet": "Sheet1",
+        "sourceRow": 119,
+        "product": "Pig and Cabbage Resin Flatback Charms",
+        "confirmedBy": "Owner confirmation in chat on 2026-10-17",
+        "effectiveDate": "2026-10-17"
+      }
     },
     {
       "sku": "RW1021",

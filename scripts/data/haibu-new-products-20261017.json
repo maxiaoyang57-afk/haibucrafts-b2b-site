@@ -707,12 +707,12 @@
       "holeDescription": "No hole"
     },
     {
-      "sku": "RW26808",
+      "sku": "RW20809",
       "title": "Pig and Cabbage Resin Flatback Charms",
       "originalTitle": "Cute Pig Cabbage Flatback Cabochons DIY Accessories for Hair Clips Phone Cases Scrapbooking Custom Wholesale",
       "type": "Animal",
       "categorySlug": "resin-charms",
-      "imageAlt": "Pig and Cabbage Resin Flatback Charms, product code RW26808",
+      "imageAlt": "Pig and Cabbage Resin Flatback Charms, product code RW20809",
       "description": "Mixed pink pig and green cabbage resin flatbacks. Standard pack: 100 pieces per bag; confirm assortment and bulk-order requirements.",
       "detailedDescription": "Mixed pink pig and green cabbage resin flatbacks. Standard pack: 100 pieces per bag; confirm assortment and bulk-order requirements. Confirm individual design dimensions, assortment and backing style by sample. Send the full product code, selected designs, quantity, packing requirements and destination for a bulk quotation.",
       "seasonalTheme": "Decorative resin craft components",
@@ -724,7 +724,7 @@
         "Attachment: No hole"
       ],
       "specificationLines": [
-        "Product code: RW26808",
+        "Product code: RW20809",
         "Material: resin",
         "Dimensions: Approximately 18 × 24 mm",
         "Hole: No hole",
@@ -755,9 +755,9 @@
         "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
       },
       "sourceRow": 119,
-      "assetKey": "rw26808",
+      "assetKey": "rw20809",
       "assetDirectory": "batch-2026-10-17",
-      "imagePrefix": "rw26808-pig-cabbage-resin-flatback-charms",
+      "imagePrefix": "rw20809-pig-cabbage-resin-flatback-charms",
       "imageExtensions": [
         "jpg",
         "jpg",
@@ -791,7 +791,17 @@
       "galleryNote": "Image 1: brand-neutral edited styling reference. Images 2–3: source specification and order-summary graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
       "mediaLabel": "Product reference and buying details",
       "factsUpdatedAt": "2026-10-17",
-      "holeDescription": "No hole"
+      "holeDescription": "No hole",
+      "sourceSkuCorrection": {
+        "originalSku": "RW26808",
+        "sku": "RW20809",
+        "sourceWorkbook": "10.11(9).xlsx",
+        "sourceSheet": "Sheet1",
+        "sourceRow": 119,
+        "product": "Pig and Cabbage Resin Flatback Charms",
+        "confirmedBy": "Owner confirmation in chat on 2026-10-17",
+        "effectiveDate": "2026-10-17"
+      }
     },
     {
       "sku": "RW1021",

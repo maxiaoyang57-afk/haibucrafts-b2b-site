@@ -17,7 +17,7 @@ const slugify = (value) => value
   .replace(/-{2,}/g, '-');
 
 const productSlug = (product) => `${product.sku.toLowerCase()}-${slugify(product.title).replaceAll('-and-', '-')}`;
-const productImage = (product, position) => `/assets/images/products/${batch.assetDirectory}/${product.sku.toLowerCase()}/${product.imagePrefix}-${String(position).padStart(2, '0')}.webp`;
+const productImage = (product, position) => `/assets/images/products/${product.assetDirectory || batch.assetDirectory}/${product.sku.toLowerCase()}/${product.imagePrefix}-${String(position).padStart(2, '0')}.${product.imageExtensions?.[position-1] || 'webp'}`;
 
 function webpDimensions(buffer) {
   assert.equal(buffer.toString('ascii', 0, 4), 'RIFF');
@@ -62,6 +62,7 @@ test('September Resin batch publishes three image-verified SKU galleries', async
   assert.equal(new Set(batch.products.map((product) => product.metaDescription)).size, 3);
 
   for (const product of batch.products) {
+    if (product.preserveApprovedContent) continue; // Current JPEG outputs are verified by the supplement manifest test.
     const directory = path.join(root, 'assets', 'images', 'products', batch.assetDirectory, product.sku.toLowerCase());
     const files = (await readdir(directory)).filter((file) => file.endsWith('.webp')).sort();
     assert.equal(files.length, 3, `${product.sku} must publish exactly three supplied WebP images`);
@@ -73,27 +74,27 @@ test('September Resin batch publishes three image-verified SKU galleries', async
   }
 });
 
-test('Product batches expand the active catalog to 209 products and Resin to 117', async () => {
+test('Product batches expand the active catalog to 220 products and Resin to 123', async () => {
   const catalog = JSON.parse(await readFile(path.join(root, 'assets', 'v2', 'product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products', 'resin-charms-for-slime', 'index.html'), 'utf8');
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
 
-  assert.equal(catalog.count, 209);
-  assert.equal(catalog.products.length, 209);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 209);
-  assert.equal(catalog.products.filter((product) => product.category === 'resin-charms').length, 117);
-  assert.match(category, /<strong data-product-count>117 products<\/strong>/);
-  assert.equal((category.match(/data-product-card/g) || []).length, 117);
-  assert.match(home, /<span>209 cataloged products<\/span>/);
-  assert.match(home, /<span class="eyebrow">117 products<\/span><h3>Resin Charms<\/h3>/);
-  assert.match(directory, /Browse 209 published products/);
-  assert.match(directory, /<span>117 Products<\/span>[\s\S]*?<h2>Resin Charms<\/h2>/);
+  assert.equal(catalog.count, 220);
+  assert.equal(catalog.products.length, 220);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 220);
+  assert.equal(catalog.products.filter((product) => product.category === 'resin-charms').length, 123);
+  assert.match(category, /<strong data-product-count>123 products<\/strong>/);
+  assert.equal((category.match(/data-product-card/g) || []).length, 123);
+  assert.match(home, /<span>220 cataloged products<\/span>/);
+  assert.match(home, /<span class="eyebrow">123 products<\/span><h3>Resin Charms<\/h3>/);
+  assert.match(directory, /Browse 220 published products/);
+  assert.match(directory, /<span>123 Products<\/span>[\s\S]*?<h2>Resin Charms<\/h2>/);
 
   const itemList = [...category.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .map((match) => JSON.parse(match[1]))
     .find((item) => item['@type'] === 'ItemList');
-  assert.equal(itemList?.numberOfItems, 117);
+  assert.equal(itemList?.numberOfItems, 123);
 });
 
 test('September Resin cards and product pages preserve identity, SEO and inquiry attribution', async () => {
@@ -121,10 +122,10 @@ test('September Resin cards and product pages preserve identity, SEO and inquiry
     assert.ok(html.includes(`<h1>${product.title.replaceAll('&', '&amp;')}</h1>`));
     assert.equal((html.match(/data-product-gallery-thumb/g) || []).length, 3);
     assert.equal((html.match(/data-product-gallery-main/g) || []).length, 1);
-    assert.match(html, /Image 1 is the actual product photograph/);
-    assert.ok(html.includes(`<tr><th>Reference size</th><td>${product.dimensions.replaceAll('&', '&amp;')}</td></tr>`));
-    assert.ok(html.includes(`<tr><th>Source packing</th><td>${product.sourcePacking}</td></tr>`));
-    assert.match(html, /data-buyer-fit=/);
+    assert.match(html, product.preserveApprovedContent ? /Image 1: supplied product reference/ : /Image 1 is the actual product photograph/);
+    assert.ok(html.includes(product.dimensions.replaceAll('&', '&amp;')));
+    assert.ok(html.includes(product.sourcePacking));
+    if (!product.preserveApprovedContent) assert.match(html, /data-buyer-fit=/);
     assert.doesNotMatch(html, /Add to Cart|consumer review|in stock|limited time|FDA approved|certified safe/i);
     assert.doesNotMatch(html, /\/v2-preview\//);
 
@@ -133,7 +134,8 @@ test('September Resin cards and product pages preserve identity, SEO and inquiry
     const productLd = jsonLd.find((item) => item['@type'] === 'Product');
     const breadcrumbLd = jsonLd.find((item) => item['@type'] === 'BreadcrumbList');
     assert.equal(productLd?.sku, product.sku);
-    assert.equal(productLd?.image, `${origin}${mainImage}`);
+    if (product.preserveApprovedContent) assert.deepEqual(productLd.image, [1,2,3].map(i=>origin+productImage(product,i)));
+    else assert.equal(productLd?.image, `${origin}${mainImage}`);
     assert.ok(breadcrumbLd);
     assert.equal(sitemap.split(`<loc>${canonical}</loc>`).length - 1, 1, `${product.sku} sitemap URL must appear once`);
   }

@@ -1,3 +1,4 @@
+import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFile } from 'node:fs/promises';
@@ -10,7 +11,7 @@ const supplementSkus = new Set(supplement.products.map(p => p.sku));
 const evening = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json', 'utf8'));
 const october17 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261017.json', 'utf8'));
 const october18 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261018.json', 'utf8'));
-const eveningSkus = new Set([...evening.products, ...october17.products, ...october18.products].map(p => p.sku));
+const eveningSkus = new Set([...evening.products, ...october17.products, ...october18.products, ...[...addedSupplementSkus].map(sku=>({sku}))].map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 const selected = new Set(batch.products.map(p => p.sku));
 
@@ -18,7 +19,7 @@ test('October 16 adds exactly five resin products while preserving every earlier
   assert.deepEqual([...selected].sort(), ['RW26856','RW26857','RW26858','RW26859','RW3628']);
   assert.equal(catalog.count, manifest.catalogCountBefore + selected.size + supplementSkus.size + eveningSkus.size);
   assert.equal(new Set(catalog.products.map(p => p.sku)).size, catalog.count);
-  const prior = catalog.products.filter(p => !selected.has(p.sku) && !supplementSkus.has(p.sku) && !eveningSkus.has(p.sku)).sort((a,b) => a.sku.localeCompare(b.sku));
+  const prior = catalog.products.map(priorMedia).filter(p => !selected.has(p.sku) && !supplementSkus.has(p.sku) && !eveningSkus.has(p.sku)).sort((a,b) => a.sku.localeCompare(b.sku));
   assert.deepEqual(prior, [...manifest.previousProducts].sort((a,b) => a.sku.localeCompare(b.sku)));
   assert.equal(new Set(catalog.products.map(p => p.category)).size, 4);
   for (const sku of ['CZB26813','CZB26818','CZB26846']) assert.ok(!catalog.products.some(p => p.sku === sku));

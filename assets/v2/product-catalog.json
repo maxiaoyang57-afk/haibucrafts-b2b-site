@@ -1,7 +1,52 @@
 {
   "generatedAt": "2026-10-18",
-  "count": 209,
+  "count": 220,
   "products": [
+    {
+      "sku": "YX3889",
+      "title": "Halloween Polymer Clay Sprinkle Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/yx3889/yx3889-halloween-polymer-clay-sprinkle-mix-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/yx3889/yx3889-halloween-polymer-clay-sprinkle-mix-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/yx3889/yx3889-halloween-polymer-clay-sprinkle-mix-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/yx3889/yx3889-halloween-polymer-clay-sprinkle-mix-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3889-halloween-polymer-clay-sprinkle-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3889-halloween-polymer-clay-sprinkle-mix/"
+    },
+    {
+      "sku": "YX097-YX284",
+      "title": "Colorful Rod Polymer Clay Sprinkles",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Sprinkles",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/yx097-yx284/yx097-yx284-colorful-rod-polymer-clay-sprinkles-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/yx097-yx284/yx097-yx284-colorful-rod-polymer-clay-sprinkles-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/yx097-yx284/yx097-yx284-colorful-rod-polymer-clay-sprinkles-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/yx097-yx284/yx097-yx284-colorful-rod-polymer-clay-sprinkles-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx097-yx284-colorful-rod-polymer-clay-sprinkles/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx097-yx284-colorful-rod-polymer-clay-sprinkles/"
+    },
+    {
+      "sku": "YX154",
+      "title": "Carrot Polymer Clay Slices",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Vegetable",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/yx154/yx154-carrot-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/yx154/yx154-carrot-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/yx154/yx154-carrot-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/yx154/yx154-carrot-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx154-carrot-polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx154-carrot-polymer-clay-slices/"
+    },
     {
       "sku": "YX118",
       "title": "Pastel Twisted Polymer Clay Craft Decorations",
@@ -299,11 +344,11 @@
       "category": "polymer-clay-slices",
       "categoryLabel": "Polymer Clay Slices",
       "type": "Seasonal",
-      "image": "/assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-01.jpg",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/yx162/yx162-candy-cane-polymer-clay-cabochons-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-01.jpg",
-        "/assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-02.jpg",
-        "/assets/images/products/batch-2026-09-20/yx162/yx162-candy-cane-clay-cabochons-03.jpg"
+        "/assets/images/products/batch-2026-10-18-supplement/yx162/yx162-candy-cane-polymer-clay-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/yx162/yx162-candy-cane-polymer-clay-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/yx162/yx162-candy-cane-polymer-clay-cabochons-03.jpg"
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx162-wholesale-candy-cane-polymer-clay-cabochons-for-christmas-crafts-miniature-displays/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx162-wholesale-candy-cane-polymer-clay-cabochons-for-christmas-crafts-miniature-displays/"
@@ -1171,6 +1216,96 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26794-mini-coconut-half-resin-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw26794-mini-coconut-half-resin-charms/"
+    },
+    {
+      "sku": "RW26802",
+      "title": "Ice Cream Sundae Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Mini Food",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/rw26802/rw26802-ice-cream-sundae-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/rw26802/rw26802-ice-cream-sundae-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw26802/rw26802-ice-cream-sundae-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw26802/rw26802-ice-cream-sundae-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26802-ice-cream-sundae-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26802-ice-cream-sundae-resin-miniatures/"
+    },
+    {
+      "sku": "RW23909",
+      "title": "Mini Bread Resin Flatback Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Mini Food",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/rw23909/rw23909-mini-bread-resin-flatback-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/rw23909/rw23909-mini-bread-resin-flatback-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw23909/rw23909-mini-bread-resin-flatback-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw23909/rw23909-mini-bread-resin-flatback-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23909-mini-bread-resin-flatback-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw23909-mini-bread-resin-flatback-cabochons/"
+    },
+    {
+      "sku": "RW26788",
+      "title": "Pink and Gold Mermaid Tail Resin Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Ocean",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/rw26788/rw26788-pink-and-gold-mermaid-tail-resin-charms-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/rw26788/rw26788-pink-and-gold-mermaid-tail-resin-charms-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw26788/rw26788-pink-and-gold-mermaid-tail-resin-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw26788/rw26788-pink-and-gold-mermaid-tail-resin-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26788-pink-gold-mermaid-tail-resin-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw26788-pink-gold-mermaid-tail-resin-charms/"
+    },
+    {
+      "sku": "RW24241",
+      "title": "Halloween Resin Miniature Assortment",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/rw24241/rw24241-halloween-resin-miniature-assortment-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/rw24241/rw24241-halloween-resin-miniature-assortment-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw24241/rw24241-halloween-resin-miniature-assortment-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw24241/rw24241-halloween-resin-miniature-assortment-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24241-halloween-resin-miniature-assortment/",
+      "productionPath": "/products/resin-charms-for-slime/rw24241-halloween-resin-miniature-assortment/"
+    },
+    {
+      "sku": "RW002587",
+      "title": "Bee Honey Pot Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Nature",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/rw002587/rw002587-bee-honey-pot-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/rw002587/rw002587-bee-honey-pot-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw002587/rw002587-bee-honey-pot-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw002587/rw002587-bee-honey-pot-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw002587-bee-honey-pot-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw002587-bee-honey-pot-resin-cabochons/"
+    },
+    {
+      "sku": "RW1602",
+      "title": "Mixed Donut Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Mini Food",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/rw1602/rw1602-mixed-donut-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/rw1602/rw1602-mixed-donut-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw1602/rw1602-mixed-donut-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw1602/rw1602-mixed-donut-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw1602-mixed-donut-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw1602-mixed-donut-resin-cabochons/"
     },
     {
       "sku": "RW26817",
@@ -2197,11 +2332,11 @@
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Food",
-      "image": "/assets/images/products/batch-2026-09/rw967/rw967-mini-fried-egg-resin-flatback-charms-01.webp",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/rw967/rw967-mini-fried-egg-resin-flatback-charms-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09/rw967/rw967-mini-fried-egg-resin-flatback-charms-01.webp",
-        "/assets/images/products/batch-2026-09/rw967/rw967-mini-fried-egg-resin-flatback-charms-02.webp",
-        "/assets/images/products/batch-2026-09/rw967/rw967-mini-fried-egg-resin-flatback-charms-03.webp"
+        "/assets/images/products/batch-2026-10-18-supplement/rw967/rw967-mini-fried-egg-resin-flatback-charms-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw967/rw967-mini-fried-egg-resin-flatback-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw967/rw967-mini-fried-egg-resin-flatback-charms-03.jpg"
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw967-mini-fried-egg-resin-flatback-charms/",
       "productionPath": "/products/resin-charms-for-slime/rw967-mini-fried-egg-resin-flatback-charms/"
@@ -2392,11 +2527,11 @@
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Food & Drink",
-      "image": "/assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-01.jpg",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/rw26460/rw26460-mixed-citrus-and-kiwi-resin-fruit-flatbacks-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-01.jpg",
-        "/assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-02.jpg",
-        "/assets/images/products/batch-2026-09-20/rw26460/rw26460-mini-fruit-resin-flatbacks-03.jpg"
+        "/assets/images/products/batch-2026-10-18-supplement/rw26460/rw26460-mixed-citrus-and-kiwi-resin-fruit-flatbacks-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw26460/rw26460-mixed-citrus-and-kiwi-resin-fruit-flatbacks-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/rw26460/rw26460-mixed-citrus-and-kiwi-resin-fruit-flatbacks-03.jpg"
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26460-wholesale-14-13-mm-mixed-citrus-kiwi-resin-fruit-flatbacks-for-scrapbooking-seasonal-crafts/",
       "productionPath": "/products/resin-charms-for-slime/rw26460-wholesale-14-13-mm-mixed-citrus-kiwi-resin-fruit-flatbacks-for-scrapbooking-seasonal-crafts/"
@@ -2717,6 +2852,36 @@
       "productionPath": "/products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/"
     },
     {
+      "sku": "MA274",
+      "title": "Mixed Round Craft Confetti Sequins",
+      "category": "sequins-glitter-confetti",
+      "categoryLabel": "Sequins & Confetti",
+      "type": "Round",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/ma274/ma274-mixed-round-craft-confetti-sequins-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/ma274/ma274-mixed-round-craft-confetti-sequins-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/ma274/ma274-mixed-round-craft-confetti-sequins-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/ma274/ma274-mixed-round-craft-confetti-sequins-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma274-mixed-round-craft-confetti-sequins/",
+      "productionPath": "/products/sequins-glitter-confetti/ma274-mixed-round-craft-confetti-sequins/"
+    },
+    {
+      "sku": "MA",
+      "title": "Christmas Snowflake Craft Sequins",
+      "category": "sequins-glitter-confetti",
+      "categoryLabel": "Sequins & Confetti",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-18-supplement/ma/ma-christmas-snowflake-craft-sequins-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/ma/ma-christmas-snowflake-craft-sequins-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/ma/ma-christmas-snowflake-craft-sequins-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/ma/ma-christmas-snowflake-craft-sequins-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma-christmas-snowflake-craft-sequins/",
+      "productionPath": "/products/sequins-glitter-confetti/ma-christmas-snowflake-craft-sequins/"
+    },
+    {
       "sku": "MA168",
       "title": "Holographic Hexagon Glitter Mix Wholesale",
       "category": "sequins-glitter-confetti",
@@ -2770,8 +2935,12 @@
       "category": "sequins-glitter-confetti",
       "categoryLabel": "Sequins & Confetti",
       "type": "Star",
-      "image": "/assets/images/products/rainbow-star-glitter-confetti.webp",
-      "gallery": [],
+      "image": "/assets/images/products/batch-2026-10-18-supplement/ma059/ma059-rainbow-star-glitter-confetti-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-supplement/ma059/ma059-rainbow-star-glitter-confetti-01.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/ma059/ma059-rainbow-star-glitter-confetti-02.jpg",
+        "/assets/images/products/batch-2026-10-18-supplement/ma059/ma059-rainbow-star-glitter-confetti-03.jpg"
+      ],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma059-rainbow-star-glitter-confetti/",
       "productionPath": "/products/sequins-glitter-confetti/ma059-rainbow-star-glitter-confetti/"
     },

@@ -35,6 +35,7 @@ const haibuOctober16Supplement = JSON.parse(await readFile(path.join(root, 'scri
 const haibuOctober16Evening = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261016-evening.json'), 'utf8'));
 const haibuOctober17Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261017.json'), 'utf8'));
 const haibuOctober18Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261018.json'), 'utf8'));
+const haibuOctober18Supplement = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261018-supplement.json'), 'utf8'));
 const purchasingBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-purchasing-20261002.json'), 'utf8'));
 const purchasingBySku = new Map(purchasingBatch.products.map((item) => [item.sku, item]));
 const productBatches = [
@@ -53,7 +54,8 @@ const productBatches = [
   { issue: 'haibu-new-products-20261016-supplement', data: haibuOctober16Supplement },
   { issue: 'haibu-new-products-20261016-evening', data: haibuOctober16Evening },
   { issue: 'haibu-new-products-20261017', data: haibuOctober17Batch },
-  { issue: 'haibu-new-products-20261018', data: haibuOctober18Batch }
+  { issue: 'haibu-new-products-20261018', data: haibuOctober18Batch },
+  { issue: 'haibu-new-products-20261018-supplement', data: haibuOctober18Supplement }
 ];
 
 for (const { issue, data } of productBatches) {
@@ -260,7 +262,7 @@ for (const category of categories) {
       }
     );
   }
-  const frontSkus = new Set(categoryBatchRecords.filter(({ data }) => data.prependProducts).map(({ product }) => product.sku));
+  const frontSkus = new Set(categoryBatchRecords.filter(({ data, product }) => data.prependProducts && !product.preserveCatalogOrder).map(({ product }) => product.sku));
   if (frontSkus.size) {
     const front = [];
     html = html.replace(/<article class="product-card-v2"[^>]*>[\s\S]*?<\/article>/g, (article) => {
@@ -332,14 +334,14 @@ for (const category of categories) {
       holeDescription: batchProduct?.holeDescription || null,
       packingOptions: batchProduct ? batchRecord.data.packingOptions : [],
       galleryNote: batchProduct?.galleryNote || batchRecord?.data.galleryNote || null,
-      structuredDataImageMode: batchRecord?.data.structuredDataImageMode || 'gallery',
+      structuredDataImageMode: batchProduct?.structuredDataImageMode || batchRecord?.data.structuredDataImageMode || 'gallery',
       buyerHeading: batchProduct?.buyerHeading || null,
       buyerCopy: batchProduct?.buyerCopy || null,
       applications: batchProduct?.applications || [],
       relatedSkus: batchProduct?.relatedSkus || [],
       dimensions: batchProduct?.dimensions || null,
       sourcePacking: batchProduct?.sourcePacking || null,
-      approvedListing: batchRecord?.data.preserveApprovedContent ? {
+      approvedListing: (batchProduct?.preserveApprovedContent ?? batchRecord?.data.preserveApprovedContent) ? {
         originalTitle: batchProduct.originalTitle,
         seasonalTheme: batchProduct.seasonalTheme,
         keySellingPoints: batchProduct.keySellingPoints,

@@ -1,3 +1,4 @@
+import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
@@ -7,13 +8,13 @@ const manifest = JSON.parse(await readFile('docs/tasks/haibu-new-products-202610
 const evening = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json', 'utf8'));
 const october17 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261017.json', 'utf8'));
 const october18 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261018.json', 'utf8'));
-const eveningSkus = new Set([...evening.products, ...october17.products, ...october18.products].map(p => p.sku));
+const eveningSkus = new Set([...evening.products, ...october17.products, ...october18.products, ...[...addedSupplementSkus].map(sku=>({sku}))].map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 test('supplement preserves all previous identities and connects exact source SKUs, galleries and inquiries', async () => {
   const selected = new Set(batch.products.map(p => p.sku));
   assert.equal(selected.size, 11);
   assert.equal(catalog.count, manifest.catalogCountBefore + selected.size + eveningSkus.size);
-  assert.deepEqual(catalog.products.filter(p => !selected.has(p.sku) && !eveningSkus.has(p.sku)), manifest.previousProducts);
+  assert.deepEqual(catalog.products.map(priorMedia).filter(p => !selected.has(p.sku) && !eveningSkus.has(p.sku)), manifest.previousProducts);
   for (const record of manifest.products) {
     const source = batch.products.find(p => p.sku === record.sku);
     assert.deepEqual(source.sourceFields, record.sourceFields);

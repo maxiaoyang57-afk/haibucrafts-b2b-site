@@ -118,11 +118,11 @@
       "sku": "RW474",
       "title": "Mixed Sweet Candy Resin Charms",
       "type": "Sweet",
-      "imagePrefix": "rw474-mixed-sweet-candy-resin-charms",
-      "dimensions": "Approx. 24 × 15 mm",
-      "sourcePacking": "100 pieces per bag",
-      "description": "A colorful mixed assortment of sweet-candy pillow resin charms for slime add-ins, jewelry making, phone accessories and themed DIY craft programs.",
-      "metaDescription": "Source RW474 mixed sweet candy resin charms for wholesale slime, jewelry-making and DIY assortments. Approx. 24 × 15 mm; 100 pcs/bag.",
+      "imagePrefix": "rw474-mixed-sweet-candy-resin-charm-assortment",
+      "dimensions": "24 × 15 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "description": "Mixed sweet candy resin charms for slime, decoden and decorative craft kits. Supplied size 24 × 15 mm; standard packing 100 pieces per bag. Non-edible.",
+      "metaDescription": "Mixed sweet candy resin charms for slime, decoden and decorative craft kits. Supplied size 24 × 15 mm; standard packing 100 pieces per bag. Non-edible.",
       "buyerHeading": "Mixed candy charms for colorful sweet-theme assortments.",
       "buyerCopy": "RW474 supports buyers building colorful candy-theme product lines across slime, jewelry and craft kits. Review the actual product image to confirm the assortment, colors and individual shapes, then confirm pack composition and quantity in the quotation.",
       "applications": [
@@ -131,15 +131,89 @@
         "DIY kits and phone accessories"
       ],
       "galleryLabels": [
-        "main product photo",
-        "styled jewelry and phone-accessory scene",
-        "supplemental candy-charm display scene"
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
       ],
       "relatedSkus": [
         "RW4252",
         "RW1620",
         "RW22372"
-      ]
+      ],
+      "originalTitle": "100PCS Resin Mixed Sweet Candy Charms Artificial Food Slime Parts Jewelry Making Accessory Home Table Decor",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mixed Sweet Candy Resin Charms, product code RW474",
+      "detailedDescription": "Mixed sweet candy resin charms for slime, decoden and decorative craft kits. Supplied size 24 × 15 mm; standard packing 100 pieces per bag. Non-edible. Decorative craft component. Confirm selected designs, dimensions and finish against a sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mixed Sweet Candy Resin Charms",
+        "Material: resin",
+        "Dimensions: 24 × 15 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW474",
+        "Material: resin",
+        "Dimensions: 24 × 15 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Decorative craft component. Confirm selected designs, dimensions and finish against a sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decoden, miniature displays and coordinated decorative craft projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mixed sweet candy resin charm assortment, wholesale craft components",
+      "metaTitle": "Mixed Sweet Candy Resin Charms Wholesale | HAIBUCRAFT",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-135757).xlsx",
+      "sourceFields": {
+        "sku": "RW474",
+        "标题": "100PCS Resin Mixed Sweet Candy Charms Artificial Food Slime Parts Jewelry Making Accessory Home Table Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "24mm*15mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 186,
+      "assetKey": "rw474",
+      "assetDirectory": "batch-2026-10-18-night",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 688,
+          "height": 635
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryNote": "Image 1: supplied product reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true,
+      "structuredDataImageMode": "gallery"
     },
     {
       "sku": "RW326",

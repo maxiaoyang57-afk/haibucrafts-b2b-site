@@ -1,0 +1,542 @@
+{
+  "batch": "haibu-new-products-20261018-night",
+  "expectedSkuCount": 6,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-18-night",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-18",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW26751",
+      "title": "Mini Crunchy Cake Resin Cabochons",
+      "originalTitle": "Wholesale Crunchy Cake Cabochons Custom Rectangular Mini Dessert Decorations for Hair Accessories Bag and Phone Projects",
+      "type": "Food & Drink",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Crunchy Cake Resin Cabochons, product code RW26751",
+      "description": "Mini rectangular cake resin cabochons in assorted finishes for phone cases, hair accessories and bag decoration. Size 13 × 24 mm; 100 pieces per bag.",
+      "detailedDescription": "Mini rectangular cake resin cabochons in assorted finishes for phone cases, hair accessories and bag decoration. Size 13 × 24 mm; 100 pieces per bag. Decorative craft component. Confirm selected designs, dimensions and finish against a sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Crunchy Cake Resin Cabochons",
+        "Material: resin",
+        "Dimensions: 13 × 24 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26751",
+        "Material: resin",
+        "Dimensions: 13 × 24 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Decorative craft component. Confirm selected designs, dimensions and finish against a sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "13 × 24 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decoden, miniature displays and coordinated decorative craft projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini crunchy cake resin cabochons, wholesale craft components",
+      "metaTitle": "Mini Crunchy Cake Resin Cabochons | HAIBUCRAFT",
+      "metaDescription": "Mini rectangular cake resin cabochons in assorted finishes for phone cases, hair accessories and bag decoration. Size 13 × 24 mm; 100 pieces per bag.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-135757).xlsx",
+      "sourceFields": {
+        "sku": "RW26751",
+        "标题": "Wholesale Crunchy Cake Cabochons Custom Rectangular Mini Dessert Decorations for Hair Accessories Bag and Phone Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "13*24mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 179,
+      "assetKey": "rw26751",
+      "assetDirectory": "batch-2026-10-18-night",
+      "imagePrefix": "rw26751-mini-crunchy-cake-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 724,
+          "height": 725
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited styling reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26750",
+      "title": "Mixed Food and Botanical Resin Cabochons",
+      "originalTitle": "Wholesale Mixed Food Botanical Cabochons Custom 3D Mini Decorations for Hair Accessories Shoe Charms and Bag Projects",
+      "type": "Food & Drink",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mixed Food and Botanical Resin Cabochons, product code RW26750",
+      "description": "Mixed food and botanical resin cabochons for decoden, hair accessories and bag projects. Supplied size 20 × 28 mm; confirm each selected design by sample.",
+      "detailedDescription": "Mixed food and botanical resin cabochons for decoden, hair accessories and bag projects. Supplied size 20 × 28 mm; confirm each selected design by sample. The supplied size is a listing reference; individual shapes may vary. Confirm the selected design dimensions by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mixed Food and Botanical Resin Cabochons",
+        "Material: resin",
+        "Dimensions: 20 × 28 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26750",
+        "Material: resin",
+        "Dimensions: 20 × 28 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: The supplied size is a listing reference; individual shapes may vary. Confirm the selected design dimensions by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "20 × 28 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decoden, miniature displays and coordinated decorative craft projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "food botanical resin cabochon mix, wholesale craft components",
+      "metaTitle": "Food Botanical Resin Cabochons Wholesale | HAIBUCRAFT",
+      "metaDescription": "Mixed food and botanical resin cabochons for decoden, hair accessories and bag projects. Supplied size 20 × 28 mm; confirm each selected design by sample.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-135757).xlsx",
+      "sourceFields": {
+        "sku": "RW26750",
+        "标题": "Wholesale Mixed Food Botanical Cabochons Custom 3D Mini Decorations for Hair Accessories Shoe Charms and Bag Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*28mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 180,
+      "assetKey": "rw26750",
+      "assetDirectory": "batch-2026-10-18-night",
+      "imagePrefix": "rw26750-food-botanical-resin-cabochon-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 742,
+          "height": 713
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited styling reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26748",
+      "title": "Gingerbread Theme Resin Holiday Pendants",
+      "originalTitle": "Wholesale Gingerbread Theme Charms Custom Pre Drilled Holiday Pendants for  Keychain Accessories",
+      "type": "Seasonal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Gingerbread Theme Resin Holiday Pendants, product code RW26748",
+      "description": "Gingerbread theme resin pendants for holiday keychains and accessories. Approximately 20 × 25 mm; confirm attachment opening and hole diameter by sample.",
+      "detailedDescription": "Gingerbread theme resin pendants for holiday keychains and accessories. Approximately 20 × 25 mm; confirm attachment opening and hole diameter by sample. Pendant openings are shown in the styling reference. Confirm attachment style and hole diameter against the selected sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Gingerbread Theme Resin Holiday Pendants",
+        "Material: resin",
+        "Dimensions: Approximately 20 × 25 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: Pendant openings visible; hole diameter requires confirmation"
+      ],
+      "specificationLines": [
+        "Product code: RW26748",
+        "Material: resin",
+        "Dimensions: Approximately 20 × 25 mm",
+        "Hole: Pendant openings visible; hole diameter requires confirmation",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Pendant openings are shown in the styling reference. Confirm attachment style and hole diameter against the selected sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "Approximately 20 × 25 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decoden, miniature displays and coordinated decorative craft projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "gingerbread resin holiday pendant charms, wholesale craft components",
+      "metaTitle": "Gingerbread Resin Holiday Pendants Wholesale | HAIBUCRAFT",
+      "metaDescription": "Gingerbread theme resin pendants for holiday keychains and accessories. Approximately 20 × 25 mm; confirm attachment opening and hole diameter by sample.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-135757).xlsx",
+      "sourceFields": {
+        "sku": "RW26748",
+        "标题": "Wholesale Gingerbread Theme Charms Custom Pre Drilled Holiday Pendants for  Keychain Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 20*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 181,
+      "assetKey": "rw26748",
+      "assetDirectory": "batch-2026-10-18-night",
+      "imagePrefix": "rw26748-gingerbread-resin-holiday-pendant-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 750,
+          "height": 724
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited styling reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "Pendant openings visible; hole diameter requires confirmation",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26747",
+      "title": "Mini Fruit Drink Cup Resin Decorations",
+      "originalTitle": "Wholesale Mini Drink Cup Decorations Custom 3D Drink Cup Charms for Miniature Scenes Keychains Bags and Desk Accessories",
+      "type": "Food & Drink",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Fruit Drink Cup Resin Decorations, product code RW26747",
+      "description": "Mini fruit drink cup resin decorations for miniature displays, phone cases and DIY accessories. Size 15 × 18 mm; 100 pieces per bag, with packing by inquiry.",
+      "detailedDescription": "Mini fruit drink cup resin decorations for miniature displays, phone cases and DIY accessories. Size 15 × 18 mm; 100 pieces per bag, with packing by inquiry. Decorative craft component. Confirm selected designs, dimensions and finish against a sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Fruit Drink Cup Resin Decorations",
+        "Material: resin",
+        "Dimensions: 15 × 18 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26747",
+        "Material: resin",
+        "Dimensions: 15 × 18 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Decorative craft component. Confirm selected designs, dimensions and finish against a sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "15 × 18 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decoden, miniature displays and coordinated decorative craft projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini fruit drink cup resin decorations, wholesale craft components",
+      "metaTitle": "Mini Fruit Drink Cup Resin Decorations | HAIBUCRAFT",
+      "metaDescription": "Mini fruit drink cup resin decorations for miniature displays, phone cases and DIY accessories. Size 15 × 18 mm; 100 pieces per bag, with packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-135757).xlsx",
+      "sourceFields": {
+        "sku": "RW26747",
+        "标题": "Wholesale Mini Drink Cup Decorations Custom 3D Drink Cup Charms for Miniature Scenes Keychains Bags and Desk Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "15*18mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 182,
+      "assetKey": "rw26747",
+      "assetDirectory": "batch-2026-10-18-night",
+      "imagePrefix": "rw26747-mini-fruit-drink-cup-resin-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 750,
+          "height": 758
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited styling reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26745",
+      "title": "Pastel Cloud and Rainbow Resin Cabochons",
+      "originalTitle": "Wholesale Pastel Sky Cabochons Custom 3D Cloud Arc Mini Decorations for Hair Bows Shoe Accessories and Scrapbook Projects",
+      "type": "Food & Drink",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Cloud and Rainbow Resin Cabochons, product code RW26745",
+      "description": "Pastel cloud and rainbow resin cabochons for hair bows, phone cases and scrapbook projects. Supplied size 10 × 14 mm; confirm individual designs by sample.",
+      "detailedDescription": "Pastel cloud and rainbow resin cabochons for hair bows, phone cases and scrapbook projects. Supplied size 10 × 14 mm; confirm individual designs by sample. The supplied size is a listing reference; individual shapes may vary. Confirm the selected design dimensions by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Cloud and Rainbow Resin Cabochons",
+        "Material: resin",
+        "Dimensions: 10 × 14 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26745",
+        "Material: resin",
+        "Dimensions: 10 × 14 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: The supplied size is a listing reference; individual shapes may vary. Confirm the selected design dimensions by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "10 × 14 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decoden, miniature displays and coordinated decorative craft projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "pastel cloud rainbow resin cabochons, wholesale craft components",
+      "metaTitle": "Pastel Cloud Rainbow Resin Cabochons | HAIBUCRAFT",
+      "metaDescription": "Pastel cloud and rainbow resin cabochons for hair bows, phone cases and scrapbook projects. Supplied size 10 × 14 mm; confirm individual designs by sample.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-135757).xlsx",
+      "sourceFields": {
+        "sku": "RW26745",
+        "标题": "Wholesale Pastel Sky Cabochons Custom 3D Cloud Arc Mini Decorations for Hair Bows Shoe Accessories and Scrapbook Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "10*14mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 184,
+      "assetKey": "rw26745",
+      "assetDirectory": "batch-2026-10-18-night",
+      "imagePrefix": "rw26745-pastel-cloud-rainbow-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 745,
+          "height": 688
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited styling reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26744",
+      "title": "Mini Chocolate Cake Resin Cabochons",
+      "originalTitle": "Wholesale Chocolate Cake Cabochons Custom 3D Mini Dessert Decorations for Hair Accessories Phone Decor and Scrapbook Projects",
+      "type": "Food & Drink",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Chocolate Cake Resin Cabochons, product code RW26744",
+      "description": "Mini chocolate cake resin cabochons for hair accessories, phone decor and miniature crafts. Size 23 × 15 × 13 mm; standard packing 100 pieces per bag.",
+      "detailedDescription": "Mini chocolate cake resin cabochons for hair accessories, phone decor and miniature crafts. Size 23 × 15 × 13 mm; standard packing 100 pieces per bag. Decorative craft component. Confirm selected designs, dimensions and finish against a sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Chocolate Cake Resin Cabochons",
+        "Material: resin",
+        "Dimensions: 23 × 15 × 13 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26744",
+        "Material: resin",
+        "Dimensions: 23 × 15 × 13 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Decorative craft component. Confirm selected designs, dimensions and finish against a sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "dimensions": "23 × 15 × 13 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decoden, miniature displays and coordinated decorative craft projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini chocolate cake resin cabochons, wholesale craft components",
+      "metaTitle": "Mini Chocolate Cake Resin Cabochons | HAIBUCRAFT",
+      "metaDescription": "Mini chocolate cake resin cabochons for hair accessories, phone decor and miniature crafts. Size 23 × 15 × 13 mm; standard packing 100 pieces per bag.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-135757).xlsx",
+      "sourceFields": {
+        "sku": "RW26744",
+        "标题": "Wholesale Chocolate Cake Cabochons Custom 3D Mini Dessert Decorations for Hair Accessories Phone Decor and Scrapbook Projects",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "23*15*13mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 185,
+      "assetKey": "rw26744",
+      "assetDirectory": "batch-2026-10-18-night",
+      "imagePrefix": "rw26744-mini-chocolate-cake-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 693,
+          "height": 737
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: brand-neutral edited styling reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

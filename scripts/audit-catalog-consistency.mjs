@@ -7,13 +7,14 @@ const config = JSON.parse(await readFile(path.join(root, 'scripts/data/issue-37-
 const retirement = JSON.parse(await readFile(path.join(root, 'scripts/data/sequins-ma079-retirement.json'), 'utf8'));
 const newProductBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20260909.json'), 'utf8'));
 const octoberProductBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261013.json'), 'utf8'));
+const supplementBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261018-supplement.json'), 'utf8'));
 const category = config.category;
 const mapping = config.mapping;
 const legacyPaths = Object.keys(mapping);
 const finalSkus = [...new Set(Object.values(mapping))].filter((sku) => sku !== retirement.sku);
 const expectedActiveCount = config.expectedActiveCount - 1
-  + [newProductBatch, octoberProductBatch].reduce((count, batch) =>
-    count + batch.products.filter((product) => product.categorySlug === category).length, 0);
+  + [newProductBatch, octoberProductBatch, supplementBatch].reduce((count, batch) =>
+    count + batch.products.filter((product) => product.categorySlug === category && !product.preserveCatalogOrder).length, 0);
 const errors = [];
 
 const exists = async (file) => { try { await access(file); return true; } catch { return false; } };

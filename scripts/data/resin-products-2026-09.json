@@ -19,9 +19,9 @@
       "type": "Food",
       "imagePrefix": "rw967-mini-fried-egg-resin-flatback-charms",
       "dimensions": "35 × 31 × 8 mm",
-      "sourcePacking": "100 pieces per bag",
-      "description": "White fried-egg-shaped resin flatback charms for food-themed slime add-ins, decoden, phone-case decoration, scrapbooking and miniature DIY assortments.",
-      "metaDescription": "Source RW967 mini fried egg resin flatback charms for wholesale slime, decoden, scrapbooking and DIY kits. Size: 35 × 31 × 8 mm; 100 pcs/bag.",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "description": "Resin Fried Egg 1:12 White Egg Flatback Miniature Food Cabochons for DIY Scrapbooking; confirm dimensions, assortment and packing by inquiry.",
+      "metaDescription": "Resin Fried Egg 1:12 White Egg Flatback Miniature Food Cabochons for DIY Scrapbooking; confirm dimensions, assortment and packing by inquiry.",
       "buyerHeading": "Mini fried egg flatbacks for food-themed craft ranges.",
       "buyerCopy": "RW967 gives buyers a recognizable miniature fried egg motif for food-themed slime, decoden and scrapbook assortments. Confirm color, surface finish, flatback style, quantity and packing against the approved sample before ordering.",
       "applications": [
@@ -30,15 +30,89 @@
         "Scrapbooking and miniature DIY kits"
       ],
       "galleryLabels": [
-        "main product photo",
-        "styled slime and phone-case application scene",
-        "supplemental slime application scene"
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
       ],
       "relatedSkus": [
         "RW22372",
         "RW4252",
         "RW1620"
-      ]
+      ],
+      "originalTitle": "Resin Fried Egg 1:12 White Egg Flatback Miniature Food Cabochons for DIY Scrapbooking",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Fried Egg Resin Flatback Charms, product code RW967",
+      "detailedDescription": "Resin Fried Egg 1:12 White Egg Flatback Miniature Food Cabochons for DIY Scrapbooking; confirm dimensions, assortment and packing by inquiry. Decorative imitation fried eggs; non-edible. Confirm the backing and selected assortment. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Fried Egg Resin Flatback Charms",
+        "Material: resin",
+        "Dimensions: 35 × 31 × 8 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole specified; confirm attachment method"
+      ],
+      "specificationLines": [
+        "Product code: RW967",
+        "Material: resin",
+        "Dimensions: 35 × 31 × 8 mm",
+        "Hole: No hole specified; confirm attachment method",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Decorative imitation fried eggs; non-edible. Confirm the backing and selected assortment.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "resin",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Decorative imitation fried eggs; non-edible. Confirm the backing and selected assortment.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini fried egg resin flatback charms, wholesale craft components",
+      "metaTitle": "Mini Fried Egg Resin Flatback Charms | HAIBUCRAFT",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-071932).xlsx",
+      "sourceFields": {
+        "sku": "RW967 ",
+        "标题": "Resin Fried Egg 1:12 White Egg Flatback Miniature Food Cabochons for DIY Scrapbooking",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "35*31*8mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 134,
+      "assetKey": "rw967",
+      "assetDirectory": "batch-2026-10-18-supplement",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 768,
+          "height": 525
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryNote": "Image 1: supplied product reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole specified; confirm attachment method",
+      "preserveApprovedContent": true,
+      "structuredDataImageMode": "gallery"
     },
     {
       "sku": "RW474",

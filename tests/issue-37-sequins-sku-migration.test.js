@@ -41,16 +41,16 @@ test('Issue #37 preserves active Sequins identities while applying corrected uni
   const catalog = JSON.parse(await readFile(path.join(root, 'assets/v2/product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products/sequins-glitter-confetti/index.html'), 'utf8');
   const products = catalog.products.filter((product) => product.category === 'sequins-glitter-confetti');
-  assert.equal(products.length, 21);
-  assert.equal(new Set(products.map((product) => product.sku)).size, 21);
-  assert.equal(cards(category).length, 21);
+  assert.equal(products.length, 23);
+  assert.equal(new Set(products.map((product) => product.sku)).size, 23);
+  assert.equal(cards(category).length, 23);
   for (const [oldSku, newSku] of Object.entries(mapping)) {
     if (newSku === retirement.sku) continue;
     const [title, image] = identity[oldSku];
     const card = skuCard(category, newSku);
     assert.ok(card, `missing corrected card ${newSku}`);
     assert.match(card, new RegExp(title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
-    assert.match(card, new RegExp(image.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
+    assert.match(card, new RegExp((newSku === 'MA059' ? '/assets/images/products/batch-2026-10-18-supplement/ma059/ma059-rainbow-star-glitter-confetti-01.jpg' : image).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
     const product = products.find((item) => item.sku === newSku && item.title === title);
     assert.ok(product, `${oldSku} -> ${newSku} identity missing from catalog`);
     const detail = await readFile(path.join(root, product.productionPath.slice(1), 'index.html'), 'utf8');

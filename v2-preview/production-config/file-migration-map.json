@@ -92,6 +92,27 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3889-halloween-polymer-clay-sprinkle-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx097-yx284-colorful-rod-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx097-yx284-colorful-rod-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx097-yx284-colorful-rod-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx154-carrot-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx154-carrot-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx154-carrot-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx118-pastel-twisted-polymer-clay-craft-decorations/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx118-pastel-twisted-polymer-clay-craft-decorations/index.html",
       "action": "create",
@@ -649,6 +670,48 @@
       "destination": "products/resin-charms-for-slime/rw26794-mini-coconut-half-resin-charms/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw26794-mini-coconut-half-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26802-ice-cream-sundae-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26802-ice-cream-sundae-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26802-ice-cream-sundae-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23909-mini-bread-resin-flatback-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23909-mini-bread-resin-flatback-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23909-mini-bread-resin-flatback-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26788-pink-gold-mermaid-tail-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26788-pink-gold-mermaid-tail-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26788-pink-gold-mermaid-tail-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24241-halloween-resin-miniature-assortment/index.html",
+      "destination": "products/resin-charms-for-slime/rw24241-halloween-resin-miniature-assortment/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24241-halloween-resin-miniature-assortment/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002587-bee-honey-pot-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw002587-bee-honey-pot-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002587-bee-honey-pot-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1602-mixed-donut-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw1602-mixed-donut-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1602-mixed-donut-resin-cabochons/",
       "generatedProduct": true
     },
     {
@@ -1405,6 +1468,20 @@
       "destination": "products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ma274-mixed-round-craft-confetti-sequins/index.html",
+      "destination": "products/sequins-glitter-confetti/ma274-mixed-round-craft-confetti-sequins/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ma274-mixed-round-craft-confetti-sequins/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ma-christmas-snowflake-craft-sequins/index.html",
+      "destination": "products/sequins-glitter-confetti/ma-christmas-snowflake-craft-sequins/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ma-christmas-snowflake-craft-sequins/",
       "generatedProduct": true
     },
     {

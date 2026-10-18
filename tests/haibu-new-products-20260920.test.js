@@ -1,3 +1,4 @@
+import { priorMedia } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFile, readdir, stat } from 'node:fs/promises';
@@ -17,9 +18,9 @@ test('publishes 13 new September 20 SKUs and skips existing RW002155', () => {
   assert.equal(batch.expectedSkuCount, 13);
   assert.deepEqual(batch.products.map((product) => product.sku), expectedSkus);
   assert.equal(new Set(expectedSkus).size, 13);
-  assert.equal(catalog.count, 209);
-  assert.equal(catalog.products.length, 209);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 209);
+  assert.equal(catalog.count, 220);
+  assert.equal(catalog.products.length, 220);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 220);
   assert.deepEqual(catalog, previewCatalog);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'resin-charms').length, 10);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'polymer-clay-slices').length, 3);
@@ -32,7 +33,7 @@ test('publishes three traceable web-ready JPEG images per new SKU', async () => 
   for (const product of manifest.products) {
     const catalogProduct = bySku.get(product.sku);
     assert.equal(product.outputs.length, 3);
-    assert.deepEqual(catalogProduct.gallery.map((item) => item.slice(1)), product.outputs.map((item) => item.path));
+    assert.deepEqual(priorMedia(catalogProduct).gallery.map((item) => item.slice(1)), product.outputs.map((item) => item.path));
     const directory = path.join(root, 'assets/images/products', batch.assetDirectory, product.sku.toLowerCase());
     const files = (await readdir(directory)).filter((file) => file.endsWith('.jpg')).sort();
     assert.equal(files.length, 3, `${product.sku} must have exactly three JPEG images`);
@@ -75,7 +76,7 @@ test('keeps cards, galleries, SEO and inquiry attribution synchronized', async (
       assert.ok(html.includes(product.description));
       assert.ok(html.includes(product.detailedDescription));
       assert.ok(html.includes('Sample time: 3–7 days'));
-      assert.ok(html.includes('Product image reference'));
+      assert.ok(html.includes(product.preserveApprovedContent ? 'Product reference and buying details' : 'Product image reference'));
       assert.doesNotMatch(html, /QULA\s*CRAFT/i);
       for (const image of catalogProduct.gallery) assert.ok(html.includes(image));
 

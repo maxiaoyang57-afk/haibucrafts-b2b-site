@@ -813,6 +813,48 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26751-mini-crunchy-cake-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26751-mini-crunchy-cake-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26751-mini-crunchy-cake-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26750-mixed-food-botanical-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26750-mixed-food-botanical-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26750-mixed-food-botanical-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26748-gingerbread-theme-resin-holiday-pendants/index.html",
+      "destination": "products/resin-charms-for-slime/rw26748-gingerbread-theme-resin-holiday-pendants/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26748-gingerbread-theme-resin-holiday-pendants/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26747-mini-fruit-drink-cup-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26747-mini-fruit-drink-cup-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26747-mini-fruit-drink-cup-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26745-pastel-cloud-rainbow-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26745-pastel-cloud-rainbow-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26745-pastel-cloud-rainbow-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26744-mini-chocolate-cake-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26744-mini-chocolate-cake-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26744-mini-chocolate-cake-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26817-miniature-flower-bouquet-resin-ornaments/index.html",
       "destination": "products/resin-charms-for-slime/rw26817-miniature-flower-bouquet-resin-ornaments/index.html",
       "action": "create",

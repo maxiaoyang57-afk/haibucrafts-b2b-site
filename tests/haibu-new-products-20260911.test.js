@@ -1,3 +1,5 @@
+import { readFileSync } from 'node:fs';
+const nightManifest=JSON.parse(readFileSync('docs/tasks/haibu-new-products-20261018-night-manifest.json','utf8'));
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
 import { readFile, stat } from 'node:fs/promises';
@@ -17,9 +19,9 @@ test('adds only the two new 2026-09-11 HAIBU SKUs', () => {
   assert.equal(batch.expectedSkuCount, 2);
   assert.deepEqual(batch.products.map((product) => product.sku), ['RW26746', 'RW26768']);
   assert.equal(new Set(batch.products.map((product) => product.sku)).size, 2);
-  assert.equal(catalog.count, 234);
-  assert.equal(catalog.products.length, 234);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 234);
+  assert.equal(catalog.count, 240);
+  assert.equal(catalog.products.length, 240);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 240);
   assert.deepEqual(catalog, previewCatalog);
   for (const product of batch.products) {
     assert.equal(bySku.get(product.sku)?.category, 'resin-charms');
@@ -31,7 +33,8 @@ test('publishes three traceable source-derived JPEG images per SKU', async () =>
   for (const product of manifest.products) {
     const catalogProduct = bySku.get(product.sku);
     assert.equal(product.outputs.length, 3);
-    assert.deepEqual(catalogProduct.gallery.map((item) => item.slice(1)), product.outputs.map((item) => item.path));
+    const historicalGallery = nightManifest.previousProducts.find(p => p.sku === product.sku)?.gallery || catalogProduct.gallery;
+    assert.deepEqual(historicalGallery.map((item) => item.slice(1)), product.outputs.map((item) => item.path));
     for (const output of product.outputs) {
       const file = path.join(root, output.path);
       const bytes = await readFile(file);

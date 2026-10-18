@@ -134,6 +134,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx182-20mm-striped-polymer-clay-candy-sticks/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx182-20mm-striped-polymer-clay-candy-sticks/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx182-20mm-striped-polymer-clay-candy-sticks/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx118-pastel-twisted-polymer-clay-craft-decorations/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx118-pastel-twisted-polymer-clay-craft-decorations/index.html",
       "action": "create",

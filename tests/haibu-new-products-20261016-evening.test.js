@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto';
 import test from 'node:test';
 const batch=JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json','utf8'));
 const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261016-evening-manifest.json','utf8'));
-const newSkus = new Set((await Promise.all(['20261017','20261018','20261018-supplement','20261018-extension'].map(date=>readFile('scripts/data/haibu-new-products-'+date+'.json','utf8')))).flatMap(text=>JSON.parse(text).products).filter(p=>!p.preserveCatalogOrder).map(p=>p.sku));
+const newSkus = new Set((await Promise.all(['20261017','20261018','20261018-supplement','20261018-extension','20261018-final'].map(date=>readFile('scripts/data/haibu-new-products-'+date+'.json','utf8')))).flatMap(text=>JSON.parse(text).products).filter(p=>!p.preserveCatalogOrder).map(p=>p.sku));
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 test('evening batch preserves catalog identities and separate pizza sizes and attachment facts',async()=>{
  const added=new Set(batch.products.map(p=>p.sku));

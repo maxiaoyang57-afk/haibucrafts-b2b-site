@@ -651,38 +651,89 @@
       "originalTitle": "4Pcs Cute Mini Scuba Diver Figurines Cartoon Chibi Diving Dolls with Snorkel Mask Flippers for Kids Toy Cake Topper Party Favor",
       "type": "Ocean",
       "categorySlug": "resin-charms",
-      "imagePrefix": "rw26637-scuba-diver-resin-figurines",
-      "imageAlt": "Mini scuba diver resin figurines with snorkel masks and flippers, product code RW26637",
-      "description": "Wholesale mini scuba diver resin figurines in assorted colors for cake toppers, party favors, miniature displays and DIY decoration.",
-      "detailedDescription": "The supplied product shows four cartoon scuba diver resin figurines with snorkel masks and flippers in black, blue, white, pink, yellow and mint. The source pack reference is 4 pieces per bag.",
-      "seasonalTheme": "Mini Scuba Diver Resin Figurines",
+      "imagePrefix": "rw26637-mini-scuba-diver-resin-figurines",
+      "imageAlt": "Wholesale Mini Scuba Diver Resin Figurines in Assorted Colors for Cake Toppers and DIY Decoration, product code RW26637",
+      "description": "Mini resin scuba diver figurines with masks and flippers for miniature displays and ocean craft projects. Approximately 29 × 52 mm; packed 4 pieces per set.",
+      "detailedDescription": "Mini resin scuba diver figurines with masks and flippers for miniature displays and ocean craft projects. Approximately 29 × 52 mm; packed 4 pieces per set. Decorative craft component. Confirm dimensions, colors and finish against the selected sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
       "keySellingPoints": [
-        "Four cartoon scuba diver figures",
-        "Snorkel mask and flipper details",
-        "Assorted black, blue, white, pink, yellow and mint colors",
-        "Source pack reference: 4 pieces per bag"
+        "Wholesale Mini Scuba Diver Resin Figurines in Assorted Colors for Cake Toppers and DIY Decoration",
+        "Material: resin",
+        "Dimensions: Approximately 29 × 52 mm",
+        "Standard packing: 4 pieces per set; custom packing by inquiry",
+        "Attachment: No hole"
       ],
       "specificationLines": [
+        "Product code: RW26637",
         "Material: resin",
-        "Design shown: cartoon divers with snorkel masks and flippers",
-        "Colors shown: black, blue, white, pink, yellow and mint",
-        "Source pack reference: 4 pieces per bag",
-        "Final MOQ and lead time: confirmed with quotation"
+        "Dimensions: Approximately 29 × 52 mm",
+        "Hole: No hole",
+        "Standard pack: 4 pieces per set; custom packing by inquiry",
+        "Selection note: Decorative craft component. Confirm dimensions, colors and finish against the selected sample.",
+        "MOQ and dispatch date: Confirm by quotation"
       ],
-      "material": "Resin",
-      "customizationOptions": "Custom packing quantities are available on request. Final assortment, colors, packing and production feasibility are confirmed in the quotation.",
-      "recommendedApplications": "cake toppers, party favors, miniature displays and DIY decoration",
-      "packagingMoq": "Source pack reference: 4 pieces per bag. Final MOQ, carton details and lead time are confirmed in the written quotation.",
-      "seoKeywords": "mini scuba diver resin figurines wholesale, ocean cake toppers, diving craft miniatures, RW26637",
+      "material": "resin",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decorative craft projects and coordinated DIY assortments.",
+      "packagingMoq": "Source packing: 4 pieces per set; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini scuba diver resin figurines, wholesale craft components",
       "metaTitle": "Mini Scuba Diver Resin Figurines Wholesale | HAIBUCRAFT",
-      "metaDescription": "Wholesale mini scuba diver resin figurines in assorted colors for cake toppers, party favors, miniature displays and DIY decoration.",
+      "metaDescription": "Mini resin scuba diver figurines with masks and flippers for miniature displays and ocean craft projects. Approximately 29 × 52 mm; packed 4 pieces per set.",
       "publishingCheck": "Price, MOQ, lead time and unlisted technical details require quotation confirmation.",
       "galleryLabels": [
-        "verified main product view",
-        "natural tabletop display",
-        "hand-held scale detail"
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
       ],
-      "relatedSkus": []
+      "relatedSkus": [],
+      "dimensions": "Approximately 29 × 52 mm",
+      "sourcePacking": "4 pieces per set; custom packing by inquiry",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-120423).xlsx",
+      "sourceFields": {
+        "sku": "RW26637",
+        "标题": "4Pcs Cute Mini Scuba Diver Figurines Cartoon Chibi Diving Dolls with Snorkel Mask Flippers for Kids Toy Cake Topper Party Favor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about29*52mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格4pcs/set，可以定制，咨询客服"
+      },
+      "sourceRow": 174,
+      "assetKey": "rw26637",
+      "assetDirectory": "batch-2026-10-18-final",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 651,
+          "height": 666
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryNote": "Image 1: supplied product reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
     }
   ]
 }

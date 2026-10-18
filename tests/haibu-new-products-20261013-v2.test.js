@@ -19,8 +19,8 @@ const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 test('11 new products preserve all 151 earlier identities with only two approved gallery replacements', () => {
   assert.equal(batch.products.length, 11);
   assert.equal(selected.size, 11);
-  assert.equal(catalog.count, 233);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 233);
+  assert.equal(catalog.count, 234);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 234);
   const previous = catalog.products.map(priorMedia).filter((product) => !selected.has(product.sku) && !supplementSkus.has(product.sku) && !eveningSkus.has(product.sku) && !['RW3628','RW26856','RW26857','RW26858','RW26859'].includes(product.sku)).map((product) => {
     // Normalize the owner-approved 2026-10-14 title correction to this earlier batch baseline.
     if (product.sku === 'YX048') {

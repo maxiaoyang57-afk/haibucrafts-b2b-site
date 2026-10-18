@@ -45,9 +45,9 @@ test('publishes the 12 approved September 12 SKUs without duplicates', () => {
   assert.equal(batch.expectedSkuCount, 12);
   assert.deepEqual(batch.products.map((product) => product.sku), expectedSkus);
   assert.equal(new Set(expectedSkus).size, 12);
-  assert.equal(catalog.count, 220);
-  assert.equal(catalog.products.length, 220);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 220);
+  assert.equal(catalog.count, 233);
+  assert.equal(catalog.products.length, 233);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 233);
   assert.deepEqual(catalog, previewCatalog);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'resin-charms').length, 8);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'polymer-clay-slices').length, 4);
@@ -55,6 +55,7 @@ test('publishes the 12 approved September 12 SKUs without duplicates', () => {
 
 test('publishes three square, web-sized WebP views per SKU', async () => {
   for (const product of batch.products) {
+    if (product.preserveApprovedContent) continue; // Replacement JPEGs are verified by the extension manifest.
     const directory = path.join(root, 'assets/images/products', batch.assetDirectory, product.sku.toLowerCase());
     const files = (await readdir(directory)).filter((file) => file.endsWith('.webp')).sort();
     assert.equal(files.length, 3, `${product.sku} must have three WebP images`);
@@ -81,8 +82,8 @@ test('keeps HAIBU cards, galleries, SEO and inquiry attribution synchronized', a
       const html = await readFile(path.join(root, pagePath.slice(1), 'index.html'), 'utf8');
       assert.ok(html.includes(product.title));
       assert.ok(html.includes(`product_code=${product.sku}`));
-      assert.ok(html.includes('Product image reference'));
-      assert.ok(html.includes(batch.galleryNote));
+      assert.ok(html.includes(product.mediaLabel || 'Product image reference'));
+      assert.ok(html.includes(product.galleryNote || batch.galleryNote));
       assert.doesNotMatch(html, /QULA\s*CRAFT/i);
       for (const image of catalogProduct.gallery) assert.ok(html.includes(image));
 

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-18",
-  "count": 233,
+  "count": 234,
   "products": [
     {
       "sku": "YX3889",
@@ -91,6 +91,21 @@
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx3711-mini-pizza-polymer-clay-slices/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx3711-mini-pizza-polymer-clay-slices/"
+    },
+    {
+      "sku": "YX182",
+      "title": "20mm Striped Polymer Clay Candy Sticks",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Candy",
+      "image": "/assets/images/products/batch-2026-10-18-final/yx182/yx182-striped-polymer-clay-candy-sticks-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-final/yx182/yx182-striped-polymer-clay-candy-sticks-01.jpg",
+        "/assets/images/products/batch-2026-10-18-final/yx182/yx182-striped-polymer-clay-candy-sticks-02.jpg",
+        "/assets/images/products/batch-2026-10-18-final/yx182/yx182-striped-polymer-clay-candy-sticks-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx182-20mm-striped-polymer-clay-candy-sticks/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx182-20mm-striped-polymer-clay-candy-sticks/"
     },
     {
       "sku": "YX118",
@@ -2707,11 +2722,11 @@
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Ocean",
-      "image": "/assets/images/products/batch-2026-09-12/rw26637/rw26637-scuba-diver-resin-figurines-01.webp",
+      "image": "/assets/images/products/batch-2026-10-18-final/rw26637/rw26637-mini-scuba-diver-resin-figurines-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09-12/rw26637/rw26637-scuba-diver-resin-figurines-01.webp",
-        "/assets/images/products/batch-2026-09-12/rw26637/rw26637-scuba-diver-resin-figurines-02.webp",
-        "/assets/images/products/batch-2026-09-12/rw26637/rw26637-scuba-diver-resin-figurines-03.webp"
+        "/assets/images/products/batch-2026-10-18-final/rw26637/rw26637-mini-scuba-diver-resin-figurines-01.jpg",
+        "/assets/images/products/batch-2026-10-18-final/rw26637/rw26637-mini-scuba-diver-resin-figurines-02.jpg",
+        "/assets/images/products/batch-2026-10-18-final/rw26637/rw26637-mini-scuba-diver-resin-figurines-03.jpg"
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/",
       "productionPath": "/products/resin-charms-for-slime/rw26637-wholesale-mini-scuba-diver-resin-figurines-in-assorted-colors-for-cake-toppers-diy-decoration/"

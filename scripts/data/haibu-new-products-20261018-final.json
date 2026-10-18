@@ -1,0 +1,102 @@
+{
+  "batch": "haibu-new-products-20261018-final",
+  "expectedSkuCount": 1,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-18-final",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-18",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX182",
+      "title": "20mm Striped Polymer Clay Candy Sticks",
+      "originalTitle": "Stick Sweet Candy 100PCS 20mm Stripe Polymer Clay Flatback Cabochon Miniature Food Art Supply Decoration Charm Craft DIY",
+      "type": "Candy",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "20mm Striped Polymer Clay Candy Sticks, product code YX182",
+      "description": "Striped polymer clay candy sticks for decoden, phone cases, miniature displays and craft kits. Length 20 mm, thickness 1.5 mm; non-edible decoration.",
+      "detailedDescription": "Striped polymer clay candy sticks for decoden, phone cases, miniature displays and craft kits. Length 20 mm, thickness 1.5 mm; non-edible decoration. Decorative craft component. Confirm dimensions, colors and finish against the selected sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "20mm Striped Polymer Clay Candy Sticks",
+        "Material: polymer clay",
+        "Dimensions: 20 mm length; 1.5 mm thickness",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX182",
+        "Material: polymer clay",
+        "Dimensions: 20 mm length; 1.5 mm thickness",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Decorative craft component. Confirm dimensions, colors and finish against the selected sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "polymer clay",
+      "dimensions": "20 mm length; 1.5 mm thickness",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Wholesale decorative craft projects and coordinated DIY assortments.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "striped polymer clay candy sticks, wholesale craft components",
+      "metaTitle": "Striped Polymer Clay Candy Sticks Wholesale | HAIBUCRAFT",
+      "metaDescription": "Striped polymer clay candy sticks for decoden, phone cases, miniature displays and craft kits. Length 20 mm, thickness 1.5 mm; non-edible decoration.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261018-120423).xlsx",
+      "sourceFields": {
+        "sku": "YX182",
+        "标题": "Stick Sweet Candy 100PCS 20mm Stripe Polymer Clay Flatback Cabochon Miniature Food Art Supply Decoration Charm Craft DIY",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "20mm   Thick 1.5 mm",
+        "孔径": "无",
+        "颜色": "混款，可单色",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 173,
+      "assetKey": "yx182",
+      "assetDirectory": "batch-2026-10-18-final",
+      "imagePrefix": "yx182-striped-polymer-clay-candy-sticks",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 728,
+          "height": 652
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product reference. Images 2–3: specification and packing graphics. Props are not included. Displayed counts are not packing quantities. Confirm selected designs and sizes by sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-18",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

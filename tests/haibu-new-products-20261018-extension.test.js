@@ -2,14 +2,15 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import test from 'node:test';
+import { priorFinalMedia } from './helpers/supplement-20261018.js';
 const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261018-extension-manifest.json','utf8'));
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 test('extension adds exactly thirteen identities and refreshes only four approved galleries',async()=>{
- assert.equal(catalog.count,233);assert.equal(new Set(catalog.products.map(p=>p.sku)).size,233);
+ assert.equal(catalog.count,234);assert.equal(new Set(catalog.products.map(p=>p.sku)).size,234);
  assert.equal(manifest.products.filter(p=>p.operation==='new').length,13);
  assert.equal(manifest.products.filter(p=>p.operation==='update').length,4);
  for(const old of manifest.previousProducts){
-  const now=catalog.products.find(p=>p.sku===old.sku);assert.ok(now);
+  const now=priorFinalMedia(catalog.products.find(p=>p.sku===old.sku));assert.ok(now);
   const update=manifest.products.some(p=>p.sku===old.sku&&p.operation==='update');
   assert.deepEqual(update?{...now,image:old.image,gallery:old.gallery}:now,old,old.sku);
  }

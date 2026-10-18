@@ -589,6 +589,69 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26808-acorn-smiling-acorn-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26808-acorn-smiling-acorn-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26808-acorn-smiling-acorn-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25560-miniature-milk-bottle-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw25560-miniature-milk-bottle-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25560-miniature-milk-bottle-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26804-layered-cake-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26804-layered-cake-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26804-layered-cake-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26803-star-pattern-duck-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26803-star-pattern-duck-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26803-star-pattern-duck-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26801-mini-fried-egg-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26801-mini-fried-egg-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26801-mini-fried-egg-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26798-gradient-rose-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26798-gradient-rose-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26798-gradient-rose-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26797-mini-blueberry-resin-fruit-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26797-mini-blueberry-resin-fruit-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26797-mini-blueberry-resin-fruit-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26795-mini-summer-drink-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26795-mini-summer-drink-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26795-mini-summer-drink-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26794-mini-coconut-half-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26794-mini-coconut-half-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26794-mini-coconut-half-resin-charms/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26817-miniature-flower-bouquet-resin-ornaments/index.html",
       "destination": "products/resin-charms-for-slime/rw26817-miniature-flower-bouquet-resin-ornaments/index.html",
       "action": "create",

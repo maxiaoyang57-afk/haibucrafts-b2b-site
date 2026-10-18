@@ -9,7 +9,8 @@ const supplement = JSON.parse(await readFile('scripts/data/haibu-new-products-20
 const supplementSkus = new Set(supplement.products.map(p => p.sku));
 const evening = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json', 'utf8'));
 const october17 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261017.json', 'utf8'));
-const eveningSkus = new Set([...evening.products, ...october17.products].map(p => p.sku));
+const october18 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261018.json', 'utf8'));
+const eveningSkus = new Set([...evening.products, ...october17.products, ...october18.products].map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 const selected = new Set(batch.products.map((item) => item.sku));
 const laterBatch = JSON.parse(await readFile('scripts/data/haibu-new-products-20261013-v2.json', 'utf8'));
@@ -20,7 +21,7 @@ const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 
 test('eight additions preserve the previous 143 catalog identities and grouped bear code', () => {
   assert.equal(selected.size, 8);
-  assert.equal(catalog.count, 200);
+  assert.equal(catalog.count, 209);
   const previous = catalog.products.filter((item) => !selected.has(item.sku) && !laterSkus.has(item.sku) && !supplementSkus.has(item.sku) && !eveningSkus.has(item.sku))
     .map((item) => laterManifest.previousMedia.find((reference) => reference.sku === item.sku) || item);
   assert.equal(previous.length, 143);

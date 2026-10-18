@@ -6,7 +6,8 @@ const batch = JSON.parse(await readFile('scripts/data/haibu-new-products-2026101
 const manifest = JSON.parse(await readFile('docs/tasks/haibu-new-products-20261016-supplement-manifest.json', 'utf8'));
 const evening = JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-evening.json', 'utf8'));
 const october17 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261017.json', 'utf8'));
-const eveningSkus = new Set([...evening.products, ...october17.products].map(p => p.sku));
+const october18 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261018.json', 'utf8'));
+const eveningSkus = new Set([...evening.products, ...october17.products, ...october18.products].map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
 test('supplement preserves all previous identities and connects exact source SKUs, galleries and inquiries', async () => {
   const selected = new Set(batch.products.map(p => p.sku));

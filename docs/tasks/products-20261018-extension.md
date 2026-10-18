@@ -1,0 +1,11 @@
+# October 18 product extension
+
+Source: owner-supplied `10.11(20261018-082331).xlsx`, rows 151–170, and the corresponding images. Add 13 identities and refresh YX004, RW370, RW1394 and RW001078 while preserving existing titles, URLs and catalog positions. Catalog: 220 to 233, retaining four categories. YA234, YH083 and YJ066-YJ087 are handled only on QULA. Resin flower pendants YZ26165 belong to HAIBU's existing Resin Charms category.
+
+Retain the complete turtle codes RW26057-2, RW26057 and RW0026057-1. The reference `W717.png` is matched to workbook SKU RW717. RW26057's dimensions are read as 21 × 15 mm from its dimensioned image; the raw workbook value remains in source fields. RW370 retains its established whipped-cream title, which matches the supplied reference. Missing dimensions, hole diameter, pin strength and luminous performance are confirmed by inquiry or sample.
+
+Each affected product has a proportional reference, source-specification graphic and packing/order graphic, clearly labeled. Pack quantity is distinct from MOQ. No price, certification, dispatch promise, exact assortment ratio or working-tool function is invented. Preserve the source composition and image proportions; JPEG sRGB, 72 PPI, no EXIF/GPS, and no enlargement beyond the original supplied width.
+
+Eight HAIBU references use the built-in image editing tool to remove only the upper-right QULA badge: YX037, YX004, RW0024876, RW0024009, RW001078, RW26057-2, RW26057 and RW0026057-1. Prompt: “Remove only the gold QULA CRAFT/OEM/ODM badge and seamlessly continue the local background. Preserve every product, color, shape, size, count, dimension label and arrow, lighting, framing, texture, prop and application inset. Do not crop, stretch, add logos or replace any other text.” Final assets are in `assets/images/products/batch-2026-10-18-extension/`.
+
+Click attribution now preserves YZ26165 and both suffixed turtle codes in query and path extraction. Historical media tests continue to compare archived snapshots; current JPEG galleries are checked by the extension manifest. Validation covers the complete Node test suite, SEO and materialization audits, all affected galleries and exact quote selections at four mobile widths. Inquiry tests use mocks or block delivery; no live inquiry is submitted.

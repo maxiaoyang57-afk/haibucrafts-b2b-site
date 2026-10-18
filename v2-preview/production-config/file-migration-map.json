@@ -113,6 +113,27 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx160-banana-pink-swirl-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx160-banana-pink-swirl-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx160-banana-pink-swirl-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx037-blue-snowflake-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx037-blue-snowflake-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx037-blue-snowflake-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3711-mini-pizza-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3711-mini-pizza-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3711-mini-pizza-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx118-pastel-twisted-polymer-clay-craft-decorations/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx118-pastel-twisted-polymer-clay-craft-decorations/index.html",
       "action": "create",
@@ -712,6 +733,76 @@
       "destination": "products/resin-charms-for-slime/rw1602-mixed-donut-resin-cabochons/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw1602-mixed-donut-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23765-mini-tool-resin-cabochon-assortment/index.html",
+      "destination": "products/resin-charms-for-slime/rw23765-mini-tool-resin-cabochon-assortment/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23765-mini-tool-resin-cabochon-assortment/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25840-pastel-starfish-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25840-pastel-starfish-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25840-pastel-starfish-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw717-mixed-candy-style-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw717-mixed-candy-style-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw717-mixed-candy-style-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/yz26165-mini-resin-flower-pendants-with-eye-pins/index.html",
+      "destination": "products/resin-charms-for-slime/yz26165-mini-resin-flower-pendants-with-eye-pins/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/yz26165-mini-resin-flower-pendants-with-eye-pins/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002354-whipped-cream-swirl-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw002354-whipped-cream-swirl-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002354-whipped-cream-swirl-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw0024876-mini-cupcake-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw0024876-mini-cupcake-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw0024876-mini-cupcake-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw0024009-mixed-cactus-resin-flatback-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw0024009-mixed-cactus-resin-flatback-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw0024009-mixed-cactus-resin-flatback-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26057-2-glitter-sea-turtle-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26057-2-glitter-sea-turtle-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26057-2-glitter-sea-turtle-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26057-iridescent-sea-turtle-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26057-iridescent-sea-turtle-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26057-iridescent-sea-turtle-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons/",
       "generatedProduct": true
     },
     {

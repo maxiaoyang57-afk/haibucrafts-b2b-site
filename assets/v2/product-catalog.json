@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-18",
-  "count": 220,
+  "count": 233,
   "products": [
     {
       "sku": "YX3889",
@@ -46,6 +46,51 @@
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx154-carrot-polymer-clay-slices/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx154-carrot-polymer-clay-slices/"
+    },
+    {
+      "sku": "YX160",
+      "title": "Banana and Pink Swirl Polymer Clay Slices",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Fruit & Food",
+      "image": "/assets/images/products/batch-2026-10-18-extension/yx160/yx160-banana-pink-swirl-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/yx160/yx160-banana-pink-swirl-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yx160/yx160-banana-pink-swirl-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yx160/yx160-banana-pink-swirl-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx160-banana-pink-swirl-polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx160-banana-pink-swirl-polymer-clay-slices/"
+    },
+    {
+      "sku": "YX037",
+      "title": "Blue Snowflake Polymer Clay Slices",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Seasonal",
+      "image": "/assets/images/products/batch-2026-10-18-extension/yx037/yx037-blue-snowflake-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/yx037/yx037-blue-snowflake-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yx037/yx037-blue-snowflake-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yx037/yx037-blue-snowflake-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx037-blue-snowflake-polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx037-blue-snowflake-polymer-clay-slices/"
+    },
+    {
+      "sku": "YX3711",
+      "title": "Mini Pizza Polymer Clay Slices",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Fruit & Food",
+      "image": "/assets/images/products/batch-2026-10-18-extension/yx3711/yx3711-mini-pizza-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/yx3711/yx3711-mini-pizza-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yx3711/yx3711-mini-pizza-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yx3711/yx3711-mini-pizza-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3711-mini-pizza-polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3711-mini-pizza-polymer-clay-slices/"
     },
     {
       "sku": "YX118",
@@ -284,11 +329,11 @@
       "category": "polymer-clay-slices",
       "categoryLabel": "Polymer Clay Slices",
       "type": "Food & Drink",
-      "image": "/assets/images/products/batch-2026-09-12/yx004/yx004-mixed-candy-dessert-clay-slices-01.webp",
+      "image": "/assets/images/products/batch-2026-10-18-extension/yx004/yx004-mixed-candy-dessert-polymer-clay-slices-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09-12/yx004/yx004-mixed-candy-dessert-clay-slices-01.webp",
-        "/assets/images/products/batch-2026-09-12/yx004/yx004-mixed-candy-dessert-clay-slices-02.webp",
-        "/assets/images/products/batch-2026-09-12/yx004/yx004-mixed-candy-dessert-clay-slices-03.webp"
+        "/assets/images/products/batch-2026-10-18-extension/yx004/yx004-mixed-candy-dessert-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yx004/yx004-mixed-candy-dessert-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yx004/yx004-mixed-candy-dessert-polymer-clay-slices-03.jpg"
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx004-wholesale-mixed-candy-dessert-polymer-clay-slices-for-slime-nail-art-diy-crafts/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx004-wholesale-mixed-candy-dessert-polymer-clay-slices-for-slime-nail-art-diy-crafts/"
@@ -1306,6 +1351,156 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw1602-mixed-donut-resin-cabochons/",
       "productionPath": "/products/resin-charms-for-slime/rw1602-mixed-donut-resin-cabochons/"
+    },
+    {
+      "sku": "RW23765",
+      "title": "Mini Tool Resin Cabochon Assortment",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Novelty",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw23765/rw23765-mini-tool-resin-cabochon-assortment-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw23765/rw23765-mini-tool-resin-cabochon-assortment-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw23765/rw23765-mini-tool-resin-cabochon-assortment-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw23765/rw23765-mini-tool-resin-cabochon-assortment-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23765-mini-tool-resin-cabochon-assortment/",
+      "productionPath": "/products/resin-charms-for-slime/rw23765-mini-tool-resin-cabochon-assortment/"
+    },
+    {
+      "sku": "RW25840",
+      "title": "Pastel Starfish Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Ocean",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw25840/rw25840-pastel-starfish-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw25840/rw25840-pastel-starfish-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw25840/rw25840-pastel-starfish-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw25840/rw25840-pastel-starfish-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25840-pastel-starfish-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25840-pastel-starfish-resin-cabochons/"
+    },
+    {
+      "sku": "RW717",
+      "title": "Mixed Candy-Style Resin Flatback Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Candy",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw717/rw717-mixed-candy-style-resin-flatback-charms-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw717/rw717-mixed-candy-style-resin-flatback-charms-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw717/rw717-mixed-candy-style-resin-flatback-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw717/rw717-mixed-candy-style-resin-flatback-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw717-mixed-candy-style-resin-flatback-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw717-mixed-candy-style-resin-flatback-charms/"
+    },
+    {
+      "sku": "YZ26165",
+      "title": "Mini Resin Flower Pendants with Eye Pins",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Flowers",
+      "image": "/assets/images/products/batch-2026-10-18-extension/yz26165/yz26165-mini-resin-flower-pendants-eye-pins-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/yz26165/yz26165-mini-resin-flower-pendants-eye-pins-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yz26165/yz26165-mini-resin-flower-pendants-eye-pins-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/yz26165/yz26165-mini-resin-flower-pendants-eye-pins-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/yz26165-mini-resin-flower-pendants-with-eye-pins/",
+      "productionPath": "/products/resin-charms-for-slime/yz26165-mini-resin-flower-pendants-with-eye-pins/"
+    },
+    {
+      "sku": "RW002354",
+      "title": "Whipped Cream Swirl Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw002354/rw002354-whipped-cream-swirl-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw002354/rw002354-whipped-cream-swirl-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw002354/rw002354-whipped-cream-swirl-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw002354/rw002354-whipped-cream-swirl-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw002354-whipped-cream-swirl-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw002354-whipped-cream-swirl-resin-cabochons/"
+    },
+    {
+      "sku": "RW0024876",
+      "title": "Mini Cupcake Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Food",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw0024876/rw0024876-mini-cupcake-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw0024876/rw0024876-mini-cupcake-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw0024876/rw0024876-mini-cupcake-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw0024876/rw0024876-mini-cupcake-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw0024876-mini-cupcake-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw0024876-mini-cupcake-resin-cabochons/"
+    },
+    {
+      "sku": "RW0024009",
+      "title": "Mixed Cactus Resin Flatback Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Plants",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw0024009/rw0024009-mixed-cactus-resin-flatback-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw0024009/rw0024009-mixed-cactus-resin-flatback-decorations-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw0024009/rw0024009-mixed-cactus-resin-flatback-decorations-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw0024009/rw0024009-mixed-cactus-resin-flatback-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw0024009-mixed-cactus-resin-flatback-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw0024009-mixed-cactus-resin-flatback-decorations/"
+    },
+    {
+      "sku": "RW26057-2",
+      "title": "Glitter Sea Turtle Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Ocean",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw26057-2/rw26057-2-glitter-sea-turtle-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw26057-2/rw26057-2-glitter-sea-turtle-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw26057-2/rw26057-2-glitter-sea-turtle-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw26057-2/rw26057-2-glitter-sea-turtle-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26057-2-glitter-sea-turtle-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26057-2-glitter-sea-turtle-resin-cabochons/"
+    },
+    {
+      "sku": "RW26057",
+      "title": "Iridescent Sea Turtle Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Ocean",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw26057/rw26057-iridescent-sea-turtle-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw26057/rw26057-iridescent-sea-turtle-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw26057/rw26057-iridescent-sea-turtle-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw26057/rw26057-iridescent-sea-turtle-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26057-iridescent-sea-turtle-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26057-iridescent-sea-turtle-resin-cabochons/"
+    },
+    {
+      "sku": "RW0026057-1",
+      "title": "Colorful Luminous Sea Turtle Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Ocean",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw0026057-1/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-18-extension/rw0026057-1/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw0026057-1/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw0026057-1/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw0026057-1-colorful-luminous-sea-turtle-resin-cabochons/"
     },
     {
       "sku": "RW26817",
@@ -2452,11 +2647,11 @@
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Food",
-      "image": "/assets/images/products/batch-2026-09-12/rw370/rw370-whipped-cream-resin-cabochons-01.webp",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw370/rw370-pastel-whipped-cream-resin-cabochons-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09-12/rw370/rw370-whipped-cream-resin-cabochons-01.webp",
-        "/assets/images/products/batch-2026-09-12/rw370/rw370-whipped-cream-resin-cabochons-02.webp",
-        "/assets/images/products/batch-2026-09-12/rw370/rw370-whipped-cream-resin-cabochons-03.webp"
+        "/assets/images/products/batch-2026-10-18-extension/rw370/rw370-pastel-whipped-cream-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw370/rw370-pastel-whipped-cream-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw370/rw370-pastel-whipped-cream-resin-cabochons-03.jpg"
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw370-wholesale-pastel-whipped-cream-resin-cabochons-for-slime-scrapbooking-diy-decoration/",
       "productionPath": "/products/resin-charms-for-slime/rw370-wholesale-pastel-whipped-cream-resin-cabochons-for-slime-scrapbooking-diy-decoration/"
@@ -2482,11 +2677,11 @@
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Fantasy",
-      "image": "/assets/images/products/batch-2026-09-12/rw1394/rw1394-mushroom-house-resin-figurines-01.webp",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw1394/rw1394-mini-mushroom-house-resin-figurines-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09-12/rw1394/rw1394-mushroom-house-resin-figurines-01.webp",
-        "/assets/images/products/batch-2026-09-12/rw1394/rw1394-mushroom-house-resin-figurines-02.webp",
-        "/assets/images/products/batch-2026-09-12/rw1394/rw1394-mushroom-house-resin-figurines-03.webp"
+        "/assets/images/products/batch-2026-10-18-extension/rw1394/rw1394-mini-mushroom-house-resin-figurines-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw1394/rw1394-mini-mushroom-house-resin-figurines-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw1394/rw1394-mini-mushroom-house-resin-figurines-03.jpg"
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw1394-wholesale-mini-mushroom-house-resin-figurines-for-fairy-gardens-terrariums-diy-crafts/",
       "productionPath": "/products/resin-charms-for-slime/rw1394-wholesale-mini-mushroom-house-resin-figurines-for-fairy-gardens-terrariums-diy-crafts/"
@@ -2497,11 +2692,11 @@
       "category": "resin-charms",
       "categoryLabel": "Resin Charms",
       "type": "Ocean",
-      "image": "/assets/images/products/batch-2026-09-12/rw001078/rw001078-blue-dolphin-resin-cabochons-01.webp",
+      "image": "/assets/images/products/batch-2026-10-18-extension/rw001078/rw001078-blue-dolphin-resin-cabochons-01.jpg",
       "gallery": [
-        "/assets/images/products/batch-2026-09-12/rw001078/rw001078-blue-dolphin-resin-cabochons-01.webp",
-        "/assets/images/products/batch-2026-09-12/rw001078/rw001078-blue-dolphin-resin-cabochons-02.webp",
-        "/assets/images/products/batch-2026-09-12/rw001078/rw001078-blue-dolphin-resin-cabochons-03.webp"
+        "/assets/images/products/batch-2026-10-18-extension/rw001078/rw001078-blue-dolphin-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw001078/rw001078-blue-dolphin-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-18-extension/rw001078/rw001078-blue-dolphin-resin-cabochons-03.jpg"
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw001078-wholesale-28-x-20-mm-blue-dolphin-resin-cabochons-for-scrapbooking-diy-decoration/",
       "productionPath": "/products/resin-charms-for-slime/rw001078-wholesale-28-x-20-mm-blue-dolphin-resin-cabochons-for-scrapbooking-diy-decoration/"

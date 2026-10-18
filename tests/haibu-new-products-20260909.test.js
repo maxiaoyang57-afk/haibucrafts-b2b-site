@@ -33,9 +33,9 @@ test('publishes exactly the 27 audited new SKUs without replacing skipped SKUs',
   assert.equal(batch.expectedSkuCount, 27);
   assert.equal(batch.products.length, 27);
   assert.equal(new Set(batch.products.map((product) => product.sku)).size, 27);
-  assert.equal(catalog.count, 220);
-  assert.equal(catalog.products.length, 220);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 220);
+  assert.equal(catalog.count, 233);
+  assert.equal(catalog.products.length, 233);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 233);
   assert.deepEqual(catalog, previewCatalog);
   for (const product of batch.products) assert.ok(bySku.has(product.sku), product.sku);
   for (const sku of ['RW2694', 'RW20340', 'RW21805']) assert.equal(bySku.has(sku), false, sku);

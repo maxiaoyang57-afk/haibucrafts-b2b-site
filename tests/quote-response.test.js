@@ -49,9 +49,9 @@ test('a 200 response without explicit inquiry acceptance does not clear buyer in
 });
 
 test('accepted inquiry clears input and shows the server request reference', async () => {
-  const result = await submitFixture({ ok: true, json: async () => ({ ok: true, requestId: '12405678-abcd' }) });
+  const result = await submitFixture({ ok: true, json: async () => ({ ok: true, requestId: '12345678-abcd' }) });
   assert.equal(result.resets, 1);
-  assert.match(result.message, /sent successfully.*Reference: 12405678/);
+  assert.match(result.message, /sent successfully.*Reference: 12345678/);
   assert.equal(result.disabled, false);
   assert.deepEqual(result.tracked.map((event) => event.name), ['generate_lead']);
   assert.equal(result.tracked[0].properties.lead_type, 'wholesale_inquiry');

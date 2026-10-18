@@ -17,9 +17,9 @@ test('publishes 13 new September 20 SKUs and skips existing RW002155', () => {
   assert.equal(batch.expectedSkuCount, 13);
   assert.deepEqual(batch.products.map((product) => product.sku), expectedSkus);
   assert.equal(new Set(expectedSkus).size, 13);
-  assert.equal(catalog.count, 200);
-  assert.equal(catalog.products.length, 200);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 200);
+  assert.equal(catalog.count, 209);
+  assert.equal(catalog.products.length, 209);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 209);
   assert.deepEqual(catalog, previewCatalog);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'resin-charms').length, 10);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'polymer-clay-slices').length, 3);

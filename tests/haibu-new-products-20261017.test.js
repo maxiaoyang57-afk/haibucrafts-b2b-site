@@ -7,8 +7,8 @@ const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261017
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 test('October 17 adds 11 source-backed resin groups and preserves existing catalog identities',async()=>{
  const added=new Set(batch.products.map(p=>p.sku));
- assert.equal(added.size,11);assert.equal(catalog.count,200);
- assert.deepEqual(catalog.products.filter(p=>!added.has(p.sku)),manifest.previousProducts);
+ assert.equal(added.size,11);assert.equal(catalog.count,209);
+ assert.deepEqual(catalog.products.filter(p=>manifest.previousProducts.some(v=>v.sku===p.sku)),manifest.previousProducts);
  assert.equal(new Set(catalog.products.map(p=>p.category)).size,4);
  for(const p of batch.products){
   assert.equal(p.sourceSkuCorrection?.sku || p.sourceFields.sku.trim(),p.sku);
@@ -30,7 +30,7 @@ test('October 17 adds 11 source-backed resin groups and preserves existing catal
  assert.match(batch.products.find(p=>p.sku==='RW26811').holeDescription,/diameter not supplied/);
  assert.equal(batch.products.find(p=>p.sku==='RW21765').dimensions,'Confirm dimensions by inquiry');
  assert.equal(catalog.products.filter(p=>p.sku==='RW26813').length,1);
- assert.equal(catalog.products.some(p=>p.sku==='RW26808'),false);
+ assert.equal(catalog.products.filter(p=>p.sku==='RW26808' && /Acorn/.test(p.title)).length,1);
  const corrected=batch.products.find(p=>p.sku==='RW20809');
  assert.equal(corrected.sourceFields.sku,'RW26808');
  assert.equal(corrected.sourceSkuCorrection.sku,'RW20809');

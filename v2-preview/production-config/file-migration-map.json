@@ -162,6 +162,69 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx3224-pink-candy-polymer-clay-decorative-filler-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3224-pink-candy-polymer-clay-decorative-filler-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3224-pink-candy-polymer-clay-decorative-filler-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3920-heart-polymer-clay-pearl-sprinkle-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3920-heart-polymer-clay-pearl-sprinkle-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3920-heart-polymer-clay-pearl-sprinkle-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4042-bee-honeycomb-polymer-clay-sprinkle-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4042-bee-honeycomb-polymer-clay-sprinkle-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4042-bee-honeycomb-polymer-clay-sprinkle-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx221-pink-pineapple-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx221-pink-pineapple-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx221-pink-pineapple-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx220-flower-leaf-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx220-flower-leaf-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx220-flower-leaf-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx270-green-oval-pattern-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx270-green-oval-pattern-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx270-green-oval-pattern-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx286-pink-heart-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx286-pink-heart-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx286-pink-heart-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx254-colorful-shell-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx254-colorful-shell-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx254-colorful-shell-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx267-bow-character-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx267-bow-character-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx267-bow-character-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
       "action": "create",
@@ -740,6 +803,69 @@
       "destination": "products/resin-charms-for-slime/rw26685-colorful-insect-resin-cabochons/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw26685-colorful-insect-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24765-pastel-macaron-resin-miniature-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw24765-pastel-macaron-resin-miniature-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24765-pastel-macaron-resin-miniature-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw0020841-halloween-character-resin-flatback-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw0020841-halloween-character-resin-flatback-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw0020841-halloween-character-resin-flatback-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw4189-pastel-teddy-bear-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw4189-pastel-teddy-bear-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw4189-pastel-teddy-bear-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw4304-transparent-bear-resin-charms-with-round-centers/index.html",
+      "destination": "products/resin-charms-for-slime/rw4304-transparent-bear-resin-charms-with-round-centers/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw4304-transparent-bear-resin-charms-with-round-centers/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw987-miniature-red-brick-resin-building-pieces/index.html",
+      "destination": "products/resin-charms-for-slime/rw987-miniature-red-brick-resin-building-pieces/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw987-miniature-red-brick-resin-building-pieces/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw5346-miniature-tree-stump-resin-garden-pieces/index.html",
+      "destination": "products/resin-charms-for-slime/rw5346-miniature-tree-stump-resin-garden-pieces/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5346-miniature-tree-stump-resin-garden-pieces/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22939-winged-fairy-resin-miniature-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw22939-winged-fairy-resin-miniature-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22939-winged-fairy-resin-miniature-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002627-small-colorful-gummy-bear-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw002627-small-colorful-gummy-bear-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002627-small-colorful-gummy-bear-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw00655-large-transparent-gummy-bear-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw00655-large-transparent-gummy-bear-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw00655-large-transparent-gummy-bear-resin-cabochons/",
       "generatedProduct": true
     },
     {

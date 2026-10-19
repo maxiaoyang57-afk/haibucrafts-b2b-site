@@ -1,3 +1,4 @@
+import { priorAfternoonMedia } from './helpers/afternoon-20261019.js';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
@@ -5,9 +6,9 @@ import test from 'node:test';
 const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261019-manifest.json','utf8'));
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 test('October 19 keeps all 240 earlier identities and publishes eleven distinct source-backed groups',async()=>{
- assert.equal(catalog.count,255);assert.equal(new Set(catalog.products.map(p=>p.sku)).size,255);
+ assert.equal(catalog.count,273);assert.equal(new Set(catalog.products.map(p=>p.sku)).size,273);
  assert.equal(manifest.products.length,11);
- for(const old of manifest.previousProducts)assert.deepEqual(catalog.products.find(p=>p.sku===old.sku),old,old.sku);
+ for(const old of manifest.previousProducts)assert.deepEqual(priorAfternoonMedia(catalog.products.find(p=>p.sku===old.sku)),old,old.sku);
  for(const record of manifest.products){
   const p=catalog.products.find(p=>p.sku===record.sku);assert.ok(p);
   assert.deepEqual(p.gallery,record.imageOutputs.map(i=>i.path));

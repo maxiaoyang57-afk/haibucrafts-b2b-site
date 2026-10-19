@@ -182,12 +182,13 @@ const articles = [
     title: 'Resin Charms Wholesale Buying Guide for B2B Buyers',
     seoTitle: 'Resin Charms Wholesale Buying Guide | HAIBUCRAFT',
     datePublished: '2026-09-13',
-    dateModified: '2026-10-02',
-    lastReviewed: 'October 2, 2026',
+    dateModified: '2026-10-19',
+    lastReviewed: 'October 19, 2026',
     description: 'Compare wholesale resin charms by product code, visible design, intended application, sample identity, pack unit and custom request before quotation.',
     dek: 'A clear resin charm brief helps buyers compare exact designs, build mixed assortments and confirm order-specific requirements without relying on a product image alone.',
     sections: [
       ['Start with exact product codes', 'Use the Resin Charms catalog to shortlist the visible designs you need, then include the SKU and product link in the inquiry. For a mixed range, list each code separately instead of describing the whole order only by theme.'],
+      ['Compare small and large catalog references', 'For a gummy bear assortment, start with RW002627 Small Colorful Gummy Bear Resin Cabochons and RW00655 Large Transparent Gummy Bear Resin Cabochons, linked below. Treat them as separate SKU choices: confirm the selected size, rear surface and adhesive compatibility with samples against your intended base. State the quantity and packing unit for each code rather than assuming the two formats share one specification.'],
       ['Separate appearance from unverified specifications', 'A product image can help confirm the shown motif, color direction and visible finish, but it does not establish material composition, dimensions, weight, pack count or compliance scope. Request those order-specific details against the selected SKU and sample.'],
       ['Check the back and attachment method', 'For flatback cabochons, request rear-view photos and confirm the bonding surface against your intended base and adhesive through a sample trial. For dimensional or hanging charms, confirm weight, thickness and any hole or loop position. A front image does not establish that a charm is flatback or drilled.'],
       ['Plan the assortment and application', 'State whether the selected charms are intended for slime, decoden, hair accessories, keychains, scrapbooking, DIY kits or another use. If the order needs a mixed pack, define the target ratio and whether every design must appear in each selling unit.'],
@@ -195,7 +196,7 @@ const articles = [
     ],
     checklist: ['Resin charm SKU list', 'Reference images or links', 'Intended application', 'Mix ratio and pack unit', 'Packaging request', 'Destination and target date'],
     note: 'Product composition, dimensions, MOQ, lead time, packaging and documentation are confirmed for the selected product code, approved sample and destination market.',
-    links: [['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']]
+    links: [['Small Gummy Bear Cabochons RW002627', '/v2-preview/products/resin-charms/rw002627-small-colorful-gummy-bear-resin-cabochons/'], ['Large Gummy Bear Cabochons RW00655', '/v2-preview/products/resin-charms/rw00655-large-transparent-gummy-bear-resin-cabochons/'], ['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']]
   },
   {
     slug: 'seasonal-craft-assortment-planning',

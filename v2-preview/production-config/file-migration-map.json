@@ -148,6 +148,20 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx3560-high-heel-hat-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3560-high-heel-hat-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3560-high-heel-hat-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-decorative-filler-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-decorative-filler-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-decorative-filler-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
       "action": "create",
@@ -719,6 +733,13 @@
       "destination": "products/resin-charms-for-slime/rw25231-pastel-bow-cabochons-with-rhinestone-centers/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw25231-pastel-bow-cabochons-with-rhinestone-centers/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26685-colorful-insect-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26685-colorful-insect-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26685-colorful-insect-resin-cabochons/",
       "generatedProduct": true
     },
     {

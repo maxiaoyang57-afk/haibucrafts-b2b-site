@@ -331,7 +331,7 @@
   };
   const analyticsProductCode = (value) => {
     const code = typeof value === 'string' ? value.trim().toUpperCase() : '';
-    return /^(?:MA|RX327|RW203-RW564-RW21165|YZ26165|RW0024876|RW0024009|RW26057-2|RW0026057-1|YX097-YX284|SLM(?:\d{3,5}|-RX488)|YX\d{3,4}|RW337\/285|RW3895-RW3857|RW\d{3,6}(?:-C|-YX\d{3,4})?|(?:MA|YM)\d{3})(?:\/RW\d{3,6}){0,3}$/.test(code) ? code : '';
+    return /^(?:MA|RX327|RW203-RW564-RW21165|YZ26165|RW0024876|RW0024009|RW26057-2|RW0026057-1|YX097-YX284|YX3084-YX3087-YX3089-YX3103-YX3112-YX3115|SLM(?:\d{3,5}|-RX488)|YX\d{3,4}|RW337\/285|RW3895-RW3857|RW\d{3,6}(?:-C|-YX\d{3,4})?|(?:MA|YM)\d{3})(?:\/RW\d{3,6}){0,3}$/.test(code) ? code : '';
   };
   const analyticsPathProductCode = (pathname) => {
     // Product slugs begin with their catalog code, including the resin mix.
@@ -344,6 +344,7 @@
     if (/^rw26057-2(?:-|$)/i.test(slug)) return 'RW26057-2';
     if (/^rw0026057-1(?:-|$)/i.test(slug)) return 'RW0026057-1';
     if (/^yx097-yx284(?:-|$)/i.test(slug)) return 'YX097-YX284';
+    if (/^yx3084-yx3087-yx3089-yx3103-yx3112-yx3115(?:-|$)/i.test(slug)) return 'YX3084-YX3087-YX3089-YX3103-YX3112-YX3115';
     if (/^ma-christmas-snowflake-craft-sequins(?:-|$)/i.test(slug)) return 'MA';
     if (/^slm-rx488(?:-|$)/i.test(slug)) return 'SLM-RX488';
     if (/^rw3895-rw3857(?:-|$)/i.test(slug)) return 'RW3895-RW3857';

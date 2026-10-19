@@ -1,0 +1,982 @@
+{
+  "batch": "haibu-new-products-20261019",
+  "expectedSkuCount": 11,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-19",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-19",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RX327",
+      "title": "Layered Rainbow and Cloud Craft Charms",
+      "originalTitle": "Wholesale Arc Cloud Soft Rubber Charms Custom Layered Band Decorations for Shoes Bags Keychains and Hair Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Layered Rainbow and Cloud Craft Charms, product code RX327",
+      "description": "Layered Rainbow and Cloud Craft Charms. Approximately 50 mm. 100 pieces per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Layered Rainbow and Cloud Craft Charms. Approximately 50 mm. 100 pieces per bag; selected designs, MOQ and custom packing by inquiry. Material requires confirmation: the source title says soft rubber while the material field says polymer clay. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Layered Rainbow and Cloud Craft Charms",
+        "Material: Confirm composition by inquiry",
+        "Dimensions: Approximately 50 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole specified"
+      ],
+      "specificationLines": [
+        "Product code: RX327",
+        "Material: Confirm composition by inquiry",
+        "Dimensions: Approximately 50 mm",
+        "Hole: No hole specified",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Material requires confirmation: the source title says soft rubber while the material field says polymer clay.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Confirm composition by inquiry",
+      "dimensions": "Approximately 50 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker fillers, scrapbooking and decorative DIY assortments.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "layered rainbow and cloud craft charms, wholesale craft components",
+      "metaTitle": "Layered Rainbow and Cloud Craft Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Layered Rainbow and Cloud Craft Charms. Approximately 50 mm. 100 pieces per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "RX327",
+        "标题": "Wholesale Arc Cloud Soft Rubber Charms Custom Layered Band Decorations for Shoes Bags Keychains and Hair Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "about 50mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 188,
+      "assetKey": "rx327",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "rx327-layered-rainbow-and-cloud-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 739,
+          "height": 692
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole specified",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX3257",
+      "title": "Yellow Smiley Face Polymer Clay Slices",
+      "originalTitle": "Wholesale Yellow Abstract Graphic Cabochons Custom Mini Decorations for Phone Hair Accessories Scrapbook Projects",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Yellow Smiley Face Polymer Clay Slices, product code YX3257",
+      "description": "Yellow Smiley Face Polymer Clay Slices. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Yellow Smiley Face Polymer Clay Slices. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry. Select the face designs and mix proportions against the sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Yellow Smiley Face Polymer Clay Slices",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX3257",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Select the face designs and mix proportions against the sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker fillers, scrapbooking and decorative DIY assortments.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "yellow smiley face polymer clay slices, wholesale craft components",
+      "metaTitle": "Yellow Smiley Face Polymer Clay Slices Wholesale | HAIBUCRAFT",
+      "metaDescription": "Yellow Smiley Face Polymer Clay Slices. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "YX3257 ",
+        "标题": "Wholesale Yellow Abstract Graphic Cabochons Custom Mini Decorations for Phone Hair Accessories Scrapbook Projects",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 189,
+      "assetKey": "yx3257",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "yx3257-yellow-smiley-face-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 728,
+          "height": 704
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX354",
+      "title": "Chick Polymer Clay Craft Sprinkles",
+      "originalTitle": "Wholesale Chick Polymer Clay Sprinkles Custom Mini Yellow Animal Decorations for Slime Shaker Scrapbook Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Chick Polymer Clay Craft Sprinkles, product code YX354",
+      "description": "Chick Polymer Clay Craft Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Chick Polymer Clay Craft Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry. Confirm the chick designs, thickness and assortment by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Chick Polymer Clay Craft Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX354",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Confirm the chick designs, thickness and assortment by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker fillers, scrapbooking and decorative DIY assortments.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "chick polymer clay craft sprinkles, wholesale craft components",
+      "metaTitle": "Chick Polymer Clay Craft Sprinkles Wholesale | HAIBUCRAFT",
+      "metaDescription": "Chick Polymer Clay Craft Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "YX354 ",
+        "标题": "Wholesale Chick Polymer Clay Sprinkles Custom Mini Yellow Animal Decorations for Slime Shaker Scrapbook Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 190,
+      "assetKey": "yx354",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "yx354-chick-polymer-clay-craft-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 747,
+          "height": 771
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX3491",
+      "title": "Autumn Maple Leaf Polymer Clay Sprinkles",
+      "originalTitle": "500g Autumn Fall Festival Maple Leaf Sequins Glitter Mixed Polymer Clay Sprinkles for Slime Charms Nail Art Decor",
+      "type": "Seasonal",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Autumn Maple Leaf Polymer Clay Sprinkles, product code YX3491",
+      "description": "Autumn Maple Leaf Polymer Clay Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Autumn Maple Leaf Polymer Clay Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry. Confirm leaf size, colors and mix proportions by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Autumn Maple Leaf Polymer Clay Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX3491",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Confirm leaf size, colors and mix proportions by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker fillers, scrapbooking and decorative DIY assortments.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "autumn maple leaf polymer clay sprinkles, wholesale craft components",
+      "metaTitle": "Autumn Maple Leaf Polymer Clay Sprinkles Wholesale | HAIBUCRAFT",
+      "metaDescription": "Autumn Maple Leaf Polymer Clay Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "YX3491 ",
+        "标题": "500g Autumn Fall Festival Maple Leaf Sequins Glitter Mixed Polymer Clay Sprinkles for Slime Charms Nail Art Decor",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 191,
+      "assetKey": "yx3491",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "yx3491-autumn-maple-leaf-polymer-clay-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 564,
+          "height": 504
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX194",
+      "title": "Orange and White Triangle Polymer Clay Sprinkles",
+      "originalTitle": "Wholesale Orange White Polymer Clay Sprinkles Custom Mini Triangle Pieces for Slime Shaker Beads and Scrapbook Projects",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Orange and White Triangle Polymer Clay Sprinkles, product code YX194",
+      "description": "Orange and White Triangle Polymer Clay Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Orange and White Triangle Polymer Clay Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry. Decorative orange and white pieces are non-edible; confirm size by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Orange and White Triangle Polymer Clay Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX194",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Decorative orange and white pieces are non-edible; confirm size by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker fillers, scrapbooking and decorative DIY assortments.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "orange and white triangle polymer clay sprinkles, wholesale craft components",
+      "metaTitle": "Orange White Clay Triangle Sprinkles Wholesale | HAIBUCRAFT",
+      "metaDescription": "Orange and White Triangle Polymer Clay Sprinkles. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "YX194",
+        "标题": "Wholesale Orange White Polymer Clay Sprinkles Custom Mini Triangle Pieces for Slime Shaker Beads and Scrapbook Projects",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 192,
+      "assetKey": "yx194",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "yx194-orange-and-white-triangle-polymer-clay-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 707,
+          "height": 726
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW203-RW564-RW21165",
+      "title": "Transparent and Pastel Bow Flatback Assortment",
+      "originalTitle": "Cute Transparent Colorful Bow Tie Flat Back Resin Cabochons Scrapbooking Craft DIY Jewelry Making Embellishments Accessories",
+      "type": "Mixed",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Transparent and Pastel Bow Flatback Assortment, product code RW203-RW564-RW21165",
+      "description": "Mixed bow flatbacks: RW564 27 × 45 mm; RW21165/RW203 30 × 45 mm. 100 pieces per bag; quote selected designs, custom packing and MOQ.",
+      "detailedDescription": "Mixed bow flatbacks: RW564 27 × 45 mm; RW21165/RW203 30 × 45 mm. 100 pieces per bag; quote selected designs, custom packing and MOQ. One mixed group: select RW203, RW564 or RW21165 and confirm mixing proportions. Source material is acrylic, plastic and lucite. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Transparent and Pastel Bow Flatback Assortment",
+        "Material: Acrylic, plastic and lucite",
+        "Dimensions: RW564: 27 × 45 mm; RW21165 and RW203: 30 × 45 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW203-RW564-RW21165",
+        "Material: Acrylic, plastic and lucite",
+        "Dimensions: RW564: 27 × 45 mm; RW21165 and RW203: 30 × 45 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: One mixed group: select RW203, RW564 or RW21165 and confirm mixing proportions. Source material is acrylic, plastic and lucite.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Acrylic, plastic and lucite",
+      "dimensions": "RW564: 27 × 45 mm; RW21165 and RW203: 30 × 45 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Hair accessories, phone cases, decoden and decorative DIY projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "transparent and pastel bow flatback assortment, wholesale craft components",
+      "metaTitle": "Transparent Pastel Bow Flatbacks Wholesale | HAIBUCRAFT",
+      "metaDescription": "Mixed bow flatbacks: RW564 27 × 45 mm; RW21165/RW203 30 × 45 mm. 100 pieces per bag; quote selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "RW203-RW564-RW21165 ",
+        "标题": "Cute Transparent Colorful Bow Tie Flat Back Resin Cabochons Scrapbooking Craft DIY Jewelry Making Embellishments Accessories",
+        "分类": "Acrylic beads",
+        "状态": "库存有货",
+        "材质": "Acrylic, Plastic, Lucite",
+        "尺寸": "RW564-27*45mm，RW21165-30*45mm，RW203-30*45mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 193,
+      "assetKey": "rw203-rw564-rw21165",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "rw203-rw564-rw21165-transparent-and-pastel-bow-flatback-assortment",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 639,
+          "height": 676
+        },
+        {
+          "width": 756,
+          "height": 629
+        },
+        {
+          "width": 542,
+          "height": 543
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "individual design RW203",
+        "individual design RW564",
+        "individual design RW21165"
+      ],
+      "galleryNote": "Three individual bow design references. Specify the full grouped SKU and selected component codes. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25231",
+      "title": "Pastel Bow Cabochons with Rhinestone Centers",
+      "originalTitle": "Colorful Shiny Rhinestone Diamond Bowknot Resin Charms for Jewelry Making Bracelet Phone Case Decor Handcrafts",
+      "type": "Mixed",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Bow Cabochons with Rhinestone Centers, product code RW25231",
+      "description": "Pastel Bow Cabochons with Rhinestone Centers. Approximately 25 × 45 mm. 100 pieces per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Pastel Bow Cabochons with Rhinestone Centers. Approximately 25 × 45 mm. 100 pieces per bag; selected designs, MOQ and custom packing by inquiry. Confirm bow colors, center detail and attachment method by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Bow Cabochons with Rhinestone Centers",
+        "Material: Resin",
+        "Dimensions: Approximately 25 × 45 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW25231",
+        "Material: Resin",
+        "Dimensions: Approximately 25 × 45 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Confirm bow colors, center detail and attachment method by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approximately 25 × 45 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Hair accessories, phone cases, decoden and decorative DIY projects.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "pastel bow cabochons with rhinestone centers, wholesale craft components",
+      "metaTitle": "Pastel Rhinestone Bow Cabochons Wholesale | HAIBUCRAFT",
+      "metaDescription": "Pastel Bow Cabochons with Rhinestone Centers. Approximately 25 × 45 mm. 100 pieces per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "RW25231 ",
+        "标题": "Colorful Shiny Rhinestone Diamond Bowknot Resin Charms for Jewelry Making Bracelet Phone Case Decor Handcrafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 25*45mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 194,
+      "assetKey": "rw25231",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "rw25231-pastel-bow-cabochons-with-rhinestone-centers",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 744,
+          "height": 722
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "SLM2054",
+      "title": "Penguin Winter Clay Decoration Mix",
+      "originalTitle": "Wholesale Penguin Clay Mix Custom Winter Mini Decorations for Shaker Slime Scrapbook Album Accessories",
+      "type": "Seasonal",
+      "categorySlug": "slime-charms",
+      "imageAlt": "Penguin Winter Clay Decoration Mix, product code SLM2054",
+      "description": "Penguin Winter Clay Decoration Mix. Confirm dimensions by inquiry. 3 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Penguin Winter Clay Decoration Mix. Confirm dimensions by inquiry. 3 g per bag; selected designs, MOQ and custom packing by inquiry. A small-pack mixed decoration assortment; confirm each component and mixing proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Penguin Winter Clay Decoration Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 3 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: SLM2054",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 3 g per bag; custom packing by inquiry",
+        "Selection note: A small-pack mixed decoration assortment; confirm each component and mixing proportions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "3 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker crafts, themed DIY kits and small-pack decorative assortments.",
+      "packagingMoq": "Source packing: 3 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "penguin winter clay decoration mix, wholesale craft components",
+      "metaTitle": "Penguin Winter Clay Decoration Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Penguin Winter Clay Decoration Mix. Confirm dimensions by inquiry. 3 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "SLM2054 ",
+        "标题": "Wholesale Penguin Clay Mix Custom Winter Mini Decorations for Shaker Slime Scrapbook Album Accessories",
+        "分类": "Clay Charms",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格3g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 196,
+      "assetKey": "slm2054",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "slm2054-penguin-winter-clay-decoration-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 642,
+          "height": 636
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX4135",
+      "title": "Penguin Winter Polymer Clay Sprinkle Mix",
+      "originalTitle": "Wholesale Penguin Polymer Clay Sprinkles Custom Winter Mini Clay Mix for Slime Shaker Scrapbook Accessories",
+      "type": "Seasonal",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Penguin Winter Polymer Clay Sprinkle Mix, product code YX4135",
+      "description": "Penguin Winter Polymer Clay Sprinkle Mix. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Penguin Winter Polymer Clay Sprinkle Mix. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry. Confirm the included penguin shapes, filler components and mixing proportions by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Penguin Winter Polymer Clay Sprinkle Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX4135",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Confirm the included penguin shapes, filler components and mixing proportions by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker fillers, scrapbooking and decorative DIY assortments.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "penguin winter polymer clay sprinkle mix, wholesale craft components",
+      "metaTitle": "Penguin Winter Polymer Clay Sprinkle Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Penguin Winter Polymer Clay Sprinkle Mix. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "YX4135 ",
+        "标题": "Wholesale Penguin Polymer Clay Sprinkles Custom Winter Mini Clay Mix for Slime Shaker Scrapbook Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 198,
+      "assetKey": "yx4135",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "yx4135-penguin-winter-polymer-clay-sprinkle-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 721,
+          "height": 617
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX4136",
+      "title": "Tropical Bird Polymer Clay Sprinkle Mix",
+      "originalTitle": "Wholesale Bird Polymer Clay Sprinkles Custom Tropical Mini Mix for Slime Shaker Scrapbook Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Tropical Bird Polymer Clay Sprinkle Mix, product code YX4136",
+      "description": "Tropical Bird Polymer Clay Sprinkle Mix. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Tropical Bird Polymer Clay Sprinkle Mix. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry. Confirm bird shapes, filler components and mixing proportions by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Tropical Bird Polymer Clay Sprinkle Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX4136",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Confirm bird shapes, filler components and mixing proportions by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker fillers, scrapbooking and decorative DIY assortments.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "tropical bird polymer clay sprinkle mix, wholesale craft components",
+      "metaTitle": "Tropical Bird Polymer Clay Sprinkle Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Tropical Bird Polymer Clay Sprinkle Mix. Confirm dimensions by inquiry. 500 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "YX4136",
+        "标题": "Wholesale Bird Polymer Clay Sprinkles Custom Tropical Mini Mix for Slime Shaker Scrapbook Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 200,
+      "assetKey": "yx4136",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "yx4136-tropical-bird-polymer-clay-sprinkle-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 739,
+          "height": 681
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "SLM26438",
+      "title": "Tropical Bird and Palm Clay Decoration Mix",
+      "originalTitle": "Wholesale Tropical Bird Clay Mix Custom Palm Tree Mini Decorations for Shaker Slime Scrapbook Accessories",
+      "type": "Cute Animals",
+      "categorySlug": "slime-charms",
+      "imageAlt": "Tropical Bird and Palm Clay Decoration Mix, product code SLM26438",
+      "description": "Tropical Bird and Palm Clay Decoration Mix. Confirm dimensions by inquiry. 3 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "detailedDescription": "Tropical Bird and Palm Clay Decoration Mix. Confirm dimensions by inquiry. 3 g per bag; selected designs, MOQ and custom packing by inquiry. Small-pack assortment with tropical motifs; confirm included components by sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Tropical Bird and Palm Clay Decoration Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 3 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: SLM26438",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 3 g per bag; custom packing by inquiry",
+        "Selection note: Small-pack assortment with tropical motifs; confirm included components by sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "3 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker crafts, themed DIY kits and small-pack decorative assortments.",
+      "packagingMoq": "Source packing: 3 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "tropical bird and palm clay decoration mix, wholesale craft components",
+      "metaTitle": "Tropical Bird and Palm Clay Decoration Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Tropical Bird and Palm Clay Decoration Mix. Confirm dimensions by inquiry. 3 g per bag; selected designs, MOQ and custom packing by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-032556).xlsx",
+      "sourceFields": {
+        "sku": "SLM26438 ",
+        "标题": "Wholesale Tropical Bird Clay Mix Custom Palm Tree Mini Decorations for Shaker Slime Scrapbook Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格3g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 201,
+      "assetKey": "slm26438",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "slm26438-tropical-bird-and-palm-clay-decoration-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 700,
+          "height": 560
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

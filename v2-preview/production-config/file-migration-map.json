@@ -92,6 +92,55 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/rx327-layered-rainbow-cloud-craft-charms/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/rx327-layered-rainbow-cloud-craft-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/rx327-layered-rainbow-cloud-craft-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3257-yellow-smiley-face-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3257-yellow-smiley-face-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3257-yellow-smiley-face-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx354-chick-polymer-clay-craft-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx354-chick-polymer-clay-craft-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx354-chick-polymer-clay-craft-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3491-autumn-maple-leaf-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3491-autumn-maple-leaf-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3491-autumn-maple-leaf-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx194-orange-white-triangle-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx194-orange-white-triangle-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx194-orange-white-triangle-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4135-penguin-winter-polymer-clay-sprinkle-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4135-penguin-winter-polymer-clay-sprinkle-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4135-penguin-winter-polymer-clay-sprinkle-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx4136-tropical-bird-polymer-clay-sprinkle-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4136-tropical-bird-polymer-clay-sprinkle-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4136-tropical-bird-polymer-clay-sprinkle-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
       "action": "create",
@@ -386,6 +435,20 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/slime-charms/slm2054-penguin-winter-clay-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm2054-penguin-winter-clay-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm2054-penguin-winter-clay-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm26438-tropical-bird-palm-clay-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm26438-tropical-bird-palm-clay-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm26438-tropical-bird-palm-clay-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/slime-charms/slm-rx488-strawberry-cherry-clay-slime-filler-mix/index.html",
       "destination": "products/slime-charms-wholesale/slm-rx488-strawberry-cherry-clay-slime-filler-mix/index.html",
       "action": "create",
@@ -635,6 +698,20 @@
       "destination": "products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/index.html",
       "action": "create",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw203-rw564-rw21165-transparent-pastel-bow-flatback-assortment/index.html",
+      "destination": "products/resin-charms-for-slime/rw203-rw564-rw21165-transparent-pastel-bow-flatback-assortment/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw203-rw564-rw21165-transparent-pastel-bow-flatback-assortment/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25231-pastel-bow-cabochons-with-rhinestone-centers/index.html",
+      "destination": "products/resin-charms-for-slime/rw25231-pastel-bow-cabochons-with-rhinestone-centers/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25231-pastel-bow-cabochons-with-rhinestone-centers/",
       "generatedProduct": true
     },
     {

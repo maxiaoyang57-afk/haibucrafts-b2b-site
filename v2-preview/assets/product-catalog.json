@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-19",
-  "count": 251,
+  "count": 252,
   "products": [
     {
       "sku": "RX327",
@@ -106,6 +106,21 @@
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx4136-tropical-bird-polymer-clay-sprinkle-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx4136-tropical-bird-polymer-clay-sprinkle-mix/"
+    },
+    {
+      "sku": "YX4137",
+      "title": "Strawberry Fruit Polymer Clay Sprinkle Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-19/yx4137/yx4137-strawberry-polymer-clay-sprinkle-mix-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-19/yx4137/yx4137-strawberry-polymer-clay-sprinkle-mix-01.jpg",
+        "/assets/images/products/batch-2026-10-19/yx4137/yx4137-strawberry-polymer-clay-sprinkle-mix-02.jpg",
+        "/assets/images/products/batch-2026-10-19/yx4137/yx4137-strawberry-polymer-clay-sprinkle-mix-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx4137-strawberry-fruit-polymer-clay-sprinkle-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4137-strawberry-fruit-polymer-clay-sprinkle-mix/"
     },
     {
       "sku": "YX3889",

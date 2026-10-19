@@ -1,0 +1,130 @@
+{
+  "batch": "haibu-new-products-20261019-final-mix",
+  "expectedSkuCount": 1,
+  "publicGalleryCount": 7,
+  "assetDirectory": "batch-2026-10-19",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-19",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX3084-YX3087-YX3089-YX3103-YX3112-YX3115",
+      "title": "Polymer Clay Sprinkle and Decorative Filler Mix",
+      "originalTitle": "Bear Shell Shark Polymer Clay Slices Mixed Rhinestone Pearls Sprinkles for Slime Filling Nail Art Decoration DIY Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Polymer Clay Sprinkle and Decorative Filler Mix, product code YX3084-YX3087-YX3089-YX3103-YX3112-YX3115",
+      "description": "Polymer Clay Sprinkle and Decorative Filler Mix. Confirm dimensions by inquiry; 500 g per bag. Confirm selected designs, custom packing and MOQ by inquiry.",
+      "detailedDescription": "Polymer Clay Sprinkle and Decorative Filler Mix. Confirm dimensions by inquiry; 500 g per bag. Confirm selected designs, custom packing and MOQ by inquiry. One group of six mix references: YX3084, YX3087, YX3089, YX3103, YX3112 and YX3115. Decorative fillers vary by mix; confirm component materials and mixing proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Polymer Clay Sprinkle and Decorative Filler Mix",
+        "Material: Polymer clay with assorted decorative fillers",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX3084-YX3087-YX3089-YX3103-YX3112-YX3115",
+        "Material: Polymer clay with assorted decorative fillers",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: One group of six mix references: YX3084, YX3087, YX3089, YX3103, YX3112 and YX3115. Decorative fillers vary by mix; confirm component materials and mixing proportions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay with assorted decorative fillers",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker crafts, nail-art projects and craft kits; suitability confirmed against the selected sample.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "polymer clay sprinkle and decorative filler mix, wholesale craft components",
+      "metaTitle": "YX3084–YX3115 Clay Sprinkle Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Polymer Clay Sprinkle and Decorative Filler Mix. Confirm dimensions by inquiry; 500 g per bag. Confirm selected designs, custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-053550).xlsx",
+      "sourceFields": {
+        "sku": "YX3084-YX3087-YX3089-YX3103-YX3112-YX3115",
+        "标题": "Bear Shell Shark Polymer Clay Slices Mixed Rhinestone Pearls Sprinkles for Slime Filling Nail Art Decoration DIY Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 212,
+      "assetKey": "yx3084-yx3087-yx3089-yx3103-yx3112-yx3115",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg",
+        "jpg",
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 571,
+          "height": 573
+        },
+        {
+          "width": 717,
+          "height": 706
+        },
+        {
+          "width": 609,
+          "height": 604
+        },
+        {
+          "width": 744,
+          "height": 735
+        },
+        {
+          "width": 564,
+          "height": 543
+        },
+        {
+          "width": 579,
+          "height": 546
+        },
+        {
+          "width": 519,
+          "height": 527
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "galleryLabels": [
+        "group assortment reference",
+        "individual design YX3084",
+        "individual design YX3087",
+        "individual design YX3089",
+        "individual design YX3103",
+        "individual design YX3112",
+        "individual design YX3115"
+      ],
+      "galleryNote": "Image 1 shows the grouped assortment. Following images show every supplied individual design; specify selected component codes and mixing proportions. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

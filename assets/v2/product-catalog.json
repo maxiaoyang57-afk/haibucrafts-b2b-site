@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-19",
-  "count": 252,
+  "count": 255,
   "products": [
     {
       "sku": "RX327",
@@ -121,6 +121,40 @@
       ],
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx4137-strawberry-fruit-polymer-clay-sprinkle-mix/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx4137-strawberry-fruit-polymer-clay-sprinkle-mix/"
+    },
+    {
+      "sku": "YX3560",
+      "title": "High Heel and Hat Polymer Clay Slices",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-19/yx3560/yx3560-high-heel-and-hat-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-19/yx3560/yx3560-high-heel-and-hat-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-19/yx3560/yx3560-high-heel-and-hat-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-19/yx3560/yx3560-high-heel-and-hat-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3560-high-heel-hat-polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3560-high-heel-hat-polymer-clay-slices/"
+    },
+    {
+      "sku": "YX3084-YX3087-YX3089-YX3103-YX3112-YX3115",
+      "title": "Polymer Clay Sprinkle and Decorative Filler Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-19/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-19/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix-01.jpg",
+        "/assets/images/products/batch-2026-10-19/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix-02.jpg",
+        "/assets/images/products/batch-2026-10-19/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix-03.jpg",
+        "/assets/images/products/batch-2026-10-19/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix-04.jpg",
+        "/assets/images/products/batch-2026-10-19/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix-05.jpg",
+        "/assets/images/products/batch-2026-10-19/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix-06.jpg",
+        "/assets/images/products/batch-2026-10-19/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-and-decorative-filler-mix-07.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-decorative-filler-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3084-yx3087-yx3089-yx3103-yx3112-yx3115-polymer-clay-sprinkle-decorative-filler-mix/"
     },
     {
       "sku": "YX3889",
@@ -1321,6 +1355,21 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw25231-pastel-bow-cabochons-with-rhinestone-centers/",
       "productionPath": "/products/resin-charms-for-slime/rw25231-pastel-bow-cabochons-with-rhinestone-centers/"
+    },
+    {
+      "sku": "RW26685",
+      "title": "Colorful Insect Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Animal",
+      "image": "/assets/images/products/batch-2026-10-19/rw26685/rw26685-colorful-insect-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-19/rw26685/rw26685-colorful-insect-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-19/rw26685/rw26685-colorful-insect-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-19/rw26685/rw26685-colorful-insect-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26685-colorful-insect-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26685-colorful-insect-resin-cabochons/"
     },
     {
       "sku": "RW26808",

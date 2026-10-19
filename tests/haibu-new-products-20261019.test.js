@@ -5,7 +5,7 @@ import test from 'node:test';
 const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261019-manifest.json','utf8'));
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 test('October 19 keeps all 240 earlier identities and publishes eleven distinct source-backed groups',async()=>{
- assert.equal(catalog.count,252);assert.equal(new Set(catalog.products.map(p=>p.sku)).size,252);
+ assert.equal(catalog.count,255);assert.equal(new Set(catalog.products.map(p=>p.sku)).size,255);
  assert.equal(manifest.products.length,11);
  for(const old of manifest.previousProducts)assert.deepEqual(catalog.products.find(p=>p.sku===old.sku),old,old.sku);
  for(const record of manifest.products){

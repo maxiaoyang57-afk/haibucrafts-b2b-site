@@ -8,7 +8,7 @@ export function priorExtensionMedia(product){const old=extension.previousProduct
 export const addedExtensionSkus=new Set(extension.products.filter(p=>p.operation==='new').map(p=>p.sku));
 const night=JSON.parse(readFileSync(new URL("../../docs/tasks/haibu-new-products-20261018-night-manifest.json",import.meta.url),"utf8"));
 const october19=JSON.parse(readFileSync(new URL('../../scripts/data/haibu-new-products-20261019.json',import.meta.url),'utf8'));
-export const addedSupplementSkus=new Set(['YX4137',...october19.products.map(p=>p.sku),...manifest.products.filter(p=>p.operation==='new').map(p=>p.sku),...addedExtensionSkus,...finalBatch.products.filter(p=>p.operation==='new').map(p=>p.sku),...night.products.filter(p=>p.operation==='new').map(p=>p.sku)]);
+export const addedSupplementSkus=new Set(['RW26685','YX3560','YX3084-YX3087-YX3089-YX3103-YX3112-YX3115','YX4137',...october19.products.map(p=>p.sku),...manifest.products.filter(p=>p.operation==='new').map(p=>p.sku),...addedExtensionSkus,...finalBatch.products.filter(p=>p.operation==='new').map(p=>p.sku),...night.products.filter(p=>p.operation==='new').map(p=>p.sku)]);
 export function priorMedia(product){
  const old=previous.get(product.sku);
  return old?{...product,image:old.image,gallery:old.gallery}:product;

@@ -85,22 +85,22 @@ test('Issue #29 retirements remain intact after later polymer clay additions', a
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
 
-  assert.equal(catalog.count, 240);
-  assert.equal(catalog.products.length, 240);
-  assert.equal(catalog.products.filter((product) => product.category === 'polymer-clay-slices').length, 42);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 240);
-  assert.match(category, /<strong data-product-count>42 products<\/strong>/);
-  assert.equal((category.match(/data-product-card/g) || []).length, 42);
-  assert.match(home, /<span>240 cataloged products<\/span>/);
-  assert.match(home, /<span class="eyebrow">42 products<\/span><h3>Polymer Clay Slices<\/h3>/);
-  assert.match(directory, /Browse 240 published products/);
-  assert.match(directory, /<span>42 Products<\/span>[\s\S]*?<h2>Polymer Clay Slices<\/h2>/);
+  assert.equal(catalog.count, 251);
+  assert.equal(catalog.products.length, 251);
+  assert.equal(catalog.products.filter((product) => product.category === 'polymer-clay-slices').length, 49);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 251);
+  assert.match(category, /<strong data-product-count>49 products<\/strong>/);
+  assert.equal((category.match(/data-product-card/g) || []).length, 49);
+  assert.match(home, /<span>251 cataloged products<\/span>/);
+  assert.match(home, /<span class="eyebrow">49 products<\/span><h3>Polymer Clay Slices<\/h3>/);
+  assert.match(directory, /Browse 251 published products/);
+  assert.match(directory, /<span>49 Products<\/span>[\s\S]*?<h2>Polymer Clay Slices<\/h2>/);
 
   const itemList = [...category.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .map((match) => JSON.parse(match[1]))
     .find((item) => item['@type'] === 'ItemList');
-  assert.equal(itemList?.numberOfItems, 42);
-  assert.deepEqual(itemList?.itemListElement.map((item) => item.position), Array.from({ length: 42 }, (_, index) => index + 1));
+  assert.equal(itemList?.numberOfItems, 49);
+  assert.deepEqual(itemList?.itemListElement.map((item) => item.position), Array.from({ length: 49 }, (_, index) => index + 1));
 });
 
 test('Issue #29 product pages preserve identity, RFQ attribution and SEO integrity', async () => {

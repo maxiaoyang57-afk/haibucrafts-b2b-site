@@ -42,6 +42,7 @@ const haibuOctober18Night = JSON.parse(await readFile(path.join(root, 'scripts/d
 const haibuOctober19Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261019.json'), 'utf8'));
 const purchasingBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-purchasing-20261002.json'), 'utf8'));
 const purchasingBySku = new Map(purchasingBatch.products.map((item) => [item.sku, item]));
+const haibuOctober19SupplementBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261019-supplement.json'), 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
@@ -63,7 +64,8 @@ const productBatches = [
   { issue: 'haibu-new-products-20261018-extension', data: haibuOctober18Extension },
   { issue: 'haibu-new-products-20261018-final', data: haibuOctober18Final },
   { issue: 'haibu-new-products-20261018-night', data: haibuOctober18Night },
-  { issue: 'haibu-new-products-20261019', data: haibuOctober19Batch }
+  { issue: 'haibu-new-products-20261019', data: haibuOctober19Batch },
+  { issue: 'haibu-new-products-20261019-supplement', data: haibuOctober19SupplementBatch }
 ];
 
 for (const { issue, data } of productBatches) {

@@ -3959,5 +3959,11 @@
       "sourceRow": 199,
       "reason": "No corresponding owner-supplied image in this batch"
     }
-  ]
+  ],
+  "supplementResolution": {
+    "date": "2026-10-19",
+    "sku": "YX4137",
+    "status": "Supplied image received and published in supplement",
+    "manifest": "haibu-new-products-20261019-supplement-manifest.json"
+  }
 }

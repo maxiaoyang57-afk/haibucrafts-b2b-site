@@ -1,0 +1,102 @@
+{
+  "batch": "haibu-new-products-20261019-supplement",
+  "expectedSkuCount": 1,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-19",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-19",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX4137",
+      "title": "Strawberry Fruit Polymer Clay Sprinkle Mix",
+      "originalTitle": "Wholesale Strawberry Polymer Clay Sprinkles Custom Mini Fruit Mix for Slime Shaker Scrapbook Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Strawberry Fruit Polymer Clay Sprinkle Mix, product code YX4137",
+      "description": "Strawberry Fruit Polymer Clay Sprinkle Mix. 3 g per bag; dimensions, selected designs, mixing proportions, MOQ and custom packing confirmed by inquiry.",
+      "detailedDescription": "Strawberry Fruit Polymer Clay Sprinkle Mix. 3 g per bag; dimensions, selected designs, mixing proportions, MOQ and custom packing confirmed by inquiry. Confirm selected strawberry designs, mixing proportions and supplied components against the sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Strawberry Fruit Polymer Clay Sprinkle Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 3 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX4137",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 3 g per bag; custom packing by inquiry",
+        "Selection note: Confirm selected strawberry designs, mixing proportions and supplied components against the sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "3 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime add-ins, shaker fillers, scrapbooking and decorative DIY assortments.",
+      "packagingMoq": "Source packing: 3 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "strawberry polymer clay sprinkle mix, wholesale craft components",
+      "metaTitle": "YX4137 Strawberry Clay Sprinkle Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Strawberry Fruit Polymer Clay Sprinkle Mix. 3 g per bag; dimensions, selected designs, mixing proportions, MOQ and custom packing confirmed by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261019-supplement-032556).xlsx",
+      "sourceFields": {
+        "sku": "YX4137 ",
+        "标题": "Wholesale Strawberry Polymer Clay Sprinkles Custom Mini Fruit Mix for Slime Shaker Scrapbook Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格3g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 199,
+      "assetKey": "yx4137",
+      "assetDirectory": "batch-2026-10-19",
+      "imagePrefix": "yx4137-strawberry-polymer-clay-sprinkle-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 680,
+          "height": 696
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "source specification summary",
+        "packing and order brief"
+      ],
+      "galleryNote": "Image 1: supplied product styling reference with branding removed where applicable. Images 2–3: specification and packing graphics. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-19",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

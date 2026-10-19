@@ -141,6 +141,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx4137-strawberry-fruit-polymer-clay-sprinkle-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx4137-strawberry-fruit-polymer-clay-sprinkle-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx4137-strawberry-fruit-polymer-clay-sprinkle-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3889-halloween-polymer-clay-sprinkle-mix/index.html",
       "action": "create",

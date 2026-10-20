@@ -5,7 +5,9 @@ const MAX_BODY_BYTES = 4_000_000;
 const MAX_ATTACHMENTS = 4;
 const MAX_ATTACHMENT_BYTES = 800_000;
 const MAX_TOTAL_ATTACHMENT_BYTES = 2_800_000;
-const ALLOWED_IMAGE_TYPES = new Set(['image/jpeg', 'image/png', 'image/webp', 'image/gif']);
+const IMAGE_EXTENSIONS = new Map([
+  ['image/jpeg', '.jpg'], ['image/png', '.png'], ['image/webp', '.webp'], ['image/gif', '.gif']
+]);
 const ALLOWED_ORIGINS = new Set([
   'https://www.haibucrafts.com',
   'https://haibucrafts.com'
@@ -85,22 +87,40 @@ function parseBody(req) {
   return req.body && typeof req.body === 'object' ? req.body : {};
 }
 
+function imageType(bytes) {
+  if (bytes.length >= 3 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff) return 'image/jpeg';
+  if (bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))) return 'image/png';
+  if (['GIF87a', 'GIF89a'].includes(bytes.subarray(0, 6).toString('latin1'))) return 'image/gif';
+  if (bytes.length >= 12 && bytes.subarray(0, 4).toString('latin1') === 'RIFF'
+      && bytes.subarray(8, 12).toString('latin1') === 'WEBP') return 'image/webp';
+  return '';
+}
+
 function prepareAttachments(input) {
   if (input == null) return [];
   if (!Array.isArray(input) || input.length > MAX_ATTACHMENTS) throw new Error('ATTACHMENTS_INVALID');
   let totalBytes = 0;
   return input.map((attachment, index) => {
-    const filename = clean(attachment?.filename || `reference-${index + 1}.jpg`, 100)
+    const suppliedFilename = clean(attachment?.filename || `reference-${index + 1}.jpg`, 100)
       .replace(/[^a-zA-Z0-9._ -]/g, '_');
     const contentType = clean(attachment?.contentType, 80).toLowerCase();
-    const content = clean(attachment?.content, 1_200_000).replace(/\s/g, '');
-    if (!ALLOWED_IMAGE_TYPES.has(contentType) || !/^[A-Za-z0-9+/]*={0,2}$/.test(content)) {
+    if (!IMAGE_EXTENSIONS.has(contentType) || typeof attachment?.content !== 'string') {
       throw new Error('ATTACHMENTS_INVALID');
     }
-    const size = Math.floor(content.length * 3 / 4);
+    if (attachment.content.length > 1_200_000) throw new Error('ATTACHMENT_TOO_LARGE');
+    const content = attachment.content.replace(/\s/g, '');
+    if (content.length % 4 !== 0 || !/^[A-Za-z0-9+/]*={0,2}$/.test(content)) throw new Error('ATTACHMENTS_INVALID');
+    const bytes = Buffer.from(content, 'base64');
+    if (bytes.toString('base64') !== content) throw new Error('ATTACHMENTS_INVALID');
+    const size = bytes.length;
     if (!size || size > MAX_ATTACHMENT_BYTES) throw new Error('ATTACHMENT_TOO_LARGE');
     totalBytes += size;
     if (totalBytes > MAX_TOTAL_ATTACHMENT_BYTES) throw new Error('ATTACHMENTS_TOO_LARGE');
+    if (imageType(bytes) !== contentType) throw new Error('ATTACHMENTS_INVALID');
+    // Check the format signature and pin a safe extension; this is not a full image decoder.
+    const extension = IMAGE_EXTENSIONS.get(contentType);
+    const base = suppliedFilename.replace(/\.[^.]*$/, '').replace(/\.+$/, '') || `reference-${index + 1}`;
+    const filename = base.slice(0, 100 - extension.length) + extension;
     return { filename, content };
   });
 }

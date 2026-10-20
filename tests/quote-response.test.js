@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import vm from 'node:vm';
 import test from 'node:test';
+import handler from '../api/inquiry.js';
 
 async function submitFixture(response) {
   let submit;
@@ -56,4 +57,23 @@ test('accepted inquiry clears input and shows the server request reference', asy
   assert.deepEqual(result.tracked.map((event) => event.name), ['generate_lead']);
   assert.equal(result.tracked[0].properties.lead_type, 'wholesale_inquiry');
   assert.equal(result.tracked[0].properties.lead_status, 'accepted');
+});
+
+test('a request suppressed by the server does not create a lead conversion', async () => {
+  let payload;
+  let deliveryAttempts = 0;
+  const originalFetch = globalThis.fetch;
+  globalThis.fetch = async () => { deliveryAttempts += 1; throw new Error('Unexpected delivery attempt'); };
+  try {
+    await handler({ method: 'POST', headers: { origin: 'https://www.haibucrafts.com' }, body: { _company_fax: 'spam-bot' } }, {
+      setHeader() {},
+      end(body) { payload = JSON.parse(body); }
+    });
+  } finally { globalThis.fetch = originalFetch; }
+  assert.equal(deliveryAttempts, 0);
+  const result = await submitFixture({ ok: true, json: async () => payload });
+  assert.equal(result.resets, 1);
+  assert.match(result.message, /sent successfully/);
+  assert.equal(result.disabled, false);
+  assert.equal(result.tracked.length, 0);
 });

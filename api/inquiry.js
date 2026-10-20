@@ -144,7 +144,7 @@ export default async function handler(req, res) {
 
   if (clean(body?._company_fax, 100)) {
     console.warn('Inquiry suppressed by spam check', { requestId });
-    return json(res, 200, { ok: true, requestId });
+    return json(res, 200, { ok: true, requestId, suppressed: true });
   }
 
   const fields = prepareFields(body?.fields);

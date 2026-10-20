@@ -401,7 +401,7 @@
       const payload = await response.json().catch(() => ({}));
       if (!response.ok || payload.ok !== true) throw new Error(payload.message || 'Inquiry could not be sent.');
       try {
-        if (typeof window.HAIBU_TRACK === 'function') {
+        if (payload.suppressed !== true && typeof window.HAIBU_TRACK === 'function') {
           const leadEventProperties = {
             source: String(fields.attribution_source || inquiryAttribution.attribution_source).slice(0, 80),
             channel: String(fields.attribution_channel || inquiryAttribution.attribution_channel).slice(0, 80),

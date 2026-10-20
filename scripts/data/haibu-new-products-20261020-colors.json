@@ -1,0 +1,109 @@
+{
+  "batch": "haibu-new-products-20261020-colors",
+  "expectedSkuCount": 1,
+  "publicGalleryCount": 4,
+  "assetDirectory": "batch-2026-10-20",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-20",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "MA182",
+      "title": "Holographic Star Confetti Sequins",
+      "originalTitle": "Nail Art Star Sequins Confetti  Balloon Supplies Christmas Tree Props Gift Box DIY Wedding Birthday Party Table Decoration",
+      "type": "Decorative",
+      "categorySlug": "sequins-glitter-confetti",
+      "imageAlt": "Holographic Star Confetti Sequins, product code MA182",
+      "description": "Holographic Star Confetti Sequins. Approx. 8 mm; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Holographic Star Confetti Sequins. Approx. 8 mm; 500 g per bag. Custom packing and MOQ by inquiry. Four supplied color references: clear, pink, yellow and blue. Confirm selected colors and mixing proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Holographic Star Confetti Sequins",
+        "Material: PVC",
+        "Dimensions: Approx. 8 mm",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: MA182",
+        "Material: PVC",
+        "Dimensions: Approx. 8 mm",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Four supplied color references: clear, pink, yellow and blue. Confirm selected colors and mixing proportions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "PVC",
+      "dimensions": "Approx. 8 mm",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Shaker projects, slime decoration, nail art and party crafts.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "holographic star confetti sequins, wholesale craft components",
+      "metaTitle": "MA182 Holographic Star Sequins Wholesale | HAIBUCRAFT",
+      "metaDescription": "Holographic Star Confetti Sequins. Approx. 8 mm; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "MA182 ",
+        "标题": "Nail Art Star Sequins Confetti  Balloon Supplies Christmas Tree Props Gift Box DIY Wedding Birthday Party Table Decoration",
+        "分类": "Sequins Confetti",
+        "状态": "库存有货",
+        "材质": "PVC",
+        "尺寸": "about    8mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500G/ bag，可以定制，咨询客服"
+      },
+      "sourceRow": 246,
+      "assetKey": "ma182",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "ma182-holographic-star-confetti-sequins",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 470,
+          "height": 494
+        },
+        {
+          "width": 528,
+          "height": 520
+        },
+        {
+          "width": 417,
+          "height": 376
+        },
+        {
+          "width": 339,
+          "height": 369
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "galleryLabels": [
+        "clear star sequins reference",
+        "pink star sequins reference",
+        "yellow star sequins reference",
+        "blue star sequins reference"
+      ],
+      "galleryNote": "Four supplied star sequin color references. Confirm selected colors and assortment. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

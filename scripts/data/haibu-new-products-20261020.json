@@ -1,0 +1,894 @@
+{
+  "batch": "haibu-new-products-20261020",
+  "expectedSkuCount": 10,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-20",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-20",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "MA173",
+      "title": "Dog Bone Confetti Sequins",
+      "originalTitle": "Mini Dog Bone Confetti Nails Glitter Sequins DIY Sewing Accessories for Slime Crafts & Nail Art Decoration Party Supplies",
+      "type": "Decorative",
+      "categorySlug": "sequins-glitter-confetti",
+      "imageAlt": "Dog Bone Confetti Sequins, product code MA173",
+      "description": "Dog Bone Confetti Sequins. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Dog Bone Confetti Sequins. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry. Bone-shaped confetti in assorted colors. Confirm the selected colors and actual dimensions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Dog Bone Confetti Sequins",
+        "Material: Plastic sequins",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: MA173",
+        "Material: Plastic sequins",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Bone-shaped confetti in assorted colors. Confirm the selected colors and actual dimensions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Plastic sequins",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker crafts, nail-art projects and party crafts.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "dog bone confetti sequins, wholesale craft components",
+      "metaTitle": "MA173 Bone Confetti Sequins Wholesale | HAIBUCRAFT",
+      "metaDescription": "Dog Bone Confetti Sequins. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "MA173 ",
+        "标题": "Mini Dog Bone Confetti Nails Glitter Sequins DIY Sewing Accessories for Slime Crafts & Nail Art Decoration Party Supplies",
+        "分类": "Sequins",
+        "状态": "库存有货",
+        "材质": "Plastic Sequins",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500G/ bag，可以定制，咨询客服"
+      },
+      "sourceRow": 248,
+      "assetKey": "ma173",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "ma173-dog-bone-confetti-sequins",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 438,
+          "height": 458
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW443",
+      "title": "White Glitter Snowflake Resin Charms",
+      "originalTitle": "New Arrive  19mm  26mm  Flatback  White Christmas Resin Snowflake With Glitter Powder  Scrapbooking Craft DIY",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "White Glitter Snowflake Resin Charms, product code RW443",
+      "description": "White Glitter Snowflake Resin Charms. 19 mm and 26 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "White Glitter Snowflake Resin Charms. 19 mm and 26 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. White snowflake flatbacks in two listed sizes. Confirm the selected size and assortment. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "White Glitter Snowflake Resin Charms",
+        "Material: Resin",
+        "Dimensions: 19 mm and 26 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW443",
+        "Material: Resin",
+        "Dimensions: 19 mm and 26 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: White snowflake flatbacks in two listed sizes. Confirm the selected size and assortment.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "19 mm and 26 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Christmas craft kits, scrapbooking and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "white glitter snowflake resin charms, wholesale craft components",
+      "metaTitle": "RW443 Snowflake Resin Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "White Glitter Snowflake Resin Charms. 19 mm and 26 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": " RW443 ",
+        "标题": "New Arrive  19mm  26mm  Flatback  White Christmas Resin Snowflake With Glitter Powder  Scrapbooking Craft DIY",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "19mm,26mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 243,
+      "assetKey": "rw443",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "rw443-white-glitter-snowflake-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 419,
+          "height": 369
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW001744",
+      "title": "Red Love Heart Resin Flatback Charms",
+      "originalTitle": "Kawaii FlatBack Red Color Love Heart Cabochon Charms  DIY Shoes Hat Mobile Phone Case Decor Clothes Scrapbook Flat Back Resin",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Red Love Heart Resin Flatback Charms, product code RW001744",
+      "description": "Red Love Heart Resin Flatback Charms. 35 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Red Love Heart Resin Flatback Charms. 35 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Red heart flatbacks with white LOVE lettering. Confirm selected lettering and finish against the sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Red Love Heart Resin Flatback Charms",
+        "Material: Resin",
+        "Dimensions: 35 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW001744",
+        "Material: Resin",
+        "Dimensions: 35 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Red heart flatbacks with white LOVE lettering. Confirm selected lettering and finish against the sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "35 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Phone-case decoration, hair accessories and scrapbooking.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "red love heart resin flatback charms, wholesale craft components",
+      "metaTitle": "RW001744 Red Heart Resin Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Red Love Heart Resin Flatback Charms. 35 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "RW001744 ",
+        "标题": "Kawaii FlatBack Red Color Love Heart Cabochon Charms  DIY Shoes Hat Mobile Phone Case Decor Clothes Scrapbook Flat Back Resin",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 242,
+      "assetKey": "rw001744",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "rw001744-red-love-heart-resin-flatback-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 734,
+          "height": 665
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW2419",
+      "title": "Pastel Gummy Bear Resin Flatback Charms",
+      "originalTitle": "Cute Pastel Gummy  Bear Flatback Resin Cabochon Charms DIY Hair Accessories Scrapbooking Craft Phone Decoration",
+      "type": "Animal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Gummy Bear Resin Flatback Charms, product code RW2419",
+      "description": "Pastel Gummy Bear Resin Flatback Charms. Approx. 10 × 17 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Pastel Gummy Bear Resin Flatback Charms. Approx. 10 × 17 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Pastel bear-shaped flatbacks in assorted colors. Decorative imitation candy; not edible. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Gummy Bear Resin Flatback Charms",
+        "Material: Resin",
+        "Dimensions: Approx. 10 × 17 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW2419",
+        "Material: Resin",
+        "Dimensions: Approx. 10 × 17 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Pastel bear-shaped flatbacks in assorted colors. Decorative imitation candy; not edible.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 10 × 17 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Hair accessories, phone-case decoration and craft kits.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "pastel gummy bear resin flatback charms, wholesale craft components",
+      "metaTitle": "RW2419 Gummy Bear Resin Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Pastel Gummy Bear Resin Flatback Charms. Approx. 10 × 17 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "RW2419 ",
+        "标题": "Cute Pastel Gummy  Bear Flatback Resin Cabochon Charms DIY Hair Accessories Scrapbooking Craft Phone Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 10*17mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 237,
+      "assetKey": "rw2419",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "rw2419-pastel-gummy-bear-resin-flatback-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 432,
+          "height": 482
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW20969",
+      "title": "Glitter Gradient Heart Flatback Craft Charms",
+      "originalTitle": "Glitter Gradient Heart Flatback Resin Cabochon Kawaii Decoration Crafts Embellishments for Scrapbooking DIY Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glitter Gradient Heart Flatback Craft Charms, product code RW20969",
+      "description": "Glitter Gradient Heart Flatback Craft Charms. Approx. 30 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Glitter Gradient Heart Flatback Craft Charms. Approx. 30 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Glitter gradient heart shapes. Confirm the selected color assortment and finish against the sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glitter Gradient Heart Flatback Craft Charms",
+        "Material: Rubber",
+        "Dimensions: Approx. 30 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW20969",
+        "Material: Rubber",
+        "Dimensions: Approx. 30 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Glitter gradient heart shapes. Confirm the selected color assortment and finish against the sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Rubber",
+      "dimensions": "Approx. 30 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Scrapbooking, phone-case decoration and craft accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "glitter gradient heart flatback craft charms, wholesale craft components",
+      "metaTitle": "RW20969 Glitter Heart Craft Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Glitter Gradient Heart Flatback Craft Charms. Approx. 30 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "RW20969",
+        "标题": "Glitter Gradient Heart Flatback Resin Cabochon Kawaii Decoration Crafts Embellishments for Scrapbooking DIY Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "Rubber",
+        "尺寸": "about 30mm ",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 245,
+      "assetKey": "rw20969",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "rw20969-glitter-gradient-heart-flatback-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 550,
+          "height": 614
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RX268",
+      "title": "Sugar Finish Hollow Heart Resin Charms",
+      "originalTitle": "Resin Love Peach Sugar Hollow  Heart Soft Candy Resin Patch DIY Handmade Jewelry Making Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Sugar Finish Hollow Heart Resin Charms, product code RX268",
+      "description": "Sugar Finish Hollow Heart Resin Charms. 35 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Sugar Finish Hollow Heart Resin Charms. 35 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. The photo includes ring, heart and star forms. Specify the hollow-heart design under RX268 and confirm the supplied shape assortment. Decorative imitation candy; not edible. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Sugar Finish Hollow Heart Resin Charms",
+        "Material: Resin",
+        "Dimensions: 35 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RX268",
+        "Material: Resin",
+        "Dimensions: 35 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: The photo includes ring, heart and star forms. Specify the hollow-heart design under RX268 and confirm the supplied shape assortment. Decorative imitation candy; not edible.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "35 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Jewelry decoration, scrapbooking and craft accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "sugar finish hollow heart resin charms, wholesale craft components",
+      "metaTitle": "RX268 Hollow Heart Resin Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Sugar Finish Hollow Heart Resin Charms. 35 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "RX268",
+        "标题": "Resin Love Peach Sugar Hollow  Heart Soft Candy Resin Patch DIY Handmade Jewelry Making Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 241,
+      "assetKey": "rx268",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "rx268-sugar-finish-hollow-heart-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 620,
+          "height": 622
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "SLM10120",
+      "title": "Moon and Star Decorative Filler Mix",
+      "originalTitle": "Polymer Hot Clay Sprinkles Lovely Moon Star Mixed Resin Moon Charms for Crafts Making, DIY Confetti Scrapbook",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Moon and Star Decorative Filler Mix, product code SLM10120",
+      "description": "Moon and Star Decorative Filler Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Moon and Star Decorative Filler Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry. Moon and star decorative mix. Confirm each component material, dimensions and mixing proportions for the selected sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Moon and Star Decorative Filler Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: SLM10120",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Moon and star decorative mix. Confirm each component material, dimensions and mixing proportions for the selected sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker projects and scrapbook crafts.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "moon and star decorative filler mix, wholesale craft components",
+      "metaTitle": "SLM10120 Moon and Star Filler Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Moon and Star Decorative Filler Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "SLM10120 ",
+        "标题": "Polymer Hot Clay Sprinkles Lovely Moon Star Mixed Resin Moon Charms for Crafts Making, DIY Confetti Scrapbook",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 233,
+      "assetKey": "slm10120",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "slm10120-moon-and-star-decorative-filler-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 640,
+          "height": 590
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX4156",
+      "title": "Butterfly Flower Citrus Decorative Sprinkle Mix",
+      "originalTitle": "Butterfly Flower Leaf Citrus Decorative Sprinkles Mix for Slime DIY Crafts Wholesale",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Butterfly Flower Citrus Decorative Sprinkle Mix, product code YX4156",
+      "description": "Butterfly Flower Citrus Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Butterfly Flower Citrus Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry. Butterfly, flower, leaf and citrus-themed mix. Confirm individual component materials, dimensions and mixing proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Butterfly Flower Citrus Decorative Sprinkle Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX4156",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Butterfly, flower, leaf and citrus-themed mix. Confirm individual component materials, dimensions and mixing proportions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker crafts and craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "butterfly flower citrus decorative sprinkle mix, wholesale craft components",
+      "metaTitle": "YX4156 Butterfly Citrus Sprinkle Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Butterfly Flower Citrus Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "YX4156 ",
+        "标题": "Butterfly Flower Leaf Citrus Decorative Sprinkles Mix for Slime DIY Crafts Wholesale",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 235,
+      "assetKey": "yx4156",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "yx4156-butterfly-flower-citrus-decorative-sprinkle-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 731,
+          "height": 693
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX4157",
+      "title": "Purple Flower Leaf Decorative Sprinkle Mix",
+      "originalTitle": "Purple Flower Green Leaf Decorative Sprinkles Mix for Slime DIY Crafts Wholesale Supply",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Purple Flower Leaf Decorative Sprinkle Mix, product code YX4157",
+      "description": "Purple Flower Leaf Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Purple Flower Leaf Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry. Purple flower and green leaf-themed mix. Confirm individual component materials, dimensions and mixing proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Purple Flower Leaf Decorative Sprinkle Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX4157",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Purple flower and green leaf-themed mix. Confirm individual component materials, dimensions and mixing proportions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker crafts and craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "purple flower leaf decorative sprinkle mix, wholesale craft components",
+      "metaTitle": "YX4157 Purple Flower Sprinkle Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Purple Flower Leaf Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "YX4157 ",
+        "标题": "Purple Flower Green Leaf Decorative Sprinkles Mix for Slime DIY Crafts Wholesale Supply",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 236,
+      "assetKey": "yx4157",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "yx4157-purple-flower-leaf-decorative-sprinkle-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 711,
+          "height": 617
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX4158",
+      "title": "Apple Daisy Mushroom Decorative Sprinkle Mix",
+      "originalTitle": "Apple Daisy Mushroom Green Leaf Decorative Mix for Slime DIY Crafts Wholesale Supply",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Apple Daisy Mushroom Decorative Sprinkle Mix, product code YX4158",
+      "description": "Apple Daisy Mushroom Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Apple Daisy Mushroom Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry. Apple, daisy, mushroom and green leaf-themed mix. Confirm individual component materials, dimensions and mixing proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Apple Daisy Mushroom Decorative Sprinkle Mix",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX4158",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Apple, daisy, mushroom and green leaf-themed mix. Confirm individual component materials, dimensions and mixing proportions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker crafts and craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "apple daisy mushroom decorative sprinkle mix, wholesale craft components",
+      "metaTitle": "YX4158 Apple Mushroom Sprinkle Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Apple Daisy Mushroom Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261020-110908).xlsx",
+      "sourceFields": {
+        "sku": "YX4158 ",
+        "标题": "Apple Daisy Mushroom Green Leaf Decorative Mix for Slime DIY Crafts Wholesale Supply",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 234,
+      "assetKey": "yx4158",
+      "assetDirectory": "batch-2026-10-20",
+      "imagePrefix": "yx4158-apple-daisy-mushroom-decorative-sprinkle-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 690,
+          "height": 666
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Image 1 shows the supplied product reference. Images 2–3 summarize the supplied specifications and packing. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-20",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

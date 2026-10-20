@@ -133,9 +133,9 @@ test('sends the primary inquiry and a direct backup copy through Resend', async 
     const res = responseHarness();
     const req = request();
     req.body.attachments = [{
-      filename: 'reference.jpg',
-      contentType: 'image/jpeg',
-      content: Buffer.from('small image').toString('base64')
+      filename: 'reference.png',
+      contentType: 'image/png',
+      content: 'iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVR4nGP4//8/AAX+Av4N70a4AAAAAElFTkSuQmCC'
     }];
     await handler(req, res);
     const response = JSON.parse(res.body);

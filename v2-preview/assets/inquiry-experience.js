@@ -248,13 +248,41 @@
         }
         const subject = field('_subject');
         if (subject) subject.value = `${config.brand} — ${goal.value || 'General inquiry'} — Reply via ${channel.value}`;
-        const selectedProduct = tidy(field('sku')?.value || field('selected_sku')?.value || params.get('sku') || params.get('product_code') || params.get('product') || params.get('entry_title') || pageTitle);
-        const text = `Hello ${config.brand},\nI would like to discuss: ${(goal.value || 'pricing, samples or choosing products').toLowerCase()}.\nProduct / topic: ${selectedProduct}\nPage: ${field('entry_page').value}\nMy main question is: `;
+        // Use the current form, including cleared prefills, rather than URL defaults.
+        // Keep contact fields out of these user-opened drafts.
+        const draftValue = value => String(value || '').replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f\u007f]/g, '').replace(/\r\n?/g, '\n').trim();
+        const details = [
+          ['Product / idea', field('product')?.value],
+          ['Product code(s)', field('sku')?.value ?? field('selected_sku')?.value],
+          ['Product category', field('category')?.value],
+          ['Target quantity / unit', quantity?.value],
+          ['Intended use', field('intended_use')?.value],
+          ['Customization', field('customization')?.value],
+          ['Packaging', field('packaging')?.value],
+          ['Destination country', field('country')?.value],
+          ['Target arrival date', field('target_delivery_date')?.value]
+        ].flatMap(([label, value]) => {
+          const current = draftValue(value).replace(/\s+/g, ' ');
+          return current ? [`${label}: ${current}`] : [];
+        });
+        const selectedItems = [...form.querySelectorAll('[data-quote-quantity]')].slice(0, 20)
+          .map(input => `${tidy(input.dataset.quoteQuantity, 100)}: ${tidy(input.value, 80) || 'Quantity to discuss'}`);
+        if (selectedItems.length) details.push('Selected products and target quantities:', ...selectedItems);
+        const question = draftValue(message?.value);
+        const text = [
+          `Hello ${config.brand},`,
+          `I would like to discuss: ${(goal.value || 'pricing, samples or choosing products').toLowerCase()}.`,
+          ...details, `Page: ${field('entry_page').value}`,
+          question ? `My main question is:\n${question}` : 'My main question is: '
+        ].join('\n');
         if (wa) wa.href = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(text)}`;
         if (email) email.href = `mailto:${config.email}?subject=${encodeURIComponent(config.brand + ' — ' + (goal.value || 'Product inquiry'))}&body=${encodeURIComponent(text)}`;
       }
       form.addEventListener('change', update);
-      phone?.addEventListener('input', update);
+      form.addEventListener('input', update);
+      // Also read delayed catalog prefills and values restored by browser Back.
+      wa?.addEventListener('click', update);
+      email?.addEventListener('click', update);
       form.addEventListener('reset', () => setTimeout(update, 0));
       form.addEventListener('submit', update, true);
       update();

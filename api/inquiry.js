@@ -71,6 +71,13 @@ function clean(value, maxLength = 4000) {
   return String(value ?? '').replace(/[\u0000-\u0008\u000B\u000C\u000E-\u001F]/g, '').trim().slice(0, maxLength);
 }
 
+function cleanInput(value, maxLength) {
+  if (value != null && !['string', 'number', 'boolean'].includes(typeof value)) {
+    throw new TypeError('Inquiry fields must be scalar values');
+  }
+  return clean(value, maxLength);
+}
+
 function escapeHtml(value) {
   return value.replace(/[&<>"']/g, character => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -126,10 +133,13 @@ function prepareAttachments(input) {
 }
 
 function prepareFields(input) {
+  if (input != null && (typeof input !== 'object' || Array.isArray(input))) {
+    throw new TypeError('Inquiry fields must be an object');
+  }
   const source = input && typeof input === 'object' ? input : {};
   const fields = {};
   for (const key of Object.keys(LABELS)) {
-    const value = clean(source[key], key === 'message' ? 8000 : 1000);
+    const value = cleanInput(source[key], key === 'message' ? 8000 : 1000);
     if (value && !(key.endsWith('_display') && fields[key.replace('_display', '')])) fields[key] = value;
   }
   return fields;
@@ -156,18 +166,20 @@ export default async function handler(req, res) {
   }
 
   let body;
+  let fields;
   try {
     body = parseBody(req);
+    if (!body || typeof body !== 'object' || Array.isArray(body)) {
+      throw new TypeError('Inquiry body must be an object');
+    }
+    if (cleanInput(body._company_fax, 100)) {
+      console.warn('Inquiry suppressed by spam check', { requestId });
+      return json(res, 200, { ok: true, requestId, suppressed: true });
+    }
+    fields = prepareFields(body.fields);
   } catch {
     return json(res, 400, { ok: false, message: 'Invalid request body' });
   }
-
-  if (clean(body?._company_fax, 100)) {
-    console.warn('Inquiry suppressed by spam check', { requestId });
-    return json(res, 200, { ok: true, requestId, suppressed: true });
-  }
-
-  const fields = prepareFields(body?.fields);
   const email = fields.email || '';
   const simple = fields.inquiry_mode === 'simple';
   if (simple && !fields.message) {

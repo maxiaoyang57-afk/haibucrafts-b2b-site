@@ -1,0 +1,718 @@
+{
+  "batch": "haibu-new-products-20261021",
+  "expectedSkuCount": 8,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-21",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-21",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX3866",
+      "title": "Duck and Blue Bubble Decorative Filler Mix",
+      "originalTitle": "Yellow Duck Clear Blue Round Ball 1KG Polymer Clay Polymer Bead Slime Accessories DIY Phone Case Back Stickers",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Duck and Blue Bubble Decorative Filler Mix, product code YX3866",
+      "description": "Duck and Blue Bubble Decorative Filler Mix. Confirm dimensions by inquiry; 1000 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Duck and Blue Bubble Decorative Filler Mix. Confirm dimensions by inquiry; 1000 g per bag. Custom packing and MOQ by inquiry. Yellow duck shapes with blue round and white decorative fillers. The workbook lists polymer clay; confirm the material and dimensions of each component. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Duck and Blue Bubble Decorative Filler Mix",
+        "Material: Polymer clay; confirm mixed components",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 1000 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX3866",
+        "Material: Polymer clay; confirm mixed components",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 1000 g per bag; custom packing by inquiry",
+        "Selection note: Yellow duck shapes with blue round and white decorative fillers. The workbook lists polymer clay; confirm the material and dimensions of each component.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay; confirm mixed components",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "1000 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 1000 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "duck and blue bubble decorative filler mix, wholesale craft components",
+      "metaTitle": "YX3866 Duck Bubble Filler Mix Wholesale | HAIBUCRAFT",
+      "metaDescription": "Duck and Blue Bubble Decorative Filler Mix. Confirm dimensions by inquiry; 1000 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "YX3866",
+        "标题": "Yellow Duck Clear Blue Round Ball 1KG Polymer Clay Polymer Bead Slime Accessories DIY Phone Case Back Stickers",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格1000g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 249,
+      "assetKey": "yx3866",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "yx3866-duck-and-blue-bubble-decorative-filler-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 586,
+          "height": 556
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX958",
+      "title": "Halloween Peppermint Polymer Clay Slices",
+      "originalTitle": "New Fashion Halloween Themed Peppermint Candy Polymer Clay Slices Sprinkles for DIY Charms Scrapbooking Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Halloween Peppermint Polymer Clay Slices, product code YX958",
+      "description": "Halloween Peppermint Polymer Clay Slices. 5 mm; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Halloween Peppermint Polymer Clay Slices. 5 mm; 500 g per bag. Custom packing and MOQ by inquiry. Purple, orange and dark peppermint-pattern slices. Confirm the selected color mixture. Pictured bags and flowers are styling references. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Halloween Peppermint Polymer Clay Slices",
+        "Material: Polymer clay; confirm mixed components",
+        "Dimensions: 5 mm",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX958",
+        "Material: Polymer clay; confirm mixed components",
+        "Dimensions: 5 mm",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Purple, orange and dark peppermint-pattern slices. Confirm the selected color mixture. Pictured bags and flowers are styling references.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay; confirm mixed components",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "halloween peppermint polymer clay slices, wholesale craft components",
+      "metaTitle": "YX958 Halloween Clay Slices Wholesale | HAIBUCRAFT",
+      "metaDescription": "Halloween Peppermint Polymer Clay Slices. 5 mm; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "YX958",
+        "标题": "New Fashion Halloween Themed Peppermint Candy Polymer Clay Slices Sprinkles for DIY Charms Scrapbooking Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 252,
+      "assetKey": "yx958",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "yx958-halloween-peppermint-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 593,
+          "height": 642
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW004469/CDK004469",
+      "title": "Colorful Girl Portrait Resin Charms",
+      "originalTitle": "Resin Colorful Kawaii Princess Girl Charms Cartoon Figurines Scrapbook DIY Bow Decor Accessories Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Colorful Girl Portrait Resin Charms, product code RW004469/CDK004469",
+      "description": "Colorful Girl Portrait Resin Charms. Confirm dimensions by inquiry; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Colorful Girl Portrait Resin Charms. Confirm dimensions by inquiry; 100 pieces per bag. Custom packing and MOQ by inquiry. Girl portrait designs with assorted hair, hats and accessories. Quote both source codes RW004469 and CDK004469; confirm selected designs and dimensions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Colorful Girl Portrait Resin Charms",
+        "Material: Resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW004469/CDK004469",
+        "Material: Resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Girl portrait designs with assorted hair, hats and accessories. Quote both source codes RW004469 and CDK004469; confirm selected designs and dimensions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "colorful girl portrait resin charms, wholesale craft components",
+      "metaTitle": "RW004469 Girl Portrait Resin Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Colorful Girl Portrait Resin Charms. Confirm dimensions by inquiry; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "RW004469- CDK004469 ",
+        "标题": "Resin Colorful Kawaii Princess Girl Charms Cartoon Figurines Scrapbook DIY Bow Decor Accessories Crafts",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 253,
+      "assetKey": "rw004469-cdk004469",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "rw004469-cdk004469-colorful-girl-portrait-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 681,
+          "height": 642
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW630",
+      "title": "Glitter Swirl Lollipop Resin Charms",
+      "originalTitle": "Mixed Color 100PCS Glitter Lolly With Bow Resin Lollipop Candy Scrapbook DIY Kawaii Cabochon",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glitter Swirl Lollipop Resin Charms, product code RW630",
+      "description": "Glitter Swirl Lollipop Resin Charms. 20 × 30 × 7 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Glitter Swirl Lollipop Resin Charms. 20 × 30 × 7 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Glitter spiral lollipops with bow details. The workbook lists no hole, while the reference shows an attachment detail; confirm the exact backing and attachment before ordering. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glitter Swirl Lollipop Resin Charms",
+        "Material: Resin",
+        "Dimensions: 20 × 30 × 7 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole listed; confirm attachment against sample"
+      ],
+      "specificationLines": [
+        "Product code: RW630",
+        "Material: Resin",
+        "Dimensions: 20 × 30 × 7 mm",
+        "Hole: No hole listed; confirm attachment against sample",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Glitter spiral lollipops with bow details. The workbook lists no hole, while the reference shows an attachment detail; confirm the exact backing and attachment before ordering.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "20 × 30 × 7 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "glitter swirl lollipop resin charms, wholesale craft components",
+      "metaTitle": "RW630 Glitter Lollipop Resin Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Glitter Swirl Lollipop Resin Charms. 20 × 30 × 7 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "RW630 ",
+        "标题": "Mixed Color 100PCS Glitter Lolly With Bow Resin Lollipop Candy Scrapbook DIY Kawaii Cabochon",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "20*30*7mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 255,
+      "assetKey": "rw630",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "rw630-glitter-swirl-lollipop-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 742,
+          "height": 646
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole listed; confirm attachment against sample",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26907",
+      "title": "Cat-Shaped Fruit Resin Decorations",
+      "originalTitle": "Wholesale Resin Cat Shaped Fruit Decorations Mixed Colors for DIY Crafts and Accessories",
+      "type": "Animal",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Cat-Shaped Fruit Resin Decorations, product code RW26907",
+      "description": "Cat-Shaped Fruit Resin Decorations. Approx. 12 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Cat-Shaped Fruit Resin Decorations. Approx. 12 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Cat-outline fruit designs with bow details in yellow, red, pink and green. Confirm selected fruit designs and actual dimensions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Cat-Shaped Fruit Resin Decorations",
+        "Material: Resin",
+        "Dimensions: Approx. 12 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26907",
+        "Material: Resin",
+        "Dimensions: Approx. 12 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Cat-outline fruit designs with bow details in yellow, red, pink and green. Confirm selected fruit designs and actual dimensions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 12 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "cat shaped fruit resin decorations, wholesale craft components",
+      "metaTitle": "RW26907 Cat Fruit Resin Decorations Wholesale | HAIBUCRAFT",
+      "metaDescription": "Cat-Shaped Fruit Resin Decorations. Approx. 12 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "RW26907 ",
+        "标题": "Wholesale Resin Cat Shaped Fruit Decorations Mixed Colors for DIY Crafts and Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 12mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 256,
+      "assetKey": "rw26907",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "rw26907-cat-shaped-fruit-resin-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 655,
+          "height": 576
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26908",
+      "title": "Miniature Waffle Resin Charms",
+      "originalTitle": "Yellow Miniature Waffle Resin Charms Textured Food Style DIY Craft Accessories Wholesale",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Waffle Resin Charms, product code RW26908",
+      "description": "Miniature Waffle Resin Charms. Approx. 19 × 9 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Miniature Waffle Resin Charms. Approx. 19 × 9 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Yellow waffle-textured miniature pieces. Decorative imitation food; not edible. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Miniature Waffle Resin Charms",
+        "Material: Resin",
+        "Dimensions: Approx. 19 × 9 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26908",
+        "Material: Resin",
+        "Dimensions: Approx. 19 × 9 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Yellow waffle-textured miniature pieces. Decorative imitation food; not edible.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 19 × 9 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "miniature waffle resin charms, wholesale craft components",
+      "metaTitle": "RW26908 Waffle Resin Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Miniature Waffle Resin Charms. Approx. 19 × 9 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "RW26908",
+        "标题": "Yellow Miniature Waffle Resin Charms Textured Food Style DIY Craft Accessories Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 19*9mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 257,
+      "assetKey": "rw26908",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "rw26908-miniature-waffle-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 683,
+          "height": 596
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26904",
+      "title": "Miniature Corn Resin Decorations",
+      "originalTitle": "Wholesale Miniature Resin Corn Decorations Yellow Corn Cobs for DIY Crafts and Accessories",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Corn Resin Decorations, product code RW26904",
+      "description": "Miniature Corn Resin Decorations. Approx. 30 × 10 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Miniature Corn Resin Decorations. Approx. 30 × 10 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Corn shapes with and without green husks. The hair clip is an application example; clips and other props are not included. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Miniature Corn Resin Decorations",
+        "Material: Resin",
+        "Dimensions: Approx. 30 × 10 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26904",
+        "Material: Resin",
+        "Dimensions: Approx. 30 × 10 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Corn shapes with and without green husks. The hair clip is an application example; clips and other props are not included.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 30 × 10 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "miniature corn resin decorations, wholesale craft components",
+      "metaTitle": "RW26904 Corn Resin Decorations Wholesale | HAIBUCRAFT",
+      "metaDescription": "Miniature Corn Resin Decorations. Approx. 30 × 10 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "RW26904",
+        "标题": "Wholesale Miniature Resin Corn Decorations Yellow Corn Cobs for DIY Crafts and Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 30*10mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 258,
+      "assetKey": "rw26904",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "rw26904-miniature-corn-resin-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 691,
+          "height": 599
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26905",
+      "title": "Coconut Drink Resin Decorations",
+      "originalTitle": "Wholesale Miniature Resin Coconut Drink Decorations with Umbrellas for DIY Craft Supplies",
+      "type": "Food",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Coconut Drink Resin Decorations, product code RW26905",
+      "description": "Coconut Drink Resin Decorations. Approx. 10 × 15 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Coconut Drink Resin Decorations. Approx. 10 × 15 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Coconut drink shapes with umbrella, straw and face details. Confirm selected designs and actual dimensions. Decorative imitation food; not edible. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Coconut Drink Resin Decorations",
+        "Material: Resin",
+        "Dimensions: Approx. 10 × 15 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26905",
+        "Material: Resin",
+        "Dimensions: Approx. 10 × 15 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Coconut drink shapes with umbrella, straw and face details. Confirm selected designs and actual dimensions. Decorative imitation food; not edible.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 10 × 15 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "coconut drink resin decorations, wholesale craft components",
+      "metaTitle": "RW26905 Coconut Drink Resin Charms Wholesale | HAIBUCRAFT",
+      "metaDescription": "Coconut Drink Resin Decorations. Approx. 10 × 15 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "RW26905 ",
+        "标题": "Wholesale Miniature Resin Coconut Drink Decorations with Umbrellas for DIY Craft Supplies",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 10*15mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 259,
+      "assetKey": "rw26905",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "rw26905-coconut-drink-resin-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 675,
+          "height": 594
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

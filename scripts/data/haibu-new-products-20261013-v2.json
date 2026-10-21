@@ -189,59 +189,60 @@
       "type": "Candy",
       "categorySlug": "resin-charms",
       "imageAlt": "Luminous Swirl Lollipop Resin Flatbacks, product code RW24224",
-      "description": "Luminous Swirl Lollipop Resin Flatbacks. Listed size: 30mm. Standard pack: 100 pieces per bag. Request bulk pricing and assortment confirmation.",
-      "detailedDescription": "Source luminous swirl lollipop resin flatbacks for coordinated bulk craft-material orders. Share the complete product code, target bag quantity and destination with HAIBU. Confirm component sizes, mix proportions and material compatibility with your sample before repeat procurement.",
-      "seasonalTheme": "Candy craft-material assortment",
+      "description": "Luminous Swirl Lollipop Resin Flatbacks. Approx. 20 × 30 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Luminous Swirl Lollipop Resin Flatbacks. Approx. 20 × 30 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Swirl lollipop flatbacks with bow details. Confirm the selected colors and luminous effect against the sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
       "keySellingPoints": [
         "Luminous Swirl Lollipop Resin Flatbacks",
-        "Source pack: 100 pieces per bag; custom packing by inquiry",
-        "Confirm individual component sizes and assortment with a sample",
-        "MOQ, available quantity and dispatch timing by quotation"
+        "Material: Resin",
+        "Dimensions: Approx. 20 × 30 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
       ],
       "specificationLines": [
         "Product code: RW24224",
-        "Material: resin",
-        "Size: 30 mm",
+        "Material: Resin",
+        "Dimensions: Approx. 20 × 30 mm",
         "Hole: No hole",
-        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
         "Standard pack: 100 pieces per bag; custom packing by inquiry",
-        "Customization: Available; details confirmed by inquiry"
+        "Selection note: Swirl lollipop flatbacks with bow details. Confirm the selected colors and luminous effect against the sample.",
+        "MOQ and dispatch date: Confirm by quotation"
       ],
-      "material": "resin",
-      "dimensions": "30 mm",
+      "material": "Resin",
+      "dimensions": "Approx. 20 × 30 mm",
       "sourcePacking": "100 pieces per bag; custom packing by inquiry",
-      "customizationOptions": "Discuss colors, assortment and packing with HAIBU. Custom development, availability and private-label requirements are confirmed against your brief and quotation.",
-      "recommendedApplications": "Bulk slime-material assortments; DIY craft kits; seasonal decoration and shaker programs where component size is suitable. Assess sample compatibility with your own materials.",
-      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
-      "seoKeywords": "luminous swirl lollipop resin flatback charms, bulk craft supplies, wholesale craft components",
-      "metaTitle": "Luminous Swirl Lollipop Resin Flatbacks Wholesale | HAIBUCRAFT",
-      "metaDescription": "Luminous Swirl Lollipop Resin Flatbacks. Listed size: 30mm. Standard pack: 100 pieces per bag. Bulk quotation from HAIBU.",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "luminous swirl lollipop resin flatbacks, wholesale craft components",
+      "metaTitle": "RW24224 Lollipop Resin Flatbacks Wholesale | HAIBUCRAFT",
+      "metaDescription": "Luminous Swirl Lollipop Resin Flatbacks. Approx. 20 × 30 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
       "publishingCheck": "Full SKU, source fields and image references verified. Packing is distinct from MOQ; selected mix and dimensions confirmed with sample.",
       "structuredSpecifications": true,
       "sourceFields": {
-        "sku": "RW24224",
+        "sku": "RW24224 ",
         "标题": "Kawaii Cartoon Luminous Lollipop Resin Flatback Cabochon Art Supply Decoration Charm DIY Craft Doll House",
         "分类": "resin  charms",
         "状态": "库存有货",
         "材质": "resin",
-        "尺寸": "30mm",
+        "尺寸": "about  20*30mm",
         "孔径": "无",
         "颜色": "混款",
         "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
       },
-      "sourceRow": 43,
+      "sourceRow": 251,
       "assetKey": "rw24224",
-      "assetDirectory": "batch-2026-10-13-v2",
-      "imagePrefix": "luminous-swirl-lollipop-resin-flatback-charms",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "rw24224-luminous-swirl-lollipop-resin-flatbacks",
       "imageExtensions": [
-        "png",
+        "jpg",
         "jpg",
         "jpg"
       ],
       "imageDimensions": [
         {
-          "width": 611,
-          "height": 538
+          "width": 612,
+          "height": 552
         },
         {
           "width": 1000,
@@ -260,12 +261,15 @@
       ],
       "galleryLabels": [
         "supplied product reference",
-        "styled scene illustration",
-        "styled detail illustration"
+        "size and material guide",
+        "packing and assortment guide"
       ],
-      "galleryNote": "Image 1 is the supplied product reference, except the antler-and-hat mix which is composed from three verified references. Images 2–3 are styling illustrations. Props are not included. Confirm selected designs, sizes and mixture proportions against a sample. Displayed counts are not packing quantities.",
-      "mediaLabel": "Product reference and styled views",
-      "factsUpdatedAt": "2026-10-13"
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
     },
     {
       "sku": "RW21097",

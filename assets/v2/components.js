@@ -331,11 +331,13 @@
   };
   const analyticsProductCode = (value) => {
     const code = typeof value === 'string' ? value.trim().toUpperCase() : '';
-    return /^(?:MA|RX268|RX327|RW0020841|RW203-RW564-RW21165|YZ26165|RW0024876|RW0024009|RW26057-2|RW0026057-1|YX097-YX284|YX3084-YX3087-YX3089-YX3103-YX3112-YX3115|SLM(?:\d{3,5}|-RX488)|YX\d{3,4}|RW337\/285|RW3895-RW3857|RW\d{3,6}(?:-C|-YX\d{3,4})?|(?:MA|YM)\d{3})(?:\/RW\d{3,6}){0,3}$/.test(code) ? code : '';
+    return /^(?:MA|RW004469\/CDK004469|YX3092\/YX3093\/YX3094\/YX3095|RX268|RX327|RW0020841|RW203-RW564-RW21165|YZ26165|RW0024876|RW0024009|RW26057-2|RW0026057-1|YX097-YX284|YX3084-YX3087-YX3089-YX3103-YX3112-YX3115|SLM(?:\d{3,5}|-RX488)|YX\d{3,4}|RW337\/285|RW3895-RW3857|RW\d{3,6}(?:-C|-YX\d{3,4})?|(?:MA|YM)\d{3})(?:\/RW\d{3,6}){0,3}$/.test(code) ? code : '';
   };
   const analyticsPathProductCode = (pathname) => {
     // Product slugs begin with their catalog code, including the resin mix.
     const slug = pathname.split('/').filter(Boolean).pop() || '';
+    if (/^rw004469-cdk004469(?:-|$)/i.test(slug)) return 'RW004469/CDK004469';
+    if (/^yx3092-yx3093-yx3094-yx3095(?:-|$)/i.test(slug)) return 'YX3092/YX3093/YX3094/YX3095';
     if (/^rx268(?:-|$)/i.test(slug)) return "RX268";
     if (/^rx327(?:-|$)/i.test(slug)) return 'RX327';
     if (/^rw203-rw564-rw21165(?:-|$)/i.test(slug)) return 'RW203-RW564-RW21165';

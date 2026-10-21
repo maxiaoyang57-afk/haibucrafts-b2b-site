@@ -18,10 +18,10 @@ test('all catalog products have linked detail pages and SEO routes', async () =>
   const seoMap = JSON.parse(await readFile(path.join(previewRoot, 'seo-production-map.json'), 'utf8'));
   const generatedRoutes = seoMap.routes.filter((route) => route.generatedProduct);
 
-  assert.equal(catalog.count, 284);
-  assert.equal(catalog.products.length, 284);
-  assert.equal(generatedRoutes.length, 284);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 284);
+  assert.equal(catalog.count, 293);
+  assert.equal(catalog.products.length, 293);
+  assert.equal(generatedRoutes.length, 293);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 293);
 
   for (const product of catalog.products) {
     const relative = product.previewPath.slice('/v2-preview/'.length);
@@ -55,5 +55,5 @@ test('all catalog products have linked detail pages and SEO routes', async () =>
     const html = await readFile(path.join(previewRoot, 'products', category, 'index.html'), 'utf8');
     linkedCards += (html.match(/class="btn btn-light product-detail-link"/g) || []).length;
   }
-  assert.equal(linkedCards, 284);
+  assert.equal(linkedCards, 293);
 });

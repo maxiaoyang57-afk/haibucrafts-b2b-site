@@ -92,6 +92,27 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx3866-duck-blue-bubble-decorative-filler-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3866-duck-blue-bubble-decorative-filler-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3866-duck-blue-bubble-decorative-filler-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx958-halloween-peppermint-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx958-halloween-peppermint-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx958-halloween-peppermint-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3092-yx3093-yx3094-yx3095-christmas-polymer-clay-sprinkle-mix-assortment/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3092-yx3093-yx3094-yx3095-christmas-polymer-clay-sprinkle-mix-assortment/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3092-yx3093-yx3094-yx3095-christmas-polymer-clay-sprinkle-mix-assortment/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/slm10120-moon-star-decorative-filler-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/slm10120-moon-star-decorative-filler-mix/index.html",
       "action": "create",
@@ -810,6 +831,48 @@
       "destination": "products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/index.html",
       "action": "create",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004469-cdk004469-colorful-girl-portrait-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw004469-cdk004469-colorful-girl-portrait-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004469-cdk004469-colorful-girl-portrait-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw630-glitter-swirl-lollipop-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw630-glitter-swirl-lollipop-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw630-glitter-swirl-lollipop-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26907-cat-shaped-fruit-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26907-cat-shaped-fruit-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26907-cat-shaped-fruit-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26908-miniature-waffle-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26908-miniature-waffle-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26908-miniature-waffle-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26904-miniature-corn-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26904-miniature-corn-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26904-miniature-corn-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26905-coconut-drink-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26905-coconut-drink-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26905-coconut-drink-resin-decorations/",
       "generatedProduct": true
     },
     {

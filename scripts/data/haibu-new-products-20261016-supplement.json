@@ -706,64 +706,64 @@
       "type": "Seasonal",
       "categorySlug": "resin-charms",
       "imageAlt": "Colorful Cartoon Eye Resin Flatback Mix, product code RW22135",
-      "description": "Colorful cartoon-eye resin flatbacks for Halloween, DIY props and craft kits. No stringing hole; size by inquiry. Standard pack: 100 pieces per bag.",
-      "detailedDescription": "Colorful cartoon-eye resin flatbacks for Halloween, DIY props and craft kits. No stringing hole; size by inquiry. Standard pack: 100 pieces per bag. Seasonal craft kits, decorative props and glue-on embellishments. Confirm individual design sizes. Send HAIBU your SKU list, target quantity and destination for a bulk quotation. Confirm selected designs, mixing proportions and dispatch date before ordering.",
-      "seasonalTheme": "Seasonal craft components",
+      "description": "Colorful Cartoon Eye Resin Flatback Mix. Approx. 22 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Colorful Cartoon Eye Resin Flatback Mix. Approx. 22 mm; 100 pieces per bag. Custom packing and MOQ by inquiry. Two supplied eye-design references show different outlines and color mixes. Confirm selected designs and mixing proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
       "keySellingPoints": [
         "Colorful Cartoon Eye Resin Flatback Mix",
-        "Material: resin",
-        "Dimensions: Confirm dimensions by inquiry",
+        "Material: Resin",
+        "Dimensions: Approx. 22 mm",
         "Standard packing: 100 pieces per bag; custom packing by inquiry",
         "Attachment: No hole"
       ],
       "specificationLines": [
         "Product code: RW22135",
-        "Assortment: Mixed assortment; confirm the exact selection by inquiry",
-        "Material: resin",
-        "Dimensions: Confirm dimensions by inquiry",
+        "Material: Resin",
+        "Dimensions: Approx. 22 mm",
         "Hole: No hole",
         "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Two supplied eye-design references show different outlines and color mixes. Confirm selected designs and mixing proportions.",
         "MOQ and dispatch date: Confirm by quotation"
       ],
-      "material": "resin",
-      "dimensions": "Confirm dimensions by inquiry",
+      "material": "Resin",
+      "dimensions": "Approx. 22 mm",
       "sourcePacking": "100 pieces per bag; custom packing by inquiry",
-      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Custom development and private-label requirements are confirmed against your brief and quotation.",
-      "recommendedApplications": "Seasonal craft kits, decorative props and glue-on embellishments. Confirm individual design sizes.",
-      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, availability and lead time by quotation.",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
       "seoKeywords": "colorful cartoon eye resin flatback mix, wholesale craft components",
-      "metaTitle": "Colorful Cartoon Eye Resin Flatback Mix | HAIBUCRAFT",
-      "metaDescription": "Colorful cartoon-eye resin flatbacks for Halloween, DIY props and craft kits. No stringing hole; size by inquiry. Standard pack: 100 pieces per bag.",
+      "metaTitle": "RW22135 Cartoon Eye Resin Flatbacks Wholesale | HAIBUCRAFT",
+      "metaDescription": "Colorful Cartoon Eye Resin Flatback Mix. Approx. 22 mm; 100 pieces per bag. Custom packing and MOQ by inquiry.",
       "publishingCheck": "Source row and SKU verified; packing is separate from MOQ. No invented hole diameter, price, certification or dispatch promise.",
       "structuredSpecifications": true,
       "sourceFields": {
-        "sku": "RW22135",
+        "sku": "RW22135 ",
         "标题": "Resin Halloween Eyeballs Funny Cartoon Eye Balls Toys Flat Back Cabochon for Party Props Diy Craft Making",
         "分类": "resin  charms",
         "状态": "库存有货",
         "材质": "resin",
-        "尺寸": "咨询客服",
+        "尺寸": "about  22mm",
         "孔径": "无",
         "颜色": "混款",
         "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
       },
-      "sourceRow": 84,
+      "sourceRow": 250,
       "assetKey": "rw22135",
-      "assetDirectory": "batch-2026-10-16-supplement",
-      "imagePrefix": "colorful-cartoon-eye-resin-flatbacks",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "rw22135-colorful-cartoon-eye-resin-flatback-mix",
       "imageExtensions": [
-        "png",
+        "jpg",
         "jpg",
         "jpg"
       ],
       "imageDimensions": [
         {
-          "width": 591,
-          "height": 598
+          "width": 486,
+          "height": 526
         },
         {
-          "width": 1000,
-          "height": 1000
+          "width": 488,
+          "height": 577
         },
         {
           "width": 1000,
@@ -778,12 +778,15 @@
       ],
       "galleryLabels": [
         "supplied product reference",
-        "styled scene illustration",
-        "styled detail illustration"
+        "alternate eye design reference",
+        "size and packing guide"
       ],
-      "galleryNote": "Image 1: supplied product reference. Images 2–3: reference-based styling illustrations. Props are not included. Confirm selected designs, sizes and mixed proportions with a sample. Displayed counts are not packing quantities.",
-      "mediaLabel": "Product reference and styled views",
-      "factsUpdatedAt": "2026-10-16"
+      "galleryNote": "Supplied product references show the selected assortment. Specification graphics summarize the source workbook. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
     },
     {
       "sku": "RW3895-RW3857",

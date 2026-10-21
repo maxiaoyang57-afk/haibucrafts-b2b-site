@@ -1,0 +1,116 @@
+{
+  "batch": "haibu-new-products-20261021-mix",
+  "expectedSkuCount": 1,
+  "publicGalleryCount": 5,
+  "assetDirectory": "batch-2026-10-21",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-21",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX3092/YX3093/YX3094/YX3095",
+      "title": "Christmas Polymer Clay Sprinkle Mix Assortment",
+      "originalTitle": "Christmas Theme Mints House Santa Snowflake  Clay Slices Mixture Sprinkles for Slime Decoration DIY Crafts",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Christmas Polymer Clay Sprinkle Mix Assortment, product code YX3092/YX3093/YX3094/YX3095",
+      "description": "Christmas Polymer Clay Sprinkle Mix Assortment. 5 mm (listed slices); mixed components vary; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "detailedDescription": "Christmas Polymer Clay Sprinkle Mix Assortment. 5 mm (listed slices); mixed components vary; 500 g per bag. Custom packing and MOQ by inquiry. One grouped assortment with four supplied mix references. YX3092 shows stocking motifs; YX3093 gingerbread and peppermint; YX3094 stocking, pink and clear fillers; YX3095 gingerbread and snowflake motifs. Confirm each component material, dimensions and mix proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Christmas Polymer Clay Sprinkle Mix Assortment",
+        "Material: Polymer clay; confirm mixed components",
+        "Dimensions: 5 mm (listed slices); mixed components vary",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX3092/YX3093/YX3094/YX3095",
+        "Material: Polymer clay; confirm mixed components",
+        "Dimensions: 5 mm (listed slices); mixed components vary",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: One grouped assortment with four supplied mix references. YX3092 shows stocking motifs; YX3093 gingerbread and peppermint; YX3094 stocking, pink and clear fillers; YX3095 gingerbread and snowflake motifs. Confirm each component material, dimensions and mix proportions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay; confirm mixed components",
+      "dimensions": "5 mm (listed slices); mixed components vary",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, decoden, seasonal craft kits and decorative accessories.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "christmas polymer clay sprinkle mix assortment, wholesale craft components",
+      "metaTitle": "YX3092 Christmas Clay Mixes Wholesale | HAIBUCRAFT",
+      "metaDescription": "Christmas Polymer Clay Sprinkle Mix Assortment. 5 mm (listed slices); mixed components vary; 500 g per bag. Custom packing and MOQ by inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261021-105713).xlsx",
+      "sourceFields": {
+        "sku": "YX3092/YX3093/YX3094/YX3095 ",
+        "标题": "Christmas Theme Mints House Santa Snowflake  Clay Slices Mixture Sprinkles for Slime Decoration DIY Crafts",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 261,
+      "assetKey": "yx3092-yx3093-yx3094-yx3095",
+      "assetDirectory": "batch-2026-10-21",
+      "imagePrefix": "yx3092-yx3093-yx3094-yx3095-christmas-polymer-clay-sprinkle-mix-assortment",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 553,
+          "height": 583
+        },
+        {
+          "width": 586,
+          "height": 605
+        },
+        {
+          "width": 541,
+          "height": 559
+        },
+        {
+          "width": 612,
+          "height": 547
+        },
+        {
+          "width": 513,
+          "height": 498
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "galleryLabels": [
+        "group assortment reference",
+        "individual design YX3092",
+        "individual design YX3093",
+        "individual design YX3094",
+        "individual design YX3095"
+      ],
+      "galleryNote": "The gallery includes the group reference and all four supplied individual designs. Specify complete component codes with the selected mixture. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-21",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

@@ -45,9 +45,9 @@ test('publishes the 12 approved September 12 SKUs without duplicates', () => {
   assert.equal(batch.expectedSkuCount, 12);
   assert.deepEqual(batch.products.map((product) => product.sku), expectedSkus);
   assert.equal(new Set(expectedSkus).size, 12);
-  assert.equal(catalog.count, 284);
-  assert.equal(catalog.products.length, 284);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 284);
+  assert.equal(catalog.count, 293);
+  assert.equal(catalog.products.length, 293);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 293);
   assert.deepEqual(catalog, previewCatalog);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'resin-charms').length, 8);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'polymer-clay-slices').length, 4);

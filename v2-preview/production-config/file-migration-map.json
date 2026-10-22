@@ -834,6 +834,76 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26903-strawberry-half-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26903-strawberry-half-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26903-strawberry-half-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004688-rabbit-strawberry-cup-resin-flatbacks/index.html",
+      "destination": "products/resin-charms-for-slime/rw004688-rabbit-strawberry-cup-resin-flatbacks/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004688-rabbit-strawberry-cup-resin-flatbacks/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26878-colorful-butterfly-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26878-colorful-butterfly-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26878-colorful-butterfly-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26877-mixed-fruit-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26877-mixed-fruit-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26877-mixed-fruit-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26876-christmas-snow-globe-style-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26876-christmas-snow-globe-style-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26876-christmas-snow-globe-style-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26875-pastel-seashell-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26875-pastel-seashell-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26875-pastel-seashell-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26874-green-frog-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26874-green-frog-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26874-green-frog-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26873-mixed-color-strawberry-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26873-mixed-color-strawberry-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26873-mixed-color-strawberry-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26869-halloween-resin-decoration-mix/index.html",
+      "destination": "products/resin-charms-for-slime/rw26869-halloween-resin-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26869-halloween-resin-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2167-pastel-princess-castle-resin-flatbacks/index.html",
+      "destination": "products/resin-charms-for-slime/rw2167-pastel-princess-castle-resin-flatbacks/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2167-pastel-princess-castle-resin-flatbacks/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw004469-cdk004469-colorful-girl-portrait-resin-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw004469-cdk004469-colorful-girl-portrait-resin-charms/index.html",
       "action": "create",
@@ -1965,6 +2035,20 @@
       "destination": "products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ma1501-moon-star-pvc-sequins/index.html",
+      "destination": "products/sequins-glitter-confetti/ma1501-moon-star-pvc-sequins/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ma1501-moon-star-pvc-sequins/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ma228-iridescent-strip-pvc-glitter/index.html",
+      "destination": "products/sequins-glitter-confetti/ma228-iridescent-strip-pvc-glitter/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ma228-iridescent-strip-pvc-glitter/",
       "generatedProduct": true
     },
     {

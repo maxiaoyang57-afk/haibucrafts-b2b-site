@@ -6,10 +6,10 @@ const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261021
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 const plans=JSON.parse(await readFile('scripts/data/product-plan-20261021.json','utf8'));
 test('October 21 preserves identities and connects source dimensions, complete groups and exact images',async()=>{
- assert.equal(catalog.count,293);
- assert.equal(new Set(catalog.products.map(p=>p.sku)).size,293);
+ assert.equal(catalog.count,305);
+ assert.equal(new Set(catalog.products.map(p=>p.sku)).size,305);
  assert.equal(manifest.products.filter(p=>p.operation==='new').length,9);
- const updated=new Set(['RW22135','RW24224']);
+ const updated=new Set(['RW22135','RW24224','RW20175']);
  for(const old of manifest.previousProducts){
   const current=catalog.products.find(p=>p.sku===old.sku);
   assert.deepEqual(updated.has(old.sku)?{...current,image:old.image,gallery:old.gallery}:current,old,old.sku);

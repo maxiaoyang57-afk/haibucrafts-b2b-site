@@ -8,7 +8,7 @@ const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261017
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 test('October 17 adds 11 source-backed resin groups and preserves existing catalog identities',async()=>{
  const added=new Set(batch.products.map(p=>p.sku));
- assert.equal(added.size,11);assert.equal(catalog.count,293);
+ assert.equal(added.size,11);assert.equal(catalog.count,305);
  assert.deepEqual(catalog.products.map(priorMedia).filter(p=>manifest.previousProducts.some(v=>v.sku===p.sku)),manifest.previousProducts);
  assert.equal(new Set(catalog.products.map(p=>p.category)).size,4);
  for(const p of batch.products){

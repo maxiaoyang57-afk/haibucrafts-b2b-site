@@ -10,12 +10,13 @@ const octoberProductBatch = JSON.parse(await readFile(path.join(root, 'scripts/d
 const supplementBatch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261018-supplement.json'), 'utf8'));
 const october20Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261020.json'), 'utf8'));
 const october20Colors = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261020-colors.json'), 'utf8'));
+const october22Batch = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261022.json'), 'utf8'));
 const category = config.category;
 const mapping = config.mapping;
 const legacyPaths = Object.keys(mapping);
 const finalSkus = [...new Set(Object.values(mapping))].filter((sku) => sku !== retirement.sku);
 const expectedActiveCount = config.expectedActiveCount - 1
-  + [newProductBatch, octoberProductBatch, supplementBatch, october20Batch, october20Colors].reduce((count, batch) =>
+  + [newProductBatch, octoberProductBatch, supplementBatch, october20Batch, october20Colors, october22Batch].reduce((count, batch) =>
     count + batch.products.filter((product) => product.categorySlug === category && !product.preserveCatalogOrder).length, 0);
 const errors = [];
 

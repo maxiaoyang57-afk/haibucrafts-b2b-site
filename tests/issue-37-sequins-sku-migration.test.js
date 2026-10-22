@@ -41,9 +41,9 @@ test('Issue #37 preserves active Sequins identities while applying corrected uni
   const catalog = JSON.parse(await readFile(path.join(root, 'assets/v2/product-catalog.json'), 'utf8'));
   const category = await readFile(path.join(root, 'products/sequins-glitter-confetti/index.html'), 'utf8');
   const products = catalog.products.filter((product) => product.category === 'sequins-glitter-confetti');
-  assert.equal(products.length, 27);
-  assert.equal(new Set(products.map((product) => product.sku)).size, 27);
-  assert.equal(cards(category).length, 27);
+  assert.equal(products.length, 28);
+  assert.equal(new Set(products.map((product) => product.sku)).size, 28);
+  assert.equal(cards(category).length, 28);
   for (const [oldSku, newSku] of Object.entries(mapping)) {
     if (newSku === retirement.sku) continue;
     const [title, image] = identity[oldSku];

@@ -7,7 +7,7 @@ const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261018
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 test('October 18 adds nine source-backed products while preserving all 200 previous identities',async()=>{
  const newSkus=new Set(batch.products.map(p=>p.sku));
- assert.equal(newSkus.size,9);assert.equal(catalog.count,305);
+ assert.equal(newSkus.size,9);assert.equal(catalog.count,315);
  assert.deepEqual(catalog.products.map(priorMedia).filter(p=>!newSkus.has(p.sku)&&!addedSupplementSkus.has(p.sku)),manifest.previousProducts);
  for(const sku of ['RW26800','RW26796','RW20809'])assert.equal(catalog.products.filter(p=>p.sku===sku).length,1);
  for(const source of batch.products){

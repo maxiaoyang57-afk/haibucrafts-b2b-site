@@ -1,0 +1,894 @@
+{
+  "batch": "haibu-new-products-20261022-supplement",
+  "expectedSkuCount": 10,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-22-supplement",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-22",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX126",
+      "title": "Red Blossom Polymer Clay Slices",
+      "originalTitle": "Hot Selling Polymer Clay Colorful Flower Sprinkle Cute Flower Slice for Crafts Making Phone Decor DIY Scrapbooking",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Red Blossom Polymer Clay Slices, product code YX126",
+      "description": "Red Blossom Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Red Blossom Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ. Red and white flower slices with green leaf details. Confirm the selected flower and color assortment. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Red Blossom Polymer Clay Slices",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX126",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Red and white flower slices with green leaf details. Confirm the selected flower and color assortment.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "red blossom polymer clay slices, wholesale craft components",
+      "metaTitle": "YX126 Red Blossom Polymer Clay Slices | HAIBU",
+      "metaDescription": "Red Blossom Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX126",
+        "标题": "Hot Selling Polymer Clay Colorful Flower Sprinkle Cute Flower Slice for Crafts Making Phone Decor DIY Scrapbooking",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 285,
+      "assetKey": "yx126",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx126-red-blossom-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 708,
+          "height": 656
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX215",
+      "title": "Basketball Polymer Clay Sprinkles",
+      "originalTitle": "Wholesale Basketball Polymer Clay Sprinkles Custom Mini Sports Decorations for Slime Shaker Phone Jewelry Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Basketball Polymer Clay Sprinkles, product code YX215",
+      "description": "Basketball Polymer Clay Sprinkles. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Basketball Polymer Clay Sprinkles. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ. Orange-brown basketball pattern slices. The clear display container is a styling prop and is not included. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Basketball Polymer Clay Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX215",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Orange-brown basketball pattern slices. The clear display container is a styling prop and is not included.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "basketball polymer clay sprinkles, wholesale craft components",
+      "metaTitle": "YX215 Basketball Polymer Clay Sprinkles | HAIBU",
+      "metaDescription": "Basketball Polymer Clay Sprinkles. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX215",
+        "标题": "Wholesale Basketball Polymer Clay Sprinkles Custom Mini Sports Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 280,
+      "assetKey": "yx215",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx215-basketball-polymer-clay-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 689,
+          "height": 763
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX244",
+      "title": "Surprised Face Polymer Clay Sprinkles",
+      "originalTitle": "Wholesale Surprised Character Polymer Clay Sprinkles Custom Mini Round Decorations for Slime Shaker Phone Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Surprised Face Polymer Clay Sprinkles, product code YX244",
+      "description": "Surprised Face Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Surprised Face Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ. Yellow and lavender round character slices. Confirm the selected sample and dimensions; the display container is not included. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Surprised Face Polymer Clay Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX244",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Yellow and lavender round character slices. Confirm the selected sample and dimensions; the display container is not included.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "surprised face polymer clay sprinkles, wholesale craft components",
+      "metaTitle": "YX244 Surprised Face Polymer Clay Sprinkles | HAIBU",
+      "metaDescription": "Surprised Face Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX244",
+        "标题": "Wholesale Surprised Character Polymer Clay Sprinkles Custom Mini Round Decorations for Slime Shaker Phone Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 278,
+      "assetKey": "yx244",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx244-surprised-face-polymer-clay-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 712,
+          "height": 692
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX250",
+      "title": "Mixed Tone Heart Polymer Clay Sprinkles",
+      "originalTitle": "Wholesale Heart Polymer Clay Sprinkles Custom Mini Mixed Tone Decorations for Slime Shaker Phone Jewelry Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Mixed Tone Heart Polymer Clay Sprinkles, product code YX250",
+      "description": "Mixed Tone Heart Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Mixed Tone Heart Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ. Heart slices with contrasting outlines in pink, yellow, blue and mint tones. Confirm colors and dimensions; the display container is not included. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mixed Tone Heart Polymer Clay Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX250",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Heart slices with contrasting outlines in pink, yellow, blue and mint tones. Confirm colors and dimensions; the display container is not included.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mixed tone heart polymer clay sprinkles, wholesale craft components",
+      "metaTitle": "YX250 Mixed Tone Heart Polymer Clay Sprinkles | HAIBU",
+      "metaDescription": "Mixed Tone Heart Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX250",
+        "标题": "Wholesale Heart Polymer Clay Sprinkles Custom Mini Mixed Tone Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 279,
+      "assetKey": "yx250",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx250-mixed-tone-heart-polymer-clay-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 725,
+          "height": 694
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX260",
+      "title": "Mini Blossom Polymer Clay Sprinkles",
+      "originalTitle": "Wholesale Petal Polymer Clay Sprinkles Custom Mini Blossom Decorations for Slime Shaker Phone Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Mini Blossom Polymer Clay Sprinkles, product code YX260",
+      "description": "Mini Blossom Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Mini Blossom Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ. Small flower shapes with open centers in coral, yellow and teal tones. Confirm dimensions and selected colors; the bottle is a styling prop. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Blossom Polymer Clay Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX260",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Small flower shapes with open centers in coral, yellow and teal tones. Confirm dimensions and selected colors; the bottle is a styling prop.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini blossom polymer clay sprinkles, wholesale craft components",
+      "metaTitle": "YX260 Mini Blossom Polymer Clay Sprinkles | HAIBU",
+      "metaDescription": "Mini Blossom Polymer Clay Sprinkles. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX260",
+        "标题": "Wholesale Petal Polymer Clay Sprinkles Custom Mini Blossom Decorations for Slime Shaker Phone Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 277,
+      "assetKey": "yx260",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx260-mini-blossom-polymer-clay-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 695,
+          "height": 675
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX263",
+      "title": "Dice Polymer Clay Sprinkles",
+      "originalTitle": "Wholesale Dice Polymer Clay Sprinkles Custom Mini Square Decorations for Slime Shaker Phone Jewelry Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Dice Polymer Clay Sprinkles, product code YX263",
+      "description": "Dice Polymer Clay Sprinkles. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Dice Polymer Clay Sprinkles. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ. Square white dice-pattern slices with black and pink outlines and dots. Confirm selected colors; display props are not included. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Dice Polymer Clay Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX263",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Square white dice-pattern slices with black and pink outlines and dots. Confirm selected colors; display props are not included.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "dice polymer clay sprinkles, wholesale craft components",
+      "metaTitle": "YX263 Dice Polymer Clay Sprinkles | HAIBU",
+      "metaDescription": "Dice Polymer Clay Sprinkles. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX263",
+        "标题": "Wholesale Dice Polymer Clay Sprinkles Custom Mini Square Decorations for Slime Shaker Phone Jewelry Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 281,
+      "assetKey": "yx263",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx263-dice-polymer-clay-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 701,
+          "height": 680
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX479",
+      "title": "Orange Citrus Polymer Clay Slices",
+      "originalTitle": "Wholesale Orange Citrus Polymer Clay Sprinkles Custom Mini Fruit Decorations for Slime Shaker Phone Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Orange Citrus Polymer Clay Slices, product code YX479",
+      "description": "Orange Citrus Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Orange Citrus Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ. Orange citrus slices with white segment details. The bottle is a display prop; standard supply is packed by bag. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Orange Citrus Polymer Clay Slices",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX479",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Orange citrus slices with white segment details. The bottle is a display prop; standard supply is packed by bag.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "orange citrus polymer clay slices, wholesale craft components",
+      "metaTitle": "YX479 Orange Citrus Polymer Clay Slices | HAIBU",
+      "metaDescription": "Orange Citrus Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX479",
+        "标题": "Wholesale Orange Citrus Polymer Clay Sprinkles Custom Mini Fruit Decorations for Slime Shaker Phone Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 283,
+      "assetKey": "yx479",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx479-orange-citrus-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 653,
+          "height": 706
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX480",
+      "title": "Mixed Color Citrus Polymer Clay Slices",
+      "originalTitle": "Wholesale Fruit Polymer Clay Sprinkles Custom Mini Fruit Decorations for Slime Shaker Phone Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Mixed Color Citrus Polymer Clay Slices, product code YX480",
+      "description": "Mixed Color Citrus Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Mixed Color Citrus Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ. Pink and yellow citrus slices from the supplied reference. Confirm the selected assortment; the display bottle is not included. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mixed Color Citrus Polymer Clay Slices",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX480",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Pink and yellow citrus slices from the supplied reference. Confirm the selected assortment; the display bottle is not included.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mixed color citrus polymer clay slices, wholesale craft components",
+      "metaTitle": "YX480 Mixed Color Citrus Polymer Clay Slices | HAIBU",
+      "metaDescription": "Mixed Color Citrus Polymer Clay Slices. 5 mm; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX480",
+        "标题": "Wholesale Fruit Polymer Clay Sprinkles Custom Mini Fruit Decorations for Slime Shaker Phone Accessories",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "5mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 282,
+      "assetKey": "yx480",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx480-mixed-color-citrus-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 727,
+          "height": 697
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX3338",
+      "title": "Milk Bottle and Cookie Decorative Sprinkle Mix",
+      "originalTitle": "Mixed Polymer Clay Milk Bottle Cookies Slice Sprinkle for Crafts Making Phone Nail Art Decor DIY Slime Filling",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Milk Bottle and Cookie Decorative Sprinkle Mix, product code YX3338",
+      "description": "Milk Bottle and Cookie Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Milk Bottle and Cookie Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ. Milk bottle and cookie-style shapes mixed with decorative round components. The workbook lists polymer clay; confirm the material and dimensions of each mixed component. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Milk Bottle and Cookie Decorative Sprinkle Mix",
+        "Material: Polymer clay; confirm mixed components",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX3338",
+        "Material: Polymer clay; confirm mixed components",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Milk bottle and cookie-style shapes mixed with decorative round components. The workbook lists polymer clay; confirm the material and dimensions of each mixed component.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "Polymer clay; confirm mixed components",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "milk bottle and cookie decorative sprinkle mix, wholesale craft components",
+      "metaTitle": "YX3338 Milk Bottle and Cookie Decorative Sprinkle Mix | HAIBU",
+      "metaDescription": "Milk Bottle and Cookie Decorative Sprinkle Mix. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "YX3338",
+        "标题": "Mixed Polymer Clay Milk Bottle Cookies Slice Sprinkle for Crafts Making Phone Nail Art Decor DIY Slime Filling",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 276,
+      "assetKey": "yx3338",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "yx3338-milk-bottle-and-cookie-decorative-sprinkle-mix",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 717,
+          "height": 714
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "MA606",
+      "title": "Mixed Color Butterfly PVC Sequins",
+      "originalTitle": "Wholesale 500g/Lot Mixed Color Butterfly Sequins PVC Butterfly Confetti Wedding Crafts, Slime Accessories Nail Art Sequins",
+      "type": "Decorative",
+      "categorySlug": "sequins-glitter-confetti",
+      "imageAlt": "Mixed Color Butterfly PVC Sequins, product code MA606",
+      "description": "Mixed Color Butterfly PVC Sequins. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "detailedDescription": "Mixed Color Butterfly PVC Sequins. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ. Pastel butterfly-shaped sequins. Confirm selected colors, dimensions and mixing proportions; supplied loose product reference. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mixed Color Butterfly PVC Sequins",
+        "Material: PVC",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: MA606",
+        "Material: PVC",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Pastel butterfly-shaped sequins. Confirm selected colors, dimensions and mixing proportions; supplied loose product reference.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "material": "PVC",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers, decoden and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mixed color butterfly pvc sequins, wholesale craft components",
+      "metaTitle": "MA606 Mixed Color Butterfly PVC Sequins | HAIBU",
+      "metaDescription": "Mixed Color Butterfly PVC Sequins. Confirm dimensions by inquiry; 500 g per bag. Ask for selected designs, custom packing and MOQ.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261022-130554).xlsx",
+      "sourceFields": {
+        "sku": "MA606",
+        "标题": "Wholesale 500g/Lot Mixed Color Butterfly Sequins PVC Butterfly Confetti Wedding Crafts, Slime Accessories Nail Art Sequins",
+        "分类": "Sequins",
+        "状态": "库存有货",
+        "材质": "pvc",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500G/ bag，可以定制，咨询客服"
+      },
+      "sourceRow": 275,
+      "assetKey": "ma606",
+      "assetDirectory": "batch-2026-10-22-supplement",
+      "imagePrefix": "ma606-mixed-color-butterfly-pvc-sequins",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 742,
+          "height": 682
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Supplied product and styling references. Confirm selected designs, colors and assortment; display containers and styling props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-22",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

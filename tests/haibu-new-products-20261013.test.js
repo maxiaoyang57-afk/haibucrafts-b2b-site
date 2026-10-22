@@ -22,7 +22,7 @@ const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 
 test('eight additions preserve the previous 143 catalog identities and grouped bear code', () => {
   assert.equal(selected.size, 8);
-  assert.equal(catalog.count, 305);
+  assert.equal(catalog.count, 315);
   const previous = catalog.products.map(priorMedia).filter((item) => !selected.has(item.sku) && !laterSkus.has(item.sku) && !supplementSkus.has(item.sku) && !eveningSkus.has(item.sku))
     .map((item) => laterManifest.previousMedia.find((reference) => reference.sku === item.sku) || item);
   assert.equal(previous.length, 143);

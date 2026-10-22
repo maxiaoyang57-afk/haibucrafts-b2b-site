@@ -1,7 +1,142 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 305,
+  "count": 315,
   "products": [
+    {
+      "sku": "YX126",
+      "title": "Red Blossom Polymer Clay Slices",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx126/yx126-red-blossom-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx126/yx126-red-blossom-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx126/yx126-red-blossom-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx126/yx126-red-blossom-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx126-red-blossom-polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx126-red-blossom-polymer-clay-slices/"
+    },
+    {
+      "sku": "YX215",
+      "title": "Basketball Polymer Clay Sprinkles",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx215/yx215-basketball-polymer-clay-sprinkles-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx215/yx215-basketball-polymer-clay-sprinkles-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx215/yx215-basketball-polymer-clay-sprinkles-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx215/yx215-basketball-polymer-clay-sprinkles-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx215-basketball-polymer-clay-sprinkles/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx215-basketball-polymer-clay-sprinkles/"
+    },
+    {
+      "sku": "YX244",
+      "title": "Surprised Face Polymer Clay Sprinkles",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx244/yx244-surprised-face-polymer-clay-sprinkles-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx244/yx244-surprised-face-polymer-clay-sprinkles-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx244/yx244-surprised-face-polymer-clay-sprinkles-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx244/yx244-surprised-face-polymer-clay-sprinkles-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx244-surprised-face-polymer-clay-sprinkles/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx244-surprised-face-polymer-clay-sprinkles/"
+    },
+    {
+      "sku": "YX250",
+      "title": "Mixed Tone Heart Polymer Clay Sprinkles",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx250/yx250-mixed-tone-heart-polymer-clay-sprinkles-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx250/yx250-mixed-tone-heart-polymer-clay-sprinkles-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx250/yx250-mixed-tone-heart-polymer-clay-sprinkles-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx250/yx250-mixed-tone-heart-polymer-clay-sprinkles-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx250-mixed-tone-heart-polymer-clay-sprinkles/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx250-mixed-tone-heart-polymer-clay-sprinkles/"
+    },
+    {
+      "sku": "YX260",
+      "title": "Mini Blossom Polymer Clay Sprinkles",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx260/yx260-mini-blossom-polymer-clay-sprinkles-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx260/yx260-mini-blossom-polymer-clay-sprinkles-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx260/yx260-mini-blossom-polymer-clay-sprinkles-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx260/yx260-mini-blossom-polymer-clay-sprinkles-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx260-mini-blossom-polymer-clay-sprinkles/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx260-mini-blossom-polymer-clay-sprinkles/"
+    },
+    {
+      "sku": "YX263",
+      "title": "Dice Polymer Clay Sprinkles",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx263/yx263-dice-polymer-clay-sprinkles-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx263/yx263-dice-polymer-clay-sprinkles-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx263/yx263-dice-polymer-clay-sprinkles-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx263/yx263-dice-polymer-clay-sprinkles-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx263-dice-polymer-clay-sprinkles/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx263-dice-polymer-clay-sprinkles/"
+    },
+    {
+      "sku": "YX479",
+      "title": "Orange Citrus Polymer Clay Slices",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx479/yx479-orange-citrus-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx479/yx479-orange-citrus-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx479/yx479-orange-citrus-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx479/yx479-orange-citrus-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx479-orange-citrus-polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx479-orange-citrus-polymer-clay-slices/"
+    },
+    {
+      "sku": "YX480",
+      "title": "Mixed Color Citrus Polymer Clay Slices",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx480/yx480-mixed-color-citrus-polymer-clay-slices-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx480/yx480-mixed-color-citrus-polymer-clay-slices-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx480/yx480-mixed-color-citrus-polymer-clay-slices-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx480/yx480-mixed-color-citrus-polymer-clay-slices-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx480-mixed-color-citrus-polymer-clay-slices/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx480-mixed-color-citrus-polymer-clay-slices/"
+    },
+    {
+      "sku": "YX3338",
+      "title": "Milk Bottle and Cookie Decorative Sprinkle Mix",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/yx3338/yx3338-milk-bottle-and-cookie-decorative-sprinkle-mix-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/yx3338/yx3338-milk-bottle-and-cookie-decorative-sprinkle-mix-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx3338/yx3338-milk-bottle-and-cookie-decorative-sprinkle-mix-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/yx3338/yx3338-milk-bottle-and-cookie-decorative-sprinkle-mix-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3338-milk-bottle-cookie-decorative-sprinkle-mix/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3338-milk-bottle-cookie-decorative-sprinkle-mix/"
+    },
     {
       "sku": "YX3866",
       "title": "Duck and Blue Bubble Decorative Filler Mix",
@@ -4101,6 +4236,21 @@
       ],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma228-iridescent-strip-pvc-glitter/",
       "productionPath": "/products/sequins-glitter-confetti/ma228-iridescent-strip-pvc-glitter/"
+    },
+    {
+      "sku": "MA606",
+      "title": "Mixed Color Butterfly PVC Sequins",
+      "category": "sequins-glitter-confetti",
+      "categoryLabel": "Sequins & Confetti",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-22-supplement/ma606/ma606-mixed-color-butterfly-pvc-sequins-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-22-supplement/ma606/ma606-mixed-color-butterfly-pvc-sequins-01.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/ma606/ma606-mixed-color-butterfly-pvc-sequins-02.jpg",
+        "/assets/images/products/batch-2026-10-22-supplement/ma606/ma606-mixed-color-butterfly-pvc-sequins-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma606-mixed-color-butterfly-pvc-sequins/",
+      "productionPath": "/products/sequins-glitter-confetti/ma606-mixed-color-butterfly-pvc-sequins/"
     },
     {
       "sku": "MA173",

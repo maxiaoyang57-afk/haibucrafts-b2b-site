@@ -92,6 +92,69 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx126-red-blossom-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx126-red-blossom-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx126-red-blossom-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx215-basketball-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx215-basketball-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx215-basketball-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx244-surprised-face-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx244-surprised-face-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx244-surprised-face-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx250-mixed-tone-heart-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx250-mixed-tone-heart-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx250-mixed-tone-heart-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx260-mini-blossom-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx260-mini-blossom-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx260-mini-blossom-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx263-dice-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx263-dice-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx263-dice-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx479-orange-citrus-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx479-orange-citrus-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx479-orange-citrus-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx480-mixed-color-citrus-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx480-mixed-color-citrus-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx480-mixed-color-citrus-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3338-milk-bottle-cookie-decorative-sprinkle-mix/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3338-milk-bottle-cookie-decorative-sprinkle-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3338-milk-bottle-cookie-decorative-sprinkle-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx3866-duck-blue-bubble-decorative-filler-mix/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3866-duck-blue-bubble-decorative-filler-mix/index.html",
       "action": "create",
@@ -2049,6 +2112,13 @@
       "destination": "products/sequins-glitter-confetti/ma228-iridescent-strip-pvc-glitter/index.html",
       "action": "create",
       "productionPath": "/products/sequins-glitter-confetti/ma228-iridescent-strip-pvc-glitter/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ma606-mixed-color-butterfly-pvc-sequins/index.html",
+      "destination": "products/sequins-glitter-confetti/ma606-mixed-color-butterfly-pvc-sequins/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ma606-mixed-color-butterfly-pvc-sequins/",
       "generatedProduct": true
     },
     {

@@ -1,6 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 const manifest=JSON.parse(readFileSync('docs/tasks/haibu-new-products-20261022-manifest.json','utf8'));
+manifest.products.push(...JSON.parse(readFileSync('docs/tasks/haibu-new-products-20261022-supplement-manifest.json','utf8')).products);
 const catalog=JSON.parse(readFileSync('assets/v2/product-catalog.json','utf8'));
 test('October 22 product galleries and full quote selections work',async({page})=>{
  await page.route('**/api/inquiry',r=>r.abort());

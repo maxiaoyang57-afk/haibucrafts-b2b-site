@@ -19,8 +19,8 @@ const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 test('11 new products preserve all 151 earlier identities with only two approved gallery replacements', () => {
   assert.equal(batch.products.length, 11);
   assert.equal(selected.size, 11);
-  assert.equal(catalog.count, 293);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 293);
+  assert.equal(catalog.count, 305);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 305);
   const previous = catalog.products.map(priorMedia).filter((product) => !selected.has(product.sku) && !supplementSkus.has(product.sku) && !eveningSkus.has(product.sku) && !['RW3628','RW26856','RW26857','RW26858','RW26859'].includes(product.sku)).map((product) => {
     // Normalize the owner-approved 2026-10-14 title correction to this earlier batch baseline.
     if (product.sku === 'YX048') {
@@ -48,7 +48,10 @@ test('all 39 inspected gallery assets retain their approved bytes and order', as
     const product = catalog.products.find((item) => item.sku === record.sku);
     assert.equal(record.outputs.length, 3);
     assert.equal(new Set(product.gallery).size, 3);
-    if(record.sku!=='RW24224') assert.deepEqual(product.gallery, record.outputs.map((image) => `/${image.path}`));
+    if(record.sku==='RW20175') {
+      const current=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261022-manifest.json','utf8')).products.find(p=>p.sku===record.sku);
+      assert.deepEqual(product.gallery,current.imageOutputs.map(i=>i.path));
+    } else if(record.sku!=='RW24224') assert.deepEqual(product.gallery, record.outputs.map((image) => `/${image.path}`));
     assert.equal(product.image, product.gallery[0]);
     for (const image of record.outputs) {
       const bytes = await readFile(image.path);
@@ -70,7 +73,7 @@ test('mixed components and every full SKU reach the inquiry and public Product s
     const quoteLinks = [...html.matchAll(/href="([^"]*request-quote[^\"]*)"/g)].map((match) => new URL(match[1].replaceAll('&amp;', '&'), 'https://www.haibucrafts.com'));
     assert.ok(quoteLinks.some((url) => url.searchParams.get('product_code') === record.sku), record.sku);
     assert.ok(html.includes('This pack quantity is not the MOQ.'), record.sku);
-    assert.ok(html.includes(record.sku==='RW24224'?'supplied product reference':'styling illustrations'), record.sku);
+    assert.ok(html.includes(['RW24224','RW20175'].includes(record.sku)?'supplied product reference':'styling illustrations'), record.sku);
     assert.ok(record.imageDimensions.every((image) => image.width > 0 && image.width <= 1000 && image.height > 0));
   }
   const mixed = batch.products.find((product) => product.sku === 'RW20423/RW22336/RW22338');

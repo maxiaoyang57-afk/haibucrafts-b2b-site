@@ -4,7 +4,6 @@ on:
   workflow_run:
     workflows: [Production HTTP Redirect Audit]
     types: [completed]
-    branches: [main]
   workflow_dispatch:
     inputs:
       submit:
@@ -23,29 +22,25 @@ concurrency:
 jobs:
   notify:
     if: >-
-      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'main') ||
+      (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success') ||
       (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
+          # Only run trusted default-branch code; validate the upstream SHA below.
+          ref: main
           fetch-depth: 1
-      - name: Ignore superseded or non-main deployments
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Validate completed audit and current main commit
         id: current
         shell: bash
         run: |
           git fetch origin main --depth=1
-          if [ "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)" ]; then
-            echo "ready=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "Skipping deployment that is not the current main commit."
-          fi
-      - uses: actions/setup-node@v7
-        if: steps.current.outputs.ready == 'true'
-        with:
-          node-version: '22'
+          node scripts/check-indexnow-trigger.mjs "$(git rev-parse HEAD)" "$(git rev-parse origin/main)"
       - name: Restore last accepted URL fingerprints
         if: steps.current.outputs.ready == 'true'
         env:
@@ -78,3 +73,4 @@ jobs:
           path: .release-candidate/indexnow/report.json
           if-no-files-found: warn
           retention-days: 90
+

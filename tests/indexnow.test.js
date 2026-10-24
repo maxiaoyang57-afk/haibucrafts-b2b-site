@@ -146,8 +146,9 @@ test('Workflow waits for successful main Production audit and uploads state only
   const workflow = readFileSync(new URL('../.github/workflows/indexnow-production.yml', import.meta.url), 'utf8');
   assert.match(workflow, /workflows: \[Production HTTP Redirect Audit\]/);
   assert.match(workflow, /workflow_run.conclusion == 'success'/);
-  assert.match(workflow, /workflow_run.head_branch == 'main'/);
-  assert.doesNotMatch(workflow, /deployment_status/);
+  assert.doesNotMatch(workflow, /branches: \[main\]/);
+  assert.match(workflow, /ref: main/);
+  assert.match(workflow, /node scripts\/check-indexnow-trigger.mjs/);
   assert.match(workflow, /github.ref == 'refs\/heads\/main'/);
   assert.match(workflow, /cancel-in-progress: false/);
   assert.match(workflow, /Save accepted checkpoint[\s\S]*?if: success\(\)/);
@@ -189,3 +190,4 @@ test('CLI notifies removed sitemap pages only after their live removal is confir
   assert.deepEqual(f.report().urls, [urls[1]]);
   assert.deepEqual(Object.keys(JSON.parse(readFileSync(f.state, 'utf8')).pages), [urls[0]]);
 });
+

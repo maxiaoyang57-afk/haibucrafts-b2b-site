@@ -1,0 +1,2 @@
+import { defineConfig } from 'playwright/test';
+export default defineConfig({testDir:'./tests/browser',testMatch:'product-source-20261025-books.spec.mjs',timeout:180000,workers:2,retries:0,use:{baseURL:'http://127.0.0.1:4193',trace:'retain-on-failure'},reporter:[['list']],webServer:{command:'python3 -m http.server 4193 --bind 127.0.0.1',port:4193,reuseExistingServer:false},projects:[375,414,1440].map(width=>({name:'width-'+width,use:{browserName:'chromium',viewport:{width,height:900},isMobile:width<600,hasTouch:width<600}}))});

@@ -16,4 +16,5 @@ for (const product of plan.filter(product => product.haibu)) expected.set(produc
 export const EXPECTED_TOTAL = expected.size;
 export const EXPECTED_RESIN = [...expected.values()].filter(category => category === 'resin-charms').length;
 export const EXPECTED_POLYMER = [...expected.values()].filter(category => category === 'polymer-clay-slices').length;
+export const EXPECTED_SLIME = [...expected.values()].filter(category => category === 'slime-charms').length;
 assert.equal(EXPECTED_TOTAL, release.catalogCountAfter, 'Manifest count must agree with source SKU identities');

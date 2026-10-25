@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorMedia } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
@@ -18,9 +19,9 @@ test('publishes 13 new September 20 SKUs and skips existing RW002155', () => {
   assert.equal(batch.expectedSkuCount, 13);
   assert.deepEqual(batch.products.map((product) => product.sku), expectedSkus);
   assert.equal(new Set(expectedSkus).size, 13);
-  assert.equal(catalog.count, 315);
-  assert.equal(catalog.products.length, 315);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 315);
+  assert.equal(catalog.count, EXPECTED_TOTAL);
+  assert.equal(catalog.products.length, EXPECTED_TOTAL);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, EXPECTED_TOTAL);
   assert.deepEqual(catalog, previewCatalog);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'resin-charms').length, 10);
   assert.equal(batch.products.filter((product) => product.categorySlug === 'polymer-clay-slices').length, 3);

@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL, EXPECTED_RESIN } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { access, readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -80,21 +81,21 @@ test('Product batches expand the active catalog to 315 products and Resin to 172
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
 
-  assert.equal(catalog.count, 315);
-  assert.equal(catalog.products.length, 315);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 315);
-  assert.equal(catalog.products.filter((product) => product.category === 'resin-charms').length, 172);
-  assert.match(category, /<strong data-product-count>172 products<\/strong>/);
-  assert.equal((category.match(/data-product-card/g) || []).length, 172);
-  assert.match(home, /<span>315 cataloged products<\/span>/);
-  assert.match(home, /<span class="eyebrow">172 products<\/span><h3>Resin Charms<\/h3>/);
-  assert.match(directory, /Browse 315 published products/);
-  assert.match(directory, /<span>172 Products<\/span>[\s\S]*?<h2>Resin Charms<\/h2>/);
+  assert.equal(catalog.count, EXPECTED_TOTAL);
+  assert.equal(catalog.products.length, EXPECTED_TOTAL);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, EXPECTED_TOTAL);
+  assert.equal(catalog.products.filter((product) => product.category === 'resin-charms').length, EXPECTED_RESIN);
+  assert.match(category, new RegExp(String.raw`<strong data-product-count>${EXPECTED_RESIN} products<\/strong>`));
+  assert.equal((category.match(/data-product-card/g) || []).length, EXPECTED_RESIN);
+  assert.match(home, new RegExp(String.raw`<span>${EXPECTED_TOTAL} cataloged products<\/span>`));
+  assert.match(home, new RegExp(String.raw`<span class="eyebrow">${EXPECTED_RESIN} products<\/span><h3>Resin Charms<\/h3>`));
+  assert.match(directory, new RegExp(String.raw`Browse ${EXPECTED_TOTAL} published products`));
+  assert.match(directory, new RegExp(String.raw`<span>${EXPECTED_RESIN} Products<\/span>[\s\S]*?<h2>Resin Charms<\/h2>`));
 
   const itemList = [...category.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .map((match) => JSON.parse(match[1]))
     .find((item) => item['@type'] === 'ItemList');
-  assert.equal(itemList?.numberOfItems, 172);
+  assert.equal(itemList?.numberOfItems, EXPECTED_RESIN);
 });
 
 test('September Resin cards and product pages preserve identity, SEO and inquiry attribution', async () => {

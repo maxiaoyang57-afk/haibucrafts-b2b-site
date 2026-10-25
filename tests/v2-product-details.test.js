@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { access, readFile } from 'node:fs/promises';
@@ -18,10 +19,10 @@ test('all catalog products have linked detail pages and SEO routes', async () =>
   const seoMap = JSON.parse(await readFile(path.join(previewRoot, 'seo-production-map.json'), 'utf8'));
   const generatedRoutes = seoMap.routes.filter((route) => route.generatedProduct);
 
-  assert.equal(catalog.count, 315);
-  assert.equal(catalog.products.length, 315);
-  assert.equal(generatedRoutes.length, 315);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 315);
+  assert.equal(catalog.count, EXPECTED_TOTAL);
+  assert.equal(catalog.products.length, EXPECTED_TOTAL);
+  assert.equal(generatedRoutes.length, EXPECTED_TOTAL);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, EXPECTED_TOTAL);
 
   for (const product of catalog.products) {
     const relative = product.previewPath.slice('/v2-preview/'.length);
@@ -55,5 +56,5 @@ test('all catalog products have linked detail pages and SEO routes', async () =>
     const html = await readFile(path.join(previewRoot, 'products', category, 'index.html'), 'utf8');
     linkedCards += (html.match(/class="btn btn-light product-detail-link"/g) || []).length;
   }
-  assert.equal(linkedCards, 315);
+  assert.equal(linkedCards, EXPECTED_TOTAL);
 });

@@ -1,3 +1,4 @@
+import { EXPECTED_RESIN } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -39,8 +40,8 @@ const finalSkus = [...new Set(Object.values(effectiveMapping))].filter((sku) => 
 
 test('Resin migration keeps all 19 corrected SKUs after later Resin additions', () => {
   const cardsSkus = cards.map((card) => card.match(/<span class="sku-badge">([^<]+)<\/span>/)?.[1]);
-  assert.equal(cards.length, 172);
-  assert.equal(new Set(cardsSkus).size, 172);
+  assert.equal(cards.length, EXPECTED_RESIN);
+  assert.equal(new Set(cardsSkus).size, EXPECTED_RESIN);
   assert.deepEqual(new Set(cardsSkus.filter((sku) => finalSkus.includes(sku))), new Set(finalSkus));
   assert.equal(mapping.RW002859, 'RW002859');
 });

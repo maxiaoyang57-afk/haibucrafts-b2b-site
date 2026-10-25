@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL, EXPECTED_POLYMER } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -17,8 +18,8 @@ test('selected polymer products are absent from catalogs, category cards and gen
       : path.join(root, 'products', 'polymer-clay-slices-wholesale', 'index.html');
     const catalog = JSON.parse(await readFile(catalogPath, 'utf8'));
     const category = await readFile(categoryPath, 'utf8');
-    assert.equal(catalog.count, 315);
-    assert.equal(catalog.products.filter((product) => product.category === config.category).length, 77);
+    assert.equal(catalog.count, EXPECTED_TOTAL);
+    assert.equal(catalog.products.filter((product) => product.category === config.category).length, EXPECTED_POLYMER);
     assert.equal(catalog.products.some((product) => retiredSkus.has(product.sku)), false);
     for (const product of config.products) assert.equal(category.includes(`>${product.sku}</span>`), false);
   }

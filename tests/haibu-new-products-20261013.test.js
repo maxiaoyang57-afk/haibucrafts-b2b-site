@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
@@ -22,7 +23,7 @@ const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 
 test('eight additions preserve the previous 143 catalog identities and grouped bear code', () => {
   assert.equal(selected.size, 8);
-  assert.equal(catalog.count, 315);
+  assert.equal(catalog.count, EXPECTED_TOTAL);
   const previous = catalog.products.map(priorMedia).filter((item) => !selected.has(item.sku) && !laterSkus.has(item.sku) && !supplementSkus.has(item.sku) && !eveningSkus.has(item.sku))
     .map((item) => laterManifest.previousMedia.find((reference) => reference.sku === item.sku) || item);
   assert.equal(previous.length, 143);

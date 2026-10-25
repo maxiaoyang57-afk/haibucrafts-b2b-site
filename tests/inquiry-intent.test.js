@@ -4,6 +4,7 @@ import test from 'node:test';
 import vm from 'node:vm';
 
 const intents = [
+  ['polymer-liquid-samples', 'Plan samples for a liquid-filled project', /water-glycerin or water-glue formulation/, /Liquid formulation/],
   ['homepage-samples', 'Ask about samples', /product codes or styles/, /sample/i],
   ['homepage-shortlist', 'Request a tailored shortlist', /category, theme or intended use/, /category, theme, intended use/],
   ['homepage-documents', 'Ask about product documentation', /product code, intended use and sales market/, /product code, intended use and sales market/]

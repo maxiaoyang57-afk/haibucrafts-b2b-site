@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorAfternoonMedia } from './helpers/afternoon-20261019.js';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -8,8 +9,8 @@ const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8')
 const plan=JSON.parse(await readFile('scripts/data/product-plan-20261020.json','utf8'));
 
 test('October 20 preserves every earlier product and publishes the eleven supplied HAIBU additions',async()=>{
- assert.equal(catalog.count,315);
- assert.equal(new Set(catalog.products.map(p=>p.sku)).size,315);
+ assert.equal(catalog.count,EXPECTED_TOTAL);
+ assert.equal(new Set(catalog.products.map(p=>p.sku)).size,EXPECTED_TOTAL);
  assert.equal(manifest.products.length,11);
  for(const old of manifest.previousProducts)assert.deepEqual(((p)=>['RW22135','RW24224','RW20175'].includes(p.sku)?priorAfternoonMedia(p):p)(catalog.products.find(p=>p.sku===old.sku)),old,old.sku);
  assert.equal(catalog.products.filter(p=>p.sku==='RW24359').length,1);

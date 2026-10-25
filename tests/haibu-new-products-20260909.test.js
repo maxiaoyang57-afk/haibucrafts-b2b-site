@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
@@ -33,9 +34,9 @@ test('publishes exactly the 27 audited new SKUs without replacing skipped SKUs',
   assert.equal(batch.expectedSkuCount, 27);
   assert.equal(batch.products.length, 27);
   assert.equal(new Set(batch.products.map((product) => product.sku)).size, 27);
-  assert.equal(catalog.count, 315);
-  assert.equal(catalog.products.length, 315);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 315);
+  assert.equal(catalog.count, EXPECTED_TOTAL);
+  assert.equal(catalog.products.length, EXPECTED_TOTAL);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, EXPECTED_TOTAL);
   assert.deepEqual(catalog, previewCatalog);
   for (const product of batch.products) assert.ok(bySku.has(product.sku), product.sku);
   for (const sku of ['RW2694', 'RW20340', 'RW21805']) assert.equal(bySku.has(sku), false, sku);

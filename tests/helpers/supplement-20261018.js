@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs';
+import { readFileSync, readdirSync } from 'node:fs';
 const manifest=JSON.parse(readFileSync(new URL('../../docs/tasks/haibu-new-products-20261018-supplement-manifest.json',import.meta.url),'utf8'));
 const previous=new Map(manifest.previousProducts.map(p=>[p.sku,p]));
 const extension=JSON.parse(readFileSync(new URL('../../docs/tasks/haibu-new-products-20261018-extension-manifest.json',import.meta.url),'utf8'));
@@ -17,4 +17,12 @@ export const addedSupplementSkus=new Set([...october22Supplement.filter(p=>p.hai
 export function priorMedia(product){
  const old=previous.get(product.sku);
  return old?{...product,image:old.image,gallery:old.gallery}:product;
+}
+// Later source plans extend the set without changing historical identity hashes.
+const planDirectory = new URL('../../scripts/data/', import.meta.url);
+for (const name of readdirSync(planDirectory)) {
+ const date = name.match(/^product-plan-(\d{8})(?:-[a-z-]+)?\.json$/)?.[1];
+ if (!date || date <= '20261022') continue;
+ const plan = JSON.parse(readFileSync(new URL(name, planDirectory), 'utf8'));
+ for (const product of plan.filter(product => product.haibu && product.operation === 'new')) addedSupplementSkus.add(product.sku);
 }

@@ -23,7 +23,7 @@ test('blog library publishes seventeen linked buyer guides', async () => {
     assert.match(html, /type="application\/ld\+json"/);
     assert.match(html, /"@type":"BlogPosting"/);
     assert.match(html, /class="blog-article-body"/);
-    assert.match(html, /source=blog/);
+    assert.match(html, route.previewPath.includes('/polymer-clay-slice-buying-guide/') ? /source=polymer-liquid-samples/ : /source=blog/);
   }
 });
 

@@ -1,7 +1,22 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 315,
+  "count": 325,
   "products": [
+    {
+      "sku": "YX3301",
+      "title": "Monkey and Banana Polymer Clay Sprinkles",
+      "category": "polymer-clay-slices",
+      "categoryLabel": "Polymer Clay Slices",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/yx3301/yx3301-monkey-and-banana-polymer-clay-sprinkles-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/yx3301/yx3301-monkey-and-banana-polymer-clay-sprinkles-01.jpg",
+        "/assets/images/products/batch-2026-10-25/yx3301/yx3301-monkey-and-banana-polymer-clay-sprinkles-02.jpg",
+        "/assets/images/products/batch-2026-10-25/yx3301/yx3301-monkey-and-banana-polymer-clay-sprinkles-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/polymer-clay-slices/yx3301-monkey-banana-polymer-clay-sprinkles/",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3301-monkey-banana-polymer-clay-sprinkles/"
+    },
     {
       "sku": "YX126",
       "title": "Red Blossom Polymer Clay Slices",
@@ -1702,6 +1717,141 @@
       ],
       "previewPath": "/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/"
+    },
+    {
+      "sku": "SHK26189",
+      "title": "Fruit Turtle Shoe Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/shk26189/shk26189-fruit-turtle-shoe-charms-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/shk26189/shk26189-fruit-turtle-shoe-charms-01.jpg",
+        "/assets/images/products/batch-2026-10-25/shk26189/shk26189-fruit-turtle-shoe-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-25/shk26189/shk26189-fruit-turtle-shoe-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/shk26189-fruit-turtle-shoe-charms/",
+      "productionPath": "/products/resin-charms-for-slime/shk26189-fruit-turtle-shoe-charms/"
+    },
+    {
+      "sku": "RW26147",
+      "title": "Spring Flower Bouquet Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/rw26147/rw26147-spring-flower-bouquet-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/rw26147/rw26147-spring-flower-bouquet-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-25/rw26147/rw26147-spring-flower-bouquet-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-25/rw26147/rw26147-spring-flower-bouquet-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26147-spring-flower-bouquet-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26147-spring-flower-bouquet-resin-cabochons/"
+    },
+    {
+      "sku": "RW22928",
+      "title": "Mini Dinosaur Resin Figures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/rw22928/rw22928-mini-dinosaur-resin-figures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/rw22928/rw22928-mini-dinosaur-resin-figures-01.jpg",
+        "/assets/images/products/batch-2026-10-25/rw22928/rw22928-mini-dinosaur-resin-figures-02.jpg",
+        "/assets/images/products/batch-2026-10-25/rw22928/rw22928-mini-dinosaur-resin-figures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw22928-mini-dinosaur-resin-figures/",
+      "productionPath": "/products/resin-charms-for-slime/rw22928-mini-dinosaur-resin-figures/"
+    },
+    {
+      "sku": "RW22934",
+      "title": "Miniature Mushroom Pumpkin and Tree Houses",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/rw22934/rw22934-miniature-mushroom-pumpkin-and-tree-houses-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/rw22934/rw22934-miniature-mushroom-pumpkin-and-tree-houses-01.jpg",
+        "/assets/images/products/batch-2026-10-25/rw22934/rw22934-miniature-mushroom-pumpkin-and-tree-houses-02.jpg",
+        "/assets/images/products/batch-2026-10-25/rw22934/rw22934-miniature-mushroom-pumpkin-and-tree-houses-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw22934-miniature-mushroom-pumpkin-tree-houses/",
+      "productionPath": "/products/resin-charms-for-slime/rw22934-miniature-mushroom-pumpkin-tree-houses/"
+    },
+    {
+      "sku": "RW24767",
+      "title": "Mini Milk and Juice Carton Resin Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/rw24767/rw24767-mini-milk-and-juice-carton-resin-charms-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/rw24767/rw24767-mini-milk-and-juice-carton-resin-charms-01.jpg",
+        "/assets/images/products/batch-2026-10-25/rw24767/rw24767-mini-milk-and-juice-carton-resin-charms-02.jpg",
+        "/assets/images/products/batch-2026-10-25/rw24767/rw24767-mini-milk-and-juice-carton-resin-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24767-mini-milk-juice-carton-resin-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw24767-mini-milk-juice-carton-resin-charms/"
+    },
+    {
+      "sku": "RW24666",
+      "title": "45mm Patterned Miniature Resin Plates",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/rw24666/rw24666-45mm-patterned-miniature-resin-plates-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/rw24666/rw24666-45mm-patterned-miniature-resin-plates-01.jpg",
+        "/assets/images/products/batch-2026-10-25/rw24666/rw24666-45mm-patterned-miniature-resin-plates-02.jpg",
+        "/assets/images/products/batch-2026-10-25/rw24666/rw24666-45mm-patterned-miniature-resin-plates-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24666-45mm-patterned-miniature-resin-plates/",
+      "productionPath": "/products/resin-charms-for-slime/rw24666-45mm-patterned-miniature-resin-plates/"
+    },
+    {
+      "sku": "RW5319/RW25945",
+      "title": "Miniature Boat Oar and Colorful Fish Accessories",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/rw5319-rw25945/rw5319-rw25945-miniature-boat-oar-and-colorful-fish-accessories-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/rw5319-rw25945/rw5319-rw25945-miniature-boat-oar-and-colorful-fish-accessories-01.jpg",
+        "/assets/images/products/batch-2026-10-25/rw5319-rw25945/rw5319-rw25945-miniature-boat-oar-and-colorful-fish-accessories-02.jpg",
+        "/assets/images/products/batch-2026-10-25/rw5319-rw25945/rw5319-rw25945-miniature-boat-oar-and-colorful-fish-accessories-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw5319-rw25945-miniature-boat-oar-colorful-fish-accessories/",
+      "productionPath": "/products/resin-charms-for-slime/rw5319-rw25945-miniature-boat-oar-colorful-fish-accessories/"
+    },
+    {
+      "sku": "RW5272/RW5124",
+      "title": "Miniature Plastic and Wooden Ladders",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/rw5272-rw5124/rw5272-rw5124-miniature-plastic-and-wooden-ladders-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/rw5272-rw5124/rw5272-rw5124-miniature-plastic-and-wooden-ladders-01.jpg",
+        "/assets/images/products/batch-2026-10-25/rw5272-rw5124/rw5272-rw5124-miniature-plastic-and-wooden-ladders-02.jpg",
+        "/assets/images/products/batch-2026-10-25/rw5272-rw5124/rw5272-rw5124-miniature-plastic-and-wooden-ladders-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw5272-rw5124-miniature-plastic-wooden-ladders/",
+      "productionPath": "/products/resin-charms-for-slime/rw5272-rw5124-miniature-plastic-wooden-ladders/"
+    },
+    {
+      "sku": "RW20873",
+      "title": "Pastel Shooting Star Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25/rw20873/rw20873-pastel-shooting-star-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25/rw20873/rw20873-pastel-shooting-star-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-25/rw20873/rw20873-pastel-shooting-star-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-25/rw20873/rw20873-pastel-shooting-star-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw20873-pastel-shooting-star-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw20873-pastel-shooting-star-resin-cabochons/"
     },
     {
       "sku": "RW26903",

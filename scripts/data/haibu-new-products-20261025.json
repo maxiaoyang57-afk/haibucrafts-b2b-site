@@ -1,0 +1,908 @@
+{
+  "batch": "haibu-new-products-20261025",
+  "expectedSkuCount": 10,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-25",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-25",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "SHK26189",
+      "title": "Fruit Turtle Shoe Charms",
+      "originalTitle": "Luminous Cute 3D Fruit Turtle Shoe Charms Cartoon Animal Shoe Accessories for Kids Adults Clog Sandal Decoration DIY Gift",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Fruit Turtle Shoe Charms, product code SHK26189",
+      "description": "Wholesale fruit turtle shoe charms. SKU SHK26189. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale fruit turtle shoe charms. SKU SHK26189. Confirm selected designs, packing and MOQ with your inquiry. Fruit-topped turtle decorations with shoe charm backings. Confirm backing dimensions and shoe compatibility using a sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Fruit Turtle Shoe Charms",
+        "Material: Resin",
+        "Dimensions: Approx. 18 × 24 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: Shoe charm backing; confirm fit"
+      ],
+      "specificationLines": [
+        "Product code: SHK26189",
+        "Material: Resin",
+        "Dimensions: Approx. 18 × 24 mm",
+        "Hole: Shoe charm backing; confirm fit",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Fruit-topped turtle decorations with shoe charm backings. Confirm backing dimensions and shoe compatibility using a sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "Approx. 18 × 24 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Shoe decoration and custom accessory assortments.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "fruit turtle shoe charms, wholesale craft components",
+      "metaTitle": "SHK26189 Fruit Turtle Shoe Charms | HAIBU",
+      "metaDescription": "Wholesale fruit turtle shoe charms. SKU SHK26189. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "SHK26189 ",
+        "标题": "Luminous Cute 3D Fruit Turtle Shoe Charms Cartoon Animal Shoe Accessories for Kids Adults Clog Sandal Decoration DIY Gift",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about18*24mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 290,
+      "assetKey": "shk26189",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "shk26189-fruit-turtle-shoe-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 687,
+          "height": 662
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "Shoe charm backing; confirm fit",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26147",
+      "title": "Spring Flower Bouquet Resin Cabochons",
+      "originalTitle": "Resin Charms Kawaii Colorful Spring Flower Flatback Cabochon Scrapbook DIY Bracelet Earring Charms Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Spring Flower Bouquet Resin Cabochons, product code RW26147",
+      "description": "Wholesale spring flower bouquet resin cabochons. SKU RW26147. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale spring flower bouquet resin cabochons. SKU RW26147. Confirm selected designs, packing and MOQ with your inquiry. Assorted flower bouquet shapes in pastel colors. Confirm selected designs and the available color mix. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Spring Flower Bouquet Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 22 × 25 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26147",
+        "Material: Resin",
+        "Dimensions: Approx. 22 × 25 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Assorted flower bouquet shapes in pastel colors. Confirm selected designs and the available color mix.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "Approx. 22 × 25 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Hair accessories, decoden, phone-case decoration and DIY craft kits.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "spring flower bouquet resin cabochons, wholesale craft components",
+      "metaTitle": "RW26147 Spring Flower Bouquet Resin Cabochons | HAIBU",
+      "metaDescription": "Wholesale spring flower bouquet resin cabochons. SKU RW26147. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "RW26147",
+        "标题": "Resin Charms Kawaii Colorful Spring Flower Flatback Cabochon Scrapbook DIY Bracelet Earring Charms Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about22*25mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 291,
+      "assetKey": "rw26147",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "rw26147-spring-flower-bouquet-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 675,
+          "height": 684
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX3301",
+      "title": "Monkey and Banana Polymer Clay Sprinkles",
+      "originalTitle": "1kg  Animal Monkey Banana Slices Polymer Clay Sprinkles for Crafts Making DIY Slimes Filler Accessories Nail Art Decor",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Monkey and Banana Polymer Clay Sprinkles, product code YX3301",
+      "description": "Wholesale monkey and banana polymer clay sprinkles. SKU YX3301. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale monkey and banana polymer clay sprinkles. SKU YX3301. Confirm selected designs, packing and MOQ with your inquiry. Monkey face and banana slice mix. Standard packing is 500 g per bag, as specified in the packing column. Confirm slice dimensions and mixing proportions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Monkey and Banana Polymer Clay Sprinkles",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 500 g per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: YX3301",
+        "Material: Polymer clay",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 500 g per bag; custom packing by inquiry",
+        "Selection note: Monkey face and banana slice mix. Standard packing is 500 g per bag, as specified in the packing column. Confirm slice dimensions and mixing proportions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Polymer clay",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "500 g per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Slime decoration, shaker fillers and DIY craft kits.",
+      "packagingMoq": "Source packing: 500 g per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "monkey and banana polymer clay sprinkles, wholesale craft components",
+      "metaTitle": "YX3301 Monkey and Banana Polymer Clay Sprinkles | HAIBU",
+      "metaDescription": "Wholesale monkey and banana polymer clay sprinkles. SKU YX3301. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "YX3301 ",
+        "标题": "1kg  Animal Monkey Banana Slices Polymer Clay Sprinkles for Crafts Making DIY Slimes Filler Accessories Nail Art Decor",
+        "分类": "polymer clay",
+        "状态": "库存有货",
+        "材质": "polymer clay",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格500g/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 292,
+      "assetKey": "yx3301",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "yx3301-monkey-and-banana-polymer-clay-sprinkles",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 514,
+          "height": 516
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW22928",
+      "title": "Mini Dinosaur Resin Figures",
+      "originalTitle": "Miniature Dinosaurs Resin Micro Landscape Decoration Mini Dinosaur Fairy Garden DIY Doll House Accessory Gift for Kids",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Dinosaur Resin Figures, product code RW22928",
+      "description": "Wholesale mini dinosaur resin figures. SKU RW22928. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale mini dinosaur resin figures. SKU RW22928. Confirm selected designs, packing and MOQ with your inquiry. Mini dinosaur shapes in assorted bright colors. Confirm selected styles and current color assortment. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Dinosaur Resin Figures",
+        "Material: Resin",
+        "Dimensions: 12 × 15 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW22928",
+        "Material: Resin",
+        "Dimensions: 12 × 15 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Mini dinosaur shapes in assorted bright colors. Confirm selected styles and current color assortment.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "12 × 15 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Miniature gardens, dollhouse scenes, craft displays and DIY kits.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini dinosaur resin figures, wholesale craft components",
+      "metaTitle": "RW22928 Mini Dinosaur Resin Figures | HAIBU",
+      "metaDescription": "Wholesale mini dinosaur resin figures. SKU RW22928. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "RW22928 ",
+        "标题": "Miniature Dinosaurs Resin Micro Landscape Decoration Mini Dinosaur Fairy Garden DIY Doll House Accessory Gift for Kids",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "12*15mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 294,
+      "assetKey": "rw22928",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "rw22928-mini-dinosaur-resin-figures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 789,
+          "height": 685
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW22934",
+      "title": "Miniature Mushroom Pumpkin and Tree Houses",
+      "originalTitle": "Miniatures House DIY Crafts Fairy Figurines Mini Pumpkin Mushroom Tree House Garden Decoration Micro Landscape Resin",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Mushroom Pumpkin and Tree Houses, product code RW22934",
+      "description": "Wholesale miniature mushroom pumpkin and tree houses. SKU RW22934. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale miniature mushroom pumpkin and tree houses. SKU RW22934. Confirm selected designs, packing and MOQ with your inquiry. Assorted miniature mushroom, pumpkin, tree-stump and cottage house designs. Confirm dimensions for each selected design. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Miniature Mushroom Pumpkin and Tree Houses",
+        "Material: Resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW22934",
+        "Material: Resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Assorted miniature mushroom, pumpkin, tree-stump and cottage house designs. Confirm dimensions for each selected design.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Miniature gardens, dollhouse scenes and decorative craft displays.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "miniature mushroom pumpkin and tree houses, wholesale craft components",
+      "metaTitle": "RW22934 Miniature Mushroom Pumpkin and Tree Houses | HAIBU",
+      "metaDescription": "Wholesale miniature mushroom pumpkin and tree houses. SKU RW22934. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "RW22934 ",
+        "标题": "Miniatures House DIY Crafts Fairy Figurines Mini Pumpkin Mushroom Tree House Garden Decoration Micro Landscape Resin",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 295,
+      "assetKey": "rw22934",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "rw22934-miniature-mushroom-pumpkin-and-tree-houses",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 648,
+          "height": 601
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW24767",
+      "title": "Mini Milk and Juice Carton Resin Charms",
+      "originalTitle": "100pcs Miniature Cute Fruit Milk Drinks Cartoon for  Milk Doll Kitchen Food Accessories Figurines Home Decor",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Milk and Juice Carton Resin Charms, product code RW24767",
+      "description": "Wholesale mini milk and juice carton resin charms. SKU RW24767. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale mini milk and juice carton resin charms. SKU RW24767. Confirm selected designs, packing and MOQ with your inquiry. Miniature drink-carton decorations in assorted printed styles. Decorative craft components only; not food. Confirm selected designs and dimensions. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Milk and Juice Carton Resin Charms",
+        "Material: Resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW24767",
+        "Material: Resin",
+        "Dimensions: Confirm dimensions by inquiry",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Miniature drink-carton decorations in assorted printed styles. Decorative craft components only; not food. Confirm selected designs and dimensions.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "Confirm dimensions by inquiry",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Dollhouse scenes, decoden, phone-case decoration and DIY kits.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "mini milk and juice carton resin charms, wholesale craft components",
+      "metaTitle": "RW24767 Mini Milk and Juice Carton Resin Charms | HAIBU",
+      "metaDescription": "Wholesale mini milk and juice carton resin charms. SKU RW24767. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "RW24767 ",
+        "标题": "100pcs Miniature Cute Fruit Milk Drinks Cartoon for  Milk Doll Kitchen Food Accessories Figurines Home Decor",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 296,
+      "assetKey": "rw24767",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "rw24767-mini-milk-and-juice-carton-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 779,
+          "height": 757
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW24666",
+      "title": "45mm Patterned Miniature Resin Plates",
+      "originalTitle": "100pcs 45mm Kawaii Colorful 3D Resin Plates Statue Figurine Doll House Miniatures Diy Jewelry Phone Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "45mm Patterned Miniature Resin Plates, product code RW24666",
+      "description": "Wholesale 45mm patterned miniature resin plates. SKU RW24666. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale 45mm patterned miniature resin plates. SKU RW24666. Confirm selected designs, packing and MOQ with your inquiry. Assorted miniature plates with gingham, bow and patterned centers. Decorative craft pieces; not tableware. Confirm selected patterns. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "45mm Patterned Miniature Resin Plates",
+        "Material: Resin",
+        "Dimensions: 45 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW24666",
+        "Material: Resin",
+        "Dimensions: 45 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Assorted miniature plates with gingham, bow and patterned centers. Decorative craft pieces; not tableware. Confirm selected patterns.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "45 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Dollhouse displays, miniature scenes and decorative craft kits.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "45mm patterned miniature resin plates, wholesale craft components",
+      "metaTitle": "RW24666 45mm Patterned Miniature Resin Plates | HAIBU",
+      "metaDescription": "Wholesale 45mm patterned miniature resin plates. SKU RW24666. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "RW24666 ",
+        "标题": "100pcs 45mm Kawaii Colorful 3D Resin Plates Statue Figurine Doll House Miniatures Diy Jewelry Phone Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "45mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 297,
+      "assetKey": "rw24666",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "rw24666-45mm-patterned-miniature-resin-plates",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 832,
+          "height": 751
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW5319/RW25945",
+      "title": "Miniature Boat Oar and Colorful Fish Accessories",
+      "originalTitle": "Custom Mini Resin Boat Oar and Colorful Fish Dollhouse Miniature Accessories for DIY Miniature House Decoration Wholesale",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Boat Oar and Colorful Fish Accessories, product code RW5319/RW25945",
+      "description": "Wholesale miniature boat oar and colorful fish accessories. SKU RW5319/RW25945. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale miniature boat oar and colorful fish accessories. SKU RW5319/RW25945. Confirm selected designs, packing and MOQ with your inquiry. RW5319 boat and oar reference; RW25945 colorful fish reference. Confirm whether the quotation covers boats, fish or a selected combination; confirm dimensions and oar material. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Miniature Boat Oar and Colorful Fish Accessories",
+        "Material: Resin; confirm oar material",
+        "Dimensions: Confirm dimensions by design",
+        "Standard packing: 100 pieces per bag; confirm contents by design; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW5319/RW25945",
+        "Material: Resin; confirm oar material",
+        "Dimensions: Confirm dimensions by design",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; confirm contents by design; custom packing by inquiry",
+        "Selection note: RW5319 boat and oar reference; RW25945 colorful fish reference. Confirm whether the quotation covers boats, fish or a selected combination; confirm dimensions and oar material.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin; confirm oar material",
+      "dimensions": "Confirm dimensions by design",
+      "sourcePacking": "100 pieces per bag; confirm contents by design; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Nautical miniature scenes, dollhouse displays and DIY craft kits.",
+      "packagingMoq": "Source packing: 100 pieces per bag; confirm contents by design; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "miniature boat oar and colorful fish accessories, wholesale craft components",
+      "metaTitle": "RW5319/RW25945 Miniature Boat Oar and Colorful Fish Accessories | HAIBU",
+      "metaDescription": "Wholesale miniature boat oar and colorful fish accessories. SKU RW5319/RW25945. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "RW5319/RW25945 ",
+        "标题": "Custom Mini Resin Boat Oar and Colorful Fish Dollhouse Miniature Accessories for DIY Miniature House Decoration Wholesale",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "咨询客服",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 298,
+      "assetKey": "rw5319-rw25945",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "rw5319-rw25945-miniature-boat-oar-and-colorful-fish-accessories",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 742,
+          "height": 561
+        },
+        {
+          "width": 630,
+          "height": 624
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied boat and oar reference",
+        "supplied fish reference",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW5272/RW5124",
+      "title": "Miniature Plastic and Wooden Ladders",
+      "originalTitle": "Miniature Handcraft Mini Wooden Step Ladder Fairy Home Decoration DIY Micro Landscape Ornament Garden Supplies",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Plastic and Wooden Ladders, product code RW5272/RW5124",
+      "description": "Wholesale miniature plastic and wooden ladders. SKU RW5272/RW5124. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale miniature plastic and wooden ladders. SKU RW5272/RW5124. Confirm selected designs, packing and MOQ with your inquiry. RW5272 is the colorful plastic ladder; RW5124 is the natural wood ladder. Materials confirmed by the owner. Select the code when ordering; pack quantities differ. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Miniature Plastic and Wooden Ladders",
+        "Material: RW5272: Plastic; RW5124: Wood",
+        "Dimensions: RW5124: 8.5 × 20 × 60 mm; RW5272: confirm",
+        "Standard packing: RW5272: 100 pieces/bag; RW5124: 10 pieces/bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW5272/RW5124",
+        "Material: RW5272: Plastic; RW5124: Wood",
+        "Dimensions: RW5124: 8.5 × 20 × 60 mm; RW5272: confirm",
+        "Hole: No hole",
+        "Standard pack: RW5272: 100 pieces/bag; RW5124: 10 pieces/bag; custom packing by inquiry",
+        "Selection note: RW5272 is the colorful plastic ladder; RW5124 is the natural wood ladder. Materials confirmed by the owner. Select the code when ordering; pack quantities differ.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": {
+        "date": "2026-10-25",
+        "materials": "RW5272: Plastic; RW5124: Wood",
+        "source": "Owner confirmed colorful ladder plastic and natural ladder wood in conversation; filename supplies RW5124 dimensions and packing."
+      },
+      "material": "RW5272: Plastic; RW5124: Wood",
+      "dimensions": "RW5124: 8.5 × 20 × 60 mm; RW5272: confirm",
+      "sourcePacking": "RW5272: 100 pieces/bag; RW5124: 10 pieces/bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Miniature gardens, dollhouse scenes and decorative craft displays.",
+      "packagingMoq": "Source packing: RW5272: 100 pieces/bag; RW5124: 10 pieces/bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "miniature plastic and wooden ladders, wholesale craft components",
+      "metaTitle": "RW5272/RW5124 Miniature Plastic and Wooden Ladders | HAIBU",
+      "metaDescription": "Wholesale miniature plastic and wooden ladders. SKU RW5272/RW5124. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "RW5272/RW5124",
+        "标题": "Miniature Handcraft Mini Wooden Step Ladder Fairy Home Decoration DIY Micro Landscape Ornament Garden Supplies",
+        "分类": "fairy  garden",
+        "状态": "库存有货",
+        "材质": "polyester",
+        "尺寸": "按图片",
+        "孔径": "无",
+        "颜色": "单款",
+        "包装规格": "按图片介绍，可以定制，咨询客服"
+      },
+      "sourceRow": 300,
+      "assetKey": "rw5272-rw5124",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "rw5272-rw5124-miniature-plastic-and-wooden-ladders",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 762,
+          "height": 752
+        },
+        {
+          "width": 577,
+          "height": 581
+        },
+        {
+          "width": 680,
+          "height": 745
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied assortment reference",
+        "design reference RW5124-8.5x20x60mm-10pcs",
+        "design reference RW5272-100pcs"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW20873",
+      "title": "Pastel Shooting Star Resin Cabochons",
+      "originalTitle": "Wholesale Custom Resin Shooting Star Cabochons Cute Mini Star Decorative Accessories for Hair Clips Bags Shoes",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Shooting Star Resin Cabochons, product code RW20873",
+      "description": "Wholesale pastel shooting star resin cabochons. SKU RW20873. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale pastel shooting star resin cabochons. SKU RW20873. Confirm selected designs, packing and MOQ with your inquiry. Shooting-star shapes with pastel rainbow trails. Confirm selected colors and assortment before ordering. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Shooting Star Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 12 × 24 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW20873",
+        "Material: Resin",
+        "Dimensions: Approx. 12 × 24 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Shooting-star shapes with pastel rainbow trails. Confirm selected colors and assortment before ordering.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "Approx. 12 × 24 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Hair clips, decoden, phone cases and DIY craft accessories.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "pastel shooting star resin cabochons, wholesale craft components",
+      "metaTitle": "RW20873 Pastel Shooting Star Resin Cabochons | HAIBU",
+      "metaDescription": "Wholesale pastel shooting star resin cabochons. SKU RW20873. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-114001).xlsx",
+      "sourceFields": {
+        "sku": "RW20873 ",
+        "标题": "Wholesale Custom Resin Shooting Star Cabochons Cute Mini Star Decorative Accessories for Hair Clips Bags Shoes",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 12*24mm",
+        "孔径": "无",
+        "颜色": "单款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 301,
+      "assetKey": "rw20873",
+      "assetDirectory": "batch-2026-10-25",
+      "imagePrefix": "rw20873-pastel-shooting-star-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 555,
+          "height": 475
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and assortment guide"
+      ],
+      "galleryNote": "Select the product code, design and assortment before ordering. Display props are not included. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

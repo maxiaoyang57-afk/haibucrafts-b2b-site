@@ -92,6 +92,13 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx3301-monkey-banana-polymer-clay-sprinkles/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3301-monkey-banana-polymer-clay-sprinkles/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3301-monkey-banana-polymer-clay-sprinkles/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx126-red-blossom-polymer-clay-slices/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx126-red-blossom-polymer-clay-slices/index.html",
       "action": "create",
@@ -894,6 +901,69 @@
       "destination": "products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/index.html",
       "action": "create",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/shk26189-fruit-turtle-shoe-charms/index.html",
+      "destination": "products/resin-charms-for-slime/shk26189-fruit-turtle-shoe-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/shk26189-fruit-turtle-shoe-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26147-spring-flower-bouquet-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26147-spring-flower-bouquet-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26147-spring-flower-bouquet-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22928-mini-dinosaur-resin-figures/index.html",
+      "destination": "products/resin-charms-for-slime/rw22928-mini-dinosaur-resin-figures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22928-mini-dinosaur-resin-figures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22934-miniature-mushroom-pumpkin-tree-houses/index.html",
+      "destination": "products/resin-charms-for-slime/rw22934-miniature-mushroom-pumpkin-tree-houses/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22934-miniature-mushroom-pumpkin-tree-houses/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24767-mini-milk-juice-carton-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw24767-mini-milk-juice-carton-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24767-mini-milk-juice-carton-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24666-45mm-patterned-miniature-resin-plates/index.html",
+      "destination": "products/resin-charms-for-slime/rw24666-45mm-patterned-miniature-resin-plates/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24666-45mm-patterned-miniature-resin-plates/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw5319-rw25945-miniature-boat-oar-colorful-fish-accessories/index.html",
+      "destination": "products/resin-charms-for-slime/rw5319-rw25945-miniature-boat-oar-colorful-fish-accessories/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5319-rw25945-miniature-boat-oar-colorful-fish-accessories/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw5272-rw5124-miniature-plastic-wooden-ladders/index.html",
+      "destination": "products/resin-charms-for-slime/rw5272-rw5124-miniature-plastic-wooden-ladders/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5272-rw5124-miniature-plastic-wooden-ladders/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw20873-pastel-shooting-star-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw20873-pastel-shooting-star-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw20873-pastel-shooting-star-resin-cabochons/",
       "generatedProduct": true
     },
     {

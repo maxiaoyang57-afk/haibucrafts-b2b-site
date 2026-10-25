@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-25",
+  "batch": "20261025-books",
+  "method": "Cloud browser checks on the exact prepared product documents rendered in srcdoc frames at 375 and 414 CSS pixels; normal desktop product-to-quote and exact-code search checks. Frames include their normal vertical scrollbars, giving 360 and 399 CSS pixel content widths.",
+  "responsive": {
+    "qula": {
+      "products": 13,
+      "cases": 26,
+      "allMainImagesLoaded": true,
+      "horizontalOverflow": 0
+    },
+    "haibu": {
+      "products": 5,
+      "cases": 10,
+      "allMainImagesLoaded": true,
+      "horizontalOverflow": 0
+    }
+  },
+  "interactions": {
+    "haibu": "RW5197 gallery image switched to the size guide; Request Quote preserved SKU, title, category and image.",
+    "qula": "Six-code book page showed six code-matched references; quote preview preserved the full code group, title and category. Searches RW5127 and SLM10072 matched their own records; RW5051 matched the six-code assortment."
+  },
+  "sourceValidation": {
+    "existingQulaRecordsPreserved": 510,
+    "existingHaibuRecordsPreserved": 325,
+    "slm10072Packing": "The source title says 500g and the packing column says 100pcs/bag. Public pages request packing confirmation and publish neither conflicting quantity.",
+    "extraBooks": "RW5127, RW5137, RW5209, RW5222, RW5234 and RW5239 use owner-supplied image filenames for their SKUs and set counts; material, size and availability are subject to inquiry."
+  },
+  "checks": {
+    "haibuRegression": {
+      "passed": 258,
+      "failed": 0
+    },
+    "haibuProductCatalogAudit": "Passed for 330 products",
+    "haibuMaterializedReleaseAudit": "Passed",
+    "qulaInquiryProtection": "Passed",
+    "qulaRequiredProducts": "Passed",
+    "qulaSEO": "Passed for 565 indexable pages",
+    "qulaIndexNowConfig": "Passed"
+  },
+  "limitations": "No inquiry was submitted and no external message was sent. Responsive checks are browser renders at narrow frame widths, not tests on physical phones. The temporary acceptance page is removed before merging."
+}

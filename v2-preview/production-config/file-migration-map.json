@@ -638,6 +638,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/slime-charms/slm10072-citrus-pineapple-slime-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10072-citrus-pineapple-slime-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10072-citrus-pineapple-slime-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/slime-charms/slm2054-penguin-winter-clay-decoration-mix/index.html",
       "destination": "products/slime-charms-wholesale/slm2054-penguin-winter-clay-decoration-mix/index.html",
       "action": "create",
@@ -964,6 +971,34 @@
       "destination": "products/resin-charms-for-slime/rw20873-pastel-shooting-star-resin-cabochons/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw20873-pastel-shooting-star-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26726-miniature-resin-paint-bucket-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26726-miniature-resin-paint-bucket-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26726-miniature-resin-paint-bucket-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24582-polka-dot-bear-bow-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw24582-polka-dot-bear-bow-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24582-polka-dot-bear-bow-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw21113-miniature-fruit-tart-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw21113-miniature-fruit-tart-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw21113-miniature-fruit-tart-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw5197-miniature-cake-plate-cutlery-sets/index.html",
+      "destination": "products/resin-charms-for-slime/rw5197-miniature-cake-plate-cutlery-sets/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5197-miniature-cake-plate-cutlery-sets/",
       "generatedProduct": true
     },
     {

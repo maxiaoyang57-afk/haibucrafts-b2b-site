@@ -1,4 +1,4 @@
-import { EXPECTED_TOTAL } from './catalog-release-contract.js';
+import { EXPECTED_TOTAL, EXPECTED_SLIME } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { access, readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -85,15 +85,15 @@ test('Issue #18 keeps its original SKUs after later catalog additions and preser
 
   assert.equal(catalog.count, EXPECTED_TOTAL);
   assert.equal(catalog.products.length, EXPECTED_TOTAL);
-  assert.equal(catalog.products.filter((product) => product.category === 'slime-charms').length, 38);
-  assert.match(category, /<strong data-product-count>38 products<\/strong>/);
-  assert.equal((category.match(/data-product-card/g) || []).length, 38);
+  assert.equal(catalog.products.filter((product) => product.category === 'slime-charms').length, EXPECTED_SLIME);
+  assert.match(category, new RegExp(`<strong data-product-count>${EXPECTED_SLIME} products<\\/strong>`));
+  assert.equal((category.match(/data-product-card/g) || []).length, EXPECTED_SLIME);
   assert.match(home, new RegExp(String.raw`<span>${EXPECTED_TOTAL} cataloged products<\/span>`));
   assert.match(home, new RegExp(String.raw`<b>${EXPECTED_TOTAL}<\/b><span>Cataloged wholesale products<\/span>`));
-  assert.match(home, /<span class="eyebrow">38 products<\/span><h3>Slime Charms<\/h3>/);
+  assert.match(home, new RegExp(`<span class="eyebrow">${EXPECTED_SLIME} products<\\/span><h3>Slime Charms<\\/h3>`));
   assert.match(directory, new RegExp(String.raw`Browse ${EXPECTED_TOTAL} published products`));
   assert.match(directory, new RegExp(String.raw`<b>${EXPECTED_TOTAL}<\/b><span>Published products<\/span>`));
-  assert.match(directory, /<span>38 Products<\/span>[\s\S]*?<h2>Slime Charms<\/h2>/);
+  assert.match(directory, new RegExp(`<span>${EXPECTED_SLIME} Products<\\/span>[\\s\\S]*?<h2>Slime Charms<\\/h2>`));
   assert.doesNotMatch(`${home}\n${directory}`, /63 cataloged products|Browse 63 published products|15 Products/);
 
   const legacy = catalog.products.find((product) => product.sku === 'SLM10012');

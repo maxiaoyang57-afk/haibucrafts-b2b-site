@@ -75,8 +75,8 @@ test('Issue #12 uses the verified nine-SKU set and six public images per product
 
 test('Issue #12 category cards preserve filters, product count and attributed quote links', async () => {
   const html = await readFile(path.join(root, 'products', 'slime-charms-wholesale', 'index.html'), 'utf8');
-  assert.match(html, /<strong data-product-count>38 products<\/strong>/);
-  assert.equal((html.match(/data-product-card/g) || []).length, 38);
+  assert.match(html, new RegExp(`<strong data-product-count>${EXPECTED_SLIME} products<\\/strong>`));
+  assert.equal((html.match(/data-product-card/g) || []).length, EXPECTED_SLIME);
 
   for (const product of batch.products) {
     const slug = productSlug(product);
@@ -123,3 +123,4 @@ test('Issue #12 production pages have galleries, sourcing copy and complete SEO 
     assert.equal(sitemap.split(`<loc>${canonical}</loc>`).length - 1, 1, `${product.sku} sitemap URL must appear once`);
   }
 });
+import { EXPECTED_SLIME } from './catalog-release-contract.js';

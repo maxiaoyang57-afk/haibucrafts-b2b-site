@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL, EXPECTED_POLYMER } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { access, readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
@@ -85,22 +86,22 @@ test('Issue #29 retirements remain intact after later polymer clay additions', a
   const home = await readFile(path.join(root, 'index.html'), 'utf8');
   const directory = await readFile(path.join(root, 'products', 'index.html'), 'utf8');
 
-  assert.equal(catalog.count, 315);
-  assert.equal(catalog.products.length, 315);
-  assert.equal(catalog.products.filter((product) => product.category === 'polymer-clay-slices').length, 77);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 315);
-  assert.match(category, /<strong data-product-count>77 products<\/strong>/);
-  assert.equal((category.match(/data-product-card/g) || []).length, 77);
-  assert.match(home, /<span>315 cataloged products<\/span>/);
-  assert.match(home, /<span class="eyebrow">77 products<\/span><h3>Polymer Clay Slices<\/h3>/);
-  assert.match(directory, /Browse 315 published products/);
-  assert.match(directory, /<span>77 Products<\/span>[\s\S]*?<h2>Polymer Clay Slices<\/h2>/);
+  assert.equal(catalog.count, EXPECTED_TOTAL);
+  assert.equal(catalog.products.length, EXPECTED_TOTAL);
+  assert.equal(catalog.products.filter((product) => product.category === 'polymer-clay-slices').length, EXPECTED_POLYMER);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, EXPECTED_TOTAL);
+  assert.match(category, new RegExp(String.raw`<strong data-product-count>${EXPECTED_POLYMER} products<\/strong>`));
+  assert.equal((category.match(/data-product-card/g) || []).length, EXPECTED_POLYMER);
+  assert.match(home, new RegExp(String.raw`<span>${EXPECTED_TOTAL} cataloged products<\/span>`));
+  assert.match(home, new RegExp(String.raw`<span class="eyebrow">${EXPECTED_POLYMER} products<\/span><h3>Polymer Clay Slices<\/h3>`));
+  assert.match(directory, new RegExp(String.raw`Browse ${EXPECTED_TOTAL} published products`));
+  assert.match(directory, new RegExp(String.raw`<span>${EXPECTED_POLYMER} Products<\/span>[\s\S]*?<h2>Polymer Clay Slices<\/h2>`));
 
   const itemList = [...category.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
     .map((match) => JSON.parse(match[1]))
     .find((item) => item['@type'] === 'ItemList');
-  assert.equal(itemList?.numberOfItems, 77);
-  assert.deepEqual(itemList?.itemListElement.map((item) => item.position), Array.from({ length: 77 }, (_, index) => index + 1));
+  assert.equal(itemList?.numberOfItems, EXPECTED_POLYMER);
+  assert.deepEqual(itemList?.itemListElement.map((item) => item.position), Array.from({ length: EXPECTED_POLYMER }, (_, index) => index + 1));
 });
 
 test('Issue #29 product pages preserve identity, RFQ attribution and SEO integrity', async () => {

@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorAfternoonMedia } from './helpers/afternoon-20261019.js';
 import assert from 'node:assert/strict';
 import test from 'node:test';
@@ -5,7 +6,7 @@ import {readFile} from 'node:fs/promises';
 const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261018-night-manifest.json','utf8'));
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
 test('six resin additions preserve previous identities and both existing product URLs',async()=>{
- assert.equal(catalog.count,315);
+ assert.equal(catalog.count,EXPECTED_TOTAL);
  assert.equal(manifest.products.filter(p=>p.operation==='new').length,6);
  assert.deepEqual(manifest.products.filter(p=>p.operation==='update').map(p=>p.sku).sort(),['RW26746','RW474']);
  const selected=new Set(manifest.products.map(p=>p.sku));

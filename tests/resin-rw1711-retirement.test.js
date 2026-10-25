@@ -1,3 +1,4 @@
+import { EXPECTED_RESIN } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -13,8 +14,8 @@ const sitemap = await readFile(path.join(root, 'v2-preview', 'production-config'
 test('RW1711 is removed from the Resin catalog and generated product routes', async () => {
   const resinProducts = catalog.products.filter((product) => product.category === config.category);
   const cards = [...category.matchAll(/<article class="product-card-v2"[\s\S]*?<\/article>/g)].map((match) => match[0]);
-  assert.equal(resinProducts.length, 172);
-  assert.equal(cards.length, 172);
+  assert.equal(resinProducts.length, EXPECTED_RESIN);
+  assert.equal(cards.length, EXPECTED_RESIN);
   assert.equal(resinProducts.some((product) => product.sku === config.sku), false);
   assert.equal(category.includes(`>RW1711</span>`), false);
   assert.equal(seoMap.routes.some((route) => route.productionPath === config.retiredPath), false);

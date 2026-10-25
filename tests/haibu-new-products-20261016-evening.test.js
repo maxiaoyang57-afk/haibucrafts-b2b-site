@@ -7,6 +7,7 @@ const batch=JSON.parse(await readFile('scripts/data/haibu-new-products-20261016-
 const manifest=JSON.parse(await readFile('docs/tasks/haibu-new-products-20261016-evening-manifest.json','utf8'));
 const newSkus = new Set((await Promise.all(['20261017','20261018','20261018-supplement','20261018-extension','20261018-final','20261018-night','20261019','20261019-supplement','20261019-final','20261019-final-mix','20261019-afternoon','20261020','20261020-colors','20261021','20261021-mix','20261022','20261022-supplement'].map(date=>readFile('scripts/data/haibu-new-products-'+date+'.json','utf8')))).flatMap(text=>JSON.parse(text).products).filter(p=>!p.preserveCatalogOrder).map(p=>p.sku));
 const catalog=JSON.parse(await readFile('assets/v2/product-catalog.json','utf8'));
+for (const sku of addedSupplementSkus) newSkus.add(sku);
 test('evening batch preserves catalog identities and separate pizza sizes and attachment facts',async()=>{
  const added=new Set(batch.products.map(p=>p.sku));
  assert.equal(added.size,11);assert.equal(catalog.count,manifest.catalogCountBefore+11+newSkus.size);

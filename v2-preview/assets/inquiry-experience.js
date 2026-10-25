@@ -21,8 +21,13 @@
   };
   const tidy = (s, n = 180) => String(s || '').replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, n);
   const params = new URLSearchParams(location.search);
-  // Only recognized homepage entries can select visible guidance. URL text is never rendered.
+  // Only recognized inquiry sources select guidance. URL text is never rendered.
   const homepageIntents = {
+    'polymer-liquid-samples': {
+      title: 'Plan samples for a liquid-filled project',
+      prompt: 'List each SKU and sample weight, the exact water-glycerin or water-glue formulation, dimensions to check, observation period, packing and destination. Liquid compatibility, sample availability, fees and shipping must be confirmed for your selected samples.',
+      placeholder: 'Product codes / sample grams per design:\nLiquid formulation and proportions:\nWidth, thickness and test conditions to check:\nRetail packing and destination:\nMy main question:'
+    },
     'homepage-samples': {
       title: 'Ask about samples',
       prompt: 'Tell us which product codes or styles you would like to try, what you want to check, and the destination country. Sample availability, fees and shipping are confirmed for your request.',

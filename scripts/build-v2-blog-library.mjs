@@ -155,8 +155,11 @@ const articles = [
     category: 'Product Guide',
     title: 'Polymer Clay Slice Buying Guide for Wholesale Buyers',
     seoTitle: 'Polymer Clay Slice Buying Guide | HAIBUCRAFT',
-    dateModified: '2026-10-02',
-    lastReviewed: 'October 2, 2026',
+    dateModified: '2026-10-25',
+    lastReviewed: 'October 25, 2026',
+    scopeReview: false,
+    inquirySource: 'polymer-liquid-samples',
+    inquiryCategory: 'polymer-clay-slices',
     description: 'Specify polymer clay slice theme, dimensions, thickness, color range, mix ratio, pack unit and intended use before requesting a quote.',
     dek: 'A useful polymer-clay-slice inquiry describes both the visual theme and the measurable pack requirements.',
     sections: [
@@ -164,11 +167,14 @@ const articles = [
       ['Confirm dimensions and thickness', 'Use an approved sample or written measurement range. Do not rely on a photograph alone to establish scale.'],
       ['Specify color and mix balance', 'For assorted designs, define required themes, excluded colors, target ratios and whether every pack needs the same composition.'],
       ['Distinguish slices from sprinkle mixes', 'For a single motif, confirm slice dimensions and thickness. For bulk polymer clay sprinkles, also define motif and color ratios, excluded designs and whether each bag must contain every component. Net weight does not guarantee a fixed piece count.'],
-      ['Choose a packing unit', 'State grams, pieces, bags, jars or sets and include label, barcode, warning and carton requirements where applicable.']
+      ['Choose a packing unit', 'State grams, pieces, bags, jars or sets and include label, barcode, warning and carton requirements where applicable.'],
+      ['Buying for a liquid-filled shaker tumbler', 'Tell us whether the pieces will sit in a dry shaker or a liquid-filled wall. For liquid use, describe the exact water-glycerin or water-glue formulation, proportions, wall gap and planned storage conditions. A general shaker-filler application does not establish long-term liquid compatibility.', { id: 'liquid-filled-tumblers', note: 'Liquid compatibility has not been established for the catalog examples below. Request any available SKU-specific evidence and approve samples in your actual formulation before a bulk order.' }],
+      ['Agree what the sample trial must check', 'Confirm the selected SKU, component material, measured width and thickness, test liquid, observation period and conditions. Record color bleeding, swelling, softening, clumping and movement in the finished vessel. Discuss any required test method with the supplier; do not infer float or sink behavior from a product photograph.'],
+      ['Prepare a separate line for each sample and retail pack', 'List each design code and requested sample weight separately, then describe the retail grams per bag or jar, labels, mix proportions and destination. Ask for sample availability, packing feasibility, charges and shipping as separate quotation items rather than treating the source bulk pack as a sample offer.']
     ],
-    checklist: ['Theme and use', 'Dimensions', 'Thickness', 'Color range', 'Mix ratio', 'Pack unit'],
+    checklist: ['Theme and use', 'Dimensions and thickness', 'Color range and mix ratio', 'Dry or liquid-filled application', 'Exact liquid formulation and sample checks', 'Sample weight per design', 'Retail pack unit and destination'],
     note: 'Exact material, dimensions, MOQ, lead time and testing scope must be confirmed against the selected product code and approved sample.',
-    links: [['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Solutions', '/v2-preview/custom-solutions/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']],
+    links: [['Candy Round Slices YX043', '/v2-preview/products/polymer-clay-slices/yx043-colorful-candy-round-slices/'], ['Rainbow Cloud Mix YX3194', '/v2-preview/products/polymer-clay-slices/yx3194-rainbow-cloud-polymer-clay-mix-for-bulk-orders/'], ['Sample Approval Checklist', '/v2-preview/blog/sample-approval-checklist/'], ['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']],
     relatedCollection: {
       heading: 'Compare polymer clay sprinkle mixes by real SKU.',
       body: 'If your brief is specifically for sprinkle-style clay mixes rather than general slices, use the focused collection to compare candy, fruit and seasonal product codes before requesting a quote.',
@@ -295,7 +301,7 @@ const renderSection = ([heading, body, detail], index) => `<section${detail ? ` 
 
 for (const article of articles) {
   const previewPath = `/v2-preview/blog/${article.slug}/`;
-  const quoteHref = `/v2-preview/quote/?source=blog&amp;article=${article.slug}&amp;landing_page=${encodeURIComponent(previewPath)}`;
+  const quoteHref = `/v2-preview/quote/?source=${encodeURIComponent(article.inquirySource || 'blog')}&amp;article=${article.slug}&amp;landing_page=${encodeURIComponent(previewPath)}${article.inquiryCategory ? '&amp;category=' + encodeURIComponent(article.inquiryCategory) : ''}`;
   const structuredData = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',

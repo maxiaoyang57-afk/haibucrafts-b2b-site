@@ -1,3 +1,4 @@
+import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { readFileSync } from 'node:fs';
 const nightManifest=JSON.parse(readFileSync('docs/tasks/haibu-new-products-20261018-night-manifest.json','utf8'));
 import assert from 'node:assert/strict';
@@ -19,9 +20,9 @@ test('adds only the two new 2026-09-11 HAIBU SKUs', () => {
   assert.equal(batch.expectedSkuCount, 2);
   assert.deepEqual(batch.products.map((product) => product.sku), ['RW26746', 'RW26768']);
   assert.equal(new Set(batch.products.map((product) => product.sku)).size, 2);
-  assert.equal(catalog.count, 315);
-  assert.equal(catalog.products.length, 315);
-  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, 315);
+  assert.equal(catalog.count, EXPECTED_TOTAL);
+  assert.equal(catalog.products.length, EXPECTED_TOTAL);
+  assert.equal(new Set(catalog.products.map((product) => product.sku)).size, EXPECTED_TOTAL);
   assert.deepEqual(catalog, previewCatalog);
   for (const product of batch.products) {
     assert.equal(bySku.get(product.sku)?.category, 'resin-charms');

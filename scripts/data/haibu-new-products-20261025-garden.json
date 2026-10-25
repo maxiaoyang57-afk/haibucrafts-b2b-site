@@ -1,0 +1,192 @@
+{
+  "batch": "haibu-new-products-20261025-garden",
+  "expectedSkuCount": 2,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-25-garden",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-25",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW003084",
+      "title": "Miniature Fruit Cake and Dessert Resin Cabochons",
+      "originalTitle": "Resin Mini Cartoon 3D Fruit Cake Flat Back Cabochon DIY Jewelry Crafts Decoration Doll House Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Fruit Cake and Dessert Resin Cabochons, product code RW003084",
+      "description": "Wholesale miniature fruit cake and dessert resin cabochons. SKU RW003084. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale miniature fruit cake and dessert resin cabochons. SKU RW003084. Confirm selected designs, packing and MOQ with your inquiry. Assorted miniature cakes, fruit tarts and toast-style resin decorations with cream and fruit-style toppings. Decorative craft components only; not food. Confirm selected styles. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Miniature Fruit Cake and Dessert Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 18 × 20 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW003084",
+        "Material: Resin",
+        "Dimensions: Approx. 18 × 20 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Assorted miniature cakes, fruit tarts and toast-style resin decorations with cream and fruit-style toppings. Decorative craft components only; not food. Confirm selected styles.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "Approx. 18 × 20 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Decoden, hair accessories, dollhouse food scenes and DIY craft kits.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "miniature fruit cake and dessert resin cabochons, wholesale craft components",
+      "metaTitle": "RW003084 Miniature Fruit Cake and Dessert Resin Cabochons | HAIBU",
+      "metaDescription": "Wholesale miniature fruit cake and dessert resin cabochons. SKU RW003084. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-142816).xlsx",
+      "sourceFields": {
+        "sku": "RW003084 ",
+        "标题": "Resin Mini Cartoon 3D Fruit Cake Flat Back Cabochon DIY Jewelry Crafts Decoration Doll House Accessories",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "about 18*20mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 321,
+      "assetKey": "rw003084",
+      "assetDirectory": "batch-2026-10-25-garden",
+      "imagePrefix": "rw003084-miniature-fruit-cake-and-dessert-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 749,
+          "height": 744
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and selection guide"
+      ],
+      "galleryNote": "Design references are shown. Confirm the selected product code and contents before ordering. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26725",
+      "title": "Blue Snowy Igloo Resin Cabochons",
+      "originalTitle": "Custom Resin Ice House Cabochons Winter Theme Flat Back Charms for Handmade Jewelry Phone Case Craft Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Blue Snowy Igloo Resin Cabochons, product code RW26725",
+      "description": "Wholesale blue snowy igloo resin cabochons. SKU RW26725. Confirm selected designs, packing and MOQ with your inquiry.",
+      "detailedDescription": "Wholesale blue snowy igloo resin cabochons. SKU RW26725. Confirm selected designs, packing and MOQ with your inquiry. Blue igloo-shaped decorations with white snow-style tops and entrances. Confirm the reverse side, selected finish and dimensions using a sample. Send the full product code, selected designs, quantity, packing requirements and destination for quotation.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Blue Snowy Igloo Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 24 × 35 mm",
+        "Standard packing: 100 pieces per bag; custom packing by inquiry",
+        "Attachment: No hole"
+      ],
+      "specificationLines": [
+        "Product code: RW26725",
+        "Material: Resin",
+        "Dimensions: 24 × 35 mm",
+        "Hole: No hole",
+        "Standard pack: 100 pieces per bag; custom packing by inquiry",
+        "Selection note: Blue igloo-shaped decorations with white snow-style tops and entrances. Confirm the reverse side, selected finish and dimensions using a sample.",
+        "MOQ and dispatch date: Confirm by quotation"
+      ],
+      "ownerMaterialConfirmation": null,
+      "material": "Resin",
+      "dimensions": "24 × 35 mm",
+      "sourcePacking": "100 pieces per bag; custom packing by inquiry",
+      "customizationOptions": "Discuss selected designs, assortment and packaging with HAIBU. Confirm custom development requirements against your brief and quotation.",
+      "recommendedApplications": "Winter miniature scenes, phone-case decoration, hair accessories and DIY craft kits.",
+      "packagingMoq": "Source packing: 100 pieces per bag; custom packing by inquiry. This pack quantity is not the MOQ. Confirm minimum order quantity, current availability and lead time by quotation.",
+      "seoKeywords": "blue snowy igloo resin cabochons, wholesale craft components",
+      "metaTitle": "RW26725 Blue Snowy Igloo Resin Cabochons | HAIBU",
+      "metaDescription": "Wholesale blue snowy igloo resin cabochons. SKU RW26725. Confirm selected designs, packing and MOQ with your inquiry.",
+      "structuredSpecifications": true,
+      "sourceWorkbook": "10.11(20261025-142816).xlsx",
+      "sourceFields": {
+        "sku": "RW26725 ",
+        "标题": "Custom Resin Ice House Cabochons Winter Theme Flat Back Charms for Handmade Jewelry Phone Case Craft Decoration",
+        "分类": "resin  charms",
+        "状态": "库存有货",
+        "材质": "resin",
+        "尺寸": "24*35mm",
+        "孔径": "无",
+        "颜色": "混款",
+        "包装规格": "主要规格100pcs/bag，可以定制，咨询客服"
+      },
+      "sourceRow": 322,
+      "assetKey": "rw26725",
+      "assetDirectory": "batch-2026-10-25-garden",
+      "imagePrefix": "rw26725-blue-snowy-igloo-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 974,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "supplied product reference",
+        "size and material guide",
+        "packing and selection guide"
+      ],
+      "galleryNote": "Design references are shown. Confirm the selected product code and contents before ordering. Props are not included. Packing quantity is not the MOQ.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-25",
+      "holeDescription": "No hole",
+      "preserveApprovedContent": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 330,
+  "count": 332,
   "products": [
     {
       "sku": "YX3301",
@@ -1927,6 +1927,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw5197-miniature-cake-plate-cutlery-sets/",
       "productionPath": "/products/resin-charms-for-slime/rw5197-miniature-cake-plate-cutlery-sets/"
+    },
+    {
+      "sku": "RW003084",
+      "title": "Miniature Fruit Cake and Dessert Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25-garden/rw003084/rw003084-miniature-fruit-cake-and-dessert-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25-garden/rw003084/rw003084-miniature-fruit-cake-and-dessert-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-25-garden/rw003084/rw003084-miniature-fruit-cake-and-dessert-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-25-garden/rw003084/rw003084-miniature-fruit-cake-and-dessert-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw003084-miniature-fruit-cake-dessert-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw003084-miniature-fruit-cake-dessert-resin-cabochons/"
+    },
+    {
+      "sku": "RW26725",
+      "title": "Blue Snowy Igloo Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-2026-10-25-garden/rw26725/rw26725-blue-snowy-igloo-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-2026-10-25-garden/rw26725/rw26725-blue-snowy-igloo-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-2026-10-25-garden/rw26725/rw26725-blue-snowy-igloo-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-2026-10-25-garden/rw26725/rw26725-blue-snowy-igloo-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26725-blue-snowy-igloo-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26725-blue-snowy-igloo-resin-cabochons/"
     },
     {
       "sku": "RW26903",

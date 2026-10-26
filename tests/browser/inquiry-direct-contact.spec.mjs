@@ -22,9 +22,11 @@ test('direct WhatsApp and email drafts preserve current requirements and quote q
       if (event.target.closest?.('[data-inquiry-direct]')) event.preventDefault();
     });
   });
-  const drafts = async form => Promise.all(['whatsapp', 'email'].map(async kind => {
-    const href = await form.locator(`[data-inquiry-${kind}]`).getAttribute('href');
-    return new URL(href).searchParams.get(kind === 'email' ? 'body' : 'text');
+  const drafts = async () => page.locator('a[href]').evaluateAll(links => links.flatMap(link => {
+    const url = new URL(link.href);
+    if (url.protocol === 'mailto:' && url.pathname === 'sales@haibucrafts.com') return [url.searchParams.get('body') || ''];
+    if (url.hostname === 'wa.me' && url.pathname === '/8618632026595') return [url.searchParams.get('text') || ''];
+    return [];
   }));
   for (const width of [360, 1180]) {
     await page.setViewportSize({ width, height: 844 });
@@ -32,6 +34,7 @@ test('direct WhatsApp and email drafts preserve current requirements and quote q
     const decline = page.locator('[data-analytics-decline]');
     if (await decline.isVisible()) await decline.click();
     const form = page.locator('[data-quote-form]');
+    expect((await drafts()).length).toBeGreaterThanOrEqual(7);
     await form.locator('details').evaluateAll(nodes => nodes.forEach(node => { node.open = true; }));
     await form.locator('[name="product"]').fill('QA only: chosen resin assortment');
     await form.locator('[name="sku"]').fill('RW26051');
@@ -43,21 +46,25 @@ test('direct WhatsApp and email drafts preserve current requirements and quote q
     await form.locator('[name="message"]').fill(message);
     for (const value of ['QA only: chosen resin assortment', 'RW26051', '500 pieces', 'Separate bags',
       'United States', '2026-12-01', message]) {
-      await expect.poll(async () => (await drafts(form)).every(text => text.includes(value))).toBe(true);
+      await expect.poll(async () => (await drafts()).every(text => text.includes(value))).toBe(true);
     }
     await form.locator('[name="quantity"]').fill('750 pieces');
     await form.locator('[name="message"]').fill('My updated question');
-    await expect.poll(async () => (await drafts(form)).every(text => text.includes('750 pieces')
+    await expect.poll(async () => (await drafts()).every(text => text.includes('750 pieces')
       && text.includes('My updated question') && !text.includes(message))).toBe(true);
     await form.locator('[name="quantity"]').fill('');
     await form.locator('[name="message"]').fill('');
-    await expect.poll(async () => (await drafts(form)).every(text => !text.includes('750 pieces')
+    await expect.poll(async () => (await drafts()).every(text => !text.includes('750 pieces')
       && !text.includes('My updated question'))).toBe(true);
     // Programmatic/history restoration does not necessarily dispatch input/change.
     await form.locator('[name="message"]').evaluate(input => { input.value = 'Restored after Back'; });
     await form.locator('[data-inquiry-whatsapp]').click();
     await form.locator('[data-inquiry-email]').click();
-    expect((await drafts(form)).every(text => text.includes('Restored after Back'))).toBe(true);
+    expect((await drafts()).every(text => text.includes('Restored after Back'))).toBe(true);
+    await form.locator('[name="message"]').evaluate(input => { input.value = 'Restored for page-wide contact'; });
+    await page.locator('.footer-whatsapp').click();
+    await page.locator('.footer-email').click();
+    expect((await drafts()).every(text => text.includes('Restored for page-wide contact'))).toBe(true);
 
     await page.goto('/request-quote/?quote_list=1&source=quote-list');
     if (await decline.isVisible()) await decline.click();
@@ -65,7 +72,7 @@ test('direct WhatsApp and email drafts preserve current requirements and quote q
     await expect(rows).toHaveCount(2);
     await form.locator('[data-quote-quantity="RW26858"]').fill('750 pieces');
     await form.locator('[name="message"]').fill('QA only: please review both selected products');
-    for (const text of await drafts(form)) {
+    for (const text of await drafts()) {
       expect(text).toMatch(/RW26051[^\n]*500 pieces/);
       expect(text).toMatch(/RW26858[^\n]*750 pieces/);
     }
@@ -73,7 +80,7 @@ test('direct WhatsApp and email drafts preserve current requirements and quote q
     await expect(rows).toHaveCount(1);
     await form.locator('[data-inquiry-whatsapp]').click();
     await form.locator('[data-inquiry-email]').click();
-    for (const text of await drafts(form)) {
+    for (const text of await drafts()) {
       expect(text).toMatch(/RW26051[^\n]*500 pieces/);
       expect(text).not.toContain('RW26858');
     }

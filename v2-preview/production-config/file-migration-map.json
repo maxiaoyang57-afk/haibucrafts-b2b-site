@@ -638,6 +638,62 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/slime-charms/slm613-butterfly-lollipop-slime-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm613-butterfly-lollipop-slime-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm613-butterfly-lollipop-slime-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm615-bear-heart-slime-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm615-bear-heart-slime-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm615-bear-heart-slime-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm603-rose-flower-resin-clay-slime-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm603-rose-flower-resin-clay-slime-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm603-rose-flower-resin-clay-slime-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10009-1-christmas-slime-decoration-sprinkles-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10009-1-christmas-slime-decoration-sprinkles-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10009-1-christmas-slime-decoration-sprinkles-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10060-valentine-rose-heart-lip-slime-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10060-valentine-rose-heart-lip-slime-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10060-valentine-rose-heart-lip-slime-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm10058-sea-theme-slime-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm10058-sea-theme-slime-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm10058-sea-theme-slime-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm600-slime-decoration-kit-with-tools-containers/index.html",
+      "destination": "products/slime-charms-wholesale/slm600-slime-decoration-kit-with-tools-containers/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm600-slime-decoration-kit-with-tools-containers/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/slime-charms/slm612-mermaid-tail-pearl-slime-decoration-mix/index.html",
+      "destination": "products/slime-charms-wholesale/slm612-mermaid-tail-pearl-slime-decoration-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/slm612-mermaid-tail-pearl-slime-decoration-mix/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/slime-charms/slm10072-citrus-pineapple-slime-decoration-mix/index.html",
       "destination": "products/slime-charms-wholesale/slm10072-citrus-pineapple-slime-decoration-mix/index.html",
       "action": "create",
@@ -908,6 +964,118 @@
       "destination": "products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/index.html",
       "action": "create",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26724-red-white-mushroom-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26724-red-white-mushroom-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26724-red-white-mushroom-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26723-artist-palette-paint-brush-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26723-artist-palette-paint-brush-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26723-artist-palette-paint-brush-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26722-ladybug-on-leaf-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw26722-ladybug-on-leaf-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26722-ladybug-on-leaf-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26719-colorful-candy-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26719-colorful-candy-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26719-colorful-candy-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26718-chocolate-bowl-dessert-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26718-chocolate-bowl-dessert-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26718-chocolate-bowl-dessert-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26717-sleeping-cat-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26717-sleeping-cat-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26717-sleeping-cat-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26716-lemon-fruit-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26716-lemon-fruit-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26716-lemon-fruit-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1959-miniature-fruit-trees-lotus-pond-ornaments/index.html",
+      "destination": "products/resin-charms-for-slime/rw1959-miniature-fruit-trees-lotus-pond-ornaments/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1959-miniature-fruit-trees-lotus-pond-ornaments/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24466-miniature-tree-resin-flatback-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw24466-miniature-tree-resin-flatback-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24466-miniature-tree-resin-flatback-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw4549-miniature-resin-coffee-cup-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw4549-miniature-resin-coffee-cup-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw4549-miniature-resin-coffee-cup-models/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24634-miniature-bread-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw24634-miniature-bread-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24634-miniature-bread-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3092-miniature-resin-takeaway-cup-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw3092-miniature-resin-takeaway-cup-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3092-miniature-resin-takeaway-cup-models/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26099-bear-star-dog-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26099-bear-star-dog-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26099-bear-star-dog-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw5354-miniature-tree-stump-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw5354-miniature-tree-stump-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5354-miniature-tree-stump-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1514-mushroom-fairy-garden-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw1514-mushroom-fairy-garden-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1514-mushroom-fairy-garden-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw003022-macaron-resin-pendant-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw003022-macaron-resin-pendant-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003022-macaron-resin-pendant-charms/",
       "generatedProduct": true
     },
     {

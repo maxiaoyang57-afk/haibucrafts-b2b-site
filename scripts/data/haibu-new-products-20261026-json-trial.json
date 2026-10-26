@@ -1,0 +1,109 @@
+{
+  "batch": "haibu-new-products-20261026-json-trial",
+  "expectedSkuCount": 1,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-2026-10-26-json-trial",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-26",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW26724",
+      "title": "Red and White Mushroom Resin Charms",
+      "originalTitle": "Custom Mushroom Resin Charms Red White Nature Theme Embellishments for Handmade Crafts Jewelry Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Red and White Mushroom Resin Charms, product code RW26724",
+      "description": "Specify the required piece count and the reference mushroom design when requesting a woodland assortment. Keep attachment and packaging requirements separate from the visual theme.",
+      "detailedDescription": "Specify the required piece count and the reference mushroom design when requesting a woodland assortment. Keep attachment and packaging requirements separate from the visual theme. Reference dimensions: 16 × 17 mm. Reference packing: 100 pieces per bag. Include the selected design reference and the intended use when requesting a quotation, so the dimensions, assortment and packing can be reviewed together.",
+      "seasonalTheme": "Nature themed craft embellishments",
+      "keySellingPoints": [
+        "Red mushroom caps with white dots and pale stems give these resin miniatures a woodland look.",
+        "Specify the required piece count and the reference mushroom design when requesting a woodland assortment. Keep attachment and packaging requirements separate from the visual theme.",
+        "Size: 16 × 17 mm.",
+        "Pack: 100 pieces per bag."
+      ],
+      "specificationLines": [
+        "Product code: RW26724",
+        "Material: Resin",
+        "Dimensions: 16 × 17 mm",
+        "Reference pack: 100 pieces per bag",
+        "Selection: Compare the mushroom proportions with the space on your project. Ask about the mounting surface before choosing an adhesive or adding hardware.",
+        "MOQ and dispatch timing: Request confirmation with your quotation."
+      ],
+      "material": "Resin",
+      "dimensions": "16 × 17 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "Describe requested motif, color-assortment or packing changes for RW26724. Feasibility, sample approval, minimum quantity and lead time must be confirmed for the specific request.",
+      "recommendedApplications": "Try a woodland miniature scene or an accent on a decorated craft surface; test the attachment on your chosen base.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. Specify the selected configuration and handling requirements. The reference pack count does not establish the MOQ; agree packing and minimum quantities in the quotation.",
+      "seoKeywords": "red white mushroom resin charms, mushroom miniatures wholesale, resin craft embellishments",
+      "metaTitle": "RW26724 Mushroom Resin Charms Wholesale | HAIBU",
+      "metaDescription": "Source mushroom resin pieces by bag quantity, attachment requirements and destination. SKU RW26724. Size: 16 × 17 mm. Pack: 100 pieces per bag.",
+      "structuredSpecifications": true,
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc.json",
+      "sourceFields": {
+        "color": "Red and white",
+        "material": "Resin",
+        "dimensions": "16 × 17 mm",
+        "packing": "100 pieces per bag",
+        "moq": "Confirm by inquiry",
+        "attachment": "Confirm attachment method by inquiry"
+      },
+      "sourceProductId": "1601933410277",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Custom-Mushroom-Resin-Charms-Red-White_1601933410277.html",
+      "assetKey": "rw26724",
+      "assetDirectory": "batch-2026-10-26-json-trial",
+      "imagePrefix": "rw26724-red-white-mushroom-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Styled product reference",
+        "Hand-held product reference",
+        "Detail crop of hand-held reference"
+      ],
+      "galleryNote": "Styled product and hand-held references are shown. The third image is a cropped detail of the hand-held reference, not an additional product angle. Props are not included.",
+      "mediaLabel": "Product references and detail",
+      "factsUpdatedAt": "2026-10-26",
+      "holeDescription": "Confirm attachment method by inquiry",
+      "preserveApprovedContent": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "16 × 17 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      }
+    }
+  ]
+}

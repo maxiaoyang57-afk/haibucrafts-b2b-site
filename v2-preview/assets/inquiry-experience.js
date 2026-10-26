@@ -222,6 +222,21 @@
       if (params.get('application') && !field('application')) addHidden('application', tidy(params.get('application')));
       const wa = form.querySelector('[data-inquiry-whatsapp]');
       const email = form.querySelector('[data-inquiry-email]');
+      // Every contact action on the inquiry page uses the same current draft.
+      // Keep other pages' product and guide contact context unchanged.
+      const directLinks = new Set([wa, email].filter(Boolean));
+      if (isContactPage) {
+        document.querySelectorAll('a[href]').forEach(link => {
+          try {
+            const url = new URL(link.href, location.href);
+            if ((url.protocol === 'mailto:' && url.pathname.toLowerCase() === config.email) ||
+                (url.hostname === 'wa.me' && url.pathname === '/' + config.whatsapp)) directLinks.add(link);
+          } catch { /* Leave unrelated or malformed links unchanged. */ }
+        });
+      }
+      directLinks.forEach(link => {
+        link.dataset.inquiryDirect = link === email || link.protocol === 'mailto:' ? 'email' : 'whatsapp';
+      });
       function update() {
         const selected = goals[goal.value];
         const help = panel.querySelector('[data-inquiry-help]');
@@ -280,14 +295,16 @@
           ...details, `Page: ${field('entry_page').value}`,
           question ? `My main question is:\n${question}` : 'My main question is: '
         ].join('\n');
-        if (wa) wa.href = `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(text)}`;
-        if (email) email.href = `mailto:${config.email}?subject=${encodeURIComponent(config.brand + ' — ' + (goal.value || 'Product inquiry'))}&body=${encodeURIComponent(text)}`;
+        directLinks.forEach(link => {
+          link.href = link.dataset.inquiryDirect === 'email'
+            ? `mailto:${config.email}?subject=${encodeURIComponent(config.brand + ' — ' + (goal.value || 'Product inquiry'))}&body=${encodeURIComponent(text)}`
+            : `https://wa.me/${config.whatsapp}?text=${encodeURIComponent(text)}`;
+        });
       }
       form.addEventListener('change', update);
       form.addEventListener('input', update);
       // Also read delayed catalog prefills and values restored by browser Back.
-      wa?.addEventListener('click', update);
-      email?.addEventListener('click', update);
+      directLinks.forEach(link => link.addEventListener('click', update));
       form.addEventListener('reset', () => setTimeout(update, 0));
       form.addEventListener('submit', update, true);
       update();

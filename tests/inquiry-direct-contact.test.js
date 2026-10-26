@@ -32,6 +32,8 @@ function contactForm(source, { values = {}, items = [] } = {}) {
   fields.get('preferred_contact').closest = () => channelLabel;
   const panel = node();
   const wa = node(), email = node();
+  const pageContacts = ['mailto:sales@haibucrafts.com', 'https://wa.me/8618632026595',
+    'https://wa.me/8618632026595'].map(href => Object.assign(node(), { href, protocol: new URL(href).protocol }));
   const rows = items.map(({ sku, quantity }) => ({ dataset: { quoteQuantity: sku }, value: quantity }));
   const form = {
     elements: { namedItem: name => fields.get(name) || null },
@@ -49,7 +51,7 @@ function contactForm(source, { values = {}, items = [] } = {}) {
     document: {
       currentScript: null, readyState: 'complete', body: { dataset: {} },
       querySelector: () => null,
-      querySelectorAll: selector => selector === '[data-quote-form]' ? [form] : [],
+      querySelectorAll: selector => selector === '[data-quote-form]' ? [form] : selector === 'a[href]' ? pageContacts : [],
       createElement: node, addEventListener() {}
     },
     MutationObserver: class { observe() {} },
@@ -57,7 +59,7 @@ function contactForm(source, { values = {}, items = [] } = {}) {
   };
   vm.runInNewContext(source, context, { timeout: 500 });
   return {
-    fields, rows, wa, email,
+    fields, rows, wa, email, pageContacts,
     change(name, value, event = 'input') { fields.get(name).value = value; listeners.get(event)?.(); },
     message(kind = 'whatsapp') {
       const link = kind === 'email' ? email : wa;
@@ -106,6 +108,21 @@ for (const root of ['assets/v2', 'v2-preview/assets']) {
       assert.match(form.message(kind), /YX043/);
       assert.match(form.message(kind), /Restored question after Back/);
     }
+  });
+
+  test(`${root} page-wide contact links preserve edits, cleared fields and restored drafts`, () => {
+    const form = contactForm(source, { values: { sku: 'YX3301', quantity: '100 grams', message: 'Shipping quote?' } });
+    const bodies = () => form.pageContacts.map(link => {
+      const url = new URL(link.href);
+      return url.searchParams.get(url.protocol === 'mailto:' ? 'body' : 'text');
+    });
+    assert.ok(bodies().every(text => text.includes('YX3301') && text.includes('100 grams') && text.includes('Shipping quote?')));
+    form.change('quantity', '');
+    form.change('message', 'Latest question');
+    assert.ok(bodies().every(text => !text.includes('100 grams') && !text.includes('Shipping quote?') && text.includes('Latest question')));
+    form.fields.get('message').value = 'Restored draft';
+    for (const link of form.pageContacts) link.listeners.click();
+    assert.ok(bodies().every(text => text.includes('Restored draft')));
   });
 
   test(`${root} each selected SKU retains its own latest target quantity`, () => {

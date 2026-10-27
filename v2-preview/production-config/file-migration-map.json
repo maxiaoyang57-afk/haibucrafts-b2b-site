@@ -1107,6 +1107,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26639-pastel-transport-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26639-pastel-transport-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26639-pastel-transport-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26638-glitter-cherry-bow-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26638-glitter-cherry-bow-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26638-glitter-cherry-bow-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26660-mini-christmas-gift-box-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26660-mini-christmas-gift-box-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26660-mini-christmas-gift-box-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26659-ocean-animal-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26659-ocean-animal-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26659-ocean-animal-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26657-mixed-flower-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26657-mixed-flower-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26657-mixed-flower-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26656-mini-closed-umbrella-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26656-mini-closed-umbrella-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26656-mini-closed-umbrella-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26648-colorful-fish-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26648-colorful-fish-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26648-colorful-fish-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26619-gradient-butterfly-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26619-gradient-butterfly-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26619-gradient-butterfly-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26670-pastel-bear-lollipop-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26670-pastel-bear-lollipop-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26670-pastel-bear-lollipop-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26669-mini-grape-cluster-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26669-mini-grape-cluster-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26669-mini-grape-cluster-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26667-mini-cake-server-resin-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw26667-mini-cake-server-resin-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26667-mini-cake-server-resin-models/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26666-mini-rolled-newspaper-resin-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw26666-mini-rolled-newspaper-resin-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26666-mini-rolled-newspaper-resin-models/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26665-mini-bayberry-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26665-mini-bayberry-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26665-mini-bayberry-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26662-mini-fruit-cupcake-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26662-mini-fruit-cupcake-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26662-mini-fruit-cupcake-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25551-pink-glitter-paw-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25551-pink-glitter-paw-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25551-pink-glitter-paw-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26089-mini-hedgehog-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26089-mini-hedgehog-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26089-mini-hedgehog-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25308-mini-gumball-machine-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw25308-mini-gumball-machine-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25308-mini-gumball-machine-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26590-halloween-mini-room-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26590-halloween-mini-room-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26590-halloween-mini-room-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26588-mini-haunted-house-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26588-mini-haunted-house-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26588-mini-haunted-house-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26512-mini-christmas-reindeer-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26512-mini-christmas-reindeer-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26512-mini-christmas-reindeer-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26724-red-white-mushroom-resin-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw26724-red-white-mushroom-resin-charms/index.html",
       "action": "create",

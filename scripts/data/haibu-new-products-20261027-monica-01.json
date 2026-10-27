@@ -1,0 +1,2034 @@
+{
+  "batch": "haibu-new-products-20261027-monica-01",
+  "expectedSkuCount": 20,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261027-monica-01",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-27",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW0020648",
+      "title": "Mini Toast Slice Resin Cabochons",
+      "originalTitle": "100Pcs Simulation Toast Slice Realistic Bread Resin Cabochon Miniature Food Display Prop Craft Resin Model Ornament Play",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Toast Slice Resin Cabochons, product code RW0020648",
+      "description": "Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements.",
+      "detailedDescription": "Mini Toast Slice Resin Cabochons. Size reference: 50 mm. Reference packing: 100 pieces per bag. Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Toast Slice Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 50 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW0020648",
+        "Material: Resin",
+        "Dimensions: 50 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "50 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW0020648, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use mini Toast Slice Resin Cabochons in dessert-themed frames, decoden decorations and miniature café displays.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini toast slice resin cabochons, wholesale craft components",
+      "metaTitle": "RW0020648 Mini Toast Slice Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale mini Toast Slice Resin Cabochons. RW0020648: 50 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "50 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW0020648",
+        "sku_raw": "MO-RW0020648",
+        "title": "100Pcs Simulation Toast Slice Realistic Bread Resin Cabochon Miniature Food Display Prop Craft Resin Model Ornament Play",
+        "material": "Resin",
+        "size": "50mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601455264474",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Simulation-Toast-Slice-Realistic-Bread_1601455264474.html"
+      },
+      "sourceProductId": "1601455264474",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Simulation-Toast-Slice-Realistic-Bread_1601455264474.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw0020648",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw0020648-mini-toast-slice-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25939",
+      "title": "Scalloped Flower Resin Cabochons",
+      "originalTitle": "Mini Kawaii Cute Flower Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Scalloped Flower Resin Cabochons, product code RW25939",
+      "description": "Identify the floral design and finish in your RFQ. Confirm dimensions, color assortment and the reverse profile against the sample.",
+      "detailedDescription": "Scalloped Flower Resin Cabochons. Size reference: 19 × 19 mm. Reference packing: 100 pieces per bag. Identify the floral design and finish in your RFQ. Confirm dimensions, color assortment and the reverse profile against the sample. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Scalloped Flower Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 19 × 19 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25939",
+        "Material: Resin",
+        "Dimensions: 19 × 19 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "19 × 19 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW25939, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use scalloped Flower Resin Cabochons in floral scrapbook covers, decorated frames and handmade accessories.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "scalloped flower resin cabochons, wholesale craft components",
+      "metaTitle": "RW25939 Scalloped Flower Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale scalloped Flower Resin Cabochons. RW25939: 19 × 19 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "19 × 19 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW25939",
+        "sku_raw": "MO-RW25939",
+        "title": "Mini Kawaii Cute Flower Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+        "material": "Resin",
+        "size": "19*19mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601601362832",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cute-Flower-Flat-Back_1601601362832.html"
+      },
+      "sourceProductId": "1601601362832",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cute-Flower-Flat-Back_1601601362832.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw25939",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw25939-scalloped-flower-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25901",
+      "title": "Stitched Edge Heart Resin Cabochons",
+      "originalTitle": "100pcs Mini Kawaii Cute Heart Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Stitched Edge Heart Resin Cabochons, product code RW25901",
+      "description": "Specify the heart design, finish and quantities. Confirm selected colors, reverse profile and packing before sample approval.",
+      "detailedDescription": "Stitched Edge Heart Resin Cabochons. Size reference: 20 × 17 mm. Reference packing: 100 pieces per bag. Specify the heart design, finish and quantities. Confirm selected colors, reverse profile and packing before sample approval. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Stitched Edge Heart Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 20 × 17 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25901",
+        "Material: Resin",
+        "Dimensions: 20 × 17 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "20 × 17 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW25901, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use stitched Edge Heart Resin Cabochons in gift-themed craft decorations, scrapbook covers and decorated accessories.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "stitched edge heart resin cabochons, wholesale craft components",
+      "metaTitle": "RW25901 Stitched Edge Heart Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale stitched Edge Heart Resin Cabochons. RW25901: 20 × 17 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "20 × 17 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW25901",
+        "sku_raw": "MO-RW25901",
+        "title": "100pcs Mini Kawaii Cute Heart Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+        "material": "Resin",
+        "size": "20*17mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601601500147",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cute-Heart-Flat_1601601500147.html"
+      },
+      "sourceProductId": "1601601500147",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cute-Heart-Flat_1601601500147.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw25901",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw25901-stitched-edge-heart-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW00524",
+      "title": "Mini Strawberry Resin Decorations",
+      "originalTitle": "100pcs Simulation Miniature Strawberry Resin Craft Accessories Handmade 3D Strawberry Decorative Figurine",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Strawberry Resin Decorations, product code RW00524",
+      "description": "List the fruit references separately if you need selected designs. Confirm assortment, finish and bag quantities before sampling.",
+      "detailedDescription": "Mini Strawberry Resin Decorations. Size reference: Approx. 15 × 17 mm. Reference packing: 100 pieces per bag. List the fruit references separately if you need selected designs. Confirm assortment, finish and bag quantities before sampling. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Strawberry Resin Decorations",
+        "Material: Resin",
+        "Dimensions: Approx. 15 × 17 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW00524",
+        "Material: Resin",
+        "Dimensions: Approx. 15 × 17 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 15 × 17 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW00524, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use mini Strawberry Resin Decorations in fruit-themed craft decorations, miniature market scenes and decorated accessories.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini strawberry resin decorations, wholesale craft components",
+      "metaTitle": "RW00524 Mini Strawberry Resin Decorations Wholesale | HAIBU",
+      "metaDescription": "Wholesale mini Strawberry Resin Decorations. RW00524: Approx. 15 × 17 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 15 × 17 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW00524",
+        "sku_raw": "MO-RW00524",
+        "title": "100pcs Simulation Miniature Strawberry Resin Craft Accessories Handmade 3D Strawberry Decorative Figurine",
+        "material": "Resin",
+        "size": "about15*17mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601821726729",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Simulation-Miniature-Strawberry-Resin-Craft_1601821726729.html"
+      },
+      "sourceProductId": "1601821726729",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Simulation-Miniature-Strawberry-Resin-Craft_1601821726729.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw00524",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw00524-mini-strawberry-resin-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW940",
+      "title": "White Reindeer Resin Cabochons",
+      "originalTitle": "Christmas White Reindeer Resin Flatback Cabochon for Art Supply Decoration Charm Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "White Reindeer Resin Cabochons, product code RW940",
+      "description": "Include the selected seasonal motifs, required quantities and delivery destination. Confirm sample approval and dispatch timing in the quotation.",
+      "detailedDescription": "White Reindeer Resin Cabochons. Size reference: 18 × 30 × 10 mm. Reference packing: 100 pieces per bag. Include the selected seasonal motifs, required quantities and delivery destination. Confirm sample approval and dispatch timing in the quotation. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "White Reindeer Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 18 × 30 × 10 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW940",
+        "Material: Resin",
+        "Dimensions: 18 × 30 × 10 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "18 × 30 × 10 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW940, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use white Reindeer Resin Cabochons in seasonal craft decorations, themed displays and handmade gift projects.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "white reindeer resin cabochons, wholesale craft components",
+      "metaTitle": "RW940 White Reindeer Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale white Reindeer Resin Cabochons. RW940: 18 × 30 × 10 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "18 × 30 × 10 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW940",
+        "sku_raw": "MO-RW940",
+        "title": "Christmas White Reindeer Resin Flatback Cabochon for Art Supply Decoration Charm Craft",
+        "material": "Resin",
+        "size": "18*30*10mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600136826814",
+        "product_url": "https://www.alibaba.com/product-detail/Christmas-White-Reindeer-Resin-Flatback-Cabochon_1600136826814.html"
+      },
+      "sourceProductId": "1600136826814",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Christmas-White-Reindeer-Resin-Flatback-Cabochon_1600136826814.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw940",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw940-white-reindeer-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25789",
+      "title": "Glitter Mermaid Tail Resin Cabochons",
+      "originalTitle": "100pcs Resin Shiny Fish Tail Flatback Cabochon Scrapbooking DIY Jewelry Crafts Decoration Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glitter Mermaid Tail Resin Cabochons, product code RW25789",
+      "description": "List the marine design references, finish and bag quantities. For assembled accessories, provide your attachment requirements with the RFQ.",
+      "detailedDescription": "Glitter Mermaid Tail Resin Cabochons. Size reference: 32 × 29 mm. Reference packing: 100 pieces per bag. List the marine design references, finish and bag quantities. For assembled accessories, provide your attachment requirements with the RFQ. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glitter Mermaid Tail Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 32 × 29 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25789",
+        "Material: Resin",
+        "Dimensions: 32 × 29 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "32 × 29 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW25789, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use glitter Mermaid Tail Resin Cabochons in ocean-themed frames, decoden projects and miniature seaside displays.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "glitter mermaid tail resin cabochons, wholesale craft components",
+      "metaTitle": "RW25789 Glitter Mermaid Tail Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale glitter Mermaid Tail Resin Cabochons. RW25789: 32 × 29 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "32 × 29 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW25789",
+        "sku_raw": "MO-RW25789",
+        "title": "100pcs Resin Shiny Fish Tail Flatback Cabochon Scrapbooking DIY Jewelry Crafts Decoration Accessories",
+        "material": "Resin",
+        "size": "32*29mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601548164105",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Resin-Shiny-Fish-Tail-Flatback_1601548164105.html"
+      },
+      "sourceProductId": "1601548164105",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Resin-Shiny-Fish-Tail-Flatback_1601548164105.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw25789",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw25789-glitter-mermaid-tail-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1138",
+      "title": "Sandwich Cookie Resin Cabochons",
+      "originalTitle": "Colorful Round Cookies Flat Back Resin Cabochon Figurine Stone Embellishments Applique DIY Wedding Scrapbook Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Sandwich Cookie Resin Cabochons, product code RW1138",
+      "description": "Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements.",
+      "detailedDescription": "Sandwich Cookie Resin Cabochons. Size reference: 9 × 17 × 17 mm. Reference packing: 1 piece per bag. Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Sandwich Cookie Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 9 × 17 × 17 mm",
+        "Reference pack: 1 piece per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1138",
+        "Material: Resin",
+        "Dimensions: 9 × 17 × 17 mm",
+        "Reference pack: 1 piece per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "9 × 17 × 17 mm",
+      "sourcePacking": "1 piece per bag",
+      "customizationOptions": "For RW1138, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use sandwich Cookie Resin Cabochons in dessert-themed frames, decoden decorations and miniature café displays.",
+      "packagingMoq": "Reference packing: 1 piece per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "sandwich cookie resin cabochons, wholesale craft components",
+      "metaTitle": "RW1138 Sandwich Cookie Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale sandwich Cookie Resin Cabochons. RW1138: 9 × 17 × 17 mm; 1 piece per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "9 × 17 × 17 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "1 piece per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW1138",
+        "sku_raw": "MO-RW1138",
+        "title": "Colorful Round Cookies Flat Back Resin Cabochon Figurine Stone Embellishments Applique DIY Wedding Scrapbook Craft",
+        "material": "Resin",
+        "size": "9*17*17mm-",
+        "packaging": "1pcs/bag",
+        "status": "已上架",
+        "product_id": "1600474266024",
+        "product_url": "https://www.alibaba.com/product-detail/Colorful-Round-Cookies-Flat-Back-Resin_1600474266024.html"
+      },
+      "sourceProductId": "1600474266024",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Round-Cookies-Flat-Back-Resin_1600474266024.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw1138",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw1138-sandwich-cookie-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1615",
+      "title": "Transparent Frog Resin Cabochons",
+      "originalTitle": "Cute Transparent Animal Frog Flatback Scrapbooking Resin Cabochons DIY Decorative Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Transparent Frog Resin Cabochons, product code RW1615",
+      "description": "Send the animal design references and required quantities. Confirm the silhouette, reverse profile and assortment before approving the sample.",
+      "detailedDescription": "Transparent Frog Resin Cabochons. Size reference: 7 × 15 × 20 mm. Reference packing: 100 pieces per bag. Send the animal design references and required quantities. Confirm the silhouette, reverse profile and assortment before approving the sample. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Transparent Frog Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 7 × 15 × 20 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1615",
+        "Material: Resin",
+        "Dimensions: 7 × 15 × 20 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "7 × 15 × 20 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW1615, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use transparent Frog Resin Cabochons in animal-themed craft projects, decorated accessories and miniature scenes.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "transparent frog resin cabochons, wholesale craft components",
+      "metaTitle": "RW1615 Transparent Frog Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale transparent Frog Resin Cabochons. RW1615: 7 × 15 × 20 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "7 × 15 × 20 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW1615",
+        "sku_raw": "MO-RW1615",
+        "title": "Cute Transparent Animal Frog Flatback Scrapbooking Resin Cabochons DIY Decorative Craft",
+        "material": "Resin",
+        "size": "7*15*20mm-",
+        "packaging": "100PCS/bag",
+        "status": "已上架",
+        "product_id": "1600215883124",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Transparent-Animal-Frog-Flatback-Scrapbooking_1600215883124.html"
+      },
+      "sourceProductId": "1600215883124",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Transparent-Animal-Frog-Flatback-Scrapbooking_1600215883124.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw1615",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw1615-transparent-frog-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26229",
+      "title": "Mini Ice Cream Cone Resin Decorations",
+      "originalTitle": "Simulation Ice Cream Cone Ornaments Resin DIY Home Kitchen Simulation Food Toys Miniature Figurines Decoration Accessories Gifts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Ice Cream Cone Resin Decorations, product code RW26229",
+      "description": "Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements.",
+      "detailedDescription": "Mini Ice Cream Cone Resin Decorations. Size reference: 17 × 29 mm. Reference packing: 1 piece per bag. Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Ice Cream Cone Resin Decorations",
+        "Material: Resin",
+        "Dimensions: 17 × 29 mm",
+        "Reference pack: 1 piece per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26229",
+        "Material: Resin",
+        "Dimensions: 17 × 29 mm",
+        "Reference pack: 1 piece per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "17 × 29 mm",
+      "sourcePacking": "1 piece per bag",
+      "customizationOptions": "For RW26229, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use mini Ice Cream Cone Resin Decorations in dessert-themed frames, decoden decorations and miniature café displays.",
+      "packagingMoq": "Reference packing: 1 piece per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini ice cream cone resin decorations, wholesale craft components",
+      "metaTitle": "RW26229 Mini Ice Cream Cone Resin Decorations Wholesale | HAIBU",
+      "metaDescription": "Wholesale mini Ice Cream Cone Resin Decorations. RW26229: 17 × 29 mm; 1 piece per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "17 × 29 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "1 piece per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26229",
+        "sku_raw": "MO- RW26229",
+        "title": "Simulation Ice Cream Cone Ornaments Resin DIY Home Kitchen Simulation Food Toys Miniature Figurines Decoration Accessories Gifts",
+        "material": "Resin",
+        "size": "17*29mm-",
+        "packaging": "1pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827076954",
+        "product_url": "https://www.alibaba.com/product-detail/Simulation-Ice-Cream-Cone-Ornaments-Resin_1601827076954.html"
+      },
+      "sourceProductId": "1601827076954",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Simulation-Ice-Cream-Cone-Ornaments-Resin_1601827076954.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw26229",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw26229-mini-ice-cream-cone-resin-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW372",
+      "title": "Glitter Star Resin Flatbacks",
+      "originalTitle": "Wholesale 15mm Cute Glitter Star Flatbacks Resin Shiny Cabochons for Phone Decor Hairbow Diy Craft Making",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glitter Star Resin Flatbacks, product code RW372",
+      "description": "Send the selected shape references and required assortment. Confirm dimensions, finish and bag quantities in the quotation.",
+      "detailedDescription": "Glitter Star Resin Flatbacks. Size reference: 15 mm. Reference packing: 100 pieces per bag. Send the selected shape references and required assortment. Confirm dimensions, finish and bag quantities in the quotation. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glitter Star Resin Flatbacks",
+        "Material: Resin",
+        "Dimensions: 15 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW372",
+        "Material: Resin",
+        "Dimensions: 15 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "15 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW372, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use glitter Star Resin Flatbacks in decorated frames, scrapbooks and coordinated craft assortments.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "glitter star resin flatbacks, wholesale craft components",
+      "metaTitle": "RW372 Glitter Star Resin Flatbacks Wholesale | HAIBU",
+      "metaDescription": "Wholesale glitter Star Resin Flatbacks. RW372: 15 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "15 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW372",
+        "sku_raw": "MO-RW372",
+        "title": "Wholesale 15mm Cute Glitter Star Flatbacks Resin Shiny Cabochons for Phone Decor Hairbow Diy Craft Making",
+        "material": "Resin",
+        "size": "15mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "60805703163",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-15mm-Cute-Glitter-Star-Flatbacks_60805703163.html"
+      },
+      "sourceProductId": "60805703163",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-15mm-Cute-Glitter-Star-Flatbacks_60805703163.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw372",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw372-glitter-star-resin-flatbacks",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW527",
+      "title": "Decorated Popsicle Resin Cabochons",
+      "originalTitle": "100pcs Resin Summer Ice Cream Popsicle Cabochon DIY Home Decoration Phone Case Hairpin Headpiece Resin Accessory Material",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Decorated Popsicle Resin Cabochons, product code RW527",
+      "description": "Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements.",
+      "detailedDescription": "Decorated Popsicle Resin Cabochons. Size reference: 33 × 20 mm. Reference packing: 100 pieces per bag. Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Decorated Popsicle Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 33 × 20 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW527",
+        "Material: Resin",
+        "Dimensions: 33 × 20 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "33 × 20 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW527, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use decorated Popsicle Resin Cabochons in dessert-themed frames, decoden decorations and miniature café displays.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "decorated popsicle resin cabochons, wholesale craft components",
+      "metaTitle": "RW527 Decorated Popsicle Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale decorated Popsicle Resin Cabochons. RW527: 33 × 20 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "33 × 20 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW527",
+        "sku_raw": "MO-RW527",
+        "title": "100pcs Resin Summer Ice Cream Popsicle Cabochon DIY Home Decoration Phone Case Hairpin Headpiece Resin Accessory Material",
+        "material": "Resin",
+        "size": "33*20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601447880883",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Resin-Summer-Ice-Cream-Popsicle_1601447880883.html"
+      },
+      "sourceProductId": "1601447880883",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Resin-Summer-Ice-Cream-Popsicle_1601447880883.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw527",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw527-decorated-popsicle-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1931",
+      "title": "Pastel Daisy Resin Cabochons",
+      "originalTitle": "Cute Pastel Daisy Flower Charms Flatback Resin Cabochon for DIY Earrings Key Chains Home Decor Jewelry Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Daisy Resin Cabochons, product code RW1931",
+      "description": "Identify the floral design and finish in your RFQ. Confirm dimensions, color assortment and the reverse profile against the sample.",
+      "detailedDescription": "Pastel Daisy Resin Cabochons. Size reference: 7 × 18 × 18 mm. Reference packing: 100 pieces per bag. Identify the floral design and finish in your RFQ. Confirm dimensions, color assortment and the reverse profile against the sample. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Daisy Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 7 × 18 × 18 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1931",
+        "Material: Resin",
+        "Dimensions: 7 × 18 × 18 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "7 × 18 × 18 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW1931, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use pastel Daisy Resin Cabochons in floral scrapbook covers, decorated frames and handmade accessories.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pastel daisy resin cabochons, wholesale craft components",
+      "metaTitle": "RW1931 Pastel Daisy Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale pastel Daisy Resin Cabochons. RW1931: 7 × 18 × 18 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "7 × 18 × 18 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW1931",
+        "sku_raw": "MO-RW1931",
+        "title": "Cute Pastel Daisy Flower Charms Flatback Resin Cabochon for DIY Earrings Key Chains Home Decor Jewelry Accessories",
+        "material": "Resin",
+        "size": "7*18*18mm-",
+        "packaging": "100PCS/bag",
+        "status": "已上架",
+        "product_id": "1700003050857",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Pastel-Daisy-Flower-Charms-Flatback_1700003050857.html"
+      },
+      "sourceProductId": "1700003050857",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Pastel-Daisy-Flower-Charms-Flatback_1700003050857.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw1931",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw1931-pastel-daisy-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002226",
+      "title": "Mixed Vegetable Resin Cabochons",
+      "originalTitle": "Wholesale Custom Mixed Vegetable Resin Flatback Cabochons for Hair Bows Phone Cases Scrapbooking and DIY Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mixed Vegetable Resin Cabochons, product code RW002226",
+      "description": "List the fruit references separately if you need selected designs. Confirm assortment, finish and bag quantities before sampling.",
+      "detailedDescription": "Mixed Vegetable Resin Cabochons. Size reference: Approx. 35 mm. Reference packing: 100 pieces per bag. List the fruit references separately if you need selected designs. Confirm assortment, finish and bag quantities before sampling. The source gives an approximate size reference for an assortment. Confirm the dimensions of your selected designs before ordering.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mixed Vegetable Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 35 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002226",
+        "Material: Resin",
+        "Dimensions: Approx. 35 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: The source gives an approximate size reference for an assortment. Confirm the dimensions of your selected designs before ordering.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 35 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW002226, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use mixed Vegetable Resin Cabochons in fruit-themed craft decorations, miniature market scenes and decorated accessories.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mixed vegetable resin cabochons, wholesale craft components",
+      "metaTitle": "RW002226 Mixed Vegetable Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale mixed Vegetable Resin Cabochons. RW002226: Approx. 35 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 35 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW002226",
+        "sku_raw": "MO-RW002226",
+        "title": "Wholesale Custom Mixed Vegetable Resin Flatback Cabochons for Hair Bows Phone Cases Scrapbooking and DIY Crafts",
+        "material": "Resin",
+        "size": "about 35mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601910366444",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-Custom-Mixed-Vegetable-Resin-Flatback_1601910366444.html"
+      },
+      "sourceProductId": "1601910366444",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-Mixed-Vegetable-Resin-Flatback_1601910366444.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw002226",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw002226-mixed-vegetable-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW001953",
+      "title": "Duck Resin Craft Decorations",
+      "originalTitle": "Wholesale Custom Night Light Duck Resin Flatback Cabochons for Hair Bows Phone Cases Bags and DIY Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Duck Resin Craft Decorations, product code RW001953",
+      "description": "Send the animal design references and required quantities. Confirm the silhouette, reverse profile and assortment before approving the sample.",
+      "detailedDescription": "Duck Resin Craft Decorations. Size reference: 24 × 31 mm. Reference packing: 100 pieces per bag. Send the animal design references and required quantities. Confirm the silhouette, reverse profile and assortment before approving the sample. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Duck Resin Craft Decorations",
+        "Material: Resin",
+        "Dimensions: 24 × 31 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW001953",
+        "Material: Resin",
+        "Dimensions: 24 × 31 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "24 × 31 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW001953, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use duck Resin Craft Decorations in animal-themed craft projects, decorated accessories and miniature scenes.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "duck resin craft decorations, wholesale craft components",
+      "metaTitle": "RW001953 Duck Resin Craft Decorations Wholesale | HAIBU",
+      "metaDescription": "Wholesale duck Resin Craft Decorations. RW001953: 24 × 31 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "24 × 31 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW001953",
+        "sku_raw": "MO-RW001953",
+        "title": "Wholesale Custom Night Light Duck Resin Flatback Cabochons for Hair Bows Phone Cases Bags and DIY Crafts",
+        "material": "Resin",
+        "size": "24*31mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601910246574",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-Custom-Night-Light-Duck-Resin_1601910246574.html"
+      },
+      "sourceProductId": "1601910246574",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-Night-Light-Duck-Resin_1601910246574.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw001953",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw001953-duck-resin-craft-decorations",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002494",
+      "title": "Rabbit and Carrot Resin Cabochons",
+      "originalTitle": "Wholesale Custom Cartoon Bunny Resin Flatback Cabochons with Carrot Designs for Hair Bows Phone Cases and DIY Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Rabbit and Carrot Resin Cabochons, product code RW002494",
+      "description": "Send the animal design references and required quantities. Confirm the silhouette, reverse profile and assortment before approving the sample.",
+      "detailedDescription": "Rabbit and Carrot Resin Cabochons. Size reference: Approx. 25 mm. Reference packing: 100 pieces per bag. Send the animal design references and required quantities. Confirm the silhouette, reverse profile and assortment before approving the sample. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Rabbit and Carrot Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 25 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002494",
+        "Material: Resin",
+        "Dimensions: Approx. 25 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 25 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW002494, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use rabbit and Carrot Resin Cabochons in animal-themed craft projects, decorated accessories and miniature scenes.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "rabbit and carrot resin cabochons, wholesale craft components",
+      "metaTitle": "RW002494 Rabbit and Carrot Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale rabbit and Carrot Resin Cabochons. RW002494: Approx. 25 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW002494",
+        "sku_raw": "MO-RW002494",
+        "title": "Wholesale Custom Cartoon Bunny Resin Flatback Cabochons with Carrot Designs for Hair Bows Phone Cases and DIY Crafts",
+        "material": "Resin",
+        "size": "about 25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601910214893",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-Custom-Cartoon-Bunny-Resin-Flatback_1601910214893.html"
+      },
+      "sourceProductId": "1601910214893",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-Cartoon-Bunny-Resin-Flatback_1601910214893.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw002494",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw002494-rabbit-and-carrot-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26673",
+      "title": "Flower Bouquet Resin Cabochons",
+      "originalTitle": "Wholesale Custom 3D Flower Bouquet Resin Cabochons Flatback Embellishments for Hair Bows Phone Cases and DIY Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Flower Bouquet Resin Cabochons, product code RW26673",
+      "description": "Identify the floral design and finish in your RFQ. Confirm dimensions, color assortment and the reverse profile against the sample.",
+      "detailedDescription": "Flower Bouquet Resin Cabochons. Size reference: 24 × 30 mm. Reference packing: 100 pieces per bag. Identify the floral design and finish in your RFQ. Confirm dimensions, color assortment and the reverse profile against the sample. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Flower Bouquet Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 24 × 30 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26673",
+        "Material: Resin",
+        "Dimensions: 24 × 30 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "24 × 30 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26673, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use flower Bouquet Resin Cabochons in floral scrapbook covers, decorated frames and handmade accessories.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "flower bouquet resin cabochons, wholesale craft components",
+      "metaTitle": "RW26673 Flower Bouquet Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale flower Bouquet Resin Cabochons. RW26673: 24 × 30 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "24 × 30 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26673",
+        "sku_raw": "MO-RW26673",
+        "title": "Wholesale Custom 3D Flower Bouquet Resin Cabochons Flatback Embellishments for Hair Bows Phone Cases and DIY Crafts",
+        "material": "Resin",
+        "size": "24*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601909420442",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-Custom-3D-Flower-Bouquet-Resin_1601909420442.html"
+      },
+      "sourceProductId": "1601909420442",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-3D-Flower-Bouquet-Resin_1601909420442.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw26673",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw26673-flower-bouquet-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26672",
+      "title": "Devil Horn Resin Embellishments",
+      "originalTitle": "Wholesale Custom 3D Devil Horn Resin Flatback Embellishments for Hair Accessories Bags Phone Cases and DIY Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Devil Horn Resin Embellishments, product code RW26672",
+      "description": "Include the selected seasonal motifs, required quantities and delivery destination. Confirm sample approval and dispatch timing in the quotation.",
+      "detailedDescription": "Devil Horn Resin Embellishments. Size reference: 25 × 28 mm. Reference packing: 100 pieces per bag. Include the selected seasonal motifs, required quantities and delivery destination. Confirm sample approval and dispatch timing in the quotation. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Devil Horn Resin Embellishments",
+        "Material: Resin",
+        "Dimensions: 25 × 28 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26672",
+        "Material: Resin",
+        "Dimensions: 25 × 28 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "25 × 28 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26672, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use devil Horn Resin Embellishments in seasonal craft decorations, themed displays and handmade gift projects.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "devil horn resin embellishments, wholesale craft components",
+      "metaTitle": "RW26672 Devil Horn Resin Embellishments Wholesale | HAIBU",
+      "metaDescription": "Wholesale devil Horn Resin Embellishments. RW26672: 25 × 28 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "25 × 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26672",
+        "sku_raw": "MO-RW26672",
+        "title": "Wholesale Custom 3D Devil Horn Resin Flatback Embellishments for Hair Accessories Bags Phone Cases and DIY Crafts",
+        "material": "Resin",
+        "size": "25*28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601909497090",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-Custom-3D-Devil-Horn-Resin_1601909497090.html"
+      },
+      "sourceProductId": "1601909497090",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-3D-Devil-Horn-Resin_1601909497090.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw26672",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw26672-devil-horn-resin-embellishments",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26643",
+      "title": "Colorful Butterfly Resin Cabochons",
+      "originalTitle": "Butterfly Resin Charms Animal Drop Flat Back Pendants for DIY Keychain Bracelet Cell Phone Case Jewelry Making",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Colorful Butterfly Resin Cabochons, product code RW26643",
+      "description": "Send the animal design references and required quantities. Confirm the silhouette, reverse profile and assortment before approving the sample.",
+      "detailedDescription": "Colorful Butterfly Resin Cabochons. Size reference: 22 × 29 mm. Reference packing: 100 pieces per bag. Send the animal design references and required quantities. Confirm the silhouette, reverse profile and assortment before approving the sample. Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Colorful Butterfly Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 22 × 29 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26643",
+        "Material: Resin",
+        "Dimensions: 22 × 29 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: Check the listed size against your project; confirm thickness and reverse profile if these affect the fit.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "22 × 29 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26643, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use colorful Butterfly Resin Cabochons in animal-themed craft projects, decorated accessories and miniature scenes.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "colorful butterfly resin cabochons, wholesale craft components",
+      "metaTitle": "RW26643 Colorful Butterfly Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale colorful Butterfly Resin Cabochons. RW26643: 22 × 29 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "22 × 29 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26643",
+        "sku_raw": "MO-RW26643",
+        "title": "Butterfly Resin Charms Animal Drop Flat Back Pendants for DIY Keychain Bracelet Cell Phone Case Jewelry Making",
+        "material": "Resin",
+        "size": "22*29mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601909342809",
+        "product_url": "https://www.alibaba.com/product-detail/Butterfly-Resin-Charms-Animal-Drop-Flat_1601909342809.html"
+      },
+      "sourceProductId": "1601909342809",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Butterfly-Resin-Charms-Animal-Drop-Flat_1601909342809.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw26643",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw26643-colorful-butterfly-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26644",
+      "title": "Christmas Character Resin Cabochons",
+      "originalTitle": "Resin Cute Colorful Santa Trees Elk Snowman Bells Flatback Rhinestone Cartoon Christmas Figurine Scrapbook DIY Decor Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Christmas Character Resin Cabochons, product code RW26644",
+      "description": "Include the selected seasonal motifs, required quantities and delivery destination. Confirm sample approval and dispatch timing in the quotation.",
+      "detailedDescription": "Christmas Character Resin Cabochons. Size reference: Approx. 20 × 25 mm. Reference packing: 100 pieces per bag. Include the selected seasonal motifs, required quantities and delivery destination. Confirm sample approval and dispatch timing in the quotation. The source gives an approximate size reference for an assortment. Confirm the dimensions of your selected designs before ordering.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Christmas Character Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 20 × 25 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26644",
+        "Material: Resin",
+        "Dimensions: Approx. 20 × 25 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: The source gives an approximate size reference for an assortment. Confirm the dimensions of your selected designs before ordering.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 20 × 25 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26644, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use christmas Character Resin Cabochons in seasonal craft decorations, themed displays and handmade gift projects.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "christmas character resin cabochons, wholesale craft components",
+      "metaTitle": "RW26644 Christmas Character Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale christmas Character Resin Cabochons. RW26644: Approx. 20 × 25 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 20 × 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26644",
+        "sku_raw": "MO-RW26644",
+        "title": "Resin Cute Colorful Santa Trees Elk Snowman Bells Flatback Rhinestone Cartoon Christmas Figurine Scrapbook DIY Decor Crafts",
+        "material": "Resin",
+        "size": "about 20*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601909390333",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Cute-Colorful-Santa-Trees-Elk_1601909390333.html"
+      },
+      "sourceProductId": "1601909390333",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cute-Colorful-Santa-Trees-Elk_1601909390333.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw26644",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw26644-christmas-character-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26642",
+      "title": "Mini Sandwich Resin Cabochons",
+      "originalTitle": "100PCS Egg Bread Toast Series Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Mini Sandwich Resin Cabochons, product code RW26642",
+      "description": "Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements.",
+      "detailedDescription": "Mini Sandwich Resin Cabochons. Size reference: Approx. 25 mm. Reference packing: 100 pieces per bag. Specify the dessert design and the required bag quantity. For flat mounting, include any thickness or reverse-surface requirements. The source gives an approximate size reference for an assortment. Confirm the dimensions of your selected designs before ordering.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mini Sandwich Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 25 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26642",
+        "Material: Resin",
+        "Dimensions: Approx. 25 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your project",
+        "Selection: The source gives an approximate size reference for an assortment. Confirm the dimensions of your selected designs before ordering.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 25 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26642, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use mini Sandwich Resin Cabochons in dessert-themed frames, decoden decorations and miniature café displays.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini sandwich resin cabochons, wholesale craft components",
+      "metaTitle": "RW26642 Mini Sandwich Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale mini Sandwich Resin Cabochons. RW26642: Approx. 25 mm; 100 pieces per bag. Confirm selected designs and packing by quotation.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26642",
+        "sku_raw": "MO-RW26642",
+        "title": "100PCS Egg Bread Toast Series Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+        "material": "Resin",
+        "size": "about 25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601909359610",
+        "product_url": "https://www.alibaba.com/product-detail/100PCS-Egg-Bread-Toast-Series-Miniature_1601909359610.html"
+      },
+      "sourceProductId": "1601909359610",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Egg-Bread-Toast-Series-Miniature_1601909359610.html",
+      "materialBasis": "captured material field; product image reviewed",
+      "assetKey": "rw26642",
+      "assetDirectory": "batch-20261027-monica-01",
+      "imagePrefix": "rw26642-mini-sandwich-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "The supplied product photo is image 1. Application and detail illustrations are based on that reference. Props are not included; confirm finish, selected designs and assortment against your approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-27",
+      "holeDescription": "Confirm the reverse surface and attachment method for your project",
+      "preserveApprovedContent": true
+    }
+  ]
+}

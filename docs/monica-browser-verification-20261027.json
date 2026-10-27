@@ -1,0 +1,42 @@
+[
+  {
+    "brand": "haibu",
+    "width": 375,
+    "productsChecked": 20,
+    "galleries": true,
+    "quotePrefills": true,
+    "search": false,
+    "horizontalOverflow": false,
+    "pageErrors": 0
+  },
+  {
+    "brand": "haibu",
+    "width": 1440,
+    "productsChecked": 20,
+    "galleries": true,
+    "quotePrefills": true,
+    "search": false,
+    "horizontalOverflow": false,
+    "pageErrors": 0
+  },
+  {
+    "brand": "qula",
+    "width": 375,
+    "productsChecked": 20,
+    "galleries": true,
+    "quotePrefills": true,
+    "search": true,
+    "horizontalOverflow": false,
+    "pageErrors": 0
+  },
+  {
+    "brand": "qula",
+    "width": 1440,
+    "productsChecked": 20,
+    "galleries": true,
+    "quotePrefills": true,
+    "search": true,
+    "horizontalOverflow": false,
+    "pageErrors": 0
+  }
+]

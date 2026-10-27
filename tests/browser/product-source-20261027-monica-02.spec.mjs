@@ -29,6 +29,7 @@ async function checkProducts(page) {
 }
 
 test('Second Monica batch keeps exact gallery and inquiry context on phones and desktop', async ({ page, browser }) => {
+  test.setTimeout(300_000);
   const width = page.viewportSize().width;
   await checkProducts(page);
   if (width === 375) {

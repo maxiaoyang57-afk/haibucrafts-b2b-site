@@ -21,7 +21,7 @@ export function priorMedia(product){
 // Later source plans extend the set without changing historical identity hashes.
 const planDirectory = new URL('../../scripts/data/', import.meta.url);
 for (const name of readdirSync(planDirectory)) {
- const date = name.match(/^product-plan-(\d{8})(?:-[a-z-]+)?\.json$/)?.[1];
+ const date = name.match(/^product-plan-(\d{8})(?:-[a-z0-9-]+)?\.json$/)?.[1];
  if (!date || date <= '20261022') continue;
  const plan = JSON.parse(readFileSync(new URL(name, planDirectory), 'utf8'));
  for (const product of plan.filter(product => product.haibu && product.operation === 'new')) addedSupplementSkus.add(product.sku);

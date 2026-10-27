@@ -1247,6 +1247,132 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26211-cherry-cake-tart-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26211-cherry-cake-tart-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26211-cherry-cake-tart-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26461-summer-beach-resin-cabochon-mix/index.html",
+      "destination": "products/resin-charms-for-slime/rw26461-summer-beach-resin-cabochon-mix/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26461-summer-beach-resin-cabochon-mix/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26477-mini-takeaway-drink-cup-resin-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw26477-mini-takeaway-drink-cup-resin-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26477-mini-takeaway-drink-cup-resin-models/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26479-cherry-cream-roll-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26479-cherry-cream-roll-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26479-cherry-cream-roll-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26125-chocolate-heart-biscuit-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26125-chocolate-heart-biscuit-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26125-chocolate-heart-biscuit-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23799-pastel-notebook-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23799-pastel-notebook-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23799-pastel-notebook-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26388-mini-bakery-shop-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26388-mini-bakery-shop-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26388-mini-bakery-shop-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26366-strawberry-layer-cake-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26366-strawberry-layer-cake-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26366-strawberry-layer-cake-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26398-colorful-music-note-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26398-colorful-music-note-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26398-colorful-music-note-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26478-mini-fruit-drink-bottle-resin-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw26478-mini-fruit-drink-bottle-resin-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26478-mini-fruit-drink-bottle-resin-models/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26408-mini-clear-drink-mug-resin-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw26408-mini-clear-drink-mug-resin-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26408-mini-clear-drink-mug-resin-models/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26458-mini-milk-coffee-bottle-resin-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw26458-mini-milk-coffee-bottle-resin-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26458-mini-milk-coffee-bottle-resin-models/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26430-mixed-fruit-cream-cake-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26430-mixed-fruit-cream-cake-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26430-mixed-fruit-cream-cake-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002502-colorful-translucent-fish-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw002502-colorful-translucent-fish-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002502-colorful-translucent-fish-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw20781-pastel-rabbit-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw20781-pastel-rabbit-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw20781-pastel-rabbit-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002096-clear-jellyfish-resin-pendant-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw002096-clear-jellyfish-resin-pendant-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002096-clear-jellyfish-resin-pendant-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26428-flower-cottage-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26428-flower-cottage-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26428-flower-cottage-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26421-mixed-fruit-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26421-mixed-fruit-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26421-mixed-fruit-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26724-red-white-mushroom-resin-charms/index.html",
       "destination": "products/resin-charms-for-slime/rw26724-red-white-mushroom-resin-charms/index.html",
       "action": "create",

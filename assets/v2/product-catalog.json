@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 356,
+  "count": 376,
   "products": [
     {
       "sku": "YX3301",
@@ -1852,6 +1852,306 @@
       ],
       "previewPath": "/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/"
+    },
+    {
+      "sku": "RW0020648",
+      "title": "Mini Toast Slice Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw0020648/rw0020648-mini-toast-slice-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw0020648/rw0020648-mini-toast-slice-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw0020648/rw0020648-mini-toast-slice-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw0020648/rw0020648-mini-toast-slice-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw0020648-mini-toast-slice-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw0020648-mini-toast-slice-resin-cabochons/"
+    },
+    {
+      "sku": "RW25939",
+      "title": "Scalloped Flower Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw25939/rw25939-scalloped-flower-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw25939/rw25939-scalloped-flower-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw25939/rw25939-scalloped-flower-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw25939/rw25939-scalloped-flower-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25939-scalloped-flower-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25939-scalloped-flower-resin-cabochons/"
+    },
+    {
+      "sku": "RW25901",
+      "title": "Stitched Edge Heart Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw25901/rw25901-stitched-edge-heart-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw25901/rw25901-stitched-edge-heart-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw25901/rw25901-stitched-edge-heart-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw25901/rw25901-stitched-edge-heart-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25901-stitched-edge-heart-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25901-stitched-edge-heart-resin-cabochons/"
+    },
+    {
+      "sku": "RW00524",
+      "title": "Mini Strawberry Resin Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw00524/rw00524-mini-strawberry-resin-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw00524/rw00524-mini-strawberry-resin-decorations-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw00524/rw00524-mini-strawberry-resin-decorations-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw00524/rw00524-mini-strawberry-resin-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw00524-mini-strawberry-resin-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw00524-mini-strawberry-resin-decorations/"
+    },
+    {
+      "sku": "RW940",
+      "title": "White Reindeer Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw940/rw940-white-reindeer-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw940/rw940-white-reindeer-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw940/rw940-white-reindeer-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw940/rw940-white-reindeer-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw940-white-reindeer-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw940-white-reindeer-resin-cabochons/"
+    },
+    {
+      "sku": "RW25789",
+      "title": "Glitter Mermaid Tail Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw25789/rw25789-glitter-mermaid-tail-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw25789/rw25789-glitter-mermaid-tail-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw25789/rw25789-glitter-mermaid-tail-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw25789/rw25789-glitter-mermaid-tail-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25789-glitter-mermaid-tail-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25789-glitter-mermaid-tail-resin-cabochons/"
+    },
+    {
+      "sku": "RW1138",
+      "title": "Sandwich Cookie Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw1138/rw1138-sandwich-cookie-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw1138/rw1138-sandwich-cookie-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw1138/rw1138-sandwich-cookie-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw1138/rw1138-sandwich-cookie-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw1138-sandwich-cookie-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw1138-sandwich-cookie-resin-cabochons/"
+    },
+    {
+      "sku": "RW1615",
+      "title": "Transparent Frog Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw1615/rw1615-transparent-frog-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw1615/rw1615-transparent-frog-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw1615/rw1615-transparent-frog-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw1615/rw1615-transparent-frog-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw1615-transparent-frog-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw1615-transparent-frog-resin-cabochons/"
+    },
+    {
+      "sku": "RW26229",
+      "title": "Mini Ice Cream Cone Resin Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw26229/rw26229-mini-ice-cream-cone-resin-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw26229/rw26229-mini-ice-cream-cone-resin-decorations-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26229/rw26229-mini-ice-cream-cone-resin-decorations-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26229/rw26229-mini-ice-cream-cone-resin-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26229-mini-ice-cream-cone-resin-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26229-mini-ice-cream-cone-resin-decorations/"
+    },
+    {
+      "sku": "RW372",
+      "title": "Glitter Star Resin Flatbacks",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw372/rw372-glitter-star-resin-flatbacks-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw372/rw372-glitter-star-resin-flatbacks-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw372/rw372-glitter-star-resin-flatbacks-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw372/rw372-glitter-star-resin-flatbacks-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw372-glitter-star-resin-flatbacks/",
+      "productionPath": "/products/resin-charms-for-slime/rw372-glitter-star-resin-flatbacks/"
+    },
+    {
+      "sku": "RW527",
+      "title": "Decorated Popsicle Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw527/rw527-decorated-popsicle-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw527/rw527-decorated-popsicle-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw527/rw527-decorated-popsicle-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw527/rw527-decorated-popsicle-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw527-decorated-popsicle-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw527-decorated-popsicle-resin-cabochons/"
+    },
+    {
+      "sku": "RW1931",
+      "title": "Pastel Daisy Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw1931/rw1931-pastel-daisy-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw1931/rw1931-pastel-daisy-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw1931/rw1931-pastel-daisy-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw1931/rw1931-pastel-daisy-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw1931-pastel-daisy-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw1931-pastel-daisy-resin-cabochons/"
+    },
+    {
+      "sku": "RW002226",
+      "title": "Mixed Vegetable Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw002226/rw002226-mixed-vegetable-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw002226/rw002226-mixed-vegetable-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw002226/rw002226-mixed-vegetable-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw002226/rw002226-mixed-vegetable-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw002226-mixed-vegetable-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw002226-mixed-vegetable-resin-cabochons/"
+    },
+    {
+      "sku": "RW001953",
+      "title": "Duck Resin Craft Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw001953/rw001953-duck-resin-craft-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw001953/rw001953-duck-resin-craft-decorations-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw001953/rw001953-duck-resin-craft-decorations-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw001953/rw001953-duck-resin-craft-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw001953-duck-resin-craft-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw001953-duck-resin-craft-decorations/"
+    },
+    {
+      "sku": "RW002494",
+      "title": "Rabbit and Carrot Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw002494/rw002494-rabbit-and-carrot-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw002494/rw002494-rabbit-and-carrot-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw002494/rw002494-rabbit-and-carrot-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw002494/rw002494-rabbit-and-carrot-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw002494-rabbit-carrot-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw002494-rabbit-carrot-resin-cabochons/"
+    },
+    {
+      "sku": "RW26673",
+      "title": "Flower Bouquet Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw26673/rw26673-flower-bouquet-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw26673/rw26673-flower-bouquet-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26673/rw26673-flower-bouquet-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26673/rw26673-flower-bouquet-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26673-flower-bouquet-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26673-flower-bouquet-resin-cabochons/"
+    },
+    {
+      "sku": "RW26672",
+      "title": "Devil Horn Resin Embellishments",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw26672/rw26672-devil-horn-resin-embellishments-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw26672/rw26672-devil-horn-resin-embellishments-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26672/rw26672-devil-horn-resin-embellishments-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26672/rw26672-devil-horn-resin-embellishments-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26672-devil-horn-resin-embellishments/",
+      "productionPath": "/products/resin-charms-for-slime/rw26672-devil-horn-resin-embellishments/"
+    },
+    {
+      "sku": "RW26643",
+      "title": "Colorful Butterfly Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw26643/rw26643-colorful-butterfly-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw26643/rw26643-colorful-butterfly-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26643/rw26643-colorful-butterfly-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26643/rw26643-colorful-butterfly-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26643-colorful-butterfly-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26643-colorful-butterfly-resin-cabochons/"
+    },
+    {
+      "sku": "RW26644",
+      "title": "Christmas Character Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw26644/rw26644-christmas-character-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw26644/rw26644-christmas-character-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26644/rw26644-christmas-character-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26644/rw26644-christmas-character-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26644-christmas-character-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26644-christmas-character-resin-cabochons/"
+    },
+    {
+      "sku": "RW26642",
+      "title": "Mini Sandwich Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261027-monica-01/rw26642/rw26642-mini-sandwich-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261027-monica-01/rw26642/rw26642-mini-sandwich-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26642/rw26642-mini-sandwich-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261027-monica-01/rw26642/rw26642-mini-sandwich-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26642-mini-sandwich-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26642-mini-sandwich-resin-cabochons/"
     },
     {
       "sku": "RW26724",

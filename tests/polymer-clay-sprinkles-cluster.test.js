@@ -52,11 +52,11 @@ test('SEO map sitemap and AI discovery expose the sprinkles collection', async (
   const route=map.routes.find(row=>row.productionPath==='/products/polymer-clay-slices-wholesale/polymer-clay-sprinkles-wholesale/');
   assert.ok(route);
   assert.equal(route.title,'Polymer Clay Sprinkles Wholesale | HAIBUCRAFT');
-  assert.equal(route.lastModified,'2026-09-22');
+  assert.equal(route.lastModified,'2026-10-28');
 
   for(const relative of ['sitemap.xml',path.join('v2-preview','production-config','sitemap.xml')]){
     const xml=await readFile(path.join(root,relative),'utf8');
-    assert.ok(xml.includes(`<loc>${canonical}</loc><lastmod>2026-09-22</lastmod>`));
+    assert.ok(xml.includes(`<loc>${canonical}</loc><lastmod>2026-10-28</lastmod>`));
   }
   for(const relative of ['llms.txt',path.join('v2-preview','production-config','llms.txt')]){
     const txt=await readFile(path.join(root,relative),'utf8');
@@ -64,4 +64,29 @@ test('SEO map sitemap and AI discovery expose the sprinkles collection', async (
   }
   const builder=await readFile(path.join(root,'scripts','build-v2-ai-discovery.mjs'),'utf8');
   assert.ok(builder.includes('/products/polymer-clay-slices-wholesale/polymer-clay-sprinkles-wholesale/'));
+});
+
+test('sprinkles cards retain exact catalog inquiry context and scoped sample guidance', async () => {
+  const catalog=JSON.parse(await readFile(path.join(root,'assets/v2/product-catalog.json'),'utf8')).products;
+  for(const relative of [production,preview]){
+    const html=await readFile(path.join(root,relative),'utf8');
+    const links=[...html.matchAll(/data-sprinkle-quote="([^"]+)" href="([^"]+)"/g)];
+    assert.equal(links.length,10);
+    assert.deepEqual(links.map(m=>m[1]),skus);
+    const isPreview=relative===preview;
+    const collectionPath=isPreview?'/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/':new URL(canonical).pathname;
+    for(const [,sku,href] of links){
+      const product=catalog.find(p=>p.sku===sku&&p.category==='polymer-clay-slices');
+      const url=new URL(href.replaceAll('&amp;','&'),'https://www.haibucrafts.com');
+      assert.equal(url.pathname,isPreview?'/v2-preview/quote/':'/request-quote/');
+      for(const [key,value] of Object.entries({source:'polymer-sprinkles-sku',product_code:sku,product:product.title,image:product.image,category:product.category,landing_page:collectionPath,source_page:collectionPath,product_page:isPreview?product.previewPath:product.productionPath}))assert.equal(url.searchParams.get(key),value,sku+': '+key);
+    }
+    assert.match(html,/Approve the product and the pack separately/);
+    assert.match(html,/does not establish long-term liquid compatibility/);
+    assert.match(html,/polymer-clay-slice-buying-guide\/#liquid-filled-tumblers/);
+    const graphs=[...html.matchAll(/<script type="application\/ld\+json">(.*?)<\/script>/gs)].map(m=>JSON.parse(m[1])).flatMap(o=>o['@graph']||[o]);
+    const faq=graphs.find(o=>o['@type']==='FAQPage').mainEntity.find(o=>o.name==='Can these sprinkles be used in a liquid-filled tumbler?');
+    assert.ok(faq);
+    assert.ok(html.includes('<p>'+faq.acceptedAnswer.text+'</p>'));
+  }
 });

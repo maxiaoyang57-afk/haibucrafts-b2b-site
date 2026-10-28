@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 422,
+  "count": 426,
   "products": [
     {
       "sku": "YX3301",
@@ -1972,6 +1972,66 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26633-mini-toast-resin-cabochons/",
       "productionPath": "/products/resin-charms-for-slime/rw26633-mini-toast-resin-cabochons/"
+    },
+    {
+      "sku": "RW26622",
+      "title": "Large Translucent Flower Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26622-large-translucent-flower-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26622-large-translucent-flower-resin-cabochons/"
+    },
+    {
+      "sku": "RW26617",
+      "title": "Yellow Popcorn Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26617-yellow-popcorn-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26617-yellow-popcorn-resin-miniatures/"
+    },
+    {
+      "sku": "RW26631",
+      "title": "Filled Bread Roll Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26631-filled-bread-roll-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26631-filled-bread-roll-resin-miniatures/"
+    },
+    {
+      "sku": "RW26646",
+      "title": "Filled Biscuit Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26646-filled-biscuit-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26646-filled-biscuit-resin-cabochons/"
     },
     {
       "sku": "RW0020648",

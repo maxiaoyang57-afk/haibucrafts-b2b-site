@@ -1,0 +1,418 @@
+{
+  "batch": "haibu-new-products-20261028-monica-06",
+  "expectedSkuCount": 4,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261028-monica-06",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-28",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW26622",
+      "title": "Large Translucent Flower Resin Cabochons",
+      "originalTitle": "Kawaii Large Colorful Flowers Spring Resin Cabochon Flatback for Hair Bows DIY Jewelry Making Scrapbooking Decor Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Large Translucent Flower Resin Cabochons, product code RW26622",
+      "description": "Specify each flower pattern and required quantities for floral craft ranges. Confirm color ratios, sample finish and any custom packing before ordering.",
+      "detailedDescription": "Large Translucent Flower Resin Cabochons. Supplier size reference: Approx. 45 mm. Reference packing: 100 pieces per bag. Specify each flower pattern and required quantities for floral craft ranges. Confirm color ratios, sample finish and any custom packing before ordering. Check the broad 45 mm flower footprint against your craft base; the reference includes different petal and center patterns. Confirm the selected patterns and color mix. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Large Translucent Flower Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 45 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26622",
+        "Material: Resin",
+        "Dimensions: Approx. 45 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: Check the broad 45 mm flower footprint against your craft base; the reference includes different petal and center patterns. Confirm the selected patterns and color mix. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 45 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26622, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use a large flower as a focal point on keepsake frames, decorative notebooks or floral shadow boxes; test base and adhesive compatibility on a sample.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "large translucent flower resin cabochons, wholesale craft components",
+      "metaTitle": "RW26622 Large Translucent Flower Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale large translucent flower resin cabochons. RW26622: Approx. 45 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 45 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26622",
+        "sku_raw": "MO-RW26622",
+        "title": "Kawaii Large Colorful Flowers Spring Resin Cabochon Flatback for Hair Bows DIY Jewelry Making Scrapbooking Decor Accessories",
+        "material": "Resin",
+        "size": "about45mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601887976728",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Large-Colorful-Flowers-Spring-Resin_1601887976728.html"
+      },
+      "sourceProductId": "1601887976728",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Large-Colorful-Flowers-Spring-Resin_1601887976728.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26622",
+      "assetDirectory": "batch-20261028-monica-06",
+      "imagePrefix": "rw26622-large-translucent-flower-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26617",
+      "title": "Yellow Popcorn Resin Miniatures",
+      "originalTitle": "Cute 3D Resin Popcorn Simulation Miniature Food Art Flatback Cabochon DIY Craft Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Yellow Popcorn Resin Miniatures, product code RW26617",
+      "description": "For cinema-themed craft assortments, specify the yellow popcorn shape, bag quantities and packing to protect raised details. Confirm sample appearance before bulk approval.",
+      "detailedDescription": "Yellow Popcorn Resin Miniatures. Supplier size reference: 12 mm. Reference packing: 100 pieces per bag. For cinema-themed craft assortments, specify the yellow popcorn shape, bag quantities and packing to protect raised details. Confirm sample appearance before bulk approval. Keep the irregular popcorn relief clear in a miniature display and confirm the base and attachment method on a sample. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Yellow Popcorn Resin Miniatures",
+        "Material: Resin",
+        "Dimensions: 12 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26617",
+        "Material: Resin",
+        "Dimensions: 12 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: Keep the irregular popcorn relief clear in a miniature display and confirm the base and attachment method on a sample. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "12 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26617, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Try miniature cinema scenes, snack-themed shadow boxes or decorative display layouts. These yellow resin pieces are non-edible craft miniatures.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "yellow popcorn resin miniatures, wholesale craft components",
+      "metaTitle": "RW26617 Yellow Popcorn Resin Miniatures Wholesale | HAIBU",
+      "metaDescription": "Wholesale yellow popcorn resin miniatures. RW26617: 12 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "12 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26617",
+        "sku_raw": "MO-RW26617",
+        "title": "Cute 3D Resin Popcorn Simulation Miniature Food Art Flatback Cabochon DIY Craft Decoration",
+        "material": "Resin",
+        "size": "12mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601881327877",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-3D-Resin-Popcorn-Simulation-Miniature_1601881327877.html"
+      },
+      "sourceProductId": "1601881327877",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-3D-Resin-Popcorn-Simulation-Miniature_1601881327877.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26617",
+      "assetDirectory": "batch-20261028-monica-06",
+      "imagePrefix": "rw26617-yellow-popcorn-resin-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26631",
+      "title": "Filled Bread Roll Resin Miniatures",
+      "originalTitle": "Croissant Bread Roll 1:12 Flatback Resin Cabochon for Simulation Food DIY Dollhouse Kichen Play Decoration Making Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Filled Bread Roll Resin Miniatures, product code RW26631",
+      "description": "Identify the required filled-roll colors and bag quantities. Confirm the ridged surface finish, sprinkle detail and protective packing against an approved sample; discuss custom assortments separately.",
+      "detailedDescription": "Filled Bread Roll Resin Miniatures. Supplier size reference: Approx. 28 × 15 × 13 mm. Reference packing: 100 pieces per bag. Identify the required filled-roll colors and bag quantities. Confirm the ridged surface finish, sprinkle detail and protective packing against an approved sample; discuss custom assortments separately. The reference shows ridged filled-roll shapes with red ends in several finishes. Choose colors before composing a miniature bakery; do not assume a fixed mix per bag. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Filled Bread Roll Resin Miniatures",
+        "Material: Resin",
+        "Dimensions: Approx. 28 × 15 × 13 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26631",
+        "Material: Resin",
+        "Dimensions: Approx. 28 × 15 × 13 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The reference shows ridged filled-roll shapes with red ends in several finishes. Choose colors before composing a miniature bakery; do not assume a fixed mix per bag. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 28 × 15 × 13 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26631, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange miniature bakery displays or food-themed shadow boxes with the ridged rolls; the supplier reference dimensions help check clearance around the raised shape. Non-edible resin.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "filled bread roll resin miniatures, wholesale craft components",
+      "metaTitle": "RW26631 Filled Bread Roll Resin Miniatures Wholesale | HAIBU",
+      "metaDescription": "Wholesale filled bread roll resin miniatures. RW26631: Approx. 28 × 15 × 13 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 28 × 15 × 13 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26631",
+        "sku_raw": "MO-RW26631",
+        "title": "Croissant Bread Roll 1:12 Flatback Resin Cabochon for Simulation Food DIY Dollhouse Kichen Play Decoration Making Accessories",
+        "material": "Resin",
+        "size": "about28*15*13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601887794886",
+        "product_url": "https://www.alibaba.com/product-detail/Croissant-Bread-Roll-1-12-Flatback_1601887794886.html"
+      },
+      "sourceProductId": "1601887794886",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Croissant-Bread-Roll-1-12-Flatback_1601887794886.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26631",
+      "assetDirectory": "batch-20261028-monica-06",
+      "imagePrefix": "rw26631-filled-bread-roll-resin-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26646",
+      "title": "Filled Biscuit Resin Cabochons",
+      "originalTitle": "Miniature Dollhouse Food Simulation Jam Chocolate Chip Biscuits Model DIY Decoration for Doll Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Filled Biscuit Resin Cabochons, product code RW26646",
+      "description": "Specify the desired center-filling colors, bag quantities and finish for biscuit-themed craft ranges. Confirm any requested assortment and packing after sample review.",
+      "detailedDescription": "Filled Biscuit Resin Cabochons. Supplier size reference: Approx. 18 mm. Reference packing: 100 pieces per bag. Specify the desired center-filling colors, bag quantities and finish for biscuit-themed craft ranges. Confirm any requested assortment and packing after sample review. Select the center-filling colors and check the round biscuit footprint for your miniature layout. Actual bag composition needs confirmation. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Filled Biscuit Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 18 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26646",
+        "Material: Resin",
+        "Dimensions: Approx. 18 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: Select the center-filling colors and check the round biscuit footprint for your miniature layout. Actual bag composition needs confirmation. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 18 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26646, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Build a miniature bakery collage, decorative tray scene or food-themed frame using the round resin biscuits. Match the filling colors to the surrounding layout. Non-edible craft decorations.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "filled biscuit resin cabochons, wholesale craft components",
+      "metaTitle": "RW26646 Filled Biscuit Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale filled biscuit resin cabochons. RW26646: Approx. 18 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 18 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26646",
+        "sku_raw": "MO-RW26646",
+        "title": "Miniature Dollhouse Food Simulation Jam Chocolate Chip Biscuits Model DIY Decoration for Doll Accessories",
+        "material": "Resin",
+        "size": "about18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601886944537",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Dollhouse-Food-Simulation-Jam-Chocolate_1601886944537.html"
+      },
+      "sourceProductId": "1601886944537",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Dollhouse-Food-Simulation-Jam-Chocolate_1601886944537.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26646",
+      "assetDirectory": "batch-20261028-monica-06",
+      "imagePrefix": "rw26646-filled-biscuit-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

@@ -1408,6 +1408,48 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26280-golden-egg-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26280-golden-egg-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26280-golden-egg-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2137-strawberry-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw2137-strawberry-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2137-strawberry-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26372-smiling-toast-slice-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26372-smiling-toast-slice-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26372-smiling-toast-slice-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26297-ice-cream-cone-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26297-ice-cream-cone-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26297-ice-cream-cone-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26516-bow-kitchen-utensil-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26516-bow-kitchen-utensil-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26516-bow-kitchen-utensil-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw0024318-fruit-popsicle-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw0024318-fruit-popsicle-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw0024318-fruit-popsicle-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "action": "create",

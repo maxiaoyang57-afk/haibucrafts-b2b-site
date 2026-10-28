@@ -330,7 +330,7 @@
     return link.closest('main') ? 'main' : 'site';
   };
   // Preserve the leading zeros of this published source code.
-  const additionalPublishedProductCodes = ['RW0020648'];
+  const additionalPublishedProductCodes = ['RW0020648', 'RW0024318'];
   const analyticsProductCode = (value) => {
     const code = typeof value === 'string' ? value.trim().toUpperCase() : '';
     if (additionalPublishedProductCodes.includes(code)) return code;

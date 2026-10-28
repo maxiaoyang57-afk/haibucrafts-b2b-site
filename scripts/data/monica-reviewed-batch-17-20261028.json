@@ -1,0 +1,829 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 6,
+  "batchCount": 1,
+  "currentBatchNumber": 17,
+  "newProductCount": 6,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26280",
+      "title": "Golden Egg Resin Miniatures",
+      "dimensions": "11 × 8 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source shows small golden-colored ovoid resin egg models. The finish appearance is not a claim of gold or metal content. Decorative and non-edible; confirm the selected finish and dimensions on a sample.",
+      "procurementAdvice": "Specify egg quantities and bag packing for seasonal miniature assortments. Review the golden-colored surface, molded form and packing against samples before a bulk or OEM brief.",
+      "uses": "Plan miniature Easter displays, decorative cards or gift layouts using these resin egg models. Check the reference scale and attachment method on a sample; flowers, raffia and paper props are excluded.",
+      "key": "rw26280",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "golden-egg-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26280",
+        "sku_raw": "MO-RW26280",
+        "title": "Mini Golden Eggs Resin Model Tiny Chick Egg DIY Dollhouse Accessories Simulated Miniature Landscape Home Decor Decoration",
+        "material": "Resin",
+        "size": "11*8mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601835673093",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Golden-Eggs-Resin-Model-Tiny_1601835673093.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Golden-Eggs-Resin-Model-Tiny_1601835673093.html",
+      "sourceProductId": "1601835673093",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H10a8f39a95d64c8e960db187941f53b3Z.jpg",
+      "sourceImageSha256": "6525f3c5ce90b984977b842e89f206534f7a283e90fb70c4adcad40899ba175b",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 17,
+      "batchId": "20261028-monica-17",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows small golden-colored ovoid resin egg models. The finish appearance is not a claim of gold or metal content. Decorative and non-edible; confirm the selected finish and dimensions on a sample.",
+      "description": "Golden Egg Resin Miniatures. RW26280: 11 × 8 mm; reference 100 pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale golden egg resin miniatures. RW26280: 11 × 8 mm; reference 100 pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW26280 Golden Egg Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26280 Golden Egg Resin Miniatures Wholesale | HAIBU",
+      "caption": "Golden Egg Resin Miniatures. Supplier size reference: 11 × 8 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Same-SKU original photograph is sole identity reference. Three exact tiny golden-colored resin egg miniatures laid loose beside a blank Easter greeting card on pastel lilac craft paper, separate thin raffia and paper flowers as props well away from eggs. Preserve source tiny ovoid egg forms, warm golden-colored finely textured resin finish; no cracks, chick, hatching, paint patterns or metal properties. The product itself is gold-colored, do not add a gold badge. Square natural-light photograph, glossy resin as in original. Show only source-visible faces; no invented backs, hidden attachments, holes, loops, hardware or new components. Not edible fruit or eggs. No text, logo, watermark, badge, measuring graphics or spec card. Separate props are excluded from SKU.",
+        "detailPrompt": "Use case: product-mockup. Same-SKU original photograph is sole identity reference. Macro photo of two exact tiny golden-colored resin eggs lying on matte pale blue paper, entire ovoid forms visible, close subtle pebbled gold-colored surface texture. Preserve source tiny ovoid egg forms, warm golden-colored finely textured resin finish; no cracks, chick, hatching, paint patterns or metal properties. The product itself is gold-colored, do not add a gold badge. Square natural-light photograph, glossy resin as in original. Show only source-visible faces; no invented backs, hidden attachments, holes, loops, hardware or new components. Not edible fruit or eggs. No text, logo, watermark, badge, measuring graphics or spec card. Separate props are excluded from SKU."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26280/rw26280-1.jpg",
+        "assets/images/pdp/rw26280/rw26280-2.jpg",
+        "assets/images/pdp/rw26280/rw26280-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26280/rw26280-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 146342,
+          "sha256": "986129f5bbdbcc4641305ff4f69541bc35594e83a870bc2b4b781782c65b22f2"
+        },
+        {
+          "path": "assets/images/pdp/rw26280/rw26280-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139324,
+          "sha256": "0dfc75806ac36713478e7b2e9d1e881a852811f11c1c38e7242d7e6199ebfe23"
+        },
+        {
+          "path": "assets/images/pdp/rw26280/rw26280-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121088,
+          "sha256": "081407fb87d691f8cf13cafa1ddc51c13ac667cb38d669590937fb710ace9b29"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 146342,
+          "sha256": "986129f5bbdbcc4641305ff4f69541bc35594e83a870bc2b4b781782c65b22f2"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139324,
+          "sha256": "0dfc75806ac36713478e7b2e9d1e881a852811f11c1c38e7242d7e6199ebfe23"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121088,
+          "sha256": "081407fb87d691f8cf13cafa1ddc51c13ac667cb38d669590937fb710ace9b29"
+        }
+      ]
+    },
+    {
+      "sku": "RW2137",
+      "title": "Strawberry Resin Cabochons",
+      "dimensions": "21 × 27 mm / 16 × 21 mm",
+      "packing": "100 pieces per bag",
+      "family": "Fruit",
+      "factNote": "The source lists two size references and shows red, bright pink and pale pink strawberry shapes with white seed marks, green leaf crowns and short molded stems. Exact size/color selection and actual mix need confirmation; no holes, loops or fixed mix are promised.",
+      "procurementAdvice": "Specify strawberry size options, colors and bag quantities for bulk craft assortments. Confirm the two reference sizes and painted seed details against samples before OEM or private-label packing.",
+      "uses": "Compare the strawberry sizes for scrapbook pages, greeting cards or gift decorations. Plan the layout against your selected base and test attachment on a sample; ribbon and paper props are excluded.",
+      "key": "rw2137",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "strawberry-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW2137",
+        "sku_raw": "MO-RW2137",
+        "title": "Random Mix Red Resin Strawberry Embellishments Flatback Cabochon Scrapbook Wedding Decoration Diy Craft Accessories",
+        "material": "Resin",
+        "size": "21*27mm- / 16*21mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600455859179",
+        "product_url": "https://www.alibaba.com/product-detail/Random-Mix-Red-Resin-Strawberry-Embellishments_1600455859179.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Random-Mix-Red-Resin-Strawberry-Embellishments_1600455859179.html",
+      "sourceProductId": "1600455859179",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Haef8b4eba25f4efabb44b194a9ffccf3l.jpg",
+      "sourceImageSha256": "eca604aff7eb8e00193e3cb0bf8621d74e5761435b20fc8b38a00991a53dbbf0",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 17,
+      "batchId": "20261028-monica-17",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source lists two size references and shows red, bright pink and pale pink strawberry shapes with white seed marks, green leaf crowns and short molded stems. Exact size/color selection and actual mix need confirmation; no holes, loops or fixed mix are promised.",
+      "description": "Strawberry Resin Cabochons. RW2137: 21 × 27 mm / 16 × 21 mm; reference 100 pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale strawberry resin cabochons. RW2137: 21 × 27 mm / 16 × 21 mm; reference 100 pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW2137 Strawberry Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW2137 Strawberry Resin Cabochons Wholesale | HAIBU",
+      "caption": "Strawberry Resin Cabochons. Supplier size reference: 21 × 27 mm / 16 × 21 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Same-SKU original photograph is sole identity reference. Two exact strawberry resin cabochons, red and pale pink, placed loose on the corner area beside a blank cream scrapbook page on mint-green paper, separate red ribbon and kraft envelope in background. Preserve source strawberry outline with rounded shoulders and pointed lower end, white painted teardrop seeds, pale green molded star leaf crown and short solid raised green stem; red/bright pink/pale pink colors. No holes or loops in stem. Preserve both original visible size variants without inventing measured scale. Square natural-light photograph, glossy resin as in original. Show only source-visible faces; no invented backs, hidden attachments, holes, loops, hardware or new components. Not edible fruit or eggs. No text, logo, watermark, badge, measuring graphics or spec card. Separate props are excluded from SKU.",
+        "detailPrompt": "Use case: product-mockup. Same-SKU original photograph is sole identity reference. Macro photo of one exact bright pink strawberry cabochon and one smaller exact red strawberry cabochon on warm ivory paper, whole source-visible front faces and molded leaf crowns visible. Preserve source strawberry outline with rounded shoulders and pointed lower end, white painted teardrop seeds, pale green molded star leaf crown and short solid raised green stem; red/bright pink/pale pink colors. No holes or loops in stem. Preserve both original visible size variants without inventing measured scale. Square natural-light photograph, glossy resin as in original. Show only source-visible faces; no invented backs, hidden attachments, holes, loops, hardware or new components. Not edible fruit or eggs. No text, logo, watermark, badge, measuring graphics or spec card. Separate props are excluded from SKU."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw2137/rw2137-1.jpg",
+        "assets/images/pdp/rw2137/rw2137-2.jpg",
+        "assets/images/pdp/rw2137/rw2137-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw2137/rw2137-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 123670,
+          "sha256": "0d107107b1fcfe6e891688f72dc7ae607d0f0426183f7147d6c11601cbe6b516"
+        },
+        {
+          "path": "assets/images/pdp/rw2137/rw2137-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142209,
+          "sha256": "b3870d406cbf644b3a0c463d51da65ddcc87855bf5306b5d1e397070d8e460b3"
+        },
+        {
+          "path": "assets/images/pdp/rw2137/rw2137-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97140,
+          "sha256": "d5929fac99f34b3b771bcd02db61974bc9b58f34b3dc12d9af5697eb3fce7831"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 123670,
+          "sha256": "0d107107b1fcfe6e891688f72dc7ae607d0f0426183f7147d6c11601cbe6b516"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142209,
+          "sha256": "b3870d406cbf644b3a0c463d51da65ddcc87855bf5306b5d1e397070d8e460b3"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97140,
+          "sha256": "d5929fac99f34b3b771bcd02db61974bc9b58f34b3dc12d9af5697eb3fce7831"
+        }
+      ]
+    },
+    {
+      "sku": "RW26372",
+      "title": "Smiling Toast Slice Resin Cabochons",
+      "dimensions": "20 × 20 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source shows a pale yellow toast-slice resin shape with a pitted front, toasted-brown edge and small smiling face. It is a decorative model, not edible; confirm front finish and reverse surface on a sample.",
+      "procurementAdvice": "Specify toast-cabochon quantities and bag packing for miniature bakery assortments. Review the molded texture, face markings and edge finish against samples before bulk or OEM planning.",
+      "uses": "Plan miniature bakery displays, gift tags or scrapbook layouts with the pictured toast shapes. Check the reference scale and test attachment on your chosen base; ribbon, tags and paper props are excluded.",
+      "key": "rw26372",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "smiling-toast-slice-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26372",
+        "sku_raw": "MO-RW26372",
+        "title": "Resin Cute Smiling Toast Slices Flatback Food DIY Resin Sweet Cabochon Jewelry Pendant Homemade Gift",
+        "material": "Resin",
+        "size": "20*20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832650782",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Cute-Smiling-Toast-Slices-Flatback_1601832650782.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cute-Smiling-Toast-Slices-Flatback_1601832650782.html",
+      "sourceProductId": "1601832650782",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hb404e93417a94cbfae3af6bbc97db529X.jpg",
+      "sourceImageSha256": "6562e807ac8d6362859875e2c3dd5436affedadea74b3be31c2a959392d382b0",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 17,
+      "batchId": "20261028-monica-17",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows a pale yellow toast-slice resin shape with a pitted front, toasted-brown edge and small smiling face. It is a decorative model, not edible; confirm front finish and reverse surface on a sample.",
+      "description": "Smiling Toast Slice Resin Cabochons. RW26372: 20 × 20 mm; reference 100 pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale smiling toast slice resin cabochons. RW26372: 20 × 20 mm; reference 100 pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW26372 Smiling Toast Slice Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26372 Smiling Toast Slice Resin Cabochons Wholesale | HAIBU",
+      "caption": "Smiling Toast Slice Resin Cabochons. Supplier size reference: 20 × 20 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Same-SKU RW26372 original photo is sole identity reference. Application photograph: two exact smiling toast-slice resin cabochons laid front-face-up beside a blank kraft gift tag on pastel blue scrapbook paper, separate cream ribbon and torn paper as props. Preserve exact square bread-slice outline with rounded double-lobed top, warm pale yellow front, thin toasted-brown edges, original subtle brown smile/face markings and resin texture. Do not turn into real edible bread, add food, butter, jam or new facial features. Only original visible front; no hidden holes, loops, attachments, extra accessories or invented reverse. Natural daylight, square photo, no text, logos, watermark, badges or measuring graphics. Props are separate and excluded.",
+        "detailPrompt": "Use case: product-mockup. Same-SKU RW26372 original photo is sole identity reference. Macro detail photo of one exact smiling toast-slice resin cabochon front-face-up on matte peach paper, entire front outline visible, focus on pitted molded crumb texture and tiny brown face markings. Preserve exact square bread-slice outline with rounded double-lobed top, warm pale yellow front, thin toasted-brown edges, original subtle brown smile/face markings and resin texture. Do not turn into real edible bread, add food, butter, jam or new facial features. Only original visible front; no hidden holes, loops, attachments, extra accessories or invented reverse. Natural daylight, square photo, no text, logos, watermark, badges or measuring graphics. Props are separate and excluded."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26372/rw26372-1.jpg",
+        "assets/images/pdp/rw26372/rw26372-2.jpg",
+        "assets/images/pdp/rw26372/rw26372-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26372/rw26372-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 114386,
+          "sha256": "52022c0120694287e24978f7b6989df241fe86ff9556c6579c29a16d77c9187d"
+        },
+        {
+          "path": "assets/images/pdp/rw26372/rw26372-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 168219,
+          "sha256": "8fc05fbf7f54618aa21f1edaa370c84ef0dafe25b0f58ed04fe89ff637f7e84d"
+        },
+        {
+          "path": "assets/images/pdp/rw26372/rw26372-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 172825,
+          "sha256": "856d9a3612f86f0692196b1ab2f6bf07e599e53731c2d623d31e1bfc98316f4e"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 114386,
+          "sha256": "52022c0120694287e24978f7b6989df241fe86ff9556c6579c29a16d77c9187d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 168219,
+          "sha256": "8fc05fbf7f54618aa21f1edaa370c84ef0dafe25b0f58ed04fe89ff637f7e84d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 172825,
+          "sha256": "856d9a3612f86f0692196b1ab2f6bf07e599e53731c2d623d31e1bfc98316f4e"
+        }
+      ]
+    },
+    {
+      "sku": "RW26297",
+      "title": "Ice Cream Cone Resin Miniatures",
+      "dimensions": "Approx. 20 × 34 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source shows resin ice-cream cone models in several scoop colors with molded drizzle and sprinkle details. The size is a supplier reference; selected colors and actual mix require confirmation. Non-edible decorative miniatures.",
+      "procurementAdvice": "Specify cone colors and quantities for miniature bakery assortments. Review scoop texture, molded drizzle and packing against samples before a bulk or OEM brief.",
+      "uses": "Plan miniature bakery displays, party-card layouts or gift decorations with the pictured resin cones. Check scale and attachment on a sample; paper and ribbon props are excluded.",
+      "key": "rw26297",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "ice-cream-cone-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26297",
+        "sku_raw": "MO-RW26297",
+        "title": "Resin 3D Ice Cream Simulation Food Art Supply Embellishments Minitures Dollhouse Handicrafts Decoration",
+        "material": "Resin",
+        "size": "about20*34mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832706353",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-3D-Ice-Cream-Simulation-Food_1601832706353.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-3D-Ice-Cream-Simulation-Food_1601832706353.html",
+      "sourceProductId": "1601832706353",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Heced9a255e324cd8b9cac594b8441399h.jpg",
+      "sourceImageSha256": "c4f407d953df89ed16b6b4afa9556b1ed8abd642c169a8810d5fdf0a4e2a2e39",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 17,
+      "batchId": "20261028-monica-17",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows resin ice-cream cone models in several scoop colors with molded drizzle and sprinkle details. The size is a supplier reference; selected colors and actual mix require confirmation. Non-edible decorative miniatures.",
+      "description": "Ice Cream Cone Resin Miniatures. RW26297: Approx. 20 × 34 mm; reference 100 pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale ice cream cone resin miniatures. RW26297: Approx. 20 × 34 mm; reference 100 pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW26297 Ice Cream Cone Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26297 Ice Cream Cone Resin Miniatures Wholesale | HAIBU",
+      "caption": "Ice Cream Cone Resin Miniatures. Supplier size reference: Approx. 20 × 34 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Original same-SKU photograph is sole identity reference. Two exact miniature resin ice-cream cones, pink scoop with red drizzle and pale blue scoop with blue drizzle, laid loose beside a blank pastel party scrapbook card on light mint paper; separate ribbon props. Preserve exact miniature ice-cream identity, textured scoop, molded colored drizzle/sprinkles and warm waffle-pattern cone. Keep visible shapes/proportions/colors/material exactly. Show only source-visible front/top;no invented backs,hidden holes,loops,hardware or attachments. Not edible or real food. Props separate and excluded. Natural-light square photo. No logo, text, watermark, badge or measuring graphics.",
+        "detailPrompt": "Use case: product-mockup. Original same-SKU photograph is sole identity reference. Macro photo of one exact purple resin ice-cream cone lying on matte ivory paper, entire visible front including molded waffle cone, rough purple scoop, darker purple drizzle and tiny colored sprinkle markings. Preserve exact miniature ice-cream identity, textured scoop, molded colored drizzle/sprinkles and warm waffle-pattern cone. Keep visible shapes/proportions/colors/material exactly. Show only source-visible front/top;no invented backs,hidden holes,loops,hardware or attachments. Not edible or real food. Props separate and excluded. Natural-light square photo. No logo, text, watermark, badge or measuring graphics."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26297/rw26297-1.jpg",
+        "assets/images/pdp/rw26297/rw26297-2.jpg",
+        "assets/images/pdp/rw26297/rw26297-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26297/rw26297-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112167,
+          "sha256": "c43a9ae4cfe691a00024b500e0cd5cae303c56ad05055ac4c08e7e0b8719751b"
+        },
+        {
+          "path": "assets/images/pdp/rw26297/rw26297-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129694,
+          "sha256": "867a85d7bcd794b52c842cd0746e4680308d770e1d42b4551175332299d2ae8a"
+        },
+        {
+          "path": "assets/images/pdp/rw26297/rw26297-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95734,
+          "sha256": "0888ab5bbd3182f83f716de0824af627176b7fb913668dafa3120ecfc20f30b2"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112167,
+          "sha256": "c43a9ae4cfe691a00024b500e0cd5cae303c56ad05055ac4c08e7e0b8719751b"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129694,
+          "sha256": "867a85d7bcd794b52c842cd0746e4680308d770e1d42b4551175332299d2ae8a"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95734,
+          "sha256": "0888ab5bbd3182f83f716de0824af627176b7fb913668dafa3120ecfc20f30b2"
+        }
+      ]
+    },
+    {
+      "sku": "RW26516",
+      "title": "Bow Kitchen Utensil Resin Miniatures",
+      "dimensions": "Approx. 15 × 22 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source shows several miniature kitchen-utensil silhouettes with pearly finishes and pink bows. One size reference is not mapped to every silhouette. Decorative resin models, not functional utensils; no fixed set, food-contact suitability or common attachment feature is promised.",
+      "procurementAdvice": "Specify selected utensil silhouettes and bag quantities for miniature craft assortments. Review bow details, finish and dimensions on samples before a packaging or OEM brief.",
+      "uses": "Compare selected utensil motifs for miniature kitchen displays, scrapbook pages or gift layouts. Confirm size and the chosen attachment method on a sample; cards and ribbon props are excluded.",
+      "key": "rw26516",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "bow-kitchen-utensil-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26516",
+        "sku_raw": "MO-RW26516",
+        "title": "100pcs Kawaii Resin Flatback Mini Spoon Folk Charms Cabochons Embellishments for DIY Ornament Crafts Scrapbook Home Decorations",
+        "material": "Resin",
+        "size": "about15*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832470518",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Resin-Flatback-Mini-Spoon_1601832470518.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Resin-Flatback-Mini-Spoon_1601832470518.html",
+      "sourceProductId": "1601832470518",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hfc797954faf7428bbf2441a047121643P.jpg",
+      "sourceImageSha256": "94b0c0a2b91e95caf8ede07cc718f6da61a65cc87cc79b9bf19b56f3bbb3f2c9",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 17,
+      "batchId": "20261028-monica-17",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows several miniature kitchen-utensil silhouettes with pearly finishes and pink bows. One size reference is not mapped to every silhouette. Decorative resin models, not functional utensils; no fixed set, food-contact suitability or common attachment feature is promised.",
+      "description": "Bow Kitchen Utensil Resin Miniatures. RW26516: Approx. 15 × 22 mm; reference 100 pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale bow kitchen utensil resin miniatures. RW26516: Approx. 15 × 22 mm; reference 100 pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW26516 Bow Kitchen Utensil Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26516 Bow Kitchen Utensil Resin Miniatures Wholesale | HAIBU",
+      "caption": "Bow Kitchen Utensil Resin Miniatures. Supplier size reference: Approx. 15 × 22 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Original same-SKU photograph is sole identity reference. One exact spoon-shaped and one exact fork-shaped miniature resin decoration with pink bows, resting loose on a miniature blank gift-layout card on pale lavender paper; separate cream ribbon props. Preserve exact source spoon/fork silhouettes, pearly iridescent resin surface and pink bow. These are miniature decorative resin models, not functional utensils. Do not add blade, hole, loop or other piece. Keep visible shapes/proportions/colors/material exactly. Show only source-visible front/top;no invented backs,hidden holes,loops,hardware or attachments. Not edible or real food. Props separate and excluded. Natural-light square photo. No logo, text, watermark, badge or measuring graphics.",
+        "detailPrompt": "Use case: product-mockup. Original same-SKU photograph is sole identity reference. Macro photograph of the exact spoon-shaped resin decoration, whole source-visible front, pearly pale spoon bowl, pink molded bow and short pale handle, on matte blush paper. Preserve exact source spoon/fork silhouettes, pearly iridescent resin surface and pink bow. These are miniature decorative resin models, not functional utensils. Do not add blade, hole, loop or other piece. Keep visible shapes/proportions/colors/material exactly. Show only source-visible front/top;no invented backs,hidden holes,loops,hardware or attachments. Not edible or real food. Props separate and excluded. Natural-light square photo. No logo, text, watermark, badge or measuring graphics."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26516/rw26516-1.jpg",
+        "assets/images/pdp/rw26516/rw26516-2.jpg",
+        "assets/images/pdp/rw26516/rw26516-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26516/rw26516-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 151817,
+          "sha256": "8f74c84aa13d0c1315346caa56b545682ba6bbc3e5cbac237bf4e20a6f710d68"
+        },
+        {
+          "path": "assets/images/pdp/rw26516/rw26516-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142877,
+          "sha256": "1e9a3e278fd664e4b0ad6c0c2a02e0f3631a155c5f03dffe1b96090343db61e7"
+        },
+        {
+          "path": "assets/images/pdp/rw26516/rw26516-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130831,
+          "sha256": "eb6380d507d7a5a63db5efd49d7bad351b3ce3c1a0e1c851fe07d17e44084bdd"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 151817,
+          "sha256": "8f74c84aa13d0c1315346caa56b545682ba6bbc3e5cbac237bf4e20a6f710d68"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142877,
+          "sha256": "1e9a3e278fd664e4b0ad6c0c2a02e0f3631a155c5f03dffe1b96090343db61e7"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130831,
+          "sha256": "eb6380d507d7a5a63db5efd49d7bad351b3ce3c1a0e1c851fe07d17e44084bdd"
+        }
+      ]
+    },
+    {
+      "sku": "RW0024318",
+      "title": "Fruit Popsicle Resin Miniatures",
+      "dimensions": "Approx. 20 × 32 mm",
+      "packing": "100 pieces per bag",
+      "family": "Fruit",
+      "factNote": "The source shows several fruit-style popsicle silhouettes with cream-colored molded sticks. The source size is not mapped to every design. Resin decorative models, not edible; no wooden component or fixed design mix is promised.",
+      "procurementAdvice": "Select fruit silhouettes and quantities for summer craft assortments. Confirm molded fruit markings, dimensions and bag packing on approved samples before bulk or custom-pack planning.",
+      "uses": "Plan summer scrapbook layouts, party cards or miniature fruit displays with the pictured resin popsicles. Check the selected size and test attachment on a sample; paper and leaf props are excluded.",
+      "key": "rw0024318",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "fruit-popsicle-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW0024318",
+        "sku_raw": "MO-RW0024318",
+        "title": "Fruit Series Popsicle Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+        "material": "Resin",
+        "size": "about20*32mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832369498",
+        "product_url": "https://www.alibaba.com/product-detail/Fruit-Series-Popsicle-Miniature-Flat-Back_1601832369498.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Fruit-Series-Popsicle-Miniature-Flat-Back_1601832369498.html",
+      "sourceProductId": "1601832369498",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0d70bd80572841ef9c25685ced301fa9x.jpg",
+      "sourceImageSha256": "da5b8228f81944b6bc82ad409e0e55cb149af639695ec129c31b779c5b6d55ab",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 17,
+      "batchId": "20261028-monica-17",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows several fruit-style popsicle silhouettes with cream-colored molded sticks. The source size is not mapped to every design. Resin decorative models, not edible; no wooden component or fixed design mix is promised.",
+      "description": "Fruit Popsicle Resin Miniatures. RW0024318: Approx. 20 × 32 mm; reference 100 pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale fruit popsicle resin miniatures. RW0024318: Approx. 20 × 32 mm; reference 100 pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW0024318 Fruit Popsicle Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW0024318 Fruit Popsicle Resin Miniatures Wholesale | HAIBU",
+      "caption": "Fruit Popsicle Resin Miniatures. Supplier size reference: Approx. 20 × 32 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Original same-SKU photograph is sole identity reference. Two exact resin fruit popsicle miniatures, kiwi square and orange segment, laid loose beside a blank summer scrapbook page on pale peach paper; separate paper leaves in background. Preserve exact source fruit-popsicle silhouette and color details, short cream-colored resin stick, kiwi black seed pattern/orange segment lines. All components are resin; do not invent wood or real food. Keep visible shapes/proportions/colors/material exactly. Show only source-visible front/top;no invented backs,hidden holes,loops,hardware or attachments. Not edible or real food. Props separate and excluded. Natural-light square photo. No logo, text, watermark, badge or measuring graphics.",
+        "detailPrompt": "Use case: product-mockup. Original same-SKU photograph is sole identity reference. Macro photo of one exact kiwi-square resin popsicle miniature on matte pale blue paper, entire source front showing green rim, pale center, black painted seeds and short warm cream-colored molded stick. Preserve exact source fruit-popsicle silhouette and color details, short cream-colored resin stick, kiwi black seed pattern/orange segment lines. All components are resin; do not invent wood or real food. Keep visible shapes/proportions/colors/material exactly. Show only source-visible front/top;no invented backs,hidden holes,loops,hardware or attachments. Not edible or real food. Props separate and excluded. Natural-light square photo. No logo, text, watermark, badge or measuring graphics."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw0024318/rw0024318-1.jpg",
+        "assets/images/pdp/rw0024318/rw0024318-2.jpg",
+        "assets/images/pdp/rw0024318/rw0024318-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw0024318/rw0024318-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150462,
+          "sha256": "d7490e1acf3c5fc6a64b9de8894718d2d53a023680c33608882ae1ef80824df2"
+        },
+        {
+          "path": "assets/images/pdp/rw0024318/rw0024318-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 147713,
+          "sha256": "a85d3084c68775b189f72f790c6ac799a85a7f33b227d578443e165bcb2107d9"
+        },
+        {
+          "path": "assets/images/pdp/rw0024318/rw0024318-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 154199,
+          "sha256": "1c505fd5d0d188e3cc2fe97081c2c00a7d4396decb7eb685940e07eb461c72f9"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150462,
+          "sha256": "d7490e1acf3c5fc6a64b9de8894718d2d53a023680c33608882ae1ef80824df2"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 147713,
+          "sha256": "a85d3084c68775b189f72f790c6ac799a85a7f33b227d578443e165bcb2107d9"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 154199,
+          "sha256": "1c505fd5d0d188e3cc2fe97081c2c00a7d4396decb7eb685940e07eb461c72f9"
+        }
+      ]
+    }
+  ]
+}

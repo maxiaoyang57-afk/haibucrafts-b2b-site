@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 420,
+  "count": 422,
   "products": [
     {
       "sku": "YX3301",
@@ -1942,6 +1942,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26649-mini-chocolate-assortment-resin-cabochons/",
       "productionPath": "/products/resin-charms-for-slime/rw26649-mini-chocolate-assortment-resin-cabochons/"
+    },
+    {
+      "sku": "RW26455",
+      "title": "Glitter Flower Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26455-glitter-flower-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26455-glitter-flower-resin-cabochons/"
+    },
+    {
+      "sku": "RW26633",
+      "title": "Mini Toast Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26633-mini-toast-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26633-mini-toast-resin-cabochons/"
     },
     {
       "sku": "RW0020648",

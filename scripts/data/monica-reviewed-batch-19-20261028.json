@@ -1,0 +1,1373 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 10,
+  "batchCount": 1,
+  "currentBatchNumber": 19,
+  "newProductCount": 10,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26313",
+      "title": "Apple Resin Cabochons",
+      "dimensions": "Approx. 20 × 22 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source shows glossy apple shapes in red and green shades, with short brown molded stems and small green leaves. Confirm selected colors, reverse surface and assortment on a sample; no adhesive, magnet, hole or fixed color mix is promised. Decorative and non-edible.",
+      "procurementAdvice": "Specify apple color selection and counted bag packing for fruit-themed craft assortments. Review the source size, stem/leaf detail and reverse surface on approved samples before bulk sourcing or an OEM packing brief.",
+      "uses": "Plan fruit-themed cards, scrapbook covers or miniature displays with the pictured apple shapes. Check color and scale on a sample and confirm how they attach to your craft base; card and fabric props are excluded.",
+      "key": "rw26313",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "apple-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26313",
+        "sku_raw": "MO-RW26313",
+        "title": "3D Apple Series Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+        "material": "Resin",
+        "size": "about20*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832268575",
+        "product_url": "https://www.alibaba.com/product-detail/3D-Apple-Series-Miniature-Flat-Back_1601832268575.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/3D-Apple-Series-Miniature-Flat-Back_1601832268575.html",
+      "sourceProductId": "1601832268575",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H05de99f6541d4a2b8ed4bec7aecfd39ag.jpg",
+      "sourceImageSha256": "26894e37a06c24ccb2fda734deab03b2e77aeafcf2630749ce30cfdf0b4b5f24",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows glossy apple shapes in red and green shades, with short brown molded stems and small green leaves. Confirm selected colors, reverse surface and assortment on a sample; no adhesive, magnet, hole or fixed color mix is promised. Decorative and non-edible.",
+      "description": "Apple Resin Cabochons. RW26313 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Apple Resin Cabochons. RW26313 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26313 Apple Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26313 Apple Resin Cabochons Wholesale | HAIBU",
+      "caption": "Apple Resin Cabochons. Supplier size reference: Approx. 20 × 22 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Square craft application reference photo. Use RW26313 reference photo solely for exact product identity: smooth glossy apple-shaped resin cabochons with a short brown molded stem and one small green molded leaf. Show two exact visible styles, one red and one pale green, front-facing beside a blank recipe-themed scrapbook card on warm cream paper with a piece of gingham fabric at side. Entire apple shapes visible; maintain source contour/colors and leaf/stem construction, no bite, face, holes, loops, magnet, adhesive, invented reverse or separate attachments. Decorative resin, not edible. Natural soft light. No text, logo, watermark, gold badge or specifications.",
+        "detailPrompt": "Square macro detail reference photograph of ONE exact red RW26313 smooth glossy apple resin decoration from reference, whole front outline visible including small green leaf and short brown molded stem. Soft pale pink matte paper backdrop, low soft light emphasizes rounded apple surface. Preserve source silhouette, proportions and colors; no new texture, glitter, face, bite, hole, loop, adhesive, magnet, invented rear or accessories. Decorative miniature, not edible. No text, logo, watermark, badge or specification card."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26313/rw26313-1.jpg",
+        "assets/images/pdp/rw26313/rw26313-2.jpg",
+        "assets/images/pdp/rw26313/rw26313-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26313/rw26313-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 76162,
+          "sha256": "182f214370497b27657000f3eac6240f5bf04948bd5223e97af980eadd2d537c"
+        },
+        {
+          "path": "assets/images/pdp/rw26313/rw26313-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 171774,
+          "sha256": "b93e5927217ba3e7ad1079da2d5201af4d52dec78574701a574ad7666f8f913e"
+        },
+        {
+          "path": "assets/images/pdp/rw26313/rw26313-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 61420,
+          "sha256": "d9fe124bcfab7a924cb045df9b274c6cc0946d89fd2cd1146b168e3d5d88d6a0"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 76162,
+          "sha256": "182f214370497b27657000f3eac6240f5bf04948bd5223e97af980eadd2d537c"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 171774,
+          "sha256": "b93e5927217ba3e7ad1079da2d5201af4d52dec78574701a574ad7666f8f913e"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 61420,
+          "sha256": "d9fe124bcfab7a924cb045df9b274c6cc0946d89fd2cd1146b168e3d5d88d6a0"
+        }
+      ]
+    },
+    {
+      "sku": "RW26315",
+      "title": "Pineapple Resin Miniatures",
+      "dimensions": "Approx. 19 × 29 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source shows pale yellow three-dimensional pineapple models with raised rounded surface texture and compact green leaf crowns. Confirm the supplier size reference and finish on a sample; no glitter, hanging attachment, outdoor performance or fixed mix is promised. Decorative and non-edible.",
+      "procurementAdvice": "Specify pineapple quantities and counted bag packing for miniature fruit assortments. Review the molded texture, crown shape and reference dimensions on samples before a bulk or OEM packing brief.",
+      "uses": "Use the pictured pineapple model to plan dry miniature garden displays, tropical craft arrangements or gift layouts. Confirm the scale and placement on a sample; tray, moss and pebble props are not included.",
+      "key": "rw26315",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pineapple-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26315",
+        "sku_raw": "MO-RW26315",
+        "title": "Resin 3D Pineapple Fruit Figurine Diy Miniature Fairy Garden Decoration Accessories",
+        "material": "Resin",
+        "size": "about19*29mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832294644",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-3D-Pineapple-Fruit-Figurine-Diy_1601832294644.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-3D-Pineapple-Fruit-Figurine-Diy_1601832294644.html",
+      "sourceProductId": "1601832294644",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/He4dfd4c39b8a4100a77f2463185d56b0d.jpg",
+      "sourceImageSha256": "cae4756fbf857f35cdfbbff9c48161d521bd0dc2d74f7624e225df6573049471",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows pale yellow three-dimensional pineapple models with raised rounded surface texture and compact green leaf crowns. Confirm the supplier size reference and finish on a sample; no glitter, hanging attachment, outdoor performance or fixed mix is promised. Decorative and non-edible.",
+      "description": "Pineapple Resin Miniatures. RW26315 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Pineapple Resin Miniatures. RW26315 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26315 Pineapple Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26315 Pineapple Resin Miniatures Wholesale | HAIBU",
+      "caption": "Pineapple Resin Miniatures. Supplier size reference: Approx. 19 × 29 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Square commercial craft application reference photograph. RW26315 reference is exact identity: small upright 3D pineapple resin miniature, pale yellow oval body with raised rounded pineapple-eye scale texture and a compact bright-green pointed leaf crown. Show ONE exact front-facing pineapple in a dry miniature garden craft arrangement on a shallow ivory tray, a little dry moss and pale pebble props beside it, sage-green background. Do not show any hidden reverse, modify crown shape or invent additional parts. No glitter, gem, AB metallic finish, crosshatch cabochon substitution, holes, loops or jewelry. Resin decoration, not edible; scenery is props. No text, brand, logo, watermark, gold badge or specifications.",
+        "detailPrompt": "Square macro detail reference photograph of ONE exact RW26315 yellow 3D pineapple miniature based strictly on same-SKU supplier photo. Entire front silhouette visible, pale yellow oval body with raised rounded pineapple-eye texture, compact bright green spiky crown. Neutral light blue matte background, side light for molded texture, front three-quarter angle only as visible in source. No glitter, transparent body, metallic or AB finish, invented backside, holes, hanging hardware or accessories. Decorative resin, not edible. No text, logo, watermark, gold badge, specification card."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26315/rw26315-1.jpg",
+        "assets/images/pdp/rw26315/rw26315-2.jpg",
+        "assets/images/pdp/rw26315/rw26315-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26315/rw26315-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79624,
+          "sha256": "bb70e8346e070a40bd480bac4f9b5da2310dbd6b8b5aff628eabfa7921f8fd72"
+        },
+        {
+          "path": "assets/images/pdp/rw26315/rw26315-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 117094,
+          "sha256": "5151c5bf62d1f312732559dacff303991f70372be2fe201afcbae002a1835cbb"
+        },
+        {
+          "path": "assets/images/pdp/rw26315/rw26315-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73357,
+          "sha256": "e6ccf706c7eeb3ea31973ff3d659fb2892de704f0e9454bd46b6ab5587d8fdf9"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79624,
+          "sha256": "bb70e8346e070a40bd480bac4f9b5da2310dbd6b8b5aff628eabfa7921f8fd72"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 117094,
+          "sha256": "5151c5bf62d1f312732559dacff303991f70372be2fe201afcbae002a1835cbb"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73357,
+          "sha256": "e6ccf706c7eeb3ea31973ff3d659fb2892de704f0e9454bd46b6ab5587d8fdf9"
+        }
+      ]
+    },
+    {
+      "sku": "RW26307",
+      "title": "Seated Green Frog Resin Miniatures",
+      "dimensions": "Approx. 17 × 13 × 22 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source shows seated translucent green resin frogs with raised eyes, white eye rings and black pupils, a curved smile and pink cheek dots. Confirm supplier size and visible pose on a sample. No hole, loop, magnetic feature, water resistance or fixed mix is promised.",
+      "procurementAdvice": "Specify frog quantities, finish expectations and counted bag packing for miniature garden or craft-component programs. Confirm source dimensions and the seated shape with samples before bulk sourcing or an OEM packing brief.",
+      "uses": "Plan a dry pond-themed scrapbook layout or miniature garden scene using the pictured seated green frog. Check its scale and attachment to your chosen base on a sample; paper lily pads and note-card props are excluded.",
+      "key": "rw26307",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "seated-green-frog-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26307",
+        "sku_raw": "MO-RW26307",
+        "title": "Mini Resin Frogs Green Tiny Frog Figurines Miniature Home Fairy Garden Decor Dollhouse Birthday Party Favors",
+        "material": "Resin",
+        "size": "about17*13*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832376110",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Resin-Frogs-Green-Tiny-Frog_1601832376110.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Resin-Frogs-Green-Tiny-Frog_1601832376110.html",
+      "sourceProductId": "1601832376110",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5d686e1058f043b2859bee2b1cee2872A.jpg",
+      "sourceImageSha256": "bbe4ae38cf887a272209274a24727f2fc885362b1835699167dfb8e6699d9111",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows seated translucent green resin frogs with raised eyes, white eye rings and black pupils, a curved smile and pink cheek dots. Confirm supplier size and visible pose on a sample. No hole, loop, magnetic feature, water resistance or fixed mix is promised.",
+      "description": "Seated Green Frog Resin Miniatures. RW26307 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Seated Green Frog Resin Miniatures. RW26307 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26307 Seated Green Frog Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26307 Seated Green Frog Resin Miniatures Wholesale | HAIBU",
+      "caption": "Seated Green Frog Resin Miniatures. Supplier size reference: Approx. 17 × 13 × 22 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Square craft application reference photograph. Strictly reproduce RW26307 source identity: tiny seated translucent green resin frog with round broad head, two raised eye bumps with white rings and black pupils, simple black curved smile and pink cheek dots; short seated torso with source-visible limbs and feet. Show ONE exact frog front-facing in a dry miniature pond-themed scrapbook display on pale blue card, one green paper lily-pad prop beside it and a blank white note card behind it. No water, clothing, collar, crown, tools, holes, loop or invented hidden features. Keep shape, pose, green translucency, face and limb positions from photo. No text, logo, watermark, gold badge or specifications.",
+        "detailPrompt": "Square macro front detail reference photograph of ONE exact RW26307 seated green translucent resin frog from reference, whole silhouette visible. Preserve round broad head, raised eyes with white painted rings/black pupils, simple curved black smile and two pink cheek dots, source seated torso/limbs/feet. Matte warm ivory background, soft diffused light. No changed pose, backside, invented fingers, clothing, crown, holes, loop, base plate or accessories. Not a living frog; show molded resin surface. No text, logo, watermark, gold badge or specification card."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26307/rw26307-1.jpg",
+        "assets/images/pdp/rw26307/rw26307-2.jpg",
+        "assets/images/pdp/rw26307/rw26307-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26307/rw26307-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 55946,
+          "sha256": "5119b4f48271bc5eaf759633852d08992e9b73e4b0fa540ec21e761b797e913d"
+        },
+        {
+          "path": "assets/images/pdp/rw26307/rw26307-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86360,
+          "sha256": "cba117550cdadd688b74c409105441e4dad80b2bf1ff798f2fa809399aa683b8"
+        },
+        {
+          "path": "assets/images/pdp/rw26307/rw26307-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 78631,
+          "sha256": "18253404a4f01f4395c6c56547abbb01fe9bb713025848aee23c79a04928c4cd"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 55946,
+          "sha256": "5119b4f48271bc5eaf759633852d08992e9b73e4b0fa540ec21e761b797e913d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86360,
+          "sha256": "cba117550cdadd688b74c409105441e4dad80b2bf1ff798f2fa809399aa683b8"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 78631,
+          "sha256": "18253404a4f01f4395c6c56547abbb01fe9bb713025848aee23c79a04928c4cd"
+        }
+      ]
+    },
+    {
+      "sku": "RW26319",
+      "title": "Dessert Popsicle Resin Cabochons",
+      "dimensions": "11 × 20 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source shows several dessert-style popsicle decorations with different front toppings, colors and cream-yellow molded sticks. The single size reference is not mapped to every design. Confirm selected styles and actual assortment; no wooden component, attachment feature or fixed mix is promised. Decorative and non-edible.",
+      "procurementAdvice": "Specify the selected dessert-popsicle styles and counted bag packing for sweet-themed craft programs. Review the supplier size reference, molded toppings and reverse surface on approved samples before bulk sourcing or an OEM packing brief.",
+      "uses": "Plan dessert-themed cards, decoden layouts or scrapbook pages using the pictured resin popsicle styles. Compare size, chosen front design and attachment to your craft base on a sample; card and ribbon props are excluded.",
+      "key": "rw26319",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "dessert-popsicle-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26319",
+        "sku_raw": "MO-RW26319",
+        "title": "100Pcs Kawaii Ice Cream Popsicle Flatback Resin Sweet Food Glossy Cabochon Scrapbooking Accessories Kids DIY Phone Cases Patch",
+        "material": "Resin",
+        "size": "11*20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832421043",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Ice-Cream-Popsicle-Flatback_1601832421043.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Ice-Cream-Popsicle-Flatback_1601832421043.html",
+      "sourceProductId": "1601832421043",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0d8701680c604d75aaeb2c9e42cb9e57f.jpg",
+      "sourceImageSha256": "99599a6f3ad79552f932aaa02b60c35b987e768d0f43aeea40f423e247cc4603",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows several dessert-style popsicle decorations with different front toppings, colors and cream-yellow molded sticks. The single size reference is not mapped to every design. Confirm selected styles and actual assortment; no wooden component, attachment feature or fixed mix is promised. Decorative and non-edible.",
+      "description": "Dessert Popsicle Resin Cabochons. RW26319 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Dessert Popsicle Resin Cabochons. RW26319 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26319 Dessert Popsicle Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26319 Dessert Popsicle Resin Cabochons Wholesale | HAIBU",
+      "caption": "Dessert Popsicle Resin Cabochons. Supplier size reference: 11 × 20 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Square craft application reference photo. Use RW26319 supplier photo strictly for exact product identity. Show two source dessert-popsicle resin cabochons, one pink oval with raised dark red diagonal drizzle stripes and a short cream-yellow molded resin stick, and one pale blue rectangular layered bar with the source blue berry-shaped topping and cream-yellow molded stick. Loose front-facing pieces beside a blank party scrapbook card on soft mint paper, narrow pale pink ribbon prop at side. Keep exact source shapes, colors and toppings, no invented smile/holes/loop/backside/hardware or wooden sticks. Decorative resin, not edible. No text, logo, watermark, gold badge or specifications.",
+        "detailPrompt": "Square macro detail reference photograph of ONE exact RW26319 pink oval popsicle resin cabochon from source, with its source dark red raised diagonal drizzle stripes and short cream-yellow molded resin stick. Entire front silhouette visible on warm ivory matte paper, soft natural side light revealing glossy molded surface. Preserve exact oval contour, stripe style, pink/red color and stick proportion. No toppings, face, holes, loop, reverse, wooden grain or extra accessories. Resin decoration, not edible. No text, logo, watermark, gold badge or specification card."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26319/rw26319-1.jpg",
+        "assets/images/pdp/rw26319/rw26319-2.jpg",
+        "assets/images/pdp/rw26319/rw26319-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26319/rw26319-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73700,
+          "sha256": "ec30746683c7243c26b65b6670f22082e8845a30eaad4b4fc2223f1870643fd2"
+        },
+        {
+          "path": "assets/images/pdp/rw26319/rw26319-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 113631,
+          "sha256": "36e9560607617ea7d18e36cb8ed04be34e500aa170dc2734d44b745fef1f7292"
+        },
+        {
+          "path": "assets/images/pdp/rw26319/rw26319-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 116887,
+          "sha256": "6b5136b9484ff9dbb1364e4f62da0759c7e0c2258ed4bed05c52a9b4afb1ca68"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73700,
+          "sha256": "ec30746683c7243c26b65b6670f22082e8845a30eaad4b4fc2223f1870643fd2"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 113631,
+          "sha256": "36e9560607617ea7d18e36cb8ed04be34e500aa170dc2734d44b745fef1f7292"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 116887,
+          "sha256": "6b5136b9484ff9dbb1364e4f62da0759c7e0c2258ed4bed05c52a9b4afb1ca68"
+        }
+      ]
+    },
+    {
+      "sku": "RW26309",
+      "title": "Tree Resin Miniatures",
+      "dimensions": "Approx. 19 × 25 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source photo shows two different tree forms: a green conical evergreen with a small red accent and a rounded green fruit-tree form with a tan trunk and a red top detail. One size reference is not mapped to both forms. Confirm selected form and actual assortment; no fixed set, hanging attachment or outdoor performance is promised.",
+      "procurementAdvice": "Specify the selected tree form and counted bag packing for seasonal or miniature-landscape craft assortments. Review the front shape, reference dimensions and base against approved samples before bulk sourcing or an OEM packing brief.",
+      "uses": "Use the pictured tree forms to plan miniature garden layouts or seasonal gift-card displays. Choose the intended style and confirm its scale on a sample; the winter card, paper scenery and craft board are props and are excluded.",
+      "key": "rw26309",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "tree-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26309",
+        "sku_raw": "MO-RW26309",
+        "title": "3D Miniature Xmas Tree Fairy Garden Accessories DIY Terrarium Figurines Ornaments Christmas Decoration Supplies",
+        "material": "Resin",
+        "size": "about19*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832248620",
+        "product_url": "https://www.alibaba.com/product-detail/3D-Miniature-Xmas-Tree-Fairy-Garden_1601832248620.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/3D-Miniature-Xmas-Tree-Fairy-Garden_1601832248620.html",
+      "sourceProductId": "1601832248620",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hc53596d738dd4fae86350a264b982793j.jpg",
+      "sourceImageSha256": "da1646c89421a0a8e3ccbc2b5e217adcea8bce5b4a8a44a5ceed8484d098849f",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source photo shows two different tree forms: a green conical evergreen with a small red accent and a rounded green fruit-tree form with a tan trunk and a red top detail. One size reference is not mapped to both forms. Confirm selected form and actual assortment; no fixed set, hanging attachment or outdoor performance is promised.",
+      "description": "Tree Resin Miniatures. RW26309 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Tree Resin Miniatures. RW26309 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26309 Tree Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26309 Tree Resin Miniatures Wholesale | HAIBU",
+      "caption": "Tree Resin Miniatures. Supplier size reference: Approx. 19 × 25 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Square miniature craft application reference photograph. Use RW26309 source for exact identity, select ONLY the green conical evergreen tree visible on left: tiered drooping/scalloped molded foliage, pointed top, tiny red round dot ornament visible on front. Show one front-facing tree loose on a neutral cream craft board beside a blank winter gift card with pale blue paper and a little white paper snow scenery prop. Keep visible foliage silhouette, gloss, green color and red dot exactly; no invented star, extra ornaments, trunk, base plate, holes, hanging loop or backside. Resin miniature, not a live plant. No text, logo, watermark, gold badge or specifications.",
+        "detailPrompt": "Square macro detail reference photograph of ONE exact green conical evergreen resin tree from left side of RW26309 source. Full front silhouette visible on soft warm-gray matte paper; preserve compact pointed top, several layered scalloped green boughs with molded needle marks and the single tiny red round accent visible on front. Natural diffuse light. No invented star, new ornaments, visible trunk, base plate, holes, loop, hidden rear or accessories. Molded resin miniature. No text, logo, watermark, gold badge or specification card."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26309/rw26309-1.jpg",
+        "assets/images/pdp/rw26309/rw26309-2.jpg",
+        "assets/images/pdp/rw26309/rw26309-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26309/rw26309-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 85636,
+          "sha256": "1ae2ab32b83afa05c3c25723dd1aacfee5f392a47d2fbd632cf423efbb366109"
+        },
+        {
+          "path": "assets/images/pdp/rw26309/rw26309-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 75356,
+          "sha256": "6a3d2fd0e0089b2e9fa6be7f98362675efb85db1f2b63d9ab13e1dbe2828c473"
+        },
+        {
+          "path": "assets/images/pdp/rw26309/rw26309-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107873,
+          "sha256": "a2c9abdf5e4bdb9de60462a344a761aaef47468216ff0947cc2478e9139d3e94"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 85636,
+          "sha256": "1ae2ab32b83afa05c3c25723dd1aacfee5f392a47d2fbd632cf423efbb366109"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 75356,
+          "sha256": "6a3d2fd0e0089b2e9fa6be7f98362675efb85db1f2b63d9ab13e1dbe2828c473"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107873,
+          "sha256": "a2c9abdf5e4bdb9de60462a344a761aaef47468216ff0947cc2478e9139d3e94"
+        }
+      ]
+    },
+    {
+      "sku": "RW26312",
+      "title": "Translucent Fish Resin Miniatures",
+      "dimensions": "18 × 32 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The supplier gives an 18 × 32 mm size reference. The photo shows translucent fish in several colors with curved textured bodies, fins, tails and black eyes. Size is not mapped to a selected color. Confirm selected colors and assortment on a sample; no luminous effect, water suitability, hole, magnet, adhesive or fixed mix is promised.",
+      "procurementAdvice": "For fish-themed craft component orders, specify selected colors and counted bag packing. Check molded scales, fins and the 18 × 32 mm size reference on a sample before bulk purchasing or an OEM packaging brief.",
+      "uses": "Place the pictured fish miniatures on a dry pond-themed paper display or alongside a scrapbook layout. Confirm the craft base and attachment method with a sample; paper and styling props are not included.",
+      "key": "rw26312",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "translucent-fish-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26312",
+        "sku_raw": "MO-RW26312",
+        "title": "Cartoon Ccean 3D Resin Series Simulation Luminous Fish Flatback Cabochon for Crafts DIY Dollhouse Accessor",
+        "material": "Resin",
+        "size": "18*32mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832327453",
+        "product_url": "https://www.alibaba.com/product-detail/Cartoon-Ccean-3D-Resin-Series-Simulation_1601832327453.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cartoon-Ccean-3D-Resin-Series-Simulation_1601832327453.html",
+      "sourceProductId": "1601832327453",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H86bead0c552a44cc9d4a3cef180069b6r.jpg",
+      "sourceImageSha256": "dd439fcdc9e9dfb5fc51b4142b7ded1c711539acff79cd9d940e1de6dfaab7ed",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The supplier gives an 18 × 32 mm size reference. The photo shows translucent fish in several colors with curved textured bodies, fins, tails and black eyes. Size is not mapped to a selected color. Confirm selected colors and assortment on a sample; no luminous effect, water suitability, hole, magnet, adhesive or fixed mix is promised.",
+      "description": "Translucent Fish Resin Miniatures. RW26312 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Translucent Fish Resin Miniatures. RW26312 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26312 Translucent Fish Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26312 Translucent Fish Resin Miniatures Wholesale | HAIBU",
+      "caption": "Translucent Fish Resin Miniatures. Supplier size reference: 18 × 32 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Create one independent photographic application reference for SKU RW26312, based STRICTLY on attached same-SKU supplier photograph. Show ONE exact translucent purple fish from lower-right of reference, loosely resting on a dry pale-sage paper pond-themed scrapbook display, with a few flat paper lily pads placed apart and cream textured card background. All dry, no real water. Preserve exact curved body silhouette, scale texture, translucent purple material, clear purple fins and curved tail, rounded face and glossy black eyes; same front/top-oblique visible view, entire miniature visible. Do not add holes, loops, rear views, hardware, glue, magnetic parts, painted eyes, glow or lights. No new fins or accessories. No fixed assortment implied. Props separate from product. Quiet editorial daylight, no text, logo, watermark, badge, no collage. Square image.",
+        "detailPrompt": "Use case: product-mockup. Create one independent photographic detail reference for SKU RW26312 STRICTLY from attached supplier photo. Show ONE exact translucent purple fish visible lower-right of original, closely framed with ENTIRE fish including curved tail and fins in frame on neutral warm-gray matte paper. Preserve supplier exact top/front-oblique visible geometry: rounded face with two glossy black eyes, curved scaled body, molded fins, translucent purple tail. Natural soft side light reveals existing scale texture and translucent resin; do not invent finer scales, rear surfaces, holes, hanging loops, magnets, adhesive, accessories, glow or luminous performance. No actual water. No text/logo/badge/watermark/diagram. Different composition/background from scene; square image."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26312/rw26312-1.jpg",
+        "assets/images/pdp/rw26312/rw26312-2.jpg",
+        "assets/images/pdp/rw26312/rw26312-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26312/rw26312-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 122900,
+          "sha256": "498b2bf3dd5f4ff37653d024efa8dedf04f0d10252d573961195216376ca2fee"
+        },
+        {
+          "path": "assets/images/pdp/rw26312/rw26312-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150873,
+          "sha256": "67bafaf0ed575c19404a535f98f4d3ca07d05753aa977d582df3f7bb7c24d63d"
+        },
+        {
+          "path": "assets/images/pdp/rw26312/rw26312-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 143661,
+          "sha256": "b305c9209121e5bf8f0db1acbb0bdf33bc7fd682316667f14bc00ac9f80e3465"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 122900,
+          "sha256": "498b2bf3dd5f4ff37653d024efa8dedf04f0d10252d573961195216376ca2fee"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150873,
+          "sha256": "67bafaf0ed575c19404a535f98f4d3ca07d05753aa977d582df3f7bb7c24d63d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 143661,
+          "sha256": "b305c9209121e5bf8f0db1acbb0bdf33bc7fd682316667f14bc00ac9f80e3465"
+        }
+      ]
+    },
+    {
+      "sku": "RW26317",
+      "title": "Rabbit and Carrot Resin Miniatures",
+      "dimensions": "22–30 mm (supplier range; axis and design mapping unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The supplier gives a 22–30 mm size range without mapping it to a particular design or axis. The photo includes white rabbit figures, rabbit-and-carrot forms, a carrot basket form and an orange carrot-house form. Confirm chosen designs and dimensions on a sample; no opening, detachable part, hole, magnet, adhesive or fixed assortment is promised.",
+      "procurementAdvice": "For rabbit and carrot themed craft component sourcing, confirm selected forms and counted bag packing, then approve molded details and design-specific dimensions before bulk buying or an OEM packaging brief.",
+      "uses": "Arrange the pictured rabbit or carrot miniatures on a dry seasonal paper display or alongside a gift tag. Check the intended craft base and attachment method on a sample; ribbon, paper and styling props are not included.",
+      "key": "rw26317",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "rabbit-carrot-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26317",
+        "sku_raw": "MO-RW26317",
+        "title": "Kawaii Cartoon Animal Series Resin Rabbit Carrot Easter Holiday Cabchon Scrapbook Diy Jewelry Children Gift Hairpin Accessories",
+        "material": "Resin",
+        "size": "22-30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832366360",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Cartoon-Animal-Series-Resin-Rabbit_1601832366360.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Cartoon-Animal-Series-Resin-Rabbit_1601832366360.html",
+      "sourceProductId": "1601832366360",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7e003a7227ba4d1382a40c18a7d479d9z.jpg",
+      "sourceImageSha256": "b5cc1006f5e3580ac88ce46f2f19ad0815701630ac70e5e21ad40a5be72ab31e",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The supplier gives a 22–30 mm size range without mapping it to a particular design or axis. The photo includes white rabbit figures, rabbit-and-carrot forms, a carrot basket form and an orange carrot-house form. Confirm chosen designs and dimensions on a sample; no opening, detachable part, hole, magnet, adhesive or fixed assortment is promised.",
+      "description": "Rabbit and Carrot Resin Miniatures. RW26317 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Rabbit and Carrot Resin Miniatures. RW26317 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26317 Rabbit and Carrot Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26317 Rabbit and Carrot Resin Miniatures Wholesale | HAIBU",
+      "caption": "Rabbit and Carrot Resin Miniatures. Supplier size reference: 22–30 mm (supplier range; axis and design mapping unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference attached exact SKU RW26317 supplier photo. Create ONE independent photographic craft application reference showing ONLY the standalone white rabbit immediately to right of carrot basket in source. Preserve EXACT simple rounded white resin rabbit silhouette, two short rounded upright ears, two BLUE round dot eyes, tiny downturned pink mouth, pink cheek dots, small molded arms and feet. Entire front visible, same front view, no back. Loosely place rabbit alongside a blank peach-colored gift tag and separate soft yellow ribbon on pale mint paper, dry tabletop. Do not attach rabbit to props, no hardware, holes, glue, magnet, added clothing, smile, black eyes, lettering, flowers, logo, watermark or badge. Preserve visible material and form. No carrot, no other variants, no mixed-set promise. Editorial soft natural daylight, square image.",
+        "detailPrompt": "Use case: product-mockup. Strict exact supplier reference SKU RW26317. One standalone white rabbit directly right of carrot basket in attached source photo, isolated as a photographic detail reference on muted warm-blue matte paper. Entire rabbit front and ears/feet visible in close frame, preserving exact molded rounded silhouette, two short upright rounded ears, round BLUE dot eyes, tiny downturned pink mouth, pink round cheeks, stubby molded arms and feet. Same front-facing view, no invented back, holes, hardware, adhesives, magnet, ornaments, clothing or functional features. Do not replace face with smile or black eyes. Neutral soft side light reveals smooth glossy white resin. No text, logo, watermark, badge, diagram or other miniature. Different background/composition from application scene, square image."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26317/rw26317-1.jpg",
+        "assets/images/pdp/rw26317/rw26317-2.jpg",
+        "assets/images/pdp/rw26317/rw26317-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26317/rw26317-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52474,
+          "sha256": "d4d692ac9447b006ce6109a139ae65c8e36e9a507af91a43de621980f308f2fd"
+        },
+        {
+          "path": "assets/images/pdp/rw26317/rw26317-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86841,
+          "sha256": "e53268c7d8e77c8318c9ba0ba99db871c7e38f9f8aa3a5cb9912fefc77c8b215"
+        },
+        {
+          "path": "assets/images/pdp/rw26317/rw26317-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 55233,
+          "sha256": "84801fbea331eb6c38391c7d76038439a3c926e4b8784a9cfaf50240b119162d"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52474,
+          "sha256": "d4d692ac9447b006ce6109a139ae65c8e36e9a507af91a43de621980f308f2fd"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86841,
+          "sha256": "e53268c7d8e77c8318c9ba0ba99db871c7e38f9f8aa3a5cb9912fefc77c8b215"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 55233,
+          "sha256": "84801fbea331eb6c38391c7d76038439a3c926e4b8784a9cfaf50240b119162d"
+        }
+      ]
+    },
+    {
+      "sku": "RW26303",
+      "title": "Flower Bouquet Resin Miniatures",
+      "dimensions": "23 × 22 × 20 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The original photo shows several flower-bouquet forms with molded green stem bases. The supplier gives a 23 × 22 × 20 mm size reference without mapping it to individual flower styles. Confirm selected flower forms and dimensions on a sample; no real plant material, opening, hole, adhesive or fixed mix is promised.",
+      "procurementAdvice": "For floral craft component procurement, specify selected bouquet forms and counted bag packing; approve molded petals, colors and dimensions before bulk sourcing or OEM packaging.",
+      "uses": "Arrange the pictured bouquet miniatures on a greeting-card display or dry miniature tabletop. Confirm the craft base and attachment method on a sample; card and styling props are not included.",
+      "key": "rw26303",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "flower-bouquet-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26303",
+        "sku_raw": "MO-RW26303",
+        "title": "Miniature Flower Bouquet Flatback Resin Cabochon for Figurine Crafts DIY Home Toys Play Dollhouse Ornament Accessory",
+        "material": "Resin",
+        "size": "23*22*20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832225527",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Flower-Bouquet-Flatback-Resin-Cabochon_1601832225527.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Flower-Bouquet-Flatback-Resin-Cabochon_1601832225527.html",
+      "sourceProductId": "1601832225527",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H696435e146f84686aa97ecedb8af73a9B.jpg",
+      "sourceImageSha256": "e661de46932941007e74024970afaeef1ab69c69777659f7edea49de8114d4ca",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The original photo shows several flower-bouquet forms with molded green stem bases. The supplier gives a 23 × 22 × 20 mm size reference without mapping it to individual flower styles. Confirm selected flower forms and dimensions on a sample; no real plant material, opening, hole, adhesive or fixed mix is promised.",
+      "description": "Flower Bouquet Resin Miniatures. RW26303 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Flower Bouquet Resin Miniatures. RW26303 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26303 Flower Bouquet Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26303 Flower Bouquet Resin Miniatures Wholesale | HAIBU",
+      "caption": "Flower Bouquet Resin Miniatures. Supplier size reference: 23 × 22 × 20 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Independent photographic scene reference for SKU RW26303. STRICTLY based on attached same-SKU supplier photograph. Subject identity: ONE exact yellow rose bouquet from upper-middle right of supplier image: tightly clustered molded yellow roses with spiral layered petals and compact green ribbed stem base, exact front/upper view. Preserve original number/arrangement of visible roses, green leaves and bundled base. No actual flowers or detachable stems. Composition: placed loosely on lavender paper beside a blank ivory folded greeting card and separate peach ribbon. Preserve only the visible original product geometry and exact selected color/material/constituents. Same visible front/top-oblique view; no invented rear view. Entire product visible, soft natural studio light, square composition. No holes, hanging loops, jewelry hardware, adhesive, magnets, added parts, logo, text, watermark, golden badge or diagram. Props remain separate, no permanent attachment or included set implied. Decorative resin miniature/craft component, non-edible. Do not create performance or fixed assortment claims. Vary composition from supplier main and between scene and detail.",
+        "detailPrompt": "Use case: product-mockup. Independent photographic detail reference for SKU RW26303. STRICTLY based on attached same-SKU supplier photograph. Subject identity: ONE exact yellow rose bouquet from upper-middle right of supplier image: tightly clustered molded yellow roses with spiral layered petals and compact green ribbed stem base, exact front/upper view. Preserve original number/arrangement of visible roses, green leaves and bundled base. No actual flowers or detachable stems. Composition: entire bouquet close-up with full compact green base visible on warm taupe matte paper. Preserve only the visible original product geometry and exact selected color/material/constituents. Same visible front/top-oblique view; no invented rear view. Entire product visible, soft natural studio light, square composition. No holes, hanging loops, jewelry hardware, adhesive, magnets, added parts, logo, text, watermark, golden badge or diagram. Props remain separate, no permanent attachment or included set implied. Decorative resin miniature/craft component, non-edible. Do not create performance or fixed assortment claims. Vary composition from supplier main and between scene and detail."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26303/rw26303-1.jpg",
+        "assets/images/pdp/rw26303/rw26303-2.jpg",
+        "assets/images/pdp/rw26303/rw26303-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26303/rw26303-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150725,
+          "sha256": "b2099138251d9aa38d4dfbc57c71e9a80684bfd16bce71dd1f681155d37f5a3e"
+        },
+        {
+          "path": "assets/images/pdp/rw26303/rw26303-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 113732,
+          "sha256": "2aa9a5b06b89c9b7bcc153d46b82853570370ce4b7173e27050e6314d0aaabdd"
+        },
+        {
+          "path": "assets/images/pdp/rw26303/rw26303-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 127501,
+          "sha256": "488f08480596f7c3945e9bab7dc7254265f15d879b12701a7dcc49c8f0839753"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 150725,
+          "sha256": "b2099138251d9aa38d4dfbc57c71e9a80684bfd16bce71dd1f681155d37f5a3e"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 113732,
+          "sha256": "2aa9a5b06b89c9b7bcc153d46b82853570370ce4b7173e27050e6314d0aaabdd"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 127501,
+          "sha256": "488f08480596f7c3945e9bab7dc7254265f15d879b12701a7dcc49c8f0839753"
+        }
+      ]
+    },
+    {
+      "sku": "RW25591",
+      "title": "Iridescent Shell Resin Cabochons",
+      "dimensions": "27 × 24 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The original photo shows fan-shaped resin shell forms in several translucent or pale colors, with ribbed surfaces and reflective or glitter finishes that vary across the photo. The supplier gives a 27 × 24 mm size reference. Confirm the selected finish and colors on a sample; no natural shell material, hole, adhesive or fixed mix is promised.",
+      "procurementAdvice": "For shell-themed craft component purchasing, confirm selected colors and reflective finishes, then approve the 27 × 24 mm size reference and counted bag packing before bulk ordering or OEM packing.",
+      "uses": "Place the pictured shell shapes alongside an ocean-themed scrapbook page or gift tag. Check the chosen craft base and attachment method with a sample; paper and styling props are not included.",
+      "key": "rw25591",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "iridescent-shell-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW25591",
+        "sku_raw": "MO-RW25591",
+        "title": "100Pcs Colored Ice Glitter Shell Resin Patch Flatback DIY Phone Case Bracelet Necklace Shoe Flower Accessories",
+        "material": "Resin",
+        "size": "27*24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601446826276",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Colored-Ice-Glitter-Shell-Resin_1601446826276.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Colored-Ice-Glitter-Shell-Resin_1601446826276.html",
+      "sourceProductId": "1601446826276",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H6bbee6b8961d49dfb20f7a8e32f8603b2.jpg",
+      "sourceImageSha256": "d6e844794fd5e3aae109830b6ff6f3845148ce5bf3be1d47fb20cc4e8544566b",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The original photo shows fan-shaped resin shell forms in several translucent or pale colors, with ribbed surfaces and reflective or glitter finishes that vary across the photo. The supplier gives a 27 × 24 mm size reference. Confirm the selected finish and colors on a sample; no natural shell material, hole, adhesive or fixed mix is promised.",
+      "description": "Iridescent Shell Resin Cabochons. RW25591 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Iridescent Shell Resin Cabochons. RW25591 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW25591 Iridescent Shell Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW25591 Iridescent Shell Resin Cabochons Wholesale | HAIBU",
+      "caption": "Iridescent Shell Resin Cabochons. Supplier size reference: 27 × 24 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Independent photographic scene reference for SKU RW25591. STRICTLY based on attached same-SKU supplier photograph. Subject identity: ONE exact pale pink/white fan-shaped iridescent resin shell from upper right of supplier plate: scalloped outer outline and raised radiating ribs, glossy subtle pearly pink/white reflections. Use this same specific plain pale shell, not other glitter variants. Preserve original shell silhouette and radial ribs, no invented pearl or hole. Composition: loosely resting on a dry sandy-beige paper scrapbook page next to a separate muted blue ocean-themed paper strip and blank cream gift tag. Preserve only the visible original product geometry and exact selected color/material/constituents. Same visible front/top-oblique view; no invented rear view. Entire product visible, soft natural studio light, square composition. No holes, hanging loops, jewelry hardware, adhesive, magnets, added parts, logo, text, watermark, golden badge or diagram. Props remain separate, no permanent attachment or included set implied. Decorative resin miniature/craft component, non-edible. Do not create performance or fixed assortment claims. Vary composition from supplier main and between scene and detail.",
+        "detailPrompt": "Use case: product-mockup. Independent photographic detail reference for SKU RW25591. STRICTLY based on attached same-SKU supplier photograph. Subject identity: ONE exact pale pink/white fan-shaped iridescent resin shell from upper right of supplier plate: scalloped outer outline and raised radiating ribs, glossy subtle pearly pink/white reflections. Use this same specific plain pale shell, not other glitter variants. Preserve original shell silhouette and radial ribs, no invented pearl or hole. Composition: entire shell front/top view close-up on cool slate-blue matte paper, subtle original iridescence, no added glitter if absent on this selected pale shell. Preserve only the visible original product geometry and exact selected color/material/constituents. Same visible front/top-oblique view; no invented rear view. Entire product visible, soft natural studio light, square composition. No holes, hanging loops, jewelry hardware, adhesive, magnets, added parts, logo, text, watermark, golden badge or diagram. Props remain separate, no permanent attachment or included set implied. Decorative resin miniature/craft component, non-edible. Do not create performance or fixed assortment claims. Vary composition from supplier main and between scene and detail."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw25591/rw25591-1.jpg",
+        "assets/images/pdp/rw25591/rw25591-2.jpg",
+        "assets/images/pdp/rw25591/rw25591-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25591/rw25591-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 310606,
+          "sha256": "2ae2e2f435e636e9975a30d9849cbcdb28f07b35ff104bf37f26d96036e9f95d"
+        },
+        {
+          "path": "assets/images/pdp/rw25591/rw25591-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 212482,
+          "sha256": "00088f6d5e21c487a9649ce397beb26c1ccdfaff2883d8af2b714e1c27e91da1"
+        },
+        {
+          "path": "assets/images/pdp/rw25591/rw25591-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 138866,
+          "sha256": "512c985d5e45014a7af10c7efa0b0a9920f40a275bceae3172a5c58d66db136e"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 310606,
+          "sha256": "2ae2e2f435e636e9975a30d9849cbcdb28f07b35ff104bf37f26d96036e9f95d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 212482,
+          "sha256": "00088f6d5e21c487a9649ce397beb26c1ccdfaff2883d8af2b714e1c27e91da1"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 138866,
+          "sha256": "512c985d5e45014a7af10c7efa0b0a9920f40a275bceae3172a5c58d66db136e"
+        }
+      ]
+    },
+    {
+      "sku": "RW26218",
+      "title": "Speckled Pumpkin Resin Miniatures",
+      "dimensions": "22 × 18 mm / 30 × 21 mm (not mapped to individual variants)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The photo shows small lobed pumpkin forms in several colors with contrasting speckles and short molded stems. Supplier size references 22 × 18 mm and 30 × 21 mm are not mapped to individual colors or variants. Confirm selected forms, size mapping and assortment on a sample; no edibility, opening, hole, hardware or fixed mix is promised.",
+      "procurementAdvice": "For harvest-themed craft component orders, clarify each chosen color and size mapping, then approve the speckled finish and counted bag packing before bulk sourcing or an OEM packing brief.",
+      "uses": "Arrange the pictured pumpkin miniatures on a dry harvest-themed paper display or alongside a gift box. Confirm the craft base and attachment method on a sample; box and styling props are not included.",
+      "key": "rw26218",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "speckled-pumpkin-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26218",
+        "sku_raw": "MO- RW26218",
+        "title": "Miniature Dollhouse Colorful Vegetable Pumpkin Mini Food for Doll Accessories Toys",
+        "material": "Resin",
+        "size": "22*18mm- / 30*21mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827320567",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Dollhouse-Colorful-Vegetable-Pumpkin-Mini_1601827320567.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Dollhouse-Colorful-Vegetable-Pumpkin-Mini_1601827320567.html",
+      "sourceProductId": "1601827320567",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H1f5f2c6f63ce4dd8ab0e28d8adda86acY.jpg",
+      "sourceImageSha256": "fa7b85271906ba30e00c77912dd9efab483d44201847e29d45475729d21910ae",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 19,
+      "batchId": "20261028-monica-19",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows small lobed pumpkin forms in several colors with contrasting speckles and short molded stems. Supplier size references 22 × 18 mm and 30 × 21 mm are not mapped to individual colors or variants. Confirm selected forms, size mapping and assortment on a sample; no edibility, opening, hole, hardware or fixed mix is promised.",
+      "description": "Speckled Pumpkin Resin Miniatures. RW26218 resin craft components. Review dimensions, designs and reference packing; request a quotation.",
+      "haibuDescription": "Speckled Pumpkin Resin Miniatures. RW26218 for bulk craft sourcing. Review dimensions and reference packing; discuss OEM packaging.",
+      "metaTitle": "RW26218 Speckled Pumpkin Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26218 Speckled Pumpkin Resin Miniatures Wholesale | HAIBU",
+      "caption": "Speckled Pumpkin Resin Miniatures. Supplier size reference: 22 × 18 mm / 30 × 21 mm (not mapped to individual variants). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Independent photographic scene reference for SKU RW26218. STRICTLY based on attached same-SKU supplier photograph. Subject identity: ONE exact ORANGE speckled pumpkin from supplier photo, use smaller orange pumpkin on upper left of palm: squat round lobed body with cream/yellow irregular tiny speckles, short dark green stem on green top patch. Preserve exact lobe silhouette, color, molded stem and original finish. No food realism, carving, openings or extra leaf. Composition: loosely placed on a dry cream paper harvest display beside a blank small kraft gift box and separate burgundy fabric ribbon. Preserve only the visible original product geometry and exact selected color/material/constituents. Same visible front/top-oblique view; no invented rear view. Entire product visible, soft natural studio light, square composition. No holes, hanging loops, jewelry hardware, adhesive, magnets, added parts, logo, text, watermark, golden badge or diagram. Props remain separate, no permanent attachment or included set implied. Decorative resin miniature/craft component, non-edible. Do not create performance or fixed assortment claims. Vary composition from supplier main and between scene and detail.",
+        "detailPrompt": "Use case: product-mockup. Independent photographic detail reference for SKU RW26218. STRICTLY based on attached same-SKU supplier photograph. Subject identity: ONE exact ORANGE speckled pumpkin from supplier photo, use smaller orange pumpkin on upper left of palm: squat round lobed body with cream/yellow irregular tiny speckles, short dark green stem on green top patch. Preserve exact lobe silhouette, color, molded stem and original finish. No food realism, carving, openings or extra leaf. Composition: entire pumpkin including green stem close-up on pale sage matte paper, original speckle finish visible. Preserve only the visible original product geometry and exact selected color/material/constituents. Same visible front/top-oblique view; no invented rear view. Entire product visible, soft natural studio light, square composition. No holes, hanging loops, jewelry hardware, adhesive, magnets, added parts, logo, text, watermark, golden badge or diagram. Props remain separate, no permanent attachment or included set implied. Decorative resin miniature/craft component, non-edible. Do not create performance or fixed assortment claims. Vary composition from supplier main and between scene and detail."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26218/rw26218-1.jpg",
+        "assets/images/pdp/rw26218/rw26218-2.jpg",
+        "assets/images/pdp/rw26218/rw26218-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26218/rw26218-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 106702,
+          "sha256": "a7acba54bbd20bf945cc8bbf9016e414d21a24a0a2bbf512ee1fa0d9b209711b"
+        },
+        {
+          "path": "assets/images/pdp/rw26218/rw26218-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 141910,
+          "sha256": "75d7f6105ad3b3193dcb538195be8ac874b5384a8531f21a84b0b42751c82411"
+        },
+        {
+          "path": "assets/images/pdp/rw26218/rw26218-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 106292,
+          "sha256": "909762766b78a0aac8b2d0e305f3306357851792efabb0c959ec1ff723b7cac4"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 106702,
+          "sha256": "a7acba54bbd20bf945cc8bbf9016e414d21a24a0a2bbf512ee1fa0d9b209711b"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 141910,
+          "sha256": "75d7f6105ad3b3193dcb538195be8ac874b5384a8531f21a84b0b42751c82411"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 106292,
+          "sha256": "909762766b78a0aac8b2d0e305f3306357851792efabb0c959ec1ff723b7cac4"
+        }
+      ]
+    }
+  ]
+}

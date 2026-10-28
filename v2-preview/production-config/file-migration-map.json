@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-06",
+  "version": "2026-08-23",
   "sourceBranch": "codex/v2-takeover",
   "productionBranch": "main",
   "requiresExplicitApproval": true,
@@ -1461,6 +1461,76 @@
       "destination": "products/resin-charms-for-slime/rw26300-glitter-pineapple-resin-cabochons/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw26300-glitter-pineapple-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26313-apple-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26313-apple-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26313-apple-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26315-pineapple-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26315-pineapple-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26315-pineapple-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26307-seated-green-frog-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26307-seated-green-frog-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26307-seated-green-frog-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26319-dessert-popsicle-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26319-dessert-popsicle-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26319-dessert-popsicle-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26309-tree-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26309-tree-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26309-tree-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26312-translucent-fish-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26312-translucent-fish-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26312-translucent-fish-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26317-rabbit-carrot-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26317-rabbit-carrot-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26317-rabbit-carrot-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26303-flower-bouquet-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26303-flower-bouquet-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26303-flower-bouquet-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25591-iridescent-shell-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25591-iridescent-shell-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25591-iridescent-shell-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26218-speckled-pumpkin-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26218-speckled-pumpkin-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26218-speckled-pumpkin-resin-miniatures/",
       "generatedProduct": true
     },
     {

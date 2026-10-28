@@ -63,6 +63,7 @@ const monicaOctober27ThirdBatch1 = JSON.parse(await readFile(path.join(root, 'sc
 const monicaOctober28FourthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261028-monica-04.json'), 'utf8'));
 const monicaOctober28FifthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261028-monica-05.json'), 'utf8'));
 const monicaOctober28SixthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261028-monica-06.json'), 'utf8'));
+const monicaOctober28SeventhBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261028-monica-07.json'), 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
@@ -105,7 +106,8 @@ const productBatches = [
   { issue: 'haibu-new-products-20261027-monica-03', data: monicaOctober27ThirdBatch1 },
   { issue: 'haibu-new-products-20261028-monica-04', data: monicaOctober28FourthBatch1 },
   { issue: 'haibu-new-products-20261028-monica-05', data: monicaOctober28FifthBatch1 },
-  { issue: 'haibu-new-products-20261028-monica-06', data: monicaOctober28SixthBatch1 }
+  { issue: 'haibu-new-products-20261028-monica-06', data: monicaOctober28SixthBatch1 },
+  { issue: 'haibu-new-products-20261028-monica-07', data: monicaOctober28SeventhBatch1 }
 ];
 
 for (const { issue, data } of productBatches) {

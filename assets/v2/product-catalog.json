@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 461,
+  "count": 463,
   "products": [
     {
       "sku": "YX3301",
@@ -2557,6 +2557,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw23542-mini-seal-resin-figurines/",
       "productionPath": "/products/resin-charms-for-slime/rw23542-mini-seal-resin-figurines/"
+    },
+    {
+      "sku": "RW26640",
+      "title": "Mini Wine Bottle Resin Models",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-01.jpg",
+        "/assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-02.jpg",
+        "/assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26640-mini-wine-bottle-resin-models/",
+      "productionPath": "/products/resin-charms-for-slime/rw26640-mini-wine-bottle-resin-models/"
+    },
+    {
+      "sku": "RW26616",
+      "title": "Autumn Turkey and Gnome Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26616-autumn-turkey-gnome-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw26616-autumn-turkey-gnome-resin-figurines/"
     },
     {
       "sku": "RW0020648",

@@ -6,7 +6,7 @@
 .buyer-feedback h2{margin:0;font-size:clamp(32px,3.5vw,48px);line-height:1.12;letter-spacing:-.035em}
 .buyer-feedback--qula h2{font-family:var(--serif,Georgia,serif)}
 .buyer-feedback__intro{max-width:420px;margin:0 0 4px;color:var(--bf-muted);font-size:17px;line-height:1.7}
-.buyer-feedback__layout{display:grid;grid-template-columns:1.12fr 1fr;gap:22px;align-items:start}
+.buyer-feedback__layout{display:grid;grid-template-columns:1.12fr 1fr;gap:22px;align-items:stretch}
 .buyer-feedback__stack{display:grid;gap:18px}
 .buyer-feedback .buyer-quote{min-width:0;margin:0;padding:28px;border:1px solid var(--bf-border);border-radius:22px;background:#fff;box-shadow:0 8px 28px rgba(40,24,48,.025)}
 .buyer-feedback .buyer-quote--spotlight{display:flex;flex-direction:column;padding:36px;min-height:510px;color:#fff;background:var(--bf-deep);border-color:var(--bf-deep)}
@@ -44,3 +44,9 @@
 .buyer-feedback :is(a,summary):focus-visible,.buyer-feedback__entry:focus-visible{outline:3px solid #2476c3;outline-offset:4px;border-radius:5px}
 @media(max-width:900px){.buyer-feedback__heading{grid-template-columns:1fr;gap:18px}.buyer-feedback__intro{max-width:600px}.buyer-feedback__layout{grid-template-columns:1fr}.buyer-feedback .buyer-quote--spotlight{min-height:0}.buyer-feedback__stack{grid-template-columns:1fr 1fr}.buyer-feedback__bottom{align-items:flex-start;flex-direction:column;gap:18px}}
 @media(max-width:600px){.buyer-feedback{padding:54px 0;scroll-margin-top:90px}.buyer-feedback__heading{margin-bottom:24px}.buyer-feedback__stack{grid-template-columns:1fr}.buyer-feedback .buyer-quote,.buyer-feedback .buyer-quote--spotlight{padding:24px;border-radius:18px}.buyer-feedback .buyer-quote--spotlight blockquote{font-size:25px}.buyer-feedback .buyer-quote--spotlight h3{margin:8px 0 18px}.buyer-feedback__intro{font-size:16px}.buyer-feedback__cta{width:100%}}
+
+/* Floating utilities return when the reader leaves the feedback section. */
+.is-reading-feedback .whatsapp-float,.is-reading-feedback .back-top,.is-reading-feedback .mobile-cta-bar{visibility:hidden;pointer-events:none}
+
+/* Keep review text and its source visible without entrance animations. */
+.buyer-feedback .ux-reveal{opacity:1;transform:none;transition:none}

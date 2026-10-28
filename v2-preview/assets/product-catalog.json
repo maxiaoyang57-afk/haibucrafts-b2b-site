@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 474,
+  "count": 477,
   "products": [
     {
       "sku": "YX3301",
@@ -2752,6 +2752,51 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26520-pink-tulip-bouquet-resin-cabochons/",
       "productionPath": "/products/resin-charms-for-slime/rw26520-pink-tulip-bouquet-resin-cabochons/"
+    },
+    {
+      "sku": "RW24490",
+      "title": "Seated Elephant Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24490-seated-elephant-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw24490-seated-elephant-resin-miniatures/"
+    },
+    {
+      "sku": "RW24850",
+      "title": "Pastel Stingray Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24850-pastel-stingray-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw24850-pastel-stingray-resin-miniatures/"
+    },
+    {
+      "sku": "RW22576",
+      "title": "Seated Panda Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw22576-seated-panda-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw22576-seated-panda-resin-miniatures/"
     },
     {
       "sku": "RW0020648",

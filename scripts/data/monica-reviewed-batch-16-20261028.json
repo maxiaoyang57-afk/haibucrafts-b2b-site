@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 3,
+  "batchCount": 1,
+  "currentBatchNumber": 16,
+  "newProductCount": 3,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW24490",
+      "title": "Seated Elephant Resin Miniatures",
+      "dimensions": "Approx. 31 mm",
+      "packing": "100 pieces per bag",
+      "family": "Animal",
+      "factNote": "The source shows seated elephant figures in several translucent colors with pink inner ears and painted eyes. The approximate31mm reference has no specified axis. Glow performance and fixed color mixes are unverified and are not promised.",
+      "procurementAdvice": "Select elephant colors and bag quantities for miniature craft assortments. Confirm molded trunks, painted eyes, dimensions and packing against samples before OEM planning.",
+      "uses": "Compare the seated elephants for miniature landscape displays or decorative craft layouts. Check the reference scale and placement surface with a sample; paper scenery and other props are excluded.",
+      "key": "rw24490",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "seated-elephant-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW24490",
+        "sku_raw": "MO-RW24490",
+        "title": "100pcs Small Elephant Figurines Luminous Animal Ornaments Glow in Dark Miniature Figurines DIY Micro Home Decoration",
+        "material": "Resin",
+        "size": "about31mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601651441524",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Small-Elephant-Figurines-Luminous-Animal_1601651441524.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Small-Elephant-Figurines-Luminous-Animal_1601651441524.html",
+      "sourceProductId": "1601651441524",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hcca11999d98646d2aab7fd45ff49020ee.jpg",
+      "sourceImageSha256": "a3cae367ba9e332c18161298b98ec5e8143d021b3508f59127b305e70000d753",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 16,
+      "batchId": "20261028-monica-16",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows seated elephant figures in several translucent colors with pink inner ears and painted eyes. The approximate31mm reference has no specified axis. Glow performance and fixed color mixes are unverified and are not promised.",
+      "description": "Seated Elephant Resin Miniatures. RW24490: Approx. 31 mm; reference100pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale seated elephant resin miniatures. RW24490: Approx. 31 mm; reference100pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW24490 Seated Elephant Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW24490 Seated Elephant Resin Miniatures Wholesale | HAIBU",
+      "caption": "Seated Elephant Resin Miniatures. Supplier size reference: Approx. 31 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Same-SKU original image is sole product identity reference. Application photo: two of the exact seated resin elephant miniatures (pink and turquoise) standing loose beside a miniature blank paper landscape display on a warm beige craft desk; small paper trees separate props, muted peach/sage surroundings. Seated glossy slightly translucent elephant resin figurines, round large head, two pink inner ears, black painted eyes with white dots, short curled-up trunk, small seated body and molded feet; preserve exact original poses/proportions/colors. No glowing effects. Show only source-visible faces; no invented backs, underside, holes, loops, hardware or attached accessories. Not edible, not live animals. Preserve resin material and original molded details. Square natural-light photo. No text, logo, badges, watermarks, measuring graphics. Props are separate and excluded.",
+        "detailPrompt": "Use case: product-mockup. Same-SKU original image is sole product identity reference. Macro detail photo of one exact turquoise seated resin elephant, entire visible front and slight original front-side face on matte ivory paper; close clear molded ears, eye paint and feet. Seated glossy slightly translucent elephant resin figurines, round large head, two pink inner ears, black painted eyes with white dots, short curled-up trunk, small seated body and molded feet; preserve exact original poses/proportions/colors. No glowing effects. Show only source-visible faces; no invented backs, underside, holes, loops, hardware or attached accessories. Not edible, not live animals. Preserve resin material and original molded details. Square natural-light photo. No text, logo, badges, watermarks, measuring graphics. Props are separate and excluded."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw24490/rw24490-1.jpg",
+        "assets/images/pdp/rw24490/rw24490-2.jpg",
+        "assets/images/pdp/rw24490/rw24490-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw24490/rw24490-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 76443,
+          "sha256": "53582ed3e1d1c395c95bcf6f263d4459658686315372ee8c5ab34720890f9987"
+        },
+        {
+          "path": "assets/images/pdp/rw24490/rw24490-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 113308,
+          "sha256": "f961d369a396d3b7fbbac382cdb7061ea5d6ec5cc41e974b6b80d346f6a82d50"
+        },
+        {
+          "path": "assets/images/pdp/rw24490/rw24490-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97805,
+          "sha256": "89f059840804ad59e10eebd11888745f606d21ce34a889846f8edb00099c324a"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 76443,
+          "sha256": "53582ed3e1d1c395c95bcf6f263d4459658686315372ee8c5ab34720890f9987"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 113308,
+          "sha256": "f961d369a396d3b7fbbac382cdb7061ea5d6ec5cc41e974b6b80d346f6a82d50"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw24490/rw24490-seated-elephant-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97805,
+          "sha256": "89f059840804ad59e10eebd11888745f606d21ce34a889846f8edb00099c324a"
+        }
+      ]
+    },
+    {
+      "sku": "RW24850",
+      "title": "Pastel Stingray Resin Miniatures",
+      "dimensions": "Approx. 25 × 27 mm",
+      "packing": "100 pieces per bag",
+      "family": "Ocean",
+      "factNote": "The source shows pastel stingray shapes with two painted eyes, broad rounded fins and a curved tail. The reverse surface and attachment features are not established. Confirm selected colors and actual mix; these are non-edible decorative resin pieces.",
+      "procurementAdvice": "Specify stingray colors and quantities for ocean-themed craft assortments. Review fin outlines, tail finish and bag packing against approved samples before a bulk or packaging brief.",
+      "uses": "Plan ocean scrapbook layouts, gift displays or miniature scenes with the pictured stingray shapes. Check their reference size and test attachment on a sample; shells, paper and other props are excluded.",
+      "key": "rw24850",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pastel-stingray-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW24850",
+        "sku_raw": "MO-RW24850",
+        "title": "Miniature Sting Ray Figurines Mini Sculpture Realistic Resin Sting Ray Charms Cake Topper Mini Sting Ray Sea Animal Figurine",
+        "material": "Resin",
+        "size": "about25*27mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643660798",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Sting-Ray-Figurines-Mini-Sculpture_1601643660798.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Sting-Ray-Figurines-Mini-Sculpture_1601643660798.html",
+      "sourceProductId": "1601643660798",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H34c2f78e2f0d47c99e0979e9cce38774T.jpg",
+      "sourceImageSha256": "ab996f023eedf41388d221f71193d8942a89a0cc916d054131eb4a0f87912389",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 16,
+      "batchId": "20261028-monica-16",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows pastel stingray shapes with two painted eyes, broad rounded fins and a curved tail. The reverse surface and attachment features are not established. Confirm selected colors and actual mix; these are non-edible decorative resin pieces.",
+      "description": "Pastel Stingray Resin Miniatures. RW24850: Approx. 25 × 27 mm; reference100pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale pastel stingray resin miniatures. RW24850: Approx. 25 × 27 mm; reference100pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW24850 Pastel Stingray Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW24850 Pastel Stingray Resin Miniatures Wholesale | HAIBU",
+      "caption": "Pastel Stingray Resin Miniatures. Supplier size reference: Approx. 25 × 27 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Same-SKU original image is sole product identity reference. Application photograph: three exact pastel resin stingray-shaped pieces (blue,pink,purple) laid loose beside a blank ocean-themed scrapbook page on pale sand-colored paper; separate torn blue paper and seashell props well away from products. Glossy softly rounded flattened stingray silhouette with raised center, broad rounded fins, original curved short tail, two small black painted eyes; preserve exact source top silhouette and pastel colors, no new anatomy. Show only source-visible faces; no invented backs, underside, holes, loops, hardware or attached accessories. Not edible, not live animals. Preserve resin material and original molded details. Square natural-light photo. No text, logo, badges, watermarks, measuring graphics. Props are separate and excluded.",
+        "detailPrompt": "Use case: product-mockup. Same-SKU original image is sole product identity reference. Macro overhead photograph of two exact pastel resin stingray shapes (mintgreen and pale orange) on matte lilac paper, entire original visible top faces including tail; clear glossy resin finish. Glossy softly rounded flattened stingray silhouette with raised center, broad rounded fins, original curved short tail, two small black painted eyes; preserve exact source top silhouette and pastel colors, no new anatomy. Show only source-visible faces; no invented backs, underside, holes, loops, hardware or attached accessories. Not edible, not live animals. Preserve resin material and original molded details. Square natural-light photo. No text, logo, badges, watermarks, measuring graphics. Props are separate and excluded."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw24850/rw24850-1.jpg",
+        "assets/images/pdp/rw24850/rw24850-2.jpg",
+        "assets/images/pdp/rw24850/rw24850-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw24850/rw24850-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 74718,
+          "sha256": "7ccaf439cff30e185fbdf975dd473f2382067a0b2b0d5f7136ea5eb39b66b3e4"
+        },
+        {
+          "path": "assets/images/pdp/rw24850/rw24850-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 193367,
+          "sha256": "6800fad4877745db747b3997e1e3c8dbf2a8d6b81e19b97b06ae46c4c3254e0f"
+        },
+        {
+          "path": "assets/images/pdp/rw24850/rw24850-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 78738,
+          "sha256": "dc4415cbc75a6b507cdae18724a00dafc78c54a1e2e30db672048514754c6d77"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 74718,
+          "sha256": "7ccaf439cff30e185fbdf975dd473f2382067a0b2b0d5f7136ea5eb39b66b3e4"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 193367,
+          "sha256": "6800fad4877745db747b3997e1e3c8dbf2a8d6b81e19b97b06ae46c4c3254e0f"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw24850/rw24850-pastel-stingray-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 78738,
+          "sha256": "dc4415cbc75a6b507cdae18724a00dafc78c54a1e2e30db672048514754c6d77"
+        }
+      ]
+    },
+    {
+      "sku": "RW22576",
+      "title": "Seated Panda Resin Miniatures",
+      "dimensions": "23 × 29 mm",
+      "packing": "100 pieces per bag",
+      "family": "Animal",
+      "factNote": "The photo shows colored seated panda figures with painted eyes, cheek marks and a small green chest detail. Separate bamboo scenery is a prop; its inclusion is not established. Glow performance and fixed color mix are unverified and are not promised.",
+      "procurementAdvice": "Specify panda colors and bag quantities for bulk decorative assortments. Review painted details, molded paws and packing on samples before OEM or private-label planning.",
+      "uses": "Compare the seated pandas for miniature craft displays or gift layouts. Confirm scale and placement with a sample; separate bamboo scenery and paper props are excluded.",
+      "key": "rw22576",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "seated-panda-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW22576",
+        "sku_raw": "MO-RW22576",
+        "title": "Cute Luminous 3D Panda Resin Crafts Glow in Dark Tiny Pandas Micro Landscape Figures Decorate DIY Home Ornaments",
+        "material": "Resin",
+        "size": "23*29mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601651422347",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Luminous-3D-Panda-Resin-Crafts_1601651422347.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Luminous-3D-Panda-Resin-Crafts_1601651422347.html",
+      "sourceProductId": "1601651422347",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H2a40c2a953de4c779b8b1cf119897f08o.jpg",
+      "sourceImageSha256": "3983e8a4934d24081511b342839dccfbce6483b5bf05acbfc6d99259cad19fa6",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 16,
+      "batchId": "20261028-monica-16",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows colored seated panda figures with painted eyes, cheek marks and a small green chest detail. Separate bamboo scenery is a prop; its inclusion is not established. Glow performance and fixed color mix are unverified and are not promised.",
+      "description": "Seated Panda Resin Miniatures. RW22576: 23 × 29 mm; reference100pieces per bag. Confirm selected designs.",
+      "haibuDescription": "Wholesale seated panda resin miniatures. RW22576: 23 × 29 mm; reference100pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW22576 Seated Panda Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW22576 Seated Panda Resin Miniatures Wholesale | HAIBU",
+      "caption": "Seated Panda Resin Miniatures. Supplier size reference: 23 × 29 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Same-SKU source RW22576 is sole identity reference. Application photo of two exact seated resin panda miniatures, pink and pale blue, loose on a small blank card display on a mint craft tabletop, separate paper leaves in background. Preserve exact rounded head, black rounded ears, black eye patches with ring eyes, tiny black nose/mouth, red cheek marks, small green chest marking, raised paw and seated feet. Exact source front proportions, glossy translucent colored resin. No invented backs/underside, holes, loops, hardware or attached accessories. Do not add or include the separate bamboo prop as part of product. No glow effect. No text, logos, watermark, badges or specification graphics. Natural daylight, square photographic composition;props excluded.",
+        "detailPrompt": "Use case: product-mockup. Same-SKU source RW22576 is sole identity reference. Macro detail photo of one exact peach resin panda miniature resting seated on matte ivory paper, whole source-visible front face and body visible. Preserve exact rounded head, black rounded ears, black eye patches with ring eyes, tiny black nose/mouth, red cheek marks, small green chest marking, raised paw and seated feet. Exact source front proportions, glossy translucent colored resin. No invented backs/underside, holes, loops, hardware or attached accessories. Do not add or include the separate bamboo prop as part of product. No glow effect. No text, logos, watermark, badges or specification graphics. Natural daylight, square photographic composition;props excluded."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw22576/rw22576-1.jpg",
+        "assets/images/pdp/rw22576/rw22576-2.jpg",
+        "assets/images/pdp/rw22576/rw22576-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw22576/rw22576-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 83667,
+          "sha256": "506e19096e7f9f31beac5717cd81a76fe8f96f7f347dc0e8e3921f132014fc55"
+        },
+        {
+          "path": "assets/images/pdp/rw22576/rw22576-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 89865,
+          "sha256": "6fa487833d6f36f22e7a97330dd22376e9b22908f5484cc285d536de41ca0b4c"
+        },
+        {
+          "path": "assets/images/pdp/rw22576/rw22576-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73392,
+          "sha256": "ca6f14fa753e19e14e788cda2694c95d3de97348326f0fd97740cb36c8791ac1"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 83667,
+          "sha256": "506e19096e7f9f31beac5717cd81a76fe8f96f7f347dc0e8e3921f132014fc55"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 89865,
+          "sha256": "6fa487833d6f36f22e7a97330dd22376e9b22908f5484cc285d536de41ca0b4c"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-16/rw22576/rw22576-seated-panda-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73392,
+          "sha256": "ca6f14fa753e19e14e788cda2694c95d3de97348326f0fd97740cb36c8791ac1"
+        }
+      ]
+    }
+  ]
+}

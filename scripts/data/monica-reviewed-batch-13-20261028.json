@@ -1,0 +1,557 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 4,
+  "batchCount": 1,
+  "currentBatchNumber": 13,
+  "newProductCount": 4,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26367",
+      "title": "Christmas Cushion Resin Cabochons",
+      "dimensions": "24 × 24 mm",
+      "packing": "100 pieces per bag",
+      "family": "Seasonal",
+      "factNote": "The photo shows several printed Christmas cushion-style resin designs. One size is not mapped to every design; no fixed mix or fabric material is promised.",
+      "procurementAdvice": "Specify selected designs and bag quantities for bulk procurement. Review size, finish and packing against approved samples before an OEM brief.",
+      "uses": "Plan decorative card, scrapbook or miniature display layouts with these resin pieces. Confirm scale and selected designs, and test your attachment method on a sample.",
+      "key": "rw26367",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "christmas-cushion-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26367",
+        "sku_raw": "MO-RW26367",
+        "title": "Cute Mini Cartoon Christmas Series Resin Figurine Crafts Flatback Cabochon Ornament Jewelry Making Hairwear Accessories",
+        "material": "Resin",
+        "size": "24*24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806971241",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Mini-Cartoon-Christmas-Series-Resin_1601806971241.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Mini-Cartoon-Christmas-Series-Resin_1601806971241.html",
+      "sourceProductId": "1601806971241",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4147fe84f1c04ada8a9fac43aee7ca26h.jpg",
+      "sourceImageSha256": "13508656cd3c2f1f8b7fc58ae2dae8082c1dad24543fd186c1b7ab551f31784a",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 13,
+      "batchId": "20261028-monica-13",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows several printed Christmas cushion-style resin designs. One size is not mapped to every design; no fixed mix or fabric material is promised. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Christmas Cushion Resin Cabochons. RW26367: 24 × 24 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale christmas cushion resin cabochons. RW26367: 24 × 24 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26367 Christmas Cushion Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26367 Christmas Cushion Resin Cabochons Wholesale | HAIBU",
+      "caption": "Christmas Cushion Resin Cabochons. Supplier size reference: 24 × 24 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference image is identity ground truth for RW26367. Exact square cushion-shaped RESIN cabochon with red field and white snowflake pattern (middle row second from left reference). Preserve puffy square silhouette, red base, visible diagonal molded textile-like crosshatch and exact white snowflake pattern; resin,not fabric. Only this observed design; no new text or design. Create an independent craft application photo: loose atop a miniature kraft gift-box lid with deep-green ribbon laid separately at the side; warm beige desk. Props separate and excluded. Same visible front angles as source; no unseen surfaces, extra hardware/attachments, gold badges, added logo, text or watermark. Real painted resin appearance, no invented performance. Square photo.",
+        "detailPrompt": "Use case: product-mockup. Reference image is identity ground truth for RW26367. Exact square cushion-shaped RESIN cabochon with red field and white snowflake pattern (middle row second from left reference). Preserve puffy square silhouette, red base, visible diagonal molded textile-like crosshatch and exact white snowflake pattern; resin,not fabric. Only this observed design; no new text or design. Create an independent close detail photo on light neutral gray paper, complete front shape visible, crisp painted/molded surface detail and soft side light; distinct framing from supplied main photo. Same visible front angles as source; no unseen surfaces, extra hardware/attachments, gold badges, added logo, text or watermark. Real painted resin appearance, no invented performance. Square photo."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26367/rw26367-1.jpg",
+        "assets/images/pdp/rw26367/rw26367-2.jpg",
+        "assets/images/pdp/rw26367/rw26367-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26367/rw26367-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 192988,
+          "sha256": "be1762b1a46d1ce9d81e4c686d877992eb0d342e10a62107011223f1a26fd5fe"
+        },
+        {
+          "path": "assets/images/pdp/rw26367/rw26367-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 172711,
+          "sha256": "d8d24d21a3c5a0f3149c44fad701d0adb7e0ddc51fa36b27e9a4fdf757801f7d"
+        },
+        {
+          "path": "assets/images/pdp/rw26367/rw26367-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 190424,
+          "sha256": "baf4a59f8c9837ebc163416066182a184d02be5a540a89436c5ce0f9cf3f1fc0"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 192988,
+          "sha256": "be1762b1a46d1ce9d81e4c686d877992eb0d342e10a62107011223f1a26fd5fe"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 172711,
+          "sha256": "d8d24d21a3c5a0f3149c44fad701d0adb7e0ddc51fa36b27e9a4fdf757801f7d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 190424,
+          "sha256": "baf4a59f8c9837ebc163416066182a184d02be5a540a89436c5ce0f9cf3f1fc0"
+        }
+      ]
+    },
+    {
+      "sku": "RW26110",
+      "title": "Pastel Wavy Resin Cabochons",
+      "dimensions": "70 × 30 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source lists a single size reference for a mixed photo; confirm selected pieces and measurements. Grainy wavy decorative resin shapes are visible; no animal anatomy or fixed color mix is established.",
+      "procurementAdvice": "Specify selected designs and bag quantities for bulk procurement. Review size, finish and packing against approved samples before an OEM brief.",
+      "uses": "Plan decorative card, scrapbook or miniature display layouts with these resin pieces. Confirm scale and selected designs, and test your attachment method on a sample.",
+      "key": "rw26110",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pastel-wavy-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26110",
+        "sku_raw": "MO-RW26110",
+        "title": "Mixed Pastel Mini Resin Caterpillar Miniature Fairy Garden Micro Landscape Ornament DIY Craft Decoration",
+        "material": "Resin",
+        "size": "70*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601673744719",
+        "product_url": "https://www.alibaba.com/product-detail/Mixed-Pastel-Mini-Resin-Caterpillar-Miniature_1601673744719.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mixed-Pastel-Mini-Resin-Caterpillar-Miniature_1601673744719.html",
+      "sourceProductId": "1601673744719",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hc42bcc67533243bcab5fe54d940fea60m.jpg",
+      "sourceImageSha256": "a78b6cc5ceabf9828a7dd02aebc8197f9b5825f466309810457d445c832abd1d",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 13,
+      "batchId": "20261028-monica-13",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source lists a single size reference for a mixed photo; confirm selected pieces and measurements. Grainy wavy decorative resin shapes are visible; no animal anatomy or fixed color mix is established. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Pastel Wavy Resin Cabochons. RW26110: 70 × 30 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale pastel wavy resin cabochons. RW26110: 70 × 30 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26110 Pastel Wavy Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26110 Pastel Wavy Resin Cabochons Wholesale | HAIBU",
+      "caption": "Pastel Wavy Resin Cabochons. Supplier size reference: 70 × 30 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference image is identity ground truth for RW26110. Same-SKU pastel wavy resin decorative pieces from reference: long undulating flat shapes with rounded ends and grainy textured top, pale mint/lavender/cream/pink. Preserve observed wave outlines and resin texture, no eyes/legs/antennae/new animal anatomy. Do not invent underside; visible tops only. Create an independent craft application photo: three separate pieces lying loose along a pastel lavender scrapbook-card layout with a muted blue paper strip, no glue shown. Props separate and excluded. Same visible front angles as source; no unseen surfaces, extra hardware/attachments, gold badges, added logo, text or watermark. Real painted resin appearance, no invented performance. Square photo.",
+        "detailPrompt": "Use case: product-mockup. Reference image is identity ground truth for RW26110. Same-SKU pastel wavy resin decorative pieces from reference: long undulating flat shapes with rounded ends and grainy textured top, pale mint/lavender/cream/pink. Preserve observed wave outlines and resin texture, no eyes/legs/antennae/new animal anatomy. Do not invent underside; visible tops only. Create an independent close detail photo on light neutral gray paper, complete front shape visible, crisp painted/molded surface detail and soft side light; distinct framing from supplied main photo. Same visible front angles as source; no unseen surfaces, extra hardware/attachments, gold badges, added logo, text or watermark. Real painted resin appearance, no invented performance. Square photo."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26110/rw26110-1.jpg",
+        "assets/images/pdp/rw26110/rw26110-2.jpg",
+        "assets/images/pdp/rw26110/rw26110-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26110/rw26110-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 138384,
+          "sha256": "de2353bf1fc582a7d52cccda8c84e81b703ff421b0cbb198b60c721cf1b55d38"
+        },
+        {
+          "path": "assets/images/pdp/rw26110/rw26110-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 156261,
+          "sha256": "c5e5f4437e4e32cf4e019961e45a4c0edada04e4c74f165aad9ee7549987b9cf"
+        },
+        {
+          "path": "assets/images/pdp/rw26110/rw26110-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139745,
+          "sha256": "b08e2ee8843336856e4021994a96fbb264c317ed57c8807da1f963c1722ad4c4"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 138384,
+          "sha256": "de2353bf1fc582a7d52cccda8c84e81b703ff421b0cbb198b60c721cf1b55d38"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 156261,
+          "sha256": "c5e5f4437e4e32cf4e019961e45a4c0edada04e4c74f165aad9ee7549987b9cf"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139745,
+          "sha256": "b08e2ee8843336856e4021994a96fbb264c317ed57c8807da1f963c1722ad4c4"
+        }
+      ]
+    },
+    {
+      "sku": "RW20635",
+      "title": "Mini Cassette Resin Cabochons",
+      "dimensions": "Approx. 16 × 25 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The photo shows decorative cassette-shaped resin models in several colors and printed faces. No working tape function or fixed assortment is established.",
+      "procurementAdvice": "Specify selected designs and bag quantities for bulk procurement. Review size, finish and packing against approved samples before an OEM brief.",
+      "uses": "Plan decorative card, scrapbook or miniature display layouts with these resin pieces. Confirm scale and selected designs, and test your attachment method on a sample.",
+      "key": "rw20635",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "mini-cassette-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW20635",
+        "sku_raw": "MO-RW20635",
+        "title": "Cute Resin Simulation Tape Cabochon Flatbacks for Hair Bows Center Accessories DIY Decoration Scrapbooking Craft",
+        "material": "Resin",
+        "size": "about 16*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600683569511",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Resin-Simulation-Tape-Cabochon-Flatbacks_1600683569511.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Resin-Simulation-Tape-Cabochon-Flatbacks_1600683569511.html",
+      "sourceProductId": "1600683569511",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H97f548f785e34a52842515018fe7ad47x.jpg",
+      "sourceImageSha256": "bc73b14f10ec0ac9ce26a409dc77d454d6fbe45b59d2103fecef83c3c5e2ad03",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 13,
+      "batchId": "20261028-monica-13",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows decorative cassette-shaped resin models in several colors and printed faces. No working tape function or fixed assortment is established. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Mini Cassette Resin Cabochons. RW20635: Approx. 16 × 25 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale mini cassette resin cabochons. RW20635: Approx. 16 × 25 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW20635 Mini Cassette Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW20635 Mini Cassette Resin Cabochons Wholesale | HAIBU",
+      "caption": "Mini Cassette Resin Cabochons. Supplier size reference: Approx. 16 × 25 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference image is identity ground truth for RW20635. Exact small resin cassette-shaped cabochon, pink frame with existing tropical palm/sunset printed face (center reference). Preserve rectangular molded frame, printed graphic, two round reel recesses and central rectangular opening as visibly supplied; decorative model,not functional tape. No new holes/features or printed words. Create an independent craft application photo: one piece lying loose on a cream journaling card beside a small teal paper strip on a warm wood desk. Props separate and excluded. Same visible front angles as source; no unseen surfaces, extra hardware/attachments, gold badges, added logo, text or watermark. Real painted resin appearance, no invented performance. Square photo.",
+        "detailPrompt": "Use case: product-mockup. Reference image is identity ground truth for RW20635. Exact small resin cassette-shaped cabochon, pink frame with existing tropical palm/sunset printed face (center reference). Preserve rectangular molded frame, printed graphic, two round reel recesses and central rectangular opening as visibly supplied; decorative model,not functional tape. No new holes/features or printed words. Create an independent close detail photo on light neutral gray paper, complete front shape visible, crisp painted/molded surface detail and soft side light; distinct framing from supplied main photo. Same visible front angles as source; no unseen surfaces, extra hardware/attachments, gold badges, added logo, text or watermark. Real painted resin appearance, no invented performance. Square photo."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw20635/rw20635-1.jpg",
+        "assets/images/pdp/rw20635/rw20635-2.jpg",
+        "assets/images/pdp/rw20635/rw20635-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw20635/rw20635-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 134034,
+          "sha256": "7c759605c1f6275d17881ef1e74d47efd903b8e9805e24fd9f339badc0dfa5ce"
+        },
+        {
+          "path": "assets/images/pdp/rw20635/rw20635-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 159562,
+          "sha256": "d6a5f853ecec86b672a2b96bb7a30d57a3f6d1ffe92a803f4e3ba9d95c1deab9"
+        },
+        {
+          "path": "assets/images/pdp/rw20635/rw20635-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 213239,
+          "sha256": "5ecae88bb4877b7e7bd2d81defdebb783980d07930f6cc65705a3e0f40f08537"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 134034,
+          "sha256": "7c759605c1f6275d17881ef1e74d47efd903b8e9805e24fd9f339badc0dfa5ce"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 159562,
+          "sha256": "d6a5f853ecec86b672a2b96bb7a30d57a3f6d1ffe92a803f4e3ba9d95c1deab9"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 213239,
+          "sha256": "5ecae88bb4877b7e7bd2d81defdebb783980d07930f6cc65705a3e0f40f08537"
+        }
+      ]
+    },
+    {
+      "sku": "RW21432",
+      "title": "White Sheep Face Resin Cabochons",
+      "dimensions": "Approx. 24 × 26 mm",
+      "packing": "100 pieces per bag",
+      "family": "Animal",
+      "factNote": "The photo shows round white sheep faces with lavender spiral horns. The reverse surface and attachment method are not established.",
+      "procurementAdvice": "Specify selected designs and bag quantities for bulk procurement. Review size, finish and packing against approved samples before an OEM brief.",
+      "uses": "Plan decorative card, scrapbook or miniature display layouts with these resin pieces. Confirm scale and selected designs, and test your attachment method on a sample.",
+      "key": "rw21432",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "white-sheep-face-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW21432",
+        "sku_raw": "MO-RW21432",
+        "title": "Mini Kawaii Cartoon Animal White Sheep Resin Cabochons Scrapbook Diy Party Hairpin Accessories Deco Parts Crafts",
+        "material": "Resin",
+        "size": "about 24*26mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601394430995",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cartoon-Animal-White-Sheep_1601394430995.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cartoon-Animal-White-Sheep_1601394430995.html",
+      "sourceProductId": "1601394430995",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0fd912d6287241b2bb4d88725fb3e1d7u.jpg",
+      "sourceImageSha256": "82b2c21cf201003d9c7b9ec548727ab278af84a51557c1636a4521c9334a1125",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 13,
+      "batchId": "20261028-monica-13",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows round white sheep faces with lavender spiral horns. The reverse surface and attachment method are not established. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "White Sheep Face Resin Cabochons. RW21432: Approx. 24 × 26 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale white sheep face resin cabochons. RW21432: Approx. 24 × 26 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW21432 White Sheep Face Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW21432 White Sheep Face Resin Cabochons Wholesale | HAIBU",
+      "caption": "White Sheep Face Resin Cabochons. Supplier size reference: Approx. 24 × 26 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference image is identity ground truth for RW21432. Exact round white sheep-face resin cabochon from reference: pinkish cream face with two small black oval eyes, tiny molded nose/smile, scalloped white clustered wool ring and two lavender spiral horns. Preserve exact observed face/outline/colors/glossy surface. No new body, legs, loops, holes, backside or accessories. Create an independent craft application photo: one piece lying loose on a pale peach greeting-card layout, blurred lavender paper at far edge. Props separate and excluded. Same visible front angles as source; no unseen surfaces, extra hardware/attachments, gold badges, added logo, text or watermark. Real painted resin appearance, no invented performance. Square photo.",
+        "detailPrompt": "Use case: product-mockup. Reference image is identity ground truth for RW21432. Exact round white sheep-face resin cabochon from reference: pinkish cream face with two small black oval eyes, tiny molded nose/smile, scalloped white clustered wool ring and two lavender spiral horns. Preserve exact observed face/outline/colors/glossy surface. No new body, legs, loops, holes, backside or accessories. Create an independent close detail photo on light neutral gray paper, complete front shape visible, crisp painted/molded surface detail and soft side light; distinct framing from supplied main photo. Same visible front angles as source; no unseen surfaces, extra hardware/attachments, gold badges, added logo, text or watermark. Real painted resin appearance, no invented performance. Square photo."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw21432/rw21432-1.jpg",
+        "assets/images/pdp/rw21432/rw21432-2.jpg",
+        "assets/images/pdp/rw21432/rw21432-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw21432/rw21432-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 87501,
+          "sha256": "734d78df86a5d29c38190eb6ba1b31a1101365cba4967195106cbf10de438653"
+        },
+        {
+          "path": "assets/images/pdp/rw21432/rw21432-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 120560,
+          "sha256": "fa926ef4d5caad5e5ff531ecd3f7d8033c2233e53117bbd83686c4feb4e40346"
+        },
+        {
+          "path": "assets/images/pdp/rw21432/rw21432-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142336,
+          "sha256": "24345c86c86e2b19fb61410a707b5751449926d877cfe5ab7ac9cd877cae1af7"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 87501,
+          "sha256": "734d78df86a5d29c38190eb6ba1b31a1101365cba4967195106cbf10de438653"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 120560,
+          "sha256": "fa926ef4d5caad5e5ff531ecd3f7d8033c2233e53117bbd83686c4feb4e40346"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142336,
+          "sha256": "24345c86c86e2b19fb61410a707b5751449926d877cfe5ab7ac9cd877cae1af7"
+        }
+      ]
+    }
+  ]
+}

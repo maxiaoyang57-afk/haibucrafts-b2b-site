@@ -1909,8 +1909,8 @@
     },
     {
       "sku": "RW26049",
-      "status": "ready_in_batch",
-      "reason": "Batch12 prepared;pendingCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch12 bothpublished PR157/133 productionREADY exact10GETs/livegallery/search/prefill verified;465HAIBU/689QULA"
     },
     {
       "sku": "RW21838",
@@ -1919,8 +1919,8 @@
     },
     {
       "sku": "RW23930",
-      "status": "ready_in_batch",
-      "reason": "Batch12 prepared;pendingCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch12 bothpublished PR157/133 productionREADY exact10GETs/livegallery/search/prefill verified;465HAIBU/689QULA"
     },
     {
       "sku": "RW004514",
@@ -1929,8 +1929,8 @@
     },
     {
       "sku": "RW26367",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch13 prepared;pendingCI/Preview/main/production"
     },
     {
       "sku": "RW23952",
@@ -1964,8 +1964,8 @@
     },
     {
       "sku": "RW26110",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch13 prepared;pendingCI/Preview/main/production"
     },
     {
       "sku": "RW26110-1",
@@ -2019,13 +2019,13 @@
     },
     {
       "sku": "RW20635",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch13 prepared;pendingCI/Preview/main/production"
     },
     {
       "sku": "RW21432",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch13 prepared;pendingCI/Preview/main/production"
     },
     {
       "sku": "RW23948",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 12,
+  "currentBatchNumber": 13,
   "updatedAt": "2026-10-28"
 }

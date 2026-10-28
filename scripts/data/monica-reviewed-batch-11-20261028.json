@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 2,
+  "batchCount": 1,
+  "currentBatchNumber": 11,
+  "newProductCount": 2,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26640",
+      "title": "Mini Wine Bottle Resin Models",
+      "dimensions": "Approx. 7 × 31 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The source photo shows miniature bottle models with printed reddish-brown labels. They are resin decorative models; no liquid contents, opening function or specific label assortment is established.",
+      "procurementAdvice": "Specify bottle-model quantities and label appearance for miniature display assortments. Review sample finish and packing before a bulk or OEM brief.",
+      "uses": "Arrange these miniature resin bottle models in dollhouse dining displays, miniature shelves or decorative project layouts. They are non-functional craft models; check scale and placement with a sample.",
+      "key": "rw26640",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "mini-wine-bottle-resin-models",
+      "sourceFields": {
+        "sku": "RW26640",
+        "sku_raw": "MO-RW26640",
+        "title": "Miniature Bottles of Red Wine Dollhouse Kitchen Food Toys",
+        "material": "Resin",
+        "size": "about7*31mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601884873793",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Bottles-of-Red-Wine-Dollhouse_1601884873793.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Bottles-of-Red-Wine-Dollhouse_1601884873793.html",
+      "sourceProductId": "1601884873793",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7f2d70969de04bb19cb43b9bb975be47g.jpg",
+      "sourceImageSha256": "e35f4074f29ada4cd2bc7c4e72f87e644da2dd515d05108369d7f817abaa9fef",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 11,
+      "batchId": "20261028-monica-11",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source photo shows miniature bottle models with printed reddish-brown labels. They are resin decorative models; no liquid contents, opening function or specific label assortment is established. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Mini Wine Bottle Resin Models. RW26640: Approx. 7 × 31 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale mini wine bottle resin models. RW26640: Approx. 7 × 31 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26640 Mini Wine Bottle Resin Models | Qula Craft",
+      "haibuMetaTitle": "RW26640 Mini Wine Bottle Resin Models Wholesale | HAIBU",
+      "caption": "Mini Wine Bottle Resin Models. Supplier size reference: Approx. 7 × 31 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference image is exact RW26640 resin miniature wine-bottle models, not real wine. Create one independent application-scene photograph of three identical mini resin bottle models arranged on a little pale-wood dollhouse dining shelf beside a folded cream linen napkin prop. Show same front/three-quarter directions visible in reference. Preserve narrow long brown neck with small clear rounded cap, glossy near-black cylindrical body and reddish-brown rectangular printed label exactly as reference; no cork, opener, glass transparency, liquid, holes, loops or new markings. Keep miniature resin appearance and exact silhouette. Neutral warm beige miniature room, soft daylight, square. No additional product designs, no added logo, watermark, badge or overlay text. Props only context, not included. Do not invent unseen surfaces.",
+        "detailPrompt": "Use case: product-mockup. Exact same SKU RW26640 reference resin miniature wine-bottle model. Independent close-up product detail photo of two reference-matching bottle models lying diagonally on matte warm gray paper, one full front label visible, other same side angle as source. Preserve long thin brown neck and clear rounded tip, near-black glossy cylindrical body, reddish-brown rectangular printed label and molded proportions. Show actual resin finish, not glass/liquid; no invented opening, cork, loop, hole, accessory or rear. No added text, logo, golden badge or watermark. Square macro photograph, crisp detail, soft sidelight; distinct composition from source."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26640/rw26640-1.jpg",
+        "assets/images/pdp/rw26640/rw26640-2.jpg",
+        "assets/images/pdp/rw26640/rw26640-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26640/rw26640-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 167870,
+          "sha256": "c0c0c316bcc42dcba3f9c022a182a91820e8b97fe4a3221295b3eae28186ebf8"
+        },
+        {
+          "path": "assets/images/pdp/rw26640/rw26640-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 115616,
+          "sha256": "0b16407f2852d087ca895cdd0e11cb263c752454bdcd5ef518b89a68973fb116"
+        },
+        {
+          "path": "assets/images/pdp/rw26640/rw26640-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 174824,
+          "sha256": "5343c29211d7e4961bce2bff6e16f8816c38b3fd122c97580756fe0ab13f4eae"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-01.jpg",
+        "assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-02.jpg",
+        "assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 167870,
+          "sha256": "c0c0c316bcc42dcba3f9c022a182a91820e8b97fe4a3221295b3eae28186ebf8"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 115616,
+          "sha256": "0b16407f2852d087ca895cdd0e11cb263c752454bdcd5ef518b89a68973fb116"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-11/rw26640/rw26640-mini-wine-bottle-resin-models-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 174824,
+          "sha256": "5343c29211d7e4961bce2bff6e16f8816c38b3fd122c97580756fe0ab13f4eae"
+        }
+      ]
+    },
+    {
+      "sku": "RW26616",
+      "title": "Autumn Turkey and Gnome Resin Figurines",
+      "dimensions": "18–35 mm",
+      "packing": "100 pieces per bag",
+      "family": "Seasonal",
+      "factNote": "The same-SKU photo shows two turkey designs and two gnome designs. The source gives a size range without mapping it to individual designs. Confirm selected variants and actual mix; a fixed four-design assortment is not promised.",
+      "procurementAdvice": "Select turkey or gnome references and state quantities by design for seasonal purchasing. Confirm the 18–35 mm range, painted details and packing against approved samples before an OEM program.",
+      "uses": "Plan autumn miniature shelves, seasonal display trays or craft layouts with the pictured turkey and gnome designs. Compare the size range with your project and confirm your chosen variants before ordering.",
+      "key": "rw26616",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "autumn-turkey-gnome-resin-figurines",
+      "sourceFields": {
+        "sku": "RW26616",
+        "sku_raw": "MO-RW26616",
+        "title": "Kawaii 3D Resin Animal Christmas Santa Turkeys Miniatures Figurines Home Decor DIY Crafts Dollhouse Accessories",
+        "material": "Resin",
+        "size": "18-35mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601881839552",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-3D-Resin-Animal-Christmas-Santa_1601881839552.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-3D-Resin-Animal-Christmas-Santa_1601881839552.html",
+      "sourceProductId": "1601881839552",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H2fbe20797c474125a6b2a1e9ae26d553c.jpg",
+      "sourceImageSha256": "d6a9312c08a133cfe5085af14ce77e87b0cf42834e43f899834cf580d0d5b032",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 11,
+      "batchId": "20261028-monica-11",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The same-SKU photo shows two turkey designs and two gnome designs. The source gives a size range without mapping it to individual designs. Confirm selected variants and actual mix; a fixed four-design assortment is not promised. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Autumn Turkey and Gnome Resin Figurines. RW26616: 18–35 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale autumn turkey and gnome resin figurines. RW26616: 18–35 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26616 Autumn Turkey and Gnome Resin Figurines | Qula Craft",
+      "haibuMetaTitle": "RW26616 Autumn Turkey and Gnome Resin Figurines Wholesale | HAIBU",
+      "caption": "Autumn Turkey and Gnome Resin Figurines. Supplier size reference: 18–35 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Exact RW26616 resin miniature reference. Independent application scene photo of ONLY the front-left orange gnome in source, the one with brown turkey-face conical hat, yellow ball tip, red hat band with yellow buckle, yellow beak/red wattle on hat, pink round nose, white split moustache/beard, orange body and feet. Preserve exact reference shapes/colors/details and visible front angle; do not add accessories, holes, loops, logos or new forms. One figurine placed loose on a miniature wooden autumn shelf with a burgundy paper backdrop and blurred paper leaves at distant edge. No other figurines. No text, watermark or badge. Square soft daylight photograph, realistic painted resin surface.",
+        "detailPrompt": "Use case: product-mockup. Exact RW26616 source reference. Create independent detail photo of just the front-facing standing brown turkey resin miniature with black top hat and mustard-yellow fanned tail (leftmost turkey reference). Keep same pose, yellow beak, red wattle, tiny dark eyes, layered brown breast feathers, two yellow dots down belly, yellow feet and small light patch on its left-side wing exactly as shown. Whole figure and tail visible, close view on ivory paper with subtle sage background, resin molded texture and glossy paint. Only observed front surfaces, no invention of rear/hole/loop. No added typography, logo, watermark, gold badge or props attached. Square photographed macro."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26616/rw26616-1.jpg",
+        "assets/images/pdp/rw26616/rw26616-2.jpg",
+        "assets/images/pdp/rw26616/rw26616-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26616/rw26616-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 148019,
+          "sha256": "e494ab2c88e745d2a1b3a56b987a8aa6ff1fdb21290595b8730ce591f976c4ef"
+        },
+        {
+          "path": "assets/images/pdp/rw26616/rw26616-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107924,
+          "sha256": "d8fe5e9e6ef5ac87ca4f7d47e8c2249ced5d63f76a9d8176319acdebc830301d"
+        },
+        {
+          "path": "assets/images/pdp/rw26616/rw26616-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 82990,
+          "sha256": "e0aa21c7da4961960245804d313e11e966d8051257fc44d7defcf8b3da8cceb9"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-01.jpg",
+        "assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-02.jpg",
+        "assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 148019,
+          "sha256": "e494ab2c88e745d2a1b3a56b987a8aa6ff1fdb21290595b8730ce591f976c4ef"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107924,
+          "sha256": "d8fe5e9e6ef5ac87ca4f7d47e8c2249ced5d63f76a9d8176319acdebc830301d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-11/rw26616/rw26616-autumn-turkey-gnome-resin-figurines-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 82990,
+          "sha256": "e0aa21c7da4961960245804d313e11e966d8051257fc44d7defcf8b3da8cceb9"
+        }
+      ]
+    }
+  ]
+}

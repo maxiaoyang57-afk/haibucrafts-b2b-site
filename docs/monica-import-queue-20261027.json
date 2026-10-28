@@ -1344,8 +1344,8 @@
     },
     {
       "sku": "RW26652",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "RW252",
@@ -1504,8 +1504,8 @@
     },
     {
       "sku": "RW26425",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "RW26646",
@@ -1559,13 +1559,13 @@
     },
     {
       "sku": "RW25784",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "RW26640",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch11 prepared;pending CI/Preview merge and production"
     },
     {
       "sku": "RW26627",
@@ -1634,8 +1634,8 @@
     },
     {
       "sku": "RW26616",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch11 prepared;pending CI/Preview merge and production"
     },
     {
       "sku": "YA266",
@@ -1704,8 +1704,8 @@
     },
     {
       "sku": "RW26053",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "RW003293",
@@ -1724,8 +1724,8 @@
     },
     {
       "sku": "RW26052",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "YX3881",
@@ -1744,8 +1744,8 @@
     },
     {
       "sku": "RW25644",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "YM109-2",
@@ -1789,8 +1789,8 @@
     },
     {
       "sku": "RW26363",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "needs_review",
+      "reason": "Source title says shark;single brown side-view photo does not establish shark identity. Defer until reliable confirmation."
     },
     {
       "sku": "YX3770",
@@ -1889,8 +1889,8 @@
     },
     {
       "sku": "RW003577",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "RW23944",
@@ -1934,8 +1934,8 @@
     },
     {
       "sku": "RW23952",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "RW24237",
@@ -1959,8 +1959,8 @@
     },
     {
       "sku": "RW26034",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "RW26110",
@@ -2004,8 +2004,8 @@
     },
     {
       "sku": "RW23542",
-      "status": "ready_in_batch",
-      "reason": "Batch10 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch10 published both sites PR155/131;productionREADY exact42GETs and livegallery/search/prefill verified;461HAIBU/685QULA"
     },
     {
       "sku": "RW003797",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 10,
+  "currentBatchNumber": 11,
   "updatedAt": "2026-10-28"
 }

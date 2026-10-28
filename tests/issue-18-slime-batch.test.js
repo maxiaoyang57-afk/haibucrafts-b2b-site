@@ -94,7 +94,7 @@ test('Issue #18 keeps its original SKUs after later catalog additions and preser
   assert.match(directory, new RegExp(String.raw`Browse ${EXPECTED_TOTAL} published products`));
   assert.match(directory, new RegExp(String.raw`<b>${EXPECTED_TOTAL}<\/b><span>Published products<\/span>`));
   assert.match(directory, new RegExp(`<span>${EXPECTED_SLIME} Products<\\/span>[\\s\\S]*?<h2>Slime Charms<\\/h2>`));
-  assert.doesNotMatch(`${home}\n${directory}`, /63 cataloged products|Browse 63 published products|15 Products/);
+  assert.doesNotMatch(`${home}\n${directory}`, /\b63 cataloged products\b|\bBrowse 63 published products\b|\b15 Products\b/);
 
   const legacy = catalog.products.find((product) => product.sku === 'SLM10012');
   assert.equal(legacy?.title, 'Sweet Berry Candy Charms');

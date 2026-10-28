@@ -1,0 +1,557 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 4,
+  "batchCount": 1,
+  "currentBatchNumber": 6,
+  "newProductCount": 4,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26622",
+      "title": "Large Translucent Flower Resin Cabochons",
+      "dimensions": "Approx. 45 mm",
+      "packing": "100 pieces per bag",
+      "family": "flowers",
+      "factNote": "Check the broad 45 mm flower footprint against your craft base; the reference includes different petal and center patterns. Confirm the selected patterns and color mix.",
+      "procurementAdvice": "Specify each flower pattern and required quantities for floral craft ranges. Confirm color ratios, sample finish and any custom packing before ordering.",
+      "uses": "Use a large flower as a focal point on keepsake frames, decorative notebooks or floral shadow boxes; test base and adhesive compatibility on a sample.",
+      "key": "rw26622",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "large-translucent-flower-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26622",
+        "sku_raw": "MO-RW26622",
+        "title": "Kawaii Large Colorful Flowers Spring Resin Cabochon Flatback for Hair Bows DIY Jewelry Making Scrapbooking Decor Accessories",
+        "material": "Resin",
+        "size": "about45mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601887976728",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Large-Colorful-Flowers-Spring-Resin_1601887976728.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Large-Colorful-Flowers-Spring-Resin_1601887976728.html",
+      "sourceProductId": "1601887976728",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H91aec4b8389f47a6aafb6baffeec9efes.jpg",
+      "sourceImageSha256": "d5dc106cdb6d833f35e5e3ec92ae737e71c088f91e9ac61804f9ea5e0d628a1c",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 6,
+      "batchId": "20261028-monica-06",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "Check the broad 45 mm flower footprint against your craft base; the reference includes different petal and center patterns. Confirm the selected patterns and color mix. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Large Translucent Flower Resin Cabochons. RW26622: Approx. 45 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale large translucent flower resin cabochons. RW26622: Approx. 45 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26622 Large Translucent Flower Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26622 Large Translucent Flower Resin Cabochons Wholesale | HAIBU",
+      "caption": "Large Translucent Flower Resin Cabochons. Supplier size reference: Approx. 45 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One continuous square photograph-style illustration for a craft resin gallery; supplied image is the strict same-SKU identity reference. Match the exact visible molded shape, color, painted decorations, relief, proportions and gloss. No invented backs, holes, hooks, hardware, designs or text; no logos, badges, watermarks, rulers, panels or collage. Craft resin decorations only, not real food. Props excluded. Arrange the exact blue round flower, translucent yellow flower and pink round flower from the reference beside a blank pale mint craft card, narrow paper strips and a closed white notebook on a warm ivory desk; flowers loosely placed for a floral collage plan. Retain tiny colored flecks and each flower's particular center/petal pattern.",
+        "detailPrompt": "Use case: product-mockup. One continuous square photograph-style illustration for a craft resin gallery; supplied image is the strict same-SKU identity reference. Match the exact visible molded shape, color, painted decorations, relief, proportions and gloss. No invented backs, holes, hooks, hardware, designs or text; no logos, badges, watermarks, rulers, panels or collage. Craft resin decorations only, not real food. Props excluded. Macro front/top view of the exact translucent yellow and pink round flowers in the reference on cool gray paper. Show the molded petal ribs, flecks and painted centers faithfully. Do not transfer the yellow flower's center pattern to the pink one."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26622/rw26622-1.jpg",
+        "assets/images/pdp/rw26622/rw26622-2.jpg",
+        "assets/images/pdp/rw26622/rw26622-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26622/rw26622-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "76974ae5e2684e95c67407c9789ce211fc3d487c27627d661bf993ad94b3baa2",
+          "bytes": 171582
+        },
+        {
+          "path": "assets/images/pdp/rw26622/rw26622-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4b1535f4998fac90a9082c162053dcccd7dc9ec3f8317daeaefee6e113673978",
+          "bytes": 139974
+        },
+        {
+          "path": "assets/images/pdp/rw26622/rw26622-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ffc9f07c77ff44f6ce28fe840a438ca0a69d527700a4a8a0b90eedd73e20de34",
+          "bytes": 176028
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "76974ae5e2684e95c67407c9789ce211fc3d487c27627d661bf993ad94b3baa2",
+          "bytes": 171582
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4b1535f4998fac90a9082c162053dcccd7dc9ec3f8317daeaefee6e113673978",
+          "bytes": 139974
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26622/rw26622-large-translucent-flower-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "ffc9f07c77ff44f6ce28fe840a438ca0a69d527700a4a8a0b90eedd73e20de34",
+          "bytes": 176028
+        }
+      ]
+    },
+    {
+      "sku": "RW26617",
+      "title": "Yellow Popcorn Resin Miniatures",
+      "dimensions": "12 mm",
+      "packing": "100 pieces per bag",
+      "family": "food",
+      "factNote": "Keep the irregular popcorn relief clear in a miniature display and confirm the base and attachment method on a sample.",
+      "procurementAdvice": "For cinema-themed craft assortments, specify the yellow popcorn shape, bag quantities and packing to protect raised details. Confirm sample appearance before bulk approval.",
+      "uses": "Try miniature cinema scenes, snack-themed shadow boxes or decorative display layouts. These yellow resin pieces are non-edible craft miniatures.",
+      "key": "rw26617",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "yellow-popcorn-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26617",
+        "sku_raw": "MO-RW26617",
+        "title": "Cute 3D Resin Popcorn Simulation Miniature Food Art Flatback Cabochon DIY Craft Decoration",
+        "material": "Resin",
+        "size": "12mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601881327877",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-3D-Resin-Popcorn-Simulation-Miniature_1601881327877.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-3D-Resin-Popcorn-Simulation-Miniature_1601881327877.html",
+      "sourceProductId": "1601881327877",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hb4d283c2d0a34dcc81ce2a0777c0e560s.jpg",
+      "sourceImageSha256": "c9ce74800233bd8d299c0eb06efe342148dd8a647085bdc89e9f5f8ac889b964",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 6,
+      "batchId": "20261028-monica-06",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "Keep the irregular popcorn relief clear in a miniature display and confirm the base and attachment method on a sample. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Yellow Popcorn Resin Miniatures. RW26617: 12 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale yellow popcorn resin miniatures. RW26617: 12 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26617 Yellow Popcorn Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26617 Yellow Popcorn Resin Miniatures Wholesale | HAIBU",
+      "caption": "Yellow Popcorn Resin Miniatures. Supplier size reference: 12 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One continuous square photograph-style illustration for a craft resin gallery; supplied image is the strict same-SKU identity reference. Match the exact visible molded shape, color, painted decorations, relief, proportions and gloss. No invented backs, holes, hooks, hardware, designs or text; no logos, badges, watermarks, rulers, panels or collage. Craft resin decorations only, not real food. Props excluded. Place five exact tiny yellow resin popcorn-shaped pieces from the reference beside a small blank red-and-white striped paper cup and plain kraft card on a soft blue craft desk, as a miniature cinema-themed layout idea. Retain the particular irregular molded yellow popcorn relief, do not turn into realistic edible popped corn.",
+        "detailPrompt": "Use case: product-mockup. One continuous square photograph-style illustration for a craft resin gallery; supplied image is the strict same-SKU identity reference. Match the exact visible molded shape, color, painted decorations, relief, proportions and gloss. No invented backs, holes, hooks, hardware, designs or text; no logos, badges, watermarks, rulers, panels or collage. Craft resin decorations only, not real food. Props excluded. Macro of three exact yellow resin popcorn-shaped pieces from reference on ivory studio paper. Preserve the complex molded lobes and surface relief, glossy yellow coating, irregular proportions, visible top/front views. Do not substitute realistic fluffy white popcorn."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26617/rw26617-1.jpg",
+        "assets/images/pdp/rw26617/rw26617-2.jpg",
+        "assets/images/pdp/rw26617/rw26617-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26617/rw26617-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "647bc7b4d081dc4ae333001c7296a483fbc591035e267ee22e5c472d2e0ab05d",
+          "bytes": 120112
+        },
+        {
+          "path": "assets/images/pdp/rw26617/rw26617-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "74b0eff2d0ac68dff0169fc54399d40b36c862cc4a40a946c42d446e2f516e5a",
+          "bytes": 105796
+        },
+        {
+          "path": "assets/images/pdp/rw26617/rw26617-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fae35b21ac77d762f494ca370206d535389cd3f3867951b851ba339b5b327451",
+          "bytes": 99903
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "647bc7b4d081dc4ae333001c7296a483fbc591035e267ee22e5c472d2e0ab05d",
+          "bytes": 120112
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "74b0eff2d0ac68dff0169fc54399d40b36c862cc4a40a946c42d446e2f516e5a",
+          "bytes": 105796
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26617/rw26617-yellow-popcorn-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fae35b21ac77d762f494ca370206d535389cd3f3867951b851ba339b5b327451",
+          "bytes": 99903
+        }
+      ]
+    },
+    {
+      "sku": "RW26631",
+      "title": "Filled Bread Roll Resin Miniatures",
+      "dimensions": "Approx. 28 × 15 × 13 mm",
+      "packing": "100 pieces per bag",
+      "family": "food",
+      "factNote": "The reference shows ridged filled-roll shapes with red ends in several finishes. Choose colors before composing a miniature bakery; do not assume a fixed mix per bag.",
+      "procurementAdvice": "Identify the required filled-roll colors and bag quantities. Confirm the ridged surface finish, sprinkle detail and protective packing against an approved sample; discuss custom assortments separately.",
+      "uses": "Arrange miniature bakery displays or food-themed shadow boxes with the ridged rolls; the supplier reference dimensions help check clearance around the raised shape. Non-edible resin.",
+      "key": "rw26631",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "filled-bread-roll-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26631",
+        "sku_raw": "MO-RW26631",
+        "title": "Croissant Bread Roll 1:12 Flatback Resin Cabochon for Simulation Food DIY Dollhouse Kichen Play Decoration Making Accessories",
+        "material": "Resin",
+        "size": "about28*15*13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601887794886",
+        "product_url": "https://www.alibaba.com/product-detail/Croissant-Bread-Roll-1-12-Flatback_1601887794886.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Croissant-Bread-Roll-1-12-Flatback_1601887794886.html",
+      "sourceProductId": "1601887794886",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H8b6557f8aa4d4d0a8aa01ff50fd18a3e9.jpg",
+      "sourceImageSha256": "da943af52af28fc0d491d7e11c2bc44055175c6d8bf1d881508e07652f24965c",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 6,
+      "batchId": "20261028-monica-06",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The reference shows ridged filled-roll shapes with red ends in several finishes. Choose colors before composing a miniature bakery; do not assume a fixed mix per bag. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Filled Bread Roll Resin Miniatures. RW26631: Approx. 28 × 15 × 13 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale filled bread roll resin miniatures. RW26631: Approx. 28 × 15 × 13 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26631 Filled Bread Roll Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26631 Filled Bread Roll Resin Miniatures Wholesale | HAIBU",
+      "caption": "Filled Bread Roll Resin Miniatures. Supplier size reference: Approx. 28 × 15 × 13 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One continuous square photograph-style craft gallery illustration; reference image is strict same-SKU identity target. Preserve exact molded outline, colored coating, painted or raised features and proportions, no invented holes, hooks, backs, hardware, new designs. No text, logos, watermarks, gold badges, labels, rulers, panels or collage. All miniatures are non-edible resin craft pieces, props excluded. Place three of the exact ridged filled bread-roll resin miniatures from reference, yellow, pink and brown with red ends and tiny colorful sprinkles, beside a small blank bakery craft card and paper tray on a cream desk. Show a miniature craft display idea, retain molded plastic-like resin finish; do not turn into real croissants or alter toppings.",
+        "detailPrompt": "Use case: product-mockup. One continuous square photograph-style craft gallery illustration; reference image is strict same-SKU identity target. Preserve exact molded outline, colored coating, painted or raised features and proportions, no invented holes, hooks, backs, hardware, new designs. No text, logos, watermarks, gold badges, labels, rulers, panels or collage. All miniatures are non-edible resin craft pieces, props excluded. Tight macro top/front view of exact yellow and pink filled ridged bread-roll resin miniatures from reference on a light blue surface. Show the fine molded ridges, red ends and tiny colored sprinkles; maintain original proportions and molded craft texture."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26631/rw26631-1.jpg",
+        "assets/images/pdp/rw26631/rw26631-2.jpg",
+        "assets/images/pdp/rw26631/rw26631-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26631/rw26631-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c5e7bba46f2244cecdfd11b0be2d26a7d8413e5c187164265157105fea2774f7",
+          "bytes": 150837
+        },
+        {
+          "path": "assets/images/pdp/rw26631/rw26631-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1a8027e7cea76d6b8655813c97e5bdee2bb2fc4e6b53b4a1262796844ba7ef79",
+          "bytes": 131237
+        },
+        {
+          "path": "assets/images/pdp/rw26631/rw26631-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "131ad3a38daa64dd207d9f6b51e6f21474135a6690889c0c39f81bd591a90e6a",
+          "bytes": 117718
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "c5e7bba46f2244cecdfd11b0be2d26a7d8413e5c187164265157105fea2774f7",
+          "bytes": 150837
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1a8027e7cea76d6b8655813c97e5bdee2bb2fc4e6b53b4a1262796844ba7ef79",
+          "bytes": 131237
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26631/rw26631-filled-bread-roll-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "131ad3a38daa64dd207d9f6b51e6f21474135a6690889c0c39f81bd591a90e6a",
+          "bytes": 117718
+        }
+      ]
+    },
+    {
+      "sku": "RW26646",
+      "title": "Filled Biscuit Resin Cabochons",
+      "dimensions": "Approx. 18 mm",
+      "packing": "100 pieces per bag",
+      "family": "food",
+      "factNote": "Select the center-filling colors and check the round biscuit footprint for your miniature layout. Actual bag composition needs confirmation.",
+      "procurementAdvice": "Specify the desired center-filling colors, bag quantities and finish for biscuit-themed craft ranges. Confirm any requested assortment and packing after sample review.",
+      "uses": "Build a miniature bakery collage, decorative tray scene or food-themed frame using the round resin biscuits. Match the filling colors to the surrounding layout. Non-edible craft decorations.",
+      "key": "rw26646",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "filled-biscuit-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26646",
+        "sku_raw": "MO-RW26646",
+        "title": "Miniature Dollhouse Food Simulation Jam Chocolate Chip Biscuits Model DIY Decoration for Doll Accessories",
+        "material": "Resin",
+        "size": "about18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601886944537",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Dollhouse-Food-Simulation-Jam-Chocolate_1601886944537.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Dollhouse-Food-Simulation-Jam-Chocolate_1601886944537.html",
+      "sourceProductId": "1601886944537",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H40f0ad9120f04bd3b822547a7a124119v.jpg",
+      "sourceImageSha256": "92a3efc563a29633dd445dfe4f713580dba0dc95fae2b58ade757ee762e65fc2",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 6,
+      "batchId": "20261028-monica-06",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "Select the center-filling colors and check the round biscuit footprint for your miniature layout. Actual bag composition needs confirmation. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Filled Biscuit Resin Cabochons. RW26646: Approx. 18 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale filled biscuit resin cabochons. RW26646: Approx. 18 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26646 Filled Biscuit Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26646 Filled Biscuit Resin Cabochons Wholesale | HAIBU",
+      "caption": "Filled Biscuit Resin Cabochons. Supplier size reference: Approx. 18 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One continuous square photograph-style craft gallery illustration; reference image is strict same-SKU identity target. Preserve exact molded outline, colored coating, painted or raised features and proportions, no invented holes, hooks, backs, hardware, new designs. No text, logos, watermarks, gold badges, labels, rulers, panels or collage. All miniatures are non-edible resin craft pieces, props excluded. Place three exact golden round resin biscuit miniatures from reference (green filling, brown filling, pale pink filling), with dark chocolate-dot decoration, loosely on a tiny blank kraft display card beside paper scraps on a pale pink craft desk. Non-edible miniature craft layout idea. Keep the characteristic wavy center filling and molded biscuit texture.",
+        "detailPrompt": "Use case: product-mockup. One continuous square photograph-style craft gallery illustration; reference image is strict same-SKU identity target. Preserve exact molded outline, colored coating, painted or raised features and proportions, no invented holes, hooks, backs, hardware, new designs. No text, logos, watermarks, gold badges, labels, rulers, panels or collage. All miniatures are non-edible resin craft pieces, props excluded. Macro of two exact golden round biscuit-shaped resin miniatures from reference, one green center filling and one brown, on warm gray paper. Preserve the wavy center filling, dark dots, uneven molded surface and exact circular proportions. Do not invent extra layers or real crumb food textures."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26646/rw26646-1.jpg",
+        "assets/images/pdp/rw26646/rw26646-2.jpg",
+        "assets/images/pdp/rw26646/rw26646-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26646/rw26646-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dc7c5d1358174e2e0f110ca4c5f9d72117a2b783d38bd6903394af226b821064",
+          "bytes": 135853
+        },
+        {
+          "path": "assets/images/pdp/rw26646/rw26646-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1f8fba074d7f0afda45d0459f504f80c9f1c967e4f1ee38716d6821a4eb775b5",
+          "bytes": 157006
+        },
+        {
+          "path": "assets/images/pdp/rw26646/rw26646-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4090277228d59c5308ba44281432b5ea50bcae6056ae0c2c17ebf86a9ae98f1e",
+          "bytes": 149680
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dc7c5d1358174e2e0f110ca4c5f9d72117a2b783d38bd6903394af226b821064",
+          "bytes": 135853
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "1f8fba074d7f0afda45d0459f504f80c9f1c967e4f1ee38716d6821a4eb775b5",
+          "bytes": 157006
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-06/rw26646/rw26646-filled-biscuit-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4090277228d59c5308ba44281432b5ea50bcae6056ae0c2c17ebf86a9ae98f1e",
+          "bytes": 149680
+        }
+      ]
+    }
+  ]
+}

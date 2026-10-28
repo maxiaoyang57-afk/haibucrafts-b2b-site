@@ -2029,8 +2029,8 @@
     },
     {
       "sku": "RW23948",
-      "status": "ready_in_batch",
-      "reason": "Batch14 prepared;pendingnecessaryCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch14 bothformallypublished PR158/144 correctproject/commit productionREADY;18exactGETs each and livegallery/search/inquirycontext verified,no inquiry sent"
     },
     {
       "sku": "RW25135",
@@ -2044,13 +2044,13 @@
     },
     {
       "sku": "RW375",
-      "status": "ready_in_batch",
-      "reason": "Batch14 prepared;pendingnecessaryCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch14 bothformallypublished PR158/144 correctproject/commit productionREADY;18exactGETs each and livegallery/search/inquirycontext verified,no inquiry sent"
     },
     {
       "sku": "RW23535",
-      "status": "ready_in_batch",
-      "reason": "Batch14 prepared;pendingnecessaryCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch14 bothformallypublished PR158/144 correctproject/commit productionREADY;18exactGETs each and livegallery/search/inquirycontext verified,no inquiry sent"
     },
     {
       "sku": "RW25476",
@@ -2064,8 +2064,8 @@
     },
     {
       "sku": "RW004628",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch15 prepared;pendingnecessaryCI/Preview/main/production"
     },
     {
       "sku": "RW22576",
@@ -2169,8 +2169,8 @@
     },
     {
       "sku": "RW26520",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch15 prepared;pendingnecessaryCI/Preview/main/production"
     },
     {
       "sku": "YX3738",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 14,
+  "currentBatchNumber": 15,
   "updatedAt": "2026-10-28"
 }

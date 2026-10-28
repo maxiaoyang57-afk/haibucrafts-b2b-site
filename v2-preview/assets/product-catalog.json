@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 463,
+  "count": 465,
   "products": [
     {
       "sku": "YX3301",
@@ -2587,6 +2587,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26616-autumn-turkey-gnome-resin-figurines/",
       "productionPath": "/products/resin-charms-for-slime/rw26616-autumn-turkey-gnome-resin-figurines/"
+    },
+    {
+      "sku": "RW26049",
+      "title": "Panda Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26049-panda-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26049-panda-resin-cabochons/"
+    },
+    {
+      "sku": "RW23930",
+      "title": "Translucent Yellow Duck Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23930-translucent-yellow-duck-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw23930-translucent-yellow-duck-resin-figurines/"
     },
     {
       "sku": "RW0020648",

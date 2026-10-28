@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 2,
+  "batchCount": 1,
+  "currentBatchNumber": 12,
+  "newProductCount": 2,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26049",
+      "title": "Panda Resin Cabochons",
+      "dimensions": "Approx. 25 × 35 mm",
+      "packing": "100 pieces per bag",
+      "family": "Animal",
+      "factNote": "The photo shows several panda poses, including pink-heart and bamboo designs. One supplier size reference is not mapped to every pose. Confirm your selected designs; no fixed mix or reverse surface is established.",
+      "procurementAdvice": "Select panda poses and state bag quantities for bulk craft ranges. Review painted faces, molded details and packing on approved samples before a production or OEM brief.",
+      "uses": "Compare the panda shapes for scrapbook cards, decorative layouts and craft embellishment projects. Confirm your chosen designs and test attachment on a sample; the reverse surface is not established by the photo.",
+      "key": "rw26049",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "panda-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26049",
+        "sku_raw": "MO-RW26049",
+        "title": "100Pcs New Cute Cartoon Panda Collection Flat Back Cabochon Resin Ornaments for Jewelry Bows Accessories",
+        "material": "Resin",
+        "size": "about25*35mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601636623004",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-New-Cute-Cartoon-Panda-Collection_1601636623004.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-New-Cute-Cartoon-Panda-Collection_1601636623004.html",
+      "sourceProductId": "1601636623004",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hd0f1ab1f5ae2417da2bdc9e8a5aebdd98.jpg",
+      "sourceImageSha256": "66694092f89fced52367b399102d40bf14d4b55b29edf55a1d72f987a6b1953d",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 12,
+      "batchId": "20261028-monica-12",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows several panda poses, including pink-heart and bamboo designs. One supplier size reference is not mapped to every pose. Confirm your selected designs; no fixed mix or reverse surface is established. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Panda Resin Cabochons. RW26049: Approx. 25 × 35 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale panda resin cabochons. RW26049: Approx. 25 × 35 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26049 Panda Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26049 Panda Resin Cabochons Wholesale | HAIBU",
+      "caption": "Panda Resin Cabochons. Supplier size reference: Approx. 25 × 35 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Exact RW26049 source reference resin panda cabochons. Independent craft application scene: the front-facing panda holding the pink heart (upper-right in reference) lies loose on a pale lilac scrapbook card beside a narrow teal paper strip. Preserve exact white head, black ears/eye patches/arms/legs, closed eye expression, tiny tongue, pink cheeks, pink heart and silver-gray soles from source. Same observed front view, no invented holes, loops, adhesive, back or new accessories. Do not add variants. Soft daylight square photograph, painted glossy resin look, card is prop only. No text, logos, watermark or gold badge.",
+        "detailPrompt": "Use case: product-mockup. Exact same SKU RW26049 source panda cabochon. Independent close detail photograph of the panda holding the green horizontal bamboo segment (lower-left in reference). Preserve exact front visible pose: white round head, black ears and eye patches with closed eyes, tiny pink tongue, pink cheeks, black front paws over green bamboo with molded leaf cluster below. Show one complete shape on warm ivory paper, no new holes, loops, unseen rear or extra components. Soft macro lighting, real glossy painted resin finish. Square, no added text, branding, golden badge or watermark."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26049/rw26049-1.jpg",
+        "assets/images/pdp/rw26049/rw26049-2.jpg",
+        "assets/images/pdp/rw26049/rw26049-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26049/rw26049-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129361,
+          "sha256": "0a37f91d69f996454168fc1ffa927183925d68d3cee3ec24b953034051c7ebab"
+        },
+        {
+          "path": "assets/images/pdp/rw26049/rw26049-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 162889,
+          "sha256": "cf0e4f454d5a05941b7f66bad9d3b7b4eef39c6454f4e7fa568da8f514211460"
+        },
+        {
+          "path": "assets/images/pdp/rw26049/rw26049-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109045,
+          "sha256": "545fe1fc90cfc8c18ee19a344ef1a31e5aea2646ec81d736f2eaa6ce0e9f3f37"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129361,
+          "sha256": "0a37f91d69f996454168fc1ffa927183925d68d3cee3ec24b953034051c7ebab"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 162889,
+          "sha256": "cf0e4f454d5a05941b7f66bad9d3b7b4eef39c6454f4e7fa568da8f514211460"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-12/rw26049/rw26049-panda-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109045,
+          "sha256": "545fe1fc90cfc8c18ee19a344ef1a31e5aea2646ec81d736f2eaa6ce0e9f3f37"
+        }
+      ]
+    },
+    {
+      "sku": "RW23930",
+      "title": "Translucent Yellow Duck Resin Figurines",
+      "dimensions": "13–24 mm",
+      "packing": "100 pieces per bag",
+      "family": "Animal",
+      "factNote": "The same-SKU photo shows several duck poses and existing accessories. The source gives a size range without mapping it to each variant. Glow-in-the-dark performance is unverified and is not promised. Confirm the selected variants and actual mix.",
+      "procurementAdvice": "Specify duck designs and bag quantities for decorative miniature assortments. Confirm translucent yellow appearance, source size range and painted details against samples; discuss packaging or OEM feasibility for your brief.",
+      "uses": "Arrange the miniature duck references in decorative trays, miniature shelves or craft layouts. Choose your preferred poses and check scale against the project. No glow performance, floating function or fixed assortment is promised.",
+      "key": "rw23930",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "translucent-yellow-duck-resin-figurines",
+      "sourceFields": {
+        "sku": "RW23930",
+        "sku_raw": "MO-RW23930",
+        "title": "Glow in Dark Artist Duck Figurines Luminous Mini Resin Miniature Decor for Valentine Christmas Gift",
+        "material": "Resin",
+        "size": "13-24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601660728906",
+        "product_url": "https://www.alibaba.com/product-detail/Glow-in-Dark-Artist-Duck-Figurines_1601660728906.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Glow-in-Dark-Artist-Duck-Figurines_1601660728906.html",
+      "sourceProductId": "1601660728906",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hc91fae5cb6374fdb9aac929c9c18c05b8.jpg",
+      "sourceImageSha256": "a227c0cc1349dca4c0edccdde699db90458d4a0e347d8b7261c1b8bdb46f5ff4",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 12,
+      "batchId": "20261028-monica-12",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The same-SKU photo shows several duck poses and existing accessories. The source gives a size range without mapping it to each variant. Glow-in-the-dark performance is unverified and is not promised. Confirm the selected variants and actual mix. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Translucent Yellow Duck Resin Figurines. RW23930: 13–24 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale translucent yellow duck resin figurines. RW23930: 13–24 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW23930 Translucent Yellow Duck Resin Figurines | Qula Craft",
+      "haibuMetaTitle": "RW23930 Translucent Yellow Duck Resin Figurines Wholesale | HAIBU",
+      "caption": "Translucent Yellow Duck Resin Figurines. Supplier size reference: 13–24 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference is exact RW23930 translucent yellow resin duck miniatures. Independent application scene: use ONLY the upright duck with blue neck band (upper-right source), resting loose on a miniature pale blue display tray with blurred folded white paper backdrop and small lavender paper strip at distant edge. Preserve translucent yellow head/body/wings, orange beak and black round eyes, existing blue neck band, actual squat duck form and same front three-quarter view. No liquid, swimming, glow effect, rubber, holes, loops, new clothing or accessories; do not invent back surfaces. One duck, props separate/excluded. Soft daylight square macrophoto. No logos, text, watermark, badge.",
+        "detailPrompt": "Use case: product-mockup. Exact RW23930 source resin ducks. Independent close detail photo of ONLY the yellow duck with red neck scarf and yellow star (rightmost source). Preserve translucent warm-yellow rounded head/body and raised tail, black eyes, orange pointed beak, red scarf with visible yellow star, same source front/three-quarter pose. Complete miniature visible on neutral light-gray paper with soft side light, no emitting glow, no liquid, no holes/loops, no new accessories or unseen rear views. Real molded glossy resin finish, not rubber. Square macro photograph, no text, watermark, logos, golden badge."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw23930/rw23930-1.jpg",
+        "assets/images/pdp/rw23930/rw23930-2.jpg",
+        "assets/images/pdp/rw23930/rw23930-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw23930/rw23930-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 68618,
+          "sha256": "9e360ac145508dd132495579d5ff31f3fb14f80d57405baf66363184fae37562"
+        },
+        {
+          "path": "assets/images/pdp/rw23930/rw23930-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 58954,
+          "sha256": "f30d352d618da08b1a06e3ccb1be7790a814f24356bc7f957aec4fa40c79858e"
+        },
+        {
+          "path": "assets/images/pdp/rw23930/rw23930-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 84968,
+          "sha256": "bccde252ef7e7bb2d33af60a5e45b55e832c1b97931e04d6a02e832068cecdca"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-01.jpg",
+        "assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-02.jpg",
+        "assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 68618,
+          "sha256": "9e360ac145508dd132495579d5ff31f3fb14f80d57405baf66363184fae37562"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 58954,
+          "sha256": "f30d352d618da08b1a06e3ccb1be7790a814f24356bc7f957aec4fa40c79858e"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-12/rw23930/rw23930-translucent-yellow-duck-resin-figurines-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 84968,
+          "sha256": "bccde252ef7e7bb2d33af60a5e45b55e832c1b97931e04d6a02e832068cecdca"
+        }
+      ]
+    }
+  ]
+}

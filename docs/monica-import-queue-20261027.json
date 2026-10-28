@@ -1564,8 +1564,8 @@
     },
     {
       "sku": "RW26640",
-      "status": "ready_in_batch",
-      "reason": "Batch11 prepared;pending CI/Preview merge and production"
+      "status": "already_listed",
+      "reason": "Batch11 bothpublished PR156/132,correctproductionREADY10exactGETs and livegallery/search/prefill verified;463HAIBU/687QULA"
     },
     {
       "sku": "RW26627",
@@ -1634,8 +1634,8 @@
     },
     {
       "sku": "RW26616",
-      "status": "ready_in_batch",
-      "reason": "Batch11 prepared;pending CI/Preview merge and production"
+      "status": "already_listed",
+      "reason": "Batch11 bothpublished PR156/132,correctproductionREADY10exactGETs and livegallery/search/prefill verified;463HAIBU/687QULA"
     },
     {
       "sku": "YA266",
@@ -1909,8 +1909,8 @@
     },
     {
       "sku": "RW26049",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch12 prepared;pendingCI/Preview/main/production"
     },
     {
       "sku": "RW21838",
@@ -1919,8 +1919,8 @@
     },
     {
       "sku": "RW23930",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch12 prepared;pendingCI/Preview/main/production"
     },
     {
       "sku": "RW004514",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 11,
+  "currentBatchNumber": 12,
   "updatedAt": "2026-10-28"
 }

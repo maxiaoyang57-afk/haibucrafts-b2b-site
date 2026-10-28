@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 477,
+  "count": 483,
   "products": [
     {
       "sku": "YX3301",
@@ -2797,6 +2797,96 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw22576-seated-panda-resin-miniatures/",
       "productionPath": "/products/resin-charms-for-slime/rw22576-seated-panda-resin-miniatures/"
+    },
+    {
+      "sku": "RW26280",
+      "title": "Golden Egg Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw26280/rw26280-golden-egg-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26280-golden-egg-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26280-golden-egg-resin-miniatures/"
+    },
+    {
+      "sku": "RW2137",
+      "title": "Strawberry Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw2137/rw2137-strawberry-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw2137-strawberry-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw2137-strawberry-resin-cabochons/"
+    },
+    {
+      "sku": "RW26372",
+      "title": "Smiling Toast Slice Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw26372/rw26372-smiling-toast-slice-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26372-smiling-toast-slice-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26372-smiling-toast-slice-resin-cabochons/"
+    },
+    {
+      "sku": "RW26297",
+      "title": "Ice Cream Cone Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw26297/rw26297-ice-cream-cone-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26297-ice-cream-cone-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26297-ice-cream-cone-resin-miniatures/"
+    },
+    {
+      "sku": "RW26516",
+      "title": "Bow Kitchen Utensil Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw26516/rw26516-bow-kitchen-utensil-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26516-bow-kitchen-utensil-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26516-bow-kitchen-utensil-resin-miniatures/"
+    },
+    {
+      "sku": "RW0024318",
+      "title": "Fruit Popsicle Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-17/rw0024318/rw0024318-fruit-popsicle-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw0024318-fruit-popsicle-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw0024318-fruit-popsicle-resin-miniatures/"
     },
     {
       "sku": "RW0020648",

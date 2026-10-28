@@ -1424,13 +1424,13 @@
     },
     {
       "sku": "RW26636",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch07 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW26629",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch07 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW24560",
@@ -1439,13 +1439,13 @@
     },
     {
       "sku": "RW001413",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch07 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW26475",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "needs_review",
+      "reason": "Source title describes mushroom/moss but reference shows mixed novelty shapes; clarify product identity and assortment before listing"
     },
     {
       "sku": "RW26480",
@@ -1454,8 +1454,8 @@
     },
     {
       "sku": "RW26622",
-      "status": "ready_in_batch",
-      "reason": "Batch06 prepared; pending CI, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch06 published on both sites; HAIBU150/QULA126 verified"
     },
     {
       "sku": "RW26635",
@@ -1469,8 +1469,8 @@
     },
     {
       "sku": "RW26634",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch07 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW26632",
@@ -1479,13 +1479,13 @@
     },
     {
       "sku": "RW26631",
-      "status": "ready_in_batch",
-      "reason": "Batch06 prepared; pending CI, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch06 published on both sites; HAIBU150/QULA126 verified"
     },
     {
       "sku": "RW26630",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch07 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW21498",
@@ -1499,8 +1499,8 @@
     },
     {
       "sku": "RW26433",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch07 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW26425",
@@ -1509,13 +1509,13 @@
     },
     {
       "sku": "RW26646",
-      "status": "ready_in_batch",
-      "reason": "Batch06 prepared; pending CI, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch06 published on both sites; HAIBU150/QULA126 verified"
     },
     {
       "sku": "RW26647",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch07 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "YX3562",
@@ -1534,8 +1534,8 @@
     },
     {
       "sku": "RW26617",
-      "status": "ready_in_batch",
-      "reason": "Batch06 prepared; pending CI, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch06 published on both sites; HAIBU150/QULA126 verified"
     },
     {
       "sku": "RW26615",
@@ -1544,8 +1544,8 @@
     },
     {
       "sku": "RW26614",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch07 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW24564",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 6,
+  "currentBatchNumber": 7,
   "updatedAt": "2026-10-28"
 }

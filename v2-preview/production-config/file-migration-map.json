@@ -1051,6 +1051,62 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26636-christmas-resin-cabochon-assortment/index.html",
+      "destination": "products/resin-charms-for-slime/rw26636-christmas-resin-cabochon-assortment/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26636-christmas-resin-cabochon-assortment/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26629-fish-pastry-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26629-fish-pastry-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26629-fish-pastry-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw001413-yellow-chick-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw001413-yellow-chick-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw001413-yellow-chick-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26634-fruit-cake-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26634-fruit-cake-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26634-fruit-cake-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26630-translucent-fruit-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26630-translucent-fruit-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26630-translucent-fruit-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26433-mini-drink-cup-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26433-mini-drink-cup-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26433-mini-drink-cup-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26647-gingham-tray-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26647-gingham-tray-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26647-gingham-tray-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26614-bow-tie-bear-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26614-bow-tie-bear-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26614-bow-tie-bear-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "action": "create",

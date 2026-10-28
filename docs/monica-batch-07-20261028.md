@@ -1,0 +1,11 @@
+# Monica batch07 — 2026-10-28
+
+Eight source-verified Resin SKUs: RW26636 Christmas assortment(Approx.20–25mm), RW26629 fish pastry(Approx.26×39mm), RW001413 yellow chicks(18×16mm), RW26634 fruit cakes(Approx.20mm), RW26630 translucent fruit(Approx.25mm), RW26433 drink cups(23×13mm), RW26647 gingham trays(Approx.57×43mm), RW26614 bow-tie bears(16×21mm). All source reference packs100pcs/bag, separate from MOQ. Do not invent price, stock, hole size, lead time, fixed assortment or performance. RW001413 glow is not verified and not promised. RW26433 material is Resin, not glass; RW26647 molded resin border is not wicker. Preserve old facts and current-main changes. Full private export excluded.
+
+Every SKU has exact supplier main + separately generated scene/detail illustrations, visually checked against source. Disclose illustration and props excluded.24 shared images,<=1000px,no enlargement,sRGB,JPEG85%,72DPI,noEXIF. RW26647 first scene rejected for altered print; corrected blue-tray scene is used. Full paths, hashes, prompts, source fields in scripts/data/monica-reviewed-batch-07-20261028.json. HAIBU sourcing/packing copy differs from QULA DIY layout/selection copy.
+
+Batch06 ready entries reconciled after BOTH releases HAIBU150/QULA126. RW26475 moved to needs_review: title says mushrooms/moss, photo shows broad mixed shapes. RW26426/RW26507 holds remain.190 candidates still need images. Batch07 status PREPARED until required checks/Preview, merge and production verification succeed. No inquiries sent.
+
+Asset checkpoint: Monica-batch07-reviewed-assets-20261028.zip, Library libfile_d1faa6246f608191943667d026729928 version0. Includes all24 reviewed images and ready plan; no regeneration needed. This is not a repo snapshot. Resume existing branch/PR from fresh origin/main.
+
+Local checks pass: HAIBU260 tests, builds/release/materialization,434-product identity/full catalog,564-file exact materialized consistency,483-indexable-page audit andHTTP404; QULA full gates,email/BCC,protected products,700-pageSEO,IndexNow and658-record catalog.24 image hashes/metadata pass. New-batch real-browser results are recorded in PR before release. CI/Preview and production checks remain required.

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 472,
+  "count": 474,
   "products": [
     {
       "sku": "YX3301",
@@ -2722,6 +2722,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw23535-strawberry-layer-cake-resin-miniatures/",
       "productionPath": "/products/resin-charms-for-slime/rw23535-strawberry-layer-cake-resin-miniatures/"
+    },
+    {
+      "sku": "RW004628",
+      "title": "Gradient Strawberry Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw004628-gradient-strawberry-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw004628-gradient-strawberry-resin-miniatures/"
+    },
+    {
+      "sku": "RW26520",
+      "title": "Pink Tulip Bouquet Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26520-pink-tulip-bouquet-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26520-pink-tulip-bouquet-resin-cabochons/"
     },
     {
       "sku": "RW0020648",

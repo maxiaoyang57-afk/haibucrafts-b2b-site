@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 2,
+  "batchCount": 1,
+  "currentBatchNumber": 15,
+  "newProductCount": 2,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW004628",
+      "title": "Gradient Strawberry Resin Miniatures",
+      "dimensions": "12 × 18 mm",
+      "packing": "100 pieces per bag",
+      "family": "Fruit",
+      "factNote": "The photo shows molded strawberry forms with seed-like circular dimples and small green leaf crowns in several pink, red and gradient colors. Decorative resin, not edible; no fixed color mix or attachment features are promised.",
+      "procurementAdvice": "Specify strawberry colors and bag quantities for bulk craft assortments. Check molded dimples, color transitions and packing against samples before OEM or private-label planning.",
+      "uses": "Plan decorative scrapbook covers, miniature fruit displays or gift-layout accents with the pictured resin strawberries. Compare their reference size with your project and test the selected attachment method on a sample.",
+      "key": "rw004628",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "gradient-strawberry-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW004628",
+        "sku_raw": "MO-RW004628",
+        "title": "100pcs 3D Mini Resin Simulation Strawberry Charms DIY Children's Miniature Fruit Models for Craft Making Kitchen Toys",
+        "material": "Resin",
+        "size": "12*18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601483808994",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-3D-Mini-Resin-Simulation-Strawberry_1601483808994.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-3D-Mini-Resin-Simulation-Strawberry_1601483808994.html",
+      "sourceProductId": "1601483808994",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H45ef9157e43a4136a0dae67e2d2ea114T.jpg",
+      "sourceImageSha256": "b7ec69a71598d90db770353c7d0ea17f6d04c4ac8701ab091a6870eaac5acede",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 15,
+      "batchId": "20261028-monica-15",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows molded strawberry forms with seed-like circular dimples and small green leaf crowns in several pink, red and gradient colors. Decorative resin, not edible; no fixed color mix or attachment features are promised. Supplier dimensions are a reference; confirm selected colors and sizes against a sample.",
+      "description": "Gradient Strawberry Resin Miniatures. RW004628: 12 × 18 mm; 100 pieces per bag. Confirm selected colors and actual mix.",
+      "haibuDescription": "Wholesale gradient strawberry resin miniatures. RW004628: 12 × 18 mm; reference packing 100 pieces per bag. Confirm selection and bulk packing.",
+      "metaTitle": "RW004628 Gradient Strawberry Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW004628 Gradient Strawberry Resin Miniatures Wholesale | HAIBU",
+      "caption": "Gradient Strawberry Resin Miniatures. Supplier size reference: 12 × 18 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference image is the ONLY product identity reference for SKU RW004628. Create one natural craft application photo: a kraft scrapbook cover with a small blank ivory label and three of these exact molded resin strawberry miniatures laid loose beside its corner on a pale sage worktable, cream ribbon and paper as props in background. Keep exact tapered berry proportions, molded circular seed dimples, small green leaf crowns and the reference red/orange gradient, red/cream gradient and pale pink colors. Show only the same visible front/top faces, no invented backs or attachments. Resin ornaments, not edible fruit, not realistic fruit. No holes, loops, hardware, new accessories on the product, no fabric berries. Soft daylight, photograph, square composition, distinct application setting. No text, logos, badges, watermarks, price or measurements. Props are separate and not part of SKU.",
+        "detailPrompt": "Use case: product-mockup. Reference image is the ONLY product identity reference for SKU RW004628. Create a standalone macro detail photograph of TWO of the exact molded resin strawberries, one red-to-cream gradient and one pale pink, resting loose on matte warm ivory paper. Preserve exact visible tapered silhouette, rounded recessed circular seed dimples, small green leaf crowns, glossy resin texture, proportions and colors from original. Close crop with both whole visible front/top forms, camera overhead at slight angle. No imaginary back, holes, loops, stems, findings, extra leaves or accessories. Do not turn into edible fruit or fabric. Quiet background with subtle soft shadows, natural macro photo, square. No text, logo, badge, watermark, measurements or spec card."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw004628/rw004628-1.jpg",
+        "assets/images/pdp/rw004628/rw004628-2.jpg",
+        "assets/images/pdp/rw004628/rw004628-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw004628/rw004628-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 82150,
+          "sha256": "19fe920ece6fa9a5d1108188ac3c57d18a49ad03c85726cfcbbe67ff40fc0371"
+        },
+        {
+          "path": "assets/images/pdp/rw004628/rw004628-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166744,
+          "sha256": "0bb53b4a6fc91175a172da39f755634ca7e9a59acafea9283c6cc427c9b444d9"
+        },
+        {
+          "path": "assets/images/pdp/rw004628/rw004628-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97079,
+          "sha256": "c3b163493ef51b943b2cf2d3ae6d26a10c0a448ac7ca355b12ad1bd8d30e0cdb"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 82150,
+          "sha256": "19fe920ece6fa9a5d1108188ac3c57d18a49ad03c85726cfcbbe67ff40fc0371"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166744,
+          "sha256": "0bb53b4a6fc91175a172da39f755634ca7e9a59acafea9283c6cc427c9b444d9"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-15/rw004628/rw004628-gradient-strawberry-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97079,
+          "sha256": "c3b163493ef51b943b2cf2d3ae6d26a10c0a448ac7ca355b12ad1bd8d30e0cdb"
+        }
+      ]
+    },
+    {
+      "sku": "RW26520",
+      "title": "Pink Tulip Bouquet Resin Cabochons",
+      "dimensions": "28 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The photo shows pale pink tulip-bouquet motifs with pink-red stems, green leaves and a mint-colored bow. The 28 mm source reference is not assigned to a measured axis. Confirm the selected size, colors and reverse surface on a sample.",
+      "procurementAdvice": "Specify tulip-bouquet quantities and bag packing for bulk decorative assortments. Review molded petal edges, bow color and painted finish against samples before an OEM or packaging brief.",
+      "uses": "Plan floral scrapbook pages, greeting-card corners or gift layouts with the pictured resin bouquets. Check the 28 mm size reference against your chosen base and test attachment on a sample.",
+      "key": "rw26520",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pink-tulip-bouquet-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26520",
+        "sku_raw": "MO-RW26520",
+        "title": "Shiny Tulip Bouquet Resin Flatback Cabochons for Hairpin Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600839386069",
+        "product_url": "https://www.alibaba.com/product-detail/Shiny-Tulip-Bouquet-Resin-Flatback-Cabochons_1600839386069.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Shiny-Tulip-Bouquet-Resin-Flatback-Cabochons_1600839386069.html",
+      "sourceProductId": "1600839386069",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hd7f523fe80ce42458e2388cfb495c5c4x.jpg",
+      "sourceImageSha256": "9067d3bc953d2d1eea9008740b68c30c5146ccac686b075dc7d84d94e1c25028",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 15,
+      "batchId": "20261028-monica-15",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows pale pink tulip-bouquet motifs with pink-red stems, green leaves and a mint-colored bow. The 28 mm source reference is not assigned to a measured axis. Confirm the selected size, colors and reverse surface on a sample.",
+      "description": "Pink Tulip Bouquet Resin Cabochons. RW26520: 28 mm reference; 100 pieces per bag. Confirm selection and packing.",
+      "haibuDescription": "Wholesale pink tulip bouquet resin cabochons. RW26520: 28 mm source reference; 100 pieces per bag. Confirm finish and bulk packing.",
+      "metaTitle": "RW26520 Pink Tulip Bouquet Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26520 Pink Tulip Bouquet Resin Cabochons Wholesale | HAIBU",
+      "caption": "Pink Tulip Bouquet Resin Cabochons. Supplier size reference: 28 mm (axis unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Same-SKU reference image RW26520 is identity authority. Photograph a decorative card-making layout on light lavender cardstock: two of these exact pink tulip bouquet resin cabochons laid loose beside a folded blank ivory card and separate thin lilac ribbon. Preserve original molded bouquet: five pale pink tulip heads, pink-red joined stems, two green leaves and mint-blue bow, exact front face proportions/arrangement from source. No real flowers or fabric replacement. Only the source visible face; no hidden backside, holes, loops, pins, hardware or new accessories. Square natural daylight photo, overhead with negative space and clean realistic shadows. No text, badges, logos or watermarks. Props are separate, not SKU components.",
+        "detailPrompt": "Use case: product-mockup. Same-SKU reference image RW26520 is sole product reference. One macro photograph of a single exact molded tulip bouquet resin cabochon resting on matte pale peach paper. Entire front visible, close enough to show the original five pale pink tulip heads, joined pink-red stems, green leaves and mint blue bow, exact contours and arrangement, glossy molded resin. Keep visible front face only and same proportions; do not invent reverse, holes, loops, pins, findings, extra flowers or leaves. No hardware or added product accessories. Soft side lighting, square close composition distinct from application scene. No text, logo, watermark, badge or specification card.",
+        "review": "Original and generated visible front arrangement compared; no count of flowers is promised in copy."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26520/rw26520-1.jpg",
+        "assets/images/pdp/rw26520/rw26520-2.jpg",
+        "assets/images/pdp/rw26520/rw26520-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26520/rw26520-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1333,
+          "bytes": 380794,
+          "sha256": "fbc22ab4ccfa20855c68adb8bd1afe5169c3c6635ae7c3ca7cb0013995362ef3"
+        },
+        {
+          "path": "assets/images/pdp/rw26520/rw26520-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130941,
+          "sha256": "07fbe8474aa0e96923ead217396d29a02dbacd0d617636923ecfe3353ddeaa4d"
+        },
+        {
+          "path": "assets/images/pdp/rw26520/rw26520-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 125926,
+          "sha256": "753f1a0132ac1fc7008c410b6f22aedb0a6b726b0ab72ba5e15695c5c2772fe4"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1333,
+          "bytes": 380794,
+          "sha256": "fbc22ab4ccfa20855c68adb8bd1afe5169c3c6635ae7c3ca7cb0013995362ef3"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130941,
+          "sha256": "07fbe8474aa0e96923ead217396d29a02dbacd0d617636923ecfe3353ddeaa4d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 125926,
+          "sha256": "753f1a0132ac1fc7008c410b6f22aedb0a6b726b0ab72ba5e15695c5c2772fe4"
+        }
+      ]
+    }
+  ]
+}

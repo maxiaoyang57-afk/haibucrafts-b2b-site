@@ -1226,6 +1226,76 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26652-pink-bakery-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26652-pink-bakery-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26652-pink-bakery-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26425-cartoon-bee-resin-figurine/index.html",
+      "destination": "products/resin-charms-for-slime/rw26425-cartoon-bee-resin-figurine/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26425-cartoon-bee-resin-figurine/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25784-white-bow-bear-resin-figurine/index.html",
+      "destination": "products/resin-charms-for-slime/rw25784-white-bow-bear-resin-figurine/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25784-white-bow-bear-resin-figurine/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26053-black-white-penguin-resin-figurine/index.html",
+      "destination": "products/resin-charms-for-slime/rw26053-black-white-penguin-resin-figurine/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26053-black-white-penguin-resin-figurine/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26052-black-cat-resin-figurine/index.html",
+      "destination": "products/resin-charms-for-slime/rw26052-black-cat-resin-figurine/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26052-black-cat-resin-figurine/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25644-pastel-ocean-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25644-pastel-ocean-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25644-pastel-ocean-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw003577-gingham-cloud-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw003577-gingham-cloud-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003577-gingham-cloud-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23952-mini-yellow-bee-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw23952-mini-yellow-bee-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23952-mini-yellow-bee-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26034-cherry-strawberry-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26034-cherry-strawberry-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26034-cherry-strawberry-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23542-mini-seal-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw23542-mini-seal-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23542-mini-seal-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "action": "create",

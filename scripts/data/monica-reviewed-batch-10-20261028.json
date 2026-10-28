@@ -1,0 +1,1373 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 10,
+  "batchCount": 1,
+  "currentBatchNumber": 10,
+  "newProductCount": 10,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26652",
+      "title": "Pink Bakery Resin Cabochons",
+      "dimensions": "Approx. 22–29 mm",
+      "packing": "100 pieces per bag",
+      "family": "food",
+      "factNote": "The photo shows several pink bakery forms, some with rabbit details. The supplier gives a size range without assigning measurements to each shape; confirm selected designs and actual mix.",
+      "procurementAdvice": "Specify bakery shapes and bag quantities for decorative craft assortments. Confirm pink finish, molded rabbit details and custom packing against approved samples.",
+      "uses": "Plan miniature bakery displays, scrapbook layouts or decorative gift cards. Non-edible resin components; test your base and adhesive on a sample.",
+      "key": "rw26652",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pink-bakery-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26652",
+        "sku_raw": "MO-RW26652",
+        "title": "Cute Pink Blossom Bread Rabbit Figurines Resin Cabochons Food Charms for Scrapbooking Hairpin Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "about22-29mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601885866238",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Pink-Blossom-Bread-Rabbit-Figurines_1601885866238.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Pink-Blossom-Bread-Rabbit-Figurines_1601885866238.html",
+      "sourceProductId": "1601885866238",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Haa3b4d8d3f954750bf751f24301d1db2R.jpg",
+      "sourceImageSha256": "d911244c943056579bf577e28b274dbc105710ca1543fbc77acb88c78e2c5591",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows several pink bakery forms, some with rabbit details. The supplier gives a size range without assigning measurements to each shape; confirm selected designs and actual mix. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Pink Bakery Resin Cabochons. RW26652: Approx. 22–29 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale pink bakery resin cabochons. RW26652: Approx. 22–29 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26652 Pink Bakery Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26652 Pink Bakery Resin Cabochons Wholesale | HAIBU",
+      "caption": "Pink Bakery Resin Cabochons. Supplier size reference: Approx. 22–29 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU reference edit for RW26652. Arrange only three exact bakery-shaped resin charms from reference (pink striped loaf, pink rolled croissant with white rabbit face, and rabbit-ear layered slice) on a blank cream scrapbook bakery-layout card next to paper scraps on pale peach desk. Copy exact pink/cream/yellow colors, shapes and simple source face details. Non-edible resin, not real pastry. No new toppings or lettering. One independent photorealistic square craft illustration. Strictly retain visible reference proportions, silhouette, material, colors and construction. Props separate/excluded. No invented holes, rings, hardware, backs, added logos, badges, text overlays, watermarks, spec card or collage. Natural daylight.",
+        "detailPrompt": "Same-SKU reference edit for RW26652. Separate close-up photo of two exact reference resin bakery charms: yellow sandwich-stack round with pink top and small molded pink rabbit silhouette, and pink rabbit-ear layered cake slice. Match source molded shapes, layers and color exactly, front/top views. No new layers, text or ornaments. Clearly resin miniature, not edible. One independent photorealistic square craft illustration. Strictly retain visible reference proportions, silhouette, material, colors and construction. Props separate/excluded. No invented holes, rings, hardware, backs, added logos, badges, text overlays, watermarks, spec card or collage. Natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26652/rw26652-1.jpg",
+        "assets/images/pdp/rw26652/rw26652-2.jpg",
+        "assets/images/pdp/rw26652/rw26652-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26652/rw26652-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130517,
+          "sha256": "fb7ce633c3cec66ee900250f9b6eb0a677965fa87e799a2e368b28683c4d0ac3"
+        },
+        {
+          "path": "assets/images/pdp/rw26652/rw26652-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 153396,
+          "sha256": "5e7ed573915ab6efc1b312dd0f9283c196f227212c99a979c1486c3085e332e5"
+        },
+        {
+          "path": "assets/images/pdp/rw26652/rw26652-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 74856,
+          "sha256": "2c7b5e34fe8358a63b49013837aa0b568276fb429a5fd9827c895ec7c910367f"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw26652/rw26652-pink-bakery-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26652/rw26652-pink-bakery-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26652/rw26652-pink-bakery-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26652/rw26652-pink-bakery-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130517,
+          "sha256": "fb7ce633c3cec66ee900250f9b6eb0a677965fa87e799a2e368b28683c4d0ac3"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26652/rw26652-pink-bakery-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 153396,
+          "sha256": "5e7ed573915ab6efc1b312dd0f9283c196f227212c99a979c1486c3085e332e5"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26652/rw26652-pink-bakery-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 74856,
+          "sha256": "2c7b5e34fe8358a63b49013837aa0b568276fb429a5fd9827c895ec7c910367f"
+        }
+      ]
+    },
+    {
+      "sku": "RW26425",
+      "title": "Cartoon Bee Resin Figurine",
+      "dimensions": "24 × 25 mm",
+      "packing": "100 pieces per bag",
+      "family": "animals",
+      "factNote": "The reference shows a yellow-faced bee with painted features, red antenna tips and silver-colored wings. Metallic appearance does not establish metal content.",
+      "procurementAdvice": "Identify the bee design and bag quantities required for miniature craft ranges. Confirm painted face and wing finish, sample appearance and protective packing.",
+      "uses": "Compose a paper meadow scene, decorative keepsake display or themed shadow box. Confirm the base and mounting method on a sample.",
+      "key": "rw26425",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "cartoon-bee-resin-figurine",
+      "sourceFields": {
+        "sku": "RW26425",
+        "sku_raw": "MO-RW26425",
+        "title": "100pcs Outdoor Resin Bee Figurine Garden Bee Statue Garden Sculptures Statues Summer Ornament Landscape Patio Backyard Decor",
+        "material": "Resin",
+        "size": "24*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792524973",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Outdoor-Resin-Bee-Figurine-Garden_1601792524973.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Outdoor-Resin-Bee-Figurine-Garden_1601792524973.html",
+      "sourceProductId": "1601792524973",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H362d29d1cce34bc6939b57350c89997bR.jpg",
+      "sourceImageSha256": "ddfa511a87712b9c07d47d37567ffd91203efe50fe068017222e7ceb9d26c795",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The reference shows a yellow-faced bee with painted features, red antenna tips and silver-colored wings. Metallic appearance does not establish metal content. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Cartoon Bee Resin Figurine. RW26425: 24 × 25 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale cartoon bee resin figurine. RW26425: 24 × 25 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26425 Cartoon Bee Resin Figurine | Qula Craft",
+      "haibuMetaTitle": "RW26425 Cartoon Bee Resin Figurine Wholesale | HAIBU",
+      "caption": "Cartoon Bee Resin Figurine. Supplier size reference: 24 × 25 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU reference edit for RW26425. Place the exact single squat yellow resin bee figure from reference on a kraft paper meadow scene beside separate cut-paper leaves on a muted blue craft desk. Preserve large yellow rounded face, joined white eye patch with two black eyes, tiny curved smile, pink cheeks with three pale dots each, two red round antenna tips, brown body and silver/gray wings already visible. Same frontal angle only, no unseen legs or back. One independent photorealistic square craft illustration. Strictly retain visible reference proportions, silhouette, material, colors and construction. Props separate/excluded. No invented holes, rings, hardware, backs, added logos, badges, text overlays, watermarks, spec card or collage. Natural daylight.",
+        "detailPrompt": "Same-SKU reference edit for RW26425. Separate close-up product photo of the exact same single yellow bee figure from reference on soft cream matte surface. Same frontal angle, exact joined white eye patch, black eyes, smile, pink spotted cheeks, two red antenna bumps, brown body and gray/silver wings. Keep original construction and painted finish, no new limbs or details. One independent photorealistic square craft illustration. Strictly retain visible reference proportions, silhouette, material, colors and construction. Props separate/excluded. No invented holes, rings, hardware, backs, added logos, badges, text overlays, watermarks, spec card or collage. Natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26425/rw26425-1.jpg",
+        "assets/images/pdp/rw26425/rw26425-2.jpg",
+        "assets/images/pdp/rw26425/rw26425-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26425/rw26425-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 44350,
+          "sha256": "dc3d1a0912819fa18c5a1dcc31c54933d2d33f1b92bedc3156c33b08e791aba0"
+        },
+        {
+          "path": "assets/images/pdp/rw26425/rw26425-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129687,
+          "sha256": "991e372602f312e6485c1a497c644ec0d268de1658266f8cb59dcd2c7982c72f"
+        },
+        {
+          "path": "assets/images/pdp/rw26425/rw26425-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72125,
+          "sha256": "946b7e1c6135b2eb2c2e425ab2b366c04790036a2422afd3aa9400d9abbc8725"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw26425/rw26425-cartoon-bee-resin-figurine-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26425/rw26425-cartoon-bee-resin-figurine-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26425/rw26425-cartoon-bee-resin-figurine-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26425/rw26425-cartoon-bee-resin-figurine-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 44350,
+          "sha256": "dc3d1a0912819fa18c5a1dcc31c54933d2d33f1b92bedc3156c33b08e791aba0"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26425/rw26425-cartoon-bee-resin-figurine-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129687,
+          "sha256": "991e372602f312e6485c1a497c644ec0d268de1658266f8cb59dcd2c7982c72f"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26425/rw26425-cartoon-bee-resin-figurine-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72125,
+          "sha256": "946b7e1c6135b2eb2c2e425ab2b366c04790036a2422afd3aa9400d9abbc8725"
+        }
+      ]
+    },
+    {
+      "sku": "RW25784",
+      "title": "White Bow Bear Resin Figurine",
+      "dimensions": "19 × 20 × 25 mm",
+      "packing": "100 pieces per bag",
+      "family": "animals",
+      "factNote": "The photo establishes a white textured seated bear with a blue bow and pink paw details. Molded resin texture is not plush fabric; no house is included.",
+      "procurementAdvice": "Specify the seated bear design and bag quantities for miniature craft assortments. Confirm molded texture, painted bow and paw details and any protective packing with approved samples.",
+      "uses": "Arrange decorative shadow boxes, paper displays or keepsake layouts around the seated bear. Check available height and mounting method.",
+      "key": "rw25784",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "white-bow-bear-resin-figurine",
+      "sourceFields": {
+        "sku": "RW25784",
+        "sku_raw": "MO-RW25784",
+        "title": "Miniature Animal Figurines Bow Bear Small House Micro Fairy Garden Miniatura Terrarium Crafts DIY Accessories Home Decor",
+        "material": "Resin",
+        "size": "19*20*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601517109828",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Animal-Figurines-Bow-Bear-Small_1601517109828.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Animal-Figurines-Bow-Bear-Small_1601517109828.html",
+      "sourceProductId": "1601517109828",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hbf26055b0a4d4ed3b8a29477800ff7d6h.jpg",
+      "sourceImageSha256": "2797889d92b694722aed041642e0f6390f017d0931b36b098f06ded155d80427",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo establishes a white textured seated bear with a blue bow and pink paw details. Molded resin texture is not plush fabric; no house is included. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "White Bow Bear Resin Figurine. RW25784: 19 × 20 × 25 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale white bow bear resin figurine. RW25784: 19 × 20 × 25 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW25784 White Bow Bear Resin Figurine | Qula Craft",
+      "haibuMetaTitle": "RW25784 White Bow Bear Resin Figurine Wholesale | HAIBU",
+      "caption": "White Bow Bear Resin Figurine. Supplier size reference: 19 × 20 × 25 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU reference edit for RW25784. Place one exact white textured seated bear resin figurine from reference in a small pale lavender paper shadow-box with separate paper stars around it. Frontal three-quarter view same as source. Preserve molded clustered bumpy fur, round ears, brown dotted eyes and nose, pink cheeks and paw pads, blue bowtie. No plush fabric, no new accessories or house. One independent photorealistic square craft illustration. Strictly retain visible reference proportions, silhouette, material, colors and construction. Props separate/excluded. No invented holes, rings, hardware, backs, added logos, badges, text overlays, watermarks, spec card or collage. Natural daylight.",
+        "detailPrompt": "Same-SKU reference edit for RW25784. Separate close-up of the exact white seated resin bear from reference on pale mint matte paper. Same frontal view, copy molded bumpy texture, round ears, tiny brown eyes/nose, pink cheeks and toe/paw-pad print, blue bowtie. Do not invent underside or reverse; glossy solid resin, not wool or plush. One independent photorealistic square craft illustration. Strictly retain visible reference proportions, silhouette, material, colors and construction. Props separate/excluded. No invented holes, rings, hardware, backs, added logos, badges, text overlays, watermarks, spec card or collage. Natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw25784/rw25784-1.jpg",
+        "assets/images/pdp/rw25784/rw25784-2.jpg",
+        "assets/images/pdp/rw25784/rw25784-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25784/rw25784-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 65891,
+          "sha256": "7b862809d9c9ce021afd0f23cee86ceb2e2c9a0fb0bfe4ca00997ed84b54710c"
+        },
+        {
+          "path": "assets/images/pdp/rw25784/rw25784-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 105830,
+          "sha256": "2837e4189806822e45c39684b30f906c71e1ac4d85482b5315df78f959af4533"
+        },
+        {
+          "path": "assets/images/pdp/rw25784/rw25784-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86689,
+          "sha256": "81b1d16783663f143721d8289f5f24ecc0343769b35d465ff75dbe2e53834667"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw25784/rw25784-white-bow-bear-resin-figurine-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw25784/rw25784-white-bow-bear-resin-figurine-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw25784/rw25784-white-bow-bear-resin-figurine-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw25784/rw25784-white-bow-bear-resin-figurine-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 65891,
+          "sha256": "7b862809d9c9ce021afd0f23cee86ceb2e2c9a0fb0bfe4ca00997ed84b54710c"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw25784/rw25784-white-bow-bear-resin-figurine-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 105830,
+          "sha256": "2837e4189806822e45c39684b30f906c71e1ac4d85482b5315df78f959af4533"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw25784/rw25784-white-bow-bear-resin-figurine-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86689,
+          "sha256": "81b1d16783663f143721d8289f5f24ecc0343769b35d465ff75dbe2e53834667"
+        }
+      ]
+    },
+    {
+      "sku": "RW26053",
+      "title": "Black and White Penguin Resin Figurine",
+      "dimensions": "Approx. 23 × 18 mm",
+      "packing": "100 pieces per bag",
+      "family": "animals",
+      "factNote": "The reference shows front and back of a small penguin with an asymmetrical flipper pose. Confirm sample dimensions, painted features and finish.",
+      "procurementAdvice": "Specify penguin bag quantities and confirm the raised-flipper pose, white belly finish and orange painted details against an approved sample. Discuss packing for your assortment.",
+      "uses": "Create paper snow scenes, decorative winter displays or miniature shadow boxes. Check your base and how the figure will be fixed.",
+      "key": "rw26053",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "black-white-penguin-resin-figurine",
+      "sourceFields": {
+        "sku": "RW26053",
+        "sku_raw": "MO-RW26053",
+        "title": "Kawaii Sports Small Penguin Resin Charms 3D Animal Keychain Necklace Pendant Attachment DIY Earring Jewelry Making",
+        "material": "Resin",
+        "size": "about23*18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601636590846",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Sports-Small-Penguin-Resin-Charms_1601636590846.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Sports-Small-Penguin-Resin-Charms_1601636590846.html",
+      "sourceProductId": "1601636590846",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hd5bd7a0a60614f049bede1e9be6e2382s.jpg",
+      "sourceImageSha256": "8ab9ff7aae08f3e3b419837e140dc4977cf67fd34faaab52c29fa4d4e1215f45",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The reference shows front and back of a small penguin with an asymmetrical flipper pose. Confirm sample dimensions, painted features and finish. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Black and White Penguin Resin Figurine. RW26053: Approx. 23 × 18 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale black and white penguin resin figurine. RW26053: Approx. 23 × 18 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26053 Black and White Penguin Resin Figurine | Qula Craft",
+      "haibuMetaTitle": "RW26053 Black and White Penguin Resin Figurine Wholesale | HAIBU",
+      "caption": "Black and White Penguin Resin Figurine. Supplier size reference: Approx. 23 × 18 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU strict reference edit for RW26053. Place two copies of the exact small black-and-white penguin resin figure on a flat paper snow scene in a pale blue keepsake shadow box. Use the SAME FRONT view as source front-facing penguin: white two-lobed eye patches, small black eyes, orange oval beak, white textured belly, orange feet, one flipper raised on viewer left and other down on viewer right. Keep original squat proportions. No hats, scarves, holes or accessories. One independent photorealistic square craft illustration. Exact reference visible silhouette, proportions, paint, color, material and construction required. Props separate/excluded. No invented holes, rings, hardware, backs, new variants, logos, badges, watermarks, text overlays, spec card or collage. Soft natural daylight.",
+        "detailPrompt": "Same-SKU strict reference edit for RW26053. Separate close-up of one exact front-facing penguin resin figure from source on matte warm gray surface. Preserve source black body, white eye patches and textured belly, small black eyes, orange oval beak and feet, viewer-left flipper raised and viewer-right flipper down. Same frontal view. No new details or unseen back. One independent photorealistic square craft illustration. Exact reference visible silhouette, proportions, paint, color, material and construction required. Props separate/excluded. No invented holes, rings, hardware, backs, new variants, logos, badges, watermarks, text overlays, spec card or collage. Soft natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26053/rw26053-1.jpg",
+        "assets/images/pdp/rw26053/rw26053-2.jpg",
+        "assets/images/pdp/rw26053/rw26053-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26053/rw26053-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79170,
+          "sha256": "a6cf7e8dbcfd40e0de71bddd5f2a6d6617bf403e07972be97d383e3b518542f8"
+        },
+        {
+          "path": "assets/images/pdp/rw26053/rw26053-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129151,
+          "sha256": "f015bab74a8826a9aedb9a544c078ec4c421f18df70676948763462cf67cf688"
+        },
+        {
+          "path": "assets/images/pdp/rw26053/rw26053-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 94127,
+          "sha256": "d98fffb19492ef9cfc1a5a201e44bd7d03335301cf906fce94cfb31ac527b831"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw26053/rw26053-black-white-penguin-resin-figurine-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26053/rw26053-black-white-penguin-resin-figurine-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26053/rw26053-black-white-penguin-resin-figurine-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26053/rw26053-black-white-penguin-resin-figurine-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79170,
+          "sha256": "a6cf7e8dbcfd40e0de71bddd5f2a6d6617bf403e07972be97d383e3b518542f8"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26053/rw26053-black-white-penguin-resin-figurine-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 129151,
+          "sha256": "f015bab74a8826a9aedb9a544c078ec4c421f18df70676948763462cf67cf688"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26053/rw26053-black-white-penguin-resin-figurine-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 94127,
+          "sha256": "d98fffb19492ef9cfc1a5a201e44bd7d03335301cf906fce94cfb31ac527b831"
+        }
+      ]
+    },
+    {
+      "sku": "RW26052",
+      "title": "Black Cat Resin Figurine",
+      "dimensions": "Approx. 31 × 21 mm",
+      "packing": "100 pieces per bag",
+      "family": "animals",
+      "factNote": "The source shows a glossy black seated cat with green eyes and a curved tail. Confirm the painted eye appearance and actual sample finish.",
+      "procurementAdvice": "Specify black cat bag quantities for miniature craft assortments. Confirm molded tail and seated pose, green eye finish and protective packing against sample approval.",
+      "uses": "Plan woodland paper displays, decorative shadow boxes or keepsake arrangements. Check space around the seated figure and the mounting method.",
+      "key": "rw26052",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "black-cat-resin-figurine",
+      "sourceFields": {
+        "sku": "RW26052",
+        "sku_raw": "MO-RW26052",
+        "title": "Cute Kitten Collectibles Mini Resin Cats Figurines for Fairy Garden Decor Micro Landscapes Tiny Cat for Party",
+        "material": "Resin",
+        "size": "about31*21mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601636681121",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Kitten-Collectibles-Mini-Resin-Cats_1601636681121.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Kitten-Collectibles-Mini-Resin-Cats_1601636681121.html",
+      "sourceProductId": "1601636681121",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H825b9ff7922343eaacc49d3068d0844bX.jpg",
+      "sourceImageSha256": "d768295a34dc5c15507a4c0c0feeb9504ba01c72ac3f81155c005d8827962cbc",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows a glossy black seated cat with green eyes and a curved tail. Confirm the painted eye appearance and actual sample finish. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Black Cat Resin Figurine. RW26052: Approx. 31 × 21 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale black cat resin figurine. RW26052: Approx. 31 × 21 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26052 Black Cat Resin Figurine | Qula Craft",
+      "haibuMetaTitle": "RW26052 Black Cat Resin Figurine Wholesale | HAIBU",
+      "caption": "Black Cat Resin Figurine. Supplier size reference: Approx. 31 × 21 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU strict reference edit for RW26052. Place the exact single glossy black seated resin cat from source on a kraft miniature woodland display base with separate flat paper foliage behind, warm ivory craft desk. Preserve exact source seated pose, curved tail wrapping across front, two straight source forelegs, pointed ears and vivid green almond-shaped eyes. Same front three-quarter angle only, no collar, whiskers, new markings or accessories. One independent photorealistic square craft illustration. Exact reference visible silhouette, proportions, paint, color, material and construction required. Props separate/excluded. No invented holes, rings, hardware, backs, new variants, logos, badges, watermarks, text overlays, spec card or collage. Soft natural daylight.",
+        "detailPrompt": "Same-SKU strict reference edit for RW26052. Separate macro photo of exact source glossy black seated resin cat on pale lavender matte paper. Same front three-quarter angle; copy original green almond-shaped eye insets, pointed ears, molded muzzle, source forelegs and tail curling across front. No new fur, whiskers, collar, body anatomy or back view. One independent photorealistic square craft illustration. Exact reference visible silhouette, proportions, paint, color, material and construction required. Props separate/excluded. No invented holes, rings, hardware, backs, new variants, logos, badges, watermarks, text overlays, spec card or collage. Soft natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26052/rw26052-1.jpg",
+        "assets/images/pdp/rw26052/rw26052-2.jpg",
+        "assets/images/pdp/rw26052/rw26052-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26052/rw26052-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72358,
+          "sha256": "fdc53501bf9563e0170152db095653a7e9b4900b8634f06d921c6ba6532b4b39"
+        },
+        {
+          "path": "assets/images/pdp/rw26052/rw26052-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 158048,
+          "sha256": "4db37c0b464b4f94723a93911d4f1afb88fd491730b8a86621de48624c660e41"
+        },
+        {
+          "path": "assets/images/pdp/rw26052/rw26052-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 92381,
+          "sha256": "d5db7165a68aaeb567703fd4bce58373a8a6fc6bf2b1119c9a17a05e69dc76de"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw26052/rw26052-black-cat-resin-figurine-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26052/rw26052-black-cat-resin-figurine-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26052/rw26052-black-cat-resin-figurine-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26052/rw26052-black-cat-resin-figurine-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72358,
+          "sha256": "fdc53501bf9563e0170152db095653a7e9b4900b8634f06d921c6ba6532b4b39"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26052/rw26052-black-cat-resin-figurine-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 158048,
+          "sha256": "4db37c0b464b4f94723a93911d4f1afb88fd491730b8a86621de48624c660e41"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26052/rw26052-black-cat-resin-figurine-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 92381,
+          "sha256": "d5db7165a68aaeb567703fd4bce58373a8a6fc6bf2b1119c9a17a05e69dc76de"
+        }
+      ]
+    },
+    {
+      "sku": "RW25644",
+      "title": "Pastel Ocean Resin Cabochons",
+      "dimensions": "25 mm",
+      "packing": "100 pieces per bag",
+      "family": "animals",
+      "factNote": "The photo shows several ocean-themed forms, including fish, seahorse, starfish, jellyfish, turtle and penguin. Confirm the actual designs and mix; the single source size is not mapped to every variant.",
+      "procurementAdvice": "Specify ocean shapes, selected colors and bag quantities for craft ranges. Confirm design selection, molded details, painted finish and custom packing against approved samples.",
+      "uses": "Try ocean scrapbook layouts, decorative frames or gift-card arrangements. Match individual shapes to your layout and check the reverse surface with a sample.",
+      "key": "rw25644",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pastel-ocean-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW25644",
+        "sku_raw": "MO-RW25644",
+        "title": "Cute Ocean Series Penguin Sea Horse Flatback Resin Cabochon Fit Phone Decoration DIY Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601457527114",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Ocean-Series-Penguin-Sea-Horse_1601457527114.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Ocean-Series-Penguin-Sea-Horse_1601457527114.html",
+      "sourceProductId": "1601457527114",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7e0cc32cb4e34547b862220f954a378cq.jpg",
+      "sourceImageSha256": "5652b7a2cfe672e63a7a976f9ba9da4a15f105d47a993ee016a25c1a3b884410",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows several ocean-themed forms, including fish, seahorse, starfish, jellyfish, turtle and penguin. Confirm the actual designs and mix; the single source size is not mapped to every variant. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Pastel Ocean Resin Cabochons. RW25644: 25 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale pastel ocean resin cabochons. RW25644: 25 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW25644 Pastel Ocean Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW25644 Pastel Ocean Resin Cabochons Wholesale | HAIBU",
+      "caption": "Pastel Ocean Resin Cabochons. Supplier size reference: 25 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU strict reference edit for RW25644. Arrange three exact source ocean resin cabochons (blue seahorse with pink mane/belly, pale blue/pink starfish, and pink turtle with blue shell) face-up on an aqua paper scrapbook ocean layout with separate paper wave layers. Match exact source silhouette, fine painted lines, pastel colors, closed-eye face details and molded limbs. No added holes, backs or new animals. Do not imply fixed pack mix. One independent photorealistic square craft illustration. Exact reference visible silhouette, proportions, paint, color, material and construction required. Props separate/excluded. No invented holes, rings, hardware, backs, new variants, logos, badges, watermarks, text overlays, spec card or collage. Soft natural daylight.",
+        "detailPrompt": "Same-SKU strict reference edit for RW25644. Separate close-up photo of exact source purple-blue/pink penguin and blue/mint jellyfish resin cabochons face-up on pale cream matte surface. Copy original penguin face/body/flippers/feet and jellyfish dome, closed-eye print, star marks and exact flowing molded tentacles. Preserve source colors and construction, no new parts or hooks. One independent photorealistic square craft illustration. Exact reference visible silhouette, proportions, paint, color, material and construction required. Props separate/excluded. No invented holes, rings, hardware, backs, new variants, logos, badges, watermarks, text overlays, spec card or collage. Soft natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw25644/rw25644-1.jpg",
+        "assets/images/pdp/rw25644/rw25644-2.jpg",
+        "assets/images/pdp/rw25644/rw25644-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25644/rw25644-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 218228,
+          "sha256": "59f8ce205cc6060c01591fcd3649946788b31f157363d0d0dd585ad480528426"
+        },
+        {
+          "path": "assets/images/pdp/rw25644/rw25644-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 215099,
+          "sha256": "bdeb276743c452c3132f8f97221ac90ea4faf31e5b06ccbaba478bd4a9ed6867"
+        },
+        {
+          "path": "assets/images/pdp/rw25644/rw25644-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98937,
+          "sha256": "8e7e5e3aed9ec43e1fe5d570ae1c15b6955f58d9bc9ec265633be2654680a286"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw25644/rw25644-pastel-ocean-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw25644/rw25644-pastel-ocean-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw25644/rw25644-pastel-ocean-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw25644/rw25644-pastel-ocean-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 218228,
+          "sha256": "59f8ce205cc6060c01591fcd3649946788b31f157363d0d0dd585ad480528426"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw25644/rw25644-pastel-ocean-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 215099,
+          "sha256": "bdeb276743c452c3132f8f97221ac90ea4faf31e5b06ccbaba478bd4a9ed6867"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw25644/rw25644-pastel-ocean-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98937,
+          "sha256": "8e7e5e3aed9ec43e1fe5d570ae1c15b6955f58d9bc9ec265633be2654680a286"
+        }
+      ]
+    },
+    {
+      "sku": "RW003577",
+      "title": "Gingham Cloud Resin Cabochons",
+      "dimensions": "27 × 18 mm",
+      "packing": "100 pieces per bag",
+      "family": "clouds",
+      "factNote": "The source shows check-pattern clouds with scalloped borders, bows and a small printed mark. Confirm selected colors and printed appearance; no fixed mix is established.",
+      "procurementAdvice": "Identify cloud colors and bag quantities for decorative craft assortments. Confirm check-pattern print, small lettering, molded bow finish and any custom packing against sample approval.",
+      "uses": "Arrange cloud-themed frames, scrapbook layouts or gift tags using the check-pattern shapes. Test the reverse surface and adhesive on your base.",
+      "key": "rw003577",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "gingham-cloud-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW003577",
+        "sku_raw": "MO-RW003577",
+        "title": "100pcs Mini Kawaii Cute Lattice Cloud Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Crafts",
+        "material": "Resin",
+        "size": "27*18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601580226008",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cute-Lattice-Cloud_1601580226008.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cute-Lattice-Cloud_1601580226008.html",
+      "sourceProductId": "1601580226008",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hfeef578fcdc946909a8a00874b2d1e27k.jpg",
+      "sourceImageSha256": "8d025e97cef1028477618ad2d186a10a3ccae616c3eb6b8d781d9202bb68ed3e",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows check-pattern clouds with scalloped borders, bows and a small printed mark. Confirm selected colors and printed appearance; no fixed mix is established. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Gingham Cloud Resin Cabochons. RW003577: 27 × 18 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale gingham cloud resin cabochons. RW003577: 27 × 18 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW003577 Gingham Cloud Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW003577 Gingham Cloud Resin Cabochons Wholesale | HAIBU",
+      "caption": "Gingham Cloud Resin Cabochons. Supplier size reference: 27 × 18 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU strict reference edit for RW003577. Arrange three exact gingham cloud resin cabochons from source, red checks/blue bow, purple checks/pink bow, blue checks/pink bow, face-up on a cream scrapbook layout beside paper fabric swatches. Preserve cloud lobes, scalloped cream border, molded small bow and existing tiny printed mark exactly as source (oui:e); no other text. Do not invent a new word or logo. One independent photorealistic square craft illustration. Retain exact visible source silhouette, proportions, colors, paint, materials and construction. Props separate/excluded. No invented rings, holes, hardware, backs, accessories, new variants, added logos, gold badges, watermarks, overlays, specification cards or collage. Natural daylight.",
+        "detailPrompt": "Same-SKU strict reference edit for RW003577. Separate macro photo of exact source brown-check and black-check cloud resin cabochons, face-up on pale pink matte surface. Copy original scalloped cream rim, gingham pattern, respective brown/red bow and exact existing small mark oui:e, not new lettering. Strict original silhouette and glossy resin, no added details. One independent photorealistic square craft illustration. Retain exact visible source silhouette, proportions, colors, paint, materials and construction. Props separate/excluded. No invented rings, holes, hardware, backs, accessories, new variants, added logos, gold badges, watermarks, overlays, specification cards or collage. Natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw003577/rw003577-1.jpg",
+        "assets/images/pdp/rw003577/rw003577-2.jpg",
+        "assets/images/pdp/rw003577/rw003577-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw003577/rw003577-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 93541,
+          "sha256": "a30e93f6a9fbf9ceed111152b2d45813b2e6c606bdecf4987e15d898d5e77c18"
+        },
+        {
+          "path": "assets/images/pdp/rw003577/rw003577-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 223813,
+          "sha256": "215ffd1dac19fbeae9df3e545466ed63225b0a92795de537f98d5d4c75586c58"
+        },
+        {
+          "path": "assets/images/pdp/rw003577/rw003577-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109078,
+          "sha256": "2827f380a16c02ce2be22444e791da0cd661924f580a9169c07fa8918b05b8cf"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw003577/rw003577-gingham-cloud-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw003577/rw003577-gingham-cloud-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw003577/rw003577-gingham-cloud-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw003577/rw003577-gingham-cloud-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 93541,
+          "sha256": "a30e93f6a9fbf9ceed111152b2d45813b2e6c606bdecf4987e15d898d5e77c18"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw003577/rw003577-gingham-cloud-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 223813,
+          "sha256": "215ffd1dac19fbeae9df3e545466ed63225b0a92795de537f98d5d4c75586c58"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw003577/rw003577-gingham-cloud-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109078,
+          "sha256": "2827f380a16c02ce2be22444e791da0cd661924f580a9169c07fa8918b05b8cf"
+        }
+      ]
+    },
+    {
+      "sku": "RW23952",
+      "title": "Mini Yellow Bee Resin Figurines",
+      "dimensions": "15 × 16 mm",
+      "packing": "100 pieces per bag",
+      "family": "animals",
+      "factNote": "The reference shows tiny yellow bee figures with black markings and white wings. Glow performance has not been verified.",
+      "procurementAdvice": "Specify yellow bee bag quantities for miniature craft assortments. Confirm molded wings, painted details and protective packing using samples; validate any glow requirement separately.",
+      "uses": "Compose miniature paper gardens, decorative meadow scenes or themed shadow boxes. Check the footprint and mounting method on a sample.",
+      "key": "rw23952",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "mini-yellow-bee-resin-figurines",
+      "sourceFields": {
+        "sku": "RW23952",
+        "sku_raw": "MO-RW23952",
+        "title": "Mini Cute Glow in Dark Resin Bee Animal Miniature Fairy Garden Ornament Micro Landscape DIY Crafts Decoration",
+        "material": "Resin",
+        "size": "15*16mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601660815474",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Cute-Glow-in-Dark-Resin_1601660815474.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Cute-Glow-in-Dark-Resin_1601660815474.html",
+      "sourceProductId": "1601660815474",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hd49f8b4d763a4c2bb65695cb0682191fo.jpg",
+      "sourceImageSha256": "6d9a1d8abd217c1710f8576702a1abb16ea544bc183106987785e7a00cf17a12",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The reference shows tiny yellow bee figures with black markings and white wings. Glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Mini Yellow Bee Resin Figurines. RW23952: 15 × 16 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale mini yellow bee resin figurines. RW23952: 15 × 16 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW23952 Mini Yellow Bee Resin Figurines | Qula Craft",
+      "haibuMetaTitle": "RW23952 Mini Yellow Bee Resin Figurines Wholesale | HAIBU",
+      "caption": "Mini Yellow Bee Resin Figurines. Supplier size reference: 15 × 16 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU strict reference edit for RW23952. Place three exact tiny yellow resin bee miniatures from reference on a mint paper meadow display with separate cut-paper leaves. Copy source spherical head, small black eyes, two short black-tipped antenna bumps, white small wing pair and pointed striped yellow rear body. Same front/top three-quarter views as source, translucent resin. No additional legs, eyes, hooks or glow. One independent photorealistic square craft illustration. Retain exact visible source silhouette, proportions, colors, paint, materials and construction. Props separate/excluded. No invented rings, holes, hardware, backs, accessories, new variants, added logos, gold badges, watermarks, overlays, specification cards or collage. Natural daylight.",
+        "detailPrompt": "Same-SKU strict reference edit for RW23952. Separate close-up photograph of two exact same source yellow resin bee miniatures on warm gray matte surface. One front/top and one side/top angle as source, preserving round head, tiny black eyes, two black tipped antenna bumps, white wing pair and tapered striped rear. No redesigned anatomy or glow. One independent photorealistic square craft illustration. Retain exact visible source silhouette, proportions, colors, paint, materials and construction. Props separate/excluded. No invented rings, holes, hardware, backs, accessories, new variants, added logos, gold badges, watermarks, overlays, specification cards or collage. Natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw23952/rw23952-1.jpg",
+        "assets/images/pdp/rw23952/rw23952-2.jpg",
+        "assets/images/pdp/rw23952/rw23952-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw23952/rw23952-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79156,
+          "sha256": "4643acbda4223e3e6ab4cf746687303939eb452ac98127f72a787312e6b74e01"
+        },
+        {
+          "path": "assets/images/pdp/rw23952/rw23952-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 137029,
+          "sha256": "b1922a167e2b34f1ec3a24cd59576365ef903d943d15d8f9c08258038e4beec3"
+        },
+        {
+          "path": "assets/images/pdp/rw23952/rw23952-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107435,
+          "sha256": "608320ea59d383055a7cef4b33d65b7cc0816dc1c6d3f7e3a6be3d1472799a98"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw23952/rw23952-mini-yellow-bee-resin-figurines-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw23952/rw23952-mini-yellow-bee-resin-figurines-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw23952/rw23952-mini-yellow-bee-resin-figurines-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw23952/rw23952-mini-yellow-bee-resin-figurines-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79156,
+          "sha256": "4643acbda4223e3e6ab4cf746687303939eb452ac98127f72a787312e6b74e01"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw23952/rw23952-mini-yellow-bee-resin-figurines-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 137029,
+          "sha256": "b1922a167e2b34f1ec3a24cd59576365ef903d943d15d8f9c08258038e4beec3"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw23952/rw23952-mini-yellow-bee-resin-figurines-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 107435,
+          "sha256": "608320ea59d383055a7cef4b33d65b7cc0816dc1c6d3f7e3a6be3d1472799a98"
+        }
+      ]
+    },
+    {
+      "sku": "RW26034",
+      "title": "Cherry and Strawberry Resin Cabochons",
+      "dimensions": "Approx. 23 mm",
+      "packing": "100 pieces per bag",
+      "family": "food",
+      "factNote": "The source shows red cherry-pair and strawberry designs. The supplier gives one approximate size without assigning it to each variant; confirm selected designs and quantities.",
+      "procurementAdvice": "Specify cherry and strawberry selections and bag quantities for fruit-themed craft ranges. Confirm green leaf finish, molded fruit details and custom packing against sample approval.",
+      "uses": "Try fruit-themed cards, decorative frames or miniature displays with the red resin shapes. Non-edible craft components; check the base and adhesive choice.",
+      "key": "rw26034",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "cherry-strawberry-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26034",
+        "sku_raw": "MO-RW26034",
+        "title": "100pcs Cartoon Fruit Strawberry Cherry Resin Charms Cute Flatback Pendants for Earring Bracelet Jewelry Making",
+        "material": "Resin",
+        "size": "about 23mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601629457765",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Cartoon-Fruit-Strawberry-Cherry-Resin_1601629457765.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cartoon-Fruit-Strawberry-Cherry-Resin_1601629457765.html",
+      "sourceProductId": "1601629457765",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H82d6812e759e478c81bbb957551d61cfS.jpg",
+      "sourceImageSha256": "d2d22ffeb5db812c8a13e7fe227658b125ed32506a101524c4c27f7ed0a1be00",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source shows red cherry-pair and strawberry designs. The supplier gives one approximate size without assigning it to each variant; confirm selected designs and quantities. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Cherry and Strawberry Resin Cabochons. RW26034: Approx. 23 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale cherry and strawberry resin cabochons. RW26034: Approx. 23 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26034 Cherry and Strawberry Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26034 Cherry and Strawberry Resin Cabochons Wholesale | HAIBU",
+      "caption": "Cherry and Strawberry Resin Cabochons. Supplier size reference: Approx. 23 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU strict reference edit for RW26034. Arrange the exact red cherry-pair and strawberry resin cabochons from reference face-up on a blank cream recipe-themed scrapbook card beside separate red/green paper strips on a pale blue desk. Preserve source cherry leaves and molded connecting stem; strawberry green leafy crown, oval seed indentations and glossy molded shape. Non-edible resin, no added fruit or print. One independent photorealistic square craft illustration. Retain exact visible source silhouette, proportions, colors, paint, materials and construction. Props separate/excluded. No invented rings, holes, hardware, backs, accessories, new variants, added logos, gold badges, watermarks, overlays, specification cards or collage. Natural daylight.",
+        "detailPrompt": "Same-SKU strict reference edit for RW26034. Separate close-up product photo of exact source cherry-pair and strawberry resin cabochons face-up on pale peach matte paper. Same front angle, bright glossy red resin and green molded leaf details, source oval recessed seed marks, source connecting stem. No new holes, texture, stems or fruit types. One independent photorealistic square craft illustration. Retain exact visible source silhouette, proportions, colors, paint, materials and construction. Props separate/excluded. No invented rings, holes, hardware, backs, accessories, new variants, added logos, gold badges, watermarks, overlays, specification cards or collage. Natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26034/rw26034-1.jpg",
+        "assets/images/pdp/rw26034/rw26034-2.jpg",
+        "assets/images/pdp/rw26034/rw26034-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26034/rw26034-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 69234,
+          "sha256": "b9973dc2df453c4a3cbaf2f8d0cc5b761b5ffc8795306076a0ec7cbe625f1234"
+        },
+        {
+          "path": "assets/images/pdp/rw26034/rw26034-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 154421,
+          "sha256": "d782ab7cee345eb12225b24209aca6a563ae5f1e9e4505d8c70d75d86ab8011c"
+        },
+        {
+          "path": "assets/images/pdp/rw26034/rw26034-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 110900,
+          "sha256": "e6335a6f717ea00b1538e0f352b95f5b5e2494c146aecaebfe554eb4547b3122"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw26034/rw26034-cherry-strawberry-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26034/rw26034-cherry-strawberry-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw26034/rw26034-cherry-strawberry-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26034/rw26034-cherry-strawberry-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 69234,
+          "sha256": "b9973dc2df453c4a3cbaf2f8d0cc5b761b5ffc8795306076a0ec7cbe625f1234"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26034/rw26034-cherry-strawberry-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 154421,
+          "sha256": "d782ab7cee345eb12225b24209aca6a563ae5f1e9e4505d8c70d75d86ab8011c"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw26034/rw26034-cherry-strawberry-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 110900,
+          "sha256": "e6335a6f717ea00b1538e0f352b95f5b5e2494c146aecaebfe554eb4547b3122"
+        }
+      ]
+    },
+    {
+      "sku": "RW23542",
+      "title": "Mini Seal Resin Figurines",
+      "dimensions": "11 × 17 mm",
+      "packing": "100 pieces per bag",
+      "family": "animals",
+      "factNote": "The source photo shows several pale-blue and gray seal poses. Confirm selected designs and actual mix; glow performance has not been verified.",
+      "procurementAdvice": "Identify seal poses and bag quantities for miniature craft assortments. Confirm painted whisker details, translucent finish and protective packing with samples; validate any glow claim separately.",
+      "uses": "Build paper ocean displays, decorative winter shadow boxes or keepsake layouts. Check the selected pose and craft base before fixing.",
+      "key": "rw23542",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "mini-seal-resin-figurines",
+      "sourceFields": {
+        "sku": "RW23542",
+        "sku_raw": "MO-RW23542",
+        "title": "Glow in Dark Mini Seal Figurines Resin Luminous Sea Animals Miniatures 4 Styles for DIY Craft Home Decoration Supplies",
+        "material": "Resin",
+        "size": "11*17mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601663484416",
+        "product_url": "https://www.alibaba.com/product-detail/Glow-in-Dark-Mini-Seal-Figurines_1601663484416.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Glow-in-Dark-Mini-Seal-Figurines_1601663484416.html",
+      "sourceProductId": "1601663484416",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Haac9d5fe8a2744618761b3c354d05de8I.jpg",
+      "sourceImageSha256": "0d0222288d8ba55bfccb7293e51fb3c12fd4993f49b4d15278910442836ceb38",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 10,
+      "batchId": "20261028-monica-10",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source photo shows several pale-blue and gray seal poses. Confirm selected designs and actual mix; glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Mini Seal Resin Figurines. RW23542: 11 × 17 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale mini seal resin figurines. RW23542: 11 × 17 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW23542 Mini Seal Resin Figurines | Qula Craft",
+      "haibuMetaTitle": "RW23542 Mini Seal Resin Figurines Wholesale | HAIBU",
+      "caption": "Mini Seal Resin Figurines. Supplier size reference: 11 × 17 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU strict reference edit for RW23542. Place three exact source tiny pale-blue/gray translucent seal resin miniatures beside a cut-paper ocean and ice layout inside an ivory shadow-box on soft blue craft desk. Keep source plump teardrop bodies, short flippers, split tail fins, black round eyes and tiny nose with three whisker lines. Use only top/front views present in reference, no new variants or glow. One independent photorealistic square craft illustration. Retain exact visible source silhouette, proportions, colors, paint, materials and construction. Props separate/excluded. No invented rings, holes, hardware, backs, accessories, new variants, added logos, gold badges, watermarks, overlays, specification cards or collage. Natural daylight.",
+        "detailPrompt": "Same-SKU strict reference edit for RW23542. Separate macro photo of two exact source seal resin miniatures in pale blue and gray on warm cream matte surface, same top/front angles as original. Copy source plump rounded body, small flippers, split tail, black dot eyes/nose and three whisker lines. No extra anatomy, accessories or glow effects. One independent photorealistic square craft illustration. Retain exact visible source silhouette, proportions, colors, paint, materials and construction. Props separate/excluded. No invented rings, holes, hardware, backs, accessories, new variants, added logos, gold badges, watermarks, overlays, specification cards or collage. Natural daylight."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw23542/rw23542-1.jpg",
+        "assets/images/pdp/rw23542/rw23542-2.jpg",
+        "assets/images/pdp/rw23542/rw23542-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw23542/rw23542-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 236330,
+          "sha256": "094a8c653e545c111ea4b0b4159f1d84dde5d1eec37f0bf54043a12b29926599"
+        },
+        {
+          "path": "assets/images/pdp/rw23542/rw23542-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 161060,
+          "sha256": "abc4fc4c25c6481179652ea75c15fcdfca289c44afcd1f662fded1fd2a33d48b"
+        },
+        {
+          "path": "assets/images/pdp/rw23542/rw23542-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 180518,
+          "sha256": "be043e1510e00e2ee4e4f5badf2bc1669aa45e5a6e95a01210de1621e7146cdf"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-10/rw23542/rw23542-mini-seal-resin-figurines-01.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw23542/rw23542-mini-seal-resin-figurines-02.jpg",
+        "assets/images/products/batch-20261028-monica-10/rw23542/rw23542-mini-seal-resin-figurines-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw23542/rw23542-mini-seal-resin-figurines-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 236330,
+          "sha256": "094a8c653e545c111ea4b0b4159f1d84dde5d1eec37f0bf54043a12b29926599"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw23542/rw23542-mini-seal-resin-figurines-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 161060,
+          "sha256": "abc4fc4c25c6481179652ea75c15fcdfca289c44afcd1f662fded1fd2a33d48b"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-10/rw23542/rw23542-mini-seal-resin-figurines-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 180518,
+          "sha256": "be043e1510e00e2ee4e4f5badf2bc1669aa45e5a6e95a01210de1621e7146cdf"
+        }
+      ]
+    }
+  ]
+}

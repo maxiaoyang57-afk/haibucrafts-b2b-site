@@ -1339,8 +1339,8 @@
     },
     {
       "sku": "RW26651",
-      "status": "ready_in_batch",
-      "reason": "Batch08 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch08 published on both sites; HAIBU152/QULA128 CI/Preview/main/production verified;441HAIBU/665QULA"
     },
     {
       "sku": "RW26652",
@@ -1569,8 +1569,8 @@
     },
     {
       "sku": "RW26627",
-      "status": "ready_in_batch",
-      "reason": "Batch08 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch08 published on both sites; HAIBU152/QULA128 CI/Preview/main/production verified;441HAIBU/665QULA"
     },
     {
       "sku": "YA346",
@@ -1589,8 +1589,8 @@
     },
     {
       "sku": "RW26210",
-      "status": "ready_in_batch",
-      "reason": "Batch08 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch08 published on both sites; HAIBU152/QULA128 CI/Preview/main/production verified;441HAIBU/665QULA"
     },
     {
       "sku": "YA317",
@@ -1694,13 +1694,13 @@
     },
     {
       "sku": "RW26613",
-      "status": "ready_in_batch",
-      "reason": "Batch08 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch08 published on both sites; HAIBU152/QULA128 CI/Preview/main/production verified;441HAIBU/665QULA"
     },
     {
       "sku": "RW26612",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW26053",
@@ -1719,8 +1719,8 @@
     },
     {
       "sku": "RW22702",
-      "status": "ready_in_batch",
-      "reason": "Batch08 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch08 published on both sites; HAIBU152/QULA128 CI/Preview/main/production verified;441HAIBU/665QULA"
     },
     {
       "sku": "RW26052",
@@ -1759,8 +1759,8 @@
     },
     {
       "sku": "RW25575",
-      "status": "ready_in_batch",
-      "reason": "Batch08 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch08 published on both sites; HAIBU152/QULA128 CI/Preview/main/production verified;441HAIBU/665QULA"
     },
     {
       "sku": "YX3819",
@@ -1809,8 +1809,8 @@
     },
     {
       "sku": "RW002271",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW408",
@@ -1819,13 +1819,13 @@
     },
     {
       "sku": "RW4287",
-      "status": "ready_in_batch",
-      "reason": "Batch08 prepared; pending CI/Preview, merge and production verification"
+      "status": "already_listed",
+      "reason": "Batch08 published on both sites; HAIBU152/QULA128 CI/Preview/main/production verified;441HAIBU/665QULA"
     },
     {
       "sku": "RW004103",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW22320",
@@ -1884,8 +1884,8 @@
     },
     {
       "sku": "RW002548",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW003577",
@@ -1894,13 +1894,13 @@
     },
     {
       "sku": "RW23944",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW23940",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW003851",
@@ -1914,8 +1914,8 @@
     },
     {
       "sku": "RW21838",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW23930",
@@ -1924,8 +1924,8 @@
     },
     {
       "sku": "RW004514",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW26367",
@@ -1954,8 +1954,8 @@
     },
     {
       "sku": "RW25778",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "RW26034",
@@ -1979,8 +1979,8 @@
     },
     {
       "sku": "RW26378",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch09 prepared; pending CI/Preview, merge and production verification"
     },
     {
       "sku": "YX225",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 8,
+  "currentBatchNumber": 9,
   "updatedAt": "2026-10-28"
 }

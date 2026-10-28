@@ -2494,13 +2494,13 @@
     },
     {
       "sku": "RW26319",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26317",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26316",
@@ -2509,18 +2509,18 @@
     },
     {
       "sku": "RW26315",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26312",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26307",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26300",
@@ -2549,13 +2549,13 @@
     },
     {
       "sku": "RW26313",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26309",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26306",
@@ -2569,18 +2569,18 @@
     },
     {
       "sku": "RW26304",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch20 source facts and3images reviewed; pending PR/CI/production verification"
     },
     {
       "sku": "RW26303",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26299",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch20 source facts and3images reviewed; pending PR/CI/production verification"
     },
     {
       "sku": "RW26298",
@@ -2669,8 +2669,8 @@
     },
     {
       "sku": "RW25591",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW24825",
@@ -2724,8 +2724,8 @@
     },
     {
       "sku": "RW26218",
-      "status": "ready_in_batch",
-      "reason": "Batch19 source facts and3images reviewed; pending PR/CI/production verification"
+      "status": "already_listed",
+      "reason": "Batch19 both production deployments and live catalog/UI verified; do not duplicate"
     },
     {
       "sku": "RW26217",

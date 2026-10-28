@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 465,
+  "count": 469,
   "products": [
     {
       "sku": "YX3301",
@@ -2617,6 +2617,66 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw23930-translucent-yellow-duck-resin-figurines/",
       "productionPath": "/products/resin-charms-for-slime/rw23930-translucent-yellow-duck-resin-figurines/"
+    },
+    {
+      "sku": "RW26367",
+      "title": "Christmas Cushion Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26367-christmas-cushion-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26367-christmas-cushion-resin-cabochons/"
+    },
+    {
+      "sku": "RW26110",
+      "title": "Pastel Wavy Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-13/rw26110/rw26110-pastel-wavy-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26110-pastel-wavy-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26110-pastel-wavy-resin-cabochons/"
+    },
+    {
+      "sku": "RW20635",
+      "title": "Mini Cassette Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-13/rw20635/rw20635-mini-cassette-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw20635-mini-cassette-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw20635-mini-cassette-resin-cabochons/"
+    },
+    {
+      "sku": "RW21432",
+      "title": "White Sheep Face Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-13/rw21432/rw21432-white-sheep-face-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw21432-white-sheep-face-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw21432-white-sheep-face-resin-cabochons/"
     },
     {
       "sku": "RW0020648",

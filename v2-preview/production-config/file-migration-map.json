@@ -1009,6 +1009,20 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26455-glitter-flower-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26455-glitter-flower-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26455-glitter-flower-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26633-mini-toast-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26633-mini-toast-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26633-mini-toast-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "action": "create",

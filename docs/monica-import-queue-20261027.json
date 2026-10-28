@@ -1303,38 +1303,38 @@
     },
     {
       "sku": "RW26625",
-      "status": "ready_in_batch",
-      "reason": "Fourth batch: original reference, application and detail reviewed; publication requires merged PR and production verification",
+      "status": "already_listed",
+      "reason": "Batch 04 published; verified merged HAIBU #148 and QULA #122 release evidence",
       "batchId": "20261028-monica-04"
     },
     {
       "sku": "RW26623",
-      "status": "ready_in_batch",
-      "reason": "Fourth batch: original reference, application and detail reviewed; publication requires merged PR and production verification",
+      "status": "already_listed",
+      "reason": "Batch 04 published; verified merged HAIBU #148 and QULA #122 release evidence",
       "batchId": "20261028-monica-04"
     },
     {
       "sku": "RW26411",
-      "status": "ready_in_batch",
-      "reason": "Fourth batch: original reference, application and detail reviewed; publication requires merged PR and production verification",
+      "status": "already_listed",
+      "reason": "Batch 04 published; verified merged HAIBU #148 and QULA #122 release evidence",
       "batchId": "20261028-monica-04"
     },
     {
       "sku": "RW26621",
-      "status": "ready_in_batch",
-      "reason": "Fourth batch: original reference, application and detail reviewed; publication requires merged PR and production verification",
+      "status": "already_listed",
+      "reason": "Batch 04 published; verified merged HAIBU #148 and QULA #122 release evidence",
       "batchId": "20261028-monica-04"
     },
     {
       "sku": "RW26620",
-      "status": "ready_in_batch",
-      "reason": "Fourth batch: original reference, application and detail reviewed; publication requires merged PR and production verification",
+      "status": "already_listed",
+      "reason": "Batch 04 published; verified merged HAIBU #148 and QULA #122 release evidence",
       "batchId": "20261028-monica-04"
     },
     {
       "sku": "RW26649",
-      "status": "ready_in_batch",
-      "reason": "Fourth batch: original reference, application and detail reviewed; publication requires merged PR and production verification",
+      "status": "already_listed",
+      "reason": "Batch 04 published; verified merged HAIBU #148 and QULA #122 release evidence",
       "batchId": "20261028-monica-04"
     },
     {
@@ -1359,8 +1359,8 @@
     },
     {
       "sku": "RW26455",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch 05 prepared; publication pending PR, CI and production verification"
     },
     {
       "sku": "RW26654",
@@ -1464,8 +1464,8 @@
     },
     {
       "sku": "RW26633",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch 05 prepared; publication pending PR, CI and production verification"
     },
     {
       "sku": "RW26634",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 4,
+  "currentBatchNumber": 5,
   "updatedAt": "2026-10-28"
 }

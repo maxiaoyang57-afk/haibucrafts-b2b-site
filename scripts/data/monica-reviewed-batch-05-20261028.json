@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 2,
+  "batchCount": 1,
+  "currentBatchNumber": 5,
+  "newProductCount": 2,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26455",
+      "title": "Glitter Flower Resin Cabochons",
+      "dimensions": "25 mm",
+      "packing": "100 pieces per bag",
+      "family": "flowers",
+      "factNote": "Choose the petal-tip colors before planning a floral card or frame. Confirm the reverse surface and adhesive choice on a sample.",
+      "procurementAdvice": "For floral craft assortments, specify the required petal-tip colors and bag quantities. Confirm color ratios, surface finish and any requested custom packing before sample approval.",
+      "uses": "Try a floral layout on cards, keepsake frames or decorative notebooks; check the 25 mm footprint against your chosen base before fixing.",
+      "key": "rw26455",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "glitter-flower-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26455",
+        "sku_raw": "MO-RW26455",
+        "title": "Kawaii Flatback Resin Simulation Flower Decoration Crafts Scrapbooking DIY Accessories",
+        "material": "Resin",
+        "size": "25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601885753632",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Flatback-Resin-Simulation-Flower-Decoration_1601885753632.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Flatback-Resin-Simulation-Flower-Decoration_1601885753632.html",
+      "sourceProductId": "1601885753632",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H96a14445bdc34d92b34d0805ac97331ax.jpg",
+      "sourceImageSha256": "e832dbd09e2a5120a843839908b932dd07334c3f6ed2ca65139a8ba95e4ab64a",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 5,
+      "batchId": "20261028-monica-05",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "Choose the petal-tip colors before planning a floral card or frame. Confirm the reverse surface and adhesive choice on a sample. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Glitter Flower Resin Cabochons. RW26455: 25 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale glitter flower resin cabochons. RW26455: 25 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26455 Glitter Flower Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26455 Glitter Flower Resin Cabochons Wholesale | HAIBU",
+      "caption": "Glitter Flower Resin Cabochons. Supplier size reference: 25 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Photographic B2B craft gallery illustration, one continuous square image, no collage, no panels, no text, watermark, logos, badges, rulers. The supplied reference is the strict same-SKU identity target. Preserve exact molded outline, colors, relief and visible surface. No invented holes, hooks, backs, attachments or new variants. All items are non-edible resin decorations; props excluded. Show three of the exact five-petal glossy glitter flowers from reference (pink, purple and green with white petals/yellow centers), laid on a blank ivory craft card beside paper offcuts and a small closed craft notebook on a pale lilac worktable. A tasteful DIY layout idea; no glued attachment claims.",
+        "detailPrompt": "Use case: product-mockup. Photographic B2B craft gallery illustration, one continuous square image, no collage, no panels, no text, watermark, logos, badges, rulers. The supplied reference is the strict same-SKU identity target. Preserve exact molded outline, colors, relief and visible surface. No invented holes, hooks, backs, attachments or new variants. All items are non-edible resin decorations; props excluded. Macro close-up of two of the exact five-petal resin flowers from reference in pink and purple, on a neutral warm gray surface. Show the yellow centers, white petal bases, colored tips, glossy fine glitter and molded petal relief, supported front/top view only."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26455/rw26455-1.jpg",
+        "assets/images/pdp/rw26455/rw26455-2.jpg",
+        "assets/images/pdp/rw26455/rw26455-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26455/rw26455-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "91ab70aecd556206c80d0f9c725be0f11cb1d82bdbd0cacfeeb23f3d3a41ccd2",
+          "bytes": 161003
+        },
+        {
+          "path": "assets/images/pdp/rw26455/rw26455-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "15d65f0fc302f8e723190259d6d420672efecd27a4a82a14f6ffa6f9f378b0aa",
+          "bytes": 171435
+        },
+        {
+          "path": "assets/images/pdp/rw26455/rw26455-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3a32ed93060c054662444606f047984f4035c3e9ca7d615815a2c4b80e90e37f",
+          "bytes": 178766
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "96d6a7d9b393457e2b4536553ad606d16d3a7e4074d456803d87617af8d3f6e5",
+          "bytes": 161003
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "08eba2df299838295344dd0097fd5587e0fcbf1ad45016ced1fc9385299370a4",
+          "bytes": 171435
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-05/rw26455/rw26455-glitter-flower-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "dd2831d7bd8b3a50aa38ad2d916ddf5606c0a3986ace0783e3d60891f8e4a700",
+          "bytes": 178766
+        }
+      ]
+    },
+    {
+      "sku": "RW26633",
+      "title": "Mini Toast Resin Cabochons",
+      "dimensions": "Approx. 24 × 19 mm",
+      "packing": "100 pieces per bag",
+      "family": "food",
+      "factNote": "Select topping designs individually for a miniature bakery arrangement. The reference shows several designs but does not confirm the contents of each bag.",
+      "procurementAdvice": "Identify the toast topping designs required for your craft range. Confirm the design mix, bag quantities and protective packing for raised details; discuss any custom assortment against an approved sample.",
+      "uses": "Arrange toast miniatures in bakery shadow boxes, miniature displays or food-themed craft layouts. These are non-edible resin decorations; verify scale and base compatibility on a sample.",
+      "key": "rw26633",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "mini-toast-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26633",
+        "sku_raw": "MO-RW26633",
+        "title": "100pcs Kawaii Toast Bread Flatback Resin Cabochon SImulation Simulation Food Scrapbooking Dollhouse DIY Craft",
+        "material": "Resin",
+        "size": "about24*19mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601887902448",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Toast-Bread-Flatback-Resin_1601887902448.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Toast-Bread-Flatback-Resin_1601887902448.html",
+      "sourceProductId": "1601887902448",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H15a15e86edaa4403baba6ce62ec31177a.jpg",
+      "sourceImageSha256": "f3599d94df97c65c185cdaf720c4aff513cbcc6ffdc0c044853beb63df6b8945",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 5,
+      "batchId": "20261028-monica-05",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "Select topping designs individually for a miniature bakery arrangement. The reference shows several designs but does not confirm the contents of each bag. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Mini Toast Resin Cabochons. RW26633: Approx. 24 × 19 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale mini toast resin cabochons. RW26633: Approx. 24 × 19 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26633 Mini Toast Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26633 Mini Toast Resin Cabochons Wholesale | HAIBU",
+      "caption": "Mini Toast Resin Cabochons. Supplier size reference: Approx. 24 × 19 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Photographic B2B craft gallery illustration, one continuous square image, no collage, no panels, no text, watermark, logos, badges, rulers. The supplied reference is the strict same-SKU identity target. Preserve exact molded outline, colors, relief and visible surface. No invented holes, hooks, backs, attachments or new variants. All items are non-edible resin decorations; props excluded. A miniature bakery craft layout: three exact miniature toast resin decorations from reference (banana/chocolate, tomato and berry-topped toast) set beside a small unprinted kraft display card and paper scraps on an ivory craft desk. Clearly retain molded glossy resin miniature texture, not edible real food. No extra designs.",
+        "detailPrompt": "Use case: product-mockup. Photographic B2B craft gallery illustration, one continuous square image, no collage, no panels, no text, watermark, logos, badges, rulers. The supplied reference is the strict same-SKU identity target. Preserve exact molded outline, colors, relief and visible surface. No invented holes, hooks, backs, attachments or new variants. All items are non-edible resin decorations; props excluded. Macro close-up of the exact banana/chocolate toast and egg/bacon toast resin cabochons in the reference. Show the molded toast outline, glossy cream and brown crust, tiny raised toppings, top/front view on cool light gray studio surface. Do not change topping combinations, no actual edible food."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26633/rw26633-1.jpg",
+        "assets/images/pdp/rw26633/rw26633-2.jpg",
+        "assets/images/pdp/rw26633/rw26633-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26633/rw26633-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7b03b71986bb39c162d63f18507906d2b039abfdc5018a61090293818b32cb99",
+          "bytes": 214814
+        },
+        {
+          "path": "assets/images/pdp/rw26633/rw26633-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3e07f04066406eaadbe48bd484573b4b4c12135572ffdf64647afa267058a131",
+          "bytes": 174046
+        },
+        {
+          "path": "assets/images/pdp/rw26633/rw26633-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b32916d01938179acea8d343ed298bd9ef781e826b7ffcf29f0099d55d50a831",
+          "bytes": 146927
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7b03b71986bb39c162d63f18507906d2b039abfdc5018a61090293818b32cb99",
+          "bytes": 214814
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3e07f04066406eaadbe48bd484573b4b4c12135572ffdf64647afa267058a131",
+          "bytes": 174046
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b32916d01938179acea8d343ed298bd9ef781e826b7ffcf29f0099d55d50a831",
+          "bytes": 146927
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 469,
+  "count": 472,
   "products": [
     {
       "sku": "YX3301",
@@ -2677,6 +2677,51 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw21432-white-sheep-face-resin-cabochons/",
       "productionPath": "/products/resin-charms-for-slime/rw21432-white-sheep-face-resin-cabochons/"
+    },
+    {
+      "sku": "RW23948",
+      "title": "Pastel Elephant Head Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23948-pastel-elephant-head-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw23948-pastel-elephant-head-resin-cabochons/"
+    },
+    {
+      "sku": "RW375",
+      "title": "Iridescent Shell Resin Charms",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-01.jpg",
+        "/assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-02.jpg",
+        "/assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw375-iridescent-shell-resin-charms/",
+      "productionPath": "/products/resin-charms-for-slime/rw375-iridescent-shell-resin-charms/"
+    },
+    {
+      "sku": "RW23535",
+      "title": "Strawberry Layer Cake Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23535-strawberry-layer-cake-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw23535-strawberry-layer-cake-resin-miniatures/"
     },
     {
       "sku": "RW0020648",

@@ -1929,8 +1929,8 @@
     },
     {
       "sku": "RW26367",
-      "status": "ready_in_batch",
-      "reason": "Batch13 prepared;pendingCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch13 bothformallypublished PR158/134 correctproject/commit productionREADY;18exactGETs each and livegallery/search/inquirycontext verified,no inquiry sent"
     },
     {
       "sku": "RW23952",
@@ -1964,8 +1964,8 @@
     },
     {
       "sku": "RW26110",
-      "status": "ready_in_batch",
-      "reason": "Batch13 prepared;pendingCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch13 bothformallypublished PR158/134 correctproject/commit productionREADY;18exactGETs each and livegallery/search/inquirycontext verified,no inquiry sent"
     },
     {
       "sku": "RW26110-1",
@@ -2019,18 +2019,18 @@
     },
     {
       "sku": "RW20635",
-      "status": "ready_in_batch",
-      "reason": "Batch13 prepared;pendingCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch13 bothformallypublished PR158/134 correctproject/commit productionREADY;18exactGETs each and livegallery/search/inquirycontext verified,no inquiry sent"
     },
     {
       "sku": "RW21432",
-      "status": "ready_in_batch",
-      "reason": "Batch13 prepared;pendingCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch13 bothformallypublished PR158/134 correctproject/commit productionREADY;18exactGETs each and livegallery/search/inquirycontext verified,no inquiry sent"
     },
     {
       "sku": "RW23948",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch14 prepared;pendingnecessaryCI/Preview/main/production"
     },
     {
       "sku": "RW25135",
@@ -2044,13 +2044,13 @@
     },
     {
       "sku": "RW375",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch14 prepared;pendingnecessaryCI/Preview/main/production"
     },
     {
       "sku": "RW23535",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch14 prepared;pendingnecessaryCI/Preview/main/production"
     },
     {
       "sku": "RW25476",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 13,
+  "currentBatchNumber": 14,
   "updatedAt": "2026-10-28"
 }

@@ -1,0 +1,77 @@
+{
+  "sourceFileSha256": "dac727ba1ba34c2f4ede9c544fe9548414fcd2f7639a0f772f81e77855533aee",
+  "sourceType": "User-supplied marketplace screenshot",
+  "platformName": null,
+  "storeUrl": null,
+  "sourceBusinessRelationship": "Not independently verified. User supplied this marketplace feedback for publication on both sites; the display makes no named-store or verified-transaction claim.",
+  "individualRating": 5,
+  "overallRating": null,
+  "displayedReviewIds": [
+    "repeat",
+    "delivery",
+    "communication"
+  ],
+  "reviews": {
+    "repeat": {
+      "name": "h***f",
+      "country": "United States",
+      "date": "2026-09-15",
+      "label": "September 15, 2026",
+      "repeat": true,
+      "title": "A reason to come back",
+      "quote": "I’ve ordered from here many times now with Helen, who is always super friendly and helpful. The products are always top quality and arrive quickly. Highly recommend.",
+      "original": "I’ve ordered from here many times now with Helen, who is always super friendly and helpful. the products are always top quality and arrive quickly. highly recommend"
+    },
+    "delivery": {
+      "name": "C***n",
+      "country": "Australia",
+      "date": "2026-09-16",
+      "label": "September 16, 2026",
+      "repeat": false,
+      "title": "As pictured. On time.",
+      "quote": "Great to deal with & helpful. On time delivery. Product exactly as displayed.",
+      "original": "Great to deal with & helpful. On time delivery. Product exactly as displayed."
+    },
+    "communication": {
+      "name": "A***t",
+      "country": "Australia",
+      "date": "2026-09-14",
+      "label": "September 14, 2026",
+      "repeat": true,
+      "title": "Easy to work with",
+      "quote": "Exactly what I wanted. Great to deal with and easy communication. Will be using them again.",
+      "original": "exactly what i wanted, geeat to deal with and easy communication. will be using them again."
+    },
+    "charms": {
+      "name": "R***p",
+      "country": "United States",
+      "date": "2026-09-18",
+      "label": "September 18, 2026",
+      "repeat": false,
+      "title": "The little charms they were looking for",
+      "quote": "Super fast shipping! Everything arrived safely, and no damage to product! Thank you! I’ve been looking everywhere for these little ice cream bowl charms!",
+      "original": "Super fast shipping! Everything arrived safely, and no damage to product! Thank you!!! I've been looking EVERYWHERE for these little ice cream bowl charms!"
+    },
+    "beautiful": {
+      "name": "K***z",
+      "country": "Costa Rica",
+      "date": "2026-09-18",
+      "label": "September 18, 2026",
+      "repeat": true,
+      "title": "Beautiful details",
+      "quote": "It was a good quality product and beautiful. Perfect, amazing. I loved them.",
+      "original": "It was a good quality product and beautiful. Perfect amazing I loved them"
+    }
+  },
+  "publicSourceControls": false,
+  "presentationNote": "Original-review disclosures, screenshot viewer and source links removed from homepage at user request. Original records retained for attribution checks.",
+  "publicationApproval": {
+    "approvedBy": "User",
+    "date": "2026-10-28",
+    "request": "核对没有差错就上线",
+    "sites": [
+      "HAIBU",
+      "QULA"
+    ]
+  }
+}

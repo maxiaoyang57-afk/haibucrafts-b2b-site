@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 3,
+  "batchCount": 1,
+  "currentBatchNumber": 14,
+  "newProductCount": 3,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW23948",
+      "title": "Pastel Elephant Head Resin Cabochons",
+      "dimensions": "15 × 21 mm",
+      "packing": "100 pieces per bag",
+      "family": "Animal",
+      "factNote": "The photo shows pastel elephant-head shapes. Confirm selected colors and actual mix. Glow performance is unverified and is not promised.",
+      "procurementAdvice": "Select elephant-head colors and bag quantities for bulk craft assortments. Review painted eyes, molded outlines and packaging on approved samples before an OEM brief.",
+      "uses": "Compare these pastel elephant-head pieces for decorative cards, scrapbook layouts or miniature display projects. Test the selected base and attachment method on a sample.",
+      "key": "rw23948",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pastel-elephant-head-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW23948",
+        "sku_raw": "MO-RW23948",
+        "title": "Mini Resin Luminous Elephant Portrait Mini Resin Animals Suitable for Mini Garden Landscape Aquarium Potted Toy House Decor",
+        "material": "Resin",
+        "size": "15*21mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643723357",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Resin-Luminous-Elephant-Portrait-Mini_1601643723357.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Resin-Luminous-Elephant-Portrait-Mini_1601643723357.html",
+      "sourceProductId": "1601643723357",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H13ec56d34c314c6192a0dd65fca96c265.jpg",
+      "sourceImageSha256": "972bfebf59ffc06710d23ac708cd20aee0afca199a99344dfd009da6052a2d20",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 14,
+      "batchId": "20261028-monica-14",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows pastel elephant-head shapes. Confirm selected colors and actual mix. Glow performance is unverified and is not promised. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Pastel Elephant Head Resin Cabochons. RW23948: 15 × 21 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale pastel elephant head resin cabochons. RW23948: 15 × 21 mm; 100 pieces per bag. Confirm selection and packing.",
+      "metaTitle": "RW23948 Pastel Elephant Head Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW23948 Pastel Elephant Head Resin Cabochons Wholesale | HAIBU",
+      "caption": "Pastel Elephant Head Resin Cabochons. Supplier size reference: 15 × 21 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference is the exact SKU identity ground truth. Exact source RW23948 elephant-head resin decorative pieces. Small rounded elephant face silhouette with large molded ears, tiny black oval eyes, short trunk curling at the bottom; pastel mint/turquoise/pink/lavender/cream/yellow visible. Only source-facing front/three-quarter views; no whole elephant body, legs, new holes, loops, attachment or back. Glossy resin; no glowing performance. Independent application-scene photograph: two loose pastel mint and pink elephant heads on a miniature cream display card with blurred lavender paper at far edge. Props separate and excluded. Soft daylight. Preserve actual visible proportions, colors and components. Square photograph. No added logo, watermark, gold badge, overlay text or invented accessories.",
+        "detailPrompt": "Use case: product-mockup. Reference is the exact SKU identity ground truth. Exact source RW23948 elephant-head resin decorative pieces. Small rounded elephant face silhouette with large molded ears, tiny black oval eyes, short trunk curling at the bottom; pastel mint/turquoise/pink/lavender/cream/yellow visible. Only source-facing front/three-quarter views; no whole elephant body, legs, new holes, loops, attachment or back. Glossy resin; no glowing performance. Independent close product-detail photo on matte light-gray paper: one turquoise elephant head, complete front form visible with crisp molded/painted surface detail and gentle sidelight. Distinct composition from supplied photo. Preserve actual visible proportions, colors and components. Square photograph. No added logo, watermark, gold badge, overlay text or invented accessories."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw23948/rw23948-1.jpg",
+        "assets/images/pdp/rw23948/rw23948-2.jpg",
+        "assets/images/pdp/rw23948/rw23948-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw23948/rw23948-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 92193,
+          "sha256": "e5cb76ee732409e76a6fe011efe2b39c1c9d98840aa4d6761041e03ed2cbc4e5"
+        },
+        {
+          "path": "assets/images/pdp/rw23948/rw23948-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 88421,
+          "sha256": "97b9fae28791333435c0437b0a4bce5be964390387d9d3bce4bc9cc0e33407ec"
+        },
+        {
+          "path": "assets/images/pdp/rw23948/rw23948-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 82102,
+          "sha256": "489eccc36640c5d82c74117069fbfd484833eea147338e68b39840fba446a080"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 92193,
+          "sha256": "e5cb76ee732409e76a6fe011efe2b39c1c9d98840aa4d6761041e03ed2cbc4e5"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 88421,
+          "sha256": "97b9fae28791333435c0437b0a4bce5be964390387d9d3bce4bc9cc0e33407ec"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw23948/rw23948-pastel-elephant-head-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 82102,
+          "sha256": "489eccc36640c5d82c74117069fbfd484833eea147338e68b39840fba446a080"
+        }
+      ]
+    },
+    {
+      "sku": "RW375",
+      "title": "Iridescent Shell Resin Charms",
+      "dimensions": "20 × 18 × 5 mm",
+      "packing": "100 pieces per bag",
+      "family": "Ocean",
+      "factNote": "The source photo shows scalloped resin shapes with iridescent finishes and one visible silver-colored loop. Loop size, hardware composition and the reverse surface are not established. No fixed color mix is promised.",
+      "procurementAdvice": "Specify shell colors, quantities and packing needs for procurement. Confirm loop dimensions and attachment suitability against samples before a bulk or custom-pack program.",
+      "uses": "Compare the shell colors for jewelry planning, decorative gift layouts and coastal craft projects. Confirm the visible loop and attachment dimensions with a sample; other findings and props are not included.",
+      "key": "rw375",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "iridescent-shell-resin-charms",
+      "sourceFields": {
+        "sku": "RW375",
+        "sku_raw": "RW375",
+        "title": "Wholesale Bling Resin Scallop Seashell Decoration Crafts Flatback Cabochon Kawaii DIY Embellishments for Scrapbooking",
+        "material": "Resin",
+        "size": "20*18*5 mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "60813200514",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-Bling-Resin-Scallop-Seashell-Decoration_60813200514.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Bling-Resin-Scallop-Seashell-Decoration_60813200514.html",
+      "sourceProductId": "60813200514",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/HTB1_0EOcMaH3KVjSZFjq6AFWpXac.jpg",
+      "sourceImageSha256": "e1f7825326b3ec9c5090190e5df35b9a14bd62e9b9fae5e636a0fd62537aba8f",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 14,
+      "batchId": "20261028-monica-14",
+      "attachment": "One loop is visible in the source photo; confirm its dimensions, hardware and attachment method against a sample",
+      "variantSizeNotes": "The source photo shows scalloped resin shapes with iridescent finishes and one visible silver-colored loop. Loop size, hardware composition and the reverse surface are not established. No fixed color mix is promised. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Iridescent Shell Resin Charms. RW375: 20 × 18 × 5 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale iridescent shell resin charms. RW375: 20 × 18 × 5 mm; 100 pieces per bag. Confirm selection and packing.",
+      "metaTitle": "RW375 Iridescent Shell Resin Charms | Qula Craft",
+      "haibuMetaTitle": "RW375 Iridescent Shell Resin Charms Wholesale | HAIBU",
+      "caption": "Iridescent Shell Resin Charms. Supplier size reference: 20 × 18 × 5 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference is the exact SKU identity ground truth. Exact source RW375 shell-shaped Resin charms. Preserve scallop fan silhouette, raised radiating ridges, pastel iridescent rainbow finish and the SINGLE small silver-colored eye loop at the narrow top exactly as pictured. No additional rings/chains/hooks or new holes. Do not show unseen back. Front surfaces only; do not claim real shell, pearl or metal composition. Independent application-scene photograph: one pastel blue shell charm laid loose on a pale sand-colored gift-card surface with a folded sage paper strip beside it, existing eye loop visible and unattached. Props separate and excluded. Soft daylight. Preserve actual visible proportions, colors and components. Square photograph. No added logo, watermark, gold badge, overlay text or invented accessories.",
+        "detailPrompt": "Use case: product-mockup. Reference is the exact SKU identity ground truth. Exact source RW375 shell-shaped Resin charms. Preserve scallop fan silhouette, raised radiating ridges, pastel iridescent rainbow finish and the SINGLE small silver-colored eye loop at the narrow top exactly as pictured. No additional rings/chains/hooks or new holes. Do not show unseen back. Front surfaces only; do not claim real shell, pearl or metal composition. Independent close product-detail photo on matte light-gray paper: one pastel lavender iridescent shell with original single eye loop, complete front form visible with crisp molded/painted surface detail and gentle sidelight. Distinct composition from supplied photo. Preserve actual visible proportions, colors and components. Square photograph. No added logo, watermark, gold badge, overlay text or invented accessories."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw375/rw375-1.jpg",
+        "assets/images/pdp/rw375/rw375-2.jpg",
+        "assets/images/pdp/rw375/rw375-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw375/rw375-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109070,
+          "sha256": "3b2aade67dc48c7300daebf541f952e380e85ac219fea80325e07e8e7abb6db0"
+        },
+        {
+          "path": "assets/images/pdp/rw375/rw375-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166163,
+          "sha256": "7c568a451646df7f880e43704f55e26e67a098f95db099cf76c2a2b40b488940"
+        },
+        {
+          "path": "assets/images/pdp/rw375/rw375-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 99463,
+          "sha256": "24c433692cbd0bbd563990deec102810ad37895da1cc477c6d1e57d5d6de6a70"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-01.jpg",
+        "assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-02.jpg",
+        "assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109070,
+          "sha256": "3b2aade67dc48c7300daebf541f952e380e85ac219fea80325e07e8e7abb6db0"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166163,
+          "sha256": "7c568a451646df7f880e43704f55e26e67a098f95db099cf76c2a2b40b488940"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw375/rw375-iridescent-shell-resin-charms-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 99463,
+          "sha256": "24c433692cbd0bbd563990deec102810ad37895da1cc477c6d1e57d5d6de6a70"
+        }
+      ]
+    },
+    {
+      "sku": "RW23535",
+      "title": "Strawberry Layer Cake Resin Miniatures",
+      "dimensions": "20 × 25 mm",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The photo shows several layer colors, white cream-style bands, red filling details and a molded red strawberry. Resin decorative models, not edible; selected colors and actual mix require confirmation.",
+      "procurementAdvice": "Select cake-layer colors and quantities for miniature craft assortments. Confirm painted layers, strawberry details and bag packing on samples before production or OEM planning.",
+      "uses": "Plan miniature bakery displays, decorative cards or scrapbook scenes with the pictured cake models. These are non-edible resin pieces; check scale and your attachment method with a sample.",
+      "key": "rw23535",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "strawberry-layer-cake-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW23535",
+        "sku_raw": "MO-RW23535",
+        "title": "100pcs Simulated Food Napoleon Sandwich Strawberry Cake DIY Cream Glue Keychain Resin Accessories",
+        "material": "Resin",
+        "size": "20*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601666172745",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Simulated-Food-Napoleon-Sandwich-Strawberry_1601666172745.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Simulated-Food-Napoleon-Sandwich-Strawberry_1601666172745.html",
+      "sourceProductId": "1601666172745",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H88053f2f0a7b43c7b743f73be4c3158aa.jpg",
+      "sourceImageSha256": "33e796dd2866f137d2cbf75a2a231ec77921ac5e77d6130fa4e854e25b2b45d3",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 14,
+      "batchId": "20261028-monica-14",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows several layer colors, white cream-style bands, red filling details and a molded red strawberry. Resin decorative models, not edible; selected colors and actual mix require confirmation. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "description": "Strawberry Layer Cake Resin Miniatures. RW23535: 20 × 25 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale strawberry layer cake resin miniatures. RW23535: 20 × 25 mm; 100 pieces per bag. Confirm selection and packing.",
+      "metaTitle": "RW23535 Strawberry Layer Cake Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW23535 Strawberry Layer Cake Resin Miniatures Wholesale | HAIBU",
+      "caption": "Strawberry Layer Cake Resin Miniatures. Supplier size reference: 20 × 25 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Reference is the exact SKU identity ground truth. Exact source RW23535 resin miniature strawberry-layer cake model. Square-ish stacked layered shape with two red filling layers, white ruffled cream bands and top, red molded strawberry on top. Source variants have pink/purple/green/dark-brown cake layers. Keep exact source shape and number/layer ordering, visible front/three-quarter angles only. Resin decorative model, not real food; no new holes, loops, sprinkles, cutlery attached or back. Independent application-scene photograph: one pink-layer strawberry cake resin miniature on a small light-blue display plinth beside a cream paper scrap, no utensils or real food. Props separate and excluded. Soft daylight. Preserve actual visible proportions, colors and components. Square photograph. No added logo, watermark, gold badge, overlay text or invented accessories.",
+        "detailPrompt": "Use case: product-mockup. Reference is the exact SKU identity ground truth. Exact source RW23535 resin miniature strawberry-layer cake model. Square-ish stacked layered shape with two red filling layers, white ruffled cream bands and top, red molded strawberry on top. Source variants have pink/purple/green/dark-brown cake layers. Keep exact source shape and number/layer ordering, visible front/three-quarter angles only. Resin decorative model, not real food; no new holes, loops, sprinkles, cutlery attached or back. Independent close product-detail photo on matte light-gray paper: one dark-brown-layer cake model with original white/red layers and strawberry, complete front form visible with crisp molded/painted surface detail and gentle sidelight. Distinct composition from supplied photo. Preserve actual visible proportions, colors and components. Square photograph. No added logo, watermark, gold badge, overlay text or invented accessories."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw23535/rw23535-1.jpg",
+        "assets/images/pdp/rw23535/rw23535-2.jpg",
+        "assets/images/pdp/rw23535/rw23535-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw23535/rw23535-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73536,
+          "sha256": "75b6b2d8f85ba7e3392297fe76347082bdbfecd4cdecf78dcb42af456ee296c0"
+        },
+        {
+          "path": "assets/images/pdp/rw23535/rw23535-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95438,
+          "sha256": "5d817050ca81e3fdb70112d97a5c6d13bba020d4bd181258aa88302a0259d877"
+        },
+        {
+          "path": "assets/images/pdp/rw23535/rw23535-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97470,
+          "sha256": "e1c9af80d555ca85cf3ea46c443e7e259dbb831d44e917bf3f56b3e4f6a8c6d0"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 73536,
+          "sha256": "75b6b2d8f85ba7e3392297fe76347082bdbfecd4cdecf78dcb42af456ee296c0"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95438,
+          "sha256": "5d817050ca81e3fdb70112d97a5c6d13bba020d4bd181258aa88302a0259d877"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-14/rw23535/rw23535-strawberry-layer-cake-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 97470,
+          "sha256": "e1c9af80d555ca85cf3ea46c443e7e259dbb831d44e917bf3f56b3e4f6a8c6d0"
+        }
+      ]
+    }
+  ]
+}

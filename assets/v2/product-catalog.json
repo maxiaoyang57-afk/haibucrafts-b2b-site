@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 434,
+  "count": 441,
   "products": [
     {
       "sku": "YX3301",
@@ -2152,6 +2152,111 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26614-bow-tie-bear-resin-figurines/",
       "productionPath": "/products/resin-charms-for-slime/rw26614-bow-tie-bear-resin-figurines/"
+    },
+    {
+      "sku": "RW26627",
+      "title": "Glitter Cherry Blossom Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-08/rw26627/rw26627-glitter-cherry-blossom-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-08/rw26627/rw26627-glitter-cherry-blossom-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw26627/rw26627-glitter-cherry-blossom-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw26627/rw26627-glitter-cherry-blossom-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26627-glitter-cherry-blossom-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26627-glitter-cherry-blossom-resin-cabochons/"
+    },
+    {
+      "sku": "RW26210",
+      "title": "Cherry Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-08/rw26210/rw26210-cherry-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-08/rw26210/rw26210-cherry-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw26210/rw26210-cherry-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw26210/rw26210-cherry-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26210-cherry-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26210-cherry-resin-cabochons/"
+    },
+    {
+      "sku": "RW26613",
+      "title": "Patterned Butterfly Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-08/rw26613/rw26613-patterned-butterfly-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-08/rw26613/rw26613-patterned-butterfly-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw26613/rw26613-patterned-butterfly-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw26613/rw26613-patterned-butterfly-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26613-patterned-butterfly-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26613-patterned-butterfly-resin-cabochons/"
+    },
+    {
+      "sku": "RW22702",
+      "title": "Pastel Pig Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-08/rw22702/rw22702-pastel-pig-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-08/rw22702/rw22702-pastel-pig-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw22702/rw22702-pastel-pig-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw22702/rw22702-pastel-pig-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw22702-pastel-pig-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw22702-pastel-pig-resin-figurines/"
+    },
+    {
+      "sku": "RW25575",
+      "title": "Glitter Bow Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-08/rw25575/rw25575-glitter-bow-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-08/rw25575/rw25575-glitter-bow-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw25575/rw25575-glitter-bow-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw25575/rw25575-glitter-bow-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25575-glitter-bow-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25575-glitter-bow-resin-cabochons/"
+    },
+    {
+      "sku": "RW4287",
+      "title": "Colorful Doughnut Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-08/rw4287/rw4287-colorful-doughnut-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-08/rw4287/rw4287-colorful-doughnut-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw4287/rw4287-colorful-doughnut-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw4287/rw4287-colorful-doughnut-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw4287-colorful-doughnut-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw4287-colorful-doughnut-resin-cabochons/"
+    },
+    {
+      "sku": "RW26651",
+      "title": "Pastel Dinosaur Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-08/rw26651/rw26651-pastel-dinosaur-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-08/rw26651/rw26651-pastel-dinosaur-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw26651/rw26651-pastel-dinosaur-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-08/rw26651/rw26651-pastel-dinosaur-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26651-pastel-dinosaur-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw26651-pastel-dinosaur-resin-figurines/"
     },
     {
       "sku": "RW0020648",

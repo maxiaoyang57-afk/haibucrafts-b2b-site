@@ -1548,6 +1548,27 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26302-round-hamster-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26302-round-hamster-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26302-round-hamster-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26298-glossy-fruit-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26298-glossy-fruit-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26298-glossy-fruit-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26278-pink-axolotl-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26278-pink-axolotl-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26278-pink-axolotl-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "action": "create",

@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 3,
+  "batchCount": 1,
+  "currentBatchNumber": 21,
+  "newProductCount": 3,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26302",
+      "title": "Round Hamster Resin Miniatures",
+      "dimensions": "Approx. 20 x 28 mm (axes unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The original photograph shows round hamster miniatures in different poses and pale colors with yellow cheek markings. The supplier gives approximate20 x28mm without mapping axes or poses. Confirm selected poses and dimensions on a sample; no fixed mixture or movable parts are promised.",
+      "procurementAdvice": "For bulk animal-themed craft selections, specify RW26302 and the requested poses, bag quantities and packing format. Review sample appearance and any OEM packaging brief before confirming an order.",
+      "uses": "Arrange the pictured hamster miniatures beside a small craft display or greeting card. Compare their pose and approximate supplier dimensions with the available space; styling props are not included.",
+      "key": "rw26302",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "round-hamster-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26302",
+        "sku_raw": "MO-RW26302",
+        "title": "100pc Cute Round Hamster Miniature Model Creative Dollhouse Decor for Home Car Desktop Decoration Mini Ornament",
+        "material": "Resin",
+        "size": "about20*28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832278572",
+        "product_url": "https://www.alibaba.com/product-detail/100pc-Cute-Round-Hamster-Miniature-Model_1601832278572.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pc-Cute-Round-Hamster-Miniature-Model_1601832278572.html",
+      "sourceProductId": "1601832278572",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H31006a91464b4087bffe3514b579f16dY.jpg",
+      "sourceImageSha256": "245fd025abf79d03d2e4b733d48ba495f56535078cac9bfe317788176c77b028",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 21,
+      "batchId": "20261028-monica-21",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The original photograph shows round hamster miniatures in different poses and pale colors with yellow cheek markings. The supplier gives approximate20 x28mm without mapping axes or poses. Confirm selected poses and dimensions on a sample; no fixed mixture or movable parts are promised.",
+      "description": "Round Hamster Resin Miniatures. RW26302 resin craft pieces. Compare shapes, supplier dimensions and reference packing for your DIY selection.",
+      "haibuDescription": "Round Hamster Resin Miniatures. RW26302 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "metaTitle": "RW26302 Round Hamster Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26302 Round Hamster Resin Miniatures Wholesale | HAIBU",
+      "caption": "Round Hamster Resin Miniatures. Supplier size reference: Approx. 20 x 28 mm (axes unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case product-mockup. SAME SKU source photograph as strict identity reference. Input photo is SAME SKU RW26302. Strictly preserve ONE exact white seated hamster miniature: third figure from left in supplier photo, rounded white resin body and head, small rounded ears, tiny side paws, two rounded front feet, closed dark curved eyes, tiny tan nose and short mouth, two yellow round cheeks. Same simple sculpt and pose; front view only. No extra accessories, fur, holes, back, loops, hardware, new facial design or invented parts. Not a living animal. No text/logo/watermark/golden badge. Whole product visible, no cropping. Independent application scene: miniature sitting freely alongside a blank peach craft gift tag on pale wood desk with small folded sage paper cards separated from product; warm morning light, modest scale, natural dry craft display. Props not physically attached.",
+        "detailPrompt": "Use case product-mockup. SAME SKU source photograph as strict identity reference. Input photo is SAME SKU RW26302. Strictly preserve ONE exact white seated hamster miniature: third figure from left in supplier photo, rounded white resin body and head, small rounded ears, tiny side paws, two rounded front feet, closed dark curved eyes, tiny tan nose and short mouth, two yellow round cheeks. Same simple sculpt and pose; front view only. No extra accessories, fur, holes, back, loops, hardware, new facial design or invented parts. Not a living animal. No text/logo/watermark/golden badge. Whole product visible, no cropping. Independent detail reference: single product fills two thirds of square frame, front-facing faithful sculpt and surface visible, pale blue tabletop with cream background, soft diffused product lighting, no props, no invented rear surface."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26302/rw26302-1.jpg",
+        "assets/images/pdp/rw26302/rw26302-2.jpg",
+        "assets/images/pdp/rw26302/rw26302-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26302/rw26302-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52855,
+          "sha256": "24b6c5abac9a8c3f04062efb5d9cd312bcb8df1f364a6c1e1bb9fbd64002ba5c"
+        },
+        {
+          "path": "assets/images/pdp/rw26302/rw26302-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 91466,
+          "sha256": "47bfbe92c5be7eb67c09349007c7fc45a0477f57fc5ef0e7ab7a60ab80333a7a"
+        },
+        {
+          "path": "assets/images/pdp/rw26302/rw26302-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 40791,
+          "sha256": "6b26b3f2e553e4f62ddb0ab435ee436826982b952ef56930fc0e44e01e3c1da1"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-21/rw26302/rw26302-round-hamster-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-21/rw26302/rw26302-round-hamster-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-21/rw26302/rw26302-round-hamster-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26302/rw26302-round-hamster-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52855,
+          "sha256": "24b6c5abac9a8c3f04062efb5d9cd312bcb8df1f364a6c1e1bb9fbd64002ba5c"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26302/rw26302-round-hamster-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 91466,
+          "sha256": "47bfbe92c5be7eb67c09349007c7fc45a0477f57fc5ef0e7ab7a60ab80333a7a"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26302/rw26302-round-hamster-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 40791,
+          "sha256": "6b26b3f2e553e4f62ddb0ab435ee436826982b952ef56930fc0e44e01e3c1da1"
+        }
+      ]
+    },
+    {
+      "sku": "RW26298",
+      "title": "Glossy Fruit Resin Cabochons",
+      "dimensions": "Approx. 20 mm (axis unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The original photograph shows several glossy fruit shapes, including strawberry, apple, peach, cherry and watermelon motifs. About20mm is the supplier reference without shape or axis mapping. No natural fruit, rhinestone composition, hole, loop, adhesive or fixed assortment is promised.",
+      "procurementAdvice": "For bulk fruit-themed component sourcing, identify RW26298 and selected motifs when requesting counted bag packing or an OEM packaging brief. Confirm sample appearance and dimensions for each selected shape.",
+      "uses": "Compare the pictured fruit motifs with a scrapbook page, craft tray or gift-tag arrangement. Test the intended base and attachment method on a sample. Paper and styling props are not included.",
+      "key": "rw26298",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "glossy-fruit-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26298",
+        "sku_raw": "MO-RW26298",
+        "title": "Resin Candy Color Cherry Strawberry Peaches Watermelon Flatback Rhinestone Fruits Figurines DIY Scrapbook Craft DIY Decor",
+        "material": "Resin",
+        "size": "about20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832209440",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Candy-Color-Cherry-Strawberry-Peaches_1601832209440.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Candy-Color-Cherry-Strawberry-Peaches_1601832209440.html",
+      "sourceProductId": "1601832209440",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H18e413b608c94e80bec62d431fc2575al.jpg",
+      "sourceImageSha256": "ae152330c3b783fa8a0d5eab71e4028ad3c3ea8164e5f71d24d50407797d63cb",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 21,
+      "batchId": "20261028-monica-21",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The original photograph shows several glossy fruit shapes, including strawberry, apple, peach, cherry and watermelon motifs. About20mm is the supplier reference without shape or axis mapping. No natural fruit, rhinestone composition, hole, loop, adhesive or fixed assortment is promised.",
+      "description": "Glossy Fruit Resin Cabochons. RW26298 resin craft pieces. Compare shapes, supplier dimensions and reference packing for your DIY selection.",
+      "haibuDescription": "Glossy Fruit Resin Cabochons. RW26298 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "metaTitle": "RW26298 Glossy Fruit Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26298 Glossy Fruit Resin Cabochons Wholesale | HAIBU",
+      "caption": "Glossy Fruit Resin Cabochons. Supplier size reference: Approx. 20 mm (axis unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case product-mockup. SAME SKU source photograph as strict identity reference. Input photo is SAME SKU RW26298. Strictly preserve ONE exact strawberry-shaped resin cabochon at lower left in source: red tapered rounded strawberry front, cream small seed marks, green lobed leaf crown with tiny stalk, glossy molded surface and subtle glitter as visible. Front surface view only; no back, holes, loop, hardware, new leaves, real food, rind or cut sections. Same shape, colors and construction. No text/logo/watermark/golden badge. Whole product visible, no cropping. Independent application scene: strawberry resin piece placed freely beside a blank pastel mint scrapbook page and separate lavender paper offcuts, soft studio daylight, blush tabletop, no glue or mounting shown.",
+        "detailPrompt": "Use case product-mockup. SAME SKU source photograph as strict identity reference. Input photo is SAME SKU RW26298. Strictly preserve ONE exact strawberry-shaped resin cabochon at lower left in source: red tapered rounded strawberry front, cream small seed marks, green lobed leaf crown with tiny stalk, glossy molded surface and subtle glitter as visible. Front surface view only; no back, holes, loop, hardware, new leaves, real food, rind or cut sections. Same shape, colors and construction. No text/logo/watermark/golden badge. Whole product visible, no cropping. Independent detail reference: single product fills two thirds of square frame, front-facing faithful sculpt and surface visible, muted deep teal paper backdrop, soft diffused product lighting, no props, no invented rear surface."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26298/rw26298-1.jpg",
+        "assets/images/pdp/rw26298/rw26298-2.jpg",
+        "assets/images/pdp/rw26298/rw26298-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26298/rw26298-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 122444,
+          "sha256": "058c7f3d5e19e3406b9bbf9c356ca5837a357229ecf343eee1391b0549033970"
+        },
+        {
+          "path": "assets/images/pdp/rw26298/rw26298-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130558,
+          "sha256": "d58f1d0766a5d9f5ec26352f51f80b0006f008433e2abef0e76bdfd3cc5c6689"
+        },
+        {
+          "path": "assets/images/pdp/rw26298/rw26298-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 168173,
+          "sha256": "2109ff97a1a7b02a10723d1c78ee45c042d9305622353067abb7761a04df3c25"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-21/rw26298/rw26298-glossy-fruit-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-21/rw26298/rw26298-glossy-fruit-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-21/rw26298/rw26298-glossy-fruit-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26298/rw26298-glossy-fruit-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 122444,
+          "sha256": "058c7f3d5e19e3406b9bbf9c356ca5837a357229ecf343eee1391b0549033970"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26298/rw26298-glossy-fruit-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 130558,
+          "sha256": "d58f1d0766a5d9f5ec26352f51f80b0006f008433e2abef0e76bdfd3cc5c6689"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26298/rw26298-glossy-fruit-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 168173,
+          "sha256": "2109ff97a1a7b02a10723d1c78ee45c042d9305622353067abb7761a04df3c25"
+        }
+      ]
+    },
+    {
+      "sku": "RW26278",
+      "title": "Pink Axolotl Resin Miniatures",
+      "dimensions": "Approx. 21 x 24 mm (axes unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The supplied image shows pale pink seated axolotl miniatures with coral-colored side gills and a blue scarf detail. Supplier dimensions are approximate and axes unspecified. Confirm selected appearance on a sample; no hidden attachment, moving part or fixed assortment is promised.",
+      "procurementAdvice": "For bulk craft sourcing, identify RW26278 with its pink body and blue scarf when requesting bag quantities and packing changes. Discuss OEM feasibility and sample approval for the selected design.",
+      "uses": "Compare the pink axolotl shape and supplier size with your miniature display or DIY arrangement. Styling paper and props are not included.",
+      "key": "rw26278",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pink-axolotl-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26278",
+        "sku_raw": "MO-RW26278",
+        "title": "Pink Resin Axolotl Miniature Figures Dish Garden Micro Landscape Decoration Teacup Garden Desk Axolotl Ornament",
+        "material": "Resin",
+        "size": "about21*24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832288553",
+        "product_url": "https://www.alibaba.com/product-detail/Pink-Resin-Axolotl-Miniature-Figures-Dish_1601832288553.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Pink-Resin-Axolotl-Miniature-Figures-Dish_1601832288553.html",
+      "sourceProductId": "1601832288553",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7a7d9b96b9744cd69fa35594e8d9a8ebo.jpg",
+      "sourceImageSha256": "e469aeb90326dab731d9ae7e388eeb6612516c1798b38860918018273415891f",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 21,
+      "batchId": "20261028-monica-21",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The supplied image shows pale pink seated axolotl miniatures with coral-colored side gills and a blue scarf detail. Supplier dimensions are approximate and axes unspecified. Confirm selected appearance on a sample; no hidden attachment, moving part or fixed assortment is promised.",
+      "description": "Pink Axolotl Resin Miniatures. RW26278 resin craft pieces. Compare shapes, supplier dimensions and reference packing for your DIY selection.",
+      "haibuDescription": "Pink Axolotl Resin Miniatures. RW26278 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "metaTitle": "RW26278 Pink Axolotl Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26278 Pink Axolotl Resin Miniatures Wholesale | HAIBU",
+      "caption": "Pink Axolotl Resin Miniatures. Supplier size reference: Approx. 21 x 24 mm (axes unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case product-mockup. Input image is the SAME SKU RW26278 source photo, strict product identity reference. Show ONE of the exact pale-pink sitting axolotl resin miniatures visible on the monitor edge: rounded head/body, darker coral-pink side gills, tiny brown dot eyes and curved brown smiling mouth, pink circular cheeks, two small raised front arms beside the light blue scarf with short downward tail, two rounded pale pink feet. Preserve these visible parts, pose, colors, proportions, simple molded resin finish exactly. Front view only. Do not invent holes, hooks, hardware, hidden back, extra limbs, new accessories. No text, logo, watermark, badge, gold emblem. Not a living animal. Entire product visible. Do not reproduce monitor or contents. Independent application scene photo: miniature stands beside blank lilac craft-paper greeting card on dry pale-blue desk, tiny mint paper cutouts well separated from product as styling props, warm natural window light, subject clearly recognizable, centered at modest scale, varied depth, square image. Product never attached or modified.",
+        "detailPrompt": "Use case product-mockup. Input image is the SAME SKU RW26278 source photo, strict product identity reference. Show ONE of the exact pale-pink sitting axolotl resin miniatures visible on the monitor edge: rounded head/body, darker coral-pink side gills, tiny brown dot eyes and curved brown smiling mouth, pink circular cheeks, two small raised front arms beside the light blue scarf with short downward tail, two rounded pale pink feet. Preserve these visible parts, pose, colors, proportions, simple molded resin finish exactly. Front view only. Do not invent holes, hooks, hardware, hidden back, extra limbs, new accessories. No text, logo, watermark, badge, gold emblem. Not a living animal. Entire product visible. Do not reproduce monitor or contents. Independent detail reference product photograph: close-up of exact SAME miniature from front, on warm cream tabletop with muted peach backdrop, enough depth of field to see small blue scarf and gill edges and smooth resin texture, product fills two thirds of frame but no cropping. No additional props."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26278/rw26278-1.jpg",
+        "assets/images/pdp/rw26278/rw26278-2.jpg",
+        "assets/images/pdp/rw26278/rw26278-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26278/rw26278-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 62899,
+          "sha256": "e788bee5c39bcfa63d5ad2c1a5da3cec118cf44cf3c543020cf80998979fd43c"
+        },
+        {
+          "path": "assets/images/pdp/rw26278/rw26278-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 76171,
+          "sha256": "acda9f976ebd4b925fc9ad5d0e280b8fb6a0a54acf198c5cef5fb01d6ec12802"
+        },
+        {
+          "path": "assets/images/pdp/rw26278/rw26278-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 51970,
+          "sha256": "1c910103c922c75db821c723e5db5b0ee83f353c5c359c3c85086d8de6c13e07"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-21/rw26278/rw26278-pink-axolotl-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-21/rw26278/rw26278-pink-axolotl-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-21/rw26278/rw26278-pink-axolotl-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26278/rw26278-pink-axolotl-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 62899,
+          "sha256": "e788bee5c39bcfa63d5ad2c1a5da3cec118cf44cf3c543020cf80998979fd43c"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26278/rw26278-pink-axolotl-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 76171,
+          "sha256": "acda9f976ebd4b925fc9ad5d0e280b8fb6a0a54acf198c5cef5fb01d6ec12802"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-21/rw26278/rw26278-pink-axolotl-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 51970,
+          "sha256": "1c910103c922c75db821c723e5db5b0ee83f353c5c359c3c85086d8de6c13e07"
+        }
+      ]
+    }
+  ]
+}

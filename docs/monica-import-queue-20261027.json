@@ -2039,8 +2039,8 @@
     },
     {
       "sku": "RW24490",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch16 prepared;pendingnecessaryCI/Preview/main/production"
     },
     {
       "sku": "RW375",
@@ -2064,18 +2064,18 @@
     },
     {
       "sku": "RW004628",
-      "status": "ready_in_batch",
-      "reason": "Batch15 prepared;pendingnecessaryCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch15bothformal PR161/138 correctproject/commit productionREADY474/698;10exactGETs/liveUI each pass,noinquiry"
     },
     {
       "sku": "RW22576",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch16 prepared;pendingnecessaryCI/Preview/main/production"
     },
     {
       "sku": "RW24850",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch16 prepared;pendingnecessaryCI/Preview/main/production"
     },
     {
       "sku": "RW22926",
@@ -2169,8 +2169,8 @@
     },
     {
       "sku": "RW26520",
-      "status": "ready_in_batch",
-      "reason": "Batch15 prepared;pendingnecessaryCI/Preview/main/production"
+      "status": "already_listed",
+      "reason": "Batch15bothformal PR161/138 correctproject/commit productionREADY474/698;10exactGETs/liveUI each pass,noinquiry"
     },
     {
       "sku": "YX3738",
@@ -11854,6 +11854,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 15,
+  "currentBatchNumber": 16,
   "updatedAt": "2026-10-28"
 }

@@ -3,7 +3,7 @@
   "sourceType": "User-supplied marketplace screenshot",
   "platformName": null,
   "storeUrl": null,
-  "sourceBusinessRelationship": "Awaiting source-store confirmation before production merge",
+  "sourceBusinessRelationship": "Not independently verified. User supplied this marketplace feedback for publication on both sites; the display makes no named-store or verified-transaction claim.",
   "individualRating": 5,
   "overallRating": null,
   "displayedReviewIds": [
@@ -64,5 +64,14 @@
     }
   },
   "publicSourceControls": false,
-  "presentationNote": "Original-review disclosures, screenshot viewer and source links removed from homepage at user request. Original records retained for attribution checks."
+  "presentationNote": "Original-review disclosures, screenshot viewer and source links removed from homepage at user request. Original records retained for attribution checks.",
+  "publicationApproval": {
+    "approvedBy": "User",
+    "date": "2026-10-28",
+    "request": "核对没有差错就上线",
+    "sites": [
+      "HAIBU",
+      "QULA"
+    ]
+  }
 }

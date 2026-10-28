@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 441,
+  "count": 451,
   "products": [
     {
       "sku": "YX3301",
@@ -2257,6 +2257,156 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26651-pastel-dinosaur-resin-figurines/",
       "productionPath": "/products/resin-charms-for-slime/rw26651-pastel-dinosaur-resin-figurines/"
+    },
+    {
+      "sku": "RW26612",
+      "title": "Yellow Bee Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw26612/rw26612-yellow-bee-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw26612/rw26612-yellow-bee-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw26612/rw26612-yellow-bee-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw26612/rw26612-yellow-bee-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26612-yellow-bee-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26612-yellow-bee-resin-cabochons/"
+    },
+    {
+      "sku": "RW002271",
+      "title": "Wrapped Sweet Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw002271/rw002271-wrapped-sweet-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw002271/rw002271-wrapped-sweet-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw002271/rw002271-wrapped-sweet-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw002271/rw002271-wrapped-sweet-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw002271-wrapped-sweet-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw002271-wrapped-sweet-resin-cabochons/"
+    },
+    {
+      "sku": "RW004103",
+      "title": "Spotted Frog Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw004103/rw004103-spotted-frog-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw004103/rw004103-spotted-frog-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw004103/rw004103-spotted-frog-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw004103/rw004103-spotted-frog-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw004103-spotted-frog-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw004103-spotted-frog-resin-figurines/"
+    },
+    {
+      "sku": "RW002548",
+      "title": "Standing Rabbit Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw002548/rw002548-standing-rabbit-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw002548/rw002548-standing-rabbit-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw002548/rw002548-standing-rabbit-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw002548/rw002548-standing-rabbit-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw002548-standing-rabbit-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw002548-standing-rabbit-resin-figurines/"
+    },
+    {
+      "sku": "RW23944",
+      "title": "Pastel Caterpillar Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw23944/rw23944-pastel-caterpillar-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw23944/rw23944-pastel-caterpillar-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw23944/rw23944-pastel-caterpillar-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw23944/rw23944-pastel-caterpillar-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23944-pastel-caterpillar-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw23944-pastel-caterpillar-resin-figurines/"
+    },
+    {
+      "sku": "RW23940",
+      "title": "Pastel Alpaca Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw23940/rw23940-pastel-alpaca-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw23940/rw23940-pastel-alpaca-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw23940/rw23940-pastel-alpaca-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw23940/rw23940-pastel-alpaca-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23940-pastel-alpaca-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw23940-pastel-alpaca-resin-figurines/"
+    },
+    {
+      "sku": "RW21838",
+      "title": "Pastel Turtle Resin Figurines",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw21838/rw21838-pastel-turtle-resin-figurines-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw21838/rw21838-pastel-turtle-resin-figurines-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw21838/rw21838-pastel-turtle-resin-figurines-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw21838/rw21838-pastel-turtle-resin-figurines-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw21838-pastel-turtle-resin-figurines/",
+      "productionPath": "/products/resin-charms-for-slime/rw21838-pastel-turtle-resin-figurines/"
+    },
+    {
+      "sku": "RW004514",
+      "title": "Spotted Butterfly Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw004514/rw004514-spotted-butterfly-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw004514/rw004514-spotted-butterfly-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw004514/rw004514-spotted-butterfly-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw004514/rw004514-spotted-butterfly-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw004514-spotted-butterfly-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw004514-spotted-butterfly-resin-cabochons/"
+    },
+    {
+      "sku": "RW25778",
+      "title": "Sunflower and Daisy Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw25778/rw25778-sunflower-and-daisy-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw25778/rw25778-sunflower-and-daisy-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw25778/rw25778-sunflower-and-daisy-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw25778/rw25778-sunflower-and-daisy-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25778-sunflower-daisy-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25778-sunflower-daisy-resin-cabochons/"
+    },
+    {
+      "sku": "RW26378",
+      "title": "Colorful Owl Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-09/rw26378/rw26378-colorful-owl-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-09/rw26378/rw26378-colorful-owl-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw26378/rw26378-colorful-owl-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-09/rw26378/rw26378-colorful-owl-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26378-colorful-owl-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26378-colorful-owl-resin-cabochons/"
     },
     {
       "sku": "RW0020648",

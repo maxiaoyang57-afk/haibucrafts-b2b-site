@@ -1,0 +1,1024 @@
+{
+  "batch": "haibu-new-products-20261028-monica-09",
+  "expectedSkuCount": 10,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261028-monica-09",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-28",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW26612",
+      "title": "Yellow Bee Resin Cabochons",
+      "originalTitle": "Wholesale 3D Cartoon Cute Chubby Yellow Bee Honey Sunflower Daisy Creative Resin Nail Art Charms Nail Decorations for DIY Nails",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Yellow Bee Resin Cabochons, product code RW26612",
+      "description": "Specify bee shapes and bag quantities for craft assortments. Confirm the striped finish, molded wings and custom packing against approved samples.",
+      "detailedDescription": "Yellow Bee Resin Cabochons. Supplier size reference: Approx. 10–12 mm. Reference packing: 100 pieces per bag. Specify bee shapes and bag quantities for craft assortments. Confirm the striped finish, molded wings and custom packing against approved samples. The source photo shows yellow and black bees with white wings; no flower assortment is established. Confirm selected designs and finish on a sample. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Yellow Bee Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 10–12 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26612",
+        "Material: Resin",
+        "Dimensions: Approx. 10–12 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The source photo shows yellow and black bees with white wings; no flower assortment is established. Confirm selected designs and finish on a sample. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 10–12 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26612, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange meadow cards, decorative frames or scrapbook borders with the small bee shapes. Check the base and adhesive using a sample.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "yellow bee resin cabochons, wholesale craft components",
+      "metaTitle": "RW26612 Yellow Bee Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale yellow bee resin cabochons. RW26612: Approx. 10–12 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 10–12 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26612",
+        "sku_raw": "MO-RW26612",
+        "title": "Wholesale 3D Cartoon Cute Chubby Yellow Bee Honey Sunflower Daisy Creative Resin Nail Art Charms Nail Decorations for DIY Nails",
+        "material": "Resin",
+        "size": "about10-12mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601881282639",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-3D-Cartoon-Cute-Chubby-Yellow_1601881282639.html"
+      },
+      "sourceProductId": "1601881282639",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-3D-Cartoon-Cute-Chubby-Yellow_1601881282639.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26612",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw26612-yellow-bee-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002271",
+      "title": "Wrapped Sweet Resin Cabochons",
+      "originalTitle": "100pcs Kawaii Resin Sweet Candy Series Luminous Cabochon Embellishments Flatback Craft Material Accessories Mini Figurine Diy",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Wrapped Sweet Resin Cabochons, product code RW002271",
+      "description": "Specify the molded sweet-wrapper colors and bag quantities required for craft ranges. Confirm printed lettering, surface finish and any custom packing with an approved sample; glow claims require separate validation.",
+      "detailedDescription": "Wrapped Sweet Resin Cabochons. Supplier size reference: 24 × 18 mm. Reference packing: 100 pieces per bag. Specify the molded sweet-wrapper colors and bag quantities required for craft ranges. Confirm printed lettering, surface finish and any custom packing with an approved sample; glow claims require separate validation. The reference shows several translucent colors with the word Sweet. Confirm selected colors and print; glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Wrapped Sweet Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 24 × 18 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002271",
+        "Material: Resin",
+        "Dimensions: 24 × 18 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The reference shows several translucent colors with the word Sweet. Confirm selected colors and print; glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "24 × 18 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW002271, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Plan non-edible candy-themed cards, gift-tag layouts or miniature displays. Check the selected color and reverse surface before fixing.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "wrapped sweet resin cabochons, wholesale craft components",
+      "metaTitle": "RW002271 Wrapped Sweet Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale wrapped sweet resin cabochons. RW002271: 24 × 18 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "24 × 18 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW002271",
+        "sku_raw": "MO-RW002271",
+        "title": "100pcs Kawaii Resin Sweet Candy Series Luminous Cabochon Embellishments Flatback Craft Material Accessories Mini Figurine Diy",
+        "material": "Resin",
+        "size": "24*18mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601659800423",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Resin-Sweet-Candy-Series_1601659800423.html"
+      },
+      "sourceProductId": "1601659800423",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Resin-Sweet-Candy-Series_1601659800423.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw002271",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw002271-wrapped-sweet-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW004103",
+      "title": "Spotted Frog Resin Figurines",
+      "originalTitle": "100Pcs Miniature Frog Figurines Luminous Mini Resin Frog Figures Garden Decor DIY Terrarium Craft for Moss Landscape Decor",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Spotted Frog Resin Figurines, product code RW004103",
+      "description": "Specify frog colors and bag quantities for miniature craft assortments. Confirm spotted decoration, molded feet and protective packing against an approved sample; validate any glow requirement separately.",
+      "detailedDescription": "Spotted Frog Resin Figurines. Supplier size reference: Approx. 22 × 25 mm. Reference packing: 100 pieces per bag. Specify frog colors and bag quantities for miniature craft assortments. Confirm spotted decoration, molded feet and protective packing against an approved sample; validate any glow requirement separately. The source shows spotted frogs in several colors. Confirm the chosen finish and actual color mix; glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Spotted Frog Resin Figurines",
+        "Material: Resin",
+        "Dimensions: Approx. 22 × 25 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW004103",
+        "Material: Resin",
+        "Dimensions: Approx. 22 × 25 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The source shows spotted frogs in several colors. Confirm the chosen finish and actual color mix; glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 22 × 25 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW004103, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Build paper pond scenes, decorative shadow boxes or miniature garden layouts. Confirm the display base and mounting method with a sample.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "spotted frog resin figurines, wholesale craft components",
+      "metaTitle": "RW004103 Spotted Frog Resin Figurines Wholesale | HAIBU",
+      "metaDescription": "Wholesale spotted frog resin figurines. RW004103: Approx. 22 × 25 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 22 × 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW004103",
+        "sku_raw": "MO-RW004103",
+        "title": "100Pcs Miniature Frog Figurines Luminous Mini Resin Frog Figures Garden Decor DIY Terrarium Craft for Moss Landscape Decor",
+        "material": "Resin",
+        "size": "about 22*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601632516621",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Frog-Figurines-Luminous-Mini_1601632516621.html"
+      },
+      "sourceProductId": "1601632516621",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Frog-Figurines-Luminous-Mini_1601632516621.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw004103",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw004103-spotted-frog-resin-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002548",
+      "title": "Standing Rabbit Resin Figurines",
+      "originalTitle": "Resin Luminous Mini Rabbit Miniature Figurines Small Animals for Moss Landscape Fairy Garden Aquarium Decor Birthday Gifts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Standing Rabbit Resin Figurines, product code RW002548",
+      "description": "Identify rabbit colors and bag quantities for animal craft ranges. Confirm molded ear details, painted faces and packing protection against sample approval; any glow claim needs separate validation.",
+      "detailedDescription": "Standing Rabbit Resin Figurines. Supplier size reference: 19 × 22 mm. Reference packing: 100 pieces per bag. Identify rabbit colors and bag quantities for animal craft ranges. Confirm molded ear details, painted faces and packing protection against sample approval; any glow claim needs separate validation. Select standing rabbit colors and confirm the ear and face finish on a sample. Glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Standing Rabbit Resin Figurines",
+        "Material: Resin",
+        "Dimensions: 19 × 22 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002548",
+        "Material: Resin",
+        "Dimensions: 19 × 22 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: Select standing rabbit colors and confirm the ear and face finish on a sample. Glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "19 × 22 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW002548, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange miniature meadow displays, keepsake frames or paper dioramas with the standing rabbit shapes. Check available height and mounting method.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "standing rabbit resin figurines, wholesale craft components",
+      "metaTitle": "RW002548 Standing Rabbit Resin Figurines Wholesale | HAIBU",
+      "metaDescription": "Wholesale standing rabbit resin figurines. RW002548: 19 × 22 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "19 × 22 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW002548",
+        "sku_raw": "MO-RW002548",
+        "title": "Resin Luminous Mini Rabbit Miniature Figurines Small Animals for Moss Landscape Fairy Garden Aquarium Decor Birthday Gifts",
+        "material": "Resin",
+        "size": "19*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1600873900498",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Luminous-Mini-Rabbit-Miniature-Figurines_1600873900498.html"
+      },
+      "sourceProductId": "1600873900498",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Luminous-Mini-Rabbit-Miniature-Figurines_1600873900498.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw002548",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw002548-standing-rabbit-resin-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW23944",
+      "title": "Pastel Caterpillar Resin Figurines",
+      "originalTitle": "Mixed Mini Resin Caterpillar Miniature Glow in Dark Fairy Garden Micro Landscape Ornament DIY Craft Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Caterpillar Resin Figurines, product code RW23944",
+      "description": "Specify caterpillar colors and bag quantities for miniature craft ranges. Confirm segmented contours, painted faces and any custom packing with approved samples; validate glow requirements separately.",
+      "detailedDescription": "Pastel Caterpillar Resin Figurines. Supplier size reference: 16 × 36 mm. Reference packing: 100 pieces per bag. Specify caterpillar colors and bag quantities for miniature craft ranges. Confirm segmented contours, painted faces and any custom packing with approved samples; validate glow requirements separately. The reference shows curved segmented caterpillars in several translucent colors. Confirm the selected color mix and painted face; glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Caterpillar Resin Figurines",
+        "Material: Resin",
+        "Dimensions: 16 × 36 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW23944",
+        "Material: Resin",
+        "Dimensions: 16 × 36 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The reference shows curved segmented caterpillars in several translucent colors. Confirm the selected color mix and painted face; glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "16 × 36 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW23944, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Try leaf-themed scrapbook layouts, paper garden scenes or decorative frames. Check the curved footprint and base compatibility before fixing.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pastel caterpillar resin figurines, wholesale craft components",
+      "metaTitle": "RW23944 Pastel Caterpillar Resin Figurines Wholesale | HAIBU",
+      "metaDescription": "Wholesale pastel caterpillar resin figurines. RW23944: 16 × 36 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "16 × 36 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW23944",
+        "sku_raw": "MO-RW23944",
+        "title": "Mixed Mini Resin Caterpillar Miniature Glow in Dark Fairy Garden Micro Landscape Ornament DIY Craft Decoration",
+        "material": "Resin",
+        "size": "16*36mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601660784524",
+        "product_url": "https://www.alibaba.com/product-detail/Mixed-Mini-Resin-Caterpillar-Miniature-Glow_1601660784524.html"
+      },
+      "sourceProductId": "1601660784524",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mixed-Mini-Resin-Caterpillar-Miniature-Glow_1601660784524.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw23944",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw23944-pastel-caterpillar-resin-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW23940",
+      "title": "Pastel Alpaca Resin Figurines",
+      "originalTitle": "100Pcs Glow in Dark Simulated Alpaca Decorative Accessories Environmental Resin Car Ornaments Mini Landscape",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Alpaca Resin Figurines, product code RW23940",
+      "description": "Specify alpaca colors and bag quantities for miniature landscape craft assortments. Confirm molded faces, standing finish and packing protection with samples; validate any glow requirement separately.",
+      "detailedDescription": "Pastel Alpaca Resin Figurines. Supplier size reference: 34 × 46 mm. Reference packing: 100 pieces per bag. Specify alpaca colors and bag quantities for miniature landscape craft assortments. Confirm molded faces, standing finish and packing protection with samples; validate any glow requirement separately. Choose alpaca colors and check the standing shape against your layout height. The source does not establish verified glow performance. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Alpaca Resin Figurines",
+        "Material: Resin",
+        "Dimensions: 34 × 46 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW23940",
+        "Material: Resin",
+        "Dimensions: 34 × 46 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: Choose alpaca colors and check the standing shape against your layout height. The source does not establish verified glow performance. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "34 × 46 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW23940, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Compose paper hill landscapes, animal-themed shadow boxes or keepsake displays. Check the standing base and mounting method with a sample.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pastel alpaca resin figurines, wholesale craft components",
+      "metaTitle": "RW23940 Pastel Alpaca Resin Figurines Wholesale | HAIBU",
+      "metaDescription": "Wholesale pastel alpaca resin figurines. RW23940: 34 × 46 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "34 × 46 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW23940",
+        "sku_raw": "MO-RW23940",
+        "title": "100Pcs Glow in Dark Simulated Alpaca Decorative Accessories Environmental Resin Car Ornaments Mini Landscape",
+        "material": "Resin",
+        "size": "34*46mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601651472331",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Glow-in-Dark-Simulated-Alpaca_1601651472331.html"
+      },
+      "sourceProductId": "1601651472331",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Glow-in-Dark-Simulated-Alpaca_1601651472331.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw23940",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw23940-pastel-alpaca-resin-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW21838",
+      "title": "Pastel Turtle Resin Figurines",
+      "originalTitle": "100Pcs Mini Luminous Turtle Home Decor Landscaping Resin Crafts Glowing Turtle Garden Miniatures Ornaments Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Turtle Resin Figurines, product code RW21838",
+      "description": "Identify turtle colors and bag quantities for miniature craft assortments. Confirm shell painting, molded feet and protective packing against approved samples; validate any glow claim separately.",
+      "detailedDescription": "Pastel Turtle Resin Figurines. Supplier size reference: 9 × 22 × 14 mm. Reference packing: 100 pieces per bag. Identify turtle colors and bag quantities for miniature craft assortments. Confirm shell painting, molded feet and protective packing against approved samples; validate any glow claim separately. Confirm turtle body colors, shell-line decoration and actual assortment. Glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Turtle Resin Figurines",
+        "Material: Resin",
+        "Dimensions: 9 × 22 × 14 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW21838",
+        "Material: Resin",
+        "Dimensions: 9 × 22 × 14 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: Confirm turtle body colors, shell-line decoration and actual assortment. Glow performance has not been verified. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "9 × 22 × 14 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW21838, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Plan ocean-themed frames, scrapbook borders or paper pond displays using the rounded turtle shapes. Check the footprint and adhesive choice on your base.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pastel turtle resin figurines, wholesale craft components",
+      "metaTitle": "RW21838 Pastel Turtle Resin Figurines Wholesale | HAIBU",
+      "metaDescription": "Wholesale pastel turtle resin figurines. RW21838: 9 × 22 × 14 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "9 × 22 × 14 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW21838",
+        "sku_raw": "MO-RW21838",
+        "title": "100Pcs Mini Luminous Turtle Home Decor Landscaping Resin Crafts Glowing Turtle Garden Miniatures Ornaments Decoration",
+        "material": "Resin",
+        "size": "9*22*14mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643619735",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Mini-Luminous-Turtle-Home-Decor_1601643619735.html"
+      },
+      "sourceProductId": "1601643619735",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mini-Luminous-Turtle-Home-Decor_1601643619735.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw21838",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw21838-pastel-turtle-resin-figurines",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW004514",
+      "title": "Spotted Butterfly Resin Cabochons",
+      "originalTitle": "100pcs Shiny Colorful New Butterfly Flat Back Rhinestone Figurines DIY Wedding Decor Scrapbook Christmas Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Spotted Butterfly Resin Cabochons, product code RW004514",
+      "description": "Specify butterfly color patterns and bag quantities for craft assortments. Confirm printed wing decoration, gold-colored finish and custom packing against sample approval.",
+      "detailedDescription": "Spotted Butterfly Resin Cabochons. Supplier size reference: 40 × 28 mm. Reference packing: 100 pieces per bag. Specify butterfly color patterns and bag quantities for craft assortments. Confirm printed wing decoration, gold-colored finish and custom packing against sample approval. The supplier material field states Resin. The photo shows multicolor spotted wings with gold-colored lines and bodies; crystal or separate gemstone content is not established. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Spotted Butterfly Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 40 × 28 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW004514",
+        "Material: Resin",
+        "Dimensions: 40 × 28 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The supplier material field states Resin. The photo shows multicolor spotted wings with gold-colored lines and bodies; crystal or separate gemstone content is not established. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "40 × 28 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW004514, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange decorative frames, scrapbook pages or gift-card corners with the broad butterfly shapes. Check selected patterns and the reverse surface on a sample.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "spotted butterfly resin cabochons, wholesale craft components",
+      "metaTitle": "RW004514 Spotted Butterfly Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale spotted butterfly resin cabochons. RW004514: 40 × 28 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "40 × 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW004514",
+        "sku_raw": "MO-RW004514",
+        "title": "100pcs Shiny Colorful New Butterfly Flat Back Rhinestone Figurines DIY Wedding Decor Scrapbook Christmas Craft",
+        "material": "Resin",
+        "size": "40*28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643696593",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Shiny-Colorful-New-Butterfly-Flat_1601643696593.html"
+      },
+      "sourceProductId": "1601643696593",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Shiny-Colorful-New-Butterfly-Flat_1601643696593.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw004514",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw004514-spotted-butterfly-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25778",
+      "title": "Sunflower and Daisy Resin Cabochons",
+      "originalTitle": "100pcs Mini Kawaii Resin Sunflower Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Sunflower and Daisy Resin Cabochons, product code RW25778",
+      "description": "Identify flower colors, center finishes and bag quantities for floral craft ranges. Confirm molded petals, attached leaf details and any custom packing with approved samples.",
+      "detailedDescription": "Sunflower and Daisy Resin Cabochons. Supplier size reference: 20 × 28 mm. Reference packing: 100 pieces per bag. Identify flower colors, center finishes and bag quantities for floral craft ranges. Confirm molded petals, attached leaf details and any custom packing with approved samples. The source photo shows sunflower and daisy-style flowers in several petal and center colors with green leaves. Confirm actual designs and color mix per order. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Sunflower and Daisy Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 20 × 28 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25778",
+        "Material: Resin",
+        "Dimensions: 20 × 28 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The source photo shows sunflower and daisy-style flowers in several petal and center colors with green leaves. Confirm actual designs and color mix per order. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "20 × 28 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW25778, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Compose floral cards, keepsake frames or gift-tag layouts using the flower and leaf shapes. Check the selected color combination and craft base before fixing.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "sunflower and daisy resin cabochons, wholesale craft components",
+      "metaTitle": "RW25778 Sunflower and Daisy Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale sunflower and daisy resin cabochons. RW25778: 20 × 28 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "20 × 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW25778",
+        "sku_raw": "MO-RW25778",
+        "title": "100pcs Mini Kawaii Resin Sunflower Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+        "material": "Resin",
+        "size": "20*28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601636560487",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Resin-Sunflower-Flat_1601636560487.html"
+      },
+      "sourceProductId": "1601636560487",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Resin-Sunflower-Flat_1601636560487.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw25778",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw25778-sunflower-and-daisy-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26378",
+      "title": "Colorful Owl Resin Cabochons",
+      "originalTitle": "Kawaii Cartoon Animals Owl Resin Flatback Cabochon DIY Scrapbooking Crafts Making Headgear Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Colorful Owl Resin Cabochons, product code RW26378",
+      "description": "Specify owl face designs, colors and bag quantities for animal craft ranges. Confirm painted eye and belly patterns, molded wing finish and any custom packing against sample approval.",
+      "detailedDescription": "Colorful Owl Resin Cabochons. Supplier size reference: Approx. 17 × 22 mm. Reference packing: 100 pieces per bag. Specify owl face designs, colors and bag quantities for animal craft ranges. Confirm painted eye and belly patterns, molded wing finish and any custom packing against sample approval. The source shows several owl faces and color patterns. Confirm chosen designs; do not assume a fixed face or color mix in each bag. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Colorful Owl Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 17 × 22 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26378",
+        "Material: Resin",
+        "Dimensions: Approx. 17 × 22 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The source shows several owl faces and color patterns. Confirm chosen designs; do not assume a fixed face or color mix in each bag. Supplier measurements are reference sizes; confirm selected designs and finish with a sample.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 17 × 22 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26378, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange woodland scrapbook pages, decorative frames or keepsake layouts with the owl shapes. Choose matching face patterns and test the reverse surface on your base.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "colorful owl resin cabochons, wholesale craft components",
+      "metaTitle": "RW26378 Colorful Owl Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale colorful owl resin cabochons. RW26378: Approx. 17 × 22 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 17 × 22 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26378",
+        "sku_raw": "MO-RW26378",
+        "title": "Kawaii Cartoon Animals Owl Resin Flatback Cabochon DIY Scrapbooking Crafts Making Headgear Accessories",
+        "material": "Resin",
+        "size": "about17*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832823351",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Cartoon-Animals-Owl-Resin-Flatback_1601832823351.html"
+      },
+      "sourceProductId": "1601832823351",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Cartoon-Animals-Owl-Resin-Flatback_1601832823351.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26378",
+      "assetDirectory": "batch-20261028-monica-09",
+      "imagePrefix": "rw26378-colorful-owl-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

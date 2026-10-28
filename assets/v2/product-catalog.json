@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 485,
+  "count": 495,
   "products": [
     {
       "sku": "YX3301",
@@ -2917,6 +2917,156 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26300-glitter-pineapple-resin-cabochons/",
       "productionPath": "/products/resin-charms-for-slime/rw26300-glitter-pineapple-resin-cabochons/"
+    },
+    {
+      "sku": "RW26313",
+      "title": "Apple Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26313/rw26313-apple-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26313-apple-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26313-apple-resin-cabochons/"
+    },
+    {
+      "sku": "RW26315",
+      "title": "Pineapple Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26315/rw26315-pineapple-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26315-pineapple-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26315-pineapple-resin-miniatures/"
+    },
+    {
+      "sku": "RW26307",
+      "title": "Seated Green Frog Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26307/rw26307-seated-green-frog-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26307-seated-green-frog-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26307-seated-green-frog-resin-miniatures/"
+    },
+    {
+      "sku": "RW26319",
+      "title": "Dessert Popsicle Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26319/rw26319-dessert-popsicle-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26319-dessert-popsicle-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26319-dessert-popsicle-resin-cabochons/"
+    },
+    {
+      "sku": "RW26309",
+      "title": "Tree Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26309/rw26309-tree-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26309-tree-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26309-tree-resin-miniatures/"
+    },
+    {
+      "sku": "RW26312",
+      "title": "Translucent Fish Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26312/rw26312-translucent-fish-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26312-translucent-fish-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26312-translucent-fish-resin-miniatures/"
+    },
+    {
+      "sku": "RW26317",
+      "title": "Rabbit and Carrot Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26317/rw26317-rabbit-carrot-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26317-rabbit-carrot-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26317-rabbit-carrot-resin-miniatures/"
+    },
+    {
+      "sku": "RW26303",
+      "title": "Flower Bouquet Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26303/rw26303-flower-bouquet-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26303-flower-bouquet-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26303-flower-bouquet-resin-miniatures/"
+    },
+    {
+      "sku": "RW25591",
+      "title": "Iridescent Shell Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25591-iridescent-shell-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25591-iridescent-shell-resin-cabochons/"
+    },
+    {
+      "sku": "RW26218",
+      "title": "Speckled Pumpkin Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-19/rw26218/rw26218-speckled-pumpkin-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26218-speckled-pumpkin-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26218-speckled-pumpkin-resin-miniatures/"
     },
     {
       "sku": "RW0020648",

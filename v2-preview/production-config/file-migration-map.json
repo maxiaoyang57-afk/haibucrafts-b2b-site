@@ -1,5 +1,5 @@
 {
-  "version": "2026-08-23",
+  "version": "2026-08-06",
   "sourceBranch": "codex/v2-takeover",
   "productionBranch": "main",
   "requiresExplicitApproval": true,
@@ -1447,6 +1447,20 @@
       "destination": "products/resin-charms-for-slime/rw0024318-fruit-popsicle-resin-miniatures/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw0024318-fruit-popsicle-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26316-glossy-heart-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26316-glossy-heart-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26316-glossy-heart-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26300-glitter-pineapple-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26300-glitter-pineapple-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26300-glitter-pineapple-resin-cabochons/",
       "generatedProduct": true
     },
     {

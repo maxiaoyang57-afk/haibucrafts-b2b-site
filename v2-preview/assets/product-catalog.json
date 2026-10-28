@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 483,
+  "count": 485,
   "products": [
     {
       "sku": "YX3301",
@@ -2887,6 +2887,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw0024318-fruit-popsicle-resin-miniatures/",
       "productionPath": "/products/resin-charms-for-slime/rw0024318-fruit-popsicle-resin-miniatures/"
+    },
+    {
+      "sku": "RW26316",
+      "title": "Glossy Heart Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-18/rw26316/rw26316-glossy-heart-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-18/rw26316/rw26316-glossy-heart-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-18/rw26316/rw26316-glossy-heart-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-18/rw26316/rw26316-glossy-heart-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26316-glossy-heart-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26316-glossy-heart-resin-cabochons/"
+    },
+    {
+      "sku": "RW26300",
+      "title": "Glitter Pineapple Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-18/rw26300/rw26300-glitter-pineapple-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-18/rw26300/rw26300-glitter-pineapple-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-18/rw26300/rw26300-glitter-pineapple-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-18/rw26300/rw26300-glitter-pineapple-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26300-glitter-pineapple-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26300-glitter-pineapple-resin-cabochons/"
     },
     {
       "sku": "RW0020648",

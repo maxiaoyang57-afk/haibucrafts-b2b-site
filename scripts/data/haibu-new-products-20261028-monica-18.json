@@ -1,0 +1,216 @@
+{
+  "batch": "haibu-new-products-20261028-monica-18",
+  "expectedSkuCount": 2,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261028-monica-18",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-28",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW26316",
+      "title": "Glossy Heart Resin Cabochons",
+      "originalTitle": "100Pcs Mini Love Heart Resin Accessory Water Cup Phone Shell Decor Patch Earring Hairpin DIY Jewelry Making Handmade Materials",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glossy Heart Resin Cabochons, product code RW26316",
+      "description": "For heart-themed craft-component orders, specify color selection and counted bag packing. Confirm the 13 mm reference and bonding surface with a sample before bulk sourcing or an OEM packing brief.",
+      "detailedDescription": "Glossy Heart Resin Cabochons. Supplier size reference: Approx. 13 mm (axis not specified). Reference packing: 100 pieces per bag. For heart-themed craft-component orders, specify color selection and counted bag packing. Confirm the 13 mm reference and bonding surface with a sample before bulk sourcing or an OEM packing brief. The supplier gives a 13 mm size reference without an axis. The photo shows smooth domed hearts in several solid colors. Confirm selected colors, reverse surface and actual assortment on a sample; no adhesive, magnetic feature, hole or fixed mix is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glossy Heart Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 13 mm (axis not specified)",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26316",
+        "Material: Resin",
+        "Dimensions: Approx. 13 mm (axis not specified)",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The supplier gives a 13 mm size reference without an axis. The photo shows smooth domed hearts in several solid colors. Confirm selected colors, reverse surface and actual assortment on a sample; no adhesive, magnetic feature, hole or fixed mix is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 13 mm (axis not specified)",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26316, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange the pictured heart shapes on greeting cards, scrapbook covers or gift tags. Check the craft base and attachment method on a sample; ribbon and paper props are not included.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "glossy heart resin cabochons, wholesale craft components",
+      "metaTitle": "RW26316 Glossy Heart Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale glossy heart resin cabochons. RW26316: Approx. 13 mm (axis not specified); reference 100 pieces per bag. Confirm selection and bulk packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 13 mm (axis not specified)",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26316",
+        "sku_raw": "MO-RW26316",
+        "title": "100Pcs Mini Love Heart Resin Accessory Water Cup Phone Shell Decor Patch Earring Hairpin DIY Jewelry Making Handmade Materials",
+        "material": "Resin",
+        "size": "13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832415040",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Mini-Love-Heart-Resin-Accessory_1601832415040.html"
+      },
+      "sourceProductId": "1601832415040",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mini-Love-Heart-Resin-Accessory_1601832415040.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26316",
+      "assetDirectory": "batch-20261028-monica-18",
+      "imagePrefix": "rw26316-glossy-heart-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26300",
+      "title": "Glitter Pineapple Resin Cabochons",
+      "originalTitle": "Resin Colorful Painted Shiny Mini Pineapples Figurine Flatback Stone Scrapbook DIY Manicures Appliques Accessories Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glitter Pineapple Resin Cabochons, product code RW26300",
+      "description": "Specify pineapple style selection, body/crown color preference and counted bag packing for summer craft assortments. Confirm finish, dimensions and reverse surface on approved samples before a bulk or OEM packing brief.",
+      "detailedDescription": "Glitter Pineapple Resin Cabochons. Supplier size reference: Approx. 11 × 16 mm. Reference packing: 100 pieces per bag. Specify pineapple style selection, body/crown color preference and counted bag packing for summer craft assortments. Confirm finish, dimensions and reverse surface on approved samples before a bulk or OEM packing brief. The photo shows domed pineapple shapes with molded crosshatch texture, iridescent glitter and colored leaf crowns. The source size is a supplier reference; confirm selected colors, reverse surface and actual assortment. No hole, hardware, fixed mix or performance claim is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glitter Pineapple Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 11 × 16 mm",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26300",
+        "Material: Resin",
+        "Dimensions: Approx. 11 × 16 mm",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The photo shows domed pineapple shapes with molded crosshatch texture, iridescent glitter and colored leaf crowns. The source size is a supplier reference; confirm selected colors, reverse surface and actual assortment. No hole, hardware, fixed mix or performance claim is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 11 × 16 mm",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26300, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use the pineapple motif to plan tropical scrapbook layouts, gift cards or decoden compositions. Compare the selected color and size on a sample and test attachment to your chosen base; paper and leaf props are excluded.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "glitter pineapple resin cabochons, wholesale craft components",
+      "metaTitle": "RW26300 Glitter Pineapple Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Wholesale glitter pineapple resin cabochons. RW26300: Approx. 11 × 16 mm; reference 100 pieces per bag. Confirm selection and bulk packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 11 × 16 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26300",
+        "sku_raw": "MO-RW26300",
+        "title": "Resin Colorful Painted Shiny Mini Pineapples Figurine Flatback Stone Scrapbook DIY Manicures Appliques Accessories Crafts",
+        "material": "Resin",
+        "size": "11*16mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832356257",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Colorful-Painted-Shiny-Mini-Pineapples_1601832356257.html"
+      },
+      "sourceProductId": "1601832356257",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Colorful-Painted-Shiny-Mini-Pineapples_1601832356257.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26300",
+      "assetDirectory": "batch-20261028-monica-18",
+      "imagePrefix": "rw26300-glitter-pineapple-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-28",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

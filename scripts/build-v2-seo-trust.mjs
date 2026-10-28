@@ -231,12 +231,12 @@ await updateHtml(path.join('about', 'index.html'), (html) => {
 
 await updateHtml(path.join('products', 'slime-charms', 'index.html'), (html) => html.replace(
   /<title>[^<]+<\/title>/,
-  '<title>Slime Charms Wholesale Supplier | HAIBUCRAFT</title>'
+  '<title>Wholesale Slime Charms in Bulk | HAIBUCRAFT</title>'
 ));
 
 await updateHtml(path.join('products', 'polymer-clay-slices', 'index.html'), (html) => html.replace(
   /<title>[^<]+<\/title>/,
-  '<title>Polymer Clay Slices Wholesale | HAIBUCRAFT</title>'
+  '<title>Polymer Clay Slices Wholesale &amp; Bulk Sprinkles | HAIBUCRAFT</title>'
 ));
 
 const editorialDirectory = path.join(previewRoot, 'about', 'editorial-policy');

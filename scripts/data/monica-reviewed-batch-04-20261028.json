@@ -1,0 +1,829 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 6,
+  "batchCount": 1,
+  "currentBatchNumber": 4,
+  "newProductCount": 6,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26625",
+      "title": "Green Ghost Hand Resin Cabochons",
+      "dimensions": "Approx. 22 × 32 mm",
+      "packing": "100 pieces per bag",
+      "family": "halloween",
+      "factNote": "Allow room around the raised fingers when laying out a frame or shadow box. Confirm the base and reverse surface with a sample.",
+      "procurementAdvice": "Specify green hand shapes and the quantities needed for Halloween assortments; confirm the paint finish and packing.",
+      "uses": "Decorate Halloween shadow boxes, themed frames and miniature scenes.",
+      "key": "rw26625",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "green-ghost-hand-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26625",
+        "sku_raw": "MO-RW26625",
+        "title": "Halloween Ghost Hand Resin Flatback Cabochon DIY for Phone Case Hairpin Keychain Earrings Scrapbook",
+        "material": "Resin",
+        "size": "about22*32mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601891266638",
+        "product_url": "https://www.alibaba.com/product-detail/Halloween-Ghost-Hand-Resin-Flatback-Cabochon_1601891266638.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Halloween-Ghost-Hand-Resin-Flatback-Cabochon_1601891266638.html",
+      "sourceProductId": "1601891266638",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H660e48b4dc8b4a2a8b49e81bc3662318v.jpg",
+      "sourceImageSha256": "98a9cb220e2a45257a9cc8a0a62121d180d5e21a66156a74de01a5a4d893f68b",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 4,
+      "batchId": "20261028-monica-04",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "Allow room around the raised fingers when laying out a frame or shadow box. Confirm the base and reverse surface with a sample. Supplier measurements are reference sizes; confirm the selected design and finish with a sample.",
+      "description": "Green Ghost Hand Resin Cabochons. RW26625: Approx. 22 × 32 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale green ghost hand resin cabochons. RW26625: Approx. 22 × 32 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26625 Green Ghost Hand Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26625 Green Ghost Hand Resin Cabochons Wholesale | HAIBU",
+      "caption": "Green Ghost Hand Resin Cabochons. Supplier size reference: Approx. 22 × 32 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One square application illustration of the EXACT glossy green ghost-hand resin cabochons in the reference, each with five uneven upward fingers and ochre base, decorating a small charcoal Halloween shadow-box diorama with purple paper and tiny blank paper tombstones. Show 2 pieces as tiny craft decorations. Keep exact shape, colors, proportion, molded detail; do not turn into plants. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling.",
+        "detailPrompt": "Use case: precise-object-edit. One square macro product-detail illustration of two or three representative EXACT tiny resin craft pieces from the supplied reference on a softly lit warm ivory studio background, arranged differently from source. Tight supported front/top views to show existing gloss, relief, painted surface, and molded edge. Preserve source identity, colors, outlines, texture, proportions. No new product designs, no invented backs or unseen structures. These are non-edible craft decorations. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26625/rw26625-1.jpg",
+        "assets/images/pdp/rw26625/rw26625-2.jpg",
+        "assets/images/pdp/rw26625/rw26625-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26625/rw26625-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b1c422247eb43c3316770318963625eafee007a8c1410ee6c766bfa18c00eda5",
+          "bytes": 128915
+        },
+        {
+          "path": "assets/images/pdp/rw26625/rw26625-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "45ebb58f707e91b2a115baf9c63e60a9c17eb18ede6ea79e23f668170066acab",
+          "bytes": 183303
+        },
+        {
+          "path": "assets/images/pdp/rw26625/rw26625-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9414e92dd11503f6d2a918e6d590c92d931ab49f83a1200198ba732b9a4e024f",
+          "bytes": 133209
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-04/rw26625/rw26625-green-ghost-hand-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26625/rw26625-green-ghost-hand-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26625/rw26625-green-ghost-hand-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26625/rw26625-green-ghost-hand-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "b1c422247eb43c3316770318963625eafee007a8c1410ee6c766bfa18c00eda5",
+          "bytes": 128915
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26625/rw26625-green-ghost-hand-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "45ebb58f707e91b2a115baf9c63e60a9c17eb18ede6ea79e23f668170066acab",
+          "bytes": 183303
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26625/rw26625-green-ghost-hand-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "9414e92dd11503f6d2a918e6d590c92d931ab49f83a1200198ba732b9a4e024f",
+          "bytes": 133209
+        }
+      ]
+    },
+    {
+      "sku": "RW26623",
+      "title": "Pastel Double Flower Resin Cabochons",
+      "dimensions": "Approx. 25 × 21 mm",
+      "packing": "100 pieces per bag",
+      "family": "flower",
+      "factNote": "Each visible piece joins two flowers and leaves. Check the full outline against your box lid or hair accessory base.",
+      "procurementAdvice": "Confirm the preferred paired-flower color combinations and distribution per bag before approving an assortment.",
+      "uses": "Add paired floral accents to craft storage boxes, frames and hair accessory bases.",
+      "key": "rw26623",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pastel-double-flower-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26623",
+        "sku_raw": "MO-RW26623",
+        "title": "Shiny Leaves Flower Series Resin Flatback Cabochons for Hairpin Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "about25*21mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601891324308",
+        "product_url": "https://www.alibaba.com/product-detail/Shiny-Leaves-Flower-Series-Resin-Flatback_1601891324308.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Shiny-Leaves-Flower-Series-Resin-Flatback_1601891324308.html",
+      "sourceProductId": "1601891324308",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5824b2518f1f49fb8f95a583fb4295999.jpg",
+      "sourceImageSha256": "7437d34344cad04ee9b43118188f70136d2b3f6aa84f464d8e2c6a0a57209080",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 4,
+      "batchId": "20261028-monica-04",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "Each visible piece joins two flowers and leaves. Check the full outline against your box lid or hair accessory base. Supplier measurements are reference sizes; confirm the selected design and finish with a sample.",
+      "description": "Pastel Double Flower Resin Cabochons. RW26623: Approx. 25 × 21 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale pastel double flower resin cabochons. RW26623: Approx. 25 × 21 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26623 Pastel Double Flower Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26623 Pastel Double Flower Resin Cabochons Wholesale | HAIBU",
+      "caption": "Pastel Double Flower Resin Cabochons. Supplier size reference: Approx. 25 × 21 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One square application illustration of the EXACT paired five-petal pastel daisy resin cabochons with green leaves from the reference, applied to a lilac rectangular craft storage box lid, warm wood workbench and cream ribbon in soft daylight. Each piece is two joined daisies, not separate single flowers. Preserve molded shape, colors, glossy finish. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling.",
+        "detailPrompt": "Use case: precise-object-edit. One square macro product-detail illustration of two or three representative EXACT tiny resin craft pieces from the supplied reference on a softly lit warm ivory studio background, arranged differently from source. Tight supported front/top views to show existing gloss, relief, painted surface, and molded edge. Preserve source identity, colors, outlines, texture, proportions. No new product designs, no invented backs or unseen structures. These are non-edible craft decorations. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26623/rw26623-1.jpg",
+        "assets/images/pdp/rw26623/rw26623-2.jpg",
+        "assets/images/pdp/rw26623/rw26623-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26623/rw26623-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f6c14e739daa86952efbccfe5ea1315b63d343eaa7778989eac131a90aefdae4",
+          "bytes": 142284
+        },
+        {
+          "path": "assets/images/pdp/rw26623/rw26623-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "56c4cfe54bd370a41fc6ec57c1a25ced2ac1c98ba71f9db50b2086c6f61ba3d9",
+          "bytes": 132355
+        },
+        {
+          "path": "assets/images/pdp/rw26623/rw26623-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fd7b7ba56064a215c4a990cc5cf2d2c166cb851342865717e62efebfde0ac013",
+          "bytes": 90699
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-04/rw26623/rw26623-pastel-double-flower-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26623/rw26623-pastel-double-flower-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26623/rw26623-pastel-double-flower-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26623/rw26623-pastel-double-flower-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f6c14e739daa86952efbccfe5ea1315b63d343eaa7778989eac131a90aefdae4",
+          "bytes": 142284
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26623/rw26623-pastel-double-flower-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "56c4cfe54bd370a41fc6ec57c1a25ced2ac1c98ba71f9db50b2086c6f61ba3d9",
+          "bytes": 132355
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26623/rw26623-pastel-double-flower-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "fd7b7ba56064a215c4a990cc5cf2d2c166cb851342865717e62efebfde0ac013",
+          "bytes": 90699
+        }
+      ]
+    },
+    {
+      "sku": "RW26411",
+      "title": "Whole Pizza and Slice Resin Miniatures",
+      "dimensions": "35 mm / 24 × 17 mm",
+      "packing": "100 pieces per bag",
+      "family": "food",
+      "factNote": "The source lists two size options without a confirmed design-to-size mapping. Confirm the whole pizza or slice option and its measurements before ordering.",
+      "procurementAdvice": "Specify whole pizza versus individual slice designs, quantities and size option; confirm which pieces are included.",
+      "uses": "Arrange miniature pizzeria displays, dollhouse food scenes and decorative craft trays.",
+      "key": "rw26411",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "whole-pizza-and-slice-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26411",
+        "sku_raw": "MO-RW26411",
+        "title": "100PCS Pizza Food Miniature Models Ornaments Decor Simulation DIY Resin Accessories",
+        "material": "Resin",
+        "size": "35mm- / 24*17mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601808134018",
+        "product_url": "https://www.alibaba.com/product-detail/100PCS-Pizza-Food-Miniature-Models-Ornaments_1601808134018.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Pizza-Food-Miniature-Models-Ornaments_1601808134018.html",
+      "sourceProductId": "1601808134018",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5bd2a8d8d70647c088489efbf14cf773m.jpg",
+      "sourceImageSha256": "2057bccd658c979404170438da5447744d3550176e8677dcf809a6ce5a11a6d9",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 4,
+      "batchId": "20261028-monica-04",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The source lists two size options without a confirmed design-to-size mapping. Confirm the whole pizza or slice option and its measurements before ordering. Supplier measurements are reference sizes; confirm the selected design and finish with a sample.",
+      "description": "Whole Pizza and Slice Resin Miniatures. RW26411: 35 mm / 24 × 17 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale whole pizza and slice resin miniatures. RW26411: 35 mm / 24 × 17 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26411 Whole Pizza and Slice Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26411 Whole Pizza and Slice Resin Miniatures Wholesale | HAIBU",
+      "caption": "Whole Pizza and Slice Resin Miniatures. Supplier size reference: 35 mm / 24 × 17 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One square application illustration using EXACT tiny whole round pizza and triangular pizza-slice resin miniatures from the reference, in a miniature pizzeria display on a small wooden dollhouse table. Retain yellow-orange molded pizza surface, crust and simple painted toppings. These are resin craft models, never realistic edible pizza. No hands. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling.",
+        "detailPrompt": "Use case: precise-object-edit. One square macro product-detail illustration of two or three representative EXACT tiny resin craft pieces from the supplied reference on a softly lit warm ivory studio background, arranged differently from source. Tight supported front/top views to show existing gloss, relief, painted surface, and molded edge. Preserve source identity, colors, outlines, texture, proportions. No new product designs, no invented backs or unseen structures. These are non-edible craft decorations. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26411/rw26411-1.jpg",
+        "assets/images/pdp/rw26411/rw26411-2.jpg",
+        "assets/images/pdp/rw26411/rw26411-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26411/rw26411-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f0943d677c94ca81f91bc9d53464a5b042cd329ea059ee13218e6328d1e4cd33",
+          "bytes": 135060
+        },
+        {
+          "path": "assets/images/pdp/rw26411/rw26411-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4f4524fea60b293f46fa7c98a28592159011b644c93936aceb69ca650ff23b22",
+          "bytes": 194436
+        },
+        {
+          "path": "assets/images/pdp/rw26411/rw26411-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3bbd09c00f2a01f0cb7487925afe643825299142e92ff79fce51ef359dfd5363",
+          "bytes": 120204
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-04/rw26411/rw26411-whole-pizza-and-slice-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26411/rw26411-whole-pizza-and-slice-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26411/rw26411-whole-pizza-and-slice-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26411/rw26411-whole-pizza-and-slice-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "f0943d677c94ca81f91bc9d53464a5b042cd329ea059ee13218e6328d1e4cd33",
+          "bytes": 135060
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26411/rw26411-whole-pizza-and-slice-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4f4524fea60b293f46fa7c98a28592159011b644c93936aceb69ca650ff23b22",
+          "bytes": 194436
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26411/rw26411-whole-pizza-and-slice-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3bbd09c00f2a01f0cb7487925afe643825299142e92ff79fce51ef359dfd5363",
+          "bytes": 120204
+        }
+      ]
+    },
+    {
+      "sku": "RW26621",
+      "title": "Novelty Pizza Slice Resin Cabochons",
+      "dimensions": "Approx. 25 mm",
+      "packing": "100 pieces per bag",
+      "family": "food",
+      "factNote": "The reference includes several playful topping designs. Confirm the selected motif, relief height and available space on your craft base.",
+      "procurementAdvice": "Send the preferred topping designs and their quantities, then confirm assortment availability and reference packing.",
+      "uses": "Create food-themed decoden phone cases, decorative box lids and miniature craft displays.",
+      "key": "rw26621",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "novelty-pizza-slice-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26621",
+        "sku_raw": "MO-RW26621",
+        "title": "Simulation Pizza Gourmet Food Flatback Resin Cabochon Scrapbooking DIY Phone Case Slime Accessories",
+        "material": "Resin",
+        "size": "about25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601891171986",
+        "product_url": "https://www.alibaba.com/product-detail/Simulation-Pizza-Gourmet-Food-Flatback-Resin_1601891171986.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Simulation-Pizza-Gourmet-Food-Flatback-Resin_1601891171986.html",
+      "sourceProductId": "1601891171986",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hedae843444b448e8b00d5ffb58279677t.jpg",
+      "sourceImageSha256": "6cb7847c41aeed5bf1a03e0601bdecc5f35df9f9eb116b6b0f77db7cc45e023f",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 4,
+      "batchId": "20261028-monica-04",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The reference includes several playful topping designs. Confirm the selected motif, relief height and available space on your craft base. Supplier measurements are reference sizes; confirm the selected design and finish with a sample.",
+      "description": "Novelty Pizza Slice Resin Cabochons. RW26621: Approx. 25 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale novelty pizza slice resin cabochons. RW26621: Approx. 25 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26621 Novelty Pizza Slice Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26621 Novelty Pizza Slice Resin Cabochons Wholesale | HAIBU",
+      "caption": "Novelty Pizza Slice Resin Cabochons. Supplier size reference: Approx. 25 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One square application illustration of the EXACT cartoon triangular pizza-slice resin cabochons from the reference on a mint-green decoden phone case, simple cream-colored craft cream borders; loose same-SKU slices alongside. Preserve exact playful source designs such as brown bear head in crust and fried egg on purple slice. Do not replace by realistic pizzas. Keep exact existing colors and molded outlines. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling.",
+        "detailPrompt": "Use case: precise-object-edit. One square macro product-detail illustration of two or three representative EXACT tiny resin craft pieces from the supplied reference on a softly lit warm ivory studio background, arranged differently from source. Tight supported front/top views to show existing gloss, relief, painted surface, and molded edge. Preserve source identity, colors, outlines, texture, proportions. No new product designs, no invented backs or unseen structures. These are non-edible craft decorations. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26621/rw26621-1.jpg",
+        "assets/images/pdp/rw26621/rw26621-2.jpg",
+        "assets/images/pdp/rw26621/rw26621-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26621/rw26621-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "25579b9628180b4e00a2283c639c850732ea9a355b426533801ca8340f76085a",
+          "bytes": 172720
+        },
+        {
+          "path": "assets/images/pdp/rw26621/rw26621-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "990e97672208055fc569cb43594f306548292abd3900783226f6ba3e0241b527",
+          "bytes": 172402
+        },
+        {
+          "path": "assets/images/pdp/rw26621/rw26621-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "59eac5bc75ea5326dc12c369bc002715b50a4a22dbc10901ac9fe322d325fdc2",
+          "bytes": 121360
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-04/rw26621/rw26621-novelty-pizza-slice-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26621/rw26621-novelty-pizza-slice-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26621/rw26621-novelty-pizza-slice-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26621/rw26621-novelty-pizza-slice-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "25579b9628180b4e00a2283c639c850732ea9a355b426533801ca8340f76085a",
+          "bytes": 172720
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26621/rw26621-novelty-pizza-slice-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "990e97672208055fc569cb43594f306548292abd3900783226f6ba3e0241b527",
+          "bytes": 172402
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26621/rw26621-novelty-pizza-slice-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "59eac5bc75ea5326dc12c369bc002715b50a4a22dbc10901ac9fe322d325fdc2",
+          "bytes": 121360
+        }
+      ]
+    },
+    {
+      "sku": "RW26620",
+      "title": "Polka Dot Magic Hat Resin Cabochons",
+      "dimensions": "Approx. 27 × 14 mm",
+      "packing": "100 pieces per bag",
+      "family": "halloween",
+      "factNote": "The curled tip and raised crown need clearance above the craft surface. Check the selected color and reverse surface before attaching.",
+      "procurementAdvice": "Specify black, pink or yellow hat styles and the quantity per color; confirm the polka-dot finish on an approved sample.",
+      "uses": "Decorate seasonal photo frames, fantasy shadow boxes and themed gift-box lids.",
+      "key": "rw26620",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "polka-dot-magic-hat-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26620",
+        "sku_raw": "MO-RW26620",
+        "title": "Cute Magic Hat Mini Dollhouse Decoration Resin Craft Miniature Figure Tiny Fairy Garden Decor",
+        "material": "Resin",
+        "size": "about27*14mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601891207743",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Magic-Hat-Mini-Dollhouse-Decoration_1601891207743.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Magic-Hat-Mini-Dollhouse-Decoration_1601891207743.html",
+      "sourceProductId": "1601891207743",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hb874c90857fe4ca597c055affe0a11b8D.jpg",
+      "sourceImageSha256": "4c8c453f2361471a8d127f8c6a07198e4541d83a9094612e12d88aa678f30f4e",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 4,
+      "batchId": "20261028-monica-04",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The curled tip and raised crown need clearance above the craft surface. Check the selected color and reverse surface before attaching. Supplier measurements are reference sizes; confirm the selected design and finish with a sample.",
+      "description": "Polka Dot Magic Hat Resin Cabochons. RW26620: Approx. 27 × 14 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale polka dot magic hat resin cabochons. RW26620: Approx. 27 × 14 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26620 Polka Dot Magic Hat Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26620 Polka Dot Magic Hat Resin Cabochons Wholesale | HAIBU",
+      "caption": "Polka Dot Magic Hat Resin Cabochons. Supplier size reference: Approx. 27 × 14 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One square application illustration of the EXACT curled-top glossy black, pink and yellow polka-dot magic hat resin cabochons in reference, mounted on a plum-colored small photo-frame corner with paper stars, on pale linen. Preserve buckle and polka dots, small craft component scale and exact shape, no new structures. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling.",
+        "detailPrompt": "Use case: precise-object-edit. One square macro product-detail illustration of two or three representative EXACT tiny resin craft pieces from the supplied reference on a softly lit warm ivory studio background, arranged differently from source. Tight supported front/top views to show existing gloss, relief, painted surface, and molded edge. Preserve source identity, colors, outlines, texture, proportions. No new product designs, no invented backs or unseen structures. These are non-edible craft decorations. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26620/rw26620-1.jpg",
+        "assets/images/pdp/rw26620/rw26620-2.jpg",
+        "assets/images/pdp/rw26620/rw26620-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26620/rw26620-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3dfb16667a8a951bcedf0d9d29a985548829d2184bd32537aec4faa9e309ed85",
+          "bytes": 136728
+        },
+        {
+          "path": "assets/images/pdp/rw26620/rw26620-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "38f808c3a400838cad4ea345d49256c89ba4dd9a393fbaeb56627a83aa304760",
+          "bytes": 178801
+        },
+        {
+          "path": "assets/images/pdp/rw26620/rw26620-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7c88539a8034eac8f339e71640ddf85746dc7513b287a082891a5e1a04d7c22a",
+          "bytes": 83423
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-04/rw26620/rw26620-polka-dot-magic-hat-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26620/rw26620-polka-dot-magic-hat-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26620/rw26620-polka-dot-magic-hat-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26620/rw26620-polka-dot-magic-hat-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "3dfb16667a8a951bcedf0d9d29a985548829d2184bd32537aec4faa9e309ed85",
+          "bytes": 136728
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26620/rw26620-polka-dot-magic-hat-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "38f808c3a400838cad4ea345d49256c89ba4dd9a393fbaeb56627a83aa304760",
+          "bytes": 178801
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26620/rw26620-polka-dot-magic-hat-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "7c88539a8034eac8f339e71640ddf85746dc7513b287a082891a5e1a04d7c22a",
+          "bytes": 83423
+        }
+      ]
+    },
+    {
+      "sku": "RW26649",
+      "title": "Mini Chocolate Assortment Resin Cabochons",
+      "dimensions": "Approx. 8–10 mm",
+      "packing": "100 pieces per bag",
+      "family": "dessert",
+      "factNote": "Small bonbon shapes have different outlines and raised toppings. Confirm the chosen design and dimensions; the reference does not establish a uniform size for every piece.",
+      "procurementAdvice": "Send a design list for the miniature chocolate assortment and confirm the distribution of shapes and colors per reference bag.",
+      "uses": "Add small non-edible chocolate accents to craft gift boxes, dessert-themed frames and miniature displays.",
+      "key": "rw26649",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "mini-chocolate-assortment-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26649",
+        "sku_raw": "MO-RW26649",
+        "title": "Creative Chocolate Resin Nail Charms Colorful Chocolate Nail Art Decorations for DIY Bulk Deals Custom Options",
+        "material": "Resin",
+        "size": "about8-10mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601885886297",
+        "product_url": "https://www.alibaba.com/product-detail/Creative-Chocolate-Resin-Nail-Charms-Colorful_1601885886297.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Creative-Chocolate-Resin-Nail-Charms-Colorful_1601885886297.html",
+      "sourceProductId": "1601885886297",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5f4ab969c92844649fd38531ff17f0ccN.jpg",
+      "sourceImageSha256": "ec9441f1308968d6e08f681a841abe8050ad7e8e79fca458187a272bcd529028",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 4,
+      "batchId": "20261028-monica-04",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "Small bonbon shapes have different outlines and raised toppings. Confirm the chosen design and dimensions; the reference does not establish a uniform size for every piece. Supplier measurements are reference sizes; confirm the selected design and finish with a sample.",
+      "description": "Mini Chocolate Assortment Resin Cabochons. RW26649: Approx. 8–10 mm; 100 pieces per bag. Confirm selected designs and quantities.",
+      "haibuDescription": "Wholesale mini chocolate assortment resin cabochons. RW26649: Approx. 8–10 mm; 100 pieces per bag. Confirm assortment and packing.",
+      "metaTitle": "RW26649 Mini Chocolate Assortment Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26649 Mini Chocolate Assortment Resin Cabochons Wholesale | HAIBU",
+      "caption": "Mini Chocolate Assortment Resin Cabochons. Supplier size reference: Approx. 8–10 mm. Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. One square application illustration of the EXACT tiny assorted chocolate-shaped resin decorations from reference on a blush craft gift-box lid beside a blank ivory card and brown ribbon. Focus on source pink swirled round bonbon, pale cream shell, green square with brown oval topping and dark brown flower-topped bonbon. Preserve exact molded colors/shapes, no realistic food. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling.",
+        "detailPrompt": "Use case: precise-object-edit. One square macro product-detail illustration of two or three representative EXACT tiny resin craft pieces from the supplied reference on a softly lit warm ivory studio background, arranged differently from source. Tight supported front/top views to show existing gloss, relief, painted surface, and molded edge. Preserve source identity, colors, outlines, texture, proportions. No new product designs, no invented backs or unseen structures. These are non-edible craft decorations. Asset for B2B craft product gallery. ONE continuous image, no collage, no panels. Reference image is the strict same-SKU product identity target. No added holes, hooks, hardware, logos, gold badges, watermarks, text, rulers or dimensions. Do not create reverse views or modify the visible design. Props are not included in supply. Photographic lighting; source product fidelity takes priority over styling."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26649/rw26649-1.jpg",
+        "assets/images/pdp/rw26649/rw26649-2.jpg",
+        "assets/images/pdp/rw26649/rw26649-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26649/rw26649-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a76c605e8d7f21435f85f5cdd0807523edff0a283b82883c56f7f43883c28559",
+          "bytes": 98851
+        },
+        {
+          "path": "assets/images/pdp/rw26649/rw26649-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2a0e526889476df172449e9c74dfd08bc26a00b7172349fc07e254001591e255",
+          "bytes": 172103
+        },
+        {
+          "path": "assets/images/pdp/rw26649/rw26649-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "811108479deded236dfa4350502c23bdcbe0fa494a4ad07a69301eb78802940d",
+          "bytes": 87091
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-04/rw26649/rw26649-mini-chocolate-assortment-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26649/rw26649-mini-chocolate-assortment-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-04/rw26649/rw26649-mini-chocolate-assortment-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26649/rw26649-mini-chocolate-assortment-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "a76c605e8d7f21435f85f5cdd0807523edff0a283b82883c56f7f43883c28559",
+          "bytes": 98851
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26649/rw26649-mini-chocolate-assortment-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2a0e526889476df172449e9c74dfd08bc26a00b7172349fc07e254001591e255",
+          "bytes": 172103
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-04/rw26649/rw26649-mini-chocolate-assortment-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "811108479deded236dfa4350502c23bdcbe0fa494a4ad07a69301eb78802940d",
+          "bytes": 87091
+        }
+      ]
+    }
+  ]
+}

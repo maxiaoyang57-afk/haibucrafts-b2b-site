@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 495,
+  "count": 497,
   "products": [
     {
       "sku": "YX3301",
@@ -3067,6 +3067,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26218-speckled-pumpkin-resin-miniatures/",
       "productionPath": "/products/resin-charms-for-slime/rw26218-speckled-pumpkin-resin-miniatures/"
+    },
+    {
+      "sku": "RW26304",
+      "title": "Textured Starfish Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26304-textured-starfish-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26304-textured-starfish-resin-cabochons/"
+    },
+    {
+      "sku": "RW26299",
+      "title": "White Goose Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26299-white-goose-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26299-white-goose-resin-miniatures/"
     },
     {
       "sku": "RW0020648",

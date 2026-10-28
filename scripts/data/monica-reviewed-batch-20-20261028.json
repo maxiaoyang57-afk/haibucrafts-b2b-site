@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 2,
+  "batchCount": 1,
+  "currentBatchNumber": 20,
+  "newProductCount": 2,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW26304",
+      "title": "Textured Starfish Resin Cabochons",
+      "dimensions": "Approx. 70 mm (axis unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The photo shows five-armed starfish shapes with textured surfaces in several translucent colors. The supplier gives about70mm without an axis. Confirm selected colors and size on a sample; no natural shell material, hole, loop, adhesive or fixed assortment is promised.",
+      "procurementAdvice": "For ocean-themed component sourcing, confirm the70mm reference, selected colors and counted bag packing before bulk purchasing or an OEM packaging brief.",
+      "uses": "Arrange the pictured starfish shapes alongside an ocean-themed scrapbook page or gift tag. Check the craft base and attachment method on a sample; paper, ribbon and styling props are not included.",
+      "key": "rw26304",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "textured-starfish-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26304",
+        "sku_raw": "MO-RW26304",
+        "title": "New Cute Shining Starfish Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "about70mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832193791",
+        "product_url": "https://www.alibaba.com/product-detail/New-Cute-Shining-Starfish-Flat-Back_1601832193791.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Cute-Shining-Starfish-Flat-Back_1601832193791.html",
+      "sourceProductId": "1601832193791",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5771aa3082714fae8f007bc5dd1030e8g.jpg",
+      "sourceImageSha256": "01a4071717c243068dc51f48dd29ec9f072bf8d7adf8b05f5e21169943859c1c",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 20,
+      "batchId": "20261028-monica-20",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows five-armed starfish shapes with textured surfaces in several translucent colors. The supplier gives about70mm without an axis. Confirm selected colors and size on a sample; no natural shell material, hole, loop, adhesive or fixed assortment is promised.",
+      "description": "Textured Starfish Resin Cabochons. RW26304: resin craft pieces; reference packing100pcs/bag. Compare shapes and colors for your DIY project.",
+      "haibuDescription": "Wholesale textured starfish resin cabochons. RW26304: resin; reference100pcs/bag. Confirm selection, bag quantities and packing in your quote.",
+      "metaTitle": "RW26304 Textured Starfish Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26304 Textured Starfish Resin Cabochons Wholesale | HAIBU",
+      "caption": "Textured Starfish Resin Cabochons. Supplier size reference: Approx. 70 mm (axis unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Independent photographic scene reference for SKU RW26304, STRICTLY based on attached same-SKU original supplier photograph. Subject: the ONE blue five-armed starfish resin cabochon at upper right of reference plate; exact five uneven tapered arms, rounded ends, pebbled raised molded texture and translucent pale blue glossy resin. Preserve all five arms and original surface; no holes or loops. Composition: front/top view loosely resting on a dry navy-blue ocean-themed paper scrapbook layout with a separate blank ivory tag and light beige ribbon. Preserve exact visible silhouette, color, material and constituents; full product visible. Soft natural light, square image. No invented back surface, hole, loop, hanging hardware, magnet, adhesive, added accessories or moving parts. No text/logo/watermark/badge/diagram. No fixed assortment implied. Decorative resin craft component, non-edible; props remain separate and are not included. Different composition from supplier main and from the other reference.",
+        "detailPrompt": "Use case: product-mockup. Independent photographic detail reference for SKU RW26304, STRICTLY based on attached same-SKU original supplier photograph. Subject: the ONE blue five-armed starfish resin cabochon at upper right of reference plate; exact five uneven tapered arms, rounded ends, pebbled raised molded texture and translucent pale blue glossy resin. Preserve all five arms and original surface; no holes or loops. Composition: front/top entire five-arm shape closely framed on warm gray matte paper; show existing pebbled texture, no rear. Preserve exact visible silhouette, color, material and constituents; full product visible. Soft natural light, square image. No invented back surface, hole, loop, hanging hardware, magnet, adhesive, added accessories or moving parts. No text/logo/watermark/badge/diagram. No fixed assortment implied. Decorative resin craft component, non-edible; props remain separate and are not included. Different composition from supplier main and from the other reference."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26304/rw26304-1.jpg",
+        "assets/images/pdp/rw26304/rw26304-2.jpg",
+        "assets/images/pdp/rw26304/rw26304-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26304/rw26304-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 114429,
+          "sha256": "bde01aa08f8384af20ceb2a5e9a71d5c4e028bc4c5684dc11adac8f17d4ca32a"
+        },
+        {
+          "path": "assets/images/pdp/rw26304/rw26304-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 223933,
+          "sha256": "54fa00dcb3095defcc8502dc807d0b66c78f3cc3af2f690296ff6e9c0dd3e65d"
+        },
+        {
+          "path": "assets/images/pdp/rw26304/rw26304-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 146506,
+          "sha256": "06b7172483c967d40390559d447922c1c3847baf1e71d1709dc73948e06f96f6"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 114429,
+          "sha256": "bde01aa08f8384af20ceb2a5e9a71d5c4e028bc4c5684dc11adac8f17d4ca32a"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 223933,
+          "sha256": "54fa00dcb3095defcc8502dc807d0b66c78f3cc3af2f690296ff6e9c0dd3e65d"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-20/rw26304/rw26304-textured-starfish-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 146506,
+          "sha256": "06b7172483c967d40390559d447922c1c3847baf1e71d1709dc73948e06f96f6"
+        }
+      ]
+    },
+    {
+      "sku": "RW26299",
+      "title": "White Goose Resin Miniatures",
+      "dimensions": "30–40 mm (supplier range; axis and pose mapping unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The photo shows white goose figures in different poses with orange bills and feet. The30–40mm supplier range is not mapped to a pose or axis. Confirm selected poses and dimensions on a sample; no moving parts, hole, hardware, adhesive or fixed mix is promised.",
+      "procurementAdvice": "For goose-themed craft component orders, specify selected poses and clarify size mapping before approving a sample and counted bag packing for bulk sourcing or OEM packaging.",
+      "uses": "Place the pictured goose miniatures on a dry paper pond-themed display or alongside a greeting card. Check the chosen base and attachment method with a sample; paper and styling props are not included.",
+      "key": "rw26299",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "white-goose-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26299",
+        "sku_raw": "MO-RW26299",
+        "title": "Cute White Goose Figurines Resin Miniature Duck Ornaments Micro Landscape DIY Decor Accessories",
+        "material": "Resin",
+        "size": "30-40mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601832141998",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-White-Goose-Figurines-Resin-Miniature_1601832141998.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-White-Goose-Figurines-Resin-Miniature_1601832141998.html",
+      "sourceProductId": "1601832141998",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H8bdb4672400f4143a58153b7299c4054k.jpg",
+      "sourceImageSha256": "509679b4bb05587e8eb43e1a86ff59c0d3a7ad24953f0bc7cea9a3d56d6bb540",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 20,
+      "batchId": "20261028-monica-20",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The photo shows white goose figures in different poses with orange bills and feet. The30–40mm supplier range is not mapped to a pose or axis. Confirm selected poses and dimensions on a sample; no moving parts, hole, hardware, adhesive or fixed mix is promised.",
+      "description": "White Goose Resin Miniatures. RW26299: resin craft pieces; reference packing100pcs/bag. Compare shapes and colors for your DIY project.",
+      "haibuDescription": "Wholesale white goose resin miniatures. RW26299: resin; reference100pcs/bag. Confirm selection, bag quantities and packing in your quote.",
+      "metaTitle": "RW26299 White Goose Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26299 White Goose Resin Miniatures Wholesale | HAIBU",
+      "caption": "White Goose Resin Miniatures. Supplier size reference: 30–40 mm (supplier range; axis and pose mapping unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Use case: product-mockup. Independent photographic scene reference for SKU RW26299, STRICTLY based on attached same-SKU original supplier photograph. Subject: the ONE white goose standing at LOWER RIGHT of reference image, its wings resting against its sides, rounded white molded body, curved upright neck, orange open-shaped bill, orange webbed feet and simple black dot eye; exact original pose and front/side-oblique visible view, no invented back. Composition: one exact goose loosely standing beside a blank pale yellow greeting card and a dry flat blue paper pond-shaped cutout on sage paper tabletop; no water. Preserve exact visible silhouette, color, material and constituents; full product visible. Soft natural light, square image. No invented back surface, hole, loop, hanging hardware, magnet, adhesive, added accessories or moving parts. No text/logo/watermark/badge/diagram. No fixed assortment implied. Decorative resin craft component, non-edible; props remain separate and are not included. Different composition from supplier main and from the other reference.",
+        "detailPrompt": "Use case: product-mockup. Independent photographic detail reference for SKU RW26299, STRICTLY based on attached same-SKU original supplier photograph. Subject: the ONE white goose standing at LOWER RIGHT of reference image, its wings resting against its sides, rounded white molded body, curved upright neck, orange open-shaped bill, orange webbed feet and simple black dot eye; exact original pose and front/side-oblique visible view, no invented back. Composition: entire exact goose including feet and beak in close frame on pale peach matte paper, same visible original pose/view. Preserve exact visible silhouette, color, material and constituents; full product visible. Soft natural light, square image. No invented back surface, hole, loop, hanging hardware, magnet, adhesive, added accessories or moving parts. No text/logo/watermark/badge/diagram. No fixed assortment implied. Decorative resin craft component, non-edible; props remain separate and are not included. Different composition from supplier main and from the other reference."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26299/rw26299-1.jpg",
+        "assets/images/pdp/rw26299/rw26299-2.jpg",
+        "assets/images/pdp/rw26299/rw26299-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26299/rw26299-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 117573,
+          "sha256": "326f56dc671ccaa04afefe154caf1ed36e4aab3d9acefe8938128068bc93f5d4"
+        },
+        {
+          "path": "assets/images/pdp/rw26299/rw26299-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 85646,
+          "sha256": "f9539eb33c843326b55a32fc044e7ea858ff052fa58d72d0977556680557577a"
+        },
+        {
+          "path": "assets/images/pdp/rw26299/rw26299-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 58696,
+          "sha256": "15e7c0d1b3d010448c339ddb5b40cc858e7f65c79b09e28d9d3dc3eb6930ef21"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 117573,
+          "sha256": "326f56dc671ccaa04afefe154caf1ed36e4aab3d9acefe8938128068bc93f5d4"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 85646,
+          "sha256": "f9539eb33c843326b55a32fc044e7ea858ff052fa58d72d0977556680557577a"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-20/rw26299/rw26299-white-goose-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 58696,
+          "sha256": "15e7c0d1b3d010448c339ddb5b40cc858e7f65c79b09e28d9d3dc3eb6930ef21"
+        }
+      ]
+    }
+  ]
+}

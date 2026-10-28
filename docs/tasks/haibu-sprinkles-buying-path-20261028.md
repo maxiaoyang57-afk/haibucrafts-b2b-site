@@ -1,0 +1,13 @@
+# Polymer sprinkle collection buying path — 2026-10-28
+
+The focused polymer clay sprinkle collection already lists ten catalog products, but its cards only link to detail pages. Add a SKU-specific inquiry link to each card so a buyer can carry the chosen code, full catalog title, image, category, collection source and product page into the existing editable form. Keep the same ten products and existing collection title, description, H1 and URL.
+
+The existing polymer buying guide explains pack/sample separation and liquid-project sample checks. Link that guidance from the collection, with a short product-specific reminder: YX660 includes pearl accents; YX4019 has 3D Christmas forms. Component materials, dimensions, sample availability and packing remain subject to SKU confirmation. A new visible FAQ and matching FAQ schema state that this collection does not establish long-term liquid compatibility. No prices, MOQ promises, test results or compatibility guarantees are invented.
+
+Scope: one source collection HTML, its materialized production HTML, its `dateModified`/SEO-map date, and the matching single entry in both sitemaps. The collection is maintained as an existing preview source file; all standard source builders preserve it. No runtime JavaScript/CSS changes are needed.
+
+Evidence: archived 2026-10-14 GSC Query × Page data associated the slice/sprinkle procurement terms with the Polymer hub. The newer 9/28–10/25 query-only sample shows 47/42/22 impressions and zero clicks for the three recorded terms, but does not establish their current landing pages or the cause of zero clicks. This change addresses an observed buying-path gap; it is not presented as a demonstrated CTR fix or indexing recovery. Current private GSC/GA4 reads remain pending; no duplicate keyword page or title experiment is created.
+
+Validation: full Node suite; full SEO source and release builds; canonical, sitemap, product and materialized-production audits; all ten decoded inquiry links compared with the current catalog; unchanged title/H1/description. Browser coverage activates representative YX3318/YX660 links, checks exact form fields and source/product paths, checks mobile overflow, and follows the liquid-project guide anchor. The 375-pixel project also exercises a 1440-pixel desktop context. Network routes block inquiry delivery and external analytics. Remote browser results must pass before merge.
+
+Follow-up: verify production bytes and form routes, then observe consented `quote_cta_click`/`product_link_click` and actual confirmed leads using their existing definitions. Do not equate a direct inquiry link, a crawler notification or this deployment with increased traffic or a delivered customer inquiry.

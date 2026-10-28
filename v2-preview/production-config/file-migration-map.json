@@ -1107,6 +1107,55 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26627-glitter-cherry-blossom-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26627-glitter-cherry-blossom-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26627-glitter-cherry-blossom-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26210-cherry-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26210-cherry-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26210-cherry-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26613-patterned-butterfly-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26613-patterned-butterfly-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26613-patterned-butterfly-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22702-pastel-pig-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw22702-pastel-pig-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22702-pastel-pig-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25575-glitter-bow-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25575-glitter-bow-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25575-glitter-bow-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw4287-colorful-doughnut-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw4287-colorful-doughnut-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw4287-colorful-doughnut-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26651-pastel-dinosaur-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26651-pastel-dinosaur-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26651-pastel-dinosaur-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw0020648-mini-toast-slice-resin-cabochons/index.html",
       "action": "create",

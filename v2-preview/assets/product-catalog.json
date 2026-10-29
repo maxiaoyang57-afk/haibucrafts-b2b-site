@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 502,
+  "count": 504,
   "products": [
     {
       "sku": "YX3301",
@@ -1852,6 +1852,36 @@
       ],
       "previewPath": "/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/"
+    },
+    {
+      "sku": "RW2294",
+      "title": "Cloud and Sky Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw2294-cloud-sky-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw2294-cloud-sky-resin-cabochons/"
+    },
+    {
+      "sku": "RW26220",
+      "title": "Sprinkled Croissant Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26220-sprinkled-croissant-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26220-sprinkled-croissant-resin-miniatures/"
     },
     {
       "sku": "RW26625",

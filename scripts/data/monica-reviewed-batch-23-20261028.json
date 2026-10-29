@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 2,
+  "batchCount": 1,
+  "currentBatchNumber": 23,
+  "newProductCount": 2,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW2294",
+      "title": "Cloud and Sky Resin Cabochons",
+      "dimensions": "20 mm (reference dimension; motif mapping unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The supplier photograph includes pastel clouds, stars, sun, moon, rainbow, crown and cupcake shapes. The supplier gives a20mm reference without assigning it to a specific motif or axis. Confirm selected motifs, colors and reverse surface on a sample; no fixed mix or attachment hardware is promised.",
+      "procurementAdvice": "For bulk themed craft selections, specify RW2294 and the cloud or sky motifs you prefer, requested colors and bag quantities. Review selected shapes and any OEM packing brief with a sample before ordering.",
+      "uses": "Compare the cloud and sky shapes with your card, scrapbook or decorative display layout. Choose motifs and colors to suit your project and check the supplier size reference; styling paper and ribbon are not included.",
+      "key": "rw2294",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "cloud-and-sky-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW2294",
+        "sku_raw": "MO-RW2294",
+        "title": "Kawaii Resin Cute Cloud Crown Star Cupcake Sun Moon Flatback Resin Cabochons Jewelry Making DIY",
+        "material": "Resin",
+        "size": "20MM-",
+        "packaging": "100PCS/bag",
+        "status": "已上架",
+        "product_id": "1600199999719",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Resin-Cute-Cloud-Crown-Star_1600199999719.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Resin-Cute-Cloud-Crown-Star_1600199999719.html",
+      "sourceProductId": "1600199999719",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hf4bd45e879d14df282f3fb4e1c85e050E.jpg",
+      "sourceImageSha256": "ba8185183eacad754a021385411d2b3b28f868c195f7889e1f4630846167db85",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 23,
+      "batchId": "20261028-monica-23",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The supplier photograph includes pastel clouds, stars, sun, moon, rainbow, crown and cupcake shapes. The supplier gives a20mm reference without assigning it to a specific motif or axis. Confirm selected motifs, colors and reverse surface on a sample; no fixed mix or attachment hardware is promised.",
+      "description": "Cloud and Sky Resin Cabochons. RW2294 resin craft pieces. Compare shapes, supplier dimensions and reference packing for your DIY selection.",
+      "haibuDescription": "Cloud and Sky Resin Cabochons. RW2294 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "metaTitle": "RW2294 Cloud and Sky Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW2294 Cloud and Sky Resin Cabochons Wholesale | HAIBU",
+      "caption": "Cloud and Sky Resin Cabochons. Supplier size reference: 20 mm (reference dimension; motif mapping unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "Same-SKU supplier reference RW2294. Use ONLY the pink smiling cloud on LEFT UPPER of supplied photograph, with a scalloped pink cloud silhouette, engraved closed smiling eyes, wide U-shaped recessed smiling mouth, two raised dark pink round cheeks. Match exactly. Resin craft miniature not live character. Independent square photorealistic dry paper card craft scene: one exact pink cloud lying front-up alongside blank pale blue folded greeting card on light wood desk; a separated small lavender ribbon offcut prop. Preserve front contour/color/face, no holes, loops, attachment hardware, limbs, extra bow, watermark/logo/text/goldbadge. No back view or adhesive claim. Product clearly visible, no collage.",
+        "detailPrompt": "SAME SKU RW2294 source reference. Independent square close front-view photograph of ONLY the upper-left pink smiling cloud cabochon: exact scalloped pink contour, recessed curved closed eyes, recessed broad U smiling mouth, raised round deeper-pink cheeks. Matte resin, not plush. Preserve facial geometry from reference. Entire cloud fills 65% frame against pale sage matte background, soft diffused light revealing visible surface only. No added eyes/limbs/holes/hardware/back view/bow, no text,logo,watermark,goldbadge. Not collage."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw2294/rw2294-1.jpg",
+        "assets/images/pdp/rw2294/rw2294-2.jpg",
+        "assets/images/pdp/rw2294/rw2294-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw2294/rw2294-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 64201,
+          "sha256": "cd4bb808f8951f28c46a387906ec7fa24a9d0993a11d2e7db0587fd4be20c4c7"
+        },
+        {
+          "path": "assets/images/pdp/rw2294/rw2294-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121855,
+          "sha256": "2ecd54e8631cc3259efd43715de52d4fa4af942e8e0774250076abc106b019b6"
+        },
+        {
+          "path": "assets/images/pdp/rw2294/rw2294-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 61363,
+          "sha256": "da5957d9638049f8552635751fe6f0b6c6c0b8481c6262e2a93af8e1ff9064d7"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 64201,
+          "sha256": "cd4bb808f8951f28c46a387906ec7fa24a9d0993a11d2e7db0587fd4be20c4c7"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121855,
+          "sha256": "2ecd54e8631cc3259efd43715de52d4fa4af942e8e0774250076abc106b019b6"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-23/rw2294/rw2294-cloud-and-sky-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 61363,
+          "sha256": "da5957d9638049f8552635751fe6f0b6c6c0b8481c6262e2a93af8e1ff9064d7"
+        }
+      ]
+    },
+    {
+      "sku": "RW26220",
+      "title": "Sprinkled Croissant Resin Miniatures",
+      "dimensions": "Approx. 15 x 18 x 20 mm (axes unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The supplied photograph shows textured croissant-shaped resin miniatures with colored sprinkle-like decoration in pink, golden orange and brown. Approximate dimensions are not mapped to individual colors or axes. The pictured tray and liner are styling props; confirm selected finish and assortment on a sample.",
+      "procurementAdvice": "For bulk miniature bakery-themed craft sourcing, specify RW26220 and your preferred colors, bag quantities and packing format. Approve the sample texture and decorative finish, and discuss any OEM packaging requirements separately.",
+      "uses": "Arrange the croissant shapes in a miniature bakery paper display or decorative craft layout. Compare the supplier dimensions with your scene and select the colors you need; trays, paper liners and styling props are not included.",
+      "key": "rw26220",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "sprinkled-croissant-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW26220",
+        "sku_raw": "MO- RW26220",
+        "title": "Kawaii Simulation Food Art Supply Flatback Bread Resin Cabochon DIY Dollhouse Craft Decoration",
+        "material": "Resin",
+        "size": "about15*18*20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827346443",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Food-Art-Supply-Flatback_1601827346443.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Food-Art-Supply-Flatback_1601827346443.html",
+      "sourceProductId": "1601827346443",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H9cf6f7c380224bf7ba557ac1e141ceb1p.jpg",
+      "sourceImageSha256": "25b5520571489b22b55a211b996953256fed4498f50ebdd02e5ac3b1b695d02d",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 23,
+      "batchId": "20261028-monica-23",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The supplied photograph shows textured croissant-shaped resin miniatures with colored sprinkle-like decoration in pink, golden orange and brown. Approximate dimensions are not mapped to individual colors or axes. The pictured tray and liner are styling props; confirm selected finish and assortment on a sample.",
+      "description": "Sprinkled Croissant Resin Miniatures. RW26220 resin craft pieces. Compare shapes, supplier dimensions and reference packing for your DIY selection.",
+      "haibuDescription": "Sprinkled Croissant Resin Miniatures. RW26220 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "metaTitle": "RW26220 Sprinkled Croissant Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26220 Sprinkled Croissant Resin Miniatures Wholesale | HAIBU",
+      "caption": "Sprinkled Croissant Resin Miniatures. Supplier size reference: Approx. 15 x 18 x 20 mm (axes unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "SAME SKU RW26220 supplier photo reference. Independent square miniature craft styling photograph of ONE golden orange croissant resin miniature matching the LOWER LEFT single croissant in supplied photo. Preserve exactly oblong tapered curved segmented croissant, visible molded craggy texture, golden orange base, reddish-orange drizzle visible on upper center, tiny pink/green/blue/yellow sprinkle-like decoration. Not edible real pastry. On a separate blank cream miniature paper bakery display card on muted teal craft worktable with small plain paper box separate to side. Front/top three-quarter angle same as reference, no rear invention, no holes/hardware, no added packaging on product, no logo/text/goldbadge/watermark. Props separate and not included; product dominates; not collage.",
+        "detailPrompt": "SAME SKU RW26220 strict source reference. Independent square close detail photograph of ONLY golden orange LOWER LEFT single croissant resin miniature from supplied photo. Entire object visible close at same front/top three-quarter angle, identical tapered segmented crescent-ish oblong contour with molded porous-looking texture; reddish orange drizzle and tiny colored sprinkle-like decoration in exactly reference visible distribution. Preserve resin appearance and shape, no new filling, cut surfaces, interior, backside, holes, hardware, packaging or plate. Pale lilac matte backdrop and soft studio lighting. Not edible pastry, no text,logos,watermarks,goldbadges. Not collage/spec card."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26220/rw26220-1.jpg",
+        "assets/images/pdp/rw26220/rw26220-2.jpg",
+        "assets/images/pdp/rw26220/rw26220-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26220/rw26220-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 161752,
+          "sha256": "a32d124c3c0d286eb085259434ed7e0bb361cfbcedd09100c2c8ed072fb1dc9a"
+        },
+        {
+          "path": "assets/images/pdp/rw26220/rw26220-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 127436,
+          "sha256": "faf68324d7f9bf6b6ea0b1c59cc3a105873f270f67ab6ee585a2a14237f75219"
+        },
+        {
+          "path": "assets/images/pdp/rw26220/rw26220-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139370,
+          "sha256": "f3b180141d3424a31a8f60265974c88dad21e39628f3352b8c69717aa452f52c"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 161752,
+          "sha256": "a32d124c3c0d286eb085259434ed7e0bb361cfbcedd09100c2c8ed072fb1dc9a"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 127436,
+          "sha256": "faf68324d7f9bf6b6ea0b1c59cc3a105873f270f67ab6ee585a2a14237f75219"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-23/rw26220/rw26220-sprinkled-croissant-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139370,
+          "sha256": "f3b180141d3424a31a8f60265974c88dad21e39628f3352b8c69717aa452f52c"
+        }
+      ]
+    }
+  ]
+}

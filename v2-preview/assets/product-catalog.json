@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 500,
+  "count": 502,
   "products": [
     {
       "sku": "YX3301",
@@ -3142,6 +3142,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26278-pink-axolotl-resin-miniatures/",
       "productionPath": "/products/resin-charms-for-slime/rw26278-pink-axolotl-resin-miniatures/"
+    },
+    {
+      "sku": "RW26379",
+      "title": "Arched Window Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-22/rw26379/rw26379-arched-window-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-22/rw26379/rw26379-arched-window-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-22/rw26379/rw26379-arched-window-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-22/rw26379/rw26379-arched-window-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26379-arched-window-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26379-arched-window-resin-cabochons/"
+    },
+    {
+      "sku": "RW26281",
+      "title": "Dress Form Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-22/rw26281/rw26281-dress-form-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-22/rw26281/rw26281-dress-form-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-22/rw26281/rw26281-dress-form-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-22/rw26281/rw26281-dress-form-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26281-dress-form-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26281-dress-form-resin-miniatures/"
     },
     {
       "sku": "RW0020648",

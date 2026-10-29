@@ -3,6 +3,33 @@ import { expect, test } from '@playwright/test';
 const noOverflow = async (page) => expect(await page.evaluate(() =>
   document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);
 
+const expectUnobstructedFirstScreenActions = async (page) => {
+  await expect(page.locator('.analytics-consent')).toBeVisible();
+  await expect.poll(() => page.locator('.hero .actions').evaluate((actions) => {
+    const cta = actions.getBoundingClientRect();
+    const banner = document.querySelector('.analytics-consent').getBoundingClientRect();
+    return {
+      separatedFromConsent: cta.right <= banner.left || cta.left >= banner.right
+        || cta.bottom <= banner.top || cta.top >= banner.bottom,
+      buttons: [...actions.querySelectorAll('a')].map((button) => {
+        const rect = button.getBoundingClientRect();
+        const hit = document.elementFromPoint(rect.left + rect.width / 2, rect.top + rect.height / 2);
+        return {
+          fullyInViewport: rect.width > 0 && rect.height > 0 && rect.left >= 0 && rect.top >= 0
+            && rect.right <= window.innerWidth && rect.bottom <= window.innerHeight,
+          centerClickable: button.contains(hit)
+        };
+      })
+    };
+  }), { message: 'Both primary choices must fit the first screen and remain clear of consent and floating controls' }).toEqual({
+    separatedFromConsent: true,
+    buttons: [
+      { fullyInViewport: true, centerClickable: true },
+      { fullyInViewport: true, centerClickable: true }
+    ]
+  });
+};
+
 test('homepage first-screen choices, catalog links and cookie controls work on phones', async ({ page }, testInfo) => {
   const errors = [];
   page.on('pageerror', (error) => errors.push(error.message));
@@ -12,9 +39,7 @@ test('homepage first-screen choices, catalog links and cookie controls work on p
   await noOverflow(page);
   const consent = page.locator('.analytics-consent');
   await expect(consent).toBeVisible();
-  const cta = await page.locator('.hero .actions').boundingBox();
-  const banner = await consent.boundingBox();
-  expect(cta.y + cta.height).toBeLessThan(banner.y);
+  await expectUnobstructedFirstScreenActions(page);
   await page.screenshot({ path: testInfo.outputPath('homepage-phone-first-screen.png') });
   await page.locator('[data-analytics-decline]').tap();
   await expect(consent).toBeHidden();
@@ -46,14 +71,12 @@ test('homepage first-screen choices, catalog links and cookie controls work on p
   expect(errors).toEqual([]);
 });
 
-test('desktop homepage keeps actions above consent and reports one safe event per click', async ({ page }, testInfo) => {
+test('desktop homepage keeps actions unobstructed and reports one safe event per click', async ({ page }, testInfo) => {
   test.skip(testInfo.project.name !== 'phone-390', 'One desktop run alongside the four phone widths');
   await page.setViewportSize({ width: 1180, height: 757 });
   await page.goto('/');
   await noOverflow(page);
-  const cta = await page.locator('.hero .actions').boundingBox();
-  const banner = await page.locator('.analytics-consent').boundingBox();
-  expect(cta.y + cta.height).toBeLessThan(banner.y);
+  await expectUnobstructedFirstScreenActions(page);
   expect((await page.locator('h1').boundingBox()).height).toBeLessThan(230);
   expect((await page.locator('#categories').boundingBox()).y).toBeLessThan(850);
   console.log('Homepage desktop geometry', await page.evaluate(() => ({ heading: document.querySelector('h1').getBoundingClientRect().toJSON(), actions: document.querySelector('.hero .actions').getBoundingClientRect().toJSON(), categories: document.querySelector('#categories').getBoundingClientRect().toJSON(), consent: document.querySelector('.analytics-consent').getBoundingClientRect().toJSON() })));

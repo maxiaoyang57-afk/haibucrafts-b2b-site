@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-28",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 2,
+  "batchCount": 1,
+  "currentBatchNumber": 24,
+  "newProductCount": 2,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW23959",
+      "title": "Glossy Animal Resin Miniatures",
+      "dimensions": "24 x 25 mm (axes and style mapping unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The supplier photo shows glossy colored animal miniatures, including upright-eared bunnies and other animal styles. The24x25mm size is not mapped to each pose or axis. Confirm selected colors, animal shapes and dimensions on a sample; no glow performance, movable parts or fixed mixture is promised.",
+      "procurementAdvice": "For bulk animal-themed craft sourcing, specify RW23959 and the animal shapes, colors, bag quantities and packing format you require. Review the sample finish and selected dimensions before approving any OEM packaging brief.",
+      "uses": "Arrange these small glossy animal shapes in a paper gift display or miniature craft scene. Choose the pictured bunny or another available style after sample confirmation, and compare the supplier size reference with your layout; props are not included.",
+      "key": "rw23959",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "glossy-animal-resin-miniatures",
+      "sourceFields": {
+        "sku": "RW23959",
+        "sku_raw": "MO-RW23959",
+        "title": "Luminous Easter Rabbits Resin Fairy Garden Accessories Glow at Night Miniatures Rabbit Desk Decoration Kawaii Home Decor DIY",
+        "material": "Resin",
+        "size": "24*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643628930",
+        "product_url": "https://www.alibaba.com/product-detail/Luminous-Easter-Rabbits-Resin-Fairy-Garden_1601643628930.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Luminous-Easter-Rabbits-Resin-Fairy-Garden_1601643628930.html",
+      "sourceProductId": "1601643628930",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7af75bcc8af84c36ad7f7f1ee755fb40A.jpg",
+      "sourceImageSha256": "010988a09d0ea1c3ff7d2480d84da0efea7d9dc1f6c726348df47d148fd90807",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 24,
+      "batchId": "20261028-monica-24",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The supplier photo shows glossy colored animal miniatures, including upright-eared bunnies and other animal styles. The24x25mm size is not mapped to each pose or axis. Confirm selected colors, animal shapes and dimensions on a sample; no glow performance, movable parts or fixed mixture is promised.",
+      "description": "Glossy Animal Resin Miniatures. RW23959 resin craft pieces. Compare shapes, supplier dimensions and reference packing for your DIY selection.",
+      "haibuDescription": "Glossy Animal Resin Miniatures. RW23959 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "metaTitle": "RW23959 Glossy Animal Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW23959 Glossy Animal Resin Miniatures Wholesale | HAIBU",
+      "caption": "Glossy Animal Resin Miniatures. Supplier size reference: 24 x 25 mm (axes and style mapping unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "SAME SKU RW23959 supplier reference. Independent square photorealistic miniature craft scene using ONLY pink bunny at UPPER CENTER: squat rounded glossy translucent pink resin body, two upright translucent pink ears, tiny black oval eyes, tiny pale pink muzzle, short molded front paws, small feet, exact reference facial features/proportions. Front view only. One bunny freely beside folded unprinted mint paper gift tag on pale peach craft tabletop, separate ivory ribbon offcut. Resin ornament, not living animal; no added fur, loops, holes, rear details, accessories/hardware. No simulated glow/luminous performance. Diffuse daylight; no logo/text/watermark/goldbadge/collage.",
+        "detailPrompt": "SAME SKU RW23959 source reference. Independent square close product photograph of ONE pink bunny from UPPER CENTER: identical squat translucent glossy pink round resin body, two upright pink translucent ears, tiny black oval eyes, tiny pale muzzle, molded forepaws/feet. Original visible front only, whole figure filling65% frame. Pale blue-gray background, soft studio reflections revealing glossy resin with no inventedtexture. No glow demonstration, fur, holes, loops, hardware, accessories, backside invention, text,logo,watermark,goldbadge,collage."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw23959/rw23959-1.jpg",
+        "assets/images/pdp/rw23959/rw23959-2.jpg",
+        "assets/images/pdp/rw23959/rw23959-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw23959/rw23959-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 62461,
+          "sha256": "6ba409220c28efef4cbbb7ec3643144a2f34388a4b2aaf8e8660b14b3c8c4478"
+        },
+        {
+          "path": "assets/images/pdp/rw23959/rw23959-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79845,
+          "sha256": "39d2f18533376e4d726db855f00088a9d564b09d2f27949eee1f679a17afef75"
+        },
+        {
+          "path": "assets/images/pdp/rw23959/rw23959-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 61578,
+          "sha256": "b7640dcb1c76adb7976d60cd70f9a00c79baba68d96aac41d0a2a8c2b8aa9ed4"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 62461,
+          "sha256": "6ba409220c28efef4cbbb7ec3643144a2f34388a4b2aaf8e8660b14b3c8c4478"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 79845,
+          "sha256": "39d2f18533376e4d726db855f00088a9d564b09d2f27949eee1f679a17afef75"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 61578,
+          "sha256": "b7640dcb1c76adb7976d60cd70f9a00c79baba68d96aac41d0a2a8c2b8aa9ed4"
+        }
+      ]
+    },
+    {
+      "sku": "RW26225",
+      "title": "Halloween Cookie Resin Cabochons",
+      "dimensions": "Approx. 20 mm (reference dimension; motif mapping unspecified)",
+      "packing": "100 pieces per bag",
+      "family": "Decorative",
+      "factNote": "The supplier photo shows golden-orange cookie-shaped resin decorations with pumpkin, bat, spiderweb, mummy, castle, ghost and character-like Halloween motifs. The approximate20mm reference is not assigned to each motif or axis. These are non-edible resin craft pieces. Confirm selected motifs and dimensions; no fixed assortment is promised.",
+      "procurementAdvice": "For bulk Halloween craft selections, specify RW26225 and the pumpkin or other pictured motifs, bag quantities and packing format you require. Approve the sample appearance and motif selection before discussing OEM packaging or an assortment brief.",
+      "uses": "Use the cookie-like pumpkin and Halloween shapes in paper gift displays, seasonal cards or decorative craft layouts. Check the selected motif dimensions and attachment method for your project; these resin pieces are not edible, and styling props are not included.",
+      "key": "rw26225",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "halloween-cookie-resin-cabochons",
+      "sourceFields": {
+        "sku": "RW26225",
+        "sku_raw": "MO- RW26225",
+        "title": "Halloween Resin Horror Series Cookie Pumpkin Castle Bat DIY Handmade Cream Gum Accessories Hair Clip Keychain Pendant",
+        "material": "Resin",
+        "size": "about20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827435211",
+        "product_url": "https://www.alibaba.com/product-detail/Halloween-Resin-Horror-Series-Cookie-Pumpkin_1601827435211.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Halloween-Resin-Horror-Series-Cookie-Pumpkin_1601827435211.html",
+      "sourceProductId": "1601827435211",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4a37dc22be904c70a545c5658c0fd54b5.jpg",
+      "sourceImageSha256": "5716aa1edb83aa42f891917c8718d3e4af013ed55a5766d64f43d8d69ebd0f17",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "type": "Decorative",
+      "factsUpdatedAt": "2026-10-28",
+      "batchNumber": 24,
+      "batchId": "20261028-monica-24",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "variantSizeNotes": "The supplier photo shows golden-orange cookie-shaped resin decorations with pumpkin, bat, spiderweb, mummy, castle, ghost and character-like Halloween motifs. The approximate20mm reference is not assigned to each motif or axis. These are non-edible resin craft pieces. Confirm selected motifs and dimensions; no fixed assortment is promised.",
+      "description": "Halloween Cookie Resin Cabochons. RW26225 resin craft pieces. Compare shapes, supplier dimensions and reference packing for your DIY selection.",
+      "haibuDescription": "Halloween Cookie Resin Cabochons. RW26225 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "metaTitle": "RW26225 Halloween Cookie Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW26225 Halloween Cookie Resin Cabochons Wholesale | HAIBU",
+      "caption": "Halloween Cookie Resin Cabochons. Supplier size reference: Approx. 20 mm (reference dimension; motif mapping unspecified). Reference packing: 100 pieces per bag.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "scenePrompt": "SAME SKU RW26225 supplier reference. Independent square realistic dry Halloween craft layout using ONLY orange jack-o-lantern biscuit-shaped resin piece at BOTTOM RIGHT of source. Exact flattened irregular rounded pumpkin contour, pebbled golden orange surface, small brown angled stem upper right, black triangular eyes and triangle nose, black broad jagged smiling mouth with orange teeth. Same top/front angle. One loose component beside blank charcoal paper gift box and folded kraft tag on muted rust-red tabletop, one separate dried leaf prop. Non-edible resin, not food; no holes,loop,hardware,reverse details/fixedattachment; no logo,text,watermark,goldbadge,collage/speccard.",
+        "detailPrompt": "SAME SKU RW26225 reference. Independent square close product detail photo ONLY bottom-right orange pumpkin biscuit-shaped resin cabochon. Entire piece, same top/front view, unchanged irregular round pumpkin outline; tiny brown angled stem upper right, golden orange pebbled resin face, exact black triangular eyes/nose and broad black zigzag smile with orange teeth. Visible detail only; no invented rear/hardware/holes/loops/newfaceparts. Pale ivory tabletop with desaturated teal backdrop, diffuse light. Resin craft decoration, not edible biscuit. No logo,text,watermark,goldbadge,glow,collage."
+      },
+      "qulaImages": [
+        "assets/images/pdp/rw26225/rw26225-1.jpg",
+        "assets/images/pdp/rw26225/rw26225-2.jpg",
+        "assets/images/pdp/rw26225/rw26225-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26225/rw26225-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 158365,
+          "sha256": "3877a028aed73e6ca33e6c7edb34503a4be9fed7effa55ab2923f80f6da28d88"
+        },
+        {
+          "path": "assets/images/pdp/rw26225/rw26225-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 183573,
+          "sha256": "f449085bfb424debc70bd1607a1fa7bf1908a2a7036d2db4bfed057a95677fc8"
+        },
+        {
+          "path": "assets/images/pdp/rw26225/rw26225-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142292,
+          "sha256": "b6e902b7054a5859ff21ebad3d7e93cf16fa204a8ab6746b5319e28499aad66a"
+        }
+      ],
+      "haibuImages": [
+        "assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 158365,
+          "sha256": "3877a028aed73e6ca33e6c7edb34503a4be9fed7effa55ab2923f80f6da28d88"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 183573,
+          "sha256": "f449085bfb424debc70bd1607a1fa7bf1908a2a7036d2db4bfed057a95677fc8"
+        },
+        {
+          "path": "assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 142292,
+          "sha256": "b6e902b7054a5859ff21ebad3d7e93cf16fa204a8ab6746b5319e28499aad66a"
+        }
+      ]
+    }
+  ]
+}

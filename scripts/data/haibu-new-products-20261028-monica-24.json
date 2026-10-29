@@ -1,0 +1,216 @@
+{
+  "batch": "haibu-new-products-20261028-monica-24",
+  "expectedSkuCount": 2,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261028-monica-24",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-29",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW23959",
+      "title": "Glossy Animal Resin Miniatures",
+      "originalTitle": "Luminous Easter Rabbits Resin Fairy Garden Accessories Glow at Night Miniatures Rabbit Desk Decoration Kawaii Home Decor DIY",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glossy Animal Resin Miniatures, product code RW23959",
+      "description": "For bulk animal-themed craft sourcing, specify RW23959 and the animal shapes, colors, bag quantities and packing format you require. Review the sample finish and selected dimensions before approving any OEM packaging brief.",
+      "detailedDescription": "Glossy Animal Resin Miniatures. Supplier size reference: 24 x 25 mm (axes and style mapping unspecified). Reference packing: 100 pieces per bag. For bulk animal-themed craft sourcing, specify RW23959 and the animal shapes, colors, bag quantities and packing format you require. Review the sample finish and selected dimensions before approving any OEM packaging brief. The supplier photo shows glossy colored animal miniatures, including upright-eared bunnies and other animal styles. The24x25mm size is not mapped to each pose or axis. Confirm selected colors, animal shapes and dimensions on a sample; no glow performance, movable parts or fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glossy Animal Resin Miniatures",
+        "Material: Resin",
+        "Dimensions: 24 x 25 mm (axes and style mapping unspecified)",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW23959",
+        "Material: Resin",
+        "Dimensions: 24 x 25 mm (axes and style mapping unspecified)",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The supplier photo shows glossy colored animal miniatures, including upright-eared bunnies and other animal styles. The24x25mm size is not mapped to each pose or axis. Confirm selected colors, animal shapes and dimensions on a sample; no glow performance, movable parts or fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "24 x 25 mm (axes and style mapping unspecified)",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW23959, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange these small glossy animal shapes in a paper gift display or miniature craft scene. Choose the pictured bunny or another available style after sample confirmation, and compare the supplier size reference with your layout; props are not included.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "glossy animal resin miniatures, wholesale craft components",
+      "metaTitle": "RW23959 Glossy Animal Resin Miniatures Wholesale | HAIBU",
+      "metaDescription": "Glossy Animal Resin Miniatures. RW23959 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "24 x 25 mm (axes and style mapping unspecified)",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW23959",
+        "sku_raw": "MO-RW23959",
+        "title": "Luminous Easter Rabbits Resin Fairy Garden Accessories Glow at Night Miniatures Rabbit Desk Decoration Kawaii Home Decor DIY",
+        "material": "Resin",
+        "size": "24*25mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601643628930",
+        "product_url": "https://www.alibaba.com/product-detail/Luminous-Easter-Rabbits-Resin-Fairy-Garden_1601643628930.html"
+      },
+      "sourceProductId": "1601643628930",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Luminous-Easter-Rabbits-Resin-Fairy-Garden_1601643628930.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw23959",
+      "assetDirectory": "batch-20261028-monica-24",
+      "imagePrefix": "rw23959-glossy-animal-resin-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-29",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26225",
+      "title": "Halloween Cookie Resin Cabochons",
+      "originalTitle": "Halloween Resin Horror Series Cookie Pumpkin Castle Bat DIY Handmade Cream Gum Accessories Hair Clip Keychain Pendant",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Halloween Cookie Resin Cabochons, product code RW26225",
+      "description": "For bulk Halloween craft selections, specify RW26225 and the pumpkin or other pictured motifs, bag quantities and packing format you require. Approve the sample appearance and motif selection before discussing OEM packaging or an assortment brief.",
+      "detailedDescription": "Halloween Cookie Resin Cabochons. Supplier size reference: Approx. 20 mm (reference dimension; motif mapping unspecified). Reference packing: 100 pieces per bag. For bulk Halloween craft selections, specify RW26225 and the pumpkin or other pictured motifs, bag quantities and packing format you require. Approve the sample appearance and motif selection before discussing OEM packaging or an assortment brief. The supplier photo shows golden-orange cookie-shaped resin decorations with pumpkin, bat, spiderweb, mummy, castle, ghost and character-like Halloween motifs. The approximate20mm reference is not assigned to each motif or axis. These are non-edible resin craft pieces. Confirm selected motifs and dimensions; no fixed assortment is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Halloween Cookie Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: Approx. 20 mm (reference dimension; motif mapping unspecified)",
+        "Reference pack: 100 pieces per bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26225",
+        "Material: Resin",
+        "Dimensions: Approx. 20 mm (reference dimension; motif mapping unspecified)",
+        "Reference pack: 100 pieces per bag",
+        "Attachment: Confirm the reverse surface and attachment method for your chosen craft base.",
+        "Selection: The supplier photo shows golden-orange cookie-shaped resin decorations with pumpkin, bat, spiderweb, mummy, castle, ghost and character-like Halloween motifs. The approximate20mm reference is not assigned to each motif or axis. These are non-edible resin craft pieces. Confirm selected motifs and dimensions; no fixed assortment is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 20 mm (reference dimension; motif mapping unspecified)",
+      "sourcePacking": "100 pieces per bag",
+      "customizationOptions": "For RW26225, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use the cookie-like pumpkin and Halloween shapes in paper gift displays, seasonal cards or decorative craft layouts. Check the selected motif dimensions and attachment method for your project; these resin pieces are not edible, and styling props are not included.",
+      "packagingMoq": "Reference packing: 100 pieces per bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "halloween cookie resin cabochons, wholesale craft components",
+      "metaTitle": "RW26225 Halloween Cookie Resin Cabochons Wholesale | HAIBU",
+      "metaDescription": "Halloween Cookie Resin Cabochons. RW26225 for bulk craft sourcing. Review dimensions and reference packing; discuss selection and OEM packaging.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 20 mm (reference dimension; motif mapping unspecified)",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces per bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "sku": "RW26225",
+        "sku_raw": "MO- RW26225",
+        "title": "Halloween Resin Horror Series Cookie Pumpkin Castle Bat DIY Handmade Cream Gum Accessories Hair Clip Keychain Pendant",
+        "material": "Resin",
+        "size": "about20mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827435211",
+        "product_url": "https://www.alibaba.com/product-detail/Halloween-Resin-Horror-Series-Cookie-Pumpkin_1601827435211.html"
+      },
+      "sourceProductId": "1601827435211",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Halloween-Resin-Horror-Series-Cookie-Pumpkin_1601827435211.html",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "assetKey": "rw26225",
+      "assetDirectory": "batch-20261028-monica-24",
+      "imagePrefix": "rw26225-halloween-cookie-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Application and detail illustrations are based on that reference. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-29",
+      "holeDescription": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

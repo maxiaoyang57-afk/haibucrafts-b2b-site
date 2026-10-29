@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 504,
+  "count": 506,
   "products": [
     {
       "sku": "YX3301",
@@ -1882,6 +1882,36 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26220-sprinkled-croissant-resin-miniatures/",
       "productionPath": "/products/resin-charms-for-slime/rw26220-sprinkled-croissant-resin-miniatures/"
+    },
+    {
+      "sku": "RW23959",
+      "title": "Glossy Animal Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261028-monica-24/rw23959/rw23959-glossy-animal-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw23959-glossy-animal-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw23959-glossy-animal-resin-miniatures/"
+    },
+    {
+      "sku": "RW26225",
+      "title": "Halloween Cookie Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261028-monica-24/rw26225/rw26225-halloween-cookie-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26225-halloween-cookie-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26225-halloween-cookie-resin-cabochons/"
     },
     {
       "sku": "RW26625",

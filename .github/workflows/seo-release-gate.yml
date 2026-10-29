@@ -14,7 +14,44 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  mobile-verification:
+    name: Mobile browser verification (${{ matrix.width }}px)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        width: [360, 375, 390, 414]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+
+      - name: Install mobile browser test runtime
+        run: |
+          npm install --no-save --package-lock=false @playwright/test@1.58.2
+          npx playwright install --with-deps chromium
+
+      - name: Verify mobile product galleries, search and quote prefills
+        run: npx playwright test --config playwright.config.mjs --project=phone-${{ matrix.width }} --reporter=list,json
+        env:
+          PLAYWRIGHT_JSON_OUTPUT_FILE: test-results/browser-report.json
+
+      - name: Upload mobile verification screenshots and traces
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: haibu-mobile-product-verification-${{ matrix.width }}
+          path: test-results/
+          retention-days: 7
+
+
   seo-release-gate:
+    needs: mobile-verification
     name: Test, build and audit production SEO
     runs-on: ubuntu-24.04
     timeout-minutes: 30
@@ -30,22 +67,6 @@ jobs:
 
       - name: Run test suite
         run: npm test
-
-      - name: Install mobile browser test runtime
-        run: |
-          npm install --no-save --package-lock=false @playwright/test@1.58.2
-          npx playwright install --with-deps chromium
-
-      - name: Verify mobile product galleries, search and quote prefills
-        run: npx playwright test --config playwright.config.mjs
-
-      - name: Upload mobile verification screenshots and traces
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: haibu-mobile-product-verification
-          path: test-results/
-          retention-days: 7
 
       - name: Build SEO source
         run: npm run build:v2-seo

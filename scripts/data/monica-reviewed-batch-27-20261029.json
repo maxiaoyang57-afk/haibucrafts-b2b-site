@@ -1,0 +1,2714 @@
+{
+  "date": "2026-10-29",
+  "sourceFile": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+  "sourceSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+  "batchSize": 20,
+  "batchCount": 1,
+  "currentBatchNumber": 27,
+  "newProductCount": 20,
+  "imageStandard": "Same-SKU original reference plus application and detail illustrations; width <=1000 px without upscaling, sRGB, JPEG quality 85, 72 DPI, EXIF removed.",
+  "ownerImageDecision": "Continue the approved main/application/detail gallery standard; no specification-card substitutes.",
+  "products": [
+    {
+      "sku": "RW002103",
+      "key": "rw002103",
+      "title": "Pastel Round Resin Cabochons",
+      "dimensions": "Approximately16mm; source does not specify axis",
+      "packing": "200pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pastel-round-resin-cabochons",
+      "factNote": "Supplier size reference: Approximately16mm; source does not specify axis. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: Approximately16mm; source does not specify axis. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW002103 glossy round resin cabochons for coordinated craft ranges and bulk component purchasing. Supplier reference size is approximately16mm and reference packing is200pieces per bag. Confirm color selection, quantity and packing requirements when requesting a quote; reference bag count is not MOQ.",
+      "uses": "Plan a pastel border or small decorative accent with RW002103 round resin cabochons. The smooth domed faces suit scrapbook and accessory layout ideas. Supplier reference size is approximately16mm, with200pieces per reference bag. Select colors and confirm project quantities before ordering.",
+      "description": "Pastel Round Resin Cabochons (RW002103) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Pastel Round Resin Cabochons (RW002103). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW002103",
+        "sku_raw": "MO-RW002103",
+        "title": "Colorful Round Flatback Resin Beads DIY Earrings Brooch Phone Case Jewelry Making Crafts Decorate Accessories",
+        "material": "Resin",
+        "size": "about16mm-",
+        "packaging": "200pcs/bag",
+        "status": "已上架",
+        "product_id": "62241115544",
+        "product_url": "https://www.alibaba.com/product-detail/Colorful-Round-Flatback-Resin-Beads-DIY_62241115544.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Round-Flatback-Resin-Beads-DIY_62241115544.html",
+      "sourceProductId": "62241115544",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H1e3ce15eff6147a7b817432c0c6627bcF.jpg",
+      "sourceImageSha256": "885b31af14a37a6efe3319826289aaa973b3e6c9d1cbc8c1ba31d03123b6a8d6",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW002103 Pastel Round Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW002103 Pastel Round Resin Cabochons | HAIBU",
+      "caption": "Pastel Round Resin Cabochons. Supplier size reference: Approximately16mm; source does not specify axis. Reference packing: 200pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Original product photo retained; independent scene and detail reviewed against same SKU for shape, solid no-hole faces, colors and resin gloss; no hardware invented."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw002103/rw002103-pastel-round-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw002103/rw002103-pastel-round-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw002103/rw002103-pastel-round-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw002103/rw002103-pastel-round-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86324,
+          "sha256": "d351aa19cf3533db6e42654e56031c3463a9bdec5d6723e7a544a87301ccda28"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw002103/rw002103-pastel-round-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 106387,
+          "sha256": "899af8dd360b840b90d3cc27ca6d04f30c7b898b1f57993da85227dd044152d4"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw002103/rw002103-pastel-round-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 77320,
+          "sha256": "8323febd2110bd37ca58236462c1b95480d7c0572c33841c2620e520579a8695"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw002103/rw002103-1.jpg",
+        "assets/images/pdp/rw002103/rw002103-2.jpg",
+        "assets/images/pdp/rw002103/rw002103-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw002103/rw002103-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 86324,
+          "sha256": "d351aa19cf3533db6e42654e56031c3463a9bdec5d6723e7a544a87301ccda28"
+        },
+        {
+          "path": "assets/images/pdp/rw002103/rw002103-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 106387,
+          "sha256": "899af8dd360b840b90d3cc27ca6d04f30c7b898b1f57993da85227dd044152d4"
+        },
+        {
+          "path": "assets/images/pdp/rw002103/rw002103-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 77320,
+          "sha256": "8323febd2110bd37ca58236462c1b95480d7c0572c33841c2620e520579a8695"
+        }
+      ]
+    },
+    {
+      "sku": "RW26454",
+      "key": "rw26454",
+      "title": "Double-Scoop Ice Cream Resin Miniatures",
+      "dimensions": "25×15mm; source axes unspecified",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "double-scoop-ice-cream-resin-miniatures",
+      "factNote": "Supplier size reference: 25×15mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 25×15mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Add RW26454 double-scoop ice cream resin miniatures to dessert-themed component selections. The supplier lists25×15mm and100pieces per reference bag. Compare visible color options and specify your preferred selection and packing requirements for a quotation; the reference bag count does not establish MOQ.",
+      "uses": "Use RW26454 ice cream resin miniatures to plan dessert-themed cards, scrapbook accents or miniature displays. The molded cones and textured double scoops bring a playful food motif. Supplier reference dimensions are25×15mm and reference packing is100pieces per bag. Confirm colors and quantities for your project.",
+      "description": "Double-Scoop Ice Cream Resin Miniatures (RW26454) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Double-Scoop Ice Cream Resin Miniatures (RW26454). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26454",
+        "sku_raw": "MO-RW26454",
+        "title": "Resin 3D Ice Cream Simulation Food Art Supply Embellishments Minitures Dollhouse Handicrafts Decoration",
+        "material": "Resin",
+        "size": "25*15mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601091690941",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-3D-Ice-Cream-Simulation-Food_1601091690941.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-3D-Ice-Cream-Simulation-Food_1601091690941.html",
+      "sourceProductId": "1601091690941",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4fa8b2b7b76a4015996230bb430112e3m.jpg",
+      "sourceImageSha256": "dad686967e629cb8e3cce4013751a5fbd01f71b7366c8d41e34c6d8a09ed34af",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26454 Double-Scoop Ice Cream Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26454 Double-Scoop Ice Cream Resin Miniatures | HAIBU",
+      "caption": "Double-Scoop Ice Cream Resin Miniatures. Supplier size reference: 25×15mm; source axes unspecified. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Original same-SKU source main preserved. Separate scene/detail inspected against original for two scoops, white/brown and blue/pink colorways, orange cone shape and visible molded texture. No holes, hooks, back views, magnets or additional toppings."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26454/rw26454-double-scoop-ice-cream-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26454/rw26454-double-scoop-ice-cream-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26454/rw26454-double-scoop-ice-cream-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26454/rw26454-double-scoop-ice-cream-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166216,
+          "sha256": "6088eec4b1ff40dd4e9bbcc482ec50a8ced56537910b09362053d0fc85e44fc0"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26454/rw26454-double-scoop-ice-cream-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 160200,
+          "sha256": "26cfbd93386378b8f08e0bc2b6088692414ab54de8d9cf8e15eaa64077481602"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26454/rw26454-double-scoop-ice-cream-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 115443,
+          "sha256": "c66c53c9aabe8b49849fba0e90cd120f82783fc5617e6c380d9ca40017805720"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26454/rw26454-1.jpg",
+        "assets/images/pdp/rw26454/rw26454-2.jpg",
+        "assets/images/pdp/rw26454/rw26454-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26454/rw26454-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 166216,
+          "sha256": "6088eec4b1ff40dd4e9bbcc482ec50a8ced56537910b09362053d0fc85e44fc0"
+        },
+        {
+          "path": "assets/images/pdp/rw26454/rw26454-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 160200,
+          "sha256": "26cfbd93386378b8f08e0bc2b6088692414ab54de8d9cf8e15eaa64077481602"
+        },
+        {
+          "path": "assets/images/pdp/rw26454/rw26454-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 115443,
+          "sha256": "c66c53c9aabe8b49849fba0e90cd120f82783fc5617e6c380d9ca40017805720"
+        }
+      ]
+    },
+    {
+      "sku": "RW26227",
+      "key": "rw26227",
+      "title": "Bread Bag Resin Miniatures",
+      "dimensions": "21×21×22mm; source axes unspecified",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "bread-bag-resin-miniatures",
+      "factNote": "Supplier size reference: 21×21×22mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 21×21×22mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26227 bread-bag resin miniatures for bakery-themed component ranges and coordinated bulk craft selections. The supplier reference lists21×21×22mm and100pieces per bag. Confirm the required colors, quantities and packing format with your quotation request; reference packing is not MOQ.",
+      "uses": "Build a small bakery-themed layout with RW26227 bread-bag resin miniatures. Their folded bag silhouette, bow and golden bread motif offer a playful accent for scrapbook and miniature display projects. Supplier reference dimensions are21×21×22mm, with100pieces per reference bag. Confirm the colors and quantity for your project.",
+      "description": "Bread Bag Resin Miniatures (RW26227) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Bread Bag Resin Miniatures (RW26227). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26227",
+        "sku_raw": "MO- RW26227",
+        "title": "Kawaii Simulation Food Art Supply Flatback Bread Bag Cookie Cabochon DIY Dollhouse Craft Decoration",
+        "material": "Resin",
+        "size": "21*21*22mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601827503017",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Food-Art-Supply-Flatback_1601827503017.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Food-Art-Supply-Flatback_1601827503017.html",
+      "sourceProductId": "1601827503017",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H630916d6896049f480457e1aceab63a1P.jpg",
+      "sourceImageSha256": "b44bcd2a189e544b291c31967cf3fef51f326761fce6bd72d722c10b56b44b39",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26227 Bread Bag Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26227 Bread Bag Resin Miniatures | HAIBU",
+      "caption": "Bread Bag Resin Miniatures. Supplier size reference: 21×21×22mm; source axes unspecified. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Main is original sameSKU image. Independent scene/detail visually compared: matching folded-top body, upper-left bow colors, central bread motif and Bread lettering; original fronts only. Props excluded; no invented attachments or back views."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26227/rw26227-bread-bag-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26227/rw26227-bread-bag-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26227/rw26227-bread-bag-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26227/rw26227-bread-bag-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 65419,
+          "sha256": "e322aad48180dcd44dd486b9f70c6516dd1ef0d4f9f6f5401455b2613247e2a5"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26227/rw26227-bread-bag-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 212329,
+          "sha256": "76d919e8057b1cf4c3e35a59f43a5915e718f7cd977f44b2083f1d99a2bd530c"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26227/rw26227-bread-bag-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 92591,
+          "sha256": "7a11b69c3c8e5202be7cb97b73788b44c45b2ffab32f1cec7e2135add68c84a3"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26227/rw26227-1.jpg",
+        "assets/images/pdp/rw26227/rw26227-2.jpg",
+        "assets/images/pdp/rw26227/rw26227-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26227/rw26227-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 65419,
+          "sha256": "e322aad48180dcd44dd486b9f70c6516dd1ef0d4f9f6f5401455b2613247e2a5"
+        },
+        {
+          "path": "assets/images/pdp/rw26227/rw26227-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 212329,
+          "sha256": "76d919e8057b1cf4c3e35a59f43a5915e718f7cd977f44b2083f1d99a2bd530c"
+        },
+        {
+          "path": "assets/images/pdp/rw26227/rw26227-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 92591,
+          "sha256": "7a11b69c3c8e5202be7cb97b73788b44c45b2ffab32f1cec7e2135add68c84a3"
+        }
+      ]
+    },
+    {
+      "sku": "RW26318",
+      "key": "rw26318",
+      "title": "Round Pink Pig Resin Miniatures",
+      "dimensions": "20–30mm; source axes and style-size mapping unspecified",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "round-pink-pig-resin-miniatures",
+      "factNote": "Supplier size reference: 20–30mm; source axes and style-size mapping unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 20–30mm; source axes and style-size mapping unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26318 pink pig resin miniatures for animal-themed component ranges and coordinated bulk craft selections. Supplier reference size is20–30mm and reference packing is100pieces per bag. Confirm the desired styles, quantities and packing format at quotation; no fixed assortment or style-size mapping is assumed.",
+      "uses": "Plan a playful animal-themed scrapbook or miniature display with RW26318 pink pig resin pieces. The round bodies, small ears and gentle pink colors add a soft decorative accent. Supplier reference size is20–30mm, with100pieces per reference bag. Confirm the selected styles and project quantity before ordering.",
+      "description": "Round Pink Pig Resin Miniatures (RW26318) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Round Pink Pig Resin Miniatures (RW26318). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26318",
+        "sku_raw": "MO-RW26318",
+        "title": "Cute Mini Piggy Ornament Cartoon Pig Figurine Micro Landscape Car Interior Home Desktop Decoration",
+        "material": "Resin",
+        "size": "20-30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601808156420",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Mini-Piggy-Ornament-Cartoon-Pig_1601808156420.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Mini-Piggy-Ornament-Cartoon-Pig_1601808156420.html",
+      "sourceProductId": "1601808156420",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H340b479e5ef747388021586b82459b59Q.jpg",
+      "sourceImageSha256": "d593c3a5f5f6d0b5263bb6ea601afeace532248e5d7461855303ff0905e8a42c",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26318 Round Pink Pig Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26318 Round Pink Pig Resin Miniatures | HAIBU",
+      "caption": "Round Pink Pig Resin Miniatures. Supplier size reference: 20–30mm; source axes and style-size mapping unspecified. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Original sameSKU main retained. Independent scene/detail compared to original single-pig visiblefront/top: roundpinkbody, small foldedears, doteyes, snout and feet preserved. No newback, tail, holes or hardware. Supplierstyles not a fixedmix."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26318/rw26318-round-pink-pig-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26318/rw26318-round-pink-pig-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26318/rw26318-round-pink-pig-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26318/rw26318-round-pink-pig-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112787,
+          "sha256": "1a029e5efad32c76002a04fc05542b82c06e9307f3ccf56092c43b74d6eeb690"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26318/rw26318-round-pink-pig-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95432,
+          "sha256": "87cb8eb3bcc63b621f966cbabdd89e5799af7d1a018e1f2c67c8e7697bff5e1a"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26318/rw26318-round-pink-pig-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 80036,
+          "sha256": "994b7c2d0693a79f467f4d0e71a6ebbcdaa3043916fd2276f6fc82c0c5ad2f46"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26318/rw26318-1.jpg",
+        "assets/images/pdp/rw26318/rw26318-2.jpg",
+        "assets/images/pdp/rw26318/rw26318-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26318/rw26318-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112787,
+          "sha256": "1a029e5efad32c76002a04fc05542b82c06e9307f3ccf56092c43b74d6eeb690"
+        },
+        {
+          "path": "assets/images/pdp/rw26318/rw26318-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95432,
+          "sha256": "87cb8eb3bcc63b621f966cbabdd89e5799af7d1a018e1f2c67c8e7697bff5e1a"
+        },
+        {
+          "path": "assets/images/pdp/rw26318/rw26318-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 80036,
+          "sha256": "994b7c2d0693a79f467f4d0e71a6ebbcdaa3043916fd2276f6fc82c0c5ad2f46"
+        }
+      ]
+    },
+    {
+      "sku": "RW26364",
+      "key": "rw26364",
+      "title": "Popcorn Tub Resin Miniatures",
+      "dimensions": "19×13mm; source axes unspecified",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "popcorn-tub-resin-miniatures",
+      "factNote": "Supplier size reference: 19×13mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 19×13mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Choose RW26364 popcorn-tub resin miniatures for cinema-themed component ranges and coordinated bulk craft selections. Supplier reference dimensions are19×13mm, with100pieces per reference bag. Confirm the selected tub prints, quantities and packing requirements at quotation; no fixed mix is assumed.",
+      "uses": "Add a miniature cinema motif to scrapbook layouts and small display projects with RW26364 resin popcorn tubs. Molded golden popcorn and printed tubs provide the visible decorative detail. Supplier reference size is19×13mm and reference packing is100pieces per bag. Confirm the styles and quantity needed for your project.",
+      "description": "Popcorn Tub Resin Miniatures (RW26364) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Popcorn Tub Resin Miniatures (RW26364). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26364",
+        "sku_raw": "MO-RW26364",
+        "title": "Mini Resin Popcorn Simulated Food Snack DIY Accessories for Keychain Doll House Kitchen Fridge Decor",
+        "material": "Resin",
+        "size": "19*13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806916270",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Resin-Popcorn-Simulated-Food-Snack_1601806916270.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Resin-Popcorn-Simulated-Food-Snack_1601806916270.html",
+      "sourceProductId": "1601806916270",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H6ebf9561aa2b4cc4b08b8ca55d101c71v.jpg",
+      "sourceImageSha256": "92554b6ced9d1bc0f7acc96d3c782daea777462c918dfdf273b9ec08dcd3dff3",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26364 Popcorn Tub Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26364 Popcorn Tub Resin Miniatures | HAIBU",
+      "caption": "Popcorn Tub Resin Miniatures. Supplier size reference: 19×13mm; source axes unspecified. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Originalmain retained. Existing approvedindependentscene reused byhash. Replacementdetail-v2 matches originalfront red/white stripes,yellowpartialPO lettering and moldedgoldenpopcorn. Earlierflower-printdetail rejected andexcluded. No inventedattachments,backs orfixedassortment."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26364/rw26364-popcorn-tub-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26364/rw26364-popcorn-tub-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26364/rw26364-popcorn-tub-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26364/rw26364-popcorn-tub-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 70332,
+          "sha256": "312417b734898a0092ece8e7d66d62945e0b5511f63c7c633a10c37e42b23745"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26364/rw26364-popcorn-tub-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98283,
+          "sha256": "d538f81e68f45782ae8d01d111fdbd79a36350dccc7b925653a10093dbd6361c"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26364/rw26364-popcorn-tub-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 91371,
+          "sha256": "e28f5da2faa4c3d4a6d9ae6cda5923bee6a300aab796f34e211029bd78d5e1c3"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26364/rw26364-1.jpg",
+        "assets/images/pdp/rw26364/rw26364-2.jpg",
+        "assets/images/pdp/rw26364/rw26364-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26364/rw26364-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 70332,
+          "sha256": "312417b734898a0092ece8e7d66d62945e0b5511f63c7c633a10c37e42b23745"
+        },
+        {
+          "path": "assets/images/pdp/rw26364/rw26364-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98283,
+          "sha256": "d538f81e68f45782ae8d01d111fdbd79a36350dccc7b925653a10093dbd6361c"
+        },
+        {
+          "path": "assets/images/pdp/rw26364/rw26364-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 91371,
+          "sha256": "e28f5da2faa4c3d4a6d9ae6cda5923bee6a300aab796f34e211029bd78d5e1c3"
+        }
+      ]
+    },
+    {
+      "sku": "RW25907",
+      "key": "rw25907",
+      "title": "Winter Penguin Resin Cabochons",
+      "dimensions": "24×29mm; source axes and style-size mapping unspecified",
+      "packing": "50pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "winter-penguin-resin-cabochons",
+      "factNote": "Supplier size reference: 24×29mm; source axes and style-size mapping unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 24×29mm; source axes and style-size mapping unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW25907 winter penguin resin cabochons for seasonal component ranges and coordinated bulk craft programs. The supplier reference lists24×29mm and50pieces per bag. Confirm selected styles, quantities and packing requirements at quotation; the source photo does not establish a fixed bag composition or MOQ.",
+      "uses": "Plan a winter-themed card, scrapbook accent or miniature scene with RW25907 resin penguin decorations. The source styles include cozy clothing and small winter motifs. Supplier reference size is24×29mm, with50pieces per reference bag. Confirm your preferred styles and project quantities before ordering.",
+      "description": "Winter Penguin Resin Cabochons (RW25907) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Winter Penguin Resin Cabochons (RW25907). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW25907",
+        "sku_raw": "MO-RW25907",
+        "title": "50Pcs Cartoon Resin Winter Penguin Flatback Cabochon Scrapbooking for Phone Decoration DIY Jewelry Craft Doll House Accessories",
+        "material": "Resin",
+        "size": "24*29mm-",
+        "packaging": "50pcs/bag",
+        "status": "已上架",
+        "product_id": "1601600418204",
+        "product_url": "https://www.alibaba.com/product-detail/50Pcs-Cartoon-Resin-Winter-Penguin-Flatback_1601600418204.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/50Pcs-Cartoon-Resin-Winter-Penguin-Flatback_1601600418204.html",
+      "sourceProductId": "1601600418204",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hf5579830d73f44228073fbb07fadd280t.jpg",
+      "sourceImageSha256": "4193baec3550a834d1cdc4d9ce154980c3f6a894011c22d3d4980bd7e1151cda",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW25907 Winter Penguin Resin Cabochons | Qula Craft",
+      "haibuMetaTitle": "RW25907 Winter Penguin Resin Cabochons | HAIBU",
+      "caption": "Winter Penguin Resin Cabochons. Supplier size reference: 24×29mm; source axes and style-size mapping unspecified. Reference packing: 50pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Originalmain retained; independent scene/detail match sourcegraytexturedcoat penguinwithorangecup and originalskiingpenguin/turquoisehat/accessories. Visiblefrontsonly; no newfeet, attachments, backviews orfixedmix. Main, scene anddetail threeuniqueimages."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw25907/rw25907-winter-penguin-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw25907/rw25907-winter-penguin-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw25907/rw25907-winter-penguin-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw25907/rw25907-winter-penguin-resin-cabochons-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118172,
+          "sha256": "b6db80e7ec876d2d38b14fa61312be4ccb25bfe715676c922e84d1f2134bf351"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw25907/rw25907-winter-penguin-resin-cabochons-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 116427,
+          "sha256": "7b971fb4b3b6627f4af880d57439f72cf916d43f020de509230978eb98c04d60"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw25907/rw25907-winter-penguin-resin-cabochons-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121401,
+          "sha256": "731913d593c4c5c4ff23b273adb1901614776348bf31f3ada50ff214a89dc2e1"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25907/rw25907-1.jpg",
+        "assets/images/pdp/rw25907/rw25907-2.jpg",
+        "assets/images/pdp/rw25907/rw25907-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25907/rw25907-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118172,
+          "sha256": "b6db80e7ec876d2d38b14fa61312be4ccb25bfe715676c922e84d1f2134bf351"
+        },
+        {
+          "path": "assets/images/pdp/rw25907/rw25907-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 116427,
+          "sha256": "7b971fb4b3b6627f4af880d57439f72cf916d43f020de509230978eb98c04d60"
+        },
+        {
+          "path": "assets/images/pdp/rw25907/rw25907-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121401,
+          "sha256": "731913d593c4c5c4ff23b273adb1901614776348bf31f3ada50ff214a89dc2e1"
+        }
+      ]
+    },
+    {
+      "sku": "RW26390",
+      "key": "rw26390",
+      "title": "Seated Panda Resin Miniatures",
+      "dimensions": "21×23mm; source axes unspecified",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "seated-panda-resin-miniatures",
+      "factNote": "Supplier size reference: 21×23mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 21×23mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26390 seated panda resin miniatures for coordinated animal-themed component ranges and bulk craft programs. Supplier reference dimensions are21×23mm and reference packing is100pieces per bag. Confirm the desired color and expression selections, quantities and packing format at quotation; the photo does not establish a fixed assortment.",
+      "uses": "Plan a playful animal-themed scrapbook or small decorative display with RW26390 panda resin miniatures. Their seated shapes, colored bib motifs and varied expressions offer options for coordinating a project. Supplier reference size is21×23mm, with100pieces per reference bag. Confirm styles and quantities before ordering.",
+      "description": "Seated Panda Resin Miniatures (RW26390) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Seated Panda Resin Miniatures (RW26390). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26390",
+        "sku_raw": "MO-RW26390",
+        "title": "Kawaii Resin Cute Sports Day Cartoon Panda Scrapbook Craft Diy Miniature Ornaments Accessories",
+        "material": "Resin",
+        "size": "21*23mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601820612655",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Resin-Cute-Sports-Day-Cartoon_1601820612655.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Resin-Cute-Sports-Day-Cartoon_1601820612655.html",
+      "sourceProductId": "1601820612655",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H8a738698581c4b6c959178ad67773298I.jpg",
+      "sourceImageSha256": "bc81c281167bb1202a298f6387c97736bbd080e2ecbf0ece8aaf97db30cf4ba0",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26390 Seated Panda Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26390 Seated Panda Resin Miniatures | HAIBU",
+      "caption": "Seated Panda Resin Miniatures. Supplier size reference: 21×23mm; source axes unspecified. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Original sameSKU main retained. Enlarged sourcefrontbottommiddlegreenbib verifies originalpinktongue, bowmotif, eyeexpression,pinkpawpads; generatedscene/detail match these sourcefeatures. Scenepinkbib matchesseparate sourcepose. No inventedattachment,backview orfixedmix."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26390/rw26390-seated-panda-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26390/rw26390-seated-panda-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26390/rw26390-seated-panda-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26390/rw26390-seated-panda-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 117349,
+          "sha256": "c4ca644e413206dda0f32fbd26ee7b03245fadfe20e2a0b698277790f078a790"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26390/rw26390-seated-panda-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 84207,
+          "sha256": "9c307e58364bf1ddefb0c0cad1b482eb2ef47a649dc4cadcbeb611d28a53c8fa"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26390/rw26390-seated-panda-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72352,
+          "sha256": "44fa45290a8238225e2307a98ff6f93af38e0e053bdb54bd3cfc34a4869e55e2"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26390/rw26390-1.jpg",
+        "assets/images/pdp/rw26390/rw26390-2.jpg",
+        "assets/images/pdp/rw26390/rw26390-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26390/rw26390-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 117349,
+          "sha256": "c4ca644e413206dda0f32fbd26ee7b03245fadfe20e2a0b698277790f078a790"
+        },
+        {
+          "path": "assets/images/pdp/rw26390/rw26390-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 84207,
+          "sha256": "9c307e58364bf1ddefb0c0cad1b482eb2ef47a649dc4cadcbeb611d28a53c8fa"
+        },
+        {
+          "path": "assets/images/pdp/rw26390/rw26390-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72352,
+          "sha256": "44fa45290a8238225e2307a98ff6f93af38e0e053bdb54bd3cfc34a4869e55e2"
+        }
+      ]
+    },
+    {
+      "sku": "RW26369",
+      "key": "rw26369",
+      "title": "Shell-Shaped Resin Miniatures",
+      "dimensions": "Approximately20×33mm; source axes unspecified",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "shell-shaped-resin-miniatures",
+      "factNote": "Supplier size reference: Approximately20×33mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: Approximately20×33mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26369 shell-shaped resin miniatures for coastal component ranges and coordinated bulk craft selections. Supplier reference dimensions areapproximately20×33mm and reference packing is100pieces per bag. Confirm the chosen styles, quantities and packing requirements at quotation; reference packing is not MOQ.",
+      "uses": "Plan a coastal-themed scrapbook or miniature display with RW26369 shell-shaped resin decorations. The visible blue center, white scalloped rim and pink outer surface offer a coordinated color accent. Supplier reference size isapproximately20×33mm, with100pieces per reference bag. Confirm selection and project quantity before ordering.",
+      "description": "Shell-Shaped Resin Miniatures (RW26369) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Shell-Shaped Resin Miniatures (RW26369). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26369",
+        "sku_raw": "MO-RW26369",
+        "title": "100pc Mini Ocean Shell Miniature Doll House Ornament Decoration Home Decor DIY Accessories",
+        "material": "Resin",
+        "size": "about20*33mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601807673553",
+        "product_url": "https://www.alibaba.com/product-detail/100pc-Mini-Ocean-Shell-Miniature-Doll_1601807673553.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pc-Mini-Ocean-Shell-Miniature-Doll_1601807673553.html",
+      "sourceProductId": "1601807673553",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/He55a6fc6a6ba4e228e19642119b014d3H.jpg",
+      "sourceImageSha256": "e5d6631cfc75d570d5fe6ed59d8afe221ccb76114d28e1752a7f72e6ac9665b7",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26369 Shell-Shaped Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26369 Shell-Shaped Resin Miniatures | HAIBU",
+      "caption": "Shell-Shaped Resin Miniatures. Supplier size reference: Approximately20×33mm; source axes unspecified. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Originalmain retained; sourcecloseupreview matches scallopedrim,radialribs,blue/white/pink colortransition, visibleopenrecess and originalmold. Independent scene/detail front/topviews, no addedhinge,pearl,hardware/back orfunctionclaims."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26369/rw26369-shell-shaped-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26369/rw26369-shell-shaped-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26369/rw26369-shell-shaped-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26369/rw26369-shell-shaped-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 100840,
+          "sha256": "027d0bb572f5a57f3c9392d3326f4bb9e8867bd0da40585d9e1f64bda73f634d"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26369/rw26369-shell-shaped-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 132928,
+          "sha256": "152db27d288fcff49f5fb4aaa3227465b0c6c825943fd26aea4f57c3735f9fba"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26369/rw26369-shell-shaped-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118628,
+          "sha256": "ca83c8c80e4f4e5a6ff4c7b4449bcd5a62c6041c4fea6ca1af69cb21394e0788"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26369/rw26369-1.jpg",
+        "assets/images/pdp/rw26369/rw26369-2.jpg",
+        "assets/images/pdp/rw26369/rw26369-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26369/rw26369-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 100840,
+          "sha256": "027d0bb572f5a57f3c9392d3326f4bb9e8867bd0da40585d9e1f64bda73f634d"
+        },
+        {
+          "path": "assets/images/pdp/rw26369/rw26369-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 132928,
+          "sha256": "152db27d288fcff49f5fb4aaa3227465b0c6c825943fd26aea4f57c3735f9fba"
+        },
+        {
+          "path": "assets/images/pdp/rw26369/rw26369-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 118628,
+          "sha256": "ca83c8c80e4f4e5a6ff4c7b4449bcd5a62c6041c4fea6ca1af69cb21394e0788"
+        }
+      ]
+    },
+    {
+      "sku": "RW26345",
+      "key": "rw26345",
+      "title": "Starfish Resin Miniatures",
+      "dimensions": "28×30mm; source axes unspecified",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "starfish-resin-miniatures",
+      "factNote": "Supplier size reference: 28×30mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 28×30mm; source axes unspecified. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26345 starfish resin miniatures for coordinated ocean-themed component ranges and bulk craft programs. Supplier reference dimensions are28×30mm and reference packing is100pieces per bag. Confirm color selection, quantities and packing requirements at quotation; no fixed assortment or MOQ is inferred from the reference bag.",
+      "uses": "Plan a seaside-themed scrapbook or small decorative display with RW26345 resin starfish. The five-arm shapes and textured colored fronts provide a coastal accent for craft layouts. Supplier reference size is28×30mm, with100pieces per reference bag. Confirm the desired colors and project quantity before ordering.",
+      "description": "Starfish Resin Miniatures (RW26345) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Starfish Resin Miniatures (RW26345). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26345",
+        "sku_raw": "MO-RW26345",
+        "title": "Starfish Resin Ornaments DIY Accessories Mermaid Cake Decoration Miniatures for Under the Sea Ocean Party Supplies",
+        "material": "Resin",
+        "size": "28*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806655863",
+        "product_url": "https://www.alibaba.com/product-detail/Starfish-Resin-Ornaments-DIY-Accessories-Mermaid_1601806655863.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Starfish-Resin-Ornaments-DIY-Accessories-Mermaid_1601806655863.html",
+      "sourceProductId": "1601806655863",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4720b32e39a74fc696daefd486637a20A.jpg",
+      "sourceImageSha256": "76382e7dfa6a09eb54506050e2e40d84a96f08d138980e4cfac76c47aa396c8e",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26345 Starfish Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26345 Starfish Resin Miniatures | HAIBU",
+      "caption": "Starfish Resin Miniatures. Supplier size reference: 28×30mm; source axes unspecified. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "OriginalsameSKU main retained. Originalbluefront closeupcomparedtoindependent scene/detail for fivearmoutline,roundedtips,raisedtexture,colorandresinfinish. Originalvisiblefronts only; no newholes/hardware/backview orfixedmix;propsexcluded."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26345/rw26345-starfish-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26345/rw26345-starfish-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26345/rw26345-starfish-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26345/rw26345-starfish-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52331,
+          "sha256": "6ff36a0afacdca05a4a4a6c8ff6e742190881221a012a255d91c1312b48d5e00"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26345/rw26345-starfish-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 145773,
+          "sha256": "b80324b04039c244dfeab32229212d46ac8e9e8940be5481cf9453c1b9ef5a7c"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26345/rw26345-starfish-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112484,
+          "sha256": "5a99c19f7a2fd00a9bc5066ebe322ec8069a83373fef7b9d26bbdd960050b328"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26345/rw26345-1.jpg",
+        "assets/images/pdp/rw26345/rw26345-2.jpg",
+        "assets/images/pdp/rw26345/rw26345-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26345/rw26345-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 52331,
+          "sha256": "6ff36a0afacdca05a4a4a6c8ff6e742190881221a012a255d91c1312b48d5e00"
+        },
+        {
+          "path": "assets/images/pdp/rw26345/rw26345-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 145773,
+          "sha256": "b80324b04039c244dfeab32229212d46ac8e9e8940be5481cf9453c1b9ef5a7c"
+        },
+        {
+          "path": "assets/images/pdp/rw26345/rw26345-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 112484,
+          "sha256": "5a99c19f7a2fd00a9bc5066ebe322ec8069a83373fef7b9d26bbdd960050b328"
+        }
+      ]
+    },
+    {
+      "sku": "RW26348",
+      "key": "rw26348",
+      "title": "Yellow Banana Resin Miniatures",
+      "dimensions": "38×18mm /31×14mm /20×10mm; source does not specify axes or size-to-style selection",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "yellow-banana-resin-miniatures",
+      "factNote": "Supplier size reference: 38×18mm /31×14mm /20×10mm; source does not specify axes or size-to-style selection. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 38×18mm /31×14mm /20×10mm; source does not specify axes or size-to-style selection. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Build fruit-themed component selections with RW26348 yellow banana resin miniatures. Supplier size references are38×18mm,31×14mm and20×10mm, with100pieces per bag as reference packing. Discuss the required size selection, quantities and packing for bulk programs; the source does not establish MOQ or a fixed mixture.",
+      "uses": "Add a curved yellow banana shape to miniature fruit displays and decorative DIY layouts with RW26348. The original photo shows a cream textured top and brown-tipped stalk. Compare the supplier size references38×18mm,31×14mm and20×10mm for your project and confirm the selection before ordering. Reference packing is100pieces per bag; styling dishes and other props are not included.",
+      "description": "Yellow Banana Resin Miniatures (RW26348) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Yellow Banana Resin Miniatures (RW26348). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26348",
+        "sku_raw": "MO-RW26348",
+        "title": "Sweet Fruit Banana Resin Cabochon Landscape Gardening DIY Miniature Dollhouse Desktop Small Ornament Decor Accessories",
+        "material": "Resin",
+        "size": "38*18mm- / 31*14mm- / 20*10mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601807669623",
+        "product_url": "https://www.alibaba.com/product-detail/Sweet-Fruit-Banana-Resin-Cabochon-Landscape_1601807669623.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Sweet-Fruit-Banana-Resin-Cabochon-Landscape_1601807669623.html",
+      "sourceProductId": "1601807669623",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7ab75acd09b34847b0620386ed4e0202u.jpg",
+      "sourceImageSha256": "186940400bb0c65eca50613741c6a9ca43bfd0d181c9a08cf10fb7c73d2d48c1",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26348 Yellow Banana Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26348 Yellow Banana Resin Miniatures | HAIBU",
+      "caption": "Yellow Banana Resin Miniatures. Supplier size reference: 38×18mm /31×14mm /20×10mm; source does not specify axes or size-to-style selection. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "SameSKU original main; scene and separate lavender macro visually match yellow curved body, cream textured top and short brown-tipped ends. No invented loops/back/accessories. Exact material Resin and sizes/100pcsbag from source; axes/selection unassigned; no MOQ or mix inference."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26348/rw26348-yellow-banana-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26348/rw26348-yellow-banana-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26348/rw26348-yellow-banana-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26348/rw26348-yellow-banana-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72623,
+          "sha256": "1eef92d29e0cb174cf680853f750a75ee8f28f6e25f24572133cf067337c2968"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26348/rw26348-yellow-banana-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109066,
+          "sha256": "5079722e1bcaa33723bd46b6639ca248b01accbba401376eb405bd7594dec4bb"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26348/rw26348-yellow-banana-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 51135,
+          "sha256": "42b93cf27bcd03a201937a03821c3923025ca745baec3a1df427acb8b3df846e"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26348/rw26348-1.jpg",
+        "assets/images/pdp/rw26348/rw26348-2.jpg",
+        "assets/images/pdp/rw26348/rw26348-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26348/rw26348-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 72623,
+          "sha256": "1eef92d29e0cb174cf680853f750a75ee8f28f6e25f24572133cf067337c2968"
+        },
+        {
+          "path": "assets/images/pdp/rw26348/rw26348-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 109066,
+          "sha256": "5079722e1bcaa33723bd46b6639ca248b01accbba401376eb405bd7594dec4bb"
+        },
+        {
+          "path": "assets/images/pdp/rw26348/rw26348-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 51135,
+          "sha256": "42b93cf27bcd03a201937a03821c3923025ca745baec3a1df427acb8b3df846e"
+        }
+      ]
+    },
+    {
+      "sku": "RW26342",
+      "key": "rw26342",
+      "title": "Glossy Cherry Resin Miniatures",
+      "dimensions": "20×60mm; source does not specify axes",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "glossy-cherry-resin-miniatures",
+      "factNote": "Supplier size reference: 20×60mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 20×60mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Choose RW26342 glossy cherry resin miniatures for fruit-themed decorative component ranges. Supplier reference dimensions are20×60mm and reference packing is100pieces per bag. Confirm red or burgundy color selection, quantity and packing requirements for a bulk order; no fixed color ratio or MOQ is specified by the packing reference.",
+      "uses": "Use RW26342 cherry resin miniatures as a bright accent in a decorative fruit display or craft composition. The original product photo shows round red and burgundy bodies with a single long green stem. Check the20×60mm supplier size reference against your layout and confirm colors at quotation. Reference packing is100pieces per bag. Cards, cloth and display risers in the generated scene are styling props only.",
+      "description": "Glossy Cherry Resin Miniatures (RW26342) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Glossy Cherry Resin Miniatures (RW26342). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26342",
+        "sku_raw": "MO-RW26342",
+        "title": "100Pcs Resin Cherry Artificial Fruit Model Simulation Cherry Ornament Craft Food Photography Props Party Decor Home Decoration",
+        "material": "Resin",
+        "size": "20*60mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806647023",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Resin-Cherry-Artificial-Fruit-Model_1601806647023.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Resin-Cherry-Artificial-Fruit-Model_1601806647023.html",
+      "sourceProductId": "1601806647023",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7d44fa62cd614cecb9f0c825e63c6e9dB.jpg",
+      "sourceImageSha256": "8f9a5ce00c38e0f8e1b4218a6ce7141f80074da3645e5278baf1f43558ce76aa",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26342 Glossy Cherry Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26342 Glossy Cherry Resin Miniatures | HAIBU",
+      "caption": "Glossy Cherry Resin Miniatures. Supplier size reference: 20×60mm; source does not specify axes. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "SameSKU original main; scene and independent macro reviewed for round red/burgundy resin body, long green single stem and recessed stem insertion. No added leaves/hooks/holes; visible source stem end texture retained. Real source Resin,20x60mm,100pcsbag; not MOQ."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26342/rw26342-glossy-cherry-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26342/rw26342-glossy-cherry-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26342/rw26342-glossy-cherry-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26342/rw26342-glossy-cherry-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 77523,
+          "sha256": "b9cb8d4b73987a6065c520c1ed5e2348fe7eb115e875f9c193edc9f4482cc0d6"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26342/rw26342-glossy-cherry-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 120797,
+          "sha256": "67e49be3f6053dbd7872f0b9c072f3fc02e081106c4180dc2cc943f17473f1b6"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26342/rw26342-glossy-cherry-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 48649,
+          "sha256": "ef548f12e1826ad25454573ea02cf09216f09fb0bdbab57cda8a0397fda2eeeb"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26342/rw26342-1.jpg",
+        "assets/images/pdp/rw26342/rw26342-2.jpg",
+        "assets/images/pdp/rw26342/rw26342-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26342/rw26342-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 77523,
+          "sha256": "b9cb8d4b73987a6065c520c1ed5e2348fe7eb115e875f9c193edc9f4482cc0d6"
+        },
+        {
+          "path": "assets/images/pdp/rw26342/rw26342-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 120797,
+          "sha256": "67e49be3f6053dbd7872f0b9c072f3fc02e081106c4180dc2cc943f17473f1b6"
+        },
+        {
+          "path": "assets/images/pdp/rw26342/rw26342-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 48649,
+          "sha256": "ef548f12e1826ad25454573ea02cf09216f09fb0bdbab57cda8a0397fda2eeeb"
+        }
+      ]
+    },
+    {
+      "sku": "RW26365",
+      "key": "rw26365",
+      "title": "Fluted Fruit Cake Resin Miniatures",
+      "dimensions": "14×19mm; source does not specify axes or style mapping",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "fluted-fruit-cake-resin-miniatures",
+      "factNote": "Supplier size reference: 14×19mm; source does not specify axes or style mapping. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 14×19mm; source does not specify axes or style mapping. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26365 fluted fruit cake resin miniatures for coordinated bakery-themed craft component programs. Supplier reference dimensions are14×19mm and reference packing is100pieces per bag. Confirm the required molded cake style, color selection, bulk quantity and packing before order; packing is not an MOQ and no fixed assortment is promised.",
+      "uses": "Create a miniature bakery layout with RW26365 fruit cake resin miniatures. The source photo shows fluted cake bodies with several molded topping designs, including strawberry and berry motifs. Compare the14×19mm supplier size reference with your display and confirm the style you need. Reference packing is100pieces per bag. These are decorative resin pieces; plates, cards and other scene props are not included.",
+      "description": "Fluted Fruit Cake Resin Miniatures (RW26365) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Fluted Fruit Cake Resin Miniatures (RW26365). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26365",
+        "sku_raw": "MO-RW26365",
+        "title": "1/6 Scale Miniature Doll House Fruit Cake DIY Pretend Play Kitchen Mini Food for Doll Accessories Toy",
+        "material": "Resin",
+        "size": "14*19mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806871625",
+        "product_url": "https://www.alibaba.com/product-detail/1-6-Scale-Miniature-Doll-House_1601806871625.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/1-6-Scale-Miniature-Doll-House_1601806871625.html",
+      "sourceProductId": "1601806871625",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hd987db66cb484d839b8261313e430263H.jpg",
+      "sourceImageSha256": "a50a427a92d02ab1997a31c8e2bfae45e408df56d8c22319ea1701656e046cb3",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26365 Fluted Fruit Cake Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26365 Fluted Fruit Cake Resin Miniatures | HAIBU",
+      "caption": "Fluted Fruit Cake Resin Miniatures. Supplier size reference: 14×19mm; source does not specify axes or style mapping. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "OriginalSKUmain kept; independent scene and detail match fluted chocolate/brown bodies and source toppings. White scalloped icing/red strawberry macro faithful; no new rings/holes/back. SourceResin14x19mm100pcsbag preserved, unspecifiedaxes/style mapping, no fixedmix or MOQ inferred."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26365/rw26365-fluted-fruit-cake-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26365/rw26365-fluted-fruit-cake-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26365/rw26365-fluted-fruit-cake-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26365/rw26365-fluted-fruit-cake-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139985,
+          "sha256": "65eb303b5575a8d1f8ddc1c37f48565137e1b11dfb144b6771848823ae1deb5c"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26365/rw26365-fluted-fruit-cake-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95137,
+          "sha256": "63f5eadb41facd4929be3fa93ca9229c290440b6e55bbf3216abd98053ff021a"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26365/rw26365-fluted-fruit-cake-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95268,
+          "sha256": "afe2bc5682300521622657710626192b5712e0ea3f452fa09818117f814cefca"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26365/rw26365-1.jpg",
+        "assets/images/pdp/rw26365/rw26365-2.jpg",
+        "assets/images/pdp/rw26365/rw26365-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26365/rw26365-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139985,
+          "sha256": "65eb303b5575a8d1f8ddc1c37f48565137e1b11dfb144b6771848823ae1deb5c"
+        },
+        {
+          "path": "assets/images/pdp/rw26365/rw26365-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95137,
+          "sha256": "63f5eadb41facd4929be3fa93ca9229c290440b6e55bbf3216abd98053ff021a"
+        },
+        {
+          "path": "assets/images/pdp/rw26365/rw26365-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 95268,
+          "sha256": "afe2bc5682300521622657710626192b5712e0ea3f452fa09818117f814cefca"
+        }
+      ]
+    },
+    {
+      "sku": "RW26352",
+      "key": "rw26352",
+      "title": "Strawberry Resin Miniatures",
+      "dimensions": "28×33mm /20×24mm; source does not specify axes or style mapping",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "strawberry-resin-miniatures",
+      "factNote": "Supplier size reference: 28×33mm /20×24mm; source does not specify axes or style mapping. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 28×33mm /20×24mm; source does not specify axes or style mapping. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Choose RW26352 strawberry resin miniatures for fruit-themed decorative component ranges and coordinated craft programs. Supplier size references are28×33mm and20×24mm, with100pieces per bag as reference packing. Confirm the required size, finish, color selection and packing at quotation; these facts do not define an MOQ or fixed mixture.",
+      "uses": "Build a fruit-themed decorative layout with RW26352 strawberry resin miniatures. The original image includes red, pink and pale styles with molded seed texture; the generated references focus on the visible red and pink pointed shapes. Compare the28×33mm and20×24mm supplier size references and confirm your selection. Reference packing is100pieces per bag; trays and other styling props are not included.",
+      "description": "Strawberry Resin Miniatures (RW26352) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Strawberry Resin Miniatures (RW26352). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26352",
+        "sku_raw": "MO-RW26352",
+        "title": "Strawberry Mini Simulation Cute Resin Model Doll House Miniature Kawaii Desk Home Decor Phone Case DIY Accessories",
+        "material": "Resin",
+        "size": "28*33mm- / 20*24mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601807651886",
+        "product_url": "https://www.alibaba.com/product-detail/Strawberry-Mini-Simulation-Cute-Resin-Model_1601807651886.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Strawberry-Mini-Simulation-Cute-Resin-Model_1601807651886.html",
+      "sourceProductId": "1601807651886",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Heb9c86ac44f945948c5670a44019ddcew.jpg",
+      "sourceImageSha256": "46a0fb7dd2dd03a2535e5b32d2435e2891284b090c22038977d486f4ba56cd9a",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26352 Strawberry Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26352 Strawberry Resin Miniatures | HAIBU",
+      "caption": "Strawberry Resin Miniatures. Supplier size reference: 28×33mm /20×24mm; source does not specify axes or style mapping. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "OriginalSKUmain retained, scene red/pink and independent pinkdetail match pointedbody, recessedseed texture, broad paintedgreen calyx/source moldededge. No addedstems/holes/metal/back. Resin28x33/20x24mm100pcsbag sourcefacts, no axes/stylemapping or fixedmix/MOQ inference."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26352/rw26352-strawberry-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26352/rw26352-strawberry-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26352/rw26352-strawberry-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26352/rw26352-strawberry-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 136767,
+          "sha256": "2e24b0c64789405b9f79d58a39ff9ae5f48ed312691d72772367c259f4d5f337"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26352/rw26352-strawberry-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 148931,
+          "sha256": "9253ada8dd046a48ffe09ddad37af1aff75fa593ac7811a2e61bd81f657cc73c"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26352/rw26352-strawberry-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 70844,
+          "sha256": "eea031ae81739742368728d725a40485ef07178965d145966abbd9f01968b228"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26352/rw26352-1.jpg",
+        "assets/images/pdp/rw26352/rw26352-2.jpg",
+        "assets/images/pdp/rw26352/rw26352-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26352/rw26352-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 136767,
+          "sha256": "2e24b0c64789405b9f79d58a39ff9ae5f48ed312691d72772367c259f4d5f337"
+        },
+        {
+          "path": "assets/images/pdp/rw26352/rw26352-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 148931,
+          "sha256": "9253ada8dd046a48ffe09ddad37af1aff75fa593ac7811a2e61bd81f657cc73c"
+        },
+        {
+          "path": "assets/images/pdp/rw26352/rw26352-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 70844,
+          "sha256": "eea031ae81739742368728d725a40485ef07178965d145966abbd9f01968b228"
+        }
+      ]
+    },
+    {
+      "sku": "RW26420",
+      "key": "rw26420",
+      "title": "Mini Fruit Tart Resin Decorations",
+      "dimensions": "13mm; source does not specify axis",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "mini-fruit-tart-resin-decorations",
+      "factNote": "Supplier size reference: 13mm; source does not specify axis. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 13mm; source does not specify axis. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26420 miniature fruit tart resin decorations for pastry-themed component ranges. The supplier gives a13mm size reference and100pieces per bag as reference packing. Confirm preferred crust and fruit colors, quantities and packing for bulk orders; the packing reference is not MOQ or a fixed assortment.",
+      "uses": "Combine RW26420 fruit tart resin miniatures with a small bakery-themed DIY display. The source photograph shows round crimped crusts and molded colored fruit clusters. Compare the13mm reference with your layout and confirm selection before ordering. Reference packing is100pieces per bag. The generated scene uses the verified five-lobed purple style; dish and other props are not included.",
+      "description": "Mini Fruit Tart Resin Decorations (RW26420) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Mini Fruit Tart Resin Decorations (RW26420). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26420",
+        "sku_raw": "MO-RW26420",
+        "title": "Cute Mini Fruit Strawberry Blueberry Egg Tart DIY Dollhouse Toys Ornaments",
+        "material": "Resin",
+        "size": "13mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601791429667",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Mini-Fruit-Strawberry-Blueberry-Egg_1601791429667.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Mini-Fruit-Strawberry-Blueberry-Egg_1601791429667.html",
+      "sourceProductId": "1601791429667",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H382b8d0b5d1240ea88c1a159cb5e034fQ.jpg",
+      "sourceImageSha256": "062bc2706b383158e378df2f9b32e1e1ca50c1e25f4818c6f26ed39531396137",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26420 Mini Fruit Tart Resin Decorations | Qula Craft",
+      "haibuMetaTitle": "RW26420 Mini Fruit Tart Resin Decorations | HAIBU",
+      "caption": "Mini Fruit Tart Resin Decorations. Supplier size reference: 13mm; source does not specify axis. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "OriginalSKUmain; prior scene greenfruit4vs5 mismatch rejected. Newscenev2 shows ONLY original five-purple-lobedring tarts, reviewed bothpieces. Approveddetailv2 reused. Resin13mm100pcsbag noMOQ/assortment claim."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26420/rw26420-mini-fruit-tart-resin-decorations-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26420/rw26420-mini-fruit-tart-resin-decorations-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26420/rw26420-mini-fruit-tart-resin-decorations-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26420/rw26420-mini-fruit-tart-resin-decorations-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 147473,
+          "sha256": "e538342de9c313b2d05f472bb30b04e480f2b74fe8a1c39e6353e2e12a2cc164"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26420/rw26420-mini-fruit-tart-resin-decorations-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 175897,
+          "sha256": "2dd6233ed6bee5551a9f96e57a0fac35299dbe4c6ead079c550037ce002737a4"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26420/rw26420-mini-fruit-tart-resin-decorations-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98541,
+          "sha256": "24674ade6a6c24a873424a51d90f7b0315f63adcb5ded21af5500720cb881041"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26420/rw26420-1.jpg",
+        "assets/images/pdp/rw26420/rw26420-2.jpg",
+        "assets/images/pdp/rw26420/rw26420-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26420/rw26420-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 147473,
+          "sha256": "e538342de9c313b2d05f472bb30b04e480f2b74fe8a1c39e6353e2e12a2cc164"
+        },
+        {
+          "path": "assets/images/pdp/rw26420/rw26420-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 175897,
+          "sha256": "2dd6233ed6bee5551a9f96e57a0fac35299dbe4c6ead079c550037ce002737a4"
+        },
+        {
+          "path": "assets/images/pdp/rw26420/rw26420-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 98541,
+          "sha256": "24674ade6a6c24a873424a51d90f7b0315f63adcb5ded21af5500720cb881041"
+        }
+      ]
+    },
+    {
+      "sku": "RW5808",
+      "key": "rw5808",
+      "title": "Two-Egg Nest Resin Miniatures",
+      "dimensions": "15×30×30mm; source does not specify axes",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "two-egg-nest-resin-miniatures",
+      "factNote": "Supplier size reference: 15×30×30mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 15×30×30mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Source RW5808 two-egg nest resin miniatures for coordinated nature-themed decorative component programs. Supplier reference dimensions are15×30×30mm, with100pieces per bag as reference packing. Confirm quantities, color selection and packing at quotation; this reference does not establish an MOQ.",
+      "uses": "Add a small nest motif to a decorative spring or nature-themed DIY display with RW5808. The original photograph shows a taupe molded nest surrounding two cream egg shapes. Check the15×30×30mm supplier reference against your layout. Reference packing is100pieces per bag; cards, linen and branches in the generated scene are styling props only.",
+      "description": "Two-Egg Nest Resin Miniatures (RW5808) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Two-Egg Nest Resin Miniatures (RW5808). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW5808",
+        "sku_raw": "MO-RW5808",
+        "title": "New 1/12 Scale Doll House Miniature Egg Basket Kitchen Model Toys for Doll Accessories",
+        "material": "Resin",
+        "size": "15*30*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792670060",
+        "product_url": "https://www.alibaba.com/product-detail/New-1-12-Scale-Doll-House_1601792670060.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-1-12-Scale-Doll-House_1601792670060.html",
+      "sourceProductId": "1601792670060",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H373e633656de416e83ba002954b118cbL.jpg",
+      "sourceImageSha256": "35085667e2915e498650fbf4bfe3637ea34781b5c6b4327c2e378f004ded6110",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW5808 Two-Egg Nest Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW5808 Two-Egg Nest Resin Miniatures | HAIBU",
+      "caption": "Two-Egg Nest Resin Miniatures. Supplier size reference: 15×30×30mm; source does not specify axes. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "Original sameSKUmain and separate scene/detail visually match circular taupe resin molded strands, two cream touching oval eggs and slightsurface speckles. No extraeggs/handles/birds/attachments. Real materialResin,size15x30x30,100pcsbag; notMOQ."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw5808/rw5808-two-egg-nest-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw5808/rw5808-two-egg-nest-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw5808/rw5808-two-egg-nest-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw5808/rw5808-two-egg-nest-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 60310,
+          "sha256": "c785436cfd0c827c5b71f8ddfbdf81df283dd2c2014a28ffe462fa1bb8426a3a"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw5808/rw5808-two-egg-nest-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 193362,
+          "sha256": "ab2c6e41ac4eb2ca8de9bdb020182a1cf2c5f0edf2d8baefab1f81d290cff837"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw5808/rw5808-two-egg-nest-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 125260,
+          "sha256": "47cecbe5bd41b08e15ec73a5ddfaa5eedb93e1206a96f0603372bdcb7f9709ab"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw5808/rw5808-1.jpg",
+        "assets/images/pdp/rw5808/rw5808-2.jpg",
+        "assets/images/pdp/rw5808/rw5808-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw5808/rw5808-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 60310,
+          "sha256": "c785436cfd0c827c5b71f8ddfbdf81df283dd2c2014a28ffe462fa1bb8426a3a"
+        },
+        {
+          "path": "assets/images/pdp/rw5808/rw5808-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 193362,
+          "sha256": "ab2c6e41ac4eb2ca8de9bdb020182a1cf2c5f0edf2d8baefab1f81d290cff837"
+        },
+        {
+          "path": "assets/images/pdp/rw5808/rw5808-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 125260,
+          "sha256": "47cecbe5bd41b08e15ec73a5ddfaa5eedb93e1206a96f0603372bdcb7f9709ab"
+        }
+      ]
+    },
+    {
+      "sku": "RW26414",
+      "key": "rw26414",
+      "title": "Pink Spotted Ray Resin Miniatures",
+      "dimensions": "37×26mm; source does not specify axes",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pink-spotted-ray-resin-miniatures",
+      "factNote": "Supplier size reference: 37×26mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 37×26mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Choose RW26414 pink spotted ray resin miniatures for ocean-themed craft component selections and bulk decorative programs. Supplier reference dimensions are37×26mm and reference packing is100pieces per bag. Discuss the required quantities and packing; do not treat this packing reference as MOQ.",
+      "uses": "Use RW26414 pink ray resin miniatures to coordinate a sea-themed photo-frame or decorative DIY layout. The source image shows broad wings, white dots, two black eyes and a short raised rear tail. Compare the37×26mm reference with your project and confirm the selection. Reference packing is100pieces per bag. Frame and paper props are not included.",
+      "description": "Pink Spotted Ray Resin Miniatures (RW26414) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Pink Spotted Ray Resin Miniatures (RW26414). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26414",
+        "sku_raw": "MO-RW26414",
+        "title": "Kawaii Fish Figurine Resin Simulation Ocean Animals Model Diy Home Decor Dollhouse Accessories",
+        "material": "Resin",
+        "size": "37*26mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601791551096",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Fish-Figurine-Resin-Simulation-Ocean_1601791551096.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Fish-Figurine-Resin-Simulation-Ocean_1601791551096.html",
+      "sourceProductId": "1601791551096",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hdf73e89b8b9546d79456fe2929188702M.jpg",
+      "sourceImageSha256": "5683bf44d6ad81e1d1aa0bcf29d181deaaf763db27cdc8e0526c0a1efe53c508",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26414 Pink Spotted Ray Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26414 Pink Spotted Ray Resin Miniatures | HAIBU",
+      "caption": "Pink Spotted Ray Resin Miniatures. Supplier size reference: 37×26mm; source does not specify axes. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "SameSKUmain; scene/detail front silhouettes, polkadots, twoeyes, shortrear tail matchsource. Enlargedsource face confirms faint moldedcurved mouth is present, so generatedfaintmouth notinvented. No extrafins/holes/attachments/reverse. Resin37x26mm100pcsbag sourcefacts."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26414/rw26414-pink-spotted-ray-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26414/rw26414-pink-spotted-ray-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26414/rw26414-pink-spotted-ray-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26414/rw26414-pink-spotted-ray-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 119818,
+          "sha256": "fe7e5e91d60a939afdc2573ed644ef7694080a14b08d39ed727351460e2af6f7"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26414/rw26414-pink-spotted-ray-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 96147,
+          "sha256": "8b0e0579b301a7621033e98808874909c055c96640602d16376ad16f53a51a36"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26414/rw26414-pink-spotted-ray-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 60575,
+          "sha256": "a45c5174cd409b4c5dc917147fd6d1f0a9f9c59c1f65ed8ba3957b12fffe8067"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26414/rw26414-1.jpg",
+        "assets/images/pdp/rw26414/rw26414-2.jpg",
+        "assets/images/pdp/rw26414/rw26414-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26414/rw26414-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 119818,
+          "sha256": "fe7e5e91d60a939afdc2573ed644ef7694080a14b08d39ed727351460e2af6f7"
+        },
+        {
+          "path": "assets/images/pdp/rw26414/rw26414-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 96147,
+          "sha256": "8b0e0579b301a7621033e98808874909c055c96640602d16376ad16f53a51a36"
+        },
+        {
+          "path": "assets/images/pdp/rw26414/rw26414-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 60575,
+          "sha256": "a45c5174cd409b4c5dc917147fd6d1f0a9f9c59c1f65ed8ba3957b12fffe8067"
+        }
+      ]
+    },
+    {
+      "sku": "RW26355",
+      "key": "rw26355",
+      "title": "Woodgrain Handled Tray Resin Miniatures",
+      "dimensions": "40×35×30mm; source does not specify axes",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "woodgrain-handled-tray-resin-miniatures",
+      "factNote": "Supplier size reference: 40×35×30mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 40×35×30mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26355 woodgrain handled tray resin miniatures for coordinated decorative craft component programs. Supplier reference dimensions are 40×35×30mm, with100pieces per bag as reference packing. Confirm the required color selection, quantity and packing for bulk orders; the packing reference does not establish MOQ or a fixed assortment.",
+      "uses": "Coordinate a miniature desk or decorative room display with RW26355. The original product photo shows a shallow rectangular tray, molded woodgrain and a raised crossbar handle. Compare the supplier reference dimensions 40×35×30mm with your project and confirm your selection. Reference packing is100pieces per bag. Generated scene/detail images are reference illustrations; styling props are not included.",
+      "description": "Woodgrain Handled Tray Resin Miniatures (RW26355) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Woodgrain Handled Tray Resin Miniatures (RW26355). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26355",
+        "sku_raw": "MO-RW26355",
+        "title": "Miniature Tray Clamp Frame Resin Furniture Model Dollhouse DIY Decoration Accessories Micro Landscape Miniature Scene",
+        "material": "Resin",
+        "size": "40*35*30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601807722401",
+        "product_url": "https://www.alibaba.com/product-detail/Miniature-Tray-Clamp-Frame-Resin-Furniture_1601807722401.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Tray-Clamp-Frame-Resin-Furniture_1601807722401.html",
+      "sourceProductId": "1601807722401",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7326f86468cc411cb3eecc3bf3535275x.jpg",
+      "sourceImageSha256": "cb2b93b99fad2dff558c7463b6f37c3b7d9da06abef033971663bd7dd28096e9",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26355 Woodgrain Handled Tray Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26355 Woodgrain Handled Tray Resin Miniatures | HAIBU",
+      "caption": "Woodgrain Handled Tray Resin Miniatures. Supplier size reference: 40×35×30mm; source does not specify axes. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "OriginalsameSKUmain, separate generated scene/detail visually reviewed with original for shallow rectangular tray, molded woodgrain and a raised crossbar handle. MaterialResin real source, exactdimensions and100pcsbag retained. No holes/back/hardware/performance invented. RW26431 enlargedsource confirms five yellow marks, three white flowers, printedkeygroups preserved; RW26355 moldedgrain/handle geometry matches, nohardware."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26355/rw26355-woodgrain-handled-tray-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26355/rw26355-woodgrain-handled-tray-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26355/rw26355-woodgrain-handled-tray-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26355/rw26355-woodgrain-handled-tray-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 135718,
+          "sha256": "0bc2d3dd4b90952eaa0a437a325519a6207a0c765b4afc62d117715ce0ed804a"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26355/rw26355-woodgrain-handled-tray-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 126127,
+          "sha256": "85e6c33952250418a044e21d54e73bc0f676b1e8fd422c6e7475c23cfd62c5a2"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26355/rw26355-woodgrain-handled-tray-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 96280,
+          "sha256": "397890203fa65262cec9b159d30b7c559c3fccf564460361fc5154c52db8402b"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26355/rw26355-1.jpg",
+        "assets/images/pdp/rw26355/rw26355-2.jpg",
+        "assets/images/pdp/rw26355/rw26355-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26355/rw26355-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 135718,
+          "sha256": "0bc2d3dd4b90952eaa0a437a325519a6207a0c765b4afc62d117715ce0ed804a"
+        },
+        {
+          "path": "assets/images/pdp/rw26355/rw26355-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 126127,
+          "sha256": "85e6c33952250418a044e21d54e73bc0f676b1e8fd422c6e7475c23cfd62c5a2"
+        },
+        {
+          "path": "assets/images/pdp/rw26355/rw26355-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 96280,
+          "sha256": "397890203fa65262cec9b159d30b7c559c3fccf564460361fc5154c52db8402b"
+        }
+      ]
+    },
+    {
+      "sku": "RW26431",
+      "key": "rw26431",
+      "title": "Strawberry Piano Resin Miniatures",
+      "dimensions": "21×23×11mm; source does not specify axes",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "strawberry-piano-resin-miniatures",
+      "factNote": "Supplier size reference: 21×23×11mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 21×23×11mm; source does not specify axes. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26431 strawberry piano resin miniatures for coordinated decorative craft component programs. Supplier reference dimensions are 21×23×11mm, with100pieces per bag as reference packing. Confirm the required color selection, quantity and packing for bulk orders; the packing reference does not establish MOQ or a fixed assortment.",
+      "uses": "Coordinate a music-themed or miniature bakery DIY layout with RW26431. The original product photo shows a yellow scalloped base, miniature printed keyboard, pastel top, bow and strawberry motifs. Compare the supplier reference dimensions 21×23×11mm with your project and confirm your selection. Reference packing is100pieces per bag. Generated scene/detail images are reference illustrations; styling props are not included.",
+      "description": "Strawberry Piano Resin Miniatures (RW26431) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Strawberry Piano Resin Miniatures (RW26431). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26431",
+        "sku_raw": "MO-RW26431",
+        "title": "Cute Simulation Strawberry Piano Resin Flatback Cabochon Scrapbooking DIY Phone Case Decoration Home Accessories Crafts",
+        "material": "Resin",
+        "size": "21*23*11mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792608799",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-Simulation-Strawberry-Piano-Resin-Flatback_1601792608799.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Simulation-Strawberry-Piano-Resin-Flatback_1601792608799.html",
+      "sourceProductId": "1601792608799",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H8fc4c2fffa5747e4b09590b515be68daO.jpg",
+      "sourceImageSha256": "6b12545b661cb0e87aa720e334319e34917f5ca127f319475155f05c6afb7ae4",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26431 Strawberry Piano Resin Miniatures | Qula Craft",
+      "haibuMetaTitle": "RW26431 Strawberry Piano Resin Miniatures | HAIBU",
+      "caption": "Strawberry Piano Resin Miniatures. Supplier size reference: 21×23×11mm; source does not specify axes. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "OriginalsameSKUmain, separate generated scene/detail visually reviewed with original for yellow scalloped base, miniature printed keyboard, pastel top, bow and strawberry motifs. MaterialResin real source, exactdimensions and100pcsbag retained. No holes/back/hardware/performance invented. RW26431 enlargedsource confirms five yellow marks, three white flowers, printedkeygroups preserved; RW26355 moldedgrain/handle geometry matches, nohardware."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26431/rw26431-strawberry-piano-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26431/rw26431-strawberry-piano-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26431/rw26431-strawberry-piano-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26431/rw26431-strawberry-piano-resin-miniatures-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 110022,
+          "sha256": "434811d411a9d4197a816951fd8263f68915bddf68c1838a41f49b74277f9952"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26431/rw26431-strawberry-piano-resin-miniatures-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 105981,
+          "sha256": "1c17e038a55831addb7b923dac03bb53f3def549fd177eb8a01f3f7c5a980604"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26431/rw26431-strawberry-piano-resin-miniatures-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 90710,
+          "sha256": "477705443ee96e366b059226f9699fbb089d9fd9d2cac079dc95a82fecb18aa0"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26431/rw26431-1.jpg",
+        "assets/images/pdp/rw26431/rw26431-2.jpg",
+        "assets/images/pdp/rw26431/rw26431-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26431/rw26431-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 110022,
+          "sha256": "434811d411a9d4197a816951fd8263f68915bddf68c1838a41f49b74277f9952"
+        },
+        {
+          "path": "assets/images/pdp/rw26431/rw26431-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 105981,
+          "sha256": "1c17e038a55831addb7b923dac03bb53f3def549fd177eb8a01f3f7c5a980604"
+        },
+        {
+          "path": "assets/images/pdp/rw26431/rw26431-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 90710,
+          "sha256": "477705443ee96e366b059226f9699fbb089d9fd9d2cac079dc95a82fecb18aa0"
+        }
+      ]
+    },
+    {
+      "sku": "RW26429",
+      "key": "rw26429",
+      "title": "Bread-Shaped Resin Decorations",
+      "dimensions": "Approximately30mm; source does not specify axis or style mapping",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "bread-shaped-resin-decorations",
+      "factNote": "Supplier size reference: Approximately30mm; source does not specify axis or style mapping. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: Approximately30mm; source does not specify axis or style mapping. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26429 bread-shaped resin decorations for coordinated decorative component programs. Supplier size reference is Approximately30mm, with100pieces per bag as reference packing. Confirm the required style and color selection, quantities and packing for bulk orders; reference packing is not MOQ and no fixed mixture is established.",
+      "uses": "Coordinate a miniature bakery craft layout with RW26429. The original photograph shows a variety of bread shapes; generated references feature the original heart-shaped pretzel style. Compare the supplier size reference Approximately30mm with your project and confirm selection before ordering. Reference packing is100pieces per bag. Generated scene/detail images are reference illustrations; styling props are not included.",
+      "description": "Bread-Shaped Resin Decorations (RW26429) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Bread-Shaped Resin Decorations (RW26429). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26429",
+        "sku_raw": "MO-RW26429",
+        "title": "100pcs Bread Croissant Cartoon Resin Flatback Diy Decode Phone Case Charms Handmade Resin Accessories",
+        "material": "Resin",
+        "size": "about30mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601792574943",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Bread-Croissant-Cartoon-Resin-Flatback_1601792574943.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Bread-Croissant-Cartoon-Resin-Flatback_1601792574943.html",
+      "sourceProductId": "1601792574943",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hbf3b2e2d6c064f5a97e0ee159dc6ad31v.jpg",
+      "sourceImageSha256": "a5b22c6fa263191bfb7e0605c680a8ee3c16b1e120d4805fc4724ee894e83a6e",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26429 Bread-Shaped Resin Decorations | Qula Craft",
+      "haibuMetaTitle": "RW26429 Bread-Shaped Resin Decorations | HAIBU",
+      "caption": "Bread-Shaped Resin Decorations. Supplier size reference: Approximately30mm; source does not specify axis or style mapping. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "SameSKUoriginalmain with mixedbreadshapes; independent scene/detail use original heartshapedpretzel with twoopenings andcentertwist. No extraattachedholes,toppings,faces. Resinabout30mm100pcsbag actualsource. No fixedassortment promised."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26429/rw26429-bread-shaped-resin-decorations-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26429/rw26429-bread-shaped-resin-decorations-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26429/rw26429-bread-shaped-resin-decorations-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26429/rw26429-bread-shaped-resin-decorations-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121637,
+          "sha256": "114682340197d56801d01b697004d5a48fd625a12d81e4ffe55045a88cb93d71"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26429/rw26429-bread-shaped-resin-decorations-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 119157,
+          "sha256": "b6700774cab3a13946eed963a9b0af77bba88b57e7eed39e72eb5baecf721498"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26429/rw26429-bread-shaped-resin-decorations-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139477,
+          "sha256": "8bb08f6da945235adc4ed4d29e5e30e73385187ac5a9d884b6470936ea973472"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26429/rw26429-1.jpg",
+        "assets/images/pdp/rw26429/rw26429-2.jpg",
+        "assets/images/pdp/rw26429/rw26429-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26429/rw26429-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 121637,
+          "sha256": "114682340197d56801d01b697004d5a48fd625a12d81e4ffe55045a88cb93d71"
+        },
+        {
+          "path": "assets/images/pdp/rw26429/rw26429-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 119157,
+          "sha256": "b6700774cab3a13946eed963a9b0af77bba88b57e7eed39e72eb5baecf721498"
+        },
+        {
+          "path": "assets/images/pdp/rw26429/rw26429-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 139477,
+          "sha256": "8bb08f6da945235adc4ed4d29e5e30e73385187ac5a9d884b6470936ea973472"
+        }
+      ]
+    },
+    {
+      "sku": "RW26344",
+      "key": "rw26344",
+      "title": "Pastel Textured Starfish Resin Decorations",
+      "dimensions": "28mm; source does not specify axis or style mapping",
+      "packing": "100pcs/bag",
+      "family": "Decorative",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "materialBasis": "explicit supplier material field; same-SKU original photo reviewed",
+      "keywords": "pastel-textured-starfish-resin-decorations",
+      "factNote": "Supplier size reference: 28mm; source does not specify axis or style mapping. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "variantSizeNotes": "Supplier size reference: 28mm; source does not specify axis or style mapping. Measurement axes and style-specific selection remain unspecified unless provided by source.",
+      "procurementAdvice": "Select RW26344 pastel textured starfish resin decorations for coordinated decorative component programs. Supplier size reference is 28mm, with100pieces per bag as reference packing. Confirm the required style and color selection, quantities and packing for bulk orders; reference packing is not MOQ and no fixed mixture is established.",
+      "uses": "Coordinate a sea-themed photo frame or decorative DIY layout with RW26344. The original photograph shows five rounded arms, translucent pastel resin and raised rounded surface bumps. Compare the supplier size reference 28mm with your project and confirm selection before ordering. Reference packing is100pieces per bag. Generated scene/detail images are reference illustrations; styling props are not included.",
+      "description": "Pastel Textured Starfish Resin Decorations (RW26344) for DIY projects. Check resin material, dimensions and reference packing; confirm styles before ordering.",
+      "haibuDescription": "Wholesale Pastel Textured Starfish Resin Decorations (RW26344). Review material, dimensions and reference packing; discuss selection and OEM packaging.",
+      "sourceFields": {
+        "sku": "RW26344",
+        "sku_raw": "MO-RW26344",
+        "title": "Bright Starfish Cartoon Flatback Resin Cabochon Scrapbooking DIY Hairpin Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "28mm-",
+        "packaging": "100pcs/bag",
+        "status": "已上架",
+        "product_id": "1601806723258",
+        "product_url": "https://www.alibaba.com/product-detail/Bright-Starfish-Cartoon-Flatback-Resin-Cabochon_1601806723258.html"
+      },
+      "sourceUrl": "https://www.alibaba.com/product-detail/Bright-Starfish-Cartoon-Flatback-Resin-Cabochon_1601806723258.html",
+      "sourceProductId": "1601806723258",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4a367977602e489d8c8175b62a76b9960.jpg",
+      "sourceImageSha256": "2a4d56128149ccca8dcfc10fa8efa9dd85a85c26863b1e951e568173aee36066",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product reference photo. Generated scene/detail images are reference illustrations. Props are not included; confirm selected designs, finish and assortment against an approved sample.",
+      "factsUpdatedAt": "2026-10-29",
+      "batchNumber": 27,
+      "batchId": "20261029-monica-27",
+      "attachment": "Confirm the reverse surface and attachment method for your chosen craft base.",
+      "metaTitle": "RW26344 Pastel Textured Starfish Resin Decorations | Qula Craft",
+      "haibuMetaTitle": "RW26344 Pastel Textured Starfish Resin Decorations | HAIBU",
+      "caption": "Pastel Textured Starfish Resin Decorations. Supplier size reference: 28mm; source does not specify axis or style mapping. Reference packing: 100pcs/bag; not MOQ.",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "imageGeneration": {
+        "method": "built-in image generation",
+        "review": "OriginalsameSKUmain. Enlarged source confirmsraised pearl-likebumps; oldsmoothdetailREJECTED. Newdetailv2 texturedsurface matchesoriginal; priorbumpsscene reused and reviewed. Fivearms originalcolorandsilhouette retained, noface/holes/back. Resin28mm100pcsbag notMOQ; no luminous/performanceclaims."
+      },
+      "haibuImages": [
+        "assets/images/products/batch-20261029-monica-27/rw26344/rw26344-pastel-textured-starfish-resin-decorations-01.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26344/rw26344-pastel-textured-starfish-resin-decorations-02.jpg",
+        "assets/images/products/batch-20261029-monica-27/rw26344/rw26344-pastel-textured-starfish-resin-decorations-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26344/rw26344-pastel-textured-starfish-resin-decorations-01.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 44903,
+          "sha256": "8ff7e73bec5c58c38f8591ca55e2e68f9174a26dc3135b7a352fbea412cc5ba2"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26344/rw26344-pastel-textured-starfish-resin-decorations-02.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 128347,
+          "sha256": "19a3d094bdd468e0a4d00cd3fa3677205da3e943540c29dc50843c3e3f9e1c0b"
+        },
+        {
+          "path": "assets/images/products/batch-20261029-monica-27/rw26344/rw26344-pastel-textured-starfish-resin-decorations-03.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 103899,
+          "sha256": "15178488bb097db283df60b3e8cdd9fcfcba16d83d554478f44f36af992e0535"
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26344/rw26344-1.jpg",
+        "assets/images/pdp/rw26344/rw26344-2.jpg",
+        "assets/images/pdp/rw26344/rw26344-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26344/rw26344-1.jpg",
+          "role": "Product reference",
+          "origin": "same-SKU original supplier photograph",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 44903,
+          "sha256": "8ff7e73bec5c58c38f8591ca55e2e68f9174a26dc3135b7a352fbea412cc5ba2"
+        },
+        {
+          "path": "assets/images/pdp/rw26344/rw26344-2.jpg",
+          "role": "Application scene (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 128347,
+          "sha256": "19a3d094bdd468e0a4d00cd3fa3677205da3e943540c29dc50843c3e3f9e1c0b"
+        },
+        {
+          "path": "assets/images/pdp/rw26344/rw26344-3.jpg",
+          "role": "Detail reference (illustration)",
+          "origin": "built-in image generation based on same-SKU product reference",
+          "width": 1000,
+          "height": 1000,
+          "bytes": 103899,
+          "sha256": "15178488bb097db283df60b3e8cdd9fcfcba16d83d554478f44f36af992e0535"
+        }
+      ]
+    }
+  ],
+  "preparationStatus": "20_SKU_60_IMAGES_REVIEWED; REPOSITORY_CHECKS_PREVIEW_AND_PUBLICATION_PENDING"
+}

@@ -967,6 +967,20 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw2294-cloud-sky-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw2294-cloud-sky-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2294-cloud-sky-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26220-sprinkled-croissant-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26220-sprinkled-croissant-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26220-sprinkled-croissant-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26625-green-ghost-hand-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw26625-green-ghost-hand-resin-cabochons/index.html",
       "action": "create",

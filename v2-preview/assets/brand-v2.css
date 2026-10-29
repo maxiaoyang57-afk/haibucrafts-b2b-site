@@ -626,9 +626,8 @@
 
 /* Shared contact treatment: preserve direct WhatsApp links and tracking. */
 body .whatsapp-float {
-  --wa-travel: min(160px, 20vh);
   right: max(22px, env(safe-area-inset-right));
-  bottom: calc(144px + env(safe-area-inset-bottom));
+  bottom: calc(20px + env(safe-area-inset-bottom));
   min-height: 66px;
   gap: 12px;
   padding: 8px 19px 8px 9px;
@@ -638,7 +637,7 @@ body .whatsapp-float {
   border-radius: 999px;
   box-shadow: 0 8px 24px rgba(13,87,57,.2), 0 2px 5px rgba(13,87,57,.1), inset 0 1px 0 rgba(255,255,255,.2);
   font-weight: 600;
-  animation: haibu-whatsapp-drift 18s ease-in-out infinite alternate;
+  animation: none;
   transition: opacity .2s ease, box-shadow .2s ease;
 }
 body .whatsapp-float .wa-mark {
@@ -660,19 +659,14 @@ body .whatsapp-float .wa-copy small { font-size: 10px; font-weight: 400; color: 
 body .whatsapp-float:hover,
 body .whatsapp-float:focus,
 body .whatsapp-float:active {
-  animation-play-state: paused;
   transform: none;
   box-shadow: 0 10px 28px rgba(13,87,57,.27), 0 0 0 4px rgba(33,188,111,.12);
 }
 body .whatsapp-float:focus-visible { outline: 3px solid #176247; outline-offset: 5px; }
-body.mobile-navigation-open .whatsapp-float,
-body .whatsapp-float.avoid-form { animation-play-state: paused; }
-@keyframes haibu-whatsapp-drift { from { translate: 0 0; } to { translate: 0 calc(-1 * var(--wa-travel)); } }
 @media (max-width: 620px) {
   body .whatsapp-float {
-    --wa-travel: 72px;
     right: max(14px, env(safe-area-inset-right));
-    bottom: calc(138px + env(safe-area-inset-bottom));
+    bottom: calc(14px + env(safe-area-inset-bottom));
     width: 60px;
     min-height: 60px;
     padding: 5px;
@@ -682,7 +676,6 @@ body .whatsapp-float.avoid-form { animation-play-state: paused; }
   body .whatsapp-float .wa-mark { width: 46px; height: 46px; }
   body .whatsapp-float .wa-copy { display: none; }
 }
-@media (max-height: 480px) { body .whatsapp-float { --wa-travel: 24px; } }
 @media (prefers-reduced-motion: reduce) {
   body .whatsapp-float { animation: none; transition: none; }
 }
@@ -693,6 +686,7 @@ body .back-top {
   height: 48px;
   padding: 0;
   z-index: 44;
+  bottom: calc(96px + env(safe-area-inset-bottom));
   color: #514575;
   background: #fff;
   border: 1px solid #e2ddea;
@@ -714,3 +708,48 @@ body .back-top:focus-visible {
 }
 body .back-top:focus-visible { outline: 3px solid #72628f; outline-offset: 4px; }
 @media (prefers-reduced-motion: reduce) { body .back-top { transition: none; } }
+
+/* Optional analytics stay in the page flow, below navigation and above content. */
+body .analytics-consent {
+  position: static;
+  inset: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 16px;
+  width: 100%;
+  margin: 0;
+  padding: 10px max(20px, calc((100% - var(--max)) / 2));
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: #f8f7fb;
+  box-shadow: none;
+}
+body .analytics-consent[hidden] { display: none; }
+.analytics-consent-copy { min-width: 0; max-width: none; }
+.analytics-consent-details summary {
+  min-height: 44px;
+  padding: 10px 0;
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.6;
+  cursor: pointer;
+}
+.analytics-consent-details summary span {
+  margin-left: 8px;
+  color: var(--brand-dark);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+body .analytics-consent-copy p { margin: 0 0 8px; font-size: 14px; line-height: 1.6; }
+body .analytics-consent-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+body .analytics-consent .btn { min-height: 44px; padding: 10px 14px; font-size: 14px; line-height: 1.35; }
+@media (max-width: 680px) {
+  body .analytics-consent { grid-template-columns: minmax(0, 1fr); gap: 4px; padding: 6px 14px 10px; }
+  .analytics-consent-details summary { padding: 8px 0; }
+  body .analytics-consent-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  body .analytics-consent .btn { width: 100%; padding: 8px 10px; }
+}

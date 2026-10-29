@@ -282,19 +282,24 @@
   const consentBanner = document.createElement('section');
   consentBanner.className = 'analytics-consent';
   consentBanner.hidden = true;
-  consentBanner.setAttribute('role', 'dialog');
+  consentBanner.setAttribute('role', 'region');
+  consentBanner.tabIndex = -1;
   consentBanner.setAttribute('aria-labelledby', 'analytics-consent-title');
   consentBanner.setAttribute('aria-describedby', 'analytics-consent-description');
   consentBanner.innerHTML = `
     <div class="analytics-consent-copy">
-      <strong id="analytics-consent-title">Help us improve HAIBUCRAFT</strong>
-      <p id="analytics-consent-description">We use Google Analytics for website statistics and Microsoft Clarity for heatmaps and session replay. Analytics cookies are used only if you accept. Clarity also loads only after you accept, with inquiry form content masked. You can change your choice at any time. <a href="${ROOT}privacy/">Privacy policy</a></p>
+      <details class="analytics-consent-details">
+        <summary id="analytics-consent-title">Optional analytics cookies <span>Details</span></summary>
+        <p id="analytics-consent-description">We use Google Analytics for website statistics and Microsoft Clarity for heatmaps and session replay. Analytics cookies are used only if you accept. Clarity also loads only after you accept, with inquiry form content masked. You can change your choice at any time. <a href="${ROOT}privacy/">Privacy policy</a></p>
+      </details>
     </div>
     <div class="analytics-consent-actions">
       <button class="btn btn-light" type="button" data-analytics-decline>Decline analytics cookies</button>
       <button class="btn btn-primary" type="button" data-analytics-accept>Accept analytics</button>
     </div>`;
-  document.body.appendChild(consentBanner);
+  // Keep the choice visible in the page flow without covering navigation or CTAs.
+  if (headerSlot) headerSlot.insertAdjacentElement('afterend', consentBanner);
+  else document.body.appendChild(consentBanner);
 
   const showConsentBanner = () => {
     consentBanner.hidden = false;
@@ -312,7 +317,11 @@
     hideConsentBanner();
   });
   document.querySelectorAll('[data-cookie-settings]').forEach((button) => {
-    button.addEventListener('click', showConsentBanner);
+    button.addEventListener('click', () => {
+      showConsentBanner();
+      consentBanner.scrollIntoView({ block: 'center' });
+      consentBanner.querySelector('[data-analytics-decline]').focus({ preventScroll: true });
+    });
   });
   if (readAnalyticsConsent() === null) showConsentBanner();
 
@@ -419,13 +428,20 @@
 
   const whatsappFloat = document.querySelector('.whatsapp-float');
   const quoteForm = document.querySelector('[data-quote-form]');
-  if (whatsappFloat && quoteForm && 'IntersectionObserver' in window) {
-    const formObserver = new IntersectionObserver(([entry]) => {
-      const avoidForm = entry.isIntersecting;
-      whatsappFloat.classList.toggle('avoid-form', avoidForm);
-      whatsappFloat.setAttribute('aria-hidden', String(avoidForm));
-      whatsappFloat.tabIndex = avoidForm ? -1 : 0;
+  const heroActions = page === 'site-v2-home' ? document.querySelector('.product-first-hero .actions') : null;
+  const protectedContent = [quoteForm, heroActions].filter(Boolean);
+  if (whatsappFloat && protectedContent.length && 'IntersectionObserver' in window) {
+    const visibleContent = new Set();
+    const contentObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) visibleContent.add(entry.target);
+        else visibleContent.delete(entry.target);
+      });
+      const avoidContent = visibleContent.size > 0;
+      whatsappFloat.classList.toggle('avoid-form', avoidContent);
+      whatsappFloat.setAttribute('aria-hidden', String(avoidContent));
+      whatsappFloat.tabIndex = avoidContent ? -1 : 0;
     }, { threshold: 0.02 });
-    formObserver.observe(quoteForm);
+    protectedContent.forEach((target) => contentObserver.observe(target));
   }
 })();

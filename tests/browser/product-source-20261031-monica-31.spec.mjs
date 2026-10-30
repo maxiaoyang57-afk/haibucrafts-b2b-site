@@ -28,6 +28,7 @@ async function checkProducts(page) {
     }
     await page.locator('.product-detail-copy a.btn-primary').click();
     await expect(page.locator('input[name="sku"]')).toHaveValue(product.sku);
+    await expect(page.locator('select[name="category"]')).toHaveValue(product.category);
     await expect(page.locator('input[name="product"]')).toHaveValue(product.title);
     await expect(page.locator('input[name="product_image"]')).toHaveValue(product.image);
   }

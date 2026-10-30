@@ -585,12 +585,12 @@ for (const category of categories) {
     const relatedPosition = product.batchProduct ? position : relatedPool.indexOf(product);
     const related = product.relatedSkus.length
       ? product.relatedSkus.map((sku) => productsBySku.get(sku))
-      : [
+      : relatedPool.length < 4 ? relatedPool.filter(item => item.sku !== product.sku).slice(0, 3) : [
         relatedPool[(relatedPosition + 1) % relatedPool.length],
         relatedPool[(relatedPosition + 2) % relatedPool.length],
         relatedPool[(relatedPosition + 3) % relatedPool.length]
       ];
-    if (related.length !== 3 || related.some((item) => !item || item.categorySlug !== category.slug)) {
+    if (related.length !== Math.min(3, categoryProducts.length - 1) || new Set(related.map(item => item?.sku)).size !== related.length || related.some((item) => !item || item.sku === product.sku || item.categorySlug !== category.slug)) {
       throw new Error(`Invalid related-product configuration for ${product.sku}`);
     }
     const description = product.customMetaDescription || metaDescription(product);
@@ -792,7 +792,7 @@ ${galleryScript}</body>
 
     const directory = path.join(productsRoot, product.categorySlug, product.detailSlug);
     await mkdir(directory, { recursive: true });
-    await writeFile(path.join(directory, 'index.html'), html, 'utf8');
+    await writeFile(path.join(directory, 'index.html'), html.replace(/[ \t]+$/gm, ''), 'utf8');
   }
 }
 

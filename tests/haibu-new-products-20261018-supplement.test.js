@@ -1,3 +1,4 @@
+import { EXPECTED_CATEGORIES } from './catalog-release-contract.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorExtensionMedia } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
@@ -24,6 +25,6 @@ test('supplement adds exactly eleven identities and refreshes only four approved
   assert.equal(product.sku,p.sku);assert.deepEqual(product.image,p.gallery.map(i=>'https://www.haibucrafts.com'+i));assert.equal(product.offers,undefined);
   assert.ok(page.includes('product_code='+encodeURIComponent(p.sku)));assert.ok(!page.includes('QULA'));assert.ok(page.includes('This pack quantity is not the MOQ.'));
  }
- assert.equal(new Set(catalog.products.map(p=>p.category)).size,4);
+ assert.deepEqual([...new Set(catalog.products.map(p=>p.category))].sort(), [...EXPECTED_CATEGORIES].sort());
  for(const sku of ['YA001','YH049','OOH026'])assert.ok(!catalog.products.some(p=>p.sku===sku));
 });

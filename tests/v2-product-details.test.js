@@ -49,7 +49,9 @@ test('all catalog products have linked detail pages and SEO routes', async () =>
     'polymer-clay-slices',
     'slime-charms',
     'resin-charms',
-    'sequins-glitter-confetti'
+    'sequins-glitter-confetti',
+    'keychain',
+    'decorative-craft-accessories'
   ];
   let linkedCards = 0;
   for (const category of categoryPages) {

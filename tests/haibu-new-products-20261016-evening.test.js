@@ -1,3 +1,4 @@
+import { EXPECTED_CATEGORIES } from './catalog-release-contract.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -12,7 +13,7 @@ test('evening batch preserves catalog identities and separate pizza sizes and at
  const added=new Set(batch.products.map(p=>p.sku));
  assert.equal(added.size,11);assert.equal(catalog.count,manifest.catalogCountBefore+11+newSkus.size);
  assert.deepEqual(catalog.products.map(priorMedia).filter(p=>!added.has(p.sku)&&!newSkus.has(p.sku)),manifest.previousProducts);
- assert.equal(new Set(catalog.products.map(p=>p.category)).size,4);
+ assert.deepEqual([...new Set(catalog.products.map(p=>p.category))].sort(), [...EXPECTED_CATEGORIES].sort());
  for(const source of batch.products){
   const media=manifest.products.find(p=>p.sku===source.sku);
   if(media.sourceImageDimensions) assert.ok(source.imageDimensions[0].width<=media.sourceImageDimensions.width);

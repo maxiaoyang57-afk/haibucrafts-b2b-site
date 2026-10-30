@@ -339,7 +339,7 @@
     return link.closest('main') ? 'main' : 'site';
   };
   // Preserve the leading zeros of this published source code.
-  const additionalPublishedProductCodes = ['RW0020647', 'RW0020648', 'RW0024318', 'RW2304-D'];
+  const additionalPublishedProductCodes = ['RW0020647', 'RW0020648', 'RW0024318', 'RW2304-D', 'RW26110-1', 'CDK5001-2', 'CDK001890', 'RW0022961'];
   const analyticsProductCode = (value) => {
     const code = typeof value === 'string' ? value.trim().toUpperCase() : '';
     if (additionalPublishedProductCodes.includes(code)) return code;

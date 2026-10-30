@@ -1,3 +1,4 @@
+import { EXPECTED_CATEGORIES } from './catalog-release-contract.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
@@ -11,7 +12,7 @@ test('October 17 adds 11 source-backed resin groups and preserves existing catal
  const added=new Set(batch.products.map(p=>p.sku));
  assert.equal(added.size,11);assert.equal(catalog.count,EXPECTED_TOTAL);
  assert.deepEqual(catalog.products.map(priorMedia).filter(p=>manifest.previousProducts.some(v=>v.sku===p.sku)),manifest.previousProducts);
- assert.equal(new Set(catalog.products.map(p=>p.category)).size,4);
+ assert.deepEqual([...new Set(catalog.products.map(p=>p.category))].sort(), [...EXPECTED_CATEGORIES].sort());
  for(const p of batch.products){
   assert.equal(p.sourceSkuCorrection?.sku || p.sourceFields.sku.trim(),p.sku);
   assert.equal(p.sourceFields['包装规格'],'主要规格100pcs/bag，可以定制，咨询客服');

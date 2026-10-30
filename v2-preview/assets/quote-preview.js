@@ -111,9 +111,21 @@
 
   const quoteContext = document.getElementById('quoteContext');
   const selectedProduct = document.getElementById('selectedProduct');
-  if (quoteContext && selectedProduct && (productCode || productName)) {
-    selectedProduct.textContent = [productCode, productName].filter(Boolean).join(' — ');
-    quoteContext.hidden = false;
+  if (quoteContext && selectedProduct) {
+    // The visible summary follows the fields the buyer will actually submit,
+    // including edits, clears and values restored by browser Back.
+    const syncProductContext = () => {
+      const current = ['sku', 'product'].map(name => String(form.elements.namedItem(name)?.value || '').trim());
+      selectedProduct.textContent = current.filter(Boolean).join(' — ');
+      quoteContext.hidden = quoteListMode || !selectedProduct.textContent;
+    };
+    form.addEventListener('input', syncProductContext);
+    form.addEventListener('change', syncProductContext);
+    form.addEventListener('reset', () => {
+      if (typeof window.setTimeout === 'function') window.setTimeout(syncProductContext, 0);
+    });
+    if (typeof window.addEventListener === 'function') window.addEventListener('pageshow', syncProductContext);
+    syncProductContext();
   }
 
   const upload = form.querySelector('input[type="file"][name="reference_images"]');

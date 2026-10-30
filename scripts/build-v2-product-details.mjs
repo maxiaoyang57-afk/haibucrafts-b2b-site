@@ -87,6 +87,7 @@ const monicaOctober29TwentySeventhBatch1 = JSON.parse(await readFile(path.join(r
 const monicaOctober30TwentyEighthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261030-monica-28.json'), 'utf8'));
 const monicaOctober30TwentyNinthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261030-monica-29.json'), 'utf8'));
 const monicaOctober30ThirtiethBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261030-monica-30.json'), 'utf8'));
+const monicaOctober31ThirtyFirstBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261031-monica-31.json'), 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
@@ -151,6 +152,7 @@ const productBatches = [
   { issue: 'haibu-new-products-20261030-monica-28', data: monicaOctober30TwentyEighthBatch1 },
   { issue: 'haibu-new-products-20261030-monica-29', data: monicaOctober30TwentyNinthBatch1 },
   { issue: 'haibu-new-products-20261030-monica-30', data: monicaOctober30ThirtiethBatch1 },
+  { issue: 'haibu-new-products-20261031-monica-31', data: monicaOctober31ThirtyFirstBatch1 },
   { issue: 'haibu-new-products-20261028-monica-15', data: monicaOctober28FifteenthBatch1 },
   { issue: 'haibu-new-products-20261028-monica-14', data: monicaOctober28FourteenthBatch1 },
   { issue: 'haibu-new-products-20261028-monica-09', data: monicaOctober28NinthBatch1 }
@@ -224,7 +226,9 @@ const categories = [
     uses: 'slime, nail art, shaker fillers, resin crafts and seasonal DIY projects',
     material: 'Decorative film or mixed components depending on shape, color and finish; confirm against the selected sample.',
     overview: 'Shaped sequins, glitter and confetti for color-led slime, shaker, nail-art, resin-craft and seasonal programs.'
-  }
+  },
+  {"slug": "keychain", "label": "Keychains & Components", "productionBase": "/products/keychain/", "uses": "decorative DIY projects, selection and packing", "material": "Confirm the material stated for the selected SKU.", "overview": "Compare key rings, chains, clasps and resin keychains by SKU for bulk selection and packing."},
+  {"slug": "decorative-craft-accessories", "label": "Decorative Craft Accessories", "productionBase": "/products/decorative-craft-accessories/", "uses": "decorative DIY projects, selection and packing", "material": "Confirm the material stated for the selected SKU.", "overview": "Compare plastic plant sprigs and decorative craft components by material, size and reference packing."}
 ];
 
 const decodeHtml = (value) => value
@@ -581,12 +585,12 @@ for (const category of categories) {
     const relatedPosition = product.batchProduct ? position : relatedPool.indexOf(product);
     const related = product.relatedSkus.length
       ? product.relatedSkus.map((sku) => productsBySku.get(sku))
-      : [
+      : relatedPool.length < 4 ? relatedPool.filter(item => item.sku !== product.sku).slice(0, 3) : [
         relatedPool[(relatedPosition + 1) % relatedPool.length],
         relatedPool[(relatedPosition + 2) % relatedPool.length],
         relatedPool[(relatedPosition + 3) % relatedPool.length]
       ];
-    if (related.length !== 3 || related.some((item) => !item || item.categorySlug !== category.slug)) {
+    if (related.length !== Math.min(3, categoryProducts.length - 1) || new Set(related.map(item => item?.sku)).size !== related.length || related.some((item) => !item || item.sku === product.sku || item.categorySlug !== category.slug)) {
       throw new Error(`Invalid related-product configuration for ${product.sku}`);
     }
     const description = product.customMetaDescription || metaDescription(product);
@@ -788,7 +792,7 @@ ${galleryScript}</body>
 
     const directory = path.join(productsRoot, product.categorySlug, product.detailSlug);
     await mkdir(directory, { recursive: true });
-    await writeFile(path.join(directory, 'index.html'), html, 'utf8');
+    await writeFile(path.join(directory, 'index.html'), html.replace(/[ \t]+$/gm, ''), 'utf8');
   }
 }
 

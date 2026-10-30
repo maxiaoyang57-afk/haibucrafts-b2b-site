@@ -1,3 +1,4 @@
+import { EXPECTED_CATEGORIES } from './catalog-release-contract.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
 import { createHash } from 'node:crypto';
@@ -21,7 +22,7 @@ test('October 16 adds exactly five resin products while preserving every earlier
   assert.equal(new Set(catalog.products.map(p => p.sku)).size, catalog.count);
   const prior = catalog.products.map(priorMedia).filter(p => !selected.has(p.sku) && !supplementSkus.has(p.sku) && !eveningSkus.has(p.sku)).sort((a,b) => a.sku.localeCompare(b.sku));
   assert.deepEqual(prior, [...manifest.previousProducts].sort((a,b) => a.sku.localeCompare(b.sku)));
-  assert.equal(new Set(catalog.products.map(p => p.category)).size, 4);
+  assert.deepEqual([...new Set(catalog.products.map(p=>p.category))].sort(), [...EXPECTED_CATEGORIES].sort());
   for (const sku of ['CZB26813','CZB26818','CZB26846']) assert.ok(!catalog.products.some(p => p.sku === sku));
 });
 

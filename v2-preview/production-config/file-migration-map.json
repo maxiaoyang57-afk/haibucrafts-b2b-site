@@ -967,6 +967,125 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26475-mushroom-resin-miniature-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26475-mushroom-resin-miniature-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26475-mushroom-resin-miniature-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26654-blue-motif-resin-craft-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26654-blue-motif-resin-craft-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26654-blue-motif-resin-craft-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26556-game-console-resin-craft-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26556-game-console-resin-craft-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26556-game-console-resin-craft-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/ym358-colorful-mini-straw-craft-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/ym358-colorful-mini-straw-craft-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/ym358-colorful-mini-straw-craft-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26363-gray-shark-resin-miniature-figure/index.html",
+      "destination": "products/resin-charms-for-slime/rw26363-gray-shark-resin-miniature-figure/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26363-gray-shark-resin-miniature-figure/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25476-cigarette-style-resin-miniature-props/index.html",
+      "destination": "products/resin-charms-for-slime/rw25476-cigarette-style-resin-miniature-props/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25476-cigarette-style-resin-miniature-props/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26341-strawberry-rabbit-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26341-strawberry-rabbit-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26341-strawberry-rabbit-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26661-halloween-motif-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26661-halloween-motif-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26661-halloween-motif-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26110-1-translucent-wavy-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26110-1-translucent-wavy-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26110-1-translucent-wavy-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw247-game-controller-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw247-game-controller-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw247-game-controller-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw162-candy-shaped-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw162-candy-shaped-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw162-candy-shaped-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004039-strawberry-shaped-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw004039-strawberry-shaped-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004039-strawberry-shaped-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26361-butterfly-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26361-butterfly-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26361-butterfly-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23283-space-motif-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23283-space-motif-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23283-space-motif-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26427-pearlescent-flower-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26427-pearlescent-flower-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26427-pearlescent-flower-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw0022961-translucent-floral-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw0022961-translucent-floral-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw0022961-translucent-floral-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw5816-miniature-resin-tea-display-models/index.html",
+      "destination": "products/resin-charms-for-slime/rw5816-miniature-resin-tea-display-models/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5816-miniature-resin-tea-display-models/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26558-coffee-menu-resin-miniatures/index.html",
       "destination": "products/resin-charms-for-slime/rw26558-coffee-menu-resin-miniatures/index.html",
       "action": "create",
@@ -4474,6 +4593,27 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/keychain/cdk5001-2-metal-split-key-rings-with-chain-lobster-clasp/index.html",
+      "destination": "products/keychain/cdk5001-2-metal-split-key-rings-with-chain-lobster-clasp/index.html",
+      "action": "create",
+      "productionPath": "/products/keychain/cdk5001-2-metal-split-key-rings-with-chain-lobster-clasp/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/keychain/cdk001890-fruit-resin-keychains/index.html",
+      "destination": "products/keychain/cdk001890-fruit-resin-keychains/index.html",
+      "action": "create",
+      "productionPath": "/products/keychain/cdk001890-fruit-resin-keychains/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/decorative-craft-accessories/ym355-decorative-plastic-plant-sprigs/index.html",
+      "destination": "products/decorative-craft-accessories/ym355-decorative-plastic-plant-sprigs/index.html",
+      "action": "create",
+      "productionPath": "/products/decorative-craft-accessories/ym355-decorative-plastic-plant-sprigs/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/blog/craft-supply-reorder-version-control/index.html",
       "destination": "blog/craft-supply-reorder-version-control/index.html",
       "action": "create",
@@ -4716,6 +4856,18 @@
       "destination": "for-slime-brands/index.html",
       "action": "create",
       "productionPath": "/for-slime-brands/"
+    },
+    {
+      "source": "v2-preview/products/keychain/index.html",
+      "destination": "products/keychain/index.html",
+      "action": "create",
+      "productionPath": "/products/keychain/"
+    },
+    {
+      "source": "v2-preview/products/decorative-craft-accessories/index.html",
+      "destination": "products/decorative-craft-accessories/index.html",
+      "action": "create",
+      "productionPath": "/products/decorative-craft-accessories/"
     }
   ],
   "sharedAssets": [

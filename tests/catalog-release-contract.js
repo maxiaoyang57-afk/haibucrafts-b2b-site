@@ -18,3 +18,5 @@ export const EXPECTED_RESIN = [...expected.values()].filter(category => category
 export const EXPECTED_POLYMER = [...expected.values()].filter(category => category === 'polymer-clay-slices').length;
 export const EXPECTED_SLIME = [...expected.values()].filter(category => category === 'slime-charms').length;
 assert.equal(EXPECTED_TOTAL, release.catalogCountAfter, 'Manifest count must agree with source SKU identities');
+
+export const EXPECTED_CATEGORIES = [...new Set(expected.values())];

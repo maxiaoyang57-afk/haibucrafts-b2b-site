@@ -1,3 +1,4 @@
+import { EXPECTED_CATEGORIES } from '../catalog-release-contract.js';
 import { test, expect } from '@playwright/test';
 
 test.beforeEach(async({page,context})=>{
@@ -35,6 +36,6 @@ test('phone homepage keeps all featured products and exposes them on request',as
  await expect(page.locator('.home-product-grid>[data-mobile-browse-hidden]')).toHaveCount(4);
  await page.getByRole('button',{name:'Show all 8 featured products',exact:true}).press('Enter');
  await expect(page.locator('.home-product-grid>[data-mobile-browse-hidden]')).toHaveCount(0);
- await expect(page.locator('.category-visual-card')).toHaveCount(4);
+ await expect(page.locator('.category-visual-card')).toHaveCount(EXPECTED_CATEGORIES.length);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
 });

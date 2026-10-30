@@ -64,6 +64,7 @@
   const applyFilters = () => {
     const query = (searchInput?.value || '').trim().toLowerCase();
     if(productGrid)productGrid.dataset.mobileUnpaged=String(!!query || activeFilter !== 'all');
+    const hasExactSku = !!query && cards.some(card => (card.querySelector('.sku-badge')?.textContent?.trim() || '').toLowerCase() === query);
     let visible = 0;
     cards.forEach((card) => {
       const sku = card.querySelector('.sku-badge')?.textContent?.trim() || '';
@@ -71,7 +72,7 @@
       const codes = sku.split('/').map(code => /^\d+$/.test(code) ? prefix + code : code).join(' ');
       const tags = `${card.dataset.tags || ''} ${codes}`.toLowerCase();
       const category = (card.dataset.category || '').toLowerCase();
-      const matchesQuery = !query || tags.includes(query);
+      const matchesQuery = !query || (hasExactSku ? sku.toLowerCase() === query : tags.includes(query));
       const matchesFilter = activeFilter === 'all' || category === activeFilter || (activeFilter === 'seasonal' && ['christmas', 'halloween', 'easter'].includes(category));
       const show = matchesQuery && matchesFilter;
       card.hidden = !show;

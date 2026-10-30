@@ -967,6 +967,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26558-coffee-menu-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26558-coffee-menu-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26558-coffee-menu-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26371-open-recipe-book-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26371-open-recipe-book-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26371-open-recipe-book-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26560-checkered-resin-dish-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26560-checkered-resin-dish-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26560-checkered-resin-dish-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26559-square-grill-pan-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26559-square-grill-pan-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26559-square-grill-pan-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26321-pastel-animal-face-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26321-pastel-animal-face-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26321-pastel-animal-face-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw003475-vehicle-theme-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw003475-vehicle-theme-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003475-vehicle-theme-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26228-sauce-bottle-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26228-sauce-bottle-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26228-sauce-bottle-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26222-stationery-theme-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26222-stationery-theme-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26222-stationery-theme-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26389-painter-palette-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26389-painter-palette-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26389-painter-palette-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26385-vegetable-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26385-vegetable-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26385-vegetable-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26400-fruit-flip-flop-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26400-fruit-flip-flop-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26400-fruit-flip-flop-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26393-coffee-mug-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26393-coffee-mug-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26393-coffee-mug-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26446-sparkling-fruit-slice-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26446-sparkling-fruit-slice-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26446-sparkling-fruit-slice-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26450-panda-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26450-panda-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26450-panda-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26353-white-puppy-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26353-white-puppy-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26353-white-puppy-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26351-cream-cat-resin-miniatures-with-pink-bows/index.html",
+      "destination": "products/resin-charms-for-slime/rw26351-cream-cat-resin-miniatures-with-pink-bows/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26351-cream-cat-resin-miniatures-with-pink-bows/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26349-pastel-paper-plane-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26349-pastel-paper-plane-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26349-pastel-paper-plane-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26339-gold-tone-tableware-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26339-gold-tone-tableware-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26339-gold-tone-tableware-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26256-striped-shell-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26256-striped-shell-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26256-striped-shell-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26422-translucent-bear-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26422-translucent-bear-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26422-translucent-bear-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw2294-cloud-sky-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw2294-cloud-sky-resin-cabochons/index.html",
       "action": "create",

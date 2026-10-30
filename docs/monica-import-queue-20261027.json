@@ -1649,8 +1649,8 @@
     },
     {
       "sku": "RW26558",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW25009",
@@ -2099,8 +2099,8 @@
     },
     {
       "sku": "RW26371",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "YA794",
@@ -2284,13 +2284,13 @@
     },
     {
       "sku": "RW26560",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26559",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26556",
@@ -2489,8 +2489,8 @@
     },
     {
       "sku": "RW26321",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26319",
@@ -2614,8 +2614,8 @@
     },
     {
       "sku": "RW003475",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26505",
@@ -2679,13 +2679,13 @@
     },
     {
       "sku": "RW26228",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26227",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -2711,8 +2711,8 @@
     },
     {
       "sku": "RW26222",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26221",
@@ -2816,8 +2816,8 @@
     },
     {
       "sku": "RW26364",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -2869,15 +2869,15 @@
     },
     {
       "sku": "RW26390",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
     {
       "sku": "RW26389",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW0022961",
@@ -2911,8 +2911,8 @@
     },
     {
       "sku": "RW26385",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26358",
@@ -2932,8 +2932,8 @@
     },
     {
       "sku": "RW25907",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3040,8 +3040,8 @@
     },
     {
       "sku": "RW002103",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3164,8 +3164,8 @@
     },
     {
       "sku": "RW26318",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3204,8 +3204,8 @@
     },
     {
       "sku": "RW26400",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26397",
@@ -3220,20 +3220,20 @@
     },
     {
       "sku": "RW26393",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26454",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
     {
       "sku": "RW26446",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26451",
@@ -3242,8 +3242,8 @@
     },
     {
       "sku": "RW26450",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26448",
@@ -3257,27 +3257,27 @@
     },
     {
       "sku": "RW26353",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26355",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
     {
       "sku": "RW26352",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
     {
       "sku": "RW26351",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26350",
@@ -3286,20 +3286,20 @@
     },
     {
       "sku": "RW26349",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26348",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
     {
       "sku": "RW26369",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3315,8 +3315,8 @@
     },
     {
       "sku": "RW26365",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3327,15 +3327,15 @@
     },
     {
       "sku": "RW26345",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
     {
       "sku": "RW26344",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3346,8 +3346,8 @@
     },
     {
       "sku": "RW26342",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3358,8 +3358,8 @@
     },
     {
       "sku": "RW26339",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW410",
@@ -3385,8 +3385,8 @@
     },
     {
       "sku": "RW26256",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW002583",
@@ -3467,15 +3467,15 @@
     },
     {
       "sku": "RW26420",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
     {
       "sku": "RW26422",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
     },
     {
       "sku": "RW26416",
@@ -3519,8 +3519,8 @@
     },
     {
       "sku": "RW26414",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3541,15 +3541,15 @@
     },
     {
       "sku": "RW5808",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
     {
       "sku": "RW26431",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -3570,8 +3570,8 @@
     },
     {
       "sku": "RW26429",
-      "status": "ready_in_batch",
-      "reason": "Batch27 same20SKU facts and60images reviewed; repositorychecks/CI/Preview/production pending.",
+      "status": "already_listed",
+      "reason": "Batch27 merged HAIBU PR176/QULA PR152; production catalogs verified566/790. Do not duplicate.",
       "batchNumber": 27,
       "preparationNote": "Three reviewed same-SKU images and source facts prepared. PR/Preview/merge/production verification pending; not yet published."
     },
@@ -11914,6 +11914,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 27,
-  "updatedAt": "2026-10-29T13:10:11.078203+00:00"
+  "currentBatchNumber": 28,
+  "updatedAt": "2026-10-30"
 }

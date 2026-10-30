@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 606,
+  "count": 626,
   "products": [
     {
       "sku": "YX3301",
@@ -2452,6 +2452,306 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26164-chocolate-motif-resin-decorations/",
       "productionPath": "/products/resin-charms-for-slime/rw26164-chocolate-motif-resin-decorations/"
+    },
+    {
+      "sku": "RW24360",
+      "title": "Translucent Turtle Resin Miniature Figures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw24360/rw24360-translucent-turtle-resin-miniature-figures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw24360/rw24360-translucent-turtle-resin-miniature-figures-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw24360/rw24360-translucent-turtle-resin-miniature-figures-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw24360/rw24360-translucent-turtle-resin-miniature-figures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw24360-translucent-turtle-resin-miniature-figures/",
+      "productionPath": "/products/resin-charms-for-slime/rw24360-translucent-turtle-resin-miniature-figures/"
+    },
+    {
+      "sku": "RW26523",
+      "title": "Cloud Rainbow Resin Craft Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26523/rw26523-cloud-rainbow-resin-craft-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26523/rw26523-cloud-rainbow-resin-craft-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26523/rw26523-cloud-rainbow-resin-craft-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26523/rw26523-cloud-rainbow-resin-craft-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26523-cloud-rainbow-resin-craft-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26523-cloud-rainbow-resin-craft-decorations/"
+    },
+    {
+      "sku": "RW26381",
+      "title": "Flower Bouquet Resin Miniature Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26381/rw26381-flower-bouquet-resin-miniature-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26381/rw26381-flower-bouquet-resin-miniature-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26381/rw26381-flower-bouquet-resin-miniature-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26381/rw26381-flower-bouquet-resin-miniature-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26381-flower-bouquet-resin-miniature-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26381-flower-bouquet-resin-miniature-decorations/"
+    },
+    {
+      "sku": "RW26480",
+      "title": "Beach Theme Resin Craft Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26480/rw26480-beach-theme-resin-craft-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26480/rw26480-beach-theme-resin-craft-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26480/rw26480-beach-theme-resin-craft-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26480/rw26480-beach-theme-resin-craft-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26480-beach-theme-resin-craft-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26480-beach-theme-resin-craft-decorations/"
+    },
+    {
+      "sku": "RW26376",
+      "title": "Tomato Resin Miniature Craft Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26376/rw26376-tomato-resin-miniature-craft-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26376/rw26376-tomato-resin-miniature-craft-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26376/rw26376-tomato-resin-miniature-craft-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26376/rw26376-tomato-resin-miniature-craft-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26376-tomato-resin-miniature-craft-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26376-tomato-resin-miniature-craft-decorations/"
+    },
+    {
+      "sku": "RW26382",
+      "title": "Fruit Slice Resin Miniature Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26382/rw26382-fruit-slice-resin-miniature-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26382/rw26382-fruit-slice-resin-miniature-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26382/rw26382-fruit-slice-resin-miniature-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26382/rw26382-fruit-slice-resin-miniature-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26382-fruit-slice-resin-miniature-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26382-fruit-slice-resin-miniature-decorations/"
+    },
+    {
+      "sku": "RW26416",
+      "title": "Flower Roof Resin Miniature Cottage",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26416/rw26416-flower-roof-resin-miniature-cottage-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26416/rw26416-flower-roof-resin-miniature-cottage-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26416/rw26416-flower-roof-resin-miniature-cottage-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26416/rw26416-flower-roof-resin-miniature-cottage-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26416-flower-roof-resin-miniature-cottage/",
+      "productionPath": "/products/resin-charms-for-slime/rw26416-flower-roof-resin-miniature-cottage/"
+    },
+    {
+      "sku": "RW26423",
+      "title": "Woodland Cottage Resin Miniature Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26423/rw26423-woodland-cottage-resin-miniature-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26423/rw26423-woodland-cottage-resin-miniature-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26423/rw26423-woodland-cottage-resin-miniature-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26423/rw26423-woodland-cottage-resin-miniature-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26423-woodland-cottage-resin-miniature-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26423-woodland-cottage-resin-miniature-decorations/"
+    },
+    {
+      "sku": "RW914",
+      "title": "Shell and Bow Resin Craft Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw914/rw914-shell-and-bow-resin-craft-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw914/rw914-shell-and-bow-resin-craft-cabochons-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw914/rw914-shell-and-bow-resin-craft-cabochons-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw914/rw914-shell-and-bow-resin-craft-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw914-shell-bow-resin-craft-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw914-shell-bow-resin-craft-cabochons/"
+    },
+    {
+      "sku": "RW26323",
+      "title": "Dog Resin Miniature Figures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26323/rw26323-dog-resin-miniature-figures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26323/rw26323-dog-resin-miniature-figures-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26323/rw26323-dog-resin-miniature-figures-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26323/rw26323-dog-resin-miniature-figures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26323-dog-resin-miniature-figures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26323-dog-resin-miniature-figures/"
+    },
+    {
+      "sku": "RW26615",
+      "title": "Blueberry Cake Resin Miniature Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26615/rw26615-blueberry-cake-resin-miniature-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26615/rw26615-blueberry-cake-resin-miniature-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26615/rw26615-blueberry-cake-resin-miniature-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26615/rw26615-blueberry-cake-resin-miniature-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26615-blueberry-cake-resin-miniature-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26615-blueberry-cake-resin-miniature-decorations/"
+    },
+    {
+      "sku": "RW26434",
+      "title": "Fruit Motif Resin Craft Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26434/rw26434-fruit-motif-resin-craft-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26434/rw26434-fruit-motif-resin-craft-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26434/rw26434-fruit-motif-resin-craft-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26434/rw26434-fruit-motif-resin-craft-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26434-fruit-motif-resin-craft-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26434-fruit-motif-resin-craft-decorations/"
+    },
+    {
+      "sku": "RW26350",
+      "title": "Chocolate Style Resin Craft Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26350/rw26350-chocolate-style-resin-craft-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26350/rw26350-chocolate-style-resin-craft-cabochons-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26350/rw26350-chocolate-style-resin-craft-cabochons-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26350/rw26350-chocolate-style-resin-craft-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26350-chocolate-style-resin-craft-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26350-chocolate-style-resin-craft-cabochons/"
+    },
+    {
+      "sku": "RW26663",
+      "title": "Unicorn Resin Miniature Figures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26663/rw26663-unicorn-resin-miniature-figures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26663/rw26663-unicorn-resin-miniature-figures-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26663/rw26663-unicorn-resin-miniature-figures-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26663/rw26663-unicorn-resin-miniature-figures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26663-unicorn-resin-miniature-figures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26663-unicorn-resin-miniature-figures/"
+    },
+    {
+      "sku": "RW2304-D",
+      "title": "Candy Bean Style Resin Craft Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw2304-d/rw2304-d-candy-bean-style-resin-craft-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw2304-d/rw2304-d-candy-bean-style-resin-craft-cabochons-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw2304-d/rw2304-d-candy-bean-style-resin-craft-cabochons-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw2304-d/rw2304-d-candy-bean-style-resin-craft-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw2304-d-candy-bean-style-resin-craft-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw2304-d-candy-bean-style-resin-craft-cabochons/"
+    },
+    {
+      "sku": "RW26653",
+      "title": "Summer Santa Resin Miniature Figures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26653/rw26653-summer-santa-resin-miniature-figures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26653/rw26653-summer-santa-resin-miniature-figures-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26653/rw26653-summer-santa-resin-miniature-figures-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26653/rw26653-summer-santa-resin-miniature-figures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26653-summer-santa-resin-miniature-figures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26653-summer-santa-resin-miniature-figures/"
+    },
+    {
+      "sku": "RW001548",
+      "title": "Flower and Duck Resin Craft Motifs",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw001548/rw001548-flower-and-duck-resin-craft-motifs-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw001548/rw001548-flower-and-duck-resin-craft-motifs-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw001548/rw001548-flower-and-duck-resin-craft-motifs-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw001548/rw001548-flower-and-duck-resin-craft-motifs-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw001548-flower-duck-resin-craft-motifs/",
+      "productionPath": "/products/resin-charms-for-slime/rw001548-flower-duck-resin-craft-motifs/"
+    },
+    {
+      "sku": "RW26212",
+      "title": "Split Bun Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26212/rw26212-split-bun-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26212/rw26212-split-bun-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26212/rw26212-split-bun-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26212/rw26212-split-bun-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26212-split-bun-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26212-split-bun-resin-cabochons/"
+    },
+    {
+      "sku": "RW26447",
+      "title": "Panda Resin Miniature Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/rw26447/rw26447-panda-resin-miniature-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/rw26447/rw26447-panda-resin-miniature-decorations-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26447/rw26447-panda-resin-miniature-decorations-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/rw26447/rw26447-panda-resin-miniature-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26447-panda-resin-miniature-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26447-panda-resin-miniature-decorations/"
+    },
+    {
+      "sku": "YX089",
+      "title": "Pastel Twisted Candy Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261030-monica-30/yx089/yx089-pastel-twisted-candy-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261030-monica-30/yx089/yx089-pastel-twisted-candy-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261030-monica-30/yx089/yx089-pastel-twisted-candy-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261030-monica-30/yx089/yx089-pastel-twisted-candy-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/yx089-pastel-twisted-candy-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/yx089-pastel-twisted-candy-resin-miniatures/"
     },
     {
       "sku": "RW2294",

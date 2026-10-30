@@ -108,6 +108,11 @@
       "permanent": true
     },
     {
+      "source": "/products/slime-charms/",
+      "destination": "/products/slime-charms-wholesale/",
+      "permanent": true
+    },
+    {
       "source": "/products/slime-charms-wholesale.html",
       "destination": "/products/slime-charms-wholesale/",
       "permanent": true

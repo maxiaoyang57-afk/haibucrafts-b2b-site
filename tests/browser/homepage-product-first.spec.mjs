@@ -1,3 +1,4 @@
+import { EXPECTED_CATEGORIES } from '../catalog-release-contract.js';
 import { expect, test } from '@playwright/test';
 
 const noOverflow = async (page) => expect(await page.evaluate(() =>
@@ -43,7 +44,7 @@ test('homepage first-screen choices, catalog links and cookie controls work on p
   await page.screenshot({ path: testInfo.outputPath('homepage-phone-first-screen.png') });
   await page.locator('[data-analytics-decline]').tap();
   await expect(consent).toBeHidden();
-  await expect(page.locator('.category-visual-card')).toHaveCount(4);
+  await expect(page.locator('.category-visual-card')).toHaveCount(EXPECTED_CATEGORIES.length);
   await expect(page.locator('.home-product-card')).toHaveCount(8);
   await page.getByRole('button', { name: 'Show all 8 featured products', exact: true }).press('Enter');
   for (const card of await page.locator('.home-product-card').all()) {

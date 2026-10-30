@@ -1,2 +1,4 @@
-Batch28:20 reviewed new SKUs,60 shared images. Stage:PREPARED_CHECKS_PENDING_NOT_PUBLISHED. Packing is notMOQ; no unverifiedcommercial/performance claims. Fullsourceexport PRIVATE/excluded.
+Batch28:20 reviewed new SKUs,60 shared images. Stage:PUBLISHED_BOTH_SITES_PRODUCTION_VERIFIED. Packing is notMOQ; no unverifiedcommercial/performance claims. Fullsourceexport PRIVATE/excluded.
 SKUs:RW26558,RW26371,RW26560,RW26559,RW26321,RW003475,RW26228,RW26222,RW26389,RW26385,RW26400,RW26393,RW26446,RW26450,RW26353,RW26351,RW26349,RW26339,RW26256,RW26422
+
+Release evidence: HAIBU PR181 merge391e762951e1dc60599e44433cddb79ce4fc8eda, production dpl_5VzC8G6xpBgZKc3fkaSNAtYWPNX5 READY; QULA PR157 mergec7d456bcab76a2389f97a87f2919e239a5c312a9, production dpl_7smjJZsSXrzzWuBnRLLqUTx1qFbj READY. Catalogs after batch28:586/810.

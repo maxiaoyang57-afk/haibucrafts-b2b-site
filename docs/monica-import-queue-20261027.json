@@ -1649,8 +1649,8 @@
     },
     {
       "sku": "RW26558",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW25009",
@@ -2099,8 +2099,8 @@
     },
     {
       "sku": "RW26371",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "YA794",
@@ -2284,13 +2284,13 @@
     },
     {
       "sku": "RW26560",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26559",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26556",
@@ -2489,8 +2489,8 @@
     },
     {
       "sku": "RW26321",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26319",
@@ -2614,8 +2614,8 @@
     },
     {
       "sku": "RW003475",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26505",
@@ -2679,8 +2679,8 @@
     },
     {
       "sku": "RW26228",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26227",
@@ -2711,8 +2711,8 @@
     },
     {
       "sku": "RW26222",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26221",
@@ -2876,8 +2876,8 @@
     },
     {
       "sku": "RW26389",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW0022961",
@@ -2911,8 +2911,8 @@
     },
     {
       "sku": "RW26385",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26358",
@@ -3204,8 +3204,8 @@
     },
     {
       "sku": "RW26400",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26397",
@@ -3220,8 +3220,8 @@
     },
     {
       "sku": "RW26393",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26454",
@@ -3232,8 +3232,8 @@
     },
     {
       "sku": "RW26446",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26451",
@@ -3242,8 +3242,8 @@
     },
     {
       "sku": "RW26450",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26448",
@@ -3257,8 +3257,8 @@
     },
     {
       "sku": "RW26353",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26355",
@@ -3276,8 +3276,8 @@
     },
     {
       "sku": "RW26351",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26350",
@@ -3286,8 +3286,8 @@
     },
     {
       "sku": "RW26349",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26348",
@@ -3305,8 +3305,9 @@
     },
     {
       "sku": "RW001911",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW26368",
@@ -3358,8 +3359,8 @@
     },
     {
       "sku": "RW26339",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW410",
@@ -3385,8 +3386,8 @@
     },
     {
       "sku": "RW26256",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW002583",
@@ -3474,8 +3475,8 @@
     },
     {
       "sku": "RW26422",
-      "status": "ready_in_batch",
-      "reason": "Batch28 images/source facts reviewed; repository checks, Preview, merge and production verification pending."
+      "status": "already_listed",
+      "reason": "Batch28 merged and production verified; reconcile historical prepared state; do not re-import"
     },
     {
       "sku": "RW26416",
@@ -3526,8 +3527,9 @@
     },
     {
       "sku": "RW26424",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW26361",
@@ -3582,8 +3584,9 @@
     },
     {
       "sku": "RW002922",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "YX689",
@@ -3607,8 +3610,9 @@
     },
     {
       "sku": "RW1975",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW23450",
@@ -3637,13 +3641,15 @@
     },
     {
       "sku": "RW26115",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW25891",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW25184",
@@ -3678,18 +3684,21 @@
     },
     {
       "sku": "RW002227",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW0020647",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW4827",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW26017",
@@ -3710,13 +3719,15 @@
     },
     {
       "sku": "RW26107",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW25222",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW242",
@@ -3790,8 +3801,9 @@
     },
     {
       "sku": "RW003152",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW25405",
@@ -3805,8 +3817,9 @@
     },
     {
       "sku": "RW1120",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW26092",
@@ -3825,8 +3838,9 @@
     },
     {
       "sku": "RW25640",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW22853",
@@ -3885,8 +3899,9 @@
     },
     {
       "sku": "RW21578",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW26332",
@@ -3895,8 +3910,9 @@
     },
     {
       "sku": "RW26331",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW26160",
@@ -3930,8 +3946,9 @@
     },
     {
       "sku": "RW344",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "YX567",
@@ -3945,8 +3962,9 @@
     },
     {
       "sku": "RW003653",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "YX3750",
@@ -3955,8 +3973,9 @@
     },
     {
       "sku": "RW26169",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW26167",
@@ -4012,8 +4031,9 @@
     },
     {
       "sku": "RW26164",
-      "status": "needs_images",
-      "reason": "Core facts reviewed; awaiting the required application scene and detail"
+      "status": "ready_in_batch",
+      "reason": "Batch29: three reviewed images, source facts and brand copy prepared; repository checks, Preview acceptance and production release pending",
+      "batchNumber": 29
     },
     {
       "sku": "RW26163",
@@ -11914,6 +11934,6 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 28,
+  "currentBatchNumber": 29,
   "updatedAt": "2026-10-30"
 }

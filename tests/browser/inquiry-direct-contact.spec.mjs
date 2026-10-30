@@ -34,10 +34,12 @@ test('direct WhatsApp and email drafts preserve current requirements and quote q
     const decline = page.locator('[data-analytics-decline]');
     if (await decline.isVisible()) await decline.click();
     const form = page.locator('[data-quote-form]');
+    await expect(page.locator('#selectedProduct')).toHaveText('SLM26529 — QA sample assortment');
     expect((await drafts()).length).toBeGreaterThanOrEqual(7);
     await form.locator('details').evaluateAll(nodes => nodes.forEach(node => { node.open = true; }));
     await form.locator('[name="product"]').fill('QA only: chosen resin assortment');
     await form.locator('[name="sku"]').fill('RW26051');
+    await expect(page.locator('#selectedProduct')).toHaveText('RW26051 — QA only: chosen resin assortment');
     await form.locator('[name="quantity"]').fill('500 pieces');
     await form.locator('[name="packaging"]').fill('Separate bags');
     await form.locator('[name="country"]').fill('United States');
@@ -56,6 +58,13 @@ test('direct WhatsApp and email drafts preserve current requirements and quote q
     await form.locator('[name="message"]').fill('');
     await expect.poll(async () => (await drafts()).every(text => !text.includes('750 pieces')
       && !text.includes('My updated question'))).toBe(true);
+    await form.locator('[name="product"]').fill('');
+    await form.locator('[name="sku"]').fill('');
+    await expect(page.locator('#quoteContext')).toBeHidden();
+    await form.locator('[name="sku"]').fill('RW26858');
+    await expect(page.locator('#selectedProduct')).toHaveText('RW26858');
+    await form.locator('[name="product"]').fill('QA only: changed selection');
+    await expect(page.locator('#selectedProduct')).toHaveText('RW26858 — QA only: changed selection');
     // Programmatic/history restoration does not necessarily dispatch input/change.
     await form.locator('[name="message"]').evaluate(input => { input.value = 'Restored after Back'; });
     await form.locator('[data-inquiry-whatsapp]').click();
@@ -67,6 +76,7 @@ test('direct WhatsApp and email drafts preserve current requirements and quote q
     expect((await drafts()).every(text => text.includes('Restored for page-wide contact'))).toBe(true);
 
     await page.goto('/request-quote/?quote_list=1&source=quote-list');
+    await expect(page.locator('#quoteContext')).toBeHidden();
     if (await decline.isVisible()) await decline.click();
     const rows = form.locator('[data-quote-quantity]');
     await expect(rows).toHaveCount(2);

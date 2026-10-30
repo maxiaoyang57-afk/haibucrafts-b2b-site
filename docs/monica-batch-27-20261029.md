@@ -1,0 +1,3 @@
+Batch27:20 reviewed newSKUs,60images; sameSKUoriginal main and independent generatedscene/detail reference images. Sourcefacts and two-brandcopy preserved; packing50pcs RW25907 /200pcs RW002103 /100pcs others is notMOQ. Allpriorholds retained. Full sourceexport PRIVATE and excluded.
+Stage:PREPARED_NOT_PUBLISHED. Requiredrepositorychecks/CI/Previewdesktop-mobilebrowser/merge/productionREADY remain pending. Prior26 queue20ready states reconciled against mergedPR172/149 andformal546/770 catalogs.
+SKUs:RW002103,RW26454,RW26227,RW26318,RW26364,RW25907,RW26390,RW26369,RW26345,RW26348,RW26342,RW26365,RW26352,RW26420,RW5808,RW26414,RW26355,RW26431,RW26429,RW26344

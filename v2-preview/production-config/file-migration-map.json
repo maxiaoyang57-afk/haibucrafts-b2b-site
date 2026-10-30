@@ -1275,6 +1275,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw002103-pastel-round-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw002103-pastel-round-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002103-pastel-round-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26454-double-scoop-ice-cream-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26454-double-scoop-ice-cream-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26454-double-scoop-ice-cream-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26227-bread-bag-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26227-bread-bag-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26227-bread-bag-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26318-round-pink-pig-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26318-round-pink-pig-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26318-round-pink-pig-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26364-popcorn-tub-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26364-popcorn-tub-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26364-popcorn-tub-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25907-winter-penguin-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25907-winter-penguin-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25907-winter-penguin-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26390-seated-panda-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26390-seated-panda-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26390-seated-panda-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26369-shell-shaped-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26369-shell-shaped-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26369-shell-shaped-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26345-starfish-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26345-starfish-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26345-starfish-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26348-yellow-banana-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26348-yellow-banana-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26348-yellow-banana-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26342-glossy-cherry-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26342-glossy-cherry-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26342-glossy-cherry-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26365-fluted-fruit-cake-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26365-fluted-fruit-cake-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26365-fluted-fruit-cake-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26352-strawberry-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26352-strawberry-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26352-strawberry-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26420-mini-fruit-tart-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26420-mini-fruit-tart-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26420-mini-fruit-tart-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw5808-two-egg-nest-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw5808-two-egg-nest-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5808-two-egg-nest-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26414-pink-spotted-ray-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26414-pink-spotted-ray-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26414-pink-spotted-ray-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26355-woodgrain-handled-tray-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26355-woodgrain-handled-tray-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26355-woodgrain-handled-tray-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26431-strawberry-piano-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26431-strawberry-piano-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26431-strawberry-piano-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26429-bread-shaped-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26429-bread-shaped-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26429-bread-shaped-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26344-pastel-textured-starfish-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26344-pastel-textured-starfish-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26344-pastel-textured-starfish-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26625-green-ghost-hand-resin-cabochons/index.html",
       "destination": "products/resin-charms-for-slime/rw26625-green-ghost-hand-resin-cabochons/index.html",
       "action": "create",

@@ -1,0 +1,1565 @@
+{
+  "pages": [
+    "index.html",
+    "products/slime-charms-wholesale/index.html",
+    "products/polymer-clay-slices-wholesale/index.html",
+    "products/resin-charms-for-slime/index.html",
+    "products/sequins-glitter-confetti/index.html"
+  ],
+  "images": [
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10004/slm10004-halloween-skeleton-candy-corn-slime-charms-01.webp",
+      "sourceBytes": 217690,
+      "sourceSha256": "2e2f34b45fa6630fad4602706c9bd3e78f954cc85011d710b2d75e740d2d8a1d",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10004-halloween-skeleton-candy-corn-slime-charms-01-9fa73d40-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 44484
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10004-halloween-skeleton-candy-corn-slime-charms-01-9fa73d40-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 122652
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10008/slm10008-pastel-flower-slime-charms-01.webp",
+      "sourceBytes": 219500,
+      "sourceSha256": "50afacf429905b2b2bd4a3a7edab4b4541c73c629fcb6cfaa2a5d5aeff56fe21",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10008-pastel-flower-slime-charms-01-e68afebd-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 42072
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10008-pastel-flower-slime-charms-01-e68afebd-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 120836
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10009/slm10009-christmas-snowflake-santa-slime-charms-01.webp",
+      "sourceBytes": 230824,
+      "sourceSha256": "6b932a178ab5bc96627c7134350bf5c775c06adbf121c1c73e6c6a5e87637a03",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10009-christmas-snowflake-santa-slime-charms-01-e9a76cdc-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 44466
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10009-christmas-snowflake-santa-slime-charms-01-e9a76cdc-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 127928
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10010/slm10010-red-halloween-ghost-slime-charms-01.webp",
+      "sourceBytes": 187630,
+      "sourceSha256": "eb993d74c0cbf8faa467a23155a930c822c9e8f46d1bfae542593be253193c9d",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10010-red-halloween-ghost-slime-charms-01-6e202299-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 40836
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10010-red-halloween-ghost-slime-charms-01-6e202299-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 109118
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10011/slm10011-purple-halloween-skull-slime-charms-01.webp",
+      "sourceBytes": 182224,
+      "sourceSha256": "3f008f20288046633927a4ad0dd5c53f75181aa0a6d1d04d80f439ea589947c9",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10011-purple-halloween-skull-slime-charms-01-843f69dc-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 39776
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10011-purple-halloween-skull-slime-charms-01-843f69dc-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 108014
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10013/slm10013-christmas-santa-candy-slime-charms-01.webp",
+      "sourceBytes": 226276,
+      "sourceSha256": "d4aacf16c56d5bf0991f5194b3665ba9f9cc297636eb4a34466a8281506e4c57",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10013-christmas-santa-candy-slime-charms-01-73aa77c8-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 44124
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10013-christmas-santa-candy-slime-charms-01-73aa77c8-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 125574
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10014/slm10014-halloween-pumpkin-cat-slime-charms-01.webp",
+      "sourceBytes": 184522,
+      "sourceSha256": "bd98b7cea89231a1c8f975f6582dcdd0422959069584e114f502f8ea801e48c1",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10014-halloween-pumpkin-cat-slime-charms-01-3549bafd-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 40478
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10014-halloween-pumpkin-cat-slime-charms-01-3549bafd-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 109436
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10015/slm10015-christmas-peppermint-snowman-slime-charms-01.webp",
+      "sourceBytes": 203432,
+      "sourceSha256": "55fe2a5e57581b3f3d4b698b49ebb6ed628f0ec1c4258769bb98ab6afc900610",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10015-christmas-peppermint-snowman-slime-charms-01-568a743e-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 44886
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10015-christmas-peppermint-snowman-slime-charms-01-568a743e-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 118864
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/slm10019/slm10019-ocean-crab-fish-slime-charms-01.webp",
+      "sourceBytes": 187176,
+      "sourceSha256": "9e57355ffe4239e52246519fcfb339c571e9e030bb1e331eb23e967a21d18cd2",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10019-ocean-crab-fish-slime-charms-01-412c2abd-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 39262
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10019-ocean-crab-fish-slime-charms-01-412c2abd-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 106172
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-08/yx4008/yx4008-christmas-candy-polymer-clay-sprinkles-03.webp",
+      "sourceBytes": 277084,
+      "sourceSha256": "43709edfe5c1e13ad5dfd69914647a49db0d3e6073d1ad880c93e10ab34078cf",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx4008-christmas-candy-polymer-clay-sprinkles-03-bab89d4f-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 49534
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx4008-christmas-candy-polymer-clay-sprinkles-03-bab89d4f-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 139606
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/ma175/ma175-christmas-candy-cane-sequin-confetti-01.jpg",
+      "sourceBytes": 263076,
+      "sourceSha256": "f2eb763fc90968a190adbb93c587a18e5369f1e0877acb79356387677b0acd96",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/ma175-christmas-candy-cane-sequin-confetti-01-00951ce2-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 45170
+        },
+        {
+          "url": "/assets/images/responsive-20261030/ma175-christmas-candy-cane-sequin-confetti-01-00951ce2-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 111398
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/ma612/ma612-colorful-christmas-confetti-sequins-01.jpg",
+      "sourceBytes": 274352,
+      "sourceSha256": "5dc36af1a416ee37ea11e5dce3841054e1cb3884931d60333fc4357fe81eb430",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/ma612-colorful-christmas-confetti-sequins-01-e9f8491c-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 49516
+        },
+        {
+          "url": "/assets/images/responsive-20261030/ma612-colorful-christmas-confetti-sequins-01-e9f8491c-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 119170
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/rw002155/rw002155-christmas-character-resin-cabochons-01.jpg",
+      "sourceBytes": 212660,
+      "sourceSha256": "41675c1ac4a815b258f1d8acf055ee02d1e3fa04dd97d75d28d32a462d73dcf2",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw002155-christmas-character-resin-cabochons-01-ce5a520a-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 34748
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw002155-christmas-character-resin-cabochons-01-ce5a520a-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 87440
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/slm26529/slm26529-christmas-gingerbread-slime-filler-mix-01.jpg",
+      "sourceBytes": 236772,
+      "sourceSha256": "be58d07a4624b7b253b142958cfae4453cf9ab09bd6e1c04fdf31728282e5663",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm26529-christmas-gingerbread-slime-filler-mix-01-8d7f22de-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 46050
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm26529-christmas-gingerbread-slime-filler-mix-01-8d7f22de-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 107338
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/slm574/slm574-easter-slime-filler-mix-01.jpg",
+      "sourceBytes": 195033,
+      "sourceSha256": "55dfc38466fe81cd9517aa857ca480d4e3991ff1caf372eb715aba56799e80db",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm574-easter-slime-filler-mix-01-470c37f6-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 37212
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm574-easter-slime-filler-mix-01-470c37f6-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 85048
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/yx163/yx163-striped-polymer-clay-candy-canes-01.jpg",
+      "sourceBytes": 189755,
+      "sourceSha256": "45139f84afca920543e7f35e20943107691bfdc4ee4bec44311fe63c70221459",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx163-striped-polymer-clay-candy-canes-01-e312bbc7-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 34418
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx163-striped-polymer-clay-candy-canes-01-e312bbc7-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 80204
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/yx4012/yx4012-christmas-polymer-clay-sprinkle-mix-01.jpg",
+      "sourceBytes": 228143,
+      "sourceSha256": "3d8a87b8b18a775e547fa416ad09f3f61412b4aad1e3db71551a9550e22886e2",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx4012-christmas-polymer-clay-sprinkle-mix-01-34f0a2b1-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 42490
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx4012-christmas-polymer-clay-sprinkle-mix-01-34f0a2b1-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 101572
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/yx4019/yx4019-christmas-polymer-clay-sprinkles-01.jpg",
+      "sourceBytes": 207066,
+      "sourceSha256": "d9ca6681289e7784ff1da671ec68e1e49684d2a98803079a2e3cc82c7d606816",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx4019-christmas-polymer-clay-sprinkles-01-6c5f4f44-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 37974
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx4019-christmas-polymer-clay-sprinkles-01-6c5f4f44-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 90308
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/yx4057/yx4057-christmas-glitter-clay-slice-mix-01.jpg",
+      "sourceBytes": 206087,
+      "sourceSha256": "42e37caebd70e260ec7d8b39ed5d3356791d40004312841f4b124ae8b20c6492",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx4057-christmas-glitter-clay-slice-mix-01-2b73c398-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 36456
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx4057-christmas-glitter-clay-slice-mix-01-2b73c398-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 92308
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/yx4102/yx4102-christmas-clay-slice-glitter-mix-01.jpg",
+      "sourceBytes": 260892,
+      "sourceSha256": "6795f414d8c2c4e72f3ff33777a7934ba679a99b485a3f690904e459a44271d2",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx4102-christmas-clay-slice-glitter-mix-01-794416be-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 46774
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx4102-christmas-clay-slice-glitter-mix-01-794416be-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 119180
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/yx4103/yx4103-christmas-clay-rhinestone-pearl-mix-01.jpg",
+      "sourceBytes": 259764,
+      "sourceSha256": "bada777369ccdb6db151dbd889cc930fff4380fa67e9205b771e78ba553be950",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx4103-christmas-clay-rhinestone-pearl-mix-01-51520088-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 47628
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx4103-christmas-clay-rhinestone-pearl-mix-01-51520088-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 116990
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-09/yx4109/yx4109-christmas-polymer-clay-slices-01.jpg",
+      "sourceBytes": 225421,
+      "sourceSha256": "99686a47a6239c3eebf44832865402e48fdf1f2f4ed958c28f54a3064f4811b8",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx4109-christmas-polymer-clay-slices-01-8a701a9c-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 39774
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx4109-christmas-polymer-clay-slices-01-8a701a9c-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 96168
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-20/rw26819/rw26819-christmas-resin-cabochons-01.jpg",
+      "sourceBytes": 180808,
+      "sourceSha256": "280c12c86acef38760da821eb125792461a7f0ca32749b8cb6deb6204f1399e8",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26819-christmas-resin-cabochons-01-78ae8ad0-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 42646
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26819-christmas-resin-cabochons-01-78ae8ad0-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 87254
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-20/yx3150/yx3150-christmas-clay-slices-01.jpg",
+      "sourceBytes": 191006,
+      "sourceSha256": "d78dd0c647a6c3bf331fe7f7ea270165807dc07a2062ade8df63b3ba6c37651f",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx3150-christmas-clay-slices-01-8e8c797b-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 39414
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx3150-christmas-clay-slices-01-8e8c797b-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 91750
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-09-20/yx3461/yx3461-christmas-polymer-clay-slices-01.jpg",
+      "sourceBytes": 194404,
+      "sourceSha256": "ad56810b5fab9639eae5e4c489cb740e5fa42baf661e429ae8b6b5353f2623c2",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx3461-christmas-polymer-clay-slices-01-a2d65449-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 43042
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx3461-christmas-polymer-clay-slices-01-a2d65449-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 103312
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-12/rw22898/rw22898-luminous-flower-resin-flatbacks-01.jpg",
+      "sourceBytes": 201737,
+      "sourceSha256": "44299a1614188007808dfcfed0a50a4dab70b23972e18ef1891c705e7120b8e0",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw22898-luminous-flower-resin-flatbacks-01-e9fcb42a-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 30568
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw22898-luminous-flower-resin-flatbacks-01-e9fcb42a-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 85674
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/rw20946/luminous-mini-mushroom-resin-craft-figurines-01.png",
+      "sourceBytes": 909166,
+      "sourceSha256": "b861d9d80b85c2782759f8015be8048cfe418bd431bf3d746238f59d8ac106e2",
+      "width": 583,
+      "height": 564,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/luminous-mini-mushroom-resin-craft-figurines-01-39d0d089-360w.webp",
+          "width": 360,
+          "height": 348,
+          "bytes": 57482
+        },
+        {
+          "url": "/assets/images/responsive-20261030/luminous-mini-mushroom-resin-craft-figurines-01-39d0d089-583w.webp",
+          "width": 583,
+          "height": 564,
+          "bytes": 134068
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/rw21097/lip-tongue-resin-craft-charm-mix-01.png",
+      "sourceBytes": 632404,
+      "sourceSha256": "c62720c72315e6d6ba9a37b1c1692bb2610de7751242b5cff481f843bd62a687",
+      "width": 511,
+      "height": 462,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/lip-tongue-resin-craft-charm-mix-01-f06e2cca-360w.webp",
+          "width": 360,
+          "height": 325,
+          "bytes": 38636
+        },
+        {
+          "url": "/assets/images/responsive-20261030/lip-tongue-resin-craft-charm-mix-01-f06e2cca-511w.webp",
+          "width": 511,
+          "height": 462,
+          "bytes": 68766
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/rw21743/farm-themed-resin-flatback-craft-assortment-01.png",
+      "sourceBytes": 586643,
+      "sourceSha256": "da46907485e32b5c0721456b4e98bba04b2b1e56cb9847efe9dee0b49102a2b4",
+      "width": 618,
+      "height": 521,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/farm-themed-resin-flatback-craft-assortment-01-87036f9f-360w.webp",
+          "width": 360,
+          "height": 303,
+          "bytes": 19900
+        },
+        {
+          "url": "/assets/images/responsive-20261030/farm-themed-resin-flatback-craft-assortment-01-87036f9f-618w.webp",
+          "width": 618,
+          "height": 521,
+          "bytes": 39490
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/rw24359/iridescent-snowflake-resin-flatback-craft-charms-01.png",
+      "sourceBytes": 921575,
+      "sourceSha256": "072394b968f8c7d330325a32c80bc7776d6cd39afa483919c6e61a2b4803a182",
+      "width": 575,
+      "height": 606,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/iridescent-snowflake-resin-flatback-craft-charms-01-fe5b4776-360w.webp",
+          "width": 360,
+          "height": 379,
+          "bytes": 39048
+        },
+        {
+          "url": "/assets/images/responsive-20261030/iridescent-snowflake-resin-flatback-craft-charms-01-fe5b4776-575w.webp",
+          "width": 575,
+          "height": 606,
+          "bytes": 74140
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/rw24891/christmas-hat-duck-resin-miniature-charms-01.png",
+      "sourceBytes": 199414,
+      "sourceSha256": "7d75d8c596563482e7a03e728010257fd203970fb00dbf18383c63ed61f40762",
+      "width": 422,
+      "height": 373,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/christmas-hat-duck-resin-miniature-charms-01-464dd2ba-360w.webp",
+          "width": 360,
+          "height": 318,
+          "bytes": 13300
+        },
+        {
+          "url": "/assets/images/responsive-20261030/christmas-hat-duck-resin-miniature-charms-01-464dd2ba-422w.webp",
+          "width": 422,
+          "height": 373,
+          "bytes": 15332
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/rw2504-yx416/mixed-dessert-clay-resin-craft-decorations-01.png",
+      "sourceBytes": 826349,
+      "sourceSha256": "33f45cf41b073d5d39f2f6c345a02f4c7c2a4ab975c2f069dfe63575e48ceb53",
+      "width": 572,
+      "height": 484,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/mixed-dessert-clay-resin-craft-decorations-01-501db0b1-360w.webp",
+          "width": 360,
+          "height": 305,
+          "bytes": 35252
+        },
+        {
+          "url": "/assets/images/responsive-20261030/mixed-dessert-clay-resin-craft-decorations-01-501db0b1-572w.webp",
+          "width": 572,
+          "height": 484,
+          "bytes": 62882
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/rw25404/luminous-honey-jar-resin-craft-charms-01.png",
+      "sourceBytes": 1012957,
+      "sourceSha256": "3a7943fc8aeb69b46091b1693c8cdf61ae068f24a0583cdde8ec91156bbed977",
+      "width": 762,
+      "height": 739,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/luminous-honey-jar-resin-craft-charms-01-314c35de-360w.webp",
+          "width": 360,
+          "height": 349,
+          "bytes": 22620
+        },
+        {
+          "url": "/assets/images/responsive-20261030/luminous-honey-jar-resin-craft-charms-01-314c35de-640w.webp",
+          "width": 640,
+          "height": 621,
+          "bytes": 45752
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/rw404/mini-coffee-bean-resin-slime-charms-01.png",
+      "sourceBytes": 244356,
+      "sourceSha256": "4153dc46286b9a88df1cfcc079c26ea988beb4a4534bcd38864ae4c034e9aa8e",
+      "width": 448,
+      "height": 405,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/mini-coffee-bean-resin-slime-charms-01-c2e37e54-360w.webp",
+          "width": 360,
+          "height": 325,
+          "bytes": 20978
+        },
+        {
+          "url": "/assets/images/responsive-20261030/mini-coffee-bean-resin-slime-charms-01-c2e37e54-448w.webp",
+          "width": 448,
+          "height": 405,
+          "bytes": 28502
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/yx3803/pink-black-halloween-polymer-clay-mix-01.png",
+      "sourceBytes": 655719,
+      "sourceSha256": "c83f6c9a224ace1667ec12a9f466f3f4a3125167c794b8881a298a62beb2231d",
+      "width": 538,
+      "height": 503,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/pink-black-halloween-polymer-clay-mix-01-e7c225f2-360w.webp",
+          "width": 360,
+          "height": 337,
+          "bytes": 46008
+        },
+        {
+          "url": "/assets/images/responsive-20261030/pink-black-halloween-polymer-clay-mix-01-e7c225f2-538w.webp",
+          "width": 538,
+          "height": 503,
+          "bytes": 81732
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13-v2/yx3906/pastel-candy-heart-polymer-clay-slice-mix-01.png",
+      "sourceBytes": 571983,
+      "sourceSha256": "28f3422841b95a0410dd9f106009718f57200c44d5fe46b8471abb7d7300096c",
+      "width": 420,
+      "height": 449,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/pastel-candy-heart-polymer-clay-slice-mix-01-7cadd5a5-360w.webp",
+          "width": 360,
+          "height": 385,
+          "bytes": 41116
+        },
+        {
+          "url": "/assets/images/responsive-20261030/pastel-candy-heart-polymer-clay-slice-mix-01-7cadd5a5-420w.webp",
+          "width": 420,
+          "height": 449,
+          "bytes": 47712
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13/rw1112/spiral-candy-resin-flatback-cabochons-01.png",
+      "sourceBytes": 520548,
+      "sourceSha256": "2076c27f14c5b113d8841e4f55431383d4450c95e83280cf0df72b04b23d336f",
+      "width": 685,
+      "height": 668,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/spiral-candy-resin-flatback-cabochons-01-4db7f94b-360w.webp",
+          "width": 360,
+          "height": 351,
+          "bytes": 11726
+        },
+        {
+          "url": "/assets/images/responsive-20261030/spiral-candy-resin-flatback-cabochons-01-4db7f94b-640w.webp",
+          "width": 640,
+          "height": 624,
+          "bytes": 22320
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13/rw1917/dessert-resin-flatback-cabochon-mix-01.jpg",
+      "sourceBytes": 29995,
+      "sourceSha256": "f69051a604ad6762487206ea58622ab232937f9951145e11c34fefc2caf68c79",
+      "width": 680,
+      "height": 673,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/dessert-resin-flatback-cabochon-mix-01-8609e74c-360w.webp",
+          "width": 360,
+          "height": 356,
+          "bytes": 10140
+        },
+        {
+          "url": "/assets/images/responsive-20261030/dessert-resin-flatback-cabochon-mix-01-8609e74c-640w.webp",
+          "width": 640,
+          "height": 633,
+          "bytes": 18462
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-13/yx3194/rainbow-cloud-polymer-clay-sprinkle-mix-01.jpg",
+      "sourceBytes": 98820,
+      "sourceSha256": "50dbdbd5e9410a231485c9c044bec070f68745f6cf34e89f29df58d6be4ae8d9",
+      "width": 688,
+      "height": 625,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rainbow-cloud-polymer-clay-sprinkle-mix-01-f487ef6d-360w.webp",
+          "width": 360,
+          "height": 327,
+          "bytes": 43956
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rainbow-cloud-polymer-clay-sprinkle-mix-01-f487ef6d-640w.webp",
+          "width": 640,
+          "height": 581,
+          "bytes": 84866
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-16-supplement/rw25208/rhinestone-bow-resin-flatback-cabochons-01.png",
+      "sourceBytes": 263629,
+      "sourceSha256": "ff7f777e7c1d9e11239c9bc32e01451764d3566bc3236b538b78e7fb2774f7e3",
+      "width": 696,
+      "height": 684,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rhinestone-bow-resin-flatback-cabochons-01-9765938a-360w.webp",
+          "width": 360,
+          "height": 354,
+          "bytes": 35126
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rhinestone-bow-resin-flatback-cabochons-01-9765938a-640w.webp",
+          "width": 640,
+          "height": 629,
+          "bytes": 86874
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-16-supplement/rw26829/leopard-print-resin-bow-cabochons-01.png",
+      "sourceBytes": 212042,
+      "sourceSha256": "25b5a56d2dbb7baf34fa59253d472e116637868b03cefebe61b271c4dc368860",
+      "width": 748,
+      "height": 748,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/leopard-print-resin-bow-cabochons-01-32801b93-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 61444
+        },
+        {
+          "url": "/assets/images/responsive-20261030/leopard-print-resin-bow-cabochons-01-32801b93-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 152118
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/rw26099/rw26099-bear-star-and-dog-resin-cabochons-01.jpg",
+      "sourceBytes": 204996,
+      "sourceSha256": "4e05a7cb7771a20c125755cbdb979fe0993443353a81d39585736d2ccd5bbd06",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26099-bear-star-and-dog-resin-cabochons-01-5ed3a9c5-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 12182
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26099-bear-star-and-dog-resin-cabochons-01-5ed3a9c5-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 30090
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/rw26716/rw26716-lemon-fruit-resin-cabochons-01.jpg",
+      "sourceBytes": 236781,
+      "sourceSha256": "19f4f1efb86f3dba11d07cfc0b0611bea20dc999f73f6bc98a629d3af926b288",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26716-lemon-fruit-resin-cabochons-01-237d07f0-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 21264
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26716-lemon-fruit-resin-cabochons-01-237d07f0-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 51756
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/rw26717/rw26717-sleeping-cat-resin-cabochons-01.jpg",
+      "sourceBytes": 190174,
+      "sourceSha256": "1a0bdcd65b0640a3d8f2fb99c1803146f402af84c8bb0cf09b0e1607b014800e",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26717-sleeping-cat-resin-cabochons-01-479e1a44-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 18942
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26717-sleeping-cat-resin-cabochons-01-479e1a44-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 40354
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/rw26718/rw26718-chocolate-bowl-dessert-resin-cabochons-01.jpg",
+      "sourceBytes": 269525,
+      "sourceSha256": "ebf44c15577fd1d60a42feb08daf1f0064ff4e9807bc1002e5e7ff483a508e0d",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26718-chocolate-bowl-dessert-resin-cabochons-01-27fb3980-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 25656
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26718-chocolate-bowl-dessert-resin-cabochons-01-27fb3980-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 65230
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/rw26719/rw26719-colorful-candy-resin-cabochons-01.jpg",
+      "sourceBytes": 245238,
+      "sourceSha256": "1b007b62b5c609f8574bb16b8c4da4ae45a03b39db0cf561e68055037743ae68",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26719-colorful-candy-resin-cabochons-01-4d125122-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 23224
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26719-colorful-candy-resin-cabochons-01-4d125122-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 57012
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/rw26722/rw26722-ladybug-on-leaf-resin-charms-01.jpg",
+      "sourceBytes": 207209,
+      "sourceSha256": "66e46f65974018fb04005024f149c271a89922394ef2b076808ce46801535f63",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26722-ladybug-on-leaf-resin-charms-01-41c12686-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 19788
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26722-ladybug-on-leaf-resin-charms-01-41c12686-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 44750
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/rw26723/rw26723-artist-palette-and-paint-brush-resin-charms-01.jpg",
+      "sourceBytes": 217787,
+      "sourceSha256": "1fef737f6fcb83d15ca508544445a9fc18fc06aa8fb399ea1cf74227661c16b4",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26723-artist-palette-and-paint-brush-resin-charms-01-8b56248c-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 14086
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26723-artist-palette-and-paint-brush-resin-charms-01-8b56248c-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 39386
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/slm10009-1/slm10009-1-christmas-slime-decoration-sprinkles-mix-01.jpg",
+      "sourceBytes": 444220,
+      "sourceSha256": "e46ce2e310681218a8ecc321406b9bd17a30e6363c7b45b2b2c8134eae2ccb48",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10009-1-christmas-slime-decoration-sprinkles-mix-01-59a95198-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 50014
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10009-1-christmas-slime-decoration-sprinkles-mix-01-59a95198-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 132538
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/slm10058/slm10058-sea-theme-slime-decoration-mix-01.jpg",
+      "sourceBytes": 358163,
+      "sourceSha256": "b19f7d476d95455672619dd782ead9a3850f6f0af92daeb9d3b038da1ec34047",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10058-sea-theme-slime-decoration-mix-01-74f2adcd-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 36038
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10058-sea-theme-slime-decoration-mix-01-74f2adcd-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 93808
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/slm10060/slm10060-valentine-rose-heart-and-lip-slime-decoration-mix-01.jpg",
+      "sourceBytes": 447667,
+      "sourceSha256": "e5b141ec1bd838246619ebe487b44710ec7378dd9d1d384921598cbc8e47d093",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm10060-valentine-rose-heart-and-lip-slime-decoration-mix-01-217db3ee-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 49952
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm10060-valentine-rose-heart-and-lip-slime-decoration-mix-01-217db3ee-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 132170
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/slm600/slm600-slime-decoration-kit-with-tools-and-containers-01.jpg",
+      "sourceBytes": 194885,
+      "sourceSha256": "06540bbab2d24e9fcdb4c1b7ca0cf27b10e6e892f5cf35ad3c82b89c479ae8a9",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm600-slime-decoration-kit-with-tools-and-containers-01-4904ea55-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 29908
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm600-slime-decoration-kit-with-tools-and-containers-01-4904ea55-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 82322
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/slm612/slm612-mermaid-tail-and-pearl-slime-decoration-mix-01.jpg",
+      "sourceBytes": 182067,
+      "sourceSha256": "999801ee52db5b78e2774ada2a7d0db80b902d90a4afa71c3d5f369cdb33396a",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm612-mermaid-tail-and-pearl-slime-decoration-mix-01-fd8246ce-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 32668
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm612-mermaid-tail-and-pearl-slime-decoration-mix-01-fd8246ce-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 80336
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-2026-10-26-monica/slm613/slm613-butterfly-and-lollipop-slime-decoration-mix-01.jpg",
+      "sourceBytes": 208425,
+      "sourceSha256": "4c90e6d6a69d35cb76c4a440162951af3e1e93775871ea69539d25695706c35b",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/slm613-butterfly-and-lollipop-slime-decoration-mix-01-96df13d1-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 35174
+        },
+        {
+          "url": "/assets/images/responsive-20261030/slm613-butterfly-and-lollipop-slime-decoration-mix-01-96df13d1-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 85858
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261027-monica-01/rw0020648/rw0020648-mini-toast-slice-resin-cabochons-01.jpg",
+      "sourceBytes": 205695,
+      "sourceSha256": "52cb053a206e1caf445d72f596d41e43cc00825b279aa7e452910c7c8eee0c99",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw0020648-mini-toast-slice-resin-cabochons-01-8dc8d675-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 28718
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw0020648-mini-toast-slice-resin-cabochons-01-8dc8d675-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 81356
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-05/rw26633/rw26633-mini-toast-resin-cabochons-01.jpg",
+      "sourceBytes": 214814,
+      "sourceSha256": "7b03b71986bb39c162d63f18507906d2b039abfdc5018a61090293818b32cb99",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26633-mini-toast-resin-cabochons-01-bc07ca39-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 25180
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26633-mini-toast-resin-cabochons-01-bc07ca39-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 72318
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-08/rw25575/rw25575-glitter-bow-resin-cabochons-01.jpg",
+      "sourceBytes": 280299,
+      "sourceSha256": "d6a54e96a4ed9da527b05f95836a1f2f634bfa56fe97e74ae882e37b64eb3c99",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw25575-glitter-bow-resin-cabochons-01-549d6807-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 43342
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw25575-glitter-bow-resin-cabochons-01-549d6807-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 124220
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-08/rw4287/rw4287-colorful-doughnut-resin-cabochons-01.jpg",
+      "sourceBytes": 236017,
+      "sourceSha256": "ccff572e95207dfefa7aa78d167c67a7c1868a714a734a17f6cb02192d5e23cc",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw4287-colorful-doughnut-resin-cabochons-01-7eac27fb-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 38904
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw4287-colorful-doughnut-resin-cabochons-01-7eac27fb-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 111348
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-09/rw004514/rw004514-spotted-butterfly-resin-cabochons-01.jpg",
+      "sourceBytes": 201823,
+      "sourceSha256": "ec4dc9995c7eb5f6e9f63e1d8fb71eb04c35232e1c8186729a3ec614cc8c7269",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw004514-spotted-butterfly-resin-cabochons-01-de3b4549-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 29066
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw004514-spotted-butterfly-resin-cabochons-01-de3b4549-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 77144
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-10/rw23542/rw23542-mini-seal-resin-figurines-01.jpg",
+      "sourceBytes": 236330,
+      "sourceSha256": "094a8c653e545c111ea4b0b4159f1d84dde5d1eec37f0bf54043a12b29926599",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw23542-mini-seal-resin-figurines-01-84fc9903-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 17584
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw23542-mini-seal-resin-figurines-01-84fc9903-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 92612
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-10/rw25644/rw25644-pastel-ocean-resin-cabochons-01.jpg",
+      "sourceBytes": 218228,
+      "sourceSha256": "59f8ce205cc6060c01591fcd3649946788b31f157363d0d0dd585ad480528426",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw25644-pastel-ocean-resin-cabochons-01-e45310c3-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 31728
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw25644-pastel-ocean-resin-cabochons-01-e45310c3-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 94694
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-13/rw26367/rw26367-christmas-cushion-resin-cabochons-01.jpg",
+      "sourceBytes": 192988,
+      "sourceSha256": "be1762b1a46d1ce9d81e4c686d877992eb0d342e10a62107011223f1a26fd5fe",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26367-christmas-cushion-resin-cabochons-01-81f7d562-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 25026
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26367-christmas-cushion-resin-cabochons-01-81f7d562-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 67230
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-15/rw26520/rw26520-pink-tulip-bouquet-resin-cabochons-01.jpg",
+      "sourceBytes": 380794,
+      "sourceSha256": "fbc22ab4ccfa20855c68adb8bd1afe5169c3c6635ae7c3ca7cb0013995362ef3",
+      "width": 1000,
+      "height": 1333,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw26520-pink-tulip-bouquet-resin-cabochons-01-7e03a839-360w.webp",
+          "width": 360,
+          "height": 480,
+          "bytes": 78238
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw26520-pink-tulip-bouquet-resin-cabochons-01-7e03a839-640w.webp",
+          "width": 640,
+          "height": 853,
+          "bytes": 197460
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261028-monica-19/rw25591/rw25591-iridescent-shell-resin-cabochons-01.jpg",
+      "sourceBytes": 310606,
+      "sourceSha256": "2ae2e2f435e636e9975a30d9849cbcdb28f07b35ff104bf37f26d96036e9f95d",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw25591-iridescent-shell-resin-cabochons-01-4c0f7526-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 41948
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw25591-iridescent-shell-resin-cabochons-01-4c0f7526-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 138264
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261029-monica-26/rw25451/rw25451-carrot-resin-cabochons-01.jpg",
+      "sourceBytes": 483461,
+      "sourceSha256": "862d12535fd73eb594fd9b56c4472b5cf3beb467156e55b78deb3f268f4af481",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw25451-carrot-resin-cabochons-01-32d2af58-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 70202
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw25451-carrot-resin-cabochons-01-32d2af58-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 214906
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/batch-20261029-monica-26/rw25888/rw25888-pearl-shell-resin-cabochons-01.jpg",
+      "sourceBytes": 271902,
+      "sourceSha256": "fedd10ba6b9a4dcc334286ad8c7bfe42a986a31a47e9648d3e2ccc6aa7abaf43",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/rw25888-pearl-shell-resin-cabochons-01-5a39bffd-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 40812
+        },
+        {
+          "url": "/assets/images/responsive-20261030/rw25888-pearl-shell-resin-cabochons-01-5a39bffd-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 121500
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/glitter-cherry-resin-charms.webp",
+      "sourceBytes": 34790,
+      "sourceSha256": "803c6e3aef08aa63b2213f37e8616196c710b83c7529f66b5150df5190d2e5cf",
+      "width": 800,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/glitter-cherry-resin-charms-a0600744-360w.webp",
+          "width": 360,
+          "height": 450,
+          "bytes": 16890
+        },
+        {
+          "url": "/assets/images/products/glitter-cherry-resin-charms.webp",
+          "width": 800,
+          "height": 1000,
+          "bytes": 34790
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/holographic-hollow-star-sequins.webp",
+      "sourceBytes": 183390,
+      "sourceSha256": "74bf1a2fdd848c8f5a7b78877e32c89ba51cabf1692d2bd9189c0ba0b073106b",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/holographic-hollow-star-sequins-3719ed86-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 46818
+        },
+        {
+          "url": "/assets/images/responsive-20261030/holographic-hollow-star-sequins-3719ed86-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 126266
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/pastel-mini-heart-sequins.webp",
+      "sourceBytes": 190348,
+      "sourceSha256": "4b9c6ffab4d1df91bc8b51ad4c28559bb334dd9ea7b658c756e96b5c4469888a",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/pastel-mini-heart-sequins-07aa594f-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 50822
+        },
+        {
+          "url": "/assets/images/responsive-20261030/pastel-mini-heart-sequins-07aa594f-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 138996
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/sc017-gingerbread-holiday-charm-feast.webp",
+      "sourceBytes": 188804,
+      "sourceSha256": "0a228c97e672339aaae88b4856d6fd33a5860a4bec4345bf8d9cd00d5e019046",
+      "width": 1000,
+      "height": 1000,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/sc017-gingerbread-holiday-charm-feast-b97c5d01-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 55340
+        },
+        {
+          "url": "/assets/images/responsive-20261030/sc017-gingerbread-holiday-charm-feast-b97c5d01-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 141352
+        }
+      ]
+    },
+    {
+      "source": "/assets/images/products/yx043-main.webp",
+      "sourceBytes": 104074,
+      "sourceSha256": "0b7459552ee8c0a9b04ca7eda1733806edbb02b2459dbcc57de991b8353f959c",
+      "width": 1254,
+      "height": 1254,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/yx043-main-8731c275-360w.webp",
+          "width": 360,
+          "height": 360,
+          "bytes": 31394
+        },
+        {
+          "url": "/assets/images/responsive-20261030/yx043-main-8731c275-640w.webp",
+          "width": 640,
+          "height": 640,
+          "bytes": 66626
+        }
+      ]
+    },
+    {
+      "source": "/assets/v2/facility/production-workshop.webp",
+      "sourceBytes": 177740,
+      "sourceSha256": "59231c2da127385a1a69dd79c1ced9177be3e9960bfd9df0556d3d00ccb74ab2",
+      "width": 1600,
+      "height": 900,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/production-workshop-722da574-360w.webp",
+          "width": 360,
+          "height": 202,
+          "bytes": 22742
+        },
+        {
+          "url": "/assets/images/responsive-20261030/production-workshop-722da574-640w.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 57194
+        }
+      ]
+    },
+    {
+      "source": "/assets/v2/packing/bagged-resin-components.webp",
+      "sourceBytes": 125982,
+      "sourceSha256": "aba1f16a396310afe38ad1e35da3b75f8dd644ec313393ad97f1f90029781512",
+      "width": 1000,
+      "height": 667,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/bagged-resin-components-74660ae7-360w.webp",
+          "width": 360,
+          "height": 240,
+          "bytes": 21340
+        },
+        {
+          "url": "/assets/images/responsive-20261030/bagged-resin-components-74660ae7-640w.webp",
+          "width": 640,
+          "height": 427,
+          "bytes": 57770
+        }
+      ]
+    },
+    {
+      "source": "/assets/v2/packing/sealed-strapped-shipping-cartons.jpg",
+      "sourceBytes": 28068,
+      "sourceSha256": "b233957b7341f9bebe58d7af7b7a61e62132de00d1cc212b238f8766e01eb9c0",
+      "width": 500,
+      "height": 375,
+      "variants": [
+        {
+          "url": "/assets/images/responsive-20261030/sealed-strapped-shipping-cartons-9151cf89-360w.webp",
+          "width": 360,
+          "height": 270,
+          "bytes": 13406
+        },
+        {
+          "url": "/assets/images/responsive-20261030/sealed-strapped-shipping-cartons-9151cf89-500w.webp",
+          "width": 500,
+          "height": 375,
+          "bytes": 21346
+        }
+      ]
+    }
+  ]
+}

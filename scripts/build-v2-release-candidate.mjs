@@ -1,6 +1,7 @@
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import { responsiveImageMarkup } from './responsive-image-markup.mjs';
 
 const root = process.cwd();
 const sourceRoot = path.join(root, 'v2-preview');
@@ -69,6 +70,7 @@ function replacePaths(content) {
   for (const [from, to] of encodedReplacements) next = next.replaceAll(from, to);
   return next
     .replaceAll('/v2-preview/', '/')
+    .replace(/(\/assets\/v2\/components\.js)(?:\?[^"'<>\s]*)?(?=["'])/g, '$1?v=20261030-mobile-browse')
     .replace("const ASSET_ROOT = ROOT === '/' ? '/assets/v2/' : `${ROOT}assets/`;", "const ASSET_ROOT = '/assets/v2/';")
     .replace(/preview structure/gi, 'production site')
     .replace(/[ \t]+$/gm, '');
@@ -102,7 +104,7 @@ function applyProductionMetadata(html, route, { canonical = true } = {}) {
     next = next.replace('</head>', `<meta property="og:title" content="${route.title}"><meta property="og:description" content="${route.description}"><meta property="og:type" content="${route.type}"><meta property="og:url" content="${canonicalUrl}"></head>`);
   }
   next = next.replace('</head>', `<meta property="og:image" content="${brandImageUrl}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="HAIBUCRAFT creative craft components supplier brand mark"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${route.title}"><meta name="twitter:description" content="${route.description}"><meta name="twitter:image" content="${brandImageUrl}"><meta name="twitter:image:alt" content="HAIBUCRAFT creative craft components supplier brand mark"></head>`);
-  return replacePaths(next);
+  return responsiveImageMarkup(replacePaths(next), route.productionPath);
 }
 
 for (const route of seoMap.routes) {

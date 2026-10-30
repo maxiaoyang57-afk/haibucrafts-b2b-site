@@ -63,6 +63,7 @@
 
   const applyFilters = () => {
     const query = (searchInput?.value || '').trim().toLowerCase();
+    if(productGrid)productGrid.dataset.mobileUnpaged=String(!!query || activeFilter !== 'all');
     let visible = 0;
     cards.forEach((card) => {
       const sku = card.querySelector('.sku-badge')?.textContent?.trim() || '';
@@ -162,11 +163,11 @@
 
     imageButton.addEventListener('click', () => {
       if (typeof imageDialog.showModal !== 'function') {
-        window.open(image.currentSrc || image.src, '_blank', 'noopener');
+        window.open(image.src || image.currentSrc, '_blank', 'noopener');
         return;
       }
       if (dialogImage) {
-        dialogImage.src = image.currentSrc || image.src;
+        dialogImage.src = image.src || image.currentSrc;
         dialogImage.alt = image.alt;
       }
       if (dialogSku) dialogSku.textContent = sku;

@@ -445,3 +445,11 @@
     protectedContent.forEach((target) => contentObserver.observe(target));
   }
 })();
+
+// Enhance phone catalogs only; all source cards remain available without scripts.
+(() => {
+ if(!document.querySelector('.home-product-grid,[data-product-search]'))return;
+ const base=location.pathname.startsWith('/v2-preview/')?'/v2-preview/assets/':'/assets/v2/';
+ const css=document.createElement('link');css.rel='stylesheet';css.href=base+'mobile-browse.css?v=20261030-browse';document.head.appendChild(css);
+ const js=document.createElement('script');js.src=base+'mobile-browse.js?v=20261030-browse';document.body.appendChild(js);
+})();

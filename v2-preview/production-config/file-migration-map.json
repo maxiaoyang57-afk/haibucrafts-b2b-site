@@ -92,6 +92,125 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/blog/craft-supply-reorder-version-control/index.html",
+      "destination": "blog/craft-supply-reorder-version-control/index.html",
+      "action": "create",
+      "productionPath": "/blog/craft-supply-reorder-version-control/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/craft-supply-piece-count-net-weight/index.html",
+      "destination": "blog/craft-supply-piece-count-net-weight/index.html",
+      "action": "create",
+      "productionPath": "/blog/craft-supply-piece-count-net-weight/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/custom-resin-polymer-clay-development-process/index.html",
+      "destination": "blog/custom-resin-polymer-clay-development-process/index.html",
+      "action": "create",
+      "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/how-to-prepare-a-wholesale-product-brief/index.html",
+      "destination": "blog/how-to-prepare-a-wholesale-product-brief/index.html",
+      "action": "create",
+      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/sample-approval-checklist/index.html",
+      "destination": "blog/sample-approval-checklist/index.html",
+      "action": "create",
+      "productionPath": "/blog/sample-approval-checklist/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/packaging-quality-checkpoints/index.html",
+      "destination": "blog/packaging-quality-checkpoints/index.html",
+      "action": "create",
+      "productionPath": "/blog/packaging-quality-checkpoints/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/planning-a-mixed-sku-wholesale-order/index.html",
+      "destination": "blog/planning-a-mixed-sku-wholesale-order/index.html",
+      "action": "create",
+      "productionPath": "/blog/planning-a-mixed-sku-wholesale-order/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/private-label-packaging-brief/index.html",
+      "destination": "blog/private-label-packaging-brief/index.html",
+      "action": "create",
+      "productionPath": "/blog/private-label-packaging-brief/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/craft-product-document-checklist/index.html",
+      "destination": "blog/craft-product-document-checklist/index.html",
+      "action": "create",
+      "productionPath": "/blog/craft-product-document-checklist/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/pre-shipment-inspection-checklist/index.html",
+      "destination": "blog/pre-shipment-inspection-checklist/index.html",
+      "action": "create",
+      "productionPath": "/blog/pre-shipment-inspection-checklist/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/how-to-compare-wholesale-craft-suppliers/index.html",
+      "destination": "blog/how-to-compare-wholesale-craft-suppliers/index.html",
+      "action": "create",
+      "productionPath": "/blog/how-to-compare-wholesale-craft-suppliers/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/polymer-clay-slice-buying-guide/index.html",
+      "destination": "blog/polymer-clay-slice-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/polymer-clay-slice-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/resin-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/resin-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/resin-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/seasonal-craft-assortment-planning/index.html",
+      "destination": "blog/seasonal-craft-assortment-planning/index.html",
+      "action": "create",
+      "productionPath": "/blog/seasonal-craft-assortment-planning/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/halloween-slime-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/halloween-slime-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/halloween-slime-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/christmas-slime-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/christmas-slime-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/christmas-slime-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/amazon-fba-craft-supplies-sourcing-checklist/index.html",
+      "destination": "blog/amazon-fba-craft-supplies-sourcing-checklist/index.html",
+      "action": "create",
+      "productionPath": "/blog/amazon-fba-craft-supplies-sourcing-checklist/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx3301-monkey-banana-polymer-clay-sprinkles/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3301-monkey-banana-polymer-clay-sprinkles/index.html",
       "action": "create",
@@ -1216,6 +1335,146 @@
       "destination": "products/resin-charms-for-slime/rw26226-bowknot-bread-resin-cabochons/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw26226-bowknot-bread-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26021-animal-motif-miniature-resin-pans/index.html",
+      "destination": "products/resin-charms-for-slime/rw26021-animal-motif-miniature-resin-pans/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26021-animal-motif-miniature-resin-pans/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26387-heart-shaped-resin-miniature-baskets/index.html",
+      "destination": "products/resin-charms-for-slime/rw26387-heart-shaped-resin-miniature-baskets/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26387-heart-shaped-resin-miniature-baskets/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26645-bear-shaped-resin-miniature-basket-plates/index.html",
+      "destination": "products/resin-charms-for-slime/rw26645-bear-shaped-resin-miniature-basket-plates/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26645-bear-shaped-resin-miniature-basket-plates/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26519-1-pink-pineapple-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26519-1-pink-pineapple-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26519-1-pink-pineapple-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26521-1-holly-leaf-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26521-1-holly-leaf-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26521-1-holly-leaf-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26517-1-strawberry-rabbit-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26517-1-strawberry-rabbit-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26517-1-strawberry-rabbit-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26518-1-heart-holding-bear-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26518-1-heart-holding-bear-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26518-1-heart-holding-bear-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26529-gingerbread-figure-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26529-gingerbread-figure-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26529-gingerbread-figure-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004682-assorted-food-motif-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw004682-assorted-food-motif-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004682-assorted-food-motif-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw003309-colorful-butterfly-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw003309-colorful-butterfly-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003309-colorful-butterfly-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26658-round-resin-miniature-basket-plates/index.html",
+      "destination": "products/resin-charms-for-slime/rw26658-round-resin-miniature-basket-plates/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26658-round-resin-miniature-basket-plates/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25009-assorted-halloween-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25009-assorted-halloween-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25009-assorted-halloween-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26506-flower-novelty-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26506-flower-novelty-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26506-flower-novelty-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26377-miniature-jar-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/rw26377-miniature-jar-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26377-miniature-jar-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26306-banana-motif-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26306-banana-motif-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26306-banana-motif-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26336-apple-flower-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26336-apple-flower-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26336-apple-flower-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25990-ocean-motif-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25990-ocean-motif-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25990-ocean-motif-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22225-peanut-food-motif-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw22225-peanut-food-motif-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22225-peanut-food-motif-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26322-cat-top-miniature-resin-mugs/index.html",
+      "destination": "products/resin-charms-for-slime/rw26322-cat-top-miniature-resin-mugs/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26322-cat-top-miniature-resin-mugs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26337-bow-accented-pink-resin-pig-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw26337-bow-accented-pink-resin-pig-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26337-bow-accented-pink-resin-pig-miniatures/",
       "generatedProduct": true
     },
     {
@@ -4752,125 +5011,6 @@
       "action": "create",
       "productionPath": "/products/decorative-craft-accessories/ym233-miniature-plastic-bamboo-stems/",
       "generatedProduct": true
-    },
-    {
-      "source": "v2-preview/blog/craft-supply-reorder-version-control/index.html",
-      "destination": "blog/craft-supply-reorder-version-control/index.html",
-      "action": "create",
-      "productionPath": "/blog/craft-supply-reorder-version-control/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/craft-supply-piece-count-net-weight/index.html",
-      "destination": "blog/craft-supply-piece-count-net-weight/index.html",
-      "action": "create",
-      "productionPath": "/blog/craft-supply-piece-count-net-weight/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/custom-resin-polymer-clay-development-process/index.html",
-      "destination": "blog/custom-resin-polymer-clay-development-process/index.html",
-      "action": "create",
-      "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/how-to-prepare-a-wholesale-product-brief/index.html",
-      "destination": "blog/how-to-prepare-a-wholesale-product-brief/index.html",
-      "action": "create",
-      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/sample-approval-checklist/index.html",
-      "destination": "blog/sample-approval-checklist/index.html",
-      "action": "create",
-      "productionPath": "/blog/sample-approval-checklist/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/packaging-quality-checkpoints/index.html",
-      "destination": "blog/packaging-quality-checkpoints/index.html",
-      "action": "create",
-      "productionPath": "/blog/packaging-quality-checkpoints/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/planning-a-mixed-sku-wholesale-order/index.html",
-      "destination": "blog/planning-a-mixed-sku-wholesale-order/index.html",
-      "action": "create",
-      "productionPath": "/blog/planning-a-mixed-sku-wholesale-order/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/private-label-packaging-brief/index.html",
-      "destination": "blog/private-label-packaging-brief/index.html",
-      "action": "create",
-      "productionPath": "/blog/private-label-packaging-brief/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/craft-product-document-checklist/index.html",
-      "destination": "blog/craft-product-document-checklist/index.html",
-      "action": "create",
-      "productionPath": "/blog/craft-product-document-checklist/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/pre-shipment-inspection-checklist/index.html",
-      "destination": "blog/pre-shipment-inspection-checklist/index.html",
-      "action": "create",
-      "productionPath": "/blog/pre-shipment-inspection-checklist/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/how-to-compare-wholesale-craft-suppliers/index.html",
-      "destination": "blog/how-to-compare-wholesale-craft-suppliers/index.html",
-      "action": "create",
-      "productionPath": "/blog/how-to-compare-wholesale-craft-suppliers/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/polymer-clay-slice-buying-guide/index.html",
-      "destination": "blog/polymer-clay-slice-buying-guide/index.html",
-      "action": "create",
-      "productionPath": "/blog/polymer-clay-slice-buying-guide/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/resin-charms-wholesale-buying-guide/index.html",
-      "destination": "blog/resin-charms-wholesale-buying-guide/index.html",
-      "action": "create",
-      "productionPath": "/blog/resin-charms-wholesale-buying-guide/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/seasonal-craft-assortment-planning/index.html",
-      "destination": "blog/seasonal-craft-assortment-planning/index.html",
-      "action": "create",
-      "productionPath": "/blog/seasonal-craft-assortment-planning/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/halloween-slime-charms-wholesale-buying-guide/index.html",
-      "destination": "blog/halloween-slime-charms-wholesale-buying-guide/index.html",
-      "action": "create",
-      "productionPath": "/blog/halloween-slime-charms-wholesale-buying-guide/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/christmas-slime-charms-wholesale-buying-guide/index.html",
-      "destination": "blog/christmas-slime-charms-wholesale-buying-guide/index.html",
-      "action": "create",
-      "productionPath": "/blog/christmas-slime-charms-wholesale-buying-guide/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/amazon-fba-craft-supplies-sourcing-checklist/index.html",
-      "destination": "blog/amazon-fba-craft-supplies-sourcing-checklist/index.html",
-      "action": "create",
-      "productionPath": "/blog/amazon-fba-craft-supplies-sourcing-checklist/",
-      "generatedBlog": true
     },
     {
       "source": "v2-preview/quote/index.html",

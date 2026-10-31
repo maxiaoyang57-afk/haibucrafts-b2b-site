@@ -10,11 +10,12 @@ const october17 = JSON.parse(await readFile('scripts/data/haibu-new-products-202
 const october18 = JSON.parse(await readFile('scripts/data/haibu-new-products-20261018.json', 'utf8'));
 const eveningSkus = new Set([...evening.products, ...october17.products, ...october18.products, ...[...addedSupplementSkus].map(sku=>({sku}))].map(p => p.sku));
 const catalog = JSON.parse(await readFile('assets/v2/product-catalog.json', 'utf8'));
+const historicalProducts = [...catalog.products, ...(catalog.archivedProducts || [])];
 test('supplement preserves all previous identities and connects exact source SKUs, galleries and inquiries', async () => {
   const selected = new Set(batch.products.map(p => p.sku));
   assert.equal(selected.size, 11);
-  assert.equal(catalog.count, manifest.catalogCountBefore + selected.size + eveningSkus.size);
-  assert.deepEqual(catalog.products.map(priorMedia).filter(p => !selected.has(p.sku) && !eveningSkus.has(p.sku)), manifest.previousProducts);
+  assert.equal(historicalProducts.length, manifest.catalogCountBefore + selected.size + eveningSkus.size);
+  assert.deepEqual(historicalProducts.map(priorMedia).filter(p => !selected.has(p.sku) && !eveningSkus.has(p.sku)), manifest.previousProducts);
   for (const record of manifest.products) {
     const source = batch.products.find(p => p.sku === record.sku);
     if(record.sku!=='RW22135') assert.deepEqual(source.sourceFields, record.sourceFields);

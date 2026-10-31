@@ -17,7 +17,7 @@ const escapeHtml = (value) => value
 test('all catalog products have linked detail pages and SEO routes', async () => {
   const catalog = JSON.parse(await readFile(path.join(previewRoot, 'assets', 'product-catalog.json'), 'utf8'));
   const seoMap = JSON.parse(await readFile(path.join(previewRoot, 'seo-production-map.json'), 'utf8'));
-  const generatedRoutes = seoMap.routes.filter((route) => route.generatedProduct);
+  const generatedRoutes = seoMap.routes.filter((route) => route.generatedProduct && !route.archivedCatalogReference);
 
   assert.equal(catalog.count, EXPECTED_TOTAL);
   assert.equal(catalog.products.length, EXPECTED_TOTAL);
@@ -49,9 +49,7 @@ test('all catalog products have linked detail pages and SEO routes', async () =>
     'polymer-clay-slices',
     'slime-charms',
     'resin-charms',
-    'sequins-glitter-confetti',
-    'keychain',
-    'decorative-craft-accessories'
+    'sequins-glitter-confetti'
   ];
   let linkedCards = 0;
   for (const category of categoryPages) {

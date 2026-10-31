@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 686,
+  "count": 682,
   "products": [
     {
       "sku": "YX3301",
@@ -10064,7 +10064,9 @@
       ],
       "previewPath": "/v2-preview/products/sequins-glitter-confetti/ma612-wholesale-500-g-colorful-round-christmas-confetti-sequins-for-party-craft-new-year-d-cor/",
       "productionPath": "/products/sequins-glitter-confetti/ma612-wholesale-500-g-colorful-round-christmas-confetti-sequins-for-party-craft-new-year-d-cor/"
-    },
+    }
+  ],
+  "archivedProducts": [
     {
       "sku": "CDK5001-2",
       "title": "Metal Split Key Rings with Chain and Lobster Clasp",
@@ -10125,5 +10127,6 @@
       "previewPath": "/v2-preview/products/decorative-craft-accessories/ym233-miniature-plastic-bamboo-stems/",
       "productionPath": "/products/decorative-craft-accessories/ym233-miniature-plastic-bamboo-stems/"
     }
-  ]
+  ],
+  "archiveNote": "Archived records retain source identity and URLs but are excluded from the public catalog and sitemap."
 }

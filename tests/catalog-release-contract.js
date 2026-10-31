@@ -13,10 +13,13 @@ const sourceName = release.batchId.replace('haibu-products-', 'product-plan-') +
 const plan = JSON.parse(readFileSync(new URL('../scripts/data/' + sourceName, import.meta.url), 'utf8'));
 const expected = new Map(release.previousProducts.map(product => [product.sku, product.category]));
 for (const product of plan.filter(product => product.haibu)) expected.set(product.sku, product.haibuCategory);
+const archive = JSON.parse(readFileSync(new URL('../scripts/data/catalog-scope-20261031.json', import.meta.url), 'utf8'));
+const originalTotal = expected.size;
+for (const p of archive.products) expected.delete(p.sku);
 export const EXPECTED_TOTAL = expected.size;
 export const EXPECTED_RESIN = [...expected.values()].filter(category => category === 'resin-charms').length;
 export const EXPECTED_POLYMER = [...expected.values()].filter(category => category === 'polymer-clay-slices').length;
 export const EXPECTED_SLIME = [...expected.values()].filter(category => category === 'slime-charms').length;
-assert.equal(EXPECTED_TOTAL, release.catalogCountAfter, 'Manifest count must agree with source SKU identities');
+assert.equal(originalTotal, release.catalogCountAfter, 'Manifest count must agree with source SKU identities');
 
 export const EXPECTED_CATEGORIES = [...new Set(expected.values())];

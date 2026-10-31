@@ -6974,8 +6974,9 @@
       "description": "Wholesale Metal Split Key Rings with Chain and Lobster Clasp (CDK5001-2). Review dimensions and reference packing; discuss selection and OEM packing.",
       "type": "website",
       "lastModified": "2026-10-31",
-      "index": true,
-      "generatedProduct": true
+      "index": false,
+      "generatedProduct": true,
+      "archivedCatalogReference": true
     },
     {
       "previewPath": "/v2-preview/products/keychain/cdk001890-fruit-resin-keychains/",
@@ -6984,8 +6985,9 @@
       "description": "Wholesale Fruit Resin Keychains (CDK001890). Review dimensions and reference packing; discuss selection and OEM packing.",
       "type": "website",
       "lastModified": "2026-10-31",
-      "index": true,
-      "generatedProduct": true
+      "index": false,
+      "generatedProduct": true,
+      "archivedCatalogReference": true
     },
     {
       "previewPath": "/v2-preview/products/decorative-craft-accessories/ym355-decorative-plastic-plant-sprigs/",
@@ -6994,8 +6996,9 @@
       "description": "Wholesale Decorative Plastic Plant Sprigs (YM355). Review dimensions and reference packing; discuss selection and OEM packing.",
       "type": "website",
       "lastModified": "2026-10-31",
-      "index": true,
-      "generatedProduct": true
+      "index": false,
+      "generatedProduct": true,
+      "archivedCatalogReference": true
     },
     {
       "previewPath": "/v2-preview/products/decorative-craft-accessories/ym233-miniature-plastic-bamboo-stems/",
@@ -7004,8 +7007,9 @@
       "description": "YM233 plastic bamboo model stems for bulk decorative craft selection. Confirm selected length within the source range and packaging brief.",
       "type": "website",
       "lastModified": "2026-10-31",
-      "index": true,
-      "generatedProduct": true
+      "index": false,
+      "generatedProduct": true,
+      "archivedCatalogReference": true
     },
     {
       "previewPath": "/v2-preview/blog/craft-supply-reorder-version-control/",
@@ -7350,8 +7354,9 @@
       "title": "Keychains & Components Wholesale | HAIBUCRAFT",
       "description": "Compare key rings, chains, clasps and resin keychains by SKU for bulk selection and packing.",
       "type": "website",
-      "index": true,
-      "lastModified": "2026-10-31"
+      "index": false,
+      "lastModified": "2026-10-31",
+      "archivedCatalogReference": true
     },
     {
       "previewPath": "/v2-preview/products/decorative-craft-accessories/",
@@ -7359,8 +7364,9 @@
       "title": "Decorative Craft Accessories Wholesale | HAIBUCRAFT",
       "description": "Compare plastic plant sprigs and decorative craft components by material, size and reference packing.",
       "type": "website",
-      "index": true,
-      "lastModified": "2026-10-31"
+      "index": false,
+      "lastModified": "2026-10-31",
+      "archivedCatalogReference": true
     }
   ],
   "redirects": [

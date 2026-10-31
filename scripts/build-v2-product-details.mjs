@@ -517,16 +517,16 @@ const syncDirectoryCounts = async () => {
   homeHtml = replaceRequired(
     homeHtml,
     /<span>\d+ cataloged products<\/span>/,
-    `<span>${products.length} cataloged products</span>`,
+    `<span>${products.filter(p => !['keychain', 'decorative-craft-accessories'].includes(p.categorySlug)).length} cataloged products</span>`,
     'homepage catalog summary'
   );
   homeHtml = replaceRequired(
     homeHtml,
     /(<div class="metric"><b>)\d+(<\/b><span>Cataloged wholesale products<\/span><\/div>)/,
-    `$1${products.length}$2`,
+    `$1${products.filter(p => !['keychain', 'decorative-craft-accessories'].includes(p.categorySlug)).length}$2`,
     'homepage catalog metric'
   );
-  for (const category of categories) {
+  for (const category of categories.filter(c => !['keychain', 'decorative-craft-accessories'].includes(c.slug))) {
     const count = categoryCounts.get(category.slug);
     const pattern = new RegExp(`(<a class="category-visual-card" href="/v2-preview/products/${category.slug}/">[\\s\\S]*?<div class="category-copy"><span class="eyebrow">)\\d+( products</span>)`);
     homeHtml = replaceRequired(homeHtml, pattern, `$1${count}$2`, `homepage ${category.slug} count`);
@@ -538,16 +538,16 @@ const syncDirectoryCounts = async () => {
   directoryHtml = replaceRequired(
     directoryHtml,
     /Browse \d+ published products/,
-    `Browse ${products.length} published products`,
+    `Browse ${products.filter(p => !['keychain', 'decorative-craft-accessories'].includes(p.categorySlug)).length} published products`,
     'products-directory summary'
   );
   directoryHtml = replaceRequired(
     directoryHtml,
     /(<div class="evidence-item"><b>)\d+(<\/b><span>Published products<\/span><\/div>)/,
-    `$1${products.length}$2`,
+    `$1${products.filter(p => !['keychain', 'decorative-craft-accessories'].includes(p.categorySlug)).length}$2`,
     'products-directory metric'
   );
-  for (const category of categories) {
+  for (const category of categories.filter(c => !['keychain', 'decorative-craft-accessories'].includes(c.slug))) {
     const count = categoryCounts.get(category.slug);
     const pattern = new RegExp(`(<a class="product-family-card" href="/v2-preview/products/${category.slug}/">[\\s\\S]*?<div class="product-family-media">[\\s\\S]*?<span>)\\d+( Products</span>)`);
     directoryHtml = replaceRequired(directoryHtml, pattern, `$1${count}$2`, `products-directory ${category.slug} count`);

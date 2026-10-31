@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-31",
+  "approval": "User chose: remove from public directory, retain original facts and existing product pages.",
+  "activeCategories": [
+    "polymer-clay-slices",
+    "slime-charms",
+    "resin-charms",
+    "sequins-glitter-confetti"
+  ],
+  "archivedCategories": [
+    "keychain",
+    "decorative-craft-accessories"
+  ],
+  "products": [
+    {
+      "sku": "CDK5001-2",
+      "title": "Metal Split Key Rings with Chain and Lobster Clasp",
+      "category": "keychain",
+      "categoryLabel": "Keychains & Components",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-31/cdk5001-2/cdk5001-2-metal-split-key-rings-with-chain-and-lobster-clasp-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-31/cdk5001-2/cdk5001-2-metal-split-key-rings-with-chain-and-lobster-clasp-01.jpg",
+        "/assets/images/products/batch-20261031-monica-31/cdk5001-2/cdk5001-2-metal-split-key-rings-with-chain-and-lobster-clasp-02.jpg",
+        "/assets/images/products/batch-20261031-monica-31/cdk5001-2/cdk5001-2-metal-split-key-rings-with-chain-and-lobster-clasp-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/keychain/cdk5001-2-metal-split-key-rings-with-chain-lobster-clasp/",
+      "productionPath": "/products/keychain/cdk5001-2-metal-split-key-rings-with-chain-lobster-clasp/"
+    },
+    {
+      "sku": "CDK001890",
+      "title": "Fruit Resin Keychains",
+      "category": "keychain",
+      "categoryLabel": "Keychains & Components",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-31/cdk001890/cdk001890-fruit-resin-keychains-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-31/cdk001890/cdk001890-fruit-resin-keychains-01.jpg",
+        "/assets/images/products/batch-20261031-monica-31/cdk001890/cdk001890-fruit-resin-keychains-02.jpg",
+        "/assets/images/products/batch-20261031-monica-31/cdk001890/cdk001890-fruit-resin-keychains-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/keychain/cdk001890-fruit-resin-keychains/",
+      "productionPath": "/products/keychain/cdk001890-fruit-resin-keychains/"
+    },
+    {
+      "sku": "YM355",
+      "title": "Decorative Plastic Plant Sprigs",
+      "category": "decorative-craft-accessories",
+      "categoryLabel": "Decorative Craft Accessories",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-31/ym355/ym355-decorative-plastic-plant-sprigs-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-31/ym355/ym355-decorative-plastic-plant-sprigs-01.jpg",
+        "/assets/images/products/batch-20261031-monica-31/ym355/ym355-decorative-plastic-plant-sprigs-02.jpg",
+        "/assets/images/products/batch-20261031-monica-31/ym355/ym355-decorative-plastic-plant-sprigs-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/decorative-craft-accessories/ym355-decorative-plastic-plant-sprigs/",
+      "productionPath": "/products/decorative-craft-accessories/ym355-decorative-plastic-plant-sprigs/"
+    },
+    {
+      "sku": "YM233",
+      "title": "Miniature Plastic Bamboo Stems",
+      "category": "decorative-craft-accessories",
+      "categoryLabel": "Decorative Craft Accessories",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-32/ym233/ym233-miniature-plastic-bamboo-stems-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-32/ym233/ym233-miniature-plastic-bamboo-stems-01.jpg",
+        "/assets/images/products/batch-20261031-monica-32/ym233/ym233-miniature-plastic-bamboo-stems-02.jpg",
+        "/assets/images/products/batch-20261031-monica-32/ym233/ym233-miniature-plastic-bamboo-stems-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/decorative-craft-accessories/ym233-miniature-plastic-bamboo-stems/",
+      "productionPath": "/products/decorative-craft-accessories/ym233-miniature-plastic-bamboo-stems/"
+    }
+  ]
+}

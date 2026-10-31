@@ -11,8 +11,6 @@ const categories = [
   ['polymer-clay-slices', 'Polymer Clay Slices', '/products/polymer-clay-slices-wholesale/'],
   ['resin-charms', 'Resin Charms', '/products/resin-charms-for-slime/'],
   ['sequins-glitter-confetti', 'Sequins & Glitter Confetti', '/products/sequins-glitter-confetti/'],
-  ['keychain', 'Keychains & Components', '/products/keychain/'],
-  ['decorative-craft-accessories', 'Decorative Craft Accessories', '/products/decorative-craft-accessories/']
 ];
 
 const lines = [

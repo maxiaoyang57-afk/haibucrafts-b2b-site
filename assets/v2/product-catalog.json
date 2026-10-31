@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 666,
+  "count": 686,
   "products": [
     {
       "sku": "YX3301",
@@ -2392,6 +2392,306 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/rw26226-bowknot-bread-resin-cabochons/",
       "productionPath": "/products/resin-charms-for-slime/rw26226-bowknot-bread-resin-cabochons/"
+    },
+    {
+      "sku": "RW26021",
+      "title": "Animal-Motif Miniature Resin Pans",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26021/rw26021-animal-motif-miniature-resin-pans-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26021/rw26021-animal-motif-miniature-resin-pans-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26021/rw26021-animal-motif-miniature-resin-pans-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26021/rw26021-animal-motif-miniature-resin-pans-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26021-animal-motif-miniature-resin-pans/",
+      "productionPath": "/products/resin-charms-for-slime/rw26021-animal-motif-miniature-resin-pans/"
+    },
+    {
+      "sku": "RW26387",
+      "title": "Heart-Shaped Resin Miniature Baskets",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26387/rw26387-heart-shaped-resin-miniature-baskets-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26387/rw26387-heart-shaped-resin-miniature-baskets-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26387/rw26387-heart-shaped-resin-miniature-baskets-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26387/rw26387-heart-shaped-resin-miniature-baskets-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26387-heart-shaped-resin-miniature-baskets/",
+      "productionPath": "/products/resin-charms-for-slime/rw26387-heart-shaped-resin-miniature-baskets/"
+    },
+    {
+      "sku": "RW26645",
+      "title": "Bear-Shaped Resin Miniature Basket Plates",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26645/rw26645-bear-shaped-resin-miniature-basket-plates-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26645/rw26645-bear-shaped-resin-miniature-basket-plates-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26645/rw26645-bear-shaped-resin-miniature-basket-plates-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26645/rw26645-bear-shaped-resin-miniature-basket-plates-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26645-bear-shaped-resin-miniature-basket-plates/",
+      "productionPath": "/products/resin-charms-for-slime/rw26645-bear-shaped-resin-miniature-basket-plates/"
+    },
+    {
+      "sku": "RW26519-1",
+      "title": "Pink Pineapple Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26519-1/rw26519-1-pink-pineapple-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26519-1/rw26519-1-pink-pineapple-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26519-1/rw26519-1-pink-pineapple-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26519-1/rw26519-1-pink-pineapple-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26519-1-pink-pineapple-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26519-1-pink-pineapple-resin-cabochons/"
+    },
+    {
+      "sku": "RW26521-1",
+      "title": "Holly Leaf Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26521-1/rw26521-1-holly-leaf-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26521-1/rw26521-1-holly-leaf-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26521-1/rw26521-1-holly-leaf-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26521-1/rw26521-1-holly-leaf-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26521-1-holly-leaf-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26521-1-holly-leaf-resin-cabochons/"
+    },
+    {
+      "sku": "RW26517-1",
+      "title": "Strawberry Rabbit Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26517-1/rw26517-1-strawberry-rabbit-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26517-1/rw26517-1-strawberry-rabbit-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26517-1/rw26517-1-strawberry-rabbit-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26517-1/rw26517-1-strawberry-rabbit-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26517-1-strawberry-rabbit-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26517-1-strawberry-rabbit-resin-cabochons/"
+    },
+    {
+      "sku": "RW26518-1",
+      "title": "Heart-Holding Bear Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26518-1/rw26518-1-heart-holding-bear-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26518-1/rw26518-1-heart-holding-bear-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26518-1/rw26518-1-heart-holding-bear-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26518-1/rw26518-1-heart-holding-bear-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26518-1-heart-holding-bear-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26518-1-heart-holding-bear-resin-miniatures/"
+    },
+    {
+      "sku": "RW26529",
+      "title": "Gingerbread Figure Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26529/rw26529-gingerbread-figure-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26529/rw26529-gingerbread-figure-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26529/rw26529-gingerbread-figure-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26529/rw26529-gingerbread-figure-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26529-gingerbread-figure-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26529-gingerbread-figure-resin-cabochons/"
+    },
+    {
+      "sku": "RW004682",
+      "title": "Assorted Food-Motif Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw004682/rw004682-assorted-food-motif-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw004682/rw004682-assorted-food-motif-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw004682/rw004682-assorted-food-motif-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw004682/rw004682-assorted-food-motif-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw004682-assorted-food-motif-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw004682-assorted-food-motif-resin-cabochons/"
+    },
+    {
+      "sku": "RW003309",
+      "title": "Colorful Butterfly Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw003309/rw003309-colorful-butterfly-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw003309/rw003309-colorful-butterfly-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw003309/rw003309-colorful-butterfly-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw003309/rw003309-colorful-butterfly-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw003309-colorful-butterfly-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw003309-colorful-butterfly-resin-cabochons/"
+    },
+    {
+      "sku": "RW26658",
+      "title": "Round Resin Miniature Basket Plates",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26658/rw26658-round-resin-miniature-basket-plates-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26658/rw26658-round-resin-miniature-basket-plates-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26658/rw26658-round-resin-miniature-basket-plates-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26658/rw26658-round-resin-miniature-basket-plates-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26658-round-resin-miniature-basket-plates/",
+      "productionPath": "/products/resin-charms-for-slime/rw26658-round-resin-miniature-basket-plates/"
+    },
+    {
+      "sku": "RW25009",
+      "title": "Assorted Halloween Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw25009/rw25009-assorted-halloween-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw25009/rw25009-assorted-halloween-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw25009/rw25009-assorted-halloween-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw25009/rw25009-assorted-halloween-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25009-assorted-halloween-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25009-assorted-halloween-resin-cabochons/"
+    },
+    {
+      "sku": "RW26506",
+      "title": "Flower and Novelty Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26506/rw26506-flower-and-novelty-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26506/rw26506-flower-and-novelty-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26506/rw26506-flower-and-novelty-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26506/rw26506-flower-and-novelty-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26506-flower-novelty-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26506-flower-novelty-resin-cabochons/"
+    },
+    {
+      "sku": "RW26377",
+      "title": "Miniature Jar Resin Decorations",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26377/rw26377-miniature-jar-resin-decorations-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26377/rw26377-miniature-jar-resin-decorations-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26377/rw26377-miniature-jar-resin-decorations-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26377/rw26377-miniature-jar-resin-decorations-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26377-miniature-jar-resin-decorations/",
+      "productionPath": "/products/resin-charms-for-slime/rw26377-miniature-jar-resin-decorations/"
+    },
+    {
+      "sku": "RW26306",
+      "title": "Banana-Motif Resin Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26306/rw26306-banana-motif-resin-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26306/rw26306-banana-motif-resin-miniatures-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26306/rw26306-banana-motif-resin-miniatures-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26306/rw26306-banana-motif-resin-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26306-banana-motif-resin-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26306-banana-motif-resin-miniatures/"
+    },
+    {
+      "sku": "RW26336",
+      "title": "Apple and Flower Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26336/rw26336-apple-and-flower-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26336/rw26336-apple-and-flower-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26336/rw26336-apple-and-flower-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26336/rw26336-apple-and-flower-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26336-apple-flower-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw26336-apple-flower-resin-cabochons/"
+    },
+    {
+      "sku": "RW25990",
+      "title": "Ocean-Motif Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw25990/rw25990-ocean-motif-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw25990/rw25990-ocean-motif-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw25990/rw25990-ocean-motif-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw25990/rw25990-ocean-motif-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw25990-ocean-motif-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw25990-ocean-motif-resin-cabochons/"
+    },
+    {
+      "sku": "RW22225",
+      "title": "Peanut and Food-Motif Resin Cabochons",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw22225/rw22225-peanut-and-food-motif-resin-cabochons-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw22225/rw22225-peanut-and-food-motif-resin-cabochons-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw22225/rw22225-peanut-and-food-motif-resin-cabochons-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw22225/rw22225-peanut-and-food-motif-resin-cabochons-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw22225-peanut-food-motif-resin-cabochons/",
+      "productionPath": "/products/resin-charms-for-slime/rw22225-peanut-food-motif-resin-cabochons/"
+    },
+    {
+      "sku": "RW26322",
+      "title": "Cat-Top Miniature Resin Mugs",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26322/rw26322-cat-top-miniature-resin-mugs-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26322/rw26322-cat-top-miniature-resin-mugs-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26322/rw26322-cat-top-miniature-resin-mugs-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26322/rw26322-cat-top-miniature-resin-mugs-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26322-cat-top-miniature-resin-mugs/",
+      "productionPath": "/products/resin-charms-for-slime/rw26322-cat-top-miniature-resin-mugs/"
+    },
+    {
+      "sku": "RW26337",
+      "title": "Bow-Accented Pink Resin Pig Miniatures",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261031-monica-33/rw26337/rw26337-bow-accented-pink-resin-pig-miniatures-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261031-monica-33/rw26337/rw26337-bow-accented-pink-resin-pig-miniatures-01.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26337/rw26337-bow-accented-pink-resin-pig-miniatures-02.jpg",
+        "/assets/images/products/batch-20261031-monica-33/rw26337/rw26337-bow-accented-pink-resin-pig-miniatures-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw26337-bow-accented-pink-resin-pig-miniatures/",
+      "productionPath": "/products/resin-charms-for-slime/rw26337-bow-accented-pink-resin-pig-miniatures/"
     },
     {
       "sku": "RW26558",

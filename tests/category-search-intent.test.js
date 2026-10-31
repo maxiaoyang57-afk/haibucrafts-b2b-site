@@ -50,7 +50,7 @@ test('updated category hubs advertise a fresh lastmod in sitemap', async () => {
   const sitemap = await read('sitemap.xml');
   const expectedLastmod = new Map([
     ['https://www.haibucrafts.com/products/polymer-clay-slices-wholesale/', '2026-10-02'],
-    ['https://www.haibucrafts.com/products/slime-charms-wholesale/', '2026-10-04'],
+    ['https://www.haibucrafts.com/products/slime-charms-wholesale/', '2026-10-31'],
     ['https://www.haibucrafts.com/products/resin-charms-for-slime/', '2026-10-04']
   ]);
   for (const [url, lastmod] of expectedLastmod) {

@@ -92,6 +92,13 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx3130-spotted-round-polymer-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3130-spotted-round-polymer-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3130-spotted-round-polymer-clay-slices/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx3301-monkey-banana-polymer-clay-sprinkles/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3301-monkey-banana-polymer-clay-sprinkles/index.html",
       "action": "create",
@@ -1356,6 +1363,139 @@
       "destination": "products/resin-charms-for-slime/rw26337-bow-accented-pink-resin-pig-miniatures/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw26337-bow-accented-pink-resin-pig-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw756-rice-ball-resin-charms/index.html",
+      "destination": "products/resin-charms-for-slime/rw756-rice-ball-resin-charms/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw756-rice-ball-resin-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2304-round-candy-style-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw2304-round-candy-style-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2304-round-candy-style-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3936-rose-shaped-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw3936-rose-shaped-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3936-rose-shaped-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23219-pastel-alpaca-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23219-pastel-alpaca-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23219-pastel-alpaca-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw5673-white-rabbit-resin-miniatures/index.html",
+      "destination": "products/resin-charms-for-slime/rw5673-white-rabbit-resin-miniatures/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5673-white-rabbit-resin-miniatures/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1104-white-smiling-cloud-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw1104-white-smiling-cloud-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1104-white-smiling-cloud-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23905-glitter-dolphin-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23905-glitter-dolphin-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23905-glitter-dolphin-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw763-large-colorful-resin-rose-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw763-large-colorful-resin-rose-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw763-large-colorful-resin-rose-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23182-pastel-iridescent-resin-bow-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23182-pastel-iridescent-resin-bow-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23182-pastel-iridescent-resin-bow-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23594-glitter-tulip-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23594-glitter-tulip-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23594-glitter-tulip-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw890-pastel-resin-flower-cabochons-with-yellow-centers/index.html",
+      "destination": "products/resin-charms-for-slime/rw890-pastel-resin-flower-cabochons-with-yellow-centers/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw890-pastel-resin-flower-cabochons-with-yellow-centers/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26165-textured-pastel-resin-daisy-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26165-textured-pastel-resin-daisy-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26165-textured-pastel-resin-daisy-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw6014-miniature-peach-resin-rose-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw6014-miniature-peach-resin-rose-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw6014-miniature-peach-resin-rose-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1371-small-five-petal-resin-flowers/index.html",
+      "destination": "products/resin-charms-for-slime/rw1371-small-five-petal-resin-flowers/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1371-small-five-petal-resin-flowers/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1148-penguin-swim-ring-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw1148-penguin-swim-ring-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1148-penguin-swim-ring-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1334-transportation-resin-cabochon-assortment/index.html",
+      "destination": "products/resin-charms-for-slime/rw1334-transportation-resin-cabochon-assortment/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1334-transportation-resin-cabochon-assortment/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw188-tiny-resin-rose-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw188-tiny-resin-rose-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw188-tiny-resin-rose-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23874-layered-resin-flower-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23874-layered-resin-flower-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23874-layered-resin-flower-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002405-printed-five-petal-resin-flower-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw002405-printed-five-petal-resin-flower-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002405-printed-five-petal-resin-flower-cabochons/",
       "generatedProduct": true
     },
     {

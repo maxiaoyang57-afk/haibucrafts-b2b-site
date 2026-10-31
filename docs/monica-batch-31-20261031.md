@@ -1,2 +1,2 @@
-Batch31:20 reviewed newSKUs,60 sharedimages. Stage:IMPORTED_CHECKS_PENDING_NOT_PUBLISHED. Packing is not MOQ; all original commercialfacts preserved. Source export PRIVATE/excluded.
+Batch31:20 new SKUs formally published. HAIBU PR185 and QULA PR161 merged; production main commits b6f8122fcfa9e4dccb42e0a7d98081cc6fa2e46b / 92fb2c8ae95bc3f06bcdfb578a862105793da7b9 verified READY and formal URLs/images checked. Historical post-release catalogs646/870. Do not reimport.
 SKUs:RW26475,RW26654,RW26556,YM358,RW26363,RW25476,YM355,CDK5001-2,RW26341,CDK001890,RW26661,RW26110-1,RW247,RW162,RW004039,RW26361,RW23283,RW26427,RW0022961,RW5816

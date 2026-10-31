@@ -150,7 +150,15 @@ const categoryPlans = {
     listName: 'Bulk Slime Charms Wholesale Catalog',
     hubHeading: 'Bulk slime charms for slime brands, sensory kits and retail assortments.',
     hubCopy: 'Use this page when the buying intent is decorative charms and add-ins for slime or sensory-kit programs. For flatback resin cabochons selected mainly for decoden, phone cases, hair accessories or other craft decoration, use the Resin Charms catalog instead.',
-    lastModified: '2026-10-04',
+    hubExtraMarkup: '<p>For a SKU-specific packing example, <a href="/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/">review SLM26529 and its confirmed pack details</a>. Confirm each selected mix separately rather than applying one product&#39;s pack weight to the full range.</p>',
+    lastModified: '2026-10-31',
+    selectionHeading: 'Compare the contents of a bulk slime charm mix',
+    selection: [
+      ['Clay slices and focal charms', 'Check which components are included and whether they are packed together or separately. A product photograph does not establish the number of focal charms in each bag.'],
+      ['Pack weight and piece count', 'Specify the required net weight of the slice mix and the focal-charm count separately. Different component sizes mean that a weight-based pack does not guarantee a fixed piece count.'],
+      ['Assortment and reorders', 'Mark required motifs, color ratios and exclusions, and confirm whether every retail pack needs the same contents. Keep the approved sample and packing brief for repeat orders.'],
+      ['Sample and quotation', 'Send the selected SKUs, intended slime base, quantities, packing format and destination. Review appearance and material compatibility on a sample before approving a bulk order.']
+    ],
     resources: [
       ['/v2-preview/products/slime-charms/candy-charms-for-slime/', 'Candy Charms for Slime'],
       ['/v2-preview/products/slime-charms/halloween-slime-charms/', 'Halloween Slime Charms'],

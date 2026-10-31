@@ -148,176 +148,6 @@
       "index": true
     },
     {
-      "previewPath": "/v2-preview/blog/craft-supply-reorder-version-control/",
-      "productionPath": "/blog/craft-supply-reorder-version-control/",
-      "title": "Craft Supply Reorder Version Control | HAIBUCRAFT",
-      "description": "Prepare a repeat craft order with current SKUs, retained samples, packaging revisions, approved changes and a clear record of what must stay consistent.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-10-17",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/craft-supply-piece-count-net-weight/",
-      "productionPath": "/blog/craft-supply-piece-count-net-weight/",
-      "title": "Craft Supply Piece Count vs Net Weight | HAIBUCRAFT",
-      "description": "Separate pieces, net weight, bag count and carton totals in a craft-supply order. Use clear units, suitable quantity checks and a simple receiving record.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-10-17",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/custom-resin-polymer-clay-development-process/",
-      "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
-      "title": "Custom Resin & Polymer Clay Process | HAIBUCRAFT",
-      "description": "Plan custom resin charms and polymer clay products with a buyer-first workflow for design review, sampling, written approval, bulk QC and packaging.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-10-14",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/",
-      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
-      "title": "Wholesale Product Brief Guide | HAIBUCRAFT",
-      "description": "Prepare a clearer wholesale inquiry by defining product codes, quantities, intended use, packaging, destination and approval requirements.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/sample-approval-checklist/",
-      "productionPath": "/blog/sample-approval-checklist/",
-      "title": "Custom Sample Approval Checklist | HAIBUCRAFT",
-      "description": "Use a written sample approval checklist to confirm appearance, dimensions, assortment, finish, packaging and controlled changes before production.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/packaging-quality-checkpoints/",
-      "productionPath": "/blog/packaging-quality-checkpoints/",
-      "title": "B2B Packaging Quality Checkpoints | HAIBUCRAFT",
-      "description": "Define pack count, labels, warnings, barcodes, cartons, quantity reconciliation and pre-shipment packaging checks for wholesale craft orders.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/planning-a-mixed-sku-wholesale-order/",
-      "productionPath": "/blog/planning-a-mixed-sku-wholesale-order/",
-      "title": "Mixed-SKU Wholesale Order Planning | HAIBUCRAFT",
-      "description": "Plan a mixed-SKU craft order by fixing product codes, quantities, pack formats, assortment ratios and carton-level reconciliation rules.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/private-label-packaging-brief/",
-      "productionPath": "/blog/private-label-packaging-brief/",
-      "title": "Private Label Packaging Brief | HAIBUCRAFT",
-      "description": "Prepare a private-label packaging brief covering pack format, artwork, barcode, warning text, approval files and carton identification.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/craft-product-document-checklist/",
-      "productionPath": "/blog/craft-product-document-checklist/",
-      "title": "Craft Product Document Checklist | HAIBUCRAFT",
-      "description": "Review supplier, product, sample, standard, issue date and market scope before relying on a craft-product test report or certificate.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/pre-shipment-inspection-checklist/",
-      "productionPath": "/blog/pre-shipment-inspection-checklist/",
-      "title": "Pre-Shipment Inspection Checklist | HAIBUCRAFT",
-      "description": "Prepare a pre-shipment inspection checklist for SKU identity, appearance, quantity, packaging, carton marks and document reconciliation.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/",
-      "productionPath": "/blog/how-to-compare-wholesale-craft-suppliers/",
-      "title": "How to Compare Craft Suppliers | HAIBUCRAFT",
-      "description": "Compare craft suppliers using product-code discipline, sample control, packaging capability, document scope and communication quality.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/polymer-clay-slice-buying-guide/",
-      "productionPath": "/blog/polymer-clay-slice-buying-guide/",
-      "title": "Polymer Clay Slice Buying Guide | HAIBUCRAFT",
-      "description": "Specify polymer clay slice theme, dimensions, thickness, color range, mix ratio, pack unit and intended use before requesting a quote.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-10-25",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/resin-charms-wholesale-buying-guide/",
-      "productionPath": "/blog/resin-charms-wholesale-buying-guide/",
-      "title": "Resin Charms Wholesale Buying Guide | HAIBUCRAFT",
-      "description": "Compare wholesale resin charms by product code, visible design, intended application, sample identity, pack unit and custom request before quotation.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-10-19",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/seasonal-craft-assortment-planning/",
-      "productionPath": "/blog/seasonal-craft-assortment-planning/",
-      "title": "Seasonal Craft Assortment Planning | HAIBUCRAFT",
-      "description": "Plan seasonal craft assortments by fixing launch date, product codes, samples, artwork, packaging, inspection and shipping milestones.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-08-06",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/halloween-slime-charms-wholesale-buying-guide/",
-      "productionPath": "/blog/halloween-slime-charms-wholesale-buying-guide/",
-      "title": "Halloween Slime Charms Wholesale Buying Guide | HAIBUCRAFT",
-      "description": "Plan a Halloween slime charms wholesale assortment by product code, motif balance, pack unit, sample timing and arrival date.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-09-09",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/christmas-slime-charms-wholesale-buying-guide/",
-      "productionPath": "/blog/christmas-slime-charms-wholesale-buying-guide/",
-      "title": "Christmas Slime Charms Wholesale Buying Guide | HAIBUCRAFT",
-      "description": "Plan a Christmas slime charms wholesale assortment with real SKU selection, mix ratios, pack units, sampling and reverse scheduling.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-09-09",
-      "generatedBlog": true
-    },
-    {
-      "previewPath": "/v2-preview/blog/amazon-fba-craft-supplies-sourcing-checklist/",
-      "productionPath": "/blog/amazon-fba-craft-supplies-sourcing-checklist/",
-      "title": "Amazon FBA Craft Supplies Sourcing Checklist | HAIBUCRAFT",
-      "description": "Plan craft-supply sourcing for Amazon sellers by confirming SKU, pack unit, labels, carton quantity, target marketplace and inbound date before ordering.",
-      "type": "article",
-      "index": true,
-      "lastModified": "2026-09-23",
-      "generatedBlog": true
-    },
-    {
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx3301-monkey-banana-polymer-clay-sprinkles/",
       "productionPath": "/products/polymer-clay-slices-wholesale/yx3301-monkey-banana-polymer-clay-sprinkles/",
       "title": "YX3301 Monkey and Banana Polymer Clay Sprinkles | HAIBU",
@@ -7176,6 +7006,176 @@
       "lastModified": "2026-10-31",
       "index": true,
       "generatedProduct": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/craft-supply-reorder-version-control/",
+      "productionPath": "/blog/craft-supply-reorder-version-control/",
+      "title": "Craft Supply Reorder Version Control | HAIBUCRAFT",
+      "description": "Prepare a repeat craft order with current SKUs, retained samples, packaging revisions, approved changes and a clear record of what must stay consistent.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-10-17",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/craft-supply-piece-count-net-weight/",
+      "productionPath": "/blog/craft-supply-piece-count-net-weight/",
+      "title": "Craft Supply Piece Count vs Net Weight | HAIBUCRAFT",
+      "description": "Separate pieces, net weight, bag count and carton totals in a craft-supply order. Use clear units, suitable quantity checks and a simple receiving record.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-10-17",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/custom-resin-polymer-clay-development-process/",
+      "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
+      "title": "Custom Resin & Polymer Clay Process | HAIBUCRAFT",
+      "description": "Plan custom resin charms and polymer clay products with a buyer-first workflow for design review, sampling, written approval, bulk QC and packaging.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-10-14",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/how-to-prepare-a-wholesale-product-brief/",
+      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
+      "title": "Wholesale Product Brief Guide | HAIBUCRAFT",
+      "description": "Prepare a clearer wholesale inquiry by defining product codes, quantities, intended use, packaging, destination and approval requirements.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/sample-approval-checklist/",
+      "productionPath": "/blog/sample-approval-checklist/",
+      "title": "Custom Sample Approval Checklist | HAIBUCRAFT",
+      "description": "Use a written sample approval checklist to confirm appearance, dimensions, assortment, finish, packaging and controlled changes before production.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/packaging-quality-checkpoints/",
+      "productionPath": "/blog/packaging-quality-checkpoints/",
+      "title": "B2B Packaging Quality Checkpoints | HAIBUCRAFT",
+      "description": "Define pack count, labels, warnings, barcodes, cartons, quantity reconciliation and pre-shipment packaging checks for wholesale craft orders.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/planning-a-mixed-sku-wholesale-order/",
+      "productionPath": "/blog/planning-a-mixed-sku-wholesale-order/",
+      "title": "Mixed-SKU Wholesale Order Planning | HAIBUCRAFT",
+      "description": "Plan a mixed-SKU craft order by fixing product codes, quantities, pack formats, assortment ratios and carton-level reconciliation rules.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/private-label-packaging-brief/",
+      "productionPath": "/blog/private-label-packaging-brief/",
+      "title": "Private Label Packaging Brief | HAIBUCRAFT",
+      "description": "Prepare a private-label packaging brief covering pack format, artwork, barcode, warning text, approval files and carton identification.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/craft-product-document-checklist/",
+      "productionPath": "/blog/craft-product-document-checklist/",
+      "title": "Craft Product Document Checklist | HAIBUCRAFT",
+      "description": "Review supplier, product, sample, standard, issue date and market scope before relying on a craft-product test report or certificate.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/pre-shipment-inspection-checklist/",
+      "productionPath": "/blog/pre-shipment-inspection-checklist/",
+      "title": "Pre-Shipment Inspection Checklist | HAIBUCRAFT",
+      "description": "Prepare a pre-shipment inspection checklist for SKU identity, appearance, quantity, packaging, carton marks and document reconciliation.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/",
+      "productionPath": "/blog/how-to-compare-wholesale-craft-suppliers/",
+      "title": "How to Compare Craft Suppliers | HAIBUCRAFT",
+      "description": "Compare craft suppliers using product-code discipline, sample control, packaging capability, document scope and communication quality.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/polymer-clay-slice-buying-guide/",
+      "productionPath": "/blog/polymer-clay-slice-buying-guide/",
+      "title": "Polymer Clay Slice Buying Guide | HAIBUCRAFT",
+      "description": "Specify polymer clay slice theme, dimensions, thickness, color range, mix ratio, pack unit and intended use before requesting a quote.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-10-25",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/resin-charms-wholesale-buying-guide/",
+      "productionPath": "/blog/resin-charms-wholesale-buying-guide/",
+      "title": "Resin Charms Wholesale Buying Guide | HAIBUCRAFT",
+      "description": "Compare wholesale resin charms by product code, visible design, intended application, sample identity, pack unit and custom request before quotation.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-10-19",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/seasonal-craft-assortment-planning/",
+      "productionPath": "/blog/seasonal-craft-assortment-planning/",
+      "title": "Seasonal Craft Assortment Planning | HAIBUCRAFT",
+      "description": "Plan seasonal craft assortments by fixing launch date, product codes, samples, artwork, packaging, inspection and shipping milestones.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-08-06",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/halloween-slime-charms-wholesale-buying-guide/",
+      "productionPath": "/blog/halloween-slime-charms-wholesale-buying-guide/",
+      "title": "Halloween Slime Charms Wholesale Buying Guide | HAIBUCRAFT",
+      "description": "Plan a Halloween slime charms wholesale assortment by product code, motif balance, pack unit, sample timing and arrival date.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-09-09",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/christmas-slime-charms-wholesale-buying-guide/",
+      "productionPath": "/blog/christmas-slime-charms-wholesale-buying-guide/",
+      "title": "Christmas Slime Charms Wholesale Buying Guide | HAIBUCRAFT",
+      "description": "Plan a Christmas slime charms wholesale assortment with real SKU selection, mix ratios, pack units, sampling and reverse scheduling.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-09-09",
+      "generatedBlog": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/amazon-fba-craft-supplies-sourcing-checklist/",
+      "productionPath": "/blog/amazon-fba-craft-supplies-sourcing-checklist/",
+      "title": "Amazon FBA Craft Supplies Sourcing Checklist | HAIBUCRAFT",
+      "description": "Plan craft-supply sourcing for Amazon sellers by confirming SKU, pack unit, labels, carton quantity, target marketplace and inbound date before ordering.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-09-23",
+      "generatedBlog": true
     },
     {
       "previewPath": "/v2-preview/quote/",

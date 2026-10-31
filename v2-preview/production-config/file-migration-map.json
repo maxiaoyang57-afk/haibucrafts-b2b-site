@@ -92,125 +92,6 @@
       "productionPath": "/blog/"
     },
     {
-      "source": "v2-preview/blog/craft-supply-reorder-version-control/index.html",
-      "destination": "blog/craft-supply-reorder-version-control/index.html",
-      "action": "create",
-      "productionPath": "/blog/craft-supply-reorder-version-control/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/craft-supply-piece-count-net-weight/index.html",
-      "destination": "blog/craft-supply-piece-count-net-weight/index.html",
-      "action": "create",
-      "productionPath": "/blog/craft-supply-piece-count-net-weight/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/custom-resin-polymer-clay-development-process/index.html",
-      "destination": "blog/custom-resin-polymer-clay-development-process/index.html",
-      "action": "create",
-      "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/how-to-prepare-a-wholesale-product-brief/index.html",
-      "destination": "blog/how-to-prepare-a-wholesale-product-brief/index.html",
-      "action": "create",
-      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/sample-approval-checklist/index.html",
-      "destination": "blog/sample-approval-checklist/index.html",
-      "action": "create",
-      "productionPath": "/blog/sample-approval-checklist/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/packaging-quality-checkpoints/index.html",
-      "destination": "blog/packaging-quality-checkpoints/index.html",
-      "action": "create",
-      "productionPath": "/blog/packaging-quality-checkpoints/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/planning-a-mixed-sku-wholesale-order/index.html",
-      "destination": "blog/planning-a-mixed-sku-wholesale-order/index.html",
-      "action": "create",
-      "productionPath": "/blog/planning-a-mixed-sku-wholesale-order/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/private-label-packaging-brief/index.html",
-      "destination": "blog/private-label-packaging-brief/index.html",
-      "action": "create",
-      "productionPath": "/blog/private-label-packaging-brief/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/craft-product-document-checklist/index.html",
-      "destination": "blog/craft-product-document-checklist/index.html",
-      "action": "create",
-      "productionPath": "/blog/craft-product-document-checklist/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/pre-shipment-inspection-checklist/index.html",
-      "destination": "blog/pre-shipment-inspection-checklist/index.html",
-      "action": "create",
-      "productionPath": "/blog/pre-shipment-inspection-checklist/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/how-to-compare-wholesale-craft-suppliers/index.html",
-      "destination": "blog/how-to-compare-wholesale-craft-suppliers/index.html",
-      "action": "create",
-      "productionPath": "/blog/how-to-compare-wholesale-craft-suppliers/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/polymer-clay-slice-buying-guide/index.html",
-      "destination": "blog/polymer-clay-slice-buying-guide/index.html",
-      "action": "create",
-      "productionPath": "/blog/polymer-clay-slice-buying-guide/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/resin-charms-wholesale-buying-guide/index.html",
-      "destination": "blog/resin-charms-wholesale-buying-guide/index.html",
-      "action": "create",
-      "productionPath": "/blog/resin-charms-wholesale-buying-guide/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/seasonal-craft-assortment-planning/index.html",
-      "destination": "blog/seasonal-craft-assortment-planning/index.html",
-      "action": "create",
-      "productionPath": "/blog/seasonal-craft-assortment-planning/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/halloween-slime-charms-wholesale-buying-guide/index.html",
-      "destination": "blog/halloween-slime-charms-wholesale-buying-guide/index.html",
-      "action": "create",
-      "productionPath": "/blog/halloween-slime-charms-wholesale-buying-guide/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/christmas-slime-charms-wholesale-buying-guide/index.html",
-      "destination": "blog/christmas-slime-charms-wholesale-buying-guide/index.html",
-      "action": "create",
-      "productionPath": "/blog/christmas-slime-charms-wholesale-buying-guide/",
-      "generatedBlog": true
-    },
-    {
-      "source": "v2-preview/blog/amazon-fba-craft-supplies-sourcing-checklist/index.html",
-      "destination": "blog/amazon-fba-craft-supplies-sourcing-checklist/index.html",
-      "action": "create",
-      "productionPath": "/blog/amazon-fba-craft-supplies-sourcing-checklist/",
-      "generatedBlog": true
-    },
-    {
       "source": "v2-preview/products/polymer-clay-slices/yx3301-monkey-banana-polymer-clay-sprinkles/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3301-monkey-banana-polymer-clay-sprinkles/index.html",
       "action": "create",
@@ -5011,6 +4892,125 @@
       "action": "create",
       "productionPath": "/products/decorative-craft-accessories/ym233-miniature-plastic-bamboo-stems/",
       "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/blog/craft-supply-reorder-version-control/index.html",
+      "destination": "blog/craft-supply-reorder-version-control/index.html",
+      "action": "create",
+      "productionPath": "/blog/craft-supply-reorder-version-control/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/craft-supply-piece-count-net-weight/index.html",
+      "destination": "blog/craft-supply-piece-count-net-weight/index.html",
+      "action": "create",
+      "productionPath": "/blog/craft-supply-piece-count-net-weight/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/custom-resin-polymer-clay-development-process/index.html",
+      "destination": "blog/custom-resin-polymer-clay-development-process/index.html",
+      "action": "create",
+      "productionPath": "/blog/custom-resin-polymer-clay-development-process/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/how-to-prepare-a-wholesale-product-brief/index.html",
+      "destination": "blog/how-to-prepare-a-wholesale-product-brief/index.html",
+      "action": "create",
+      "productionPath": "/blog/how-to-prepare-a-wholesale-product-brief/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/sample-approval-checklist/index.html",
+      "destination": "blog/sample-approval-checklist/index.html",
+      "action": "create",
+      "productionPath": "/blog/sample-approval-checklist/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/packaging-quality-checkpoints/index.html",
+      "destination": "blog/packaging-quality-checkpoints/index.html",
+      "action": "create",
+      "productionPath": "/blog/packaging-quality-checkpoints/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/planning-a-mixed-sku-wholesale-order/index.html",
+      "destination": "blog/planning-a-mixed-sku-wholesale-order/index.html",
+      "action": "create",
+      "productionPath": "/blog/planning-a-mixed-sku-wholesale-order/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/private-label-packaging-brief/index.html",
+      "destination": "blog/private-label-packaging-brief/index.html",
+      "action": "create",
+      "productionPath": "/blog/private-label-packaging-brief/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/craft-product-document-checklist/index.html",
+      "destination": "blog/craft-product-document-checklist/index.html",
+      "action": "create",
+      "productionPath": "/blog/craft-product-document-checklist/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/pre-shipment-inspection-checklist/index.html",
+      "destination": "blog/pre-shipment-inspection-checklist/index.html",
+      "action": "create",
+      "productionPath": "/blog/pre-shipment-inspection-checklist/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/how-to-compare-wholesale-craft-suppliers/index.html",
+      "destination": "blog/how-to-compare-wholesale-craft-suppliers/index.html",
+      "action": "create",
+      "productionPath": "/blog/how-to-compare-wholesale-craft-suppliers/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/polymer-clay-slice-buying-guide/index.html",
+      "destination": "blog/polymer-clay-slice-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/polymer-clay-slice-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/resin-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/resin-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/resin-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/seasonal-craft-assortment-planning/index.html",
+      "destination": "blog/seasonal-craft-assortment-planning/index.html",
+      "action": "create",
+      "productionPath": "/blog/seasonal-craft-assortment-planning/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/halloween-slime-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/halloween-slime-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/halloween-slime-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/christmas-slime-charms-wholesale-buying-guide/index.html",
+      "destination": "blog/christmas-slime-charms-wholesale-buying-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/christmas-slime-charms-wholesale-buying-guide/",
+      "generatedBlog": true
+    },
+    {
+      "source": "v2-preview/blog/amazon-fba-craft-supplies-sourcing-checklist/index.html",
+      "destination": "blog/amazon-fba-craft-supplies-sourcing-checklist/index.html",
+      "action": "create",
+      "productionPath": "/blog/amazon-fba-craft-supplies-sourcing-checklist/",
+      "generatedBlog": true
     },
     {
       "source": "v2-preview/quote/index.html",

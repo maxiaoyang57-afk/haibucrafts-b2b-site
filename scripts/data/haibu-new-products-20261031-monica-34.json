@@ -1,0 +1,2192 @@
+{
+  "batch": "haibu-new-products-20261031-monica-34",
+  "expectedSkuCount": 20,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261031-monica-34",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-10-31",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX3130",
+      "title": "Spotted Round Polymer Clay Slices",
+      "originalTitle": "Handmade 1kg/bag Clay Food Chocolate Cookies Slice Polymer Clay Charms for DIY Slime Crafting Supplies 5MM 10MM",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Spotted Round Polymer Clay Slices, product code YX3130",
+      "description": "YX3130 round polymer clay slices show cream and tan areas with irregular dark spotted motifs for decorative bulk assortment planning. The source title lists 5 mm and 10 mm options and reference packing of 1 kg per bag. This packing weight does not establish MOQ. Confirm selected size, the supplied mix and packing requirements with HAIBU for procurement or OEM packaging discussions. No fixed size ratio is specified. Generated scene and detail images are reference illustrations; slime, containers and other styling props are not included. Decorative craft material, not edible.",
+      "detailedDescription": "Spotted Round Polymer Clay Slices. Source size: 5 mm / 10 mm. Reference packing: 1 kg/bag; not MOQ. YX3130 round polymer clay slices show cream and tan areas with irregular dark spotted motifs for decorative bulk assortment planning. The source title lists 5 mm and 10 mm options and reference packing of 1 kg per bag. This packing weight does not establish MOQ. Confirm selected size, the supplied mix and packing requirements with HAIBU for procurement or OEM packaging discussions. No fixed size ratio is specified. Generated scene and detail images are reference illustrations; slime, containers and other styling props are not included. Decorative craft material, not edible. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Spotted Round Polymer Clay Slices",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm / 10 mm",
+        "Reference pack: 1 kg/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX3130",
+        "Material: Polymer clay",
+        "Dimensions: 5 mm / 10 mm",
+        "Reference pack: 1 kg/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer clay",
+      "dimensions": "5 mm / 10 mm",
+      "sourcePacking": "1 kg/bag",
+      "customizationOptions": "For YX3130, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "YX3130 spotted round polymer clay slices provide cream, tan and dark accents for slime-topper layouts and other decorative DIY combinations. Source options are 5 mm and 10 mm, with reference packing of 1 kg per bag. Confirm your selected size or mix before choosing a project combination; a fixed size ratio is not specified. Generated scene and detail images are reference illustrations, and slime, containers and styling props are not included. These are clay craft slices, not food.",
+      "packagingMoq": "Reference packing: 1 kg/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "spotted round polymer clay slices, wholesale craft components",
+      "metaTitle": "YX3130 Spotted Round Polymer Clay Slices | HAIBU",
+      "metaDescription": "YX3130 Spotted Round Polymer Clay Slices. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer clay",
+        "size": "5 mm / 10 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "1 kg/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Handmade 1kg/bag Clay Food Chocolate Cookies Slice Polymer Clay Charms for DIY Slime Crafting Supplies 5MM 10MM",
+        "product_id": "1601096619917",
+        "product_url": "https://www.alibaba.com/product-detail/Handmade-1kg-bag-Clay-Food-Chocolate_1601096619917.html",
+        "material": "Clay",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "YX3130",
+          "材质": "Clay",
+          "产品分类": "礼品与工艺品>>工艺品>>泥工艺品",
+          "颜色": "YX3130 multi",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Polymer clay, sourcefieldClay and explicitsource titlePolymerClay",
+          "sizeOptions": "5 mm / 10 mm, source title",
+          "referencePacking": "1 kg/bag, source title"
+        }
+      },
+      "sourceProductId": "1601096619917",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Handmade-1kg-bag-Clay-Food-Chocolate_1601096619917.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "yx3130",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "yx3130-spotted-round-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW756",
+      "title": "Rice-Ball Resin Charms",
+      "originalTitle": "Wholesale 100pcs Resin 3D Simulation Rice Sushi Miniature Food Art Charms for DIY Crafts Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Rice-Ball Resin Charms, product code RW756",
+      "description": "RW756 rice-ball resin charms feature white molded grain relief and plain black panels for decorative assortment selection. Source option dimensions are 24 × 28 × 18 mm and 26 × 18 × 28 mm, with reference packing of 100 pcs per bag; this pack count does not establish MOQ. Confirm the selected option and packing with HAIBU for bulk procurement or OEM packaging discussions. The photograph shows small eye loops, but their diameter, metal composition and attachment performance are not specified. Generated scene and detail images are reference illustrations; cards, envelopes and other props are not included. Decorative only, not edible.",
+      "detailedDescription": "Rice-Ball Resin Charms. Source size: 24 × 28 × 18 mm / 26 × 18 × 28 mm. Reference packing: 100 pcs/bag; not MOQ. RW756 rice-ball resin charms feature white molded grain relief and plain black panels for decorative assortment selection. Source option dimensions are 24 × 28 × 18 mm and 26 × 18 × 28 mm, with reference packing of 100 pcs per bag; this pack count does not establish MOQ. Confirm the selected option and packing with HAIBU for bulk procurement or OEM packaging discussions. The photograph shows small eye loops, but their diameter, metal composition and attachment performance are not specified. Generated scene and detail images are reference illustrations; cards, envelopes and other props are not included. Decorative only, not edible. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Rice-Ball Resin Charms",
+        "Material: Resin",
+        "Dimensions: 24 × 28 × 18 mm / 26 × 18 × 28 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW756",
+        "Material: Resin",
+        "Dimensions: 24 × 28 × 18 mm / 26 × 18 × 28 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "24 × 28 × 18 mm / 26 × 18 × 28 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW756, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW756 miniature rice-ball resin charms combine textured white fronts and plain black panels for decorative DIY layouts. The source lists options measuring 24 × 28 × 18 mm and 26 × 18 × 28 mm; confirm your selected option before choosing a project combination. Reference packing is 100 pcs per bag. Small eye loops are visible in the original photograph; compatible hardware and loop diameter are not specified. Generated scene and detail images are reference illustrations, and styling props are not included. These resin miniatures are not food.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "rice ball resin charms, wholesale craft components",
+      "metaTitle": "RW756 Rice-Ball Resin Charms | HAIBU",
+      "metaDescription": "RW756 Rice-Ball Resin Charms. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "24 × 28 × 18 mm / 26 × 18 × 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Wholesale 100pcs Resin 3D Simulation Rice Sushi Miniature Food Art Charms for DIY Crafts Decoration",
+        "product_id": "62438429203",
+        "product_url": "https://www.alibaba.com/product-detail/Wholesale-100pcs-Resin-3D-Simulation-Rice_62438429203.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW756",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "24*28*18mm / 26*18*28mm",
+          "尺寸": "100pcs/bag",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "sizeOptions": "24 × 28 × 18 mm / 26 × 18 × 28 mm, explicit source option values in color attribute; no unproven option to photographedpiece mapping",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "sourceProductId": "62438429203",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-100pcs-Resin-3D-Simulation-Rice_62438429203.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw756",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw756-rice-ball-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW2304",
+      "title": "Round Candy-Style Resin Cabochons",
+      "originalTitle": "Kawaii Candy Beans Flat Back Resin Cabochon Round Candy Food DIY Embellishments for Scrapbooking Phone Deco Parts 14mm",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Round Candy-Style Resin Cabochons, product code RW2304",
+      "description": "RW2304 round candy-style resin cabochons provide glossy yellow, orange and brown accents for bulk craft assortment planning. The source specifies 14 mm and reference packing of 100 pcs per bag; this pack count does not establish MOQ. Confirm selected colors, the supplied mix and packing requirements with HAIBU for procurement or OEM packing discussions. Attachment and backing details are not established by the supplied photograph. Generated scene and detail images are reference illustrations; styling props are not included.",
+      "detailedDescription": "Round Candy-Style Resin Cabochons. Source size: 14 mm. Reference packing: 100 pcs/bag; not MOQ. RW2304 round candy-style resin cabochons provide glossy yellow, orange and brown accents for bulk craft assortment planning. The source specifies 14 mm and reference packing of 100 pcs per bag; this pack count does not establish MOQ. Confirm selected colors, the supplied mix and packing requirements with HAIBU for procurement or OEM packing discussions. Attachment and backing details are not established by the supplied photograph. Generated scene and detail images are reference illustrations; styling props are not included. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Round Candy-Style Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 14 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW2304",
+        "Material: Resin",
+        "Dimensions: 14 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "14 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW2304, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW2304 glossy round resin cabochons add candy-style color to decorative DIY layouts. The original photograph shows yellow, orange and brown pieces. Source size is 14 mm and reference packing is 100 pcs per bag. Select by product code and confirm available colors or assortment before choosing a DIY combination. The pieces are decorative and not edible. Generated scene and detail images are reference illustrations; props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "round candy style resin cabochons, wholesale craft components",
+      "metaTitle": "RW2304 Round Candy-Style Resin Cabochons | HAIBU",
+      "metaDescription": "RW2304 Round Candy-Style Resin Cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "14 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Kawaii Candy Beans Flat Back Resin Cabochon Round Candy Food DIY Embellishments for Scrapbooking Phone Deco Parts 14mm",
+        "product_id": "1600190478926",
+        "product_url": "https://www.alibaba.com/product-detail/Kawaii-Candy-Beans-Flat-Back-Resin_1600190478926.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW2304",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "mix",
+          "尺寸": "100pcs/bag",
+          "最小起订量": "2"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "size": "14 mm",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "sourceProductId": "1600190478926",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Candy-Beans-Flat-Back-Resin_1600190478926.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw2304",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw2304-round-candy-style-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW3936",
+      "title": "Rose-Shaped Resin Cabochons",
+      "originalTitle": "Vintage Colorful Rose Resin Accessories Flat Back Cabochon Flower Crafts for DIY Jewelry Making Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Rose-Shaped Resin Cabochons, product code RW3936",
+      "description": "RW3936 sculpted rose resin cabochons offer layered floral fronts for bulk decorative assortment planning. Source options list 12 mm and 20 mm, with reference packing of 100 pcs per bag; pack count does not establish MOQ. Confirm selected size, finish, supplied color mix and packing requirements with HAIBU for procurement or OEM packaging discussions. The source shows red, white and metallic-look finishes without establishing a fixed assortment. Generated scene and detail images are reference illustrations; cards, envelopes and other styling props are not included. No attachment or backing specification is established.",
+      "detailedDescription": "Rose-Shaped Resin Cabochons. Source size: 12 mm / 20 mm. Reference packing: 100 pcs/bag; not MOQ. RW3936 sculpted rose resin cabochons offer layered floral fronts for bulk decorative assortment planning. Source options list 12 mm and 20 mm, with reference packing of 100 pcs per bag; pack count does not establish MOQ. Confirm selected size, finish, supplied color mix and packing requirements with HAIBU for procurement or OEM packaging discussions. The source shows red, white and metallic-look finishes without establishing a fixed assortment. Generated scene and detail images are reference illustrations; cards, envelopes and other styling props are not included. No attachment or backing specification is established. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Rose-Shaped Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 12 mm / 20 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW3936",
+        "Material: Resin",
+        "Dimensions: 12 mm / 20 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "12 mm / 20 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW3936, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW3936 rose-shaped resin cabochons add layered flower accents to card layouts and other decorative DIY combinations. Choose from source size options of 12 mm and 20 mm after confirming the selected style. The original photograph shows red, creamy white and metallic-look finishes; the available mix and individual color-size pairing need confirmation. Reference packing is 100 pcs per bag. Generated scene and detail images are reference illustrations, and styling props are not included. Use the photographed floral fronts as a selection reference; mounting hardware and backing details are not specified.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "rose shaped resin cabochons, wholesale craft components",
+      "metaTitle": "RW3936 Rose-Shaped Resin Cabochons | HAIBU",
+      "metaDescription": "RW3936 Rose-Shaped Resin Cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "12 mm / 20 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Vintage Colorful Rose Resin Accessories Flat Back Cabochon Flower Crafts for DIY Jewelry Making Accessories",
+        "product_id": "1601668724645",
+        "product_url": "https://www.alibaba.com/product-detail/Vintage-Colorful-Rose-Resin-Accessories-Flat_1601668724645.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW3936",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "12mm / 20mm",
+          "尺寸": "100pcs/bag"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "sizeOptions": "12 mm / 20 mm, source option values; confirm selection, no unproven individual color-size mapping",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "sourceProductId": "1601668724645",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Vintage-Colorful-Rose-Resin-Accessories-Flat_1601668724645.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw3936",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw3936-rose-shaped-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW23219",
+      "title": "Pastel Alpaca Resin Cabochons",
+      "originalTitle": "100pcs 23x24mm Cartoon Animal Charms Resin Alpaca Charms Pendants for Jewelry Making Earrings Necklaces DIY Crafts Gift",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Alpaca Resin Cabochons, product code RW23219",
+      "description": "RW23219 pastel alpaca resin cabochons feature heart-shaped glasses and molded saddle details for decorative assortment planning. Source size is 23 × 24 mm and reference packing is 100 pcs per bag; pack count does not establish MOQ. The original photograph shows pink, mint and lavender styles without specifying a fixed assortment. Confirm selected styles, the supplied mix and packing with HAIBU for bulk procurement or OEM packaging discussions. Generated scene and detail images are reference illustrations; notebooks, yarn and other props are not included. No hole, loop or backing specification is established.",
+      "detailedDescription": "Pastel Alpaca Resin Cabochons. Source size: 23 × 24 mm. Reference packing: 100 pcs/bag; not MOQ. RW23219 pastel alpaca resin cabochons feature heart-shaped glasses and molded saddle details for decorative assortment planning. Source size is 23 × 24 mm and reference packing is 100 pcs per bag; pack count does not establish MOQ. The original photograph shows pink, mint and lavender styles without specifying a fixed assortment. Confirm selected styles, the supplied mix and packing with HAIBU for bulk procurement or OEM packaging discussions. Generated scene and detail images are reference illustrations; notebooks, yarn and other props are not included. No hole, loop or backing specification is established. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel Alpaca Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 23 × 24 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW23219",
+        "Material: Resin",
+        "Dimensions: 23 × 24 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "23 × 24 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW23219, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW23219 pastel alpaca resin cabochons add animal motifs with heart-shaped glasses and patterned saddle details to decorative DIY layouts. The source specifies 23 × 24 mm and reference packing of 100 pcs per bag. The original shows pink, mint and lavender pieces; confirm the available style mix before choosing your project combination. Generated scene and detail images are reference illustrations, and notebooks, yarn and other styling props are not included. Attachment hardware and backing details are not specified.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pastel alpaca resin cabochons, wholesale craft components",
+      "metaTitle": "RW23219 Pastel Alpaca Resin Cabochons | HAIBU",
+      "metaDescription": "RW23219 Pastel Alpaca Resin Cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "23 × 24 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100pcs 23x24mm Cartoon Animal Charms Resin Alpaca Charms Pendants for Jewelry Making Earrings Necklaces DIY Crafts Gift",
+        "product_id": "1601447901828",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-23x24mm-Cartoon-Animal-Charms-Resin_1601447901828.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW23219",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW23219-mix",
+          "尺寸": "100pcs/bag",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "size": "23 × 24 mm, explicit source title",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "sourceProductId": "1601447901828",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-23x24mm-Cartoon-Animal-Charms-Resin_1601447901828.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw23219",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw23219-pastel-alpaca-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW5673",
+      "title": "White Rabbit Resin Miniatures",
+      "originalTitle": "Mini Resin Animals Miniatures Rabbit Animal Figures for DIY Micro Fairy Garden Landscape Crafts Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "White Rabbit Resin Miniatures, product code RW5673",
+      "description": "RW5673 white rabbit resin miniatures feature upright ears, closed-eye details and small front paws for decorative assortment planning. The photographed rabbit is annotated 1.2 cm wide and 2.9 cm high, matching the source 12 × 29 mm option. Reference packing is 100 pcs per bag and does not establish MOQ. Other source size options require style confirmation rather than being assigned to this photograph. Confirm the selected option and packing with HAIBU for bulk procurement or OEM packaging discussions. Generated scene and detail images are reference illustrations; notebooks, pencil cups and other props are not included. No attachment, weather resistance or outdoor performance is specified.",
+      "detailedDescription": "White Rabbit Resin Miniatures. Source size: 12 × 29 mm. Reference packing: 100 pcs/bag; not MOQ. RW5673 white rabbit resin miniatures feature upright ears, closed-eye details and small front paws for decorative assortment planning. The photographed rabbit is annotated 1.2 cm wide and 2.9 cm high, matching the source 12 × 29 mm option. Reference packing is 100 pcs per bag and does not establish MOQ. Other source size options require style confirmation rather than being assigned to this photograph. Confirm the selected option and packing with HAIBU for bulk procurement or OEM packaging discussions. Generated scene and detail images are reference illustrations; notebooks, pencil cups and other props are not included. No attachment, weather resistance or outdoor performance is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "White Rabbit Resin Miniatures",
+        "Material: Resin",
+        "Dimensions: 12 × 29 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW5673",
+        "Material: Resin",
+        "Dimensions: 12 × 29 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "12 × 29 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW5673, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW5673 white rabbit resin miniatures add a simple animal accent to decorative DIY layouts and miniature displays. The original photographed rabbit measures 12 × 29 mm according to its 1.2 cm by 2.9 cm annotation. Reference packing is 100 pcs per bag. Confirm your selected option, as other source dimensions do not establish the style shown for each option. Generated scene and detail images are reference illustrations; notebooks, pencil cups and styling props are not included. These are decorative resin miniatures; mounting hardware and outdoor performance are not specified.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "white rabbit resin miniatures, wholesale craft components",
+      "metaTitle": "RW5673 White Rabbit Resin Miniatures | HAIBU",
+      "metaDescription": "RW5673 White Rabbit Resin Miniatures. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "12 × 29 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Mini Resin Animals Miniatures Rabbit Animal Figures for DIY Micro Fairy Garden Landscape Crafts Accessories",
+        "product_id": "1601550808508",
+        "product_url": "https://www.alibaba.com/product-detail/Mini-Resin-Animals-Miniatures-Rabbit-Animal_1601550808508.html",
+        "material": "Resin",
+        "size": "",
+        "packaging": "100pcs/bag",
+        "attributes": {
+          "型号": "MO-RW5673",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW5673-12*29mm / RW5673-21*35mm / RW5673-23*35mm / RW5673-24*26mm / 17*16mm",
+          "尺寸": "100pcs/bag"
+        },
+        "verifiedFacts": {
+          "material": "Resin",
+          "photographedSize": "12 × 29 mm, originalphoto annotated1.2cmwide2.9cmhigh, matches explicitsource12*29mm option",
+          "otherSourceSizeOptions": "21×35mm /23×35mm /24×26mm /17×16mm; corresponding styles not established by this originalphoto and require confirmation",
+          "referencePacking": "100 pcs/bag"
+        }
+      },
+      "sourceProductId": "1601550808508",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Resin-Animals-Miniatures-Rabbit-Animal_1601550808508.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw5673",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw5673-white-rabbit-resin-miniatures",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 349
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1104",
+      "title": "White smiling cloud resin cabochons",
+      "originalTitle": "Cute 100pcs White Smile Cloud Resin Flack Back Cabochon Art Supply Decoration Charm DIY Accessories Small Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "White smiling cloud resin cabochons, product code RW1104",
+      "description": "RW1104 white smiling cloud resin cabochons offer glossy white cloud lobes with black eyes, a curved smile and pink cheeks for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 5 × 14 × 22 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. The same-SKU product page states no hole. No adhesive or mounting hardware is included by specification. Generated scene and detail images are reference illustrations; slime, clear jar, wooden stick and lavender mat are not included. No fixed assortment is specified.",
+      "detailedDescription": "White smiling cloud resin cabochons. Source size: 5 × 14 × 22 mm. Reference packing: 100 pcs/bag; not MOQ. RW1104 white smiling cloud resin cabochons offer glossy white cloud lobes with black eyes, a curved smile and pink cheeks for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 5 × 14 × 22 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. The same-SKU product page states no hole. No adhesive or mounting hardware is included by specification. Generated scene and detail images are reference illustrations; slime, clear jar, wooden stick and lavender mat are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "White smiling cloud resin cabochons",
+        "Material: Resin",
+        "Dimensions: 5 × 14 × 22 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1104",
+        "Material: Resin",
+        "Dimensions: 5 × 14 × 22 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: The same-SKU product page states no hole. No adhesive or mounting hardware is included by specification.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "5 × 14 × 22 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW1104, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW1104 white smiling cloud resin cabochons add glossy white cloud lobes with black eyes, a curved smile and pink cheeks to decorative DIY layouts and component combinations. Source size is 5 × 14 × 22 mm, material is resin, and reference packing is 100 pcs/bag. Confirm the available style or color mix before choosing a project combination. The same-SKU product page states no hole. No adhesive or mounting hardware is included by specification. Generated scene and detail images are reference illustrations, and slime, clear jar, wooden stick and lavender mat are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "white smiling cloud resin cabochons, wholesale craft components",
+      "metaTitle": "RW1104 White smiling cloud resin cabochons | HAIBU",
+      "metaDescription": "RW1104 White smiling cloud resin cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "5 × 14 × 22 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Cute 100pcs White Smile Cloud Resin Flack Back Cabochon Art Supply Decoration Charm DIY Accessories Small Craft",
+        "product_id": "62311445281",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-100pcs-White-Smile-Cloud-Resin_62311445281.html",
+        "material": "Resin",
+        "size": "5*14*22mm",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW1104",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "WHITE",
+          "尺寸": "5*14*22mm",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "5 × 14 × 22 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "62311445281",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-100pcs-White-Smile-Cloud-Resin_62311445281.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw1104",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw1104-white-smiling-cloud-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "The same-SKU product page states no hole. No adhesive or mounting hardware is included by specification.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW23905",
+      "title": "Glitter dolphin resin cabochons",
+      "originalTitle": "100Pcs New Shiny Glitter Dolphin Resin Kawaii Crafts Flatback Cabochon Ornament Jewelry Making Hairwear Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glitter dolphin resin cabochons, product code RW23905",
+      "description": "RW23905 glitter dolphin resin cabochons offer transparent dolphin outlines with colored glitter and a flat bow-shaped iridescent insert for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 17 × 23 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment hole, included adhesive or hardware is specified. The open crescent beneath the curved tail is part of the visible outline. Generated scene and detail images are reference illustrations; phone case, peach grid mat and craft spatula are not included. No fixed assortment is specified.",
+      "detailedDescription": "Glitter dolphin resin cabochons. Source size: 17 × 23 mm. Reference packing: 100 pcs/bag; not MOQ. RW23905 glitter dolphin resin cabochons offer transparent dolphin outlines with colored glitter and a flat bow-shaped iridescent insert for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 17 × 23 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment hole, included adhesive or hardware is specified. The open crescent beneath the curved tail is part of the visible outline. Generated scene and detail images are reference illustrations; phone case, peach grid mat and craft spatula are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glitter dolphin resin cabochons",
+        "Material: Resin",
+        "Dimensions: 17 × 23 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW23905",
+        "Material: Resin",
+        "Dimensions: 17 × 23 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No attachment hole, included adhesive or hardware is specified. The open crescent beneath the curved tail is part of the visible outline.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "17 × 23 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW23905, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW23905 glitter dolphin resin cabochons add transparent dolphin outlines with colored glitter and a flat bow-shaped iridescent insert to decorative DIY layouts and component combinations. Source size is 17 × 23 mm, material is resin, and reference packing is 100 pcs/bag. Confirm the available style or color mix before choosing a project combination. No attachment hole, included adhesive or hardware is specified. The open crescent beneath the curved tail is part of the visible outline. Generated scene and detail images are reference illustrations, and phone case, peach grid mat and craft spatula are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "glitter dolphin resin cabochons, wholesale craft components",
+      "metaTitle": "RW23905 Glitter dolphin resin cabochons | HAIBU",
+      "metaDescription": "RW23905 Glitter dolphin resin cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "17 × 23 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100Pcs New Shiny Glitter Dolphin Resin Kawaii Crafts Flatback Cabochon Ornament Jewelry Making Hairwear Accessories",
+        "product_id": "1601382687993",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-New-Shiny-Glitter-Dolphin-Resin_1601382687993.html",
+        "material": "Resin",
+        "size": "17*23mm",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW23905",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "mix",
+          "尺寸": "17*23mm",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "17 × 23 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1601382687993",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-New-Shiny-Glitter-Dolphin-Resin_1601382687993.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw23905",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw23905-glitter-dolphin-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "width": 1000,
+          "height": 750
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "No attachment hole, included adhesive or hardware is specified. The open crescent beneath the curved tail is part of the visible outline.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW763",
+      "title": "Large colorful resin rose cabochons",
+      "originalTitle": "42*40MM Large Rose Flower Resin Cabochon Colorful Rose Floral Flatback Embellishments for Jewelry Making DIY Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Large colorful resin rose cabochons, product code RW763",
+      "description": "RW763 large colorful resin rose cabochons offer concentric sculpted rose petals and glossy solid colors for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 42 × 40 mm and reference packing of 50 pieces/batch; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment holes, included adhesive or mounting hardware are specified. Generated scene and detail images are reference illustrations; gift-box lid, sage ribbon, kraft paper and desk are not included. No fixed assortment is specified.",
+      "detailedDescription": "Large colorful resin rose cabochons. Source size: 42 × 40 mm. Reference packing: 50 pieces/batch; not MOQ. RW763 large colorful resin rose cabochons offer concentric sculpted rose petals and glossy solid colors for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 42 × 40 mm and reference packing of 50 pieces/batch; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment holes, included adhesive or mounting hardware are specified. Generated scene and detail images are reference illustrations; gift-box lid, sage ribbon, kraft paper and desk are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Large colorful resin rose cabochons",
+        "Material: Resin",
+        "Dimensions: 42 × 40 mm",
+        "Reference pack: 50 pieces/batch"
+      ],
+      "specificationLines": [
+        "Product code: RW763",
+        "Material: Resin",
+        "Dimensions: 42 × 40 mm",
+        "Reference pack: 50 pieces/batch",
+        "Attachment: No attachment holes, included adhesive or mounting hardware are specified.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "42 × 40 mm",
+      "sourcePacking": "50 pieces/batch",
+      "customizationOptions": "For RW763, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW763 large colorful resin rose cabochons add concentric sculpted rose petals and glossy solid colors to decorative DIY layouts and component combinations. Source size is 42 × 40 mm, material is resin, and reference packing is 50 pieces/batch. Confirm the available style or color mix before choosing a project combination. No attachment holes, included adhesive or mounting hardware are specified. Generated scene and detail images are reference illustrations, and gift-box lid, sage ribbon, kraft paper and desk are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 50 pieces/batch. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "large colorful resin rose cabochons, wholesale craft components",
+      "metaTitle": "RW763 Large colorful resin rose cabochons | HAIBU",
+      "metaDescription": "RW763 Large colorful resin rose cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "42 × 40 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "50 pieces/batch"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "42*40MM Large Rose Flower Resin Cabochon Colorful Rose Floral Flatback Embellishments for Jewelry Making DIY Crafts",
+        "product_id": "1601395346149",
+        "product_url": "https://www.alibaba.com/product-detail/42-40MM-Large-Rose-Flower-Resin_1601395346149.html",
+        "material": "Resin",
+        "size": "42*40mm-50pieces/batch",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW763",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW763-MIX",
+          "尺寸": "42*40mm-50pieces/batch",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "42 × 40 mm, same-SKU source records",
+          "referencePacking": "50 pieces/batch, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1601395346149",
+      "sourceUrl": "https://www.alibaba.com/product-detail/42-40MM-Large-Rose-Flower-Resin_1601395346149.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw763",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw763-large-colorful-resin-rose-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "No attachment holes, included adhesive or mounting hardware are specified.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW23182",
+      "title": "Pastel iridescent resin bow cabochons",
+      "originalTitle": "Cute AB Plated Bowknot Bowtie Resin Flatback Cabochons Embellishments for Scrapbooking and Hair Bow Center Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel iridescent resin bow cabochons, product code RW23182",
+      "description": "RW23182 pastel iridescent resin bow cabochons offer sculpted ribbon folds, curved crease lines and a raised central knot for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 22 × 30 mm and reference packing of 50 pieces/batch; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment hole, backing accessory or included adhesive is established by the source. Generated scene and detail images are reference illustrations; planning card, hair clip, peach linen and dried flowers are not included. No fixed assortment is specified.",
+      "detailedDescription": "Pastel iridescent resin bow cabochons. Source size: 22 × 30 mm. Reference packing: 50 pieces/batch; not MOQ. RW23182 pastel iridescent resin bow cabochons offer sculpted ribbon folds, curved crease lines and a raised central knot for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 22 × 30 mm and reference packing of 50 pieces/batch; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment hole, backing accessory or included adhesive is established by the source. Generated scene and detail images are reference illustrations; planning card, hair clip, peach linen and dried flowers are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel iridescent resin bow cabochons",
+        "Material: Resin",
+        "Dimensions: 22 × 30 mm",
+        "Reference pack: 50 pieces/batch"
+      ],
+      "specificationLines": [
+        "Product code: RW23182",
+        "Material: Resin",
+        "Dimensions: 22 × 30 mm",
+        "Reference pack: 50 pieces/batch",
+        "Attachment: No attachment hole, backing accessory or included adhesive is established by the source.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "22 × 30 mm",
+      "sourcePacking": "50 pieces/batch",
+      "customizationOptions": "For RW23182, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW23182 pastel iridescent resin bow cabochons add sculpted ribbon folds, curved crease lines and a raised central knot to decorative DIY layouts and component combinations. Source size is 22 × 30 mm, material is resin, and reference packing is 50 pieces/batch. Confirm the available style or color mix before choosing a project combination. No attachment hole, backing accessory or included adhesive is established by the source. Generated scene and detail images are reference illustrations, and planning card, hair clip, peach linen and dried flowers are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 50 pieces/batch. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pastel iridescent resin bow cabochons, wholesale craft components",
+      "metaTitle": "RW23182 Pastel iridescent resin bow cabochons | HAIBU",
+      "metaDescription": "RW23182 Pastel iridescent resin bow cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "22 × 30 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "50 pieces/batch"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Cute AB Plated Bowknot Bowtie Resin Flatback Cabochons Embellishments for Scrapbooking and Hair Bow Center Decoration",
+        "product_id": "1601397029751",
+        "product_url": "https://www.alibaba.com/product-detail/Cute-AB-Plated-Bowknot-Bowtie-Resin_1601397029751.html",
+        "material": "Resin",
+        "size": "22*30mm-50pcs/batch",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW23182",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW23182-MIX",
+          "尺寸": "22*30mm-50pcs/batch",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "22 × 30 mm, same-SKU source records",
+          "referencePacking": "50 pieces/batch, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1601397029751",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-AB-Plated-Bowknot-Bowtie-Resin_1601397029751.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw23182",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw23182-pastel-iridescent-resin-bow-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "No attachment hole, backing accessory or included adhesive is established by the source.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW23594",
+      "title": "Glitter tulip resin cabochons",
+      "originalTitle": "100pcs Mini Kawaii Cartoon Shining Tulip Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glitter tulip resin cabochons, product code RW23594",
+      "description": "RW23594 glitter tulip resin cabochons offer rounded tulip petals, two sculpted leaves and colored glitter within clear resin for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 21 × 29 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment hole, adhesive backing or mounting hardware is specified. Generated scene and detail images are reference illustrations; scrapbook cover, paper strips, glue bottle and linen are not included. No fixed assortment is specified.",
+      "detailedDescription": "Glitter tulip resin cabochons. Source size: 21 × 29 mm. Reference packing: 100 pcs/bag; not MOQ. RW23594 glitter tulip resin cabochons offer rounded tulip petals, two sculpted leaves and colored glitter within clear resin for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 21 × 29 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment hole, adhesive backing or mounting hardware is specified. Generated scene and detail images are reference illustrations; scrapbook cover, paper strips, glue bottle and linen are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Glitter tulip resin cabochons",
+        "Material: Resin",
+        "Dimensions: 21 × 29 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW23594",
+        "Material: Resin",
+        "Dimensions: 21 × 29 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No attachment hole, adhesive backing or mounting hardware is specified.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "21 × 29 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW23594, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW23594 glitter tulip resin cabochons add rounded tulip petals, two sculpted leaves and colored glitter within clear resin to decorative DIY layouts and component combinations. Source size is 21 × 29 mm, material is resin, and reference packing is 100 pcs/bag. Confirm the available style or color mix before choosing a project combination. No attachment hole, adhesive backing or mounting hardware is specified. Generated scene and detail images are reference illustrations, and scrapbook cover, paper strips, glue bottle and linen are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "glitter tulip resin cabochons, wholesale craft components",
+      "metaTitle": "RW23594 Glitter tulip resin cabochons | HAIBU",
+      "metaDescription": "RW23594 Glitter tulip resin cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "21 × 29 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100pcs Mini Kawaii Cartoon Shining Tulip Flat Back Cabochons Scrapbook Diy Party Hairpin Accessories Home Decoration Craft",
+        "product_id": "1601103772444",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cartoon-Shining-Tulip_1601103772444.html",
+        "material": "Resin",
+        "size": "21*29mm-100pcs",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW23594",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "RW23594-MIX",
+          "尺寸": "21*29mm-100pcs",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "21 × 29 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1601103772444",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Cartoon-Shining-Tulip_1601103772444.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw23594",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw23594-glitter-tulip-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1333
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "No attachment hole, adhesive backing or mounting hardware is specified.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW890",
+      "title": "Pastel resin flower cabochons with yellow centers",
+      "originalTitle": "100Pcs Mixed 14mm Resin Flower Decoration Crafts Flatback Cabochon Beads Embellishments for Scrapbooking DIY Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel resin flower cabochons with yellow centers, product code RW890",
+      "description": "RW890 pastel resin flower cabochons with yellow centers offer five gently cupped petals and a small raised yellow flower center for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 14 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No hole, adhesive backing or mounting hardware is specified. Generated scene and detail images are reference illustrations; scrapbook cover, cream paper, blue ribbon and white linen are not included. No fixed assortment is specified.",
+      "detailedDescription": "Pastel resin flower cabochons with yellow centers. Source size: 14 mm. Reference packing: 100 pcs/bag; not MOQ. RW890 pastel resin flower cabochons with yellow centers offer five gently cupped petals and a small raised yellow flower center for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 14 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No hole, adhesive backing or mounting hardware is specified. Generated scene and detail images are reference illustrations; scrapbook cover, cream paper, blue ribbon and white linen are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pastel resin flower cabochons with yellow centers",
+        "Material: Resin",
+        "Dimensions: 14 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW890",
+        "Material: Resin",
+        "Dimensions: 14 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No hole, adhesive backing or mounting hardware is specified.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "14 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW890, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW890 pastel resin flower cabochons with yellow centers add five gently cupped petals and a small raised yellow flower center to decorative DIY layouts and component combinations. Source size is 14 mm, material is resin, and reference packing is 100 pcs/bag. Confirm the available style or color mix before choosing a project combination. No hole, adhesive backing or mounting hardware is specified. Generated scene and detail images are reference illustrations, and scrapbook cover, cream paper, blue ribbon and white linen are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pastel resin flower cabochons with yellow centers, wholesale craft components",
+      "metaTitle": "RW890 Pastel resin flower cabochons with yellow centers | HAIBU",
+      "metaDescription": "RW890 Pastel resin flower cabochons with yellow centers. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "14 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100Pcs Mixed 14mm Resin Flower Decoration Crafts Flatback Cabochon Beads Embellishments for Scrapbooking DIY Accessories",
+        "product_id": "62209443157",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-Mixed-14mm-Resin-Flower-Decoration_62209443157.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW890"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "14 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "62209443157",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mixed-14mm-Resin-Flower-Decoration_62209443157.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw890",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw890-pastel-resin-flower-cabochons-with-yellow-centers",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "No hole, adhesive backing or mounting hardware is specified.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26165",
+      "title": "Textured pastel resin daisy cabochons",
+      "originalTitle": "100Pcs 28mm Mini Resin Daisy Sunflower Charms DIY Making Scrapbooking Phone Case Decoration Toy",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Textured pastel resin daisy cabochons, product code RW26165",
+      "description": "RW26165 textured pastel resin daisy cabochons offer layered radial petals with molded crosshatch texture and two-tone circular centers for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size about 28 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment hole, adhesive backing or hardware is specified. Generated scene and detail images are reference illustrations; wood photo frame, cream ribbon and peach paper are not included. No fixed assortment is specified.",
+      "detailedDescription": "Textured pastel resin daisy cabochons. Source size: about 28 mm. Reference packing: 100 pcs/bag; not MOQ. RW26165 textured pastel resin daisy cabochons offer layered radial petals with molded crosshatch texture and two-tone circular centers for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size about 28 mm and reference packing of 100 pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment hole, adhesive backing or hardware is specified. Generated scene and detail images are reference illustrations; wood photo frame, cream ribbon and peach paper are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Textured pastel resin daisy cabochons",
+        "Material: Resin",
+        "Dimensions: about 28 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26165",
+        "Material: Resin",
+        "Dimensions: about 28 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No attachment hole, adhesive backing or hardware is specified.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "about 28 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26165, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26165 textured pastel resin daisy cabochons add layered radial petals with molded crosshatch texture and two-tone circular centers to decorative DIY layouts and component combinations. Source size is about 28 mm, material is resin, and reference packing is 100 pcs/bag. Confirm the available style or color mix before choosing a project combination. No attachment hole, adhesive backing or hardware is specified. Generated scene and detail images are reference illustrations, and wood photo frame, cream ribbon and peach paper are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "textured pastel resin daisy cabochons, wholesale craft components",
+      "metaTitle": "RW26165 Textured pastel resin daisy cabochons | HAIBU",
+      "metaDescription": "RW26165 Textured pastel resin daisy cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "about 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100Pcs 28mm Mini Resin Daisy Sunflower Charms DIY Making Scrapbooking Phone Case Decoration Toy",
+        "product_id": "1601214701719",
+        "product_url": "https://www.alibaba.com/product-detail/100Pcs-28mm-Mini-Resin-Daisy-Sunflower_1601214701719.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW26165"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "about 28 mm, same-SKU source records",
+          "referencePacking": "100 pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1601214701719",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-28mm-Mini-Resin-Daisy-Sunflower_1601214701719.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw26165",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw26165-textured-pastel-resin-daisy-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "No attachment hole, adhesive backing or hardware is specified.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW6014",
+      "title": "Miniature Peach Resin Rose Cabochons",
+      "originalTitle": "500Pcs New 5mm Kawaii Cute Mixed Flowers Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Miniature Peach Resin Rose Cabochons, product code RW6014",
+      "description": "RW6014 miniature peach resin rose cabochons offer small pale peach roses with concentric sculpted petals for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 5mm and reference packing of 500pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. Attachment and backing specifications require confirmation; no holes or mounting accessories are specified. Generated scene and detail images are reference illustrations; manicure tips, ceramic tray and linen are not included. No fixed assortment is specified.",
+      "detailedDescription": "Miniature Peach Resin Rose Cabochons. Source size: 5mm. Reference packing: 500pcs/bag; not MOQ. RW6014 miniature peach resin rose cabochons offer small pale peach roses with concentric sculpted petals for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 5mm and reference packing of 500pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. Attachment and backing specifications require confirmation; no holes or mounting accessories are specified. Generated scene and detail images are reference illustrations; manicure tips, ceramic tray and linen are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Miniature Peach Resin Rose Cabochons",
+        "Material: Resin",
+        "Dimensions: 5mm",
+        "Reference pack: 500pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW6014",
+        "Material: Resin",
+        "Dimensions: 5mm",
+        "Reference pack: 500pcs/bag",
+        "Attachment: Attachment and backing specifications require confirmation; no holes or mounting accessories are specified.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "5mm",
+      "sourcePacking": "500pcs/bag",
+      "customizationOptions": "For RW6014, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW6014 miniature peach resin rose cabochons add small pale peach roses with concentric sculpted petals to decorative DIY layouts and component combinations. Source size is 5mm, material is resin, and reference packing is 500pcs/bag. Confirm the available style or color mix before choosing a project combination. Attachment and backing specifications require confirmation; no holes or mounting accessories are specified. Generated scene and detail images are reference illustrations, and manicure tips, ceramic tray and linen are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 500pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "miniature peach resin rose cabochons, wholesale craft components",
+      "metaTitle": "RW6014 Miniature Peach Resin Rose Cabochons | HAIBU",
+      "metaDescription": "RW6014 Miniature Peach Resin Rose Cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "5mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "500Pcs New 5mm Kawaii Cute Mixed Flowers Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "product_id": "1601585200000",
+        "product_url": "https://www.alibaba.com/product-detail/500Pcs-New-5mm-Kawaii-Cute-Mixed_1601585200000.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW6014"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "5mm, same-SKU source records",
+          "referencePacking": "500pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1601585200000",
+      "sourceUrl": "https://www.alibaba.com/product-detail/500Pcs-New-5mm-Kawaii-Cute-Mixed_1601585200000.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw6014",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw6014-miniature-peach-resin-rose-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Attachment and backing specifications require confirmation; no holes or mounting accessories are specified.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1371",
+      "title": "Small Five Petal Resin Flowers",
+      "originalTitle": "100 Pcs Mini Multi Color Flat Back 3D Resin Flower Cabochons Cameo for Necklace or Bracelet Make Finding 6mm",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Small Five Petal Resin Flowers, product code RW1371",
+      "description": "RW1371 small five petal resin flowers offer five cupped petals surrounding a raised round center in the photographed pastel combinations for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 3×6×6mm and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment or backing specification is established. Generated scene and detail images are reference illustrations; hair clip and felt are not included. No fixed assortment is specified.",
+      "detailedDescription": "Small Five Petal Resin Flowers. Source size: 3×6×6mm. Reference packing: 100pcs/bag; not MOQ. RW1371 small five petal resin flowers offer five cupped petals surrounding a raised round center in the photographed pastel combinations for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 3×6×6mm and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment or backing specification is established. Generated scene and detail images are reference illustrations; hair clip and felt are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Small Five Petal Resin Flowers",
+        "Material: Resin",
+        "Dimensions: 3×6×6mm",
+        "Reference pack: 100pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1371",
+        "Material: Resin",
+        "Dimensions: 3×6×6mm",
+        "Reference pack: 100pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "3×6×6mm",
+      "sourcePacking": "100pcs/bag",
+      "customizationOptions": "For RW1371, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW1371 small five petal resin flowers add five cupped petals surrounding a raised round center in the photographed pastel combinations to decorative DIY layouts and component combinations. Source size is 3×6×6mm, material is resin, and reference packing is 100pcs/bag. Confirm the available style or color mix before choosing a project combination. No attachment or backing specification is established. Generated scene and detail images are reference illustrations, and hair clip and felt are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "small five petal resin flowers, wholesale craft components",
+      "metaTitle": "RW1371 Small Five Petal Resin Flowers | HAIBU",
+      "metaDescription": "RW1371 Small Five Petal Resin Flowers. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "3×6×6mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100 Pcs Mini Multi Color Flat Back 3D Resin Flower Cabochons Cameo for Necklace or Bracelet Make Finding 6mm",
+        "product_id": "62469893585",
+        "product_url": "https://www.alibaba.com/product-detail/100-Pcs-Mini-Multi-Color-Flat_62469893585.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW1371"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "3×6×6mm, same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "62469893585",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100-Pcs-Mini-Multi-Color-Flat_62469893585.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw1371",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw1371-small-five-petal-resin-flowers",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1148",
+      "title": "Penguin Swim Ring Resin Cabochons",
+      "originalTitle": "100pcs 23mm Flatback Kawaii Resin Cabochon Animal Penguin Shape DIY Slime Beads Charms Embellishments Scrapbooking",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Penguin Swim Ring Resin Cabochons, product code RW1148",
+      "description": "RW1148 penguin swim ring resin cabochons offer black and white penguins with orange beaks and feet reclining on white rings with red and blue painted accents for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 23mm and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment or backing specification is established. Generated scene and detail images are reference illustrations; scrapbook, paper wave, basket and shell are not included. No fixed assortment is specified.",
+      "detailedDescription": "Penguin Swim Ring Resin Cabochons. Source size: 23mm. Reference packing: 100pcs/bag; not MOQ. RW1148 penguin swim ring resin cabochons offer black and white penguins with orange beaks and feet reclining on white rings with red and blue painted accents for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 23mm and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment or backing specification is established. Generated scene and detail images are reference illustrations; scrapbook, paper wave, basket and shell are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Penguin Swim Ring Resin Cabochons",
+        "Material: Resin",
+        "Dimensions: 23mm",
+        "Reference pack: 100pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1148",
+        "Material: Resin",
+        "Dimensions: 23mm",
+        "Reference pack: 100pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "23mm",
+      "sourcePacking": "100pcs/bag",
+      "customizationOptions": "For RW1148, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW1148 penguin swim ring resin cabochons add black and white penguins with orange beaks and feet reclining on white rings with red and blue painted accents to decorative DIY layouts and component combinations. Source size is 23mm, material is resin, and reference packing is 100pcs/bag. Confirm the available style or color mix before choosing a project combination. No attachment or backing specification is established. Generated scene and detail images are reference illustrations, and scrapbook, paper wave, basket and shell are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "penguin swim ring resin cabochons, wholesale craft components",
+      "metaTitle": "RW1148 Penguin Swim Ring Resin Cabochons | HAIBU",
+      "metaDescription": "RW1148 Penguin Swim Ring Resin Cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "23mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100pcs 23mm Flatback Kawaii Resin Cabochon Animal Penguin Shape DIY Slime Beads Charms Embellishments Scrapbooking",
+        "product_id": "62344783630",
+        "product_url": "https://www.alibaba.com/product-detail/100pcs-23mm-Flatback-Kawaii-Resin-Cabochon_62344783630.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW1148"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "23mm, same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "62344783630",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-23mm-Flatback-Kawaii-Resin-Cabochon_62344783630.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw1148",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw1148-penguin-swim-ring-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 800,
+          "height": 800
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1334",
+      "title": "Transportation Resin Cabochon Assortment",
+      "originalTitle": "100PCS Mix Style Transportation Vehicle Resin Car Boat Bike Helicopter Rocket Miniature Flatback Cabochon DIY Craft Scrapbooking",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Transportation Resin Cabochon Assortment, product code RW1334",
+      "description": "RW1334 transportation resin cabochon assortment offer the photographed colorful vehicle silhouettes, including buses and helicopters for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 5×23×35mm (source listing size; confirm selected style) and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. Sizes of individual assorted shapes and backing specifications require confirmation. Generated scene and detail images are reference illustrations; paper tags and desk surface are not included. No fixed assortment is specified.",
+      "detailedDescription": "Transportation Resin Cabochon Assortment. Source size: 5×23×35mm (source listing size; confirm selected style). Reference packing: 100pcs/bag; not MOQ. RW1334 transportation resin cabochon assortment offer the photographed colorful vehicle silhouettes, including buses and helicopters for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 5×23×35mm (source listing size; confirm selected style) and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. Sizes of individual assorted shapes and backing specifications require confirmation. Generated scene and detail images are reference illustrations; paper tags and desk surface are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Transportation Resin Cabochon Assortment",
+        "Material: Resin",
+        "Dimensions: 5×23×35mm (source listing size; confirm selected style)",
+        "Reference pack: 100pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1334",
+        "Material: Resin",
+        "Dimensions: 5×23×35mm (source listing size; confirm selected style)",
+        "Reference pack: 100pcs/bag",
+        "Attachment: Sizes of individual assorted shapes and backing specifications require confirmation.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "5×23×35mm (source listing size; confirm selected style)",
+      "sourcePacking": "100pcs/bag",
+      "customizationOptions": "For RW1334, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW1334 transportation resin cabochon assortment add the photographed colorful vehicle silhouettes, including buses and helicopters to decorative DIY layouts and component combinations. Source size is 5×23×35mm (source listing size; confirm selected style), material is resin, and reference packing is 100pcs/bag. Confirm the available style or color mix before choosing a project combination. Sizes of individual assorted shapes and backing specifications require confirmation. Generated scene and detail images are reference illustrations, and paper tags and desk surface are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "transportation resin cabochon assortment, wholesale craft components",
+      "metaTitle": "RW1334 Transportation Resin Cabochon Assortment | HAIBU",
+      "metaDescription": "RW1334 Transportation Resin Cabochon Assortment. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "5×23×35mm (source listing size; confirm selected style)",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100PCS Mix Style Transportation Vehicle Resin Car Boat Bike Helicopter Rocket Miniature Flatback Cabochon DIY Craft Scrapbooking",
+        "product_id": "62442686497",
+        "product_url": "https://www.alibaba.com/product-detail/100PCS-Mix-Style-Transportation-Vehicle-Resin_62442686497.html",
+        "material": "Resin",
+        "size": "5*23*35mm-100pcs",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW1334",
+          "材质": "Resin",
+          "产品分类": "礼品与工艺品>>工艺品>>树脂工艺品",
+          "颜色": "1-5*23*35mm / 2-5*23*35mm / 3-5*23*35mm / 4-5*23*35mm / 5-5*23*35mm / 6-5*23*35mm / 7-5*23*35mm / mix-5*23*35mm",
+          "尺寸": "5*23*35mm-100pcs",
+          "最小起订量": "1"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "5×23×35mm (source listing size; confirm selected style), same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "62442686497",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Mix-Style-Transportation-Vehicle-Resin_62442686497.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw1334",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw1334-transportation-resin-cabochon-assortment",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Sizes of individual assorted shapes and backing specifications require confirmation.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW188",
+      "title": "Tiny Resin Rose Cabochons",
+      "originalTitle": "7mm Mini Flatback Resin Cabochons Rose Flower for Scrapbooking Cameo Craft DIY Phone Nails Decor Ornaments",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Tiny Resin Rose Cabochons, product code RW188",
+      "description": "RW188 tiny resin rose cabochons offer concentric sculpted rose petals in the photographed bright and pastel colors for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 7mm and reference packing of 1000pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment or backing specification is established. Generated scene and detail images are reference illustrations; invitation card and envelope are not included. No fixed assortment is specified.",
+      "detailedDescription": "Tiny Resin Rose Cabochons. Source size: 7mm. Reference packing: 1000pcs/bag; not MOQ. RW188 tiny resin rose cabochons offer concentric sculpted rose petals in the photographed bright and pastel colors for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 7mm and reference packing of 1000pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment or backing specification is established. Generated scene and detail images are reference illustrations; invitation card and envelope are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Tiny Resin Rose Cabochons",
+        "Material: Resin",
+        "Dimensions: 7mm",
+        "Reference pack: 1000pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW188",
+        "Material: Resin",
+        "Dimensions: 7mm",
+        "Reference pack: 1000pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "7mm",
+      "sourcePacking": "1000pcs/bag",
+      "customizationOptions": "For RW188, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW188 tiny resin rose cabochons add concentric sculpted rose petals in the photographed bright and pastel colors to decorative DIY layouts and component combinations. Source size is 7mm, material is resin, and reference packing is 1000pcs/bag. Confirm the available style or color mix before choosing a project combination. No attachment or backing specification is established. Generated scene and detail images are reference illustrations, and invitation card and envelope are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 1000pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "tiny resin rose cabochons, wholesale craft components",
+      "metaTitle": "RW188 Tiny Resin Rose Cabochons | HAIBU",
+      "metaDescription": "RW188 Tiny Resin Rose Cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "7mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "1000pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "7mm Mini Flatback Resin Cabochons Rose Flower for Scrapbooking Cameo Craft DIY Phone Nails Decor Ornaments",
+        "product_id": "1600826362753",
+        "product_url": "https://www.alibaba.com/product-detail/7mm-Mini-Flatback-Resin-Cabochons-Rose_1600826362753.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW188"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "7mm, same-SKU source records",
+          "referencePacking": "1000pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1600826362753",
+      "sourceUrl": "https://www.alibaba.com/product-detail/7mm-Mini-Flatback-Resin-Cabochons-Rose_1600826362753.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw188",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw188-tiny-resin-rose-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW23874",
+      "title": "Layered Resin Flower Cabochons",
+      "originalTitle": "Resin Cute Colorful 14mm Rose Flower Gem Flatback Stone Applique DIY Home Figurine Scrapbook for Nail Craft Accessory",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Layered Resin Flower Cabochons, product code RW23874",
+      "description": "RW23874 layered resin flower cabochons offer layered cup and rose flower shapes in the photographed muted lilac, coral and charcoal colors for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 14mm and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment or backing specification is established. Generated scene and detail images are reference illustrations; hair clips and ivory fabric are not included. No fixed assortment is specified.",
+      "detailedDescription": "Layered Resin Flower Cabochons. Source size: 14mm. Reference packing: 100pcs/bag; not MOQ. RW23874 layered resin flower cabochons offer layered cup and rose flower shapes in the photographed muted lilac, coral and charcoal colors for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 14mm and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. No attachment or backing specification is established. Generated scene and detail images are reference illustrations; hair clips and ivory fabric are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Layered Resin Flower Cabochons",
+        "Material: Resin",
+        "Dimensions: 14mm",
+        "Reference pack: 100pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW23874",
+        "Material: Resin",
+        "Dimensions: 14mm",
+        "Reference pack: 100pcs/bag",
+        "Attachment: Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "14mm",
+      "sourcePacking": "100pcs/bag",
+      "customizationOptions": "For RW23874, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW23874 layered resin flower cabochons add layered cup and rose flower shapes in the photographed muted lilac, coral and charcoal colors to decorative DIY layouts and component combinations. Source size is 14mm, material is resin, and reference packing is 100pcs/bag. Confirm the available style or color mix before choosing a project combination. No attachment or backing specification is established. Generated scene and detail images are reference illustrations, and hair clips and ivory fabric are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "layered resin flower cabochons, wholesale craft components",
+      "metaTitle": "RW23874 Layered Resin Flower Cabochons | HAIBU",
+      "metaDescription": "RW23874 Layered Resin Flower Cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "14mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Resin Cute Colorful 14mm Rose Flower Gem Flatback Stone Applique DIY Home Figurine Scrapbook for Nail Craft Accessory",
+        "product_id": "1601170943821",
+        "product_url": "https://www.alibaba.com/product-detail/Resin-Cute-Colorful-14mm-Rose-Flower_1601170943821.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW23874"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "14mm, same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1601170943821",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cute-Colorful-14mm-Rose-Flower_1601170943821.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw23874",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw23874-layered-resin-flower-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "Confirm the supplied reverse and attachment method for your craft base; no holes, loops or fittings are inferred.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002405",
+      "title": "Printed Five Petal Resin Flower Cabochons",
+      "originalTitle": "100PCS 52mm Mix Spring Colors Cute Resin New Five-Petal Flower Flat Back Cabochon DIY Jewelry Crafts Scrapbook Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Printed Five Petal Resin Flower Cabochons, product code RW002405",
+      "description": "RW002405 printed five petal resin flower cabochons offer five rounded petals with printed floral motifs surrounding large domed centers in the photographed colors for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 52mm and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. The supplied style, reverse and attachment method require confirmation; no mounting specification is inferred from one photographed variant. Generated scene and detail images are reference illustrations; gift box and ribbon are not included. No fixed assortment is specified.",
+      "detailedDescription": "Printed Five Petal Resin Flower Cabochons. Source size: 52mm. Reference packing: 100pcs/bag; not MOQ. RW002405 printed five petal resin flower cabochons offer five rounded petals with printed floral motifs surrounding large domed centers in the photographed colors for bulk decorative assortment planning. The verified same-SKU source records specifies resin, size 52mm and reference packing of 100pcs/bag; reference pack quantity or weight does not establish MOQ. Confirm selected styles, the supplied mix and packing with HAIBU for procurement or OEM packaging discussions. The supplied style, reverse and attachment method require confirmation; no mounting specification is inferred from one photographed variant. Generated scene and detail images are reference illustrations; gift box and ribbon are not included. No fixed assortment is specified. Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Printed Five Petal Resin Flower Cabochons",
+        "Material: Resin",
+        "Dimensions: 52mm",
+        "Reference pack: 100pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002405",
+        "Material: Resin",
+        "Dimensions: 52mm",
+        "Reference pack: 100pcs/bag",
+        "Attachment: The supplied style, reverse and attachment method require confirmation; no mounting specification is inferred from one photographed variant.",
+        "Selection: Source size is the SKU-level reference; selected styles, sizes and supplied assortment require confirmation. No fixed mixture is promised.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "52mm",
+      "sourcePacking": "100pcs/bag",
+      "customizationOptions": "For RW002405, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW002405 printed five petal resin flower cabochons add five rounded petals with printed floral motifs surrounding large domed centers in the photographed colors to decorative DIY layouts and component combinations. Source size is 52mm, material is resin, and reference packing is 100pcs/bag. Confirm the available style or color mix before choosing a project combination. The supplied style, reverse and attachment method require confirmation; no mounting specification is inferred from one photographed variant. Generated scene and detail images are reference illustrations, and gift box and ribbon are not included. Use the original photograph to review the visible styles; it does not promise a fixed assortment.",
+      "packagingMoq": "Reference packing: 100pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "printed five petal resin flower cabochons, wholesale craft components",
+      "metaTitle": "RW002405 Printed Five Petal Resin Flower Cabochons | HAIBU",
+      "metaDescription": "RW002405 Printed Five Petal Resin Flower Cabochons. Discuss bulk selection and OEM packing with HAIBU.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "52mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_第8页起_monica-1793018390982-0gii0pc(1).json",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "100PCS 52mm Mix Spring Colors Cute Resin New Five-Petal Flower Flat Back Cabochon DIY Jewelry Crafts Scrapbook Decoration",
+        "product_id": "1601689579492",
+        "product_url": "https://www.alibaba.com/product-detail/100PCS-52mm-Mix-Spring-Colors-Cute_1601689579492.html",
+        "material": "",
+        "size": "",
+        "packaging": "",
+        "attributes": {
+          "型号": "MO-RW002405"
+        },
+        "verifiedFacts": {
+          "material": "Resin, verified same-SKU source evidence",
+          "size": "52mm, same-SKU source records",
+          "referencePacking": "100pcs/bag, same-SKU source records"
+        }
+      },
+      "sourceProductId": "1601689579492",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-52mm-Mix-Spring-Colors-Cute_1601689579492.html",
+      "materialBasis": "Verified same-SKU supplier facts and original photograph; source evidence privately retained",
+      "assetKey": "rw002405",
+      "assetDirectory": "batch-20261031-monica-34",
+      "imagePrefix": "rw002405-printed-five-petal-resin-flower-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Product reference",
+        "Application scene (illustration)",
+        "Detail reference (illustration)"
+      ],
+      "galleryNote": "Image 1 is the supplied product photograph. Generated application and detail images are reference illustrations. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-10-31",
+      "holeDescription": "The supplied style, reverse and attachment method require confirmation; no mounting specification is inferred from one photographed variant.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

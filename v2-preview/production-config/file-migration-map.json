@@ -92,6 +92,13 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx527-blue-white-boat-clay-slices/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx527-blue-white-boat-clay-slices/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx527-blue-white-boat-clay-slices/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx3130-spotted-round-polymer-clay-slices/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx3130-spotted-round-polymer-clay-slices/index.html",
       "action": "create",
@@ -971,6 +978,132 @@
       "destination": "products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/index.html",
       "action": "create",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26161-miniature-filled-roll-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26161-miniature-filled-roll-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26161-miniature-filled-roll-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24607-round-swirl-candy-style-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw24607-round-swirl-candy-style-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24607-round-swirl-candy-style-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26330-open-book-resin-cabochons-with-food-prints/index.html",
+      "destination": "products/resin-charms-for-slime/rw26330-open-book-resin-cabochons-with-food-prints/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26330-open-book-resin-cabochons-with-food-prints/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23792-spotted-mushroom-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw23792-spotted-mushroom-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23792-spotted-mushroom-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2265-translucent-rose-resin-cabochons-with-shimmer-flecks/index.html",
+      "destination": "products/resin-charms-for-slime/rw2265-translucent-rose-resin-cabochons-with-shimmer-flecks/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2265-translucent-rose-resin-cabochons-with-shimmer-flecks/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw003319-pink-blossom-resin-cabochons-with-iridescent-flecks/index.html",
+      "destination": "products/resin-charms-for-slime/rw003319-pink-blossom-resin-cabochons-with-iridescent-flecks/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003319-pink-blossom-resin-cabochons-with-iridescent-flecks/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw003838-cream-caramel-bow-animal-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw003838-cream-caramel-bow-animal-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003838-cream-caramel-bow-animal-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw4552-iridescent-textured-rose-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw4552-iridescent-textured-rose-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw4552-iridescent-textured-rose-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3417-blue-visor-astronaut-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw3417-blue-visor-astronaut-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3417-blue-visor-astronaut-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26591-black-skeleton-animal-resin-figurines/index.html",
+      "destination": "products/resin-charms-for-slime/rw26591-black-skeleton-animal-resin-figurines/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26591-black-skeleton-animal-resin-figurines/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/ym118-miniature-popcorn-bucket-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/ym118-miniature-popcorn-bucket-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/ym118-miniature-popcorn-bucket-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/ym172-miniature-fruit-topped-ice-cream-cone-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/ym172-miniature-fruit-topped-ice-cream-cone-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/ym172-miniature-fruit-topped-ice-cream-cone-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25415-iridescent-strawberry-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25415-iridescent-strawberry-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25415-iridescent-strawberry-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26505-layered-sunflower-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26505-layered-sunflower-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26505-layered-sunflower-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/ym115-round-citrus-slice-resin-decorations/index.html",
+      "destination": "products/resin-charms-for-slime/ym115-round-citrus-slice-resin-decorations/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/ym115-round-citrus-slice-resin-decorations/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26448-miniature-coffee-menu-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw26448-miniature-coffee-menu-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26448-miniature-coffee-menu-resin-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25647-glitter-mermaid-resin-flatback-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw25647-glitter-mermaid-resin-flatback-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25647-glitter-mermaid-resin-flatback-cabochons/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1913-pink-white-ice-cream-resin-cabochons/index.html",
+      "destination": "products/resin-charms-for-slime/rw1913-pink-white-ice-cream-resin-cabochons/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1913-pink-white-ice-cream-resin-cabochons/",
       "generatedProduct": true
     },
     {
@@ -4807,6 +4940,13 @@
       "destination": "products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/index.html",
       "action": "create",
       "productionPath": "/products/resin-charms-for-slime/rw25863-wholesale-mixed-christmas-resin-slime-charms-with-tree-reindeer-snowman-gingerbread-designs/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/sequins-glitter-confetti/ym109-2-mixed-color-pet-bingsu-tube-sequins/index.html",
+      "destination": "products/sequins-glitter-confetti/ym109-2-mixed-color-pet-bingsu-tube-sequins/index.html",
+      "action": "create",
+      "productionPath": "/products/sequins-glitter-confetti/ym109-2-mixed-color-pet-bingsu-tube-sequins/",
       "generatedProduct": true
     },
     {

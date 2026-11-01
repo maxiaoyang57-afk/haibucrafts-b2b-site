@@ -201,6 +201,8 @@ const categoryPlans = {
     intro: 'Source shaped sequins, holographic paillettes, glitter mixes and craft confetti in bulk for slime, shakers, nail art, resin crafts, DIY kits and private-label assortments.',
     listName: 'Sequins and Glitter Confetti Wholesale Catalog',
     hubHeading: "Choose sequins, glitter and confetti by application and packing brief.",
+    hubId: 'buyer-resources',
+    buyingNavigation: true,
     hubCopy: "Use the category catalog as the buying hub, then narrow the assortment by finished use, shape and size, visual finish, mix composition and pack format before sending a mixed-SKU or custom inquiry.",
     selectionHeading: "What to confirm before a bulk quotation",
     selection: [["Application and scale", "State whether the material is for slime, shakers, craft kits, party decoration or another use so the selected size and shape can be reviewed in context."], ["Finish and assortment", "List the product codes and the finish or color direction you want. For mixed packs, specify preferred ratios, exclusions and whether every pack should contain the same assortment."], ["Packing brief", "Send the required unit, quantity, packaging format and destination together. Confirm the final SKU scope and commercial terms in the quotation rather than assuming one category-wide rule."]],
@@ -235,6 +237,10 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
   );
   html = upsertJsonLd(html, `${category}-item-list`, itemListFor(category, plan.listName));
   html = upsertJsonLd(html, `${category}-collection-page`, collectionPageFor(category, plan));
+  if (plan.buyingNavigation) {
+    const navigation = '<nav class="section-anchor-nav" aria-label="Sequins and confetti buying resources"><a href="#product-grid">Products</a><a href="#buyer-resources">Buying Notes</a><a href="/v2-preview/custom-solutions/#services">Custom Options</a><a href="/v2-preview/custom-solutions/#faq">Custom FAQ</a></nav>';
+    html = replaceFirstRequired(html, /<nav class="section-anchor-nav"[^>]*>[\s\S]*?<\/nav>/, navigation, `${category} buying navigation`);
+  }
 
   const products = catalog.products.filter((product) => product.category === category).slice(0, 4);
   const resourceLinks = plan.resources

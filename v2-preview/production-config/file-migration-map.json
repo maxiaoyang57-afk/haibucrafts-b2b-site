@@ -92,6 +92,34 @@
       "productionPath": "/blog/"
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx329-green-leaf-polymer-clay-slices-for-bulk-craft-sourcing-yx329/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx329-green-leaf-polymer-clay-slices-for-bulk-craft-sourcing-yx329/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx329-green-leaf-polymer-clay-slices-for-bulk-craft-sourcing-yx329/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx625-red-heart-polymer-clay-slices-for-bulk-craft-sourcing-yx625/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx625-red-heart-polymer-clay-slices-for-bulk-craft-sourcing-yx625/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx625-red-heart-polymer-clay-slices-for-bulk-craft-sourcing-yx625/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx490-blueberry-leaf-polymer-clay-sprinkles-for-bulk-sourcing-yx490/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx490-blueberry-leaf-polymer-clay-sprinkles-for-bulk-sourcing-yx490/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx490-blueberry-leaf-polymer-clay-sprinkles-for-bulk-sourcing-yx490/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx527-blue-white-boat-clay-slices/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx527-blue-white-boat-clay-slices/index.html",
       "action": "create",
@@ -652,6 +680,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/slime-charms/yx710-cake-pudding-polymer-clay-cubes-for-bulk-craft-sourcing-yx710/index.html",
+      "destination": "products/slime-charms-wholesale/yx710-cake-pudding-polymer-clay-cubes-for-bulk-craft-sourcing-yx710/index.html",
+      "action": "create",
+      "productionPath": "/products/slime-charms-wholesale/yx710-cake-pudding-polymer-clay-cubes-for-bulk-craft-sourcing-yx710/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/slime-charms/slm613-butterfly-lollipop-slime-decoration-mix/index.html",
       "destination": "products/slime-charms-wholesale/slm613-butterfly-lollipop-slime-decoration-mix/index.html",
       "action": "create",
@@ -978,6 +1013,111 @@
       "destination": "products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/index.html",
       "action": "create",
       "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26883-miniature-textured-pinecone-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26883-miniature-textured-pinecone-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26883-miniature-textured-pinecone-resin-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26880-translucent-half-round-citrus-slice-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26880-translucent-half-round-citrus-slice-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26880-translucent-half-round-citrus-slice-resin-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26884-floral-leaf-print-miniature-resin-plates-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26884-floral-leaf-print-miniature-resin-plates-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26884-floral-leaf-print-miniature-resin-plates-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26886-miniature-noodle-steak-pan-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26886-miniature-noodle-steak-pan-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26886-miniature-noodle-steak-pan-resin-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26890-miniature-dessert-plate-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26890-miniature-dessert-plate-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26890-miniature-dessert-plate-resin-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26901-strawberry-cream-sandwich-cake-resin-miniatures-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26901-strawberry-cream-sandwich-cake-resin-miniatures-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26901-strawberry-cream-sandwich-cake-resin-miniatures-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26896-assorted-bread-pastry-resin-miniatures-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26896-assorted-bread-pastry-resin-miniatures-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26896-assorted-bread-pastry-resin-miniatures-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26898-polka-dot-resin-bow-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26898-polka-dot-resin-bow-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26898-polka-dot-resin-bow-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26894-miniature-suitcase-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26894-miniature-suitcase-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26894-miniature-suitcase-resin-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26754-fruit-flower-ring-dessert-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26754-fruit-flower-ring-dessert-resin-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26754-fruit-flower-ring-dessert-resin-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26866-christmas-motif-resin-craft-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26866-christmas-motif-resin-craft-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26866-christmas-motif-resin-craft-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26760-fruit-topped-triangular-resin-cake-miniatures-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26760-fruit-topped-triangular-resin-cake-miniatures-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26760-fruit-topped-triangular-resin-cake-miniatures-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26761-pastel-five-petal-resin-flower-decorations-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26761-pastel-five-petal-resin-flower-decorations-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26761-pastel-five-petal-resin-flower-decorations-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26864-glazed-bread-style-resin-doughnut-miniatures-for-bulk-craft-sourcing/index.html",
+      "destination": "products/resin-charms-for-slime/rw26864-glazed-bread-style-resin-doughnut-miniatures-for-bulk-craft-sourcing/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26864-glazed-bread-style-resin-doughnut-miniatures-for-bulk-craft-sourcing/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26753-purple-orange-black-mixed-resin-craft-charms-rw26753/index.html",
+      "destination": "products/resin-charms-for-slime/rw26753-purple-orange-black-mixed-resin-craft-charms-rw26753/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26753-purple-orange-black-mixed-resin-craft-charms-rw26753/",
       "generatedProduct": true
     },
     {

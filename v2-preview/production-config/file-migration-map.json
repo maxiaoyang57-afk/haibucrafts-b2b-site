@@ -120,6 +120,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/polymer-clay-slices/yx076-apple-cross-section-polymer-clay-slices-for-bulk-sourcing-yx076/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx076-apple-cross-section-polymer-clay-slices-for-bulk-sourcing-yx076/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx076-apple-cross-section-polymer-clay-slices-for-bulk-sourcing-yx076/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx165-ladybug-polymer-clay-slices-for-bulk-craft-sourcing-yx165/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx165-ladybug-polymer-clay-slices-for-bulk-craft-sourcing-yx165/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx165-ladybug-polymer-clay-slices-for-bulk-craft-sourcing-yx165/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx100-mixed-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx100/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx100-mixed-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx100/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx100-mixed-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx100/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx006-plain-heart-polymer-clay-slices-for-bulk-craft-sourcing-yx006/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx006-plain-heart-polymer-clay-slices-for-bulk-craft-sourcing-yx006/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx006-plain-heart-polymer-clay-slices-for-bulk-craft-sourcing-yx006/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx3392-green-lime-polymer-clay-slices-for-bulk-craft-sourcing-yx3392/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx3392-green-lime-polymer-clay-slices-for-bulk-craft-sourcing-yx3392/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx3392-green-lime-polymer-clay-slices-for-bulk-craft-sourcing-yx3392/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx693-pink-strawberry-polymer-clay-slices-for-bulk-craft-sourcing-yx693/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx693-pink-strawberry-polymer-clay-slices-for-bulk-craft-sourcing-yx693/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx693-pink-strawberry-polymer-clay-slices-for-bulk-craft-sourcing-yx693/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx318-strawberry-cross-section-polymer-clay-slices-for-bulk-sourcing-yx318/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx318-strawberry-cross-section-polymer-clay-slices-for-bulk-sourcing-yx318/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx318-strawberry-cross-section-polymer-clay-slices-for-bulk-sourcing-yx318/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx124-large-mixed-fruit-polymer-clay-slices-for-bulk-sourcing-yx124/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx124-large-mixed-fruit-polymer-clay-slices-for-bulk-sourcing-yx124/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx124-large-mixed-fruit-polymer-clay-slices-for-bulk-sourcing-yx124/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx231-coconut-cross-section-polymer-clay-slices-for-bulk-sourcing-yx231/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx231-coconut-cross-section-polymer-clay-slices-for-bulk-sourcing-yx231/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx231-coconut-cross-section-polymer-clay-slices-for-bulk-sourcing-yx231/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx320-colorful-leaf-polymer-clay-slices-for-bulk-sourcing-yx320/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx320-colorful-leaf-polymer-clay-slices-for-bulk-sourcing-yx320/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx320-colorful-leaf-polymer-clay-slices-for-bulk-sourcing-yx320/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx241-daisy-flower-polymer-clay-discs-for-bulk-sourcing-yx241/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx241-daisy-flower-polymer-clay-discs-for-bulk-sourcing-yx241/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx241-daisy-flower-polymer-clay-discs-for-bulk-sourcing-yx241/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx219-pink-watermelon-polymer-clay-slices-for-bulk-craft-selection-yx219/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx219-pink-watermelon-polymer-clay-slices-for-bulk-craft-selection-yx219/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx219-pink-watermelon-polymer-clay-slices-for-bulk-craft-selection-yx219/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx264-pink-milk-tea-cup-polymer-clay-slices-for-bulk-craft-selection-yx264/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx264-pink-milk-tea-cup-polymer-clay-slices-for-bulk-craft-selection-yx264/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx264-pink-milk-tea-cup-polymer-clay-slices-for-bulk-craft-selection-yx264/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx198-red-pink-flower-polymer-clay-slices-for-bulk-craft-selection-yx198/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx198-red-pink-flower-polymer-clay-slices-for-bulk-craft-selection-yx198/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx198-red-pink-flower-polymer-clay-slices-for-bulk-craft-selection-yx198/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx252-solid-color-heart-polymer-clay-slices-for-bulk-craft-selection-yx252/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx252-solid-color-heart-polymer-clay-slices-for-bulk-craft-selection-yx252/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx252-solid-color-heart-polymer-clay-slices-for-bulk-craft-selection-yx252/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx265-white-bone-polymer-clay-slices-for-bulk-craft-selection-yx265/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx265-white-bone-polymer-clay-slices-for-bulk-craft-selection-yx265/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx265-white-bone-polymer-clay-slices-for-bulk-craft-selection-yx265/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx247-white-envelope-polymer-clay-slices-for-bulk-craft-selection-yx247/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx247-white-envelope-polymer-clay-slices-for-bulk-craft-selection-yx247/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx247-white-envelope-polymer-clay-slices-for-bulk-craft-selection-yx247/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx251-mixed-color-cloud-polymer-clay-slices-for-bulk-craft-selection-yx251/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx251-mixed-color-cloud-polymer-clay-slices-for-bulk-craft-selection-yx251/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx251-mixed-color-cloud-polymer-clay-slices-for-bulk-craft-selection-yx251/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx273-red-christmas-hat-polymer-clay-slices-for-bulk-craft-selection-yx273/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx273-red-christmas-hat-polymer-clay-slices-for-bulk-craft-selection-yx273/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx273-red-christmas-hat-polymer-clay-slices-for-bulk-craft-selection-yx273/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/polymer-clay-slices/yx130-black-sesame-seed-shape-polymer-clay-slices-for-bulk-craft-selection-yx130/index.html",
+      "destination": "products/polymer-clay-slices-wholesale/yx130-black-sesame-seed-shape-polymer-clay-slices-for-bulk-craft-selection-yx130/index.html",
+      "action": "create",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx130-black-sesame-seed-shape-polymer-clay-slices-for-bulk-craft-selection-yx130/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/polymer-clay-slices/yx527-blue-white-boat-clay-slices/index.html",
       "destination": "products/polymer-clay-slices-wholesale/yx527-blue-white-boat-clay-slices/index.html",
       "action": "create",

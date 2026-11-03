@@ -1727,13 +1727,15 @@
     },
     {
       "sku": "YX076",
-      "status": "needs_details",
-      "reason": "Material, size or packing missing"
+      "status": "ready_in_batch",
+      "reason": "Material, size or packing missing",
+      "batchNumber": 37
     },
     {
       "sku": "YX100",
-      "status": "needs_details",
-      "reason": "Material, size or packing missing"
+      "status": "ready_in_batch",
+      "reason": "Material, size or packing missing",
+      "batchNumber": 37
     },
     {
       "sku": "RW26613",
@@ -2026,8 +2028,9 @@
     },
     {
       "sku": "YX165",
-      "status": "needs_details",
-      "reason": "Material, size or packing missing"
+      "status": "ready_in_batch",
+      "reason": "Material, size or packing missing",
+      "batchNumber": 37
     },
     {
       "sku": "RW26378",
@@ -3053,8 +3056,9 @@
     },
     {
       "sku": "YX006",
-      "status": "needs_details",
-      "reason": "Material, size or packing missing"
+      "status": "ready_in_batch",
+      "reason": "Material, size or packing missing",
+      "batchNumber": 37
     },
     {
       "sku": "RW26459",
@@ -3744,8 +3748,9 @@
     },
     {
       "sku": "YX318",
-      "status": "needs_details",
-      "reason": "Material, size or packing missing"
+      "status": "ready_in_batch",
+      "reason": "Material, size or packing missing",
+      "batchNumber": 37
     },
     {
       "sku": "YX642",
@@ -3912,9 +3917,10 @@
     },
     {
       "sku": "YX710",
-      "status": "ready_in_batch",
+      "status": "already_listed",
       "reason": "Batch36: sourcefacts,original+2reviewedreferences,brandcopy verified; pendingCI,Previewandpublication.",
-      "batchNumber": 36
+      "batchNumber": 36,
+      "publishedBatch": 36
     },
     {
       "sku": "RW24665",
@@ -3977,9 +3983,10 @@
     },
     {
       "sku": "YX625",
-      "status": "ready_in_batch",
+      "status": "already_listed",
       "reason": "Batch36: sourcefacts,original+2reviewedreferences,brandcopy verified; pendingCI,Previewandpublication.",
-      "batchNumber": 36
+      "batchNumber": 36,
+      "publishedBatch": 36
     },
     {
       "sku": "YX624",
@@ -4008,9 +4015,10 @@
     },
     {
       "sku": "YX490",
-      "status": "ready_in_batch",
+      "status": "already_listed",
       "reason": "Batch36: sourcefacts,original+2reviewedreferences,brandcopy verified; pendingCI,Previewandpublication.",
-      "batchNumber": 36
+      "batchNumber": 36,
+      "publishedBatch": 36
     },
     {
       "sku": "YX489",
@@ -5127,8 +5135,9 @@
     },
     {
       "sku": "YX231",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX229",
@@ -5137,8 +5146,9 @@
     },
     {
       "sku": "YX219",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX207",
@@ -5208,14 +5218,16 @@
     },
     {
       "sku": "YX329",
-      "status": "ready_in_batch",
+      "status": "already_listed",
       "reason": "Batch36: sourcefacts,original+2reviewedreferences,brandcopy verified; pendingCI,Previewandpublication.",
-      "batchNumber": 36
+      "batchNumber": 36,
+      "publishedBatch": 36
     },
     {
       "sku": "YX320",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX317",
@@ -5274,18 +5286,21 @@
     },
     {
       "sku": "YX273",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX265",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX264",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX255",
@@ -5294,23 +5309,27 @@
     },
     {
       "sku": "YX252",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX251",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX247",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX241",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX042",
@@ -5334,8 +5353,9 @@
     },
     {
       "sku": "YX198",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX193",
@@ -5429,13 +5449,15 @@
     },
     {
       "sku": "YX130",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX124",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX104",
@@ -5474,9 +5496,10 @@
     },
     {
       "sku": "YX053",
-      "status": "ready_in_batch",
+      "status": "already_listed",
       "reason": "Batch36: sourcefacts,original+2reviewedreferences,brandcopy verified; pendingCI,Previewandpublication.",
-      "batchNumber": 36
+      "batchNumber": 36,
+      "publishedBatch": 36
     },
     {
       "sku": "RW2983",
@@ -7769,8 +7792,9 @@
     },
     {
       "sku": "YX3392",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YA863",
@@ -9384,8 +9408,9 @@
     },
     {
       "sku": "YX693",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Detail capture unfinished",
+      "batchNumber": 37
     },
     {
       "sku": "YX3673",
@@ -12079,7 +12104,7 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 36,
+  "currentBatchNumber": 37,
   "updatedAt": "2026-11-02",
   "supplementaryOwnerProducts": [
     {

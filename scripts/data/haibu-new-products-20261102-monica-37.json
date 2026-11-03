@@ -1,0 +1,1954 @@
+{
+  "batch": "haibu-new-products-20261102-monica-37",
+  "expectedSkuCount": 20,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261102-monica-37",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-11-02",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "YX076",
+      "title": "Apple Cross-Section Polymer Clay Slices for Bulk Sourcing — YX076",
+      "originalTitle": "Cute Polymer Clay Fruit Sprinkle Apple Slices for Crafts, Phone Deco, DIY Scrapbooking",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Apple Cross-Section Polymer Clay Slices for Bulk Sourcing — YX076, product code YX076",
+      "description": "YX076 is a polymer clay apple-slice decoration with cream centers, yellow-green outlines, dark seed marks and a small green tab. The same-SKU supplier listing specifies 5 mm and a reference pack of 500 g per bag. Use the product code to discuss assortment selection, bulk quantities, labeling and packing requirements. Reference pack weight is not MOQ or a piece count; confirm the available option and order terms in your quotation. Sample review is recommended for the intended craft application. Main image: original product photograph. Generated application and detail references illustrate possible arrangements; paper, envelope, fabric and other props are not included. Decorative, non-edible craft material.",
+      "detailedDescription": "YX076 is a polymer clay apple-slice decoration with cream centers, yellow-green outlines, dark seed marks and a small green tab. The same-SKU supplier listing specifies 5 mm and a reference pack of 500 g per bag. Use the product code to discuss assortment selection, bulk quantities, labeling and packing requirements. Reference pack weight is not MOQ or a piece count; confirm the available option and order terms in your quotation. Sample review is recommended for the intended craft application. Main image: original product photograph. Generated application and detail references illustrate possible arrangements; paper, envelope, fabric and other props are not included. Decorative, non-edible craft material. YX076 is a polymer clay apple-slice decoration with cream centers, yellow-green outlines, dark seed marks and a small green tab. The same-SKU supplier listing specifies 5 mm and a reference pack of 500 g per bag. Use the product code to discuss assortment selection, bulk quantities, labeling and packing requirements. Reference pack weight is not MOQ or a piece count; confirm the available option and order terms in your quotation. Sample review is recommended for the intended craft application. Main image: original product photograph. Generated application and detail references illustrate possible arrangements; paper, envelope, fabric and other props are not included. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Apple Cross-Section Polymer Clay Slices for Bulk Sourcing — YX076",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX076",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX076, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "apple cross section polymer clay slices, wholesale craft components",
+      "metaTitle": "Apple Cross-Section Polymer Clay Slices | YX076",
+      "metaDescription": "YX076: Polymer Clay; 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Cute Polymer Clay Fruit Sprinkle Apple Slices for Crafts, Phone Deco, DIY Scrapbooking",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX076"
+      },
+      "sourceProductId": "62363253747",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Polymer-Clay-Fruit-Sprinkle-Apple_62363253747.html",
+      "materialBasis": "SameproductID62363253747;ModelNumberMO-YX076;primarypage5mm-500g/bag and beadmaterialPolymerClay. Exportoriginalsamephoto asprimarymain. No commercialfigures imported.",
+      "assetKey": "yx076",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx076-apple-cross-section-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 800,
+          "height": 800
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Main image: original product photograph. Generated application and detail references illustrate possible arrangements; paper, envelope, fabric and other props are not included. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX165",
+      "title": "Ladybug Polymer Clay Slices for Bulk Craft Sourcing — YX165",
+      "originalTitle": "New Arrive Multi Type Ladybug Shape Polymer Clay Sprinkle for Phone Decoration Scrapbook Shaker Card DIY Slime Filler Filli",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Ladybug Polymer Clay Slices for Bulk Craft Sourcing — YX165, product code YX165",
+      "description": "YX165 consists of flat red and charcoal ladybug-shaped polymer clay slices with small dark spots and a center line. The same-SKU supplier page lists 5 mm and reference packing of 500 g per bag. Use the SKU when discussing bulk selection, order quantity, labeling and packing requirements. The stated pack weight is not MOQ or a piece count. Confirm the selected option and quotation terms before ordering, and review a sample for the intended craft application. Main image: original product photograph. Generated application and detail references illustrate styling only; paper, envelope and other props are not included. Decorative, non-edible craft material.",
+      "detailedDescription": "YX165 consists of flat red and charcoal ladybug-shaped polymer clay slices with small dark spots and a center line. The same-SKU supplier page lists 5 mm and reference packing of 500 g per bag. Use the SKU when discussing bulk selection, order quantity, labeling and packing requirements. The stated pack weight is not MOQ or a piece count. Confirm the selected option and quotation terms before ordering, and review a sample for the intended craft application. Main image: original product photograph. Generated application and detail references illustrate styling only; paper, envelope and other props are not included. Decorative, non-edible craft material. YX165 consists of flat red and charcoal ladybug-shaped polymer clay slices with small dark spots and a center line. The same-SKU supplier page lists 5 mm and reference packing of 500 g per bag. Use the SKU when discussing bulk selection, order quantity, labeling and packing requirements. The stated pack weight is not MOQ or a piece count. Confirm the selected option and quotation terms before ordering, and review a sample for the intended craft application. Main image: original product photograph. Generated application and detail references illustrate styling only; paper, envelope and other props are not included. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Ladybug Polymer Clay Slices for Bulk Craft Sourcing — YX165",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX165",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX165, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "ladybug polymer clay slices, wholesale craft components",
+      "metaTitle": "Ladybug Polymer Clay Slices | YX165",
+      "metaDescription": "YX165: Polymer Clay; 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "New Arrive Multi Type Ladybug Shape Polymer Clay Sprinkle for Phone Decoration Scrapbook Shaker Card DIY Slime Filler Filli",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX165"
+      },
+      "sourceProductId": "62338683169",
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Arrive-Multi-Type-Ladybug-Shape_62338683169.html",
+      "materialBasis": "SameproductID62338683169;ModelNumberMO-YX165;primarypage5mm-500g/bag;materialClay/Softclay,polymerclay;sourceusageSlime. Exportoriginalsamephoto asprimarymain;officialclosephoto confirmsflatredblackladybugslice. No sourcecommercialfigures imported.",
+      "assetKey": "yx165",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx165-ladybug-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Main image: original product photograph. Generated application and detail references illustrate styling only; paper, envelope and other props are not included. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX100",
+      "title": "Mixed Fruit Polymer Clay Slices for Bulk Craft Sourcing — YX100",
+      "originalTitle": "Nice Cute Nail Art Polymer Clay Fruit Shaped Slice Fashion DIY Cute Decor Decals Clay Scrapbook Decoration",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Mixed Fruit Polymer Clay Slices for Bulk Craft Sourcing — YX100, product code YX100",
+      "description": "YX100 is a mixed fruit design selection of flat polymer clay slices. The original photograph includes citrus, watermelon, kiwi and other fruit motifs; the source specifies approximately 10–12 mm and reference packing of 500 g per bag. Use YX100 to discuss bulk selection, labeling and packing requirements. Confirm the current assortment against a sample: the photograph does not establish a fixed design ratio, and pack weight is not a piece count or MOQ. Main image is the original product photograph. Generated application and detail references show selected motifs for illustration; card, paper and other styling props are excluded. Non-edible craft material.",
+      "detailedDescription": "YX100 is a mixed fruit design selection of flat polymer clay slices. The original photograph includes citrus, watermelon, kiwi and other fruit motifs; the source specifies approximately 10–12 mm and reference packing of 500 g per bag. Use YX100 to discuss bulk selection, labeling and packing requirements. Confirm the current assortment against a sample: the photograph does not establish a fixed design ratio, and pack weight is not a piece count or MOQ. Main image is the original product photograph. Generated application and detail references show selected motifs for illustration; card, paper and other styling props are excluded. Non-edible craft material. YX100 is a mixed fruit design selection of flat polymer clay slices. The original photograph includes citrus, watermelon, kiwi and other fruit motifs; the source specifies approximately 10–12 mm and reference packing of 500 g per bag. Use YX100 to discuss bulk selection, labeling and packing requirements. Confirm the current assortment against a sample: the photograph does not establish a fixed design ratio, and pack weight is not a piece count or MOQ. Main image is the original product photograph. Generated application and detail references show selected motifs for illustration; card, paper and other styling props are excluded. Non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mixed Fruit Polymer Clay Slices for Bulk Craft Sourcing — YX100",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 10–12 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX100",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 10–12 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "approximately 10–12 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX100, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mixed fruit polymer clay slices, wholesale craft components",
+      "metaTitle": "Mixed Fruit Polymer Clay Slices | YX100",
+      "metaDescription": "YX100: Polymer Clay; approximately 10–12 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "approximately 10–12 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Nice Cute Nail Art Polymer Clay Fruit Shaped Slice Fashion DIY Cute Decor Decals Clay Scrapbook Decoration",
+        "material": "Polymer Clay",
+        "size": "approximately 10–12 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX100"
+      },
+      "sourceProductId": "60863164100",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Nice-Cute-Nail-Art-Polymer-Clay_60863164100.html",
+      "materialBasis": "SameproductID60863164100/originalH37f82bbcc15e4021b999d99e4d24f159B matchesMonica;primaryselectedSizeabout10-12mm-500g/bag;descriptionModelmo-yx100andpacking0.5kg/bag;Clayattribute+polymerclaytitle. Do not importsourcepricesMOQshippingcertifications.",
+      "assetKey": "yx100",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx100-mixed-fruit-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Main image is the original product photograph. Generated application and detail references show selected motifs for illustration; card, paper and other styling props are excluded. Non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX006",
+      "title": "Plain Heart Polymer Clay Slices for Bulk Craft Sourcing — YX006",
+      "originalTitle": "Polymer Hot Clay Sprinkles Valentines Heart Clay Slices for Crafts Making DIY Slime Filler Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Plain Heart Polymer Clay Slices for Bulk Craft Sourcing — YX006, product code YX006",
+      "description": "YX006 is a heart-shaped polymer clay slice selection. The original photograph shows plain red, pale pink and white hearts. The same-SKU source lists 6 mm and a selected reference pack of 500 g per bag. Quote YX006 when discussing available selections, bulk quantities, labeling and packing requirements. Confirm the desired mix against a sample; images do not establish a fixed color ratio. Reference pack weight is not a piece count or MOQ. Original main product photograph. Generated application and detail references illustrate selected colors and arrangements; gift tag, string, paper and other props are excluded. Decorative, non-edible craft material.",
+      "detailedDescription": "YX006 is a heart-shaped polymer clay slice selection. The original photograph shows plain red, pale pink and white hearts. The same-SKU source lists 6 mm and a selected reference pack of 500 g per bag. Quote YX006 when discussing available selections, bulk quantities, labeling and packing requirements. Confirm the desired mix against a sample; images do not establish a fixed color ratio. Reference pack weight is not a piece count or MOQ. Original main product photograph. Generated application and detail references illustrate selected colors and arrangements; gift tag, string, paper and other props are excluded. Decorative, non-edible craft material. YX006 is a heart-shaped polymer clay slice selection. The original photograph shows plain red, pale pink and white hearts. The same-SKU source lists 6 mm and a selected reference pack of 500 g per bag. Quote YX006 when discussing available selections, bulk quantities, labeling and packing requirements. Confirm the desired mix against a sample; images do not establish a fixed color ratio. Reference pack weight is not a piece count or MOQ. Original main product photograph. Generated application and detail references illustrate selected colors and arrangements; gift tag, string, paper and other props are excluded. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Plain Heart Polymer Clay Slices for Bulk Craft Sourcing — YX006",
+        "Material: Polymer Clay",
+        "Dimensions: 6 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX006",
+        "Material: Polymer Clay",
+        "Dimensions: 6 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "6 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX006, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "plain heart polymer clay slices, wholesale craft components",
+      "metaTitle": "Plain Heart Polymer Clay Slices | YX006",
+      "metaDescription": "YX006: Polymer Clay; 6 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "6 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Polymer Hot Clay Sprinkles Valentines Heart Clay Slices for Crafts Making DIY Slime Filler Accessories",
+        "material": "Polymer Clay",
+        "size": "6 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX006"
+      },
+      "sourceProductId": "62054834965",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Polymer-Hot-Clay-Sprinkles-Valentines-Heart_62054834965.html",
+      "materialBasis": "SameproductID62054834965;MO-YX006;Product6mmHeartShapepolymerclaysprinkles;MaterialSoftclay,polymerclay;selectedSize500g/bag and tablepacking0.5kg/bag. Other10gramspackoptionnotchosen;mix1-4variantsnotpromisedasfixedratio. GenericShape fruitplaceholdercontradictsProduct/title/photos and isexcluded. Exactoriginalhandphoto matchesMonicaexport. No priceMOQinventoryshippingcertfiguresimported.",
+      "assetKey": "yx006",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx006-plain-heart-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original main product photograph. Generated application and detail references illustrate selected colors and arrangements; gift tag, string, paper and other props are excluded. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX3392",
+      "title": "Green Lime Polymer Clay Slices for Bulk Craft Sourcing — YX3392",
+      "originalTitle": "5mm Green Lemon Lime Polymer Clays for DIY Crafts Fruit Plastic Klei Mud Particles Slime Filler Sprinkles",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Green Lime Polymer Clay Slices for Bulk Craft Sourcing — YX3392, product code YX3392",
+      "description": "YX3392 consists of green citrus-round polymer clay slices with white radial details. The same-SKU supplier source lists 5 mm and a reference pack of 500 g per bag. Use the SKU to discuss bulk selection, labeling and packing requirements, and review a sample for the intended craft application. Pack weight does not specify a piece count or MOQ; confirm the current option and order terms in your quotation. Original main product photograph. Generated application and detail references illustrate possible arrangements; gel, dish, tool and styling props are excluded. Decorative, non-edible craft material.",
+      "detailedDescription": "YX3392 consists of green citrus-round polymer clay slices with white radial details. The same-SKU supplier source lists 5 mm and a reference pack of 500 g per bag. Use the SKU to discuss bulk selection, labeling and packing requirements, and review a sample for the intended craft application. Pack weight does not specify a piece count or MOQ; confirm the current option and order terms in your quotation. Original main product photograph. Generated application and detail references illustrate possible arrangements; gel, dish, tool and styling props are excluded. Decorative, non-edible craft material. YX3392 consists of green citrus-round polymer clay slices with white radial details. The same-SKU supplier source lists 5 mm and a reference pack of 500 g per bag. Use the SKU to discuss bulk selection, labeling and packing requirements, and review a sample for the intended craft application. Pack weight does not specify a piece count or MOQ; confirm the current option and order terms in your quotation. Original main product photograph. Generated application and detail references illustrate possible arrangements; gel, dish, tool and styling props are excluded. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Green Lime Polymer Clay Slices for Bulk Craft Sourcing — YX3392",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX3392",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX3392, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "green lime polymer clay slices, wholesale craft components",
+      "metaTitle": "Green Lime Polymer Clay Slices | YX3392",
+      "metaDescription": "YX3392: Polymer Clay; 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "5mm Green Lemon Lime Polymer Clays for DIY Crafts Fruit Plastic Klei Mud Particles Slime Filler Sprinkles",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX3392"
+      },
+      "sourceProductId": "1600922814470",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Green-Lemon-Lime-Polymer-Clays_1600922814470.html",
+      "materialBasis": "SameproductID1600922814470/ModelMO-YX3392;title5mmGreenLemonLime;MaterialPolymerclay;selected500g/bag and supplier table0.5kg/bag;sourceoriginalphotoIDmatchesrawexport. PricesMOQshippingcertificationnotimported.",
+      "assetKey": "yx3392",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx3392-green-lime-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original main product photograph. Generated application and detail references illustrate possible arrangements; gel, dish, tool and styling props are excluded. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX693",
+      "title": "Pink Strawberry Polymer Clay Slices for Bulk Craft Sourcing — YX693",
+      "originalTitle": "5mm Pink Strawberry Clay Slice Fruits Sprinkles for DIY Crafts Slime Shaker Filling",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Pink Strawberry Polymer Clay Slices for Bulk Craft Sourcing — YX693, product code YX693",
+      "description": "YX693 is a pink strawberry-shaped polymer clay slice with pale green detail and cream-white dots, as shown in the original photograph. The same-SKU source specifies 5 mm and reference packing of 500 g per bag. Use YX693 to discuss bulk selection, labeling and packing requirements. Confirm the current option and intended application against a sample. Pack weight is not a piece count or MOQ; order terms require a quotation. Original main product photograph. Generated application and detail references illustrate styling only; artificial nail tips, tray, fabric and other props are excluded. Decorative, non-edible craft material.",
+      "detailedDescription": "YX693 is a pink strawberry-shaped polymer clay slice with pale green detail and cream-white dots, as shown in the original photograph. The same-SKU source specifies 5 mm and reference packing of 500 g per bag. Use YX693 to discuss bulk selection, labeling and packing requirements. Confirm the current option and intended application against a sample. Pack weight is not a piece count or MOQ; order terms require a quotation. Original main product photograph. Generated application and detail references illustrate styling only; artificial nail tips, tray, fabric and other props are excluded. Decorative, non-edible craft material. YX693 is a pink strawberry-shaped polymer clay slice with pale green detail and cream-white dots, as shown in the original photograph. The same-SKU source specifies 5 mm and reference packing of 500 g per bag. Use YX693 to discuss bulk selection, labeling and packing requirements. Confirm the current option and intended application against a sample. Pack weight is not a piece count or MOQ; order terms require a quotation. Original main product photograph. Generated application and detail references illustrate styling only; artificial nail tips, tray, fabric and other props are excluded. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pink Strawberry Polymer Clay Slices for Bulk Craft Sourcing — YX693",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX693",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX693, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pink strawberry polymer clay slices, wholesale craft components",
+      "metaTitle": "Pink Strawberry Polymer Clay Slices | YX693",
+      "metaDescription": "YX693: Polymer Clay; 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "5mm Pink Strawberry Clay Slice Fruits Sprinkles for DIY Crafts Slime Shaker Filling",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX693"
+      },
+      "sourceProductId": "1601297600390",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Pink-Strawberry-Clay-Slice-Fruits_1601297600390.html",
+      "materialBasis": "SameproductID1601297600390/ModelMO-YX693;selected5MM-500g/bag;ProductPolymerClayStrawberrySprinkles;beadsize5mm,beadmaterialPolymerClay;packing500G/bag. SameoriginalphotoIDasMonicaexport. No price,MOQ,leadtime orcertclaimsimported.",
+      "assetKey": "yx693",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx693-pink-strawberry-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original main product photograph. Generated application and detail references illustrate styling only; artificial nail tips, tray, fabric and other props are excluded. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX318",
+      "title": "Strawberry Cross-Section Polymer Clay Slices for Bulk Sourcing — YX318",
+      "originalTitle": "5mm Strawberry Polymer Hot Soft Clay Sprinkles for DIY Crafts Slime Filling Plastic Klei Tiny Cute Mud Particles Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Strawberry Cross-Section Polymer Clay Slices for Bulk Sourcing — YX318, product code YX318",
+      "description": "YX318 is a red strawberry cross-section polymer clay slice with a green cap and white-and-pink center detail, as shown in the original photograph. The same-SKU source states approximately 5 mm and reference packing of 500 g per bag. Use YX318 to discuss bulk selection, labeling and packing requirements. Confirm the available option and intended use against a sample. Pack weight is not a piece count or MOQ; order terms require a quotation. Original main product photograph. Generated application and detail references illustrate arrangements only; scrapbook paper and styling props are excluded. The original photo's container is presentation, not a promised packing format. Decorative, non-edible craft material.",
+      "detailedDescription": "YX318 is a red strawberry cross-section polymer clay slice with a green cap and white-and-pink center detail, as shown in the original photograph. The same-SKU source states approximately 5 mm and reference packing of 500 g per bag. Use YX318 to discuss bulk selection, labeling and packing requirements. Confirm the available option and intended use against a sample. Pack weight is not a piece count or MOQ; order terms require a quotation. Original main product photograph. Generated application and detail references illustrate arrangements only; scrapbook paper and styling props are excluded. The original photo's container is presentation, not a promised packing format. Decorative, non-edible craft material. YX318 is a red strawberry cross-section polymer clay slice with a green cap and white-and-pink center detail, as shown in the original photograph. The same-SKU source states approximately 5 mm and reference packing of 500 g per bag. Use YX318 to discuss bulk selection, labeling and packing requirements. Confirm the available option and intended use against a sample. Pack weight is not a piece count or MOQ; order terms require a quotation. Original main product photograph. Generated application and detail references illustrate arrangements only; scrapbook paper and styling props are excluded. The original photo's container is presentation, not a promised packing format. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Strawberry Cross-Section Polymer Clay Slices for Bulk Sourcing — YX318",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX318",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "approximately 5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX318, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "strawberry cross section polymer clay slices, wholesale craft components",
+      "metaTitle": "Strawberry Cross-Section Polymer Clay Slices | YX318",
+      "metaDescription": "YX318: Polymer Clay; approximately 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "approximately 5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "5mm Strawberry Polymer Hot Soft Clay Sprinkles for DIY Crafts Slime Filling Plastic Klei Tiny Cute Mud Particles Accessories",
+        "material": "Polymer Clay",
+        "size": "approximately 5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX318"
+      },
+      "sourceProductId": "1600249384797",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Strawberry-Polymer-Hot-Soft-Clay_1600249384797.html",
+      "materialBasis": "SameproductID1600249384797/ModelMO-YX318;selected5mm-500g/bag;ProductStrawberrySlimeClaySlices;MaterialPolymerClay;Sizeapprox5mm;packing500g/bag. GenericShape bear fieldnotusedbecauseactualProduct/title/photosallclearlystrawberrycrosssections. OriginalmainphotoIDmatchesMonicaexport;secondofficialphoto sameSKU confirmsfrontpattern. No priceMOQshippingleadtimecertclaimsimported.",
+      "assetKey": "yx318",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx318-strawberry-cross-section-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original main product photograph. Generated application and detail references illustrate arrangements only; scrapbook paper and styling props are excluded. The original photo's container is presentation, not a promised packing format. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX124",
+      "title": "Large Mixed Fruit Polymer Clay Slices for Bulk Sourcing — YX124",
+      "originalTitle": "20*20*2mm Polymer Clay Fruit Slice Strawberry Kiwifruit Flat Back Slices for Earrings Charms Paste Hairpin DIY",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Large Mixed Fruit Polymer Clay Slices for Bulk Sourcing — YX124, product code YX124",
+      "description": "YX124 is a mixed fruit selection of flat polymer clay slices. The original photograph shows citrus rounds, watermelon discs and other fruit forms. The same-SKU source specifies approximately 20 × 20 × 2 mm and reference packing of 500 g per bag. Use YX124 to discuss bulk selection, labeling and packing requirements. Review a sample and confirm the current assortment; the image does not guarantee a fixed design ratio. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected motifs for illustration; frame, paper and styling props are excluded. Decorative, non-edible craft material.",
+      "detailedDescription": "YX124 is a mixed fruit selection of flat polymer clay slices. The original photograph shows citrus rounds, watermelon discs and other fruit forms. The same-SKU source specifies approximately 20 × 20 × 2 mm and reference packing of 500 g per bag. Use YX124 to discuss bulk selection, labeling and packing requirements. Review a sample and confirm the current assortment; the image does not guarantee a fixed design ratio. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected motifs for illustration; frame, paper and styling props are excluded. Decorative, non-edible craft material. YX124 is a mixed fruit selection of flat polymer clay slices. The original photograph shows citrus rounds, watermelon discs and other fruit forms. The same-SKU source specifies approximately 20 × 20 × 2 mm and reference packing of 500 g per bag. Use YX124 to discuss bulk selection, labeling and packing requirements. Review a sample and confirm the current assortment; the image does not guarantee a fixed design ratio. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected motifs for illustration; frame, paper and styling props are excluded. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Large Mixed Fruit Polymer Clay Slices for Bulk Sourcing — YX124",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 20 × 20 × 2 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX124",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 20 × 20 × 2 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "approximately 20 × 20 × 2 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX124, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "large mixed fruit polymer clay slices, wholesale craft components",
+      "metaTitle": "Large Mixed Fruit Polymer Clay Slices | YX124",
+      "metaDescription": "YX124: Polymer Clay; approximately 20 × 20 × 2 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "approximately 20 × 20 × 2 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "20*20*2mm Polymer Clay Fruit Slice Strawberry Kiwifruit Flat Back Slices for Earrings Charms Paste Hairpin DIY",
+        "material": "Polymer Clay",
+        "size": "approximately 20 × 20 × 2 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX124"
+      },
+      "sourceProductId": "62260378134",
+      "sourceUrl": "https://www.alibaba.com/product-detail/20-20-2mm-Polymer-Clay-Fruit_62260378134.html",
+      "materialBasis": "SameproductID62260378134/ModelMO-YX124;selectedabout20*20*2mm-500g/bag;MaterialPolymerclay;title20*20*2mmPolymerClayFruitSlice. OriginalphotoIDmatchMonicaexport. Use500gweightnotpiececount;no price,MOQ,leadtime orcertclaimsimported.",
+      "assetKey": "yx124",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx124-large-mixed-fruit-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original main photograph. Generated application and detail references show selected motifs for illustration; frame, paper and styling props are excluded. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX231",
+      "title": "Coconut Cross-Section Polymer Clay Slices for Bulk Sourcing — YX231",
+      "originalTitle": "5mm Coconut Slices Polymer Clay Sprinkles for Crafts Making Kawaii Fruits Cake Decoration DIY Nail Art Slimes Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Coconut Cross-Section Polymer Clay Slices for Bulk Sourcing — YX231, product code YX231",
+      "description": "YX231 consists of small coconut cross-section polymer clay slices with cream centers and brown edges. The same-SKU supplier source lists approximately 5 × 6 mm and a selected reference pack of 500 g per bag. Use YX231 to discuss bulk selection, labeling and packing requirements. Review a sample for the intended application and confirm the selected option in your quotation. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references illustrate possible arrangements; dish, craft gel, paper and styling props are excluded. Decorative, non-edible craft material.",
+      "detailedDescription": "YX231 consists of small coconut cross-section polymer clay slices with cream centers and brown edges. The same-SKU supplier source lists approximately 5 × 6 mm and a selected reference pack of 500 g per bag. Use YX231 to discuss bulk selection, labeling and packing requirements. Review a sample for the intended application and confirm the selected option in your quotation. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references illustrate possible arrangements; dish, craft gel, paper and styling props are excluded. Decorative, non-edible craft material. YX231 consists of small coconut cross-section polymer clay slices with cream centers and brown edges. The same-SKU supplier source lists approximately 5 × 6 mm and a selected reference pack of 500 g per bag. Use YX231 to discuss bulk selection, labeling and packing requirements. Review a sample for the intended application and confirm the selected option in your quotation. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references illustrate possible arrangements; dish, craft gel, paper and styling props are excluded. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Coconut Cross-Section Polymer Clay Slices for Bulk Sourcing — YX231",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 5 × 6 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX231",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 5 × 6 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "approximately 5 × 6 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX231, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "coconut cross section polymer clay slices, wholesale craft components",
+      "metaTitle": "Coconut Cross-Section Polymer Clay Slices | YX231",
+      "metaDescription": "YX231: Polymer Clay; approximately 5 × 6 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "approximately 5 × 6 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "5mm Coconut Slices Polymer Clay Sprinkles for Crafts Making Kawaii Fruits Cake Decoration DIY Nail Art Slimes Accessories",
+        "material": "Polymer Clay",
+        "size": "approximately 5 × 6 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX231"
+      },
+      "sourceProductId": "1600721851374",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Coconut-Slices-Polymer-Clay-Sprinkles_1600721851374.html",
+      "materialBasis": "SameproductID1600721851374/ModelMO-YX231;selected5*6MM500g/bag;ProductCoconutpolymerclaysprinkles;MaterialSoftclay,polymerclay;selected500gpacknotother10goption. GenericShapeflowerfieldexcludedbecauseProduct/title/photosclearlycoconutcrosssections. OriginalphotoIDmatchesrawexport. No priceMOQshippingleadtimecertfiguresimported.",
+      "assetKey": "yx231",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx231-coconut-cross-section-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original main photograph. Generated application and detail references illustrate possible arrangements; dish, craft gel, paper and styling props are excluded. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX320",
+      "title": "Colorful Leaf Polymer Clay Slices for Bulk Sourcing — YX320",
+      "originalTitle": "5mm Colorful Leaves Clay Slices Sprinkles Soft Pottery for DIY Crafts Decoration Filling Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Colorful Leaf Polymer Clay Slices for Bulk Sourcing — YX320, product code YX320",
+      "description": "YX320 is a leaf-shaped polymer clay slice selection with contrasting vein details. The original photo shows multiple colorways. The same-SKU source lists approximately 5 mm and reference packing of 500 g per bag. Use YX320 to discuss the available selection, bulk quantities, labeling and packing requirements. Confirm the selected option against a sample; images do not guarantee a fixed color ratio. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected source colorways; phone case, work mat and styling props are excluded. No self-adhesive property is implied. Non-edible craft material.",
+      "detailedDescription": "YX320 is a leaf-shaped polymer clay slice selection with contrasting vein details. The original photo shows multiple colorways. The same-SKU source lists approximately 5 mm and reference packing of 500 g per bag. Use YX320 to discuss the available selection, bulk quantities, labeling and packing requirements. Confirm the selected option against a sample; images do not guarantee a fixed color ratio. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected source colorways; phone case, work mat and styling props are excluded. No self-adhesive property is implied. Non-edible craft material. YX320 is a leaf-shaped polymer clay slice selection with contrasting vein details. The original photo shows multiple colorways. The same-SKU source lists approximately 5 mm and reference packing of 500 g per bag. Use YX320 to discuss the available selection, bulk quantities, labeling and packing requirements. Confirm the selected option against a sample; images do not guarantee a fixed color ratio. Pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected source colorways; phone case, work mat and styling props are excluded. No self-adhesive property is implied. Non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Colorful Leaf Polymer Clay Slices for Bulk Sourcing — YX320",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX320",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "approximately 5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX320, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "colorful leaf polymer clay slices, wholesale craft components",
+      "metaTitle": "Colorful Leaf Polymer Clay Slices | YX320",
+      "metaDescription": "YX320: Polymer Clay; approximately 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "approximately 5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "5mm Colorful Leaves Clay Slices Sprinkles Soft Pottery for DIY Crafts Decoration Filling Accessories",
+        "material": "Polymer Clay",
+        "size": "approximately 5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX320"
+      },
+      "sourceProductId": "1600846322055",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Colorful-Leaves-Clay-Slices-Sprinkles_1600846322055.html",
+      "materialBasis": "SameproductID1600846322055/ModelMO-YX320;selectedabout5mm-500g/bag;ProductLeavesClaySprinkles;SizeAbout5mm;Materialpolymerclay;Packing500g/bag. Source listsYX320-1/-2options:confirmselectedmix, nofixedcompositionclaim. OriginalphotoIDmatchesrawexport. No priceMOQshippingleadtimecertclaimsimported.",
+      "assetKey": "yx320",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx320-colorful-leaf-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original main photograph. Generated application and detail references show selected source colorways; phone case, work mat and styling props are excluded. No self-adhesive property is implied. Non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX241",
+      "title": "Daisy Flower Polymer Clay Discs for Bulk Sourcing — YX241",
+      "originalTitle": "5MM Daisy Flower Slices Polymer Clay Sprinkles for Slime Crafts DIY Nail Art Decoration Scrapbooking Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Daisy Flower Polymer Clay Discs for Bulk Sourcing — YX241, product code YX241",
+      "description": "YX241 consists of round polymer clay slices with white daisy-style petals and yellow centers on colored backgrounds. The same-SKU source specifies 5 mm and reference packing of 500 g per bag. Use YX241 to discuss bulk selection, labeling and packing requirements. Confirm the available colors and intended application against a sample. Images do not establish a fixed color ratio, and pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected colors; hair clips, fabric and styling props are excluded. No self-adhesive property is implied. Decorative, non-edible craft material.",
+      "detailedDescription": "YX241 consists of round polymer clay slices with white daisy-style petals and yellow centers on colored backgrounds. The same-SKU source specifies 5 mm and reference packing of 500 g per bag. Use YX241 to discuss bulk selection, labeling and packing requirements. Confirm the available colors and intended application against a sample. Images do not establish a fixed color ratio, and pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected colors; hair clips, fabric and styling props are excluded. No self-adhesive property is implied. Decorative, non-edible craft material. YX241 consists of round polymer clay slices with white daisy-style petals and yellow centers on colored backgrounds. The same-SKU source specifies 5 mm and reference packing of 500 g per bag. Use YX241 to discuss bulk selection, labeling and packing requirements. Confirm the available colors and intended application against a sample. Images do not establish a fixed color ratio, and pack weight is not a piece count or MOQ. Original main photograph. Generated application and detail references show selected colors; hair clips, fabric and styling props are excluded. No self-adhesive property is implied. Decorative, non-edible craft material. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Daisy Flower Polymer Clay Discs for Bulk Sourcing — YX241",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX241",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX241, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "daisy flower polymer clay discs, wholesale craft components",
+      "metaTitle": "Daisy Flower Polymer Clay Discs | YX241",
+      "metaDescription": "YX241: Polymer Clay; 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "5MM Daisy Flower Slices Polymer Clay Sprinkles for Slime Crafts DIY Nail Art Decoration Scrapbooking Accessories",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX241"
+      },
+      "sourceProductId": "1600061114827",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5MM-Daisy-Flower-Slices-Polymer-Clay_1600061114827.html",
+      "materialBasis": "SameproductID1600061114827/ModelMO-YX241;selected5MM-500g/bag;ProductDaisyFlowerSlices;MaterialSoftclay,polymerclay;Packaging500g/bag. GenericShapeClayAmericanFlagexcludedbecauseactualProduct/title/photosallflowerdiscs. OriginalphotoIDmatchesrawexport. No priceMOQshippingleadtimecertclaimsimported.",
+      "assetKey": "yx241",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx241-daisy-flower-polymer-clay-discs",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Original main photograph. Generated application and detail references show selected colors; hair clips, fabric and styling props are excluded. No self-adhesive property is implied. Decorative, non-edible craft material.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX219",
+      "title": "Pink Watermelon Polymer Clay Slices for Bulk Craft Selection — YX219",
+      "originalTitle": "New Arrive 5mm Kawaii Watermelon Polymer Clay Slices Sprinkles for Crafts DIY Making Nail Art Decorations Phone Decor",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Pink Watermelon Polymer Clay Slices for Bulk Craft Selection — YX219, product code YX219",
+      "description": "Pink watermelon wedge slices with black seed dots, a white rind band and green outer edge. Source reference size: 5 × 6 mm; reference packing: 500 g per bag. Use YX219 to discuss bulk craft decoration selection, production matching and packing requirements. Confirm the current assortment and packing with the supplier; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included.",
+      "detailedDescription": "Pink watermelon wedge slices with black seed dots, a white rind band and green outer edge. Source reference size: 5 × 6 mm; reference packing: 500 g per bag. Use YX219 to discuss bulk craft decoration selection, production matching and packing requirements. Confirm the current assortment and packing with the supplier; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included. Pink watermelon wedge slices with black seed dots, a white rind band and green outer edge. Source reference size: 5 × 6 mm; reference packing: 500 g per bag. Use YX219 to discuss bulk craft decoration selection, production matching and packing requirements. Confirm the current assortment and packing with the supplier; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pink Watermelon Polymer Clay Slices for Bulk Craft Selection — YX219",
+        "Material: Polymer Clay",
+        "Dimensions: 5 × 6 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX219",
+        "Material: Polymer Clay",
+        "Dimensions: 5 × 6 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 × 6 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX219, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pink watermelon polymer clay slices, wholesale craft components",
+      "metaTitle": "Pink Watermelon Polymer Clay Slices | YX219",
+      "metaDescription": "YX219: Polymer Clay; 5 × 6 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 × 6 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "New Arrive 5mm Kawaii Watermelon Polymer Clay Slices Sprinkles for Crafts DIY Making Nail Art Decorations Phone Decor",
+        "material": "Polymer Clay",
+        "size": "5 × 6 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX219"
+      },
+      "sourceProductId": "62489172438",
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Arrive-5mm-Kawaii-Watermelon-Polymer_62489172438.html",
+      "materialBasis": "Official selected option and model-specific table both 5×6 mm, 0.5kg/bag; Material Clay and polymer-clay product title/model MO-YX219. Ignore unrelated Strawberry Cake Slice keyword; the product name, model, table and primary photograph consistently show watermelon. Source export photo ID H1e9cef2e203b4abcb36179e1963feb41r matches current original.",
+      "assetKey": "yx219",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx219-pink-watermelon-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX264",
+      "title": "Pink Milk Tea Cup Polymer Clay Slices for Bulk Craft Selection — YX264",
+      "originalTitle": "5mm Mini Pearl Milk Tea Cup Slice Polymer Hot Clay Sprinkles for Crafts Plastic Klei Tiny Cute Mud Particles DIY Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Pink Milk Tea Cup Polymer Clay Slices for Bulk Craft Selection — YX264, product code YX264",
+      "description": "Pink milk tea cup slices with black dot details, white rim and cut edge, black outlines and a pale blue straw motif. Source reference size: 5 mm; reference packing: 500 g per bag. Use YX264 to discuss bulk craft decoration selection, production matching and packing requirements. Confirm the current assortment and packing with the supplier; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included.",
+      "detailedDescription": "Pink milk tea cup slices with black dot details, white rim and cut edge, black outlines and a pale blue straw motif. Source reference size: 5 mm; reference packing: 500 g per bag. Use YX264 to discuss bulk craft decoration selection, production matching and packing requirements. Confirm the current assortment and packing with the supplier; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included. Pink milk tea cup slices with black dot details, white rim and cut edge, black outlines and a pale blue straw motif. Source reference size: 5 mm; reference packing: 500 g per bag. Use YX264 to discuss bulk craft decoration selection, production matching and packing requirements. Confirm the current assortment and packing with the supplier; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Pink Milk Tea Cup Polymer Clay Slices for Bulk Craft Selection — YX264",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX264",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX264, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pink milk tea cup polymer clay slices, wholesale craft components",
+      "metaTitle": "Pink Milk Tea Cup Polymer Clay Slices | YX264",
+      "metaDescription": "YX264: Polymer Clay; 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "5mm Mini Pearl Milk Tea Cup Slice Polymer Hot Clay Sprinkles for Crafts Plastic Klei Tiny Cute Mud Particles DIY Accessories",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX264"
+      },
+      "sourceProductId": "62585604622",
+      "sourceUrl": "https://www.alibaba.com/product-detail/5mm-Mini-Pearl-Milk-Tea-Cup_62585604622.html",
+      "materialBasis": "Official MO-YX264 product and model-specific table identify milk tea cup polymer clay slices, 5 mm, 0.5kg per bag; selected option 5mm-500g/bag. Material Soft clay,polymer clay. Ignore recycled watermelon/orange/kiwi Shape field, unsupported 10g alternative and supplier commercial templates; title/model/product/table/original agree on cup identity. Export photo ID H7af053e0528f4031b90b5b9f519b49bbd matches current original.",
+      "assetKey": "yx264",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx264-pink-milk-tea-cup-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX198",
+      "title": "Red and Pink Flower Polymer Clay Slices for Bulk Craft Selection — YX198",
+      "originalTitle": "Red Pink Flower Slice Hot Clay Sprinkles for Slime Material Accessories Polymer Clay Crafts DIY Nail Arts Decoration 5mm",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Red and Pink Flower Polymer Clay Slices for Bulk Craft Selection — YX198, product code YX198",
+      "description": "Red and pale pink flower slices with six rounded petals and a small white filled center. Source reference size: 5 mm; reference packing: 500 g per bag. Quote YX198 when discussing bulk color selection, production matching and packing requirements. Confirm the current assortment and packing; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included.",
+      "detailedDescription": "Red and pale pink flower slices with six rounded petals and a small white filled center. Source reference size: 5 mm; reference packing: 500 g per bag. Quote YX198 when discussing bulk color selection, production matching and packing requirements. Confirm the current assortment and packing; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included. Red and pale pink flower slices with six rounded petals and a small white filled center. Source reference size: 5 mm; reference packing: 500 g per bag. Quote YX198 when discussing bulk color selection, production matching and packing requirements. Confirm the current assortment and packing; reference packing is not a minimum order quantity. The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Red and Pink Flower Polymer Clay Slices for Bulk Craft Selection — YX198",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX198",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX198, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "red and pink flower polymer clay slices, wholesale craft components",
+      "metaTitle": "Red and Pink Flower Polymer Clay Slices | YX198",
+      "metaDescription": "YX198: Polymer Clay; 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Red Pink Flower Slice Hot Clay Sprinkles for Slime Material Accessories Polymer Clay Crafts DIY Nail Arts Decoration 5mm",
+        "material": "Polymer Clay",
+        "size": "5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX198"
+      },
+      "sourceProductId": "62405839927",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Red-Pink-Flower-Slice-Hot-Clay_62405839927.html",
+      "materialBasis": "Official model MO-YX198 and model table YX198 identify Flower Clay Slice, 5 mm, Polymer Clay, 500g/bag. Selected option 5mm-500g/bag corroborates. Export photo ID H0f619bb2a4614dc1aae33d2ea26788f3L matches official original. Conditional source MOQ/delivery commercial templates excluded.",
+      "assetKey": "yx198",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx198-red-and-pink-flower-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 800,
+          "height": 800
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The main image is the original supplier product photograph. Generated application and detail images are reference illustrations; dishes, slime and other scene props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX252",
+      "title": "Solid Color Heart Polymer Clay Slices for Bulk Craft Selection — YX252",
+      "originalTitle": "4*5mm MIni Heart Polymer Soft Clay Sprinkles for Kids Diy Scrapbook Decoration Slime Filler Diy Making",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Solid Color Heart Polymer Clay Slices for Bulk Craft Selection — YX252, product code YX252",
+      "description": "Plain hearts in the source mixed colors, with two rounded upper lobes and a pointed lower end. Source reference size: 4 × 5 mm; reference packing: 500 g per bag. Quote YX252 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "detailedDescription": "Plain hearts in the source mixed colors, with two rounded upper lobes and a pointed lower end. Source reference size: 4 × 5 mm; reference packing: 500 g per bag. Quote YX252 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Plain hearts in the source mixed colors, with two rounded upper lobes and a pointed lower end. Source reference size: 4 × 5 mm; reference packing: 500 g per bag. Quote YX252 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Solid Color Heart Polymer Clay Slices for Bulk Craft Selection — YX252",
+        "Material: Polymer Clay",
+        "Dimensions: 4 × 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX252",
+        "Material: Polymer Clay",
+        "Dimensions: 4 × 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "4 × 5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX252, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "solid color heart polymer clay slices, wholesale craft components",
+      "metaTitle": "Solid Color Heart Polymer Clay Slices | YX252",
+      "metaDescription": "YX252: Polymer Clay; 4 × 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "4 × 5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "4*5mm MIni Heart Polymer Soft Clay Sprinkles for Kids Diy Scrapbook Decoration Slime Filler Diy Making",
+        "material": "Polymer Clay",
+        "size": "4 × 5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX252"
+      },
+      "sourceProductId": "62407207304",
+      "sourceUrl": "https://www.alibaba.com/product-detail/4-5mm-MIni-Heart-Polymer-Soft_62407207304.html",
+      "materialBasis": "Official model MO-YX252, polymer clay, 4×5mm and 500g/bag agree. Existing YX250 has outlined multitone hearts; YX006 is red/pink/white mix, while this source model is rainbow solid-color hearts.",
+      "assetKey": "yx252",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx252-solid-color-heart-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX265",
+      "title": "White Bone Polymer Clay Slices for Bulk Craft Selection — YX265",
+      "originalTitle": "500g White Halloween Bones Polymer Hot Clay Sprinkles for Crafts DIY Nail Art Decoration Slime Material Accessories Cake Partic",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "White Bone Polymer Clay Slices for Bulk Craft Selection — YX265, product code YX265",
+      "description": "White flat bone shapes with a narrow middle and rounded lobes at each end. Source reference size: 1 × 4 × 8 mm; reference packing: 500 g per bag. Quote YX265 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "detailedDescription": "White flat bone shapes with a narrow middle and rounded lobes at each end. Source reference size: 1 × 4 × 8 mm; reference packing: 500 g per bag. Quote YX265 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. White flat bone shapes with a narrow middle and rounded lobes at each end. Source reference size: 1 × 4 × 8 mm; reference packing: 500 g per bag. Quote YX265 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "White Bone Polymer Clay Slices for Bulk Craft Selection — YX265",
+        "Material: Polymer Clay",
+        "Dimensions: 1 × 4 × 8 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX265",
+        "Material: Polymer Clay",
+        "Dimensions: 1 × 4 × 8 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "1 × 4 × 8 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX265, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "white bone polymer clay slices, wholesale craft components",
+      "metaTitle": "White Bone Polymer Clay Slices | YX265",
+      "metaDescription": "YX265: Polymer Clay; 1 × 4 × 8 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "1 × 4 × 8 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "500g White Halloween Bones Polymer Hot Clay Sprinkles for Crafts DIY Nail Art Decoration Slime Material Accessories Cake Partic",
+        "material": "Polymer Clay",
+        "size": "1 × 4 × 8 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX265"
+      },
+      "sourceProductId": "1600127349391",
+      "sourceUrl": "https://www.alibaba.com/product-detail/500g-White-Halloween-Bones-Polymer-Hot_1600127349391.html",
+      "materialBasis": "MO-YX265 identifies White Bones Polymer Clay Slice, detailed size1×4×8mm, source table500g/bag. Actual polymer clay, not the existing MA173 sequins.",
+      "assetKey": "yx265",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx265-white-bone-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX247",
+      "title": "White Envelope Polymer Clay Slices for Bulk Craft Selection — YX247",
+      "originalTitle": "Hot Selling Polymer Clay White Envelope Slice Sprinkles for Crafts Making Accessories Nail Arts Decoration DIY Phone Decor",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "White Envelope Polymer Clay Slices for Bulk Craft Selection — YX247, product code YX247",
+      "description": "White envelope fronts with black outlines and diagonal fold lines, finished with a small red center motif. Source reference size: 5 mm or 10 mm source options; reference packing: 500 g per bag. Quote YX247 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "detailedDescription": "White envelope fronts with black outlines and diagonal fold lines, finished with a small red center motif. Source reference size: 5 mm or 10 mm source options; reference packing: 500 g per bag. Quote YX247 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. White envelope fronts with black outlines and diagonal fold lines, finished with a small red center motif. Source reference size: 5 mm or 10 mm source options; reference packing: 500 g per bag. Quote YX247 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "White Envelope Polymer Clay Slices for Bulk Craft Selection — YX247",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm or 10 mm source options",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX247",
+        "Material: Polymer Clay",
+        "Dimensions: 5 mm or 10 mm source options",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "5 mm or 10 mm source options",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX247, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "white envelope polymer clay slices, wholesale craft components",
+      "metaTitle": "White Envelope Polymer Clay Slices | YX247",
+      "metaDescription": "YX247: Polymer Clay; 5 mm or 10 mm source options. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "5 mm or 10 mm source options",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Hot Selling Polymer Clay White Envelope Slice Sprinkles for Crafts Making Accessories Nail Arts Decoration DIY Phone Decor",
+        "material": "Polymer Clay",
+        "size": "5 mm or 10 mm source options",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX247"
+      },
+      "sourceProductId": "1600055454865",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Hot-Selling-Polymer-Clay-White-Envelope_1600055454865.html",
+      "materialBasis": "MO-YX247 and model table Envelope Clay Slice; table5mm,10mm and selected5mm/10mm500g/bag; actualSoft clay,polymer clay. Recycledfruit shape text and generic10gpacking notused; model/title/table/originalconsistent. Do not claim selected size from photo.",
+      "assetKey": "yx247",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx247-white-envelope-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX251",
+      "title": "Mixed Color Cloud Polymer Clay Slices for Bulk Craft Selection — YX251",
+      "originalTitle": "Mini Kawaii Cloud Slices Polymer Clay Sprinkles for Crafts DIY Nail Art Decoration Slime Material Accessories Phone Decor",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Mixed Color Cloud Polymer Clay Slices for Bulk Craft Selection — YX251, product code YX251",
+      "description": "Solid mixed-color cloud shapes with rounded scalloped edges and no printed faces. Source reference size: 1 × 3 × 5 mm; reference packing: 500 g per bag. Quote YX251 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "detailedDescription": "Solid mixed-color cloud shapes with rounded scalloped edges and no printed faces. Source reference size: 1 × 3 × 5 mm; reference packing: 500 g per bag. Quote YX251 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Solid mixed-color cloud shapes with rounded scalloped edges and no printed faces. Source reference size: 1 × 3 × 5 mm; reference packing: 500 g per bag. Quote YX251 to discuss bulk color selection, production matching and packing requirements. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Mixed Color Cloud Polymer Clay Slices for Bulk Craft Selection — YX251",
+        "Material: Polymer Clay",
+        "Dimensions: 1 × 3 × 5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX251",
+        "Material: Polymer Clay",
+        "Dimensions: 1 × 3 × 5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "1 × 3 × 5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX251, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mixed color cloud polymer clay slices, wholesale craft components",
+      "metaTitle": "Mixed Color Cloud Polymer Clay Slices | YX251",
+      "metaDescription": "YX251: Polymer Clay; 1 × 3 × 5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "1 × 3 × 5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Mini Kawaii Cloud Slices Polymer Clay Sprinkles for Crafts DIY Nail Art Decoration Slime Material Accessories Phone Decor",
+        "material": "Polymer Clay",
+        "size": "1 × 3 × 5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX251"
+      },
+      "sourceProductId": "1600060985105",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Kawaii-Cloud-Slices-Polymer-Clay_1600060985105.html",
+      "materialBasis": "MO-YX251 Cloud Polymer Clay Slice, MaterialSoft clay/polymer clay; modeltable1×3×5mm and0.5kg/bag. GenericColorful Candy Round type ignored in favor of model/title/table/photo.",
+      "assetKey": "yx251",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx251-mixed-color-cloud-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX273",
+      "title": "Red Christmas Hat Polymer Clay Slices for Bulk Craft Selection — YX273",
+      "originalTitle": "Cute Christmas Hat Clay Slices Polymer Hot Clay Sprinkles for Craft DIY Making Phone Case Nails Art Decoration Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Red Christmas Hat Polymer Clay Slices for Bulk Craft Selection — YX273, product code YX273",
+      "description": "Red hat slices with a white bottom band and a small white tip. Source reference size: 4 × 6 mm; reference packing: 500 g per bag. Quote YX273 for bulk selection, production matching and packing discussions. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "detailedDescription": "Red hat slices with a white bottom band and a small white tip. Source reference size: 4 × 6 mm; reference packing: 500 g per bag. Quote YX273 for bulk selection, production matching and packing discussions. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Red hat slices with a white bottom band and a small white tip. Source reference size: 4 × 6 mm; reference packing: 500 g per bag. Quote YX273 for bulk selection, production matching and packing discussions. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Red Christmas Hat Polymer Clay Slices for Bulk Craft Selection — YX273",
+        "Material: Polymer Clay",
+        "Dimensions: 4 × 6 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX273",
+        "Material: Polymer Clay",
+        "Dimensions: 4 × 6 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "4 × 6 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX273, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "red christmas hat polymer clay slices, wholesale craft components",
+      "metaTitle": "Red Christmas Hat Polymer Clay Slices | YX273",
+      "metaDescription": "YX273: Polymer Clay; 4 × 6 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "4 × 6 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Cute Christmas Hat Clay Slices Polymer Hot Clay Sprinkles for Craft DIY Making Phone Case Nails Art Decoration Accessories",
+        "material": "Polymer Clay",
+        "size": "4 × 6 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX273"
+      },
+      "sourceProductId": "1600136228143",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Christmas-Hat-Clay-Slices-Polymer_1600136228143.html",
+      "materialBasis": "MO-YX273 Polymer Clay Hat Slices, size4×6mm, soft clay/polymer clay, Packing500g/bag; modeltableYX273 Christmas Hat Slices agrees.",
+      "assetKey": "yx273",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx273-red-christmas-hat-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "YX130",
+      "title": "Black Sesame Seed Shape Polymer Clay Slices for Bulk Craft Selection — YX130",
+      "originalTitle": "Simulation Sesame Seeds Slices Polymer Clay Sprinkles for Crafts DIY Miniature Cake Decoration Slime Accessories",
+      "type": "Decorative",
+      "categorySlug": "polymer-clay-slices",
+      "imageAlt": "Black Sesame Seed Shape Polymer Clay Slices for Bulk Craft Selection — YX130, product code YX130",
+      "description": "Black sesame seed shaped thin clay slices with small elongated teardrop outlines. Source reference size: approximately 2 × 1 × 0.5 mm; reference packing: 500 g per bag. Quote YX130 for bulk selection, production matching and packing discussions. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "detailedDescription": "Black sesame seed shaped thin clay slices with small elongated teardrop outlines. Source reference size: approximately 2 × 1 × 0.5 mm; reference packing: 500 g per bag. Quote YX130 for bulk selection, production matching and packing discussions. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Black sesame seed shaped thin clay slices with small elongated teardrop outlines. Source reference size: approximately 2 × 1 × 0.5 mm; reference packing: 500 g per bag. Quote YX130 for bulk selection, production matching and packing discussions. Confirm the current selection and packing; reference packing is not a minimum order quantity. The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included. Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+      "seasonalTheme": "Wholesale decorative craft components",
+      "keySellingPoints": [
+        "Black Sesame Seed Shape Polymer Clay Slices for Bulk Craft Selection — YX130",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 2 × 1 × 0.5 mm",
+        "Reference pack: 500 g/bag"
+      ],
+      "specificationLines": [
+        "Product code: YX130",
+        "Material: Polymer Clay",
+        "Dimensions: approximately 2 × 1 × 0.5 mm",
+        "Reference pack: 500 g/bag",
+        "Attachment: No hole or included fitting is established; confirm the fixing method for your project.",
+        "Selection: Confirm the selected size, color assortment and packing. Photos do not establish fixed mix proportions or a counted set.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Polymer Clay",
+      "dimensions": "approximately 2 × 1 × 0.5 mm",
+      "sourcePacking": "500 g/bag",
+      "customizationOptions": "For YX130, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Decorative craft projects; confirm the fixing method and selected size before use.",
+      "packagingMoq": "Reference packing: 500 g/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "black sesame seed shape polymer clay slices, wholesale craft components",
+      "metaTitle": "Black Sesame Seed Shape Polymer Clay Slices | YX130",
+      "metaDescription": "YX130: Polymer Clay; approximately 2 × 1 × 0.5 mm. Reference packing: 500 g/bag. Discuss bulk selection and packing.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Polymer Clay",
+        "size": "approximately 2 × 1 × 0.5 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "500 g/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica_export_with_verified_supplier_facts",
+      "sourceFileSha256": "4d280b63f975f107c000918835d4bc341d2348e57f5f4cb66f13f83597fb7fdb",
+      "sourceFields": {
+        "title": "Simulation Sesame Seeds Slices Polymer Clay Sprinkles for Crafts DIY Miniature Cake Decoration Slime Accessories",
+        "material": "Polymer Clay",
+        "size": "approximately 2 × 1 × 0.5 mm",
+        "packaging": "500 g/bag",
+        "sku_raw": "MO-YX130"
+      },
+      "sourceProductId": "1601376984915",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Simulation-Sesame-Seeds-Slices-Polymer-Clay_1601376984915.html",
+      "materialBasis": "MO-YX130 Polymer Clay, selected sizeabout2×1×0.5mm-500G/BAG, packing500g/bag. Primary original shows black variant; sourceothercoloroptions notassumed partofblackselection. Sticker keyword does not establish adhesive; noadhesiveclaim.",
+      "assetKey": "yx130",
+      "assetDirectory": "batch-20261102-monica-37",
+      "imagePrefix": "yx130-black-sesame-seed-shape-polymer-clay-slices",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 960,
+          "height": 960
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "The first image is the original supplier product photograph. Generated application and detail images are illustrative references; cards, dishes, slime and other props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-02",
+      "holeDescription": "No hole or included fitting is established; confirm the fixing method for your project.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

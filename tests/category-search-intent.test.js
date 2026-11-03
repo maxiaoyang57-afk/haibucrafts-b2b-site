@@ -48,12 +48,27 @@ test('category hubs target wholesale queries while clarifying buyer intent', asy
 
 test('updated category hubs advertise a fresh lastmod in sitemap', async () => {
   const sitemap = await read('sitemap.xml');
-  const expectedLastmod = new Map([
-    ['https://www.haibucrafts.com/products/polymer-clay-slices-wholesale/', '2026-10-02'],
-    ['https://www.haibucrafts.com/products/slime-charms-wholesale/', '2026-10-31'],
-    ['https://www.haibucrafts.com/products/resin-charms-for-slime/', '2026-10-04']
-  ]);
-  for (const [url, lastmod] of expectedLastmod) {
-    assert.ok(sitemap.includes(`<loc>${url}</loc><lastmod>${lastmod}</lastmod>`), `missing fresh sitemap date for ${url}`);
+  assert.equal(await read('v2-preview/production-config/sitemap.xml'), sitemap);
+  const map = JSON.parse(await read('v2-preview/seo-production-map.json'));
+  const catalog = JSON.parse(await read('v2-preview/assets/product-catalog.json'));
+  const routeByPath = new Map(map.routes.map(route => [route.productionPath, route]));
+  const categories = [
+    ['polymer-clay-slices', '/products/polymer-clay-slices-wholesale/', '2026-10-02'],
+    ['slime-charms', '/products/slime-charms-wholesale/', '2026-10-31'],
+    ['resin-charms', '/products/resin-charms-for-slime/', '2026-10-04'],
+    ['sequins-glitter-confetti', '/products/sequins-glitter-confetti/', '2026-09-22']
+  ];
+  for (const [category, productionPath, editorialBaseline] of categories) {
+    const lastmod = routeByPath.get(productionPath)?.lastModified;
+    assert.match(lastmod || '', /^\d{4}-\d{2}-\d{2}$/);
+    assert.ok(lastmod >= editorialBaseline, `category editorial date went backwards: ${category}`);
+    for (const product of catalog.products.filter(product => product.category === category)) {
+      const productRoute = routeByPath.get(product.productionPath);
+      if (!productRoute?.index) continue;
+      const productDate = productRoute.lastModified || catalog.generatedAt;
+      assert.ok(lastmod >= productDate, `category date predates public SKU ${product.sku}`);
+    }
+    const url = `${map.site.origin}${productionPath}`;
+    assert.ok(sitemap.includes(`<loc>${url}</loc><lastmod>${lastmod}</lastmod>`), `sitemap date differs from the source map for ${url}`);
   }
 });

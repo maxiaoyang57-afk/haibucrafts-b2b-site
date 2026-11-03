@@ -60,6 +60,12 @@ test('SEO production map persists the four opportunity-page snippets', async () 
     const entry = map.routes.find((row) => row.productionPath === productionPath);
     assert.ok(entry, `Missing SEO map route for ${productionPath}`);
     assert.equal(entry.title, title);
-    assert.equal(entry.lastModified, productionPath === '/custom-solutions/' ? '2026-10-14' : productionPath === '/themes/holiday/' ? '2026-09-23' : '2026-09-22');
+    const editorialBaseline = productionPath === '/custom-solutions/' ? '2026-10-14' : productionPath === '/themes/holiday/' ? '2026-09-23' : '2026-09-22';
+    if (productionPath === '/products/sequins-glitter-confetti/') {
+      // Catalog-driven freshness is independently checked against all public SKUs.
+      assert.ok(entry.lastModified >= editorialBaseline);
+    } else {
+      assert.equal(entry.lastModified, editorialBaseline);
+    }
   }
 });

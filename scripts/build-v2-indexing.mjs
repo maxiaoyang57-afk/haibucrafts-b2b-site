@@ -1,6 +1,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
+import { updateCategoryLastModified } from '../lib/sitemap-lastmod.js';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -9,6 +10,10 @@ const catalog = JSON.parse(await readFile(path.join(previewRoot, 'assets', 'prod
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 const defaultLastModified = seoMap.site.defaultLastModified || '2026-08-21';
 const productByPath = new Map(catalog.products.map((product) => [product.productionPath, product]));
+const categoryDateChanges = updateCategoryLastModified(seoMap, catalog);
+if (categoryDateChanges.length) {
+  await writeFile(path.join(previewRoot, 'seo-production-map.json'), `${JSON.stringify(seoMap, null, 2)}\n`, 'utf8');
+}
 
 const xml = (value) => String(value)
   .replaceAll('&', '&amp;')
@@ -30,3 +35,4 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://w
 await writeFile(sitemapPath, sitemap, 'utf8');
 
 console.log(`Generated indexing sitemap: ${urls.length} canonical URLs and ${catalog.products.length} product images.`);
+

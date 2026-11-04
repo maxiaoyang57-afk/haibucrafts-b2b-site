@@ -94,6 +94,7 @@ const monicaOctober31ThirtyFourthBatch1 = JSON.parse(await readFile(path.join(ro
 const monicaOctober31ThirtyFifthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261101-monica-35.json'), 'utf8'));
 const monicaNovember2ThirtySixthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261102-monica-36.json'), 'utf8'));
 const monicaNovember2ThirtySeventhBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261102-monica-37.json'), 'utf8'));
+const verifiedSpecs = JSON.parse(await readFile(path.join(root, 'scripts/data/verified-product-specs-20261104.json'), 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
@@ -507,6 +508,13 @@ for (const product of products) {
   product.lastModified = purchasingBatch.reviewedOn;
   if (product.approvedListing) product.approvedListing.packagingMoq = `Packaging: ${product.packingOptions.length ? product.packingOptions.join(', ') : 'Confirm by quotation'}. ${purchasing.moq} Dispatch lead time: ${purchasing.dispatchLeadTime}`;
 }
+for (const [sku, fields] of Object.entries(verifiedSpecs.products)) {
+  const product = products.find(item => item.sku === sku);
+  if (!product || product.approvedListing) throw new Error(`Invalid legacy specification reference: ${sku}`);
+  if (product.lastModified > verifiedSpecs.reviewedOn) continue;
+  Object.assign(product, fields);
+  product.lastModified = verifiedSpecs.reviewedOn;
+}
 if (purchasingBySku.size !== purchasingBatch.products.length || purchasingBatch.products.some((item) => !skuSet.has(item.sku))) throw new Error('Purchasing updates must match unique existing SKUs');
 const productsBySku = new Map(products.map((product) => [product.sku, product]));
 const categoryCounts = new Map(categories.map((category) => [
@@ -658,6 +666,8 @@ for (const category of categories) {
       : '';
     const sourceReferenceRows = [
       product.dimensions ? `            <tr><th>${product.purchasing ? 'Size details' : 'Reference size'}</th><td>${escapeHtml(product.dimensions)}</td></tr>` : null,
+      product.referenceColor ? `            <tr><th>Color</th><td>${escapeHtml(product.referenceColor)}</td></tr>` : null,
+      product.referencePackWeight ? `            <tr><th>Reference pack weight</th><td>${escapeHtml(product.referencePackWeight)}</td></tr>` : null,
       product.sourcePacking ? `            <tr><th>Source packing</th><td>${escapeHtml(product.sourcePacking)}</td></tr>` : null
     ].filter(Boolean).join('\n');
     const galleryScript = product.gallery.length

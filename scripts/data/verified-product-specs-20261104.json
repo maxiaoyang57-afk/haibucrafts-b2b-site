@@ -1,0 +1,105 @@
+{
+  "reviewedOn": "2026-11-04",
+  "products": {
+    "RW002854": {
+      "material": "Resin",
+      "dimensions": "10 × 24 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "150 g per 100 pieces"
+    },
+    "RW003223": {
+      "material": "Resin",
+      "dimensions": "20 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "200 g per 100 pieces"
+    },
+    "RW003422": {
+      "material": "Resin",
+      "sourcePacking": "100 pieces per bag"
+    },
+    "RW20388": {
+      "material": "Resin",
+      "dimensions": "32 × 36 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "500 g per 100 pieces"
+    },
+    "RW22741": {
+      "material": "Resin",
+      "sourcePacking": "100 pieces per bag"
+    },
+    "RW26051": {
+      "material": "Resin",
+      "dimensions": "41 × 28 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "590 g per 100 pieces"
+    },
+    "RW26386": {
+      "material": "Resin",
+      "dimensions": "26 × 40 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "600 g per 100 pieces"
+    },
+    "RW26412": {
+      "material": "Resin",
+      "dimensions": "26 × 15 × 10 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "300 g per 100 pieces"
+    },
+    "RW2899": {
+      "material": "Resin",
+      "dimensions": "7 × 10 × 16 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "270 g per 100 pieces"
+    },
+    "RW4252": {
+      "material": "Resin",
+      "dimensions": "12 × 22 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "180 g per 100 pieces",
+      "referenceColor": "Assorted candy colors"
+    },
+    "RW5806": {
+      "material": "Resin",
+      "dimensions": "20 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "200 g per 100 pieces"
+    },
+    "RW994": {
+      "material": "Resin",
+      "dimensions": "15 × 19 × 9 mm",
+      "sourcePacking": "100 pieces per bag",
+      "referencePackWeight": "330 g per 100 pieces"
+    },
+    "SLM10012": {
+      "material": "Polymer clay and resin"
+    },
+    "SLM10093": {
+      "material": "Polymer clay and resin"
+    },
+    "SLM10094": {
+      "material": "Polymer clay and resin"
+    },
+    "SLM707": {
+      "material": "Polymer clay and resin"
+    },
+    "YX043": {
+      "material": "Polymer clay",
+      "dimensions": "5 mm"
+    },
+    "YX048": {
+      "dimensions": "5 mm"
+    },
+    "YX4002": {
+      "material": "Polymer clay"
+    },
+    "YX4008": {
+      "material": "Polymer clay"
+    },
+    "YX577": {
+      "material": "Polymer clay"
+    },
+    "YX778": {
+      "material": "Polymer clay"
+    }
+  }
+}

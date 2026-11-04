@@ -64,6 +64,10 @@ test('SEO production map persists the four opportunity-page snippets', async () 
     if (productionPath === '/products/sequins-glitter-confetti/') {
       // Catalog-driven freshness is independently checked against all public SKUs.
       assert.ok(entry.lastModified >= editorialBaseline);
+    } else if (productionPath.endsWith('/yx043-colorful-candy-round-slices/')) {
+      const facts = JSON.parse(await readFile(path.join(root, 'scripts/data/verified-product-specs-20261104.json'), 'utf8'));
+      assert.ok(facts.products.YX043.dimensions);
+      assert.equal(entry.lastModified, facts.reviewedOn);
     } else {
       assert.equal(entry.lastModified, editorialBaseline);
     }

@@ -83,7 +83,12 @@ function updateProductJsonLd(html, description) {
 function updateSeoRoute(productionPath, updates) {
   const route = seoMap.routes.find((item) => item.productionPath === productionPath);
   if (!route) throw new Error(`Missing SEO route for ${productionPath}`);
-  Object.assign(route, updates);
+  const { lastModified, ...metadata } = updates;
+  Object.assign(route, metadata);
+  // A copy profile can be older than a SKU specification update.
+  if (lastModified && (!route.lastModified || lastModified > route.lastModified)) {
+    route.lastModified = lastModified;
+  }
 }
 
 function itemListFor(category, name) {

@@ -519,7 +519,8 @@ for (const product of products) {
   product.lastModified = purchasing.reviewedOn || purchasingBatch.reviewedOn;
   if (product.approvedListing) {
     const packingUnit = purchasing.packingUnit || (product.packingOptions.length ? product.packingOptions.join(', ') : 'Confirm by quotation');
-    product.approvedListing.packagingMoq = `Packing unit: ${packingUnit}. ${purchasing.moq} Sample time: ${purchasing.sampleTime}. Lead time: ${purchasing.dispatchLeadTime}`;
+    const asSentence = (value) => /[.!?]$/.test(value) ? value : `${value}.`;
+    product.approvedListing.packagingMoq = `Packing unit: ${packingUnit}. ${asSentence(purchasing.moq)} Sample time: ${asSentence(purchasing.sampleTime)} Lead time: ${asSentence(purchasing.dispatchLeadTime)}`;
   }
 }
 for (const [sku, fields] of Object.entries(verifiedSpecs.products)) {

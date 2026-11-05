@@ -81,6 +81,9 @@ test('three seasonal buyer-comparison pages expose only SKU-specific purchasing 
       assert.ok(html.includes(`<dt>Packing unit</dt><dd>${expected.packing}</dd>`));
       assert.ok(html.includes(`<dt>Sample time</dt><dd>${expected.sample}</dd>`));
       assert.ok(html.includes(`<dt>Lead time</dt><dd>${expected.lead}</dd>`));
+      const packagingCopy = html.match(/<h3>Packaging &amp; MOQ<\/h3>\s*<p>([^<]+)<\/p>/)?.[1];
+      assert.ok(packagingCopy, `${route} must retain the packaging and MOQ summary`);
+      assert.doesNotMatch(packagingCopy, /\.\./, `${route} must not contain duplicate sentence punctuation`);
     }
   }
 });

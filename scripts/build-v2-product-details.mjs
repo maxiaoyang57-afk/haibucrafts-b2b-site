@@ -11,6 +11,17 @@ const seoMapPath = path.join(previewRoot, 'seo-production-map.json');
 const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migration-map.json');
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 const catalogPath = path.join(previewRoot, 'assets', 'product-catalog.json');
+const organizationStructuredData = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': 'https://www.haibucrafts.com/#organization',
+  name: 'HAIBUCRAFT',
+  url: 'https://www.haibucrafts.com/',
+  logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png',
+  email: 'sales@haibucrafts.com',
+  address: { '@type': 'PostalAddress', addressLocality: 'Yiwu', addressRegion: 'Zhejiang', addressCountry: 'CN' },
+  contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: 'sales@haibucrafts.com', availableLanguage: ['en', 'zh'] }
+}).replaceAll('<', '\\u003c');
 const issue12BatchPath = path.join(root, 'scripts', 'data', 'issue-12-slime-products.json');
 const issue18BatchPath = path.join(root, 'scripts', 'data', 'issue-18-slime-products.json');
 const issue29BatchPath = path.join(root, 'scripts', 'data', 'issue-29-polymer-clay-products.json');
@@ -748,6 +759,7 @@ ${keywordsMeta}  <meta name="robots" content="noindex,nofollow">
   <link rel="stylesheet" href="/v2-preview/assets/site-v2-fixes.css">
   <link rel="stylesheet" href="/v2-preview/assets/product-detail.css">
 ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</script>
+  <script type="application/ld+json" data-site-identity>${organizationStructuredData}</script>
 </head>
 <body data-page="${escapeHtml(product.categorySlug)}">
   <div data-site-header></div>

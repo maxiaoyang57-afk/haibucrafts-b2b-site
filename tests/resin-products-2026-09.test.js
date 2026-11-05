@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL, EXPECTED_RESIN } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { access, readFile, readdir } from 'node:fs/promises';
@@ -132,7 +133,7 @@ test('September Resin cards and product pages preserve identity, SEO and inquiry
 
     const jsonLd = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
       .map((match) => JSON.parse(match[1]));
-    const productLd = jsonLd.find((item) => item['@type'] === 'Product');
+    const productLd = jsonLd.map(catalogIdentity).find(Boolean);
     const breadcrumbLd = jsonLd.find((item) => item['@type'] === 'BreadcrumbList');
     assert.equal(productLd?.sku, product.sku);
     if (product.preserveApprovedContent) assert.deepEqual(productLd.image, [1,2,3].map(i=>origin+productImage(product,i)));

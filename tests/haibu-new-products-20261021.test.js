@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import test from 'node:test';
@@ -19,8 +20,8 @@ test('October 21 preserves identities and connects source dimensions, complete g
   const p=catalog.products.find(p=>p.sku===item.sku),source=plans.find(p=>p.sku===item.sku);
   const page=await readFile(p.productionPath.slice(1)+'index.html','utf8');
   const schemas=[...page.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
-  const product=schemas.find(s=>s['@type']==='Product');
-  assert.equal(product.sku,p.sku);assert.equal(product.size,source.dimensions);assert.equal(product.material,source.material);
+  const product=schemas.map(catalogIdentity).find(Boolean);
+  assert.equal(product.sku,p.sku);assert.equal(visibleSpec(page, 'Dimensions'),source.dimensions);assert.equal(visibleSpec(page, 'Material'),source.material);
   assert.equal(product.offers,undefined);
   assert.deepEqual(p.gallery,item.imageOutputs.map(i=>i.path));
   assert.ok(page.includes('product_code='+encodeURIComponent(p.sku)));

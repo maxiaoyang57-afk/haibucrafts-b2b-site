@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_CATEGORIES } from './catalog-release-contract.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
@@ -42,7 +43,7 @@ test('source packing, no-hole specifications, gallery bytes and inquiry attribut
     }
     const html = await readFile(p.productionPath.slice(1) + 'index.html', 'utf8');
     const schemas = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
-    const product = schemas.find(v => v['@type'] === 'Product');
+    const product = schemas.map(catalogIdentity).find(Boolean);
     assert.equal(product.sku, p.sku);
     assert.equal(product.image.length, 3);
     assert.equal(product.offers, undefined);

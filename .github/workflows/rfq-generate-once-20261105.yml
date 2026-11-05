@@ -1,0 +1,36 @@
+name: Materialize RFQ candidate once
+on:
+  push:
+    branches: ['fix/rfq-markup-release-20261105']
+    paths: ['.github/workflows/rfq-generate-once-20261105.yml']
+permissions:
+  contents: write
+concurrency:
+  group: rfq-generate-once-20261105
+  cancel-in-progress: false
+jobs:
+  materialize:
+    if: github.ref == 'refs/heads/fix/rfq-markup-release-20261105'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Rebuild source and production pages
+        run: |
+          npm run build:v2-seo
+          npm run build:v2-release
+          npm run release:v2-materialize
+          npm test
+      - name: Commit only the exact locally verified generated tree
+        run: |
+          git rm -- .github/workflows/rfq-generate-once-20261105.yml
+          git add -- products v2-preview/products
+          actual_tree="$(git write-tree)"
+          test "$actual_tree" = "8d5d373a3aa1d330c3ed0de64db66d0b85df3621"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Materialize RFQ catalog pages; remove one-time generator workflow"
+          git push origin HEAD:refs/heads/fix/rfq-markup-release-20261105

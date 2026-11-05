@@ -60,7 +60,7 @@ test('each corrected card/detail preserves original product identity and quote S
     const detailHtml = await readFile(detailPath, 'utf8');
     assert.match(detailHtml, new RegExp(`<h1>${title.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}<\\/h1>`));
     assert.match(detailHtml, new RegExp(`product_code=${newSku}`));
-    assert.match(detailHtml, new RegExp(`sku["']?:["']?${newSku}`));
+    assert.match(detailHtml, new RegExp(`identifier["']?:["']?${newSku}`));
     assert.match(detailHtml, new RegExp(image.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
   }
 });

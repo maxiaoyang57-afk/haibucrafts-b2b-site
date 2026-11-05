@@ -17,7 +17,7 @@ test('fixed public category scope preserves reference identities without indexin
     const html = await read(p.productionPath.slice(1) + 'index.html');
     assert.match(html, /data-catalog-archive/);
     assert.match(html, /<meta name="robots" content="noindex,follow">/);
-    assert.ok(html.includes(`"sku":"${p.sku}"`));
+    assert.ok(html.includes(`"identifier":"${p.sku}"`));
     assert.ok(!sitemap.includes(`<loc>https://www.haibucrafts.com${p.productionPath}</loc>`));
   }
   for (const file of ['index.html', 'products/index.html', 'request-quote/index.html', 'llms.txt']) {

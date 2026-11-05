@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
@@ -67,7 +68,7 @@ test('mixed components and every full SKU reach the inquiry and public Product s
     const product = catalog.products.find((item) => item.sku === record.sku);
     const html = await readFile(`${product.productionPath.slice(1)}index.html`, 'utf8');
     const schemas = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map((match) => JSON.parse(match[1]));
-    const schema = schemas.find((item) => item['@type'] === 'Product');
+    const schema = schemas.map(catalogIdentity).find(Boolean);
     assert.equal(schema.sku, record.sku);
     assert.equal(schema.image.length, 3);
     assert.equal(schema.offers, undefined);

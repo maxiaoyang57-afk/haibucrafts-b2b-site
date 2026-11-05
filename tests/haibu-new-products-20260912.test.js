@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { readFile, readdir, stat } from 'node:fs/promises';
@@ -90,7 +91,7 @@ test('keeps HAIBU cards, galleries, SEO and inquiry attribution synchronized', a
 
       const structuredData = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
         .map((match) => JSON.parse(match[1]));
-      assert.equal(structuredData.find((item) => item['@type'] === 'Product')?.sku, product.sku);
+      assert.equal(structuredData.map(catalogIdentity).find(Boolean)?.sku, product.sku);
       assert.ok(structuredData.some((item) => item['@type'] === 'BreadcrumbList'));
     }
 

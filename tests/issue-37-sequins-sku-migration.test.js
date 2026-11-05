@@ -56,7 +56,7 @@ test('Issue #37 preserves active Sequins identities while applying corrected uni
     const detail = await readFile(path.join(root, product.productionPath.slice(1), 'index.html'), 'utf8');
     assert.match(detail, new RegExp(`<span class="sku-badge">${newSku}</span>`));
     assert.match(detail, new RegExp(`product_code=${newSku}`));
-    assert.match(detail, new RegExp(`"sku":"${newSku}"`));
+    assert.match(detail, new RegExp(`"identifier":"${newSku}"`));
   }
   assert.ok(products.some((product) => product.sku === 'MA601' && product.title === identity.MA107[0]));
   assert.ok(products.some((product) => product.sku === 'YM109' && product.title === identity.MA118[0]));

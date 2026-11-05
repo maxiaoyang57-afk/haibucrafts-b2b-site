@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -23,7 +24,7 @@ test('supplement preserves all previous identities and connects exact source SKU
     if(record.sku!=='RW22135') assert.deepEqual(product.gallery, record.outputs.map(p => '/' + p.path));
     const html = await readFile(product.productionPath.slice(1) + 'index.html', 'utf8');
     const schemas = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m => JSON.parse(m[1]));
-    const schema = schemas.find(p => p['@type'] === 'Product');
+    const schema = schemas.map(catalogIdentity).find(Boolean);
     assert.equal(schema.sku, record.sku);
     assert.equal(schema.offers, undefined);
     assert.equal(schema.image.length, 3);

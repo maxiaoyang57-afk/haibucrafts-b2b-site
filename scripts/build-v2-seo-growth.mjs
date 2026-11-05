@@ -67,12 +67,14 @@ function upsertJsonLd(html, id, value) {
   return html.replace('</head>', `  ${script}\n</head>`);
 }
 
-function updateProductJsonLd(html, description) {
+function updateCatalogJsonLd(html, description) {
   return html.replace(/<script type="application\/ld\+json"([^>]*)>([\s\S]*?)<\/script>/g, (full, attrs, body) => {
     try {
       const json = JSON.parse(body);
-      if (json?.['@type'] !== 'Product') return full;
+      const rfqEntity = json?.['@type'] === 'WebPage' && json.mainEntity?.['@type'] === 'Thing' ? json.mainEntity : null;
+      if (json?.['@type'] !== 'Product' && !rfqEntity) return full;
       json.description = description;
+      if (rfqEntity) rfqEntity.description = description;
       return `<script type="application/ld+json"${attrs}>${JSON.stringify(json).replaceAll('<', '\\u003c')}</script>`;
     } catch {
       return full;
@@ -337,7 +339,7 @@ for (const [sku, profile] of Object.entries(polymerProfiles)) {
   const file = path.join(previewRoot, product.previewPath.slice('/v2-preview/'.length), 'index.html');
   let html = await readFile(file, 'utf8');
   html = setPageMetadata(html, profile);
-  html = updateProductJsonLd(html, profile.description);
+  html = updateCatalogJsonLd(html, profile.description);
   if (profile.h1) {
     html = replaceFirstRequired(html, /<h1>[^<]*<\/h1>/i, `<h1>${escapeHtml(profile.h1)}</h1>`, `${sku} H1`);
   }

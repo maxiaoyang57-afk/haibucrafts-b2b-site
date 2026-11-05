@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_CATEGORIES } from './catalog-release-contract.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorExtensionMedia } from './helpers/supplement-20261018.js';
@@ -21,7 +22,7 @@ test('supplement adds exactly eleven identities and refreshes only four approved
   assert.deepEqual(p.gallery,record.imageOutputs.map(i=>i.path));
   for(const image of record.imageOutputs){assert.ok(image.width<=1000);assert.equal(createHash('sha256').update(await readFile(image.path.slice(1))).digest('hex'),image.sha256);}
   const page=await readFile(p.productionPath.slice(1)+'index.html','utf8');
-  const product=[...page.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(s=>s['@type']==='Product');
+  const product=[...page.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).map(catalogIdentity).find(Boolean);
   assert.equal(product.sku,p.sku);assert.deepEqual(product.image,p.gallery.map(i=>'https://www.haibucrafts.com'+i));assert.equal(product.offers,undefined);
   assert.ok(page.includes('product_code='+encodeURIComponent(p.sku)));assert.ok(!page.includes('QULA'));assert.ok(page.includes('This pack quantity is not the MOQ.'));
  }

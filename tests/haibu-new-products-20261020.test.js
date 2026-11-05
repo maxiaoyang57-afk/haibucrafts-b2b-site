@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorAfternoonMedia } from './helpers/afternoon-20261019.js';
 import assert from 'node:assert/strict';
@@ -20,8 +21,8 @@ test('October 20 preserves every earlier product and publishes the eleven suppli
   const source=plan.find(p=>p.sku===record.sku);
   assert.deepEqual(p.gallery,record.imageOutputs.map(i=>i.path));
   const html=await readFile(p.productionPath.slice(1)+'index.html','utf8');
-  const schema=[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(v=>v['@type']==='Product');
-  assert.equal(schema.sku,p.sku);assert.equal(schema.size,source.dimensions);assert.equal(schema.material,source.material);
+  const schema=[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).map(catalogIdentity).find(Boolean);
+  assert.equal(schema.sku,p.sku);assert.equal(visibleSpec(html, 'Dimensions'),source.dimensions);assert.equal(visibleSpec(html, 'Material'),source.material);
   assert.equal(schema.offers,undefined);
   assert.ok(html.includes(source.packing));assert.ok(html.includes('product_code='+encodeURIComponent(p.sku)));
   assert.ok(!html.includes('QULA'));

@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL, EXPECTED_SLIME } from './catalog-release-contract.js';
 import assert from 'node:assert/strict';
 import { access, readFile, readdir } from 'node:fs/promises';
@@ -140,7 +141,7 @@ test('Issue #18 cards, inquiry attribution and production SEO are complete', asy
 
     const jsonLd = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
       .map((match) => JSON.parse(match[1]));
-    const productLd = jsonLd.find((item) => item['@type'] === 'Product');
+    const productLd = jsonLd.map(catalogIdentity).find(Boolean);
     const breadcrumbLd = jsonLd.find((item) => item['@type'] === 'BreadcrumbList');
     assert.equal(productLd?.sku, product.sku);
     assert.equal(productLd?.image?.length, 6);

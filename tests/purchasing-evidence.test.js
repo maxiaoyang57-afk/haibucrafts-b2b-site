@@ -13,8 +13,8 @@ test('SKU-specific packaging and dispatch facts do not spread to other purchasin
     assert.ok(product);
     for (const route of [product.previewPath, product.productionPath]) {
       const html = await readFile(path.join(root, route.slice(1), 'index.html'), 'utf8');
-      const packaging = html.match(/<dt>Packaging<\/dt><dd>([^<]+)<\/dd>/)?.[1];
-      const dispatch = html.match(/<dt>Dispatch lead time<\/dt><dd>([^<]+)<\/dd>/)?.[1];
+      const packaging = html.match(/<dt>(?:Packaging|Packing unit)<\/dt><dd>([^<]+)<\/dd>/)?.[1];
+      const dispatch = html.match(/<dt>(?:Dispatch lead time|Lead time)<\/dt><dd>([^<]+)<\/dd>/)?.[1];
       assert.ok(packaging, `${route} must give a packaging decision`);
       assert.ok(dispatch, `${route} must give a dispatch decision`);
       if (product.sku === 'SLM26529') {
@@ -37,6 +37,53 @@ test('SKU-specific packaging and dispatch facts do not spread to other purchasin
         assert.equal(url.searchParams.get('landing_page'), route);
         assert.equal(url.searchParams.get('image'), product.image);
       }
+    }
+  }
+});
+
+test('three seasonal buyer-comparison pages expose only SKU-specific purchasing facts', async () => {
+  const cases = {
+    SLM26529: {
+      material: 'Polymer clay and resin',
+      dimensions: 'Assorted sizes. Dimensions vary by component, shape and design.',
+      use: 'holiday slime kits, sensory play, shaker crafts, party activities and Christmas DIY gift boxes',
+      packing: '5 g/bag',
+      sample: 'Pending confirmation',
+      lead: '7–15 days. Shipping transit time is additional.'
+    },
+    YX4109: {
+      material: 'Polymer clay',
+      dimensions: 'Slice size and thickness vary by design;',
+      use: 'slime, resin crafts, snow-globe tumblers, shaker ornaments, nail art and holiday DIY kits',
+      packing: '500 g reference pack',
+      sample: 'To be confirmed after sample specification review.',
+      lead: 'To be confirmed after quantity and packaging review.'
+    },
+    RW26774: {
+      material: 'Resin',
+      dimensions: 'Approximately 23 mm for the measured wreath;',
+      use: 'hair clips, keychains, scrapbooking, seasonal decoration and DIY crafts',
+      packing: '100 pieces/bag (source reference)',
+      sample: '3–7 days.',
+      lead: 'To be confirmed in the written quotation after quantity and packaging review.'
+    }
+  };
+
+  for (const [sku, expected] of Object.entries(cases)) {
+    const product = catalog.products.find((item) => item.sku === sku);
+    assert.ok(product, `missing catalog product ${sku}`);
+    for (const route of [product.previewPath, product.productionPath]) {
+      const html = await readFile(path.join(root, route.slice(1), 'index.html'), 'utf8');
+      assert.match(html, new RegExp(`<div class="product-purchasing" data-purchasing-sku="${sku}"><h2>Buyer comparison details<\\/h2>`));
+      assert.ok(html.includes(`<dt>Material</dt><dd>${expected.material}</dd>`));
+      assert.ok(html.includes(expected.dimensions));
+      assert.ok(html.includes(`<dt>Suggested use</dt><dd>${expected.use}</dd>`));
+      assert.ok(html.includes(`<dt>Packing unit</dt><dd>${expected.packing}</dd>`));
+      assert.ok(html.includes(`<dt>Sample time</dt><dd>${expected.sample}</dd>`));
+      assert.ok(html.includes(`<dt>Lead time</dt><dd>${expected.lead}</dd>`));
+      const packagingCopy = html.match(/<h3>Packaging &amp; MOQ<\/h3>\s*<p>([^<]+)<\/p>/)?.[1];
+      assert.ok(packagingCopy, `${route} must retain the packaging and MOQ summary`);
+      assert.doesNotMatch(packagingCopy, /\.\./, `${route} must not contain duplicate sentence punctuation`);
     }
   }
 });

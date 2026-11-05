@@ -3,9 +3,12 @@
   "products": [
     {
       "sku": "SLM26529",
+      "buyerComparison": true,
+      "reviewedOn": "2026-11-05",
       "packWeightsGrams": [
         5
       ],
+      "packingUnit": "5 g/bag",
       "moq": "Typically 100 bags. Final MOQ confirmed with our sales team based on packaging and order requirements.",
       "dispatchLeadTime": "7–15 days. Shipping transit time is additional.",
       "overview": "Christmas polymer clay sprinkles mixed with resin gingerbread charms for seasonal slime decoration and craft assortments. Select a bag weight and share your preferred mix requirements for quotation.",
@@ -162,6 +165,48 @@
         "moq": "User clarification on 2026-10-01 for the seven-SKU batch: typically 100 bags, final MOQ subject to sales discussion.",
         "dispatchLeadTime": "Pending SKU-specific business confirmation; do not inherit SLM26529 timing.",
         "dimensions": "Measured dimensions unavailable; user requested later supplementation and authorized publication with confirmation wording on 2026-10-09. No numeric size is asserted."
+      }
+    },
+    {
+      "sku": "YX4109",
+      "buyerComparison": true,
+      "reviewedOn": "2026-11-05",
+      "packWeightsGrams": [],
+      "packingUnit": "500 g reference pack",
+      "moq": "To be discussed based on stock status, design mix, color, packaging and customization requirements.",
+      "dispatchLeadTime": "To be confirmed after quantity and packaging review.",
+      "overview": "A focused classic christmas sprinkle collection product for slime shops, craft wholesalers, tumbler brands and Christmas kit suppliers. Featuring candy cane, Christmas tree and gingerbread designs, it brings a clear seasonal story to wholesale craft assortments while supporting flexible specifications and branded packaging.",
+      "dimensions": "Slice size and thickness vary by design; confirm the selected specification against the approved sample.",
+      "sampleTime": "To be confirmed after sample specification review.",
+      "quotePackWeightsGrams": [],
+      "packingNote": "500 g is the source reference pack. Final unit weight, design ratio and inner packing are confirmed in the quotation.",
+      "evidence": {
+        "packingUnit": "The approved YX4109 source record states a 500 g reference pack.",
+        "moq": "The approved YX4109 source record states that MOQ depends on stock status, design mix, color, packaging and customization.",
+        "sampleTime": "The source permits sample quotation but gives no fixed sample time, so timing remains subject to review.",
+        "dispatchLeadTime": "No SKU-specific dispatch timing is confirmed in the approved YX4109 source record.",
+        "dimensions": "The approved source says slice size and thickness are customizable; no numeric size is asserted."
+      }
+    },
+    {
+      "sku": "RW26774",
+      "buyerComparison": true,
+      "reviewedOn": "2026-11-05",
+      "packWeightsGrams": [],
+      "packingUnit": "100 pieces/bag (source reference)",
+      "moq": "To be discussed based on selected design mix, quantity and packaging requirements.",
+      "dispatchLeadTime": "To be confirmed in the written quotation after quantity and packaging review.",
+      "overview": "Wholesale Christmas resin cabochons for hair clips, keychains, scrapbooking and seasonal DIY decoration.",
+      "dimensions": "Approximately 23 mm for the measured wreath; confirm other motifs against the approved sample.",
+      "sampleTime": "3–7 days.",
+      "quotePackWeightsGrams": [],
+      "packingNote": "100 pieces per bag is the source pack reference. Final design mix, carton details and bulk packing are confirmed in the quotation.",
+      "evidence": {
+        "packingUnit": "The approved RW26774 source record states a 100-piece-per-bag source reference.",
+        "moq": "The approved RW26774 source record states that MOQ is to be discussed.",
+        "sampleTime": "The approved RW26774 source record states a 3–7 day sample time.",
+        "dispatchLeadTime": "The approved RW26774 source record leaves final lead time to the written quotation.",
+        "dimensions": "The approved RW26774 source record states approximately 23 mm for the measured wreath only."
       }
     }
   ],

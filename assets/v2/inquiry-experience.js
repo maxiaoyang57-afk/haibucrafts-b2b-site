@@ -57,7 +57,14 @@
     try {
       const data = JSON.parse(script.textContent);
       const nodes = Array.isArray(data) ? data : (data['@graph'] || [data]);
-      return nodes.some(node => [].concat(node['@type'] || []).includes('Product'));
+      return nodes.some(node => {
+        const types = [].concat(node['@type'] || []);
+        const entity = node.mainEntity;
+        return types.includes('Product') || (
+          types.includes('WebPage') && entity?.['@type'] === 'Thing' &&
+          typeof entity.identifier === 'string' && entity.identifier.trim().length > 0
+        );
+      });
     } catch { return false; }
   });
   const infer = (pathname, sku) => {

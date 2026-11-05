@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorMedia } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
@@ -83,7 +84,7 @@ test('keeps cards, galleries, SEO and inquiry attribution synchronized', async (
 
       const structuredData = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
         .map((match) => JSON.parse(match[1]));
-      assert.equal(structuredData.find((item) => item['@type'] === 'Product')?.sku, product.sku);
+      assert.equal(structuredData.map(catalogIdentity).find(Boolean)?.sku, product.sku);
       assert.ok(structuredData.some((item) => item['@type'] === 'BreadcrumbList'));
     }
 

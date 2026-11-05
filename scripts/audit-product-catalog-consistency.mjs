@@ -1,3 +1,4 @@
+import { catalogIdentity } from '../lib/catalog-identity.js';
 import { access, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
@@ -62,7 +63,8 @@ for (const product of catalog.products) {
   const canonical = html.match(/<link rel="canonical" href="([^"]+)/)?.[1];
   if (canonical !== `https://www.haibucrafts.com${product.productionPath}`) errors.push(`canonical mismatch for ${product.sku}`);
   if (!html.includes(`<span class="sku-badge">${product.sku}</span>`)) errors.push(`detail badge mismatch for ${product.sku}`);
-  if (!html.includes(`"sku":"${product.sku}"`)) errors.push(`JSON-LD SKU mismatch for ${product.sku}`);
+  const identities = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m => catalogIdentity(JSON.parse(m[1]))).filter(Boolean);
+  if (identities.length !== 1 || identities[0].sku !== product.sku) errors.push(`JSON-LD identifier mismatch for ${product.sku}`);
   if (!hasQuoteSku(html, product.sku)) errors.push(`detail quote attribution is stale for ${product.sku}`);
   if (!html.includes(product.image)) errors.push(`detail image identity mismatch for ${product.sku}`);
 }

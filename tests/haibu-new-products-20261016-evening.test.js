@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_CATEGORIES } from './catalog-release-contract.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
 import assert from 'node:assert/strict';
@@ -21,9 +22,9 @@ test('evening batch preserves catalog identities and separate pizza sizes and at
   for(const output of media.outputs) assert.equal(createHash('sha256').update(await readFile(output.path)).digest('hex'),output.sha256);
   const p=catalog.products.find(p=>p.sku===source.sku);assert.ok(p);assert.equal(source.sourceFields.sku.trim(),p.sku);
   const html=await readFile(p.productionPath.slice(1)+'index.html','utf8');
-  const schema=[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(v=>v['@type']==='Product');
+  const schema=[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).map(catalogIdentity).find(Boolean);
   assert.equal(schema.sku,p.sku);assert.equal(schema.offers,undefined);assert.equal(schema.image.length,3);
-  assert.equal(schema.additionalProperty.find(v=>v.name==='Hole').value,source.holeDescription);
+  assert.equal(visibleSpec(html, 'Hole'),source.holeDescription);
   assert.ok(html.includes('product_code='+encodeURIComponent(p.sku)));
   assert.ok(html.includes('This pack quantity is not the MOQ.'));
  }

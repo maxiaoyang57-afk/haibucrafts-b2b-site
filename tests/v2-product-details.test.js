@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -37,10 +38,10 @@ test('all catalog products have linked detail pages and SEO routes', async () =>
     );
     const productData = [...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)]
       .map((match) => JSON.parse(match[1]))
-      .find((entry) => entry['@type'] === 'Product');
-    assert.ok(productData, `${product.sku}: missing Product structured data`);
-    assert.equal(productData.name, product.title, `${product.sku}: Product name differs from catalog`);
-    assert.equal(productData.sku, product.sku, `${product.sku}: Product SKU differs from catalog`);
+      .map(catalogIdentity).find(Boolean);
+    assert.ok(productData, `${product.sku}: missing RFQ catalog identity`);
+    assert.equal(productData.name, product.title, `${product.sku}: RFQ name differs from catalog`);
+    assert.equal(productData.sku, product.sku, `${product.sku}: RFQ identifier differs from catalog`);
     assert.match(html, new RegExp(`product_code=${encodeURIComponent(product.sku)}`));
     assert.ok(generatedRoutes.some((route) => route.previewPath === product.previewPath && route.productionPath === product.productionPath));
   }

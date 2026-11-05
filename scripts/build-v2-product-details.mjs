@@ -1,3 +1,4 @@
+import { inquiryPageSchema } from '../lib/inquiry-page-schema.js';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
@@ -638,21 +639,7 @@ for (const category of categories) {
         ? `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Buyer comparison details</h2><dl><dt>Material</dt><dd>${escapeHtml(product.material)}</dd><dt>Dimensions</dt><dd>${escapeHtml(product.dimensions)}</dd><dt>Suggested use</dt><dd>${escapeHtml(product.approvedListing?.recommendedApplications || product.uses)}</dd><dt>Packing unit</dt><dd>${escapeHtml(packingDecision)}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Sample time</dt><dd>${escapeHtml(product.purchasing.sampleTime)}</dd><dt>Lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><p>${escapeHtml(product.purchasing.packingNote)} Please confirm included components, any mix proportions, pack net weight and sample timing with our sales team before ordering.</p>${quoteWeightMarkup}</div>`
         : `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Wholesale ordering options</h2><dl><dt>Packaging</dt><dd>${product.packingOptions.length ? product.packingOptions.join(' / ') : 'Confirm by quotation'}</dd><dt>Size details</dt><dd>${escapeHtml(product.dimensions)}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Dispatch lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><h3>Request a bag weight</h3><p>${escapeHtml(product.purchasing.packingNote)} Please confirm included components, any mix proportions, pack net weight and sample timing with our sales team before ordering.</p><div class="actions">${product.purchasing.quotePackWeightsGrams.map((grams) => `<a class="btn btn-light" href="${quoteHref}&amp;packaging=${grams}%20g%2Fbag">Ask about ${grams} g/bag</a>`).join('')}</div></div>`
       : '';
-    const structuredData = JSON.stringify({
-      '@context': 'https://schema.org',
-      '@type': 'Product',
-      name: product.title,
-      sku: product.sku,
-      image: product.gallery.length
-        ? product.structuredDataImageMode === 'main'
-          ? `https://www.haibucrafts.com${product.gallery[0].src}`
-          : product.gallery.map((item) => `https://www.haibucrafts.com${item.src}`)
-        : `https://www.haibucrafts.com${product.image}`,
-      description,
-      category: product.categoryLabel,
-      brand: { '@type': 'Brand', name: 'HAIBUCRAFT' },
-      ...(product.structuredSpecifications ? (product.verifiedStructuredSpecifications ?? { material: product.material, size: product.dimensions, additionalProperty: [{ '@type': 'PropertyValue', name: 'Standard pack', value: product.sourcePacking }, { '@type': 'PropertyValue', name: 'Hole', value: product.holeDescription || 'No hole' }] }) : {})
-    }).replaceAll('<', '\\u003c');
+    const structuredData = JSON.stringify(inquiryPageSchema(product, description)).replaceAll('<', '\\u003c');
     const galleryStylesheet = product.gallery.length
       ? '  <link rel="stylesheet" href="/v2-preview/assets/product-gallery.css">\n'
       : '';

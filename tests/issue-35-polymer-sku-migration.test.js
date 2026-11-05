@@ -42,7 +42,7 @@ test('Issue #35 mappings remain intact across 12 active Polymer identities', asy
     const detail = await readFile(path.join(root, product.productionPath.slice(1), 'index.html'), 'utf8');
     assert.match(detail, new RegExp(`<span class="sku-badge">${newSku}</span>`));
     assert.match(detail, new RegExp(`product_code=${newSku}`));
-    assert.match(detail, new RegExp(`"sku":"${newSku}"`));
+    assert.match(detail, new RegExp(`"identifier":"${newSku}"`));
     assert.match(detail, new RegExp(`<h1>${title.replace('&', '&amp;')}</h1>`));
   }
   assert.equal(polymer.find((item) => item.sku === 'YX038')?.title, 'Halloween Theme Slice Mix');

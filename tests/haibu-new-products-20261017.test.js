@@ -1,3 +1,4 @@
+import { catalogIdentity, visibleSpec } from '../lib/catalog-identity.js';
 import { EXPECTED_CATEGORIES } from './catalog-release-contract.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { priorMedia, addedSupplementSkus } from './helpers/supplement-20261018.js';
@@ -18,10 +19,10 @@ test('October 17 adds 11 source-backed resin groups and preserves existing catal
   assert.equal(p.sourceFields['包装规格'],'主要规格100pcs/bag，可以定制，咨询客服');
   const item=catalog.products.find(i=>i.sku===p.sku);
   const html=await readFile(item.productionPath.slice(1)+'index.html','utf8');
-  const product=[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).find(s=>s['@type']==='Product');
+  const product=[...html.matchAll(/<script type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1])).map(catalogIdentity).find(Boolean);
   assert.equal(product.sku,p.sku);assert.equal(product.image.length,3);assert.equal(product.offers,undefined);
-  assert.equal(product.size,p.dimensions);
-  assert.equal(product.additionalProperty.find(i=>i.name==='Hole').value,p.holeDescription);
+  assert.equal(visibleSpec(html, 'Dimensions'),p.dimensions);
+  assert.equal(visibleSpec(html, 'Hole'),p.holeDescription);
   assert.ok(html.includes('product_code='+encodeURIComponent(p.sku)));
   assert.ok(html.includes('This pack quantity is not the MOQ.'));
   assert.ok(!/QULA/i.test(html));

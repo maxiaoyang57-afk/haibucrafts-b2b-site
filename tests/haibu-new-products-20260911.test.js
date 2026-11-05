@@ -1,3 +1,4 @@
+import { catalogIdentity } from '../lib/catalog-identity.js';
 import { EXPECTED_TOTAL } from './catalog-release-contract.js';
 import { readFileSync } from 'node:fs';
 const nightManifest=JSON.parse(readFileSync('docs/tasks/haibu-new-products-20261018-night-manifest.json','utf8'));
@@ -70,7 +71,7 @@ test('keeps cards, product pages, SEO and inquiry attribution synchronized', asy
       assert.ok(html.includes(product.detailedDescription));
       for (const image of catalogProduct.gallery) assert.ok(html.includes(image));
       const productJson = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1];
-      const structuredData = JSON.parse(productJson);
+      const structuredData = catalogIdentity(JSON.parse(productJson));
       assert.equal(structuredData.sku, product.sku);
       assert.equal(structuredData.offers, undefined);
     }

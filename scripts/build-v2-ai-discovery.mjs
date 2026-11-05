@@ -52,6 +52,7 @@ lines.push(
   `- Quality checkpoints: ${origin}/quality-control/`,
   `- Product documents and scope notes: ${origin}/certificates/`,
   `- Buyer guides: ${origin}/blog/`,
+  `- Christmas family DIY gift materials: ${origin}/blog/christmas-family-diy-gift-materials/`,
   `- Reorder version control: ${origin}/blog/craft-supply-reorder-version-control/`,
   `- Piece count and net-weight reconciliation: ${origin}/blog/craft-supply-piece-count-net-weight/`,
   `- Resin charms buyer guide: ${origin}/blog/resin-charms-wholesale-buying-guide/`,

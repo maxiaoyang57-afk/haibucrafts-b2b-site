@@ -3,6 +3,7 @@ import path from 'node:path';
 import process from 'node:process';
 import { customizationGuide } from './content/customization-guide.mjs';
 import { octoberArticles } from './content/blogs-20261017.mjs';
+import { christmasFamilyGiftArticle } from './content/christmas-family-gifts.mjs';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -12,6 +13,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  christmasFamilyGiftArticle,
   ...octoberArticles,
   customizationGuide,
   {

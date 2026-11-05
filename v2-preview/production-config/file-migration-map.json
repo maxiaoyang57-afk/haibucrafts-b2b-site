@@ -5454,6 +5454,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/blog/christmas-family-diy-gift-materials/index.html",
+      "destination": "blog/christmas-family-diy-gift-materials/index.html",
+      "action": "create",
+      "productionPath": "/blog/christmas-family-diy-gift-materials/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/blog/craft-supply-reorder-version-control/index.html",
       "destination": "blog/craft-supply-reorder-version-control/index.html",
       "action": "create",

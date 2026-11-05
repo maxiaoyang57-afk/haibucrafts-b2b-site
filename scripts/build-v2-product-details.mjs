@@ -11,17 +11,6 @@ const seoMapPath = path.join(previewRoot, 'seo-production-map.json');
 const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migration-map.json');
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 const catalogPath = path.join(previewRoot, 'assets', 'product-catalog.json');
-const organizationStructuredData = JSON.stringify({
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  '@id': 'https://www.haibucrafts.com/#organization',
-  name: 'HAIBUCRAFT',
-  url: 'https://www.haibucrafts.com/',
-  logo: 'https://www.haibucrafts.com/brand/haibu-logo-header.png',
-  email: 'sales@haibucrafts.com',
-  address: { '@type': 'PostalAddress', addressLocality: 'Yiwu', addressRegion: 'Zhejiang', addressCountry: 'CN' },
-  contactPoint: { '@type': 'ContactPoint', contactType: 'sales', email: 'sales@haibucrafts.com', availableLanguage: ['en', 'zh'] }
-}).replaceAll('<', '\\u003c');
 const issue12BatchPath = path.join(root, 'scripts', 'data', 'issue-12-slime-products.json');
 const issue18BatchPath = path.join(root, 'scripts', 'data', 'issue-18-slime-products.json');
 const issue29BatchPath = path.join(root, 'scripts', 'data', 'issue-29-polymer-clay-products.json');
@@ -515,12 +504,14 @@ for (const product of products) {
   product.overview = purchasing.overview;
   product.dimensions = purchasing.dimensions;
   product.packingOptions = purchasing.packWeightsGrams.map((grams) => `${grams} g/bag`);
-  product.sourcePacking = purchasing.packingUnit || null;
-  product.lastModified = purchasing.reviewedOn || purchasingBatch.reviewedOn;
-  if (product.approvedListing) {
+  product.sourcePacking = purchasing.buyerComparison ? purchasing.packingUnit || null : null;
+  product.lastModified = purchasing.buyerComparison ? purchasing.reviewedOn || purchasingBatch.reviewedOn : purchasingBatch.reviewedOn;
+  if (product.approvedListing && purchasing.buyerComparison) {
     const packingUnit = purchasing.packingUnit || (product.packingOptions.length ? product.packingOptions.join(', ') : 'Confirm by quotation');
     const asSentence = (value) => /[.!?]$/.test(value) ? value : `${value}.`;
     product.approvedListing.packagingMoq = `Packing unit: ${packingUnit}. ${asSentence(purchasing.moq)} Sample time: ${asSentence(purchasing.sampleTime)} Lead time: ${asSentence(purchasing.dispatchLeadTime)}`;
+  } else if (product.approvedListing) {
+    product.approvedListing.packagingMoq = `Packaging: ${product.packingOptions.length ? product.packingOptions.join(', ') : 'Confirm by quotation'}. ${purchasing.moq} Dispatch lead time: ${purchasing.dispatchLeadTime}`;
   }
 }
 for (const [sku, fields] of Object.entries(verifiedSpecs.products)) {
@@ -642,7 +633,11 @@ for (const category of categories) {
     const quoteWeightMarkup = product.purchasing?.quotePackWeightsGrams.length
       ? `<h3>Request a bag weight</h3><div class="actions">${product.purchasing.quotePackWeightsGrams.map((grams) => `<a class="btn btn-light" href="${quoteHref}&amp;packaging=${grams}%20g%2Fbag">Ask about ${grams} g/bag</a>`).join('')}</div>`
       : '';
-    const purchasingMarkup = product.purchasing ? `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>${product.purchasing.buyerComparison ? 'Buyer comparison details' : 'Wholesale ordering options'}</h2><dl>${product.purchasing.buyerComparison ? `<dt>Material</dt><dd>${escapeHtml(product.material)}</dd>` : ''}<dt>${product.purchasing.buyerComparison ? 'Dimensions' : 'Size details'}</dt><dd>${escapeHtml(product.dimensions)}</dd>${product.purchasing.buyerComparison ? `<dt>Suggested use</dt><dd>${escapeHtml(product.approvedListing?.recommendedApplications || product.uses)}</dd>` : ''}<dt>${product.purchasing.buyerComparison ? 'Packing unit' : 'Packaging'}</dt><dd>${escapeHtml(packingDecision)}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd>${product.purchasing.buyerComparison ? `<dt>Sample time</dt><dd>${escapeHtml(product.purchasing.sampleTime)}</dd>` : ''}<dt>${product.purchasing.buyerComparison ? 'Lead time' : 'Dispatch lead time'}</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><p>${escapeHtml(product.purchasing.packingNote)} Please confirm included components, any mix proportions, pack net weight and sample timing with our sales team before ordering.</p>${quoteWeightMarkup}</div>` : '';
+    const purchasingMarkup = product.purchasing
+      ? product.purchasing.buyerComparison
+        ? `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Buyer comparison details</h2><dl><dt>Material</dt><dd>${escapeHtml(product.material)}</dd><dt>Dimensions</dt><dd>${escapeHtml(product.dimensions)}</dd><dt>Suggested use</dt><dd>${escapeHtml(product.approvedListing?.recommendedApplications || product.uses)}</dd><dt>Packing unit</dt><dd>${escapeHtml(packingDecision)}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Sample time</dt><dd>${escapeHtml(product.purchasing.sampleTime)}</dd><dt>Lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><p>${escapeHtml(product.purchasing.packingNote)} Please confirm included components, any mix proportions, pack net weight and sample timing with our sales team before ordering.</p>${quoteWeightMarkup}</div>`
+        : `<div class="product-purchasing" data-purchasing-sku="${product.sku}"><h2>Wholesale ordering options</h2><dl><dt>Packaging</dt><dd>${product.packingOptions.length ? product.packingOptions.join(' / ') : 'Confirm by quotation'}</dd><dt>Size details</dt><dd>${escapeHtml(product.dimensions)}</dd><dt>MOQ</dt><dd>${escapeHtml(product.purchasing.moq)}</dd><dt>Dispatch lead time</dt><dd>${escapeHtml(product.purchasing.dispatchLeadTime)}</dd></dl><h3>Request a bag weight</h3><p>${escapeHtml(product.purchasing.packingNote)} Please confirm included components, any mix proportions, pack net weight and sample timing with our sales team before ordering.</p><div class="actions">${product.purchasing.quotePackWeightsGrams.map((grams) => `<a class="btn btn-light" href="${quoteHref}&amp;packaging=${grams}%20g%2Fbag">Ask about ${grams} g/bag</a>`).join('')}</div></div>`
+      : '';
     const structuredData = JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'Product',
@@ -679,7 +674,7 @@ for (const category of categories) {
     const packingReference = product.purchasing || product.packingOptions.length
       ? `<div class="product-packing-reference">
             <h3>Packing options/reference</h3>
-            <ul class="pack-option-list">${product.packingOptions.length ? product.packingOptions.map((option) => `<li>${escapeHtml(option)}</li>`).join('') : `<li>${escapeHtml(packingDecision)}</li>`}</ul>
+            <ul class="pack-option-list">${product.packingOptions.length ? product.packingOptions.map((option) => `<li>${escapeHtml(option)}</li>`).join('') : product.purchasing?.buyerComparison ? `<li>${escapeHtml(packingDecision)}</li>` : '<li>Confirm by quotation</li>'}</ul>
             <p class="b2b-note">${product.purchasing ? 'Other bag weights can be requested for quotation; availability is confirmed with sales.' : 'These are source-sheet packing references, not guaranteed specifications.'} Final pack weight, mix ratio, carton details and gross weight are confirmed with the quotation and order specification.</p>
           </div>`
       : '';
@@ -738,7 +733,7 @@ for (const category of categories) {
             <tr><th>Style direction</th><td>${escapeHtml(product.type)}</td></tr>
             <tr><th>Common applications</th><td>${escapeHtml(product.uses)}</td></tr>
             <tr><th>Material scope</th><td>${escapeHtml(product.material)}</td></tr>
-${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            ${product.purchasing ? `<tr><th>Packing unit</th><td>${escapeHtml(packingDecision)}</td></tr><tr><th>MOQ</th><td>${escapeHtml(product.purchasing.moq)}</td></tr><tr><th>Sample time</th><td>${escapeHtml(product.purchasing.sampleTime)}</td></tr><tr><th>Lead time</th><td>${escapeHtml(product.purchasing.dispatchLeadTime)}</td></tr>` : '<tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>'}
+${sourceReferenceRows ? `${sourceReferenceRows}\n` : ''}            ${product.purchasing ? product.purchasing.buyerComparison ? `<tr><th>Packing unit</th><td>${escapeHtml(packingDecision)}</td></tr><tr><th>MOQ</th><td>${escapeHtml(product.purchasing.moq)}</td></tr><tr><th>Sample time</th><td>${escapeHtml(product.purchasing.sampleTime)}</td></tr><tr><th>Lead time</th><td>${escapeHtml(product.purchasing.dispatchLeadTime)}</td></tr>` : `<tr><th>Packaging</th><td>${product.packingOptions.length ? product.packingOptions.join(', ') : 'Confirm by quotation'}</td></tr><tr><th>MOQ</th><td>${escapeHtml(product.purchasing.moq)}</td></tr><tr><th>Dispatch lead time</th><td>${escapeHtml(product.purchasing.dispatchLeadTime)}</td></tr>` : '<tr><th>MOQ and lead time</th><td>Confirmed against quantity, packing, customization and current production scheduling.</td></tr>'}
             <tr><th>Testing documents</th><td>Reviewed for the exact SKU, intended use and destination market; no blanket certificate claim applies.</td></tr>
           </tbody>
         </table>
@@ -760,7 +755,6 @@ ${keywordsMeta}  <meta name="robots" content="noindex,nofollow">
   <link rel="stylesheet" href="/v2-preview/assets/site-v2-fixes.css">
   <link rel="stylesheet" href="/v2-preview/assets/product-detail.css">
 ${galleryStylesheet}  <script type="application/ld+json">${structuredData}</script>
-  <script type="application/ld+json" data-site-identity>${organizationStructuredData}</script>
 </head>
 <body data-page="${escapeHtml(product.categorySlug)}">
   <div data-site-header></div>

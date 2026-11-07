@@ -1,4 +1,5 @@
 import { inquiryPageSchema } from '../lib/inquiry-page-schema.js';
+import { renderBuyerCardSpecs } from '../lib/buyer-card-specs.js';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
@@ -96,6 +97,8 @@ const monicaOctober31ThirtyFifthBatch1 = JSON.parse(await readFile(path.join(roo
 const monicaNovember2ThirtySixthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261102-monica-36.json'), 'utf8'));
 const monicaNovember2ThirtySeventhBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261102-monica-37.json'), 'utf8'));
 const verifiedSpecs = JSON.parse(await readFile(path.join(root, 'scripts/data/verified-product-specs-20261104.json'), 'utf8'));
+const buyerCardSelection = JSON.parse(await readFile(path.join(root, 'scripts/data/buyer-card-selection-20261107.json'), 'utf8'));
+const buyerCardSkus = new Set(buyerCardSelection.products.map((item) => item.sku));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
@@ -524,6 +527,9 @@ for (const [sku, fields] of Object.entries(verifiedSpecs.products)) {
 }
 if (purchasingBySku.size !== purchasingBatch.products.length || purchasingBatch.products.some((item) => !skuSet.has(item.sku))) throw new Error('Purchasing updates must match unique existing SKUs');
 const productsBySku = new Map(products.map((product) => [product.sku, product]));
+if (buyerCardSkus.size !== 20 || buyerCardSelection.products.length !== 20 || buyerCardSelection.products.some((item) => productsBySku.get(item.sku)?.categorySlug !== item.category)) {
+  throw new Error('Buyer card selection must reference 20 unique existing products in their original categories');
+}
 const categoryCounts = new Map(categories.map((category) => [
   category.slug,
   products.filter((product) => product.categorySlug === category.slug).length
@@ -588,15 +594,40 @@ for (const category of categories) {
     /<article class="product-card-v2"([^>]*)>([\s\S]*?)<\/article>/g,
     (article) => {
       const product = categoryProducts[index++];
-      const quoteTag = article.match(/<a class="btn btn-primary get-quote"[\s\S]*?<\/a>/)?.[0];
+      let quoteTag = article.match(/<a class="btn btn-primary get-quote"[\s\S]*?<\/a>/)?.[0];
       if (!quoteTag) throw new Error(`Missing quote link for ${product.sku}`);
-      const actions = `<div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${product.previewPath}">View Details</a>${quoteTag}</div>`;
-      if (article.includes('<div class="product-card-actions">')) {
-        return article.replace(/<div class="product-card-actions">[\s\S]*?<\/div>/, actions);
+      if (buyerCardSkus.has(product.sku)) {
+        const quoteUrl = new URL(decodeHtml(quoteTag.match(/href="([^"]+)"/)[1]), 'https://www.haibucrafts.com');
+        // Keep the category in entry_page (added by inquiry-experience.js),
+        // while the product landing page identifies the exact selected item.
+        quoteUrl.searchParams.set('product_code', product.sku);
+        quoteUrl.searchParams.set('product', product.title);
+        quoteUrl.searchParams.set('category', product.categorySlug);
+        quoteUrl.searchParams.set('image', product.image);
+        quoteUrl.searchParams.set('landing_page', product.previewPath);
+        quoteTag = quoteTag.replace(/href="[^"]+"/, `href="${escapeHtml(quoteUrl.pathname + quoteUrl.search)}"`);
       }
-      return article.replace(quoteTag, actions);
+      const actions = `<div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${product.previewPath}">View Details</a>${quoteTag}</div>`;
+      let card = article.replace(/ data-buyer-comparison="[^"]*"/g, '')
+        .replace(/<dl class="buyer-card-specs"[\s\S]*?<\/dl><p class="buyer-card-selection">[\s\S]*?<\/p>/g, '');
+      if (buyerCardSkus.has(product.sku)) {
+        card = card.replace('class="product-card-v2"', `class="product-card-v2" data-buyer-comparison="${product.sku}"`)
+          .replace('</h3>', `</h3>${renderBuyerCardSpecs(product, escapeHtml)}`);
+      }
+      if (card.includes('<div class="product-card-actions">')) {
+        return card.replace(/<div class="product-card-actions">[\s\S]*?<\/div>/, actions);
+      }
+      return card.replace(quoteTag, actions);
     }
   );
+  nextHtml = nextHtml.replace(/<button[^>]*data-product-filter="buyer-comparison"[^>]*>[\s\S]*?<\/button>/g, '')
+    .replace(/<p class="buyer-card-guide">[\s\S]*?<\/p>/g, '');
+  const selectedCount = categoryProducts.filter((product) => buyerCardSkus.has(product.sku)).length;
+  if (selectedCount) {
+    nextHtml = nextHtml.replace(/(<div class="filter-row"[^>]*>)/,
+      `$1<button class="filter-chip" data-product-filter="buyer-comparison" type="button">Compare specs (${selectedCount})</button>`)
+      .replace('<div class="product-grid-v2">', '<p class="buyer-card-guide">Use Compare specs to shortlist products by material, size reference and packing. Pack weight is not a piece count, and a reference pack is not an MOQ. Confirm mix contents and proportions for each SKU.</p><div class="product-grid-v2">');
+  }
   nextHtml = nextHtml.replace(
     /(<strong data-product-count>)\d+ products(<\/strong>)/,
     `$1${categoryProducts.length} products$2`
@@ -847,6 +878,12 @@ const productRoutes = products.map((product) => ({
   generatedProduct: true
 }));
 const baseRoutes = seoMap.routes.filter((route) => !route.generatedProduct);
+const buyerCardCategoryPaths = new Set(buyerCardSelection.products.map((item) => `/v2-preview/products/${item.category}/`));
+for (const route of baseRoutes) {
+  if (buyerCardCategoryPaths.has(route.previewPath) && (!route.lastModified || route.lastModified < buyerCardSelection.reviewedOn)) {
+    route.lastModified = buyerCardSelection.reviewedOn;
+  }
+}
 const quoteIndex = baseRoutes.findIndex((route) => route.productionPath === '/request-quote/');
 baseRoutes.splice(quoteIndex < 0 ? baseRoutes.length : quoteIndex, 0, ...productRoutes);
 seoMap.routes = baseRoutes;

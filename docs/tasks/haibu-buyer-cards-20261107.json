@@ -1,0 +1,362 @@
+{
+  "base": "d23ee1f2f3532afab0d30172c26abb90a7aafcd8",
+  "reviewedOn": "2026-11-07",
+  "publicProducts": 762,
+  "categories": 4,
+  "selected": 20,
+  "numericSizes": 15,
+  "packingKnown": 16,
+  "products": [
+    {
+      "sku": "SLM26529",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/haibu-purchasing-20261002.json",
+        "scripts/data/haibu-new-products-20260909.json"
+      ],
+      "title": "Wholesale Christmas Slime Filler Mix with Polymer Clay Sprinkles and Resin Gingerbread Charms",
+      "productionPath": "/products/slime-charms-wholesale/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/",
+      "facts": {
+        "Material": "Polymer clay and resin",
+        "Size reference": "Assorted sizes. Dimensions vary by component, shape and design. Please contact us to confirm size details for your selected mix.",
+        "Packing": "5 g/bag"
+      },
+      "numericSize": false,
+      "packingKnown": true,
+      "originalImageSha256": "be58d07a4624b7b253b142958cfae4453cf9ab09bd6e1c04fdf31728282e5663"
+    },
+    {
+      "sku": "SLM10012",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/verified-product-specs-20261104.json",
+        "scripts/data/haibu-purchasing-20261002.json"
+      ],
+      "title": "Sweet Berry Candy Charms",
+      "productionPath": "/products/slime-charms-wholesale/slm10012-sweet-berry-candy-charms/",
+      "facts": {
+        "Material": "Polymer clay and resin",
+        "Size reference": "Assorted sizes. Dimensions vary by component, shape and design. Please contact us to confirm size details for your selected mix.",
+        "Packing": "Confirm pack quantity or net weight by inquiry"
+      },
+      "numericSize": false,
+      "packingKnown": false,
+      "originalImageSha256": "3529483e05556644e739ad5fbe20438824c39bb7781b3082cc11486f76c77eb9"
+    },
+    {
+      "sku": "SLM10093",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/verified-product-specs-20261104.json"
+      ],
+      "title": "Mermaid Tail & Candy Stars Mix",
+      "productionPath": "/products/slime-charms-wholesale/slm10093-mermaid-tail-and-candy-stars-mix/",
+      "facts": {
+        "Material": "Polymer clay and resin",
+        "Size reference": "Confirm dimensions by inquiry",
+        "Packing": "Confirm pack quantity or net weight by inquiry"
+      },
+      "numericSize": false,
+      "packingKnown": false,
+      "originalImageSha256": "e3791e2352d04e96183f79c88b736703dca7ac6cf1ad74a1db8bcd2f5d1eccf1"
+    },
+    {
+      "sku": "SLM10094",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/verified-product-specs-20261104.json"
+      ],
+      "title": "Pink Knife & Candy Decor Charms",
+      "productionPath": "/products/slime-charms-wholesale/slm10094-pink-knife-and-candy-decor-charms/",
+      "facts": {
+        "Material": "Polymer clay and resin",
+        "Size reference": "Confirm dimensions by inquiry",
+        "Packing": "Confirm pack quantity or net weight by inquiry"
+      },
+      "numericSize": false,
+      "packingKnown": false,
+      "originalImageSha256": "9536aab9ebc2b68dcf082e4610ad985cc99e8d25fc18465126ad618422f9885f"
+    },
+    {
+      "sku": "SLM707",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/verified-product-specs-20261104.json"
+      ],
+      "title": "St. Patrick's Sprinkle Mix",
+      "productionPath": "/products/slime-charms-wholesale/slm707-st-patricks-sprinkle-mix/",
+      "facts": {
+        "Material": "Polymer clay and resin",
+        "Size reference": "Confirm dimensions by inquiry",
+        "Packing": "Confirm pack quantity or net weight by inquiry"
+      },
+      "numericSize": false,
+      "packingKnown": false,
+      "originalImageSha256": "20d168f049f2c0c844eea872d0d2bcf0bd6451c0d5c5522d775589452726808f"
+    },
+    {
+      "sku": "YX710",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Cake Pudding Polymer Clay Cubes for Bulk Craft Sourcing — YX710",
+      "productionPath": "/products/slime-charms-wholesale/yx710-cake-pudding-polymer-clay-cubes-for-bulk-craft-sourcing-yx710/",
+      "facts": {
+        "Material": "Polymer Clay",
+        "Size reference": "6 mm",
+        "Packing": "500 g source size/weight option"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "fa690695dc33d8d6e374ad0d2cfdcb32cce71c310858f866d87924f4722200f6"
+    },
+    {
+      "sku": "YX053",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Dragon Fruit Polymer Clay Slices for Bulk Craft Sourcing — YX053",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/",
+      "facts": {
+        "Material": "Polymer Clay",
+        "Size reference": "5 mm",
+        "Packing": "500 g/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "a8581f6db4b06e74b86266ca6112a2718d7f3d0067130b6ca8f58c03bc2cb167"
+    },
+    {
+      "sku": "YX329",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Green Leaf Polymer Clay Slices for Bulk Craft Sourcing — YX329",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx329-green-leaf-polymer-clay-slices-for-bulk-craft-sourcing-yx329/",
+      "facts": {
+        "Material": "Polymer Clay",
+        "Size reference": "5 mm",
+        "Packing": "500 g/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "cd181524426169a8316c4196bd1b5d8c6719583e60ddbbee1a227afb7b7e1dc0"
+    },
+    {
+      "sku": "YX625",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Red Heart Polymer Clay Slices for Bulk Craft Sourcing — YX625",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx625-red-heart-polymer-clay-slices-for-bulk-craft-sourcing-yx625/",
+      "facts": {
+        "Material": "Polymer Clay",
+        "Size reference": "5 mm",
+        "Packing": "500 g/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "d2c09a1606f871a773d85f2135ec4005f20d834160b22e8883b06e0d1c8bc411"
+    },
+    {
+      "sku": "YX076",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-37-20261102.json"
+      ],
+      "title": "Apple Cross-Section Polymer Clay Slices for Bulk Sourcing — YX076",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx076-apple-cross-section-polymer-clay-slices-for-bulk-sourcing-yx076/",
+      "facts": {
+        "Material": "Polymer Clay",
+        "Size reference": "5 mm",
+        "Packing": "500 g/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "ef7ffcbb95562dd81b72e8338c54ef3f4a55472eeee25f291aa7eb0b53027051"
+    },
+    {
+      "sku": "YX100",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-37-20261102.json"
+      ],
+      "title": "Mixed Fruit Polymer Clay Slices for Bulk Craft Sourcing — YX100",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx100-mixed-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx100/",
+      "facts": {
+        "Material": "Polymer Clay",
+        "Size reference": "approximately 10–12 mm",
+        "Packing": "500 g/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "7397916144535d67ad7c134defbf5fa6743d8a9496acdf28cda1f87c305bf921"
+    },
+    {
+      "sku": "YX124",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-37-20261102.json"
+      ],
+      "title": "Large Mixed Fruit Polymer Clay Slices for Bulk Sourcing — YX124",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx124-large-mixed-fruit-polymer-clay-slices-for-bulk-sourcing-yx124/",
+      "facts": {
+        "Material": "Polymer Clay",
+        "Size reference": "approximately 20 × 20 × 2 mm",
+        "Packing": "500 g/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "a92346df773477a29bf454f636a1dea54504aceeac270f2780162e78b5de06ef"
+    },
+    {
+      "sku": "YX273",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-37-20261102.json"
+      ],
+      "title": "Red Christmas Hat Polymer Clay Slices for Bulk Craft Selection — YX273",
+      "productionPath": "/products/polymer-clay-slices-wholesale/yx273-red-christmas-hat-polymer-clay-slices-for-bulk-craft-selection-yx273/",
+      "facts": {
+        "Material": "Polymer Clay",
+        "Size reference": "4 × 6 mm",
+        "Packing": "500 g/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "7872b3f9613df39098ef1a8f457c8c30b7c6f10056ffc1a2b55a0f50ca92321d"
+    },
+    {
+      "sku": "RW26883",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Miniature Textured Pinecone Resin Decorations for Bulk Craft Sourcing",
+      "productionPath": "/products/resin-charms-for-slime/rw26883-miniature-textured-pinecone-resin-decorations-for-bulk-craft-sourcing/",
+      "facts": {
+        "Material": "Resin",
+        "Size reference": "13 x 15 mm",
+        "Packing": "100 pieces/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "9afc281519317f0619c68ff18e98b4500a5866a7f90ac2f977379edc9743f038"
+    },
+    {
+      "sku": "RW26880",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Translucent Half-Round Citrus Slice Resin Decorations for Bulk Craft Sourcing",
+      "productionPath": "/products/resin-charms-for-slime/rw26880-translucent-half-round-citrus-slice-resin-decorations-for-bulk-craft-sourcing/",
+      "facts": {
+        "Material": "Resin",
+        "Size reference": "14 x 27 mm",
+        "Packing": "100 pieces/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "71d3e35f2252c049bdde2b30da9b2e6ef1842b20d9621f95ba55eeba09b516ec"
+    },
+    {
+      "sku": "RW26890",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Miniature Dessert Plate Resin Decorations for Bulk Craft Sourcing",
+      "productionPath": "/products/resin-charms-for-slime/rw26890-miniature-dessert-plate-resin-decorations-for-bulk-craft-sourcing/",
+      "facts": {
+        "Material": "Resin",
+        "Size reference": "34 x 34 x 13 mm",
+        "Packing": "100 pieces/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "7c198c28232ffd8c72b73a097241583aa2fd10524fd0a9569777fc2be7e19e02"
+    },
+    {
+      "sku": "RW26901",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Strawberry Cream Sandwich Cake Resin Miniatures for Bulk Craft Sourcing",
+      "productionPath": "/products/resin-charms-for-slime/rw26901-strawberry-cream-sandwich-cake-resin-miniatures-for-bulk-craft-sourcing/",
+      "facts": {
+        "Material": "Resin",
+        "Size reference": "Approx. 23 x 16 mm",
+        "Packing": "100 pieces/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "ab402c8f65c36100357000442a7334f2a651efa10cb76e011a8947d840a160dd"
+    },
+    {
+      "sku": "RW26898",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Polka-Dot Resin Bow Decorations for Bulk Craft Sourcing",
+      "productionPath": "/products/resin-charms-for-slime/rw26898-polka-dot-resin-bow-decorations-for-bulk-craft-sourcing/",
+      "facts": {
+        "Material": "Resin",
+        "Size reference": "Approx. 17 x 26 mm",
+        "Packing": "100 pieces/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "86c3499af497f74d4f9f8514814703baf83265b4cb88fc3dcef7c335ac2b42ca"
+    },
+    {
+      "sku": "RW26866",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Christmas Motif Resin Craft Decorations for Bulk Craft Sourcing",
+      "productionPath": "/products/resin-charms-for-slime/rw26866-christmas-motif-resin-craft-decorations-for-bulk-craft-sourcing/",
+      "facts": {
+        "Material": "Resin",
+        "Size reference": "Approx. 25 mm (source assortment reference)",
+        "Packing": "100 pieces/bag"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "81cf1318c0f5dc323d5665ada7e7caa0dcf605756c542e5fd1f1f86698887150"
+    },
+    {
+      "sku": "RW26761",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ],
+      "title": "Pastel Five-Petal Resin Flower Decorations for Bulk Craft Sourcing",
+      "productionPath": "/products/resin-charms-for-slime/rw26761-pastel-five-petal-resin-flower-decorations-for-bulk-craft-sourcing/",
+      "facts": {
+        "Material": "Resin",
+        "Size reference": "11 mm and 19 mm size options; confirm selected option",
+        "Packing": "100 pieces/bag for each listed size option"
+      },
+      "numericSize": true,
+      "packingKnown": true,
+      "originalImageSha256": "d3517646f330b34f14d9e59ee0babbc8419cb190c0c38825d746e46909ab503c"
+    }
+  ],
+  "limitations": [
+    "15 numeric size references are source specifications, not new physical measurements.",
+    "Five Slime products still require component dimensions. Four of those require SKU-specific packing confirmation.",
+    "Generated application/detail illustrations do not establish size, backing, hole, mix ratio or included fittings."
+  ],
+  "observations": {
+    "rankingBaseline": "User screenshot: Semrush US desktop dated 2026-11-05; third-party estimates, not GSC.",
+    "reviewMethod": "Compare the same category URLs and selected SKU group over complete 28-day GSC windows; track actual received inquiries separately from generate_lead."
+  }
+}

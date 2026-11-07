@@ -54,6 +54,44 @@
   padding-bottom: 2px;
 }
 
+.buyer-card-guide {
+  color: var(--muted, #526075);
+  font-size: 14px;
+  line-height: 1.65;
+  margin: 12px 0 20px;
+}
+
+.buyer-card-specs {
+  margin: 14px 0 10px;
+  padding-top: 10px;
+  border-top: 1px solid #e3e5ed;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.buyer-card-specs > div {
+  display: grid;
+  grid-template-columns: minmax(0, 90px) minmax(0, 1fr);
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.buyer-card-specs dt {
+  font-weight: 700;
+}
+
+.buyer-card-specs dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.product-card-body .buyer-card-selection {
+  color: var(--muted, #526075);
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0 0 14px;
+}
+
 .filter-chip {
   min-height: 44px;
   border-color: #d9ddea;

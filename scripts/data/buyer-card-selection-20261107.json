@@ -1,0 +1,148 @@
+{
+  "reviewedOn": "2026-11-07",
+  "scope": "20 existing products on three existing category pages; unknown fields remain unconfirmed. No new SKU or commercial terms.",
+  "products": [
+    {
+      "sku": "SLM26529",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/haibu-purchasing-20261002.json",
+        "scripts/data/haibu-new-products-20260909.json"
+      ]
+    },
+    {
+      "sku": "SLM10012",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/verified-product-specs-20261104.json",
+        "scripts/data/haibu-purchasing-20261002.json"
+      ]
+    },
+    {
+      "sku": "SLM10093",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/verified-product-specs-20261104.json"
+      ]
+    },
+    {
+      "sku": "SLM10094",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/verified-product-specs-20261104.json"
+      ]
+    },
+    {
+      "sku": "SLM707",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/verified-product-specs-20261104.json"
+      ]
+    },
+    {
+      "sku": "YX710",
+      "category": "slime-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "YX053",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "YX329",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "YX625",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "YX076",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-37-20261102.json"
+      ]
+    },
+    {
+      "sku": "YX100",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-37-20261102.json"
+      ]
+    },
+    {
+      "sku": "YX124",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-37-20261102.json"
+      ]
+    },
+    {
+      "sku": "YX273",
+      "category": "polymer-clay-slices",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-37-20261102.json"
+      ]
+    },
+    {
+      "sku": "RW26883",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "RW26880",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "RW26890",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "RW26901",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "RW26898",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "RW26866",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    },
+    {
+      "sku": "RW26761",
+      "category": "resin-charms",
+      "sourceRefs": [
+        "scripts/data/monica-reviewed-batch-36-20261102.json"
+      ]
+    }
+  ]
+}

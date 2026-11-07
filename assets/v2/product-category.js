@@ -73,7 +73,7 @@
       const tags = `${card.dataset.tags || ''} ${codes}`.toLowerCase();
       const category = (card.dataset.category || '').toLowerCase();
       const matchesQuery = !query || (hasExactSku ? sku.toLowerCase() === query : tags.includes(query));
-      const matchesFilter = activeFilter === 'all' || category === activeFilter || (activeFilter === 'seasonal' && ['christmas', 'halloween', 'easter'].includes(category));
+      const matchesFilter = activeFilter === 'all' || category === activeFilter || (activeFilter === 'buyer-comparison' && card.hasAttribute('data-buyer-comparison')) || (activeFilter === 'seasonal' && ['christmas', 'halloween', 'easter'].includes(category));
       const show = matchesQuery && matchesFilter;
       card.hidden = !show;
       if (show) visible += 1;

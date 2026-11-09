@@ -159,8 +159,8 @@ const articles = [
     category: 'Product Guide',
     title: 'Polymer Clay Slice Buying Guide for Wholesale Buyers',
     seoTitle: 'Polymer Clay Slice Buying Guide | HAIBUCRAFT',
-    dateModified: '2026-10-25',
-    lastReviewed: 'October 25, 2026',
+    dateModified: '2026-11-09',
+    lastReviewed: 'November 9, 2026',
     scopeReview: false,
     inquirySource: 'polymer-liquid-samples',
     inquiryCategory: 'polymer-clay-slices',
@@ -177,8 +177,17 @@ const articles = [
       ['Prepare a separate line for each sample and retail pack', 'List each design code and requested sample weight separately, then describe the retail grams per bag or jar, labels, mix proportions and destination. Ask for sample availability, packing feasibility, charges and shipping as separate quotation items rather than treating the source bulk pack as a sample offer.']
     ],
     checklist: ['Theme and use', 'Dimensions and thickness', 'Color range and mix ratio', 'Dry or liquid-filled application', 'Exact liquid formulation and sample checks', 'Sample weight per design', 'Retail pack unit and destination'],
-    note: 'Exact material, dimensions, MOQ, lead time and testing scope must be confirmed against the selected product code and approved sample.',
-    links: [['Candy Round Slices YX043', '/v2-preview/products/polymer-clay-slices/yx043-colorful-candy-round-slices/'], ['Rainbow Cloud Mix YX3194', '/v2-preview/products/polymer-clay-slices/yx3194-rainbow-cloud-polymer-clay-mix-for-bulk-orders/'], ['Sample Approval Checklist', '/v2-preview/blog/sample-approval-checklist/'], ['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']],
+    workingTable: {
+      caption: 'All three references list Polymer Clay and 500 g/bag. Equal bag weight does not mean equal piece count.',
+      headings: ['Product reference', 'Listed size', 'Before ordering'],
+      rows: [
+        ['YX053 Dragon Fruit Polymer Clay Slices', '5 mm reference', 'Confirm width, thickness and current mix.'],
+        ['YX124 Large Mixed Fruit Polymer Clay Slices', 'Approx. 20 × 20 × 2 mm', 'Confirm fruit mix and ratios for each pack.'],
+        ['YX273 Red Christmas Hat Polymer Clay Slices', '4 × 6 mm reference', 'Confirm thickness and the approved sample.']
+      ]
+    },
+    note: 'The table uses the selected products\' existing catalog source fields. Size references are not a measured fit test. Bag weight does not establish a piece count or MOQ; confirm current specifications, packing, lead time and application testing against the selected SKU and approved sample.',
+    links: [['Dragon Fruit Polymer Clay Slices YX053', '/v2-preview/products/polymer-clay-slices/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/'], ['Large Mixed Fruit Polymer Clay Slices YX124', '/v2-preview/products/polymer-clay-slices/yx124-large-mixed-fruit-polymer-clay-slices-for-bulk-sourcing-yx124/'], ['Red Christmas Hat Polymer Clay Slices YX273', '/v2-preview/products/polymer-clay-slices/yx273-red-christmas-hat-polymer-clay-slices-for-bulk-craft-selection-yx273/'], ['Candy Round Slices YX043', '/v2-preview/products/polymer-clay-slices/yx043-colorful-candy-round-slices/'], ['Rainbow Cloud Mix YX3194', '/v2-preview/products/polymer-clay-slices/yx3194-rainbow-cloud-polymer-clay-mix-for-bulk-orders/'], ['Sample Approval Checklist', '/v2-preview/blog/sample-approval-checklist/'], ['Polymer Clay Slices', '/v2-preview/products/polymer-clay-slices/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']],
     relatedCollection: {
       heading: 'Compare polymer clay sprinkle mixes by real SKU.',
       body: 'If your brief is specifically for sprinkle-style clay mixes rather than general slices, use the focused collection to compare candy, fruit and seasonal product codes before requesting a quote.',

@@ -50,7 +50,7 @@
       "description": "Buy polymer clay slices wholesale and bulk sprinkles for slime, shakers and DIY kits. Compare motifs, mix ratios and packing; request a SKU-based quote.",
       "type": "website",
       "index": true,
-      "lastModified": "2026-11-07"
+      "lastModified": "2026-11-09"
     },
     {
       "previewPath": "/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/",
@@ -145,7 +145,8 @@
       "title": "Wholesale Craft Supply Buying Guides | HAIBUCRAFT",
       "description": "Read practical HAIBUCRAFT guides about wholesale product briefs, sample approval, packaging, quality checkpoints and custom sourcing.",
       "type": "website",
-      "index": true
+      "index": true,
+      "lastModified": "2026-11-09"
     },
     {
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/",
@@ -7810,6 +7811,16 @@
       "index": false,
       "generatedProduct": true,
       "archivedCatalogReference": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/strawberry-polymer-clay-slices-wholesale/",
+      "productionPath": "/blog/strawberry-polymer-clay-slices-wholesale/",
+      "title": "Strawberry Polymer Clay Slices Wholesale | HAIBU",
+      "description": "Compare pink and red strawberry polymer clay slices, matching leaves and daisies. Review sizes, 500 g packing and sample needs for a wholesale order.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-11-09",
+      "generatedBlog": true
     },
     {
       "previewPath": "/v2-preview/blog/christmas-family-diy-gift-materials/",

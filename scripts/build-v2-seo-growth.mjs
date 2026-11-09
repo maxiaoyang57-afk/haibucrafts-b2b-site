@@ -134,11 +134,11 @@ const categoryPlans = {
     h1: 'Polymer Clay Slices Wholesale for Slime & DIY',
     intro: 'Source wholesale polymer clay slices and bulk polymer clay sprinkles for slime, nail art, shaker fillers and DIY kits. Compare candy, fruit and seasonal mixes by motif, size and pack unit. Send selected product codes, quantity and destination for a packing and MOQ quotation.',
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
-    hubExtraMarkup: "<p>Buyers building slime, shaker, tumbler or DIY-kit assortments can start with the <a href=\"/v2-preview/for-slime-brands/\">slime-brand sourcing route</a>, then use the <a href=\"/v2-preview/blog/polymer-clay-slice-buying-guide/\">polymer clay buying guide</a> to compare slice formats before requesting a mixed-SKU quotation.</p>",
+    hubExtraMarkup: "<p>Buyers building slime, shaker, tumbler or DIY-kit assortments can start with the <a href=\"/v2-preview/for-slime-brands/\">slime-brand sourcing route</a>, then use the <a href=\"/v2-preview/blog/polymer-clay-slice-buying-guide/\">polymer clay buying guide</a> to compare slice formats before requesting a mixed-SKU quotation. For a fruit theme, compare four real references in the <a href=\"/v2-preview/blog/strawberry-polymer-clay-slices-wholesale/\">strawberry slice buying guide</a>.</p>",
     hubHeading: "Wholesale polymer clay slices and sprinkles for repeatable craft programs.",
     hubId: "buyer-resources",
     hubCopy: "Use this page for polymer clay slices, polymer clay craft slices and bulk sprinkle mixes sold as a repeat-purchase material family. Compare motif, slice size, color mix, mix ratio and pack format before sampling. For slime-brand programs, shortlist several SKUs first, then confirm repeat-order consistency, packing requirements and destination in one sourcing brief; use the Slime Charms or Resin Charms hubs when the buying brief is for finished decorative charms instead.",
-    lastModified: '2026-10-02',
+    lastModified: '2026-11-09',
     resources: [
       ["/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/", "Polymer Clay Sprinkles Wholesale"],
       ["/v2-preview/blog/polymer-clay-slice-buying-guide/", "Polymer Clay Slice Buying Guide"],

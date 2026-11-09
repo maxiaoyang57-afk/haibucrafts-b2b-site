@@ -4,6 +4,7 @@ import process from 'node:process';
 import { customizationGuide } from './content/customization-guide.mjs';
 import { octoberArticles } from './content/blogs-20261017.mjs';
 import { christmasFamilyGiftArticle } from './content/christmas-family-gifts.mjs';
+import { strawberryBuyingArticle } from './content/strawberry-slices.mjs';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -13,6 +14,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  strawberryBuyingArticle,
   christmasFamilyGiftArticle,
   ...octoberArticles,
   customizationGuide,
@@ -440,6 +442,8 @@ const hub = `<!DOCTYPE html>
 await writeFile(path.join(blogRoot, 'index.html'), hub, 'utf8');
 
 const seoMap = JSON.parse(await readFile(seoMapPath, 'utf8'));
+const blogHubRoute = seoMap.routes.find(route => route.productionPath === '/blog/');
+if (blogHubRoute) blogHubRoute.lastModified = '2026-11-09';
 const articlePaths = new Set(articles.map((article) => `/v2-preview/blog/${article.slug}/`));
 const blogRoutes = articles.map((article) => ({
   previewPath: `/v2-preview/blog/${article.slug}/`,

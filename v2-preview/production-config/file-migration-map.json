@@ -5454,6 +5454,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/blog/strawberry-polymer-clay-slices-wholesale/index.html",
+      "destination": "blog/strawberry-polymer-clay-slices-wholesale/index.html",
+      "action": "create",
+      "productionPath": "/blog/strawberry-polymer-clay-slices-wholesale/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/blog/christmas-family-diy-gift-materials/index.html",
       "destination": "blog/christmas-family-diy-gift-materials/index.html",
       "action": "create",

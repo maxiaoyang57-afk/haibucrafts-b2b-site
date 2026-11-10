@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-10",
+  "task": "manual-dual-keychain-guides",
+  "authorization": "User requested differentiated copy and production publication for both sites.",
+  "title": "Sourcing Components for Keychain and Bag Charm Projects",
+  "plannedProductionUrl": "https://www.haibucrafts.com/blog/keychain-bag-charm-components-sourcing-guide/",
+  "sourceSkus": [
+    "RW26795",
+    "RW26801",
+    "YX693",
+    "YX329"
+  ],
+  "baseMain": "7388553d77a2751d0794b2599cb68a3214d6cc86",
+  "status": "integrated_current_main_ci_preview_pending",
+  "releaseBlocker": null,
+  "verification": {
+    "localChecks": "passed: builds; static link/metadata checks; H278 tests/release/materialized/catalog/404; Q4 static-output tests, full PDP gates, 4 content regressions",
+    "browser": "Existing production quotation routes checked for all 8 selected SKUs. New guide layout and remote Preview CI have not run.",
+    "localBrowserLimit": "Container Chromium cannot open required socket; no permission or security settings changed.",
+    "needsBeforeRelease": [
+      "Push exact integrated branch and pass required CI",
+      "Verify actual mobile and desktop Preview",
+      "Merge exact tested head and verify production READY and formal pages"
+    ]
+  },
+  "protectedScope": "H4/Q9 and preserved archive records, quote-only pricing, emails and tracking configuration unchanged. Product data and original images unchanged.",
+  "aiContent": "ChatGPT, Google Gemini, Microsoft Copilot, Perplexity, Claude, DeepSeek and Grok appear as independent buyer research tools. No endorsement, ranking, indexing or compatibility claim.",
+  "preservedUpdates": "Batch 38 products and November 10 photo-sourcing guide retained from current main."
+}

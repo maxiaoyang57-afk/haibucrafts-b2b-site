@@ -4,6 +4,7 @@ import process from 'node:process';
 import { customizationGuide } from './content/customization-guide.mjs';
 import { octoberArticles } from './content/blogs-20261017.mjs';
 import { christmasFamilyGiftArticle } from './content/christmas-family-gifts.mjs';
+import { keychainComponentsArticle } from './content/keychain-components.mjs';
 import { strawberryBuyingArticle } from './content/strawberry-slices.mjs';
 import { photoSourcingArticle } from './content/photo-sourcing.mjs';
 
@@ -15,6 +16,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  keychainComponentsArticle,
   photoSourcingArticle,
   strawberryBuyingArticle,
   christmasFamilyGiftArticle,
@@ -316,6 +318,11 @@ const renderPhotoReferences = (items = []) => items.length ? `<div data-photo-re
 
 const renderSection = ([heading, body, detail], index) => `<section${detail ? ` id="${escapeHtml(detail.id)}"` : ''}><span>${String(index + 1).padStart(2, '0')}</span><div><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p>${detail?.paragraph ? `<p>${escapeHtml(detail.paragraph)}</p>` : ''}${detail?.note ? `<p class="custom-approval-note">${escapeHtml(detail.note)}</p>` : ''}</div></section>`;
 
+const renderProductReferences = article => article.keychainReferences ? `<div data-guide-products="keychain-components" style="margin:28px 0 40px"><h2>Compare four real decoration references</h2><p>Each card opens its own product and inquiry. These are separate components, not an assembled kit.</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px">${article.keychainReferences.map(p => {
+  const params = new URLSearchParams({source:'keychain-components-guide',category:p.category,product_code:p.sku,product:p.productTitle,image:p.image,landing_page:p.href});
+  return `<article data-guide-sku="${escapeHtml(p.sku)}" style="min-width:0;padding:18px;border:1px solid var(--line);border-radius:14px;background:#fff"><a href="${escapeHtml(p.href)}"><img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.sku + ' · ' + p.title)}" width="${p.width}" height="${p.height}" loading="lazy" style="width:100%;height:220px;object-fit:contain"></a><h3><a href="${escapeHtml(p.href)}">${escapeHtml(p.sku + ' · ' + p.title)}</a></h3><dl><dt><strong>Material</strong></dt><dd style="margin:0 0 10px">${escapeHtml(p.material)}</dd><dt><strong>Listed size</strong></dt><dd style="margin:0 0 10px">${escapeHtml(p.size)}</dd><dt><strong>Reference pack</strong></dt><dd style="margin:0 0 10px">${escapeHtml(p.packing)}</dd></dl><p>${escapeHtml(p.note)}</p><a href="${escapeHtml(p.href)}">View ${escapeHtml(p.sku)} details →</a><p><a class="btn btn-primary" data-guide-quote="${escapeHtml(p.sku)}" href="/v2-preview/quote/?${escapeHtml(params.toString())}">Ask about ${escapeHtml(p.sku)}</a></p></article>`;
+}).join('')}</div><p style="font-size:14px;color:var(--muted)">Pack references are separate from MOQ. Confirm current quantities, samples, charges and dispatch timing in your quotation.</p></div>` : '';
+
 for (const article of articles) {
   const previewPath = `/v2-preview/blog/${article.slug}/`;
   const quoteHref = `/v2-preview/quote/?source=${encodeURIComponent(article.inquirySource || 'blog')}&amp;article=${article.slug}&amp;landing_page=${encodeURIComponent(previewPath)}${article.inquiryCategory ? '&amp;category=' + encodeURIComponent(article.inquiryCategory) : ''}`;
@@ -376,7 +383,7 @@ ${article.scopeReview === false ? '' : '          <span>Scope reviewed by <a hre
 ${article.processOverview ? `    ${processOverview}\n` : ''}    <section class="section">
       <div class="container blog-article-layout">
         <article class="blog-article-body">
-${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}${article.image ? `          <figure style="margin:0 0 32px"><img src="${escapeHtml(article.image.src)}" width="${article.image.width}" height="${article.image.height}" alt="${escapeHtml(article.image.alt)}" loading="lazy" style="display:block;width:min(100%,520px);height:auto;object-fit:contain;margin:auto"><figcaption style="margin-top:12px;font-size:14px;color:var(--muted)">${escapeHtml(article.image.caption)}</figcaption></figure>\n` : ''}          ${renderPhotoReferences(article.productReferences)}${article.sections.map(renderSection).join('\n          ')}
+${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}${article.image ? `          <figure style="margin:0 0 32px"><img src="${escapeHtml(article.image.src)}" width="${article.image.width}" height="${article.image.height}" alt="${escapeHtml(article.image.alt)}" loading="lazy" style="display:block;width:min(100%,520px);height:auto;object-fit:contain;margin:auto"><figcaption style="margin-top:12px;font-size:14px;color:var(--muted)">${escapeHtml(article.image.caption)}</figcaption></figure>\n` : ''}          ${renderPhotoReferences(article.productReferences)}${renderProductReferences(article)}${article.sections.map(renderSection).join('\n          ')}
 ${article.workingTable ? `          <div style="overflow-x:auto;margin:28px 0"><table style="width:100%;border-collapse:collapse;font-size:15px"><caption style="text-align:left;margin-bottom:12px">${escapeHtml(article.workingTable.caption)}</caption><thead><tr>${article.workingTable.headings.map(heading => `<th scope="col" style="text-align:left;padding:12px;border-bottom:2px solid var(--line)">${escapeHtml(heading)}</th>`).join('')}</tr></thead><tbody>${article.workingTable.rows.map(row => `<tr>${row.map(cell => `<td style="padding:12px;border-bottom:1px solid var(--line);vertical-align:top">${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>\n` : ''}${article.sources ? `          <p style="font-size:14px">Technical reference: ${article.sources.map(([label, href]) => `<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('; ')}.</p>\n` : ''}          <div class="scope-note">${escapeHtml(article.note)}</div>
         </article>
         <aside class="blog-checklist-card">

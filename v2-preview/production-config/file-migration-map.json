@@ -5594,6 +5594,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/blog/keychain-bag-charm-components-sourcing-guide/index.html",
+      "destination": "blog/keychain-bag-charm-components-sourcing-guide/index.html",
+      "action": "create",
+      "productionPath": "/blog/keychain-bag-charm-components-sourcing-guide/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/blog/source-craft-supplies-from-reference-photos/index.html",
       "destination": "blog/source-craft-supplies-from-reference-photos/index.html",
       "action": "create",

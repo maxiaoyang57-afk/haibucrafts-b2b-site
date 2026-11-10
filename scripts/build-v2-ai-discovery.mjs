@@ -52,6 +52,7 @@ lines.push(
   `- Quality checkpoints: ${origin}/quality-control/`,
   `- Product documents and scope notes: ${origin}/certificates/`,
   `- Buyer guides: ${origin}/blog/`,
+  `- Keychain and bag charm component sourcing: ${origin}/blog/keychain-bag-charm-components-sourcing-guide/`,
   `- Strawberry polymer clay slice buying guide: ${origin}/blog/strawberry-polymer-clay-slices-wholesale/`,
   `- Christmas family DIY gift materials: ${origin}/blog/christmas-family-diy-gift-materials/`,
   `- Reorder version control: ${origin}/blog/craft-supply-reorder-version-control/`,

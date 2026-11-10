@@ -1,0 +1,2449 @@
+{
+  "sourceFile": "Owner supplied product details; full export private",
+  "sourceSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+  "batchCount": 1,
+  "batchSize": 20,
+  "newProductCount": 20,
+  "products": [
+    {
+      "sku": "RW001902",
+      "key": "rw001902",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Five-Loop Resin Flower Decorations for Bulk Craft Selection — RW001902",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "approximately 30 mm",
+      "packing": "100 pieces/bag",
+      "attachment": "Molded petal openings visible; no additional drilled hole, hidden back or supplied fastening established",
+      "variantSizeNotes": "Use the SKU when confirming colour selection, packing and any OEM requirement. The reference bag count does not establish an MOQ.",
+      "procurementAdvice": "RW001902 uses five rounded open petals and a raised contrasting center to create an airy flower outline. The source lists resin, approximately 30 mm and100 pieces per reference bag. Several colour pairings are shown; confirm the supplied selection rather than expecting a fixed ratio. For bulk selection, compare the open-petal outline with solid-petal flowers against your intended backing and layout.",
+      "caption": "RW001902 uses five rounded open petals and a raised contrasting center to create an airy flower outline. The source lists resin, approximately 30 mm and100 pieces per reference bag. Several colour pairings are shown; confirm the supplied selection rather than expecting a fixed ratio. For bulk selection, compare the open-petal outline with solid-petal flowers against your intended backing and layout. Use the SKU when confirming colour selection, packing and any OEM requirement. The reference bag count does not establish an MOQ. The original photo shows the product face. Reverse-side geometry and a fixing method have not been confirmed; include those questions with a sample request.",
+      "uses": "Reference RW001902; state desired quantity, colours, packing and backing/fixing questions. Request current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Five-Loop Resin Flower Decorations for Bulk Craft Selection — RW001902",
+      "haibuDescription": "Compare RW001902 resin flowers with five open petals, approximately 30 mm and a source reference pack of100 pieces per bag. Ask about selection and.",
+      "metaTitle": "Five-Loop Resin Flower Decorations for Bulk Craft Selection — RW001902",
+      "description": "Compare RW001902 resin flowers with five open petals, approximately 30 mm and a source reference pack of100 pieces per bag. Ask about selection and.",
+      "factNote": "For bulk selection, compare the open-petal outline with solid-petal flowers against your intended backing and layout. Use the SKU when confirming colour selection, packing and any OEM requirement. The reference bag count does not establish an MOQ.",
+      "sourceFields": {
+        "title": "Resin Cherry Blossom Scrapbook Embellishment Cabochons DIY Crafts Materials Party Decorating Flower Hair Clip Supplies",
+        "material": "Resin",
+        "size": "about 30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW001902"
+      },
+      "sourceProductId": "1600553993669",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cherry-Blossom-Scrapbook-Embellishment-Cabochons_1600553993669.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0c69dbf50f8041f7b68fb12aa319a92e2.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Gift box,ribbon and other props are not included. Confirm the actual product,selection and fixing method before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw001902/rw001902-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw001902/rw001902-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw001902/rw001902-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw001902/rw001902-1.jpg",
+        "assets/images/pdp/rw001902/rw001902-2.jpg",
+        "assets/images/pdp/rw001902/rw001902-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw001902/rw001902-resin-craft-cabochons-01.jpg",
+          "sha256": "925c7999e8bd320ccd9d4d8f7c509a1c0f45edba970a22f8749b37d6604ddd57",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw001902/rw001902-resin-craft-cabochons-02.jpg",
+          "sha256": "80578dfe638dcb066f08ea092643195c7016158a6fb79f1b54bad5ff0386085c",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw001902/rw001902-resin-craft-cabochons-03.jpg",
+          "sha256": "13914b29903a9c8f392731d0310a01eb79585b4d83918a91e3d9cfcd507ea163",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw001902/rw001902-1.jpg",
+          "sha256": "925c7999e8bd320ccd9d4d8f7c509a1c0f45edba970a22f8749b37d6604ddd57",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw001902/rw001902-2.jpg",
+          "sha256": "80578dfe638dcb066f08ea092643195c7016158a6fb79f1b54bad5ff0386085c",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw001902/rw001902-3.jpg",
+          "sha256": "13914b29903a9c8f392731d0310a01eb79585b4d83918a91e3d9cfcd507ea163",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Five open loop petals around a raised contrasting round center; several translucent colour combinations visible; fixed mix or ratio not established",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW002659",
+      "key": "rw002659",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Fruit Ice-Pop Resin Cabochons for Bulk Assortment Selection — RW002659",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "approximately 26 mm source reference",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; holes, reverse specification and supplied adhesive unconfirmed",
+      "variantSizeNotes": "The approximate size is a source reference. Confirm the selected variant's measurement and reverse surface before choosing backing or packing.",
+      "procurementAdvice": "RW002659 uses compact ice-pop outlines with short molded sticks. The original photo includes fruit-coloured faces and cream or chocolate-style designs; the pink-and-green example adds a small smile and decorative flecks. The source lists resin, approximately 26 mm and 100 pieces per reference bag. Review the individual faces in the original photo when planning an assortment; the image does not establish a fixed design mix or ratio.",
+      "caption": "RW002659 uses compact ice-pop outlines with short molded sticks. The original photo includes fruit-coloured faces and cream or chocolate-style designs; the pink-and-green example adds a small smile and decorative flecks. The source lists resin, approximately 26 mm and 100 pieces per reference bag. Review the individual faces in the original photo when planning an assortment; the image does not establish a fixed design mix or ratio. The approximate size is a source reference. Confirm the selected variant's measurement and reverse surface before choosing backing or packing. Provide the SKU, preferred designs, quantity and packing or OEM requirements for quotation. The reference bag count is not an MOQ, and no fixing accessories are established as included.",
+      "uses": "Reference RW002659, selected ice-pop designs, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Fruit Ice-Pop Resin Cabochons for Bulk Assortment Selection — RW002659",
+      "haibuDescription": "Compare RW002659 resin ice-pop designs with molded sticks and fruit details. Source size about 26 mm, 100 pieces per bag; enquire about selection and.",
+      "metaTitle": "Fruit Ice-Pop Resin Cabochons for Bulk Assortment Selection — RW002659",
+      "description": "Compare RW002659 resin ice-pop designs with molded sticks and fruit details. Source size about 26 mm, 100 pieces per bag; enquire about selection and.",
+      "factNote": "Review the individual faces in the original photo when planning an assortment; the image does not establish a fixed design mix or ratio. The approximate size is a source reference. Confirm the selected variant's measurement and reverse surface before choosing backing or packing.",
+      "sourceFields": {
+        "title": "100Pcs Resin Simulation Fruit Ice Cream Flatbacks Cabochon Popsicle for DIY Dollhouse Craft Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "about 26mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW002659"
+      },
+      "sourceProductId": "1601702358687",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Resin-Simulation-Fruit-Ice-Cream_1601702358687.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/He881a0affe9f452f84ea875280db1799n.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Scrapbook, paper, fabric and other props are not included. Confirm actual designs, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw002659/rw002659-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw002659/rw002659-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw002659/rw002659-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw002659/rw002659-1.jpg",
+        "assets/images/pdp/rw002659/rw002659-2.jpg",
+        "assets/images/pdp/rw002659/rw002659-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw002659/rw002659-resin-craft-cabochons-01.jpg",
+          "sha256": "3b6c6a7749f3d359621214f55b69e96ff1a0f045df7072269b01d3ca1f23b3e3",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw002659/rw002659-resin-craft-cabochons-02.jpg",
+          "sha256": "3556b5a4cf5689f83c2caf40af61af7abca1aa4aedda654ccce4f7a95b05a802",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw002659/rw002659-resin-craft-cabochons-03.jpg",
+          "sha256": "d588d8602fa0c56bd55a79adfc72d88969377f9210490cba9ab0cc3288c9d456",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw002659/rw002659-1.jpg",
+          "sha256": "3b6c6a7749f3d359621214f55b69e96ff1a0f045df7072269b01d3ca1f23b3e3",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw002659/rw002659-2.jpg",
+          "sha256": "3556b5a4cf5689f83c2caf40af61af7abca1aa4aedda654ccce4f7a95b05a802",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw002659/rw002659-3.jpg",
+          "sha256": "d588d8602fa0c56bd55a79adfc72d88969377f9210490cba9ab0cc3288c9d456",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Ice-pop silhouettes with molded sticks and varied fruit/cream faces, including pink/green smiling fruit design; no fixed mix established",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW002789",
+      "key": "rw002789",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Pastel Rectangular Ice-Pop Resin Cabochons for Bulk Selection — RW002789",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 × 34 mm source reference; confirm selected variant",
+      "packing": "100 pieces/bag",
+      "attachment": "Drilled attachment holes, reverse specification and supplied fixing accessories unconfirmed",
+      "variantSizeNotes": "Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging.",
+      "procurementAdvice": "RW002789 uses a straight rectangular ice-pop face with a small curved drip accent at one upper corner. The short molded stick and smooth pastel surface distinguish it from rounded fruit-face ice-pop decorations. The source records resin, 20 × 34 mm and 100 pieces per reference bag. Compare body and drip-accent colours in the original photo before choosing an assortment; no fixed mix is established.",
+      "caption": "RW002789 uses a straight rectangular ice-pop face with a small curved drip accent at one upper corner. The short molded stick and smooth pastel surface distinguish it from rounded fruit-face ice-pop decorations. The source records resin, 20 × 34 mm and 100 pieces per reference bag. Compare body and drip-accent colours in the original photo before choosing an assortment; no fixed mix is established. Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging. State the SKU, chosen designs, quantity and packing or OEM requirements when requesting a quotation. The bag count is not an MOQ.",
+      "uses": "Reference RW002789 with selected designs, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Pastel Rectangular Ice-Pop Resin Cabochons for Bulk Selection — RW002789",
+      "haibuDescription": "RW002789 resin craft decorations: 20 × 34 mm source reference, 100 pieces per bag. Enquire about design selection, bulk packing and current quotation.",
+      "metaTitle": "Pastel Rectangular Ice-Pop Resin Cabochons for Bulk Selection — RW002789",
+      "description": "RW002789 resin craft decorations: 20 × 34 mm source reference, 100 pieces per bag. Enquire about design selection, bulk packing and current quotation.",
+      "factNote": "Compare body and drip-accent colours in the original photo before choosing an assortment; no fixed mix is established. Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging.",
+      "sourceFields": {
+        "title": "Kawaii Ice Cream Resin Flatback Cabochon Popsicle Miniature Food Decoration Charm Crafts",
+        "material": "Resin",
+        "size": "20*34mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW002789"
+      },
+      "sourceProductId": "1601689606317",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Ice-Cream-Resin-Flatback-Cabochon_1601689606317.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4945871b430e44b1bcc499d52213da8dp.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Display tray, gift box, scrapbook, envelope, paper, fabric and other props are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw002789/rw002789-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw002789/rw002789-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw002789/rw002789-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw002789/rw002789-1.jpg",
+        "assets/images/pdp/rw002789/rw002789-2.jpg",
+        "assets/images/pdp/rw002789/rw002789-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw002789/rw002789-resin-craft-cabochons-01.jpg",
+          "sha256": "73affe178b5b09650c684f78adbc4f2514db72dcc14c34ef32b4ffa2148940a0",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw002789/rw002789-resin-craft-cabochons-02.jpg",
+          "sha256": "2ff6ada0e642936f7bfe212354383f6e014032f4eab8ef27cbb764a4a9e42f18",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw002789/rw002789-resin-craft-cabochons-03.jpg",
+          "sha256": "b1b37f682b081996f743caff7ec364ad9b84e672a6f206c94ac77e9a843f7d63",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw002789/rw002789-1.jpg",
+          "sha256": "73affe178b5b09650c684f78adbc4f2514db72dcc14c34ef32b4ffa2148940a0",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw002789/rw002789-2.jpg",
+          "sha256": "2ff6ada0e642936f7bfe212354383f6e014032f4eab8ef27cbb764a4a9e42f18",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw002789/rw002789-3.jpg",
+          "sha256": "b1b37f682b081996f743caff7ec364ad9b84e672a6f206c94ac77e9a843f7d63",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Pastel rectangular ice-pop faces with small curved drip relief and molded sticks; multiple colours shown, fixed mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW003381",
+      "key": "rw003381",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Pig Cupcake Resin Miniatures for Bulk Craft Selection — RW003381",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "approximately 20 mm source reference; confirm selected variant",
+      "packing": "100 pieces/bag",
+      "attachment": "Source explicitly says no hole; no supplied adhesive or mounting hardware established",
+      "variantSizeNotes": "Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging.",
+      "procurementAdvice": "RW003381 joins a rounded pig face to a vertically ribbed cupcake cup. The original pink and yellow examples show small ears, dot eyes and a raised snout rather than printed dessert details. The source records resin, approximately 20 mm and 100 pieces per reference bag. The source explicitly describes no-hole resin pieces. Confirm the actual base and fixing surface for your production layout; do not assume a threading connection.",
+      "caption": "RW003381 joins a rounded pig face to a vertically ribbed cupcake cup. The original pink and yellow examples show small ears, dot eyes and a raised snout rather than printed dessert details. The source records resin, approximately 20 mm and 100 pieces per reference bag. The source explicitly describes no-hole resin pieces. Confirm the actual base and fixing surface for your production layout; do not assume a threading connection. Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging. State the SKU, chosen designs, quantity and packing or OEM requirements when requesting a quotation. The bag count is not an MOQ.",
+      "uses": "Reference RW003381 with selected designs, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Pig Cupcake Resin Miniatures for Bulk Craft Selection — RW003381",
+      "haibuDescription": "RW003381 resin craft decorations: approximately 20 mm source reference, 100 pieces per bag. Enquire about design selection, bulk packing and current.",
+      "metaTitle": "Pig Cupcake Resin Miniatures for Bulk Craft Selection — RW003381",
+      "description": "RW003381 resin craft decorations: approximately 20 mm source reference, 100 pieces per bag. Enquire about design selection, bulk packing and current.",
+      "factNote": "The source explicitly describes no-hole resin pieces. Confirm the actual base and fixing surface for your production layout; do not assume a threading connection. Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging.",
+      "sourceFields": {
+        "title": "3D Resin Artificial Pig Cupcake Dessert Charms No Hole Embellishments for DIY Scrapbooking Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "about 20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003381"
+      },
+      "sourceProductId": "1601691349395",
+      "sourceUrl": "https://www.alibaba.com/product-detail/3D-Resin-Artificial-Pig-Cupcake-Dessert_1601691349395.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hbca4b0dcf7a14bdbbfdebc241b70b82eO.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Display tray, gift box, scrapbook, envelope, paper, fabric and other props are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw003381/rw003381-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003381/rw003381-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003381/rw003381-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw003381/rw003381-1.jpg",
+        "assets/images/pdp/rw003381/rw003381-2.jpg",
+        "assets/images/pdp/rw003381/rw003381-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003381/rw003381-resin-craft-cabochons-01.jpg",
+          "sha256": "a094881f346997f6fac2a552e8d89708f5188b0d50221365a5f9bfe85bad0e0e",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003381/rw003381-resin-craft-cabochons-02.jpg",
+          "sha256": "3817bb9734b7b30bfec36475e06b185d11c16109c0712ee7b2451d89166efa3b",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003381/rw003381-resin-craft-cabochons-03.jpg",
+          "sha256": "ff69ac7c68a3a25b9127b4e4384c58919d5401082335e23a8ee3603c8b19899a",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw003381/rw003381-1.jpg",
+          "sha256": "a094881f346997f6fac2a552e8d89708f5188b0d50221365a5f9bfe85bad0e0e",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003381/rw003381-2.jpg",
+          "sha256": "3817bb9734b7b30bfec36475e06b185d11c16109c0712ee7b2451d89166efa3b",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003381/rw003381-3.jpg",
+          "sha256": "ff69ac7c68a3a25b9127b4e4384c58919d5401082335e23a8ee3603c8b19899a",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Pig-face cupcake miniatures with small ears, dot eyes, round snout and ribbed cup; pink/yellow examples, fixed mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW003477",
+      "key": "rw003477",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Chocolate-Style Resin Cabochons with Varied Relief for Bulk Selection — RW003477",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "approximately 20 mm source reference; confirm selected design",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; drilled holes, reverse specification and supplied fixing accessories unconfirmed",
+      "variantSizeNotes": "Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established.",
+      "procurementAdvice": "RW003477 groups chocolate-style shapes with distinctive relief: diamond grids, striped faces, molded nut-like details, flowers and hearts. These are resin craft decorations; the original photo is a selection reference, not a fixed assortment. The source records resin, approximately 20 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ.",
+      "caption": "RW003477 groups chocolate-style shapes with distinctive relief: diamond grids, striped faces, molded nut-like details, flowers and hearts. These are resin craft decorations; the original photo is a selection reference, not a fixed assortment. The source records resin, approximately 20 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ. Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established. Reference the SKU, selected variants and quantity when requesting packing or OEM discussion and a current quotation.",
+      "uses": "Reference RW003477, selected designs, quantity, project surface and packaging needs; ask for current quotation and fixing details.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Chocolate-Style Resin Cabochons with Varied Relief for Bu | RW003477",
+      "haibuDescription": "RW003477 resin craft decorations: approximately 20 mm source reference; confirm selected design. Source packing 100 pieces/bag. Enquire about.",
+      "metaTitle": "Chocolate-Style Resin Cabochons with Varied Relief for Bu | RW003477",
+      "description": "RW003477 resin craft decorations: approximately 20 mm source reference; confirm selected design. Source packing 100 pieces/bag. Enquire about.",
+      "factNote": "The source records resin, approximately 20 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ. Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established.",
+      "sourceFields": {
+        "title": "Chocolate Flatback Resin Cabochon Kawaii Miniature Food for Phone Decoration DIY Scrapbook Craft",
+        "material": "Resin",
+        "size": "about 20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003477"
+      },
+      "sourceProductId": "1600918778912",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Chocolate-Flatback-Resin-Cabochon-Kawaii-Miniature_1600918778912.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0cbae0ea76f64ee0b2747baefd516c52E.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Paper, fabric, ribbon and other scene props are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw003477/rw003477-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003477/rw003477-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003477/rw003477-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw003477/rw003477-1.jpg",
+        "assets/images/pdp/rw003477/rw003477-2.jpg",
+        "assets/images/pdp/rw003477/rw003477-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003477/rw003477-resin-craft-cabochons-01.jpg",
+          "sha256": "0c8580b4475ed2bcb0a5612deaf9d62d4035379d21a0caf565b72eec9ddcbd9e",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003477/rw003477-resin-craft-cabochons-02.jpg",
+          "sha256": "9f188d08a94c6778363db303c922fffb6d063ecb907420eab50ee292b0268e0f",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003477/rw003477-resin-craft-cabochons-03.jpg",
+          "sha256": "4abef5e334c935c9dfe3adfd7da1ffe4fd957e56911ba893761a6fe8883ef41d",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw003477/rw003477-1.jpg",
+          "sha256": "0c8580b4475ed2bcb0a5612deaf9d62d4035379d21a0caf565b72eec9ddcbd9e",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003477/rw003477-2.jpg",
+          "sha256": "9f188d08a94c6778363db303c922fffb6d063ecb907420eab50ee292b0268e0f",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003477/rw003477-3.jpg",
+          "sha256": "4abef5e334c935c9dfe3adfd7da1ffe4fd957e56911ba893761a6fe8883ef41d",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Chocolate-style squares, rounds, hearts and rose shapes with assorted molded surface decoration; colour/design mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW003522",
+      "key": "rw003522",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Winged Star Wand Resin Cabochons for Bulk Selection — RW003522",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "21 × 37 mm source reference; confirm selected design",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; drilled holes, reverse specification and supplied fixing accessories unconfirmed",
+      "variantSizeNotes": "Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established.",
+      "procurementAdvice": "The wand designs combine a round frame, a raised star and two small wing shapes above a contrasting shaft tip. Compare centre motif and frame colour in the original photo when specifying a production selection. The source records resin, 21 × 37 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ.",
+      "caption": "The wand designs combine a round frame, a raised star and two small wing shapes above a contrasting shaft tip. Compare centre motif and frame colour in the original photo when specifying a production selection. The source records resin, 21 × 37 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ. Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established. Reference the SKU, selected variants and quantity when requesting packing or OEM discussion and a current quotation.",
+      "uses": "Reference RW003522, selected designs, quantity, project surface and packaging needs; ask for current quotation and fixing details.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Winged Star Wand Resin Cabochons for Bulk Selection — RW003522",
+      "haibuDescription": "RW003522 resin craft decorations: 21 × 37 mm source reference; confirm selected design. Source packing 100 pieces/bag. Enquire about selection and.",
+      "metaTitle": "Winged Star Wand Resin Cabochons for Bulk Selection — RW003522",
+      "description": "RW003522 resin craft decorations: 21 × 37 mm source reference; confirm selected design. Source packing 100 pieces/bag. Enquire about selection and.",
+      "factNote": "The source records resin, 21 × 37 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ. Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established.",
+      "sourceFields": {
+        "title": "Cute Star Magic Stick Resin Charms for Jewelry Making Girl Earrings Necklace Pendant Decor DIY Keychain Accessories",
+        "material": "Resin",
+        "size": "21*37mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003522"
+      },
+      "sourceProductId": "1601702039061",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Star-Magic-Stick-Resin-Charms_1601702039061.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H740d988bbc5042c8b4f9033e1a614c34m.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Paper, fabric, ribbon and other scene props are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw003522/rw003522-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003522/rw003522-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003522/rw003522-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw003522/rw003522-1.jpg",
+        "assets/images/pdp/rw003522/rw003522-2.jpg",
+        "assets/images/pdp/rw003522/rw003522-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003522/rw003522-resin-craft-cabochons-01.jpg",
+          "sha256": "fefe41b40feaca78d655fb967cb0b0abc97fd611afd5a8b90aa29723f328bacd",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003522/rw003522-resin-craft-cabochons-02.jpg",
+          "sha256": "1f65bc3150c1b77da310d8ddbc8f7fe1c83771ca9ac03e56e292eddcadac4d4b",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003522/rw003522-resin-craft-cabochons-03.jpg",
+          "sha256": "0618b478fd87ddfaa17543bd2f1089822c7f55d4e147a98523d97ce403336a7b",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw003522/rw003522-1.jpg",
+          "sha256": "fefe41b40feaca78d655fb967cb0b0abc97fd611afd5a8b90aa29723f328bacd",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003522/rw003522-2.jpg",
+          "sha256": "1f65bc3150c1b77da310d8ddbc8f7fe1c83771ca9ac03e56e292eddcadac4d4b",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003522/rw003522-3.jpg",
+          "sha256": "0618b478fd87ddfaa17543bd2f1089822c7f55d4e147a98523d97ce403336a7b",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Circular wand faces with central star and small heart between the wings, small paired wings, coloured shaft and contrasting tip; no fixed assortment established",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW003659",
+      "key": "rw003659",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Flower Lollipop Resin Cabochons for Bulk Selection — RW003659",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 × 30 mm source reference; confirm selected variant",
+      "packing": "100 pieces/bag",
+      "attachment": "Drilled attachment holes, reverse specification and supplied fixing accessories unconfirmed",
+      "variantSizeNotes": "Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging.",
+      "procurementAdvice": "RW003659 combines a rounded five-petal flower face with a short molded stick. A contrasting tan centre separates the flower face from the cream, pink, blue and other pastel petal examples in the original photo. The source records resin, 20 × 30 mm and 100 pieces per reference bag. Compare the petal colour and stick colour together when choosing an assortment; the original photo does not establish a fixed mixed ratio.",
+      "caption": "RW003659 combines a rounded five-petal flower face with a short molded stick. A contrasting tan centre separates the flower face from the cream, pink, blue and other pastel petal examples in the original photo. The source records resin, 20 × 30 mm and 100 pieces per reference bag. Compare the petal colour and stick colour together when choosing an assortment; the original photo does not establish a fixed mixed ratio. Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging. State the SKU, chosen designs, quantity and packing or OEM requirements when requesting a quotation. The bag count is not an MOQ.",
+      "uses": "Reference RW003659 with selected designs, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Flower Lollipop Resin Cabochons for Bulk Selection — RW003659",
+      "haibuDescription": "RW003659 resin craft decorations: 20 × 30 mm source reference, 100 pieces per bag. Enquire about design selection, bulk packing and current quotation.",
+      "metaTitle": "Flower Lollipop Resin Cabochons for Bulk Selection — RW003659",
+      "description": "RW003659 resin craft decorations: 20 × 30 mm source reference, 100 pieces per bag. Enquire about design selection, bulk packing and current quotation.",
+      "factNote": "Compare the petal colour and stick colour together when choosing an assortment; the original photo does not establish a fixed mixed ratio. Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging.",
+      "sourceFields": {
+        "title": "New Cute Flower Shape Lollipop Flat Back Resin Cabochons Scrapbooking DIY Jewelry Craft Decoration Access",
+        "material": "Resin",
+        "size": "20*30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003659"
+      },
+      "sourceProductId": "1601691365269",
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Cute-Flower-Shape-Lollipop-Flat_1601691365269.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H3e4b1bf4ebd94e4baa95105d4af61833o.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Display tray, gift box, scrapbook, envelope, paper, fabric and other props are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw003659/rw003659-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003659/rw003659-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003659/rw003659-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw003659/rw003659-1.jpg",
+        "assets/images/pdp/rw003659/rw003659-2.jpg",
+        "assets/images/pdp/rw003659/rw003659-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003659/rw003659-resin-craft-cabochons-01.jpg",
+          "sha256": "d506426724e20c7d2523b3db8d2a66eaf709bafbdca55765c3a58bc31b75f10d",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003659/rw003659-resin-craft-cabochons-02.jpg",
+          "sha256": "ba71aeb02e16bab61a256560914a54b3580a9b9384db3ca4afaa235e939d651d",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003659/rw003659-resin-craft-cabochons-03.jpg",
+          "sha256": "5416c44917e767ca4214479c82b5fc73d388d3d57a8b71c08dc863e87efdd7b0",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw003659/rw003659-1.jpg",
+          "sha256": "d506426724e20c7d2523b3db8d2a66eaf709bafbdca55765c3a58bc31b75f10d",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003659/rw003659-2.jpg",
+          "sha256": "ba71aeb02e16bab61a256560914a54b3580a9b9384db3ca4afaa235e939d651d",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003659/rw003659-3.jpg",
+          "sha256": "5416c44917e767ca4214479c82b5fc73d388d3d57a8b71c08dc863e87efdd7b0",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Pastel five-petal flower lollipop faces with round tan centres and short molded sticks; fixed colour mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW003724",
+      "key": "rw003724",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Pink Blossom and Bud Resin Cabochons for Bulk Selection — RW003724",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "23 × 31 mm source reference; variant mapping unconfirmed",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; no drilled hole or supplied fixing accessories established",
+      "variantSizeNotes": "Compare open flowers and buds against your intended backing when planning an assortment. Confirm the reverse surface and fixing compatibility before production.",
+      "procurementAdvice": "RW003724 combines open blossom and bud outlines rather than repeating one flower face. Pink petal relief, green leaves and yellow stamen details distinguish the original designs. The source records resin, 23 × 31 mm and 100 pieces per reference bag. The photo shows different forms and apparent sizes. Confirm which design the source measurement describes and the actual supplied selection; no fixed mix is established.",
+      "caption": "RW003724 combines open blossom and bud outlines rather than repeating one flower face. Pink petal relief, green leaves and yellow stamen details distinguish the original designs. The source records resin, 23 × 31 mm and 100 pieces per reference bag. The photo shows different forms and apparent sizes. Confirm which design the source measurement describes and the actual supplied selection; no fixed mix is established. Compare open flowers and buds against your intended backing when planning an assortment. Confirm the reverse surface and fixing compatibility before production. State the SKU, chosen forms, quantity and packing or OEM requirements for quotation. The reference bag count is not an MOQ and no adhesive is established as included.",
+      "uses": "Reference RW003724 with flower forms, quantity, packing and backing needs; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Pink Blossom and Bud Resin Cabochons for Bulk Selection — RW003724",
+      "haibuDescription": "Compare RW003724 pink resin flower forms with green leaves and yellow stamen relief. Source size 23 × 31 mm, 100 pieces per bag; enquire about.",
+      "metaTitle": "Pink Blossom and Bud Resin Cabochons for Bulk Selection — RW003724",
+      "description": "Compare RW003724 pink resin flower forms with green leaves and yellow stamen relief. Source size 23 × 31 mm, 100 pieces per bag; enquire about.",
+      "factNote": "The photo shows different forms and apparent sizes. Confirm which design the source measurement describes and the actual supplied selection; no fixed mix is established. Compare open flowers and buds against your intended backing when planning an assortment. Confirm the reverse surface and fixing compatibility before production.",
+      "sourceFields": {
+        "title": "100pcs Cute Mini Camellia Flower Resin Series Flat Back Cabochon Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "23*31mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003724"
+      },
+      "sourceProductId": "1601702105199",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cute-Mini-Camellia-Flower-Resin_1601702105199.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H534e7f2400974487861225cadd98231cv.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Gift box, paper, fabric and other props are excluded. Confirm the actual flower selection, dimensions and fixing method before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw003724/rw003724-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003724/rw003724-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003724/rw003724-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw003724/rw003724-1.jpg",
+        "assets/images/pdp/rw003724/rw003724-2.jpg",
+        "assets/images/pdp/rw003724/rw003724-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003724/rw003724-resin-craft-cabochons-01.jpg",
+          "sha256": "f039c3947f1b683a44e39a3b15dfc939dcc3cc8cd0062b1d4aa052cb8e14fc44",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003724/rw003724-resin-craft-cabochons-02.jpg",
+          "sha256": "70112f4c77ecdb2f018aa15c19d5fa43be603233bc40d4582124a3c6bb7b44b5",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003724/rw003724-resin-craft-cabochons-03.jpg",
+          "sha256": "5687b91f609552ce9d4692370db5c077448785203fd9d0ce4b3e89b063b5dba9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw003724/rw003724-1.jpg",
+          "sha256": "f039c3947f1b683a44e39a3b15dfc939dcc3cc8cd0062b1d4aa052cb8e14fc44",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003724/rw003724-2.jpg",
+          "sha256": "70112f4c77ecdb2f018aa15c19d5fa43be603233bc40d4582124a3c6bb7b44b5",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003724/rw003724-3.jpg",
+          "sha256": "5687b91f609552ce9d4692370db5c077448785203fd9d0ce4b3e89b063b5dba9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Pink blossom and bud forms with green leaves and yellow stamen details; multiple forms/sizes pictured, fixed assortment unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW003820",
+      "key": "rw003820",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Three-Scoop Dessert Resin Cabochons for Bulk Craft Selection — RW003820",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "approximately 21 mm source reference; confirm selected design",
+      "packing": "100 pieces/bag",
+      "attachment": "Drilled holes, reverse specification and supplied fixing accessories unconfirmed",
+      "variantSizeNotes": "Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established.",
+      "procurementAdvice": "Three raised scoops sit above a circular cream-textured base, with a small Sweet plaque giving this miniature dessert a clear front. The original shows pastel and brown versions rather than one guaranteed mixture. The source records resin, approximately 21 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ.",
+      "caption": "Three raised scoops sit above a circular cream-textured base, with a small Sweet plaque giving this miniature dessert a clear front. The original shows pastel and brown versions rather than one guaranteed mixture. The source records resin, approximately 21 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ. Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established. Reference the SKU, selected variants and quantity when requesting packing or OEM discussion and a current quotation.",
+      "uses": "Reference RW003820, selected designs, quantity, project surface and packaging needs; ask for current quotation and fixing details.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Three-Scoop Dessert Resin Cabochons for Bulk Craft Selection — RW003820",
+      "haibuDescription": "RW003820 resin craft decorations: approximately 21 mm source reference; confirm selected design. Source packing 100 pieces/bag. Enquire about.",
+      "metaTitle": "Three-Scoop Dessert Resin Cabochons for Bulk Craft Selection — RW003820",
+      "description": "RW003820 resin craft decorations: approximately 21 mm source reference; confirm selected design. Source packing 100 pieces/bag. Enquire about.",
+      "factNote": "The source records resin, approximately 21 mm source reference; confirm selected design, and 100 pieces per reference bag. The packaging count is not an MOQ. Confirm the specific designs and quantities before planning sorting, backing and bulk packaging; a fixed colour or design ratio is not established.",
+      "sourceFields": {
+        "title": "Doll house Miniature Supermarket Eat And Play Delicious Ice Cream Balls Sweet Cake Food diy Model Accessories",
+        "material": "Resin",
+        "size": "21mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW003820"
+      },
+      "sourceProductId": "1601702110047",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Doll-house-Miniature-Supermarket-Eat-And_1601702110047.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hb70e5d28c60144d8ba7882bdd8e0c48bS.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Paper, fabric, ribbon and other scene props are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw003820/rw003820-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003820/rw003820-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw003820/rw003820-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw003820/rw003820-1.jpg",
+        "assets/images/pdp/rw003820/rw003820-2.jpg",
+        "assets/images/pdp/rw003820/rw003820-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003820/rw003820-resin-craft-cabochons-01.jpg",
+          "sha256": "6e52d03c0e6e6f8621407c855fb37907f0bf4d28220473514657782b16cda2db",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003820/rw003820-resin-craft-cabochons-02.jpg",
+          "sha256": "3db97b2e496b1c688f8df3c1b19e0d108b58f6a41eecce6169cafb8142b35a4e",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw003820/rw003820-resin-craft-cabochons-03.jpg",
+          "sha256": "32526ae414fb8060e05de07506b718a86928d00e4c5d313b7479e7cae14235a1",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw003820/rw003820-1.jpg",
+          "sha256": "6e52d03c0e6e6f8621407c855fb37907f0bf4d28220473514657782b16cda2db",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw003820/rw003820-2.jpg",
+          "sha256": "3db97b2e496b1c688f8df3c1b19e0d108b58f6a41eecce6169cafb8142b35a4e",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw003820/rw003820-3.jpg",
+          "sha256": "32526ae414fb8060e05de07506b718a86928d00e4c5d313b7479e7cae14235a1",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Round dessert bases with three textured scoops, white cream relief, coloured sprinkles and Sweet plaque; multiple colours shown, fixed mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW23314",
+      "key": "rw23314",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Biscuit-Shape Resin Cabochons for Bulk Craft Selection — RW23314",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "approximately 30 mm source reference; shape-specific dimensions unconfirmed",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; pretzel has visible molded openings, no additional drilled attachment hole or supplied hardware established",
+      "variantSizeNotes": "Compare open and solid outlines against your intended backing. Existing pretzel openings are part of its shape and do not establish a drilled attachment hole or a fastening method.",
+      "procurementAdvice": "RW23314's original photo shows a warm tan and golden range of biscuit-like shapes. Open pretzel outlines contrast with solid round faces and ridged cookies. The source identifies resin, approximately 30 mm and 100 pieces per reference bag. Use the original image to discuss the shape selection. It does not establish a fixed assortment, proportions or a separate measurement for every shape.",
+      "caption": "RW23314's original photo shows a warm tan and golden range of biscuit-like shapes. Open pretzel outlines contrast with solid round faces and ridged cookies. The source identifies resin, approximately 30 mm and 100 pieces per reference bag. Use the original image to discuss the shape selection. It does not establish a fixed assortment, proportions or a separate measurement for every shape. Compare open and solid outlines against your intended backing. Existing pretzel openings are part of its shape and do not establish a drilled attachment hole or a fastening method. Send the SKU, preferred shapes, quantity, packing or OEM requirements with your quotation request. The reference bag quantity is not an MOQ; confirm reverse surfaces before production.",
+      "uses": "Reference RW23314 with shape preference, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Biscuit-Shape Resin Cabochons for Bulk Craft Selection — RW23314",
+      "haibuDescription": "Compare RW23314 resin biscuit shapes, including pretzel and round cookie faces. Approximate 30 mm source size, 100 pieces per bag; enquire about.",
+      "metaTitle": "Biscuit-Shape Resin Cabochons for Bulk Craft Selection — RW23314",
+      "description": "Compare RW23314 resin biscuit shapes, including pretzel and round cookie faces. Approximate 30 mm source size, 100 pieces per bag; enquire about.",
+      "factNote": "Use the original image to discuss the shape selection. It does not establish a fixed assortment, proportions or a separate measurement for every shape. Compare open and solid outlines against your intended backing. Existing pretzel openings are part of its shape and do not establish a drilled attachment hole or a fastening method.",
+      "sourceFields": {
+        "title": "Mini Simulation Ice Cream Cookies Flat Back Resin Cabochons Scrapbook Kawaii Simulation Food DIY Jewelry Craft Decor Accessories",
+        "material": "Resin",
+        "size": "about 30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW23314"
+      },
+      "sourceProductId": "1601677962938",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Simulation-Ice-Cream-Cookies-Flat_1601677962938.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4e1abcd112b0446b8f4352e18ef0799dE.png_350x350.png",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Tray, paper, cloth and other props are not included. Confirm actual shapes, selection, dimensions and fixing method before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw23314/rw23314-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw23314/rw23314-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw23314/rw23314-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw23314/rw23314-1.jpg",
+        "assets/images/pdp/rw23314/rw23314-2.jpg",
+        "assets/images/pdp/rw23314/rw23314-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw23314/rw23314-resin-craft-cabochons-01.jpg",
+          "sha256": "218fee3de294c1df67cede6149e5d1810233dc24c96089ddd6f2d48239377080",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw23314/rw23314-resin-craft-cabochons-02.jpg",
+          "sha256": "751eb1c62b278369d7c0f8a391505df51d60c0a7f121f413dc78c94bc0b578e4",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw23314/rw23314-resin-craft-cabochons-03.jpg",
+          "sha256": "505eb25eb49751b019157aab65d9f1bba3fe45620fb902a9fe492ff70bb2ac95",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw23314/rw23314-1.jpg",
+          "sha256": "218fee3de294c1df67cede6149e5d1810233dc24c96089ddd6f2d48239377080",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw23314/rw23314-2.jpg",
+          "sha256": "751eb1c62b278369d7c0f8a391505df51d60c0a7f121f413dc78c94bc0b578e4",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw23314/rw23314-3.jpg",
+          "sha256": "505eb25eb49751b019157aab65d9f1bba3fe45620fb902a9fe492ff70bb2ac95",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Golden/tan biscuit shapes including open pretzel, round biscuit and ridged cookies; fixed assortment not established",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW25002",
+      "key": "rw25002",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Textured Resin Cupcake Miniatures for Bulk Selection — RW25002",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "approximately 20 × 28 mm source reference",
+      "packing": "100 pieces/bag",
+      "attachment": "Source calls these cabochons; reverse surface, holes and fixing accessories unconfirmed",
+      "variantSizeNotes": "The raised two-layer profile matters when selecting a backing or package. Confirm the actual profile and fixing surface before production rather than assuming a flat back.",
+      "procurementAdvice": "RW25002 pairs a tan waffle-pattern basket with two textured scoop layers. The different upper and lower colours help distinguish this miniature from smooth, flat cake-face cabochons. The source lists resin, approximately 20 × 28 mm and 100 pieces per bag. For assortment planning, compare the green-on-pink, yellow-on-pink and other pairings in the original photo; a fixed mixed ratio is not established.",
+      "caption": "RW25002 pairs a tan waffle-pattern basket with two textured scoop layers. The different upper and lower colours help distinguish this miniature from smooth, flat cake-face cabochons. The source lists resin, approximately 20 × 28 mm and 100 pieces per bag. For assortment planning, compare the green-on-pink, yellow-on-pink and other pairings in the original photo; a fixed mixed ratio is not established. The raised two-layer profile matters when selecting a backing or package. Confirm the actual profile and fixing surface before production rather than assuming a flat back. Send the SKU, preferred colours, quantity and packing or OEM requirements with your quotation request. The source bag count is not an MOQ.",
+      "uses": "Reference RW25002 with desired colour pairings, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Textured Resin Cupcake Miniatures for Bulk Selection — RW25002",
+      "haibuDescription": "Compare RW25002 pastel resin cupcake decorations with waffle-basket relief. Source size about 20 × 28 mm, 100 pieces per reference bag; enquire about.",
+      "metaTitle": "Textured Resin Cupcake Miniatures for Bulk Selection — RW25002",
+      "description": "Compare RW25002 pastel resin cupcake decorations with waffle-basket relief. Source size about 20 × 28 mm, 100 pieces per reference bag; enquire about.",
+      "factNote": "For assortment planning, compare the green-on-pink, yellow-on-pink and other pairings in the original photo; a fixed mixed ratio is not established. The raised two-layer profile matters when selecting a backing or package. Confirm the actual profile and fixing surface before production rather than assuming a flat back.",
+      "sourceFields": {
+        "title": "100pcs Resin Ice Cream Mini Cupcake 3D Food Simulation Cake Cabochon DIY Scrapbook Doll House Decor Accessories",
+        "material": "Resin",
+        "size": "about 20*28mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25002"
+      },
+      "sourceProductId": "1601285576656",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Resin-Ice-Cream-Mini-Cupcake_1601285576656.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H6ba2c640eb6d47a7ac90515da3319b0aq.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Box, flowers, paper and fabric are not included. Confirm actual colour selection, size and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw25002/rw25002-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw25002/rw25002-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw25002/rw25002-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25002/rw25002-1.jpg",
+        "assets/images/pdp/rw25002/rw25002-2.jpg",
+        "assets/images/pdp/rw25002/rw25002-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25002/rw25002-resin-craft-cabochons-01.jpg",
+          "sha256": "ad5658961a8a13bd0e8b94d31c506816ad75c3c22c8cce74565221f5039cd289",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25002/rw25002-resin-craft-cabochons-02.jpg",
+          "sha256": "8c9d975ebcb61f9e6642d6568a81b31a97b7aab3b78e40aa2f631fcab710c70f",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25002/rw25002-resin-craft-cabochons-03.jpg",
+          "sha256": "7aa87e26da5e42039c60a5601a4c4791cc9e28af71f69ba606f67766cd8ddaa3",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25002/rw25002-1.jpg",
+          "sha256": "ad5658961a8a13bd0e8b94d31c506816ad75c3c22c8cce74565221f5039cd289",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw25002/rw25002-2.jpg",
+          "sha256": "8c9d975ebcb61f9e6642d6568a81b31a97b7aab3b78e40aa2f631fcab710c70f",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw25002/rw25002-3.jpg",
+          "sha256": "7aa87e26da5e42039c60a5601a4c4791cc9e28af71f69ba606f67766cd8ddaa3",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Tan waffle-basket cupcake miniatures with two textured pastel scoop layers; several colour pairings visible, no fixed mix established",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW25607",
+      "key": "rw25607",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Star-Relief Heart Cake Resin Cabochons for Bulk Selection — RW25607",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 × 20 mm source reference",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; no drilled hole, hardware or supplied adhesive established",
+      "variantSizeNotes": "The existing lettering is part of the shown product design. Confirm any requested design or OEM change separately rather than assuming custom text is available.",
+      "procurementAdvice": "RW25607 has a heart-shaped face outlined by a wavy border. Raised stars and dots frame the source LOVE ME lettering, making the front design distinct from plain heart pieces. The source lists resin, 20 × 20 mm and 100 pieces per bag. Compare the lavender, pink, blue and yellow examples in the original photograph when selecting an assortment. No fixed colour ratio is established.",
+      "caption": "RW25607 has a heart-shaped face outlined by a wavy border. Raised stars and dots frame the source LOVE ME lettering, making the front design distinct from plain heart pieces. The source lists resin, 20 × 20 mm and 100 pieces per bag. Compare the lavender, pink, blue and yellow examples in the original photograph when selecting an assortment. No fixed colour ratio is established. The existing lettering is part of the shown product design. Confirm any requested design or OEM change separately rather than assuming custom text is available. Provide the SKU, selected colours, quantity, packing and backing requirements for quotation. The source bag count is not an MOQ; confirm the reverse surface and fixing compatibility.",
+      "uses": "Reference RW25607, colours, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Star-Relief Heart Cake Resin Cabochons for Bulk Selection — RW25607",
+      "haibuDescription": "Compare RW25607 heart cake cabochons with raised stars and source LOVE ME lettering. Resin, 20 × 20 mm reference size and 100 pieces per bag; enquire.",
+      "metaTitle": "Star-Relief Heart Cake Resin Cabochons for Bulk Selection — RW25607",
+      "description": "Compare RW25607 heart cake cabochons with raised stars and source LOVE ME lettering. Resin, 20 × 20 mm reference size and 100 pieces per bag; enquire.",
+      "factNote": "Compare the lavender, pink, blue and yellow examples in the original photograph when selecting an assortment. No fixed colour ratio is established. The existing lettering is part of the shown product design. Confirm any requested design or OEM change separately rather than assuming custom text is available.",
+      "sourceFields": {
+        "title": "100Pcs Simulation Love Me Heart Cake Resin Cabochon Flatbacks Scrapbook Crafts For Phone Decoration DIY Dollhouse Accessories",
+        "material": "Resin",
+        "size": "20*20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25607"
+      },
+      "sourceProductId": "1601455153588",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Simulation-Love-Me-Heart-Cake_1601455153588.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5270a78cdedf443bae0d8ec2c3d25099W.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Paper and fabric props are excluded. Confirm the actual selection, dimensions and fixing compatibility before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw25607/rw25607-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw25607/rw25607-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw25607/rw25607-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25607/rw25607-1.jpg",
+        "assets/images/pdp/rw25607/rw25607-2.jpg",
+        "assets/images/pdp/rw25607/rw25607-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25607/rw25607-resin-craft-cabochons-01.jpg",
+          "sha256": "71d4e254757107ca4c77d3ecd33fcf13ea5d85e00950357a158243f235f0a0e2",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25607/rw25607-resin-craft-cabochons-02.jpg",
+          "sha256": "4eba1a639fc3dca12b8ce1aa7f38dad4995dcb824a97e306e631900bd3223489",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25607/rw25607-resin-craft-cabochons-03.jpg",
+          "sha256": "c82d02c3b36f108bef8bd1e9499f51b350b15874dde287a5af06cdd9b94e64e9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25607/rw25607-1.jpg",
+          "sha256": "71d4e254757107ca4c77d3ecd33fcf13ea5d85e00950357a158243f235f0a0e2",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw25607/rw25607-2.jpg",
+          "sha256": "4eba1a639fc3dca12b8ce1aa7f38dad4995dcb824a97e306e631900bd3223489",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw25607/rw25607-3.jpg",
+          "sha256": "c82d02c3b36f108bef8bd1e9499f51b350b15874dde287a5af06cdd9b94e64e9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Heart cake face with wavy border, five raised stars, round dots and LOVE ME lettering; lavender/pink/blue/yellow examples, fixed mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW25623",
+      "key": "rw25623",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Resin Ice-Pop Cabochons for Bulk Craft Selection — RW25623",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "Source lists approximately 25 × 55 mm and 16 × 34 mm; design-to-size mapping unconfirmed",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; no drilled hole, supplied adhesive or hardware established",
+      "variantSizeNotes": "For bulk selection or OEM enquiries, provide the SKU, preferred design, required quantity and packing needs. The reference bag count is not an MOQ.",
+      "procurementAdvice": "RW25623 offers resin ice-pop faces with molded sticks and dipped or striped surface details. The source lists approximately 25 × 55 mm and 16 × 34 mm, with 100 pieces per bag. Confirm which size applies to your selected design when requesting a quotation. Compare the original photo's colour and surface-design options for a coordinated assortment; no fixed mixed composition is established.",
+      "caption": "RW25623 offers resin ice-pop faces with molded sticks and dipped or striped surface details. The source lists approximately 25 × 55 mm and 16 × 34 mm, with 100 pieces per bag. Confirm which size applies to your selected design when requesting a quotation. Compare the original photo's colour and surface-design options for a coordinated assortment; no fixed mixed composition is established. For bulk selection or OEM enquiries, provide the SKU, preferred design, required quantity and packing needs. The reference bag count is not an MOQ. The source describes flatback cabochons. Confirm the actual reverse surface and fixing compatibility with your intended backing; no adhesive or mounting accessories are established as included.",
+      "uses": "Reference RW25623, selected designs and size, quantity and packing; request a current quotation and fixing details.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Resin Ice-Pop Cabochons for Bulk Craft Selection — RW25623",
+      "haibuDescription": "Compare RW25623 resin ice-pop decorations for craft assortments. Two source size references and 100 pieces per bag; enquire about design selection,.",
+      "metaTitle": "Resin Ice-Pop Cabochons for Bulk Craft Selection — RW25623",
+      "description": "Compare RW25623 resin ice-pop decorations for craft assortments. Two source size references and 100 pieces per bag; enquire about design selection,.",
+      "factNote": "Compare the original photo's colour and surface-design options for a coordinated assortment; no fixed mixed composition is established. For bulk selection or OEM enquiries, provide the SKU, preferred design, required quantity and packing needs. The reference bag count is not an MOQ.",
+      "sourceFields": {
+        "title": "100pcs Kawaii Chocolate Ice Cream Flatback Resin Cabochon Scrapbooking Decor DIY Doll House Embellishments Center",
+        "material": "Resin",
+        "size": "about25*55mm- / 16*34mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25623"
+      },
+      "sourceProductId": "1601449163829",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Chocolate-Ice-Cream-Flatback_1601449163829.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H88fc3611e68840e6a457660a32a7d800e.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Scrapbook, paper, fabric and other props are not included. Confirm the actual design, size and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw25623/rw25623-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw25623/rw25623-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw25623/rw25623-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25623/rw25623-1.jpg",
+        "assets/images/pdp/rw25623/rw25623-2.jpg",
+        "assets/images/pdp/rw25623/rw25623-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25623/rw25623-resin-craft-cabochons-01.jpg",
+          "sha256": "4cbeb6fb28e4fac5fa76ac1797ed9334a365984d8f9ebe3f39cbf5bba43cc81f",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25623/rw25623-resin-craft-cabochons-02.jpg",
+          "sha256": "adbdbede879b642639371e67c68708d8db8254f072becd9872b919394d7c3500",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25623/rw25623-resin-craft-cabochons-03.jpg",
+          "sha256": "367340a446e3c19767d5d1f53ec164d073cec261dad8cae3ac9514c781b85042",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25623/rw25623-1.jpg",
+          "sha256": "4cbeb6fb28e4fac5fa76ac1797ed9334a365984d8f9ebe3f39cbf5bba43cc81f",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw25623/rw25623-2.jpg",
+          "sha256": "adbdbede879b642639371e67c68708d8db8254f072becd9872b919394d7c3500",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw25623/rw25623-3.jpg",
+          "sha256": "367340a446e3c19767d5d1f53ec164d073cec261dad8cae3ac9514c781b85042",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Rectangular ice-pop faces with molded tan sticks and different coloured dipped or striped decorations; fixed assortment not guaranteed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW25963",
+      "key": "rw25963",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Fruit Roll-Cake Resin Miniatures for Bulk Craft Selection — RW25963",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "25 × 16 mm source reference",
+      "packing": "100 pieces/bag",
+      "attachment": "No hole, reverse-side specification, adhesive or hardware established",
+      "variantSizeNotes": "For bulk or OEM planning, provide the SKU, preferred designs, required quantity and packing requirements. The reference bag count does not establish an MOQ.",
+      "procurementAdvice": "RW25963 features miniature roll-cake outlines with spiral ends, raised cream and coloured fruit details. The source lists resin, 25 × 16 mm and 100 pieces per reference bag. Confirm the selected designs and actual supplied assortment when requesting a quotation. The original photograph supports several fruit-and-colour options, without establishing a fixed mixed ratio.",
+      "caption": "RW25963 features miniature roll-cake outlines with spiral ends, raised cream and coloured fruit details. The source lists resin, 25 × 16 mm and 100 pieces per reference bag. Confirm the selected designs and actual supplied assortment when requesting a quotation. The original photograph supports several fruit-and-colour options, without establishing a fixed mixed ratio. For bulk or OEM planning, provide the SKU, preferred designs, required quantity and packing requirements. The reference bag count does not establish an MOQ. Ask about the reverse surface and a suitable fixing method for your backing before committing a production layout; no adhesive or mounting hardware is established as supplied.",
+      "uses": "Reference RW25963 with design selection, quantity, packing and fixing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Fruit Roll-Cake Resin Miniatures for Bulk Craft Selection — RW25963",
+      "haibuDescription": "Compare RW25963 resin roll-cake miniatures with raised fruit details. Source reference size 25 × 16 mm and 100 pieces per bag; enquire about selection.",
+      "metaTitle": "Fruit Roll-Cake Resin Miniatures for Bulk Craft Selection — RW25963",
+      "description": "Compare RW25963 resin roll-cake miniatures with raised fruit details. Source reference size 25 × 16 mm and 100 pieces per bag; enquire about selection.",
+      "factNote": "The original photograph supports several fruit-and-colour options, without establishing a fixed mixed ratio. For bulk or OEM planning, provide the SKU, preferred designs, required quantity and packing requirements. The reference bag count does not establish an MOQ.",
+      "sourceFields": {
+        "title": "Relief Colorful Resin Handdrawn Cupcake Cake Ice Cream Tank Jar Tin Cake Tableware Kitchen Household Dinnerware Kids Gifts",
+        "material": "Resin",
+        "size": "25*16mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25963"
+      },
+      "sourceProductId": "1601600411170",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Relief-Colorful-Resin-Handdrawn-Cupcake-Cake_1601600411170.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hd2d384b00922414faa65cce9af867a303.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Tray, fabric and other props are not included. Confirm actual selection, dimensions and fixing method before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw25963/rw25963-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw25963/rw25963-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw25963/rw25963-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25963/rw25963-1.jpg",
+        "assets/images/pdp/rw25963/rw25963-2.jpg",
+        "assets/images/pdp/rw25963/rw25963-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25963/rw25963-resin-craft-cabochons-01.jpg",
+          "sha256": "825e559b424d465cbc320f1bd4e2eedfa7651b26df35e506ef023e7fbd81b7fc",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25963/rw25963-resin-craft-cabochons-02.jpg",
+          "sha256": "e4e001cd17d0f3c3411b2a542dac05151f81eada89d15988024009aa13d0eb95",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw25963/rw25963-resin-craft-cabochons-03.jpg",
+          "sha256": "11a52454f2670ab80173475a5d470d1369ae9498c71e7b83d318c6385ac20fe2",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25963/rw25963-1.jpg",
+          "sha256": "825e559b424d465cbc320f1bd4e2eedfa7651b26df35e506ef023e7fbd81b7fc",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw25963/rw25963-2.jpg",
+          "sha256": "e4e001cd17d0f3c3411b2a542dac05151f81eada89d15988024009aa13d0eb95",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw25963/rw25963-3.jpg",
+          "sha256": "11a52454f2670ab80173475a5d470d1369ae9498c71e7b83d318c6385ac20fe2",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Miniature pastel roll cakes with spiral ends, ivory cream relief and coloured fruit details; no fixed mix guaranteed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW26097",
+      "key": "rw26097",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Fruit-Topped Resin Toast Cake Decorations for Bulk Selection — RW26097",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "23 × 15 mm source reference",
+      "packing": "100 pieces/bag",
+      "attachment": "No source-backed drilled hole, mounting hardware, adhesive or reverse-side geometry established",
+      "variantSizeNotes": "The raised fruit detail may affect the space needed around a piece. Confirm the actual profile and reverse surface for your backing and packaging plan.",
+      "procurementAdvice": "RW26097 uses a rectangular base rather than a roll or cupcake outline. White cream relief carries contrasting red, dark blue and green fruit details. The source records resin, 23 × 15 mm and 100 pieces per reference bag. Compare the base colours and visible fruit arrangements in the original photo when planning a coordinated assortment; no fixed mix is established.",
+      "caption": "RW26097 uses a rectangular base rather than a roll or cupcake outline. White cream relief carries contrasting red, dark blue and green fruit details. The source records resin, 23 × 15 mm and 100 pieces per reference bag. Compare the base colours and visible fruit arrangements in the original photo when planning a coordinated assortment; no fixed mix is established. The raised fruit detail may affect the space needed around a piece. Confirm the actual profile and reverse surface for your backing and packaging plan. Use the SKU when requesting designs, quantity, packing or OEM options. The reference bag quantity is not an MOQ and no current price is implied.",
+      "uses": "Reference RW26097 with preferred base colour, quantity, packing and backing needs; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Fruit-Topped Resin Toast Cake Decorations for Bulk Selection — RW26097",
+      "haibuDescription": "Compare RW26097 rectangular resin cake decorations with raised cream and fruit details. Source reference 23 × 15 mm, 100 pieces per bag; enquire about.",
+      "metaTitle": "Fruit-Topped Resin Toast Cake Decorations for Bulk Selection — RW26097",
+      "description": "Compare RW26097 rectangular resin cake decorations with raised cream and fruit details. Source reference 23 × 15 mm, 100 pieces per bag; enquire about.",
+      "factNote": "Compare the base colours and visible fruit arrangements in the original photo when planning a coordinated assortment; no fixed mix is established. The raised fruit detail may affect the space needed around a piece. Confirm the actual profile and reverse surface for your backing and packaging plan.",
+      "sourceFields": {
+        "title": "100Pcs Kawaii Strawberry Cake Bread Snack Resin Cabochons Scrapbook Crafts Phone Decoration DIY Food Dollhouse Accessories",
+        "material": "Resin",
+        "size": "23*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26097"
+      },
+      "sourceProductId": "1601669812121",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Strawberry-Cake-Bread-Snack_1601669812121.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H910c550934a1419d84de759d1ee73611f.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Keepsake box, paper, fabric and other props are not included. Confirm actual supplied selection, dimensions and fixing method before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw26097/rw26097-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26097/rw26097-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26097/rw26097-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26097/rw26097-1.jpg",
+        "assets/images/pdp/rw26097/rw26097-2.jpg",
+        "assets/images/pdp/rw26097/rw26097-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26097/rw26097-resin-craft-cabochons-01.jpg",
+          "sha256": "f30789de8aa77736f5a716bc025f8858f403bf97bc0931531f1d9019149fdb80",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26097/rw26097-resin-craft-cabochons-02.jpg",
+          "sha256": "1cd54dd3aeb3831e9e62711b37fa4c40ba5fa27ab5ba5c40149695d85e0a4d2a",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26097/rw26097-resin-craft-cabochons-03.jpg",
+          "sha256": "7ab24d4fcf0ce2c4f322b2d7fea1e29b875838f05cab37bca85366f5ebca1f37",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26097/rw26097-1.jpg",
+          "sha256": "f30789de8aa77736f5a716bc025f8858f403bf97bc0931531f1d9019149fdb80",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26097/rw26097-2.jpg",
+          "sha256": "1cd54dd3aeb3831e9e62711b37fa4c40ba5fa27ab5ba5c40149695d85e0a4d2a",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26097/rw26097-3.jpg",
+          "sha256": "7ab24d4fcf0ce2c4f322b2d7fea1e29b875838f05cab37bca85366f5ebca1f37",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Rectangular toast or cake miniatures with white cream relief, red strawberry half, dark berry, green kiwi wedge and leaf; base colour selections shown, fixed mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW26134",
+      "key": "rw26134",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Fruit-Relief Triangular Resin Cake Miniatures for Bulk Selection — RW26134",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "approximately 18 mm source reference",
+      "packing": "100 pieces/bag",
+      "attachment": "Reverse-side specification, drilled hole, adhesive and mounting hardware unconfirmed",
+      "variantSizeNotes": "The approximately 18 mm record is a source size reference; confirm the dimensions and reverse surface of the selected variant for your production layout.",
+      "procurementAdvice": "RW26134's triangular wedge outline separates it from round cake faces and roll miniatures. Fruit details appear both on top and on the visible front of the cake design. The source lists resin, approximately 18 mm and 100 pieces per bag. Compare the strawberry and blueberry examples and top colours in the original photograph before selecting an assortment. A fixed mix is not established.",
+      "caption": "RW26134's triangular wedge outline separates it from round cake faces and roll miniatures. Fruit details appear both on top and on the visible front of the cake design. The source lists resin, approximately 18 mm and 100 pieces per bag. Compare the strawberry and blueberry examples and top colours in the original photograph before selecting an assortment. A fixed mix is not established. The approximately 18 mm record is a source size reference; confirm the dimensions and reverse surface of the selected variant for your production layout. Provide the SKU, preferred designs, quantity, packing or OEM requirements for quotation. The bag count is not an MOQ and no fixing accessories are established as included.",
+      "uses": "Reference RW26134 with preferred cake designs, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Fruit-Relief Triangular Resin Cake Miniatures for Bulk Se | RW26134",
+      "haibuDescription": "Compare RW26134 triangular resin cake decorations with strawberry or blueberry details. Approximate 18 mm source size, 100 pieces per bag; enquire.",
+      "metaTitle": "Fruit-Relief Triangular Resin Cake Miniatures for Bulk Se | RW26134",
+      "description": "Compare RW26134 triangular resin cake decorations with strawberry or blueberry details. Approximate 18 mm source size, 100 pieces per bag; enquire.",
+      "factNote": "Compare the strawberry and blueberry examples and top colours in the original photograph before selecting an assortment. A fixed mix is not established. The approximately 18 mm record is a source size reference; confirm the dimensions and reverse surface of the selected variant for your production layout.",
+      "sourceFields": {
+        "title": "Sweet Strawberry Blueberry Cream Triangle Cake Resin Figurines DIY Creative Doll House Resin Decoration",
+        "material": "Resin",
+        "size": "about18mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26134"
+      },
+      "sourceProductId": "1601702018597",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Sweet-Strawberry-Blueberry-Cream-Triangle-Cake_1601702018597.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0595e27055d44bfe8c54d89affc77fa4J.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Gift tag, paper, fabric and other props are not included. Confirm actual design selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw26134/rw26134-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26134/rw26134-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26134/rw26134-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26134/rw26134-1.jpg",
+        "assets/images/pdp/rw26134/rw26134-2.jpg",
+        "assets/images/pdp/rw26134/rw26134-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26134/rw26134-resin-craft-cabochons-01.jpg",
+          "sha256": "f759fa59761f55d00630678e4cc6ecb8e0fbd141e5d6153f9b91034528fb7801",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26134/rw26134-resin-craft-cabochons-02.jpg",
+          "sha256": "86a8372015b0e1c5885f4febb7cd1bd352344cab6f67f05ca2fba01164203ae7",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26134/rw26134-resin-craft-cabochons-03.jpg",
+          "sha256": "569a332cfb44fbafbc84d296b40f0e17a1f173cab9cba8d00edb3c35272ed5f5",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26134/rw26134-1.jpg",
+          "sha256": "f759fa59761f55d00630678e4cc6ecb8e0fbd141e5d6153f9b91034528fb7801",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26134/rw26134-2.jpg",
+          "sha256": "86a8372015b0e1c5885f4febb7cd1bd352344cab6f67f05ca2fba01164203ae7",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26134/rw26134-3.jpg",
+          "sha256": "569a332cfb44fbafbc84d296b40f0e17a1f173cab9cba8d00edb3c35272ed5f5",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Triangular miniature cake wedges, strawberry or blueberry relief, yellow or dark top examples; no fixed assortment established",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW26141",
+      "key": "rw26141",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Dimensional Fruit Resin Miniatures for Bulk Selection — RW26141",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "26 × 21 × 16 mm source reference; confirm selected variant",
+      "packing": "100 pieces/bag",
+      "attachment": "Drilled attachment holes, reverse specification and supplied fixing accessories unconfirmed",
+      "variantSizeNotes": "Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging.",
+      "procurementAdvice": "RW26141 presents fruit forms with textured exteriors or visible cut-face details. The whole-orange example has dimpled peel, a small green leaf and a short stem, unlike the cut-face pieces pictured alongside it. The source records resin, 26 × 21 × 16 mm and 100 pieces per reference bag. Compare whole and cut-face forms individually; do not assume that each pictured fruit shares the same dimensions or pack ratio.",
+      "caption": "RW26141 presents fruit forms with textured exteriors or visible cut-face details. The whole-orange example has dimpled peel, a small green leaf and a short stem, unlike the cut-face pieces pictured alongside it. The source records resin, 26 × 21 × 16 mm and 100 pieces per reference bag. Compare whole and cut-face forms individually; do not assume that each pictured fruit shares the same dimensions or pack ratio. Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging. State the SKU, chosen designs, quantity and packing or OEM requirements when requesting a quotation. The bag count is not an MOQ.",
+      "uses": "Reference RW26141 with selected designs, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Dimensional Fruit Resin Miniatures for Bulk Selection — RW26141",
+      "haibuDescription": "RW26141 resin craft decorations: 26 × 21 × 16 mm source reference, 100 pieces per bag. Enquire about design selection, bulk packing and current quotation.",
+      "metaTitle": "Dimensional Fruit Resin Miniatures for Bulk Selection — RW26141",
+      "description": "RW26141 resin craft decorations: 26 × 21 × 16 mm source reference, 100 pieces per bag. Enquire about design selection, bulk packing and current quotation.",
+      "factNote": "Compare whole and cut-face forms individually; do not assume that each pictured fruit shares the same dimensions or pack ratio. Confirm measurements and the reverse surface of the selected design before choosing production backing or packaging.",
+      "sourceFields": {
+        "title": "100pcs 3D Simulation Cute Fruit Avocado Orange Decoration Resin Charms Supplies for Making DIY Accessories Dollhouse",
+        "material": "Resin",
+        "size": "26*21*16MM-",
+        "packaging": "100PCS/BAG",
+        "sku_raw": "MO-RW26141"
+      },
+      "sourceProductId": "1601361690863",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-3D-Simulation-Cute-Fruit-Avocado_1601361690863.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hcf38b0ef18404563a61e6bae78c51e87I.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Display tray, gift box, scrapbook, envelope, paper, fabric and other props are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw26141/rw26141-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26141/rw26141-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26141/rw26141-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26141/rw26141-1.jpg",
+        "assets/images/pdp/rw26141/rw26141-2.jpg",
+        "assets/images/pdp/rw26141/rw26141-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26141/rw26141-resin-craft-cabochons-01.jpg",
+          "sha256": "14f983197c3dbe79ac2109decd7420302f60b623f9a9963bf6346fea06a2ba1a",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26141/rw26141-resin-craft-cabochons-02.jpg",
+          "sha256": "c7ecc10f81f465a45f9299d45264b936806b4e9d9fd35df6561bed19a930f5e5",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26141/rw26141-resin-craft-cabochons-03.jpg",
+          "sha256": "65d4284e9f895bfc96dc780e2100a1d6e052041b59b67944c2cb2a6a9d0cdb1f",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26141/rw26141-1.jpg",
+          "sha256": "14f983197c3dbe79ac2109decd7420302f60b623f9a9963bf6346fea06a2ba1a",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26141/rw26141-2.jpg",
+          "sha256": "c7ecc10f81f465a45f9299d45264b936806b4e9d9fd35df6561bed19a930f5e5",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26141/rw26141-3.jpg",
+          "sha256": "65d4284e9f895bfc96dc780e2100a1d6e052041b59b67944c2cb2a6a9d0cdb1f",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Fruit-shaped resin miniatures with whole and cut-face relief; assorted forms shown, fixed mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW26145",
+      "key": "rw26145",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Fruit Biscuit Basket Resin Cabochons for Bulk Selection — RW26145",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "28 × 15 × 12 mm source reference",
+      "packing": "100 pieces/bag",
+      "attachment": "Source cabochon, no drilled hole or supplied fixing accessories established",
+      "variantSizeNotes": "Several basket-border colours are pictured, without an established fixed mix. Specify the required selection when discussing a bulk assortment.",
+      "procurementAdvice": "RW26145 has a long rectangular basket border around a row of golden biscuit shapes. Red strawberries, dark berries and a small flower cluster sit at one end. The source lists resin, 28 × 15 × 12 mm and 100 pieces per reference bag. The source gives three dimensions, useful when comparing this raised design with flatter cake-face accents. Confirm the actual dimensions and backing before production.",
+      "caption": "RW26145 has a long rectangular basket border around a row of golden biscuit shapes. Red strawberries, dark berries and a small flower cluster sit at one end. The source lists resin, 28 × 15 × 12 mm and 100 pieces per reference bag. The source gives three dimensions, useful when comparing this raised design with flatter cake-face accents. Confirm the actual dimensions and backing before production. Several basket-border colours are pictured, without an established fixed mix. Specify the required selection when discussing a bulk assortment. Provide the SKU, quantity and packing or OEM requirements for quotation. The reference bag count is not an MOQ, and a fixing method has not been established.",
+      "uses": "Reference RW26145 with basket colour, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Fruit Biscuit Basket Resin Cabochons for Bulk Selection — RW26145",
+      "haibuDescription": "Compare RW26145 resin biscuit-basket decorations with raised fruit and biscuit details. Source reference 28 × 15 × 12 mm, 100 pieces per bag; enquire.",
+      "metaTitle": "Fruit Biscuit Basket Resin Cabochons for Bulk Selection — RW26145",
+      "description": "Compare RW26145 resin biscuit-basket decorations with raised fruit and biscuit details. Source reference 28 × 15 × 12 mm, 100 pieces per bag; enquire.",
+      "factNote": "The source gives three dimensions, useful when comparing this raised design with flatter cake-face accents. Confirm the actual dimensions and backing before production. Several basket-border colours are pictured, without an established fixed mix. Specify the required selection when discussing a bulk assortment.",
+      "sourceFields": {
+        "title": "100Pcs New Fruit Biscuits Basket Resin Cabochon Simulation Food DIY Craft Phone Decoration Doll House Accessories",
+        "material": "Resin",
+        "size": "28*15*12mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26145"
+      },
+      "sourceProductId": "1601694139544",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-New-Fruit-Biscuits-Basket-Resin_1601694139544.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4d0d01a3b8154c04a56b2d7de1401863i.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Gift box, cloth and paper are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw26145/rw26145-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26145/rw26145-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26145/rw26145-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26145/rw26145-1.jpg",
+        "assets/images/pdp/rw26145/rw26145-2.jpg",
+        "assets/images/pdp/rw26145/rw26145-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26145/rw26145-resin-craft-cabochons-01.jpg",
+          "sha256": "a078d0d6510907093ebb0d6990cb0936145f104293be1b6b8885e6dccc732eed",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26145/rw26145-resin-craft-cabochons-02.jpg",
+          "sha256": "f347efc971b91170dbfd85b55ab174fbfde0221c4d3db53a8a6490657e7abdaa",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26145/rw26145-resin-craft-cabochons-03.jpg",
+          "sha256": "4714e2c384cab48dd2d9dbc0f99b0bfe881b3afee9390f7fe671f0609e22ac8c",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26145/rw26145-1.jpg",
+          "sha256": "a078d0d6510907093ebb0d6990cb0936145f104293be1b6b8885e6dccc732eed",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26145/rw26145-2.jpg",
+          "sha256": "f347efc971b91170dbfd85b55ab174fbfde0221c4d3db53a8a6490657e7abdaa",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26145/rw26145-3.jpg",
+          "sha256": "4714e2c384cab48dd2d9dbc0f99b0bfe881b3afee9390f7fe671f0609e22ac8c",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Rectangular biscuit-basket relief with golden biscuit row, strawberries, dark berries and flower; several border colours shown, fixed mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW26149",
+      "key": "rw26149",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Translucent Resin Flower Cabochons for Bulk Colour Selection — RW26149",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "21 × 20 mm and approximately 29 mm source references; variant mapping unconfirmed",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; no drilled hole or supplied fixing accessories established",
+      "variantSizeNotes": "Compare each petal outline against your intended backing when planning a colour assortment. The source describes flatback cabochons, but the reverse geometry and fixing compatibility still need confirmation.",
+      "procurementAdvice": "RW26149 uses translucent coloured petals around a contrasting round centre. Molded grooves catch light across the petal faces, providing a different effect from opaque flowers. The source lists resin, size references of 21 × 20 mm and approximately 29 mm, and 100 pieces per bag. The original photo shows more than one flower size and colour. Confirm the design-to-size mapping and supplied selection; no fixed ratio is established.",
+      "caption": "RW26149 uses translucent coloured petals around a contrasting round centre. Molded grooves catch light across the petal faces, providing a different effect from opaque flowers. The source lists resin, size references of 21 × 20 mm and approximately 29 mm, and 100 pieces per bag. The original photo shows more than one flower size and colour. Confirm the design-to-size mapping and supplied selection; no fixed ratio is established. Compare each petal outline against your intended backing when planning a colour assortment. The source describes flatback cabochons, but the reverse geometry and fixing compatibility still need confirmation. State the SKU, selected size and colours, quantity and packing or OEM requirements when requesting a quotation. The reference bag count is not an MOQ.",
+      "uses": "Reference RW26149 with flower size and colour preferences, quantity, packing and backing questions; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Translucent Resin Flower Cabochons for Bulk Colour Selection — RW26149",
+      "haibuDescription": "Compare RW26149 resin flowers with translucent petals and round centres. Two source size references and 100 pieces per bag; enquire about selection.",
+      "metaTitle": "Translucent Resin Flower Cabochons for Bulk Colour Selection — RW26149",
+      "description": "Compare RW26149 resin flowers with translucent petals and round centres. Two source size references and 100 pieces per bag; enquire about selection.",
+      "factNote": "The original photo shows more than one flower size and colour. Confirm the design-to-size mapping and supplied selection; no fixed ratio is established. Compare each petal outline against your intended backing when planning a colour assortment. The source describes flatback cabochons, but the reverse geometry and fixing compatibility still need confirmation.",
+      "sourceFields": {
+        "title": "Transparent Glitter Colors Flower Shape Resin Flatback Cabochon for DIY Handmade Crafts Decor Hair Accessories Making",
+        "material": "Resin",
+        "size": "21*20mm- / about29mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26149"
+      },
+      "sourceProductId": "1601694005566",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Transparent-Glitter-Colors-Flower-Shape-Resin_1601694005566.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Heb02428ea7f84492a709c6795550f04cU.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Envelope, paper, fabric and other props are excluded. Confirm the actual flower selection, size and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw26149/rw26149-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26149/rw26149-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26149/rw26149-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26149/rw26149-1.jpg",
+        "assets/images/pdp/rw26149/rw26149-2.jpg",
+        "assets/images/pdp/rw26149/rw26149-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26149/rw26149-resin-craft-cabochons-01.jpg",
+          "sha256": "869a192780b096a3a35f00226a8bb3684b5cf1543f25d88477e9bbb78e51e7d4",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26149/rw26149-resin-craft-cabochons-02.jpg",
+          "sha256": "bb2215ab54c687a004e04f961a84334db5e45b8678f5dce658c2c6345bded301",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26149/rw26149-resin-craft-cabochons-03.jpg",
+          "sha256": "5bfa31a8212519ee730de69caa620cac44d2bb158c1e9ac48eac9c9aab78728b",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26149/rw26149-1.jpg",
+          "sha256": "869a192780b096a3a35f00226a8bb3684b5cf1543f25d88477e9bbb78e51e7d4",
+          "width": 350,
+          "height": 350,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26149/rw26149-2.jpg",
+          "sha256": "bb2215ab54c687a004e04f961a84334db5e45b8678f5dce658c2c6345bded301",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26149/rw26149-3.jpg",
+          "sha256": "5bfa31a8212519ee730de69caa620cac44d2bb158c1e9ac48eac9c9aab78728b",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Translucent coloured flower faces with rounded grooved petals and contrasting round centres; several colours and sizes visible, fixed mix unconfirmed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    },
+    {
+      "sku": "RW26150",
+      "key": "rw26150",
+      "batchNumber": 39,
+      "batchId": "20261111-monica-39",
+      "title": "Pink Blossom Resin Cake Cabochons for Bulk Selection — RW26150",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "22 × 23 mm source reference; variation-specific dimensions not established",
+      "packing": "100 pieces/bag",
+      "attachment": "Source describes flatback cabochons; no drilled hole, supplied adhesive or hardware established",
+      "variantSizeNotes": "State the SKU, desired designs, quantity and packing or OEM requirements in your enquiry. The bag count is not an MOQ.",
+      "procurementAdvice": "RW26150 combines pink and ivory dessert outlines with raised blossom details. The source identifies resin flatback cabochons, lists 22 × 23 mm and packs of 100 pieces. Treat these as source references and confirm the selected designs and dimensions for your order. Compare roll, layered and striped cake faces when planning a coordinated craft assortment; the original photograph does not establish a fixed mix or ratio.",
+      "caption": "RW26150 combines pink and ivory dessert outlines with raised blossom details. The source identifies resin flatback cabochons, lists 22 × 23 mm and packs of 100 pieces. Treat these as source references and confirm the selected designs and dimensions for your order. Compare roll, layered and striped cake faces when planning a coordinated craft assortment; the original photograph does not establish a fixed mix or ratio. State the SKU, desired designs, quantity and packing or OEM requirements in your enquiry. The bag count is not an MOQ. Confirm the reverse surface and fixing compatibility for your intended backing before production. Adhesive and mounting accessories are not established as included.",
+      "uses": "Reference RW26150, requested designs, quantity, packing and intended backing; request a current quotation.",
+      "keywords": "resin-craft-cabochons",
+      "haibuMetaTitle": "Pink Blossom Resin Cake Cabochons for Bulk Selection — RW26150",
+      "haibuDescription": "Review RW26150 pink blossom resin cake decorations, a 22 × 23 mm source size and 100-piece reference bag. Enquire about designs, packing and OEM.",
+      "metaTitle": "Pink Blossom Resin Cake Cabochons for Bulk Selection — RW26150",
+      "description": "Review RW26150 pink blossom resin cake decorations, a 22 × 23 mm source size and 100-piece reference bag. Enquire about designs, packing and OEM.",
+      "factNote": "Compare roll, layered and striped cake faces when planning a coordinated craft assortment; the original photograph does not establish a fixed mix or ratio. State the SKU, desired designs, quantity and packing or OEM requirements in your enquiry. The bag count is not an MOQ.",
+      "sourceFields": {
+        "title": "Shiny Cherry Blossom Cake Series Resin Flatback Cabochons for Hairpin Scrapbooking DIY Jewelry Craft Decoration Accessories",
+        "material": "Resin",
+        "size": "22*23mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26150"
+      },
+      "sourceProductId": "60746028275",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Shiny-Cherry-Blossom-Cake-Series-Resin_60746028275.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin material in same SKU reliable source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4431341127514a70998365700e9f8a195.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Keepsake box, fabric and other props are not included. Confirm actual selection, dimensions and fixing suitability before ordering.",
+      "haibuImages": [
+        "assets/images/products/batch-20261111-monica-39/rw26150/rw26150-resin-craft-cabochons-01.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26150/rw26150-resin-craft-cabochons-02.jpg",
+        "assets/images/products/batch-20261111-monica-39/rw26150/rw26150-resin-craft-cabochons-03.jpg"
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26150/rw26150-1.jpg",
+        "assets/images/pdp/rw26150/rw26150-2.jpg",
+        "assets/images/pdp/rw26150/rw26150-3.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26150/rw26150-resin-craft-cabochons-01.jpg",
+          "sha256": "6f43ee4791dca3dd5cb837e9c6599d84a67b13b6a0fbae63a23e0ecf8d3d7661",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26150/rw26150-resin-craft-cabochons-02.jpg",
+          "sha256": "f08c1eac7a3f1427227ff8246f1b57f41f847788b3daf12320c6679e88d1655d",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/products/batch-20261111-monica-39/rw26150/rw26150-resin-craft-cabochons-03.jpg",
+          "sha256": "b28bd68921aa9f5688e8ac97b7ba401885ec1684e1afdc951e8c41587b8124a9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26150/rw26150-1.jpg",
+          "sha256": "6f43ee4791dca3dd5cb837e9c6599d84a67b13b6a0fbae63a23e0ecf8d3d7661",
+          "width": 1000,
+          "height": 1000,
+          "role": "main",
+          "generated": false
+        },
+        {
+          "path": "assets/images/pdp/rw26150/rw26150-2.jpg",
+          "sha256": "f08c1eac7a3f1427227ff8246f1b57f41f847788b3daf12320c6679e88d1655d",
+          "width": 1000,
+          "height": 1000,
+          "role": "application_reference",
+          "generated": true
+        },
+        {
+          "path": "assets/images/pdp/rw26150/rw26150-3.jpg",
+          "sha256": "b28bd68921aa9f5688e8ac97b7ba401885ec1684e1afdc951e8c41587b8124a9",
+          "width": 1000,
+          "height": 1000,
+          "role": "detail_reference",
+          "generated": true
+        }
+      ],
+      "visualSummary": "Glossy pink and ivory blossom dessert designs, including roll, layer and striped cake faces; mixed selection not guaranteed",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only"
+    }
+  ]
+}

@@ -146,7 +146,7 @@
       "description": "Read practical HAIBUCRAFT guides about wholesale product briefs, sample approval, packaging, quality checkpoints and custom sourcing.",
       "type": "website",
       "index": true,
-      "lastModified": "2026-11-09"
+      "lastModified": "2026-11-10"
     },
     {
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/",
@@ -8011,6 +8011,16 @@
       "index": false,
       "generatedProduct": true,
       "archivedCatalogReference": true
+    },
+    {
+      "previewPath": "/v2-preview/blog/source-craft-supplies-from-reference-photos/",
+      "productionPath": "/blog/source-craft-supplies-from-reference-photos/",
+      "title": "Source Craft Supplies from Photos | HAIBU",
+      "description": "Turn a reference photo into a wholesale component brief. Compare real resin and clay SKUs, exact and similar options, quantities and packing.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-11-10",
+      "generatedBlog": true
     },
     {
       "previewPath": "/v2-preview/blog/strawberry-polymer-clay-slices-wholesale/",

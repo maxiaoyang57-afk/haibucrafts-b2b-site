@@ -324,7 +324,7 @@ for (const article of articles) {
     '@type': 'BlogPosting',
     headline: article.title,
     description: article.description,
-    ...(article.image ? { image: `https://www.haibucrafts.com${article.image.src}` } : {}),
+    ...(article.image ? { image: `https://www.haibucrafts.com${article.image.src}` } : article.productReferences ? { image: article.productReferences.map(p => `https://www.haibucrafts.com${p.image}`) } : {}),
     datePublished: article.datePublished || '2026-08-01',
     dateModified: article.dateModified || '2026-08-06',
     author: {
@@ -456,7 +456,7 @@ await writeFile(path.join(blogRoot, 'index.html'), hub, 'utf8');
 
 const seoMap = JSON.parse(await readFile(seoMapPath, 'utf8'));
 const blogHubRoute = seoMap.routes.find(route => route.productionPath === '/blog/');
-if (blogHubRoute) blogHubRoute.lastModified = '2026-11-09';
+if (blogHubRoute) blogHubRoute.lastModified = articles.reduce((latest, article) => article.dateModified > latest ? article.dateModified : latest, '2026-08-06');
 const articlePaths = new Set(articles.map((article) => `/v2-preview/blog/${article.slug}/`));
 const blogRoutes = articles.map((article) => ({
   previewPath: `/v2-preview/blog/${article.slug}/`,

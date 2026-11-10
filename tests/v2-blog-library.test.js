@@ -7,13 +7,13 @@ import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const previewRoot = path.join(root, 'v2-preview');
 
-test('blog library publishes nineteen linked buyer guides', async () => {
+test('blog library publishes twenty linked buyer guides', async () => {
   const seoMap = JSON.parse(await readFile(path.join(previewRoot, 'seo-production-map.json'), 'utf8'));
   const routes = seoMap.routes.filter((route) => route.generatedBlog);
-  assert.equal(routes.length, 19);
+  assert.equal(routes.length, 20);
 
   const hub = await readFile(path.join(previewRoot, 'blog', 'index.html'), 'utf8');
-  assert.equal((hub.match(/class="blog-guide-card"/g) || []).length, 19);
+  assert.equal((hub.match(/class="blog-guide-card"/g) || []).length, 20);
 
   for (const route of routes) {
     const relative = route.previewPath.slice('/v2-preview/'.length);
@@ -23,7 +23,7 @@ test('blog library publishes nineteen linked buyer guides', async () => {
     assert.match(html, /type="application\/ld\+json"/);
     assert.match(html, /"@type":"BlogPosting"/);
     assert.match(html, /class="blog-article-body"/);
-    const inquirySource = route.previewPath.includes('/strawberry-polymer-clay-slices-wholesale/') ? /source=strawberry-slices-blog/ : route.previewPath.includes('/polymer-clay-slice-buying-guide/') ? /source=polymer-liquid-samples/ : /source=blog/;
+    const inquirySource = route.previewPath.includes('/source-craft-supplies-from-reference-photos/') ? /source=photo-sourcing-guide/ : route.previewPath.includes('/strawberry-polymer-clay-slices-wholesale/') ? /source=strawberry-slices-blog/ : route.previewPath.includes('/polymer-clay-slice-buying-guide/') ? /source=polymer-liquid-samples/ : /source=blog/;
     assert.match(html, inquirySource);
   }
 });

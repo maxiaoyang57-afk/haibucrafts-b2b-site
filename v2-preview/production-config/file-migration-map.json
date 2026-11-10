@@ -5594,6 +5594,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/blog/source-craft-supplies-from-reference-photos/index.html",
+      "destination": "blog/source-craft-supplies-from-reference-photos/index.html",
+      "action": "create",
+      "productionPath": "/blog/source-craft-supplies-from-reference-photos/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/blog/strawberry-polymer-clay-slices-wholesale/index.html",
       "destination": "blog/strawberry-polymer-clay-slices-wholesale/index.html",
       "action": "create",

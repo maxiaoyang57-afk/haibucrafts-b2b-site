@@ -5,6 +5,7 @@ import { customizationGuide } from './content/customization-guide.mjs';
 import { octoberArticles } from './content/blogs-20261017.mjs';
 import { christmasFamilyGiftArticle } from './content/christmas-family-gifts.mjs';
 import { strawberryBuyingArticle } from './content/strawberry-slices.mjs';
+import { photoSourcingArticle } from './content/photo-sourcing.mjs';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -14,6 +15,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  photoSourcingArticle,
   strawberryBuyingArticle,
   christmasFamilyGiftArticle,
   ...octoberArticles,
@@ -310,6 +312,8 @@ const escapeHtml = (value) => value
 
 const processOverview = `<section class="section custom-process-overview" aria-labelledby="process-overview-heading"><div class="container"><div class="section-head"><span class="eyebrow">Custom order process</span><h2 id="process-overview-heading">From the buying brief to a packed order.</h2><p>Resin and polymer clay take different development routes. Both need an approved physical sample before separate bulk terms are agreed.</p></div><figure class="custom-order-flow"><picture><source media="(max-width: 800px)" srcset="/v2-preview/assets/diagrams/haibu-custom-order-flow-mobile.svg"><img src="/v2-preview/assets/diagrams/haibu-custom-order-flow.svg" width="1240" height="440" alt="HAIBU custom order flow: buyer brief, specifications and development terms, separate resin or polymer clay preparation, physical sample and written approval, bulk terms and batch checks, then packing and delivery. Revise and resample when needed."></picture><figcaption>Process illustration. Steps and terms are confirmed for each project.</figcaption></figure><nav class="custom-guide-nav" aria-label="Read the material details"><a href="#resin-route">Resin development</a><a href="#polymer-route">Polymer clay development</a><a href="#sample-approval">Sample approval</a><a href="#packing">Packing requirements</a></nav></div></section>`;
 
+const renderPhotoReferences = (items = []) => items.length ? `<section aria-labelledby="photo-references-heading"><div><h2 id="photo-references-heading">Compare original component photographs</h2><p>Use these catalog references to explain the part you mean. They are separate products, not one assembled kit.</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:20px">${items.map(p => `<article style="min-width:0;padding:18px;border:1px solid var(--line);border-radius:16px"><a href="${p.href}"><img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.sku + ': ' + p.label)}" width="${p.width}" height="${p.height}" loading="lazy" style="display:block;width:100%;height:220px;object-fit:contain"></a><h3><a href="${p.href}">${escapeHtml(p.sku + ' · ' + p.label)}</a></h3><p>${escapeHtml(p.material)} · ${escapeHtml(p.size)}</p><p>Reference pack: ${escapeHtml(p.pack)}</p><p>${escapeHtml(p.note)}</p><a class="btn btn-secondary" data-photo-product-inquiry="${p.sku}" href="${escapeHtml(p.quoteHref)}">Ask about ${p.sku} →</a></article>`).join('')}</div></div></section>` : '';
+
 const renderSection = ([heading, body, detail], index) => `<section${detail ? ` id="${escapeHtml(detail.id)}"` : ''}><span>${String(index + 1).padStart(2, '0')}</span><div><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p>${detail?.paragraph ? `<p>${escapeHtml(detail.paragraph)}</p>` : ''}${detail?.note ? `<p class="custom-approval-note">${escapeHtml(detail.note)}</p>` : ''}</div></section>`;
 
 for (const article of articles) {
@@ -372,7 +376,7 @@ ${article.scopeReview === false ? '' : '          <span>Scope reviewed by <a hre
 ${article.processOverview ? `    ${processOverview}\n` : ''}    <section class="section">
       <div class="container blog-article-layout">
         <article class="blog-article-body">
-${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}${article.image ? `          <figure style="margin:0 0 32px"><img src="${escapeHtml(article.image.src)}" width="${article.image.width}" height="${article.image.height}" alt="${escapeHtml(article.image.alt)}" loading="lazy" style="display:block;width:min(100%,520px);height:auto;object-fit:contain;margin:auto"><figcaption style="margin-top:12px;font-size:14px;color:var(--muted)">${escapeHtml(article.image.caption)}</figcaption></figure>\n` : ''}          ${article.sections.map(renderSection).join('\n          ')}
+${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}${article.image ? `          <figure style="margin:0 0 32px"><img src="${escapeHtml(article.image.src)}" width="${article.image.width}" height="${article.image.height}" alt="${escapeHtml(article.image.alt)}" loading="lazy" style="display:block;width:min(100%,520px);height:auto;object-fit:contain;margin:auto"><figcaption style="margin-top:12px;font-size:14px;color:var(--muted)">${escapeHtml(article.image.caption)}</figcaption></figure>\n` : ''}          ${renderPhotoReferences(article.productReferences)}${article.sections.map(renderSection).join('\n          ')}
 ${article.workingTable ? `          <div style="overflow-x:auto;margin:28px 0"><table style="width:100%;border-collapse:collapse;font-size:15px"><caption style="text-align:left;margin-bottom:12px">${escapeHtml(article.workingTable.caption)}</caption><thead><tr>${article.workingTable.headings.map(heading => `<th scope="col" style="text-align:left;padding:12px;border-bottom:2px solid var(--line)">${escapeHtml(heading)}</th>`).join('')}</tr></thead><tbody>${article.workingTable.rows.map(row => `<tr>${row.map(cell => `<td style="padding:12px;border-bottom:1px solid var(--line);vertical-align:top">${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>\n` : ''}${article.sources ? `          <p style="font-size:14px">Technical reference: ${article.sources.map(([label, href]) => `<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('; ')}.</p>\n` : ''}          <div class="scope-note">${escapeHtml(article.note)}</div>
         </article>
         <aside class="blog-checklist-card">

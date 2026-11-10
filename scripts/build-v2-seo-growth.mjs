@@ -142,6 +142,7 @@ const categoryPlans = {
     resources: [
       ["/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/", "Polymer Clay Sprinkles Wholesale"],
       ["/v2-preview/blog/polymer-clay-slice-buying-guide/", "Polymer Clay Slice Buying Guide"],
+      ["/v2-preview/blog/keychain-bag-charm-components-sourcing-guide/", "Keychain & Bag Charm Component Sourcing"],
       ["/v2-preview/custom-solutions/", "Custom Mixes & Private Label"],
       ["/v2-preview/quality-control/", "Quality Checkpoints"]
     ],
@@ -190,6 +191,7 @@ const categoryPlans = {
     lastModified: '2026-10-04',
     resources: [
       ["/v2-preview/blog/resin-charms-wholesale-buying-guide/", "Resin Charms Buying Guide"],
+      ["/v2-preview/blog/keychain-bag-charm-components-sourcing-guide/", "Keychain & Bag Charm Component Sourcing"],
       ["/v2-preview/for-slime-brands/", "Slime Brand Sourcing Route"],
       ["/v2-preview/products/slime-charms/", "Slime Charms for Slime Brands"],
       ["/v2-preview/products/polymer-clay-slices/", "Polymer Clay Slices & Sprinkles"],

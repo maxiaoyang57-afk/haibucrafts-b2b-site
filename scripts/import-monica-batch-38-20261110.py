@@ -15,9 +15,9 @@ for n in sorted({p['batchNumber'] for p in plan['products']}):
             assert hashlib.sha256((ROOT/info['path']).read_bytes()).hexdigest()==info['sha256']
         record=dict(sku=p['sku'],title=p['title'],originalTitle=p['sourceFields']['title'],type=p['type'],categorySlug=p['haibuCategory'],
                     imageAlt=p['visualSummary']+' Product code '+p['sku'],description=p['procurementAdvice'],
-                    detailedDescription=p['caption']+' '+p['variantSizeNotes'],
+                    detailedDescription=p['caption'],
                     seasonalTheme='Resin craft components — '+p['sku'],
-                    keySellingPoints=[p['caption'].split('. ')[0]+'.','Material: '+p['material'],'Dimensions: '+p['dimensions'],'Reference pack: '+p['packing']],
+                    keySellingPoints=['Product code: '+p['sku'],'Material: '+p['material'],'Dimensions: '+p['dimensions'],'Reference pack: '+p['packing']],
                     specificationLines=['Product code: '+p['sku'],'Material: '+p['material'],'Dimensions: '+p['dimensions'],
                                         'Reference pack: '+p['packing'],'Attachment: '+p['attachment'],'Selection: '+p['variantSizeNotes'],
                                         'MOQ and dispatch timing: Confirm in your quotation'],

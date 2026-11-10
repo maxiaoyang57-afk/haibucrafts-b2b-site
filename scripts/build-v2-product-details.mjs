@@ -99,6 +99,7 @@ const monicaNovember2ThirtySeventhBatch1 = JSON.parse(await readFile(path.join(r
 const verifiedSpecs = JSON.parse(await readFile(path.join(root, 'scripts/data/verified-product-specs-20261104.json'), 'utf8'));
 const buyerCardSelection = JSON.parse(await readFile(path.join(root, 'scripts/data/buyer-card-selection-20261107.json'), 'utf8'));
 const buyerCardSkus = new Set(buyerCardSelection.products.map((item) => item.sku));
+const monicaNovember10ThirtyEighthBatch1 = JSON.parse(await readFile(path.join(root, 'scripts/data/haibu-new-products-20261110-monica-38.json'), 'utf8'));
 const productBatches = [
   { issue: 12, data: issue12Batch },
   { issue: 18, data: issue18Batch },
@@ -170,6 +171,7 @@ const productBatches = [
   { issue: 'haibu-new-products-20261101-monica-35', data: monicaOctober31ThirtyFifthBatch1 },
   { issue: 'haibu-new-products-20261102-monica-36', data: monicaNovember2ThirtySixthBatch1 },
   { issue: 'haibu-new-products-20261102-monica-37', data: monicaNovember2ThirtySeventhBatch1 },
+  { issue: 'haibu-new-products-20261110-monica-38', data: monicaNovember10ThirtyEighthBatch1 },
   { issue: 'haibu-new-products-20261028-monica-15', data: monicaOctober28FifteenthBatch1 },
   { issue: 'haibu-new-products-20261028-monica-14', data: monicaOctober28FourteenthBatch1 },
   { issue: 'haibu-new-products-20261028-monica-09', data: monicaOctober28NinthBatch1 }
@@ -326,7 +328,8 @@ const batchCard = (record) => {
   const tags = `${product.sku} ${product.title.replaceAll('&', 'and')} wholesale`.toLowerCase();
   const alt = `${product.title.replaceAll('&', 'and')} assortment, product code ${product.sku}`;
 
-  return `<article class="product-card-v2" data-product-card data-category="${batchFilter(product)}" data-tags="${escapeHtml(tags)}"><img src="${image}" width="${imageSize.width}" height="${imageSize.height}"${imageStyle} loading="lazy" decoding="async" alt="${escapeHtml(alt)}"><div class="product-card-body"><div class="product-card-top"><span class="sku-badge">${product.sku}</span><span class="product-type">${escapeHtml(product.type)}</span></div><h3>${escapeHtml(product.title)}</h3><div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${previewPath}">View Details</a><a class="btn btn-primary get-quote" href="${quoteHref}">Get Quote</a></div></div></article>`;
+  const batchFacts = product.factsUpdatedAt === "2026-11-10" ? `<p class="batch38-card-facts">${escapeHtml(product.material)} · ${escapeHtml(product.dimensions)}<br>Reference pack: ${escapeHtml(product.sourcePacking)}</p>` : "";
+  return `<article class="product-card-v2" data-product-card data-category="${batchFilter(product)}" data-tags="${escapeHtml(tags)}"><img src="${image}" width="${imageSize.width}" height="${imageSize.height}"${imageStyle} loading="lazy" decoding="async" alt="${escapeHtml(alt)}"><div class="product-card-body"><div class="product-card-top"><span class="sku-badge">${product.sku}</span><span class="product-type">${escapeHtml(product.type)}</span></div><h3>${escapeHtml(product.title)}</h3>${batchFacts}<div class="product-card-actions"><a class="btn btn-light product-detail-link" href="${previewPath}">View Details</a><a class="btn btn-primary get-quote" href="${quoteHref}">Get Quote</a></div></div></article>`;
 };
 
 const closingDivStart = (html, openingDivStart) => {

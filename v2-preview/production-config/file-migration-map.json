@@ -1156,6 +1156,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26368-pastel-christmas-tree-cake-resin-cabochons-rw26368/index.html",
+      "destination": "products/resin-charms-for-slime/rw26368-pastel-christmas-tree-cake-resin-cabochons-rw26368/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26368-pastel-christmas-tree-cake-resin-cabochons-rw26368/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26891-painted-fruit-slice-resin-decorations-rw26891/index.html",
+      "destination": "products/resin-charms-for-slime/rw26891-painted-fruit-slice-resin-decorations-rw26891/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26891-painted-fruit-slice-resin-decorations-rw26891/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26892-pink-layered-cake-resin-blocks-rw26892/index.html",
+      "destination": "products/resin-charms-for-slime/rw26892-pink-layered-cake-resin-blocks-rw26892/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26892-pink-layered-cake-resin-blocks-rw26892/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2947-fried-egg-toast-resin-cabochons-rw2947/index.html",
+      "destination": "products/resin-charms-for-slime/rw2947-fried-egg-toast-resin-cabochons-rw2947/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2947-fried-egg-toast-resin-cabochons-rw2947/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1031-translucent-daisy-resin-cabochons-rw1031/index.html",
+      "destination": "products/resin-charms-for-slime/rw1031-translucent-daisy-resin-cabochons-rw1031/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1031-translucent-daisy-resin-cabochons-rw1031/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw21713-blue-white-glitter-cloud-resin-cabochons-rw21713/index.html",
+      "destination": "products/resin-charms-for-slime/rw21713-blue-white-glitter-cloud-resin-cabochons-rw21713/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw21713-blue-white-glitter-cloud-resin-cabochons-rw21713/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24715-red-spotted-mushroom-resin-miniatures-rw24715/index.html",
+      "destination": "products/resin-charms-for-slime/rw24715-red-spotted-mushroom-resin-miniatures-rw24715/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24715-red-spotted-mushroom-resin-miniatures-rw24715/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25588-chocolate-chip-biscuit-resin-cabochons-rw25588/index.html",
+      "destination": "products/resin-charms-for-slime/rw25588-chocolate-chip-biscuit-resin-cabochons-rw25588/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25588-chocolate-chip-biscuit-resin-cabochons-rw25588/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2158-double-banana-resin-miniatures-rw2158/index.html",
+      "destination": "products/resin-charms-for-slime/rw2158-double-banana-resin-miniatures-rw2158/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2158-double-banana-resin-miniatures-rw2158/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25627-translucent-plumeria-resin-flowers-rw25627/index.html",
+      "destination": "products/resin-charms-for-slime/rw25627-translucent-plumeria-resin-flowers-rw25627/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25627-translucent-plumeria-resin-flowers-rw25627/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25185-heart-coffee-cup-resin-miniatures-rw25185/index.html",
+      "destination": "products/resin-charms-for-slime/rw25185-heart-coffee-cup-resin-miniatures-rw25185/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25185-heart-coffee-cup-resin-miniatures-rw25185/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004401-ribbed-scallop-shell-resin-cabochons-rw004401/index.html",
+      "destination": "products/resin-charms-for-slime/rw004401-ribbed-scallop-shell-resin-cabochons-rw004401/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004401-ribbed-scallop-shell-resin-cabochons-rw004401/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw003053-pink-cherry-blossom-resin-cabochons-rw003053/index.html",
+      "destination": "products/resin-charms-for-slime/rw003053-pink-cherry-blossom-resin-cabochons-rw003053/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003053-pink-cherry-blossom-resin-cabochons-rw003053/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26093-red-double-cherry-resin-cabochons-rw26093/index.html",
+      "destination": "products/resin-charms-for-slime/rw26093-red-double-cherry-resin-cabochons-rw26093/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26093-red-double-cherry-resin-cabochons-rw26093/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004320-folded-bow-resin-cabochons-rw004320/index.html",
+      "destination": "products/resin-charms-for-slime/rw004320-folded-bow-resin-cabochons-rw004320/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004320-folded-bow-resin-cabochons-rw004320/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26146-pastel-butterfly-resin-cabochons-rw26146/index.html",
+      "destination": "products/resin-charms-for-slime/rw26146-pastel-butterfly-resin-cabochons-rw26146/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26146-pastel-butterfly-resin-cabochons-rw26146/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26152-colorful-airplane-resin-miniatures-rw26152/index.html",
+      "destination": "products/resin-charms-for-slime/rw26152-colorful-airplane-resin-miniatures-rw26152/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26152-colorful-airplane-resin-miniatures-rw26152/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26151-temaki-sushi-hand-roll-resin-miniatures-rw26151/index.html",
+      "destination": "products/resin-charms-for-slime/rw26151-temaki-sushi-hand-roll-resin-miniatures-rw26151/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26151-temaki-sushi-hand-roll-resin-miniatures-rw26151/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26148-rounded-petal-resin-flower-cabochons-rw26148/index.html",
+      "destination": "products/resin-charms-for-slime/rw26148-rounded-petal-resin-flower-cabochons-rw26148/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26148-rounded-petal-resin-flower-cabochons-rw26148/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25969-pastel-triple-scoop-ice-cream-resin-miniatures-rw25969/index.html",
+      "destination": "products/resin-charms-for-slime/rw25969-pastel-triple-scoop-ice-cream-resin-miniatures-rw25969/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25969-pastel-triple-scoop-ice-cream-resin-miniatures-rw25969/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw26883-miniature-textured-pinecone-resin-decorations-for-bulk-craft-sourcing/index.html",
       "destination": "products/resin-charms-for-slime/rw26883-miniature-textured-pinecone-resin-decorations-for-bulk-craft-sourcing/index.html",
       "action": "create",

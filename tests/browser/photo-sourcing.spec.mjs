@@ -5,7 +5,17 @@ test('photo sourcing identifies components and opens the exact product inquiry',
  for(const width of [testInfo.project.use.viewport.width,1440]){
  await page.setViewportSize({width,height:900});
  for(const sku of ['RW26801','RW26795','YX693','YX329']){
+  if(sku==='RW26801'){
+   await page.goto('/products/',{waitUntil:'domcontentloaded'});
+   const entry=page.locator('main a[href="/blog/source-craft-supplies-from-reference-photos/"]');
+   await entry.scrollIntoViewIfNeeded();
+   await expect(entry).toBeVisible();
+   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1)).toBe(true);
+   await page.screenshot({path:testInfo.outputPath('photo-directory-'+(testInfo.project.use.viewport.width)+'.png'),fullPage:true});
+   await entry.click();
+  }else{
   await page.goto('/blog/source-craft-supplies-from-reference-photos/',{waitUntil:'domcontentloaded'});
+  }
   const action=page.locator(`[data-photo-product-inquiry="${sku}"]`);
   await action.scrollIntoViewIfNeeded();
   const photo=action.locator('xpath=..').locator('img');

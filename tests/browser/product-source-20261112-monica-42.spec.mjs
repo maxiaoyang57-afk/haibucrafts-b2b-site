@@ -40,7 +40,7 @@ test('Forty-second Monica batch keeps exact gallery and inquiry context on phone
   const width = page.viewportSize().width;
   await checkProducts(page);
   if (width === 375) {
-    const desktop = await browser.newContext({ baseURL: 'http://127.0.0.1:4273', viewport: { width: 1440, height: 900 }, isMobile: false, hasTouch: false });
+    const desktop = await browser.newContext({ baseURL: 'http://127.0.0.1:4173', viewport: { width: 1440, height: 900 }, isMobile: false, hasTouch: false });
     try { await checkProducts(await desktop.newPage()); }
     finally { await desktop.close(); }
   }

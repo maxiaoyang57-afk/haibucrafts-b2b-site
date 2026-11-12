@@ -1,3 +1,5 @@
+import { oceanPhoneCaseSlug } from './ocean-phone-case-video.mjs';
+
 const imageDirectory = '/v2-preview/assets/phone-case-resin-charms/';
 
 const layoutImage = (file, alt, caption) => ({
@@ -28,6 +30,7 @@ export const phoneCaseResinCharmsArticle = {
   dateModified: '2026-11-12',
   lastReviewed: 'November 12, 2026',
   scopeReview: false,
+  watchGuide: { href: `/v2-preview/blog/${oceanPhoneCaseSlug}/`, label: 'Watch the 59-second ocean phone case tutorial' },
   inquirySource: 'phone-case-resin-charms-guide',
   inquiryCategory: 'resin-charms',
   dek: 'Shortlist charms by footprint, height and backing. Use a physical sample to check fit and adhesion before agreeing on assortment and packing.',

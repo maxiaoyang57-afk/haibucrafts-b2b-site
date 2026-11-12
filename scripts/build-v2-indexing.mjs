@@ -28,10 +28,13 @@ const urls = seoMap.routes.filter((route) => route.index).map((route) => {
   const image = product
     ? `\n    <image:image><image:loc>${xml(`${seoMap.site.origin}${product.image}`)}</image:loc><image:title>${xml(`${product.title} ${product.sku}`)}</image:title></image:image>`
     : '';
-  return `  <url><loc>${xml(`${seoMap.site.origin}${route.productionPath}`)}</loc><lastmod>${xml(lastModified)}</lastmod>${image}</url>`;
+  const video = route.video
+    ? `\n    <video:video><video:thumbnail_loc>${xml(route.video.thumbnailUrl)}</video:thumbnail_loc><video:title>${xml(route.video.name)}</video:title><video:description>${xml(route.video.description)}</video:description><video:content_loc>${xml(route.video.contentUrl)}</video:content_loc><video:publication_date>${xml(route.video.uploadDate)}</video:publication_date></video:video>`
+    : '';
+  return `  <url><loc>${xml(`${seoMap.site.origin}${route.productionPath}`)}</loc><lastmod>${xml(lastModified)}</lastmod>${image}${video}</url>`;
 });
 
-const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${urls.join('\n')}\n</urlset>\n`;
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">\n${urls.join('\n')}\n</urlset>\n`;
 await writeFile(sitemapPath, sitemap, 'utf8');
 
 console.log(`Generated indexing sitemap: ${urls.length} canonical URLs and ${catalog.products.length} product images.`);

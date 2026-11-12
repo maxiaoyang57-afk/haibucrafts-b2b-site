@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url><loc>https://www.haibucrafts.com/</loc><lastmod>2026-09-06</lastmod></url>
   <url><loc>https://www.haibucrafts.com/products/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://www.haibucrafts.com/products/slime-charms-wholesale/</loc><lastmod>2026-11-07</lastmod></url>
@@ -1740,6 +1740,8 @@
     <image:image><image:loc>https://www.haibucrafts.com/assets/images/products/batch-2026-09-09/ma175/ma175-christmas-candy-cane-sequin-confetti-01.jpg</image:loc><image:title>Wholesale 500 g Christmas Candy Cane Sequin Confetti Mix in Red, Green, Silver and Gold MA175</image:title></image:image></url>
   <url><loc>https://www.haibucrafts.com/products/sequins-glitter-confetti/ma612-wholesale-500-g-colorful-round-christmas-confetti-sequins-for-party-craft-new-year-d-cor/</loc><lastmod>2026-09-09</lastmod>
     <image:image><image:loc>https://www.haibucrafts.com/assets/images/products/batch-2026-09-09/ma612/ma612-colorful-christmas-confetti-sequins-01.jpg</image:loc><image:title>Wholesale 500 g Colorful Round Christmas Confetti Sequins for Party, Craft and New Year Décor MA612</image:title></image:image></url>
+  <url><loc>https://www.haibucrafts.com/blog/ocean-phone-case-charm-video/</loc><lastmod>2026-11-12</lastmod>
+    <video:video><video:thumbnail_loc>https://www.haibucrafts.com/assets/video/ocean-phone-case-tutorial-poster.webp</video:thumbnail_loc><video:title>Pastel Ocean Phone Case with Resin and Polymer Clay</video:title><video:description>Watch a 59-second phone case tutorial. See how to place pastel ocean resin pieces, add small clay accents, and attach a beaded strap.</video:description><video:content_loc>https://www.haibucrafts.com/assets/video/ocean-phone-case-tutorial.mp4</video:content_loc><video:publication_date>2026-11-12</video:publication_date></video:video></url>
   <url><loc>https://www.haibucrafts.com/blog/wholesale-resin-charms-for-phone-cases/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://www.haibucrafts.com/blog/keychain-bag-charm-components-sourcing-guide/</loc><lastmod>2026-11-10</lastmod></url>
   <url><loc>https://www.haibucrafts.com/blog/source-craft-supplies-from-reference-photos/</loc><lastmod>2026-11-10</lastmod></url>

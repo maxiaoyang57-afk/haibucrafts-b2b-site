@@ -8813,6 +8813,29 @@
       "archivedCatalogReference": true
     },
     {
+      "previewPath": "/v2-preview/blog/ocean-phone-case-charm-video/",
+      "productionPath": "/blog/ocean-phone-case-charm-video/",
+      "title": "Ocean Phone Case Video: Resin Charms & Clay | HAIBUCRAFT",
+      "description": "Watch a 59-second phone case tutorial. See how to place pastel ocean resin pieces, add small clay accents, and attach a beaded strap.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-11-12",
+      "generatedBlog": true,
+      "video": {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "@id": "https://www.haibucrafts.com/blog/ocean-phone-case-charm-video/#video",
+        "name": "Pastel Ocean Phone Case with Resin and Polymer Clay",
+        "description": "Watch a 59-second phone case tutorial. See how to place pastel ocean resin pieces, add small clay accents, and attach a beaded strap.",
+        "thumbnailUrl": "https://www.haibucrafts.com/assets/video/ocean-phone-case-tutorial-poster.webp",
+        "uploadDate": "2026-11-12",
+        "duration": "PT59S",
+        "contentUrl": "https://www.haibucrafts.com/assets/video/ocean-phone-case-tutorial.mp4",
+        "inLanguage": "en",
+        "mainEntityOfPage": "https://www.haibucrafts.com/blog/ocean-phone-case-charm-video/"
+      }
+    },
+    {
       "previewPath": "/v2-preview/blog/wholesale-resin-charms-for-phone-cases/",
       "productionPath": "/blog/wholesale-resin-charms-for-phone-cases/",
       "title": "Wholesale Resin Charms for Phone Cases | HAIBUCRAFT",

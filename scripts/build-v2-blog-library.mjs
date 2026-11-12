@@ -8,6 +8,7 @@ import { keychainComponentsArticle } from './content/keychain-components.mjs';
 import { strawberryBuyingArticle } from './content/strawberry-slices.mjs';
 import { photoSourcingArticle } from './content/photo-sourcing.mjs';
 import { phoneCaseResinCharmsArticle } from './content/phone-case-resin-charms.mjs';
+import { oceanPhoneCaseArticle } from './content/ocean-phone-case-video.mjs';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -17,6 +18,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  oceanPhoneCaseArticle,
   phoneCaseResinCharmsArticle,
   keychainComponentsArticle,
   photoSourcingArticle,
@@ -330,10 +332,14 @@ const renderProductReferences = article => article.keychainReferences ? `<div da
 for (const article of articles) {
   const previewPath = `/v2-preview/blog/${article.slug}/`;
   const quoteHref = `/v2-preview/quote/?source=${encodeURIComponent(article.inquirySource || 'blog')}&amp;article=${article.slug}&amp;landing_page=${encodeURIComponent(previewPath)}${article.inquiryCategory ? '&amp;category=' + encodeURIComponent(article.inquiryCategory) : ''}`;
+  const video = article.video;
+  const player = video ? `<figure class="blog-watch-player"><video width="1280" height="720" controls playsinline preload="none" poster="${new URL(video.thumbnailUrl).pathname}" aria-label="${escapeHtml(video.name)}"><source src="${new URL(video.contentUrl).pathname}" type="video/mp4"><p><a href="${new URL(video.contentUrl).pathname}">Open the ocean phone case video</a>.</p></video><figcaption>0:59 · English narration and on-screen captions · Illustrated demonstration</figcaption></figure>` : '';
+  const featuredComponents = video ? `<section class="blog-watch-components" aria-labelledby="watch-components-title"><h2 id="watch-components-title">Find the components in the video</h2><ul>${article.links.slice(0, 3).map(([label, href]) => `<li><a href="${escapeHtml(href)}">${escapeHtml(label)}</a></li>`).join('')}</ul><p>Confirm the exact designs, backs and colors against your sample.</p><p><a class="btn btn-primary" href="${quoteHref}">Ask for samples by SKU</a></p></section>` : '';
   const sectionImages = article.sections.flatMap(([, , detail]) => detail?.image ? [detail.image] : []);
   const structuredData = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
+    ...(video ? { video: { '@id': video['@id'] } } : {}),
     headline: article.title,
     description: article.description,
     ...(article.image ? { image: `https://www.haibucrafts.com${article.image.src}` } : sectionImages.length ? { image: sectionImages.map(image => `https://www.haibucrafts.com${image.src}`) } : article.productReferences ? { image: article.productReferences.map(p => `https://www.haibucrafts.com${p.image}`) } : {}),
@@ -367,17 +373,17 @@ for (const article of articles) {
   <link rel="stylesheet" href="/v2-preview/assets/site-v2.css">
   <link rel="stylesheet" href="/v2-preview/assets/site-v2-fixes.css">
   <link rel="stylesheet" href="/v2-preview/assets/blog-library.css">
-  <script type="application/ld+json">${structuredData}</script>
+  <script type="application/ld+json">${structuredData}</script>${video ? `\n  <script type="application/ld+json">${JSON.stringify(video).replaceAll('<', '\\u003c')}</script>` : ''}
 </head>
 <body data-page="blog-article"${article.processOverview || article.image ? ' class="custom-development-guide"' : ''}>
   <div data-site-header></div>
   <main>
-    <section class="blog-article-hero">
+    <section class="blog-article-hero${video ? ' blog-watch-hero' : ''}">
       <div class="container">
         <div class="breadcrumbs"><a href="/v2-preview/">Home</a> / <a href="/v2-preview/blog/">Blog</a> / ${escapeHtml(article.title)}</div>
         <span class="eyebrow">${escapeHtml(article.category)}</span>
         <h1>${escapeHtml(article.title)}</h1>
-        <p>${escapeHtml(article.dek)}</p>
+        <p>${escapeHtml(article.dek)}</p>${player ? `\n        ${player}` : ''}${article.watchGuide ? `\n        <p><a href="${escapeHtml(article.watchGuide.href)}">${escapeHtml(article.watchGuide.label)} →</a></p>` : ''}
         <div class="blog-article-meta blog-authorship">
           <span>By <a href="/v2-preview/about/editorial-policy/">HAIBUCRAFT Buyer Resources</a></span>
 ${article.scopeReview === false ? '' : '          <span>Scope reviewed by <a href="/v2-preview/about/editorial-policy/#review">Product &amp; Quality Coordination</a></span>\n'}          <span>${article.scopeReview === false ? 'Updated' : 'Last reviewed'} ${escapeHtml(article.lastReviewed || 'August 6, 2026')}</span>
@@ -387,7 +393,7 @@ ${article.scopeReview === false ? '' : '          <span>Scope reviewed by <a hre
     </section>
 ${article.processOverview ? `    ${processOverview}\n` : ''}    <section class="section">
       <div class="container blog-article-layout">
-        <article class="blog-article-body">
+        <article class="blog-article-body">${featuredComponents ? `\n          ${featuredComponents}` : ''}
 ${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}${article.image ? `          <figure style="margin:0 0 32px"><img src="${escapeHtml(article.image.src)}" width="${article.image.width}" height="${article.image.height}" alt="${escapeHtml(article.image.alt)}" loading="lazy" style="display:block;width:min(100%,520px);height:auto;object-fit:contain;margin:auto"><figcaption style="margin-top:12px;font-size:14px;color:var(--muted)">${escapeHtml(article.image.caption)}</figcaption></figure>\n` : ''}          ${renderPhotoReferences(article.productReferences)}${renderProductReferences(article)}${article.sections.map(renderSection).join('\n          ')}
 ${article.workingTable ? `          <div style="overflow-x:auto;margin:28px 0"><table style="width:100%;border-collapse:collapse;font-size:15px"><caption style="text-align:left;margin-bottom:12px">${escapeHtml(article.workingTable.caption)}</caption><thead><tr>${article.workingTable.headings.map(heading => `<th scope="col" style="text-align:left;padding:12px;border-bottom:2px solid var(--line)">${escapeHtml(heading)}</th>`).join('')}</tr></thead><tbody>${article.workingTable.rows.map(row => `<tr>${row.map(cell => `<td style="padding:12px;border-bottom:1px solid var(--line);vertical-align:top">${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>\n` : ''}${article.sources ? `          <p style="font-size:14px">Technical reference: ${article.sources.map(([label, href]) => `<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('; ')}.</p>\n` : ''}          <div class="scope-note">${escapeHtml(article.note)}</div>
         </article>
@@ -403,7 +409,7 @@ ${article.workingTable ? `          <div style="overflow-x:auto;margin:28px 0"><
       <div class="container">
         <div class="section-head"><span class="eyebrow">Related Resources</span><h2>Continue the sourcing review.</h2></div>
         <div class="blog-related-grid">
-          ${article.links.map(([label, href]) => `<a href="${href}"><span>Resource</span><h3>${escapeHtml(label)}</h3><strong>Open resource &rarr;</strong></a>`).join('\n          ')}
+          ${(video ? article.links.slice(3) : article.links).map(([label, href]) => `<a href="${href}"><span>Resource</span><h3>${escapeHtml(label)}</h3><strong>Open resource &rarr;</strong></a>`).join('\n          ')}
         </div>
       </div>
     </section>
@@ -478,7 +484,8 @@ const blogRoutes = articles.map((article) => ({
   type: 'article',
   index: true,
   lastModified: article.dateModified || '2026-08-06',
-  generatedBlog: true
+  generatedBlog: true,
+  ...(article.video ? { video: article.video } : {})
 }));
 const baseRoutes = seoMap.routes.filter((route) => !route.generatedBlog && !articlePaths.has(route.previewPath));
 const quoteIndex = baseRoutes.findIndex((route) => route.productionPath === '/request-quote/');

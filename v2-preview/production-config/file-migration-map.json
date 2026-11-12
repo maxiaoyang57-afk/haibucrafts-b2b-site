@@ -6014,6 +6014,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/blog/ocean-phone-case-charm-video/index.html",
+      "destination": "blog/ocean-phone-case-charm-video/index.html",
+      "action": "create",
+      "productionPath": "/blog/ocean-phone-case-charm-video/",
+      "generatedBlog": true
+    },
+    {
       "source": "v2-preview/blog/wholesale-resin-charms-for-phone-cases/index.html",
       "destination": "blog/wholesale-resin-charms-for-phone-cases/index.html",
       "action": "create",

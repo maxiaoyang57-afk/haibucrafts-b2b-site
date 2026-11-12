@@ -4865,8 +4865,8 @@
     },
     {
       "sku": "RW004231",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -5567,8 +5567,9 @@
     },
     {
       "sku": "RW001553",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "YX007",
@@ -6348,8 +6349,9 @@
     },
     {
       "sku": "RW26122",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW26123",
@@ -6408,13 +6410,15 @@
     },
     {
       "sku": "RW20793",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW2316",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "YX3968",
@@ -6433,8 +6437,9 @@
     },
     {
       "sku": "RW20673",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW20474",
@@ -6594,14 +6599,14 @@
     },
     {
       "sku": "RW004828-2",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
       "sku": "RW1478",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -6611,8 +6616,8 @@
     },
     {
       "sku": "RW24724",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -6657,8 +6662,9 @@
     },
     {
       "sku": "RW26101",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW26095",
@@ -6763,8 +6769,9 @@
     },
     {
       "sku": "RW26074",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW26085",
@@ -6783,8 +6790,9 @@
     },
     {
       "sku": "RW26082",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW23569",
@@ -7148,8 +7156,8 @@
     },
     {
       "sku": "RW002844",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -7424,8 +7432,8 @@
     },
     {
       "sku": "RW25948",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -7485,8 +7493,8 @@
     },
     {
       "sku": "RW1619",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -7511,13 +7519,15 @@
     },
     {
       "sku": "RW25952",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW25918",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW25913",
@@ -7526,8 +7536,8 @@
     },
     {
       "sku": "RW25910",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -7662,8 +7672,8 @@
     },
     {
       "sku": "RW25904",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -7678,8 +7688,9 @@
     },
     {
       "sku": "RW25933",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW25894",
@@ -7743,8 +7754,8 @@
     },
     {
       "sku": "RW25844",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -7881,8 +7892,8 @@
     },
     {
       "sku": "RW003496",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -7902,8 +7913,9 @@
     },
     {
       "sku": "RW25420",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "CDK5001-1",
@@ -8042,14 +8054,15 @@
     },
     {
       "sku": "RW20636",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
       "sku": "RW001547",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW6013",
@@ -8168,8 +8181,8 @@
     },
     {
       "sku": "RW004490",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -8204,8 +8217,8 @@
     },
     {
       "sku": "RW002888",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -8250,8 +8263,8 @@
     },
     {
       "sku": "RW25662",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -8296,8 +8309,9 @@
     },
     {
       "sku": "RW3081",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW22001-2548",
@@ -8331,8 +8345,9 @@
     },
     {
       "sku": "RW003463",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW002712",
@@ -8356,8 +8371,9 @@
     },
     {
       "sku": "RW955",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW3580",
@@ -8381,8 +8397,9 @@
     },
     {
       "sku": "RW25677",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW003228",
@@ -8521,8 +8538,8 @@
     },
     {
       "sku": "RW25637",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -8547,8 +8564,8 @@
     },
     {
       "sku": "RW25626",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -9509,8 +9526,9 @@
     },
     {
       "sku": "RW25465",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "YX3851",
@@ -9789,8 +9807,9 @@
     },
     {
       "sku": "RW002162",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW4145",
@@ -9864,8 +9883,8 @@
     },
     {
       "sku": "RW25253",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -9936,8 +9955,8 @@
     },
     {
       "sku": "RW1218",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -9983,8 +10002,9 @@
     },
     {
       "sku": "RW759",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Batch41: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "batchNumber": 41
     },
     {
       "sku": "RW319",
@@ -10268,8 +10288,8 @@
     },
     {
       "sku": "RW1790",
-      "status": "ready_in_batch",
-      "reason": "Batch40: same-SKU source facts, original plus generated scene/detail references reviewed; publication pending full release gates.",
+      "status": "already_listed",
+      "reason": "Batch40 verified published on both sites; do not duplicate.",
       "batchNumber": 40
     },
     {
@@ -12162,7 +12182,7 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 40,
+  "currentBatchNumber": 41,
   "updatedAt": "2026-11-12",
   "supplementaryOwnerProducts": [
     {

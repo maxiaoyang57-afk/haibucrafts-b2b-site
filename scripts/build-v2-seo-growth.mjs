@@ -191,6 +191,7 @@ const categoryPlans = {
     lastModified: '2026-10-04',
     resources: [
       ["/v2-preview/blog/resin-charms-wholesale-buying-guide/", "Resin Charms Buying Guide"],
+      ["/v2-preview/blog/wholesale-resin-charms-for-phone-cases/", "Phone Case Resin Charm Sourcing and Samples"],
       ["/v2-preview/blog/keychain-bag-charm-components-sourcing-guide/", "Keychain & Bag Charm Component Sourcing"],
       ["/v2-preview/for-slime-brands/", "Slime Brand Sourcing Route"],
       ["/v2-preview/products/slime-charms/", "Slime Charms for Slime Brands"],

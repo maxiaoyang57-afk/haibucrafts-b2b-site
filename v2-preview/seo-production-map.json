@@ -146,7 +146,7 @@
       "description": "Read practical HAIBUCRAFT guides about wholesale product briefs, sample approval, packaging, quality checkpoints and custom sourcing.",
       "type": "website",
       "index": true,
-      "lastModified": "2026-11-10"
+      "lastModified": "2026-11-12"
     },
     {
       "previewPath": "/v2-preview/products/polymer-clay-slices/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/",
@@ -8613,6 +8613,16 @@
       "archivedCatalogReference": true
     },
     {
+      "previewPath": "/v2-preview/blog/wholesale-resin-charms-for-phone-cases/",
+      "productionPath": "/blog/wholesale-resin-charms-for-phone-cases/",
+      "title": "Wholesale Resin Charms for Phone Cases | HAIBUCRAFT",
+      "description": "Source flatback resin charms for phone cases. Compare size, height and backing, test samples on your case material, and send a quote-ready bulk brief.",
+      "type": "article",
+      "index": true,
+      "lastModified": "2026-11-12",
+      "generatedBlog": true
+    },
+    {
       "previewPath": "/v2-preview/blog/keychain-bag-charm-components-sourcing-guide/",
       "productionPath": "/blog/keychain-bag-charm-components-sourcing-guide/",
       "title": "Keychain Charm Components: Bulk Sourcing Guide | HAIBU",
@@ -8779,7 +8789,7 @@
       "description": "Compare wholesale resin charms by product code, visible design, intended application, sample identity, pack unit and custom request before quotation.",
       "type": "article",
       "index": true,
-      "lastModified": "2026-10-19",
+      "lastModified": "2026-11-12",
       "generatedBlog": true
     },
     {

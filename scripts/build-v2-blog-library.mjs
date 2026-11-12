@@ -7,6 +7,7 @@ import { christmasFamilyGiftArticle } from './content/christmas-family-gifts.mjs
 import { keychainComponentsArticle } from './content/keychain-components.mjs';
 import { strawberryBuyingArticle } from './content/strawberry-slices.mjs';
 import { photoSourcingArticle } from './content/photo-sourcing.mjs';
+import { phoneCaseResinCharmsArticle } from './content/phone-case-resin-charms.mjs';
 
 const root = process.cwd();
 const previewRoot = path.join(root, 'v2-preview');
@@ -16,6 +17,7 @@ const migrationMapPath = path.join(previewRoot, 'production-config', 'file-migra
 const sitemapPath = path.join(previewRoot, 'production-config', 'sitemap.xml');
 
 const articles = [
+  phoneCaseResinCharmsArticle,
   keychainComponentsArticle,
   photoSourcingArticle,
   strawberryBuyingArticle,
@@ -205,7 +207,7 @@ const articles = [
     title: 'Resin Charms Wholesale Buying Guide for B2B Buyers',
     seoTitle: 'Resin Charms Wholesale Buying Guide | HAIBUCRAFT',
     datePublished: '2026-09-13',
-    dateModified: '2026-10-19',
+    dateModified: '2026-11-12',
     lastReviewed: 'October 19, 2026',
     description: 'Compare wholesale resin charms by product code, visible design, intended application, sample identity, pack unit and custom request before quotation.',
     dek: 'A clear resin charm brief helps buyers compare exact designs, build mixed assortments and confirm order-specific requirements without relying on a product image alone.',
@@ -219,7 +221,7 @@ const articles = [
     ],
     checklist: ['Resin charm SKU list', 'Reference images or links', 'Intended application', 'Mix ratio and pack unit', 'Packaging request', 'Destination and target date'],
     note: 'Product composition, dimensions, MOQ, lead time, packaging and documentation are confirmed for the selected product code, approved sample and destination market.',
-    links: [['Small Gummy Bear Cabochons RW002627', '/v2-preview/products/resin-charms/rw002627-small-colorful-gummy-bear-resin-cabochons/'], ['Large Gummy Bear Cabochons RW00655', '/v2-preview/products/resin-charms/rw00655-large-transparent-gummy-bear-resin-cabochons/'], ['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']]
+    links: [['Phone Case Resin Charm Sourcing and Samples', '/v2-preview/blog/wholesale-resin-charms-for-phone-cases/'], ['Small Gummy Bear Cabochons RW002627', '/v2-preview/products/resin-charms/rw002627-small-colorful-gummy-bear-resin-cabochons/'], ['Large Gummy Bear Cabochons RW00655', '/v2-preview/products/resin-charms/rw00655-large-transparent-gummy-bear-resin-cabochons/'], ['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']]
   },
   {
     slug: 'seasonal-craft-assortment-planning',
@@ -316,7 +318,9 @@ const processOverview = `<section class="section custom-process-overview" aria-l
 
 const renderPhotoReferences = (items = []) => items.length ? `<div data-photo-reference-grid aria-labelledby="photo-references-heading"><div><h2 id="photo-references-heading">Compare original component photographs</h2><p>Use these catalog references to explain the part you mean. They are separate products, not one assembled kit.</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:20px">${items.map(p => `<article style="min-width:0;padding:18px;border:1px solid var(--line);border-radius:16px"><a href="${p.href}"><img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.sku + ': ' + p.label)}" width="${p.width}" height="${p.height}" loading="lazy" style="display:block;width:100%;height:220px;object-fit:contain"></a><h3><a href="${p.href}">${escapeHtml(p.sku + ' · ' + p.label)}</a></h3><p>${escapeHtml(p.material)} · ${escapeHtml(p.size)}</p><p>Reference pack: ${escapeHtml(p.pack)}</p><p>${escapeHtml(p.note)}</p><a class="btn btn-secondary" data-photo-product-inquiry="${p.sku}" href="${escapeHtml(p.quoteHref)}">Ask about ${p.sku} →</a></article>`).join('')}</div></div></div>` : '';
 
-const renderSection = ([heading, body, detail], index) => `<section${detail ? ` id="${escapeHtml(detail.id)}"` : ''}><span>${String(index + 1).padStart(2, '0')}</span><div><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p>${detail?.paragraph ? `<p>${escapeHtml(detail.paragraph)}</p>` : ''}${detail?.note ? `<p class="custom-approval-note">${escapeHtml(detail.note)}</p>` : ''}</div></section>`;
+const renderSectionImage = (image) => image ? `<figure style="margin:18px 0"><img src="${escapeHtml(image.src)}" width="${image.width}" height="${image.height}" alt="${escapeHtml(image.alt)}" loading="lazy" decoding="async" style="display:block;width:min(100%,600px);height:auto"><figcaption style="margin-top:8px;font-size:14px;color:var(--muted)">${escapeHtml(image.caption)}</figcaption></figure>` : '';
+
+const renderSection = ([heading, body, detail], index) => `<section${detail ? ` id="${escapeHtml(detail.id)}"` : ''}><span>${String(index + 1).padStart(2, '0')}</span><div><h2>${escapeHtml(heading)}</h2><p>${escapeHtml(body)}</p>${renderSectionImage(detail?.image)}${detail?.paragraph ? `<p>${escapeHtml(detail.paragraph)}</p>` : ''}${detail?.note ? `<p class="custom-approval-note">${escapeHtml(detail.note)}</p>` : ''}</div></section>`;
 
 const renderProductReferences = article => article.keychainReferences ? `<div data-guide-products="keychain-components" style="margin:28px 0 40px"><h2>Compare four real decoration references</h2><p>Each card opens its own product and inquiry. These are separate components, not an assembled kit.</p><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:20px">${article.keychainReferences.map(p => {
   const params = new URLSearchParams({source:'keychain-components-guide',category:p.category,product_code:p.sku,product:p.productTitle,image:p.image,landing_page:p.href});
@@ -326,12 +330,13 @@ const renderProductReferences = article => article.keychainReferences ? `<div da
 for (const article of articles) {
   const previewPath = `/v2-preview/blog/${article.slug}/`;
   const quoteHref = `/v2-preview/quote/?source=${encodeURIComponent(article.inquirySource || 'blog')}&amp;article=${article.slug}&amp;landing_page=${encodeURIComponent(previewPath)}${article.inquiryCategory ? '&amp;category=' + encodeURIComponent(article.inquiryCategory) : ''}`;
+  const sectionImages = article.sections.flatMap(([, , detail]) => detail?.image ? [detail.image] : []);
   const structuredData = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     headline: article.title,
     description: article.description,
-    ...(article.image ? { image: `https://www.haibucrafts.com${article.image.src}` } : article.productReferences ? { image: article.productReferences.map(p => `https://www.haibucrafts.com${p.image}`) } : {}),
+    ...(article.image ? { image: `https://www.haibucrafts.com${article.image.src}` } : sectionImages.length ? { image: sectionImages.map(image => `https://www.haibucrafts.com${image.src}`) } : article.productReferences ? { image: article.productReferences.map(p => `https://www.haibucrafts.com${p.image}`) } : {}),
     datePublished: article.datePublished || '2026-08-01',
     dateModified: article.dateModified || '2026-08-06',
     author: {

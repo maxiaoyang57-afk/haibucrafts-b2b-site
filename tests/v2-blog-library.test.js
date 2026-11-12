@@ -7,13 +7,13 @@ import { fileURLToPath } from 'node:url';
 const root = fileURLToPath(new URL('..', import.meta.url));
 const previewRoot = path.join(root, 'v2-preview');
 
-test('blog library publishes twenty-two linked buyer guides', async () => {
+test('blog library publishes twenty-three linked buyer resources', async () => {
   const seoMap = JSON.parse(await readFile(path.join(previewRoot, 'seo-production-map.json'), 'utf8'));
   const routes = seoMap.routes.filter((route) => route.generatedBlog);
-  assert.equal(routes.length, 22);
+  assert.equal(routes.length, 23);
 
   const hub = await readFile(path.join(previewRoot, 'blog', 'index.html'), 'utf8');
-  assert.equal((hub.match(/class="blog-guide-card"/g) || []).length, 22);
+  assert.equal((hub.match(/class="blog-guide-card"/g) || []).length, 23);
 
   for (const route of routes) {
     const relative = route.previewPath.slice('/v2-preview/'.length);
@@ -24,6 +24,7 @@ test('blog library publishes twenty-two linked buyer guides', async () => {
     assert.match(html, /"@type":"BlogPosting"/);
     assert.match(html, /class="blog-article-body"/);
     const inquirySources = {
+      'ocean-phone-case-charm-video': 'ocean-phone-case-video',
       'wholesale-resin-charms-for-phone-cases': 'phone-case-resin-charms-guide',
       'keychain-bag-charm-components-sourcing-guide': 'keychain-components-guide',
       'source-craft-supplies-from-reference-photos': 'photo-sourcing-guide',

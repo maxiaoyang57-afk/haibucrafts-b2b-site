@@ -28,14 +28,14 @@ test('homepage identifies the HAIBUCRAFT website and organization', async () => 
 test('all buyer guides show matching author and scope-review information', async () => {
   const blogRoot = path.join(previewRoot, 'blog');
   const directories = (await readdir(blogRoot, { withFileTypes: true })).filter((entry) => entry.isDirectory());
-  assert.equal(directories.length, 22);
+  assert.equal(directories.length, 23);
 
   for (const directory of directories) {
     const html = await read(path.join('blog', directory.name, 'index.html'));
     const posting = structuredData(html).find((entry) => entry['@type'] === 'BlogPosting');
     assert.equal(posting?.author?.name, 'HAIBUCRAFT Buyer Resources');
     assert.equal(posting?.author?.url, 'https://www.haibucrafts.com/about/editorial-policy/');
-    const isPhoneCase = directory.name === 'wholesale-resin-charms-for-phone-cases';
+    const isPhoneCase = ['wholesale-resin-charms-for-phone-cases', 'ocean-phone-case-charm-video'].includes(directory.name);
     const isPhoto = directory.name === 'source-craft-supplies-from-reference-photos';
     const isKeychain = directory.name === 'keychain-bag-charm-components-sourcing-guide';
     const isStrawberry = directory.name === 'strawberry-polymer-clay-slices-wholesale';

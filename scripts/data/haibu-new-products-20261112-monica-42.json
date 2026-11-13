@@ -1,0 +1,1954 @@
+{
+  "batch": "haibu-new-products-20261112-monica-42",
+  "expectedSkuCount": 20,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261112-monica-42",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-11-12",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW25635",
+      "title": "21 × 19 mm Resin Pretzel Cabochons for Bakery-Themed Craft Assortments — RW25635",
+      "originalTitle": "100Pcs Cartoon Bread Flatback Resin Cabochon Scrapbooking For DIY Crafts Jewelry Making Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "21 × 19 mm Resin Pretzel Cabochons for Bakery-Themed Craft Assortments — RW25635 Product code RW25635",
+      "description": "RW25635 is a reddish-brown resin pretzel decoration with a rounded crossed-band front and two open spaces in the molded outline. The source lists 21 × 19 mm and a 100-piece reference bag. Use the original photo to compare the shape when selecting bakery-themed craft assortments; confirm current color selection, packing and attachment suitability in your inquiry. The reference pack is not an MOQ. Application and detail images are generated references; props are not included.",
+      "detailedDescription": "RW25635 is a reddish-brown resin pretzel decoration with a rounded crossed-band front and two open spaces in the molded outline. The source lists 21 × 19 mm and a 100-piece reference bag. Use the original photo to compare the shape when selecting bakery-themed craft assortments; confirm current color selection, packing and attachment suitability in your inquiry. The reference pack is not an MOQ. Application and detail images are generated references; props are not included.",
+      "seasonalTheme": "Resin craft components — RW25635",
+      "keySellingPoints": [
+        "Product code: RW25635",
+        "Material: Resin",
+        "Dimensions: 21 × 19 mm",
+        "Reference pack: 100 pieces/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25635",
+        "Material: Resin",
+        "Dimensions: 21 × 19 mm",
+        "Reference pack: 100 pieces/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "21 × 19 mm",
+      "sourcePacking": "100 pieces/bag",
+      "customizationOptions": "For RW25635, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25635 is a reddish-brown resin pretzel decoration with a rounded crossed-band front and two open spaces in the molded outline. The source lists 21 × 19 mm and a 100-piece reference bag. Use the original photo to compare the shape when selecting bakery-themed craft assortments; confirm current color selection, packing and attachment suitability in your inquiry. The reference pack is not an MOQ. Application and detail images are generated references; props are not included.",
+      "packagingMoq": "Reference packing: 100 pieces/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "21 × 19 mm Resin Pretzel Cabochons | RW25635",
+      "metaDescription": "RW25635: Resin craft decorations, 21 × 19 mm. Reference pack: 100 pieces/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "21 × 19 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Bread Flatback Resin Cabochon Scrapbooking For DIY Crafts Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "21*19mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25635"
+      },
+      "sourceProductId": "1601449384230",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Bread-Flatback-Resin-Cabochon_1601449384230.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25635",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw25635-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1812",
+      "title": "13 × 25 × 26 mm Resin Macaron Decorations for Craft Assortments — RW1812",
+      "originalTitle": "Kawaii Resin Macaroon Miniature Flatback Cabochon Art Supply DIY Craft Decoration Homemade Gift Phone Deco",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "13 × 25 × 26 mm Resin Macaron Decorations for Craft Assortments — RW1812 Product code RW1812",
+      "description": "RW1812 offers a miniature macaron motif with smooth rounded shells and a narrow molded cream-colored seam. The source identifies resin, a size of 13 × 25 × 26 mm and a 100-piece reference bag. Compare the original photographed pastel and brown references when planning bakery-themed craft assortments; confirm the current color selection, packing and attachment requirements by inquiry. The bag quantity is not an MOQ. These are non-food craft decorations. Generated application and detail references are illustrative, and props are not included.",
+      "detailedDescription": "RW1812 offers a miniature macaron motif with smooth rounded shells and a narrow molded cream-colored seam. The source identifies resin, a size of 13 × 25 × 26 mm and a 100-piece reference bag. Compare the original photographed pastel and brown references when planning bakery-themed craft assortments; confirm the current color selection, packing and attachment requirements by inquiry. The bag quantity is not an MOQ. These are non-food craft decorations. Generated application and detail references are illustrative, and props are not included.",
+      "seasonalTheme": "Resin craft components — RW1812",
+      "keySellingPoints": [
+        "Product code: RW1812",
+        "Material: Resin",
+        "Dimensions: 13 × 25 × 26 mm",
+        "Reference pack: 100 pieces/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1812",
+        "Material: Resin",
+        "Dimensions: 13 × 25 × 26 mm",
+        "Reference pack: 100 pieces/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "13 × 25 × 26 mm",
+      "sourcePacking": "100 pieces/bag",
+      "customizationOptions": "For RW1812, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW1812 offers a miniature macaron motif with smooth rounded shells and a narrow molded cream-colored seam. The source identifies resin, a size of 13 × 25 × 26 mm and a 100-piece reference bag. Compare the original photographed pastel and brown references when planning bakery-themed craft assortments; confirm the current color selection, packing and attachment requirements by inquiry. The bag quantity is not an MOQ. These are non-food craft decorations. Generated application and detail references are illustrative, and props are not included.",
+      "packagingMoq": "Reference packing: 100 pieces/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "13 × 25 × 26 mm Resin Macaron Decorations | RW1812",
+      "metaDescription": "RW1812: Resin craft decorations, 13 × 25 × 26 mm. Reference pack: 100 pieces/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "13 × 25 × 26 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Kawaii Resin Macaroon Miniature Flatback Cabochon Art Supply DIY Craft Decoration Homemade Gift Phone Deco",
+        "material": "Resin",
+        "size": "13*25*26mm-",
+        "packaging": "100PCS/bag",
+        "sku_raw": "MO-RW1812"
+      },
+      "sourceProductId": "1601678067442",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Resin-Macaroon-Miniature-Flatback-Cabochon_1601678067442.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw1812",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw1812-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW2304-B",
+      "title": "5 × 14 × 14 mm Round Resin Candy Decorations for Craft Assortments — RW2304-B",
+      "originalTitle": "Factory Directly Supply Food Cooking Play DIY Miniature Accessories Chocolate Resin Candy Sweet",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "5 × 14 × 14 mm Round Resin Candy Decorations for Craft Assortments — RW2304-B Product code RW2304-B",
+      "description": "RW2304-B is a smooth round resin candy-style decoration with a glossy solid-color front and rounded edge. The source lists 5 × 14 × 14 mm and a 100-piece reference bag. Compare the photographed bright colors when selecting a coordinated craft assortment, and confirm current color choices, packing and attachment needs by inquiry. Do not treat the reference bag as an MOQ or assume a fixed color ratio. These are non-food craft components. Generated application and detail references are illustrative; props are not included.",
+      "detailedDescription": "RW2304-B is a smooth round resin candy-style decoration with a glossy solid-color front and rounded edge. The source lists 5 × 14 × 14 mm and a 100-piece reference bag. Compare the photographed bright colors when selecting a coordinated craft assortment, and confirm current color choices, packing and attachment needs by inquiry. Do not treat the reference bag as an MOQ or assume a fixed color ratio. These are non-food craft components. Generated application and detail references are illustrative; props are not included.",
+      "seasonalTheme": "Resin craft components — RW2304-B",
+      "keySellingPoints": [
+        "Product code: RW2304-B",
+        "Material: Resin",
+        "Dimensions: 5 × 14 × 14 mm",
+        "Reference pack: 100 pieces/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW2304-B",
+        "Material: Resin",
+        "Dimensions: 5 × 14 × 14 mm",
+        "Reference pack: 100 pieces/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "5 × 14 × 14 mm",
+      "sourcePacking": "100 pieces/bag",
+      "customizationOptions": "For RW2304-B, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW2304-B is a smooth round resin candy-style decoration with a glossy solid-color front and rounded edge. The source lists 5 × 14 × 14 mm and a 100-piece reference bag. Compare the photographed bright colors when selecting a coordinated craft assortment, and confirm current color choices, packing and attachment needs by inquiry. Do not treat the reference bag as an MOQ or assume a fixed color ratio. These are non-food craft components. Generated application and detail references are illustrative; props are not included.",
+      "packagingMoq": "Reference packing: 100 pieces/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "5 × 14 × 14 mm Round Resin Candy Decorations | RW2304-B",
+      "metaDescription": "RW2304-B: Resin craft decorations, 5 × 14 × 14 mm. Reference pack: 100 pieces/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "5 × 14 × 14 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pieces/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Factory Directly Supply Food Cooking Play DIY Miniature Accessories Chocolate Resin Candy Sweet",
+        "material": "Resin",
+        "size": "5*14*14mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW2304-B"
+      },
+      "sourceProductId": "1601284729138",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Factory-Directly-Supply-Food-Cooking-Play_1601284729138.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw2304-b",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw2304-b-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25257",
+      "title": "20 mm Layered Rose Resin Charms for Craft Sourcing",
+      "originalTitle": "20mm Resin Luminous Colorful Rose Crafts Supplies Handicraft DIY Scrapbooking Jewelry Mobile Phone Case Ornament Materials",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW25257 20 mm Layered Rose Resin Charms for Craft Sourcing Product code RW25257",
+      "description": "RW25257 resin rose embellishments have layered curled petals and a glossy iridescent appearance visible in the original photograph. The source lists a 20 mm size and a reference pack of 100 pieces per bag. Compare the petal shape and displayed colors when selecting floral craft supplies; confirm available colors and packing details in your inquiry. The reference pack is not a minimum order quantity. Pricing and MOQ require confirmation. Generated application and detail images are visual references; tags, string and other props are not included. No luminous performance or attachment method is specified.",
+      "detailedDescription": "RW25257 resin rose embellishments have layered curled petals and a glossy iridescent appearance visible in the original photograph. The source lists a 20 mm size and a reference pack of 100 pieces per bag. Compare the petal shape and displayed colors when selecting floral craft supplies; confirm available colors and packing details in your inquiry. The reference pack is not a minimum order quantity. Pricing and MOQ require confirmation. Generated application and detail images are visual references; tags, string and other props are not included. No luminous performance or attachment method is specified.",
+      "seasonalTheme": "Resin craft components — RW25257",
+      "keySellingPoints": [
+        "Product code: RW25257",
+        "Material: Resin",
+        "Dimensions: 20 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25257",
+        "Material: Resin",
+        "Dimensions: 20 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "20 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25257, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25257 resin rose embellishments have layered curled petals and a glossy iridescent appearance visible in the original photograph. The source lists a 20 mm size and a reference pack of 100 pieces per bag. Compare the petal shape and displayed colors when selecting floral craft supplies; confirm available colors and packing details in your inquiry. The reference pack is not a minimum order quantity. Pricing and MOQ require confirmation. Generated application and detail images are visual references; tags, string and other props are not included. No luminous performance or attachment method is specified.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW25257 20 mm Layered Rose Resin Charms for Craft Sourcing",
+      "metaDescription": "RW25257: Resin craft decorations, 20 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "20 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "20mm Resin Luminous Colorful Rose Crafts Supplies Handicraft DIY Scrapbooking Jewelry Mobile Phone Case Ornament Materials",
+        "material": "Resin",
+        "size": "20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25257"
+      },
+      "sourceProductId": "1601375385173",
+      "sourceUrl": "https://www.alibaba.com/product-detail/20mm-Resin-Luminous-Colorful-Rose-Crafts_1601375385173.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25257",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw25257-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW4523",
+      "title": "Blue Resin Eye Decorations in 10 mm and 14 mm Source Sizes",
+      "originalTitle": "100pcs Realistic Resin Animal Eyes Buttons for Dolls, DIY Craft Buttons",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW4523 Blue Resin Eye Decorations in 10 mm and 14 mm Source Sizes Product code RW4523",
+      "description": "RW4523 resin eye decorations show an oval cobalt outline, pale inner band, blue iris, glitter accents and a glossy black pupil. The source lists 10 mm / 14 mm size options and 100 pieces per reference bag; confirm the size selection and packing arrangement in your inquiry. Use the original front view to compare decorative eye motifs for craft assortments. No reverse construction, shank, hole or supplied fastening is verified. Pack quantity is not MOQ; price and order requirements need confirmation. Generated application and detail images are references, and props are excluded.",
+      "detailedDescription": "RW4523 resin eye decorations show an oval cobalt outline, pale inner band, blue iris, glitter accents and a glossy black pupil. The source lists 10 mm / 14 mm size options and 100 pieces per reference bag; confirm the size selection and packing arrangement in your inquiry. Use the original front view to compare decorative eye motifs for craft assortments. No reverse construction, shank, hole or supplied fastening is verified. Pack quantity is not MOQ; price and order requirements need confirmation. Generated application and detail images are references, and props are excluded.",
+      "seasonalTheme": "Resin craft components — RW4523",
+      "keySellingPoints": [
+        "Product code: RW4523",
+        "Material: Resin",
+        "Dimensions: 10 mm / 14 mm (source-listed options)",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW4523",
+        "Material: Resin",
+        "Dimensions: 10 mm / 14 mm (source-listed options)",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "10 mm / 14 mm (source-listed options)",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW4523, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW4523 resin eye decorations show an oval cobalt outline, pale inner band, blue iris, glitter accents and a glossy black pupil. The source lists 10 mm / 14 mm size options and 100 pieces per reference bag; confirm the size selection and packing arrangement in your inquiry. Use the original front view to compare decorative eye motifs for craft assortments. No reverse construction, shank, hole or supplied fastening is verified. Pack quantity is not MOQ; price and order requirements need confirmation. Generated application and detail images are references, and props are excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW4523 Blue Resin Eye Decorations in 10 mm and 14 mm Source Sizes",
+      "metaDescription": "RW4523: Resin craft decorations, 10 mm / 14 mm (source-listed options). Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "10 mm / 14 mm (source-listed options)",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Realistic Resin Animal Eyes Buttons for Dolls, DIY Craft Buttons",
+        "material": "Resin",
+        "size": "10mm- / 14mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW4523"
+      },
+      "sourceProductId": "1601588173325",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Realistic-Resin-Animal-Eyes-Buttons_1601588173325.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw4523",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw4523-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002211",
+      "title": "20 × 22 mm Resin Fish Decorations for Ocean Craft Assortments",
+      "originalTitle": "Mini Luminous Fish Home Decor Landscaping Resin Crafts Glowing Fish Garden Miniatures Ornaments Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW002211 20 × 22 mm Resin Fish Decorations for Ocean Craft Assortments Product code RW002211",
+      "description": "RW002211 is a resin fish decoration with a rounded translucent-colored head, protruding eye details, small side fins and a tall forked tail. The source lists 20 × 22 mm and 100 pieces per reference bag. Compare the original photographed shape and colors for ocean-themed craft sourcing; confirm available color selection and packing before ordering. No fixed mixed-color ratio, hole or fastening is specified. Reference bag quantity is not MOQ, and prices require inquiry. Application and detail images are generated references; props are not included.",
+      "detailedDescription": "RW002211 is a resin fish decoration with a rounded translucent-colored head, protruding eye details, small side fins and a tall forked tail. The source lists 20 × 22 mm and 100 pieces per reference bag. Compare the original photographed shape and colors for ocean-themed craft sourcing; confirm available color selection and packing before ordering. No fixed mixed-color ratio, hole or fastening is specified. Reference bag quantity is not MOQ, and prices require inquiry. Application and detail images are generated references; props are not included.",
+      "seasonalTheme": "Resin craft components — RW002211",
+      "keySellingPoints": [
+        "Product code: RW002211",
+        "Material: Resin",
+        "Dimensions: 20 × 22 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002211",
+        "Material: Resin",
+        "Dimensions: 20 × 22 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "20 × 22 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW002211, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW002211 is a resin fish decoration with a rounded translucent-colored head, protruding eye details, small side fins and a tall forked tail. The source lists 20 × 22 mm and 100 pieces per reference bag. Compare the original photographed shape and colors for ocean-themed craft sourcing; confirm available color selection and packing before ordering. No fixed mixed-color ratio, hole or fastening is specified. Reference bag quantity is not MOQ, and prices require inquiry. Application and detail images are generated references; props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW002211 20 × 22 mm Resin Fish Decorations for Ocean Craft Assortments",
+      "metaDescription": "RW002211: Resin craft decorations, 20 × 22 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "20 × 22 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Mini Luminous Fish Home Decor Landscaping Resin Crafts Glowing Fish Garden Miniatures Ornaments Decoration",
+        "material": "Resin",
+        "size": "20*22mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW002211"
+      },
+      "sourceProductId": "1601678145009",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Luminous-Fish-Home-Decor-Landscaping_1601678145009.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw002211",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw002211-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25570",
+      "title": "30 × 25 mm Aqua Resin Octopus Decorations for Craft Sourcing",
+      "originalTitle": "100Pcs Kawaii Cartoon Cute Colorful Octopus Miniature Fish Tank Ornament Creative Fashion Kawaii Aquarium Decoration Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW25570 30 × 25 mm Aqua Resin Octopus Decorations for Craft Sourcing Product code RW25570",
+      "description": "RW25570 features a pale aqua resin octopus motif with a rounded head, small top bump, yellow forehead stars and a scalloped base. The source lists 30 × 25 mm and a reference bag of 100 pieces. Compare the original front view for ocean-themed craft ranges, and confirm available selection, packing and attachment requirements in your inquiry. The reference pack does not establish MOQ; prices require confirmation. Aquarium or water-use suitability has not been verified. Generated application and detail views are visual references, with props excluded.",
+      "detailedDescription": "RW25570 features a pale aqua resin octopus motif with a rounded head, small top bump, yellow forehead stars and a scalloped base. The source lists 30 × 25 mm and a reference bag of 100 pieces. Compare the original front view for ocean-themed craft ranges, and confirm available selection, packing and attachment requirements in your inquiry. The reference pack does not establish MOQ; prices require confirmation. Aquarium or water-use suitability has not been verified. Generated application and detail views are visual references, with props excluded.",
+      "seasonalTheme": "Resin craft components — RW25570",
+      "keySellingPoints": [
+        "Product code: RW25570",
+        "Material: Resin",
+        "Dimensions: 30 × 25 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25570",
+        "Material: Resin",
+        "Dimensions: 30 × 25 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "30 × 25 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25570, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25570 features a pale aqua resin octopus motif with a rounded head, small top bump, yellow forehead stars and a scalloped base. The source lists 30 × 25 mm and a reference bag of 100 pieces. Compare the original front view for ocean-themed craft ranges, and confirm available selection, packing and attachment requirements in your inquiry. The reference pack does not establish MOQ; prices require confirmation. Aquarium or water-use suitability has not been verified. Generated application and detail views are visual references, with props excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW25570 30 × 25 mm Aqua Resin Octopus Decorations for Craft Sourcing",
+      "metaDescription": "RW25570: Resin craft decorations, 30 × 25 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "30 × 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Kawaii Cartoon Cute Colorful Octopus Miniature Fish Tank Ornament Creative Fashion Kawaii Aquarium Decoration Accessories",
+        "material": "Resin",
+        "size": "30*25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25570"
+      },
+      "sourceProductId": "1601432559036",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Cartoon-Cute-Colorful-Octopus_1601432559036.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25570",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw25570-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25706",
+      "title": "15 × 13 × 21 mm Resin Cat Miniatures for Craft Selection",
+      "originalTitle": "100Pcs Miniature Ornament Figurines Kawaii Cartoon Cat 3D Resin Cabochon Animal DIY Dollhouse Home Decoration Accessories Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW25706 15 × 13 × 21 mm Resin Cat Miniatures for Craft Selection Product code RW25706",
+      "description": "RW25706 resin cat miniatures have rounded heads, upright ears and small seated bodies. The original photograph shows several color treatments; the generated references focus on the pictured black cat with yellow eyes. Source-listed dimensions are 15 × 13 × 21 mm and reference packing is 100 pieces per bag. Compare the original options and confirm available selection and packing by inquiry; a fixed assortment is not specified. Pack quantity is not MOQ and pricing remains by inquiry. Generated images illustrate styling only, with display props excluded.",
+      "detailedDescription": "RW25706 resin cat miniatures have rounded heads, upright ears and small seated bodies. The original photograph shows several color treatments; the generated references focus on the pictured black cat with yellow eyes. Source-listed dimensions are 15 × 13 × 21 mm and reference packing is 100 pieces per bag. Compare the original options and confirm available selection and packing by inquiry; a fixed assortment is not specified. Pack quantity is not MOQ and pricing remains by inquiry. Generated images illustrate styling only, with display props excluded.",
+      "seasonalTheme": "Resin craft components — RW25706",
+      "keySellingPoints": [
+        "Product code: RW25706",
+        "Material: Resin",
+        "Dimensions: 15 × 13 × 21 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25706",
+        "Material: Resin",
+        "Dimensions: 15 × 13 × 21 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "15 × 13 × 21 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25706, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25706 resin cat miniatures have rounded heads, upright ears and small seated bodies. The original photograph shows several color treatments; the generated references focus on the pictured black cat with yellow eyes. Source-listed dimensions are 15 × 13 × 21 mm and reference packing is 100 pieces per bag. Compare the original options and confirm available selection and packing by inquiry; a fixed assortment is not specified. Pack quantity is not MOQ and pricing remains by inquiry. Generated images illustrate styling only, with display props excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW25706 15 × 13 × 21 mm Resin Cat Miniatures for Craft Selection",
+      "metaDescription": "RW25706: Resin craft decorations, 15 × 13 × 21 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "15 × 13 × 21 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Miniature Ornament Figurines Kawaii Cartoon Cat 3D Resin Cabochon Animal DIY Dollhouse Home Decoration Accessories Craft",
+        "material": "Resin",
+        "size": "15*13*21mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25706"
+      },
+      "sourceProductId": "1601670780116",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Ornament-Figurines-Kawaii-Cartoon_1601670780116.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25706",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw25706-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW22901",
+      "title": "19 × 28 mm Resin Bee Cabochons for Nature-Themed Craft Ranges",
+      "originalTitle": "Flatback Resin Cartoon Bee Cabochon for Scrapbooking DIY Cake Decor Crafts Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW22901 19 × 28 mm Resin Bee Cabochons for Nature-Themed Craft Ranges Product code RW22901",
+      "description": "RW22901 is a yellow resin bee decoration with two black body bands, cream-colored wings, short black antennae and a smiling face. The source lists 19 × 28 mm and a reference bag of 100 pieces. Compare the original front details for nature-themed craft selection, and confirm packing and order requirements in your inquiry. Reference bag quantity is not MOQ, and price requires confirmation. No food-contact suitability or supplied fastening is verified. Generated application and detail views are references; styling props are not included.",
+      "detailedDescription": "RW22901 is a yellow resin bee decoration with two black body bands, cream-colored wings, short black antennae and a smiling face. The source lists 19 × 28 mm and a reference bag of 100 pieces. Compare the original front details for nature-themed craft selection, and confirm packing and order requirements in your inquiry. Reference bag quantity is not MOQ, and price requires confirmation. No food-contact suitability or supplied fastening is verified. Generated application and detail views are references; styling props are not included.",
+      "seasonalTheme": "Resin craft components — RW22901",
+      "keySellingPoints": [
+        "Product code: RW22901",
+        "Material: Resin",
+        "Dimensions: 19 × 28 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW22901",
+        "Material: Resin",
+        "Dimensions: 19 × 28 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "19 × 28 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW22901, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW22901 is a yellow resin bee decoration with two black body bands, cream-colored wings, short black antennae and a smiling face. The source lists 19 × 28 mm and a reference bag of 100 pieces. Compare the original front details for nature-themed craft selection, and confirm packing and order requirements in your inquiry. Reference bag quantity is not MOQ, and price requires confirmation. No food-contact suitability or supplied fastening is verified. Generated application and detail views are references; styling props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW22901 19 × 28 mm Resin Bee Cabochons for Nature-Themed Craft Ranges",
+      "metaDescription": "RW22901: Resin craft decorations, 19 × 28 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "19 × 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Flatback Resin Cartoon Bee Cabochon for Scrapbooking DIY Cake Decor Crafts Accessories",
+        "material": "Resin",
+        "size": "19*28mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW22901"
+      },
+      "sourceProductId": "1600996294368",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Flatback-Resin-Cartoon-Bee-Cabochon-for_1600996294368.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw22901",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw22901-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW23934",
+      "title": "18 × 19 mm Resin Frog Decorations with Gold Head Detail",
+      "originalTitle": "Luminous Mini Crown Frogs Fairy Garden Decoration Miniature Frog Figurines Glow at Night Home Decor Kawaii Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW23934 18 × 19 mm Resin Frog Decorations with Gold Head Detail Product code RW23934",
+      "description": "RW23934 resin frog decorations have rounded bodies, raised eye details, pink cheeks and a small gold-colored crown-like head ornament. The source lists 18 × 19 mm and 100 pieces per reference bag. Compare the original photographed colors when selecting animal-themed craft supplies, and confirm current selection, packing and order requirements by inquiry. Bag quantity is not MOQ, and no fixed color ratio or glow performance is verified. Generated application and detail images are visual references; props are excluded.",
+      "detailedDescription": "RW23934 resin frog decorations have rounded bodies, raised eye details, pink cheeks and a small gold-colored crown-like head ornament. The source lists 18 × 19 mm and 100 pieces per reference bag. Compare the original photographed colors when selecting animal-themed craft supplies, and confirm current selection, packing and order requirements by inquiry. Bag quantity is not MOQ, and no fixed color ratio or glow performance is verified. Generated application and detail images are visual references; props are excluded.",
+      "seasonalTheme": "Resin craft components — RW23934",
+      "keySellingPoints": [
+        "Product code: RW23934",
+        "Material: Resin",
+        "Dimensions: 18 × 19 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW23934",
+        "Material: Resin",
+        "Dimensions: 18 × 19 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "18 × 19 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW23934, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW23934 resin frog decorations have rounded bodies, raised eye details, pink cheeks and a small gold-colored crown-like head ornament. The source lists 18 × 19 mm and 100 pieces per reference bag. Compare the original photographed colors when selecting animal-themed craft supplies, and confirm current selection, packing and order requirements by inquiry. Bag quantity is not MOQ, and no fixed color ratio or glow performance is verified. Generated application and detail images are visual references; props are excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW23934 18 × 19 mm Resin Frog Decorations with Gold Head Detail",
+      "metaDescription": "RW23934: Resin craft decorations, 18 × 19 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "18 × 19 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Luminous Mini Crown Frogs Fairy Garden Decoration Miniature Frog Figurines Glow at Night Home Decor Kawaii Accessories",
+        "material": "Resin",
+        "size": "18*19mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW23934"
+      },
+      "sourceProductId": "1601651327986",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Luminous-Mini-Crown-Frogs-Fairy-Garden_1601651327986.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw23934",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw23934-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25629",
+      "title": "25 × 38 mm Translucent Resin Bear Decorations for Craft Ranges",
+      "originalTitle": "25*38mm Cute Jelly Bear Flat Back Resin Cabochons Scrapbooking DIY Jewelry Crafts Decoration Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW25629 25 × 38 mm Translucent Resin Bear Decorations for Craft Ranges Product code RW25629",
+      "description": "RW25629 has a broad gummy-bear silhouette with rounded ears, small front paws and two rounded feet in translucent colored resin. The source lists 25 × 38 mm and a 100-piece reference bag. Use the original photo to compare this larger bear outline with other craft motifs, and confirm current color selection and packing in your inquiry. It is a non-food craft decoration. Reference pack quantity is not MOQ; no fixed color mix or fastening is promised. Generated application and detail views are visual references, with props excluded.",
+      "detailedDescription": "RW25629 has a broad gummy-bear silhouette with rounded ears, small front paws and two rounded feet in translucent colored resin. The source lists 25 × 38 mm and a 100-piece reference bag. Use the original photo to compare this larger bear outline with other craft motifs, and confirm current color selection and packing in your inquiry. It is a non-food craft decoration. Reference pack quantity is not MOQ; no fixed color mix or fastening is promised. Generated application and detail views are visual references, with props excluded.",
+      "seasonalTheme": "Resin craft components — RW25629",
+      "keySellingPoints": [
+        "Product code: RW25629",
+        "Material: Resin",
+        "Dimensions: 25 × 38 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25629",
+        "Material: Resin",
+        "Dimensions: 25 × 38 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "25 × 38 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25629, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25629 has a broad gummy-bear silhouette with rounded ears, small front paws and two rounded feet in translucent colored resin. The source lists 25 × 38 mm and a 100-piece reference bag. Use the original photo to compare this larger bear outline with other craft motifs, and confirm current color selection and packing in your inquiry. It is a non-food craft decoration. Reference pack quantity is not MOQ; no fixed color mix or fastening is promised. Generated application and detail views are visual references, with props excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW25629 25 × 38 mm Translucent Resin Bear Decorations for Craft Ranges",
+      "metaDescription": "RW25629: Resin craft decorations, 25 × 38 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "25 × 38 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "25*38mm Cute Jelly Bear Flat Back Resin Cabochons Scrapbooking DIY Jewelry Crafts Decoration Accessories",
+        "material": "Resin",
+        "size": "25*38mm-",
+        "packaging": "100PCS/bag",
+        "sku_raw": "MO-RW25629"
+      },
+      "sourceProductId": "1601678055587",
+      "sourceUrl": "https://www.alibaba.com/product-detail/25-38mm-Cute-Jelly-Bear-Flat_1601678055587.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25629",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw25629-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26032",
+      "title": "9 × 15 mm Resin Citrus Half-Slices for Small Craft Accents",
+      "originalTitle": "Cute Cartoon Mini Colorful Orange Slices Nail Art Resin Designer Charms DIY Craft for Nail 3D Decorations Jewelry",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW26032 9 × 15 mm Resin Citrus Half-Slices for Small Craft Accents Product code RW26032",
+      "description": "RW26032 resin citrus half-slices have a semicircular outline, pale rind and pink-coral fan-shaped segments. The source specifies 9 × 15 mm and 100 pieces per reference bag. Compare the original front detail when sourcing small fruit motifs for craft ranges; confirm selection, packing and order requirements by inquiry. The pack quantity is not MOQ, and pricing requires confirmation. These are non-food decorations with no fastening performance specified. Generated application and detail references are illustrative; props are not included.",
+      "detailedDescription": "RW26032 resin citrus half-slices have a semicircular outline, pale rind and pink-coral fan-shaped segments. The source specifies 9 × 15 mm and 100 pieces per reference bag. Compare the original front detail when sourcing small fruit motifs for craft ranges; confirm selection, packing and order requirements by inquiry. The pack quantity is not MOQ, and pricing requires confirmation. These are non-food decorations with no fastening performance specified. Generated application and detail references are illustrative; props are not included.",
+      "seasonalTheme": "Resin craft components — RW26032",
+      "keySellingPoints": [
+        "Product code: RW26032",
+        "Material: Resin",
+        "Dimensions: 9 × 15 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26032",
+        "Material: Resin",
+        "Dimensions: 9 × 15 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "9 × 15 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26032, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26032 resin citrus half-slices have a semicircular outline, pale rind and pink-coral fan-shaped segments. The source specifies 9 × 15 mm and 100 pieces per reference bag. Compare the original front detail when sourcing small fruit motifs for craft ranges; confirm selection, packing and order requirements by inquiry. The pack quantity is not MOQ, and pricing requires confirmation. These are non-food decorations with no fastening performance specified. Generated application and detail references are illustrative; props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW26032 9 × 15 mm Resin Citrus Half-Slices for Small Craft Accents",
+      "metaDescription": "RW26032: Resin craft decorations, 9 × 15 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "9 × 15 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Cute Cartoon Mini Colorful Orange Slices Nail Art Resin Designer Charms DIY Craft for Nail 3D Decorations Jewelry",
+        "material": "Resin",
+        "size": "9*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26032"
+      },
+      "sourceProductId": "1601629445693",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Cartoon-Mini-Colorful-Orange-Slices_1601629445693.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26032",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw26032-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25899",
+      "title": "21 × 20 mm Resin Stars with Molded Border Detail",
+      "originalTitle": "100pcs Mini Star Resin Craft Patch Flatback DIY for Children Handmade Materials Material Scrapbooking Cup Jewellery",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW25899 21 × 20 mm Resin Stars with Molded Border Detail Product code RW25899",
+      "description": "RW25899 resin stars combine five rounded points, a glossy raised center and stitch-like molded marks around the edge. The source lists 21 × 20 mm and 100 pieces per reference bag. Compare the original photographed colors and border design when selecting craft accents, and confirm current packing and order requirements by inquiry. These are resin components; the border does not establish sewing holes or fabric construction. Pack quantity is not MOQ, and price requires confirmation. Generated application and detail references are illustrative, with props excluded.",
+      "detailedDescription": "RW25899 resin stars combine five rounded points, a glossy raised center and stitch-like molded marks around the edge. The source lists 21 × 20 mm and 100 pieces per reference bag. Compare the original photographed colors and border design when selecting craft accents, and confirm current packing and order requirements by inquiry. These are resin components; the border does not establish sewing holes or fabric construction. Pack quantity is not MOQ, and price requires confirmation. Generated application and detail references are illustrative, with props excluded.",
+      "seasonalTheme": "Resin craft components — RW25899",
+      "keySellingPoints": [
+        "Product code: RW25899",
+        "Material: Resin",
+        "Dimensions: 21 × 20 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25899",
+        "Material: Resin",
+        "Dimensions: 21 × 20 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "21 × 20 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25899, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25899 resin stars combine five rounded points, a glossy raised center and stitch-like molded marks around the edge. The source lists 21 × 20 mm and 100 pieces per reference bag. Compare the original photographed colors and border design when selecting craft accents, and confirm current packing and order requirements by inquiry. These are resin components; the border does not establish sewing holes or fabric construction. Pack quantity is not MOQ, and price requires confirmation. Generated application and detail references are illustrative, with props excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW25899 21 × 20 mm Resin Stars with Molded Border Detail",
+      "metaDescription": "RW25899: Resin craft decorations, 21 × 20 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "21 × 20 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Mini Star Resin Craft Patch Flatback DIY for Children Handmade Materials Material Scrapbooking Cup Jewellery",
+        "material": "Resin",
+        "size": "21*20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25899"
+      },
+      "sourceProductId": "1601601432267",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Star-Resin-Craft-Patch_1601601432267.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25899",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw25899-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW21127",
+      "title": "Pink Resin Cherry Blossoms in 19 mm and 30 mm Source Sizes",
+      "originalTitle": "100pcs Pink Cherry Blossoms Flower Resin Patch Scrapbook DIY Resin Craft Handicraft Material Hairpin Accessories Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW21127 Pink Resin Cherry Blossoms in 19 mm and 30 mm Source Sizes Product code RW21127",
+      "description": "RW21127 resin cherry-blossom decorations have five notched pink petals, small radiating stamen marks and a raised yellow center. The source lists 19 mm / 30 mm options and a 100-piece reference bag. Confirm the required size selection and packing arrangement when comparing floral craft supplies; no size allocation within the bag is established. Reference pack quantity is not MOQ, and prices require inquiry. Generated application and detail images are visual references; card and styling props are not included.",
+      "detailedDescription": "RW21127 resin cherry-blossom decorations have five notched pink petals, small radiating stamen marks and a raised yellow center. The source lists 19 mm / 30 mm options and a 100-piece reference bag. Confirm the required size selection and packing arrangement when comparing floral craft supplies; no size allocation within the bag is established. Reference pack quantity is not MOQ, and prices require inquiry. Generated application and detail images are visual references; card and styling props are not included.",
+      "seasonalTheme": "Resin craft components — RW21127",
+      "keySellingPoints": [
+        "Product code: RW21127",
+        "Material: Resin",
+        "Dimensions: 19 mm / 30 mm (source-listed options)",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW21127",
+        "Material: Resin",
+        "Dimensions: 19 mm / 30 mm (source-listed options)",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "19 mm / 30 mm (source-listed options)",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW21127, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW21127 resin cherry-blossom decorations have five notched pink petals, small radiating stamen marks and a raised yellow center. The source lists 19 mm / 30 mm options and a 100-piece reference bag. Confirm the required size selection and packing arrangement when comparing floral craft supplies; no size allocation within the bag is established. Reference pack quantity is not MOQ, and prices require inquiry. Generated application and detail images are visual references; card and styling props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW21127 Pink Resin Cherry Blossoms in 19 mm and 30 mm Source Sizes",
+      "metaDescription": "RW21127: Resin craft decorations, 19 mm / 30 mm (source-listed options). Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "19 mm / 30 mm (source-listed options)",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Pink Cherry Blossoms Flower Resin Patch Scrapbook DIY Resin Craft Handicraft Material Hairpin Accessories Decoration",
+        "material": "Resin",
+        "size": "19mm- / 30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW21127"
+      },
+      "sourceProductId": "1601679714758",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Pink-Cherry-Blossoms-Flower-Resin_1601679714758.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw21127",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw21127-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25900",
+      "title": "25 × 15 mm Epoxy Resin Bow Decorations with Molded Edging",
+      "originalTitle": "100pcs Mini Kawaii Resin Butterfly Bow FlatBack Cabochons Scrapbook Diy Nail Party Hairpin Accessories Home Decoration Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW25900 25 × 15 mm Epoxy Resin Bow Decorations with Molded Edging Product code RW25900",
+      "description": "RW25900 is listed as epoxy resin and features two rounded bow lobes, an oval center knot and stitch-like molded edging. Source-listed size is 25 × 15 mm, with a reference pack of 100 pieces per bag. Compare the original pictured colors and compact bow outline for craft assortments, and confirm selection and packing requirements in your inquiry. The edging is decorative and does not establish sewing holes. Pack quantity is not MOQ and price is by inquiry. Generated application and detail references are illustrative; props are excluded.",
+      "detailedDescription": "RW25900 is listed as epoxy resin and features two rounded bow lobes, an oval center knot and stitch-like molded edging. Source-listed size is 25 × 15 mm, with a reference pack of 100 pieces per bag. Compare the original pictured colors and compact bow outline for craft assortments, and confirm selection and packing requirements in your inquiry. The edging is decorative and does not establish sewing holes. Pack quantity is not MOQ and price is by inquiry. Generated application and detail references are illustrative; props are excluded.",
+      "seasonalTheme": "Resin craft components — RW25900",
+      "keySellingPoints": [
+        "Product code: RW25900",
+        "Material: Epoxy Resin",
+        "Dimensions: 25 × 15 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25900",
+        "Material: Epoxy Resin",
+        "Dimensions: 25 × 15 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Epoxy Resin",
+      "dimensions": "25 × 15 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25900, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25900 is listed as epoxy resin and features two rounded bow lobes, an oval center knot and stitch-like molded edging. Source-listed size is 25 × 15 mm, with a reference pack of 100 pieces per bag. Compare the original pictured colors and compact bow outline for craft assortments, and confirm selection and packing requirements in your inquiry. The edging is decorative and does not establish sewing holes. Pack quantity is not MOQ and price is by inquiry. Generated application and detail references are illustrative; props are excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW25900 25 × 15 mm Epoxy Resin Bow Decorations with Molded Edging",
+      "metaDescription": "RW25900: Epoxy Resin craft decorations, 25 × 15 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Epoxy Resin",
+        "size": "25 × 15 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Mini Kawaii Resin Butterfly Bow FlatBack Cabochons Scrapbook Diy Nail Party Hairpin Accessories Home Decoration Craft",
+        "material": "Epoxy Resin",
+        "size": "25*15mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25900"
+      },
+      "sourceProductId": "1601601447192",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Kawaii-Resin-Butterfly-Bow_1601601447192.html",
+      "materialBasis": "Explicit Epoxy Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25900",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw25900-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26040",
+      "title": "Resin Flowers with Contrasting Centers, Approx. 21 mm / 28 mm",
+      "originalTitle": "Cute Transparent Crystal Red Blue Flowers Resin Flat Back Cabochon Scrapbook DIY Embellishments Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW26040 Resin Flowers with Contrasting Centers, Approx. 21 mm / 28 mm Product code RW26040",
+      "description": "RW26040 resin flowers show five rounded petals and a contrasting circular center. The original photo includes blue petals with red centers and red petals with blue centers. The source lists approximately 28 mm / 21 mm options and a 100-piece reference bag. Confirm size and color selection plus packing arrangement before ordering; no fixed assortment is established. The bag count is not MOQ and price requires inquiry. Generated application and detail references are illustrative, with props excluded.",
+      "detailedDescription": "RW26040 resin flowers show five rounded petals and a contrasting circular center. The original photo includes blue petals with red centers and red petals with blue centers. The source lists approximately 28 mm / 21 mm options and a 100-piece reference bag. Confirm size and color selection plus packing arrangement before ordering; no fixed assortment is established. The bag count is not MOQ and price requires inquiry. Generated application and detail references are illustrative, with props excluded.",
+      "seasonalTheme": "Resin craft components — RW26040",
+      "keySellingPoints": [
+        "Product code: RW26040",
+        "Material: Resin",
+        "Dimensions: about 28 mm / about 21 mm (source-listed options)",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26040",
+        "Material: Resin",
+        "Dimensions: about 28 mm / about 21 mm (source-listed options)",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "about 28 mm / about 21 mm (source-listed options)",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26040, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26040 resin flowers show five rounded petals and a contrasting circular center. The original photo includes blue petals with red centers and red petals with blue centers. The source lists approximately 28 mm / 21 mm options and a 100-piece reference bag. Confirm size and color selection plus packing arrangement before ordering; no fixed assortment is established. The bag count is not MOQ and price requires inquiry. Generated application and detail references are illustrative, with props excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW26040 Resin Flowers with Contrasting Centers, Approx. 21 mm / 28 mm",
+      "metaDescription": "RW26040: Resin craft decorations, about 28 mm / about 21 mm (source-listed options). Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "about 28 mm / about 21 mm (source-listed options)",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Cute Transparent Crystal Red Blue Flowers Resin Flat Back Cabochon Scrapbook DIY Embellishments Accessories",
+        "material": "Resin",
+        "size": "about28mm- / about21mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26040"
+      },
+      "sourceProductId": "1601631981411",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Transparent-Crystal-Red-Blue-Flowers_1601631981411.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26040",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw26040-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26098",
+      "title": "26 mm Faceted Resin Snowflakes for Seasonal Craft Selection",
+      "originalTitle": "100Pcs Transparent Christmas Snowflake Flatback Resin Cabochon for Hair Bow Center for Phone Decoration DIY Hair Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW26098 26 mm Faceted Resin Snowflakes for Seasonal Craft Selection Product code RW26098",
+      "description": "RW26098 resin snowflake decorations have six pointed arms and a transparent faceted surface with iridescent reflections visible in the original photograph. The source lists 26 mm and a 100-piece reference bag. Compare the photographed color examples for seasonal craft assortments, and confirm current selection and packing by inquiry. The material is resin; no glass or hanging-hardware specification is established. Reference pack quantity is not MOQ and prices require confirmation. Generated application and detail references are illustrative; props are excluded.",
+      "detailedDescription": "RW26098 resin snowflake decorations have six pointed arms and a transparent faceted surface with iridescent reflections visible in the original photograph. The source lists 26 mm and a 100-piece reference bag. Compare the photographed color examples for seasonal craft assortments, and confirm current selection and packing by inquiry. The material is resin; no glass or hanging-hardware specification is established. Reference pack quantity is not MOQ and prices require confirmation. Generated application and detail references are illustrative; props are excluded.",
+      "seasonalTheme": "Resin craft components — RW26098",
+      "keySellingPoints": [
+        "Product code: RW26098",
+        "Material: Resin",
+        "Dimensions: 26 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26098",
+        "Material: Resin",
+        "Dimensions: 26 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "26 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26098, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26098 resin snowflake decorations have six pointed arms and a transparent faceted surface with iridescent reflections visible in the original photograph. The source lists 26 mm and a 100-piece reference bag. Compare the photographed color examples for seasonal craft assortments, and confirm current selection and packing by inquiry. The material is resin; no glass or hanging-hardware specification is established. Reference pack quantity is not MOQ and prices require confirmation. Generated application and detail references are illustrative; props are excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW26098 26 mm Faceted Resin Snowflakes for Seasonal Craft Selection",
+      "metaDescription": "RW26098: Resin craft decorations, 26 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "26 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Transparent Christmas Snowflake Flatback Resin Cabochon for Hair Bow Center for Phone Decoration DIY Hair Accessories",
+        "material": "Resin",
+        "size": "26mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26098"
+      },
+      "sourceProductId": "1601669834644",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Transparent-Christmas-Snowflake-Flatback-Resin_1601669834644.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26098",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw26098-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26108",
+      "title": "18 × 25 mm Resin Croissant Decorations for Bakery Craft Ranges",
+      "originalTitle": "Resin Kawaii Croissant Bread Scrapbook Flatback 3D Food Figurine DIY Doll House Kitchen Decor Accessory",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW26108 18 × 25 mm Resin Croissant Decorations for Bakery Craft Ranges Product code RW26108",
+      "description": "RW26108 resin croissants feature a curved crescent outline, segmented amber-brown ridges and lighter seams. The source lists 18 × 25 mm and 100 pieces per reference bag. Compare the original molded shape and color for bakery-themed craft assortments, and confirm packing and order requirements by inquiry. These are non-food decorations, with no food-contact or supplied fastening specification. Bag quantity is not MOQ and price requires confirmation. Generated application and detail references are illustrative; props are excluded.",
+      "detailedDescription": "RW26108 resin croissants feature a curved crescent outline, segmented amber-brown ridges and lighter seams. The source lists 18 × 25 mm and 100 pieces per reference bag. Compare the original molded shape and color for bakery-themed craft assortments, and confirm packing and order requirements by inquiry. These are non-food decorations, with no food-contact or supplied fastening specification. Bag quantity is not MOQ and price requires confirmation. Generated application and detail references are illustrative; props are excluded.",
+      "seasonalTheme": "Resin craft components — RW26108",
+      "keySellingPoints": [
+        "Product code: RW26108",
+        "Material: Resin",
+        "Dimensions: 18 × 25 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26108",
+        "Material: Resin",
+        "Dimensions: 18 × 25 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "18 × 25 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26108, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26108 resin croissants feature a curved crescent outline, segmented amber-brown ridges and lighter seams. The source lists 18 × 25 mm and 100 pieces per reference bag. Compare the original molded shape and color for bakery-themed craft assortments, and confirm packing and order requirements by inquiry. These are non-food decorations, with no food-contact or supplied fastening specification. Bag quantity is not MOQ and price requires confirmation. Generated application and detail references are illustrative; props are excluded.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW26108 18 × 25 mm Resin Croissant Decorations for Bakery Craft Ranges",
+      "metaDescription": "RW26108: Resin craft decorations, 18 × 25 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "18 × 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Resin Kawaii Croissant Bread Scrapbook Flatback 3D Food Figurine DIY Doll House Kitchen Decor Accessory",
+        "material": "Resin",
+        "size": "18*25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26108"
+      },
+      "sourceProductId": "1601671140136",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Kawaii-Croissant-Bread-Scrapbook-Flatback_1601671140136.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26108",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw26108-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW004553",
+      "title": "Translucent Unicorn Resin Charms, 18 × 28 mm",
+      "originalTitle": "100Pcs Kawaii Cute Luminous 3D Unicorn Horse Charms Animal Pendants for Jewelry Making DIY Earrings Keychain Findings Toys",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW004553 Translucent Unicorn Resin Charms, 18 × 28 mm Product code RW004553",
+      "description": "Select a seated unicorn shape with a closed eyelash eye and gold-tone horn for themed craft assortments. The source specifies resin, 18 × 28 mm and a reference pack of 100 pieces; pack quantity is not a minimum order. Request current color selection, packing and quotation using SKU RW004553. Generated reference images illustrate styling; props are not included.",
+      "detailedDescription": "Select a seated unicorn shape with a closed eyelash eye and gold-tone horn for themed craft assortments. The source specifies resin, 18 × 28 mm and a reference pack of 100 pieces; pack quantity is not a minimum order. Request current color selection, packing and quotation using SKU RW004553. Generated reference images illustrate styling; props are not included.",
+      "seasonalTheme": "Resin craft components — RW004553",
+      "keySellingPoints": [
+        "Product code: RW004553",
+        "Material: Resin",
+        "Dimensions: 18 × 28 mm",
+        "Reference pack: 100 pcs per reference pack"
+      ],
+      "specificationLines": [
+        "Product code: RW004553",
+        "Material: Resin",
+        "Dimensions: 18 × 28 mm",
+        "Reference pack: 100 pcs per reference pack",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "18 × 28 mm",
+      "sourcePacking": "100 pcs per reference pack",
+      "customizationOptions": "For RW004553, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Select a seated unicorn shape with a closed eyelash eye and gold-tone horn for themed craft assortments. The source specifies resin, 18 × 28 mm and a reference pack of 100 pieces; pack quantity is not a minimum order. Request current color selection, packing and quotation using SKU RW004553. Generated reference images illustrate styling; props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs per reference pack. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW004553 Translucent Unicorn Resin Charms, 18 × 28 mm",
+      "metaDescription": "RW004553: Resin craft decorations, 18 × 28 mm. Reference pack: 100 pcs per reference pack. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "18 × 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs per reference pack"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Kawaii Cute Luminous 3D Unicorn Horse Charms Animal Pendants for Jewelry Making DIY Earrings Keychain Findings Toys",
+        "material": "Resin",
+        "size": "18*28mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW004553"
+      },
+      "sourceProductId": "1601651443131",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Kawaii-Cute-Luminous-3D-Unicorn_1601651443131.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw004553",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw004553-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26153",
+      "title": "Mini Toast Resin Decorations, Approx. 16 × 14 × 13 mm",
+      "originalTitle": "100pcs Kawaii DIY Simulation Food Toast Burger Resin Ornament Crafts Play Doll House Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "RW26153 Mini Toast Resin Decorations, Approx. 16 × 14 × 13 mm Product code RW26153",
+      "description": "Choose miniature toast motifs for bakery-themed craft selections. The source lists resin, approximately 16 × 14 × 13 mm and a reference pack of 100 pieces. Original photography shows several designs; confirm the supplied assortment and dimensions for your selected design before ordering. Packing count is not the MOQ. Request a quotation for RW26153 with your quantity and packing needs. Generated images show a plain-toast example; props are not included.",
+      "detailedDescription": "Choose miniature toast motifs for bakery-themed craft selections. The source lists resin, approximately 16 × 14 × 13 mm and a reference pack of 100 pieces. Original photography shows several designs; confirm the supplied assortment and dimensions for your selected design before ordering. Packing count is not the MOQ. Request a quotation for RW26153 with your quantity and packing needs. Generated images show a plain-toast example; props are not included.",
+      "seasonalTheme": "Resin craft components — RW26153",
+      "keySellingPoints": [
+        "Product code: RW26153",
+        "Material: Resin",
+        "Dimensions: Approx. 16 × 14 × 13 mm",
+        "Reference pack: 100 pcs per reference pack"
+      ],
+      "specificationLines": [
+        "Product code: RW26153",
+        "Material: Resin",
+        "Dimensions: Approx. 16 × 14 × 13 mm",
+        "Reference pack: 100 pcs per reference pack",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "Approx. 16 × 14 × 13 mm",
+      "sourcePacking": "100 pcs per reference pack",
+      "customizationOptions": "For RW26153, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Choose miniature toast motifs for bakery-themed craft selections. The source lists resin, approximately 16 × 14 × 13 mm and a reference pack of 100 pieces. Original photography shows several designs; confirm the supplied assortment and dimensions for your selected design before ordering. Packing count is not the MOQ. Request a quotation for RW26153 with your quantity and packing needs. Generated images show a plain-toast example; props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs per reference pack. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "RW26153 Mini Toast Resin Decorations, Approx. 16 × 14 × 13 mm",
+      "metaDescription": "RW26153: Resin craft decorations, Approx. 16 × 14 × 13 mm. Reference pack: 100 pcs per reference pack. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "Approx. 16 × 14 × 13 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs per reference pack"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Kawaii DIY Simulation Food Toast Burger Resin Ornament Crafts Play Doll House Accessories",
+        "material": "Resin",
+        "size": "about16*14*13mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26153"
+      },
+      "sourceProductId": "1601694116366",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-DIY-Simulation-Food-Toast_1601694116366.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26153",
+      "assetDirectory": "batch-20261112-monica-42",
+      "imagePrefix": "rw26153-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-12",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

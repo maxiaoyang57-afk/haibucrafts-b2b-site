@@ -1,0 +1,2490 @@
+{
+  "date": "2026-11-13",
+  "batchNumber": 45,
+  "batchCount": 1,
+  "batchSize": 20,
+  "newProductCount": 20,
+  "imageCount": 60,
+  "products": [
+    {
+      "sku": "RW26409",
+      "key": "rw26409",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Fried Egg Toast Resin Flatbacks for DIY Projects — RW26409",
+      "haibuTitle": "16 x 17mm Fried Egg Toast Resin Flatbacks — RW26409",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "16 x 17mm",
+      "packing": "200pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW26409 is a resin craft component sold under the source-listed 16 x 17mm specification and 200pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW26409 is a resin craft component sold under the source-listed 16 x 17mm specification and 200pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use fried egg toast resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 16 x 17mm and 200pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use fried egg toast resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 16 x 17mm and 200pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "fried-egg-toast-resin-flatbacks",
+      "haibuMetaTitle": "16 x 17mm Fried Egg Toast Resin Flatbacks | RW26409",
+      "metaTitle": "Fried Egg Toast Resin Flatbacks for DIY Projects | RW26409",
+      "haibuDescription": "RW26409: Resin craft component, 16 x 17mm. Reference pack: 200pcs/bag. Request current selection and packing details.",
+      "description": "RW26409: Resin craft component, 16 x 17mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "100pcs Mini Fried Egg Toast Bread Miniature Food Breakfast Model DIY Handmade Resin Craft Decoration Accessory",
+        "material": "Resin",
+        "size": "16 x 17mm",
+        "packaging": "200pcs/bag",
+        "sku_raw": "RW26409"
+      },
+      "sourceProductId": "1601808059330",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Mini-Fried-Egg-Toast-Bread_1601808059330.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H542878598ad54b1ca20f624faa5b8f09z.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "16 x 17mm Fried Egg Toast Resin Flatbacks — RW26409",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw26409/rw26409-fried-egg-toast-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26409/rw26409-fried-egg-toast-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26409/rw26409-fried-egg-toast-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26409/rw26409-fried-egg-toast-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3b8f53b1b2249d31f3a064ec6c02d99f96d443a224778e2e749955a8e18d9d77",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26409/rw26409-fried-egg-toast-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "899f59de39f03bc0a1e368e497a7f295dfb32ed4db1f7c003e1836ee72d9fa67",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26409/rw26409-fried-egg-toast-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "c02fb6a88ef9d5d647497d7fda2f37509a21b6ca71cfc97aeac5a903e1f28199",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26409/rw26409-1.jpg",
+        "assets/images/pdp/rw26409/rw26409-2.jpg",
+        "assets/images/pdp/rw26409/rw26409-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26409/rw26409-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3b8f53b1b2249d31f3a064ec6c02d99f96d443a224778e2e749955a8e18d9d77",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26409/rw26409-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "899f59de39f03bc0a1e368e497a7f295dfb32ed4db1f7c003e1836ee72d9fa67",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26409/rw26409-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "c02fb6a88ef9d5d647497d7fda2f37509a21b6ca71cfc97aeac5a903e1f28199",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW24926",
+      "key": "rw24926",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Animal Donut Resin Flatbacks for DIY Projects — RW24926",
+      "haibuTitle": "26 x 22mm Animal Donut Resin Flatbacks — RW24926",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "26 x 22mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW24926 is a resin craft component sold under the source-listed 26 x 22mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW24926 is a resin craft component sold under the source-listed 26 x 22mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use animal donut resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 26 x 22mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use animal donut resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 26 x 22mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "animal-donut-resin-flatbacks",
+      "haibuMetaTitle": "26 x 22mm Animal Donut Resin Flatbacks | RW24926",
+      "metaTitle": "Animal Donut Resin Flatbacks for DIY Projects | RW24926",
+      "haibuDescription": "RW24926: Resin craft component, 26 x 22mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW24926: Resin craft component, 26 x 22mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Donut Resin Charms DIY Jewelry Earrings Necklace Decor Pendant Making Children Supplies",
+        "material": "Resin",
+        "size": "26 x 22mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW24926"
+      },
+      "sourceProductId": "1601446761841",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Donut-Resin-Charms-DIY_1601446761841.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7fe45fb12a7a488cb463d3f385fb2d85e.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "26 x 22mm Animal Donut Resin Flatbacks — RW24926",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw24926/rw24926-animal-donut-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw24926/rw24926-animal-donut-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw24926/rw24926-animal-donut-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw24926/rw24926-animal-donut-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "f616602a0baf9f5cbd0a45c11eb5511540df39b32def93a5d5bc6d4641ca8122",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw24926/rw24926-animal-donut-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "8c3976c0032c6d45ce675ec29f5d03baf3f9bd951d292edf296a13f548a6fece",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw24926/rw24926-animal-donut-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "ae6e63a97a1e11e15f8bf9c05f1760a3cf91235fcfa2539338bbfb3c1ca6c954",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw24926/rw24926-1.jpg",
+        "assets/images/pdp/rw24926/rw24926-2.jpg",
+        "assets/images/pdp/rw24926/rw24926-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw24926/rw24926-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "f616602a0baf9f5cbd0a45c11eb5511540df39b32def93a5d5bc6d4641ca8122",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw24926/rw24926-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "8c3976c0032c6d45ce675ec29f5d03baf3f9bd951d292edf296a13f548a6fece",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw24926/rw24926-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "ae6e63a97a1e11e15f8bf9c05f1760a3cf91235fcfa2539338bbfb3c1ca6c954",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW002571",
+      "key": "rw002571",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Colorful Star Resin Flatbacks for DIY Projects — RW002571",
+      "haibuTitle": "about12 x 17mm Colorful Star Resin Flatbacks — RW002571",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "about12 x 17mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW002571 is a resin craft component sold under the source-listed about12 x 17mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW002571 is a resin craft component sold under the source-listed about12 x 17mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use colorful star resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists about12 x 17mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use colorful star resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists about12 x 17mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "colorful-star-resin-flatbacks",
+      "haibuMetaTitle": "about12 x 17mm Colorful Star Resin Flatbacks | RW002571",
+      "metaTitle": "Colorful Star Resin Flatbacks for DIY Projects | RW002571",
+      "haibuDescription": "RW002571: Resin craft component, about12 x 17mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW002571: Resin craft component, about12 x 17mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Wishing Bottle Star Flatback Resin Cabochon Fit Phone Decoration DIY Jewelry Making Accessories Scrapbooking Crafts",
+        "material": "Resin",
+        "size": "about12 x 17mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW002571"
+      },
+      "sourceProductId": "1601808309286",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wishing-Bottle-Star-Flatback-Resin-Cabochon_1601808309286.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hab1df6d132ca4925a40a3aae33fd93d3F.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "about12 x 17mm Colorful Star Resin Flatbacks — RW002571",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw002571/rw002571-colorful-star-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw002571/rw002571-colorful-star-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw002571/rw002571-colorful-star-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw002571/rw002571-colorful-star-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "055c05c0f4473e238e4e82c96abea0472d5d00fa683db0b5412e86983c6d7a0b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw002571/rw002571-colorful-star-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "734c6ad9c386439d272fb72cacac99b1750902dafd6e6df11b5f84e7b5340634",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw002571/rw002571-colorful-star-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0731ab3587d45e5df56ae820cfd583ab9b8232695c87caeac593ca2e7450aafc",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw002571/rw002571-1.jpg",
+        "assets/images/pdp/rw002571/rw002571-2.jpg",
+        "assets/images/pdp/rw002571/rw002571-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw002571/rw002571-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "055c05c0f4473e238e4e82c96abea0472d5d00fa683db0b5412e86983c6d7a0b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw002571/rw002571-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "734c6ad9c386439d272fb72cacac99b1750902dafd6e6df11b5f84e7b5340634",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw002571/rw002571-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0731ab3587d45e5df56ae820cfd583ab9b8232695c87caeac593ca2e7450aafc",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW25634",
+      "key": "rw25634",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Pink Fairy Resin Flatbacks for DIY Projects — RW25634",
+      "haibuTitle": "18 x 24mm Pink Fairy Resin Flatbacks — RW25634",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "18 x 24mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW25634 is a resin craft component sold under the source-listed 18 x 24mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW25634 is a resin craft component sold under the source-listed 18 x 24mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use pink fairy resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 18 x 24mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use pink fairy resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 18 x 24mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "pink-fairy-resin-flatbacks",
+      "haibuMetaTitle": "18 x 24mm Pink Fairy Resin Flatbacks | RW25634",
+      "metaTitle": "Pink Fairy Resin Flatbacks for DIY Projects | RW25634",
+      "haibuDescription": "RW25634: Resin craft component, 18 x 24mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW25634: Resin craft component, 18 x 24mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Resin Cute Cartoon Fairies Girl Series Flat Back Cabochon Scrapbooking Diy Accessories",
+        "material": "Resin",
+        "size": "18 x 24mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW25634"
+      },
+      "sourceProductId": "1601446774903",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Cute-Cartoon-Fairies-Girl-Series_1601446774903.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H11a87bd8d0ef4eaaa8504ecdfbcc2139Z.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "18 x 24mm Pink Fairy Resin Flatbacks — RW25634",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw25634/rw25634-pink-fairy-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw25634/rw25634-pink-fairy-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw25634/rw25634-pink-fairy-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25634/rw25634-pink-fairy-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "1a75e314db8d101f9cc87606e9084d5fcd90073b8bcefb2a46e3b7bc00191ebf",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25634/rw25634-pink-fairy-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f3d7e6983fe9818cb6e5c532bd468cdacd294347d49e1646b5b749d561187b03",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25634/rw25634-pink-fairy-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "4782ec3778d10226866f292ccd0e50eb6849e37a00b6ceffc0ed0a69a2099480",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25634/rw25634-1.jpg",
+        "assets/images/pdp/rw25634/rw25634-2.jpg",
+        "assets/images/pdp/rw25634/rw25634-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25634/rw25634-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "1a75e314db8d101f9cc87606e9084d5fcd90073b8bcefb2a46e3b7bc00191ebf",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25634/rw25634-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f3d7e6983fe9818cb6e5c532bd468cdacd294347d49e1646b5b749d561187b03",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25634/rw25634-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "4782ec3778d10226866f292ccd0e50eb6849e37a00b6ceffc0ed0a69a2099480",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW23463",
+      "key": "rw23463",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Mini French Fries Resin Flatbacks for DIY Projects — RW23463",
+      "haibuTitle": "20 x 27mm Mini French Fries Resin Flatbacks — RW23463",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 x 27mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW23463 is a resin craft component sold under the source-listed 20 x 27mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW23463 is a resin craft component sold under the source-listed 20 x 27mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use mini french fries resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 20 x 27mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use mini french fries resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 20 x 27mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "mini-french-fries-resin-flatbacks",
+      "haibuMetaTitle": "20 x 27mm Mini French Fries Resin Flatbacks | RW23463",
+      "metaTitle": "Mini French Fries Resin Flatbacks for DIY Projects | RW23463",
+      "haibuDescription": "RW23463: Resin craft component, 20 x 27mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW23463: Resin craft component, 20 x 27mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "100Pcs Mini Resin French Fries Simulation Food Ornaments Lovely Sweet Doll House Food Crafts for Phone Case Kitchen Room Decor",
+        "material": "Resin",
+        "size": "20 x 27mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW23463"
+      },
+      "sourceProductId": "1601446464787",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mini-Resin-French-Fries-Simulation_1601446464787.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H01ed0fda6462414b86cef8e291217112v.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "20 x 27mm Mini French Fries Resin Flatbacks — RW23463",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw23463/rw23463-mini-french-fries-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw23463/rw23463-mini-french-fries-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw23463/rw23463-mini-french-fries-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw23463/rw23463-mini-french-fries-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "986d760902540937837e76fa7e2a069e9093f096a1f7762bec8d6190464fbd3d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw23463/rw23463-mini-french-fries-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f1af9e34c3f39aa2ade0891682952e1dc8ff56f2354528d7e4e1eff45be06247",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw23463/rw23463-mini-french-fries-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "1c0bf03b900593c1a34a8494c37ff7cf540232d85cd8ad205d7bdd9d0ab93eb8",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw23463/rw23463-1.jpg",
+        "assets/images/pdp/rw23463/rw23463-2.jpg",
+        "assets/images/pdp/rw23463/rw23463-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw23463/rw23463-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "986d760902540937837e76fa7e2a069e9093f096a1f7762bec8d6190464fbd3d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw23463/rw23463-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f1af9e34c3f39aa2ade0891682952e1dc8ff56f2354528d7e4e1eff45be06247",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw23463/rw23463-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "1c0bf03b900593c1a34a8494c37ff7cf540232d85cd8ad205d7bdd9d0ab93eb8",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW25456",
+      "key": "rw25456",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Mini Game Console Resin Flatbacks for DIY Projects — RW25456",
+      "haibuTitle": "20 x 16mm Mini Game Console Resin Flatbacks — RW25456",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 x 16mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW25456 is a resin craft component sold under the source-listed 20 x 16mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW25456 is a resin craft component sold under the source-listed 20 x 16mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use mini game console resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 20 x 16mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use mini game console resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 20 x 16mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "mini-game-console-resin-flatbacks",
+      "haibuMetaTitle": "20 x 16mm Mini Game Console Resin Flatbacks | RW25456",
+      "metaTitle": "Mini Game Console Resin Flatbacks for DIY Projects | RW25456",
+      "haibuDescription": "RW25456: Resin craft component, 20 x 16mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW25456: Resin craft component, 20 x 16mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Cartoon Resin Game Controller Flat Back Cabochon Phone Case Deco Parts Character DIY Hair Bows Accessories",
+        "material": "Resin",
+        "size": "20 x 16mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW25456"
+      },
+      "sourceProductId": "1601404666839",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cartoon-Resin-Game-Controller-Flat-Back_1601404666839.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H26b58ebcc9f0462eb5d68e10361bdec1s.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "20 x 16mm Mini Game Console Resin Flatbacks — RW25456",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw25456/rw25456-mini-game-console-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw25456/rw25456-mini-game-console-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw25456/rw25456-mini-game-console-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25456/rw25456-mini-game-console-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "52d39f190f6b3cf9591f78d1152e4f4bf07c2cf77144320a61c9f6817b3feb5d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25456/rw25456-mini-game-console-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "cce74e22ed4f9215db9aedb5ee4995eca25ac859c4775718261cb9932cc8b55f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25456/rw25456-mini-game-console-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "6ce1d3ba6fda57e9215e5087a452b8a518ac7b9139deac44002a7621b60b0976",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25456/rw25456-1.jpg",
+        "assets/images/pdp/rw25456/rw25456-2.jpg",
+        "assets/images/pdp/rw25456/rw25456-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25456/rw25456-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "52d39f190f6b3cf9591f78d1152e4f4bf07c2cf77144320a61c9f6817b3feb5d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25456/rw25456-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "cce74e22ed4f9215db9aedb5ee4995eca25ac859c4775718261cb9932cc8b55f",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25456/rw25456-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "6ce1d3ba6fda57e9215e5087a452b8a518ac7b9139deac44002a7621b60b0976",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW169",
+      "key": "rw169",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Glitter Mermaid Tail Resin Flatbacks for DIY Projects — RW169",
+      "haibuTitle": "31 x 44mm Glitter Mermaid Tail Resin Flatbacks — RW169",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "31 x 44mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW169 is a resin craft component sold under the source-listed 31 x 44mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW169 is a resin craft component sold under the source-listed 31 x 44mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use glitter mermaid tail resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 31 x 44mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use glitter mermaid tail resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 31 x 44mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "glitter-mermaid-tail-resin-flatbacks",
+      "haibuMetaTitle": "31 x 44mm Glitter Mermaid Tail Resin Flatbacks | RW169",
+      "metaTitle": "Glitter Mermaid Tail Resin Flatbacks for DIY Projects | RW169",
+      "haibuDescription": "RW169: Resin craft component, 31 x 44mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW169: Resin craft component, 31 x 44mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "100pcs Slime Charms Mermaid Tail For DIY Cake Phone Decoration Sprinkles Toys Mud Polymer Clay Slime Supplies",
+        "material": "Resin",
+        "size": "31 x 44mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW169"
+      },
+      "sourceProductId": "1601447923730",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Slime-Charms-Mermaid-Tail-For_1601447923730.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7124c8241f974bd2b18ad9122c0a75c2v.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "31 x 44mm Glitter Mermaid Tail Resin Flatbacks — RW169",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw169/rw169-glitter-mermaid-tail-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw169/rw169-glitter-mermaid-tail-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw169/rw169-glitter-mermaid-tail-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw169/rw169-glitter-mermaid-tail-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "82acf48cd5d70f33e32e137fb525459c900f6f0bf3c08df267307de555a84860",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw169/rw169-glitter-mermaid-tail-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "1ee02a79884f7c7c51c950c13c3c45390d267aac666289a464fab8104613d433",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw169/rw169-glitter-mermaid-tail-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "05b50f53fad815480b2580438056a1f3478caa26ab3a89dd79c978434a1c4f2d",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw169/rw169-1.jpg",
+        "assets/images/pdp/rw169/rw169-2.jpg",
+        "assets/images/pdp/rw169/rw169-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw169/rw169-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "82acf48cd5d70f33e32e137fb525459c900f6f0bf3c08df267307de555a84860",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw169/rw169-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "1ee02a79884f7c7c51c950c13c3c45390d267aac666289a464fab8104613d433",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw169/rw169-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "05b50f53fad815480b2580438056a1f3478caa26ab3a89dd79c978434a1c4f2d",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW25293",
+      "key": "rw25293",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Pastel Dachshund Resin Flatbacks for DIY Projects — RW25293",
+      "haibuTitle": "about28 x 20mm Pastel Dachshund Resin Flatbacks — RW25293",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "about28 x 20mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW25293 is a resin craft component sold under the source-listed about28 x 20mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW25293 is a resin craft component sold under the source-listed about28 x 20mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use pastel dachshund resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists about28 x 20mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use pastel dachshund resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists about28 x 20mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "pastel-dachshund-resin-flatbacks",
+      "haibuMetaTitle": "about28 x 20mm Pastel Dachshund Resin Flatbacks | RW25293",
+      "metaTitle": "Pastel Dachshund Resin Flatbacks for DIY Projects | RW25293",
+      "haibuDescription": "RW25293: Resin craft component, about28 x 20mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW25293: Resin craft component, about28 x 20mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Hot Selling DIY Cream Glue Dachshund Resin Accessories Kawaii Jewelries Charms Cartoon Resin Crafts for Decoration",
+        "material": "Resin",
+        "size": "about28 x 20mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW25293"
+      },
+      "sourceProductId": "1601357961204",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Hot-Selling-DIY-Cream-Glue-Dachshund_1601357961204.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hef73addcf8af4cf18627c67e5aedb3d5U.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "about28 x 20mm Pastel Dachshund Resin Flatbacks — RW25293",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw25293/rw25293-pastel-dachshund-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw25293/rw25293-pastel-dachshund-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw25293/rw25293-pastel-dachshund-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25293/rw25293-pastel-dachshund-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "8e08431b5b11773f4298a075561e85caa96907bb37316e9fca4917ab99561620",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25293/rw25293-pastel-dachshund-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "1d7a85249cd2a52a34b9970b99351a330f1d8e4a2cd4b7cb233639623d70f3e0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw25293/rw25293-pastel-dachshund-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "7129457a0c4f5d8d776067af95da1c1c8c5dec6eb35bc37d4f0ab8fb3af21f7a",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25293/rw25293-1.jpg",
+        "assets/images/pdp/rw25293/rw25293-2.jpg",
+        "assets/images/pdp/rw25293/rw25293-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25293/rw25293-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "8e08431b5b11773f4298a075561e85caa96907bb37316e9fca4917ab99561620",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25293/rw25293-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "1d7a85249cd2a52a34b9970b99351a330f1d8e4a2cd4b7cb233639623d70f3e0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25293/rw25293-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "7129457a0c4f5d8d776067af95da1c1c8c5dec6eb35bc37d4f0ab8fb3af21f7a",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW004107",
+      "key": "rw004107",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Biscuit and Cake Resin Flatbacks for DIY Projects — RW004107",
+      "haibuTitle": "15 x 18mm Biscuit and Cake Resin Flatbacks — RW004107",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "15 x 18mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW004107 is a resin craft component sold under the source-listed 15 x 18mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW004107 is a resin craft component sold under the source-listed 15 x 18mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use biscuit and cake resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 15 x 18mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use biscuit and cake resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 15 x 18mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "biscuit-cake-resin-flatbacks",
+      "haibuMetaTitle": "15 x 18mm Biscuit and Cake Resin Flatbacks | RW004107",
+      "metaTitle": "Biscuit and Cake Resin Flatbacks for DIY Projects | RW004107",
+      "haibuDescription": "RW004107: Resin craft component, 15 x 18mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW004107: Resin craft component, 15 x 18mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Cute Cake Bear Biscuit Flatback Resin Cabochon Scrapbooking Accessories DIY Phone Case Decor Patch Kawaii Hairpin Applique",
+        "material": "Resin",
+        "size": "15 x 18mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW004107"
+      },
+      "sourceProductId": "1601689506877",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Cake-Bear-Biscuit-Flatback-Resin_1601689506877.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hc12210c0623e414294163288af1a1f3cs.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "15 x 18mm Biscuit and Cake Resin Flatbacks — RW004107",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw004107/rw004107-biscuit-cake-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw004107/rw004107-biscuit-cake-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw004107/rw004107-biscuit-cake-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw004107/rw004107-biscuit-cake-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "e88989d02d7500004b040bbdd7d42076e34dd00256566d4c9b97705a75701d24",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw004107/rw004107-biscuit-cake-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "4d198e95932930262f90f696d0868e3b27081b676935a398eb9397e708be1e1b",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw004107/rw004107-biscuit-cake-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "b56843143d85c403bcd7e08ea014e6f7fe3deec66234690b9ad14902b0275859",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw004107/rw004107-1.jpg",
+        "assets/images/pdp/rw004107/rw004107-2.jpg",
+        "assets/images/pdp/rw004107/rw004107-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw004107/rw004107-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "e88989d02d7500004b040bbdd7d42076e34dd00256566d4c9b97705a75701d24",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw004107/rw004107-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "4d198e95932930262f90f696d0868e3b27081b676935a398eb9397e708be1e1b",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw004107/rw004107-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "b56843143d85c403bcd7e08ea014e6f7fe3deec66234690b9ad14902b0275859",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW22818",
+      "key": "rw22818",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Eggshell Animal Resin Cabochons for DIY Projects — RW22818",
+      "haibuTitle": "18 x 28mm Eggshell Animal Resin Cabochons — RW22818",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "18 x 28mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW22818 is a resin craft component sold under the source-listed 18 x 28mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW22818 is a resin craft component sold under the source-listed 18 x 28mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use eggshell animal resin cabochons to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 18 x 28mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use eggshell animal resin cabochons to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 18 x 28mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "eggshell-animal-resin-cabochons",
+      "haibuMetaTitle": "18 x 28mm Eggshell Animal Resin Cabochons | RW22818",
+      "metaTitle": "Eggshell Animal Resin Cabochons for DIY Projects | RW22818",
+      "haibuDescription": "RW22818: Resin craft component, 18 x 28mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW22818: Resin craft component, 18 x 28mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Resin Kawaii Luminous Duck Rabbit Eggshell Colorful Candy 3D Fairy Garden Scrapbook DIY Micro Landscape Home Decor Crafts",
+        "material": "Resin",
+        "size": "18 x 28mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW22818"
+      },
+      "sourceProductId": "1601660183947",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Kawaii-Luminous-Duck-Rabbit-Eggshell_1601660183947.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H9712e6899b2f4f7597b51cf2839d4418s.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "18 x 28mm Eggshell Animal Resin Cabochons — RW22818",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw22818/rw22818-eggshell-animal-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw22818/rw22818-eggshell-animal-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw22818/rw22818-eggshell-animal-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw22818/rw22818-eggshell-animal-resin-cabochons-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "938c660b489d862870f88801bd7b1b6bba18e60bbb2e5d3b6d24f4a9d092877f",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw22818/rw22818-eggshell-animal-resin-cabochons-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f95e48f22f83e498ae41b93feaade8de93b3992def86bae8d0ef71e4bc527b64",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw22818/rw22818-eggshell-animal-resin-cabochons-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "fa725d1bcb3a558ed0665cfbc65e2767c8b3acb6baa7232caf7da5ca9e95fbe0",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw22818/rw22818-1.jpg",
+        "assets/images/pdp/rw22818/rw22818-2.jpg",
+        "assets/images/pdp/rw22818/rw22818-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw22818/rw22818-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "938c660b489d862870f88801bd7b1b6bba18e60bbb2e5d3b6d24f4a9d092877f",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw22818/rw22818-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f95e48f22f83e498ae41b93feaade8de93b3992def86bae8d0ef71e4bc527b64",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw22818/rw22818-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "fa725d1bcb3a558ed0665cfbc65e2767c8b3acb6baa7232caf7da5ca9e95fbe0",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW26123",
+      "key": "rw26123",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Animal Bread Resin Flatbacks for DIY Projects — RW26123",
+      "haibuTitle": "26-34mm Animal Bread Resin Flatbacks — RW26123",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "26-34mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW26123 is a resin craft component sold under the source-listed 26-34mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW26123 is a resin craft component sold under the source-listed 26-34mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use animal bread resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 26-34mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use animal bread resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 26-34mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "animal-bread-resin-flatbacks",
+      "haibuMetaTitle": "26-34mm Animal Bread Resin Flatbacks | RW26123",
+      "metaTitle": "Animal Bread Resin Flatbacks for DIY Projects | RW26123",
+      "haibuDescription": "RW26123: Resin craft component, 26-34mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW26123: Resin craft component, 26-34mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "New Cute Resin Animal Bread Flat Back Cabochon Scrapbooking Hair Bow Center Embellishments DIY Accessories",
+        "material": "Resin",
+        "size": "26-34mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW26123"
+      },
+      "sourceProductId": "11000031650172",
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Cute-Resin-Animal-Bread-Flat_11000031650172.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H1dcb96c677cd4415a055358f8522c609S.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "26-34mm Animal Bread Resin Flatbacks — RW26123",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw26123/rw26123-animal-bread-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26123/rw26123-animal-bread-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26123/rw26123-animal-bread-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26123/rw26123-animal-bread-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3eddcff4207d9b100e01de07ff879e9876d5db545f4b2cb0bb8961dc7cec83af",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26123/rw26123-animal-bread-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "ac18ffee85047fe3dc033c93c8faf17dab643ed0fd1c7e5e0a34fb967b7ae8d0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26123/rw26123-animal-bread-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "659648d5b468dc096dfd7de3b05699a528ff878970b83da9f6e3931ff0b6bc4d",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26123/rw26123-1.jpg",
+        "assets/images/pdp/rw26123/rw26123-2.jpg",
+        "assets/images/pdp/rw26123/rw26123-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26123/rw26123-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3eddcff4207d9b100e01de07ff879e9876d5db545f4b2cb0bb8961dc7cec83af",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26123/rw26123-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "ac18ffee85047fe3dc033c93c8faf17dab643ed0fd1c7e5e0a34fb967b7ae8d0",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26123/rw26123-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "659648d5b468dc096dfd7de3b05699a528ff878970b83da9f6e3931ff0b6bc4d",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW26128",
+      "key": "rw26128",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Botanical Book Resin Cabochons for DIY Projects — RW26128",
+      "haibuTitle": "30 x 20 x 10mm Botanical Book Resin Cabochons — RW26128",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "30 x 20 x 10mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW26128 is a resin craft component sold under the source-listed 30 x 20 x 10mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW26128 is a resin craft component sold under the source-listed 30 x 20 x 10mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use botanical book resin cabochons to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 30 x 20 x 10mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use botanical book resin cabochons to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 30 x 20 x 10mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "botanical-book-resin-cabochons",
+      "haibuMetaTitle": "30 x 20 x 10mm Botanical Book Resin Cabochons | RW26128",
+      "metaTitle": "Botanical Book Resin Cabochons for DIY Projects | RW26128",
+      "haibuDescription": "RW26128: Resin craft component, 30 x 20 x 10mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW26128: Resin craft component, 30 x 20 x 10mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Flower Book Series Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+        "material": "Resin",
+        "size": "30 x 20 x 10mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW26128"
+      },
+      "sourceProductId": "1601681399337",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Flower-Book-Series-Miniature-Flat-Back_1601681399337.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hfd592a79e6e34ce68b0b52387e0f9e8dl.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "30 x 20 x 10mm Botanical Book Resin Cabochons — RW26128",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw26128/rw26128-botanical-book-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26128/rw26128-botanical-book-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26128/rw26128-botanical-book-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26128/rw26128-botanical-book-resin-cabochons-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "7f6ad345c7fb127ebdec647a2dcdd6fdafeb33d5f305d9220a35966e015dc7ed",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26128/rw26128-botanical-book-resin-cabochons-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a197e844710881da8d32252eaa035f976b84215c19ef61005c777ca984af9dd4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26128/rw26128-botanical-book-resin-cabochons-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0b7f9b16996e10d29d7adab583d63104c3a830d2e3eaf4af70c2b0fd93d8f7c5",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26128/rw26128-1.jpg",
+        "assets/images/pdp/rw26128/rw26128-2.jpg",
+        "assets/images/pdp/rw26128/rw26128-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26128/rw26128-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "7f6ad345c7fb127ebdec647a2dcdd6fdafeb33d5f305d9220a35966e015dc7ed",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26128/rw26128-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a197e844710881da8d32252eaa035f976b84215c19ef61005c777ca984af9dd4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26128/rw26128-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0b7f9b16996e10d29d7adab583d63104c3a830d2e3eaf4af70c2b0fd93d8f7c5",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW4663",
+      "key": "rw4663",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Mini Ham Sausage Resin Flatbacks for DIY Projects — RW4663",
+      "haibuTitle": "11 x 23mm Mini Ham Sausage Resin Flatbacks — RW4663",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "11 x 23mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW4663 is a resin craft component sold under the source-listed 11 x 23mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW4663 is a resin craft component sold under the source-listed 11 x 23mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use mini ham sausage resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 11 x 23mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use mini ham sausage resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 11 x 23mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "mini-ham-sausage-resin-flatbacks",
+      "haibuMetaTitle": "11 x 23mm Mini Ham Sausage Resin Flatbacks | RW4663",
+      "metaTitle": "Mini Ham Sausage Resin Flatbacks for DIY Projects | RW4663",
+      "haibuDescription": "RW4663: Resin craft component, 11 x 23mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW4663: Resin craft component, 11 x 23mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Mini Resin Diy Kawaii 3D Ham Sausage Miniature Flatback Charms Scrapbooking Accessories Cabochon Embellishments Decoration",
+        "material": "Resin",
+        "size": "11 x 23mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW4663"
+      },
+      "sourceProductId": "1601679152864",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mini-Resin-Diy-Kawaii-3D-Ham_1601679152864.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4ef9b83fd48e4efe92b5f3bcebf16599L.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "11 x 23mm Mini Ham Sausage Resin Flatbacks — RW4663",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw4663/rw4663-mini-ham-sausage-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw4663/rw4663-mini-ham-sausage-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw4663/rw4663-mini-ham-sausage-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4663/rw4663-mini-ham-sausage-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c07a83253985db932a9ee5aac0b2c2eaf63b27285b62aaba2f0e358b5b28c932",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4663/rw4663-mini-ham-sausage-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "3ee2dd5bf2cc8e9a4322156db09aedfeffbc0cb1bab57beb48e4f7c6d987b9ed",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4663/rw4663-mini-ham-sausage-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "d0c0285f2c08d2eef4ab86abe28e3727445bb450e106107948fadef07fbbe1e9",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw4663/rw4663-1.jpg",
+        "assets/images/pdp/rw4663/rw4663-2.jpg",
+        "assets/images/pdp/rw4663/rw4663-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw4663/rw4663-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c07a83253985db932a9ee5aac0b2c2eaf63b27285b62aaba2f0e358b5b28c932",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw4663/rw4663-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "3ee2dd5bf2cc8e9a4322156db09aedfeffbc0cb1bab57beb48e4f7c6d987b9ed",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw4663/rw4663-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "d0c0285f2c08d2eef4ab86abe28e3727445bb450e106107948fadef07fbbe1e9",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW4616",
+      "key": "rw4616",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Assorted Mini Food Resin Flatbacks for DIY Projects — RW4616",
+      "haibuTitle": "about20-25mm Assorted Mini Food Resin Flatbacks — RW4616",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "about20-25mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW4616 is a resin craft component sold under the source-listed about20-25mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW4616 is a resin craft component sold under the source-listed about20-25mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use assorted mini food resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists about20-25mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use assorted mini food resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists about20-25mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "assorted-mini-food-resin-flatbacks",
+      "haibuMetaTitle": "about20-25mm Assorted Mini Food Resin Flatbacks | RW4616",
+      "metaTitle": "Assorted Mini Food Resin Flatbacks for DIY Projects | RW4616",
+      "haibuDescription": "RW4616: Resin craft component, about20-25mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW4616: Resin craft component, about20-25mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "100pcs Lovely Animals Bread Pizza Resin Charms Pendant Flatback Keychain DIY Jewelry Making Findings",
+        "material": "Resin",
+        "size": "about20-25mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW4616"
+      },
+      "sourceProductId": "1601679250251",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Lovely-Animals-Bread-Pizza-Resin_1601679250251.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H1899f784a07546e8bbf11a6cc8a9bb4dg.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "about20-25mm Assorted Mini Food Resin Flatbacks — RW4616",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw4616/rw4616-assorted-mini-food-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw4616/rw4616-assorted-mini-food-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw4616/rw4616-assorted-mini-food-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4616/rw4616-assorted-mini-food-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c44e50c9c670a4b76ab56d06e83181a3701296b93d5e0525bc0349bfc0eec17e",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4616/rw4616-assorted-mini-food-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "cf2fbe0151d33ed55118f5f528f1085f1fe2c43c9d07c5ecc147ed53abe1ad0a",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4616/rw4616-assorted-mini-food-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "b10546aec7beb0b14b0ba8c4ffc0eb2d7498e7ebd5e3f55079905ebb8d54f7a9",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw4616/rw4616-1.jpg",
+        "assets/images/pdp/rw4616/rw4616-2.jpg",
+        "assets/images/pdp/rw4616/rw4616-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw4616/rw4616-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c44e50c9c670a4b76ab56d06e83181a3701296b93d5e0525bc0349bfc0eec17e",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw4616/rw4616-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "cf2fbe0151d33ed55118f5f528f1085f1fe2c43c9d07c5ecc147ed53abe1ad0a",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw4616/rw4616-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "b10546aec7beb0b14b0ba8c4ffc0eb2d7498e7ebd5e3f55079905ebb8d54f7a9",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW21138",
+      "key": "rw21138",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Tulip Rabbit Resin Flatbacks for DIY Projects — RW21138",
+      "haibuTitle": "about28 x 31mm Tulip Rabbit Resin Flatbacks — RW21138",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "about28 x 31mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW21138 is a resin craft component sold under the source-listed about28 x 31mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW21138 is a resin craft component sold under the source-listed about28 x 31mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use tulip rabbit resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists about28 x 31mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use tulip rabbit resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists about28 x 31mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "tulip-rabbit-resin-flatbacks",
+      "haibuMetaTitle": "about28 x 31mm Tulip Rabbit Resin Flatbacks | RW21138",
+      "metaTitle": "Tulip Rabbit Resin Flatbacks for DIY Projects | RW21138",
+      "haibuDescription": "RW21138: Resin craft component, about28 x 31mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW21138: Resin craft component, about28 x 31mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Tulips Rabbit Flatback Resin Cabochons for Phone Decoration DIY Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "about28 x 31mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW21138"
+      },
+      "sourceProductId": "1601679043745",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Tulips-Rabbit-Flatback-Resin_1601679043745.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Headd962bdb50410fa73f2d669cdd27cbh.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "about28 x 31mm Tulip Rabbit Resin Flatbacks — RW21138",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw21138/rw21138-tulip-rabbit-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw21138/rw21138-tulip-rabbit-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw21138/rw21138-tulip-rabbit-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw21138/rw21138-tulip-rabbit-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "51c338a5c2af74de8450d2c869cdc95650adb6746f759030f6601e30c762ed3d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw21138/rw21138-tulip-rabbit-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "ea4a652e9724105117a0b614c0e0db5a994417dee9d20a73b5bf2e0d7bb0dbad",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw21138/rw21138-tulip-rabbit-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0612c96e5700cad74b08bbc8834aaaa15d94926a982bf73e8c246882bcbeb0c9",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw21138/rw21138-1.jpg",
+        "assets/images/pdp/rw21138/rw21138-2.jpg",
+        "assets/images/pdp/rw21138/rw21138-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw21138/rw21138-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "51c338a5c2af74de8450d2c869cdc95650adb6746f759030f6601e30c762ed3d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw21138/rw21138-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "ea4a652e9724105117a0b614c0e0db5a994417dee9d20a73b5bf2e0d7bb0dbad",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw21138/rw21138-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0612c96e5700cad74b08bbc8834aaaa15d94926a982bf73e8c246882bcbeb0c9",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW4172",
+      "key": "rw4172",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Pastel Candy Resin Cabochons for DIY Projects — RW4172",
+      "haibuTitle": "12 x 15mm Pastel Candy Resin Cabochons — RW4172",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "12 x 15mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW4172 is a resin craft component sold under the source-listed 12 x 15mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW4172 is a resin craft component sold under the source-listed 12 x 15mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use pastel candy resin cabochons to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 12 x 15mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use pastel candy resin cabochons to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 12 x 15mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "pastel-candy-resin-cabochons",
+      "haibuMetaTitle": "12 x 15mm Pastel Candy Resin Cabochons | RW4172",
+      "metaTitle": "Pastel Candy Resin Cabochons for DIY Projects | RW4172",
+      "haibuDescription": "RW4172: Resin craft component, 12 x 15mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW4172: Resin craft component, 12 x 15mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Resin 3D Candy Sugar Miniature Cabochon Art Supply DIY Craft Decoration Homemade Gift Phone Deco",
+        "material": "Resin",
+        "size": "12 x 15mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW4172"
+      },
+      "sourceProductId": "1601678998845",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-3D-Candy-Sugar-Miniature-Cabochon_1601678998845.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4d2af5e60d9f43dca1c1fa3b28927c95t.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "12 x 15mm Pastel Candy Resin Cabochons — RW4172",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw4172/rw4172-pastel-candy-resin-cabochons-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw4172/rw4172-pastel-candy-resin-cabochons-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw4172/rw4172-pastel-candy-resin-cabochons-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4172/rw4172-pastel-candy-resin-cabochons-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "5a34820d1379418d0e67ddd166ef3f603b8d6fbdf10fedaa8afb9d058dc525f8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4172/rw4172-pastel-candy-resin-cabochons-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a4584355de9fa9adf811bd7f8d65f0aa649559b55f996927259fa7eaef9c8de4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4172/rw4172-pastel-candy-resin-cabochons-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0230bec270f7b3474bc46386046b7324176bf3d57f993a10cb8a690dc8d03327",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw4172/rw4172-1.jpg",
+        "assets/images/pdp/rw4172/rw4172-2.jpg",
+        "assets/images/pdp/rw4172/rw4172-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw4172/rw4172-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "5a34820d1379418d0e67ddd166ef3f603b8d6fbdf10fedaa8afb9d058dc525f8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw4172/rw4172-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a4584355de9fa9adf811bd7f8d65f0aa649559b55f996927259fa7eaef9c8de4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw4172/rw4172-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "0230bec270f7b3474bc46386046b7324176bf3d57f993a10cb8a690dc8d03327",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW4043",
+      "key": "rw4043",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Plaid Love Heart Resin Flatbacks for DIY Projects — RW4043",
+      "haibuTitle": "20 x 25mm Plaid Love Heart Resin Flatbacks — RW4043",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 x 25mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW4043 is a resin craft component sold under the source-listed 20 x 25mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW4043 is a resin craft component sold under the source-listed 20 x 25mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use plaid love heart resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 20 x 25mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use plaid love heart resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 20 x 25mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "plaid-love-heart-resin-flatbacks",
+      "haibuMetaTitle": "20 x 25mm Plaid Love Heart Resin Flatbacks | RW4043",
+      "metaTitle": "Plaid Love Heart Resin Flatbacks for DIY Projects | RW4043",
+      "haibuDescription": "RW4043: Resin craft component, 20 x 25mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW4043: Resin craft component, 20 x 25mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "100Pcs Plaid Love Heart Planar Flatback Resin Cabochon Earrings Jewelry Making Accessories DIY Patch Crafts Material",
+        "material": "Resin",
+        "size": "20 x 25mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW4043"
+      },
+      "sourceProductId": "1601678789245",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Plaid-Love-Heart-Planar-Flatback_1601678789245.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7d19ef8abed84b399b6d646d6da8e609h.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "20 x 25mm Plaid Love Heart Resin Flatbacks — RW4043",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw4043/rw4043-plaid-love-heart-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw4043/rw4043-plaid-love-heart-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw4043/rw4043-plaid-love-heart-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4043/rw4043-plaid-love-heart-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2204546fb818bfc8cd7d3efa506e61fedf9ca51a348ab3593941bbc863510d81",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4043/rw4043-plaid-love-heart-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "5ecca4fcb9def78ef45943a039cc9aa4179b39e18f0c9303d4915392a8baae70",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw4043/rw4043-plaid-love-heart-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "77fb467628fe42e861e7fe21a267916b8c0d4898e805123d0217f87cf1827df5",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw4043/rw4043-1.jpg",
+        "assets/images/pdp/rw4043/rw4043-2.jpg",
+        "assets/images/pdp/rw4043/rw4043-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw4043/rw4043-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2204546fb818bfc8cd7d3efa506e61fedf9ca51a348ab3593941bbc863510d81",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw4043/rw4043-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "5ecca4fcb9def78ef45943a039cc9aa4179b39e18f0c9303d4915392a8baae70",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw4043/rw4043-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "77fb467628fe42e861e7fe21a267916b8c0d4898e805123d0217f87cf1827df5",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW1742",
+      "key": "rw1742",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Jelly-Color Fish Resin Flatbacks for DIY Projects — RW1742",
+      "haibuTitle": "4 x 11 x 24mm Jelly-Color Fish Resin Flatbacks — RW1742",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "4 x 11 x 24mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW1742 is a resin craft component sold under the source-listed 4 x 11 x 24mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW1742 is a resin craft component sold under the source-listed 4 x 11 x 24mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use jelly-color fish resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 4 x 11 x 24mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use jelly-color fish resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 4 x 11 x 24mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "jelly-color-fish-resin-flatbacks",
+      "haibuMetaTitle": "4 x 11 x 24mm Jelly-Color Fish Resin Flatbacks | RW1742",
+      "metaTitle": "Jelly-Color Fish Resin Flatbacks for DIY Projects | RW1742",
+      "haibuDescription": "RW1742: Resin craft component, 4 x 11 x 24mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW1742: Resin craft component, 4 x 11 x 24mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Kawaii Jelly Colors Resin Cartoon Fish Miniature Figure Flatback Cabochons DIY Home Decoration Craft Scrapbook",
+        "material": "Resin",
+        "size": "4 x 11 x 24mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW1742"
+      },
+      "sourceProductId": "1600075287846",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Jelly-Colors-Resin-Cartoon-Fish_1600075287846.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H1dd72d8f4b024501a49c3259e4bea9c6F.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "4 x 11 x 24mm Jelly-Color Fish Resin Flatbacks — RW1742",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw1742/rw1742-jelly-color-fish-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw1742/rw1742-jelly-color-fish-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw1742/rw1742-jelly-color-fish-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw1742/rw1742-jelly-color-fish-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "852d8a42135db7480499f0c512110ebb23387424a8c15d6898ca906c5d9b631b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw1742/rw1742-jelly-color-fish-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "9d171e163bf33cef96a41a9a6779deeee4aa7d30cab3508de27a239ea2110934",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw1742/rw1742-jelly-color-fish-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "51f3824259591983881f4f69d2b16639568f6aa8f48f1c87ca077fe6b7239407",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw1742/rw1742-1.jpg",
+        "assets/images/pdp/rw1742/rw1742-2.jpg",
+        "assets/images/pdp/rw1742/rw1742-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw1742/rw1742-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "852d8a42135db7480499f0c512110ebb23387424a8c15d6898ca906c5d9b631b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw1742/rw1742-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "9d171e163bf33cef96a41a9a6779deeee4aa7d30cab3508de27a239ea2110934",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw1742/rw1742-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "51f3824259591983881f4f69d2b16639568f6aa8f48f1c87ca077fe6b7239407",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW26111",
+      "key": "rw26111",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Shaggy Dog Resin Flatbacks for DIY Projects — RW26111",
+      "haibuTitle": "32 x 32mm Shaggy Dog Resin Flatbacks — RW26111",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "32 x 32mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW26111 is a resin craft component sold under the source-listed 32 x 32mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW26111 is a resin craft component sold under the source-listed 32 x 32mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use shaggy dog resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 32 x 32mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use shaggy dog resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 32 x 32mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "shaggy-dog-resin-flatbacks",
+      "haibuMetaTitle": "32 x 32mm Shaggy Dog Resin Flatbacks | RW26111",
+      "metaTitle": "Shaggy Dog Resin Flatbacks for DIY Projects | RW26111",
+      "haibuDescription": "RW26111: Resin craft component, 32 x 32mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW26111: Resin craft component, 32 x 32mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "Resin Kawaii Cream Cartoon Dog Chocolate Flatback Figurine Scrapbook DIY Decor Home Accessories Crafts",
+        "material": "Resin",
+        "size": "32 x 32mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW26111"
+      },
+      "sourceProductId": "1601673360931",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Kawaii-Cream-Cartoon-Dog-Chocolate_1601673360931.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hcab8f17e655f47e8a928a3fdd2d63c142.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "32 x 32mm Shaggy Dog Resin Flatbacks — RW26111",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw26111/rw26111-shaggy-dog-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26111/rw26111-shaggy-dog-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26111/rw26111-shaggy-dog-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26111/rw26111-shaggy-dog-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "5a3cf3aced25de389a51d3326dc363d96799d04042a3ad64cb91d92c1d2fb6a8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26111/rw26111-shaggy-dog-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "9aa41fc27db183510b41d5e01327499f84bdfd41aa92ee18f07d36ff4402c93e",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26111/rw26111-shaggy-dog-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "82de25176c2fb172dec749a7e976018d939e4f75a0a388b03f4613775003b5e8",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26111/rw26111-1.jpg",
+        "assets/images/pdp/rw26111/rw26111-2.jpg",
+        "assets/images/pdp/rw26111/rw26111-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26111/rw26111-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "5a3cf3aced25de389a51d3326dc363d96799d04042a3ad64cb91d92c1d2fb6a8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26111/rw26111-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "9aa41fc27db183510b41d5e01327499f84bdfd41aa92ee18f07d36ff4402c93e",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26111/rw26111-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "82de25176c2fb172dec749a7e976018d939e4f75a0a388b03f4613775003b5e8",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    },
+    {
+      "sku": "RW26154",
+      "key": "rw26154",
+      "batchNumber": 45,
+      "batchId": "20261113-monica-45",
+      "title": "Easter Animal and Egg Resin Flatbacks for DIY Projects — RW26154",
+      "haibuTitle": "25mm Easter Animal and Egg Resin Flatbacks — RW26154",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "25mm",
+      "packing": "100pcs/bag",
+      "attachment": "No drilled hole or supplied fastening is confirmed in the source; verify the actual attachment surface with a sample.",
+      "variantSizeNotes": "The original photograph is the design reference. Confirm the current color or assortment and pack composition; reference packing is not MOQ.",
+      "procurementAdvice": "RW26154 is a resin craft component sold under the source-listed 25mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "caption": "RW26154 is a resin craft component sold under the source-listed 25mm specification and 100pcs/bag reference pack. Use the original photograph to confirm the design and request current color or assortment details in the quotation. Reference packing is not MOQ; generated scene props are not included.",
+      "qulaCaption": "Use easter animal and egg resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 25mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "uses": "Use easter animal and egg resin flatbacks to plan phone-case, scrapbook, card, hair-accessory or other compatible DIY layouts. The source lists 25mm and 100pcs/bag; test the chosen adhesive or attachment method before finishing. Generated scene props are not included.",
+      "keywords": "easter-animal-egg-resin-flatbacks",
+      "haibuMetaTitle": "25mm Easter Animal and Egg Resin Flatbacks | RW26154",
+      "metaTitle": "Easter Animal and Egg Resin Flatbacks for DIY Projects | RW26154",
+      "haibuDescription": "RW26154: Resin craft component, 25mm. Reference pack: 100pcs/bag. Request current selection and packing details.",
+      "description": "RW26154: Resin craft component, 25mm. Compare the original photo and plan a compatible DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm color or assortment and attachment for the intended project.",
+      "sourceFields": {
+        "title": "100PCS Resin Cartoon Easter Chicks Eggs Rabbit Flatback Cabochon for DIY Hair Bow Scrapbook Crafts Decorative Figurines",
+        "material": "Resin",
+        "size": "25mm",
+        "packaging": "100pcs/bag",
+        "sku_raw": "RW26154"
+      },
+      "sourceProductId": "1600482626115",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Resin-Cartoon-Easter-Chicks-Eggs_1600482626115.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hc279df8af8f6418ca9727e8f7918d0c3W.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Detail crop from original photograph"
+      ],
+      "galleryNote": "The application image is a generated reference illustration; the detail image is cropped from the same original product photograph. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "25mm Easter Animal and Egg Resin Flatbacks — RW26154",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-45/rw26154/rw26154-easter-animal-egg-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26154/rw26154-easter-animal-egg-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-45/rw26154/rw26154-easter-animal-egg-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26154/rw26154-easter-animal-egg-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "4d5dcedd87646331dd042c531d3f81cfc3735156732609497bf83958e7075ff7",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26154/rw26154-easter-animal-egg-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "3d8cd135142aeba3033f5896a1a71c25ac08f8db4d4fabbd4441e79d764dc0ae",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-45/rw26154/rw26154-easter-animal-egg-resin-flatbacks-03.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "f2d49c11452010f8e14b3074ac62bd5c6ba6e1baaf2318144a42932df875f2cc",
+          "width": 266,
+          "height": 266
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26154/rw26154-1.jpg",
+        "assets/images/pdp/rw26154/rw26154-2.jpg",
+        "assets/images/pdp/rw26154/rw26154-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26154/rw26154-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "4d5dcedd87646331dd042c531d3f81cfc3735156732609497bf83958e7075ff7",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26154/rw26154-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "3d8cd135142aeba3033f5896a1a71c25ac08f8db4d4fabbd4441e79d764dc0ae",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26154/rw26154-3.jpg",
+          "role": "detail_crop",
+          "generated": false,
+          "sha256": "f2d49c11452010f8e14b3074ac62bd5c6ba6e1baaf2318144a42932df875f2cc",
+          "width": 266,
+          "height": 266
+        }
+      ]
+    }
+  ]
+}

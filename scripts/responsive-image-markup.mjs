@@ -8,7 +8,7 @@ export function responsiveImageMarkup(html,route){
   const source=tag.match(/\ssrc=["']([^"']+)["']/i)?.[1]?.split('?')[0];
   const image=images.get(source);if(!image)return tag;
   const srcset=image.variants.map(v=>`${v.url} ${v.width}w`).join(', ');
-  const sizes='(max-width:720px) calc(100vw - 48px), 400px';
+  const sizes = tag.match(/\ssizes=["']([^"']+)["']/i)?.[1] ?? '(max-width:720px) calc(100vw - 48px), 400px';
   return tag.replace(/\s+(?:srcset|sizes)=["'][^"']*["']/gi,'').replace(/\s*\/?>$/,end=>` srcset="${srcset}" sizes="${sizes}"${end}`);
  });
 }

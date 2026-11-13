@@ -13,6 +13,7 @@ test('warehouse video section is synchronized across source and production pages
   for (const pagePath of pagePaths) {
     const html = await readFile(pagePath, 'utf8');
     assert.match(html, /class="section warehouse-video-section"/);
+    assert.match(html, /<video\b[^>]*\bloading="lazy"/);
     assert.match(html, /<video\b[^>]*\bpreload="none"/);
     assert.match(html, /haibu-warehouse-ready-stock-mobile\.mp4/);
     assert.match(html, /haibu-warehouse-ready-stock-desktop\.mp4/);

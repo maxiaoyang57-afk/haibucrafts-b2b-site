@@ -258,7 +258,7 @@
     <footer class="site-footer"><div class="container">
       <div class="footer-grid footer-grid-v2">
         <div class="footer-brand">
-          <a class="footer-brand-mark" href="${ROOT}" aria-label="HAIBUCRAFT home"><img class="footer-logo" src="/brand/haibu-logo-footer.png" width="810" height="278" alt="HAIBUCRAFT"></a>
+          <a class="footer-brand-mark" href="${ROOT}" aria-label="HAIBUCRAFT home"><img class="footer-logo" src="/brand/haibu-logo-footer.png" width="810" height="278" loading="lazy" decoding="async" alt="HAIBUCRAFT"></a>
           <h3>HAIBUCRAFT</h3>
           <p class="footer-tagline">Creative craft components supplier</p>
           <p>Buyer-facing B2B brand for wholesale craft supplies, custom-project coordination, packaging support and export communication from Yiwu, Zhejiang, China.</p>

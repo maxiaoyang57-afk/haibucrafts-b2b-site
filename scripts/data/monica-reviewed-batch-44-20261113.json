@@ -1,0 +1,2492 @@
+{
+  "date": "2026-11-13",
+  "batchCount": 1,
+  "batchSize": 20,
+  "newProductCount": 20,
+  "qualifiedImageCount": 60,
+  "sourceFileId": "libfile_78feb3ee869481918e037048faab7f0e",
+  "assetFileId": "libfile_80d28a46ac788191bcd8abe9fd48b50f",
+  "assetSha256": "07d0240e3b8ada9903b745de065e1f031ef0fe8aba407689b7022baccde53256",
+  "products": [
+    {
+      "sku": "RW25974",
+      "key": "rw25974",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Rainbow Gummy-Style Resin Flatbacks for Playful DIY Layouts — RW25974",
+      "haibuTitle": "30 x 10 mm Two-Tone Gummy-Style Resin Flatbacks — RW25974",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "30 x 10 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW25974 is an elongated resin flatback with a smooth gummy-style shape and translucent two-tone color effects. The source lists a 30 x 10 mm size and 100 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the scrapbook prop in the generated application reference is not included.",
+      "caption": "RW25974 is an elongated resin flatback with a smooth gummy-style shape and translucent two-tone color effects. The source lists a 30 x 10 mm size and 100 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the scrapbook prop in the generated application reference is not included.",
+      "qulaCaption": "Add a candy-inspired color accent to scrapbook pages, cards and other DIY layouts with the 30 x 10 mm RW25974 resin flatbacks. The source lists 100 pieces per reference bag and shows translucent two-tone mixed colors. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Add a candy-inspired color accent to scrapbook pages, cards and other DIY layouts with the 30 x 10 mm RW25974 resin flatbacks. The source lists 100 pieces per reference bag and shows translucent two-tone mixed colors. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "rainbow-gummy-resin-flatbacks",
+      "haibuMetaTitle": "30 x 10 mm Two-Tone Gummy-Style Resin Flatbacks | RW25974",
+      "metaTitle": "Rainbow Gummy-Style Resin Flatbacks for Playful DIY Layouts | RW25974",
+      "haibuDescription": "RW25974: Resin craft decorations, 30 x 10 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25974: Resin craft decorations, 30 x 10 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Cute Rainbow Gummy Soft Candy Flatback Resin Cabochon Simulation Food Play for Scrapbook DIY Jewelry Craft Accessories",
+        "material": "Resin",
+        "size": "30 x 10 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW25974"
+      },
+      "sourceProductId": "1601601104455",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cute-Rainbow-Gummy-Soft-Candy_1601601104455.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H58c7deb8773b44d48c99d5097efbe5a4v.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "width": 1000,
+          "height": 778
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "30 x 10 mm Two-Tone Gummy-Style Resin Flatbacks — RW25974",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw25974/rw25974-rainbow-gummy-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw25974/rw25974-rainbow-gummy-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw25974/rw25974-rainbow-gummy-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25974/rw25974-rainbow-gummy-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "acddeb0160d44b91ac5cd2132632ff07d3478deb807b3253c2f89767d24b95eb",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25974/rw25974-rainbow-gummy-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "e8803f72ba46d5d9aae3a54eec57589771157d79d36b49a8c07b563866258f10",
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25974/rw25974-rainbow-gummy-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "019310be7ced7a04f71946e10115f69bcfe0de01f0693045584e1887800caad1",
+          "width": 1000,
+          "height": 778
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25974/rw25974-1.jpg",
+        "assets/images/pdp/rw25974/rw25974-2.jpg",
+        "assets/images/pdp/rw25974/rw25974-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25974/rw25974-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "acddeb0160d44b91ac5cd2132632ff07d3478deb807b3253c2f89767d24b95eb",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25974/rw25974-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "e8803f72ba46d5d9aae3a54eec57589771157d79d36b49a8c07b563866258f10",
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "path": "assets/images/pdp/rw25974/rw25974-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "019310be7ced7a04f71946e10115f69bcfe0de01f0693045584e1887800caad1",
+          "width": 1000,
+          "height": 778
+        }
+      ]
+    },
+    {
+      "sku": "RW002817",
+      "key": "rw002817",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Pastel Gradient Bow Resin Flatbacks for Hair-Clip and Card Layouts — RW002817",
+      "haibuTitle": "29 x 42 mm Gradient Bow Resin Flatbacks for Craft Sourcing — RW002817",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "29 x 42 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW002817 is a glossy resin bow flatback with a raised center wrap and two-tone pastel color combinations. The source lists a 29 x 42 mm size and 100 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the hair-clip and card props in the generated application reference are not included.",
+      "caption": "RW002817 is a glossy resin bow flatback with a raised center wrap and two-tone pastel color combinations. The source lists a 29 x 42 mm size and 100 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the hair-clip and card props in the generated application reference are not included.",
+      "qulaCaption": "Use the 29 x 42 mm RW002817 resin bow flatbacks as raised focal accents for hair-clip blanks, cards and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed pastel two-tone designs. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 29 x 42 mm RW002817 resin bow flatbacks as raised focal accents for hair-clip blanks, cards and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed pastel two-tone designs. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "gradient-bow-resin-flatbacks",
+      "haibuMetaTitle": "29 x 42 mm Gradient Bow Resin Flatbacks for Craft Sourcing | RW002817",
+      "metaTitle": "Pastel Gradient Bow Resin Flatbacks for Hair-Clip and Card Layouts | RW002817",
+      "haibuDescription": "RW002817: Resin craft decorations, 29 x 42 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW002817: Resin craft decorations, 29 x 42 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Glossy Gradient Big Bowknot Resin Patch Woman DIY Earring Hairpin Materials Garment Sewing Decor Crafts Accessory",
+        "material": "Resin",
+        "size": "29 x 42 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW002817"
+      },
+      "sourceProductId": "1601462390028",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Glossy-Gradient-Big-Bowknot-Resin_1601462390028.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H0dff345316fc4eca8c02f296379e7194p.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "width": 1000,
+          "height": 778
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "29 x 42 mm Gradient Bow Resin Flatbacks for Craft Sourcing — RW002817",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw002817/rw002817-gradient-bow-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw002817/rw002817-gradient-bow-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw002817/rw002817-gradient-bow-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw002817/rw002817-gradient-bow-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2f7dae4464a5e4a49999ac726caf9442699d83981b294ac7a495c45680f97a4c",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw002817/rw002817-gradient-bow-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "4c79ee85179fde58144f4c6ea357f59df6eaaeb6da697da05d1132bd582a0eec",
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw002817/rw002817-gradient-bow-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "258e9e7b87c0b0974b6cf9d2252ef2fdd5d2970afcfdc09d993803c85503d4c9",
+          "width": 1000,
+          "height": 778
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw002817/rw002817-1.jpg",
+        "assets/images/pdp/rw002817/rw002817-2.jpg",
+        "assets/images/pdp/rw002817/rw002817-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw002817/rw002817-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2f7dae4464a5e4a49999ac726caf9442699d83981b294ac7a495c45680f97a4c",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw002817/rw002817-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "4c79ee85179fde58144f4c6ea357f59df6eaaeb6da697da05d1132bd582a0eec",
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "path": "assets/images/pdp/rw002817/rw002817-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "258e9e7b87c0b0974b6cf9d2252ef2fdd5d2970afcfdc09d993803c85503d4c9",
+          "width": 1000,
+          "height": 778
+        }
+      ]
+    },
+    {
+      "sku": "RW6015",
+      "key": "rw6015",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Tiny Translucent Flower Resin Flatbacks for Detailed DIY Accents — RW6015",
+      "haibuTitle": "7 mm Translucent Flower Resin Flatbacks with Gold-Tone Veins — RW6015",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "7 mm",
+      "packing": "500 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW6015 is a small five-petal resin flower flatback with translucent mixed colors and fine gold-tone vein detailing. The source lists a 7 mm size and 500 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the card and bowl props in the generated application reference are not included.",
+      "caption": "RW6015 is a small five-petal resin flower flatback with translucent mixed colors and fine gold-tone vein detailing. The source lists a 7 mm size and 500 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the card and bowl props in the generated application reference are not included.",
+      "qulaCaption": "Use the 7 mm RW6015 resin flower flatbacks as small color accents on cards and other detailed DIY layouts. The source lists 500 pieces per reference bag and shows mixed translucent colors with gold-tone vein detailing. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 7 mm RW6015 resin flower flatbacks as small color accents on cards and other detailed DIY layouts. The source lists 500 pieces per reference bag and shows mixed translucent colors with gold-tone vein detailing. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "translucent-flower-resin-flatbacks",
+      "haibuMetaTitle": "7 mm Translucent Flower Resin Flatbacks with Gold-Tone Veins | RW6015",
+      "metaTitle": "Tiny Translucent Flower Resin Flatbacks for Detailed DIY Accents | RW6015",
+      "haibuDescription": "RW6015: Resin craft decorations, 7 mm. Reference pack: 500 pcs/bag. Request selection and packing details.",
+      "description": "RW6015: Resin craft decorations, 7 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "500pcs Bronzing Flower Nail Charms 3D Crystals Daisy Floral Decoration for Manicure DIY Resin Gems Nail Art Rhinestones Supplies",
+        "material": "Resin",
+        "size": "7 mm",
+        "packaging": "500 pcs/bag",
+        "sku_raw": "RW6015"
+      },
+      "sourceProductId": "1601585356042",
+      "sourceUrl": "https://www.alibaba.com/product-detail/500pcs-Bronzing-Flower-Nail-Charms-3D_1601585356042.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Haf6b94f9d0c24c79abc517851fc0f81aN.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "width": 1000,
+          "height": 778
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "7 mm Translucent Flower Resin Flatbacks with Gold-Tone Veins — RW6015",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw6015/rw6015-translucent-flower-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw6015/rw6015-translucent-flower-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw6015/rw6015-translucent-flower-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw6015/rw6015-translucent-flower-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "8032c38915a4f9ade43c6fcf227863e7c406e6b3304171f73848483492eaf16a",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw6015/rw6015-translucent-flower-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a24ca75030046c6138ec2dc0c3fb90559b3ae9834b07ce9a0e4e939c7c4b9ea4",
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw6015/rw6015-translucent-flower-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "ceff50c979638806c4d949cc826625e871fd4f049e539b2443f3323490332fe1",
+          "width": 1000,
+          "height": 778
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw6015/rw6015-1.jpg",
+        "assets/images/pdp/rw6015/rw6015-2.jpg",
+        "assets/images/pdp/rw6015/rw6015-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw6015/rw6015-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "8032c38915a4f9ade43c6fcf227863e7c406e6b3304171f73848483492eaf16a",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw6015/rw6015-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a24ca75030046c6138ec2dc0c3fb90559b3ae9834b07ce9a0e4e939c7c4b9ea4",
+          "width": 1000,
+          "height": 778
+        },
+        {
+          "path": "assets/images/pdp/rw6015/rw6015-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "ceff50c979638806c4d949cc826625e871fd4f049e539b2443f3323490332fe1",
+          "width": 1000,
+          "height": 778
+        }
+      ]
+    },
+    {
+      "sku": "RW1613",
+      "key": "rw1613",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Colorful Soft-Serve Resin Miniatures for Playful DIY Layouts — RW1613",
+      "haibuTitle": "20 x 20 x 48 mm Soft-Serve Resin Miniatures for Craft Sourcing — RW1613",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 x 20 x 48 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW1613 is a miniature resin soft-serve cone design offered in the mixed color styles shown by the source photo. The source lists a 20 x 20 x 48 mm size and 100 pieces per reference bag. Confirm the current design assortment and packing when requesting a quote; the card and tool props in the generated application reference are not included.",
+      "caption": "RW1613 is a miniature resin soft-serve cone design offered in the mixed color styles shown by the source photo. The source lists a 20 x 20 x 48 mm size and 100 pieces per reference bag. Confirm the current design assortment and packing when requesting a quote; the card and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 20 x 20 x 48 mm RW1613 resin soft-serve miniatures as colorful focal pieces for cards, scrapbook layouts and other DIY arrangements. The source lists 100 pieces per reference bag and shows several mixed soft-serve color designs. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 20 x 20 x 48 mm RW1613 resin soft-serve miniatures as colorful focal pieces for cards, scrapbook layouts and other DIY arrangements. The source lists 100 pieces per reference bag and shows several mixed soft-serve color designs. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "soft-serve-resin-miniatures",
+      "haibuMetaTitle": "20 x 20 x 48 mm Soft-Serve Resin Miniatures for Craft Sourcing | RW1613",
+      "metaTitle": "Colorful Soft-Serve Resin Miniatures for Playful DIY Layouts | RW1613",
+      "haibuDescription": "RW1613: Resin craft decorations, 20 x 20 x 48 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW1613: Resin craft decorations, 20 x 20 x 48 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Artificial Popsicle Ice Cream Chocolates Cone Simulation Food Ornament Craft Decor Miniature Home Wedding Decoration DIY",
+        "material": "Resin",
+        "size": "20 x 20 x 48 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW1613"
+      },
+      "sourceProductId": "1601498836392",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Artificial-Popsicle-Ice-Cream-Chocolates-Cone_1601498836392.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H010f84192e404249a3a27b840b9165a5E.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "width": 1000,
+          "height": 667
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "20 x 20 x 48 mm Soft-Serve Resin Miniatures for Craft Sourcing — RW1613",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw1613/rw1613-soft-serve-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw1613/rw1613-soft-serve-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw1613/rw1613-soft-serve-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw1613/rw1613-soft-serve-resin-miniatures-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "8fb83640367cc37d9855bb4cdfc25620623e0af99cfddbfc6a9bd49a3ff5e6b8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw1613/rw1613-soft-serve-resin-miniatures-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "131117096d07ef5996aa8dd83794b89dfdc82f1f3960a52dfd4f0bfb0ddf2868",
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw1613/rw1613-soft-serve-resin-miniatures-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "d10e49fd2229d99818198b054ae46033bba5de96c644ed916aca5628ad7254e0",
+          "width": 1000,
+          "height": 667
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw1613/rw1613-1.jpg",
+        "assets/images/pdp/rw1613/rw1613-2.jpg",
+        "assets/images/pdp/rw1613/rw1613-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw1613/rw1613-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "8fb83640367cc37d9855bb4cdfc25620623e0af99cfddbfc6a9bd49a3ff5e6b8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw1613/rw1613-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "131117096d07ef5996aa8dd83794b89dfdc82f1f3960a52dfd4f0bfb0ddf2868",
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "path": "assets/images/pdp/rw1613/rw1613-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "d10e49fd2229d99818198b054ae46033bba5de96c644ed916aca5628ad7254e0",
+          "width": 1000,
+          "height": 667
+        }
+      ]
+    },
+    {
+      "sku": "RW692",
+      "key": "rw692",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Heart-Top Cupcake Resin Miniatures for Sweet DIY Layouts — RW692",
+      "haibuTitle": "15 x 17 mm Heart-Top Cupcake Resin Miniatures — RW692",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "15 x 17 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW692 is a small resin cupcake design with a ridged colored base, white frosting, pink sprinkle details and a heart topper. The source lists a 15 x 17 mm size and 100 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the blank card in the generated application reference is not included.",
+      "caption": "RW692 is a small resin cupcake design with a ridged colored base, white frosting, pink sprinkle details and a heart topper. The source lists a 15 x 17 mm size and 100 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the blank card in the generated application reference is not included.",
+      "qulaCaption": "Add a dessert-inspired focal accent to cards, miniature scenes and other DIY layouts with the 15 x 17 mm RW692 resin cupcakes. The source lists 100 pieces per reference bag and shows mixed base and heart colors with white frosting. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Add a dessert-inspired focal accent to cards, miniature scenes and other DIY layouts with the 15 x 17 mm RW692 resin cupcakes. The source lists 100 pieces per reference bag and shows mixed base and heart colors with white frosting. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "heart-cupcake-resin-miniatures",
+      "haibuMetaTitle": "15 x 17 mm Heart-Top Cupcake Resin Miniatures | RW692",
+      "metaTitle": "Heart-Top Cupcake Resin Miniatures for Sweet DIY Layouts | RW692",
+      "haibuDescription": "RW692: Resin craft decorations, 15 x 17 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW692: Resin craft decorations, 15 x 17 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Miniature Doll house Heart Cupcake Mini Cake Pretend Play Doll Food Kitchen Toy Accessories",
+        "material": "Resin",
+        "size": "15 x 17 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW692"
+      },
+      "sourceProductId": "1601498853057",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Doll-house-Heart-Cupcake_1601498853057.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H693d7e79014d49158f61ecf0504d958dj.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "width": 1000,
+          "height": 667
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "15 x 17 mm Heart-Top Cupcake Resin Miniatures — RW692",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw692/rw692-heart-cupcake-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw692/rw692-heart-cupcake-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw692/rw692-heart-cupcake-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw692/rw692-heart-cupcake-resin-miniatures-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3388ec320b7c9bd53d4959b18d2ad24baad5c68be835a29292852312325fb484",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw692/rw692-heart-cupcake-resin-miniatures-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "c936dec55604687abfd889e4b121f11d6eb19736ac5eda982374cb620a3c56ca",
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw692/rw692-heart-cupcake-resin-miniatures-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "147a91231274a028d6b8e3b4cfbd13d68d85a2cbe02a5698cff5338e5b4f292b",
+          "width": 1000,
+          "height": 667
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw692/rw692-1.jpg",
+        "assets/images/pdp/rw692/rw692-2.jpg",
+        "assets/images/pdp/rw692/rw692-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw692/rw692-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3388ec320b7c9bd53d4959b18d2ad24baad5c68be835a29292852312325fb484",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw692/rw692-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "c936dec55604687abfd889e4b121f11d6eb19736ac5eda982374cb620a3c56ca",
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "path": "assets/images/pdp/rw692/rw692-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "147a91231274a028d6b8e3b4cfbd13d68d85a2cbe02a5698cff5338e5b4f292b",
+          "width": 1000,
+          "height": 667
+        }
+      ]
+    },
+    {
+      "sku": "RW1824",
+      "key": "rw1824",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Colorful Glitter Star Resin Flatbacks for Sparkly DIY Layouts — RW1824",
+      "haibuTitle": "4 x 35 x 37 mm Glitter Star Resin Flatbacks — RW1824",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "4 x 35 x 37 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW1824 is a five-point resin star flatback with mixed translucent colors, fine glitter and scattered star-shaped confetti. The source lists a 4 x 35 x 37 mm size and 100 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the blank card and styling props in the generated application reference are not included.",
+      "caption": "RW1824 is a five-point resin star flatback with mixed translucent colors, fine glitter and scattered star-shaped confetti. The source lists a 4 x 35 x 37 mm size and 100 pieces per reference bag. Confirm the current mixed-color assortment and packing when requesting a quote; the blank card and styling props in the generated application reference are not included.",
+      "qulaCaption": "Use the 4 x 35 x 37 mm RW1824 resin stars as bright focal accents for cards, scrapbook layouts and other DIY arrangements. The source lists 100 pieces per reference bag and shows mixed translucent colors with fine glitter and star-shaped confetti. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 4 x 35 x 37 mm RW1824 resin stars as bright focal accents for cards, scrapbook layouts and other DIY arrangements. The source lists 100 pieces per reference bag and shows mixed translucent colors with fine glitter and star-shaped confetti. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "glitter-star-resin-flatbacks",
+      "haibuMetaTitle": "4 x 35 x 37 mm Glitter Star Resin Flatbacks | RW1824",
+      "metaTitle": "Colorful Glitter Star Resin Flatbacks for Sparkly DIY Layouts | RW1824",
+      "haibuDescription": "RW1824: Resin craft decorations, 4 x 35 x 37 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW1824: Resin craft decorations, 4 x 35 x 37 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Resin Colorful Glitter Star Flat Back Embellishments Resin Charms for Jewelry Scrapbooking Accessories Craft Supplies",
+        "material": "Resin",
+        "size": "4 x 35 x 37 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW1824"
+      },
+      "sourceProductId": "1601460416439",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Resin-Colorful-Glitter-Star-Flat_1601460416439.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7cbd6f6267774b24b64ad179a4febac6Z.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "width": 1000,
+          "height": 667
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "4 x 35 x 37 mm Glitter Star Resin Flatbacks — RW1824",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw1824/rw1824-glitter-star-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw1824/rw1824-glitter-star-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw1824/rw1824-glitter-star-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw1824/rw1824-glitter-star-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "7b1ad60ce54492acded7747f9340d53ee49735a40a9af5c479413f59b45c241c",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw1824/rw1824-glitter-star-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f804194fd90ffd013ae1e1de421eb5d71ad09873ea4bb3bc86bf18ed42f52077",
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw1824/rw1824-glitter-star-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "76aacbd09ef352ba341398092b943bcf6fa78a2f52ec3abd084c8f15f89b98a7",
+          "width": 1000,
+          "height": 667
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw1824/rw1824-1.jpg",
+        "assets/images/pdp/rw1824/rw1824-2.jpg",
+        "assets/images/pdp/rw1824/rw1824-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw1824/rw1824-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "7b1ad60ce54492acded7747f9340d53ee49735a40a9af5c479413f59b45c241c",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw1824/rw1824-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f804194fd90ffd013ae1e1de421eb5d71ad09873ea4bb3bc86bf18ed42f52077",
+          "width": 1000,
+          "height": 667
+        },
+        {
+          "path": "assets/images/pdp/rw1824/rw1824-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "76aacbd09ef352ba341398092b943bcf6fa78a2f52ec3abd084c8f15f89b98a7",
+          "width": 1000,
+          "height": 667
+        }
+      ]
+    },
+    {
+      "sku": "RW001724",
+      "key": "rw001724",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Pastel Mini Macaron Resin Decorations for Card-Making Layouts — RW001724",
+      "haibuTitle": "20 x 15 mm Mini Macaron Resin Decorations — RW001724",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 x 15 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW001724 is a small resin macaron decoration with ridged round shells, a white center layer and the mixed pastel colors shown by the source photo. The source lists a 20 x 15 mm size and 100 pieces per reference bag. Confirm the current color assortment and packing when requesting a quote; the card, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW001724 is a small resin macaron decoration with ridged round shells, a white center layer and the mixed pastel colors shown by the source photo. The source lists a 20 x 15 mm size and 100 pieces per reference bag. Confirm the current color assortment and packing when requesting a quote; the card, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 20 x 15 mm RW001724 resin macarons as small dessert-style accents on greeting cards, scrapbook pages and other DIY layouts. The source lists 100 pieces per reference bag and shows lavender, pink, pale green and coral-orange examples. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 20 x 15 mm RW001724 resin macarons as small dessert-style accents on greeting cards, scrapbook pages and other DIY layouts. The source lists 100 pieces per reference bag and shows lavender, pink, pale green and coral-orange examples. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "mini-macaron-resin-miniatures",
+      "haibuMetaTitle": "20 x 15 mm Mini Macaron Resin Decorations | RW001724",
+      "metaTitle": "Pastel Mini Macaron Resin Decorations for Card-Making Layouts | RW001724",
+      "haibuDescription": "RW001724: Resin craft decorations, 20 x 15 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW001724: Resin craft decorations, 20 x 15 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "20*15mm Simulation Mini Macarons Decorations Miniatures Food Play Kitchen Resin Doll Accessories Home Decor",
+        "material": "Resin",
+        "size": "20 x 15 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW001724"
+      },
+      "sourceProductId": "1601396587201",
+      "sourceUrl": "https://www.alibaba.com/product-detail/20-15mm-Simulation-Mini-Macarons-Decorations_1601396587201.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H61a489f9a1c340e8ac72e946772ec88ct.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "20 x 15 mm Mini Macaron Resin Decorations — RW001724",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw001724/rw001724-mini-macaron-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw001724/rw001724-mini-macaron-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw001724/rw001724-mini-macaron-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw001724/rw001724-mini-macaron-resin-miniatures-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "252a465ac6871158ca8a911db978087db3cbb9faee64ec2cb212de1827456e3d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw001724/rw001724-mini-macaron-resin-miniatures-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "684a3404c0a842b71e9383b208ba0bd16c683d14b7b3609eb35d8bfbf192a226",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw001724/rw001724-mini-macaron-resin-miniatures-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "d027209f69eedd093ac7c5e184c011c7b6cecedd1761fde516a99ef3ee095cdb",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw001724/rw001724-1.jpg",
+        "assets/images/pdp/rw001724/rw001724-2.jpg",
+        "assets/images/pdp/rw001724/rw001724-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw001724/rw001724-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "252a465ac6871158ca8a911db978087db3cbb9faee64ec2cb212de1827456e3d",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw001724/rw001724-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "684a3404c0a842b71e9383b208ba0bd16c683d14b7b3609eb35d8bfbf192a226",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw001724/rw001724-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "d027209f69eedd093ac7c5e184c011c7b6cecedd1761fde516a99ef3ee095cdb",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26131",
+      "key": "rw26131",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Red Candied-Fruit Skewer Resin Flatbacks for Festive DIY Layouts — RW26131",
+      "haibuTitle": "13 x 42 mm Red Candied-Fruit Skewer Resin Flatbacks — RW26131",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "13 x 42 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW26131 is a glossy resin skewer design with three round red sections and a short wood-tone stick. The source lists a 13 x 42 mm size and 100 pieces per reference bag. Confirm the current finish and packing when requesting a quote; the scrapbook paper, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW26131 is a glossy resin skewer design with three round red sections and a short wood-tone stick. The source lists a 13 x 42 mm size and 100 pieces per reference bag. Confirm the current finish and packing when requesting a quote; the scrapbook paper, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 13 x 42 mm RW26131 resin skewers as bright food-inspired accents on scrapbook pages, cards and miniature scene layouts. The source lists 100 pieces per reference bag and shows a glossy three-sphere red design with a wood-tone stick. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 13 x 42 mm RW26131 resin skewers as bright food-inspired accents on scrapbook pages, cards and miniature scene layouts. The source lists 100 pieces per reference bag and shows a glossy three-sphere red design with a wood-tone stick. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "candied-fruit-skewer-resin-flatbacks",
+      "haibuMetaTitle": "13 x 42 mm Red Candied-Fruit Skewer Resin Flatbacks | RW26131",
+      "metaTitle": "Red Candied-Fruit Skewer Resin Flatbacks for Festive DIY Layouts | RW26131",
+      "haibuDescription": "RW26131: Resin craft decorations, 13 x 42 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW26131: Resin craft decorations, 13 x 42 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Cute Sugar-coated Hawsonastick Resin Cabochons for Hair Bows DIY Scrapbook Crafts Phone Decoration Dollhouse Accessories",
+        "material": "Resin",
+        "size": "13 x 42 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW26131"
+      },
+      "sourceProductId": "1601681311848",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cute-Sugar-coated-Hawsonastick-Resin_1601681311848.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H184f3ab83b9b49868dc11999fc392778v.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "13 x 42 mm Red Candied-Fruit Skewer Resin Flatbacks — RW26131",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw26131/rw26131-candied-fruit-skewer-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw26131/rw26131-candied-fruit-skewer-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw26131/rw26131-candied-fruit-skewer-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26131/rw26131-candied-fruit-skewer-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "bc033cd5a8f8601ad5ea8730aa2c86a48af65c737ae278bd6de85711809230c8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26131/rw26131-candied-fruit-skewer-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "04caa06b270fcd1cb6d9c418a711dcc10fe9ca41d020b11ae0542838af927000",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26131/rw26131-candied-fruit-skewer-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "18b703df008d8c70b1878ef335ba4b979e881d10238a919a01ba1f4e7dbb441d",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26131/rw26131-1.jpg",
+        "assets/images/pdp/rw26131/rw26131-2.jpg",
+        "assets/images/pdp/rw26131/rw26131-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26131/rw26131-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "bc033cd5a8f8601ad5ea8730aa2c86a48af65c737ae278bd6de85711809230c8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26131/rw26131-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "04caa06b270fcd1cb6d9c418a711dcc10fe9ca41d020b11ae0542838af927000",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26131/rw26131-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "18b703df008d8c70b1878ef335ba4b979e881d10238a919a01ba1f4e7dbb441d",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW312",
+      "key": "rw312",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Colorful Glitter Crescent Moon Resin Flatbacks for Night-Sky DIY Layouts — RW312",
+      "haibuTitle": "32 x 37 mm Glitter Crescent Moon Resin Flatbacks — RW312",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "32 x 37 mm",
+      "packing": "50 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW312 is a glossy translucent resin crescent with fine glitter and embedded star-shaped confetti in the mixed colors shown by the source photo. The source lists a 32 x 37 mm size and 50 pieces per reference bag. Confirm the current color assortment and packing when requesting a quote; the card, paper stars and tool props in the generated application reference are not included.",
+      "caption": "RW312 is a glossy translucent resin crescent with fine glitter and embedded star-shaped confetti in the mixed colors shown by the source photo. The source lists a 32 x 37 mm size and 50 pieces per reference bag. Confirm the current color assortment and packing when requesting a quote; the card, paper stars and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 32 x 37 mm RW312 resin crescents as bright night-sky focal accents on cards, scrapbook pages and other DIY layouts. The source lists 50 pieces per reference bag and shows mixed translucent colors with glitter and embedded star confetti. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 32 x 37 mm RW312 resin crescents as bright night-sky focal accents on cards, scrapbook pages and other DIY layouts. The source lists 50 pieces per reference bag and shows mixed translucent colors with glitter and embedded star confetti. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "glitter-crescent-moon-resin-flatbacks",
+      "haibuMetaTitle": "32 x 37 mm Glitter Crescent Moon Resin Flatbacks | RW312",
+      "metaTitle": "Colorful Glitter Crescent Moon Resin Flatbacks for Night-Sky DIY Layouts | RW312",
+      "haibuDescription": "RW312: Resin craft decorations, 32 x 37 mm. Reference pack: 50 pcs/bag. Request selection and packing details.",
+      "description": "RW312: Resin craft decorations, 32 x 37 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Kawaii Resin Glitter Moon Flatback Cabochons Art Supply Decoration Charm Craft DIY Accessories",
+        "material": "Resin",
+        "size": "32 x 37 mm",
+        "packaging": "50 pcs/bag",
+        "sku_raw": "RW312"
+      },
+      "sourceProductId": "60806112567",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Resin-Glitter-Moon-Flatback-Cabochons_60806112567.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H526b7048f0ea401189b237b646cdfb05z.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "32 x 37 mm Glitter Crescent Moon Resin Flatbacks — RW312",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw312/rw312-glitter-crescent-moon-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw312/rw312-glitter-crescent-moon-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw312/rw312-glitter-crescent-moon-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw312/rw312-glitter-crescent-moon-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "7b97e3fc0f6346f8088699841f2bd8807e3ca95040e2d23da1eef030f5bd0083",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw312/rw312-glitter-crescent-moon-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "9397217eb9b6215a6ad1f039cbacfb4817b695b54e523588693f76c0b193f801",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw312/rw312-glitter-crescent-moon-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "2d6f1991389151e227fcf3dceb288bf89c2aa26ab250db6f0b3957ad40fd9a3c",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw312/rw312-1.jpg",
+        "assets/images/pdp/rw312/rw312-2.jpg",
+        "assets/images/pdp/rw312/rw312-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw312/rw312-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "7b97e3fc0f6346f8088699841f2bd8807e3ca95040e2d23da1eef030f5bd0083",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw312/rw312-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "9397217eb9b6215a6ad1f039cbacfb4817b695b54e523588693f76c0b193f801",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw312/rw312-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "2d6f1991389151e227fcf3dceb288bf89c2aa26ab250db6f0b3957ad40fd9a3c",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25542",
+      "key": "rw25542",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Mini Waffle Cookie Resin Flatbacks for Recipe Scrapbook Layouts — RW25542",
+      "haibuTitle": "25 mm Mini Waffle Cookie Resin Flatbacks — RW25542",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "25 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW25542 is a small resin waffle-cookie flatback with a crossed square-grid face and a softly scalloped edge in the pale and toasted color examples shown. The source lists a 25 mm size and 100 pieces per reference bag. Confirm the current color assortment and packing when requesting a quote; the scrapbook paper, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW25542 is a small resin waffle-cookie flatback with a crossed square-grid face and a softly scalloped edge in the pale and toasted color examples shown. The source lists a 25 mm size and 100 pieces per reference bag. Confirm the current color assortment and packing when requesting a quote; the scrapbook paper, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 25 mm RW25542 resin waffle pieces as small food-style accents on recipe scrapbook pages, cards and other DIY layouts. The source lists 100 pieces per reference bag and shows pale beige and toasted golden examples. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 25 mm RW25542 resin waffle pieces as small food-style accents on recipe scrapbook pages, cards and other DIY layouts. The source lists 100 pieces per reference bag and shows pale beige and toasted golden examples. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "mini-waffle-cookie-resin-flatbacks",
+      "haibuMetaTitle": "25 mm Mini Waffle Cookie Resin Flatbacks | RW25542",
+      "metaTitle": "Mini Waffle Cookie Resin Flatbacks for Recipe Scrapbook Layouts | RW25542",
+      "haibuDescription": "RW25542: Resin craft decorations, 25 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25542: Resin craft decorations, 25 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100Pcs Simulation Mini Waffle Cookies Flatback Resin Cabochon Scrapbooking Crafts Fit Phone Deco Parts DIY Accessories",
+        "material": "Resin",
+        "size": "25 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW25542"
+      },
+      "sourceProductId": "1601449430187",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Simulation-Mini-Waffle-Cookies-Flatback_1601449430187.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5f3b9e4cb6954f93a75334da818fc18dy.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "25 mm Mini Waffle Cookie Resin Flatbacks — RW25542",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw25542/rw25542-mini-waffle-cookie-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw25542/rw25542-mini-waffle-cookie-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw25542/rw25542-mini-waffle-cookie-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25542/rw25542-mini-waffle-cookie-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "0ee10824cc6e558c63d6f4e0cfa7e436954e5467683ae28e3739a8eeded3a8a8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25542/rw25542-mini-waffle-cookie-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f7ed9121058b6b2ed4fcb62f807f3c41f51e1ece593869bcf2e7384aa8b08272",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25542/rw25542-mini-waffle-cookie-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "ffd68c5093c90c6387c98cacfcf890f203375a2430e8438a690d17e338c2ccb6",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25542/rw25542-1.jpg",
+        "assets/images/pdp/rw25542/rw25542-2.jpg",
+        "assets/images/pdp/rw25542/rw25542-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25542/rw25542-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "0ee10824cc6e558c63d6f4e0cfa7e436954e5467683ae28e3739a8eeded3a8a8",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25542/rw25542-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f7ed9121058b6b2ed4fcb62f807f3c41f51e1ece593869bcf2e7384aa8b08272",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25542/rw25542-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "ffd68c5093c90c6387c98cacfcf890f203375a2430e8438a690d17e338c2ccb6",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW3598",
+      "key": "rw3598",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Colorful Glitter Scallop-Shell Resin Flatbacks for Ocean DIY Layouts — RW3598",
+      "haibuTitle": "22 x 26.5 mm Glitter Scallop-Shell Resin Flatbacks — RW3598",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "22 x 26.5 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW3598 is a translucent resin scallop-shell flatback with radiating ribs, mixed pastel colors and embedded glitter details. The source lists a 22 x 26.5 mm size and 100 pieces per reference bag. Confirm the current color assortment and packing when requesting a quote; the ocean card, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW3598 is a translucent resin scallop-shell flatback with radiating ribs, mixed pastel colors and embedded glitter details. The source lists a 22 x 26.5 mm size and 100 pieces per reference bag. Confirm the current color assortment and packing when requesting a quote; the ocean card, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 22 x 26.5 mm RW3598 resin shells as bright ocean-style accents on cards, scrapbook pages and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed translucent pastel colors with radiating shell ribs and glitter. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 22 x 26.5 mm RW3598 resin shells as bright ocean-style accents on cards, scrapbook pages and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed translucent pastel colors with radiating shell ribs and glitter. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "glitter-scallop-shell-resin-flatbacks",
+      "haibuMetaTitle": "22 x 26.5 mm Glitter Scallop-Shell Resin Flatbacks | RW3598",
+      "metaTitle": "Colorful Glitter Scallop-Shell Resin Flatbacks for Ocean DIY Layouts | RW3598",
+      "haibuDescription": "RW3598: Resin craft decorations, 22 x 26.5 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW3598: Resin craft decorations, 22 x 26.5 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100pcs Resin Hot Colorful Kawaii Shells Flat Back Cabochon for Crafts Making Jewelry Accessory Scrapbooking DIY",
+        "material": "Resin",
+        "size": "22 x 26.5 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW3598"
+      },
+      "sourceProductId": "1601460410191",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Resin-Hot-Colorful-Kawaii-Shells_1601460410191.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7db3220300d34ba0a502dd809a58992dJ.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "22 x 26.5 mm Glitter Scallop-Shell Resin Flatbacks — RW3598",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw3598/rw3598-glitter-scallop-shell-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw3598/rw3598-glitter-scallop-shell-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw3598/rw3598-glitter-scallop-shell-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3598/rw3598-glitter-scallop-shell-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "348d1cce920960cc49833c763aeae3496e8ae1109f4f6e48c53d3575b8c50a28",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3598/rw3598-glitter-scallop-shell-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a53da02f129e3e1a8f1db2433bd09d726dd4b90c554beab95444c3be6a55fdf4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3598/rw3598-glitter-scallop-shell-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "c9a43a1466751769fb28c216908b19bfd6641af2c0bd1b80342cb6fc32842b9a",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw3598/rw3598-1.jpg",
+        "assets/images/pdp/rw3598/rw3598-2.jpg",
+        "assets/images/pdp/rw3598/rw3598-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw3598/rw3598-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "348d1cce920960cc49833c763aeae3496e8ae1109f4f6e48c53d3575b8c50a28",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw3598/rw3598-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a53da02f129e3e1a8f1db2433bd09d726dd4b90c554beab95444c3be6a55fdf4",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw3598/rw3598-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "c9a43a1466751769fb28c216908b19bfd6641af2c0bd1b80342cb6fc32842b9a",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW002712",
+      "key": "rw002712",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Heart-Biscuit Resin Flatbacks for Valentine DIY Layouts — RW002712",
+      "haibuTitle": "20 x 21 mm Red, Black and Cream Heart-Biscuit Resin Flatbacks — RW002712",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "20 x 21 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW002712 is a mixed resin biscuit-style flatback assortment with round or square outer shapes and raised heart centers in red, black and cream combinations. The source lists a 20 x 21 mm size and 100 pieces per reference bag. Confirm the current design mix and packing when requesting a quote; the scrapbook paper, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW002712 is a mixed resin biscuit-style flatback assortment with round or square outer shapes and raised heart centers in red, black and cream combinations. The source lists a 20 x 21 mm size and 100 pieces per reference bag. Confirm the current design mix and packing when requesting a quote; the scrapbook paper, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 20 x 21 mm RW002712 resin heart biscuits as graphic accents on Valentine cards, scrapbook pages and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed round and square designs in red, black and cream. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 20 x 21 mm RW002712 resin heart biscuits as graphic accents on Valentine cards, scrapbook pages and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed round and square designs in red, black and cream. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "heart-biscuit-resin-flatbacks",
+      "haibuMetaTitle": "20 x 21 mm Red, Black and Cream Heart-Biscuit Resin Flatbacks | RW002712",
+      "metaTitle": "Heart-Biscuit Resin Flatbacks for Valentine DIY Layouts | RW002712",
+      "haibuDescription": "RW002712: Resin craft decorations, 20 x 21 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW002712: Resin craft decorations, 20 x 21 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Black Red Heart Biscuits Flatback Resin Cabochon Miniature Food Crafts DIY Scrapbooking Phone Decoration Accessories",
+        "material": "Resin",
+        "size": "20 x 21 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW002712"
+      },
+      "sourceProductId": "1601460585005",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Black-Red-Heart-Biscuits-Flatback-Resin_1601460585005.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H8e6378a05db64e23ad4b928dbf5c2df92.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "20 x 21 mm Red, Black and Cream Heart-Biscuit Resin Flatbacks — RW002712",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw002712/rw002712-heart-biscuit-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw002712/rw002712-heart-biscuit-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw002712/rw002712-heart-biscuit-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw002712/rw002712-heart-biscuit-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2fd7f5f46fc46cfe683f6f3a8170035ccbefb5c4783d81e83f5f474367d93715",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw002712/rw002712-heart-biscuit-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "934c247f6b8ed236e4d782a73aa64abfb35d6f6a00ac8153438d77d02e08f728",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw002712/rw002712-heart-biscuit-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "b9fdda925bd3688722ca44a55e8c96f9869dcf48167d6f002bb57161e691ddbd",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw002712/rw002712-1.jpg",
+        "assets/images/pdp/rw002712/rw002712-2.jpg",
+        "assets/images/pdp/rw002712/rw002712-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw002712/rw002712-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2fd7f5f46fc46cfe683f6f3a8170035ccbefb5c4783d81e83f5f474367d93715",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw002712/rw002712-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "934c247f6b8ed236e4d782a73aa64abfb35d6f6a00ac8153438d77d02e08f728",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw002712/rw002712-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "b9fdda925bd3688722ca44a55e8c96f9869dcf48167d6f002bb57161e691ddbd",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25867",
+      "key": "rw25867",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Mini Strawberry Resin Pieces for Fruit-Themed DIY — RW25867",
+      "haibuTitle": "About 10 mm Mixed Mini Strawberry Resin Pieces — RW25867",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "about 10 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW25867 is a mixed-color resin strawberry assortment with red, pink, dark brown and sliced-fruit front designs. The source lists an approximate 10 mm size and 100 pieces per reference bag. Confirm the current color/design mix and packing when requesting a quote; the kraft tag, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW25867 is a mixed-color resin strawberry assortment with red, pink, dark brown and sliced-fruit front designs. The source lists an approximate 10 mm size and 100 pieces per reference bag. Confirm the current color/design mix and packing when requesting a quote; the kraft tag, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the approximately 10 mm RW25867 strawberry resin pieces as small fruit motifs in card, tag and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed red, pink, dark brown and sliced-strawberry front designs. Choose and test an attachment method suitable for your project; generated scene props are not included.",
+      "uses": "Use the approximately 10 mm RW25867 strawberry resin pieces as small fruit motifs in card, tag and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed red, pink, dark brown and sliced-strawberry front designs. Choose and test an attachment method suitable for your project; generated scene props are not included.",
+      "keywords": "mini-strawberry-resin-pieces",
+      "haibuMetaTitle": "About 10 mm Mixed Mini Strawberry Resin Pieces | RW25867",
+      "metaTitle": "Mini Strawberry Resin Pieces for Fruit-Themed DIY | RW25867",
+      "haibuDescription": "RW25867: Resin craft decorations, about 10 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25867: Resin craft decorations, about 10 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Mix Color Mini Half-Sided Strawberry Bracelet Charms Sweet Simulation Fruit Pendant DIY for Earring Jewelry Make Accessory",
+        "material": "Resin",
+        "size": "about 10 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW25867"
+      },
+      "sourceProductId": "1601581183277",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Mix-Color-Mini-Half-Sided-Strawberry_1601581183277.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H90b8119432944373bf22f58ce987d044m.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "About 10 mm Mixed Mini Strawberry Resin Pieces — RW25867",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw25867/rw25867-mini-strawberry-resin-pieces-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw25867/rw25867-mini-strawberry-resin-pieces-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw25867/rw25867-mini-strawberry-resin-pieces-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25867/rw25867-mini-strawberry-resin-pieces-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "62d044404de88f8fa2497a5acf51618255ab76f53542894a941222f1df7ef259",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25867/rw25867-mini-strawberry-resin-pieces-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "5bb75462908dca30e4d032349465506f479b0063daa86fe6f9e4bc75656343c1",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25867/rw25867-mini-strawberry-resin-pieces-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "c47d684cc32ed2598730fdd3f2faf2cd731d47f2a3fb0088109f3b61daacec4a",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25867/rw25867-1.jpg",
+        "assets/images/pdp/rw25867/rw25867-2.jpg",
+        "assets/images/pdp/rw25867/rw25867-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25867/rw25867-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "62d044404de88f8fa2497a5acf51618255ab76f53542894a941222f1df7ef259",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25867/rw25867-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "5bb75462908dca30e4d032349465506f479b0063daa86fe6f9e4bc75656343c1",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25867/rw25867-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "c47d684cc32ed2598730fdd3f2faf2cd731d47f2a3fb0088109f3b61daacec4a",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW3345",
+      "key": "rw3345",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Polka-Dot Christmas Candy Resin Flatbacks for Holiday DIY — RW3345",
+      "haibuTitle": "15 x 30 mm Red, Green and White Christmas Candy Resin Flatbacks — RW3345",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "15 x 30 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW3345 is a mixed resin wrapped-candy flatback assortment with red, green or white oval centers, white wrapper ends and small multicolor dot details. The source lists a 15 x 30 mm size and 100 pieces per reference bag. Confirm the current color mix and packing when requesting a quote; the blank tag and twine in the generated application reference are not included.",
+      "caption": "RW3345 is a mixed resin wrapped-candy flatback assortment with red, green or white oval centers, white wrapper ends and small multicolor dot details. The source lists a 15 x 30 mm size and 100 pieces per reference bag. Confirm the current color mix and packing when requesting a quote; the blank tag and twine in the generated application reference are not included.",
+      "qulaCaption": "Use the 15 x 30 mm RW3345 wrapped-candy resin flatbacks as festive accents on gift tags, cards and other holiday DIY layouts. The source lists 100 pieces per reference bag and shows mixed red, green and white candy centers with white wrapper ends. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 15 x 30 mm RW3345 wrapped-candy resin flatbacks as festive accents on gift tags, cards and other holiday DIY layouts. The source lists 100 pieces per reference bag and shows mixed red, green and white candy centers with white wrapper ends. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "christmas-candy-resin-flatbacks",
+      "haibuMetaTitle": "15 x 30 mm Red, Green and White Christmas Candy Resin Flatbacks | RW3345",
+      "metaTitle": "Polka-Dot Christmas Candy Resin Flatbacks for Holiday DIY | RW3345",
+      "haibuDescription": "RW3345: Resin craft decorations, 15 x 30 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW3345: Resin craft decorations, 15 x 30 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Colorful Christmas Dot Candy Flatback Resin Cabochon Scrapbooking Hair Bows Accessories Food Play DIY Christmas Decoration",
+        "material": "Resin",
+        "size": "15 x 30 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW3345"
+      },
+      "sourceProductId": "1600312188154",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Christmas-Dot-Candy-Flatback-Resin_1600312188154.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H4f0dd97b89a841dcba5c2fb13d99d60co.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "15 x 30 mm Red, Green and White Christmas Candy Resin Flatbacks — RW3345",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw3345/rw3345-christmas-candy-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw3345/rw3345-christmas-candy-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw3345/rw3345-christmas-candy-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3345/rw3345-christmas-candy-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2ebe3c38545d78c77fb165e037e2959a4154f388b46f6377a93f8d35eba6c053",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3345/rw3345-christmas-candy-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "15913a2d4034c837c585e38554dd03c44f9f9a30abbeb75ef45ed8d4f2574485",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3345/rw3345-christmas-candy-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "230d21932a05eba9650d5639dd98af9736a6b04f15f3bdbf146cc5e9146bf55c",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw3345/rw3345-1.jpg",
+        "assets/images/pdp/rw3345/rw3345-2.jpg",
+        "assets/images/pdp/rw3345/rw3345-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw3345/rw3345-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "2ebe3c38545d78c77fb165e037e2959a4154f388b46f6377a93f8d35eba6c053",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw3345/rw3345-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "15913a2d4034c837c585e38554dd03c44f9f9a30abbeb75ef45ed8d4f2574485",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw3345/rw3345-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "230d21932a05eba9650d5639dd98af9736a6b04f15f3bdbf146cc5e9146bf55c",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26091",
+      "key": "rw26091",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Pastel Patterned Heart Resin Flatbacks for Valentine DIY — RW26091",
+      "haibuTitle": "19 x 16 mm Mixed Pastel Valentine Heart Resin Flatbacks — RW26091",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "19 x 16 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW26091 is a mixed resin heart flatback assortment in coral, mint, lavender, pink, pale blue, cream and white, with striped, cherry, tiny-heart and flower front designs. The source lists a 19 x 16 mm size and 100 pieces per reference bag. Confirm the current design mix and packing when requesting a quote; the blank card, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW26091 is a mixed resin heart flatback assortment in coral, mint, lavender, pink, pale blue, cream and white, with striped, cherry, tiny-heart and flower front designs. The source lists a 19 x 16 mm size and 100 pieces per reference bag. Confirm the current design mix and packing when requesting a quote; the blank card, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 19 x 16 mm RW26091 pastel resin hearts as small motifs on Valentine cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed striped, cherry, tiny-heart, flower and pastel designs. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 19 x 16 mm RW26091 pastel resin hearts as small motifs on Valentine cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed striped, cherry, tiny-heart, flower and pastel designs. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "pastel-heart-resin-flatbacks",
+      "haibuMetaTitle": "19 x 16 mm Mixed Pastel Valentine Heart Resin Flatbacks | RW26091",
+      "metaTitle": "Pastel Patterned Heart Resin Flatbacks for Valentine DIY | RW26091",
+      "haibuDescription": "RW26091: Resin craft decorations, 19 x 16 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW26091: Resin craft decorations, 19 x 16 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Resin Valentines Cherry Heart Flat Back Cabochon Scrapbooking for Phone Hair Bows Center DIY Decor Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "19 x 16 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW26091"
+      },
+      "sourceProductId": "1601669653994",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Valentines-Cherry-Heart-Flat-Back_1601669653994.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H6b44358aebed4394bafa90e119a8df3ax.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "19 x 16 mm Mixed Pastel Valentine Heart Resin Flatbacks — RW26091",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw26091/rw26091-pastel-heart-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw26091/rw26091-pastel-heart-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw26091/rw26091-pastel-heart-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26091/rw26091-pastel-heart-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c1df9aa73f7034c2ca6d79de0c8284238a3abe94a3f9e559203feb24803d57f5",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26091/rw26091-pastel-heart-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "eac4cf451030120a33ba26d20c989a7a8f87b74a9700ffb749352ca144f1ad20",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26091/rw26091-pastel-heart-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "2c9cbcd03d76e307f8f2c597c6fe62afbb0258914df938846672c92d995bbb10",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26091/rw26091-1.jpg",
+        "assets/images/pdp/rw26091/rw26091-2.jpg",
+        "assets/images/pdp/rw26091/rw26091-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26091/rw26091-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c1df9aa73f7034c2ca6d79de0c8284238a3abe94a3f9e559203feb24803d57f5",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26091/rw26091-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "eac4cf451030120a33ba26d20c989a7a8f87b74a9700ffb749352ca144f1ad20",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26091/rw26091-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "2c9cbcd03d76e307f8f2c597c6fe62afbb0258914df938846672c92d995bbb10",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW25671",
+      "key": "rw25671",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Tropical Flip-Flop Resin Miniatures for Summer DIY — RW25671",
+      "haibuTitle": "15 x 20 mm Tropical Flip-Flop Resin Miniatures — RW25671",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "15 x 20 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW25671 is a mixed tropical-pattern resin flip-flop miniature assortment with cream sole edges and raised colored straps. The source lists a 15 x 20 mm size and 100 pieces per reference bag. Confirm the current print/strap mix and packing when requesting a quote; the blank tag and shell props in the generated application reference are not included.",
+      "caption": "RW25671 is a mixed tropical-pattern resin flip-flop miniature assortment with cream sole edges and raised colored straps. The source lists a 15 x 20 mm size and 100 pieces per reference bag. Confirm the current print/strap mix and packing when requesting a quote; the blank tag and shell props in the generated application reference are not included.",
+      "qulaCaption": "Use the 15 x 20 mm RW25671 miniature flip-flops as summer and beach motifs on tags, cards and miniature displays. The source lists 100 pieces per reference bag and shows mixed tropical prints with raised colored straps. Choose and test an attachment method suitable for your project; generated scene props are not included.",
+      "uses": "Use the 15 x 20 mm RW25671 miniature flip-flops as summer and beach motifs on tags, cards and miniature displays. The source lists 100 pieces per reference bag and shows mixed tropical prints with raised colored straps. Choose and test an attachment method suitable for your project; generated scene props are not included.",
+      "keywords": "tropical-flip-flop-resin-miniatures",
+      "haibuMetaTitle": "15 x 20 mm Tropical Flip-Flop Resin Miniatures | RW25671",
+      "metaTitle": "Tropical Flip-Flop Resin Miniatures for Summer DIY | RW25671",
+      "haibuDescription": "RW25671: Resin craft decorations, 15 x 20 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW25671: Resin craft decorations, 15 x 20 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Miniature Slipper Beach Themed Realistic Resin Slippers Toy Decor Hawaiian Style Mini House Accessories Summer",
+        "material": "Resin",
+        "size": "15 x 20 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW25671"
+      },
+      "sourceProductId": "1601457077287",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Slipper-Beach-Themed-Realistic-Resin_1601457077287.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H60d683639b2b49afab95297c7f954c54T.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "15 x 20 mm Tropical Flip-Flop Resin Miniatures — RW25671",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw25671/rw25671-tropical-flip-flop-resin-miniatures-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw25671/rw25671-tropical-flip-flop-resin-miniatures-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw25671/rw25671-tropical-flip-flop-resin-miniatures-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25671/rw25671-tropical-flip-flop-resin-miniatures-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c57dd8a25be95291712a70b1686f3368a8e5dc3ae589df921233257e21af5a59",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25671/rw25671-tropical-flip-flop-resin-miniatures-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "5b0a1e8331a4dccf377fad65598934eec6dd1abc7d60c6d80c9cad85bf19cc75",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw25671/rw25671-tropical-flip-flop-resin-miniatures-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "138b2b08825dc284bb9908f3421290d5597caa027977f8104537e120b75a5116",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw25671/rw25671-1.jpg",
+        "assets/images/pdp/rw25671/rw25671-2.jpg",
+        "assets/images/pdp/rw25671/rw25671-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw25671/rw25671-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "c57dd8a25be95291712a70b1686f3368a8e5dc3ae589df921233257e21af5a59",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw25671/rw25671-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "5b0a1e8331a4dccf377fad65598934eec6dd1abc7d60c6d80c9cad85bf19cc75",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw25671/rw25671-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "138b2b08825dc284bb9908f3421290d5597caa027977f8104537e120b75a5116",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW004005",
+      "key": "rw004005",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Pastel Swirl Popsicle Resin Flatbacks for Sweet DIY Layouts — RW004005",
+      "haibuTitle": "19 x 33 mm Pastel Swirl Popsicle Resin Flatbacks — RW004005",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "19 x 33 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW004005 is a mixed pastel resin popsicle flatback assortment with rounded fronts, short beige sticks and contrasting spiral motifs. The source lists a 19 x 33 mm size and 100 pieces per reference bag. Confirm the current color mix and packing when requesting a quote; the blank card, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW004005 is a mixed pastel resin popsicle flatback assortment with rounded fronts, short beige sticks and contrasting spiral motifs. The source lists a 19 x 33 mm size and 100 pieces per reference bag. Confirm the current color mix and packing when requesting a quote; the blank card, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 19 x 33 mm RW004005 pastel swirl popsicles as playful dessert motifs on cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows pink, cream, yellow, lavender, blue and green variants with contrasting swirls. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 19 x 33 mm RW004005 pastel swirl popsicles as playful dessert motifs on cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows pink, cream, yellow, lavender, blue and green variants with contrasting swirls. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "pastel-swirl-popsicle-resin-flatbacks",
+      "haibuMetaTitle": "19 x 33 mm Pastel Swirl Popsicle Resin Flatbacks | RW004005",
+      "metaTitle": "Pastel Swirl Popsicle Resin Flatbacks for Sweet DIY Layouts | RW004005",
+      "haibuDescription": "RW004005: Resin craft decorations, 19 x 33 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW004005: Resin craft decorations, 19 x 33 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Cute Resin Mini Cartoon Simulation Popsicle Series Scrapbook DIY Flat Back Deco Parts for Hair Bows Accessories",
+        "material": "Resin",
+        "size": "19 x 33 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW004005"
+      },
+      "sourceProductId": "1601702074048",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-Resin-Mini-Cartoon-Simulation-Popsicle_1601702074048.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H18d65c54696147119bcf9158c83770eba.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "19 x 33 mm Pastel Swirl Popsicle Resin Flatbacks — RW004005",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw004005/rw004005-pastel-swirl-popsicle-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw004005/rw004005-pastel-swirl-popsicle-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw004005/rw004005-pastel-swirl-popsicle-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw004005/rw004005-pastel-swirl-popsicle-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3237c1114c8a0cae13f48b01827f3972a8be3787ac942d69067b03c8fec59b54",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw004005/rw004005-pastel-swirl-popsicle-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "28af978fa51c162b27979c690be8f0b31c5feff8ba8b11de25fc41221e12708a",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw004005/rw004005-pastel-swirl-popsicle-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "71542ec3eee5cc4581c65376b249cbcf709310489554e5355a8e1fcd0ea76d29",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw004005/rw004005-1.jpg",
+        "assets/images/pdp/rw004005/rw004005-2.jpg",
+        "assets/images/pdp/rw004005/rw004005-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw004005/rw004005-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "3237c1114c8a0cae13f48b01827f3972a8be3787ac942d69067b03c8fec59b54",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw004005/rw004005-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "28af978fa51c162b27979c690be8f0b31c5feff8ba8b11de25fc41221e12708a",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw004005/rw004005-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "71542ec3eee5cc4581c65376b249cbcf709310489554e5355a8e1fcd0ea76d29",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW3251",
+      "key": "rw3251",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Translucent Gummy-Bear Resin Flatbacks for Candy DIY — RW3251",
+      "haibuTitle": "7 x 11 x 18 mm Translucent Gummy-Bear Resin Flatbacks — RW3251",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "7 x 11 x 18 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW3251 is a mixed translucent resin gummy-bear flatback assortment in green, clear, yellow, orange and red. The source lists a 7 x 11 x 18 mm size and 100 pieces per reference bag. Confirm the current color mix and packing when requesting a quote; the blank tag, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW3251 is a mixed translucent resin gummy-bear flatback assortment in green, clear, yellow, orange and red. The source lists a 7 x 11 x 18 mm size and 100 pieces per reference bag. Confirm the current color mix and packing when requesting a quote; the blank tag, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 7 x 11 x 18 mm RW3251 translucent bear pieces as bright candy-style motifs on cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed green, clear, yellow, orange and red colors. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 7 x 11 x 18 mm RW3251 translucent bear pieces as bright candy-style motifs on cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed green, clear, yellow, orange and red colors. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "translucent-gummy-bear-resin-flatbacks",
+      "haibuMetaTitle": "7 x 11 x 18 mm Translucent Gummy-Bear Resin Flatbacks | RW3251",
+      "metaTitle": "Translucent Gummy-Bear Resin Flatbacks for Candy DIY | RW3251",
+      "haibuDescription": "RW3251: Resin craft decorations, 7 x 11 x 18 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW3251: Resin craft decorations, 7 x 11 x 18 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "100pcs Candy Color Cute Kawaii Resin Gummy Bear Candy Charms Colorful Flatback Deco Parts DIY Accessories",
+        "material": "Resin",
+        "size": "7 x 11 x 18 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW3251"
+      },
+      "sourceProductId": "1601460672234",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Candy-Color-Cute-Kawaii-Resin_1601460672234.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/Hc27619d1135e4be98d40ac748ce6013fu.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "7 x 11 x 18 mm Translucent Gummy-Bear Resin Flatbacks — RW3251",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw3251/rw3251-translucent-gummy-bear-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw3251/rw3251-translucent-gummy-bear-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw3251/rw3251-translucent-gummy-bear-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3251/rw3251-translucent-gummy-bear-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "713c6753dcea91a601afea5a7873831b4068a8e8232d36bd491b03a7daeaad6b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3251/rw3251-translucent-gummy-bear-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "6005d5bb001bffa27db4cd4912e355a5e44a795b13a7c76f880e6a7e98bc84a6",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw3251/rw3251-translucent-gummy-bear-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "72b4ef3f73dd71ee66706356fc6b1d887d40545a8a3bea360c47053aa7cde69c",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw3251/rw3251-1.jpg",
+        "assets/images/pdp/rw3251/rw3251-2.jpg",
+        "assets/images/pdp/rw3251/rw3251-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw3251/rw3251-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "713c6753dcea91a601afea5a7873831b4068a8e8232d36bd491b03a7daeaad6b",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw3251/rw3251-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "6005d5bb001bffa27db4cd4912e355a5e44a795b13a7c76f880e6a7e98bc84a6",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw3251/rw3251-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "72b4ef3f73dd71ee66706356fc6b1d887d40545a8a3bea360c47053aa7cde69c",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW004343",
+      "key": "rw004343",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Glitter Snowflake Heart Resin Flatbacks for Winter DIY — RW004343",
+      "haibuTitle": "About 22 x 23 mm Snowflake Heart Glitter Resin Flatbacks — RW004343",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "about 22 x 23 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW004343 is a mixed translucent glitter resin heart flatback assortment with centered white snowflake motifs in yellow, lavender, aqua, pink, green and peach tones. The source lists an approximate 22 x 23 mm size and 100 pieces per reference bag. Confirm the current color mix and packing when requesting a quote; the blank card, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW004343 is a mixed translucent glitter resin heart flatback assortment with centered white snowflake motifs in yellow, lavender, aqua, pink, green and peach tones. The source lists an approximate 22 x 23 mm size and 100 pieces per reference bag. Confirm the current color mix and packing when requesting a quote; the blank card, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the approximately 22 x 23 mm RW004343 glitter hearts as winter motifs on cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed translucent pastel colors with centered white snowflakes. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the approximately 22 x 23 mm RW004343 glitter hearts as winter motifs on cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed translucent pastel colors with centered white snowflakes. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "snowflake-heart-glitter-resin-flatbacks",
+      "haibuMetaTitle": "About 22 x 23 mm Snowflake Heart Glitter Resin Flatbacks | RW004343",
+      "metaTitle": "Glitter Snowflake Heart Resin Flatbacks for Winter DIY | RW004343",
+      "haibuDescription": "RW004343: Resin craft decorations, about 22 x 23 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW004343: Resin craft decorations, about 22 x 23 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Colorful Snowflake Heart Glitter Resin Flatback Cabochon Phone Case Decoration Charm Anniversary Gift",
+        "material": "Resin",
+        "size": "about 22 x 23 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW004343"
+      },
+      "sourceProductId": "1601702337781",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Snowflake-Heart-Glitter-Resin-Flatback_1601702337781.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H5fe7ac3b0a3648acab6df53b29a975f6m.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "About 22 x 23 mm Snowflake Heart Glitter Resin Flatbacks — RW004343",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw004343/rw004343-snowflake-heart-glitter-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw004343/rw004343-snowflake-heart-glitter-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw004343/rw004343-snowflake-heart-glitter-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw004343/rw004343-snowflake-heart-glitter-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "dc70b4c1c86e2b17f042cec519ea1e1c999a5ed3e0fb91c81ce891479b0755c6",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw004343/rw004343-snowflake-heart-glitter-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f117873604dd4196a5c0a82116abbe698e81645ab3f8b308b43e6089bc930875",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw004343/rw004343-snowflake-heart-glitter-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "b4f79e323e89b70ab6ec9d4b0b14210342688ddefd162084da4d5184db7aa166",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw004343/rw004343-1.jpg",
+        "assets/images/pdp/rw004343/rw004343-2.jpg",
+        "assets/images/pdp/rw004343/rw004343-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw004343/rw004343-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "dc70b4c1c86e2b17f042cec519ea1e1c999a5ed3e0fb91c81ce891479b0755c6",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw004343/rw004343-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "f117873604dd4196a5c0a82116abbe698e81645ab3f8b308b43e6089bc930875",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw004343/rw004343-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "b4f79e323e89b70ab6ec9d4b0b14210342688ddefd162084da4d5184db7aa166",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    },
+    {
+      "sku": "RW26114",
+      "key": "rw26114",
+      "batchNumber": 44,
+      "batchId": "20261113-monica-44",
+      "title": "Fruit-Themed Butterfly Resin Flatbacks for Spring DIY — RW26114",
+      "haibuTitle": "29 x 20 mm Mixed Fruit Butterfly Resin Flatbacks — RW26114",
+      "type": "Decorative",
+      "category": "resin-charms",
+      "haibuCategory": "resin-charms",
+      "material": "Resin",
+      "dimensions": "29 x 20 mm",
+      "packing": "100 pcs/bag",
+      "attachment": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "variantSizeNotes": "Photographs show design and color references; confirm the current selection and pack composition. Reference pack quantity is not MOQ.",
+      "procurementAdvice": "RW26114 is a mixed resin butterfly flatback assortment with watermelon, strawberry, kiwi, citrus, lemon and soft-pink fruit-inspired wing designs. The source lists a 29 x 20 mm size and 100 pieces per reference bag. Confirm the current design mix and packing when requesting a quote; the blank card, ribbon and tool props in the generated application reference are not included.",
+      "caption": "RW26114 is a mixed resin butterfly flatback assortment with watermelon, strawberry, kiwi, citrus, lemon and soft-pink fruit-inspired wing designs. The source lists a 29 x 20 mm size and 100 pieces per reference bag. Confirm the current design mix and packing when requesting a quote; the blank card, ribbon and tool props in the generated application reference are not included.",
+      "qulaCaption": "Use the 29 x 20 mm RW26114 fruit butterflies as bright spring accents on cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed watermelon, strawberry, kiwi, citrus, lemon and soft-pink designs. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "uses": "Use the 29 x 20 mm RW26114 fruit butterflies as bright spring accents on cards, tags and other DIY layouts. The source lists 100 pieces per reference bag and shows mixed watermelon, strawberry, kiwi, citrus, lemon and soft-pink designs. Test your chosen attachment method before finishing a project; generated scene props are not included.",
+      "keywords": "fruit-butterfly-resin-flatbacks",
+      "haibuMetaTitle": "29 x 20 mm Mixed Fruit Butterfly Resin Flatbacks | RW26114",
+      "metaTitle": "Fruit-Themed Butterfly Resin Flatbacks for Spring DIY | RW26114",
+      "haibuDescription": "RW26114: Resin craft decorations, 29 x 20 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "description": "RW26114: Resin craft decorations, 29 x 20 mm. Compare the original photo and plan your DIY layout; current options by inquiry.",
+      "factNote": "Material, dimensions and reference packing are source-listed. Confirm colors, assortment and attachment for your project.",
+      "sourceFields": {
+        "title": "Kawaii Cartoon Fruit Butterfly Flatback Resin Cabochon Fit Phone Decor DIY Scrapbook Jewelry Accessory",
+        "material": "Resin",
+        "size": "29 x 20 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "RW26114"
+      },
+      "sourceProductId": "1600139904335",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Cartoon-Fruit-Butterfly-Flatback-Resin_1600139904335.html",
+      "sourceType": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "sourceImageUrl": "https://sc04.alicdn.com/kf/H7025877d329e4a9dbe16df38d330a7c9q.jpg_350x350.jpg",
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "visualSummary": "29 x 20 mm Mixed Fruit Butterfly Resin Flatbacks — RW26114",
+      "sourceRawPreserved": true,
+      "pricingMode": "quote_only",
+      "haibuImages": [
+        "assets/images/products/batch-20261113-monica-44/rw26114/rw26114-fruit-butterfly-resin-flatbacks-01.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw26114/rw26114-fruit-butterfly-resin-flatbacks-02.jpg",
+        "assets/images/products/batch-20261113-monica-44/rw26114/rw26114-fruit-butterfly-resin-flatbacks-03.jpg"
+      ],
+      "haibuImageInfo": [
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26114/rw26114-fruit-butterfly-resin-flatbacks-01.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "07a0de48317c4f56c792093a2cf0ee1f8dec0f77dd88e34a9a2cc23fd87b13b1",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26114/rw26114-fruit-butterfly-resin-flatbacks-02.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a4d263c775f0149d5ecc370c86fc806a9c2e79204152cd00dd75acd65f44436c",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/products/batch-20261113-monica-44/rw26114/rw26114-fruit-butterfly-resin-flatbacks-03.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "353cec898dd5073e2f279a011c1811b69333424cef605609b225a15a5892edbf",
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "qulaImages": [
+        "assets/images/pdp/rw26114/rw26114-1.jpg",
+        "assets/images/pdp/rw26114/rw26114-2.jpg",
+        "assets/images/pdp/rw26114/rw26114-3.jpg"
+      ],
+      "qulaImageInfo": [
+        {
+          "path": "assets/images/pdp/rw26114/rw26114-1.jpg",
+          "role": "main",
+          "generated": false,
+          "sha256": "07a0de48317c4f56c792093a2cf0ee1f8dec0f77dd88e34a9a2cc23fd87b13b1",
+          "width": 350,
+          "height": 350
+        },
+        {
+          "path": "assets/images/pdp/rw26114/rw26114-2.jpg",
+          "role": "application_reference",
+          "generated": true,
+          "sha256": "a4d263c775f0149d5ecc370c86fc806a9c2e79204152cd00dd75acd65f44436c",
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "path": "assets/images/pdp/rw26114/rw26114-3.jpg",
+          "role": "detail_reference",
+          "generated": true,
+          "sha256": "353cec898dd5073e2f279a011c1811b69333424cef605609b225a15a5892edbf",
+          "width": 1000,
+          "height": 1000
+        }
+      ]
+    }
+  ]
+}

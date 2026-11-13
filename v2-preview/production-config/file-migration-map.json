@@ -1296,6 +1296,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw25974-30-x-10-mm-two-tone-gummy-style-resin-flatbacks-rw25974/index.html",
+      "destination": "products/resin-charms-for-slime/rw25974-30-x-10-mm-two-tone-gummy-style-resin-flatbacks-rw25974/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25974-30-x-10-mm-two-tone-gummy-style-resin-flatbacks-rw25974/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002817-29-x-42-mm-gradient-bow-resin-flatbacks-for-craft-sourcing-rw002817/index.html",
+      "destination": "products/resin-charms-for-slime/rw002817-29-x-42-mm-gradient-bow-resin-flatbacks-for-craft-sourcing-rw002817/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002817-29-x-42-mm-gradient-bow-resin-flatbacks-for-craft-sourcing-rw002817/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw6015-7-mm-translucent-flower-resin-flatbacks-with-gold-tone-veins-rw6015/index.html",
+      "destination": "products/resin-charms-for-slime/rw6015-7-mm-translucent-flower-resin-flatbacks-with-gold-tone-veins-rw6015/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw6015-7-mm-translucent-flower-resin-flatbacks-with-gold-tone-veins-rw6015/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1613-20-x-20-x-48-mm-soft-serve-resin-miniatures-for-craft-sourcing-rw1613/index.html",
+      "destination": "products/resin-charms-for-slime/rw1613-20-x-20-x-48-mm-soft-serve-resin-miniatures-for-craft-sourcing-rw1613/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1613-20-x-20-x-48-mm-soft-serve-resin-miniatures-for-craft-sourcing-rw1613/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw692-15-x-17-mm-heart-top-cupcake-resin-miniatures-rw692/index.html",
+      "destination": "products/resin-charms-for-slime/rw692-15-x-17-mm-heart-top-cupcake-resin-miniatures-rw692/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw692-15-x-17-mm-heart-top-cupcake-resin-miniatures-rw692/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1824-4-x-35-x-37-mm-glitter-star-resin-flatbacks-rw1824/index.html",
+      "destination": "products/resin-charms-for-slime/rw1824-4-x-35-x-37-mm-glitter-star-resin-flatbacks-rw1824/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1824-4-x-35-x-37-mm-glitter-star-resin-flatbacks-rw1824/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw001724-20-x-15-mm-mini-macaron-resin-decorations-rw001724/index.html",
+      "destination": "products/resin-charms-for-slime/rw001724-20-x-15-mm-mini-macaron-resin-decorations-rw001724/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw001724-20-x-15-mm-mini-macaron-resin-decorations-rw001724/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26131-13-x-42-mm-red-candied-fruit-skewer-resin-flatbacks-rw26131/index.html",
+      "destination": "products/resin-charms-for-slime/rw26131-13-x-42-mm-red-candied-fruit-skewer-resin-flatbacks-rw26131/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26131-13-x-42-mm-red-candied-fruit-skewer-resin-flatbacks-rw26131/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw312-32-x-37-mm-glitter-crescent-moon-resin-flatbacks-rw312/index.html",
+      "destination": "products/resin-charms-for-slime/rw312-32-x-37-mm-glitter-crescent-moon-resin-flatbacks-rw312/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw312-32-x-37-mm-glitter-crescent-moon-resin-flatbacks-rw312/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25542-25-mm-mini-waffle-cookie-resin-flatbacks-rw25542/index.html",
+      "destination": "products/resin-charms-for-slime/rw25542-25-mm-mini-waffle-cookie-resin-flatbacks-rw25542/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25542-25-mm-mini-waffle-cookie-resin-flatbacks-rw25542/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3598-22-x-26-5-mm-glitter-scallop-shell-resin-flatbacks-rw3598/index.html",
+      "destination": "products/resin-charms-for-slime/rw3598-22-x-26-5-mm-glitter-scallop-shell-resin-flatbacks-rw3598/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3598-22-x-26-5-mm-glitter-scallop-shell-resin-flatbacks-rw3598/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002712-20-x-21-mm-red-black-cream-heart-biscuit-resin-flatbacks-rw002712/index.html",
+      "destination": "products/resin-charms-for-slime/rw002712-20-x-21-mm-red-black-cream-heart-biscuit-resin-flatbacks-rw002712/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002712-20-x-21-mm-red-black-cream-heart-biscuit-resin-flatbacks-rw002712/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25867-about-10-mm-mixed-mini-strawberry-resin-pieces-rw25867/index.html",
+      "destination": "products/resin-charms-for-slime/rw25867-about-10-mm-mixed-mini-strawberry-resin-pieces-rw25867/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25867-about-10-mm-mixed-mini-strawberry-resin-pieces-rw25867/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3345-15-x-30-mm-red-green-white-christmas-candy-resin-flatbacks-rw3345/index.html",
+      "destination": "products/resin-charms-for-slime/rw3345-15-x-30-mm-red-green-white-christmas-candy-resin-flatbacks-rw3345/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3345-15-x-30-mm-red-green-white-christmas-candy-resin-flatbacks-rw3345/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26091-19-x-16-mm-mixed-pastel-valentine-heart-resin-flatbacks-rw26091/index.html",
+      "destination": "products/resin-charms-for-slime/rw26091-19-x-16-mm-mixed-pastel-valentine-heart-resin-flatbacks-rw26091/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26091-19-x-16-mm-mixed-pastel-valentine-heart-resin-flatbacks-rw26091/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25671-15-x-20-mm-tropical-flip-flop-resin-miniatures-rw25671/index.html",
+      "destination": "products/resin-charms-for-slime/rw25671-15-x-20-mm-tropical-flip-flop-resin-miniatures-rw25671/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25671-15-x-20-mm-tropical-flip-flop-resin-miniatures-rw25671/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004005-19-x-33-mm-pastel-swirl-popsicle-resin-flatbacks-rw004005/index.html",
+      "destination": "products/resin-charms-for-slime/rw004005-19-x-33-mm-pastel-swirl-popsicle-resin-flatbacks-rw004005/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004005-19-x-33-mm-pastel-swirl-popsicle-resin-flatbacks-rw004005/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3251-7-x-11-x-18-mm-translucent-gummy-bear-resin-flatbacks-rw3251/index.html",
+      "destination": "products/resin-charms-for-slime/rw3251-7-x-11-x-18-mm-translucent-gummy-bear-resin-flatbacks-rw3251/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3251-7-x-11-x-18-mm-translucent-gummy-bear-resin-flatbacks-rw3251/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004343-about-22-x-23-mm-snowflake-heart-glitter-resin-flatbacks-rw004343/index.html",
+      "destination": "products/resin-charms-for-slime/rw004343-about-22-x-23-mm-snowflake-heart-glitter-resin-flatbacks-rw004343/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004343-about-22-x-23-mm-snowflake-heart-glitter-resin-flatbacks-rw004343/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26114-29-x-20-mm-mixed-fruit-butterfly-resin-flatbacks-rw26114/index.html",
+      "destination": "products/resin-charms-for-slime/rw26114-29-x-20-mm-mixed-fruit-butterfly-resin-flatbacks-rw26114/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26114-29-x-20-mm-mixed-fruit-butterfly-resin-flatbacks-rw26114/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw25904-christmas-gingerbread-resin-cabochons-for-bulk-craft-packs/index.html",
       "destination": "products/resin-charms-for-slime/rw25904-christmas-gingerbread-resin-cabochons-for-bulk-craft-packs/index.html",
       "action": "create",

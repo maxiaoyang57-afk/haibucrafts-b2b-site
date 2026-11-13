@@ -703,8 +703,9 @@
     },
     {
       "sku": "RW002244",
-      "status": "needs_review",
-      "reason": "Character artwork requires review"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW001953",
@@ -1914,8 +1915,9 @@
     },
     {
       "sku": "RW1348",
-      "status": "needs_review",
-      "reason": "Image, product identity, dimensions or material need further review"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "CDK071",
@@ -4164,8 +4166,9 @@
     },
     {
       "sku": "RW24034",
-      "status": "on_hold",
-      "reason": "Source listing not active"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW26164",
@@ -4325,8 +4328,9 @@
     },
     {
       "sku": "RW00172-5",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW23920",
@@ -4607,8 +4611,8 @@
     },
     {
       "sku": "RW25635",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -4691,8 +4695,8 @@
     },
     {
       "sku": "RW22901",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -4816,8 +4820,8 @@
     },
     {
       "sku": "RW25257",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -4899,8 +4903,8 @@
     },
     {
       "sku": "RW25570",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -4977,8 +4981,8 @@
     },
     {
       "sku": "RW2304-B",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -5093,8 +5097,8 @@
     },
     {
       "sku": "RW1812",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -5124,8 +5128,8 @@
     },
     {
       "sku": "RW25629",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -5187,8 +5191,8 @@
     },
     {
       "sku": "RW4523",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -5855,8 +5859,9 @@
     },
     {
       "sku": "RW26140",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "CDK777",
@@ -6094,8 +6099,8 @@
     },
     {
       "sku": "RW26153",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -6288,8 +6293,8 @@
     },
     {
       "sku": "RW23934",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -6309,8 +6314,8 @@
     },
     {
       "sku": "RW25706",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -6320,8 +6325,8 @@
     },
     {
       "sku": "RW004553",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -6341,8 +6346,8 @@
     },
     {
       "sku": "RW002211",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -6352,8 +6357,9 @@
     },
     {
       "sku": "RW26121",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW26126",
@@ -6440,8 +6446,8 @@
     },
     {
       "sku": "RW21127",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -6457,8 +6463,9 @@
     },
     {
       "sku": "RW20474",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "YX4035",
@@ -6603,8 +6610,8 @@
     },
     {
       "sku": "RW26108",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -6672,8 +6679,8 @@
     },
     {
       "sku": "RW26098",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -6699,8 +6706,9 @@
     },
     {
       "sku": "RW26090",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW26088",
@@ -7213,8 +7221,8 @@
     },
     {
       "sku": "RW26040",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -7229,13 +7237,14 @@
     },
     {
       "sku": "RW26011",
-      "status": "on_hold",
-      "reason": "Source listing not active"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW26032",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -7245,8 +7254,9 @@
     },
     {
       "sku": "RW26031",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "YX3911",
@@ -7265,8 +7275,9 @@
     },
     {
       "sku": "RW26020",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW26025",
@@ -7275,8 +7286,9 @@
     },
     {
       "sku": "RW26024",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW25988",
@@ -7430,8 +7442,8 @@
     },
     {
       "sku": "RW25900",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -7528,8 +7540,9 @@
     },
     {
       "sku": "RW25950",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW25960",
@@ -7571,13 +7584,14 @@
     },
     {
       "sku": "RW25905",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW25899",
-      "status": "ready_in_batch",
-      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "status": "published_both",
+      "reason": "Batch42 dual production accepted 2026-11-13; checkpoint v954; H PR212 / Q PR211",
       "batchNumber": 42
     },
     {
@@ -7647,8 +7661,9 @@
     },
     {
       "sku": "RW25961",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW25921",
@@ -7703,8 +7718,9 @@
     },
     {
       "sku": "RW25873",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW25933",
@@ -8564,8 +8580,9 @@
     },
     {
       "sku": "RW25646",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "YX3872",
@@ -10063,8 +10080,9 @@
     },
     {
       "sku": "RW1089",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "RW598",
@@ -10083,8 +10101,9 @@
     },
     {
       "sku": "RW284",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "YM121",
@@ -11265,8 +11284,9 @@
     },
     {
       "sku": "RW2453",
-      "status": "needs_details",
-      "reason": "Detail capture unfinished"
+      "status": "ready_in_batch",
+      "reason": "Same-SKU source facts and three reviewed images qualified; production acceptance pending",
+      "batchNumber": 43
     },
     {
       "sku": "YA499",
@@ -12202,8 +12222,8 @@
     }
   ],
   "ownerImageStandard": "main + application scene + detail",
-  "currentBatchNumber": 42,
-  "updatedAt": "2026-11-12",
+  "currentBatchNumber": 43,
+  "updatedAt": "2026-11-13",
   "supplementaryOwnerProducts": [
     {
       "sku": "RW26883",

@@ -1,0 +1,1954 @@
+{
+  "batch": "haibu-new-products-20261113-monica-43",
+  "expectedSkuCount": 20,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261113-monica-43",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-11-13",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW00172-5",
+      "title": "10 x 25 mm Gradient Resin Unicorn-Horn Cabochons for Craft Sourcing — RW00172-5",
+      "originalTitle": "Colorful Resin Mini 3D Unicorn Horn Flat Back Cabochons for Hair Clothes Accessories DIY Crafts Phone Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "10 x 25 mm Gradient Resin Unicorn-Horn Cabochons for Craft Sourcing — RW00172-5 Product code RW00172-5",
+      "description": "RW00172-5 is a small resin unicorn-horn cabochon with a tapered spiral profile and aqua-to-pink reference coloring. Source-listed at 10 x 25 mm with 100 pieces per reference bag, it can be considered for coordinated resin-craft assortments. Confirm current color options, packing and attachment needs when requesting a quote; the phone-case and card props in the generated reference are not included.",
+      "detailedDescription": "RW00172-5 is a small resin unicorn-horn cabochon with a tapered spiral profile and aqua-to-pink reference coloring. Source-listed at 10 x 25 mm with 100 pieces per reference bag, it can be considered for coordinated resin-craft assortments. Confirm current color options, packing and attachment needs when requesting a quote; the phone-case and card props in the generated reference are not included.",
+      "seasonalTheme": "Resin craft components — RW00172-5",
+      "keySellingPoints": [
+        "Product code: RW00172-5",
+        "Material: Resin",
+        "Dimensions: 10 x 25 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW00172-5",
+        "Material: Resin",
+        "Dimensions: 10 x 25 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "10 x 25 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW00172-5, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW00172-5 is a small resin unicorn-horn cabochon with a tapered spiral profile and aqua-to-pink reference coloring. Source-listed at 10 x 25 mm with 100 pieces per reference bag, it can be considered for coordinated resin-craft assortments. Confirm current color options, packing and attachment needs when requesting a quote; the phone-case and card props in the generated reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "10 x 25 mm Gradient Resin Unicorn-Horn Cabochons | RW00172-5",
+      "metaDescription": "RW00172-5: Resin craft decorations, 10 x 25 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "10 x 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Colorful Resin Mini 3D Unicorn Horn Flat Back Cabochons for Hair Clothes Accessories DIY Crafts Phone Decoration",
+        "material": "Resin",
+        "size": "10*25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW00172-5"
+      },
+      "sourceProductId": "1600923638129",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Resin-Mini-3D-Unicorn-Horn_1600923638129.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw00172-5",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw00172-5-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW20474",
+      "title": "21 mm Textured Resin Daisy Cabochons for Floral Craft Assortments — RW20474",
+      "originalTitle": "Resin 21mm Colorful Daisy Flatback Resin Buttons Scrapbooks Wedding Embellishments for Clothing Decoration DIY",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "21 mm Textured Resin Daisy Cabochons for Floral Craft Assortments — RW20474 Product code RW20474",
+      "description": "RW20474 is a 21 mm resin daisy cabochon with narrow pointed petals and a stippled center. The source lists 100 pieces per reference bag. It can support coordinated floral craft selections; confirm current colors, packing and attachment requirements when requesting a quote. Props shown in the generated application reference are not included.",
+      "detailedDescription": "RW20474 is a 21 mm resin daisy cabochon with narrow pointed petals and a stippled center. The source lists 100 pieces per reference bag. It can support coordinated floral craft selections; confirm current colors, packing and attachment requirements when requesting a quote. Props shown in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW20474",
+      "keySellingPoints": [
+        "Product code: RW20474",
+        "Material: Resin",
+        "Dimensions: 21 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW20474",
+        "Material: Resin",
+        "Dimensions: 21 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "21 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW20474, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW20474 is a 21 mm resin daisy cabochon with narrow pointed petals and a stippled center. The source lists 100 pieces per reference bag. It can support coordinated floral craft selections; confirm current colors, packing and attachment requirements when requesting a quote. Props shown in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "21 mm Textured Resin Daisy Cabochons | RW20474",
+      "metaDescription": "RW20474: Resin craft decorations, 21 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "21 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Resin 21mm Colorful Daisy Flatback Resin Buttons Scrapbooks Wedding Embellishments for Clothing Decoration DIY",
+        "material": "Resin",
+        "size": "21mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW20474"
+      },
+      "sourceProductId": "1601679652832",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-21mm-Colorful-Daisy-Flatback-Resin_1601679652832.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw20474",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw20474-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW284",
+      "title": "14 x 12 mm Resin Flower-Bread Cabochons for Miniature Craft Assortments — RW284",
+      "originalTitle": "Resin 3D Flower Bread Resin Flatback Cabochons Miniature Food Art Supply for Decoration Charm DIY Craft",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "14 x 12 mm Resin Flower-Bread Cabochons for Miniature Craft Assortments — RW284 Product code RW284",
+      "description": "RW284 is a 14 x 12 mm resin flower-bread flatback with a warm brown molded top, fluted sides and small dark accents. The source lists 100 pieces per reference bag. It can be evaluated for miniature food-themed craft assortments; confirm current packing and attachment requirements when requesting a quote. Props in the generated application reference are not included.",
+      "detailedDescription": "RW284 is a 14 x 12 mm resin flower-bread flatback with a warm brown molded top, fluted sides and small dark accents. The source lists 100 pieces per reference bag. It can be evaluated for miniature food-themed craft assortments; confirm current packing and attachment requirements when requesting a quote. Props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW284",
+      "keySellingPoints": [
+        "Product code: RW284",
+        "Material: Resin",
+        "Dimensions: 14 x 12 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW284",
+        "Material: Resin",
+        "Dimensions: 14 x 12 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "14 x 12 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW284, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW284 is a 14 x 12 mm resin flower-bread flatback with a warm brown molded top, fluted sides and small dark accents. The source lists 100 pieces per reference bag. It can be evaluated for miniature food-themed craft assortments; confirm current packing and attachment requirements when requesting a quote. Props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "14 x 12 mm Resin Flower-Bread Cabochons | RW284",
+      "metaDescription": "RW284: Resin craft decorations, 14 x 12 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "14 x 12 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Resin 3D Flower Bread Resin Flatback Cabochons Miniature Food Art Supply for Decoration Charm DIY Craft",
+        "material": "Resin",
+        "size": "14*12mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW284"
+      },
+      "sourceProductId": "60813286178",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-3D-Flower-Bread-Resin-Flatback_60813286178.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw284",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw284-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1089",
+      "title": "Five-Petal Resin Flower Cabochons in 19 mm and 26 mm Source Options — RW1089",
+      "originalTitle": "100PCS Cute Colorful Resin Daisy Camellia Flower Cabochon Ornaments Scrapbooking Diy Hair Bow Center Decor",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Five-Petal Resin Flower Cabochons in 19 mm and 26 mm Source Options — RW1089 Product code RW1089",
+      "description": "RW1089 is a glossy five-petal resin flower cabochon with a raised contrasting center. The source lists 7 x 19 x 19 mm and 9 x 26 x 26 mm options, with 100 pieces per reference bag. It can support coordinated floral craft assortments; confirm the selected size, current colors and packing when requesting a quote. Generated scene props are not included.",
+      "detailedDescription": "RW1089 is a glossy five-petal resin flower cabochon with a raised contrasting center. The source lists 7 x 19 x 19 mm and 9 x 26 x 26 mm options, with 100 pieces per reference bag. It can support coordinated floral craft assortments; confirm the selected size, current colors and packing when requesting a quote. Generated scene props are not included.",
+      "seasonalTheme": "Resin craft components — RW1089",
+      "keySellingPoints": [
+        "Product code: RW1089",
+        "Material: Resin",
+        "Dimensions: 7 x 19 x 19 mm or 9 x 26 x 26 mm source options",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1089",
+        "Material: Resin",
+        "Dimensions: 7 x 19 x 19 mm or 9 x 26 x 26 mm source options",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "7 x 19 x 19 mm or 9 x 26 x 26 mm source options",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW1089, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW1089 is a glossy five-petal resin flower cabochon with a raised contrasting center. The source lists 7 x 19 x 19 mm and 9 x 26 x 26 mm options, with 100 pieces per reference bag. It can support coordinated floral craft assortments; confirm the selected size, current colors and packing when requesting a quote. Generated scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "Five-Petal Resin Flower Cabochons in 19 mm and 26 mm Source Options | RW1089",
+      "metaDescription": "RW1089: Resin craft decorations, 7 x 19 x 19 mm or 9 x 26 x 26 mm source options. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "7 x 19 x 19 mm or 9 x 26 x 26 mm source options",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100PCS Cute Colorful Resin Daisy Camellia Flower Cabochon Ornaments Scrapbooking Diy Hair Bow Center Decor",
+        "material": "Resin",
+        "size": "7*19*19mm- / 9*26*26mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW1089"
+      },
+      "sourceProductId": "62305615829",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Cute-Colorful-Resin-Daisy-Camellia_62305615829.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw1089",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw1089-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW2453",
+      "title": "26 x 28 mm Iridescent Resin Shell Cabochons for Ocean-Themed Assortments — RW2453",
+      "originalTitle": "Cute AB Colorful Resin Pearl Shells Flatback Resin Cabochon Decoration Crafts Embellishments for Scrapbooking Diy Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "26 x 28 mm Iridescent Resin Shell Cabochons for Ocean-Themed Assortments — RW2453 Product code RW2453",
+      "description": "RW2453 is a 26 x 28 mm resin scallop-shell flatback with raised radial ridges, a molded pearl-like lower detail and an iridescent surface. The source lists 100 pieces per reference bag. It can support coordinated ocean-themed craft selections; confirm current colors, finish and packing when requesting a quote. Generated scene props are not included.",
+      "detailedDescription": "RW2453 is a 26 x 28 mm resin scallop-shell flatback with raised radial ridges, a molded pearl-like lower detail and an iridescent surface. The source lists 100 pieces per reference bag. It can support coordinated ocean-themed craft selections; confirm current colors, finish and packing when requesting a quote. Generated scene props are not included.",
+      "seasonalTheme": "Resin craft components — RW2453",
+      "keySellingPoints": [
+        "Product code: RW2453",
+        "Material: Resin",
+        "Dimensions: 26 x 28 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW2453",
+        "Material: Resin",
+        "Dimensions: 26 x 28 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "26 x 28 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW2453, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW2453 is a 26 x 28 mm resin scallop-shell flatback with raised radial ridges, a molded pearl-like lower detail and an iridescent surface. The source lists 100 pieces per reference bag. It can support coordinated ocean-themed craft selections; confirm current colors, finish and packing when requesting a quote. Generated scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "26 x 28 mm Iridescent Resin Shell Cabochons | RW2453",
+      "metaDescription": "RW2453: Resin craft decorations, 26 x 28 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "26 x 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Cute AB Colorful Resin Pearl Shells Flatback Resin Cabochon Decoration Crafts Embellishments for Scrapbooking Diy Accessories",
+        "material": "Resin",
+        "size": "26*28mm-",
+        "packaging": "100PCS/bag",
+        "sku_raw": "MO-RW2453"
+      },
+      "sourceProductId": "1600226023915",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Cute-AB-Colorful-Resin-Pearl-Shells_1600226023915.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw2453",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw2453-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25905",
+      "title": "17 x 17 x 9 mm Solid-Color Resin Round Cabochons for Craft Sourcing — RW25905",
+      "originalTitle": "DIY Jewelry Findings Flatback Round Shape Solid Colors Resin Cameo Cabochons Beading Material Ornaments",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "17 x 17 x 9 mm Solid-Color Resin Round Cabochons for Craft Sourcing — RW25905 Product code RW25905",
+      "description": "RW25905 is a glossy domed round resin flatback in source-listed 17 x 17 x 9 mm dimensions. The source lists 100 pieces per reference bag and multiple solid-color options. It can support coordinated color assortments for craft sourcing; confirm the selected colors, current packing and attachment requirements when requesting a quote. The blank card in the generated application reference is a prop and is not included.",
+      "detailedDescription": "RW25905 is a glossy domed round resin flatback in source-listed 17 x 17 x 9 mm dimensions. The source lists 100 pieces per reference bag and multiple solid-color options. It can support coordinated color assortments for craft sourcing; confirm the selected colors, current packing and attachment requirements when requesting a quote. The blank card in the generated application reference is a prop and is not included.",
+      "seasonalTheme": "Resin craft components — RW25905",
+      "keySellingPoints": [
+        "Product code: RW25905",
+        "Material: Resin",
+        "Dimensions: 17 x 17 x 9 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25905",
+        "Material: Resin",
+        "Dimensions: 17 x 17 x 9 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "17 x 17 x 9 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25905, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25905 is a glossy domed round resin flatback in source-listed 17 x 17 x 9 mm dimensions. The source lists 100 pieces per reference bag and multiple solid-color options. It can support coordinated color assortments for craft sourcing; confirm the selected colors, current packing and attachment requirements when requesting a quote. The blank card in the generated application reference is a prop and is not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "17 x 17 x 9 mm Solid-Color Resin Round Cabochons | RW25905",
+      "metaDescription": "RW25905: Resin craft decorations, 17 x 17 x 9 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "17 x 17 x 9 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "DIY Jewelry Findings Flatback Round Shape Solid Colors Resin Cameo Cabochons Beading Material Ornaments",
+        "material": "Resin",
+        "size": "17*17*9mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25905"
+      },
+      "sourceProductId": "1601601514171",
+      "sourceUrl": "https://www.alibaba.com/product-detail/DIY-Jewelry-Findings-Flatback-Round-Shape_1601601514171.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25905",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw25905-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25950",
+      "title": "Approx. 29 x 30 mm Translucent Resin Five-Petal Flowers for Craft Sourcing — RW25950",
+      "originalTitle": "Colorful Cute Five Petal Series Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Approx. 29 x 30 mm Translucent Resin Five-Petal Flowers for Craft Sourcing — RW25950 Product code RW25950",
+      "description": "RW25950 is a translucent glossy five-petal resin flower flatback in source-listed approximate 29 x 30 mm dimensions. The source lists 100 pieces per reference bag and shows several pastel color directions. It can support coordinated floral craft assortments; confirm current colors, packing and attachment requirements when requesting a quote. Generated scene props are not included.",
+      "detailedDescription": "RW25950 is a translucent glossy five-petal resin flower flatback in source-listed approximate 29 x 30 mm dimensions. The source lists 100 pieces per reference bag and shows several pastel color directions. It can support coordinated floral craft assortments; confirm current colors, packing and attachment requirements when requesting a quote. Generated scene props are not included.",
+      "seasonalTheme": "Resin craft components — RW25950",
+      "keySellingPoints": [
+        "Product code: RW25950",
+        "Material: Resin",
+        "Dimensions: about 29 x 30 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25950",
+        "Material: Resin",
+        "Dimensions: about 29 x 30 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "about 29 x 30 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25950, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25950 is a translucent glossy five-petal resin flower flatback in source-listed approximate 29 x 30 mm dimensions. The source lists 100 pieces per reference bag and shows several pastel color directions. It can support coordinated floral craft assortments; confirm current colors, packing and attachment requirements when requesting a quote. Generated scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "Approx. 29 x 30 mm Translucent Resin Five-Petal Flowers | RW25950",
+      "metaDescription": "RW25950: Resin craft decorations, about 29 x 30 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "about 29 x 30 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Colorful Cute Five Petal Series Miniature Flat Back Resin Cabochons for Hairpin Scrapbooking DIY Home Decor Craft Accessories",
+        "material": "Resin",
+        "size": "about29*30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25950"
+      },
+      "sourceProductId": "1601601798277",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Colorful-Cute-Five-Petal-Series-Miniature_1601601798277.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25950",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw25950-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25873",
+      "title": "29 x 28 mm Blue-White Resin Floret Flatbacks for Floral Assortments — RW25873",
+      "originalTitle": "100Pcs Colorful Glossy Resin Floret Flat Back Cabochon Scrapbook Kawaii DIY Embellishments Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "29 x 28 mm Blue-White Resin Floret Flatbacks for Floral Assortments — RW25873 Product code RW25873",
+      "description": "RW25873 is a 29 x 28 mm glossy resin floret flatback with rounded molded petals, a raised white center and a pale blue-to-white reference finish. The source lists 100 pieces per reference bag. It can support coordinated floral craft selections; confirm current colors, packing and attachment requirements when requesting a quote. Generated scene props are not included.",
+      "detailedDescription": "RW25873 is a 29 x 28 mm glossy resin floret flatback with rounded molded petals, a raised white center and a pale blue-to-white reference finish. The source lists 100 pieces per reference bag. It can support coordinated floral craft selections; confirm current colors, packing and attachment requirements when requesting a quote. Generated scene props are not included.",
+      "seasonalTheme": "Resin craft components — RW25873",
+      "keySellingPoints": [
+        "Product code: RW25873",
+        "Material: Resin",
+        "Dimensions: 29 x 28 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25873",
+        "Material: Resin",
+        "Dimensions: 29 x 28 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "29 x 28 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25873, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25873 is a 29 x 28 mm glossy resin floret flatback with rounded molded petals, a raised white center and a pale blue-to-white reference finish. The source lists 100 pieces per reference bag. It can support coordinated floral craft selections; confirm current colors, packing and attachment requirements when requesting a quote. Generated scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "29 x 28 mm Blue-White Resin Floret Flatbacks | RW25873",
+      "metaDescription": "RW25873: Resin craft decorations, 29 x 28 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "29 x 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Colorful Glossy Resin Floret Flat Back Cabochon Scrapbook Kawaii DIY Embellishments Accessories",
+        "material": "Resin",
+        "size": "29*28mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25873"
+      },
+      "sourceProductId": "1601596194382",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Colorful-Glossy-Resin-Floret-Flat_1601596194382.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25873",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw25873-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25961",
+      "title": "16 mm Green Resin Lettuce-Leaf Cabochons for Food-Themed Craft Assortments — RW25961",
+      "originalTitle": "New Cute Mini Green Lettuce Leaves Resin Figurine Crafts Flatback Cabochon Ornament Jewelry Making Hairwear Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "16 mm Green Resin Lettuce-Leaf Cabochons for Food-Themed Craft Assortments — RW25961 Product code RW25961",
+      "description": "RW25961 is a 16 mm resin lettuce-leaf flatback with a compact ruffled outline, molded fan-like veins and a glossy green reference finish. The source lists 100 pieces per reference bag. It can support coordinated miniature food-themed craft selections; confirm current color, packing and attachment requirements when requesting a quote. Paper and ribbon props in the generated application reference are not included.",
+      "detailedDescription": "RW25961 is a 16 mm resin lettuce-leaf flatback with a compact ruffled outline, molded fan-like veins and a glossy green reference finish. The source lists 100 pieces per reference bag. It can support coordinated miniature food-themed craft selections; confirm current color, packing and attachment requirements when requesting a quote. Paper and ribbon props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW25961",
+      "keySellingPoints": [
+        "Product code: RW25961",
+        "Material: Resin",
+        "Dimensions: 16 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25961",
+        "Material: Resin",
+        "Dimensions: 16 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "16 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25961, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25961 is a 16 mm resin lettuce-leaf flatback with a compact ruffled outline, molded fan-like veins and a glossy green reference finish. The source lists 100 pieces per reference bag. It can support coordinated miniature food-themed craft selections; confirm current color, packing and attachment requirements when requesting a quote. Paper and ribbon props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "16 mm Green Resin Lettuce-Leaf Cabochons | RW25961",
+      "metaDescription": "RW25961: Resin craft decorations, 16 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "16 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "New Cute Mini Green Lettuce Leaves Resin Figurine Crafts Flatback Cabochon Ornament Jewelry Making Hairwear Accessories",
+        "material": "Resin",
+        "size": "16mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25961"
+      },
+      "sourceProductId": "1601600321854",
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Cute-Mini-Green-Lettuce-Leaves_1601600321854.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25961",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw25961-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25646",
+      "title": "10 mm Orange Resin Citrus-Section Cabochons for Miniature Craft Assortments — RW25646",
+      "originalTitle": "10mm Tiny Resin Peeled Orange Tangerine Miniatures Cute Fruit for Micro Landscape DIY Craft Decoration Supplies",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "10 mm Orange Resin Citrus-Section Cabochons for Miniature Craft Assortments — RW25646 Product code RW25646",
+      "description": "RW25646 is a 10 mm resin citrus-section cabochon with a compact round profile, molded radial segments and a glossy orange reference finish. The source lists 100 pieces per reference bag. It can support miniature fruit-themed craft assortments; confirm current packing and attachment requirements when requesting a quote. Paper, ribbon and tool props in the generated application reference are not included.",
+      "detailedDescription": "RW25646 is a 10 mm resin citrus-section cabochon with a compact round profile, molded radial segments and a glossy orange reference finish. The source lists 100 pieces per reference bag. It can support miniature fruit-themed craft assortments; confirm current packing and attachment requirements when requesting a quote. Paper, ribbon and tool props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW25646",
+      "keySellingPoints": [
+        "Product code: RW25646",
+        "Material: Resin",
+        "Dimensions: 10 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25646",
+        "Material: Resin",
+        "Dimensions: 10 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "10 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25646, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW25646 is a 10 mm resin citrus-section cabochon with a compact round profile, molded radial segments and a glossy orange reference finish. The source lists 100 pieces per reference bag. It can support miniature fruit-themed craft assortments; confirm current packing and attachment requirements when requesting a quote. Paper, ribbon and tool props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "10 mm Orange Resin Citrus-Section Cabochons | RW25646",
+      "metaDescription": "RW25646: Resin craft decorations, 10 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "10 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "10mm Tiny Resin Peeled Orange Tangerine Miniatures Cute Fruit for Micro Landscape DIY Craft Decoration Supplies",
+        "material": "Resin",
+        "size": "10mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW25646"
+      },
+      "sourceProductId": "1601449259558",
+      "sourceUrl": "https://www.alibaba.com/product-detail/10mm-Tiny-Resin-Peeled-Orange-Tangerine_1601449259558.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw25646",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw25646-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26020",
+      "title": "Approx. 20 x 30 mm Pink Resin Open-Shell Miniatures for Ocean Craft Assortments — RW26020",
+      "originalTitle": "100pcs Kawaii Miniature Ocean Pearl Colorful Shell Home Fairy Garden Landscape Decoration DIY for Scrapbook Craft Wholesale",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Approx. 20 x 30 mm Pink Resin Open-Shell Miniatures for Ocean Craft Assortments — RW26020 Product code RW26020",
+      "description": "RW26020 is an approximately 20 x 30 mm open resin shell miniature with scalloped edges, raised shell ridges, a glossy pink reference finish and small pearl-like molded details. The source lists 100 pieces per reference bag and multiple color options. It can support ocean-themed craft assortments; confirm the selected color, packing and attachment requirements when requesting a quote. Paper and ribbon props in the generated application reference are not included.",
+      "detailedDescription": "RW26020 is an approximately 20 x 30 mm open resin shell miniature with scalloped edges, raised shell ridges, a glossy pink reference finish and small pearl-like molded details. The source lists 100 pieces per reference bag and multiple color options. It can support ocean-themed craft assortments; confirm the selected color, packing and attachment requirements when requesting a quote. Paper and ribbon props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW26020",
+      "keySellingPoints": [
+        "Product code: RW26020",
+        "Material: Resin",
+        "Dimensions: about 20 x 30 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26020",
+        "Material: Resin",
+        "Dimensions: about 20 x 30 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "about 20 x 30 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26020, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26020 is an approximately 20 x 30 mm open resin shell miniature with scalloped edges, raised shell ridges, a glossy pink reference finish and small pearl-like molded details. The source lists 100 pieces per reference bag and multiple color options. It can support ocean-themed craft assortments; confirm the selected color, packing and attachment requirements when requesting a quote. Paper and ribbon props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "Approx. 20 x 30 mm Pink Resin Open-Shell Miniatures | RW26020",
+      "metaDescription": "RW26020: Resin craft decorations, about 20 x 30 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "about 20 x 30 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Kawaii Miniature Ocean Pearl Colorful Shell Home Fairy Garden Landscape Decoration DIY for Scrapbook Craft Wholesale",
+        "material": "Resin",
+        "size": "about 20*30mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26020"
+      },
+      "sourceProductId": "1601624436730",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Miniature-Ocean-Pearl-Colorful_1601624436730.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26020",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw26020-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW1348",
+      "title": "6 x 18 x 23 mm Yellow and Purple Resin Honey-Pot Flatbacks — RW1348",
+      "originalTitle": "100Pcs Resin Honey Pot Decoration Crafts Flatback Cabochon Embellishments for Scrapbooking Diy Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "6 x 18 x 23 mm Yellow and Purple Resin Honey-Pot Flatbacks — RW1348 Product code RW1348",
+      "description": "RW1348 is a molded resin honey-pot flatback in the source-listed 6 x 18 x 23 mm size. The reference assortment shows yellow and purple pieces with shallow ribs and a white diagonal HUNNY label. The source lists 100 pieces per bag. Confirm the requested color mix, packing and attachment requirements when requesting a quote. Scrapbook-card and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW1348 is a molded resin honey-pot flatback in the source-listed 6 x 18 x 23 mm size. The reference assortment shows yellow and purple pieces with shallow ribs and a white diagonal HUNNY label. The source lists 100 pieces per bag. Confirm the requested color mix, packing and attachment requirements when requesting a quote. Scrapbook-card and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW1348",
+      "keySellingPoints": [
+        "Product code: RW1348",
+        "Material: Resin",
+        "Dimensions: 6 x 18 x 23 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW1348",
+        "Material: Resin",
+        "Dimensions: 6 x 18 x 23 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "6 x 18 x 23 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW1348, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW1348 is a molded resin honey-pot flatback in the source-listed 6 x 18 x 23 mm size. The reference assortment shows yellow and purple pieces with shallow ribs and a white diagonal HUNNY label. The source lists 100 pieces per bag. Confirm the requested color mix, packing and attachment requirements when requesting a quote. Scrapbook-card and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "6 x 18 x 23 mm Yellow and Purple Resin Honey-Pot Flatbacks | RW1348",
+      "metaDescription": "RW1348: Resin craft decorations, 6 x 18 x 23 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "6 x 18 x 23 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Resin Honey Pot Decoration Crafts Flatback Cabochon Embellishments for Scrapbooking Diy Accessories",
+        "material": "Resin",
+        "size": "6*18*23mm-",
+        "packaging": "100PCS/bag",
+        "sku_raw": "MO-RW1348"
+      },
+      "sourceProductId": "62508048450",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Resin-Honey-Pot-Decoration-Crafts_62508048450.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw1348",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw1348-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW24034",
+      "title": "25 x 25 mm Pink Cat-Ear Headphone Resin Flatbacks — RW24034",
+      "originalTitle": "Kawaii Earphone Flat back Resin Cabochons Embellishment Scrapbooking DIY Phone Decor Craft Hair Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "25 x 25 mm Pink Cat-Ear Headphone Resin Flatbacks — RW24034 Product code RW24034",
+      "description": "RW24034 is a 25 x 25 mm molded resin headphone flatback with a pink body, blue cat-ear tips, an open headband center and a blue star detail on the front earcup. The source lists 100 pieces per bag. It can support themed resin-charm assortments; confirm packing and attachment requirements when requesting a quote. Phone case and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW24034 is a 25 x 25 mm molded resin headphone flatback with a pink body, blue cat-ear tips, an open headband center and a blue star detail on the front earcup. The source lists 100 pieces per bag. It can support themed resin-charm assortments; confirm packing and attachment requirements when requesting a quote. Phone case and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW24034",
+      "keySellingPoints": [
+        "Product code: RW24034",
+        "Material: Resin",
+        "Dimensions: 25 x 25 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW24034",
+        "Material: Resin",
+        "Dimensions: 25 x 25 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "25 x 25 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW24034, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW24034 is a 25 x 25 mm molded resin headphone flatback with a pink body, blue cat-ear tips, an open headband center and a blue star detail on the front earcup. The source lists 100 pieces per bag. It can support themed resin-charm assortments; confirm packing and attachment requirements when requesting a quote. Phone case and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "25 x 25 mm Pink Cat-Ear Headphone Resin Flatbacks | RW24034",
+      "metaDescription": "RW24034: Resin craft decorations, 25 x 25 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "25 x 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Kawaii Earphone Flat back Resin Cabochons Embellishment Scrapbooking DIY Phone Decor Craft Hair Accessories",
+        "material": "Resin",
+        "size": "25*25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW24034"
+      },
+      "sourceProductId": "1601449491196",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Earphone-Flat-back-Resin-Cabochons_1601449491196.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw24034",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw24034-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002244",
+      "title": "Approx. 26 x 16 mm White Cat Resin Flatback Assortment — RW002244",
+      "originalTitle": "Wholesale Custom Cute White Cat Resin Flatback Cabochons for Hair Bows Phone Cases Bags Scrapbooking and DIY Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Approx. 26 x 16 mm White Cat Resin Flatback Assortment — RW002244 Product code RW002244",
+      "description": "RW002244 is an approximately 26 x 16 mm white resin cat flatback assortment. The source photo shows compact front-facing cat designs with small pastel flower or fruit motifs and pastel accessories held across the paws; one back view is shown only to document the flatback form. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Bow and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW002244 is an approximately 26 x 16 mm white resin cat flatback assortment. The source photo shows compact front-facing cat designs with small pastel flower or fruit motifs and pastel accessories held across the paws; one back view is shown only to document the flatback form. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Bow and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW002244",
+      "keySellingPoints": [
+        "Product code: RW002244",
+        "Material: Resin",
+        "Dimensions: about 26 x 16 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002244",
+        "Material: Resin",
+        "Dimensions: about 26 x 16 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "about 26 x 16 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW002244, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW002244 is an approximately 26 x 16 mm white resin cat flatback assortment. The source photo shows compact front-facing cat designs with small pastel flower or fruit motifs and pastel accessories held across the paws; one back view is shown only to document the flatback form. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Bow and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "Approx. 26 x 16 mm White Cat Resin Flatback Assortment | RW002244",
+      "metaDescription": "RW002244: Resin craft decorations, about 26 x 16 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "about 26 x 16 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Wholesale Custom Cute White Cat Resin Flatback Cabochons for Hair Bows Phone Cases Bags Scrapbooking and DIY Crafts",
+        "material": "Resin",
+        "size": "about 26*16mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW002244"
+      },
+      "sourceProductId": "1601910304312",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-Cute-White-Cat-Resin_1601910304312.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw002244",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw002244-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26140",
+      "title": "Pastel Polka-Dot Resin Bow Flatbacks in 31 x 26 mm / 20 x 12 mm Options — RW26140",
+      "originalTitle": "100Pcs Small Dot Bowknot Charm Planar Resin Patch Handmade DIY Jewelry Making Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel Polka-Dot Resin Bow Flatbacks in 31 x 26 mm / 20 x 12 mm Options — RW26140 Product code RW26140",
+      "description": "RW26140 is a molded resin bow flatback with pastel color options, small contrasting dots and a pale pearl-like outline. The source lists 31 x 26 mm and 20 x 12 mm size options and 100 pieces per bag. Confirm the selected size, color assortment, packing and attachment requirements when requesting a quote. Hair-clip blank and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW26140 is a molded resin bow flatback with pastel color options, small contrasting dots and a pale pearl-like outline. The source lists 31 x 26 mm and 20 x 12 mm size options and 100 pieces per bag. Confirm the selected size, color assortment, packing and attachment requirements when requesting a quote. Hair-clip blank and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW26140",
+      "keySellingPoints": [
+        "Product code: RW26140",
+        "Material: Resin",
+        "Dimensions: 31 x 26 mm / 20 x 12 mm source options",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26140",
+        "Material: Resin",
+        "Dimensions: 31 x 26 mm / 20 x 12 mm source options",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "31 x 26 mm / 20 x 12 mm source options",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26140, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26140 is a molded resin bow flatback with pastel color options, small contrasting dots and a pale pearl-like outline. The source lists 31 x 26 mm and 20 x 12 mm size options and 100 pieces per bag. Confirm the selected size, color assortment, packing and attachment requirements when requesting a quote. Hair-clip blank and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "Pastel Polka-Dot Resin Bow Flatbacks in 31 x 26 mm / 20 x 12 mm Options | RW26140",
+      "metaDescription": "RW26140: Resin craft decorations, 31 x 26 mm / 20 x 12 mm source options. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "31 x 26 mm / 20 x 12 mm source options",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Small Dot Bowknot Charm Planar Resin Patch Handmade DIY Jewelry Making Accessories",
+        "material": "Resin",
+        "size": "31*26mm- / 20*12mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26140"
+      },
+      "sourceProductId": "1601668768272",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Small-Dot-Bowknot-Charm-Planar_1601668768272.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26140",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw26140-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26011",
+      "title": "24 x 27 mm Assorted Iced Resin Donut Flatbacks — RW26011",
+      "originalTitle": "Kawaii Simulation Miniature Chocolate Donuts Resin Flat Back Cabochon for DIY Scrapbooking Slime Charms",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "24 x 27 mm Assorted Iced Resin Donut Flatbacks — RW26011 Product code RW26011",
+      "description": "RW26011 is a 24 x 27 mm resin donut flatback assortment. The source photo shows chocolate-brown, cream-white and pink icing variants with small multicolor sprinkle details and the existing donut center opening. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW26011 is a 24 x 27 mm resin donut flatback assortment. The source photo shows chocolate-brown, cream-white and pink icing variants with small multicolor sprinkle details and the existing donut center opening. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW26011",
+      "keySellingPoints": [
+        "Product code: RW26011",
+        "Material: Resin",
+        "Dimensions: 24 x 27 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26011",
+        "Material: Resin",
+        "Dimensions: 24 x 27 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "24 x 27 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26011, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26011 is a 24 x 27 mm resin donut flatback assortment. The source photo shows chocolate-brown, cream-white and pink icing variants with small multicolor sprinkle details and the existing donut center opening. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "24 x 27 mm Assorted Iced Resin Donut Flatbacks | RW26011",
+      "metaDescription": "RW26011: Resin craft decorations, 24 x 27 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "24 x 27 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Kawaii Simulation Miniature Chocolate Donuts Resin Flat Back Cabochon for DIY Scrapbooking Slime Charms",
+        "material": "Resin",
+        "size": "24*27mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26011"
+      },
+      "sourceProductId": "1601629570185",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Simulation-Miniature-Chocolate-Donuts-Resin_1601629570185.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26011",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw26011-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26031",
+      "title": "25 x 23 mm Assorted Resin Pretzel Flatbacks — RW26031",
+      "originalTitle": "100Pcs Popular Simulation Food Pretzel Bread Cake Charms Cute Resin Pendants for Jewelry Make DIY Keychain Accessory",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "25 x 23 mm Assorted Resin Pretzel Flatbacks — RW26031 Product code RW26031",
+      "description": "RW26031 is a 25 x 23 mm molded resin pretzel flatback assortment. The source photo shows baked-brown, golden-orange, dark chocolate-brown and pink variants with the existing two pretzel openings and small pale speckles. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW26031 is a 25 x 23 mm molded resin pretzel flatback assortment. The source photo shows baked-brown, golden-orange, dark chocolate-brown and pink variants with the existing two pretzel openings and small pale speckles. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW26031",
+      "keySellingPoints": [
+        "Product code: RW26031",
+        "Material: Resin",
+        "Dimensions: 25 x 23 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26031",
+        "Material: Resin",
+        "Dimensions: 25 x 23 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "25 x 23 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26031, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26031 is a 25 x 23 mm molded resin pretzel flatback assortment. The source photo shows baked-brown, golden-orange, dark chocolate-brown and pink variants with the existing two pretzel openings and small pale speckles. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "25 x 23 mm Assorted Resin Pretzel Flatbacks | RW26031",
+      "metaDescription": "RW26031: Resin craft decorations, 25 x 23 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "25 x 23 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Popular Simulation Food Pretzel Bread Cake Charms Cute Resin Pendants for Jewelry Make DIY Keychain Accessory",
+        "material": "Resin",
+        "size": "25*23mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26031"
+      },
+      "sourceProductId": "1601629385977",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Popular-Simulation-Food-Pretzel-Bread_1601629385977.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26031",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw26031-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26090",
+      "title": "24 x 18 mm Assorted Resin Butterfly-Pastry Flatbacks — RW26090",
+      "originalTitle": "100pcs Kawaii Simulation Grilled Butterfly Pastry Cake Food Art Supply Flatback Cabochon DIY Dollhouse Craft Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "24 x 18 mm Assorted Resin Butterfly-Pastry Flatbacks — RW26090 Product code RW26090",
+      "description": "RW26090 is a 24 x 18 mm molded resin butterfly-pastry flatback with layered baked-brown ridges. The source photo shows chocolate-brown, cream-white and pink icing variants with small sprinkle details and lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW26090 is a 24 x 18 mm molded resin butterfly-pastry flatback with layered baked-brown ridges. The source photo shows chocolate-brown, cream-white and pink icing variants with small sprinkle details and lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW26090",
+      "keySellingPoints": [
+        "Product code: RW26090",
+        "Material: Resin",
+        "Dimensions: 24 x 18 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26090",
+        "Material: Resin",
+        "Dimensions: 24 x 18 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "24 x 18 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26090, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26090 is a 24 x 18 mm molded resin butterfly-pastry flatback with layered baked-brown ridges. The source photo shows chocolate-brown, cream-white and pink icing variants with small sprinkle details and lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "24 x 18 mm Assorted Resin Butterfly-Pastry Flatbacks | RW26090",
+      "metaDescription": "RW26090: Resin craft decorations, 24 x 18 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "24 x 18 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Kawaii Simulation Grilled Butterfly Pastry Cake Food Art Supply Flatback Cabochon DIY Dollhouse Craft Decoration",
+        "material": "Resin",
+        "size": "24*18mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26090"
+      },
+      "sourceProductId": "1601669733430",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Simulation-Grilled-Butterfly-Pastry_1601669733430.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26090",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw26090-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26024",
+      "title": "Approx. 20 mm Assorted Resin Chocolate-Cookie Flatbacks — RW26024",
+      "originalTitle": "Resin Chocolate Cookies Slime Charms Simulated Cute Biscuit Decoration Accessories DIY Ornaments Crafts",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Approx. 20 mm Assorted Resin Chocolate-Cookie Flatbacks — RW26024 Product code RW26024",
+      "description": "RW26024 is an approximately 20 mm resin chocolate-cookie flatback assortment. The source photo shows segmented chocolate bars, sandwich cookies, striped heart cookies and layered chocolate cake shapes in brown and cream tones. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW26024 is an approximately 20 mm resin chocolate-cookie flatback assortment. The source photo shows segmented chocolate bars, sandwich cookies, striped heart cookies and layered chocolate cake shapes in brown and cream tones. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW26024",
+      "keySellingPoints": [
+        "Product code: RW26024",
+        "Material: Resin",
+        "Dimensions: about 20 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26024",
+        "Material: Resin",
+        "Dimensions: about 20 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "about 20 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26024, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26024 is an approximately 20 mm resin chocolate-cookie flatback assortment. The source photo shows segmented chocolate bars, sandwich cookies, striped heart cookies and layered chocolate cake shapes in brown and cream tones. The source lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "Approx. 20 mm Assorted Resin Chocolate-Cookie Flatbacks | RW26024",
+      "metaDescription": "RW26024: Resin craft decorations, about 20 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "about 20 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Resin Chocolate Cookies Slime Charms Simulated Cute Biscuit Decoration Accessories DIY Ornaments Crafts",
+        "material": "Resin",
+        "size": "about 20mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26024"
+      },
+      "sourceProductId": "1601624385972",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Resin-Chocolate-Cookies-Slime-Charms-Simulated_1601624385972.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26024",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw26024-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26121",
+      "title": "20 x 25 mm Assorted Resin Fruit-Tart Flatbacks — RW26121",
+      "originalTitle": "100pcs Kawaii Flatback Resin Simulation Food Egg Tart Fruit Cake Art Supply Cabochon DIY Crafts Doll House Decor",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "20 x 25 mm Assorted Resin Fruit-Tart Flatbacks — RW26121 Product code RW26121",
+      "description": "RW26121 is a 20 x 25 mm molded resin fruit-tart flatback assortment with golden-orange pastry shells, pale filling and raised fruit toppings. The source photo shows red, dark-purple, green and orange/yellow fruit variants and lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "detailedDescription": "RW26121 is a 20 x 25 mm molded resin fruit-tart flatback assortment with golden-orange pastry shells, pale filling and raised fruit toppings. The source photo shows red, dark-purple, green and orange/yellow fruit variants and lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "seasonalTheme": "Resin craft components — RW26121",
+      "keySellingPoints": [
+        "Product code: RW26121",
+        "Material: Resin",
+        "Dimensions: 20 x 25 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26121",
+        "Material: Resin",
+        "Dimensions: 20 x 25 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+        "Selection: Photographs show design and color references; confirm current selection and pack composition. Reference pack quantity is not MOQ.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "20 x 25 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26121, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "RW26121 is a 20 x 25 mm molded resin fruit-tart flatback assortment with golden-orange pastry shells, pale filling and raised fruit toppings. The source photo shows red, dark-purple, green and orange/yellow fruit variants and lists 100 pieces per bag. Confirm the selected assortment, packing and attachment requirements when requesting a quote. Card and tray props in the generated application reference are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "resin craft charms, wholesale craft components",
+      "metaTitle": "20 x 25 mm Assorted Resin Fruit-Tart Flatbacks | RW26121",
+      "metaDescription": "RW26121: Resin craft decorations, 20 x 25 mm. Reference pack: 100 pcs/bag. Request selection and packing details.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "20 x 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Kawaii Flatback Resin Simulation Food Egg Tart Fruit Cake Art Supply Cabochon DIY Crafts Doll House Decor",
+        "material": "Resin",
+        "size": "20*25mm-",
+        "packaging": "100pcs/bag",
+        "sku_raw": "MO-RW26121"
+      },
+      "sourceProductId": "11000031633364",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-Flatback-Resin-Simulation-Food_11000031633364.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record; never inferred from image.",
+      "assetKey": "rw26121",
+      "assetDirectory": "batch-20261113-monica-43",
+      "imagePrefix": "rw26121-resin-craft-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated reference illustrations. Props are not included. Confirm the actual product, selection and attachment before ordering.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-13",
+      "holeDescription": "No drilled hole or supplied fastening confirmed; check actual attachment details with a sample.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

@@ -118,9 +118,10 @@ async function checkProduct(page, target, product, width) {
   const search = isHaibu ? page.getByPlaceholder('Search name or product code…') :
     page.getByRole('searchbox', { name: 'Search product catalog' });
   await search.fill(sku);
-  const result = page.getByRole('link').filter({ hasText: sku }).and(page.locator(
-    'a[href$="' + (isHaibu ? path : path.slice(1)) + '"]',
-  )).first();
+  const detailLink = 'a[href$="' + (isHaibu ? path : path.slice(1)) + '"]';
+  const result = isHaibu
+    ? page.locator('[data-product-card]').filter({ hasText: sku }).locator(detailLink).first()
+    : page.getByRole('link').filter({ hasText: sku }).and(page.locator(detailLink)).first();
   await result.waitFor({ state: 'visible' });
   await result.click();
   await page.waitForURL(origin + path);

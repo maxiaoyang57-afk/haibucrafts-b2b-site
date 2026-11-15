@@ -133,12 +133,13 @@ const categoryPlans = {
     description: 'Buy polymer clay slices wholesale and bulk sprinkles for slime, shakers and DIY kits. Compare motifs, mix ratios and packing; request a SKU-based quote.',
     h1: 'Polymer Clay Slices Wholesale for Slime & DIY',
     intro: 'Source wholesale polymer clay slices and bulk polymer clay sprinkles for slime, nail art, shaker fillers and DIY kits. Compare candy, fruit and seasonal mixes by motif, size and pack unit. Send selected product codes, quantity and destination for a packing and MOQ quotation.',
+    introLink: ['#bulk-sprinkles-by-use', 'See samples by use.'],
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
     hubExtraMarkup: "<p>Buyers building slime, shaker, tumbler or DIY-kit assortments can start with the <a href=\"/v2-preview/for-slime-brands/\">slime-brand sourcing route</a>, then use the <a href=\"/v2-preview/blog/polymer-clay-slice-buying-guide/\">polymer clay buying guide</a> to compare slice formats before requesting a mixed-SKU quotation. For a fruit theme, compare four real references in the <a href=\"/v2-preview/blog/strawberry-polymer-clay-slices-wholesale/\">strawberry slice buying guide</a>.</p>",
     hubHeading: "Wholesale polymer clay slices and sprinkles for repeatable craft programs.",
     hubId: "buyer-resources",
     hubCopy: "Use this page for polymer clay slices, polymer clay craft slices and bulk sprinkle mixes sold as a repeat-purchase material family. Compare motif, slice size, color mix, mix ratio and pack format before sampling. For slime-brand programs, shortlist several SKUs first, then confirm repeat-order consistency, packing requirements and destination in one sourcing brief; use the Slime Charms or Resin Charms hubs when the buying brief is for finished decorative charms instead.",
-    lastModified: '2026-11-09',
+    lastModified: '2026-11-15',
     resources: [
       ["/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/", "Polymer Clay Sprinkles Wholesale"],
       ["/v2-preview/blog/polymer-clay-slice-buying-guide/", "Polymer Clay Slice Buying Guide"],
@@ -147,6 +148,14 @@ const categoryPlans = {
       ["/v2-preview/quality-control/", "Quality Checkpoints"]
     ],
     selection: [['Individual slices', 'Choose a motif and confirm diameter and thickness against a sample.'], ['Sprinkle mixes', 'Specify motif and color ratios, exclusions and whether each pack needs every design.'], ['Packing and quotation', 'Provide SKU, net weight or piece count, bags or jars, quantity and destination. MOQ and dispatch timing are confirmed per SKU.']],
+    sampleMarkup: `<div class="section-head" style="margin-top:24px">
+      <h3 id="bulk-sprinkles-by-use">Choose bulk polymer clay sprinkles by use</h3>
+      <ul>
+        <li><strong>Fruit-themed slime.</strong> Start with <a href="/v2-preview/products/polymer-clay-slices/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/">YX053 dragon fruit slices</a>, listed at 5 mm with a 500 g bag as the reference pack. Test how visible the fruit pattern is in your planned slime base.</li>
+        <li><strong>Small botanical accents.</strong> Shortlist <a href="/v2-preview/products/polymer-clay-slices/yx329-green-leaf-polymer-clay-slices-for-bulk-craft-sourcing-yx329/">YX329 green leaf slices</a>, listed at 5 mm with a 500 g bag as the reference pack. Measure a sample for thickness and fit before using it in a shallow shaker or adding it to a kit.</li>
+        <li><strong>Christmas craft kits.</strong> Sample <a href="/v2-preview/products/polymer-clay-slices/yx4109-wholesale-500-g-christmas-polymer-clay-slices-with-candy-cane-tree-gingerbread-designs/">YX4109 candy cane, tree and gingerbread mix</a>, with a 500 g reference pack. If each retail kit needs all three motifs, agree on the assortment and inner packing before a bulk order.</li>
+      </ul>
+    </div>`,
   },
   'slime-charms': {
     previewFile: path.join(previewRoot, 'products', 'slime-charms', 'index.html'),
@@ -239,10 +248,13 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
     );
   }
   html = replaceFirstRequired(html, /<h1>[^<]*<\/h1>/i, `<h1>${escapeHtml(plan.h1)}</h1>`, `${category} H1`);
+  const introLink = plan.introLink
+    ? ` <a href="${escapeAttr(plan.introLink[0])}">${escapeHtml(plan.introLink[1])}</a>`
+    : '';
   html = replaceFirstRequired(
     html,
     /(<h1>[^<]*<\/h1>\s*)<p>[\s\S]*?<\/p>/i,
-    `$1<p>${escapeHtml(plan.intro)}</p>`,
+    `$1<p>${escapeHtml(plan.intro)}${introLink}</p>`,
     `${category} intro`
   );
   html = upsertJsonLd(html, `${category}-item-list`, itemListFor(category, plan.listName));
@@ -260,7 +272,7 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
     .map((product) => `<a class="product-related-card" href="${product.previewPath}"><img src="${escapeAttr(product.image)}" width="800" height="800" loading="lazy" decoding="async" alt="${escapeAttr(`${product.title}, product code ${product.sku}`)}"><div><span>${escapeHtml(product.sku)}</span><h3>${escapeHtml(product.title)}</h3></div></a>`)
     .join('');
   const selection = plan.selection ? `<div class="section-head" style="margin-top:24px"><h3>${escapeHtml(plan.selectionHeading || 'How to choose and request a bulk quotation')}</h3><dl>${plan.selection.map(([label, copy]) => `<dt><strong>${escapeHtml(label)}</strong></dt><dd>${escapeHtml(copy)}</dd>`).join('')}</dl></div>` : '';
-  const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2${plan.hubId ? ` id="${escapeAttr(plan.hubId)}"` : ''}>${escapeHtml(plan.hubHeading || 'Compare products, sourcing guidance and project requirements.')}</h2><p>${escapeHtml(plan.hubCopy || 'Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.')}</p>${plan.hubExtraMarkup || ''}</div>${selection}<div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
+  const block = `<section class="section" data-seo-growth="${category}-hub"><div class="container"><div class="section-head"><span class="eyebrow">Buyer resources &amp; internal links</span><h2${plan.hubId ? ` id="${escapeAttr(plan.hubId)}"` : ''}>${escapeHtml(plan.hubHeading || 'Compare products, sourcing guidance and project requirements.')}</h2><p>${escapeHtml(plan.hubCopy || 'Use the category catalog as the main buying hub, then review related products and sourcing resources before sending a mixed-SKU or custom inquiry.')}</p>${plan.hubExtraMarkup || ''}</div>${plan.sampleMarkup || ''}${selection}<div class="actions">${resourceLinks}</div><div class="product-related-grid" style="margin-top:24px">${productLinks}</div></div></section>`;
   const existingHub = new RegExp(`<section class="section" data-seo-growth="${category}-hub">[\\s\\S]*?<\\/section>`, 'i');
   if (existingHub.test(html)) html = html.replace(existingHub, block);
   else if (/<section class="section" id="specifications">/i.test(html)) {

@@ -133,6 +133,7 @@ const categoryPlans = {
     description: 'Buy polymer clay slices wholesale and bulk sprinkles for slime, shakers and DIY kits. Compare motifs, mix ratios and packing; request a SKU-based quote.',
     h1: 'Polymer Clay Slices Wholesale for Slime & DIY',
     intro: 'Source wholesale polymer clay slices and bulk polymer clay sprinkles for slime, nail art, shaker fillers and DIY kits. Compare candy, fruit and seasonal mixes by motif, size and pack unit. Send selected product codes, quantity and destination for a packing and MOQ quotation.',
+    introLink: ['#bulk-sprinkles-by-use', 'See samples by use.'],
     listName: 'Wholesale Polymer Clay Slices and Sprinkles',
     hubExtraMarkup: "<p>Buyers building slime, shaker, tumbler or DIY-kit assortments can start with the <a href=\"/v2-preview/for-slime-brands/\">slime-brand sourcing route</a>, then use the <a href=\"/v2-preview/blog/polymer-clay-slice-buying-guide/\">polymer clay buying guide</a> to compare slice formats before requesting a mixed-SKU quotation. For a fruit theme, compare four real references in the <a href=\"/v2-preview/blog/strawberry-polymer-clay-slices-wholesale/\">strawberry slice buying guide</a>.</p>",
     hubHeading: "Wholesale polymer clay slices and sprinkles for repeatable craft programs.",
@@ -247,22 +248,17 @@ for (const [category, plan] of Object.entries(categoryPlans)) {
     );
   }
   html = replaceFirstRequired(html, /<h1>[^<]*<\/h1>/i, `<h1>${escapeHtml(plan.h1)}</h1>`, `${category} H1`);
+  const introLink = plan.introLink
+    ? ` <a href="${escapeAttr(plan.introLink[0])}">${escapeHtml(plan.introLink[1])}</a>`
+    : '';
   html = replaceFirstRequired(
     html,
     /(<h1>[^<]*<\/h1>\s*)<p>[\s\S]*?<\/p>/i,
-    `$1<p>${escapeHtml(plan.intro)}</p>`,
+    `$1<p>${escapeHtml(plan.intro)}${introLink}</p>`,
     `${category} intro`
   );
   html = upsertJsonLd(html, `${category}-item-list`, itemListFor(category, plan.listName));
   html = upsertJsonLd(html, `${category}-collection-page`, collectionPageFor(category, plan));
-  if (plan.sampleMarkup && !html.includes('href="#bulk-sprinkles-by-use"')) {
-    html = replaceFirstRequired(
-      html,
-      /<a href="#buyer-resources">Buying Notes<\/a>/,
-      '<a href="#bulk-sprinkles-by-use">Choose by Use</a><a href="#buyer-resources">Buying Notes</a>',
-      `${category} sample navigation`
-    );
-  }
   if (plan.buyingNavigation) {
     const navigation = '<nav class="section-anchor-nav" aria-label="Sequins and confetti buying resources"><a href="#product-grid">Products</a><a href="#buyer-resources">Buying Notes</a><a href="/v2-preview/custom-solutions/#services">Custom Options</a><a href="/v2-preview/custom-solutions/#faq">Custom FAQ</a></nav>';
     html = replaceFirstRequired(html, /<nav class="section-anchor-nav"[^>]*>[\s\S]*?<\/nav>/, navigation, `${category} buying navigation`);

@@ -1296,6 +1296,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw26139-pastel-celestial-resin-flatback-cabochons-rw26139/index.html",
+      "destination": "products/resin-charms-for-slime/rw26139-pastel-celestial-resin-flatback-cabochons-rw26139/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26139-pastel-celestial-resin-flatback-cabochons-rw26139/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw23217-panda-character-resin-flatback-assortment-rw23217/index.html",
+      "destination": "products/resin-charms-for-slime/rw23217-panda-character-resin-flatback-assortment-rw23217/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw23217-panda-character-resin-flatback-assortment-rw23217/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26143-mini-fried-chicken-resin-cabochons-rw26143/index.html",
+      "destination": "products/resin-charms-for-slime/rw26143-mini-fried-chicken-resin-cabochons-rw26143/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26143-mini-fried-chicken-resin-cabochons-rw26143/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26137-thanksgiving-turkey-resin-charm-assortment-rw26137/index.html",
+      "destination": "products/resin-charms-for-slime/rw26137-thanksgiving-turkey-resin-charm-assortment-rw26137/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26137-thanksgiving-turkey-resin-charm-assortment-rw26137/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26039-winter-animal-resin-flatback-assortment-rw26039/index.html",
+      "destination": "products/resin-charms-for-slime/rw26039-winter-animal-resin-flatback-assortment-rw26039/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26039-winter-animal-resin-flatback-assortment-rw26039/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26127-christmas-coffee-cup-resin-miniatures-rw26127/index.html",
+      "destination": "products/resin-charms-for-slime/rw26127-christmas-coffee-cup-resin-miniatures-rw26127/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26127-christmas-coffee-cup-resin-miniatures-rw26127/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26026-dressed-animal-resin-flatback-assortment-rw26026/index.html",
+      "destination": "products/resin-charms-for-slime/rw26026-dressed-animal-resin-flatback-assortment-rw26026/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26026-dressed-animal-resin-flatback-assortment-rw26026/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26095-stacked-animal-resin-miniatures-rw26095/index.html",
+      "destination": "products/resin-charms-for-slime/rw26095-stacked-animal-resin-miniatures-rw26095/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26095-stacked-animal-resin-miniatures-rw26095/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26094-mini-sushi-resin-cabochon-assortment-rw26094/index.html",
+      "destination": "products/resin-charms-for-slime/rw26094-mini-sushi-resin-cabochon-assortment-rw26094/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26094-mini-sushi-resin-cabochon-assortment-rw26094/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24708-orange-pumpkin-resin-cabochon-mix-rw24708/index.html",
+      "destination": "products/resin-charms-for-slime/rw24708-orange-pumpkin-resin-cabochon-mix-rw24708/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24708-orange-pumpkin-resin-cabochon-mix-rw24708/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26085-colorful-bird-resin-miniatures-rw26085/index.html",
+      "destination": "products/resin-charms-for-slime/rw26085-colorful-bird-resin-miniatures-rw26085/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26085-colorful-bird-resin-miniatures-rw26085/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26081-mini-doughnut-resin-cabochon-mix-rw26081/index.html",
+      "destination": "products/resin-charms-for-slime/rw26081-mini-doughnut-resin-cabochon-mix-rw26081/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26081-mini-doughnut-resin-cabochon-mix-rw26081/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26078-mini-cow-resin-figurines-rw26078/index.html",
+      "destination": "products/resin-charms-for-slime/rw26078-mini-cow-resin-figurines-rw26078/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26078-mini-cow-resin-figurines-rw26078/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25882-apple-strawberry-resin-flatback-mix-rw25882/index.html",
+      "destination": "products/resin-charms-for-slime/rw25882-apple-strawberry-resin-flatback-mix-rw25882/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25882-apple-strawberry-resin-flatback-mix-rw25882/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25993-purple-iced-tart-resin-cabochons-rw25993/index.html",
+      "destination": "products/resin-charms-for-slime/rw25993-purple-iced-tart-resin-cabochons-rw25993/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25993-purple-iced-tart-resin-cabochons-rw25993/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26067-leaf-flower-frog-resin-figurines-rw26067/index.html",
+      "destination": "products/resin-charms-for-slime/rw26067-leaf-flower-frog-resin-figurines-rw26067/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26067-leaf-flower-frog-resin-figurines-rw26067/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw4102-white-eyeball-resin-flatbacks-rw4102/index.html",
+      "destination": "products/resin-charms-for-slime/rw4102-white-eyeball-resin-flatbacks-rw4102/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw4102-white-eyeball-resin-flatbacks-rw4102/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26105-mini-castle-tower-resin-assortment-rw26105/index.html",
+      "destination": "products/resin-charms-for-slime/rw26105-mini-castle-tower-resin-assortment-rw26105/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26105-mini-castle-tower-resin-assortment-rw26105/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw20997-mixed-bread-pastry-resin-flatbacks-rw20997/index.html",
+      "destination": "products/resin-charms-for-slime/rw20997-mixed-bread-pastry-resin-flatbacks-rw20997/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw20997-mixed-bread-pastry-resin-flatbacks-rw20997/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26079-mini-fruit-cake-tart-resin-assortment-rw26079/index.html",
+      "destination": "products/resin-charms-for-slime/rw26079-mini-fruit-cake-tart-resin-assortment-rw26079/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26079-mini-fruit-cake-tart-resin-assortment-rw26079/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw001552-blue-caterpillar-resin-miniatures-for-bulk-craft-sourcing-rw001552/index.html",
       "destination": "products/resin-charms-for-slime/rw001552-blue-caterpillar-resin-miniatures-for-bulk-craft-sourcing-rw001552/index.html",
       "action": "create",

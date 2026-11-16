@@ -1,0 +1,111 @@
+{
+  "batch": "haibu-new-products-20261116-monica-59",
+  "expectedSkuCount": 1,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261116-monica-59",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-11-16",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW5800",
+      "title": "Mini Woven Basket Resin Ornaments for Bulk Craft Assortments – RW5800",
+      "originalTitle": "Figurines Miniatures Simulated Bamboo Woven Baskets Micro Landscape Ornaments for Home Decorations DIY Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Use the four basket forms in miniature gardens, dollhouse scenes and small decorative displays. Product code RW5800",
+      "description": "RW5800 is a resin miniature basket assortment verified against the same-SKU source photograph. The source lists four sizes: 30 × 15 mm, 30 × 14 mm, 15 × 28 mm and 25 × 23 mm, with a 100 pcs/bag packing unit. Request current design selection and packing options through the quote form.",
+      "detailedDescription": "RW5800 is a resin miniature basket assortment verified against the same-SKU source photograph. The source lists four sizes: 30 × 15 mm, 30 × 14 mm, 15 × 28 mm and 25 × 23 mm, with a 100 pcs/bag packing unit. Request current design selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW5800",
+      "keySellingPoints": [
+        "Product code: RW5800",
+        "Material: Resin",
+        "Dimensions: approx. 30 × 15 mm / 30 × 14 mm / 15 × 28 mm / 25 × 23 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW5800",
+        "Material: Resin",
+        "Dimensions: approx. 30 × 15 mm / 30 × 14 mm / 15 × 28 mm / 25 × 23 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 30 × 15 mm / 30 × 14 mm / 15 × 28 mm / 25 × 23 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW5800, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Plan miniature gardens, dollhouse scenes and decorative displays with RW5800 resin basket pieces. The verified source lists four sizes: 30 × 15 mm, 30 × 14 mm, 15 × 28 mm and 25 × 23 mm, with a 100 pcs/bag packing unit. Scene materials and styling props in generated references are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini woven basket resin pieces micro landscape, wholesale craft components",
+      "metaTitle": "Mini Woven Basket Resin Ornaments for Bulk Craft Assortments | RW5800",
+      "metaDescription": "Mini Woven Basket Resin Ornaments for Bulk Craft Assortments. Resin; approx. 30 × 15 mm / 30 × 14 mm / 15 × 28 mm / 25 × 23 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 30 × 15 mm / 30 × 14 mm / 15 × 28 mm / 25 × 23 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 59 final-tail reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Figurines Miniatures Simulated Bamboo Woven Baskets Micro Landscape Ornaments for Home Decorations DIY Accessories",
+        "material": "Resin",
+        "size": "approx. 30 × 15 mm / 30 × 14 mm / 15 × 28 mm / 25 × 23 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW5800"
+      },
+      "sourceProductId": "1601404649753",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Figurines-Miniatures-Simulated-Bamboo-Woven-Baskets_1601404649753.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw5800",
+      "assetDirectory": "batch-20261116-monica-59",
+      "imagePrefix": "rw5800-mini-woven-basket-resin-pieces-micro-landscape",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

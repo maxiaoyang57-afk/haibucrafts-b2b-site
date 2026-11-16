@@ -2136,6 +2136,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw003575-mini-coffee-shop-assortment-resin-craft-components-for-bulk-assortments-rw003575/index.html",
+      "destination": "products/resin-charms-for-slime/rw003575-mini-coffee-shop-assortment-resin-craft-components-for-bulk-assortments-rw003575/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw003575-mini-coffee-shop-assortment-resin-craft-components-for-bulk-assortments-rw003575/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004509-translucent-bear-cup-assortment-resin-craft-components-for-bulk-assortments-rw004509/index.html",
+      "destination": "products/resin-charms-for-slime/rw004509-translucent-bear-cup-assortment-resin-craft-components-for-bulk-assortments-rw004509/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004509-translucent-bear-cup-assortment-resin-craft-components-for-bulk-assortments-rw004509/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1026-kawaii-candy-bag-assortment-resin-craft-components-for-bulk-assortments-rw1026/index.html",
+      "destination": "products/resin-charms-for-slime/rw1026-kawaii-candy-bag-assortment-resin-craft-components-for-bulk-assortments-rw1026/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1026-kawaii-candy-bag-assortment-resin-craft-components-for-bulk-assortments-rw1026/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw1297-pastel-spiral-candy-assortment-resin-craft-components-for-bulk-assortments-rw1297/index.html",
+      "destination": "products/resin-charms-for-slime/rw1297-pastel-spiral-candy-assortment-resin-craft-components-for-bulk-assortments-rw1297/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw1297-pastel-spiral-candy-assortment-resin-craft-components-for-bulk-assortments-rw1297/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw20272-mixed-christmas-character-assortment-resin-craft-components-for-bulk-assortments-rw20272/index.html",
+      "destination": "products/resin-charms-for-slime/rw20272-mixed-christmas-character-assortment-resin-craft-components-for-bulk-assortments-rw20272/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw20272-mixed-christmas-character-assortment-resin-craft-components-for-bulk-assortments-rw20272/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2125-pastel-marshmallow-block-assortment-resin-craft-components-for-bulk-assortments-rw2125/index.html",
+      "destination": "products/resin-charms-for-slime/rw2125-pastel-marshmallow-block-assortment-resin-craft-components-for-bulk-assortments-rw2125/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2125-pastel-marshmallow-block-assortment-resin-craft-components-for-bulk-assortments-rw2125/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw21305-translucent-mini-popsicle-assortment-resin-craft-components-for-bulk-assortments-rw21305/index.html",
+      "destination": "products/resin-charms-for-slime/rw21305-translucent-mini-popsicle-assortment-resin-craft-components-for-bulk-assortments-rw21305/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw21305-translucent-mini-popsicle-assortment-resin-craft-components-for-bulk-assortments-rw21305/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2257-mini-white-milk-bottle-resin-craft-components-for-bulk-assortments-rw2257/index.html",
+      "destination": "products/resin-charms-for-slime/rw2257-mini-white-milk-bottle-resin-craft-components-for-bulk-assortments-rw2257/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2257-mini-white-milk-bottle-resin-craft-components-for-bulk-assortments-rw2257/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw2304-g-primary-color-round-candy-discs-resin-craft-components-for-bulk-assortments-rw2304-g/index.html",
+      "destination": "products/resin-charms-for-slime/rw2304-g-primary-color-round-candy-discs-resin-craft-components-for-bulk-assortments-rw2304-g/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw2304-g-primary-color-round-candy-discs-resin-craft-components-for-bulk-assortments-rw2304-g/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24198-mixed-mini-food-assortment-resin-craft-components-for-bulk-assortments-rw24198/index.html",
+      "destination": "products/resin-charms-for-slime/rw24198-mixed-mini-food-assortment-resin-craft-components-for-bulk-assortments-rw24198/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24198-mixed-mini-food-assortment-resin-craft-components-for-bulk-assortments-rw24198/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24234-colorful-mermaid-figurine-assortment-resin-craft-components-for-bulk-assortments-rw24234/index.html",
+      "destination": "products/resin-charms-for-slime/rw24234-colorful-mermaid-figurine-assortment-resin-craft-components-for-bulk-assortments-rw24234/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24234-colorful-mermaid-figurine-assortment-resin-craft-components-for-bulk-assortments-rw24234/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw24711-pink-bow-strawberry-plate-resin-craft-components-for-bulk-assortments-rw24711/index.html",
+      "destination": "products/resin-charms-for-slime/rw24711-pink-bow-strawberry-plate-resin-craft-components-for-bulk-assortments-rw24711/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw24711-pink-bow-strawberry-plate-resin-craft-components-for-bulk-assortments-rw24711/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25192-pink-bear-dessert-resin-craft-components-for-bulk-assortments-rw25192/index.html",
+      "destination": "products/resin-charms-for-slime/rw25192-pink-bear-dessert-resin-craft-components-for-bulk-assortments-rw25192/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25192-pink-bear-dessert-resin-craft-components-for-bulk-assortments-rw25192/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25227-rhinestone-butterfly-resin-craft-components-for-bulk-assortments-rw25227/index.html",
+      "destination": "products/resin-charms-for-slime/rw25227-rhinestone-butterfly-resin-craft-components-for-bulk-assortments-rw25227/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25227-rhinestone-butterfly-resin-craft-components-for-bulk-assortments-rw25227/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25291-pastel-puppy-cupcake-resin-craft-components-for-bulk-assortments-rw25291/index.html",
+      "destination": "products/resin-charms-for-slime/rw25291-pastel-puppy-cupcake-resin-craft-components-for-bulk-assortments-rw25291/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25291-pastel-puppy-cupcake-resin-craft-components-for-bulk-assortments-rw25291/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26033-mini-christmas-santa-resin-craft-components-for-bulk-assortments-rw26033/index.html",
+      "destination": "products/resin-charms-for-slime/rw26033-mini-christmas-santa-resin-craft-components-for-bulk-assortments-rw26033/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26033-mini-christmas-santa-resin-craft-components-for-bulk-assortments-rw26033/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26326-halloween-sign-assortment-resin-craft-components-for-bulk-assortments-rw26326/index.html",
+      "destination": "products/resin-charms-for-slime/rw26326-halloween-sign-assortment-resin-craft-components-for-bulk-assortments-rw26326/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26326-halloween-sign-assortment-resin-craft-components-for-bulk-assortments-rw26326/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw3325-red-ladybug-resin-craft-components-for-bulk-assortments-rw3325/index.html",
+      "destination": "products/resin-charms-for-slime/rw3325-red-ladybug-resin-craft-components-for-bulk-assortments-rw3325/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw3325-red-ladybug-resin-craft-components-for-bulk-assortments-rw3325/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw598-pastel-chewing-gum-assortment-resin-craft-components-for-bulk-assortments-rw598/index.html",
+      "destination": "products/resin-charms-for-slime/rw598-pastel-chewing-gum-assortment-resin-craft-components-for-bulk-assortments-rw598/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw598-pastel-chewing-gum-assortment-resin-craft-components-for-bulk-assortments-rw598/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/ym121-red-polka-dot-mushroom-resin-craft-components-for-bulk-assortments-ym121/index.html",
+      "destination": "products/resin-charms-for-slime/ym121-red-polka-dot-mushroom-resin-craft-components-for-bulk-assortments-ym121/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/ym121-red-polka-dot-mushroom-resin-craft-components-for-bulk-assortments-ym121/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw004303-glitter-butterfly-wing-resin-flatbacks-for-bulk-craft-sourcing-rw004303/index.html",
       "destination": "products/resin-charms-for-slime/rw004303-glitter-butterfly-wing-resin-flatbacks-for-bulk-craft-sourcing-rw004303/index.html",
       "action": "create",

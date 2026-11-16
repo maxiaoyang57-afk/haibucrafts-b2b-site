@@ -1,0 +1,1954 @@
+{
+  "batch": "haibu-new-products-20261116-monica-54",
+  "expectedSkuCount": 20,
+  "publicGalleryCount": 3,
+  "assetDirectory": "batch-20261116-monica-54",
+  "imageExtension": "jpg",
+  "structuredDataImageMode": "gallery",
+  "lastModified": "2026-11-16",
+  "preserveApprovedContent": true,
+  "prependProducts": true,
+  "packingOptions": [],
+  "products": [
+    {
+      "sku": "RW001759",
+      "title": "Cartoon Coffee and Dessert Resin Cabochons for Bulk Craft Sets – RW001759",
+      "originalTitle": "100pcs Cartoon Flatback Resin Biscuits Popcorn Ice Cream Food Cabochons Craft Embellishments DIY Hair Bows Decor Accessory",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Cute coffee, cookie and dessert characters for cafe-theme journals, hair bows and playful craft layouts. Product code RW001759",
+      "description": "RW001759 is a cartoon resin food cabochon assortment in warm coffee-brown and cream tones, including cookie, handled mug, takeaway cup, swirled dessert and snack-style characters with large eyes and small red accents. The source size is 22 × 18 mm and the source packing unit is 100pcs/bag. The assortment supports cafe-theme hair-accessory, scrapbook and novelty craft selections. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW001759 is a cartoon resin food cabochon assortment in warm coffee-brown and cream tones, including cookie, handled mug, takeaway cup, swirled dessert and snack-style characters with large eyes and small red accents. The source size is 22 × 18 mm and the source packing unit is 100pcs/bag. The assortment supports cafe-theme hair-accessory, scrapbook and novelty craft selections. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW001759",
+      "keySellingPoints": [
+        "Product code: RW001759",
+        "Material: Resin",
+        "Dimensions: approx. 22 × 18 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW001759",
+        "Material: Resin",
+        "Dimensions: approx. 22 × 18 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 22 × 18 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW001759, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Mix RW001759 cartoon coffee and dessert resin cabochons into a warm cafe-theme journal or accessory layout. Each source piece measures 22 × 18 mm and the source packing unit is 100pcs/bag. Paper, lace, coffee beans and all other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "cartoon coffee and dessert resin cabochons cafe, wholesale craft components",
+      "metaTitle": "Cartoon Coffee and Dessert Resin Cabochons for Bulk Craft Sets | RW00175",
+      "metaDescription": "Warm brown-and-cream cartoon food cabochons with cookies, mugs, cups and dessert characters for coordinated cafe assortments. Resin; approx. 22 × 18 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 22 × 18 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Cartoon Flatback Resin Biscuits Popcorn Ice Cream Food Cabochons Craft Embellishments DIY Hair Bows Decor Accessory",
+        "material": "Resin",
+        "size": "approx. 22 × 18 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW001759"
+      },
+      "sourceProductId": "1601489440934",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cartoon-Flatback-Resin-Biscuits-Popcorn_1601489440934.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw001759",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw001759-cartoon-coffee-and-dessert-resin-cabochons-cafe",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002276",
+      "title": "Colorful Mini Cream Cake Resin Cabochons for Bulk Craft Sets – RW002276",
+      "originalTitle": "100Pcs Miniature Sweet Cream Cake Resin Cabochon Scrapbooking for Phone Decoration Jewelry Crafts DIY Doll House Accessor",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Tiny cream cakes with glossy jelly tops for dollhouse cafes, phone cases and colorful dessert crafts. Product code RW002276",
+      "description": "RW002276 features miniature cream-cake resin cabochons with textured white-and-color marbled sides, translucent jelly-like dome tops and small green leaf details. The source size is about 21 × 21 mm and the source packing unit is 100pcs/bag. Green, blue, pink, amber and yellow colorways support coordinated dollhouse, phone-case and dessert-theme craft selections. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW002276 features miniature cream-cake resin cabochons with textured white-and-color marbled sides, translucent jelly-like dome tops and small green leaf details. The source size is about 21 × 21 mm and the source packing unit is 100pcs/bag. Green, blue, pink, amber and yellow colorways support coordinated dollhouse, phone-case and dessert-theme craft selections. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW002276",
+      "keySellingPoints": [
+        "Product code: RW002276",
+        "Material: Resin",
+        "Dimensions: approx. 21 × 21 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002276",
+        "Material: Resin",
+        "Dimensions: approx. 21 × 21 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 21 × 21 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW002276, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange RW002276 miniature cream-cake resin cabochons in a dollhouse cafe or colorful phone-case layout. The source size is about 21 × 21 mm and the source packing unit is 100pcs/bag. Dessert tray, furniture, flowers and all other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "colorful mini cream cake resin cabochons, wholesale craft components",
+      "metaTitle": "Colorful Mini Cream Cake Resin Cabochons for Bulk Craft Sets | RW002276",
+      "metaDescription": "Mini cream-cake cabochons with marbled sides, translucent jelly domes and green leaf details for coordinated dessert assortments. Resin; approx. 21 × 21 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 21 × 21 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Miniature Sweet Cream Cake Resin Cabochon Scrapbooking for Phone Decoration Jewelry Crafts DIY Doll House Accessor",
+        "material": "Resin",
+        "size": "approx. 21 × 21 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW002276"
+      },
+      "sourceProductId": "1601521859938",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Miniature-Sweet-Cream-Cake-Resin_1601521859938.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw002276",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw002276-colorful-mini-cream-cake-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW002804",
+      "title": "Translucent Bow Strawberry Resin Cabochons for Bulk Craft Sets – RW002804",
+      "originalTitle": "100PCS Resin Transparent Strawberry Flatback Cabochon Scrapbooking for DIY Crafts Shoe Charms",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glossy translucent strawberries with pastel bows for phone cases, journals and sweet craft layouts. Product code RW002804",
+      "description": "RW002804 features translucent strawberry resin flatback cabochons in pastel purple, blue-gray, pink, rose and pale yellow-green colorways. White seed marks and coordinated molded bows define the source design. The source size is about 25 mm and the source packing unit is 100pcs/bag. The range suits phone-case, scrapbook and decorative craft assortments. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW002804 features translucent strawberry resin flatback cabochons in pastel purple, blue-gray, pink, rose and pale yellow-green colorways. White seed marks and coordinated molded bows define the source design. The source size is about 25 mm and the source packing unit is 100pcs/bag. The range suits phone-case, scrapbook and decorative craft assortments. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW002804",
+      "keySellingPoints": [
+        "Product code: RW002804",
+        "Material: Resin",
+        "Dimensions: approx. 25 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW002804",
+        "Material: Resin",
+        "Dimensions: approx. 25 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 25 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW002804, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Layer RW002804 translucent bow strawberry cabochons into a pastel phone-case or scrapbook composition. The source size is about 25 mm and the source packing unit is 100pcs/bag. Phone case, pearl trim, lace, paper and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "translucent bow strawberry resin cabochons, wholesale craft components",
+      "metaTitle": "Translucent Bow Strawberry Resin Cabochons for Bulk Craft Sets | RW00280",
+      "metaDescription": "Pastel translucent strawberry cabochons with white seed marks and molded bow tops for coordinated decorative assortments. Resin; approx. 25 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100PCS Resin Transparent Strawberry Flatback Cabochon Scrapbooking for DIY Crafts Shoe Charms",
+        "material": "Resin",
+        "size": "approx. 25 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW002804"
+      },
+      "sourceProductId": "1601462252709",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100PCS-Resin-Transparent-Strawberry-Flatback-Cabochon_1601462252709.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw002804",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw002804-translucent-bow-strawberry-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW004274",
+      "title": "Cute Lying Animal Resin Flatback Cabochons for Bulk Craft Sets – RW004274",
+      "originalTitle": "100Pcs New Cute Lying Cartoon Rabbit Bear Resin Flatback Cabochon Scrapbook Diy Jewelry Children Gift Hairpin Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glossy sleeping animal pieces for hair bows, scrapbook layouts and cute accessory projects. Product code RW004274",
+      "description": "RW004274 features compact lying animal resin flatback cabochons in yellow, white, pale pink, orange and brown colorways. The source assortment shows rounded bodies, small front faces and cat, rabbit and bear-style details. Each source piece measures 13 × 18 mm and the source packing unit is 100pcs/bag. The range suits coordinated hair-accessory, scrapbook and kawaii craft selections. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW004274 features compact lying animal resin flatback cabochons in yellow, white, pale pink, orange and brown colorways. The source assortment shows rounded bodies, small front faces and cat, rabbit and bear-style details. Each source piece measures 13 × 18 mm and the source packing unit is 100pcs/bag. The range suits coordinated hair-accessory, scrapbook and kawaii craft selections. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW004274",
+      "keySellingPoints": [
+        "Product code: RW004274",
+        "Material: Resin",
+        "Dimensions: approx. 13 × 18 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW004274",
+        "Material: Resin",
+        "Dimensions: approx. 13 × 18 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 13 × 18 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW004274, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Create a pastel animal layout with RW004274 lying resin flatback cabochons in yellow, white, pink, orange and brown. Each source piece measures 13 × 18 mm and the source packing unit is 100pcs/bag. Fabric, lace, ribbon and all other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "cute lying animal resin flatback cabochons, wholesale craft components",
+      "metaTitle": "Cute Lying Animal Resin Flatback Cabochons for Bulk Craft Sets | RW00427",
+      "metaDescription": "Glossy lying cat, rabbit and bear-style animal cabochons in coordinated pastel and warm colorways. Resin; approx. 13 × 18 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 13 × 18 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs New Cute Lying Cartoon Rabbit Bear Resin Flatback Cabochon Scrapbook Diy Jewelry Children Gift Hairpin Accessories",
+        "material": "Resin",
+        "size": "approx. 13 × 18 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW004274"
+      },
+      "sourceProductId": "1601557290806",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-New-Cute-Lying-Cartoon-Rabbit_1601557290806.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw004274",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw004274-cute-lying-animal-resin-flatback-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW22940",
+      "title": "Translucent Fantasy Castle Resin Ornaments for Bulk Garden Sets – RW22940",
+      "originalTitle": "Garden Creative Cartoon Night Light Ornament Cartoon Castle Small Ornament Star Shell Grassland Castle DIY Resin Small Ornament",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Pastel translucent castle pieces for fairy gardens, miniature landscapes and fantasy-theme display scenes. Product code RW22940",
+      "description": "RW22940 includes translucent fantasy-castle resin ornaments with small turrets and star or shell reliefs, measuring 33 × 48 mm and supplied in 100pcs/bag packing. The source assortment combines pastel purple, pink, amber and aqua tones for fairy-garden, grassland and miniature landscape craft ranges. These are listed as resin ornaments; no lighting function is claimed. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW22940 includes translucent fantasy-castle resin ornaments with small turrets and star or shell reliefs, measuring 33 × 48 mm and supplied in 100pcs/bag packing. The source assortment combines pastel purple, pink, amber and aqua tones for fairy-garden, grassland and miniature landscape craft ranges. These are listed as resin ornaments; no lighting function is claimed. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW22940",
+      "keySellingPoints": [
+        "Product code: RW22940",
+        "Material: Resin",
+        "Dimensions: approx. 33 × 48 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW22940",
+        "Material: Resin",
+        "Dimensions: approx. 33 × 48 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 33 × 48 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW22940, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Create a small fantasy landscape with RW22940 translucent castle resin ornaments. The source size is 33 × 48 mm and the source packing unit is 100pcs/bag. They are described here as decorative resin ornaments, without a claimed lighting function. Plants, stones and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "translucent fantasy castle resin ornaments fairy garden, wholesale craft components",
+      "metaTitle": "Translucent Fantasy Castle Resin Ornaments for Bulk Garden Sets | RW2294",
+      "metaDescription": "Pastel translucent castle ornaments with star and shell reliefs for coordinated fantasy landscape assortments. Resin; approx. 33 × 48 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 33 × 48 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Garden Creative Cartoon Night Light Ornament Cartoon Castle Small Ornament Star Shell Grassland Castle DIY Resin Small Ornament",
+        "material": "Resin",
+        "size": "approx. 33 × 48 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW22940"
+      },
+      "sourceProductId": "1601660751565",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Garden-Creative-Cartoon-Night-Light-Ornament_1601660751565.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw22940",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw22940-translucent-fantasy-castle-resin-ornaments-fairy-garden",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 263
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW234976",
+      "title": "Mini Wheelie Trash Bin Resin Ornaments for Bulk Scene Sets – RW234976",
+      "originalTitle": "100Pcs House Trash Can Fairy Garden Garbage Bin Dollhouse Toy Scene Ornament Resin Creative Landscape",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Colorful miniature trash-bin ornaments with wheels for dollhouse streets, fairy gardens and scene building. Product code RW234976",
+      "description": "RW234976 features miniature wheelie trash-bin resin ornaments in assorted colors, measuring 15 × 25 mm and supplied in 100pcs/bag packing. The source design includes compact bin bodies, lid forms, wheels and black disposal symbols for dollhouse scenes, fairy gardens and creative landscape assortments. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW234976 features miniature wheelie trash-bin resin ornaments in assorted colors, measuring 15 × 25 mm and supplied in 100pcs/bag packing. The source design includes compact bin bodies, lid forms, wheels and black disposal symbols for dollhouse scenes, fairy gardens and creative landscape assortments. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW234976",
+      "keySellingPoints": [
+        "Product code: RW234976",
+        "Material: Resin",
+        "Dimensions: approx. 15 × 25 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW234976",
+        "Material: Resin",
+        "Dimensions: approx. 15 × 25 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 15 × 25 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW234976, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Complete a miniature street or fairy-garden utility corner with RW234976 wheelie trash-bin resin ornaments. The source size is 15 × 25 mm and the source packing unit is 100pcs/bag. Dollhouses, paving, plants and other landscape props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini wheelie trash bin resin ornaments, wholesale craft components",
+      "metaTitle": "Mini Wheelie Trash Bin Resin Ornaments for Bulk Scene Sets | RW234976",
+      "metaDescription": "Multicolor miniature wheelie-bin resin ornaments for coordinated dollhouse and landscape assortments. Resin; approx. 15 × 25 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 15 × 25 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs House Trash Can Fairy Garden Garbage Bin Dollhouse Toy Scene Ornament Resin Creative Landscape",
+        "material": "Resin",
+        "size": "approx. 15 × 25 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW234976"
+      },
+      "sourceProductId": "1601666891033",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-House-Trash-Can-Fairy-Garden_1601666891033.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw234976",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw234976-mini-wheelie-trash-bin-resin-ornaments",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 263,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25219",
+      "title": "Pastel Cat Wishing Bottle Resin Charms for Bulk Craft Selection – RW25219",
+      "originalTitle": "New Fashion 3D Kawaii Mini Resin Cat Wishing Bottle Charms for Jewelry Making DIY Crafting Dollhouse Decorations",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Small pastel cat-in-bottle resin pieces for playful phone-case, scrapbook and accessory decoration. Product code RW25219",
+      "description": "RW25219 features pastel cat-in-bottle resin charms measuring about 23 × 22 mm and supplied in 100pcs/bag packing. The source range shows multiple pastel colorways for buyer-selected craft collections, phone-case decoration and small handmade accessory projects. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW25219 features pastel cat-in-bottle resin charms measuring about 23 × 22 mm and supplied in 100pcs/bag packing. The source range shows multiple pastel colorways for buyer-selected craft collections, phone-case decoration and small handmade accessory projects. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW25219",
+      "keySellingPoints": [
+        "Product code: RW25219",
+        "Material: Resin",
+        "Dimensions: approx. 23 × 22 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25219",
+        "Material: Resin",
+        "Dimensions: approx. 23 × 22 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 23 × 22 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25219, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use RW25219 pastel cat-in-bottle resin charms to build a coordinated phone-case layout, decorate scrapbook accents or add a soft kawaii theme to small DIY accessories. Each piece measures about 23 × 22 mm; the source packing unit is 100pcs/bag. The props in the application image are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "cat wishing bottle resin charms, wholesale craft components",
+      "metaTitle": "Pastel Cat Wishing Bottle Resin Charms for Bulk Craft Selection | RW2521",
+      "metaDescription": "Pastel cat-in-bottle resin charms supplied in 100pcs/bag packing for coordinated craft assortments. Resin; approx. 23 × 22 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 23 × 22 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "New Fashion 3D Kawaii Mini Resin Cat Wishing Bottle Charms for Jewelry Making DIY Crafting Dollhouse Decorations",
+        "material": "Resin",
+        "size": "approx. 23 × 22 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25219"
+      },
+      "sourceProductId": "1601300351597",
+      "sourceUrl": "https://www.alibaba.com/product-detail/New-Fashion-3D-Kawaii-Mini-Resin_1601300351597.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw25219",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw25219-cat-wishing-bottle-resin-charms",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25727",
+      "title": "Mini Silver Baking Mold Resin Models for Bulk Dollhouse Sets – RW25727",
+      "originalTitle": "1/12 Doll House Miniature Food DIY Bakeware Mini Pastry Biscuit Cookie Cake Bread Mold for Doll Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Tiny silver mold models with varied relief patterns for dollhouse bakeries and miniature kitchen scenes. Product code RW25727",
+      "description": "RW25727 features tiny silver resin baking-mold models in rounded rectangular tray shapes, with assorted circle, star, heart, oval and segmented cavity patterns. The source size is 15 × 21 mm and the source packing unit is 100pcs/bag. These are decorative resin miniatures for dollhouse and scene assortments; no real bakeware function is claimed. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW25727 features tiny silver resin baking-mold models in rounded rectangular tray shapes, with assorted circle, star, heart, oval and segmented cavity patterns. The source size is 15 × 21 mm and the source packing unit is 100pcs/bag. These are decorative resin miniatures for dollhouse and scene assortments; no real bakeware function is claimed. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW25727",
+      "keySellingPoints": [
+        "Product code: RW25727",
+        "Material: Resin",
+        "Dimensions: approx. 15 × 21 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25727",
+        "Material: Resin",
+        "Dimensions: approx. 15 × 21 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 15 × 21 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25727, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Add bakery equipment details to a dollhouse scene with RW25727 miniature silver resin mold models. Each source piece measures 15 × 21 mm and the source packing unit is 100pcs/bag. They are decorative miniatures without a claimed real-bakeware function; rolling pin, paper, table and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini silver baking mold resin models, wholesale craft components",
+      "metaTitle": "Mini Silver Baking Mold Resin Models for Bulk Dollhouse Sets | RW25727",
+      "metaDescription": "Silver miniature mold models with varied embossed cavity patterns for coordinated dollhouse bakery assortments. Resin; approx. 15 × 21 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 15 × 21 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "1/12 Doll House Miniature Food DIY Bakeware Mini Pastry Biscuit Cookie Cake Bread Mold for Doll Accessories",
+        "material": "Resin",
+        "size": "approx. 15 × 21 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25727"
+      },
+      "sourceProductId": "1601517641046",
+      "sourceUrl": "https://www.alibaba.com/product-detail/1-12-Doll-House-Miniature-Food_1601517641046.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw25727",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw25727-mini-silver-baking-mold-resin-models",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25913",
+      "title": "Pink Monster Rabbit Resin Cabochons for Bulk Craft Sets – RW25913",
+      "originalTitle": "100Pcs Cartoon Monster Rabbit Flatback Resin Cabochon for Phone Case Decoration DIY Scrapbooking Hair Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Textured pink monster-rabbit pieces for phone cases, scrapbook pages and playful kawaii DIY. Product code RW25913",
+      "description": "RW25913 features textured pink monster-rabbit resin cabochons with two rounded ears, large brown-and-white eyes and a wide toothy grin. The source size is about 21 mm and the source packing unit is 100pcs/bag. The flat-back form suits coordinated phone-case, scrapbook and hair-accessory craft ranges. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW25913 features textured pink monster-rabbit resin cabochons with two rounded ears, large brown-and-white eyes and a wide toothy grin. The source size is about 21 mm and the source packing unit is 100pcs/bag. The flat-back form suits coordinated phone-case, scrapbook and hair-accessory craft ranges. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW25913",
+      "keySellingPoints": [
+        "Product code: RW25913",
+        "Material: Resin",
+        "Dimensions: approx. 21 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25913",
+        "Material: Resin",
+        "Dimensions: approx. 21 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 21 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25913, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Build a playful pink layout with RW25913 monster-rabbit resin cabochons, finished with large eyes and a toothy grin. The source size is about 21 mm and the source packing unit is 100pcs/bag. Phone case, fabric, lace and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "pink monster rabbit resin cabochons, wholesale craft components",
+      "metaTitle": "Pink Monster Rabbit Resin Cabochons for Bulk Craft Sets | RW25913",
+      "metaDescription": "Textured pink monster-rabbit cabochons with large eyes and a toothy grin for coordinated novelty assortments. Resin; approx. 21 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 21 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Monster Rabbit Flatback Resin Cabochon for Phone Case Decoration DIY Scrapbooking Hair Accessories",
+        "material": "Resin",
+        "size": "approx. 21 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25913"
+      },
+      "sourceProductId": "1601589742852",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Monster-Rabbit-Flatback-Resin_1601589742852.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw25913",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw25913-pink-monster-rabbit-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25926",
+      "title": "3D Banana Cake Resin Cabochons for Bulk Bakery Craft Sets – RW25926",
+      "originalTitle": "100pcs Kawaii 3D Banana Cake Resin Cabochon DIY Craft Doll House Accessories Home Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Tiny banana-cake pieces with creamy white ends for dollhouse cafes and dessert-theme DIY scenes. Product code RW25926",
+      "description": "RW25926 features three-dimensional banana-cake resin cabochons with a golden molded body, white ridged ends and an oval banana motif. The source size is 31 × 17 mm and the source packing unit is 100pcs/bag. The design suits coordinated miniature-bakery displays, phone-case decoration and dessert-theme craft ranges. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW25926 features three-dimensional banana-cake resin cabochons with a golden molded body, white ridged ends and an oval banana motif. The source size is 31 × 17 mm and the source packing unit is 100pcs/bag. The design suits coordinated miniature-bakery displays, phone-case decoration and dessert-theme craft ranges. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW25926",
+      "keySellingPoints": [
+        "Product code: RW25926",
+        "Material: Resin",
+        "Dimensions: approx. 31 × 17 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25926",
+        "Material: Resin",
+        "Dimensions: approx. 31 × 17 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 31 × 17 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25926, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Style a miniature bakery tray or dessert-theme craft with RW25926 banana-cake resin cabochons. Each source piece measures 31 × 17 mm and the source packing unit is 100pcs/bag. Tray, kraft paper, tools and all other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "3d banana cake resin cabochons bakery, wholesale craft components",
+      "metaTitle": "3D Banana Cake Resin Cabochons for Bulk Bakery Craft Sets | RW25926",
+      "metaDescription": "Golden miniature banana-cake cabochons with white ridged ends and banana badge details for coordinated bakery assortments. Resin; approx. 31 × 17 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 31 × 17 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Kawaii 3D Banana Cake Resin Cabochon DIY Craft Doll House Accessories Home Decoration",
+        "material": "Resin",
+        "size": "approx. 31 × 17 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25926"
+      },
+      "sourceProductId": "1601601327301",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Kawaii-3D-Banana-Cake-Resin_1601601327301.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw25926",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw25926-3d-banana-cake-resin-cabochons-bakery",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25941",
+      "title": "Mini Star Candle Resin Models for Bulk Christmas Scene Sets – RW25941",
+      "originalTitle": "Doll House Miniature Star Candle Model for Christmas Scene Home Decoration Accessories Toy Doll House Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Colorful candle-shaped resin miniatures with star toppers for dollhouse rooms and Christmas display scenes. Product code RW25941",
+      "description": "RW25941 consists of miniature candle-shaped resin models with dripped-wax styling and translucent red, smoky, amber, white and blue colorways. The source size is 24 × 41 mm and the source packing unit is 100pcs/bag. These are decorative resin models for Christmas miniature and display assortments; no real candle or lighting function is claimed. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW25941 consists of miniature candle-shaped resin models with dripped-wax styling and translucent red, smoky, amber, white and blue colorways. The source size is 24 × 41 mm and the source packing unit is 100pcs/bag. These are decorative resin models for Christmas miniature and display assortments; no real candle or lighting function is claimed. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW25941",
+      "keySellingPoints": [
+        "Product code: RW25941",
+        "Material: Resin",
+        "Dimensions: approx. 24 × 41 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25941",
+        "Material: Resin",
+        "Dimensions: approx. 24 × 41 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 24 × 41 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25941, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange RW25941 miniature candle-shaped resin models in a Christmas dollhouse or seasonal display scene. The source size is 24 × 41 mm and the source packing unit is 100pcs/bag. They are decorative models without a claimed real-candle or lighting function; furniture, garlands, books and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini star candle resin models christmas, wholesale craft components",
+      "metaTitle": "Mini Star Candle Resin Models for Bulk Christmas Scene Sets | RW25941",
+      "metaDescription": "Translucent miniature candle-shaped resin models with star toppers for coordinated Christmas scene assortments. Resin; approx. 24 × 41 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 24 × 41 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Doll House Miniature Star Candle Model for Christmas Scene Home Decoration Accessories Toy Doll House Accessories",
+        "material": "Resin",
+        "size": "approx. 24 × 41 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25941"
+      },
+      "sourceProductId": "1601601527160",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Doll-House-Miniature-Star-Candle-Model_1601601527160.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw25941",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw25941-mini-star-candle-resin-models-christmas",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25944",
+      "title": "Bear and Rabbit Toast Resin Cabochons for Bulk Craft Selection – RW25944",
+      "originalTitle": "100Pcs Mini Resin Cartoon Bear Rabbit Toast Bread Cabochons Flat Back Diy Deco Parts for Hair Bows Jewelry Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Tiny toast pieces with cute animal faces and toppings for phone cases, journals and bakery-theme crafts. Product code RW25944",
+      "description": "RW25944 is a miniature toast-bread resin cabochon assortment with rabbit, bear, tomato and bow motifs, measuring 13 × 18 mm and supplied in 100pcs/bag packing. The coordinated toasted edges and molded toppings suit phone-case decoration, hair-bow parts and bakery-theme accessory ranges. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW25944 is a miniature toast-bread resin cabochon assortment with rabbit, bear, tomato and bow motifs, measuring 13 × 18 mm and supplied in 100pcs/bag packing. The coordinated toasted edges and molded toppings suit phone-case decoration, hair-bow parts and bakery-theme accessory ranges. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW25944",
+      "keySellingPoints": [
+        "Product code: RW25944",
+        "Material: Resin",
+        "Dimensions: approx. 13 × 18 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25944",
+        "Material: Resin",
+        "Dimensions: approx. 13 × 18 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 13 × 18 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25944, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Mix RW25944 toast-bread resin cabochons into a bakery-theme phone-case or journal layout. Each source piece measures 13 × 18 mm and the source packing unit is 100pcs/bag. Phone case, ribbon, paper and all other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini bear and rabbit toast resin cabochons, wholesale craft components",
+      "metaTitle": "Bear and Rabbit Toast Resin Cabochons for Bulk Craft Selection | RW25944",
+      "metaDescription": "Mini toast-bread cabochons with rabbit, bear, tomato and bow motifs for coordinated bakery-theme assortments. Resin; approx. 13 × 18 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 13 × 18 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Mini Resin Cartoon Bear Rabbit Toast Bread Cabochons Flat Back Diy Deco Parts for Hair Bows Jewelry Accessories",
+        "material": "Resin",
+        "size": "approx. 13 × 18 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25944"
+      },
+      "sourceProductId": "1601601520346",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Mini-Resin-Cartoon-Bear-Rabbit_1601601520346.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw25944",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw25944-mini-bear-and-rabbit-toast-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW25966",
+      "title": "Assorted Mini Cake and Bread Resin Models for Bulk Craft Sets – RW25966",
+      "originalTitle": "Doll House Kitchen Accessories Miniature Cake Bread Simulated Dessert Kid Play Toy",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Tiny cakes, breads and glazed pastries for dollhouse cafes, miniature kitchens and bakery scenes. Product code RW25966",
+      "description": "RW25966 is an assorted miniature bakery resin range showing roll cake, glazed square cakes, berry-topped pastry, chocolate-drizzle pastry, braided bread and an egg-style toast design. The source size is about 15 mm and the source packing unit is 100pcs/bag. The assortment supports dollhouse, miniature-cafe and bakery-theme craft selections. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW25966 is an assorted miniature bakery resin range showing roll cake, glazed square cakes, berry-topped pastry, chocolate-drizzle pastry, braided bread and an egg-style toast design. The source size is about 15 mm and the source packing unit is 100pcs/bag. The assortment supports dollhouse, miniature-cafe and bakery-theme craft selections. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW25966",
+      "keySellingPoints": [
+        "Product code: RW25966",
+        "Material: Resin",
+        "Dimensions: approx. 15 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW25966",
+        "Material: Resin",
+        "Dimensions: approx. 15 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 15 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW25966, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Build a varied dollhouse bakery counter with RW25966 miniature resin cakes and breads. The source size is about 15 mm and the source packing unit is 100pcs/bag. Display tray, furniture, flowers and all other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "assorted mini cake and bread resin models, wholesale craft components",
+      "metaTitle": "Assorted Mini Cake and Bread Resin Models for Bulk Craft Sets | RW25966",
+      "metaDescription": "Miniature cake and bread resin models with varied glaze, berry and pastry details for coordinated bakery assortments. Resin; approx. 15 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 15 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Doll House Kitchen Accessories Miniature Cake Bread Simulated Dessert Kid Play Toy",
+        "material": "Resin",
+        "size": "approx. 15 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW25966"
+      },
+      "sourceProductId": "1601601098557",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Doll-House-Kitchen-Accessories-Miniature-Cake_1601601098557.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw25966",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw25966-assorted-mini-cake-and-bread-resin-models",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26035",
+      "title": "Cartoon Pig Traffic Sign Resin Cabochons for Bulk Craft Sets – RW26035",
+      "originalTitle": "100Pcs Cartoon Mini Road Traffic Signs Resin Flatback Cabochon for DIY Phone Case Slime Charms Decor",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Small yellow pig-face traffic-sign pieces for phone cases, slime themes and playful DIY layouts. Product code RW26035",
+      "description": "RW26035 features yellow flat-back resin traffic-sign cabochons with pale pink pig faces, orange accents and black caution details. The source size range is about 10–23 mm and the source packing unit is 100pcs/bag. The design suits novelty phone-case decoration, slime charm ranges and coordinated kawaii craft assortments. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW26035 features yellow flat-back resin traffic-sign cabochons with pale pink pig faces, orange accents and black caution details. The source size range is about 10–23 mm and the source packing unit is 100pcs/bag. The design suits novelty phone-case decoration, slime charm ranges and coordinated kawaii craft assortments. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW26035",
+      "keySellingPoints": [
+        "Product code: RW26035",
+        "Material: Resin",
+        "Dimensions: approx. 10–23 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26035",
+        "Material: Resin",
+        "Dimensions: approx. 10–23 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 10–23 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26035, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Use RW26035 yellow pig traffic-sign resin cabochons as bright accents on a phone-case layout or playful slime-theme craft. The source size range is about 10–23 mm and the source packing unit is 100pcs/bag. Phone case, flowers, tweezers and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "cartoon pig traffic sign resin cabochons, wholesale craft components",
+      "metaTitle": "Cartoon Pig Traffic Sign Resin Cabochons for Bulk Craft Sets | RW26035",
+      "metaDescription": "Yellow cartoon traffic-sign cabochons with pig faces and black caution details for coordinated novelty assortments. Resin; approx. 10–23 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 10–23 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Cartoon Mini Road Traffic Signs Resin Flatback Cabochon for DIY Phone Case Slime Charms Decor",
+        "material": "Resin",
+        "size": "approx. 10–23 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26035"
+      },
+      "sourceProductId": "1601629517667",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Cartoon-Mini-Road-Traffic-Signs_1601629517667.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw26035",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw26035-cartoon-pig-traffic-sign-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26133",
+      "title": "Mini Potato Snack Basket Resin Ornaments for Bulk Craft Sets – RW26133",
+      "originalTitle": "Miniature Doll House Food Toys Realistic Mini Potato Tower Sweet Dessert Crafts for Kitchen Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Tiny potato-snack baskets with sauce details for dollhouse cafes, miniature kitchens and food-theme scenes. Product code RW26133",
+      "description": "RW26133 features miniature potato-snack resin ornaments in small patterned basket forms, measuring 17 × 28 mm and supplied in 100pcs/bag packing. The source range shows golden potato pieces with sauce details and coordinated red, tan and brown basket colors for miniature food, dollhouse kitchen and novelty craft assortments. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW26133 features miniature potato-snack resin ornaments in small patterned basket forms, measuring 17 × 28 mm and supplied in 100pcs/bag packing. The source range shows golden potato pieces with sauce details and coordinated red, tan and brown basket colors for miniature food, dollhouse kitchen and novelty craft assortments. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW26133",
+      "keySellingPoints": [
+        "Product code: RW26133",
+        "Material: Resin",
+        "Dimensions: approx. 17 × 28 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26133",
+        "Material: Resin",
+        "Dimensions: approx. 17 × 28 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 17 × 28 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26133, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Style a miniature cafe counter with RW26133 potato-snack basket resin ornaments. The source size is 17 × 28 mm and the source packing unit is 100pcs/bag. Dollhouse furniture, trays, table coverings and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini potato snack basket resin ornaments, wholesale craft components",
+      "metaTitle": "Mini Potato Snack Basket Resin Ornaments for Bulk Craft Sets | RW26133",
+      "metaDescription": "Miniature potato-snack baskets with sauce details for coordinated dollhouse food assortments. Resin; approx. 17 × 28 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 17 × 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Miniature Doll House Food Toys Realistic Mini Potato Tower Sweet Dessert Crafts for Kitchen Accessories",
+        "material": "Resin",
+        "size": "approx. 17 × 28 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26133"
+      },
+      "sourceProductId": "1601701974650",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Miniature-Doll-House-Food-Toys-Realistic_1601701974650.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw26133",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw26133-mini-potato-snack-basket-resin-ornaments",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26305",
+      "title": "Translucent Simulated Food Resin Cabochons for Bulk Craft Sets – RW26305",
+      "originalTitle": "Simulated Food Play Resin Cabochon Crafts for DIY Jewelry Making 100pcs Wholesale Decoration Accessory",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Translucent simulated-food resin pieces for miniature scenes, scrapbook layouts and playful DIY decoration. Product code RW26305",
+      "description": "RW26305 is a colorful translucent simulated-food resin cabochon range measuring about 39 × 19 mm and supplied in 100pcs/bag packing. The source photo shows pink, blue, yellow, purple and red pieces suited to coordinated miniature-food themes, display crafts and mixed resin assortments. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW26305 is a colorful translucent simulated-food resin cabochon range measuring about 39 × 19 mm and supplied in 100pcs/bag packing. The source photo shows pink, blue, yellow, purple and red pieces suited to coordinated miniature-food themes, display crafts and mixed resin assortments. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW26305",
+      "keySellingPoints": [
+        "Product code: RW26305",
+        "Material: Resin",
+        "Dimensions: approx. 39 × 19 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26305",
+        "Material: Resin",
+        "Dimensions: approx. 39 × 19 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 39 × 19 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26305, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Build a bright miniature-food scene with RW26305 translucent resin cabochons in pink, blue, yellow, purple and red. The source size is about 39 × 19 mm and the source packing unit is 100pcs/bag. Use them for miniature displays, scrapbook accents or playful craft layouts; the serving board, tray and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "colorful simulated food resin cabochons, wholesale craft components",
+      "metaTitle": "Translucent Simulated Food Resin Cabochons for Bulk Craft Sets | RW26305",
+      "metaDescription": "Colorful translucent simulated-food resin pieces for coordinated miniature and craft assortments. Resin; approx. 39 × 19 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 39 × 19 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Simulated Food Play Resin Cabochon Crafts for DIY Jewelry Making 100pcs Wholesale Decoration Accessory",
+        "material": "Resin",
+        "size": "approx. 39 × 19 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26305"
+      },
+      "sourceProductId": "1601832227716",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Simulated-Food-Play-Resin-Cabochon-Crafts_1601832227716.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw26305",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw26305-colorful-simulated-food-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26332",
+      "title": "Fast Food Menu Book Resin Cabochons for Bulk Craft Sets – RW26332",
+      "originalTitle": "100pcs Cute Fast Food Menu Cabochons Multicolor Mini Books Scrapbooking DIY Stickers Children Kids Toys",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Tiny open-menu resin pieces for scrapbook pages, miniature scenes and playful food-theme DIY. Product code RW26332",
+      "description": "RW26332 consists of miniature fast-food menu book resin cabochons, measuring 20 × 30 mm and supplied in 100pcs/bag packing. The source assortment combines open-book shapes with colorful printed food motifs for coordinated novelty craft ranges, scrapbook decoration and miniature-theme displays. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW26332 consists of miniature fast-food menu book resin cabochons, measuring 20 × 30 mm and supplied in 100pcs/bag packing. The source assortment combines open-book shapes with colorful printed food motifs for coordinated novelty craft ranges, scrapbook decoration and miniature-theme displays. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW26332",
+      "keySellingPoints": [
+        "Product code: RW26332",
+        "Material: Resin",
+        "Dimensions: approx. 20 × 30 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26332",
+        "Material: Resin",
+        "Dimensions: approx. 20 × 30 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 20 × 30 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26332, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Add a playful restaurant detail to journals or miniature scenes with RW26332 fast-food menu book resin cabochons. Each source piece measures 20 × 30 mm; the source packing unit is 100pcs/bag. Journal paper, tweezers and all other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "mini fast food menu book resin cabochons, wholesale craft components",
+      "metaTitle": "Fast Food Menu Book Resin Cabochons for Bulk Craft Sets | RW26332",
+      "metaDescription": "Miniature open-menu resin cabochons in coordinated red, pink, yellow and white colorways. Resin; approx. 20 × 30 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 20 × 30 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100pcs Cute Fast Food Menu Cabochons Multicolor Mini Books Scrapbooking DIY Stickers Children Kids Toys",
+        "material": "Resin",
+        "size": "approx. 20 × 30 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26332"
+      },
+      "sourceProductId": "1601295838173",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100pcs-Cute-Fast-Food-Menu-Cabochons_1601295838173.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw26332",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw26332-mini-fast-food-menu-book-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26343",
+      "title": "White Rocket Resin Ornaments for Bulk Space-Theme Craft Sets – RW26343",
+      "originalTitle": "100Pcs Space Rocket Figure Ornament Miniature Resin Craft DIY Accessories Decoration",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Three-dimensional white rocket pieces with bright flame details for space-theme displays and DIY scenes. Product code RW26343",
+      "description": "RW26343 features white rocket resin ornaments with red nose cones and yellow-to-red flame details, measuring about 50 × 30 × 20 mm and supplied in 100pcs/bag packing. The larger three-dimensional form suits coordinated space-theme displays and craft assortments. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW26343 features white rocket resin ornaments with red nose cones and yellow-to-red flame details, measuring about 50 × 30 × 20 mm and supplied in 100pcs/bag packing. The larger three-dimensional form suits coordinated space-theme displays and craft assortments. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW26343",
+      "keySellingPoints": [
+        "Product code: RW26343",
+        "Material: Resin",
+        "Dimensions: approx. 50 × 30 × 20 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26343",
+        "Material: Resin",
+        "Dimensions: approx. 50 × 30 × 20 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 50 × 30 × 20 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26343, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Build a space-theme display with RW26343 white rocket resin ornaments, finished with red nose cones and yellow-to-red flame details. The source size is about 50 × 30 × 20 mm and the source packing unit is 100pcs/bag. Paper stars, cards and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "white rocket resin ornaments space theme, wholesale craft components",
+      "metaTitle": "White Rocket Resin Ornaments for Bulk Space-Theme Craft Sets | RW26343",
+      "metaDescription": "White rocket resin ornaments with red noses and yellow-to-red flame details for coordinated space-theme assortments. Resin; approx. 50 × 30 × 20 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 50 × 30 × 20 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Space Rocket Figure Ornament Miniature Resin Craft DIY Accessories Decoration",
+        "material": "Resin",
+        "size": "approx. 50 × 30 × 20 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26343"
+      },
+      "sourceProductId": "1601806568741",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Space-Rocket-Figure-Ornament-Miniature_1601806568741.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw26343",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw26343-white-rocket-resin-ornaments-space-theme",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26397",
+      "title": "Strawberry Bear Egg Tart Resin Cabochons for Bulk Craft Selection – RW26397",
+      "originalTitle": "Kawaii Strawberry Bear Egg Tart Miniature Sweet Food Play Resin Cabochon DIY Dollhouse Kichen Play Decor Making Accessory",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Kawaii strawberry-tart resin pieces with bear and cat motifs for phone cases and dessert-theme crafts. Product code RW26397",
+      "description": "RW26397 features strawberry egg-tart resin cabochons with bear and cat motifs, measuring 25 × 28 mm and supplied in 100pcs/bag packing. The source range supports coordinated dessert, bakery and kawaii craft assortments for phone-case decoration and small handmade accessories. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW26397 features strawberry egg-tart resin cabochons with bear and cat motifs, measuring 25 × 28 mm and supplied in 100pcs/bag packing. The source range supports coordinated dessert, bakery and kawaii craft assortments for phone-case decoration and small handmade accessories. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW26397",
+      "keySellingPoints": [
+        "Product code: RW26397",
+        "Material: Resin",
+        "Dimensions: approx. 25 × 28 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26397",
+        "Material: Resin",
+        "Dimensions: approx. 25 × 28 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 25 × 28 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26397, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Arrange RW26397 strawberry egg-tart resin cabochons around a phone-case layout, scrapbook page or dessert-theme DIY accessory. Each piece measures 25 × 28 mm; the source packing unit is 100pcs/bag. The phone case, tweezers and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "strawberry bear egg tart resin cabochons, wholesale craft components",
+      "metaTitle": "Strawberry Bear Egg Tart Resin Cabochons for Bulk Craft Selection | RW26",
+      "metaDescription": "Strawberry-tart resin cabochons with bear and cat motifs for coordinated dessert-theme assortments. Resin; approx. 25 × 28 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 25 × 28 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "Kawaii Strawberry Bear Egg Tart Miniature Sweet Food Play Resin Cabochon DIY Dollhouse Kichen Play Decor Making Accessory",
+        "material": "Resin",
+        "size": "approx. 25 × 28 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26397"
+      },
+      "sourceProductId": "1601394261255",
+      "sourceUrl": "https://www.alibaba.com/product-detail/Kawaii-Strawberry-Bear-Egg-Tart-Miniature_1601394261255.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw26397",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw26397-strawberry-bear-egg-tart-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    },
+    {
+      "sku": "RW26451",
+      "title": "Shiny Cat Biscuits Series Resin Cabochons for Bulk Craft Selection – RW26451",
+      "originalTitle": "100Pcs Shiny Cat Biscuits Series Flat Back Charms for Earrings Bracelet Hairpin DIY Jewelry Pendants Decoration Accessories",
+      "type": "Decorative",
+      "categorySlug": "resin-charms",
+      "imageAlt": "Glossy pastel animal-character pieces for phone cases, scrapbook layouts and cute DIY decoration. Product code RW26451",
+      "description": "RW26451 is the source-listed Cat Biscuits series of glossy animal-character resin cabochons, measuring 18 × 23 mm and supplied in 100pcs/bag packing. The source photo shows a coordinated pastel assortment suitable for kawaii craft ranges, phone-case decoration and small handmade accessories. Request current bulk selection and packing options through the quote form.",
+      "detailedDescription": "RW26451 is the source-listed Cat Biscuits series of glossy animal-character resin cabochons, measuring 18 × 23 mm and supplied in 100pcs/bag packing. The source photo shows a coordinated pastel assortment suitable for kawaii craft ranges, phone-case decoration and small handmade accessories. Request current bulk selection and packing options through the quote form.",
+      "seasonalTheme": "Resin craft components — RW26451",
+      "keySellingPoints": [
+        "Product code: RW26451",
+        "Material: Resin",
+        "Dimensions: approx. 18 × 23 mm",
+        "Reference pack: 100 pcs/bag"
+      ],
+      "specificationLines": [
+        "Product code: RW26451",
+        "Material: Resin",
+        "Dimensions: approx. 18 × 23 mm",
+        "Reference pack: 100 pcs/bag",
+        "Attachment: Confirm the attachment method for the intended project.",
+        "Selection: Confirm the available design or color assortment in the quotation.",
+        "MOQ and dispatch timing: Confirm in your quotation"
+      ],
+      "material": "Resin",
+      "dimensions": "approx. 18 × 23 mm",
+      "sourcePacking": "100 pcs/bag",
+      "customizationOptions": "For RW26451, describe any requested design, assortment or packing changes. Confirm feasibility, sample approval, minimum quantity and lead time for your specific brief.",
+      "recommendedApplications": "Create a pastel character layout with RW26451 glossy resin cabochons from the Cat Biscuits source series. The source size is 18 × 23 mm and the source packing unit is 100pcs/bag. Use them for phone-case decoration, scrapbook accents or small DIY accessories; ribbon, paper and other scene props are not included.",
+      "packagingMoq": "Reference packing: 100 pcs/bag. This is not the MOQ. Confirm bag quantities, assortment and destination in your quotation.",
+      "seoKeywords": "animal resin cabochons, wholesale craft components",
+      "metaTitle": "Shiny Cat Biscuits Series Resin Cabochons for Bulk Craft Selection | RW2",
+      "metaDescription": "Glossy pastel animal-character resin cabochons from the Cat Biscuits source series for coordinated craft assortments. Resin; approx. 18 × 23 mm; reference pack 100 pcs/bag.",
+      "structuredSpecifications": true,
+      "verifiedStructuredSpecifications": {
+        "material": "Resin",
+        "size": "approx. 18 × 23 mm",
+        "additionalProperty": [
+          {
+            "@type": "PropertyValue",
+            "name": "Standard pack",
+            "value": "100 pcs/bag"
+          }
+        ]
+      },
+      "sourceJson": "Monica owner export, same-SKU verified facts (batch 54 reviewed manifest)",
+      "sourceFileSha256": "99f63ecdb52aa6429b3c1986544977fe9e741a840b3391287b5795a4217c24ee",
+      "sourceFields": {
+        "title": "100Pcs Shiny Cat Biscuits Series Flat Back Charms for Earrings Bracelet Hairpin DIY Jewelry Pendants Decoration Accessories",
+        "material": "Resin",
+        "size": "approx. 18 × 23 mm",
+        "packaging": "100 pcs/bag",
+        "sku_raw": "MO-RW26451"
+      },
+      "sourceProductId": "1601043768360",
+      "sourceUrl": "https://www.alibaba.com/product-detail/100Pcs-Shiny-Cat-Biscuits-Series-Flat_1601043768360.html",
+      "materialBasis": "Explicit Resin in the same-SKU source record.",
+      "assetKey": "rw26451",
+      "assetDirectory": "batch-20261116-monica-54",
+      "imagePrefix": "rw26451-animal-resin-cabochons",
+      "imageExtensions": [
+        "jpg",
+        "jpg",
+        "jpg"
+      ],
+      "imageDimensions": [
+        {
+          "width": 350,
+          "height": 350
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        },
+        {
+          "width": 1000,
+          "height": 1000
+        }
+      ],
+      "preserveImageRatio": true,
+      "galleryOrder": [
+        1,
+        2,
+        3
+      ],
+      "galleryLabels": [
+        "Original product photograph",
+        "Generated application reference",
+        "Generated detail reference"
+      ],
+      "galleryNote": "Application and detail images are generated references based on the original product photo. Styling props are not included.",
+      "mediaLabel": "Product reference and buying details",
+      "factsUpdatedAt": "2026-11-16",
+      "holeDescription": "Confirm the attachment method for the intended project.",
+      "preserveApprovedContent": true
+    }
+  ]
+}

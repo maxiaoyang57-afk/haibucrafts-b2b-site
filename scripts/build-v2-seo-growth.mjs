@@ -139,7 +139,7 @@ const categoryPlans = {
     hubHeading: "Wholesale polymer clay slices and sprinkles for repeatable craft programs.",
     hubId: "buyer-resources",
     hubCopy: "Use this page for polymer clay slices, polymer clay craft slices and bulk sprinkle mixes sold as a repeat-purchase material family. Compare motif, slice size, color mix, mix ratio and pack format before sampling. For slime-brand programs, shortlist several SKUs first, then confirm repeat-order consistency, packing requirements and destination in one sourcing brief; use the Slime Charms or Resin Charms hubs when the buying brief is for finished decorative charms instead.",
-    lastModified: '2026-11-15',
+    lastModified: '2026-11-16',
     resources: [
       ["/v2-preview/products/polymer-clay-slices/polymer-clay-sprinkles-wholesale/", "Polymer Clay Sprinkles Wholesale"],
       ["/v2-preview/blog/polymer-clay-slice-buying-guide/", "Polymer Clay Slice Buying Guide"],
@@ -154,6 +154,8 @@ const categoryPlans = {
         <li><strong>Fruit-themed slime.</strong> Start with <a href="/v2-preview/products/polymer-clay-slices/yx053-dragon-fruit-polymer-clay-slices-for-bulk-craft-sourcing-yx053/">YX053 dragon fruit slices</a>, listed at 5 mm with a 500 g bag as the reference pack. Test how visible the fruit pattern is in your planned slime base.</li>
         <li><strong>Small botanical accents.</strong> Shortlist <a href="/v2-preview/products/polymer-clay-slices/yx329-green-leaf-polymer-clay-slices-for-bulk-craft-sourcing-yx329/">YX329 green leaf slices</a>, listed at 5 mm with a 500 g bag as the reference pack. Measure a sample for thickness and fit before using it in a shallow shaker or adding it to a kit.</li>
         <li><strong>Christmas craft kits.</strong> Sample <a href="/v2-preview/products/polymer-clay-slices/yx4109-wholesale-500-g-christmas-polymer-clay-slices-with-candy-cane-tree-gingerbread-designs/">YX4109 candy cane, tree and gingerbread mix</a>, with a 500 g reference pack. If each retail kit needs all three motifs, agree on the assortment and inner packing before a bulk order.</li>
+        <li><strong>Heart-themed assortments.</strong> Compare <a href="/v2-preview/products/polymer-clay-slices/yx006-plain-heart-polymer-clay-slices-for-bulk-craft-sourcing-yx006/">YX006 heart slices</a>, listed at 6 mm with a 500 g reference bag. Check the selected color and quantity per kit against a sample.</li>
+        <li><strong>Small Christmas accents.</strong> Review <a href="/v2-preview/products/polymer-clay-slices/yx273-red-christmas-hat-polymer-clay-slices-for-bulk-craft-selection-yx273/">YX273 Christmas hat slices</a>, listed at 4 × 6 mm with a 500 g reference bag. Confirm thickness and packing for your project.</li>
       </ul>
     </div>`,
   },
@@ -167,8 +169,8 @@ const categoryPlans = {
     listName: 'Bulk Slime Charms Wholesale Catalog',
     hubHeading: 'Bulk slime charms for slime brands, sensory kits and retail assortments.',
     hubCopy: 'Use this page when the buying intent is decorative charms and add-ins for slime or sensory-kit programs. For flatback resin cabochons selected mainly for decoden, phone cases, hair accessories or other craft decoration, use the Resin Charms catalog instead.',
-    hubExtraMarkup: '<p>For a SKU-specific packing example, <a href="/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/">review SLM26529 and its confirmed pack details</a>. Confirm each selected mix separately rather than applying one product&#39;s pack weight to the full range.</p>',
-    lastModified: '2026-10-31',
+    hubExtraMarkup: '<p>For a SKU-specific packing example, <a href="/v2-preview/products/slime-charms/slm26529-wholesale-christmas-slime-filler-mix-with-polymer-clay-sprinkles-resin-gingerbread-charms/">review SLM26529 and its confirmed 5 g bag</a>. Compare <a href="/v2-preview/products/slime-charms/slm10093-mermaid-tail-and-candy-stars-mix/">SLM10093 mermaid mix</a>, <a href="/v2-preview/products/slime-charms/slm10094-pink-knife-and-candy-decor-charms/">SLM10094 Halloween mix</a>, <a href="/v2-preview/products/slime-charms/slm10012-sweet-berry-candy-charms/">SLM10012 strawberry mix</a> and <a href="/v2-preview/products/slime-charms/slm717-mini-snack-layout-charms/">SLM717 snack-themed mix</a>. Confirm components, sizes and packing separately for each SKU.</p>',
+    lastModified: '2026-11-16',
     selectionHeading: 'Compare the contents of a bulk slime charm mix',
     selection: [
       ['Clay slices and focal charms', 'Check which components are included and whether they are packed together or separately. A product photograph does not establish the number of focal charms in each bag.'],
@@ -197,7 +199,8 @@ const categoryPlans = {
     listName: 'Bulk Resin Charms Wholesale Catalog',
     hubHeading: "Bulk resin flatbacks and cabochons for decoden and craft decoration.",
     hubCopy: "Use this page when the buying intent is resin flatbacks, cabochons and decorative miniatures selected by backing style, finish and size for decoden, phone cases, hair accessories and DIY embellishment. For slime-specific charm assortments, use the Slime Charms hub instead.",
-    lastModified: '2026-10-04',
+    hubExtraMarkup: '<p>Start a shortlist with <a href="/v2-preview/products/resin-charms/rw22372-frosted-cookie-resin-charms/">RW22372 cookie flatbacks</a>, <a href="/v2-preview/products/resin-charms/rw4252-bright-jelly-bean-charms-mix/">RW4252 jelly beans</a>, <a href="/v2-preview/products/resin-charms/rw003223-iridescent-ocean-animal-charms/">RW003223 ocean animals</a>, <a href="/v2-preview/products/resin-charms/rw26800-wholesale-mini-christmas-gingerbread-resin-figures-for-slime-crafts-holiday-decorations/">RW26800 gingerbread figures</a> and <a href="/v2-preview/products/resin-charms/rw26801-mini-fried-egg-resin-cabochons/">RW26801 fried eggs</a>. Check the reverse, dimensions and intended attachment on each selected sample before confirming a mixed-SKU order.</p>',
+    lastModified: '2026-11-16',
     resources: [
       ["/v2-preview/blog/resin-charms-wholesale-buying-guide/", "Resin Charms Buying Guide"],
       ["/v2-preview/blog/wholesale-resin-charms-for-phone-cases/", "Phone Case Resin Charm Sourcing and Samples"],

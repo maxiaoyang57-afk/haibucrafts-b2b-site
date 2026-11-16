@@ -1,6 +1,6 @@
 {
   "generatedAt": "2026-10-22",
-  "count": 1182,
+  "count": 1183,
   "products": [
     {
       "sku": "YX053",
@@ -4657,6 +4657,21 @@
       ],
       "previewPath": "/v2-preview/products/resin-charms/ym121-red-polka-dot-mushroom-resin-craft-components-for-bulk-assortments-ym121/",
       "productionPath": "/products/resin-charms-for-slime/ym121-red-polka-dot-mushroom-resin-craft-components-for-bulk-assortments-ym121/"
+    },
+    {
+      "sku": "RW5800",
+      "title": "Mini Woven Basket Resin Ornaments for Bulk Craft Assortments – RW5800",
+      "category": "resin-charms",
+      "categoryLabel": "Resin Charms",
+      "type": "Decorative",
+      "image": "/assets/images/products/batch-20261116-monica-59/rw5800/rw5800-mini-woven-basket-resin-pieces-micro-landscape-01.jpg",
+      "gallery": [
+        "/assets/images/products/batch-20261116-monica-59/rw5800/rw5800-mini-woven-basket-resin-pieces-micro-landscape-01.jpg",
+        "/assets/images/products/batch-20261116-monica-59/rw5800/rw5800-mini-woven-basket-resin-pieces-micro-landscape-02.jpg",
+        "/assets/images/products/batch-20261116-monica-59/rw5800/rw5800-mini-woven-basket-resin-pieces-micro-landscape-03.jpg"
+      ],
+      "previewPath": "/v2-preview/products/resin-charms/rw5800-mini-woven-basket-resin-ornaments-for-bulk-craft-assortments-rw5800/",
+      "productionPath": "/products/resin-charms-for-slime/rw5800-mini-woven-basket-resin-ornaments-for-bulk-craft-assortments-rw5800/"
     },
     {
       "sku": "RW004303",

@@ -2276,6 +2276,13 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw5800-mini-woven-basket-resin-ornaments-for-bulk-craft-assortments-rw5800/index.html",
+      "destination": "products/resin-charms-for-slime/rw5800-mini-woven-basket-resin-ornaments-for-bulk-craft-assortments-rw5800/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw5800-mini-woven-basket-resin-ornaments-for-bulk-craft-assortments-rw5800/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw004303-glitter-butterfly-wing-resin-flatbacks-for-bulk-craft-sourcing-rw004303/index.html",
       "destination": "products/resin-charms-for-slime/rw004303-glitter-butterfly-wing-resin-flatbacks-for-bulk-craft-sourcing-rw004303/index.html",
       "action": "create",

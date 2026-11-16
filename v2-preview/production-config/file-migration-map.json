@@ -1576,6 +1576,146 @@
       "generatedProduct": true
     },
     {
+      "source": "v2-preview/products/resin-charms/rw001759-cartoon-coffee-dessert-resin-cabochons-for-bulk-craft-sets-rw001759/index.html",
+      "destination": "products/resin-charms-for-slime/rw001759-cartoon-coffee-dessert-resin-cabochons-for-bulk-craft-sets-rw001759/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw001759-cartoon-coffee-dessert-resin-cabochons-for-bulk-craft-sets-rw001759/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002276-colorful-mini-cream-cake-resin-cabochons-for-bulk-craft-sets-rw002276/index.html",
+      "destination": "products/resin-charms-for-slime/rw002276-colorful-mini-cream-cake-resin-cabochons-for-bulk-craft-sets-rw002276/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002276-colorful-mini-cream-cake-resin-cabochons-for-bulk-craft-sets-rw002276/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw002804-translucent-bow-strawberry-resin-cabochons-for-bulk-craft-sets-rw002804/index.html",
+      "destination": "products/resin-charms-for-slime/rw002804-translucent-bow-strawberry-resin-cabochons-for-bulk-craft-sets-rw002804/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw002804-translucent-bow-strawberry-resin-cabochons-for-bulk-craft-sets-rw002804/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw004274-cute-lying-animal-resin-flatback-cabochons-for-bulk-craft-sets-rw004274/index.html",
+      "destination": "products/resin-charms-for-slime/rw004274-cute-lying-animal-resin-flatback-cabochons-for-bulk-craft-sets-rw004274/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw004274-cute-lying-animal-resin-flatback-cabochons-for-bulk-craft-sets-rw004274/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw22940-translucent-fantasy-castle-resin-ornaments-for-bulk-garden-sets-rw22940/index.html",
+      "destination": "products/resin-charms-for-slime/rw22940-translucent-fantasy-castle-resin-ornaments-for-bulk-garden-sets-rw22940/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw22940-translucent-fantasy-castle-resin-ornaments-for-bulk-garden-sets-rw22940/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw234976-mini-wheelie-trash-bin-resin-ornaments-for-bulk-scene-sets-rw234976/index.html",
+      "destination": "products/resin-charms-for-slime/rw234976-mini-wheelie-trash-bin-resin-ornaments-for-bulk-scene-sets-rw234976/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw234976-mini-wheelie-trash-bin-resin-ornaments-for-bulk-scene-sets-rw234976/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25219-pastel-cat-wishing-bottle-resin-charms-for-bulk-craft-selection-rw25219/index.html",
+      "destination": "products/resin-charms-for-slime/rw25219-pastel-cat-wishing-bottle-resin-charms-for-bulk-craft-selection-rw25219/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25219-pastel-cat-wishing-bottle-resin-charms-for-bulk-craft-selection-rw25219/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25727-mini-silver-baking-mold-resin-models-for-bulk-dollhouse-sets-rw25727/index.html",
+      "destination": "products/resin-charms-for-slime/rw25727-mini-silver-baking-mold-resin-models-for-bulk-dollhouse-sets-rw25727/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25727-mini-silver-baking-mold-resin-models-for-bulk-dollhouse-sets-rw25727/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25913-pink-monster-rabbit-resin-cabochons-for-bulk-craft-sets-rw25913/index.html",
+      "destination": "products/resin-charms-for-slime/rw25913-pink-monster-rabbit-resin-cabochons-for-bulk-craft-sets-rw25913/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25913-pink-monster-rabbit-resin-cabochons-for-bulk-craft-sets-rw25913/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25926-3d-banana-cake-resin-cabochons-for-bulk-bakery-craft-sets-rw25926/index.html",
+      "destination": "products/resin-charms-for-slime/rw25926-3d-banana-cake-resin-cabochons-for-bulk-bakery-craft-sets-rw25926/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25926-3d-banana-cake-resin-cabochons-for-bulk-bakery-craft-sets-rw25926/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25941-mini-star-candle-resin-models-for-bulk-christmas-scene-sets-rw25941/index.html",
+      "destination": "products/resin-charms-for-slime/rw25941-mini-star-candle-resin-models-for-bulk-christmas-scene-sets-rw25941/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25941-mini-star-candle-resin-models-for-bulk-christmas-scene-sets-rw25941/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25944-bear-rabbit-toast-resin-cabochons-for-bulk-craft-selection-rw25944/index.html",
+      "destination": "products/resin-charms-for-slime/rw25944-bear-rabbit-toast-resin-cabochons-for-bulk-craft-selection-rw25944/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25944-bear-rabbit-toast-resin-cabochons-for-bulk-craft-selection-rw25944/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw25966-assorted-mini-cake-bread-resin-models-for-bulk-craft-sets-rw25966/index.html",
+      "destination": "products/resin-charms-for-slime/rw25966-assorted-mini-cake-bread-resin-models-for-bulk-craft-sets-rw25966/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw25966-assorted-mini-cake-bread-resin-models-for-bulk-craft-sets-rw25966/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26035-cartoon-pig-traffic-sign-resin-cabochons-for-bulk-craft-sets-rw26035/index.html",
+      "destination": "products/resin-charms-for-slime/rw26035-cartoon-pig-traffic-sign-resin-cabochons-for-bulk-craft-sets-rw26035/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26035-cartoon-pig-traffic-sign-resin-cabochons-for-bulk-craft-sets-rw26035/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26133-mini-potato-snack-basket-resin-ornaments-for-bulk-craft-sets-rw26133/index.html",
+      "destination": "products/resin-charms-for-slime/rw26133-mini-potato-snack-basket-resin-ornaments-for-bulk-craft-sets-rw26133/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26133-mini-potato-snack-basket-resin-ornaments-for-bulk-craft-sets-rw26133/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26305-translucent-simulated-food-resin-cabochons-for-bulk-craft-sets-rw26305/index.html",
+      "destination": "products/resin-charms-for-slime/rw26305-translucent-simulated-food-resin-cabochons-for-bulk-craft-sets-rw26305/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26305-translucent-simulated-food-resin-cabochons-for-bulk-craft-sets-rw26305/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26332-fast-food-menu-book-resin-cabochons-for-bulk-craft-sets-rw26332/index.html",
+      "destination": "products/resin-charms-for-slime/rw26332-fast-food-menu-book-resin-cabochons-for-bulk-craft-sets-rw26332/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26332-fast-food-menu-book-resin-cabochons-for-bulk-craft-sets-rw26332/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26343-white-rocket-resin-ornaments-for-bulk-space-theme-craft-sets-rw26343/index.html",
+      "destination": "products/resin-charms-for-slime/rw26343-white-rocket-resin-ornaments-for-bulk-space-theme-craft-sets-rw26343/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26343-white-rocket-resin-ornaments-for-bulk-space-theme-craft-sets-rw26343/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26397-strawberry-bear-egg-tart-resin-cabochons-for-bulk-craft-selection-rw26397/index.html",
+      "destination": "products/resin-charms-for-slime/rw26397-strawberry-bear-egg-tart-resin-cabochons-for-bulk-craft-selection-rw26397/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26397-strawberry-bear-egg-tart-resin-cabochons-for-bulk-craft-selection-rw26397/",
+      "generatedProduct": true
+    },
+    {
+      "source": "v2-preview/products/resin-charms/rw26451-shiny-cat-biscuits-series-resin-cabochons-for-bulk-craft-selection-rw26451/index.html",
+      "destination": "products/resin-charms-for-slime/rw26451-shiny-cat-biscuits-series-resin-cabochons-for-bulk-craft-selection-rw26451/index.html",
+      "action": "create",
+      "productionPath": "/products/resin-charms-for-slime/rw26451-shiny-cat-biscuits-series-resin-cabochons-for-bulk-craft-selection-rw26451/",
+      "generatedProduct": true
+    },
+    {
       "source": "v2-preview/products/resin-charms/rw004303-glitter-butterfly-wing-resin-flatbacks-for-bulk-craft-sourcing-rw004303/index.html",
       "destination": "products/resin-charms-for-slime/rw004303-glitter-butterfly-wing-resin-flatbacks-for-bulk-craft-sourcing-rw004303/index.html",
       "action": "create",

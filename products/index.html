@@ -30,6 +30,18 @@
       </div>
     </section>
 
+    <section class="section" aria-labelledby="catalog-search-title">
+      <div class="container">
+        <h2 id="catalog-search-title">Search all products</h2>
+        <label for="catalog-search-input">Search by name, use, material or product code</label>
+        <input id="catalog-search-input" type="search" placeholder="Try resin, slime or SLM26529" style="display:block;width:100%;max-width:680px;padding:14px;margin:12px 0" autocomplete="off">
+        <p id="catalog-search-status" role="status" aria-live="polite"></p>
+        <div id="catalog-search-results" class="product-family-grid"></div>
+        <button id="catalog-search-more" class="btn btn-light" type="button" hidden>Show more results</button>
+        <p id="catalog-search-help" hidden>Can’t find what you need? <a href="/request-quote/">Describe your requirement</a>.</p>
+      </div>
+    </section>
+
     <section class="section">
       <div class="container product-family-grid">
         <a class="product-family-card" href="/products/polymer-clay-slices-wholesale/">
@@ -108,6 +120,7 @@
     </section>
   </main>
   <div data-site-footer></div>
+  <script src="/assets/v2/catalog-search.js?v=20261118" defer></script>
   <script src="/assets/v2/components.js?v=20261030-mobile-browse"></script>
   <script src="/assets/v2/site-v2.js"></script><script src="/assets/v2/inquiry-experience.js?v=20260929-simple" defer></script>
 </body>

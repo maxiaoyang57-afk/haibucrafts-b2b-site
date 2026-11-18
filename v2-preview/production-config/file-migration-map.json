@@ -8701,6 +8701,14 @@
   ],
   "sharedAssets": [
     {
+      "source": "v2-preview/assets/catalog-search-specs.json",
+      "destination": "assets/v2/catalog-search-specs.json"
+    },
+    {
+      "source": "v2-preview/assets/catalog-search.js",
+      "destination": "assets/v2/catalog-search.js"
+    },
+    {
       "source": "v2-preview/assets/components.js",
       "destination": "assets/v2/components.js"
     },

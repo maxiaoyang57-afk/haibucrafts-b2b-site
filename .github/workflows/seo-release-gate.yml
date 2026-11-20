@@ -34,7 +34,7 @@ jobs:
       - name: Install mobile browser test runtime
         run: |
           npm install --no-save --package-lock=false @playwright/test@1.58.2
-          npx playwright install --with-deps chromium
+          npx playwright install --with-deps chromium || npx playwright install chromium
 
       - name: Verify mobile product galleries, search and quote prefills
         run: npx playwright test --config playwright.config.mjs --project=phone-${{ matrix.width }} --reporter=list,json

@@ -911,6 +911,8 @@ await writeFile(catalogPath, JSON.stringify({
   }))
 }, null, 2), 'utf8');
 
+await writeFile(path.join(previewRoot, 'assets', 'catalog-search-specs.json'), JSON.stringify(Object.fromEntries(products.map(product => [product.sku, [verifiedSpecs.products[product.sku]?.material || '', ...(product.applications || [])].filter(Boolean).join(' ') ]).filter(([, value]) => value))), 'utf8');
+
 const seoMap = JSON.parse(await readFile(seoMapPath, 'utf8'));
 const productRoutes = products.map((product) => ({
   previewPath: product.previewPath,
@@ -953,7 +955,9 @@ const requiredSharedAssets = [
   { source: 'v2-preview/assets/product-detail.css', destination: 'assets/v2/product-detail.css' },
   { source: 'v2-preview/assets/product-gallery.css', destination: 'assets/v2/product-gallery.css' },
   { source: 'v2-preview/assets/product-gallery.js', destination: 'assets/v2/product-gallery.js' },
-  { source: 'v2-preview/assets/product-catalog.json', destination: 'assets/v2/product-catalog.json' }
+  { source: 'v2-preview/assets/product-catalog.json', destination: 'assets/v2/product-catalog.json' },
+  { source: 'v2-preview/assets/catalog-search.js', destination: 'assets/v2/catalog-search.js' },
+  { source: 'v2-preview/assets/catalog-search-specs.json', destination: 'assets/v2/catalog-search-specs.json' }
 ];
 for (const asset of requiredSharedAssets) {
   if (!migrationMap.sharedAssets.some((item) => item.source === asset.source)) {

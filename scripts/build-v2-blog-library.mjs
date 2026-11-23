@@ -47,9 +47,9 @@ const articles = [
     slug: 'sample-approval-checklist',
     category: 'OEM & Custom',
     title: 'Sample Approval Checklist for Custom Craft Supplies',
-    seoTitle: 'Custom Sample Approval Checklist | HAIBUCRAFT',
-    description: 'Use a written sample approval checklist to confirm appearance, dimensions, assortment, finish, packaging and controlled changes before production.',
-    dek: 'A signed-off sample should be supported by written criteria so that visual approval can be translated into repeatable production checks.',
+    seoTitle: 'Sample Approval Checklist Before Bulk Production | HAIBUCRAFT',
+    description: 'Use this sample approval checklist before bulk production to confirm the SKU, dimensions, finish, assortment, packaging and written revision version.',
+    dek: 'Use one written approval record before bulk production so the selected sample, requirements and later revisions stay traceable.',
     sections: [
       ['Record the sample identity', 'Assign a product code or project reference, revision date and image set. Keep one approved version so later comments do not refer to different samples.'],
       ['Check measurable features', 'Record dimensions, piece count, pack weight, assortment ratio and label placement. Use tolerances only when they have been discussed and approved.'],

@@ -209,7 +209,7 @@ const articles = [
     title: 'Resin Charms Wholesale Buying Guide for B2B Buyers',
     seoTitle: 'Resin Charms Wholesale Buying Guide | HAIBUCRAFT',
     datePublished: '2026-09-13',
-    dateModified: '2026-11-12',
+    dateModified: '2026-11-26',
     lastReviewed: 'October 19, 2026',
     description: 'Compare wholesale resin charms by product code, visible design, intended application, sample identity, pack unit and custom request before quotation.',
     dek: 'A clear resin charm brief helps buyers compare exact designs, build mixed assortments and confirm order-specific requirements without relying on a product image alone.',
@@ -221,6 +221,20 @@ const articles = [
       ['Plan the assortment and application', 'State whether the selected charms are intended for slime, decoden, hair accessories, keychains, scrapbooking, DIY kits or another use. If the order needs a mixed pack, define the target ratio and whether every design must appear in each selling unit.'],
       ['Prepare a quotation-ready request', 'Provide SKU list, quantity and unit, destination, packaging requirements, customization request and target arrival date. Review feasibility, final packing, MOQ, lead time and documentation scope in the written quotation before ordering.']
     ],
+    workingTable: {
+      id: 'flatback-shortlist',
+      caption: 'Compare seven resin designs for a mixed wholesale order. Pack counts are catalog references. Confirm the available mix, back shape and MOQ with your sample request.',
+      headings: ['SKU and design', 'Listed size', 'Reference pack'],
+      rows: [
+        [["RW26812 · Christmas candy mix", '/v2-preview/products/resin-charms/rw26812-christmas-candy-resin-flatback-charms/'], 'Approx. 10 mm', '100 pcs/bag'],
+        [["RW20809 · Pig and cabbage motifs", '/v2-preview/products/resin-charms/rw20809-pig-cabbage-resin-flatback-charms/'], 'Approx. 18 × 24 mm', '100 pcs/bag'],
+        [["RW2041 · Glitter heart and bow mix", '/v2-preview/products/resin-charms/rw2041-glitter-heart-bow-resin-flatbacks-wholesale/'], '5 × 18 × 25 mm', '100 pcs/bag'],
+        [["RW001287 · Little cow flatbacks", '/v2-preview/products/resin-charms/rw001287-little-cow-resin-flatbacks-rw001287/'], 'Approx. 25 mm', '100 pcs/bag'],
+        [["RW24724 · Textured-center sunflower", '/v2-preview/products/resin-charms/rw24724-25-mm-textured-center-sunflower-resin-cabochons-rw24724/'], '25 mm', '100 pcs/bag'],
+        [["RW1917 · Dessert flatback mix", '/v2-preview/products/resin-charms/rw1917-dessert-resin-flatback-mix-in-100-piece-bags/'], '20–30 mm', '100 pcs/bag'],
+        [["RW001744 · Red love heart", '/v2-preview/products/resin-charms/rw001744-red-love-heart-resin-flatback-charms/'], '35 mm', '100 pcs/bag'],
+      ]
+    },
     checklist: ['Resin charm SKU list', 'Reference images or links', 'Intended application', 'Mix ratio and pack unit', 'Packaging request', 'Destination and target date'],
     note: 'Product composition, dimensions, MOQ, lead time, packaging and documentation are confirmed for the selected product code, approved sample and destination market.',
     links: [['Phone Case Resin Charm Sourcing and Samples', '/v2-preview/blog/wholesale-resin-charms-for-phone-cases/'], ['Small Gummy Bear Cabochons RW002627', '/v2-preview/products/resin-charms/rw002627-small-colorful-gummy-bear-resin-cabochons/'], ['Large Gummy Bear Cabochons RW00655', '/v2-preview/products/resin-charms/rw00655-large-transparent-gummy-bear-resin-cabochons/'], ['Resin Charms Catalog', '/v2-preview/products/resin-charms/'], ['Compare Wholesale Craft Suppliers', '/v2-preview/blog/how-to-compare-wholesale-craft-suppliers/'], ['Custom Resin & Polymer Clay Process', '/v2-preview/blog/custom-resin-polymer-clay-development-process/']]
@@ -395,7 +409,7 @@ ${article.processOverview ? `    ${processOverview}\n` : ''}    <section class="
       <div class="container blog-article-layout">
         <article class="blog-article-body">${featuredComponents ? `\n          ${featuredComponents}` : ''}
 ${article.introduction ? `          <p class="custom-guide-intro">${escapeHtml(article.introduction)}</p>\n` : ''}${article.image ? `          <figure style="margin:0 0 32px"><img src="${escapeHtml(article.image.src)}" width="${article.image.width}" height="${article.image.height}" alt="${escapeHtml(article.image.alt)}" loading="lazy" style="display:block;width:min(100%,520px);height:auto;object-fit:contain;margin:auto"><figcaption style="margin-top:12px;font-size:14px;color:var(--muted)">${escapeHtml(article.image.caption)}</figcaption></figure>\n` : ''}          ${renderPhotoReferences(article.productReferences)}${renderProductReferences(article)}${article.sections.map(renderSection).join('\n          ')}
-${article.workingTable ? `          <div style="overflow-x:auto;margin:28px 0"><table style="width:100%;border-collapse:collapse;font-size:15px"><caption style="text-align:left;margin-bottom:12px">${escapeHtml(article.workingTable.caption)}</caption><thead><tr>${article.workingTable.headings.map(heading => `<th scope="col" style="text-align:left;padding:12px;border-bottom:2px solid var(--line)">${escapeHtml(heading)}</th>`).join('')}</tr></thead><tbody>${article.workingTable.rows.map(row => `<tr>${row.map(cell => `<td style="padding:12px;border-bottom:1px solid var(--line);vertical-align:top">${escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>\n` : ''}${article.sources ? `          <p style="font-size:14px">Technical reference: ${article.sources.map(([label, href]) => `<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('; ')}.</p>\n` : ''}          <div class="scope-note">${escapeHtml(article.note)}</div>
+${article.workingTable ? `          <div style="overflow-x:auto;margin:28px 0"><table${article.workingTable.id ? ` id="${escapeHtml(article.workingTable.id)}"` : ''} style="width:100%;border-collapse:collapse;font-size:15px"><caption style="text-align:left;margin-bottom:12px">${escapeHtml(article.workingTable.caption)}</caption><thead><tr>${article.workingTable.headings.map(heading => `<th scope="col" style="text-align:left;padding:12px;border-bottom:2px solid var(--line)">${escapeHtml(heading)}</th>`).join('')}</tr></thead><tbody>${article.workingTable.rows.map(row => `<tr>${row.map(cell => `<td style="padding:12px;border-bottom:1px solid var(--line);vertical-align:top">${Array.isArray(cell) ? `<a href="${escapeHtml(cell[1])}">${escapeHtml(cell[0])}</a>` : escapeHtml(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>\n` : ''}${article.sources ? `          <p style="font-size:14px">Technical reference: ${article.sources.map(([label, href]) => `<a href="${escapeHtml(href)}" target="_blank" rel="noopener">${escapeHtml(label)}</a>`).join('; ')}.</p>\n` : ''}          <div class="scope-note">${escapeHtml(article.note)}</div>
         </article>
         <aside class="blog-checklist-card">
           <span class="eyebrow">Working Checklist</span>

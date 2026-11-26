@@ -59,5 +59,10 @@
     if (input.value.trim()) timer = setTimeout(() => search(current), 160);
   });
   more.addEventListener('click', show);
+  const initialQuery = new URLSearchParams(location.search).get('search');
+  if (initialQuery?.trim()) {
+    input.value = initialQuery;
+    search(++revision);
+  }
 })();
 

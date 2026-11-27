@@ -8,6 +8,11 @@
   const isPreview = location.pathname.split('/')[1] === 'v2-preview';
   const catalogUrl = isPreview ? '/v2-preview/assets/product-catalog.json' : '/assets/v2/product-catalog.json';
   let data, pending, facts = {}, matches = [], shown = 0, revision = 0, timer, activeQuery = '';
+  const normalizeSearch = value => value.toLowerCase()
+    .replace(/\bphone[\s-]*cases?\b/g, 'phone case')
+    .replace(/\bflat[\s-]*backs?\b/g, 'flatback')
+    .replace(/\bcabochons\b/g, 'cabochon')
+    .replace(/\bkey[\s-]*chains?\b/g, 'keychain');
   function setMoreVisible(visible) {
     more.hidden = !visible;
     more.style.display = visible ? '' : 'none';
@@ -45,8 +50,8 @@
     status.textContent = 'Searching…';
     try {
       const products = await load(); if (current !== revision) return;
-      const terms = q.split(/\s+/);
-      matches = products.filter(p => terms.every(t => `${p.sku} ${p.title} ${p.categoryLabel} ${p.type} ${facts[p.sku] || ''}`.toLowerCase().includes(t)));
+      const terms = normalizeSearch(q).split(/\s+/);
+      matches = products.filter(p => terms.every(t => normalizeSearch(`${p.sku} ${p.title} ${p.categoryLabel} ${p.type} ${facts[p.sku] || ''}`).includes(t)));
       matches.sort((a,b) => Number(b.sku.toLowerCase() === q) - Number(a.sku.toLowerCase() === q));
       shown = 0; activeQuery = q;
       if (!matches.length) { status.textContent = 'No matching products found. Try another name, use, material or code.'; help.hidden = false; return; }

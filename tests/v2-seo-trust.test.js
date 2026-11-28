@@ -47,7 +47,7 @@ test('all buyer guides show matching author and scope-review information', async
     const isPolymerGuide = directory.name === 'polymer-clay-slice-buying-guide';
     const isCustomDevelopmentGuide = directory.name === 'custom-resin-polymer-clay-development-process';
     const isAmazonSellerGuide = directory.name === 'amazon-fba-craft-supplies-sourcing-checklist';
-    assert.equal(posting?.dateModified, isResinGuide ? '2026-11-26' : isPhoneCase ? '2026-11-12' : isKeychain ? '2026-11-10' : isPhoto ? '2026-11-10' : isStrawberry ? '2026-11-09' : isFamilyChristmas ? '2026-11-05' : isOctoberArticle ? '2026-10-17' : isCustomDevelopmentGuide ? '2026-10-14' : isAmazonSellerGuide ? '2026-09-23' : isPolymerGuide ? '2026-11-09' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
+    assert.equal(posting?.dateModified, isResinGuide ? '2026-11-28' : isPhoneCase ? '2026-11-12' : isKeychain ? '2026-11-10' : isPhoto ? '2026-11-10' : isStrawberry ? '2026-11-09' : isFamilyChristmas ? '2026-11-05' : isOctoberArticle ? '2026-10-17' : isCustomDevelopmentGuide ? '2026-10-14' : isAmazonSellerGuide ? '2026-09-23' : isPolymerGuide ? '2026-11-09' : isIssue50Seasonal ? '2026-09-09' : '2026-08-06');
     assert.match(html, /By <a href="\/v2-preview\/about\/editorial-policy\/">HAIBUCRAFT Buyer Resources<\/a>/);
     if (isCustomDevelopmentGuide || isOctoberArticle || isPolymerGuide || isFamilyChristmas || isStrawberry || isKeychain || isPhoto || isPhoneCase) assert.doesNotMatch(html, /Scope reviewed by/);
     else assert.match(html, /Scope reviewed by/);

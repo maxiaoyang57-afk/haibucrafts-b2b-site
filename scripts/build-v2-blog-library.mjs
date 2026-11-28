@@ -209,10 +209,10 @@ const articles = [
     title: 'Resin Charms Wholesale Buying Guide for B2B Buyers',
     seoTitle: 'Resin Charms Wholesale Buying Guide | HAIBUCRAFT',
     datePublished: '2026-09-13',
-    dateModified: '2026-11-26',
+    dateModified: '2026-11-28',
     lastReviewed: 'October 19, 2026',
     description: 'Compare wholesale resin charms by product code, visible design, intended application, sample identity, pack unit and custom request before quotation.',
-    dek: 'A clear resin charm brief helps buyers compare exact designs, build mixed assortments and confirm order-specific requirements without relying on a product image alone.',
+    dek: 'HAIBUCRAFT supplies wholesale resin flatbacks and reviews mixed-SKU orders. For a mixed order, compare the seven catalog references below and send the quantity per SKU, any required mix ratio and the destination. Ask for a packing and sample quotation if every retail bag needs specific designs.',
     sections: [
       ['Start with exact product codes', 'Use the Resin Charms catalog to shortlist the visible designs you need, then include the SKU and product link in the inquiry. For a mixed range, list each code separately instead of describing the whole order only by theme.'],
       ['Compare small and large catalog references', 'For a gummy bear assortment, start with RW002627 Small Colorful Gummy Bear Resin Cabochons and RW00655 Large Transparent Gummy Bear Resin Cabochons, linked below. Treat them as separate SKU choices: confirm the selected size, rear surface and adhesive compatibility with samples against your intended base. State the quantity and packing unit for each code rather than assuming the two formats share one specification.'],
